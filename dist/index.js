@@ -1,4 +1,4 @@
-// node_modules/solid-js/dist/solid.js
+// node_modules/solid-js/dist/dev.js
 var sharedConfig = {
   context: void 0,
   registry: void 0,
@@ -25,10 +25,11 @@ function nextHydrateContext() {
     count: 0
   };
 }
-var IS_DEV = false;
+var IS_DEV = true;
 var equalFn = (a, b) => a === b;
 var $PROXY = /* @__PURE__ */ Symbol("solid-proxy");
 var $TRACK = /* @__PURE__ */ Symbol("solid-track");
+var $DEVCOMP = /* @__PURE__ */ Symbol("solid-dev-component");
 var signalOptions = {
   equals: equalFn
 };
@@ -36,12 +37,7 @@ var ERROR = null;
 var runEffects = runQueue;
 var STALE = 1;
 var PENDING = 2;
-var UNOWNED = {
-  owned: null,
-  cleanups: null,
-  context: null,
-  owner: null
-};
+var UNOWNED = {};
 var Owner = null;
 var Transition = null;
 var Scheduler = null;
@@ -50,13 +46,27 @@ var Listener = null;
 var Updates = null;
 var Effects = null;
 var ExecCount = 0;
+var DevHooks = {
+  afterUpdate: null,
+  afterCreateOwner: null,
+  afterCreateSignal: null,
+  afterRegisterGraph: null
+};
 function createRoot(fn, detachedOwner) {
-  const listener = Listener, owner = Owner, unowned = fn.length === 0, current = detachedOwner === void 0 ? owner : detachedOwner, root2 = unowned ? UNOWNED : {
+  const listener = Listener, owner = Owner, unowned = fn.length === 0, current = detachedOwner === void 0 ? owner : detachedOwner, root2 = unowned ? {
+    owned: null,
+    cleanups: null,
+    context: null,
+    owner: null
+  } : {
     owned: null,
     cleanups: null,
     context: current ? current.context : null,
     owner: current
-  }, updateFn = unowned ? fn : () => fn(() => untrack(() => cleanNode(root2)));
+  }, updateFn = unowned ? () => fn(() => {
+    throw new Error("Dispose method must be an explicit argument to createRoot function");
+  }) : () => fn(() => untrack(() => cleanNode(root2)));
+  DevHooks.afterCreateOwner && DevHooks.afterCreateOwner(root2);
   Owner = root2;
   Listener = null;
   try {
@@ -74,6 +84,15 @@ function createSignal(value, options) {
     observerSlots: null,
     comparator: options.equals || void 0
   };
+  {
+    if (options.name) s.name = options.name;
+    if (options.internal) {
+      s.internal = true;
+    } else {
+      registerGraph(s);
+      if (DevHooks.afterCreateSignal) DevHooks.afterCreateSignal(s);
+    }
+  }
   const setter = (value2) => {
     if (typeof value2 === "function") {
       if (Transition && Transition.running && Transition.sources.has(s)) value2 = value2(s.tValue);
@@ -84,20 +103,20 @@ function createSignal(value, options) {
   return [readSignal.bind(s), setter];
 }
 function createRenderEffect(fn, value, options) {
-  const c = createComputation(fn, value, false, STALE);
+  const c = createComputation(fn, value, false, STALE, options);
   if (Scheduler && Transition && Transition.running) Updates.push(c);
   else updateComputation(c);
 }
 function createEffect(fn, value, options) {
   runEffects = runUserEffects;
-  const c = createComputation(fn, value, false, STALE), s = SuspenseContext && useContext(SuspenseContext);
+  const c = createComputation(fn, value, false, STALE, options), s = SuspenseContext && useContext(SuspenseContext);
   if (s) c.suspense = s;
   if (!options || !options.render) c.user = true;
   Effects ? Effects.push(c) : updateComputation(c);
 }
 function createMemo(fn, value, options) {
   options = options ? Object.assign({}, signalOptions, options) : signalOptions;
-  const c = createComputation(fn, value, true, 0);
+  const c = createComputation(fn, value, true, 0, options);
   c.observers = null;
   c.observerSlots = null;
   c.comparator = options.equals || void 0;
@@ -125,7 +144,7 @@ function onMount(fn) {
   createEffect(() => untrack(fn));
 }
 function onCleanup(fn) {
-  if (Owner === null) ;
+  if (Owner === null) console.warn("cleanups created outside a `createRoot` or `render` will never be run");
   else if (Owner.cleanups === null) Owner.cleanups = [fn];
   else Owner.cleanups.push(fn);
   return fn;
@@ -179,13 +198,38 @@ function startTransition(fn) {
   });
 }
 var [transPending, setTransPending] = /* @__PURE__ */ createSignal(false);
+function devComponent(Comp, props) {
+  const c = createComputation(() => untrack(() => {
+    Object.assign(Comp, {
+      [$DEVCOMP]: true
+    });
+    return Comp(props);
+  }), void 0, true, 0);
+  c.props = props;
+  c.observers = null;
+  c.observerSlots = null;
+  c.name = Comp.name;
+  c.component = Comp;
+  updateComputation(c);
+  return c.tValue !== void 0 ? c.tValue : c.value;
+}
+function registerGraph(value) {
+  if (Owner) {
+    if (Owner.sourceMap) Owner.sourceMap.push(value);
+    else Owner.sourceMap = [value];
+    value.graph = Owner;
+  }
+  if (DevHooks.afterRegisterGraph) DevHooks.afterRegisterGraph(value);
+}
 function useContext(context) {
   let value;
   return Owner && Owner.context && (value = Owner.context[context.id]) !== void 0 ? value : context.defaultValue;
 }
 function children(fn) {
   const children2 = createMemo(fn);
-  const memo2 = createMemo(() => resolveChildren(children2()));
+  const memo2 = createMemo(() => resolveChildren(children2()), void 0, {
+    name: "children"
+  });
   memo2.toArray = () => {
     const c = memo2();
     return Array.isArray(c) ? c : c != null ? [c] : [];
@@ -251,7 +295,7 @@ function writeSignal(node, value, isComp) {
         }
         if (Updates.length > 1e6) {
           Updates = [];
-          if (IS_DEV) ;
+          if (IS_DEV) throw new Error("Potential Infinite Loop Detected.");
           throw new Error();
         }
       }, false);
@@ -328,7 +372,7 @@ function createComputation(fn, init, pure, state2 = STALE, options) {
     c.state = 0;
     c.tState = state2;
   }
-  if (Owner === null) ;
+  if (Owner === null) console.warn("computations created outside a `createRoot` or `render` will never be disposed");
   else if (Owner !== UNOWNED) {
     if (Transition && Transition.running && Owner.pure) {
       if (!Owner.tOwned) Owner.tOwned = [c];
@@ -338,6 +382,7 @@ function createComputation(fn, init, pure, state2 = STALE, options) {
       else Owner.owned.push(c);
     }
   }
+  if (options && options.name) c.name = options.name;
   if (ExternalSourceConfig && c.fn) {
     const sourceFn = c.fn;
     const [track, trigger] = createSignal(void 0, {
@@ -361,6 +406,7 @@ function createComputation(fn, init, pure, state2 = STALE, options) {
       return ordinary.track(x);
     };
   }
+  DevHooks.afterCreateOwner && DevHooks.afterCreateOwner(c);
   return c;
 }
 function runTop(node) {
@@ -452,6 +498,7 @@ function completeUpdates(wait) {
   const e = Effects;
   Effects = null;
   if (e.length) runUpdates(() => runEffects(e), false);
+  else DevHooks.afterUpdate && DevHooks.afterUpdate();
   if (res) res();
 }
 function runQueue(queue) {
@@ -554,6 +601,7 @@ function cleanNode(node) {
   }
   if (Transition && Transition.running) node.tState = 0;
   else node.state = 0;
+  delete node.sourceMap;
 }
 function reset(node, top) {
   if (!top) {
@@ -684,7 +732,9 @@ function mapArray(list, mapFn, options = {}) {
     function mapper(disposer) {
       disposers[j] = disposer;
       if (indexes) {
-        const [s, set] = createSignal(j);
+        const [s, set] = createSignal(j, {
+          name: "index"
+        });
         indexes[j] = set;
         return mapFn(newItems[j], s);
       }
@@ -698,25 +748,30 @@ function createComponent(Comp, props) {
     if (sharedConfig.context) {
       const c = sharedConfig.context;
       setHydrateContext(nextHydrateContext());
-      const r = untrack(() => Comp(props || {}));
+      const r = devComponent(Comp, props || {});
       setHydrateContext(c);
       return r;
     }
   }
-  return untrack(() => Comp(props || {}));
+  return devComponent(Comp, props || {});
 }
-var narrowedError = (name) => `Stale read from <${name}>.`;
+var narrowedError = (name) => `Attempting to access a stale value from <${name}> that could possibly be undefined. This may occur because you are reading the accessor returned from the component at a time where it has already been unmounted. We recommend cleaning up any stale timers or async, or reading from the initial condition.`;
 function For(props) {
   const fallback = "fallback" in props && {
     fallback: () => props.fallback
   };
-  return createMemo(mapArray(() => props.each, props.children, fallback || void 0));
+  return createMemo(mapArray(() => props.each, props.children, fallback || void 0), void 0, {
+    name: "value"
+  });
 }
 function Show(props) {
   const keyed = props.keyed;
-  const conditionValue = createMemo(() => props.when, void 0, void 0);
+  const conditionValue = createMemo(() => props.when, void 0, {
+    name: "condition value"
+  });
   const condition = keyed ? conditionValue : createMemo(conditionValue, void 0, {
-    equals: (a, b) => !a === !b
+    equals: (a, b) => !a === !b,
+    name: "condition"
   });
   return createMemo(() => {
     const c = condition();
@@ -729,10 +784,21 @@ function Show(props) {
       })) : child;
     }
     return props.fallback;
-  }, void 0, void 0);
+  }, void 0, {
+    name: "value"
+  });
+}
+var DEV = {
+  hooks: DevHooks,
+  writeSignal,
+  registerGraph
+};
+if (globalThis) {
+  if (!globalThis.Solid$$) globalThis.Solid$$ = true;
+  else console.warn("You appear to have multiple instances of Solid. This can lead to unexpected behavior.");
 }
 
-// node_modules/solid-js/web/dist/web.js
+// node_modules/solid-js/web/dist/dev.js
 var booleans = [
   "allowfullscreen",
   "async",
@@ -852,6 +918,9 @@ function reconcileArrays(parentNode, a, b) {
 }
 var $$EVENTS = "_$DX_DELEGATE";
 function render(code, element, init, options = {}) {
+  if (!element) {
+    throw new Error("The `element` passed to `render(..., element)` doesn't exist. Make sure `element` exists in the document.");
+  }
   let disposer;
   createRoot((dispose2) => {
     disposer = dispose2;
@@ -865,6 +934,7 @@ function render(code, element, init, options = {}) {
 function template(html, isImportNode, isSVG, isMathML) {
   let node;
   const create = () => {
+    if (isHydrating()) throw new Error("Failed attempt to create new DOM elements during hydration. Check that the libraries you are using support hydration.");
     const t = isMathML ? document.createElementNS("http://www.w3.org/1998/Math/MathML", "template") : document.createElement("template");
     t.innerHTML = html;
     return isSVG ? t.content.firstChild.firstChild : isMathML ? t.firstChild : t.content.firstChild;
@@ -1069,7 +1139,7 @@ function insertExpression(parent, value, current, marker, unwrapArray) {
       parent.appendChild(value);
     } else parent.replaceChild(value, parent.firstChild);
     current = value;
-  } else ;
+  } else console.warn(`Unrecognized value. Skipped inserting`, value);
   return current;
 }
 function normalizeIncomingArray(normalized, array, current, unwrap2) {
@@ -1158,11 +1228,14 @@ function Portal(props) {
   return marker;
 }
 
-// node_modules/solid-js/store/dist/store.js
+// node_modules/solid-js/store/dist/dev.js
 var $RAW = /* @__PURE__ */ Symbol("store-raw");
 var $NODE = /* @__PURE__ */ Symbol("store-node");
 var $HAS = /* @__PURE__ */ Symbol("store-has");
 var $SELF = /* @__PURE__ */ Symbol("store-self");
+var DevHooks2 = {
+  onStoreNodeUpdate: null
+};
 function wrap$1(value) {
   let p = value[$PROXY];
   if (!p) {
@@ -1267,9 +1340,11 @@ var proxyTraps$1 = {
     return property in target;
   },
   set() {
+    console.warn("Cannot mutate a Store directly");
     return true;
   },
   deleteProperty() {
+    console.warn("Cannot mutate a Store directly");
     return true;
   },
   ownKeys,
@@ -1278,6 +1353,7 @@ var proxyTraps$1 = {
 function setProperty(state2, property, value, deleting = false) {
   if (!deleting && state2[property] === value) return;
   const prev = state2[property], len = state2.length;
+  DevHooks2.onStoreNodeUpdate && DevHooks2.onStoreNodeUpdate(state2, property, value, prev);
   if (value === void 0) {
     delete state2[property];
     if (state2[$HAS] && state2[$HAS][property] && prev !== void 0) state2[$HAS][property].$();
@@ -1359,7 +1435,12 @@ function updatePath(current, path, traversed = []) {
 function createStore(...[store, options]) {
   const unwrappedStore = unwrap(store || {});
   const isArray = Array.isArray(unwrappedStore);
+  if (typeof unwrappedStore !== "object" && typeof unwrappedStore !== "function") throw new Error(`Unexpected type ${typeof unwrappedStore} received when initializing 'createStore'. Expected an object.`);
   const wrappedStore = wrap$1(unwrappedStore);
+  DEV.registerGraph({
+    value: unwrappedStore,
+    name: options && options.name
+  });
   function setStore(...args) {
     batch(() => {
       isArray && args.length === 1 ? updateArray(unwrappedStore, args[0]) : updatePath(unwrappedStore, args);
@@ -1542,18 +1623,29 @@ function renderAction(dollId, action) {
   return `S${skillNum}`;
 }
 function defaultActionOrder(tabIndex) {
+  if (tabIndex < 0 || tabIndex > 7) return;
+  const order = new Set(state.tabData[tabIndex].actionOrder);
+  const unique = /* @__PURE__ */ new Set();
   setState(
     produce((s) => {
-      const tab = s.tabData[tabIndex];
+      const turn = s.tabData[tabIndex];
       for (const doll of s.selectedDolls) {
-        if (!tab.actionOrder.includes(doll.id)) tab.actionOrder.push(doll.id);
+        order.add(doll.id);
+        unique.add(doll.id);
         const dollInfo = allDolls().find((d) => d.id === doll.id);
         if (dollInfo?.hasSummons) {
           for (const summonId of dollInfo.summons) {
-            if (!tab.actionOrder.includes(summonId)) tab.actionOrder.push(summonId);
+            order.add(summonId);
+            unique.add(summonId);
           }
         }
       }
+      for (const dollId of order) {
+        if (unique.has(dollId) === false) {
+          order.delete(dollId);
+        }
+      }
+      s.tabData[tabIndex].actionOrder = Array.from(order);
     })
   );
 }
@@ -3860,13 +3952,13 @@ function updateIdleItemsStateAndPosition() {
     const itemY = itemRect.top + itemRect.height / 2;
     if (isItemAbove(item)) {
       if (draggableItemY <= itemY) {
-        item.dataset.isToggled = "";
+        item.dataset.isToggled = "true";
       } else {
         delete item.dataset.isToggled;
       }
     } else {
       if (draggableItemY >= itemY) {
-        item.dataset.isToggled = "";
+        item.dataset.isToggled = "true";
       } else {
         delete item.dataset.isToggled;
       }
@@ -3909,9 +4001,6 @@ function applyNewItemsOrder(e) {
     }
   }));
   saveToLocalStorage();
-  reorderedItems.forEach((item) => {
-    listContainer.appendChild(item);
-  });
   draggableItem.style.transform = "";
   requestAnimationFrame(() => {
     if (draggableItem instanceof HTMLElement && prevRect instanceof DOMRect) {
@@ -3974,7 +4063,7 @@ function handleSkillClick(dollId, sortedIdx) {
   const skill = sorted[sortedIdx];
   if (!skill) return;
   const hasActiveBuff = skill.range !== "Self" && skill.range !== null && skill.name !== "Absolute Mental Defense" && skill.name !== "Honor Guard" && skill.tags && (skill.tags.includes("Healing") || skill.tags.includes("Buff")) && !skill.tags.includes("Targeted") && !skill.tags.includes("Tile");
-  if (hasActiveBuff) {
+  if (hasActiveBuff || skill.name === "Light of Bond") {
     setTargetDollId(dollId);
     setTargetSkillId(skill.id);
     setShowTargetModal(true);
@@ -4105,6 +4194,7 @@ function DollRow(props) {
 }
 function ActionSidebar(props) {
   const actionOrder = createMemo(() => {
+    console.log("actionOrder", state.currentTab, state.tabData[state.currentTab]);
     if (state.currentTab < 0 || state.currentTab > 7) return [];
     return state.tabData[state.currentTab]?.actionOrder ?? [];
   });
