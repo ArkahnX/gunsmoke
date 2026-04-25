@@ -141,13 +141,13 @@ function updateIdleItemsStateAndPosition() {
 		const itemY = itemRect.top + itemRect.height / 2;
 		if (isItemAbove(item)) {
 			if (draggableItemY <= itemY) {
-				item.dataset.isToggled = "";
+				item.dataset.isToggled = "true";
 			} else {
 				delete item.dataset.isToggled;
 			}
 		} else {
 			if (draggableItemY >= itemY) {
-				item.dataset.isToggled = "";
+				item.dataset.isToggled = "true";
 			} else {
 				delete item.dataset.isToggled;
 			}
@@ -203,9 +203,10 @@ function applyNewItemsOrder(e: MouseEvent | TouchEvent) {
 	);
 	saveToLocalStorage();
 
-	reorderedItems.forEach((item) => {
-		listContainer.appendChild(item);
-	});
+	// possible cause of bug #6
+	// reorderedItems.forEach((item) => {
+	// 	listContainer.appendChild(item);
+	// });
 
 	draggableItem.style.transform = "";
 
@@ -287,7 +288,7 @@ function handleSkillClick(dollId: string, sortedIdx: number) {
 		(skill.tags.includes("Healing") || skill.tags.includes("Buff")) &&
 		!skill.tags.includes("Targeted") &&
 		!skill.tags.includes("Tile");
-	if (hasActiveBuff) {
+	if (hasActiveBuff || skill.name === "Light of Bond") {
 		setTargetDollId(dollId);
 		setTargetSkillId(skill.id);
 		setShowTargetModal(true);
@@ -428,6 +429,7 @@ function DollRow(props: DollRowProps) {
 
 export default function ActionSidebar(props: { active: boolean }) {
 	const actionOrder = createMemo(() => {
+		console.log("actionOrder", state.currentTab, state.tabData[state.currentTab]);
 		if (state.currentTab < 0 || state.currentTab > 7) return [];
 		return state.tabData[state.currentTab]?.actionOrder ?? [];
 	});
