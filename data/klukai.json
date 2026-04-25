@@ -1,0 +1,1625 @@
+{
+  "success": true,
+  "data": {
+    "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+    "name": "Klukai",
+    "class": "Sentinel",
+    "ammoTypes": "[\"Medium Ammo\"]",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+    "regionTag": "en",
+    "preview": false,
+    "createdAt": "2025-09-21T23:20:11.057Z",
+    "updatedAt": "2025-11-14T08:57:09.392Z",
+    "searchTags": [
+      "416",
+      "HK416",
+      "McCrispy"
+    ],
+    "dollImages": [
+      {
+        "id": "93889ce1-9d42-4bfc-9449-883ab3ad86e3",
+        "category": "Card",
+        "imageUrl": "https://cdn.dandegate.net/dolls/klukai/card-e65043785e78140129e8d2a1a2238bc3.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "7ac2bd3b-9928-42d9-9fac-dd8660112d19",
+        "category": "Skin",
+        "imageUrl": "https://cdn.dandegate.net/dolls/klukai/skin-0-e2270314af4f7d79fd26a5b487df8683.webp",
+        "skinTitle": "Speed Star",
+        "alt": null
+      },
+      {
+        "id": "21e1d318-ef40-410c-becc-1ca72b1cb7a3",
+        "category": "Skin",
+        "imageUrl": "https://cdn.dandegate.net/dolls/klukai/skin-1-f36f75229c090aa91ff3ce4f3c969b1a.webp",
+        "skinTitle": "Astral Luminous",
+        "alt": null
+      },
+      {
+        "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+        "category": "Chibi",
+        "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "b393427c-9fa5-4c76-b0af-82ad8393a7f7",
+        "category": "Skin",
+        "imageUrl": "https://cdn.dandegate.net/dolls/klukai/skin-2-b6fa71e65d24dd681f951c0a10f4a2a4.webp",
+        "skinTitle": "skin-2-b6fa71e65d24dd681f951c0a10f4a2a4.webp",
+        "alt": null
+      }
+    ],
+    "weaponImprintType": null,
+    "weaponImprint": {
+      "id": "f89a94f8-4770-46e8-8a36-b0c2c1412e3a",
+      "name": "Skylla",
+      "rarity": "Elite",
+      "weaponType": "Assault Rifle",
+      "primaryAttributeStat": 390,
+      "primaryAttribute": "Attack",
+      "secondaryAttribute": "Attack Boost",
+      "secondaryAttributeStat": "15%",
+      "trait": "<p>If a phase weakness is exploited, ignores<span style=\"color: rgb(243, 109, 28);\"> 10%</span> of target's defense. If it was a Corrosion phase weakness, ignores another<span style=\"color: rgb(243, 109, 28);\"> 10%</span> defense.</p>",
+      "effect": "<p>AoE damage dealt is increased by<span style=\"color: rgb(243, 109, 28);\"> 15%/17%/19%/21%/23%/25%</span>. <span style=\"color: rgb(243, 109, 28);\">Each time</span> <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> is dealt, damage is increased by<span style=\"color: rgb(243, 109, 28);\"> 2%/2.4%/2.8%/3.2%/3.6%/4%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">10%/12%/14%/16%/18%/20%</span>.</p>",
+      "imprintDescription": "<p>Damage dealt to URNC units is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>. If the target has Corrosion debuffs, increase damage by an additional <span style=\"color: rgb(243, 109, 28);\">2.5%</span>.</p>",
+      "imageUrl": "https://cdn.dandegate.net/weapons/97d1c58df30fb4f49ae31cf39e4cf324.webp",
+      "createdAt": "2025-09-23T20:34:12.171Z",
+      "updatedAt": "2025-11-14T08:57:46.430Z",
+      "regionTag": "en",
+      "preview": false,
+      "imprintDollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+      "imprintDoll": {
+        "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "name": "Klukai",
+        "rarity": "Elite",
+        "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp"
+      }
+    },
+    "stabilityGauge": 10,
+    "movement": 6,
+    "effects": "Elegant and composed; a Doll brimming with confidence. She aspires to make every member of H.I.D.E. 404 into an elite. Only those who are familiar with her know the tenderness that lies behind her cold, strong-willed demeanor.",
+    "skills": [
+      {
+        "id": "616933c2-7300-4024-b646-f6c48b91f7f3",
+        "name": "Swift Strike",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span><span> and deals Physical damage equal to</span><span style=\"color: rgb(243, 109, 28);\"> 80%</span><span> of attack to it.</span></p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Medium Ammo\"]",
+        "stabilityDamage": 3,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/9b4b49411af8e64b7fd62a359c359490.webp",
+        "createdAt": "2025-09-23T00:50:08.497Z",
+        "updatedAt": "2025-09-26T01:42:40.876Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "summonId": null,
+        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Basic Attack",
+        "ammoTypesLevel2": null,
+        "ammoTypesLevel3": null,
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+          "createdAt": "2025-09-13T05:53:24.278Z",
+          "updatedAt": "2025-09-13T05:53:24.278Z",
+          "rangeValue": "8",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "a95741b2-f771-4b26-94fe-e4c2aa183ee0",
+        "name": "Elite's Pride",
+        "description": "<p>Immune to all negative [effect:5e16965e-d995-425c-9ba5-8ace79df7840] tile effects. When dealing damage with active attacks, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:740af6e6-5c70-40ce-9ec3-cb1b54d6b842] after skill usage.</p><p>Each time Klukai performs an active attack or other allied units deal <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Klukai gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For every <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index gained, reduces the cooldown of her Ultimate skill by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/6e1c990ea2b8b9a66c6bbb4f91f2a962.webp",
+        "createdAt": "2025-09-23T01:50:03.368Z",
+        "updatedAt": "2025-10-14T07:07:16.822Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "summonId": null,
+        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "cb2cadea-4b19-4c7a-b832-ecd88058b14c",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Passive",
+          "Debuff",
+          "Buff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Immune to all negative [effect:5e16965e-d995-425c-9ba5-8ace79df7840] tile effects.</p><p>At the start of the battle, gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:740af6e6-5c70-40ce-9ec3-cb1b54d6b842]. When dealing damage with active attacks, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Each time Klukai performs an active attack or other allied units deal <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Klukai gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:740af6e6-5c70-40ce-9ec3-cb1b54d6b842] after skill usage and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>For every <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index gained, applies an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to enemy units with [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060], and reduces the cooldown of her Ultimate skill by <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+          "createdAt": "2025-09-13T05:48:21.166Z",
+          "updatedAt": "2025-09-13T05:48:21.166Z",
+          "rangeValue": "Self",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "cb2cadea-4b19-4c7a-b832-ecd88058b14c",
+          "level": 2,
+          "effect": "<p>At the start of the battle, gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:740af6e6-5c70-40ce-9ec3-cb1b54d6b842]. When other allied units deal <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Klukai can gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:740af6e6-5c70-40ce-9ec3-cb1b54d6b842]. Increases the stack limit of [effect:740af6e6-5c70-40ce-9ec3-cb1b54d6b842] by<span style=\"color: rgb(243, 109, 28);\"> 4 stacks</span>. </p><p>For every<span style=\"color: rgb(243, 109, 28);\"> 3 points</span> of Confectance Index gained, applies an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to enemy units with [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060], and reduces the cooldown of Klukai's Ultimate skill by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] gains a new effect: When Klukai performs an active attack or other allied units deal <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, applies an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to targets with [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060]. Defense is reduced by <span style=\"color: rgb(243, 109, 28);\">1%</span>, and the stack limit is increased by<span style=\"color: rgb(243, 109, 28);\"> 5 stacks</span>.</p>",
+          "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "segment": 2,
+          "imageUrl": "https://cdn.dandegate.net/skills/6e1c990ea2b8b9a66c6bbb4f91f2a962.webp",
+          "createdAt": "2025-09-23T19:57:16.307Z",
+          "updatedAt": "2025-10-14T07:06:13.016Z",
+          "vertebraeName": "Elite's Pride Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "9f4edf1d-76c4-4458-abb7-2c938d515190",
+        "name": "Pinpoint Detonation",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to<span style=\"color: rgb(243, 109, 28);\"> 80%</span> of attack. Performs an additional attack, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, pulling all affected enemy targets <span style=\"color: rgb(243, 109, 28);\">1 tile</span> towards the center.</p><p>If any enemy targets are killed, reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Devastating Drift</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span> and gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. If no enemy targets are killed, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "phase": "Corrosion",
+        "ammoTypes": "[\"Medium Ammo\"]",
+        "stabilityDamage": 3,
+        "cooldown": null,
+        "confectanceCost": 3,
+        "imageUrl": "https://cdn.dandegate.net/skills/8ffcb2b635f6f0e27ab9bf29425b9f2b.webp",
+        "createdAt": "2025-09-23T01:05:13.687Z",
+        "updatedAt": "2025-11-05T19:50:06.477Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "summonId": null,
+        "rangeMapId": "51cf7359-1753-4d79-ba88-932d42e672fe",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "557b3c3d-6b0f-48e8-9b65-4b0ebb362a92",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "AoE",
+          "Debuff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 1",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack. Performs an additional attack, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>. For <span style=\"color: rgb(243, 109, 28);\">each stack </span>of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] the target has, the damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, and all affected enemy targets are pulled <span style=\"color: rgb(243, 109, 28);\">1 tile</span> towards the center. If a phase weakness is exploited, the attack ignores<span style=\"color: rgb(243, 109, 28);\"> 15%</span> of Cover damage reduction.</p><p>If any enemy targets are killed, reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Devastating Drift </span>by <span style=\"color: rgb(243, 109, 28);\">1 turn</span> and gains<span style=\"color: rgb(243, 109, 28);\"> 2 points</span> of Confectance Index. If no enemy targets are killed, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "51cf7359-1753-4d79-ba88-932d42e672fe",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1759012310020-rangemap-17x17-1759012284367.webp",
+          "createdAt": "2025-09-27T22:31:50.152Z",
+          "updatedAt": "2025-09-27T22:31:50.152Z",
+          "rangeValue": "8",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "557b3c3d-6b0f-48e8-9b65-4b0ebb362a92",
+          "level": 2,
+          "effect": "<p>Increases damage dealt by the first attack to <span style=\"color: rgb(243, 109, 28);\">100%</span><span> of attack. For </span><span style=\"color: rgb(243, 109, 28);\">each stack</span><span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] on the target, the damage multiplier of the additional attack is increased by </span><span style=\"color: rgb(243, 109, 28);\">5%</span><span>. If a phase weakness is exploited, the attack ignores </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span> of the target's Cover damage reduction.</span></p>",
+          "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "segment": 4,
+          "imageUrl": "https://cdn.dandegate.net/skills/8ffcb2b635f6f0e27ab9bf29425b9f2b.webp",
+          "createdAt": "2025-09-23T20:08:00.315Z",
+          "updatedAt": "2025-10-14T07:06:12.668Z",
+          "vertebraeName": "Pinpoint Detonation Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "d8753bef-ec1e-4d01-8802-2b6a48634bb6",
+        "name": "Overpowering Corrosion",
+        "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Increases damage by <span style=\"color: rgb(243, 109, 28);\">15%</span> to targets already affected by [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+        "phase": "Corrosion",
+        "ammoTypes": null,
+        "stabilityDamage": 1,
+        "cooldown": null,
+        "confectanceCost": 3,
+        "imageUrl": "https://cdn.dandegate.net/skills/e797d33a1f05572c9efdb52187146e66.webp",
+        "createdAt": "2025-09-23T01:19:26.309Z",
+        "updatedAt": "2025-10-14T07:07:09.623Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "summonId": null,
+        "rangeMapId": "f02fc753-9104-4a7a-b517-a0df06f3a3fd",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": "e8a5ea18-88be-4742-b614-595826d6fd12",
+        "vertebraeUpgradeIdLevel2": "1133529d-c7a0-4571-a536-a90810b5e50b",
+        "vertebraeUpgradeIdLevel3": "871c6bb2-55b2-4965-9bf1-a8bee6fd7f3b",
+        "skillTags": [
+          "Active",
+          "AoE",
+          "Debuff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 2",
+        "ammoTypesLevel2": null,
+        "ammoTypesLevel3": null,
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the target survives, triggers the on-death effect of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e]. Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span> to targets already affected by [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+        "descriptionLevel3": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span>, and applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the target survives, triggers the on-death effect of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e]. If the target is inflicted with a Corrosion debuff, applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before the attack. Increases damage by <span style=\"color: rgb(243, 109, 28);\">30%</span> to targets already affected by [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "f02fc753-9104-4a7a-b517-a0df06f3a3fd",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1758593727830-r8e3.webp",
+          "createdAt": "2025-09-23T02:15:27.971Z",
+          "updatedAt": "2025-09-23T02:15:27.971Z",
+          "rangeValue": "8",
+          "effectiveArea": "3"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": {
+          "id": "e8a5ea18-88be-4742-b614-595826d6fd12",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1758660915813-r8t5.webp",
+          "createdAt": "2025-09-23T20:55:15.959Z",
+          "updatedAt": "2025-09-23T20:55:15.959Z",
+          "rangeValue": "8",
+          "effectiveArea": "5"
+        },
+        "vertebraeUpgradeLevel2": {
+          "id": "1133529d-c7a0-4571-a536-a90810b5e50b",
+          "level": 2,
+          "effect": "<p>Increases damage dealt to targets that are already inflicted with [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] by<span style=\"color: rgb(243, 109, 28);\"> 30%</span>. If the target is not killed from this damage, it can also trigger the on-death effect of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e]. [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] has a new effect: At the end of the action of the unit which possessed this effect, the inflictor applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] to enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> that do not possess [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "segment": 1,
+          "imageUrl": "https://cdn.dandegate.net/skills/e797d33a1f05572c9efdb52187146e66.webp",
+          "createdAt": "2025-09-23T19:43:51.229Z",
+          "updatedAt": "2025-10-14T07:06:13.187Z",
+          "vertebraeName": " Overpowering Corrosion Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "871c6bb2-55b2-4965-9bf1-a8bee6fd7f3b",
+          "level": 3,
+          "effect": "<p>Effective range increases by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, damage increases to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack. [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] spread radius increases by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, and the damage it deals increases to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack.</p><p>If the target is inflicted with a Corrosion debuff, applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for<span style=\"color: rgb(243, 109, 28);\"> 2 turns</span> before the attack.</p><p>[effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] gains an additional effect: When receiving an active attack from Klukai, damage taken is increased by<span style=\"color: rgb(243, 109, 28);\"> 30%</span>.</p>",
+          "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/e797d33a1f05572c9efdb52187146e66.webp",
+          "createdAt": "2025-09-23T20:14:05.789Z",
+          "updatedAt": "2025-10-14T07:05:55.898Z",
+          "vertebraeName": "Overpowering Corrosion Lv.3"
+        }
+      },
+      {
+        "id": "70e8c891-0a65-4467-8fd1-f9bfaba995ef",
+        "name": "Devastating Drift",
+        "description": "<p>Selects 1 tile within a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area of 4 to 8 tiles</span>, landing on the selected tile and dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy targets in a path <span style=\"color: rgb(243, 109, 28);\">5 tiles wide</span>. Gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If <span style=\"color: rgb(243, 109, 28);\">2</span> or more targets are killed, this skill can be used again, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
+        "phase": "Corrosion",
+        "ammoTypes": "[]",
+        "stabilityDamage": 2,
+        "cooldown": 6,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/ae58a5dae1064230982c829da973cecd.webp",
+        "createdAt": "2025-09-23T01:38:51.217Z",
+        "updatedAt": "2026-01-15T20:42:22.591Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "summonId": null,
+        "rangeMapId": "42bbc26a-7be3-41f0-a70f-7dd317141300",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "8e6e22e7-6f7f-4b40-818c-f892240d17a6",
+        "vertebraeUpgradeIdLevel3": "749aa371-6591-4850-a84b-29eddc95ac3f",
+        "skillTags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "keyUpgradesData": "[\"5c46112e-b4ac-425c-8192-15ab50d28b6a\",\"3d353af3-4a68-45d6-8082-bfb6d0011465\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 3",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects 1 tile within a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area of 4 to 8 tiles</span>, landing on the selected tile, applying [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] and [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy targets in a path <span style=\"color: rgb(243, 109, 28);\">5 tiles wide</span>. Gains <span style=\"color: rgb(243, 109, 28);\">6 tiles </span>of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. For each enemy hit, increases damage dealt by an additional <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">50%</span>. If a Boss is hit, this increase will be immediately raised to the maximum value of <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>If <span style=\"color: rgb(243, 109, 28);\">2</span> or more targets or a Boss is hit, this skill can be used again, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
+        "descriptionLevel3": "<p>Selects 1 tile within a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area of 4 to 8 tiles</span>, landing on the selected tile, applying [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] and [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> that ignores Cover damage reduction equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy targets in a path <span style=\"color: rgb(243, 109, 28);\">7 tiles wide</span>. Applies [effect:f2edbeb3-9755-49e7-91f4-dc6fba3b30d9] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. For each enemy hit, increases damage dealt by an additional <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">50%</span>. If a Boss is hit, this increase will be immediately raised to the maximum value of <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>If <span style=\"color: rgb(243, 109, 28);\">2</span> or more targets or a Boss is hit, this skill can be used again, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p><p>After the skill is used, triggers all enemies' effects of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] and the on-death effects of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[\"Ultimate\",\"AoE\",\"Debuff\"]",
+        "skillTagsLevel3": "[\"Ultimate\",\"AoE\",\"Debuff\"]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "42bbc26a-7be3-41f0-a70f-7dd317141300",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1758593797336-r--et.webp",
+          "createdAt": "2025-09-23T02:16:37.481Z",
+          "updatedAt": "2025-09-23T02:16:37.481Z",
+          "rangeValue": "--",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "8e6e22e7-6f7f-4b40-818c-f892240d17a6",
+          "level": 2,
+          "effect": "<p>For each enemy hit, increases damage dealt by an additional<span style=\"color: rgb(243, 109, 28);\"> 10%</span><span>, up to a maximum of </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span>. If a Boss is hit, this increase will be immediately raised to the maximum value of </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span>. If </span><span style=\"color: rgb(243, 109, 28);\">2 </span><span>or more targets or a Boss is hit, this skill can be used again, up to a maximum of </span><span style=\"color: rgb(243, 109, 28);\">1</span><span> additional time. Before attacking, applies [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] and [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] to the target for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
+          "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "segment": 3,
+          "imageUrl": "https://cdn.dandegate.net/skills/ae58a5dae1064230982c829da973cecd.webp",
+          "createdAt": "2025-09-23T20:03:33.004Z",
+          "updatedAt": "2025-10-14T07:06:12.494Z",
+          "vertebraeName": "Devastating Drift Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "749aa371-6591-4850-a84b-29eddc95ac3f",
+          "level": 3,
+          "effect": "<p>Ignores Cover damage reduction. Increases width by<span style=\"color: rgb(243, 109, 28);\"> 2 tiles</span> and applies [effect:f2edbeb3-9755-49e7-91f4-dc6fba3b30d9] for<span style=\"color: rgb(243, 109, 28);\"> 2 turns</span>. </p><p>After the attack, triggers all enemies' effects of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] and the on-death effects of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+          "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "segment": 6,
+          "imageUrl": "https://cdn.dandegate.net/skills/ae58a5dae1064230982c829da973cecd.webp",
+          "createdAt": "2025-09-23T20:18:50.133Z",
+          "updatedAt": "2025-10-14T07:06:12.139Z",
+          "vertebraeName": "Devastating Drift Lv.3"
+        }
+      }
+    ],
+    "keys": [
+      {
+        "id": "4f3e3eae-cfe1-4248-ab94-ddb2095e3074",
+        "keyTitle": "Fly, Silver Wings",
+        "keyType": "Affinity Key",
+        "level": null,
+        "effect": "<p> </p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks at Affinity Level 5</p>",
+        "attributeName1": "Crit Rate",
+        "attributeValue1": "3%",
+        "attributeName2": "Crit DMG",
+        "attributeValue2": "3%",
+        "attributeName3": "Attack Boost",
+        "attributeValue3": "3%",
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/37519713-f3b0-4298-9ffb-ebdc84720d01-fly-silver-wings.webp",
+        "createdAt": "2025-09-22T20:54:04.703Z",
+        "updatedAt": "2025-09-25T23:48:48.767Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "dollImages": [
+            {
+              "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+              "createdAt": "2025-09-25T23:49:36.135Z",
+              "updatedAt": "2025-09-25T23:49:36.135Z"
+            }
+          ],
+          "searchTags": [
+            "416",
+            "HK416",
+            "McCrispy"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Affinity Key - Fly, Silver Wings"
+      },
+      {
+        "id": "4f9d1bb1-9f47-409d-8f61-4e3c4ce91f86",
+        "keyTitle": "Murderous Return",
+        "keyType": "Common Key",
+        "level": 40,
+        "effect": "<p>At the start of the turn, if the user's Confectance Index is full, the next instance of AoE damage inflicted by an active attack is increased by<span style=\"color: rgb(243, 109, 28);\"> 10%</span><span>.</span></p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks after obtaining all Fixed Keys</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "5%",
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/795c9cb5-156e-4f67-bcc8-46e6f72a188a-murderous-return.webp",
+        "createdAt": "2025-09-22T20:45:56.618Z",
+        "updatedAt": "2025-09-25T23:49:02.632Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "dollImages": [
+            {
+              "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+              "createdAt": "2025-09-25T23:49:36.135Z",
+              "updatedAt": "2025-09-25T23:49:36.135Z"
+            }
+          ],
+          "searchTags": [
+            "416",
+            "HK416",
+            "McCrispy"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Common Key - Murderous Return"
+      },
+      {
+        "id": "6d7bed5c-e270-43d8-bf81-d497c589fe0f",
+        "keyTitle": "Pride of the Elite",
+        "keyType": "Expansion Key",
+        "keyNumber": 1,
+        "level": 60,
+        "effect": "<p>At the start of battle, Klukai summons [effect:36b8a0c8-f35f-4c2b-8421-3265c5bca1ab] which follows her.</p><p>When [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] is triggered, <span style=\"color: rgb(243, 109, 28);\">each</span><span style=\"color: rgb(243, 109, 28);\"> stack</span> of [effect:740af6e6-5c70-40ce-9ec3-cb1b54d6b842] increase the damage multiplier of each stack of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] is increased by <span style=\"color: rgb(243, 109, 28);\">1%</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/48e0257984c400cfb11fa8341a303ba5360e1e1e7fd85c0548bb9ae0b161564d.webp",
+        "createdAt": "2025-12-23T07:52:51.720Z",
+        "updatedAt": "2026-03-02T01:38:12.283Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "dollImages": [
+            {
+              "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+              "createdAt": "2025-09-25T23:49:36.135Z",
+              "updatedAt": "2025-09-25T23:49:36.135Z"
+            }
+          ],
+          "searchTags": [
+            "416",
+            "HK416",
+            "McCrispy"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Expansion Key - Pride of the Elite"
+      },
+      {
+        "id": "7bb96019-26a2-4098-9bf1-3ae67650f02b",
+        "keyTitle": "Deadly Entwine",
+        "keyType": "Fixed Key",
+        "keyNumber": 1,
+        "level": 20,
+        "effect": "<p>At the start of the turn, if there's only one enemy target, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to them for</span><span style=\"color: rgb(243, 109, 28);\"> 2 turns</span><span>. Additionally, gains </span><span style=\"color: rgb(243, 109, 28);\">2 points</span><span> of Confectance Index.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/a7c4c127-6bc3-4374-a1d7-42629f460cc0-deadly-entwine.webp",
+        "createdAt": "2025-09-22T20:11:10.639Z",
+        "updatedAt": "2025-10-14T07:06:38.859Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "dollImages": [
+            {
+              "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+              "createdAt": "2025-09-25T23:49:36.135Z",
+              "updatedAt": "2025-09-25T23:49:36.135Z"
+            }
+          ],
+          "searchTags": [
+            "416",
+            "HK416",
+            "McCrispy"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 1 - Deadly Entwine"
+      },
+      {
+        "id": "5c46112e-b4ac-425c-8192-15ab50d28b6a",
+        "keyTitle": "One Fell Swoop",
+        "keyType": "Fixed Key",
+        "keyNumber": 2,
+        "level": 20,
+        "effect": "<p>If the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Devastating Drift</span><span> only hits 1 target, increases the damage dealt by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/580c28df-94f5-476f-92ff-97f87a6c044a-one-fell-swoop.webp",
+        "createdAt": "2025-09-22T20:14:41.722Z",
+        "updatedAt": "2025-09-22T20:14:41.722Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "dollImages": [
+            {
+              "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+              "createdAt": "2025-09-25T23:49:36.135Z",
+              "updatedAt": "2025-09-25T23:49:36.135Z"
+            }
+          ],
+          "searchTags": [
+            "416",
+            "HK416",
+            "McCrispy"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 2 - One Fell Swoop"
+      },
+      {
+        "id": "f6405c97-6c35-42b4-bc21-64274a66636b",
+        "keyTitle": "No Mercy",
+        "keyType": "Fixed Key",
+        "keyNumber": 3,
+        "level": 30,
+        "effect": "<p>[effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] gains a new effect, it increases damage to the target in Stability Break by <span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/289f78e5-a385-44b7-88be-547287d74e62-no-mercy.webp",
+        "createdAt": "2025-09-22T20:18:14.282Z",
+        "updatedAt": "2025-10-14T07:06:39.028Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "dollImages": [
+            {
+              "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+              "createdAt": "2025-09-25T23:49:36.135Z",
+              "updatedAt": "2025-09-25T23:49:36.135Z"
+            }
+          ],
+          "searchTags": [
+            "416",
+            "HK416",
+            "McCrispy"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 3 - No Mercy"
+      },
+      {
+        "id": "f80d95f5-9e4d-4c5f-bc13-5c32441b7e36",
+        "keyTitle": "Strong Support",
+        "keyType": "Fixed Key",
+        "keyNumber": 4,
+        "level": 30,
+        "effect": "<p>For every Support Attack performed by other allied units, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of Confectance Index.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/5fc6261d-647d-45f8-ae8e-2f4af5e98641-strong-support.webp",
+        "createdAt": "2025-09-22T20:23:04.474Z",
+        "updatedAt": "2025-09-22T20:23:04.474Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "dollImages": [
+            {
+              "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+              "createdAt": "2025-09-25T23:49:36.135Z",
+              "updatedAt": "2025-09-25T23:49:36.135Z"
+            }
+          ],
+          "searchTags": [
+            "416",
+            "HK416",
+            "McCrispy"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 4 - Strong Support"
+      },
+      {
+        "id": "3d353af3-4a68-45d6-8082-bfb6d0011465",
+        "keyTitle": "Limit Break",
+        "keyType": "Fixed Key",
+        "keyNumber": 5,
+        "level": 40,
+        "effect": "<p>Reduces the width of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Devastating Drift</span><span>'s effective area to </span><span style=\"color: rgb(243, 109, 28);\">3 tiles</span><span>. For each tile reduced, increases damage dealt by </span><span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/8217456e-e981-4468-9668-e612c55250c3-limit-break.webp",
+        "createdAt": "2025-09-22T20:28:28.094Z",
+        "updatedAt": "2025-09-22T20:28:28.094Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "dollImages": [
+            {
+              "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+              "createdAt": "2025-09-25T23:49:36.135Z",
+              "updatedAt": "2025-09-25T23:49:36.135Z"
+            }
+          ],
+          "searchTags": [
+            "416",
+            "HK416",
+            "McCrispy"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 5 - Limit Break"
+      },
+      {
+        "id": "23cc34fa-abec-4212-a5e2-e18357b402e4",
+        "keyTitle": "Moment of Doom",
+        "keyType": "Fixed Key",
+        "keyNumber": 6,
+        "level": 40,
+        "effect": "<p>After the unit(s) afflicted with [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] take damage from its effect and survive, they are inflicted with <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] for<span style=\"color: rgb(243, 109, 28);\"> 2 turns</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/7222668c-80b7-4375-9a87-3a8147179278-moment-of-doom.webp",
+        "createdAt": "2025-09-22T20:32:38.875Z",
+        "updatedAt": "2025-10-14T07:06:33.065Z",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "dollImages": [
+            {
+              "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+              "createdAt": "2025-09-25T23:49:36.135Z",
+              "updatedAt": "2025-09-25T23:49:36.135Z"
+            }
+          ],
+          "searchTags": [
+            "416",
+            "HK416",
+            "McCrispy"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 6 - Moment of Doom"
+      }
+    ],
+    "vertebrae": [
+      {
+        "id": "1133529d-c7a0-4571-a536-a90810b5e50b",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "segment": 1,
+        "vertebraeName": " Overpowering Corrosion Lv.2",
+        "level": 2,
+        "effect": "<p>Increases damage dealt to targets that are already inflicted with [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] by<span style=\"color: rgb(243, 109, 28);\"> 30%</span>. If the target is not killed from this damage, it can also trigger the on-death effect of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e]. [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] has a new effect: At the end of the action of the unit which possessed this effect, the inflictor applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] to enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> that do not possess [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/e797d33a1f05572c9efdb52187146e66.webp",
+        "createdAt": "2025-09-23T19:43:51.229Z",
+        "updatedAt": "2025-10-14T07:06:13.187Z",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "class": "Sentinel",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "Elegant and composed; a Doll brimming with confidence. She aspires to make every member of H.I.D.E. 404 into an elite. Only those who are familiar with her know the tenderness that lies behind her cold, strong-willed demeanor.",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "d8753bef-ec1e-4d01-8802-2b6a48634bb6",
+            "name": "Overpowering Corrosion",
+            "phase": "Corrosion",
+            "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/e797d33a1f05572c9efdb52187146e66.webp",
+            "summonId": null,
+            "ammoTypes": null,
+            "createdAt": "2025-09-23T01:19:26.309Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Debuff"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2025-10-14T07:07:09.623Z",
+            "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Increases damage by <span style=\"color: rgb(243, 109, 28);\">15%</span> to targets already affected by [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "f02fc753-9104-4a7a-b517-a0df06f3a3fd",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 3,
+            "stabilityDamage": 1,
+            "ammoTypesLevel2": null,
+            "ammoTypesLevel3": null,
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": null,
+            "skillTagsLevel3": null,
+            "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the target survives, triggers the on-death effect of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e]. Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span> to targets already affected by [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+            "descriptionLevel3": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span>, and applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the target survives, triggers the on-death effect of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e]. If the target is inflicted with a Corrosion debuff, applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before the attack. Increases damage by <span style=\"color: rgb(243, 109, 28);\">30%</span> to targets already affected by [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": "e8a5ea18-88be-4742-b614-595826d6fd12",
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "1133529d-c7a0-4571-a536-a90810b5e50b",
+            "vertebraeUpgradeIdLevel3": "871c6bb2-55b2-4965-9bf1-a8bee6fd7f3b"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "cb2cadea-4b19-4c7a-b832-ecd88058b14c",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "segment": 2,
+        "vertebraeName": "Elite's Pride Lv.2",
+        "level": 2,
+        "effect": "<p>At the start of the battle, gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:740af6e6-5c70-40ce-9ec3-cb1b54d6b842]. When other allied units deal <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Klukai can gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:740af6e6-5c70-40ce-9ec3-cb1b54d6b842]. Increases the stack limit of [effect:740af6e6-5c70-40ce-9ec3-cb1b54d6b842] by<span style=\"color: rgb(243, 109, 28);\"> 4 stacks</span>. </p><p>For every<span style=\"color: rgb(243, 109, 28);\"> 3 points</span> of Confectance Index gained, applies an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to enemy units with [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060], and reduces the cooldown of Klukai's Ultimate skill by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] gains a new effect: When Klukai performs an active attack or other allied units deal <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, applies an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to targets with [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060]. Defense is reduced by <span style=\"color: rgb(243, 109, 28);\">1%</span>, and the stack limit is increased by<span style=\"color: rgb(243, 109, 28);\"> 5 stacks</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/6e1c990ea2b8b9a66c6bbb4f91f2a962.webp",
+        "createdAt": "2025-09-23T19:57:16.307Z",
+        "updatedAt": "2025-10-14T07:06:13.016Z",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "class": "Sentinel",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "Elegant and composed; a Doll brimming with confidence. She aspires to make every member of H.I.D.E. 404 into an elite. Only those who are familiar with her know the tenderness that lies behind her cold, strong-willed demeanor.",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "a95741b2-f771-4b26-94fe-e4c2aa183ee0",
+            "name": "Elite's Pride",
+            "phase": null,
+            "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/6e1c990ea2b8b9a66c6bbb4f91f2a962.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-23T01:50:03.368Z",
+            "skillTags": [
+              "Passive",
+              "Debuff",
+              "Buff"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-10-14T07:07:16.822Z",
+            "description": "<p>Immune to all negative [effect:5e16965e-d995-425c-9ba5-8ace79df7840] tile effects. When dealing damage with active attacks, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:740af6e6-5c70-40ce-9ec3-cb1b54d6b842] after skill usage.</p><p>Each time Klukai performs an active attack or other allied units deal <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Klukai gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For every <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index gained, reduces the cooldown of her Ultimate skill by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Immune to all negative [effect:5e16965e-d995-425c-9ba5-8ace79df7840] tile effects.</p><p>At the start of the battle, gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:740af6e6-5c70-40ce-9ec3-cb1b54d6b842]. When dealing damage with active attacks, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Each time Klukai performs an active attack or other allied units deal <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Klukai gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:740af6e6-5c70-40ce-9ec3-cb1b54d6b842] after skill usage and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>For every <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index gained, applies an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to enemy units with [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060], and reduces the cooldown of her Ultimate skill by <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "cb2cadea-4b19-4c7a-b832-ecd88058b14c",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "8e6e22e7-6f7f-4b40-818c-f892240d17a6",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "segment": 3,
+        "vertebraeName": "Devastating Drift Lv.2",
+        "level": 2,
+        "effect": "<p>For each enemy hit, increases damage dealt by an additional<span style=\"color: rgb(243, 109, 28);\"> 10%</span><span>, up to a maximum of </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span>. If a Boss is hit, this increase will be immediately raised to the maximum value of </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span>. If </span><span style=\"color: rgb(243, 109, 28);\">2 </span><span>or more targets or a Boss is hit, this skill can be used again, up to a maximum of </span><span style=\"color: rgb(243, 109, 28);\">1</span><span> additional time. Before attacking, applies [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] and [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] to the target for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/ae58a5dae1064230982c829da973cecd.webp",
+        "createdAt": "2025-09-23T20:03:33.004Z",
+        "updatedAt": "2025-10-14T07:06:12.494Z",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "class": "Sentinel",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "Elegant and composed; a Doll brimming with confidence. She aspires to make every member of H.I.D.E. 404 into an elite. Only those who are familiar with her know the tenderness that lies behind her cold, strong-willed demeanor.",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "70e8c891-0a65-4467-8fd1-f9bfaba995ef",
+            "name": "Devastating Drift",
+            "phase": "Corrosion",
+            "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+            "cooldown": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/ae58a5dae1064230982c829da973cecd.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-23T01:38:51.217Z",
+            "skillTags": [
+              "Ultimate",
+              "AoE"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2026-01-15T20:42:22.591Z",
+            "description": "<p>Selects 1 tile within a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area of 4 to 8 tiles</span>, landing on the selected tile and dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy targets in a path <span style=\"color: rgb(243, 109, 28);\">5 tiles wide</span>. Gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If <span style=\"color: rgb(243, 109, 28);\">2</span> or more targets are killed, this skill can be used again, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "42bbc26a-7be3-41f0-a70f-7dd317141300",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"5c46112e-b4ac-425c-8192-15ab50d28b6a\",\"3d353af3-4a68-45d6-8082-bfb6d0011465\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[\"Ultimate\",\"AoE\",\"Debuff\"]",
+            "skillTagsLevel3": "[\"Ultimate\",\"AoE\",\"Debuff\"]",
+            "descriptionLevel2": "<p>Selects 1 tile within a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area of 4 to 8 tiles</span>, landing on the selected tile, applying [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] and [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy targets in a path <span style=\"color: rgb(243, 109, 28);\">5 tiles wide</span>. Gains <span style=\"color: rgb(243, 109, 28);\">6 tiles </span>of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. For each enemy hit, increases damage dealt by an additional <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">50%</span>. If a Boss is hit, this increase will be immediately raised to the maximum value of <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>If <span style=\"color: rgb(243, 109, 28);\">2</span> or more targets or a Boss is hit, this skill can be used again, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
+            "descriptionLevel3": "<p>Selects 1 tile within a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area of 4 to 8 tiles</span>, landing on the selected tile, applying [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] and [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> that ignores Cover damage reduction equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy targets in a path <span style=\"color: rgb(243, 109, 28);\">7 tiles wide</span>. Applies [effect:f2edbeb3-9755-49e7-91f4-dc6fba3b30d9] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. For each enemy hit, increases damage dealt by an additional <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">50%</span>. If a Boss is hit, this increase will be immediately raised to the maximum value of <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>If <span style=\"color: rgb(243, 109, 28);\">2</span> or more targets or a Boss is hit, this skill can be used again, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p><p>After the skill is used, triggers all enemies' effects of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] and the on-death effects of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "8e6e22e7-6f7f-4b40-818c-f892240d17a6",
+            "vertebraeUpgradeIdLevel3": "749aa371-6591-4850-a84b-29eddc95ac3f"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "557b3c3d-6b0f-48e8-9b65-4b0ebb362a92",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "segment": 4,
+        "vertebraeName": "Pinpoint Detonation Lv.2",
+        "level": 2,
+        "effect": "<p>Increases damage dealt by the first attack to <span style=\"color: rgb(243, 109, 28);\">100%</span><span> of attack. For </span><span style=\"color: rgb(243, 109, 28);\">each stack</span><span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] on the target, the damage multiplier of the additional attack is increased by </span><span style=\"color: rgb(243, 109, 28);\">5%</span><span>. If a phase weakness is exploited, the attack ignores </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span> of the target's Cover damage reduction.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/8ffcb2b635f6f0e27ab9bf29425b9f2b.webp",
+        "createdAt": "2025-09-23T20:08:00.315Z",
+        "updatedAt": "2025-10-14T07:06:12.668Z",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "class": "Sentinel",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "Elegant and composed; a Doll brimming with confidence. She aspires to make every member of H.I.D.E. 404 into an elite. Only those who are familiar with her know the tenderness that lies behind her cold, strong-willed demeanor.",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "9f4edf1d-76c4-4458-abb7-2c938d515190",
+            "name": "Pinpoint Detonation",
+            "phase": "Corrosion",
+            "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/8ffcb2b635f6f0e27ab9bf29425b9f2b.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Medium Ammo\"]",
+            "createdAt": "2025-09-23T01:05:13.687Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Debuff"
+            ],
+            "skillType": "Skill 1",
+            "updatedAt": "2025-11-05T19:50:06.477Z",
+            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to<span style=\"color: rgb(243, 109, 28);\"> 80%</span> of attack. Performs an additional attack, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, pulling all affected enemy targets <span style=\"color: rgb(243, 109, 28);\">1 tile</span> towards the center.</p><p>If any enemy targets are killed, reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Devastating Drift</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span> and gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. If no enemy targets are killed, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "51cf7359-1753-4d79-ba88-932d42e672fe",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 3,
+            "stabilityDamage": 3,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack. Performs an additional attack, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>. For <span style=\"color: rgb(243, 109, 28);\">each stack </span>of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] the target has, the damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, and all affected enemy targets are pulled <span style=\"color: rgb(243, 109, 28);\">1 tile</span> towards the center. If a phase weakness is exploited, the attack ignores<span style=\"color: rgb(243, 109, 28);\"> 15%</span> of Cover damage reduction.</p><p>If any enemy targets are killed, reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Devastating Drift </span>by <span style=\"color: rgb(243, 109, 28);\">1 turn</span> and gains<span style=\"color: rgb(243, 109, 28);\"> 2 points</span> of Confectance Index. If no enemy targets are killed, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "557b3c3d-6b0f-48e8-9b65-4b0ebb362a92",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "871c6bb2-55b2-4965-9bf1-a8bee6fd7f3b",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "segment": 5,
+        "vertebraeName": "Overpowering Corrosion Lv.3",
+        "level": 3,
+        "effect": "<p>Effective range increases by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, damage increases to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack. [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] spread radius increases by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, and the damage it deals increases to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack.</p><p>If the target is inflicted with a Corrosion debuff, applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for<span style=\"color: rgb(243, 109, 28);\"> 2 turns</span> before the attack.</p><p>[effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] gains an additional effect: When receiving an active attack from Klukai, damage taken is increased by<span style=\"color: rgb(243, 109, 28);\"> 30%</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/e797d33a1f05572c9efdb52187146e66.webp",
+        "createdAt": "2025-09-23T20:14:05.789Z",
+        "updatedAt": "2025-10-14T07:05:55.898Z",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "class": "Sentinel",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "Elegant and composed; a Doll brimming with confidence. She aspires to make every member of H.I.D.E. 404 into an elite. Only those who are familiar with her know the tenderness that lies behind her cold, strong-willed demeanor.",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "d8753bef-ec1e-4d01-8802-2b6a48634bb6",
+            "name": "Overpowering Corrosion",
+            "phase": "Corrosion",
+            "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/e797d33a1f05572c9efdb52187146e66.webp",
+            "summonId": null,
+            "ammoTypes": null,
+            "createdAt": "2025-09-23T01:19:26.309Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Debuff"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2025-10-14T07:07:09.623Z",
+            "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Increases damage by <span style=\"color: rgb(243, 109, 28);\">15%</span> to targets already affected by [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "f02fc753-9104-4a7a-b517-a0df06f3a3fd",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 3,
+            "stabilityDamage": 1,
+            "ammoTypesLevel2": null,
+            "ammoTypesLevel3": null,
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": null,
+            "skillTagsLevel3": null,
+            "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the target survives, triggers the on-death effect of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e]. Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span> to targets already affected by [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+            "descriptionLevel3": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span>, and applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the target survives, triggers the on-death effect of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e]. If the target is inflicted with a Corrosion debuff, applies [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before the attack. Increases damage by <span style=\"color: rgb(243, 109, 28);\">30%</span> to targets already affected by [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": "e8a5ea18-88be-4742-b614-595826d6fd12",
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "1133529d-c7a0-4571-a536-a90810b5e50b",
+            "vertebraeUpgradeIdLevel3": "871c6bb2-55b2-4965-9bf1-a8bee6fd7f3b"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "749aa371-6591-4850-a84b-29eddc95ac3f",
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "segment": 6,
+        "vertebraeName": "Devastating Drift Lv.3",
+        "level": 3,
+        "effect": "<p>Ignores Cover damage reduction. Increases width by<span style=\"color: rgb(243, 109, 28);\"> 2 tiles</span> and applies [effect:f2edbeb3-9755-49e7-91f4-dc6fba3b30d9] for<span style=\"color: rgb(243, 109, 28);\"> 2 turns</span>. </p><p>After the attack, triggers all enemies' effects of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] and the on-death effects of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/ae58a5dae1064230982c829da973cecd.webp",
+        "createdAt": "2025-09-23T20:18:50.133Z",
+        "updatedAt": "2025-10-14T07:06:12.139Z",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "class": "Sentinel",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "Elegant and composed; a Doll brimming with confidence. She aspires to make every member of H.I.D.E. 404 into an elite. Only those who are familiar with her know the tenderness that lies behind her cold, strong-willed demeanor.",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "70e8c891-0a65-4467-8fd1-f9bfaba995ef",
+            "name": "Devastating Drift",
+            "phase": "Corrosion",
+            "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+            "cooldown": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/ae58a5dae1064230982c829da973cecd.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-23T01:38:51.217Z",
+            "skillTags": [
+              "Ultimate",
+              "AoE"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2026-01-15T20:42:22.591Z",
+            "description": "<p>Selects 1 tile within a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area of 4 to 8 tiles</span>, landing on the selected tile and dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy targets in a path <span style=\"color: rgb(243, 109, 28);\">5 tiles wide</span>. Gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If <span style=\"color: rgb(243, 109, 28);\">2</span> or more targets are killed, this skill can be used again, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "42bbc26a-7be3-41f0-a70f-7dd317141300",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"5c46112e-b4ac-425c-8192-15ab50d28b6a\",\"3d353af3-4a68-45d6-8082-bfb6d0011465\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[\"Ultimate\",\"AoE\",\"Debuff\"]",
+            "skillTagsLevel3": "[\"Ultimate\",\"AoE\",\"Debuff\"]",
+            "descriptionLevel2": "<p>Selects 1 tile within a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area of 4 to 8 tiles</span>, landing on the selected tile, applying [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] and [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy targets in a path <span style=\"color: rgb(243, 109, 28);\">5 tiles wide</span>. Gains <span style=\"color: rgb(243, 109, 28);\">6 tiles </span>of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. For each enemy hit, increases damage dealt by an additional <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">50%</span>. If a Boss is hit, this increase will be immediately raised to the maximum value of <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>If <span style=\"color: rgb(243, 109, 28);\">2</span> or more targets or a Boss is hit, this skill can be used again, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
+            "descriptionLevel3": "<p>Selects 1 tile within a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area of 4 to 8 tiles</span>, landing on the selected tile, applying [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] and [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> that ignores Cover damage reduction equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy targets in a path <span style=\"color: rgb(243, 109, 28);\">7 tiles wide</span>. Applies [effect:f2edbeb3-9755-49e7-91f4-dc6fba3b30d9] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. For each enemy hit, increases damage dealt by an additional <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">50%</span>. If a Boss is hit, this increase will be immediately raised to the maximum value of <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>If <span style=\"color: rgb(243, 109, 28);\">2</span> or more targets or a Boss is hit, this skill can be used again, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p><p>After the skill is used, triggers all enemies' effects of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] and the on-death effects of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e].</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "8e6e22e7-6f7f-4b40-818c-f892240d17a6",
+            "vertebraeUpgradeIdLevel3": "749aa371-6591-4850-a84b-29eddc95ac3f"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      }
+    ],
+    "summons": [],
+    "remoldingPattern": {
+      "id": "7b10b46c-3979-4401-875d-a016581b8641",
+      "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+      "coreSlots": {
+        "bulwark": 1,
+        "support": 0,
+        "sentinel": 4,
+        "vanguard": 1
+      },
+      "statBoosts": {
+        "60": {
+          "hp": 679,
+          "atk": 252,
+          "def": 217
+        }
+      },
+      "dollCore": "Sentinel Core",
+      "createdAt": "2025-09-30T05:26:43.269Z",
+      "updatedAt": "2025-09-30T05:26:43.269Z",
+      "doll": {
+        "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "name": "Klukai",
+        "class": "Sentinel",
+        "phase": "Corrosion",
+        "rarity": "Elite",
+        "preview": false,
+        "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+        "regionTag": "en",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      "imagoforms": [
+        {
+          "id": "ee3b202a-908f-4fb7-a3af-bd86fd6a9026",
+          "stage": "Embryo",
+          "effect": "<p>Damage dealt to enemy units with Corrosion debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 1,
+          "createdAt": "2025-09-30T05:26:43.306Z",
+          "updatedAt": "2025-09-30T05:26:43.306Z",
+          "bulwarkFactors": 0,
+          "supportFactors": 0,
+          "sentinelFactors": 5,
+          "vanguardFactors": 1
+        },
+        {
+          "id": "c9e998ff-15d0-4068-ab94-096a52753641",
+          "stage": "Seedling",
+          "effect": "<p>Physical and phase damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 10,
+          "createdAt": "2025-09-30T05:26:43.306Z",
+          "updatedAt": "2025-09-30T05:26:43.306Z",
+          "bulwarkFactors": 1,
+          "supportFactors": 0,
+          "sentinelFactors": 7,
+          "vanguardFactors": 2
+        },
+        {
+          "id": "9a4b4bbc-8757-4a60-9b67-50298884aaef",
+          "stage": "Sprout",
+          "effect": "<p><span style=\"color: rgb(135, 120, 233);\">Corrosion</span><span> </span><span style=\"color: rgb(135, 120, 233);\">damage </span><span>dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+          "coreLevel": 20,
+          "createdAt": "2025-09-30T05:26:43.306Z",
+          "updatedAt": "2025-09-30T05:26:43.306Z",
+          "bulwarkFactors": 2,
+          "supportFactors": 0,
+          "sentinelFactors": 8,
+          "vanguardFactors": 3
+        },
+        {
+          "id": "21ce9eec-12ff-4f79-b760-0ce5d5ec419e",
+          "stage": "Shoot",
+          "effect": "<p>Damage dealt to enemy targets in Stability Break is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+          "coreLevel": 30,
+          "createdAt": "2025-09-30T05:26:43.306Z",
+          "updatedAt": "2025-09-30T05:26:43.306Z",
+          "bulwarkFactors": 3,
+          "supportFactors": 0,
+          "sentinelFactors": 11,
+          "vanguardFactors": 4
+        },
+        {
+          "id": "1c04483e-5c3e-4cb7-8bfa-550dd9a96e71",
+          "stage": "Bud",
+          "effect": "<p>Attack is increased by<span style=\"color: rgb(243, 109, 28);\"> 8%</span>.</p>",
+          "coreLevel": 45,
+          "createdAt": "2025-09-30T05:26:43.306Z",
+          "updatedAt": "2025-09-30T05:26:43.306Z",
+          "bulwarkFactors": 4,
+          "supportFactors": 0,
+          "sentinelFactors": 15,
+          "vanguardFactors": 4
+        },
+        {
+          "id": "5e032359-6633-4b32-bf87-d5dfeac5bce7",
+          "stage": "Blossom",
+          "effect": "<p>The damage of attacks which hit <span style=\"color: rgb(243, 109, 28);\">2 or more </span>enemy units is increased by <span style=\"color: rgb(243, 109, 28);\">12%</span>.</p>",
+          "coreLevel": 60,
+          "createdAt": "2025-09-30T05:26:43.306Z",
+          "updatedAt": "2025-09-30T05:26:43.306Z",
+          "bulwarkFactors": 5,
+          "supportFactors": 0,
+          "sentinelFactors": 18,
+          "vanguardFactors": 6
+        }
+      ],
+      "equippedRelics": []
+    },
+    "dollEffects": [
+      {
+        "id": "740af6e6-5c70-40ce-9ec3-cb1b54d6b842",
+        "effectName": "Competitive Spirit",
+        "effectDetails": "{\"mainDetails\":\"<p>Increase <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>. Maximum of<span style=\\\"color: rgb(243, 109, 28);\\\"> 8 stacks</span>. This is considered a buff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"94c51ad3-5655-4432-a585-7983868e2031\",\"upgradeName\":\"V2\",\"upgradeDetails\":\"<p>Increase <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>. Maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">12 stacks</span>. This is considered a buff, cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [
+          "Attack",
+          "Buff"
+        ],
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T21:48:14.074Z",
+        "updatedAt": "2025-11-06T06:46:56.685Z",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "dollImages": [
+            {
+              "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "416"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "HK416"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "McCrispy"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "d2cc96c5-5bff-4a15-aaaf-98597cac4060",
+        "effectName": "Corrosive Infusion",
+        "effectDetails": "{\"mainDetails\":\"<p>At the end of the action, the applier deals AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">12%</span> of attack. For each additional<span style=\\\"color: rgb(243, 109, 28);\\\"> stack</span>, the damage multiplier is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">12%</span>. Upon being hit by active attacks from Klukai or <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> from other enemies, gain <span style=\\\"color: rgb(243, 109, 28);\\\">1 additional stack</span> and refresh the debuff duration, maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">10 stacks</span>. Removed after the applier is killed. Considered a Corrosion debuff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"0762e80f-45b7-4e66-b10f-0e517ec75bd6\",\"upgradeName\":\"V2\",\"upgradeDetails\":\"<p>Reduce defense by <span style=\\\"color: rgb(243, 109, 28);\\\">1%</span>. At the end of the action, the applier deals AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">12%</span> of attack. For each additional stack, the damage multiplier is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">12%</span>. Upon being hit by active attacks from Klukai or <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> from other enemies, gain<span style=\\\"color: rgb(243, 109, 28);\\\"> 2 additional stacks</span> and refresh the debuff duration, maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">15 stacks</span>. Removed after the applier is killed. Considered a Corrosion debuff, cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [
+          "Corrosion",
+          "Debuff"
+        ],
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T20:37:12.313Z",
+        "updatedAt": "2025-11-01T21:33:24.559Z",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "dollImages": [
+            {
+              "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "416"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "HK416"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "McCrispy"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "36b8a0c8-f35f-4c2b-8421-3265c5bca1ab",
+        "effectName": "Fangs",
+        "effectDetails": "<p>After this unit makes an active attack, deals cover-ignoring AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> to 3 nearest enemy targets equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack as well as applying <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e]. Damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">10% each time</span> [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] or [effect:610dc13b-05b5-4d45-96ea-e295b85c1a6e]'s on-death effect is triggered.</p>",
+        "effectTags": [],
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "preview": false,
+        "regionTag": "cn",
+        "createdAt": "2026-02-11T01:16:10.931Z",
+        "updatedAt": "2026-03-02T01:41:18.745Z",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "dollImages": [
+            {
+              "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "416"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "HK416"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "McCrispy"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "610dc13b-05b5-4d45-96ea-e295b85c1a6e",
+        "effectName": "Toxic Infiltration",
+        "effectDetails": "{\"mainDetails\":\"<p>At the end of the action, gains <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>. Upon death, the applier inflicts<span style=\\\"color: rgb(34, 139, 230);\\\"> Toxic Infiltration</span> on the debuff holder and all enemy units within <span style=\\\"color: rgb(243, 109, 28);\\\">3 tiles</span> for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>, dealing AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span> of attack. This effect is removed after the applier is killed. Considered a Corrosion debuff.</p>\",\"upgrades\":[{\"id\":\"7d1b30d0-bd2f-4996-8ce1-78e270a94883\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>At the end of the action, gains <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>. Additionally, the applier inflicts <span style=\\\"color: rgb(34, 139, 230);\\\">Toxic Infiltration</span> for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span> to all enemies within<span style=\\\"color: rgb(243, 109, 28);\\\"> 3 tiles</span> who do not have Toxic Infiltration. Upon death, the applier inflicts <span style=\\\"color: rgb(34, 139, 230);\\\">Toxic Infiltration</span> for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span> to all allies within <span style=\\\"color: rgb(243, 109, 28);\\\">3 tiles</span> centered on the unit with this effect, dealing AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span> of attack. This effect is removed after the applier is killed. Considered a Corrosion debuff.</p>\",\"order\":0},{\"id\":\"1fd26cd6-2c64-48f2-b9d6-7d6c014ac2b7\",\"upgradeName\":\"V5\",\"upgradeDetails\":\"<p>At the end of the action, gains <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of [effect:d2cc96c5-5bff-4a15-aaaf-98597cac4060] for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>. Additionally, the applier inflicts <span style=\\\"color: rgb(34, 139, 230);\\\">Toxic Infiltration</span> for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span> to all enemies within <span style=\\\"color: rgb(243, 109, 28);\\\">4 tiles</span> who do not have<span style=\\\"color: rgb(34, 139, 230);\\\"> Toxic Infiltration</span>. Upon death, the applier inflicts <span style=\\\"color: rgb(34, 139, 230);\\\">Toxic Infiltration</span> for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span> to all allies within <span style=\\\"color: rgb(243, 109, 28);\\\">4 tiles</span> centered on the unit with this effect, dealing AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">80%</span> of attack.</p><p>When attacked by Klukai's active attacks, increases damage taken by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. This effect is removed after the applier is killed. Considered a Corrosion debuff.</p>\",\"order\":1}]}",
+        "effectTags": [
+          "Corrosion",
+          "Debuff"
+        ],
+        "dollId": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T21:36:17.083Z",
+        "updatedAt": "2025-11-03T16:04:19.397Z",
+        "doll": {
+          "id": "20b28f61-f811-46f0-857d-a5a7c2f6a471",
+          "name": "Klukai",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/klukai/64602161b7cc3ca6350b3b5a31bfce2f.webp",
+          "createdAt": "2025-09-21T23:20:11.057Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:57:09.392Z",
+          "dollImages": [
+            {
+              "id": "8231f3b0-caf6-467d-836f-92a3e35b32a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/klukai/chibi-48f1350cf6d73f0a69270b68119c9270.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "416"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "HK416"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "McCrispy"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "shortId": "d18"
+  }
+}

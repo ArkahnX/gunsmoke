@@ -1,0 +1,21 @@
+export default function Cross() {
+	return (
+		<svg
+			width="100%"
+			height="100%"
+			viewBox="0 0 300 300"
+			version="1.1"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			xml:space="preserve"
+			xmlns:serif="http://www.serif.com/"
+			style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+			<g transform="matrix(0.511358,0.511358,-0.704335,0.704335,155.435,-39.9205)">
+				<path
+					d="M167.74,151.413L10.792,151.413L10.792,132.338L167.74,132.338L167.74,18.391L194.013,18.391L194.013,265.359L167.74,265.359L167.74,151.413ZM220.286,132.338L350.961,132.338L350.961,151.413L220.286,151.413L220.286,132.338Z"
+					style="fill:rgb(60,78,86);"
+				/>
+			</g>
+		</svg>
+	);
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"preserveConstEnums": true,
+		"strict": true,
+		"strictNullChecks": true,
+		"exactOptionalPropertyTypes": true,
+		"noEmit": true,
+		"importsNotUsedAsValues": "remove",
+		"isolatedModules": true,
+		"skipLibCheck": true,
+		"allowJs": true,
+		"lib": ["es2021", "dom"],
+		"moduleResolution": "bundler",
+		"module": "esnext",
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js",
+		"target": "es2022"
+  },
+	"include": ["src/**/*.ts", "src/**/*.tsx", "esbuild.mjs"]
+}

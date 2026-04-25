@@ -1,0 +1,1531 @@
+{
+  "success": true,
+  "data": {
+    "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+    "name": "Lind",
+    "class": "Sentinel",
+    "ammoTypes": "[\"Shotgun Ammo\"]",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+    "regionTag": "en",
+    "preview": false,
+    "createdAt": "2025-10-07T05:04:57.387Z",
+    "updatedAt": "2025-11-14T07:11:51.653Z",
+    "searchTags": [
+      "AA-12",
+      "Owl's waifu"
+    ],
+    "dollImages": [
+      {
+        "id": "6a2f0e99-2f02-4661-a4e3-f98207e21e55",
+        "category": "Card",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Card/130c1d20c794f0413226ed64e8d56a8e7338d3c9e3103e1fda7f0fbaeeb5c2a1.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "2c9cb004-bc64-4dd2-ac4b-6b6cec06c89f",
+        "category": "Chibi",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/9aa7efcb46fcdf6136792b13751617a1a2421d73d3744c57c158c0a95511b220.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "c93256f7-6f49-41d0-80ef-c63f881073ae",
+        "category": "Skin",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Skin/f7d37e0d64978ea785bf18bcbedcf5af05d165d6bae3c1a7e6fc513e8eb18d4f.webp",
+        "skinTitle": "f7d37e0d64978ea785bf18bcbedcf5af05d165d6bae3c1a7e6fc513e8eb18d4f.webp",
+        "alt": null
+      }
+    ],
+    "weaponImprintType": null,
+    "weaponImprint": {
+      "id": "aefbefd9-8193-437e-a1d0-a4c5859253df",
+      "name": "Thorn Criterion",
+      "rarity": "Elite",
+      "weaponType": "Shotgun",
+      "primaryAttributeStat": 390,
+      "primaryAttribute": "Attack",
+      "secondaryAttribute": "Attack Boost",
+      "secondaryAttributeStat": "15%",
+      "trait": "<p>AoE damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. When dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, the AoE damage dealt is further increased by <span style=\"color: rgb(243, 109, 28);\">5%.</span></p>",
+      "effect": "<p>Before attacking, for <span style=\"color: rgb(243, 109, 28);\">each </span>debuff on the enemy target, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">3%/4%/5%/7%/8%/9%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">18%/24%/30%/35%/40%/45%</span>. If <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> is dealt, <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">10%.</span></p>",
+      "imprintDescription": "<p>Damage dealt to targets with Corrosion debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>. Damage dealt to PMC units is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>. </p>",
+      "imageUrl": "https://cdn.dandegate.net/weapons/law-of-thorns/0469560b9975378f398abc3bdf5e8b1c1b96e0e309eede135e100c579f5c0083.webp",
+      "createdAt": "2025-10-11T07:01:27.816Z",
+      "updatedAt": "2025-11-14T07:11:09.739Z",
+      "regionTag": "en",
+      "preview": false,
+      "imprintDollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+      "imprintDoll": {
+        "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "name": "Lind",
+        "rarity": "Elite",
+        "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp"
+      }
+    },
+    "stabilityGauge": 9,
+    "movement": 5,
+    "effects": "A Doll who appears hot-tempered on the outside but is actually sensitive on the inside, often forcing herself to do things she's not good at and falling into self-loathing. Enjoys staying up late listening to late-night radio. If she doesn't consume sugar in time, she easily gets nauseous. Strongly dislikes savage violence, but she believes weapons are merely a civilized and effective means of resolution, so using guns doesn't fall into that category. \"Consuming too much sugar will cause me to malfunction, but if I don't consume any, I'll break down immediately, so I'll eat anyway... Mm. Commander, would you like a piece too?\"",
+    "skills": [
+      {
+        "id": "e4d768ec-4820-44b1-9e73-1b54ebcd348e",
+        "name": "Repulsive Shot",
+        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+        "phase": null,
+        "ammoTypes": "[\"Shotgun Ammo\"]",
+        "stabilityDamage": 2,
+        "cooldown": 0,
+        "confectanceCost": 0,
+        "imageUrl": "https://cdn.dandegate.net/skills/2c5b1881bb3bad53fefac8f53525f6522f47094de74b3ffbb5b93d93724bf019.webp",
+        "createdAt": "2025-10-11T01:34:05.301Z",
+        "updatedAt": "2025-11-07T03:18:09.123Z",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Basic Attack",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "e0f82c1b-5569-4520-9595-5a18bb9f00b9",
+        "name": "Sweets Stockpile",
+        "description": "<p>At the end of the action, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">point</span> of Confectance Index.</p><p>At the start of the turn, applies [effect:07e12471-a5f5-4689-8a40-342ba9879a19] to all enemy units. This effect has a cooldown of <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When an enemy unit with [effect:07e12471-a5f5-4689-8a40-342ba9879a19] dies or an allied unit deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee]. When Lind holds <span style=\"color: rgb(243, 109, 28);\">5</span> <span style=\"color: rgb(243, 109, 28);\">or more</span> stacks of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], before attacking enemy targets with [effect:07e12471-a5f5-4689-8a40-342ba9879a19], triggers the effects of [effect:07e12471-a5f5-4689-8a40-342ba9879a19]. [effect:07e12471-a5f5-4689-8a40-342ba9879a19] is consumed thereafter.</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": 0,
+        "cooldown": 0,
+        "confectanceCost": 0,
+        "imageUrl": "https://cdn.dandegate.net/skills/be6c6b96b3d9beadbf201c7b8067242ee25f2f8dce877fec9cc2985440cdc795.webp",
+        "createdAt": "2025-10-11T01:55:13.117Z",
+        "updatedAt": "2025-11-08T02:54:25.286Z",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "summonId": null,
+        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "ee365f8c-3570-4ee7-aaf4-7c8d102389e6",
+        "vertebraeUpgradeIdLevel3": "5c2995a9-f506-4b31-8ed6-274fcdbdecbd",
+        "skillTags": [
+          "Debuff",
+          "Passive"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>At the end of the action, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">point</span> of Confectance Index.</p><p>At the start of the turn, applies [effect:07e12471-a5f5-4689-8a40-342ba9879a19] to all enemy units. This effect has a cooldown of <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>At the start of the battle, for <span style=\"color: rgb(243, 109, 28);\">each</span> allied Doll on the battlefield, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee]. When an enemy unit with [effect:07e12471-a5f5-4689-8a40-342ba9879a19] dies or an allied unit deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Lind gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee].<br>When Lind holds <span style=\"color: rgb(243, 109, 28);\">5 or more</span> stacks of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], before attacking enemy targets with [effect:07e12471-a5f5-4689-8a40-342ba9879a19], triggers the effects of [effect:07e12471-a5f5-4689-8a40-342ba9879a19]. [effect:07e12471-a5f5-4689-8a40-342ba9879a19] is consumed thereafter.</p>",
+        "descriptionLevel3": "<p>At the end of the action, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">point</span> of Confectance Index.</p><p>At the start of the turn, applies [effect:07e12471-a5f5-4689-8a40-342ba9879a19] to all enemy units.</p><p>At the start of the battle, for <span style=\"color: rgb(243, 109, 28);\">each</span> allied Doll on the battlefield, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee]. When an enemy unit with [effect:07e12471-a5f5-4689-8a40-342ba9879a19] dies or an allied unit deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee].<br>When Lind holds <span style=\"color: rgb(243, 109, 28);\">5 or more</span> stacks of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], before attacking enemy targets with [effect:07e12471-a5f5-4689-8a40-342ba9879a19], triggers the effects of [effect:07e12471-a5f5-4689-8a40-342ba9879a19]. [effect:07e12471-a5f5-4689-8a40-342ba9879a19] is consumed thereafter.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[\"Buff\",\"Debuff\",\"Passive\"]",
+        "skillTagsLevel3": "[\"Buff\",\"Debuff\",\"Passive\"]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+          "createdAt": "2025-09-13T05:48:21.166Z",
+          "updatedAt": "2025-09-13T05:48:21.166Z",
+          "rangeValue": "Self",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "ee365f8c-3570-4ee7-aaf4-7c8d102389e6",
+          "level": 2,
+          "effect": "<p>At the start of the battle, for <span style=\"color: rgb(243, 109, 28);\">each </span>allied Doll on the battlefield, Lind gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee]. The maximum number of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee] stacks is increased to <span style=\"color: rgb(243, 109, 28);\">30</span>.</p><p>The effect of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee] is enhanced: Corrosion damage dealt boost is increased to <span style=\"color: rgb(243, 109, 28);\">2% </span>instead.</p>",
+          "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "segment": 1,
+          "imageUrl": "https://cdn.dandegate.net/skills/be6c6b96b3d9beadbf201c7b8067242ee25f2f8dce877fec9cc2985440cdc795.webp",
+          "createdAt": "2025-10-11T04:30:11.036Z",
+          "updatedAt": "2025-11-09T11:23:51.032Z",
+          "vertebraeName": "Sweets Stockpile Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "5c2995a9-f506-4b31-8ed6-274fcdbdecbd",
+          "level": 3,
+          "effect": "<p>Applies [effect:07e12471-a5f5-4689-8a40-342ba9879a19] at the start of the turn. It no longer has cooldown.</p><p>When [effect:07e12471-a5f5-4689-8a40-342ba9879a19] is triggered, the number of powerful debuffs that can be randomly applied to enemy units is increased by <span style=\"color: rgb(243, 109, 28);\">3</span>. In addition, the damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>, and critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+          "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "segment": 3,
+          "imageUrl": "https://cdn.dandegate.net/skills/be6c6b96b3d9beadbf201c7b8067242ee25f2f8dce877fec9cc2985440cdc795.webp",
+          "createdAt": "2025-10-11T04:34:32.647Z",
+          "updatedAt": "2025-11-07T03:50:15.871Z",
+          "vertebraeName": "Sweets Stockpile Lv.3"
+        }
+      },
+      {
+        "id": "20ca9f4c-50f6-45a1-96b6-6af2ca3789f2",
+        "name": "Assault Spray",
+        "description": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1 direction</span>, and deals AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemies in a narrow-angled fan-shaped are <span style=\"color: rgb(243, 109, 28);\">6 tiles wide</span> in the selected direction. For <span style=\"color: rgb(243, 109, 28);\">each </span>debuff on a target, damage dealt is increased by<span style=\"color: rgb(243, 109, 28);\"> 5%</span>, to a maximum increase of<span style=\"color: rgb(243, 109, 28);\"> 30%</span>. Before the skill resolves, applies <span style=\"color: rgb(243, 109, 28);\">1 </span>random powerful debuff to all enemy units in the effective range. After the skill resolves, Lind gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+        "phase": "Corrosion",
+        "ammoTypes": "[\"Shotgun Ammo\"]",
+        "stabilityDamage": 2,
+        "cooldown": 1,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/c2149c91ff07b500f496003fb1b12097de9fc39a6a8322c726485c0ee666116a.webp",
+        "createdAt": "2025-10-11T01:43:52.983Z",
+        "updatedAt": "2025-11-08T02:59:44.518Z",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "summonId": null,
+        "rangeMapId": "d7f6874a-f0ed-4d4e-8e82-686fcd85f676",
+        "rangeMapIdLevel2": "416c26de-08f2-458d-bbfd-6819ece65dc3",
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "17a33f51-7328-44f7-9013-67c50eb0709f",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "AoE",
+          "Debuff"
+        ],
+        "keyUpgradesData": "[\"7917a4fe-fc33-4b1e-8d9f-382c56fac22c\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 1",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1 direction</span>, and deals AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemies in a fan-shaped are <span style=\"color: rgb(243, 109, 28);\">6 tiles wide</span> in the selected direction, and applies <span style=\"color: rgb(243, 109, 28);\">2 stacks </span>of [effect:99f12388-757e-4e6a-a187-7f823e50ddd9] to all targets in ite effective range. For <span style=\"color: rgb(243, 109, 28);\">each </span>debuff on a target, damage dealt is increased by<span style=\"color: rgb(243, 109, 28);\"> 10%</span>, to a maximum increase of<span style=\"color: rgb(243, 109, 28);\"> 60%</span>. Before the skill resolves, applies <span style=\"color: rgb(243, 109, 28);\">1 </span>random powerful debuff to all enemy units in the effective range. After the skill resolves, Lind gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "d7f6874a-f0ed-4d4e-8e82-686fcd85f676",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/443cf067af385402be6299b150fefffa7d8132db58596077777d1b9f2252ef50.webp",
+          "createdAt": "2025-11-08T02:58:08.672Z",
+          "updatedAt": "2025-11-08T02:58:08.672Z",
+          "rangeValue": "1",
+          "effectiveArea": "--"
+        },
+        "rangeMapLevel2": {
+          "id": "416c26de-08f2-458d-bbfd-6819ece65dc3",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/5ac26a3907e3b07f6cf8de980e0226a8cf551adf58bd7075008dc98e5e3b0687.webp",
+          "createdAt": "2025-11-08T02:58:20.548Z",
+          "updatedAt": "2025-11-08T02:58:20.548Z",
+          "rangeValue": "1",
+          "effectiveArea": "--"
+        },
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "17a33f51-7328-44f7-9013-67c50eb0709f",
+          "level": 2,
+          "effect": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">2</span> stacks of [effect:99f12388-757e-4e6a-a187-7f823e50ddd9]  on enemy targets.</p><p>Increases the skill's effective range.</p><p>For each debuff held by the enemy, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">60%</span>.</p>",
+          "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "segment": 4,
+          "imageUrl": "https://cdn.dandegate.net/skills/c2149c91ff07b500f496003fb1b12097de9fc39a6a8322c726485c0ee666116a.webp",
+          "createdAt": "2025-10-11T04:35:55.173Z",
+          "updatedAt": "2025-11-07T04:00:17.158Z",
+          "vertebraeName": "Assault Spray Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "22da7130-ee62-417e-89fc-50d38b9ec8eb",
+        "name": "Overwhelming Burst",
+        "description": "<p>Deals AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy targets within<span style=\"color: rgb(243, 109, 28);\"> 6 tiles</span>. Before skill usage, if Confectance Index is at maximum, the damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span> for each stack of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee] held by Lind.</p>",
+        "phase": "Corrosion",
+        "ammoTypes": "[\"Shotgun Ammo\"]",
+        "stabilityDamage": 2,
+        "cooldown": 0,
+        "confectanceCost": 4,
+        "imageUrl": "https://cdn.dandegate.net/skills/17df7938f5aba06fc3c1e23e9efb34a99d1fbf068aa6785ea0d81e7a248b4ce7.webp",
+        "createdAt": "2025-10-11T01:49:06.063Z",
+        "updatedAt": "2025-11-08T02:45:33.871Z",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "summonId": null,
+        "rangeMapId": "b9c82204-b6c6-4287-850e-543ff93c7ad8",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "57afb597-3a59-446b-a4a2-65eedc27f373",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "AoE"
+        ],
+        "keyUpgradesData": "[\"7917a4fe-fc33-4b1e-8d9f-382c56fac22c\",\"add00d92-3e67-4df2-ae2b-9c4502e56fe5\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 2",
+        "ammoTypesLevel2": "[\"Shotgun Ammo\"]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": 4,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Deals AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. Before skill usage, if Confectance Index is at maximum, critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span> and the damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span> for each stack of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee] held by<span style=\"color: rgb(243, 109, 28);\"> </span>Lind.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": "Corrosion",
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": 3,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "b9c82204-b6c6-4287-850e-543ff93c7ad8",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743314506-rSe6.webp",
+          "createdAt": "2025-09-13T06:01:54.605Z",
+          "updatedAt": "2025-09-13T06:01:54.605Z",
+          "rangeValue": "Self",
+          "effectiveArea": "6"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "57afb597-3a59-446b-a4a2-65eedc27f373",
+          "level": 2,
+          "effect": "<p>The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">120%</span> and stability damage dealt is increased by<span style=\"color: rgb(243, 109, 28);\"> 1</span> point.</p><p>Before skill usage, if Confectance Index is at maximum, critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>, and the damage multiplier boost is increased to <span style=\"color: rgb(243, 109, 28);\">10%</span><span> for each stack of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee] held by Lind</span>.</p>",
+          "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/17df7938f5aba06fc3c1e23e9efb34a99d1fbf068aa6785ea0d81e7a248b4ce7.webp",
+          "createdAt": "2025-10-11T04:36:47.486Z",
+          "updatedAt": "2025-11-07T04:04:57.064Z",
+          "vertebraeName": "Overwhelming Burst Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "695e5158-cc81-4b06-80bf-d5b3751cb14c",
+        "name": "Glucose Overload",
+        "description": "<p>Applies [effect:2caa0ee6-a15d-4a25-849e-fa65a552987f] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">8</span> <span style=\"color: rgb(243, 109, 28);\">tiles</span> for<span style=\"color: rgb(243, 109, 28);\"> 1</span> <span style=\"color: rgb(243, 109, 28);\">turn</span>. After this skill resolves, triggers all Corrosion debuffs held by all enemy units within this skill's effective range. After skill usage, Lind can use the active skill [dollSkill:20ca9f4c-50f6-45a1-96b6-6af2ca3789f2], the active skill [dollSkill:22da7130-ee62-417e-89fc-50d38b9ec8eb], or the basic attack [dollSkill:e4d768ec-4820-44b1-9e73-1b54ebcd348e].</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": 1,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/220eb59fc92c82bb88caf460b4d32e014d7cc6bae300f1cfeef61fad7393c79b.webp",
+        "createdAt": "2025-10-11T01:52:49.081Z",
+        "updatedAt": "2025-11-08T02:47:44.629Z",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "summonId": null,
+        "rangeMapId": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "840d0ce6-2226-481e-84a5-2266286f2dec",
+        "vertebraeUpgradeIdLevel3": "21d9abb8-3b89-49a9-8508-1fa2aa56bf1c",
+        "skillTags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "keyUpgradesData": "[\"aa814208-fb27-428c-bc85-f5f94777f1db\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 3",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Applies [effect:2caa0ee6-a15d-4a25-849e-fa65a552987f] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">8</span> <span style=\"color: rgb(243, 109, 28);\">tiles</span> for<span style=\"color: rgb(243, 109, 28);\"> 1</span> <span style=\"color: rgb(243, 109, 28);\">turn</span>. After this skill resolves, triggers all Corrosion debuffs held by all enemy units within this skill's effective range. The damage dealt by the next active skill is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. After skill usage, Lind can use the active skill [dollSkill:20ca9f4c-50f6-45a1-96b6-6af2ca3789f2], the active skill [dollSkill:22da7130-ee62-417e-89fc-50d38b9ec8eb], or the basic attack [dollSkill:e4d768ec-4820-44b1-9e73-1b54ebcd348e].</p>",
+        "descriptionLevel3": "<p>Applies [effect:2caa0ee6-a15d-4a25-849e-fa65a552987f] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">8</span> <span style=\"color: rgb(243, 109, 28);\">tiles</span> for<span style=\"color: rgb(243, 109, 28);\"> 1</span> <span style=\"color: rgb(243, 109, 28);\">turn</span>. After this skill resolves, triggers all Corrosion debuffs held by all enemy units within this skill's effective range. The damage dealt by the next active skill is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. After skill usage, Lind can use the active skill [dollSkill:20ca9f4c-50f6-45a1-96b6-6af2ca3789f2], the active skill [dollSkill:22da7130-ee62-417e-89fc-50d38b9ec8eb], or the basic attack [dollSkill:e4d768ec-4820-44b1-9e73-1b54ebcd348e]. In addition, Lind gains <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index after skill usage. If Lind has <span style=\"color: rgb(243, 109, 28);\">10 stacks</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], this skill's cooldown is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757744106408-rSe8.webp",
+          "createdAt": "2025-09-13T06:15:06.520Z",
+          "updatedAt": "2025-09-13T06:15:06.520Z",
+          "rangeValue": "Self",
+          "effectiveArea": "8"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "840d0ce6-2226-481e-84a5-2266286f2dec",
+          "level": 2,
+          "effect": "<p>The damage dealt by the next active skill used is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p><p>The effects of [effect:2caa0ee6-a15d-4a25-849e-fa65a552987f] is enhanced: Corrosion damage dealt boost by Lind is increased to <span style=\"color: rgb(243, 109, 28);\">12%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">72%</span>.</p>",
+          "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "segment": 2,
+          "imageUrl": "https://cdn.dandegate.net/skills/220eb59fc92c82bb88caf460b4d32e014d7cc6bae300f1cfeef61fad7393c79b.webp",
+          "createdAt": "2025-10-11T04:31:38.491Z",
+          "updatedAt": "2025-11-07T03:43:12.889Z",
+          "vertebraeName": "Glucose Overload Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "21d9abb8-3b89-49a9-8508-1fa2aa56bf1c",
+          "level": 3,
+          "effect": "<p>Lind gains <span style=\"color: rgb(243, 109, 28);\">3</span> <span style=\"color: rgb(243, 109, 28);\">points </span>of Confectance Index after skill usage. If Lind has<span style=\"color: rgb(243, 109, 28);\"> 10 </span><span style=\"color: rgb(243, 109, 28);\">stacks </span>of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], this skill's cooldown is reduced by <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">turn</span>.</p>",
+          "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "segment": 6,
+          "imageUrl": "https://cdn.dandegate.net/skills/220eb59fc92c82bb88caf460b4d32e014d7cc6bae300f1cfeef61fad7393c79b.webp",
+          "createdAt": "2025-10-11T04:38:22.196Z",
+          "updatedAt": "2025-11-07T04:07:09.633Z",
+          "vertebraeName": "Glucose Overload Lv.3"
+        }
+      }
+    ],
+    "keys": [
+      {
+        "id": "9bfad4bc-8439-4036-9009-d8af5ffd4c11",
+        "keyTitle": "Long Night's End",
+        "keyType": "Affinity Key",
+        "level": null,
+        "effect": "<p></p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks at Affinity Level 5</p>",
+        "attributeName1": "Crit DMG",
+        "attributeValue1": "3%",
+        "attributeName2": "Attack Boost",
+        "attributeValue2": "3%",
+        "attributeName3": "Health Boost",
+        "attributeValue3": "3%",
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/3c0c1f3d115d6070764ff1b67204ecdf0a6423e835df6aace7d22a4ac859a8cf.webp",
+        "createdAt": "2025-10-07T06:23:44.465Z",
+        "updatedAt": "2025-11-06T15:20:48.372Z",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "dollImages": [
+            {
+              "id": "2c9cb004-bc64-4dd2-ac4b-6b6cec06c89f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/9aa7efcb46fcdf6136792b13751617a1a2421d73d3744c57c158c0a95511b220.webp",
+              "createdAt": "2025-10-07T05:05:04.575Z",
+              "updatedAt": "2025-10-07T05:05:04.575Z"
+            }
+          ],
+          "searchTags": [
+            "AA-12",
+            "Owl's waifu"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Affinity Key - Long Night's End"
+      },
+      {
+        "id": "9e18d68e-180c-488e-adb3-243950cb4510",
+        "keyTitle": "Endless Night",
+        "keyType": "Common Key",
+        "level": 40,
+        "effect": "<p>When attacking enemy units with debuffs, phase damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks after obtaining all Fixed Keys</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "5%",
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/e6706abb9582160b43ca67d2ecf0755a2b64f525113beaab82a70af65e8c1c50.webp",
+        "createdAt": "2025-10-07T06:27:09.320Z",
+        "updatedAt": "2025-11-06T15:19:52.636Z",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "dollImages": [
+            {
+              "id": "2c9cb004-bc64-4dd2-ac4b-6b6cec06c89f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/9aa7efcb46fcdf6136792b13751617a1a2421d73d3744c57c158c0a95511b220.webp",
+              "createdAt": "2025-10-07T05:05:04.575Z",
+              "updatedAt": "2025-10-07T05:05:04.575Z"
+            }
+          ],
+          "searchTags": [
+            "AA-12",
+            "Owl's waifu"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Common Key - Endless Night"
+      },
+      {
+        "id": "3a790967-6db1-44d5-81e4-f7c7463d55b9",
+        "keyTitle": "Nociception",
+        "keyType": "Fixed Key",
+        "keyNumber": 1,
+        "level": 20,
+        "effect": "<p>At the start of the turn, Lind gains [effect:af640815-bbef-471b-8888-cee6c3d8b4a4].</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/b2498968b455df6024ec1ee247b810dc01edd60023443a488ae38c9649ac438e.webp",
+        "createdAt": "2025-10-07T05:14:31.672Z",
+        "updatedAt": "2025-11-06T15:15:57.475Z",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "dollImages": [
+            {
+              "id": "2c9cb004-bc64-4dd2-ac4b-6b6cec06c89f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/9aa7efcb46fcdf6136792b13751617a1a2421d73d3744c57c158c0a95511b220.webp",
+              "createdAt": "2025-10-07T05:05:04.575Z",
+              "updatedAt": "2025-10-07T05:05:04.575Z"
+            }
+          ],
+          "searchTags": [
+            "AA-12",
+            "Owl's waifu"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 1 - Nociception"
+      },
+      {
+        "id": "7917a4fe-fc33-4b1e-8d9f-382c56fac22c",
+        "keyTitle": "Night Owl's Keenness",
+        "keyType": "Fixed Key",
+        "keyNumber": 2,
+        "level": 20,
+        "effect": "<p>After using the active skill <span style=\"color: rgb(34, 139, 230);\">Assault Spray</span> or the active skill <span style=\"color: rgb(34, 139, 230);\">Overwhelming Burst</span>, Lind gains <span style=\"color: rgb(243, 109, 28);\">5 tiles </span>of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/29c779bcfdff8c99c409dd0a2c23431924199bbc934183558b18271f0fc6726a.webp",
+        "createdAt": "2025-10-07T05:27:47.303Z",
+        "updatedAt": "2025-11-06T15:16:24.984Z",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "dollImages": [
+            {
+              "id": "2c9cb004-bc64-4dd2-ac4b-6b6cec06c89f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/9aa7efcb46fcdf6136792b13751617a1a2421d73d3744c57c158c0a95511b220.webp",
+              "createdAt": "2025-10-07T05:05:04.575Z",
+              "updatedAt": "2025-10-07T05:05:04.575Z"
+            }
+          ],
+          "searchTags": [
+            "AA-12",
+            "Owl's waifu"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 2 - Night Owl's Keenness"
+      },
+      {
+        "id": "119aaf8c-46f2-46dd-9ad5-caebc13be970",
+        "keyTitle": "Radio Invitation",
+        "keyType": "Fixed Key",
+        "keyNumber": 3,
+        "level": 30,
+        "effect": "<p>Selects <span style=\"color: rgb(243, 109, 28);\">1</span> allied Doll on the battlefield. The selected Doll will be unable to move or use active skills in the battle, but all enemy units' defense is reduced by <span style=\"color: rgb(243, 109, 28);\">15% </span>until the selected Doll dies. Lind gains [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2].</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/d4b55e31a85fbd992c783e9dc90b74b9dbbcb142152ad354895a0bcf0fd64c2d.webp",
+        "createdAt": "2025-10-07T05:47:32.204Z",
+        "updatedAt": "2025-11-06T15:17:13.781Z",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "dollImages": [
+            {
+              "id": "2c9cb004-bc64-4dd2-ac4b-6b6cec06c89f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/9aa7efcb46fcdf6136792b13751617a1a2421d73d3744c57c158c0a95511b220.webp",
+              "createdAt": "2025-10-07T05:05:04.575Z",
+              "updatedAt": "2025-10-07T05:05:04.575Z"
+            }
+          ],
+          "searchTags": [
+            "AA-12",
+            "Owl's waifu"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 3 - Radio Invitation"
+      },
+      {
+        "id": "add00d92-3e67-4df2-ae2b-9c4502e56fe5",
+        "keyTitle": "Civilized Judgement",
+        "keyType": "Fixed Key",
+        "keyNumber": 4,
+        "level": 30,
+        "effect": "<p>When the active skill <span style=\"color: rgb(34, 139, 230);\">Overwhelming Burst</span> hits only <span style=\"color: rgb(243, 109, 28);\">1 </span>enemy target, damage dealt to the enemy target is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/civilization's-verdict/a46e827f5508e0e6dd7a45061b5f0e744f3efc6711fb079607c4a77f55c24987.webp",
+        "createdAt": "2025-10-07T06:08:37.534Z",
+        "updatedAt": "2025-11-07T00:58:37.695Z",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "dollImages": [
+            {
+              "id": "2c9cb004-bc64-4dd2-ac4b-6b6cec06c89f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/9aa7efcb46fcdf6136792b13751617a1a2421d73d3744c57c158c0a95511b220.webp",
+              "createdAt": "2025-10-07T05:05:04.575Z",
+              "updatedAt": "2025-10-07T05:05:04.575Z"
+            }
+          ],
+          "searchTags": [
+            "AA-12",
+            "Owl's waifu"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 4 - Civilized Judgement"
+      },
+      {
+        "id": "e0f553b5-8016-42a2-afcb-5a7c0e856196",
+        "keyTitle": "Dessert Therapy",
+        "keyType": "Fixed Key",
+        "keyNumber": 5,
+        "level": 40,
+        "effect": "<p>When Lind has [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff from herself before an attack resolves.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/8af3680b984afc13e7e429b1f7ef44a7d67dad37e86ed5ce9283d71973d9ded1.webp",
+        "createdAt": "2025-10-07T06:15:40.007Z",
+        "updatedAt": "2025-11-06T15:18:15.049Z",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "dollImages": [
+            {
+              "id": "2c9cb004-bc64-4dd2-ac4b-6b6cec06c89f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/9aa7efcb46fcdf6136792b13751617a1a2421d73d3744c57c158c0a95511b220.webp",
+              "createdAt": "2025-10-07T05:05:04.575Z",
+              "updatedAt": "2025-10-07T05:05:04.575Z"
+            }
+          ],
+          "searchTags": [
+            "AA-12",
+            "Owl's waifu"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 5 - Dessert Therapy"
+      },
+      {
+        "id": "aa814208-fb27-428c-bc85-f5f94777f1db",
+        "keyTitle": "Withdrawal Reaction",
+        "keyType": "Fixed Key",
+        "keyNumber": 6,
+        "level": 40,
+        "effect": "<p>Before the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Glucose Overload</span><span> resolves</span>, Lind gains [effect:d57b4e35-45b8-4c7a-8521-afcd99c30dd9] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/02e25c4a81097a7319fef8a4ad8904bf4070621c249cec6a169c27f73d82a031.webp",
+        "createdAt": "2025-10-07T06:20:38.773Z",
+        "updatedAt": "2025-11-06T15:18:56.537Z",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "dollImages": [
+            {
+              "id": "2c9cb004-bc64-4dd2-ac4b-6b6cec06c89f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/9aa7efcb46fcdf6136792b13751617a1a2421d73d3744c57c158c0a95511b220.webp",
+              "createdAt": "2025-10-07T05:05:04.575Z",
+              "updatedAt": "2025-10-07T05:05:04.575Z"
+            }
+          ],
+          "searchTags": [
+            "AA-12",
+            "Owl's waifu"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 6 - Withdrawal Reaction"
+      }
+    ],
+    "vertebrae": [
+      {
+        "id": "ee365f8c-3570-4ee7-aaf4-7c8d102389e6",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "segment": 1,
+        "vertebraeName": "Sweets Stockpile Lv.2",
+        "level": 2,
+        "effect": "<p>At the start of the battle, for <span style=\"color: rgb(243, 109, 28);\">each </span>allied Doll on the battlefield, Lind gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee]. The maximum number of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee] stacks is increased to <span style=\"color: rgb(243, 109, 28);\">30</span>.</p><p>The effect of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee] is enhanced: Corrosion damage dealt boost is increased to <span style=\"color: rgb(243, 109, 28);\">2% </span>instead.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/be6c6b96b3d9beadbf201c7b8067242ee25f2f8dce877fec9cc2985440cdc795.webp",
+        "createdAt": "2025-10-11T04:30:11.036Z",
+        "updatedAt": "2025-11-09T11:23:51.032Z",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "class": "Sentinel",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "A Doll who appears hot-tempered on the outside but is actually sensitive on the inside, often forcing herself to do things she's not good at and falling into self-loathing. Enjoys staying up late listening to late-night radio. If she doesn't consume sugar in time, she easily gets nauseous. Strongly dislikes savage violence, but she believes weapons are merely a civilized and effective means of resolution, so using guns doesn't fall into that category. \"Consuming too much sugar will cause me to malfunction, but if I don't consume any, I'll break down immediately, so I'll eat anyway... Mm. Commander, would you like a piece too?\"",
+          "preview": false,
+          "movement": 5,
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "stabilityGauge": 9
+        },
+        "skillsLevel2": [
+          {
+            "id": "e0f82c1b-5569-4520-9595-5a18bb9f00b9",
+            "name": "Sweets Stockpile",
+            "phase": null,
+            "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+            "cooldown": 0,
+            "imageUrl": "https://cdn.dandegate.net/skills/be6c6b96b3d9beadbf201c7b8067242ee25f2f8dce877fec9cc2985440cdc795.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-10-11T01:55:13.117Z",
+            "skillTags": [
+              "Debuff",
+              "Passive"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-11-08T02:54:25.286Z",
+            "description": "<p>At the end of the action, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">point</span> of Confectance Index.</p><p>At the start of the turn, applies [effect:07e12471-a5f5-4689-8a40-342ba9879a19] to all enemy units. This effect has a cooldown of <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When an enemy unit with [effect:07e12471-a5f5-4689-8a40-342ba9879a19] dies or an allied unit deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee]. When Lind holds <span style=\"color: rgb(243, 109, 28);\">5</span> <span style=\"color: rgb(243, 109, 28);\">or more</span> stacks of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], before attacking enemy targets with [effect:07e12471-a5f5-4689-8a40-342ba9879a19], triggers the effects of [effect:07e12471-a5f5-4689-8a40-342ba9879a19]. [effect:07e12471-a5f5-4689-8a40-342ba9879a19] is consumed thereafter.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 0,
+            "stabilityDamage": 0,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[\"Buff\",\"Debuff\",\"Passive\"]",
+            "skillTagsLevel3": "[\"Buff\",\"Debuff\",\"Passive\"]",
+            "descriptionLevel2": "<p>At the end of the action, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">point</span> of Confectance Index.</p><p>At the start of the turn, applies [effect:07e12471-a5f5-4689-8a40-342ba9879a19] to all enemy units. This effect has a cooldown of <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>At the start of the battle, for <span style=\"color: rgb(243, 109, 28);\">each</span> allied Doll on the battlefield, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee]. When an enemy unit with [effect:07e12471-a5f5-4689-8a40-342ba9879a19] dies or an allied unit deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Lind gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee].<br>When Lind holds <span style=\"color: rgb(243, 109, 28);\">5 or more</span> stacks of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], before attacking enemy targets with [effect:07e12471-a5f5-4689-8a40-342ba9879a19], triggers the effects of [effect:07e12471-a5f5-4689-8a40-342ba9879a19]. [effect:07e12471-a5f5-4689-8a40-342ba9879a19] is consumed thereafter.</p>",
+            "descriptionLevel3": "<p>At the end of the action, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">point</span> of Confectance Index.</p><p>At the start of the turn, applies [effect:07e12471-a5f5-4689-8a40-342ba9879a19] to all enemy units.</p><p>At the start of the battle, for <span style=\"color: rgb(243, 109, 28);\">each</span> allied Doll on the battlefield, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee]. When an enemy unit with [effect:07e12471-a5f5-4689-8a40-342ba9879a19] dies or an allied unit deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee].<br>When Lind holds <span style=\"color: rgb(243, 109, 28);\">5 or more</span> stacks of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], before attacking enemy targets with [effect:07e12471-a5f5-4689-8a40-342ba9879a19], triggers the effects of [effect:07e12471-a5f5-4689-8a40-342ba9879a19]. [effect:07e12471-a5f5-4689-8a40-342ba9879a19] is consumed thereafter.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "ee365f8c-3570-4ee7-aaf4-7c8d102389e6",
+            "vertebraeUpgradeIdLevel3": "5c2995a9-f506-4b31-8ed6-274fcdbdecbd"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "840d0ce6-2226-481e-84a5-2266286f2dec",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "segment": 2,
+        "vertebraeName": "Glucose Overload Lv.2",
+        "level": 2,
+        "effect": "<p>The damage dealt by the next active skill used is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p><p>The effects of [effect:2caa0ee6-a15d-4a25-849e-fa65a552987f] is enhanced: Corrosion damage dealt boost by Lind is increased to <span style=\"color: rgb(243, 109, 28);\">12%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">72%</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/220eb59fc92c82bb88caf460b4d32e014d7cc6bae300f1cfeef61fad7393c79b.webp",
+        "createdAt": "2025-10-11T04:31:38.491Z",
+        "updatedAt": "2025-11-07T03:43:12.889Z",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "class": "Sentinel",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "A Doll who appears hot-tempered on the outside but is actually sensitive on the inside, often forcing herself to do things she's not good at and falling into self-loathing. Enjoys staying up late listening to late-night radio. If she doesn't consume sugar in time, she easily gets nauseous. Strongly dislikes savage violence, but she believes weapons are merely a civilized and effective means of resolution, so using guns doesn't fall into that category. \"Consuming too much sugar will cause me to malfunction, but if I don't consume any, I'll break down immediately, so I'll eat anyway... Mm. Commander, would you like a piece too?\"",
+          "preview": false,
+          "movement": 5,
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "stabilityGauge": 9
+        },
+        "skillsLevel2": [
+          {
+            "id": "695e5158-cc81-4b06-80bf-d5b3751cb14c",
+            "name": "Glucose Overload",
+            "phase": null,
+            "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+            "cooldown": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/220eb59fc92c82bb88caf460b4d32e014d7cc6bae300f1cfeef61fad7393c79b.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-10-11T01:52:49.081Z",
+            "skillTags": [
+              "Ultimate",
+              "AoE"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-11-08T02:47:44.629Z",
+            "description": "<p>Applies [effect:2caa0ee6-a15d-4a25-849e-fa65a552987f] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">8</span> <span style=\"color: rgb(243, 109, 28);\">tiles</span> for<span style=\"color: rgb(243, 109, 28);\"> 1</span> <span style=\"color: rgb(243, 109, 28);\">turn</span>. After this skill resolves, triggers all Corrosion debuffs held by all enemy units within this skill's effective range. After skill usage, Lind can use the active skill [dollSkill:20ca9f4c-50f6-45a1-96b6-6af2ca3789f2], the active skill [dollSkill:22da7130-ee62-417e-89fc-50d38b9ec8eb], or the basic attack [dollSkill:e4d768ec-4820-44b1-9e73-1b54ebcd348e].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"aa814208-fb27-428c-bc85-f5f94777f1db\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Applies [effect:2caa0ee6-a15d-4a25-849e-fa65a552987f] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">8</span> <span style=\"color: rgb(243, 109, 28);\">tiles</span> for<span style=\"color: rgb(243, 109, 28);\"> 1</span> <span style=\"color: rgb(243, 109, 28);\">turn</span>. After this skill resolves, triggers all Corrosion debuffs held by all enemy units within this skill's effective range. The damage dealt by the next active skill is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. After skill usage, Lind can use the active skill [dollSkill:20ca9f4c-50f6-45a1-96b6-6af2ca3789f2], the active skill [dollSkill:22da7130-ee62-417e-89fc-50d38b9ec8eb], or the basic attack [dollSkill:e4d768ec-4820-44b1-9e73-1b54ebcd348e].</p>",
+            "descriptionLevel3": "<p>Applies [effect:2caa0ee6-a15d-4a25-849e-fa65a552987f] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">8</span> <span style=\"color: rgb(243, 109, 28);\">tiles</span> for<span style=\"color: rgb(243, 109, 28);\"> 1</span> <span style=\"color: rgb(243, 109, 28);\">turn</span>. After this skill resolves, triggers all Corrosion debuffs held by all enemy units within this skill's effective range. The damage dealt by the next active skill is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. After skill usage, Lind can use the active skill [dollSkill:20ca9f4c-50f6-45a1-96b6-6af2ca3789f2], the active skill [dollSkill:22da7130-ee62-417e-89fc-50d38b9ec8eb], or the basic attack [dollSkill:e4d768ec-4820-44b1-9e73-1b54ebcd348e]. In addition, Lind gains <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index after skill usage. If Lind has <span style=\"color: rgb(243, 109, 28);\">10 stacks</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], this skill's cooldown is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "840d0ce6-2226-481e-84a5-2266286f2dec",
+            "vertebraeUpgradeIdLevel3": "21d9abb8-3b89-49a9-8508-1fa2aa56bf1c"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "5c2995a9-f506-4b31-8ed6-274fcdbdecbd",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "segment": 3,
+        "vertebraeName": "Sweets Stockpile Lv.3",
+        "level": 3,
+        "effect": "<p>Applies [effect:07e12471-a5f5-4689-8a40-342ba9879a19] at the start of the turn. It no longer has cooldown.</p><p>When [effect:07e12471-a5f5-4689-8a40-342ba9879a19] is triggered, the number of powerful debuffs that can be randomly applied to enemy units is increased by <span style=\"color: rgb(243, 109, 28);\">3</span>. In addition, the damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>, and critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/be6c6b96b3d9beadbf201c7b8067242ee25f2f8dce877fec9cc2985440cdc795.webp",
+        "createdAt": "2025-10-11T04:34:32.647Z",
+        "updatedAt": "2025-11-07T03:50:15.871Z",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "class": "Sentinel",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "A Doll who appears hot-tempered on the outside but is actually sensitive on the inside, often forcing herself to do things she's not good at and falling into self-loathing. Enjoys staying up late listening to late-night radio. If she doesn't consume sugar in time, she easily gets nauseous. Strongly dislikes savage violence, but she believes weapons are merely a civilized and effective means of resolution, so using guns doesn't fall into that category. \"Consuming too much sugar will cause me to malfunction, but if I don't consume any, I'll break down immediately, so I'll eat anyway... Mm. Commander, would you like a piece too?\"",
+          "preview": false,
+          "movement": 5,
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "stabilityGauge": 9
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "e0f82c1b-5569-4520-9595-5a18bb9f00b9",
+            "name": "Sweets Stockpile",
+            "phase": null,
+            "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+            "cooldown": 0,
+            "imageUrl": "https://cdn.dandegate.net/skills/be6c6b96b3d9beadbf201c7b8067242ee25f2f8dce877fec9cc2985440cdc795.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-10-11T01:55:13.117Z",
+            "skillTags": [
+              "Debuff",
+              "Passive"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-11-08T02:54:25.286Z",
+            "description": "<p>At the end of the action, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">point</span> of Confectance Index.</p><p>At the start of the turn, applies [effect:07e12471-a5f5-4689-8a40-342ba9879a19] to all enemy units. This effect has a cooldown of <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When an enemy unit with [effect:07e12471-a5f5-4689-8a40-342ba9879a19] dies or an allied unit deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee]. When Lind holds <span style=\"color: rgb(243, 109, 28);\">5</span> <span style=\"color: rgb(243, 109, 28);\">or more</span> stacks of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], before attacking enemy targets with [effect:07e12471-a5f5-4689-8a40-342ba9879a19], triggers the effects of [effect:07e12471-a5f5-4689-8a40-342ba9879a19]. [effect:07e12471-a5f5-4689-8a40-342ba9879a19] is consumed thereafter.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 0,
+            "stabilityDamage": 0,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[\"Buff\",\"Debuff\",\"Passive\"]",
+            "skillTagsLevel3": "[\"Buff\",\"Debuff\",\"Passive\"]",
+            "descriptionLevel2": "<p>At the end of the action, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">point</span> of Confectance Index.</p><p>At the start of the turn, applies [effect:07e12471-a5f5-4689-8a40-342ba9879a19] to all enemy units. This effect has a cooldown of <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>At the start of the battle, for <span style=\"color: rgb(243, 109, 28);\">each</span> allied Doll on the battlefield, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee]. When an enemy unit with [effect:07e12471-a5f5-4689-8a40-342ba9879a19] dies or an allied unit deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Lind gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee].<br>When Lind holds <span style=\"color: rgb(243, 109, 28);\">5 or more</span> stacks of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], before attacking enemy targets with [effect:07e12471-a5f5-4689-8a40-342ba9879a19], triggers the effects of [effect:07e12471-a5f5-4689-8a40-342ba9879a19]. [effect:07e12471-a5f5-4689-8a40-342ba9879a19] is consumed thereafter.</p>",
+            "descriptionLevel3": "<p>At the end of the action, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">point</span> of Confectance Index.</p><p>At the start of the turn, applies [effect:07e12471-a5f5-4689-8a40-342ba9879a19] to all enemy units.</p><p>At the start of the battle, for <span style=\"color: rgb(243, 109, 28);\">each</span> allied Doll on the battlefield, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee]. When an enemy unit with [effect:07e12471-a5f5-4689-8a40-342ba9879a19] dies or an allied unit deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, Lind gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee].<br>When Lind holds <span style=\"color: rgb(243, 109, 28);\">5 or more</span> stacks of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], before attacking enemy targets with [effect:07e12471-a5f5-4689-8a40-342ba9879a19], triggers the effects of [effect:07e12471-a5f5-4689-8a40-342ba9879a19]. [effect:07e12471-a5f5-4689-8a40-342ba9879a19] is consumed thereafter.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "ee365f8c-3570-4ee7-aaf4-7c8d102389e6",
+            "vertebraeUpgradeIdLevel3": "5c2995a9-f506-4b31-8ed6-274fcdbdecbd"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "17a33f51-7328-44f7-9013-67c50eb0709f",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "segment": 4,
+        "vertebraeName": "Assault Spray Lv.2",
+        "level": 2,
+        "effect": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">2</span> stacks of [effect:99f12388-757e-4e6a-a187-7f823e50ddd9]  on enemy targets.</p><p>Increases the skill's effective range.</p><p>For each debuff held by the enemy, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">60%</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/c2149c91ff07b500f496003fb1b12097de9fc39a6a8322c726485c0ee666116a.webp",
+        "createdAt": "2025-10-11T04:35:55.173Z",
+        "updatedAt": "2025-11-07T04:00:17.158Z",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "class": "Sentinel",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "A Doll who appears hot-tempered on the outside but is actually sensitive on the inside, often forcing herself to do things she's not good at and falling into self-loathing. Enjoys staying up late listening to late-night radio. If she doesn't consume sugar in time, she easily gets nauseous. Strongly dislikes savage violence, but she believes weapons are merely a civilized and effective means of resolution, so using guns doesn't fall into that category. \"Consuming too much sugar will cause me to malfunction, but if I don't consume any, I'll break down immediately, so I'll eat anyway... Mm. Commander, would you like a piece too?\"",
+          "preview": false,
+          "movement": 5,
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "stabilityGauge": 9
+        },
+        "skillsLevel2": [
+          {
+            "id": "20ca9f4c-50f6-45a1-96b6-6af2ca3789f2",
+            "name": "Assault Spray",
+            "phase": "Corrosion",
+            "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+            "cooldown": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/c2149c91ff07b500f496003fb1b12097de9fc39a6a8322c726485c0ee666116a.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Shotgun Ammo\"]",
+            "createdAt": "2025-10-11T01:43:52.983Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Debuff"
+            ],
+            "skillType": "Skill 1",
+            "updatedAt": "2025-11-08T02:59:44.518Z",
+            "description": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1 direction</span>, and deals AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemies in a narrow-angled fan-shaped are <span style=\"color: rgb(243, 109, 28);\">6 tiles wide</span> in the selected direction. For <span style=\"color: rgb(243, 109, 28);\">each </span>debuff on a target, damage dealt is increased by<span style=\"color: rgb(243, 109, 28);\"> 5%</span>, to a maximum increase of<span style=\"color: rgb(243, 109, 28);\"> 30%</span>. Before the skill resolves, applies <span style=\"color: rgb(243, 109, 28);\">1 </span>random powerful debuff to all enemy units in the effective range. After the skill resolves, Lind gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "d7f6874a-f0ed-4d4e-8e82-686fcd85f676",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"7917a4fe-fc33-4b1e-8d9f-382c56fac22c\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1 direction</span>, and deals AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemies in a fan-shaped are <span style=\"color: rgb(243, 109, 28);\">6 tiles wide</span> in the selected direction, and applies <span style=\"color: rgb(243, 109, 28);\">2 stacks </span>of [effect:99f12388-757e-4e6a-a187-7f823e50ddd9] to all targets in ite effective range. For <span style=\"color: rgb(243, 109, 28);\">each </span>debuff on a target, damage dealt is increased by<span style=\"color: rgb(243, 109, 28);\"> 10%</span>, to a maximum increase of<span style=\"color: rgb(243, 109, 28);\"> 60%</span>. Before the skill resolves, applies <span style=\"color: rgb(243, 109, 28);\">1 </span>random powerful debuff to all enemy units in the effective range. After the skill resolves, Lind gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": "416c26de-08f2-458d-bbfd-6819ece65dc3",
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "17a33f51-7328-44f7-9013-67c50eb0709f",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "57afb597-3a59-446b-a4a2-65eedc27f373",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "segment": 5,
+        "vertebraeName": "Overwhelming Burst Lv.2",
+        "level": 2,
+        "effect": "<p>The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">120%</span> and stability damage dealt is increased by<span style=\"color: rgb(243, 109, 28);\"> 1</span> point.</p><p>Before skill usage, if Confectance Index is at maximum, critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>, and the damage multiplier boost is increased to <span style=\"color: rgb(243, 109, 28);\">10%</span><span> for each stack of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee] held by Lind</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/17df7938f5aba06fc3c1e23e9efb34a99d1fbf068aa6785ea0d81e7a248b4ce7.webp",
+        "createdAt": "2025-10-11T04:36:47.486Z",
+        "updatedAt": "2025-11-07T04:04:57.064Z",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "class": "Sentinel",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "A Doll who appears hot-tempered on the outside but is actually sensitive on the inside, often forcing herself to do things she's not good at and falling into self-loathing. Enjoys staying up late listening to late-night radio. If she doesn't consume sugar in time, she easily gets nauseous. Strongly dislikes savage violence, but she believes weapons are merely a civilized and effective means of resolution, so using guns doesn't fall into that category. \"Consuming too much sugar will cause me to malfunction, but if I don't consume any, I'll break down immediately, so I'll eat anyway... Mm. Commander, would you like a piece too?\"",
+          "preview": false,
+          "movement": 5,
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "stabilityGauge": 9
+        },
+        "skillsLevel2": [
+          {
+            "id": "22da7130-ee62-417e-89fc-50d38b9ec8eb",
+            "name": "Overwhelming Burst",
+            "phase": "Corrosion",
+            "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+            "cooldown": 0,
+            "imageUrl": "https://cdn.dandegate.net/skills/17df7938f5aba06fc3c1e23e9efb34a99d1fbf068aa6785ea0d81e7a248b4ce7.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Shotgun Ammo\"]",
+            "createdAt": "2025-10-11T01:49:06.063Z",
+            "skillTags": [
+              "Active",
+              "AoE"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2025-11-08T02:45:33.871Z",
+            "description": "<p>Deals AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy targets within<span style=\"color: rgb(243, 109, 28);\"> 6 tiles</span>. Before skill usage, if Confectance Index is at maximum, the damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span> for each stack of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee] held by Lind.</p>",
+            "phaseLevel2": "Corrosion",
+            "phaseLevel3": null,
+            "rangeMapId": "b9c82204-b6c6-4287-850e-543ff93c7ad8",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 4,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[\"Shotgun Ammo\"]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"7917a4fe-fc33-4b1e-8d9f-382c56fac22c\",\"add00d92-3e67-4df2-ae2b-9c4502e56fe5\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Deals AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. Before skill usage, if Confectance Index is at maximum, critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span> and the damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span> for each stack of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee] held by<span style=\"color: rgb(243, 109, 28);\"> </span>Lind.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": 4,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": 3,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "57afb597-3a59-446b-a4a2-65eedc27f373",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "21d9abb8-3b89-49a9-8508-1fa2aa56bf1c",
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "segment": 6,
+        "vertebraeName": "Glucose Overload Lv.3",
+        "level": 3,
+        "effect": "<p>Lind gains <span style=\"color: rgb(243, 109, 28);\">3</span> <span style=\"color: rgb(243, 109, 28);\">points </span>of Confectance Index after skill usage. If Lind has<span style=\"color: rgb(243, 109, 28);\"> 10 </span><span style=\"color: rgb(243, 109, 28);\">stacks </span>of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], this skill's cooldown is reduced by <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">turn</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/220eb59fc92c82bb88caf460b4d32e014d7cc6bae300f1cfeef61fad7393c79b.webp",
+        "createdAt": "2025-10-11T04:38:22.196Z",
+        "updatedAt": "2025-11-07T04:07:09.633Z",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "class": "Sentinel",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "A Doll who appears hot-tempered on the outside but is actually sensitive on the inside, often forcing herself to do things she's not good at and falling into self-loathing. Enjoys staying up late listening to late-night radio. If she doesn't consume sugar in time, she easily gets nauseous. Strongly dislikes savage violence, but she believes weapons are merely a civilized and effective means of resolution, so using guns doesn't fall into that category. \"Consuming too much sugar will cause me to malfunction, but if I don't consume any, I'll break down immediately, so I'll eat anyway... Mm. Commander, would you like a piece too?\"",
+          "preview": false,
+          "movement": 5,
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "stabilityGauge": 9
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "695e5158-cc81-4b06-80bf-d5b3751cb14c",
+            "name": "Glucose Overload",
+            "phase": null,
+            "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+            "cooldown": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/220eb59fc92c82bb88caf460b4d32e014d7cc6bae300f1cfeef61fad7393c79b.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-10-11T01:52:49.081Z",
+            "skillTags": [
+              "Ultimate",
+              "AoE"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-11-08T02:47:44.629Z",
+            "description": "<p>Applies [effect:2caa0ee6-a15d-4a25-849e-fa65a552987f] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">8</span> <span style=\"color: rgb(243, 109, 28);\">tiles</span> for<span style=\"color: rgb(243, 109, 28);\"> 1</span> <span style=\"color: rgb(243, 109, 28);\">turn</span>. After this skill resolves, triggers all Corrosion debuffs held by all enemy units within this skill's effective range. After skill usage, Lind can use the active skill [dollSkill:20ca9f4c-50f6-45a1-96b6-6af2ca3789f2], the active skill [dollSkill:22da7130-ee62-417e-89fc-50d38b9ec8eb], or the basic attack [dollSkill:e4d768ec-4820-44b1-9e73-1b54ebcd348e].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"aa814208-fb27-428c-bc85-f5f94777f1db\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Applies [effect:2caa0ee6-a15d-4a25-849e-fa65a552987f] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">8</span> <span style=\"color: rgb(243, 109, 28);\">tiles</span> for<span style=\"color: rgb(243, 109, 28);\"> 1</span> <span style=\"color: rgb(243, 109, 28);\">turn</span>. After this skill resolves, triggers all Corrosion debuffs held by all enemy units within this skill's effective range. The damage dealt by the next active skill is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. After skill usage, Lind can use the active skill [dollSkill:20ca9f4c-50f6-45a1-96b6-6af2ca3789f2], the active skill [dollSkill:22da7130-ee62-417e-89fc-50d38b9ec8eb], or the basic attack [dollSkill:e4d768ec-4820-44b1-9e73-1b54ebcd348e].</p>",
+            "descriptionLevel3": "<p>Applies [effect:2caa0ee6-a15d-4a25-849e-fa65a552987f] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">8</span> <span style=\"color: rgb(243, 109, 28);\">tiles</span> for<span style=\"color: rgb(243, 109, 28);\"> 1</span> <span style=\"color: rgb(243, 109, 28);\">turn</span>. After this skill resolves, triggers all Corrosion debuffs held by all enemy units within this skill's effective range. The damage dealt by the next active skill is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. After skill usage, Lind can use the active skill [dollSkill:20ca9f4c-50f6-45a1-96b6-6af2ca3789f2], the active skill [dollSkill:22da7130-ee62-417e-89fc-50d38b9ec8eb], or the basic attack [dollSkill:e4d768ec-4820-44b1-9e73-1b54ebcd348e]. In addition, Lind gains <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index after skill usage. If Lind has <span style=\"color: rgb(243, 109, 28);\">10 stacks</span> of [effect:d78cda3d-c53a-4734-862f-8a513f7e8aee], this skill's cooldown is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "840d0ce6-2226-481e-84a5-2266286f2dec",
+            "vertebraeUpgradeIdLevel3": "21d9abb8-3b89-49a9-8508-1fa2aa56bf1c"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      }
+    ],
+    "summons": [],
+    "remoldingPattern": {
+      "id": "13f8860b-7fb3-4863-b99e-d7d23be14f52",
+      "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+      "coreSlots": {
+        "bulwark": 1,
+        "support": 0,
+        "sentinel": 4,
+        "vanguard": 1
+      },
+      "statBoosts": {
+        "60": {
+          "hp": 679,
+          "atk": 252,
+          "def": 217
+        }
+      },
+      "dollCore": "Sentinel Core",
+      "createdAt": "2025-10-13T02:22:42.205Z",
+      "updatedAt": "2025-10-14T02:27:34.198Z",
+      "doll": {
+        "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "name": "Lind",
+        "class": "Sentinel",
+        "phase": "Corrosion",
+        "rarity": "Elite",
+        "preview": false,
+        "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+        "regionTag": "en",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      "imagoforms": [
+        {
+          "id": "4a1a3acb-e67a-46aa-89fb-b13064c9c65d",
+          "stage": "Embryo",
+          "effect": "<p>Damage dealt to enemy units with Corrosion debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 1,
+          "createdAt": "2025-10-13T02:22:43.151Z",
+          "updatedAt": "2025-10-14T02:27:34.238Z",
+          "bulwarkFactors": 0,
+          "supportFactors": 0,
+          "sentinelFactors": 5,
+          "vanguardFactors": 1
+        },
+        {
+          "id": "75c3cbf8-30df-4491-82fb-e27612cff498",
+          "stage": "Seedling",
+          "effect": "<p>Physical and phase damage taken is reduced by<span style=\"color: rgb(243, 109, 28);\"> 5%</span>.</p>",
+          "coreLevel": 10,
+          "createdAt": "2025-10-13T02:22:43.151Z",
+          "updatedAt": "2025-10-14T02:27:34.238Z",
+          "bulwarkFactors": 1,
+          "supportFactors": 0,
+          "sentinelFactors": 7,
+          "vanguardFactors": 2
+        },
+        {
+          "id": "3a995fc6-42a6-40f6-88d7-119bf55eb514",
+          "stage": "Sprout",
+          "effect": "<p><span style=\"color: rgb(135, 120, 233);\">Corrosion damage </span>dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 20,
+          "createdAt": "2025-10-13T02:22:43.151Z",
+          "updatedAt": "2025-10-14T02:27:34.238Z",
+          "bulwarkFactors": 2,
+          "supportFactors": 0,
+          "sentinelFactors": 8,
+          "vanguardFactors": 3
+        },
+        {
+          "id": "c4e61659-7e45-4c59-98c3-dc4e28ea52f3",
+          "stage": "Shoot",
+          "effect": "<p>Damage dealt to enemy targets in Stability Break is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+          "coreLevel": 30,
+          "createdAt": "2025-10-13T02:22:43.151Z",
+          "updatedAt": "2025-10-14T02:27:34.238Z",
+          "bulwarkFactors": 3,
+          "supportFactors": 0,
+          "sentinelFactors": 11,
+          "vanguardFactors": 4
+        },
+        {
+          "id": "a713f9f9-1186-4ceb-b54c-3f6fecafd352",
+          "stage": "Bud",
+          "effect": "<p>Attack is increased by <span style=\"color: rgb(243, 109, 28);\">8%</span>.</p>",
+          "coreLevel": 45,
+          "createdAt": "2025-10-13T02:22:43.151Z",
+          "updatedAt": "2025-10-14T02:27:34.238Z",
+          "bulwarkFactors": 4,
+          "supportFactors": 0,
+          "sentinelFactors": 15,
+          "vanguardFactors": 4
+        },
+        {
+          "id": "82b999c5-18fd-4734-abf6-532e05fa9561",
+          "stage": "Blossom",
+          "effect": "<p>The damage of attacks which hit <span style=\"color: rgb(243, 109, 28);\">2 or more</span> enemy units is increased by <span style=\"color: rgb(243, 109, 28);\">12%</span>.</p>",
+          "coreLevel": 60,
+          "createdAt": "2025-10-13T02:22:43.151Z",
+          "updatedAt": "2025-10-14T02:27:34.238Z",
+          "bulwarkFactors": 5,
+          "supportFactors": 0,
+          "sentinelFactors": 18,
+          "vanguardFactors": 6
+        }
+      ],
+      "equippedRelics": []
+    },
+    "dollEffects": [
+      {
+        "id": "99f12388-757e-4e6a-a187-7f823e50ddd9",
+        "effectName": "Alleviation Dependence",
+        "effectDetails": "<p>Debuff effects cannot be cleansed. For <span style=\"color: rgb(243, 109, 28);\">each </span>cleanse effect blocked by this effect, removes <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of this effect. Considered a neutral status effect, cannot be cleansed.</p>",
+        "effectTags": [],
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-11T07:19:24.551Z",
+        "updatedAt": "2025-11-07T03:53:09.074Z",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "dollImages": [
+            {
+              "id": "2c9cb004-bc64-4dd2-ac4b-6b6cec06c89f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/9aa7efcb46fcdf6136792b13751617a1a2421d73d3744c57c158c0a95511b220.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AA-12"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "Owl's waifu"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "d78cda3d-c53a-4734-862f-8a513f7e8aee",
+        "effectName": "Candyglaze",
+        "effectDetails": "{\"mainDetails\":\"<p>Increases <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage </span>dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">1%</span>. This can be stacked up to <span style=\\\"color: rgb(243, 109, 28);\\\">10</span> times, and cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"f0ceb04f-c620-477b-9421-ae84db9159f8\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>Increases <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">2%</span>. This can be stacked up to <span style=\\\"color: rgb(243, 109, 28);\\\">30</span> times, and cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [
+          "Attack",
+          "Buff",
+          "Corrosion"
+        ],
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-07T06:28:59.696Z",
+        "updatedAt": "2026-02-11T00:54:47.930Z",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "dollImages": [
+            {
+              "id": "2c9cb004-bc64-4dd2-ac4b-6b6cec06c89f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/9aa7efcb46fcdf6136792b13751617a1a2421d73d3744c57c158c0a95511b220.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AA-12"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "Owl's waifu"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "07e12471-a5f5-4689-8a40-342ba9879a19",
+        "effectName": "Honeytrap",
+        "effectDetails": "{\"mainDetails\":\"<p>When [effect:07e12471-a5f5-4689-8a40-342ba9879a19] is triggered, Lind applies <span style=\\\"color: rgb(243, 109, 28);\\\">3</span> random powerful debuff to the debuff holder, cleanses <span style=\\\"color: rgb(243, 109, 28);\\\">1 </span>buff, and performs [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">80%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of stability damage. Considered a Corrosion debuff, cannot be cleansed.</p><p><span style=\\\"color: rgb(34, 139, 230);\\\">Dandegate Note: Honeytrap itself lasts for 1 round but the powerful debuffs have a 2 turn duration.</span></p>\",\"upgrades\":[{\"id\":\"6506dc42-d440-4289-ad19-9ed799c03068\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>When [effect:07e12471-a5f5-4689-8a40-342ba9879a19] is triggered, Lind applies <span style=\\\"color: rgb(243, 109, 28);\\\">6</span> random powerful debuff to the debuff holder, cleanses <span style=\\\"color: rgb(243, 109, 28);\\\">1 </span>buff, and performs [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">120%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of stability damage. Critical damage from this attack is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span>. Considered a Corrosion debuff, cannot be cleansed.</p><p><span style=\\\"color: rgb(34, 139, 230);\\\">Dandegate Note: Honeytrap itself lasts for 1 round but the powerful debuffs have a 2 turn duration.</span></p>\",\"order\":0}]}",
+        "effectTags": [
+          "Corrosion",
+          "Debuff"
+        ],
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-11T07:17:21.247Z",
+        "updatedAt": "2025-11-07T03:58:17.275Z",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "dollImages": [
+            {
+              "id": "2c9cb004-bc64-4dd2-ac4b-6b6cec06c89f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/9aa7efcb46fcdf6136792b13751617a1a2421d73d3744c57c158c0a95511b220.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AA-12"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "Owl's waifu"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "2caa0ee6-a15d-4a25-849e-fa65a552987f",
+        "effectName": "Ketoacidemia",
+        "effectDetails": "{\"mainDetails\":\"<p>For <span style=\\\"color: rgb(243, 109, 28);\\\">each </span>debuff on the target, <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> from Lind is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>, up to a maximum increase of<span style=\\\"color: rgb(243, 109, 28);\\\"> 30%</span>. This is considered as a Corrosion debuff.</p>\",\"upgrades\":[{\"id\":\"786343ae-5a52-4c72-b303-8e6436ec8d0a\",\"upgradeName\":\"V2\",\"upgradeDetails\":\"<p>For <span style=\\\"color: rgb(243, 109, 28);\\\">each </span>debuff on the target, <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> from Lind is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">12%</span>, up to a maximum increase of<span style=\\\"color: rgb(243, 109, 28);\\\"> 72%</span>. This is considered as a Corrosion debuff.</p>\",\"order\":0}]}",
+        "effectTags": [
+          "Corrosion",
+          "Debuff"
+        ],
+        "dollId": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-11T07:07:23.900Z",
+        "updatedAt": "2025-11-07T04:10:02.979Z",
+        "doll": {
+          "id": "d9b45a84-2aeb-4b3c-9f3d-4aa46c52d526",
+          "name": "Lind",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/lind/249a546c1bc34c6e201a3fb17c6b06fac85329929019d67fd8e3ef44c2c871b0.webp",
+          "createdAt": "2025-10-07T05:04:57.387Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T07:11:51.653Z",
+          "dollImages": [
+            {
+              "id": "2c9cb004-bc64-4dd2-ac4b-6b6cec06c89f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/9aa7efcb46fcdf6136792b13751617a1a2421d73d3744c57c158c0a95511b220.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AA-12"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "Owl's waifu"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "shortId": "d25"
+  }
+}

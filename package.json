@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "scripts": {
+    "watch": "node esbuild.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "esbuild": "^0.27.4",
+    "esbuild-plugin-solid": "^0.6.0",
+    "esbuild-plugin-tailwindcss": "^2.2.0",
+    "eslint": "^10.1.0",
+    "prettier": "^3.8.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.2"
+  },
+  "dependencies": {
+    "@solid-primitives/deep": "^0.3.5",
+    "@solid-primitives/storage": "^4.3.4",
+    "@solidjs/meta": "^0.29.4",
+    "@tailwindcss/cli": "^4.2.2",
+    "dotenv": "^17.3.1",
+    "solid-js": "^1.9.12",
+    "tailwindcss": "^4.2.2"
+  }
+}

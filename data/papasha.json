@@ -1,0 +1,2322 @@
+{
+  "success": true,
+  "data": {
+    "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+    "name": "Papasha",
+    "class": "Sentinel",
+    "ammoTypes": "[\"Light Ammo\"]",
+    "phase": "Physical",
+    "rarity": "Elite",
+    "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+    "regionTag": "en",
+    "preview": false,
+    "createdAt": "2025-09-24T22:43:57.178Z",
+    "updatedAt": "2025-11-15T02:34:51.246Z",
+    "searchTags": [
+      "PPSh-41"
+    ],
+    "dollImages": [
+      {
+        "id": "86c2ce0d-92c6-449f-92c3-b8870c0f589f",
+        "category": "Card",
+        "imageUrl": "https://cdn.dandegate.net/dolls/papasha/card-1d4965697dec8020119ad8c06caac408.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+        "category": "Chibi",
+        "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+        "skinTitle": null,
+        "alt": null
+      }
+    ],
+    "weaponImprintType": null,
+    "weaponImprint": {
+      "id": "512676ff-31ea-452f-9d69-2944bf471fda",
+      "name": "Svarog",
+      "rarity": "Elite",
+      "weaponType": "Submachine Gun",
+      "primaryAttributeStat": 369,
+      "primaryAttribute": "Attack",
+      "secondaryAttribute": "Attack Boost",
+      "secondaryAttributeStat": "15%",
+      "trait": "<p>When dealing damage, for each debuff on the target, ignore <span style=\"color: rgb(243, 109, 28);\">5%</span> of its defense, up to <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+      "effect": "<p>Targeted damage dealt by the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is increased by <span style=\"color: rgb(243, 109, 28);\">15%/18%/21%/24%/27%/30%</span>. After the unit or an allied unit launches a Support Attack, the critical rate of its next active attack is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+      "imprintDescription": "<p>Damage dealt to PMC units is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span><span>. Damage dealt to Large Targets is increased by an additional </span><span style=\"color: rgb(243, 109, 28);\">2.5%</span><span>.</span></p>",
+      "imageUrl": "https://cdn.dandegate.net/weapons/a169c810c08e804d612b641f4d264325.webp",
+      "createdAt": "2025-10-02T00:53:49.043Z",
+      "updatedAt": "2025-11-15T02:34:39.259Z",
+      "regionTag": "en",
+      "preview": false,
+      "imprintDollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+      "imprintDoll": {
+        "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "name": "Papasha",
+        "rarity": "Elite",
+        "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp"
+      }
+    },
+    "stabilityGauge": 9,
+    "movement": 5,
+    "effects": "A warm-hearted Doll who doesn't know how to say \"no\", she has become a versatile helper through self-study in order to better handle any request. She is willing to give everything to protect everyone. When you encounter difficulties, feel free to rely on her-no mater what it is, Papasha will make it happen!",
+    "skills": [
+      {
+        "id": "02867d79-5c6d-493e-aee6-7e1a8d2711a4",
+        "name": "Warning Shot",
+        "description": "<p>Selects 1 enemy target within<span style=\"color: rgb(243, 109, 28);\"> 6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to them.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Light Ammo\"]",
+        "stabilityDamage": 3,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/f39fd8e958b90128efadbc0468353aa0.webp",
+        "createdAt": "2025-09-25T00:19:36.617Z",
+        "updatedAt": "2025-09-26T03:09:57.802Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Basic Attack",
+        "ammoTypesLevel2": null,
+        "ammoTypesLevel3": null,
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "e464c4f0-fd50-4c1a-a955-4e2fe60987fe",
+        "name": "Counter Terrorism Support",
+        "description": "<p>After Papasha attacks an enemy target, the City Warden will follow up with a Support Attack on the same target, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Light Ammo\"]",
+        "stabilityDamage": 3,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/e23d5a1de536990757f955827dc6d4d8.webp",
+        "createdAt": "2025-09-24T23:04:23.851Z",
+        "updatedAt": "2025-10-12T05:05:54.879Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "summonId": "6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc",
+        "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Passive",
+          "Support"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "preview": false
+        },
+        "summon": {
+          "hp": 80,
+          "id": "6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc",
+          "atk": 80,
+          "def": 80,
+          "name": "City Warden",
+          "class": null,
+          "phase": null,
+          "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "movement": 5,
+          "imageUrl": "https://cdn.dandegate.net/summons/city-warden/1758755022419-Summon_Whole_PapashaSSR01Warden.webp",
+          "unitInfo": "<p>A warden of the City. Protector of all that is good and fair in this world. If you need an unflinching soldier in the war against evil, this robot is for you.</p>",
+          "ammoTypes": null,
+          "createdAt": "2025-09-24T22:43:57.221Z",
+          "updatedAt": "2025-11-15T02:34:52.758Z",
+          "stabilityGauge": 9
+        },
+        "rangeMap": {
+          "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
+          "createdAt": "2025-09-13T06:39:18.350Z",
+          "updatedAt": "2025-09-20T22:07:05.813Z",
+          "rangeValue": "Map",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "0d6bdf76-a904-473d-a19d-c91835767b0b",
+        "name": "Explosion Prevention Measures",
+        "description": "<p>At the end of the turn, the City Warden will move independently to seek cover.</p><p>The City Warden's healing received is reduced by <span style=\"color: rgb(243, 109, 28);\">100%</span> and it cannot receive shields. When Papasha is healed, the City Warden restores <span style=\"color: rgb(243, 109, 28);\">10%</span> of its max HP. When the City Warden takes fatal damage, it enters [effect:58b037ca-2154-420f-9920-f3716e8f0202] state for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/ca0624131089c97ee1e436cc7daf5a72.webp",
+        "createdAt": "2025-09-24T23:04:43.969Z",
+        "updatedAt": "2025-10-14T07:07:17.365Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "summonId": "6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc",
+        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "a2568df4-da1a-4365-8047-e3381f42ff9a",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Passive",
+          "Healing"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>At the end of the turn, the City Warden will move independently to seek cover.</p><p>The City Warden's healing received is reduced by <span style=\"color: rgb(243, 109, 28);\">100%</span> and it cannot receive shields. When Papasha is healed, the City Warden restores <span style=\"color: rgb(243, 109, 28);\">20%</span> of its max HP. When the City Warden takes fatal damage, it enters [effect:58b037ca-2154-420f-9920-f3716e8f0202] state for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "preview": false
+        },
+        "summon": {
+          "hp": 80,
+          "id": "6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc",
+          "atk": 80,
+          "def": 80,
+          "name": "City Warden",
+          "class": null,
+          "phase": null,
+          "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "movement": 5,
+          "imageUrl": "https://cdn.dandegate.net/summons/city-warden/1758755022419-Summon_Whole_PapashaSSR01Warden.webp",
+          "unitInfo": "<p>A warden of the City. Protector of all that is good and fair in this world. If you need an unflinching soldier in the war against evil, this robot is for you.</p>",
+          "ammoTypes": null,
+          "createdAt": "2025-09-24T22:43:57.221Z",
+          "updatedAt": "2025-11-15T02:34:52.758Z",
+          "stabilityGauge": 9
+        },
+        "rangeMap": {
+          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+          "createdAt": "2025-09-13T05:48:21.166Z",
+          "updatedAt": "2025-09-13T05:48:21.166Z",
+          "rangeValue": "Self",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "a2568df4-da1a-4365-8047-e3381f42ff9a",
+          "level": 2,
+          "effect": "<p>The duration of the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> [effect:58b037ca-2154-420f-9920-f3716e8f0202] is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. After the user is healed, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] restores HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of its max HP.</p><p>The stability requirement for the target has been removed.</p><p>The effects of [effect:5aa28bfd-5b57-4578-b1ff-015088da504f] is enhanced: ignores <span style=\"color: rgb(243, 109, 28);\">30%</span> of defense when attacking Large Targets.</p>",
+          "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "segment": 1,
+          "imageUrl": "https://cdn.dandegate.net/skills/cd8c80628674b1db8c9e164a0df7bf3f.webp",
+          "createdAt": "2025-09-25T04:51:24.208Z",
+          "updatedAt": "2025-10-14T07:06:22.624Z",
+          "vertebraeName": "Honor Guard Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "74214d3d-8a58-4538-a486-b25aa33b5d4f",
+        "name": "Security Monitoring",
+        "description": "<p>At the end of the action, attacks the enemy target within the map that has used a basic attack or an active skill, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">40%</span> of attack to them. This effect can activate up to <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn.</p><p></p><p><span style=\"color: rgb(34, 139, 230);\">Note: This skill is inactive until V5.</span></p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/67f1f09d2dcf8383b0b496fdae015b8b.webp",
+        "createdAt": "2025-09-24T23:05:02.532Z",
+        "updatedAt": "2025-10-15T05:43:21.471Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "summonId": "6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc",
+        "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "170b3637-2fd3-478f-9944-b7df2986a68f",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Passive"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>At the end of the action, attacks the enemy target within the map that has used a basic attack or an active skill, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">40%</span> of attack to them. This effect can activate up to<span style=\"color: rgb(243, 109, 28);\"> 1 time</span> per turn.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "preview": false
+        },
+        "summon": {
+          "hp": 80,
+          "id": "6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc",
+          "atk": 80,
+          "def": 80,
+          "name": "City Warden",
+          "class": null,
+          "phase": null,
+          "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "movement": 5,
+          "imageUrl": "https://cdn.dandegate.net/summons/city-warden/1758755022419-Summon_Whole_PapashaSSR01Warden.webp",
+          "unitInfo": "<p>A warden of the City. Protector of all that is good and fair in this world. If you need an unflinching soldier in the war against evil, this robot is for you.</p>",
+          "ammoTypes": null,
+          "createdAt": "2025-09-24T22:43:57.221Z",
+          "updatedAt": "2025-11-15T02:34:52.758Z",
+          "stabilityGauge": 9
+        },
+        "rangeMap": {
+          "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
+          "createdAt": "2025-09-13T06:39:18.350Z",
+          "updatedAt": "2025-09-20T22:07:05.813Z",
+          "rangeValue": "Map",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "170b3637-2fd3-478f-9944-b7df2986a68f",
+          "level": 3,
+          "effect": "<p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:908ec419-871d-4297-bbb8-e12e4b46d7f9].</p>",
+          "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/1ee353781c919748bac94244feab164b.webp",
+          "createdAt": "2025-09-25T05:08:26.063Z",
+          "updatedAt": "2025-10-14T07:06:02.172Z",
+          "vertebraeName": "United Guards Lv.3"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "0ac891ad-0685-46a4-bb8a-71bfe0d6e368",
+        "name": "United Guards",
+        "description": "<p>At the start of the battle, summons a [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] near the user.</p><p>After either the user or the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] attacks, the user gains<span style=\"color: rgb(243, 109, 28);\"> 1 point </span>of Confectance Index.</p><p>When the user lands a critical hit, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> next attack receives a <span style=\"color: rgb(243, 109, 28);\">20%</span> critical rate boost. Similarly when the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] lands a critical hit, the user's next attack gains a <span style=\"color: rgb(243, 109, 28);\">20%</span> critical rate boost.</p><p></p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/1ee353781c919748bac94244feab164b.webp",
+        "createdAt": "2025-09-25T00:57:52.371Z",
+        "updatedAt": "2025-10-14T07:07:17.191Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "summonId": null,
+        "rangeMapId": null,
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "2c12e710-3db4-492b-a061-8c3224d7f726",
+        "vertebraeUpgradeIdLevel3": "170b3637-2fd3-478f-9944-b7df2986a68f",
+        "skillTags": [
+          "Passive",
+          "Summon"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>At the start of the battle, summons a [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] on an adjacent tile near the user, increasing its critical rate by <span style=\"color: rgb(243, 109, 28);\">30%</span> and Critical damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>At the start of the battle, the user gains <span style=\"color: rgb(243, 109, 28);\">3 stacks </span>of [effect:d011f494-6976-4868-9810-b4ce99f1ef36].</p><p>At the end of the action, the user gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36].</p><p>After either the user or the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] attacks, the user gains<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> of Confectance Index.</p><p>When the user lands a critical hit, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> next attack receives a <span style=\"color: rgb(243, 109, 28);\">20% </span>critical rate boost. Similarly when the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] lands a critical hit, the user's next attack gains a<span style=\"color: rgb(243, 109, 28);\"> 20%</span> critical rate boost.</p>",
+        "descriptionLevel3": "<p>At the start of the battle, summons a [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] near the user, increasing its critical rate by <span style=\"color: rgb(243, 109, 28);\">30%</span>, critical damage by<span style=\"color: rgb(243, 109, 28);\"> 20%</span>, and gains [effect:908ec419-871d-4297-bbb8-e12e4b46d7f9].</p><p>At the start of the battle, the user gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36].</p><p>At the end of the action, the user gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:d011f494-6976-4868-9810-b4ce99f1ef36] .</p><p>After either the user or the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] attacks, the user gains<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> of Confectance Index.</p><p>When the user lands a critical hit, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> next attack receives a <span style=\"color: rgb(243, 109, 28);\">20%</span> critical rate boost. Similarly when the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] lands a critical hit, the user's next attack gains a <span style=\"color: rgb(243, 109, 28);\">20%</span> critical rate boost.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": null,
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "2c12e710-3db4-492b-a061-8c3224d7f726",
+          "level": 2,
+          "effect": "<p>When the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is summoned, its critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>, and critical damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>At the start of the battle, the user gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36]. At the end of the action, the user gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36].</p>",
+          "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "segment": 3,
+          "imageUrl": "https://cdn.dandegate.net/skills/1ee353781c919748bac94244feab164b.webp",
+          "createdAt": "2025-09-25T04:58:25.055Z",
+          "updatedAt": "2025-10-14T07:06:17.738Z",
+          "vertebraeName": "United Guards Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "170b3637-2fd3-478f-9944-b7df2986a68f",
+          "level": 3,
+          "effect": "<p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:908ec419-871d-4297-bbb8-e12e4b46d7f9].</p>",
+          "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/1ee353781c919748bac94244feab164b.webp",
+          "createdAt": "2025-09-25T05:08:26.063Z",
+          "updatedAt": "2025-10-14T07:06:02.172Z",
+          "vertebraeName": "United Guards Lv.3"
+        }
+      },
+      {
+        "id": "f848412a-df69-4210-8d6a-957c1df9b28c",
+        "name": "Honor Guard",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. If the selected target's stability index remains greater than <span style=\"color: rgb(243, 109, 28);\">0</span> after the attack, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:5aa28bfd-5b57-4578-b1ff-015088da504f] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+        "phase": "Physical",
+        "ammoTypes": null,
+        "stabilityDamage": 2,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/cd8c80628674b1db8c9e164a0df7bf3f.webp",
+        "createdAt": "2025-09-25T00:30:59.745Z",
+        "updatedAt": "2025-10-14T07:07:04.000Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "summonId": null,
+        "rangeMapId": "e0ec8bb7-44ac-49f3-880b-b73b39bd907e",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "a2568df4-da1a-4365-8047-e3381f42ff9a",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "AoE",
+          "Buff"
+        ],
+        "keyUpgradesData": "[\"08d7112d-3dd3-433c-87fb-c00e7c59ef67\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 1",
+        "ammoTypesLevel2": null,
+        "ammoTypesLevel3": null,
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:5aa28bfd-5b57-4578-b1ff-015088da504f] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "e0ec8bb7-44ac-49f3-880b-b73b39bd907e",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1758930122371-range6area1.webp",
+          "createdAt": "2025-09-26T23:42:02.506Z",
+          "updatedAt": "2025-09-26T23:42:02.506Z",
+          "rangeValue": "6",
+          "effectiveArea": "1"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "a2568df4-da1a-4365-8047-e3381f42ff9a",
+          "level": 2,
+          "effect": "<p>The duration of the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> [effect:58b037ca-2154-420f-9920-f3716e8f0202] is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. After the user is healed, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] restores HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of its max HP.</p><p>The stability requirement for the target has been removed.</p><p>The effects of [effect:5aa28bfd-5b57-4578-b1ff-015088da504f] is enhanced: ignores <span style=\"color: rgb(243, 109, 28);\">30%</span> of defense when attacking Large Targets.</p>",
+          "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "segment": 1,
+          "imageUrl": "https://cdn.dandegate.net/skills/cd8c80628674b1db8c9e164a0df7bf3f.webp",
+          "createdAt": "2025-09-25T04:51:24.208Z",
+          "updatedAt": "2025-10-14T07:06:22.624Z",
+          "vertebraeName": "Honor Guard Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "80684d20-d47d-43ab-ae47-3b14c8c693d4",
+        "name": "Joint Breakthrough",
+        "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs from the user, as well as all control, Command Prohibition effects, and the Frigid effect from the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]. The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] moves to the selected tile and attacks the closest enemy to Papasha, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. This attack has an additional <span style=\"color: rgb(243, 109, 28);\">50%</span> damage boost against Large targets.</p><p>After using this skill, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] will not move independently for the remainder of the turn.</p><p>This skill cannot be used if the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is undergoing [effect:58b037ca-2154-420f-9920-f3716e8f0202].</p>",
+        "phase": "Physical",
+        "ammoTypes": null,
+        "stabilityDamage": 3,
+        "cooldown": null,
+        "confectanceCost": 4,
+        "imageUrl": "https://cdn.dandegate.net/skills/2c947a9502059f66506ac7bfea70e3df.webp",
+        "createdAt": "2025-09-25T00:39:06.566Z",
+        "updatedAt": "2025-10-14T07:07:14.700Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "summonId": null,
+        "rangeMapId": "26355bb8-dbbe-4c34-9f59-4a1ce144a405",
+        "rangeMapIdLevel2": "be73c1dd-3de2-4a75-aa65-ac80886c1d83",
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "2593fd36-894d-4918-a705-c3a225774bfe",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "Targeted",
+          "Cleanse"
+        ],
+        "keyUpgradesData": "[\"3e204d79-29ce-401b-99a2-f53309ff1426\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 2",
+        "ammoTypesLevel2": null,
+        "ammoTypesLevel3": null,
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects any empty tile on the battlefield, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs from self, and any Control, Command Prohibition, or Frigid effects from the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]. The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] moves to the selected tile and attacks the closest enemy to Papasha, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. This attack is guaranteed to crit, and has an additional <span style=\"color: rgb(243, 109, 28);\">50%</span> damage boost against large targets.</p><p>After using this skill, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] will not move independently and will target the nearest enemy unit with <span style=\"color: rgb(34, 139, 230);\">Counter Terrorism Support</span> <span style=\"color: rgb(243, 109, 28);\">once</span> at the end of the turn.</p><p>This skill cannot be used if the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is undergoing [effect:58b037ca-2154-420f-9920-f3716e8f0202].</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "26355bb8-dbbe-4c34-9f59-4a1ce144a405",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1759184580903-Range 6 Eff Area Map.webp",
+          "createdAt": "2025-09-29T22:23:01.067Z",
+          "updatedAt": "2025-09-29T22:23:01.067Z",
+          "rangeValue": "6",
+          "effectiveArea": "Map"
+        },
+        "rangeMapLevel2": {
+          "id": "be73c1dd-3de2-4a75-aa65-ac80886c1d83",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1758930666093-mapmap.webp",
+          "createdAt": "2025-09-26T23:51:06.207Z",
+          "updatedAt": "2025-09-26T23:51:06.207Z",
+          "rangeValue": "Map",
+          "effectiveArea": "Map"
+        },
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "2593fd36-894d-4918-a705-c3a225774bfe",
+          "level": 2,
+          "effect": "<p>The casting range is expanded to the entire battlefield, and this attack is guaranteed to deal a critical hit. At the end of the turn, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] launches <span style=\"color: rgb(243, 109, 28);\">1</span> more instance of <span style=\"color: rgb(34, 139, 230);\">Counter Terrorism Support</span> on the nearest enemy target.</p>",
+          "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "segment": 2,
+          "imageUrl": "https://cdn.dandegate.net/skills/2c947a9502059f66506ac7bfea70e3df.webp",
+          "createdAt": "2025-09-25T04:56:58.440Z",
+          "updatedAt": "2025-10-14T07:06:17.913Z",
+          "vertebraeName": "Joint Breakthrough Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "56cb1263-4232-4837-a46e-5d3eba11d1f5",
+        "name": "Heart of Protection",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:e814390a-f8b2-4fde-b549-c99fde7660f8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Before the attack, for <span style=\"color: rgb(243, 109, 28);\">each</span> buff the user has, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains <span style=\"color: rgb(243, 109, 28);\">1</span> random attack buff, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">2</span> buffs, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Light Ammo\"]",
+        "stabilityDamage": 3,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/3d99e3afc48a6abe256da7a42a82e10f.webp",
+        "createdAt": "2025-09-25T00:51:24.866Z",
+        "updatedAt": "2025-10-14T07:07:17.002Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "d0a7f41c-3219-4462-a0e2-34b7f7b2c1c3",
+        "vertebraeUpgradeIdLevel3": "8684ea0b-0cc7-4b6a-aaec-b5072afa58ac",
+        "skillTags": [
+          "Ultimate",
+          "Targeted",
+          "Buff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 3",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects 1 enemy target within<span style=\"color: rgb(243, 109, 28);\"> 6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. The[summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:e814390a-f8b2-4fde-b549-c99fde7660f8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Before the attack, for <span style=\"color: rgb(243, 109, 28);\">each</span> buff the user has, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains <span style=\"color: rgb(243, 109, 28);\">1</span> random attack buff. For every more than <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36], it counts as <span style=\"color: rgb(243, 109, 28);\">1</span> independent buff, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">3</span> buffs, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack.</p><p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:a28e7dac-cdbd-4b37-960a-a32e21096a09] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. At the start of the battle, gains [effect:e814390a-f8b2-4fde-b549-c99fde7660f8] permanently.</p><p>Before the attack, <span style=\"color: rgb(243, 109, 28);\">each</span> buff the user has, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains <span style=\"color: rgb(243, 109, 28);\">1</span> random attack buff. For every more than <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36], it counts as <span style=\"color: rgb(243, 109, 28);\">1</span> independent buff, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">3</span> buffs, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "d0a7f41c-3219-4462-a0e2-34b7f7b2c1c3",
+          "level": 2,
+          "effect": "<p>The effects of [effect:e814390a-f8b2-4fde-b549-c99fde7660f8] are enhanced: Increases the damage taken by the target up to <span style=\"color: rgb(243, 109, 28);\">80%</span>. The potency of random attack buffs is amplified, and the maximum number of attack buffs is increased to <span style=\"color: rgb(243, 109, 28);\">3 buffs</span>. For every more than <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36], it counts as <span style=\"color: rgb(243, 109, 28);\">1</span> independent buff.</p>",
+          "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "segment": 4,
+          "imageUrl": "https://cdn.dandegate.net/skills/3d99e3afc48a6abe256da7a42a82e10f.webp",
+          "createdAt": "2025-09-25T05:00:32.356Z",
+          "updatedAt": "2025-10-14T07:06:18.087Z",
+          "vertebraeName": "Heart of Protection Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "8684ea0b-0cc7-4b6a-aaec-b5072afa58ac",
+          "level": 3,
+          "effect": "<p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:e814390a-f8b2-4fde-b549-c99fde7660f8] permanently at the start of battle. <span style=\"color: rgb(34, 139, 230);\">Heart of Protection</span> now applies [effect:a28e7dac-cdbd-4b37-960a-a32e21096a09] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "segment": 6,
+          "imageUrl": "https://cdn.dandegate.net/skills/3d99e3afc48a6abe256da7a42a82e10f.webp",
+          "createdAt": "2025-09-25T05:09:34.906Z",
+          "updatedAt": "2025-10-14T07:06:22.830Z",
+          "vertebraeName": "Heart of Protection Lv.3"
+        }
+      }
+    ],
+    "keys": [
+      {
+        "id": "d398a862-a45c-4cbe-b0fe-9a0b561d2bfa",
+        "keyTitle": "Unbreakable Faith",
+        "keyType": "Affinity Key",
+        "level": null,
+        "effect": null,
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks at Affinity Level 5</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "3%",
+        "attributeName2": "Health Boost",
+        "attributeValue2": "3%",
+        "attributeName3": "Defense Boost",
+        "attributeValue3": "3%",
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/5f4a777b3ed988e45354b9572d90fd14.webp",
+        "createdAt": "2025-09-24T23:56:59.819Z",
+        "updatedAt": "2025-09-27T00:28:49.728Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "createdAt": "2025-09-27T00:29:34.826Z",
+              "updatedAt": "2025-09-27T00:29:34.826Z"
+            }
+          ],
+          "searchTags": [
+            "PPSh-41"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Affinity Key - Unbreakable Faith"
+      },
+      {
+        "id": "a3c26abd-c6bf-4720-8752-fe8754c1f750",
+        "keyTitle": "Brilliant Medal",
+        "keyType": "Common Key",
+        "level": 40,
+        "effect": "<p>Increases damage dealt by allied units' support skills (excluding self) by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Can trigger at most <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks after obtaining all Fixed Keys</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "5%",
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/4d97d334-225b-4fa6-a922-ce605d4b1fe2-brilliant-medal.webp",
+        "createdAt": "2025-09-25T00:03:58.953Z",
+        "updatedAt": "2025-09-27T07:43:15.238Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "createdAt": "2025-09-27T00:29:34.826Z",
+              "updatedAt": "2025-09-27T00:29:34.826Z"
+            }
+          ],
+          "searchTags": [
+            "PPSh-41"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Common Key - Brilliant Medal"
+      },
+      {
+        "id": "9f75a812-0b75-49ae-b1cb-1fb3f52f775e",
+        "keyTitle": "Unconquerable City",
+        "keyType": "Expansion Key",
+        "keyNumber": 1,
+        "level": 60,
+        "effect": "<p>Damage dealt by [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>. While [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is present on the field, damage dealt by all ally [effect:d149d223-ac66-4556-ba25-5d4fef2504e9] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> and gain [effect:2a885794-26bf-4b04-8908-e5b4d3645575] at the end of their action, lasting for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>The Confectance Index cost of the active skill [dollSkill:80684d20-d47d-43ab-ae47-3b14c8c693d4] is reduced by <span style=\"color: rgb(243, 109, 28);\">3 points</span> and when casted, [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains 2 stacks of [effect:8a2f2d51-5a66-4101-b628-ef10d7ba2a1d].</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/8ce4365141b017ed45287d33dc27970d8d147fc7978e5745233b1b28304774be.webp",
+        "createdAt": "2026-02-09T02:27:02.269Z",
+        "updatedAt": "2026-02-09T02:27:02.269Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "createdAt": "2025-09-27T00:29:34.826Z",
+              "updatedAt": "2025-09-27T00:29:34.826Z"
+            }
+          ],
+          "searchTags": [
+            "PPSh-41"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Expansion Key - Unconquerable City"
+      },
+      {
+        "id": "08d7112d-3dd3-433c-87fb-c00e7c59ef67",
+        "keyTitle": "Glory With Us",
+        "keyType": "Fixed Key",
+        "keyNumber": 1,
+        "level": 20,
+        "effect": "<p>When using the active skill <span style=\"color: rgb(34, 139, 230);\">Honor Guard</span> to attack a Large Target, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. The stability damage of the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> active skill <span style=\"color: rgb(34, 139, 230);\">Counter Terrorism Support</span> is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"6000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/c9f5695a-dcff-462e-a4f3-8bf67577479a-flory-with-u.webp",
+        "createdAt": "2025-09-24T22:47:17.093Z",
+        "updatedAt": "2025-10-14T07:06:35.512Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "createdAt": "2025-09-27T00:29:34.826Z",
+              "updatedAt": "2025-09-27T00:29:34.826Z"
+            }
+          ],
+          "searchTags": [
+            "PPSh-41"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 1 - Glory With Us"
+      },
+      {
+        "id": "17a4f3d7-c87c-4f55-92d2-43d3a5598b96",
+        "keyTitle": "Vow to Defend",
+        "keyType": "Fixed Key",
+        "keyNumber": 2,
+        "level": 20,
+        "effect": "<p>When the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is undergoing [effect:58b037ca-2154-420f-9920-f3716e8f0202], Papasha's damage deal is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"6000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/cdc2a8a5-ebf0-4b90-9cdf-9b8e99b00178-vow-to-defend.webp",
+        "createdAt": "2025-09-24T22:48:14.646Z",
+        "updatedAt": "2025-10-14T07:06:37.080Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "createdAt": "2025-09-27T00:29:34.826Z",
+              "updatedAt": "2025-09-27T00:29:34.826Z"
+            }
+          ],
+          "searchTags": [
+            "PPSh-41"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 2 - Vow to Defend"
+      },
+      {
+        "id": "47cb1e03-5992-4510-882f-fb71d8aa236c",
+        "keyTitle": "Unwavering Conviction",
+        "keyType": "Fixed Key",
+        "keyNumber": 3,
+        "level": 30,
+        "effect": "<p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is unable to move independently, but its attack is increased by<span style=\"color: rgb(243, 109, 28);\"> 10%</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/7cb0e2ba-2a18-40bd-bee1-b459cfaedff6-unwavering-conviction.webp",
+        "createdAt": "2025-09-24T23:36:53.120Z",
+        "updatedAt": "2025-10-14T07:06:38.685Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "createdAt": "2025-09-27T00:29:34.826Z",
+              "updatedAt": "2025-09-27T00:29:34.826Z"
+            }
+          ],
+          "searchTags": [
+            "PPSh-41"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 3 - Unwavering Conviction"
+      },
+      {
+        "id": "3e204d79-29ce-401b-99a2-f53309ff1426",
+        "keyTitle": "Final Assault",
+        "keyType": "Fixed Key",
+        "keyNumber": 4,
+        "level": 30,
+        "effect": "<p>When the active skill <span style=\"color: rgb(34, 139, 230);\">Joint Breakthrough</span> deals damage, if there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc], damage deal is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/1bed60e6-2c7a-4915-9ae5-c7fbf1fbbd49-final-assault.webp",
+        "createdAt": "2025-09-24T23:38:59.375Z",
+        "updatedAt": "2025-10-14T07:06:38.509Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "createdAt": "2025-09-27T00:29:34.826Z",
+              "updatedAt": "2025-09-27T00:29:34.826Z"
+            }
+          ],
+          "searchTags": [
+            "PPSh-41"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 4 - Final Assault"
+      },
+      {
+        "id": "1d102d2a-653a-477b-9e5e-ef72da502251",
+        "keyTitle": "I'll Learn it",
+        "keyType": "Fixed Key",
+        "keyNumber": 5,
+        "level": 40,
+        "effect": "<p>At the start of the turn, if Papasha has less than or equal to <span style=\"color: rgb(243, 109, 28);\">1</span><span> buff that can be cleansed, she gains </span><span style=\"color: rgb(243, 109, 28);\">1</span><span> random buff that can be cleansed for </span><span style=\"color: rgb(243, 109, 28);\">1</span><span> </span><span style=\"color: rgb(243, 109, 28);\">turn</span><span>.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/b8b29cab-a8fc-4893-a48f-0f7f9105e869-i-ll-learn-it.webp",
+        "createdAt": "2025-09-24T23:48:59.563Z",
+        "updatedAt": "2025-09-24T23:48:59.563Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "createdAt": "2025-09-27T00:29:34.826Z",
+              "updatedAt": "2025-09-27T00:29:34.826Z"
+            }
+          ],
+          "searchTags": [
+            "PPSh-41"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 5 - I'll Learn it"
+      },
+      {
+        "id": "cc277a5d-040b-4104-926b-eb33befa9a48",
+        "keyTitle": "Strength in Unity",
+        "keyType": "Fixed Key",
+        "keyNumber": 6,
+        "level": 40,
+        "effect": "<p>At the start of the turn, the unit with the lower attack between the use and the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:7edd4ba7-819f-409c-b20f-9715d02075f5] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/691a9063-404c-44ba-95df-a9a50325008b-strength-in-unity.webp",
+        "createdAt": "2025-09-24T23:52:09.793Z",
+        "updatedAt": "2025-10-14T07:06:39.378Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "createdAt": "2025-09-27T00:29:34.826Z",
+              "updatedAt": "2025-09-27T00:29:34.826Z"
+            }
+          ],
+          "searchTags": [
+            "PPSh-41"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 6 - Strength in Unity"
+      }
+    ],
+    "vertebrae": [
+      {
+        "id": "a2568df4-da1a-4365-8047-e3381f42ff9a",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "segment": 1,
+        "vertebraeName": "Honor Guard Lv.2",
+        "level": 2,
+        "effect": "<p>The duration of the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> [effect:58b037ca-2154-420f-9920-f3716e8f0202] is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. After the user is healed, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] restores HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of its max HP.</p><p>The stability requirement for the target has been removed.</p><p>The effects of [effect:5aa28bfd-5b57-4578-b1ff-015088da504f] is enhanced: ignores <span style=\"color: rgb(243, 109, 28);\">30%</span> of defense when attacking Large Targets.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/cd8c80628674b1db8c9e164a0df7bf3f.webp",
+        "createdAt": "2025-09-25T04:51:24.208Z",
+        "updatedAt": "2025-10-14T07:06:22.624Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "class": "Sentinel",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "A warm-hearted Doll who doesn't know how to say \"no\", she has become a versatile helper through self-study in order to better handle any request. She is willing to give everything to protect everyone. When you encounter difficulties, feel free to rely on her-no mater what it is, Papasha will make it happen!",
+          "preview": false,
+          "movement": 5,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "stabilityGauge": 9
+        },
+        "skillsLevel2": [
+          {
+            "id": "f848412a-df69-4210-8d6a-957c1df9b28c",
+            "name": "Honor Guard",
+            "phase": "Physical",
+            "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/cd8c80628674b1db8c9e164a0df7bf3f.webp",
+            "summonId": null,
+            "ammoTypes": null,
+            "createdAt": "2025-09-25T00:30:59.745Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Buff"
+            ],
+            "skillType": "Skill 1",
+            "updatedAt": "2025-10-14T07:07:04.000Z",
+            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. If the selected target's stability index remains greater than <span style=\"color: rgb(243, 109, 28);\">0</span> after the attack, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:5aa28bfd-5b57-4578-b1ff-015088da504f] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "e0ec8bb7-44ac-49f3-880b-b73b39bd907e",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": null,
+            "ammoTypesLevel3": null,
+            "keyUpgradesData": "[\"08d7112d-3dd3-433c-87fb-c00e7c59ef67\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": null,
+            "skillTagsLevel3": null,
+            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:5aa28bfd-5b57-4578-b1ff-015088da504f] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "a2568df4-da1a-4365-8047-e3381f42ff9a",
+            "vertebraeUpgradeIdLevel3": null
+          },
+          {
+            "id": "0d6bdf76-a904-473d-a19d-c91835767b0b",
+            "name": "Explosion Prevention Measures",
+            "phase": null,
+            "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/ca0624131089c97ee1e436cc7daf5a72.webp",
+            "summonId": "6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc",
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-24T23:04:43.969Z",
+            "skillTags": [
+              "Passive",
+              "Healing"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-10-14T07:07:17.365Z",
+            "description": "<p>At the end of the turn, the City Warden will move independently to seek cover.</p><p>The City Warden's healing received is reduced by <span style=\"color: rgb(243, 109, 28);\">100%</span> and it cannot receive shields. When Papasha is healed, the City Warden restores <span style=\"color: rgb(243, 109, 28);\">10%</span> of its max HP. When the City Warden takes fatal damage, it enters [effect:58b037ca-2154-420f-9920-f3716e8f0202] state for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>At the end of the turn, the City Warden will move independently to seek cover.</p><p>The City Warden's healing received is reduced by <span style=\"color: rgb(243, 109, 28);\">100%</span> and it cannot receive shields. When Papasha is healed, the City Warden restores <span style=\"color: rgb(243, 109, 28);\">20%</span> of its max HP. When the City Warden takes fatal damage, it enters [effect:58b037ca-2154-420f-9920-f3716e8f0202] state for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "a2568df4-da1a-4365-8047-e3381f42ff9a",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "2593fd36-894d-4918-a705-c3a225774bfe",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "segment": 2,
+        "vertebraeName": "Joint Breakthrough Lv.2",
+        "level": 2,
+        "effect": "<p>The casting range is expanded to the entire battlefield, and this attack is guaranteed to deal a critical hit. At the end of the turn, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] launches <span style=\"color: rgb(243, 109, 28);\">1</span> more instance of <span style=\"color: rgb(34, 139, 230);\">Counter Terrorism Support</span> on the nearest enemy target.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/2c947a9502059f66506ac7bfea70e3df.webp",
+        "createdAt": "2025-09-25T04:56:58.440Z",
+        "updatedAt": "2025-10-14T07:06:17.913Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "class": "Sentinel",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "A warm-hearted Doll who doesn't know how to say \"no\", she has become a versatile helper through self-study in order to better handle any request. She is willing to give everything to protect everyone. When you encounter difficulties, feel free to rely on her-no mater what it is, Papasha will make it happen!",
+          "preview": false,
+          "movement": 5,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "stabilityGauge": 9
+        },
+        "skillsLevel2": [
+          {
+            "id": "80684d20-d47d-43ab-ae47-3b14c8c693d4",
+            "name": "Joint Breakthrough",
+            "phase": "Physical",
+            "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/2c947a9502059f66506ac7bfea70e3df.webp",
+            "summonId": null,
+            "ammoTypes": null,
+            "createdAt": "2025-09-25T00:39:06.566Z",
+            "skillTags": [
+              "Active",
+              "Targeted",
+              "Cleanse"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2025-10-14T07:07:14.700Z",
+            "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs from the user, as well as all control, Command Prohibition effects, and the Frigid effect from the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]. The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] moves to the selected tile and attacks the closest enemy to Papasha, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. This attack has an additional <span style=\"color: rgb(243, 109, 28);\">50%</span> damage boost against Large targets.</p><p>After using this skill, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] will not move independently for the remainder of the turn.</p><p>This skill cannot be used if the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is undergoing [effect:58b037ca-2154-420f-9920-f3716e8f0202].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "26355bb8-dbbe-4c34-9f59-4a1ce144a405",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 4,
+            "stabilityDamage": 3,
+            "ammoTypesLevel2": null,
+            "ammoTypesLevel3": null,
+            "keyUpgradesData": "[\"3e204d79-29ce-401b-99a2-f53309ff1426\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": null,
+            "skillTagsLevel3": null,
+            "descriptionLevel2": "<p>Selects any empty tile on the battlefield, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs from self, and any Control, Command Prohibition, or Frigid effects from the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]. The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] moves to the selected tile and attacks the closest enemy to Papasha, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. This attack is guaranteed to crit, and has an additional <span style=\"color: rgb(243, 109, 28);\">50%</span> damage boost against large targets.</p><p>After using this skill, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] will not move independently and will target the nearest enemy unit with <span style=\"color: rgb(34, 139, 230);\">Counter Terrorism Support</span> <span style=\"color: rgb(243, 109, 28);\">once</span> at the end of the turn.</p><p>This skill cannot be used if the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is undergoing [effect:58b037ca-2154-420f-9920-f3716e8f0202].</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": "be73c1dd-3de2-4a75-aa65-ac80886c1d83",
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "2593fd36-894d-4918-a705-c3a225774bfe",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "2c12e710-3db4-492b-a061-8c3224d7f726",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "segment": 3,
+        "vertebraeName": "United Guards Lv.2",
+        "level": 2,
+        "effect": "<p>When the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is summoned, its critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>, and critical damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>At the start of the battle, the user gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36]. At the end of the action, the user gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36].</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/1ee353781c919748bac94244feab164b.webp",
+        "createdAt": "2025-09-25T04:58:25.055Z",
+        "updatedAt": "2025-10-14T07:06:17.738Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "class": "Sentinel",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "A warm-hearted Doll who doesn't know how to say \"no\", she has become a versatile helper through self-study in order to better handle any request. She is willing to give everything to protect everyone. When you encounter difficulties, feel free to rely on her-no mater what it is, Papasha will make it happen!",
+          "preview": false,
+          "movement": 5,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "stabilityGauge": 9
+        },
+        "skillsLevel2": [
+          {
+            "id": "0ac891ad-0685-46a4-bb8a-71bfe0d6e368",
+            "name": "United Guards",
+            "phase": null,
+            "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/1ee353781c919748bac94244feab164b.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-25T00:57:52.371Z",
+            "skillTags": [
+              "Passive",
+              "Summon"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-10-14T07:07:17.191Z",
+            "description": "<p>At the start of the battle, summons a [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] near the user.</p><p>After either the user or the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] attacks, the user gains<span style=\"color: rgb(243, 109, 28);\"> 1 point </span>of Confectance Index.</p><p>When the user lands a critical hit, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> next attack receives a <span style=\"color: rgb(243, 109, 28);\">20%</span> critical rate boost. Similarly when the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] lands a critical hit, the user's next attack gains a <span style=\"color: rgb(243, 109, 28);\">20%</span> critical rate boost.</p><p></p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": null,
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>At the start of the battle, summons a [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] on an adjacent tile near the user, increasing its critical rate by <span style=\"color: rgb(243, 109, 28);\">30%</span> and Critical damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>At the start of the battle, the user gains <span style=\"color: rgb(243, 109, 28);\">3 stacks </span>of [effect:d011f494-6976-4868-9810-b4ce99f1ef36].</p><p>At the end of the action, the user gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36].</p><p>After either the user or the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] attacks, the user gains<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> of Confectance Index.</p><p>When the user lands a critical hit, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> next attack receives a <span style=\"color: rgb(243, 109, 28);\">20% </span>critical rate boost. Similarly when the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] lands a critical hit, the user's next attack gains a<span style=\"color: rgb(243, 109, 28);\"> 20%</span> critical rate boost.</p>",
+            "descriptionLevel3": "<p>At the start of the battle, summons a [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] near the user, increasing its critical rate by <span style=\"color: rgb(243, 109, 28);\">30%</span>, critical damage by<span style=\"color: rgb(243, 109, 28);\"> 20%</span>, and gains [effect:908ec419-871d-4297-bbb8-e12e4b46d7f9].</p><p>At the start of the battle, the user gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36].</p><p>At the end of the action, the user gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:d011f494-6976-4868-9810-b4ce99f1ef36] .</p><p>After either the user or the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] attacks, the user gains<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> of Confectance Index.</p><p>When the user lands a critical hit, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> next attack receives a <span style=\"color: rgb(243, 109, 28);\">20%</span> critical rate boost. Similarly when the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] lands a critical hit, the user's next attack gains a <span style=\"color: rgb(243, 109, 28);\">20%</span> critical rate boost.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "2c12e710-3db4-492b-a061-8c3224d7f726",
+            "vertebraeUpgradeIdLevel3": "170b3637-2fd3-478f-9944-b7df2986a68f"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "d0a7f41c-3219-4462-a0e2-34b7f7b2c1c3",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "segment": 4,
+        "vertebraeName": "Heart of Protection Lv.2",
+        "level": 2,
+        "effect": "<p>The effects of [effect:e814390a-f8b2-4fde-b549-c99fde7660f8] are enhanced: Increases the damage taken by the target up to <span style=\"color: rgb(243, 109, 28);\">80%</span>. The potency of random attack buffs is amplified, and the maximum number of attack buffs is increased to <span style=\"color: rgb(243, 109, 28);\">3 buffs</span>. For every more than <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36], it counts as <span style=\"color: rgb(243, 109, 28);\">1</span> independent buff.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/3d99e3afc48a6abe256da7a42a82e10f.webp",
+        "createdAt": "2025-09-25T05:00:32.356Z",
+        "updatedAt": "2025-10-14T07:06:18.087Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "class": "Sentinel",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "A warm-hearted Doll who doesn't know how to say \"no\", she has become a versatile helper through self-study in order to better handle any request. She is willing to give everything to protect everyone. When you encounter difficulties, feel free to rely on her-no mater what it is, Papasha will make it happen!",
+          "preview": false,
+          "movement": 5,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "stabilityGauge": 9
+        },
+        "skillsLevel2": [
+          {
+            "id": "56cb1263-4232-4837-a46e-5d3eba11d1f5",
+            "name": "Heart of Protection",
+            "phase": "Physical",
+            "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/3d99e3afc48a6abe256da7a42a82e10f.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Light Ammo\"]",
+            "createdAt": "2025-09-25T00:51:24.866Z",
+            "skillTags": [
+              "Ultimate",
+              "Targeted",
+              "Buff"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-10-14T07:07:17.002Z",
+            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:e814390a-f8b2-4fde-b549-c99fde7660f8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Before the attack, for <span style=\"color: rgb(243, 109, 28);\">each</span> buff the user has, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains <span style=\"color: rgb(243, 109, 28);\">1</span> random attack buff, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">2</span> buffs, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 3,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 enemy target within<span style=\"color: rgb(243, 109, 28);\"> 6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. The[summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:e814390a-f8b2-4fde-b549-c99fde7660f8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Before the attack, for <span style=\"color: rgb(243, 109, 28);\">each</span> buff the user has, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains <span style=\"color: rgb(243, 109, 28);\">1</span> random attack buff. For every more than <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36], it counts as <span style=\"color: rgb(243, 109, 28);\">1</span> independent buff, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">3</span> buffs, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack.</p><p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:a28e7dac-cdbd-4b37-960a-a32e21096a09] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. At the start of the battle, gains [effect:e814390a-f8b2-4fde-b549-c99fde7660f8] permanently.</p><p>Before the attack, <span style=\"color: rgb(243, 109, 28);\">each</span> buff the user has, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains <span style=\"color: rgb(243, 109, 28);\">1</span> random attack buff. For every more than <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36], it counts as <span style=\"color: rgb(243, 109, 28);\">1</span> independent buff, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">3</span> buffs, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "d0a7f41c-3219-4462-a0e2-34b7f7b2c1c3",
+            "vertebraeUpgradeIdLevel3": "8684ea0b-0cc7-4b6a-aaec-b5072afa58ac"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "170b3637-2fd3-478f-9944-b7df2986a68f",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "segment": 5,
+        "vertebraeName": "United Guards Lv.3",
+        "level": 3,
+        "effect": "<p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:908ec419-871d-4297-bbb8-e12e4b46d7f9].</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/1ee353781c919748bac94244feab164b.webp",
+        "createdAt": "2025-09-25T05:08:26.063Z",
+        "updatedAt": "2025-10-14T07:06:02.172Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "class": "Sentinel",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "A warm-hearted Doll who doesn't know how to say \"no\", she has become a versatile helper through self-study in order to better handle any request. She is willing to give everything to protect everyone. When you encounter difficulties, feel free to rely on her-no mater what it is, Papasha will make it happen!",
+          "preview": false,
+          "movement": 5,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "stabilityGauge": 9
+        },
+        "skillsLevel2": [
+          {
+            "id": "74214d3d-8a58-4538-a486-b25aa33b5d4f",
+            "name": "Security Monitoring",
+            "phase": null,
+            "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/67f1f09d2dcf8383b0b496fdae015b8b.webp",
+            "summonId": "6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc",
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-24T23:05:02.532Z",
+            "skillTags": [
+              "Passive"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-10-15T05:43:21.471Z",
+            "description": "<p>At the end of the action, attacks the enemy target within the map that has used a basic attack or an active skill, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">40%</span> of attack to them. This effect can activate up to <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn.</p><p></p><p><span style=\"color: rgb(34, 139, 230);\">Note: This skill is inactive until V5.</span></p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>At the end of the action, attacks the enemy target within the map that has used a basic attack or an active skill, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">40%</span> of attack to them. This effect can activate up to<span style=\"color: rgb(243, 109, 28);\"> 1 time</span> per turn.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "170b3637-2fd3-478f-9944-b7df2986a68f",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [
+          {
+            "id": "0ac891ad-0685-46a4-bb8a-71bfe0d6e368",
+            "name": "United Guards",
+            "phase": null,
+            "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/1ee353781c919748bac94244feab164b.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-25T00:57:52.371Z",
+            "skillTags": [
+              "Passive",
+              "Summon"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-10-14T07:07:17.191Z",
+            "description": "<p>At the start of the battle, summons a [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] near the user.</p><p>After either the user or the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] attacks, the user gains<span style=\"color: rgb(243, 109, 28);\"> 1 point </span>of Confectance Index.</p><p>When the user lands a critical hit, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> next attack receives a <span style=\"color: rgb(243, 109, 28);\">20%</span> critical rate boost. Similarly when the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] lands a critical hit, the user's next attack gains a <span style=\"color: rgb(243, 109, 28);\">20%</span> critical rate boost.</p><p></p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": null,
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>At the start of the battle, summons a [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] on an adjacent tile near the user, increasing its critical rate by <span style=\"color: rgb(243, 109, 28);\">30%</span> and Critical damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>At the start of the battle, the user gains <span style=\"color: rgb(243, 109, 28);\">3 stacks </span>of [effect:d011f494-6976-4868-9810-b4ce99f1ef36].</p><p>At the end of the action, the user gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36].</p><p>After either the user or the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] attacks, the user gains<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> of Confectance Index.</p><p>When the user lands a critical hit, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> next attack receives a <span style=\"color: rgb(243, 109, 28);\">20% </span>critical rate boost. Similarly when the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] lands a critical hit, the user's next attack gains a<span style=\"color: rgb(243, 109, 28);\"> 20%</span> critical rate boost.</p>",
+            "descriptionLevel3": "<p>At the start of the battle, summons a [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] near the user, increasing its critical rate by <span style=\"color: rgb(243, 109, 28);\">30%</span>, critical damage by<span style=\"color: rgb(243, 109, 28);\"> 20%</span>, and gains [effect:908ec419-871d-4297-bbb8-e12e4b46d7f9].</p><p>At the start of the battle, the user gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36].</p><p>At the end of the action, the user gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:d011f494-6976-4868-9810-b4ce99f1ef36] .</p><p>After either the user or the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] attacks, the user gains<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> of Confectance Index.</p><p>When the user lands a critical hit, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> next attack receives a <span style=\"color: rgb(243, 109, 28);\">20%</span> critical rate boost. Similarly when the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] lands a critical hit, the user's next attack gains a <span style=\"color: rgb(243, 109, 28);\">20%</span> critical rate boost.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "2c12e710-3db4-492b-a061-8c3224d7f726",
+            "vertebraeUpgradeIdLevel3": "170b3637-2fd3-478f-9944-b7df2986a68f"
+          }
+        ],
+        "summonsLevel2": [
+          {
+            "hp": 80,
+            "id": "6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc",
+            "atk": 80,
+            "def": 80,
+            "name": "City Warden",
+            "class": null,
+            "phase": null,
+            "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+            "movement": 5,
+            "imageUrl": "https://cdn.dandegate.net/summons/city-warden/1758755022419-Summon_Whole_PapashaSSR01Warden.webp",
+            "unitInfo": "<p>A warden of the City. Protector of all that is good and fair in this world. If you need an unflinching soldier in the war against evil, this robot is for you.</p>",
+            "ammoTypes": null,
+            "createdAt": "2025-09-24T22:43:57.221Z",
+            "updatedAt": "2025-11-15T02:34:52.758Z",
+            "stabilityGauge": 9
+          }
+        ],
+        "summonsLevel3": []
+      },
+      {
+        "id": "8684ea0b-0cc7-4b6a-aaec-b5072afa58ac",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "segment": 6,
+        "vertebraeName": "Heart of Protection Lv.3",
+        "level": 3,
+        "effect": "<p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:e814390a-f8b2-4fde-b549-c99fde7660f8] permanently at the start of battle. <span style=\"color: rgb(34, 139, 230);\">Heart of Protection</span> now applies [effect:a28e7dac-cdbd-4b37-960a-a32e21096a09] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/3d99e3afc48a6abe256da7a42a82e10f.webp",
+        "createdAt": "2025-09-25T05:09:34.906Z",
+        "updatedAt": "2025-10-14T07:06:22.830Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "class": "Sentinel",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "A warm-hearted Doll who doesn't know how to say \"no\", she has become a versatile helper through self-study in order to better handle any request. She is willing to give everything to protect everyone. When you encounter difficulties, feel free to rely on her-no mater what it is, Papasha will make it happen!",
+          "preview": false,
+          "movement": 5,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "stabilityGauge": 9
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "56cb1263-4232-4837-a46e-5d3eba11d1f5",
+            "name": "Heart of Protection",
+            "phase": "Physical",
+            "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/3d99e3afc48a6abe256da7a42a82e10f.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Light Ammo\"]",
+            "createdAt": "2025-09-25T00:51:24.866Z",
+            "skillTags": [
+              "Ultimate",
+              "Targeted",
+              "Buff"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-10-14T07:07:17.002Z",
+            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:e814390a-f8b2-4fde-b549-c99fde7660f8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Before the attack, for <span style=\"color: rgb(243, 109, 28);\">each</span> buff the user has, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains <span style=\"color: rgb(243, 109, 28);\">1</span> random attack buff, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">2</span> buffs, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 3,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 enemy target within<span style=\"color: rgb(243, 109, 28);\"> 6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. The[summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:e814390a-f8b2-4fde-b549-c99fde7660f8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Before the attack, for <span style=\"color: rgb(243, 109, 28);\">each</span> buff the user has, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains <span style=\"color: rgb(243, 109, 28);\">1</span> random attack buff. For every more than <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36], it counts as <span style=\"color: rgb(243, 109, 28);\">1</span> independent buff, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">3</span> buffs, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack.</p><p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:a28e7dac-cdbd-4b37-960a-a32e21096a09] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. At the start of the battle, gains [effect:e814390a-f8b2-4fde-b549-c99fde7660f8] permanently.</p><p>Before the attack, <span style=\"color: rgb(243, 109, 28);\">each</span> buff the user has, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains <span style=\"color: rgb(243, 109, 28);\">1</span> random attack buff. For every more than <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d011f494-6976-4868-9810-b4ce99f1ef36], it counts as <span style=\"color: rgb(243, 109, 28);\">1</span> independent buff, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">3</span> buffs, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "d0a7f41c-3219-4462-a0e2-34b7f7b2c1c3",
+            "vertebraeUpgradeIdLevel3": "8684ea0b-0cc7-4b6a-aaec-b5072afa58ac"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      }
+    ],
+    "summons": [
+      {
+        "id": "6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc",
+        "name": "City Warden",
+        "imageUrl": "https://cdn.dandegate.net/summons/city-warden/1758755022419-Summon_Whole_PapashaSSR01Warden.webp",
+        "stabilityGauge": 9,
+        "movement": 5,
+        "class": null,
+        "phase": null,
+        "ammoTypes": [],
+        "unitInfo": "<p>A warden of the City. Protector of all that is good and fair in this world. If you need an unflinching soldier in the war against evil, this robot is for you.</p>",
+        "hp": 80,
+        "atk": 80,
+        "def": 80,
+        "createdAt": "2025-09-24T22:43:57.221Z",
+        "updatedAt": "2025-11-15T02:34:52.758Z",
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "skillOrder": [
+          "e464c4f0-fd50-4c1a-a955-4e2fe60987fe",
+          "0d6bdf76-a904-473d-a19d-c91835767b0b",
+          "74214d3d-8a58-4538-a486-b25aa33b5d4f"
+        ],
+        "atkLevel2": null,
+        "atkLevel3": null,
+        "classLevel2": null,
+        "classLevel3": null,
+        "defLevel2": null,
+        "defLevel3": null,
+        "hpLevel2": null,
+        "hpLevel3": null,
+        "movementLevel2": null,
+        "movementLevel3": null,
+        "stabilityGaugeLevel2": null,
+        "stabilityGaugeLevel3": null,
+        "unitInfoLevel2": "<p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:908ec419-871d-4297-bbb8-e12e4b46d7f9].</p>",
+        "unitInfoLevel3": null,
+        "vertebraeUpgradeIdLevel2": "170b3637-2fd3-478f-9944-b7df2986a68f",
+        "vertebraeUpgradeIdLevel3": null,
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "86c2ce0d-92c6-449f-92c3-b8870c0f589f",
+              "alt": null,
+              "category": "Card",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/card-1d4965697dec8020119ad8c06caac408.webp",
+              "isActive": true,
+              "createdAt": "2025-09-24T22:43:57.553Z",
+              "updatedAt": "2025-09-24T22:43:57.553Z"
+            },
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "alt": null,
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "isActive": true,
+              "createdAt": "2025-09-27T00:29:34.826Z",
+              "updatedAt": "2025-09-27T00:29:34.826Z"
+            }
+          ]
+        },
+        "vertebraeUpgradeLevel2": {
+          "id": "170b3637-2fd3-478f-9944-b7df2986a68f",
+          "level": 3,
+          "effect": "<p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:908ec419-871d-4297-bbb8-e12e4b46d7f9].</p>",
+          "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/1ee353781c919748bac94244feab164b.webp",
+          "createdAt": "2025-09-25T05:08:26.063Z",
+          "updatedAt": "2025-10-14T07:06:02.172Z",
+          "vertebraeName": "United Guards Lv.3"
+        },
+        "vertebraeUpgradeLevel3": null,
+        "skills": [
+          {
+            "id": "e464c4f0-fd50-4c1a-a955-4e2fe60987fe",
+            "name": "Counter Terrorism Support",
+            "description": "<p>After Papasha attacks an enemy target, the City Warden will follow up with a Support Attack on the same target, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack.</p>",
+            "phase": "Physical",
+            "ammoTypes": "[\"Light Ammo\"]",
+            "stabilityDamage": 3,
+            "cooldown": null,
+            "confectanceCost": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/e23d5a1de536990757f955827dc6d4d8.webp",
+            "createdAt": "2025-09-24T23:04:23.851Z",
+            "updatedAt": "2025-10-12T05:05:54.879Z",
+            "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+            "summonId": "6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc",
+            "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "vertebraeUpgradeIdLevel2": null,
+            "vertebraeUpgradeIdLevel3": null,
+            "skillTags": [
+              "Passive",
+              "Support"
+            ],
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillType": "Passive",
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "descriptionLevel2": null,
+            "descriptionLevel3": null,
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "doll": {
+              "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+              "name": "Papasha",
+              "rarity": "Elite",
+              "preview": false,
+              "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+              "createdAt": "2025-09-24T22:43:57.178Z",
+              "regionTag": "en",
+              "updatedAt": "2025-11-15T02:34:51.246Z"
+            },
+            "rangeMap": {
+              "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+              "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
+              "createdAt": "2025-09-13T06:39:18.350Z",
+              "updatedAt": "2025-09-20T22:07:05.813Z",
+              "rangeValue": "Map",
+              "effectiveArea": "Target"
+            },
+            "rangeMapLevel2": null,
+            "rangeMapLevel3": null,
+            "vertebraeUpgradeLevel2": null,
+            "vertebraeUpgradeLevel3": null
+          },
+          {
+            "id": "0d6bdf76-a904-473d-a19d-c91835767b0b",
+            "name": "Explosion Prevention Measures",
+            "description": "<p>At the end of the turn, the City Warden will move independently to seek cover.</p><p>The City Warden's healing received is reduced by <span style=\"color: rgb(243, 109, 28);\">100%</span> and it cannot receive shields. When Papasha is healed, the City Warden restores <span style=\"color: rgb(243, 109, 28);\">10%</span> of its max HP. When the City Warden takes fatal damage, it enters [effect:58b037ca-2154-420f-9920-f3716e8f0202] state for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "phase": null,
+            "ammoTypes": "[]",
+            "stabilityDamage": null,
+            "cooldown": null,
+            "confectanceCost": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/ca0624131089c97ee1e436cc7daf5a72.webp",
+            "createdAt": "2025-09-24T23:04:43.969Z",
+            "updatedAt": "2025-10-14T07:07:17.365Z",
+            "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+            "summonId": "6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc",
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "vertebraeUpgradeIdLevel2": "a2568df4-da1a-4365-8047-e3381f42ff9a",
+            "vertebraeUpgradeIdLevel3": null,
+            "skillTags": [
+              "Passive",
+              "Healing"
+            ],
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillType": "Passive",
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "descriptionLevel2": "<p>At the end of the turn, the City Warden will move independently to seek cover.</p><p>The City Warden's healing received is reduced by <span style=\"color: rgb(243, 109, 28);\">100%</span> and it cannot receive shields. When Papasha is healed, the City Warden restores <span style=\"color: rgb(243, 109, 28);\">20%</span> of its max HP. When the City Warden takes fatal damage, it enters [effect:58b037ca-2154-420f-9920-f3716e8f0202] state for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "descriptionLevel3": null,
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "doll": {
+              "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+              "name": "Papasha",
+              "rarity": "Elite",
+              "preview": false,
+              "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+              "createdAt": "2025-09-24T22:43:57.178Z",
+              "regionTag": "en",
+              "updatedAt": "2025-11-15T02:34:51.246Z"
+            },
+            "rangeMap": {
+              "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+              "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+              "createdAt": "2025-09-13T05:48:21.166Z",
+              "updatedAt": "2025-09-13T05:48:21.166Z",
+              "rangeValue": "Self",
+              "effectiveArea": "Target"
+            },
+            "rangeMapLevel2": null,
+            "rangeMapLevel3": null,
+            "vertebraeUpgradeLevel2": {
+              "id": "a2568df4-da1a-4365-8047-e3381f42ff9a",
+              "level": 2,
+              "effect": "<p>The duration of the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> [effect:58b037ca-2154-420f-9920-f3716e8f0202] is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. After the user is healed, the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] restores HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of its max HP.</p><p>The stability requirement for the target has been removed.</p><p>The effects of [effect:5aa28bfd-5b57-4578-b1ff-015088da504f] is enhanced: ignores <span style=\"color: rgb(243, 109, 28);\">30%</span> of defense when attacking Large Targets.</p>",
+              "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+              "segment": 1,
+              "imageUrl": "https://cdn.dandegate.net/skills/cd8c80628674b1db8c9e164a0df7bf3f.webp",
+              "createdAt": "2025-09-25T04:51:24.208Z",
+              "updatedAt": "2025-10-14T07:06:22.624Z",
+              "vertebraeName": "Honor Guard Lv.2"
+            },
+            "vertebraeUpgradeLevel3": null
+          },
+          {
+            "id": "74214d3d-8a58-4538-a486-b25aa33b5d4f",
+            "name": "Security Monitoring",
+            "description": "<p>At the end of the action, attacks the enemy target within the map that has used a basic attack or an active skill, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">40%</span> of attack to them. This effect can activate up to <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn.</p><p></p><p><span style=\"color: rgb(34, 139, 230);\">Note: This skill is inactive until V5.</span></p>",
+            "phase": null,
+            "ammoTypes": "[]",
+            "stabilityDamage": null,
+            "cooldown": null,
+            "confectanceCost": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/67f1f09d2dcf8383b0b496fdae015b8b.webp",
+            "createdAt": "2025-09-24T23:05:02.532Z",
+            "updatedAt": "2025-10-15T05:43:21.471Z",
+            "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+            "summonId": "6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc",
+            "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "vertebraeUpgradeIdLevel2": "170b3637-2fd3-478f-9944-b7df2986a68f",
+            "vertebraeUpgradeIdLevel3": null,
+            "skillTags": [
+              "Passive"
+            ],
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillType": "Passive",
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "descriptionLevel2": "<p>At the end of the action, attacks the enemy target within the map that has used a basic attack or an active skill, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">40%</span> of attack to them. This effect can activate up to<span style=\"color: rgb(243, 109, 28);\"> 1 time</span> per turn.</p>",
+            "descriptionLevel3": null,
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "doll": {
+              "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+              "name": "Papasha",
+              "rarity": "Elite",
+              "preview": false,
+              "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+              "createdAt": "2025-09-24T22:43:57.178Z",
+              "regionTag": "en",
+              "updatedAt": "2025-11-15T02:34:51.246Z"
+            },
+            "rangeMap": {
+              "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+              "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
+              "createdAt": "2025-09-13T06:39:18.350Z",
+              "updatedAt": "2025-09-20T22:07:05.813Z",
+              "rangeValue": "Map",
+              "effectiveArea": "Target"
+            },
+            "rangeMapLevel2": null,
+            "rangeMapLevel3": null,
+            "vertebraeUpgradeLevel2": {
+              "id": "170b3637-2fd3-478f-9944-b7df2986a68f",
+              "level": 3,
+              "effect": "<p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:908ec419-871d-4297-bbb8-e12e4b46d7f9].</p>",
+              "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+              "segment": 5,
+              "imageUrl": "https://cdn.dandegate.net/skills/1ee353781c919748bac94244feab164b.webp",
+              "createdAt": "2025-09-25T05:08:26.063Z",
+              "updatedAt": "2025-10-14T07:06:02.172Z",
+              "vertebraeName": "United Guards Lv.3"
+            },
+            "vertebraeUpgradeLevel3": null
+          }
+        ],
+        "shortId": "s8"
+      }
+    ],
+    "remoldingPattern": {
+      "id": "b981df45-1b1d-4377-9e23-044a1d839f12",
+      "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+      "coreSlots": {
+        "bulwark": 1,
+        "support": 0,
+        "sentinel": 3,
+        "vanguard": 2
+      },
+      "statBoosts": {
+        "60": {
+          "hp": 679,
+          "atk": 245,
+          "def": 224
+        }
+      },
+      "dollCore": "Sentinel Core",
+      "createdAt": "2025-09-30T11:02:39.280Z",
+      "updatedAt": "2025-09-30T11:02:39.280Z",
+      "doll": {
+        "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "name": "Papasha",
+        "class": "Sentinel",
+        "phase": "Physical",
+        "rarity": "Elite",
+        "preview": false,
+        "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+        "regionTag": "en",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      "imagoforms": [
+        {
+          "id": "b2664e5e-d0ed-4574-ab22-9b61a052901b",
+          "stage": "Embryo",
+          "effect": "<p>Damage dealt by this unit's <span style=\"color: rgb(34, 139, 230);\">Physical Summons</span><span> is increased by </span><span style=\"color: rgb(243, 109, 28);\">8%</span><span>.</span></p>",
+          "coreLevel": 1,
+          "createdAt": "2025-09-30T11:02:39.307Z",
+          "updatedAt": "2025-09-30T11:02:39.307Z",
+          "bulwarkFactors": 0,
+          "supportFactors": 0,
+          "sentinelFactors": 4,
+          "vanguardFactors": 2
+        },
+        {
+          "id": "a9b1b9fb-ae3e-478b-89e2-8056ddcd63f6",
+          "stage": "Seedling",
+          "effect": "<p>Physical and phase damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+          "coreLevel": 10,
+          "createdAt": "2025-09-30T11:02:39.307Z",
+          "updatedAt": "2025-09-30T11:02:39.307Z",
+          "bulwarkFactors": 1,
+          "supportFactors": 0,
+          "sentinelFactors": 6,
+          "vanguardFactors": 3
+        },
+        {
+          "id": "640563c8-2ea0-421f-9862-89d785b273c3",
+          "stage": "Sprout",
+          "effect": "<p>Physical damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+          "coreLevel": 20,
+          "createdAt": "2025-09-30T11:02:39.307Z",
+          "updatedAt": "2025-09-30T11:02:39.307Z",
+          "bulwarkFactors": 2,
+          "supportFactors": 0,
+          "sentinelFactors": 7,
+          "vanguardFactors": 5
+        },
+        {
+          "id": "06de7334-cdd0-4a48-a2cd-e33e276459b3",
+          "stage": "Shoot",
+          "effect": "<p>Damage dealt to enemy targets in Stability Break is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
+          "coreLevel": 30,
+          "createdAt": "2025-09-30T11:02:39.307Z",
+          "updatedAt": "2025-09-30T11:02:39.307Z",
+          "bulwarkFactors": 3,
+          "supportFactors": 0,
+          "sentinelFactors": 9,
+          "vanguardFactors": 6
+        },
+        {
+          "id": "3d335cbc-7683-496e-84a0-db567f5ca17f",
+          "stage": "Bud",
+          "effect": "<p>Attack is increased by <span style=\"color: rgb(243, 109, 28);\">8%</span><span>.</span></p>",
+          "coreLevel": 45,
+          "createdAt": "2025-09-30T11:02:39.307Z",
+          "updatedAt": "2025-09-30T11:02:39.307Z",
+          "bulwarkFactors": 4,
+          "supportFactors": 0,
+          "sentinelFactors": 13,
+          "vanguardFactors": 6
+        },
+        {
+          "id": "3fb853c5-57c7-498e-aeeb-6945c810c5b5",
+          "stage": "Blossom",
+          "effect": "<p>Damage dealt by attacks that only hit <span style=\"color: rgb(243, 109, 28);\">1</span><span> enemy unit is increased by </span><span style=\"color: rgb(243, 109, 28);\">12%</span><span>.</span></p>",
+          "coreLevel": 60,
+          "createdAt": "2025-09-30T11:02:39.307Z",
+          "updatedAt": "2025-09-30T11:02:39.307Z",
+          "bulwarkFactors": 5,
+          "supportFactors": 0,
+          "sentinelFactors": 15,
+          "vanguardFactors": 9
+        }
+      ],
+      "equippedRelics": []
+    },
+    "dollEffects": [
+      {
+        "id": "7edd4ba7-819f-409c-b20f-9715d02075f5",
+        "effectName": "Accolade's Brilliance",
+        "effectDetails": "<p>Increases attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>. This buff cannot be cleansed.</p>",
+        "effectTags": [
+          "Attack",
+          "Buff"
+        ],
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-24T22:52:20.623Z",
+        "updatedAt": "2025-11-06T06:29:55.378Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "PPSh-41"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "5aa28bfd-5b57-4578-b1ff-015088da504f",
+        "effectName": "Courage to Endure",
+        "effectDetails": "{\"mainDetails\":\"<p>Damage dealt with <span style=\\\"color: rgb(34, 139, 230);\\\">Counter-Terrorism Support</span> is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. This buff cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"43c5d75b-254d-4a7c-b007-295af9750417\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>Damage dealt with <span style=\\\"color: rgb(34, 139, 230);\\\">Counter-Terrorism Support</span><span> is increased by </span><span style=\\\"color: rgb(243, 109, 28);\\\">30%</span><span>. When attacking a large target, ignore </span><span style=\\\"color: rgb(243, 109, 28);\\\">30%</span><span> of its defense. This buff cannot be cleansed.</span></p>\",\"order\":0}]}",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-24T22:55:01.542Z",
+        "updatedAt": "2025-11-01T21:35:17.927Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "PPSh-41"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "d011f494-6976-4868-9810-b4ce99f1ef36",
+        "effectName": "Power of Unity",
+        "effectDetails": "<p>Each stack gained increases self and City Warden's targeted damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>. All stacks are removed before a new attack a new attack target is selected. Maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. This buff cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-24T22:56:42.026Z",
+        "updatedAt": "2025-11-03T15:21:32.617Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "PPSh-41"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "a28e7dac-cdbd-4b37-960a-a32e21096a09",
+        "effectName": "Resolve to Defend",
+        "effectDetails": "<p>Attacks <span style=\"color: rgb(243, 109, 28);\">1 </span>more time with Surveillance. For each time the enemy target is attacked, increase damage dealt to that target by <span style=\"color: rgb(243, 109, 28);\">5%</span>. This buff cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-25T05:07:44.779Z",
+        "updatedAt": "2025-11-03T15:31:29.059Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "PPSh-41"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "908ec419-871d-4297-bbb8-e12e4b46d7f9",
+        "effectName": "Security Monitoring",
+        "effectDetails": "<p>At the end of this unit's action, perform Suveillance on the entire map. When an enemy unit uses a basic attack or an active attack, damage them for <span style=\"color: rgb(243, 109, 28);\">40%</span> of own attack. This effect can trigger <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn.</p>",
+        "effectTags": [],
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-25T05:06:21.477Z",
+        "updatedAt": "2025-09-28T01:57:28.248Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "PPSh-41"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "58b037ca-2154-420f-9920-f3716e8f0202",
+        "effectName": "Self-Repair",
+        "effectDetails": "<p>When the City Warden takes lethal damage, it gains this effect. Becomes immune to all damage and fixed damage, and cannot act or be attacked. When the effect duration ends, remove all debuffs and restores all of its HP and stability index.</p>",
+        "effectTags": [],
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-24T22:51:34.032Z",
+        "updatedAt": "2025-09-28T01:55:40.315Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "PPSh-41"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "8a2f2d51-5a66-4101-b628-ef10d7ba2a1d",
+        "effectName": "Steel Forging",
+        "effectDetails": "<p>Damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">50%</span>. When damage is taken, <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of this buff is removed. Stacks up to <span style=\"color: rgb(243, 109, 28);\">2 times</span>. This is considered a defense buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Defense"
+        ],
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "preview": false,
+        "regionTag": "cn",
+        "createdAt": "2026-02-09T02:26:40.098Z",
+        "updatedAt": "2026-02-09T02:28:55.447Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "PPSh-41"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "e814390a-f8b2-4fde-b549-c99fde7660f8",
+        "effectName": "Tenacity to Withstand",
+        "effectDetails": "{\"mainDetails\":\"<p>Damage dealt increases with the target's remaining HP, with a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span>. This buff cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"28813b9c-98cd-4113-a1dd-e94f90838509\",\"upgradeName\":\"V4\",\"upgradeDetails\":\"<p>Damage dealt increases with the target's remaining HP, with a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">80%</span>. This buff cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-25T05:01:54.884Z",
+        "updatedAt": "2025-11-03T16:01:24.648Z",
+        "doll": {
+          "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+          "name": "Papasha",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/papasha/2c3084ba7ecc2926d69a66bf4bfb2932.webp",
+          "createdAt": "2025-09-24T22:43:57.178Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-15T02:34:51.246Z",
+          "dollImages": [
+            {
+              "id": "6a70fb70-9cd2-4942-8a02-e3d7bf6b20a7",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/papasha/chibi-0739d27013d1273c69fea0991a21e1aa.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "PPSh-41"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "shortId": "d36"
+  }
+}

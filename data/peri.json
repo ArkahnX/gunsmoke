@@ -1,0 +1,1487 @@
+{
+  "success": true,
+  "data": {
+    "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+    "name": "Peri",
+    "class": "Bulwark",
+    "ammoTypes": "[\"Light Ammo\"]",
+    "phase": "Burn",
+    "rarity": "Elite",
+    "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+    "regionTag": "en",
+    "preview": false,
+    "createdAt": "2025-09-18T05:30:40.946Z",
+    "updatedAt": "2025-11-14T10:06:39.815Z",
+    "searchTags": [
+      "MP5"
+    ],
+    "dollImages": [
+      {
+        "id": "e932ead4-1484-4e31-8bd7-6b1083e0f189",
+        "category": "Card",
+        "imageUrl": "https://cdn.dandegate.net/dolls/peri/card-8561f943870f5591b9c8ed1b3bfe990c.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "2625fd9f-86fb-4ac3-a85a-a2e160a63e2b",
+        "category": "Chibi",
+        "imageUrl": "https://cdn.dandegate.net/dolls/peri/chibi-3bab2b4036f5a7894e47628cd14dccf9.webp",
+        "skinTitle": null,
+        "alt": null
+      }
+    ],
+    "weaponImprintType": null,
+    "weaponImprint": {
+      "id": "84af17ef-a49c-4e56-976b-738dc7a4da44",
+      "name": "Amanita",
+      "rarity": "Elite",
+      "weaponType": "Submachine Gun",
+      "primaryAttributeStat": 320,
+      "primaryAttribute": "Attack",
+      "secondaryAttribute": "Attack Boost",
+      "secondaryAttributeStat": "15%",
+      "trait": "<p>Damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">2%</span> for every Burn debuff on the attacker, to a maximum reduction of <span style=\"color: rgb(243, 109, 28);\">6%</span>.</p>",
+      "effect": "<p>Critical damage from basic attacks is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. <span style=\"color: rgb(243, 109, 28);\">Each</span> basic attack increases critical damage by <span style=\"color: rgb(243, 109, 28);\">2%/3%/4%/5%/6%/7%</span>, to a maximum of <span style=\"color: rgb(243, 109, 28);\">25%/30%/35%/40%/45%/50%</span>.</p>",
+      "imprintDescription": "<p>Damage dealt to Sycca Technologies units is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span><span>. If the target has a Burn debuff, damage is additionally increased by </span><span style=\"color: rgb(243, 109, 28);\">2.5%</span><span>.</span></p>",
+      "imageUrl": "https://cdn.dandegate.net/weapons/6d8d144c78fb33bf74b6ad446f404d52.webp",
+      "createdAt": "2025-09-19T00:59:36.507Z",
+      "updatedAt": "2026-01-22T18:57:38.977Z",
+      "regionTag": "en",
+      "preview": false,
+      "imprintDollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+      "imprintDoll": {
+        "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "name": "Peri",
+        "rarity": "Elite",
+        "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp"
+      }
+    },
+    "stabilityGauge": 12,
+    "movement": 6,
+    "effects": "A cute little Doll with big dreams, Peri has grown into a strong, independent Doll while following in the footsteps of her master. Her cheerful and lively personality has won the trust of many clients while her wits and experience have allowed her to avoid many pitfalls. All her efforts are to become a super cool and reliable Doll, so why not try relying on her a little?",
+    "skills": [
+      {
+        "id": "fbc27c2a-9a8f-4297-b6ce-04d361a265a8",
+        "name": "Passionate Gift",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Light Ammo\"]",
+        "stabilityDamage": 3,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/d8d5729f0562c9306a8cb49dd945fc8c.webp",
+        "createdAt": "2025-09-19T03:09:42.621Z",
+        "updatedAt": "2025-11-03T00:42:14.696Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Basic Attack",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "6e150036-e26f-46c3-8d43-01e0df9c9db5",
+        "name": "Profit Maximization",
+        "description": "<p>At the end of Peri's action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When allied units (apart from Peri) launch [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] that deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, Peri gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index if she has less than <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">once</span><span> per turn</span>.<br>After using an active skill, Peri can launch <span style=\"color: rgb(243, 109, 28);\">1</span> basic attack for every <span style=\"color: rgb(243, 109, 28);\">3</span> stacks of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses. The effect of this basic attack is changed to dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">12%</span> of Peri's initial max HP to an enemy target for <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses.</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/560ea685e5f001ef02089b0f529851e2.webp",
+        "createdAt": "2025-09-19T04:01:09.925Z",
+        "updatedAt": "2025-10-30T16:36:36.029Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "summonId": null,
+        "rangeMapId": null,
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "4f602d7c-7162-4945-8eac-f5cb48b0b3ee",
+        "vertebraeUpgradeIdLevel3": "9b02fa24-5695-4176-9940-0dab0a7a03c9",
+        "skillTags": [
+          "Passive"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>At the end of Peri's action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When allied units (apart from Peri) launch [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] that deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, Peri gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index if she has less than <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">once</span><span> per turn</span>.<br>After using an active skill, Peri can launch <span style=\"color: rgb(243, 109, 28);\">1</span> basic attack for every <span style=\"color: rgb(243, 109, 28);\">2</span> stacks of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses. The effect of this basic attack is changed to dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">12%</span> of Peri's initial max HP to an enemy target for each <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses.</p>",
+        "descriptionLevel3": "<p>At the start of the battle, Peri's maximum stability is increased by <span style=\"color: rgb(243, 109, 28);\">6 stacks</span>. <span style=\"color: rgb(243, 109, 28);\">Each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses increases <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt by <span style=\"color: rgb(243, 109, 28);\">8%</span>. <br>At the end of Peri's action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When allied units (apart from Peri) launch [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] that deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, Peri gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index if she has less than <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">once</span><span> per turn</span>.<br>After using an active skill, Peri can launch <span style=\"color: rgb(243, 109, 28);\">1</span> basic attack for every <span style=\"color: rgb(243, 109, 28);\">2</span> stacks of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses. The effect of this basic attack is changed to dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to 12% of Peri's initial max HP to an enemy target for <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": null,
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "4f602d7c-7162-4945-8eac-f5cb48b0b3ee",
+          "level": 2,
+          "effect": "<p>The number of stacks of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] needed to launch <span style=\"color: rgb(243, 109, 28);\">1</span><span> basic attack is reduced by </span><span style=\"color: rgb(243, 109, 28);\">1</span><span>.</span></p>",
+          "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "segment": 1,
+          "imageUrl": "https://cdn.dandegate.net/skills/560ea685e5f001ef02089b0f529851e2.webp",
+          "createdAt": "2025-09-19T04:05:59.866Z",
+          "updatedAt": "2025-10-14T07:05:57.113Z",
+          "vertebraeName": "Profit Maximization Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "9b02fa24-5695-4176-9940-0dab0a7a03c9",
+          "level": 3,
+          "effect": "<p>At the start of the battle, Peri's maximum stability is increased by <span style=\"color: rgb(243, 109, 28);\">6 points</span><span>. </span><span style=\"color: rgb(243, 109, 28);\">Each stack</span><span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses increases Burn damage dealt by </span><span style=\"color: rgb(243, 109, 28);\">8%</span><span>.</span></p>",
+          "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "segment": 3,
+          "imageUrl": "https://cdn.dandegate.net/skills/560ea685e5f001ef02089b0f529851e2.webp",
+          "createdAt": "2025-09-19T04:08:32.977Z",
+          "updatedAt": "2025-10-14T07:05:57.287Z",
+          "vertebraeName": "Profit Maximization Lv.3"
+        }
+      },
+      {
+        "id": "b18cdfa4-2dca-4f79-b286-8b26a17531f5",
+        "name": "Venture Capital",
+        "description": "<p>Expends <span style=\"color: rgb(243, 109, 28);\">30%</span> of max HP and gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] (this effect will not lower HP below <span style=\"color: rgb(243, 109, 28);\">10%</span>). Selects 1 enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it.</p>",
+        "phase": "Burn",
+        "ammoTypes": "[\"Light Ammo\"]",
+        "stabilityDamage": 4,
+        "cooldown": 2,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/0e203ff9680ca7dd7013e217fb757cd0.webp",
+        "createdAt": "2025-09-19T03:14:23.513Z",
+        "updatedAt": "2025-10-30T16:34:58.928Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "58759c51-c756-4531-9a88-24b5218fbb93",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "Targeted"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 1",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Expends <span style=\"color: rgb(243, 109, 28);\">20%</span> of max HP and gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] (this effect will not lower HP below <span style=\"color: rgb(243, 109, 28);\">10%</span>). Selects 1 enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] Peri holds, increase the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Before the attack, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "58759c51-c756-4531-9a88-24b5218fbb93",
+          "level": 2,
+          "effect": "<p>HP consumption is reduced by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span><br><span>For </span><span style=\"color: rgb(243, 109, 28);\">each stack</span><span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] Peri holds, increases the damage multiplier by </span><span style=\"color: rgb(243, 109, 28);\">10%</span><span>. </span><br><span>Before the attack, cleanses </span><span style=\"color: rgb(243, 109, 28);\">1</span><span> buff from the target.</span></p>",
+          "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/0e203ff9680ca7dd7013e217fb757cd0.webp",
+          "createdAt": "2025-09-19T04:14:05.679Z",
+          "updatedAt": "2025-10-14T07:05:57.809Z",
+          "vertebraeName": "Venture Captial Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "5dc568d8-f1c7-4e6d-a6c2-641b705b6609",
+        "name": "Excess Order",
+        "description": "<p>Expends <span style=\"color: rgb(243, 109, 28);\">40%</span> of max HP and gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] (this effect will not lower HP below <span style=\"color: rgb(243, 109, 28);\">10%</span>). Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, and applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "phase": "Burn",
+        "ammoTypes": null,
+        "stabilityDamage": 2,
+        "cooldown": 2,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/b36f87406725b6b95de51072eeb388c0.webp",
+        "createdAt": "2025-09-19T03:35:55.302Z",
+        "updatedAt": "2025-10-14T07:06:54.389Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "summonId": null,
+        "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+        "rangeMapIdLevel2": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "e39b7053-4836-48b2-a484-ed41be215b69",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "AoE",
+          "Debuff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 2",
+        "ammoTypesLevel2": null,
+        "ammoTypesLevel3": null,
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Expends <span style=\"color: rgb(243, 109, 28);\">30%</span> of max HP and gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] (this effect will not lower HP below <span style=\"color: rgb(243, 109, 28);\">10%</span>). Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] Peri holds, increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743777095-r6e2.webp",
+          "createdAt": "2025-09-13T06:09:37.222Z",
+          "updatedAt": "2025-09-13T06:09:37.222Z",
+          "rangeValue": "6",
+          "effectiveArea": "2"
+        },
+        "rangeMapLevel2": {
+          "id": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757744168858-r6e3.webp",
+          "createdAt": "2025-09-13T06:16:08.963Z",
+          "updatedAt": "2025-09-13T06:16:08.963Z",
+          "rangeValue": "6",
+          "effectiveArea": "3"
+        },
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "e39b7053-4836-48b2-a484-ed41be215b69",
+          "level": 2,
+          "effect": "<p>HP consumption is reduced by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span><br><span>AoE range is increased by </span><span style=\"color: rgb(243, 109, 28);\">1 tile</span><span>.</span><br><span>For </span><span style=\"color: rgb(243, 109, 28);\">each stack</span><span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] Peri holds, increases the damage multiplier by </span><span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+          "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "segment": 4,
+          "imageUrl": "https://cdn.dandegate.net/skills/b36f87406725b6b95de51072eeb388c0.webp",
+          "createdAt": "2025-09-19T04:10:43.075Z",
+          "updatedAt": "2025-10-14T07:05:57.461Z",
+          "vertebraeName": "Excess Order Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "ed4f79cb-31d9-47c5-a2f5-f1c3926ba2ec",
+        "name": "Final Bid",
+        "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd]. In addition, gains [effect:146f9d18-64f3-4941-872b-d3213e1a0bbd] and [effect:bebcfe15-5173-43c9-bfd1-bcdb4cbfece1] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span><span>. [effect:bebcfe15-5173-43c9-bfd1-bcdb4cbfece1] can absorb damage equal to </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span> of max HP.</span></p>",
+        "phase": null,
+        "ammoTypes": null,
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": 6,
+        "imageUrl": "https://cdn.dandegate.net/skills/358819665a1dac4c32139bea155af79e.webp",
+        "createdAt": "2025-09-19T03:52:14.785Z",
+        "updatedAt": "2025-10-14T07:06:54.564Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "summonId": null,
+        "rangeMapId": null,
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "dc6bfee5-cd30-4435-bf62-0c5b3a5694e3",
+        "vertebraeUpgradeIdLevel3": "5271cf85-af91-4302-92cd-605192f76814",
+        "skillTags": [
+          "Ultimate",
+          "Buff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 3",
+        "ammoTypesLevel2": null,
+        "ammoTypesLevel3": null,
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": null,
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "dc6bfee5-cd30-4435-bf62-0c5b3a5694e3",
+          "level": 2,
+          "effect": "<p>[effect:146f9d18-64f3-4941-872b-d3213e1a0bbd] is enhanced: Damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span><span>. When the expires, recovers all points of stability.</span></p>",
+          "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "segment": 2,
+          "imageUrl": "https://cdn.dandegate.net/skills/358819665a1dac4c32139bea155af79e.webp",
+          "createdAt": "2025-09-19T04:07:03.192Z",
+          "updatedAt": "2025-10-14T07:05:57.634Z",
+          "vertebraeName": "Final Bid Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "5271cf85-af91-4302-92cd-605192f76814",
+          "level": 3,
+          "effect": "<p>[effect:146f9d18-64f3-4941-872b-d3213e1a0bbd] gains a new effect: Critical damage dealt by basic attacks is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>. <br>[effect:bebcfe15-5173-43c9-bfd1-bcdb4cbfece1] gains a new effect: Before being attacked, the attacker's attack is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+          "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "segment": 6,
+          "imageUrl": "https://cdn.dandegate.net/skills/358819665a1dac4c32139bea155af79e.webp",
+          "createdAt": "2025-09-19T04:16:36.386Z",
+          "updatedAt": "2026-01-15T20:22:03.060Z",
+          "vertebraeName": "Final Bid Lv.3"
+        }
+      }
+    ],
+    "keys": [
+      {
+        "id": "5d98a4bb-e890-4efd-8860-90fb8e34c639",
+        "keyTitle": "Trader's Ethics",
+        "keyType": "Affinity Key",
+        "level": null,
+        "effect": "<p></p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks at Affinity Level 5</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "3%",
+        "attributeName2": "Health Boost",
+        "attributeValue2": "3%",
+        "attributeName3": "Defense Boost",
+        "attributeValue3": "3%",
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/a667c438-c29c-49ef-b4ac-c342630127aa-trader-s-ethics.webp",
+        "createdAt": "2025-09-18T06:16:27.251Z",
+        "updatedAt": "2025-09-27T02:12:04.421Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "dollImages": [
+            {
+              "id": "2625fd9f-86fb-4ac3-a85a-a2e160a63e2b",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/peri/chibi-3bab2b4036f5a7894e47628cd14dccf9.webp",
+              "createdAt": "2025-09-27T02:12:54.773Z",
+              "updatedAt": "2025-09-27T02:12:54.773Z"
+            }
+          ],
+          "searchTags": [
+            "MP5"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Affinity Key - Trader's Ethics"
+      },
+      {
+        "id": "e208412f-0a28-47ed-bc72-b69c66bbd332",
+        "keyTitle": "Still Growing",
+        "keyType": "Common Key",
+        "level": 40,
+        "effect": "<p>When attacking the same enemy multiple times, phase damage dealt to it is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks after obtaining all Fixed Keys</p>",
+        "attributeName1": "Health Boost",
+        "attributeValue1": "5%",
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/cf72a2bc-54f8-4e0a-97d2-b1baec14a374-still-growing.webp",
+        "createdAt": "2025-09-18T06:14:02.634Z",
+        "updatedAt": "2025-09-27T02:12:15.059Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "dollImages": [
+            {
+              "id": "2625fd9f-86fb-4ac3-a85a-a2e160a63e2b",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/peri/chibi-3bab2b4036f5a7894e47628cd14dccf9.webp",
+              "createdAt": "2025-09-27T02:12:54.773Z",
+              "updatedAt": "2025-09-27T02:12:54.773Z"
+            }
+          ],
+          "searchTags": [
+            "MP5"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Common Key - Still Growing"
+      },
+      {
+        "id": "fdc94b10-13e7-494a-980b-9f52070c2f9a",
+        "keyTitle": "Broker’s Scheme",
+        "keyType": "Expansion Key",
+        "keyNumber": 1,
+        "level": 60,
+        "effect": "<p>Basic attack now performs two attacks.</p><p>[effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] no longer reduces healing efffects.</p><p>For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd], damage taken by all units (other than Peri) is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p><p>The effects of the Passive skill [dollSkill:6e150036-e26f-46c3-8d43-01e0df9c9db5] are changed. When allied units (other than Peri) deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, it triggers her Confectance Index recovery effect.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/ae48273e5b3cecc6f53940e67c6d509cb54dda4de2d60dc2c8379eb846e55460.webp",
+        "createdAt": "2025-10-26T15:27:17.734Z",
+        "updatedAt": "2026-01-06T03:45:23.846Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "dollImages": [
+            {
+              "id": "2625fd9f-86fb-4ac3-a85a-a2e160a63e2b",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/peri/chibi-3bab2b4036f5a7894e47628cd14dccf9.webp",
+              "createdAt": "2025-09-27T02:12:54.773Z",
+              "updatedAt": "2025-09-27T02:12:54.773Z"
+            }
+          ],
+          "searchTags": [
+            "MP5"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Expansion Key - Broker’s Scheme"
+      },
+      {
+        "id": "2ce2086d-f781-4466-8f57-594ea45b274a",
+        "keyTitle": "Basis of Trade",
+        "keyType": "Fixed Key",
+        "keyNumber": 1,
+        "level": 20,
+        "effect": "<p>At the start of the battle, gains <span style=\"color: rgb(243, 109, 28);\">3</span><span> points of Confectance Index.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/626aae5e-5d0d-47c1-a472-e6cc8bf13f30-basis-of-trade.webp",
+        "createdAt": "2025-09-18T05:31:57.324Z",
+        "updatedAt": "2025-09-18T05:31:57.324Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "dollImages": [
+            {
+              "id": "2625fd9f-86fb-4ac3-a85a-a2e160a63e2b",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/peri/chibi-3bab2b4036f5a7894e47628cd14dccf9.webp",
+              "createdAt": "2025-09-27T02:12:54.773Z",
+              "updatedAt": "2025-09-27T02:12:54.773Z"
+            }
+          ],
+          "searchTags": [
+            "MP5"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 1 - Basis of Trade"
+      },
+      {
+        "id": "0c30fad2-ee35-4107-baba-0f98b648acf9",
+        "keyTitle": "Cool and Reliable",
+        "keyType": "Fixed Key",
+        "keyNumber": 2,
+        "level": 20,
+        "effect": "<p><span style=\"color: rgb(243, 109, 28);\">Each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd]  increases Peri's defense by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/d34c0e07bf55041b8cd18249f909daf6.webp",
+        "createdAt": "2025-09-18T05:33:14.559Z",
+        "updatedAt": "2025-10-14T07:06:28.192Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "dollImages": [
+            {
+              "id": "2625fd9f-86fb-4ac3-a85a-a2e160a63e2b",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/peri/chibi-3bab2b4036f5a7894e47628cd14dccf9.webp",
+              "createdAt": "2025-09-27T02:12:54.773Z",
+              "updatedAt": "2025-09-27T02:12:54.773Z"
+            }
+          ],
+          "searchTags": [
+            "MP5"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 2 - Cool and Reliable"
+      },
+      {
+        "id": "f695499d-828a-45d1-985c-e93d76c4edbe",
+        "keyTitle": "Insider Information",
+        "keyType": "Fixed Key",
+        "keyNumber": 3,
+        "level": 30,
+        "effect": "<p>At the start of the turn, if Peri has more than <span style=\"color: rgb(243, 109, 28);\">2 stacks</span><span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd], gains </span><span style=\"color: rgb(243, 109, 28);\">2 stacks</span><span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a].</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/72fac7c6-b3a9-4fe1-baa5-9e8a9348ceaf-insider-information.webp",
+        "createdAt": "2025-09-18T06:06:35.402Z",
+        "updatedAt": "2025-10-14T07:06:28.375Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "dollImages": [
+            {
+              "id": "2625fd9f-86fb-4ac3-a85a-a2e160a63e2b",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/peri/chibi-3bab2b4036f5a7894e47628cd14dccf9.webp",
+              "createdAt": "2025-09-27T02:12:54.773Z",
+              "updatedAt": "2025-09-27T02:12:54.773Z"
+            }
+          ],
+          "searchTags": [
+            "MP5"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 3 - Insider Information"
+      },
+      {
+        "id": "24348888-eac3-4ab5-85e6-80bdef4b755d",
+        "keyTitle": "Independent Woman",
+        "keyType": "Fixed Key",
+        "keyNumber": 4,
+        "level": 30,
+        "effect": "<p>Peri cleanses all debuffs from self after using the Ultimate Skill.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/1eaddada-e534-4554-a819-7a9380ac780d-independent-woman.webp",
+        "createdAt": "2025-09-18T06:07:35.370Z",
+        "updatedAt": "2025-09-18T06:07:35.370Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "dollImages": [
+            {
+              "id": "2625fd9f-86fb-4ac3-a85a-a2e160a63e2b",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/peri/chibi-3bab2b4036f5a7894e47628cd14dccf9.webp",
+              "createdAt": "2025-09-27T02:12:54.773Z",
+              "updatedAt": "2025-09-27T02:12:54.773Z"
+            }
+          ],
+          "searchTags": [
+            "MP5"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 4 - Independent Woman"
+      },
+      {
+        "id": "ff73175a-3547-422f-9fdb-c1c14a17126a",
+        "keyTitle": "Mature Adult",
+        "keyType": "Fixed Key",
+        "keyNumber": 5,
+        "level": 40,
+        "effect": "<p>When afflicted with [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], [effect:fadf4f3f-2810-49f0-b947-6d683741429d], and [effect:8cfe89a9-404a-42e5-9cc7-5bf57b070887], cleanses them immediately and becomes immune to [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], [effect:fadf4f3f-2810-49f0-b947-6d683741429d], and [effect:8cfe89a9-404a-42e5-9cc7-5bf57b070887] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>. Additionally, Peri recovers HP equal to </span><span style=\"color: rgb(243, 109, 28);\">20%</span><span> of max HP. This effect has a cooldown of </span><span style=\"color: rgb(243, 109, 28);\">3 turns</span><span>.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/746f32df-7295-4a0e-91a9-84a019b5faec-mature-adult.webp",
+        "createdAt": "2025-09-18T06:08:51.409Z",
+        "updatedAt": "2025-10-14T07:06:28.547Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "dollImages": [
+            {
+              "id": "2625fd9f-86fb-4ac3-a85a-a2e160a63e2b",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/peri/chibi-3bab2b4036f5a7894e47628cd14dccf9.webp",
+              "createdAt": "2025-09-27T02:12:54.773Z",
+              "updatedAt": "2025-09-27T02:12:54.773Z"
+            }
+          ],
+          "searchTags": [
+            "MP5"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 5 - Mature Adult"
+      },
+      {
+        "id": "a938ceb4-749b-48d4-82c7-021b27c5d19a",
+        "keyTitle": "Social Engineering",
+        "keyType": "Fixed Key",
+        "keyNumber": 6,
+        "level": 40,
+        "effect": "<p>Damage dealt to enemies with Burn debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/1fc461cd-16c3-4fc1-9098-8e09d851b3e3-social-engineering.webp",
+        "createdAt": "2025-09-18T06:12:27.175Z",
+        "updatedAt": "2025-09-18T06:12:27.175Z",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "dollImages": [
+            {
+              "id": "2625fd9f-86fb-4ac3-a85a-a2e160a63e2b",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/peri/chibi-3bab2b4036f5a7894e47628cd14dccf9.webp",
+              "createdAt": "2025-09-27T02:12:54.773Z",
+              "updatedAt": "2025-09-27T02:12:54.773Z"
+            }
+          ],
+          "searchTags": [
+            "MP5"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 6 - Social Engineering"
+      }
+    ],
+    "vertebrae": [
+      {
+        "id": "4f602d7c-7162-4945-8eac-f5cb48b0b3ee",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "segment": 1,
+        "vertebraeName": "Profit Maximization Lv.2",
+        "level": 2,
+        "effect": "<p>The number of stacks of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] needed to launch <span style=\"color: rgb(243, 109, 28);\">1</span><span> basic attack is reduced by </span><span style=\"color: rgb(243, 109, 28);\">1</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/560ea685e5f001ef02089b0f529851e2.webp",
+        "createdAt": "2025-09-19T04:05:59.866Z",
+        "updatedAt": "2025-10-14T07:05:57.113Z",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "class": "Bulwark",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "A cute little Doll with big dreams, Peri has grown into a strong, independent Doll while following in the footsteps of her master. Her cheerful and lively personality has won the trust of many clients while her wits and experience have allowed her to avoid many pitfalls. All her efforts are to become a super cool and reliable Doll, so why not try relying on her a little?",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "stabilityGauge": 12
+        },
+        "skillsLevel2": [
+          {
+            "id": "6e150036-e26f-46c3-8d43-01e0df9c9db5",
+            "name": "Profit Maximization",
+            "phase": null,
+            "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/560ea685e5f001ef02089b0f529851e2.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-19T04:01:09.925Z",
+            "skillTags": [
+              "Passive"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-10-30T16:36:36.029Z",
+            "description": "<p>At the end of Peri's action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When allied units (apart from Peri) launch [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] that deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, Peri gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index if she has less than <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">once</span><span> per turn</span>.<br>After using an active skill, Peri can launch <span style=\"color: rgb(243, 109, 28);\">1</span> basic attack for every <span style=\"color: rgb(243, 109, 28);\">3</span> stacks of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses. The effect of this basic attack is changed to dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">12%</span> of Peri's initial max HP to an enemy target for <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": null,
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>At the end of Peri's action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When allied units (apart from Peri) launch [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] that deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, Peri gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index if she has less than <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">once</span><span> per turn</span>.<br>After using an active skill, Peri can launch <span style=\"color: rgb(243, 109, 28);\">1</span> basic attack for every <span style=\"color: rgb(243, 109, 28);\">2</span> stacks of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses. The effect of this basic attack is changed to dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">12%</span> of Peri's initial max HP to an enemy target for each <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses.</p>",
+            "descriptionLevel3": "<p>At the start of the battle, Peri's maximum stability is increased by <span style=\"color: rgb(243, 109, 28);\">6 stacks</span>. <span style=\"color: rgb(243, 109, 28);\">Each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses increases <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt by <span style=\"color: rgb(243, 109, 28);\">8%</span>. <br>At the end of Peri's action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When allied units (apart from Peri) launch [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] that deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, Peri gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index if she has less than <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">once</span><span> per turn</span>.<br>After using an active skill, Peri can launch <span style=\"color: rgb(243, 109, 28);\">1</span> basic attack for every <span style=\"color: rgb(243, 109, 28);\">2</span> stacks of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses. The effect of this basic attack is changed to dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to 12% of Peri's initial max HP to an enemy target for <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "4f602d7c-7162-4945-8eac-f5cb48b0b3ee",
+            "vertebraeUpgradeIdLevel3": "9b02fa24-5695-4176-9940-0dab0a7a03c9"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "dc6bfee5-cd30-4435-bf62-0c5b3a5694e3",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "segment": 2,
+        "vertebraeName": "Final Bid Lv.2",
+        "level": 2,
+        "effect": "<p>[effect:146f9d18-64f3-4941-872b-d3213e1a0bbd] is enhanced: Damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span><span>. When the expires, recovers all points of stability.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/358819665a1dac4c32139bea155af79e.webp",
+        "createdAt": "2025-09-19T04:07:03.192Z",
+        "updatedAt": "2025-10-14T07:05:57.634Z",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "class": "Bulwark",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "A cute little Doll with big dreams, Peri has grown into a strong, independent Doll while following in the footsteps of her master. Her cheerful and lively personality has won the trust of many clients while her wits and experience have allowed her to avoid many pitfalls. All her efforts are to become a super cool and reliable Doll, so why not try relying on her a little?",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "stabilityGauge": 12
+        },
+        "skillsLevel2": [
+          {
+            "id": "ed4f79cb-31d9-47c5-a2f5-f1c3926ba2ec",
+            "name": "Final Bid",
+            "phase": null,
+            "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/358819665a1dac4c32139bea155af79e.webp",
+            "summonId": null,
+            "ammoTypes": null,
+            "createdAt": "2025-09-19T03:52:14.785Z",
+            "skillTags": [
+              "Ultimate",
+              "Buff"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-10-14T07:06:54.564Z",
+            "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd]. In addition, gains [effect:146f9d18-64f3-4941-872b-d3213e1a0bbd] and [effect:bebcfe15-5173-43c9-bfd1-bcdb4cbfece1] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span><span>. [effect:bebcfe15-5173-43c9-bfd1-bcdb4cbfece1] can absorb damage equal to </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span> of max HP.</span></p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": null,
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 6,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": null,
+            "ammoTypesLevel3": null,
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": null,
+            "skillTagsLevel3": null,
+            "descriptionLevel2": null,
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "dc6bfee5-cd30-4435-bf62-0c5b3a5694e3",
+            "vertebraeUpgradeIdLevel3": "5271cf85-af91-4302-92cd-605192f76814"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "9b02fa24-5695-4176-9940-0dab0a7a03c9",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "segment": 3,
+        "vertebraeName": "Profit Maximization Lv.3",
+        "level": 3,
+        "effect": "<p>At the start of the battle, Peri's maximum stability is increased by <span style=\"color: rgb(243, 109, 28);\">6 points</span><span>. </span><span style=\"color: rgb(243, 109, 28);\">Each stack</span><span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses increases Burn damage dealt by </span><span style=\"color: rgb(243, 109, 28);\">8%</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/560ea685e5f001ef02089b0f529851e2.webp",
+        "createdAt": "2025-09-19T04:08:32.977Z",
+        "updatedAt": "2025-10-14T07:05:57.287Z",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "class": "Bulwark",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "A cute little Doll with big dreams, Peri has grown into a strong, independent Doll while following in the footsteps of her master. Her cheerful and lively personality has won the trust of many clients while her wits and experience have allowed her to avoid many pitfalls. All her efforts are to become a super cool and reliable Doll, so why not try relying on her a little?",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "stabilityGauge": 12
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "6e150036-e26f-46c3-8d43-01e0df9c9db5",
+            "name": "Profit Maximization",
+            "phase": null,
+            "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/560ea685e5f001ef02089b0f529851e2.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-19T04:01:09.925Z",
+            "skillTags": [
+              "Passive"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-10-30T16:36:36.029Z",
+            "description": "<p>At the end of Peri's action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When allied units (apart from Peri) launch [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] that deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, Peri gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index if she has less than <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">once</span><span> per turn</span>.<br>After using an active skill, Peri can launch <span style=\"color: rgb(243, 109, 28);\">1</span> basic attack for every <span style=\"color: rgb(243, 109, 28);\">3</span> stacks of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses. The effect of this basic attack is changed to dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">12%</span> of Peri's initial max HP to an enemy target for <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": null,
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>At the end of Peri's action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When allied units (apart from Peri) launch [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] that deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, Peri gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index if she has less than <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">once</span><span> per turn</span>.<br>After using an active skill, Peri can launch <span style=\"color: rgb(243, 109, 28);\">1</span> basic attack for every <span style=\"color: rgb(243, 109, 28);\">2</span> stacks of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses. The effect of this basic attack is changed to dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">12%</span> of Peri's initial max HP to an enemy target for each <span style=\"color: rgb(243, 109, 28);\">stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses.</p>",
+            "descriptionLevel3": "<p>At the start of the battle, Peri's maximum stability is increased by <span style=\"color: rgb(243, 109, 28);\">6 stacks</span>. <span style=\"color: rgb(243, 109, 28);\">Each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses increases <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt by <span style=\"color: rgb(243, 109, 28);\">8%</span>. <br>At the end of Peri's action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When allied units (apart from Peri) launch [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] that deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, Peri gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index if she has less than <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">once</span><span> per turn</span>.<br>After using an active skill, Peri can launch <span style=\"color: rgb(243, 109, 28);\">1</span> basic attack for every <span style=\"color: rgb(243, 109, 28);\">2</span> stacks of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses. The effect of this basic attack is changed to dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to 12% of Peri's initial max HP to an enemy target for <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] she possesses.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "4f602d7c-7162-4945-8eac-f5cb48b0b3ee",
+            "vertebraeUpgradeIdLevel3": "9b02fa24-5695-4176-9940-0dab0a7a03c9"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "e39b7053-4836-48b2-a484-ed41be215b69",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "segment": 4,
+        "vertebraeName": "Excess Order Lv.2",
+        "level": 2,
+        "effect": "<p>HP consumption is reduced by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span><br><span>AoE range is increased by </span><span style=\"color: rgb(243, 109, 28);\">1 tile</span><span>.</span><br><span>For </span><span style=\"color: rgb(243, 109, 28);\">each stack</span><span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] Peri holds, increases the damage multiplier by </span><span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/b36f87406725b6b95de51072eeb388c0.webp",
+        "createdAt": "2025-09-19T04:10:43.075Z",
+        "updatedAt": "2025-10-14T07:05:57.461Z",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "class": "Bulwark",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "A cute little Doll with big dreams, Peri has grown into a strong, independent Doll while following in the footsteps of her master. Her cheerful and lively personality has won the trust of many clients while her wits and experience have allowed her to avoid many pitfalls. All her efforts are to become a super cool and reliable Doll, so why not try relying on her a little?",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "stabilityGauge": 12
+        },
+        "skillsLevel2": [
+          {
+            "id": "5dc568d8-f1c7-4e6d-a6c2-641b705b6609",
+            "name": "Excess Order",
+            "phase": "Burn",
+            "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+            "cooldown": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/b36f87406725b6b95de51072eeb388c0.webp",
+            "summonId": null,
+            "ammoTypes": null,
+            "createdAt": "2025-09-19T03:35:55.302Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Debuff"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2025-10-14T07:06:54.389Z",
+            "description": "<p>Expends <span style=\"color: rgb(243, 109, 28);\">40%</span> of max HP and gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] (this effect will not lower HP below <span style=\"color: rgb(243, 109, 28);\">10%</span>). Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, and applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": null,
+            "ammoTypesLevel3": null,
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": null,
+            "skillTagsLevel3": null,
+            "descriptionLevel2": "<p>Expends <span style=\"color: rgb(243, 109, 28);\">30%</span> of max HP and gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] (this effect will not lower HP below <span style=\"color: rgb(243, 109, 28);\">10%</span>). Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] Peri holds, increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "e39b7053-4836-48b2-a484-ed41be215b69",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "58759c51-c756-4531-9a88-24b5218fbb93",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "segment": 5,
+        "vertebraeName": "Venture Captial Lv.2",
+        "level": 2,
+        "effect": "<p>HP consumption is reduced by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span><br><span>For </span><span style=\"color: rgb(243, 109, 28);\">each stack</span><span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] Peri holds, increases the damage multiplier by </span><span style=\"color: rgb(243, 109, 28);\">10%</span><span>. </span><br><span>Before the attack, cleanses </span><span style=\"color: rgb(243, 109, 28);\">1</span><span> buff from the target.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/0e203ff9680ca7dd7013e217fb757cd0.webp",
+        "createdAt": "2025-09-19T04:14:05.679Z",
+        "updatedAt": "2025-10-14T07:05:57.809Z",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "class": "Bulwark",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "A cute little Doll with big dreams, Peri has grown into a strong, independent Doll while following in the footsteps of her master. Her cheerful and lively personality has won the trust of many clients while her wits and experience have allowed her to avoid many pitfalls. All her efforts are to become a super cool and reliable Doll, so why not try relying on her a little?",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "stabilityGauge": 12
+        },
+        "skillsLevel2": [
+          {
+            "id": "b18cdfa4-2dca-4f79-b286-8b26a17531f5",
+            "name": "Venture Capital",
+            "phase": "Burn",
+            "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+            "cooldown": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/0e203ff9680ca7dd7013e217fb757cd0.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Light Ammo\"]",
+            "createdAt": "2025-09-19T03:14:23.513Z",
+            "skillTags": [
+              "Active",
+              "Targeted"
+            ],
+            "skillType": "Skill 1",
+            "updatedAt": "2025-10-30T16:34:58.928Z",
+            "description": "<p>Expends <span style=\"color: rgb(243, 109, 28);\">30%</span> of max HP and gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] (this effect will not lower HP below <span style=\"color: rgb(243, 109, 28);\">10%</span>). Selects 1 enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 4,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Expends <span style=\"color: rgb(243, 109, 28);\">20%</span> of max HP and gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] (this effect will not lower HP below <span style=\"color: rgb(243, 109, 28);\">10%</span>). Selects 1 enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd] Peri holds, increase the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Before the attack, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "58759c51-c756-4531-9a88-24b5218fbb93",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "5271cf85-af91-4302-92cd-605192f76814",
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "segment": 6,
+        "vertebraeName": "Final Bid Lv.3",
+        "level": 3,
+        "effect": "<p>[effect:146f9d18-64f3-4941-872b-d3213e1a0bbd] gains a new effect: Critical damage dealt by basic attacks is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>. <br>[effect:bebcfe15-5173-43c9-bfd1-bcdb4cbfece1] gains a new effect: Before being attacked, the attacker's attack is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/358819665a1dac4c32139bea155af79e.webp",
+        "createdAt": "2025-09-19T04:16:36.386Z",
+        "updatedAt": "2026-01-15T20:22:03.060Z",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "class": "Bulwark",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "A cute little Doll with big dreams, Peri has grown into a strong, independent Doll while following in the footsteps of her master. Her cheerful and lively personality has won the trust of many clients while her wits and experience have allowed her to avoid many pitfalls. All her efforts are to become a super cool and reliable Doll, so why not try relying on her a little?",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "stabilityGauge": 12
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "ed4f79cb-31d9-47c5-a2f5-f1c3926ba2ec",
+            "name": "Final Bid",
+            "phase": null,
+            "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/358819665a1dac4c32139bea155af79e.webp",
+            "summonId": null,
+            "ammoTypes": null,
+            "createdAt": "2025-09-19T03:52:14.785Z",
+            "skillTags": [
+              "Ultimate",
+              "Buff"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-10-14T07:06:54.564Z",
+            "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:57a15f9e-36c6-4618-9bb0-4b94c538effd]. In addition, gains [effect:146f9d18-64f3-4941-872b-d3213e1a0bbd] and [effect:bebcfe15-5173-43c9-bfd1-bcdb4cbfece1] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span><span>. [effect:bebcfe15-5173-43c9-bfd1-bcdb4cbfece1] can absorb damage equal to </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span> of max HP.</span></p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": null,
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 6,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": null,
+            "ammoTypesLevel3": null,
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": null,
+            "skillTagsLevel3": null,
+            "descriptionLevel2": null,
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "dc6bfee5-cd30-4435-bf62-0c5b3a5694e3",
+            "vertebraeUpgradeIdLevel3": "5271cf85-af91-4302-92cd-605192f76814"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      }
+    ],
+    "summons": [],
+    "remoldingPattern": {
+      "id": "ecc90351-84d9-4826-9494-8fbd264dfe37",
+      "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+      "coreSlots": {
+        "bulwark": 3,
+        "support": 1,
+        "sentinel": 2,
+        "vanguard": 0
+      },
+      "statBoosts": {
+        "60": {
+          "hp": 784,
+          "atk": 210,
+          "def": 245
+        }
+      },
+      "dollCore": "Bulwark Core",
+      "createdAt": "2025-09-30T23:00:10.258Z",
+      "updatedAt": "2025-09-30T23:00:10.258Z",
+      "doll": {
+        "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "name": "Peri",
+        "class": "Bulwark",
+        "phase": "Burn",
+        "rarity": "Elite",
+        "preview": false,
+        "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+        "regionTag": "en",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      "imagoforms": [
+        {
+          "id": "8b21675e-ab40-459b-b859-3b69d14098a1",
+          "stage": "Embryo",
+          "effect": "<p>When this unit's HP is <span style=\"color: rgb(243, 109, 28);\">50% or lower</span><span>, damage dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">3%</span><span>, and damage taken is reduced by </span><span style=\"color: rgb(243, 109, 28);\">3%</span><span>.</span></p>",
+          "coreLevel": 1,
+          "createdAt": "2025-09-30T23:00:10.288Z",
+          "updatedAt": "2025-09-30T23:00:10.288Z",
+          "bulwarkFactors": 4,
+          "supportFactors": 0,
+          "sentinelFactors": 2,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "ee4184f6-d6ae-4493-a8a9-0094e544e856",
+          "stage": "Seedling",
+          "effect": "<p>Physical and phase damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+          "coreLevel": 10,
+          "createdAt": "2025-09-30T23:00:10.288Z",
+          "updatedAt": "2025-09-30T23:00:10.288Z",
+          "bulwarkFactors": 6,
+          "supportFactors": 1,
+          "sentinelFactors": 3,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "37c2a6e6-da90-4818-bef0-8e894d0dd1c8",
+          "stage": "Sprout",
+          "effect": "<p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span> dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+          "coreLevel": 20,
+          "createdAt": "2025-09-30T23:00:10.288Z",
+          "updatedAt": "2025-09-30T23:00:10.288Z",
+          "bulwarkFactors": 7,
+          "supportFactors": 2,
+          "sentinelFactors": 5,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "5bd77403-a36e-4933-9ff1-275cf345b6a8",
+          "stage": "Shoot",
+          "effect": "<p>When not protected by cover, damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+          "coreLevel": 30,
+          "createdAt": "2025-09-30T23:00:10.288Z",
+          "updatedAt": "2025-09-30T23:00:10.288Z",
+          "bulwarkFactors": 9,
+          "supportFactors": 3,
+          "sentinelFactors": 6,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "361755eb-80b4-4f68-9ab3-d467dedcd6ed",
+          "stage": "Bud",
+          "effect": "<p>Max HP is increased by <span style=\"color: rgb(243, 109, 28);\">8%</span><span>.</span></p>",
+          "coreLevel": 45,
+          "createdAt": "2025-09-30T23:00:10.288Z",
+          "updatedAt": "2025-09-30T23:00:10.288Z",
+          "bulwarkFactors": 13,
+          "supportFactors": 4,
+          "sentinelFactors": 6,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "84515c96-7527-4c63-9795-0e4fc65eba03",
+          "stage": "Blossom",
+          "effect": "<p>When stability is <span style=\"color: rgb(243, 109, 28);\">greater than 0</span><span>, damage dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">12%</span><span>.</span></p>",
+          "coreLevel": 60,
+          "createdAt": "2025-09-30T23:00:10.288Z",
+          "updatedAt": "2025-09-30T23:00:10.288Z",
+          "bulwarkFactors": 15,
+          "supportFactors": 5,
+          "sentinelFactors": 9,
+          "vanguardFactors": 0
+        }
+      ],
+      "equippedRelics": []
+    },
+    "dollEffects": [
+      {
+        "id": "146f9d18-64f3-4941-872b-d3213e1a0bbd",
+        "effectName": "Bargain",
+        "effectDetails": "{\"mainDetails\":\"<p>Damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. Critical rate of basic attacks is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">100%</span>. Considered a buff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"4b52688b-b310-4510-a5bf-fee6a6978085\",\"upgradeName\":\"V2\",\"upgradeDetails\":\"<p>Damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span>. Critical rate of basic attacks is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">100%</span>. When the duration ends, the buff holder recovers all points of stability. Considered a buff, cannot be cleansed.</p>\",\"order\":0},{\"id\":\"509d4285-f2c8-4826-aa73-9646aaef8450\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>Damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span>. Critical rate of basic attacks is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">100%</span> and critical damage of basic attacks is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">50%</span>. When the duration ends, the buff holder recovers all points of stability. Considered a buff, cannot be cleansed.</p>\",\"order\":1}]}",
+        "effectTags": [
+          "Attack",
+          "Buff",
+          "Stability"
+        ],
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T03:55:04.627Z",
+        "updatedAt": "2025-11-06T06:40:42.373Z",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "dollImages": [
+            {
+              "id": "2625fd9f-86fb-4ac3-a85a-a2e160a63e2b",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/peri/chibi-3bab2b4036f5a7894e47628cd14dccf9.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "MP5"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "bebcfe15-5173-43c9-bfd1-bcdb4cbfece1",
+        "effectName": "Capital Protection",
+        "effectDetails": "{\"mainDetails\":\"<p>Considered a <span style=\\\"color: rgb(34, 139, 230);\\\">Shield</span>, stability damage taken is reduced by <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span>. At the end of this unit's action, applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to all enemy units within <span style=\\\"color: rgb(243, 109, 28);\\\">2 tiles</span> for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>. Considered a buff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"be3a4c74-0cf2-4217-80bf-d8e5f57f01eb\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>Considered a <span style=\\\"color: rgb(34, 139, 230);\\\">Shield</span>, stability damage taken is reduced by <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span>. Before being attacked, the attacker's attack is reduced by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. At the end of this unit's action, applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to all enemy units within <span style=\\\"color: rgb(243, 109, 28);\\\">2 tiles</span> for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>. Considered a buff, cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [
+          "Buff",
+          "Defense",
+          "Stability"
+        ],
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T03:56:44.916Z",
+        "updatedAt": "2025-11-06T06:44:30.274Z",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "dollImages": [
+            {
+              "id": "2625fd9f-86fb-4ac3-a85a-a2e160a63e2b",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/peri/chibi-3bab2b4036f5a7894e47628cd14dccf9.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "MP5"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "57a15f9e-36c6-4618-9bb0-4b94c538effd",
+        "effectName": "Hot Investment",
+        "effectDetails": "<p>Damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Healing received is reduced by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the start of the buff holder's action, number of stacks is reduced by half (rounding up). Maximum of <span style=\"color: rgb(243, 109, 28);\">6 stacks</span>. Cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T05:57:55.673Z",
+        "updatedAt": "2025-11-03T15:01:29.453Z",
+        "doll": {
+          "id": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+          "name": "Peri",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/peri/3fa1d861eed47262479c3c8496574ae3.webp",
+          "createdAt": "2025-09-18T05:30:40.946Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T10:06:39.815Z",
+          "dollImages": [
+            {
+              "id": "2625fd9f-86fb-4ac3-a85a-a2e160a63e2b",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/peri/chibi-3bab2b4036f5a7894e47628cd14dccf9.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "MP5"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "shortId": "d37"
+  }
+}

@@ -1,0 +1,4050 @@
+[
+  {
+    "id": "d1",
+    "name": "Alva",
+    "class": "Support",
+    "phase": "Freeze",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "avatar": "data/alva/avatar.webp",
+    "skills": [
+      {
+        "name": "Laceration",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/alva/Laceration.webp"
+      },
+      {
+        "name": "Freezing Touch",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/alva/Freezing Touch.webp"
+      },
+      {
+        "name": "Snow Wolf's Heart",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/alva/Snow Wolf's Heart.webp"
+      },
+      {
+        "name": "Frosted Echo",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Summon"
+        ],
+        "range": "8",
+        "localImagePath": "data/alva/Frosted Echo.webp"
+      },
+      {
+        "name": "Nix Requiem",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/alva/Nix Requiem.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d2",
+    "name": "Andoris",
+    "class": "Bulwark",
+    "phase": "Electric",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "avatar": "data/andoris/avatar.webp",
+    "skills": [
+      {
+        "name": "Practice Shot",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "7",
+        "localImagePath": "data/andoris/Practice Shot.webp"
+      },
+      {
+        "name": "Delayed Response",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Sharing",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/andoris/Delayed Response.webp"
+      },
+      {
+        "name": "Gentle Offensive",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Summon"
+        ],
+        "range": "3",
+        "localImagePath": "data/andoris/Gentle Offensive.webp"
+      },
+      {
+        "name": "Streamlined Tactics",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "7",
+        "localImagePath": "data/andoris/Streamlined Tactics.webp"
+      },
+      {
+        "name": "Fortification Protocol",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/andoris/Fortification Protocol.webp"
+      }
+    ],
+    "summons": [
+      {
+        "name": "Auto-Turret",
+        "localImagePath": "data/andoris/Auto-Turret.webp",
+        "skills": [
+          {
+            "name": "Charged Shot",
+            "localImagePath": "data/andoris/Charged Shot.webp",
+            "type": "Basic Attack",
+            "tags": [
+              "Basic Attack",
+              "Targeted",
+              "Debuff"
+            ],
+            "range": "6"
+          },
+          {
+            "name": "Info Relay",
+            "localImagePath": "data/andoris/Info Relay.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive",
+              "Debuff"
+            ],
+            "range": "6"
+          },
+          {
+            "name": "Crash Mimicry",
+            "localImagePath": "data/andoris/Crash Mimicry.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive"
+            ],
+            "range": "Self"
+          },
+          {
+            "name": "En Passant",
+            "localImagePath": "data/andoris/En Passant.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive",
+              "Support"
+            ],
+            "range": "Self"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d3",
+    "name": "Balthilde",
+    "class": "Support",
+    "phase": "Physical",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/balthilde/avatar.webp",
+    "skills": [
+      {
+        "name": "Cryoshatter Strike",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/balthilde/Cryoshatter Strike.webp"
+      },
+      {
+        "name": "Wrench Calibration",
+        "type": "Passive",
+        "tags": [
+          "Passive"
+        ],
+        "range": "Self",
+        "localImagePath": "data/balthilde/Wrench Calibration.webp"
+      },
+      {
+        "name": "Reinforcement Protocol",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Summon",
+          "Defense"
+        ],
+        "range": "8",
+        "localImagePath": "data/balthilde/Reinforcement Protocol.webp"
+      },
+      {
+        "name": "Demolition Protocol",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Summon"
+        ],
+        "range": "8",
+        "localImagePath": "data/balthilde/Demolition Protocol.webp"
+      },
+      {
+        "name": "Raging Chainblast",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "range": "1",
+        "localImagePath": "data/balthilde/Raging Chainblast.webp"
+      }
+    ],
+    "summons": [
+      {
+        "name": "Defense Construct",
+        "localImagePath": "data/balthilde/Defense Construct.webp",
+        "skills": [
+          {
+            "name": "Safety Consciousness",
+            "localImagePath": "data/balthilde/Safety Consciousness.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive",
+              "Buff",
+              "Healing"
+            ],
+            "range": "3"
+          },
+          {
+            "name": "Focused Maintenance",
+            "localImagePath": "data/balthilde/Focused Maintenance.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive"
+            ],
+            "range": "3"
+          }
+        ]
+      },
+      {
+        "name": "Offense Construct",
+        "localImagePath": "data/balthilde/Offense Construct.webp",
+        "skills": [
+          {
+            "name": "Disassembly Knack",
+            "localImagePath": "data/balthilde/Disassembly Knack.webp",
+            "type": "Basic Attack",
+            "tags": [
+              "Basic Attack",
+              "Targeted"
+            ],
+            "range": "3"
+          },
+          {
+            "name": "Additional Modifications",
+            "localImagePath": "data/balthilde/Additional Modifications.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive"
+            ],
+            "range": "5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d4",
+    "name": "Basti",
+    "class": "Support",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/basti/avatar.webp",
+    "skills": [
+      {
+        "name": "Reckless Provocation",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/basti/Reckless Provocation.webp"
+      },
+      {
+        "name": "Graffiti World",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Tile",
+          "Debuff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/basti/Graffiti World.webp"
+      },
+      {
+        "name": "Bad Influence",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Teleport"
+        ],
+        "range": "6",
+        "localImagePath": "data/basti/Bad Influence.webp"
+      },
+      {
+        "name": "Jirai Shoujo",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Summon"
+        ],
+        "range": "6",
+        "localImagePath": "data/basti/Jirai Shoujo.webp"
+      },
+      {
+        "name": "Sugar-Coated Trap",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Tile",
+          "Debuff"
+        ],
+        "range": "8",
+        "localImagePath": "data/basti/Sugar-Coated Trap.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d5",
+    "name": "Belka",
+    "class": "Vanguard",
+    "phase": "Electric",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "avatar": "data/belka/avatar.webp",
+    "skills": [
+      {
+        "name": "Nutcracker Shell",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/belka/Nutcracker Shell.webp"
+      },
+      {
+        "name": "Forest's Secrets",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Debuff",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/belka/Forest's Secrets.webp"
+      },
+      {
+        "name": "Sylvan Vault",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/belka/Sylvan Vault.webp"
+      },
+      {
+        "name": "Crackling Core",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Buff"
+        ],
+        "range": "6",
+        "localImagePath": "data/belka/Crackling Core.webp"
+      },
+      {
+        "name": "Leaping Arc",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "8",
+        "localImagePath": "data/belka/Leaping Arc.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d6",
+    "name": "Centaureissi",
+    "class": "Support",
+    "phase": "Burn",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "avatar": "data/centaureissi/avatar.webp",
+    "skills": [
+      {
+        "name": "Cleaning Time",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "7",
+        "localImagePath": "data/centaureissi/Cleaning Time.webp"
+      },
+      {
+        "name": "Maid's Duty",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff",
+          "Debuff",
+          "Support"
+        ],
+        "range": "Self",
+        "localImagePath": "data/centaureissi/Maid's Duty.webp"
+      },
+      {
+        "name": "Careful Hospitality",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Healing",
+          "Buff"
+        ],
+        "range": "7",
+        "localImagePath": "data/centaureissi/Careful Hospitality.webp"
+      },
+      {
+        "name": "Zucchero's Special Drink",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Healing",
+          "Cleanse"
+        ],
+        "range": "7",
+        "localImagePath": "data/centaureissi/Zucchero's Special Drink.webp"
+      },
+      {
+        "name": "Afternoon Tea Break",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Healing",
+          "Stability Regen",
+          "Cleanse",
+          "Buff"
+        ],
+        "range": "Map",
+        "localImagePath": "data/centaureissi/Afternoon Tea Break.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d7",
+    "name": "Cheeta",
+    "class": "Support",
+    "phase": "Burn",
+    "rarity": "Standard",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/cheeta/avatar.webp",
+    "skills": [
+      {
+        "name": "Welcome Gift",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/cheeta/Welcome Gift.webp"
+      },
+      {
+        "name": "Invention of the Century",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Healing"
+        ],
+        "range": "Self",
+        "localImagePath": "data/cheeta/Invention of the Century.webp"
+      },
+      {
+        "name": "Spicy Candy",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/cheeta/Spicy Candy.webp"
+      },
+      {
+        "name": "Fireworks Festival",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff"
+        ],
+        "range": "6",
+        "localImagePath": "data/cheeta/Fireworks Festival.webp"
+      },
+      {
+        "name": "Surprise Box",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Buff",
+          "Support"
+        ],
+        "range": "Self",
+        "localImagePath": "data/cheeta/Surprise Box.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d8",
+    "name": "Cheyanne",
+    "class": "Sentinel",
+    "phase": "Physical",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/cheyanne/avatar.webp",
+    "skills": [
+      {
+        "name": "Playing to Potential",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "Map",
+        "localImagePath": "data/cheyanne/Playing to Potential.webp"
+      },
+      {
+        "name": "Meticulous Planning",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Targeted"
+        ],
+        "range": "Self",
+        "localImagePath": "data/cheyanne/Meticulous Planning.webp"
+      },
+      {
+        "name": "Wall of One's Self",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Tile"
+        ],
+        "range": "Self",
+        "localImagePath": "data/cheyanne/Wall of One's Self.webp"
+      },
+      {
+        "name": "Steadfast Pursuit",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "Map",
+        "localImagePath": "data/cheyanne/Steadfast Pursuit.webp"
+      },
+      {
+        "name": "Piercing the Heavens Into the Sun",
+        "type": "Skill 3",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "Map",
+        "localImagePath": "data/cheyanne/Piercing the Heavens Into the Sun.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d9",
+    "name": "Colphne",
+    "class": "Support",
+    "phase": "Hydro",
+    "rarity": "Standard",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/colphne/avatar.webp",
+    "skills": [
+      {
+        "name": "Quick Reaction",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/colphne/Quick Reaction.webp"
+      },
+      {
+        "name": "Medical Contingency",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Support",
+          "Stability Regen"
+        ],
+        "range": "6",
+        "localImagePath": "data/colphne/Medical Contingency.webp"
+      },
+      {
+        "name": "Crisis Aid",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Healing",
+          "Buff"
+        ],
+        "range": "6",
+        "localImagePath": "data/colphne/Crisis Aid.webp"
+      },
+      {
+        "name": "Battlefield Glow",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Healing"
+        ],
+        "range": "6",
+        "localImagePath": "data/colphne/Battlefield Glow.webp"
+      },
+      {
+        "name": "Emergency Treatment",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Healing",
+          "Stability Regen",
+          "Cleanse"
+        ],
+        "range": "8",
+        "localImagePath": "data/colphne/Emergency Treatment.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d10",
+    "name": "Daiyan",
+    "class": "Vanguard",
+    "phase": "Physical",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo",
+      "Light Ammo"
+    ],
+    "avatar": "data/daiyan/avatar.webp",
+    "skills": [
+      {
+        "name": "Plucking Strings",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/daiyan/Plucking Strings.webp"
+      },
+      {
+        "name": "Swift Harmony",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Interception"
+        ],
+        "range": "Self",
+        "localImagePath": "data/daiyan/Swift Harmony.webp"
+      },
+      {
+        "name": "Absolute Tuning",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Cleanse"
+        ],
+        "range": "6",
+        "localImagePath": "data/daiyan/Absolute Tuning.webp"
+      },
+      {
+        "name": "Qing Shang Harmony",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/daiyan/Qing Shang Harmony.webp"
+      },
+      {
+        "name": "Ethereal Resonance",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted",
+          "Buff"
+        ],
+        "range": "6",
+        "localImagePath": "data/daiyan/Ethereal Resonance.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d11",
+    "name": "Dushevnaya",
+    "class": "Support",
+    "phase": "Freeze",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/dushevnaya/avatar.webp",
+    "skills": [
+      {
+        "name": "Daybreak",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/dushevnaya/Daybreak.webp"
+      },
+      {
+        "name": "Blessed Artwork",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/dushevnaya/Blessed Artwork.webp"
+      },
+      {
+        "name": "Hero's Code",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/dushevnaya/Hero's Code.webp"
+      },
+      {
+        "name": "Marzanna's Sanction",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Debuff",
+          "Tile"
+        ],
+        "range": "6",
+        "localImagePath": "data/dushevnaya/Marzanna's Sanction.webp"
+      },
+      {
+        "name": "Book of Prophecy",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Buff",
+          "Support"
+        ],
+        "range": "Self",
+        "localImagePath": "data/dushevnaya/Book of Prophecy.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d12",
+    "name": "Faye",
+    "class": "Vanguard",
+    "phase": "Physical",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo",
+      "Melee"
+    ],
+    "avatar": "data/faye/avatar.webp",
+    "skills": [
+      {
+        "name": "Practice Shot",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/faye/Practice Shot.webp"
+      },
+      {
+        "name": "Tomahawk Combo",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Debuff"
+        ],
+        "range": "6",
+        "localImagePath": "data/faye/Tomahawk Combo.webp"
+      },
+      {
+        "name": "Ruinous Whirl",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/faye/Ruinous Whirl.webp"
+      },
+      {
+        "name": "Fissioned Firelight",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "6",
+        "localImagePath": "data/faye/Fissioned Firelight.webp"
+      },
+      {
+        "name": "No Survivors",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "6",
+        "localImagePath": "data/faye/No Survivors.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d13",
+    "name": "Florence",
+    "class": "Support",
+    "phase": "Hydro",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/florence/avatar.webp",
+    "skills": [
+      {
+        "name": "Forced Injection",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/florence/Forced Injection.webp"
+      },
+      {
+        "name": "Surgical Preparation",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Summon"
+        ],
+        "range": "Self",
+        "localImagePath": "data/florence/Surgical Preparation.webp"
+      },
+      {
+        "name": "Special Care",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Healing"
+        ],
+        "range": "6",
+        "localImagePath": "data/florence/Special Care.webp"
+      },
+      {
+        "name": "Pleasure Trigger",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Buff"
+        ],
+        "range": "6",
+        "localImagePath": "data/florence/Pleasure Trigger.webp"
+      },
+      {
+        "name": "Masochistic Hallucination",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Summon",
+          "Control"
+        ],
+        "range": "1",
+        "localImagePath": "data/florence/Masochistic Hallucination.webp"
+      }
+    ],
+    "summons": [
+      {
+        "name": "Arios",
+        "localImagePath": "data/florence/Arios.webp",
+        "skills": [
+          {
+            "name": "Precision Anethesia",
+            "localImagePath": "data/florence/Precision Anethesia.webp",
+            "type": "Skill 1",
+            "tags": [
+              "Active",
+              "Targeted",
+              "Debuff",
+              "Control"
+            ],
+            "range": "6"
+          },
+          {
+            "name": "No. 1 Assistant",
+            "localImagePath": "data/florence/No. 1 Assistant.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive",
+              "Counterattack"
+            ],
+            "range": "Map"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d14",
+    "name": "Groza",
+    "class": "Bulwark",
+    "phase": "Physical",
+    "rarity": "Standard",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "avatar": "data/groza/avatar.webp",
+    "skills": [
+      {
+        "name": "Fire Command",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "7",
+        "localImagePath": "data/groza/Fire Command.webp"
+      },
+      {
+        "name": "Timely Maintenance",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff",
+          "Counterattack"
+        ],
+        "range": "Self",
+        "localImagePath": "data/groza/Timely Maintenance.webp"
+      },
+      {
+        "name": "Heavy Suppression",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Debuff",
+          "Targeted"
+        ],
+        "range": "7",
+        "localImagePath": "data/groza/Heavy Suppression.webp"
+      },
+      {
+        "name": "Perfect Cover",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Buff",
+          "Defense"
+        ],
+        "range": "Self",
+        "localImagePath": "data/groza/Perfect Cover.webp"
+      },
+      {
+        "name": "Explosive Bombardment",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Debuff"
+        ],
+        "range": "7",
+        "localImagePath": "data/groza/Explosive Bombardment.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d15",
+    "name": "Harpsy",
+    "class": "Vanguard",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/harpsy/avatar.webp",
+    "skills": [
+      {
+        "name": "Precision Strike",
+        "type": "Basic Attack",
+        "tags": [
+          "Targeted",
+          "Basic Attack"
+        ],
+        "range": "6",
+        "localImagePath": "data/harpsy/Precision Strike.webp"
+      },
+      {
+        "name": "Macro Virus",
+        "type": "Passive",
+        "tags": [
+          "Passive"
+        ],
+        "range": "Self",
+        "localImagePath": "data/harpsy/Macro Virus.webp"
+      },
+      {
+        "name": "Wide-Area Amplification",
+        "type": "Skill 1",
+        "tags": [
+          "Active"
+        ],
+        "range": "6",
+        "localImagePath": "data/harpsy/Wide-Area Amplification.webp"
+      },
+      {
+        "name": "Fight Poison With Poison",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff",
+          "Displacement"
+        ],
+        "range": "6",
+        "localImagePath": "data/harpsy/Fight Poison With Poison.webp"
+      },
+      {
+        "name": "Cyber Punch",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "range": "6",
+        "localImagePath": "data/harpsy/Cyber Punch.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d16",
+    "name": "Helen",
+    "class": "Bulwark",
+    "phase": "Freeze",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Shotgun Ammo"
+    ],
+    "avatar": "data/helen/avatar.webp",
+    "skills": [
+      {
+        "name": "Condensation",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/helen/Condensation.webp"
+      },
+      {
+        "name": "Fearless Valkyrie",
+        "type": "Passive",
+        "tags": [
+          "Passive"
+        ],
+        "range": null,
+        "localImagePath": "data/helen/Fearless Valkyrie.webp"
+      },
+      {
+        "name": "Blessing Command",
+        "type": "Skill 1",
+        "tags": [
+          "Buff",
+          "Sharing"
+        ],
+        "range": "6",
+        "localImagePath": "data/helen/Blessing Command.webp"
+      },
+      {
+        "name": "Covering Charge",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Buff",
+          "Tile",
+          "Control"
+        ],
+        "range": "8",
+        "localImagePath": "data/helen/Covering Charge.webp"
+      },
+      {
+        "name": "Banner's Watch",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Buff"
+        ],
+        "range": "6",
+        "localImagePath": "data/helen/Banner's Watch.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d17",
+    "name": "Jiangyu",
+    "class": "Support",
+    "phase": "Electric",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo",
+      "Melee"
+    ],
+    "avatar": "data/jiangyu/avatar.webp",
+    "skills": [
+      {
+        "name": "Form-Intention Fist",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/jiangyu/Form-Intention Fist.webp"
+      },
+      {
+        "name": "Grand Aura",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Support"
+        ],
+        "range": "Self",
+        "localImagePath": "data/jiangyu/Grand Aura.webp"
+      },
+      {
+        "name": "Thunderclap",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Melee"
+        ],
+        "range": "3x3",
+        "localImagePath": "data/jiangyu/Thunderclap.webp"
+      },
+      {
+        "name": "Lightning Smash",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/jiangyu/Lightning Smash.webp"
+      },
+      {
+        "name": "Rolling Thunder",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted",
+          "Buff"
+        ],
+        "range": "8",
+        "localImagePath": "data/jiangyu/Rolling Thunder.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d18",
+    "name": "Klukai",
+    "class": "Sentinel",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "avatar": "data/klukai/avatar.webp",
+    "skills": [
+      {
+        "name": "Swift Strike",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/klukai/Swift Strike.webp"
+      },
+      {
+        "name": "Elite's Pride",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Debuff",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/klukai/Elite's Pride.webp"
+      },
+      {
+        "name": "Pinpoint Detonation",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff"
+        ],
+        "range": "8",
+        "localImagePath": "data/klukai/Pinpoint Detonation.webp"
+      },
+      {
+        "name": "Overpowering Corrosion",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff"
+        ],
+        "range": "8",
+        "localImagePath": "data/klukai/Overpowering Corrosion.webp"
+      },
+      {
+        "name": "Devastating Drift",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "range": "--",
+        "localImagePath": "data/klukai/Devastating Drift.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d19",
+    "name": "Krolik",
+    "class": "Vanguard",
+    "phase": "Burn",
+    "rarity": "Standard",
+    "ammoTypes": [
+      "Melee"
+    ],
+    "avatar": "data/krolik/avatar.webp",
+    "skills": [
+      {
+        "name": "Instantaneous Slash",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted",
+          "Melee"
+        ],
+        "range": "1",
+        "localImagePath": "data/krolik/Instantaneous Slash.webp"
+      },
+      {
+        "name": "Embers",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Debuff"
+        ],
+        "range": "5",
+        "localImagePath": "data/krolik/Embers.webp"
+      },
+      {
+        "name": "Crushing Revolution",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Melee"
+        ],
+        "range": "1",
+        "localImagePath": "data/krolik/Crushing Revolution.webp"
+      },
+      {
+        "name": "Quenching Slash",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Melee",
+          "Debuff"
+        ],
+        "range": "1",
+        "localImagePath": "data/krolik/Quenching Slash.webp"
+      },
+      {
+        "name": "Slaughter Sequence",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted",
+          "Melee"
+        ],
+        "range": "1",
+        "localImagePath": "data/krolik/Slaughter Sequence.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d20",
+    "name": "Ksenia",
+    "class": "Support",
+    "phase": "Burn",
+    "rarity": "Standard",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/ksenia/avatar.webp",
+    "skills": [
+      {
+        "name": "Special Discount",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/ksenia/Special Discount.webp"
+      },
+      {
+        "name": "Passion for Shopping",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Support",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/ksenia/Passion for Shopping.webp"
+      },
+      {
+        "name": "Favorable Cycle",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "6",
+        "localImagePath": "data/ksenia/Favorable Cycle.webp"
+      },
+      {
+        "name": "Comprehensive Rescue",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Healing",
+          "Stability Regen",
+          "Buff"
+        ],
+        "range": "6",
+        "localImagePath": "data/ksenia/Comprehensive Rescue.webp"
+      },
+      {
+        "name": "The Secret to Making Money",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted",
+          "Buff"
+        ],
+        "range": "6",
+        "localImagePath": "data/ksenia/The Secret to Making Money.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d21",
+    "name": "Lainie",
+    "class": "Sentinel",
+    "phase": "Physical",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/lainie/avatar.webp",
+    "skills": [
+      {
+        "name": "Victory Protocol",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "7",
+        "localImagePath": "data/lainie/Victory Protocol.webp"
+      },
+      {
+        "name": "Precognition Foresight",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Debuff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/lainie/Precognition Foresight.webp"
+      },
+      {
+        "name": "Combat Algorithm",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "7",
+        "localImagePath": "data/lainie/Combat Algorithm.webp"
+      },
+      {
+        "name": "Computational Crush",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE"
+        ],
+        "range": "7",
+        "localImagePath": "data/lainie/Computational Crush.webp"
+      },
+      {
+        "name": "Simulated Partner",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Summon"
+        ],
+        "range": "7",
+        "localImagePath": "data/lainie/Simulated Partner.webp"
+      }
+    ],
+    "summons": [
+      {
+        "name": "Simulacrum",
+        "localImagePath": "data/lainie/Simulacrum.webp",
+        "skills": [
+          {
+            "name": "Perplexed Reflex",
+            "localImagePath": "data/lainie/Perplexed Reflex.webp",
+            "type": "Basic Attack",
+            "tags": [
+              "Basic Attack",
+              "Targeted"
+            ],
+            "range": "7"
+          },
+          {
+            "name": "Offense Simulation",
+            "localImagePath": "data/lainie/Offense Simulation.webp",
+            "type": "Skill 1",
+            "tags": [
+              "Active",
+              "AoE"
+            ],
+            "range": "7"
+          },
+          {
+            "name": "Hashrate Overclock",
+            "localImagePath": "data/lainie/Hashrate Overclock.webp",
+            "type": "Skill 2",
+            "tags": [
+              "Active",
+              "AoE"
+            ],
+            "range": "7"
+          },
+          {
+            "name": "Queenside Castle",
+            "localImagePath": "data/lainie/Queenside Castle.webp",
+            "type": "Skill 3",
+            "tags": [
+              "Ultimate"
+            ],
+            "range": "Map"
+          },
+          {
+            "name": "Precognition Awareness",
+            "localImagePath": "data/lainie/Precognition Awareness.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive",
+              "Debuff"
+            ],
+            "range": "Self"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d22",
+    "name": "Lenna",
+    "class": "Support",
+    "phase": "Electric",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/lenna/avatar.webp",
+    "skills": [
+      {
+        "name": "Territory Awareness",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "7",
+        "localImagePath": "data/lenna/Territory Awareness.webp"
+      },
+      {
+        "name": "King's Authority",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Debuff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/lenna/King's Authority.webp"
+      },
+      {
+        "name": "Wild Extinction",
+        "type": "Skill 1",
+        "tags": [],
+        "range": "7",
+        "localImagePath": "data/lenna/Wild Extinction.webp"
+      },
+      {
+        "name": "Leaping Pursuit",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "--",
+        "localImagePath": "data/lenna/Leaping Pursuit.webp"
+      },
+      {
+        "name": "Hunting Strategy",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Debuff",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/lenna/Hunting Strategy.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d23",
+    "name": "Leva",
+    "class": "Sentinel",
+    "phase": "Electric",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo",
+      "Melee"
+    ],
+    "avatar": "data/leva/avatar.webp",
+    "skills": [
+      {
+        "name": "Dangerous Smile",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "7",
+        "localImagePath": "data/leva/Dangerous Smile.webp"
+      },
+      {
+        "name": "Fox's Scheme",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Support"
+        ],
+        "range": "Self",
+        "localImagePath": "data/leva/Fox's Scheme.webp"
+      },
+      {
+        "name": "Rational Suppression",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Tile"
+        ],
+        "range": "1",
+        "localImagePath": "data/leva/Rational Suppression.webp"
+      },
+      {
+        "name": "Ordered Disruption",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE"
+        ],
+        "range": "7",
+        "localImagePath": "data/leva/Ordered Disruption.webp"
+      },
+      {
+        "name": "Quantum Calculation",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Tile",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/leva/Quantum Calculation.webp"
+      },
+      {
+        "name": "Superconductive Strike",
+        "type": "Skill A",
+        "tags": [
+          "Active",
+          "Melee",
+          "Tile"
+        ],
+        "range": "7",
+        "localImagePath": "data/leva/Superconductive Strike.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d24",
+    "name": "Lewis",
+    "class": "Sentinel",
+    "phase": "Burn",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/lewis/avatar.webp",
+    "skills": [
+      {
+        "name": "Playtime",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/lewis/Playtime.webp"
+      },
+      {
+        "name": "Tin Soldiers on Parade",
+        "type": "Passive",
+        "tags": [
+          "Passive"
+        ],
+        "range": "Map",
+        "localImagePath": "data/lewis/Tin Soldiers on Parade.webp"
+      },
+      {
+        "name": "Bad Guy Cleanup",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff"
+        ],
+        "range": "1",
+        "localImagePath": "data/lewis/Bad Guy Cleanup.webp"
+      },
+      {
+        "name": "Surprising Funball",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Buff"
+        ],
+        "range": "8",
+        "localImagePath": "data/lewis/Surprising Funball.webp"
+      },
+      {
+        "name": "Toy Carnival",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/lewis/Toy Carnival.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d25",
+    "name": "Lind",
+    "class": "Sentinel",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Shotgun Ammo"
+    ],
+    "avatar": "data/lind/avatar.webp",
+    "skills": [
+      {
+        "name": "Repulsive Shot",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/lind/Repulsive Shot.webp"
+      },
+      {
+        "name": "Sweets Stockpile",
+        "type": "Passive",
+        "tags": [
+          "Debuff",
+          "Passive"
+        ],
+        "range": "Self",
+        "localImagePath": "data/lind/Sweets Stockpile.webp"
+      },
+      {
+        "name": "Assault Spray",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff"
+        ],
+        "range": "1",
+        "localImagePath": "data/lind/Assault Spray.webp"
+      },
+      {
+        "name": "Overwhelming Burst",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE"
+        ],
+        "range": "Self",
+        "localImagePath": "data/lind/Overwhelming Burst.webp"
+      },
+      {
+        "name": "Glucose Overload",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "range": "Self",
+        "localImagePath": "data/lind/Glucose Overload.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d26",
+    "name": "Littara",
+    "class": "Sentinel",
+    "phase": "Physical",
+    "rarity": "Standard",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/littara/avatar.webp",
+    "skills": [
+      {
+        "name": "Quick Writing",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/littara/Quick Writing.webp"
+      },
+      {
+        "name": "Systematic Breakdown",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "AoE"
+        ],
+        "range": "Self",
+        "localImagePath": "data/littara/Systematic Breakdown.webp"
+      },
+      {
+        "name": "Perfect Opportunity",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff"
+        ],
+        "range": "8",
+        "localImagePath": "data/littara/Perfect Opportunity.webp"
+      },
+      {
+        "name": "Reliable Cover",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff",
+          "Cover Destruction"
+        ],
+        "range": "1",
+        "localImagePath": "data/littara/Reliable Cover.webp"
+      },
+      {
+        "name": "Strategist's Plan",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "range": "8",
+        "localImagePath": "data/littara/Strategist's Plan.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d27",
+    "name": "Liushih",
+    "class": "Sentinel",
+    "phase": "Hydro",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/liushih/avatar.webp",
+    "skills": [
+      {
+        "name": "Line Breaker",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/liushih/Line Breaker.webp"
+      },
+      {
+        "name": "We Fight as One",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Summon",
+          "Debuff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/liushih/We Fight as One.webp"
+      },
+      {
+        "name": "All or Nothing",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Buff"
+        ],
+        "range": "9",
+        "localImagePath": "data/liushih/All or Nothing.webp"
+      },
+      {
+        "name": "Strategic Masterstroke",
+        "type": "Skill 2",
+        "tags": [
+          "Active"
+        ],
+        "range": "8",
+        "localImagePath": "data/liushih/Strategic Masterstroke.webp"
+      },
+      {
+        "name": "Leading the Charge",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/liushih/Leading the Charge.webp"
+      }
+    ],
+    "summons": [
+      {
+        "name": "Pegasus",
+        "localImagePath": "data/liushih/Pegasus.webp",
+        "skills": [
+          {
+            "name": "Close-In Defense Autocannon",
+            "localImagePath": "data/liushih/Close-In Defense Autocannon.webp",
+            "type": "Basic Attack",
+            "tags": [
+              "Passive",
+              "Targeted"
+            ],
+            "range": "9"
+          },
+          {
+            "name": "Pegasus",
+            "localImagePath": "data/liushih/Pegasus.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive"
+            ],
+            "range": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d28",
+    "name": "Loreley",
+    "class": "Support",
+    "phase": "Burn",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/loreley/avatar.webp",
+    "skills": [
+      {
+        "name": "Punishment Prelude",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/loreley/Punishment Prelude.webp"
+      },
+      {
+        "name": "Queen’s Gift",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/loreley/Queen’s Gift.webp"
+      },
+      {
+        "name": "Scorching Brand",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Buff"
+        ],
+        "range": "9",
+        "localImagePath": "data/loreley/Scorching Brand.webp"
+      },
+      {
+        "name": "Crimson Binding Decree",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Tile"
+        ],
+        "range": "Self",
+        "localImagePath": "data/loreley/Crimson Binding Decree.webp"
+      },
+      {
+        "name": "Agony’s Grace",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Buff",
+          "Tile",
+          "Summon"
+        ],
+        "range": "5",
+        "localImagePath": "data/loreley/Agony’s Grace.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d29",
+    "name": "Lotta",
+    "class": "Sentinel",
+    "phase": "Freeze",
+    "rarity": "Standard",
+    "ammoTypes": [
+      "Shotgun Ammo"
+    ],
+    "avatar": "data/lotta/avatar.webp",
+    "skills": [
+      {
+        "name": "Heartfelt Confession",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/lotta/Heartfelt Confession.webp"
+      },
+      {
+        "name": "Bonds of Friendship",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Support"
+        ],
+        "range": "Self",
+        "localImagePath": "data/lotta/Bonds of Friendship.webp"
+      },
+      {
+        "name": "Cryo Rounds",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff",
+          "Cover Destruction"
+        ],
+        "range": "5",
+        "localImagePath": "data/lotta/Cryo Rounds.webp"
+      },
+      {
+        "name": "Neural Adjustment",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/lotta/Neural Adjustment.webp"
+      },
+      {
+        "name": "Amplified Courage",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "range": "6",
+        "localImagePath": "data/lotta/Amplified Courage.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d30",
+    "name": "Makiatto",
+    "class": "Sentinel",
+    "phase": "Freeze",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/makiatto/avatar.webp",
+    "skills": [
+      {
+        "name": "Lone Wolf Territory",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/makiatto/Lone Wolf Territory.webp"
+      },
+      {
+        "name": "Battlefield Insight",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/makiatto/Battlefield Insight.webp"
+      },
+      {
+        "name": "Cold Precision Shot",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/makiatto/Cold Precision Shot.webp"
+      },
+      {
+        "name": "Professional Tactics",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Buff"
+        ],
+        "range": "9",
+        "localImagePath": "data/makiatto/Professional Tactics.webp"
+      },
+      {
+        "name": "Absolute Mental Defense",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Buff",
+          "Interception",
+          "Debuff"
+        ],
+        "range": "9",
+        "localImagePath": "data/makiatto/Absolute Mental Defense.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d31",
+    "name": "Mechty",
+    "class": "Support",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "avatar": "data/mechty/avatar.webp",
+    "skills": [
+      {
+        "name": "Bedtime Warmup",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/mechty/Bedtime Warmup.webp"
+      },
+      {
+        "name": "Mysterious Nap",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/mechty/Mysterious Nap.webp"
+      },
+      {
+        "name": "Dreamquake",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Tile"
+        ],
+        "range": "8",
+        "localImagePath": "data/mechty/Dreamquake.webp"
+      },
+      {
+        "name": "Dreamless Night",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Buff",
+          "Stability Regen"
+        ],
+        "range": "Self",
+        "localImagePath": "data/mechty/Dreamless Night.webp"
+      },
+      {
+        "name": "Dream Wonderland",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/mechty/Dream Wonderland.webp"
+      },
+      {
+        "name": "Awakening Command",
+        "type": "Skill A",
+        "tags": [
+          "Active"
+        ],
+        "range": null,
+        "localImagePath": "data/mechty/Awakening Command.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d32",
+    "name": "Mosin-Nagant",
+    "class": "Sentinel",
+    "phase": "Electric",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/mosin-nagant/avatar.webp",
+    "skills": [
+      {
+        "name": "Patrol Time",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/mosin-nagant/Patrol Time.webp"
+      },
+      {
+        "name": "Helping Others",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Support",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/mosin-nagant/Helping Others.webp"
+      },
+      {
+        "name": "Target Victory",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "9",
+        "localImagePath": "data/mosin-nagant/Target Victory.webp"
+      },
+      {
+        "name": "Positive Mindset",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/mosin-nagant/Positive Mindset.webp"
+      },
+      {
+        "name": "Declaration of Victory",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted",
+          "Buff"
+        ],
+        "range": "9",
+        "localImagePath": "data/mosin-nagant/Declaration of Victory.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d33",
+    "name": "Nagant",
+    "class": "Support",
+    "phase": "Corrosion",
+    "rarity": "Standard",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/nagant/avatar.webp",
+    "skills": [
+      {
+        "name": "Point Shooting",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/nagant/Point Shooting.webp"
+      },
+      {
+        "name": "Veteran's Skills",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Debuff",
+          "Control"
+        ],
+        "range": "6",
+        "localImagePath": "data/nagant/Veteran's Skills.webp"
+      },
+      {
+        "name": "Senior's Admonishment",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "6",
+        "localImagePath": "data/nagant/Senior's Admonishment.webp"
+      },
+      {
+        "name": "Friend of Justice",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "6",
+        "localImagePath": "data/nagant/Friend of Justice.webp"
+      },
+      {
+        "name": "Sanction Declaration",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "6",
+        "localImagePath": "data/nagant/Sanction Declaration.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d34",
+    "name": "Nemesis",
+    "class": "Sentinel",
+    "phase": "Corrosion",
+    "rarity": "Standard",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/nemesis/avatar.webp",
+    "skills": [
+      {
+        "name": "Victory Portent",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/nemesis/Victory Portent.webp"
+      },
+      {
+        "name": "Remote Observation",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/nemesis/Remote Observation.webp"
+      },
+      {
+        "name": "Enlightened Star",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/nemesis/Enlightened Star.webp"
+      },
+      {
+        "name": "Penetrating Casket",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "9",
+        "localImagePath": "data/nemesis/Penetrating Casket.webp"
+      },
+      {
+        "name": "Stellar Pursuit",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/nemesis/Stellar Pursuit.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d35",
+    "name": "Nikketa",
+    "class": "Sentinel",
+    "phase": "Hydro",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/nikketa/avatar.webp",
+    "skills": [
+      {
+        "name": "Active Deterrence",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/nikketa/Active Deterrence.webp"
+      },
+      {
+        "name": "On-Site Enforcement",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/nikketa/On-Site Enforcement.webp"
+      },
+      {
+        "name": "K9 Deployment",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Summon",
+          "Debuff"
+        ],
+        "range": "9",
+        "localImagePath": "data/nikketa/K9 Deployment.webp"
+      },
+      {
+        "name": "Judgment Strike",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "9",
+        "localImagePath": "data/nikketa/Judgment Strike.webp"
+      },
+      {
+        "name": "Righteous Verdict",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/nikketa/Righteous Verdict.webp"
+      }
+    ],
+    "summons": [
+      {
+        "name": "Kulich",
+        "localImagePath": "data/nikketa/Kulich.webp",
+        "skills": [
+          {
+            "name": "Kulich's Loyalty",
+            "localImagePath": "data/nikketa/Kulich's Loyalty.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive",
+              "Counterattack"
+            ],
+            "range": null
+          },
+          {
+            "name": "Kulich's Intimidation",
+            "localImagePath": "data/nikketa/Kulich's Intimidation.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive"
+            ],
+            "range": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d56",
+    "name": "OTs-14",
+    "class": "Sentinel",
+    "phase": "Omni",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "avatar": "data/ots-14/avatar.webp",
+    "skills": [
+      {
+        "name": "Combat Instinct",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/ots-14/Combat Instinct.webp"
+      },
+      {
+        "name": "Critical Splash",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "AoE"
+        ],
+        "range": "--",
+        "localImagePath": "data/ots-14/Critical Splash.webp"
+      },
+      {
+        "name": "Boojum Phenomenon",
+        "type": "Passive",
+        "tags": [
+          "Passive"
+        ],
+        "range": "Self",
+        "localImagePath": "data/ots-14/Boojum Phenomenon.webp"
+      },
+      {
+        "name": "Total Suppression",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE"
+        ],
+        "range": "8",
+        "localImagePath": "data/ots-14/Total Suppression.webp"
+      },
+      {
+        "name": "Perfect Adaptation",
+        "type": "Skill 2",
+        "tags": [
+          "Active"
+        ],
+        "range": "Self",
+        "localImagePath": "data/ots-14/Perfect Adaptation.webp"
+      },
+      {
+        "name": "Blast Verdict",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate"
+        ],
+        "range": "1",
+        "localImagePath": "data/ots-14/Blast Verdict.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d36",
+    "name": "Papasha",
+    "class": "Sentinel",
+    "phase": "Physical",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/papasha/avatar.webp",
+    "skills": [
+      {
+        "name": "Warning Shot",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/papasha/Warning Shot.webp"
+      },
+      {
+        "name": "United Guards",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Summon"
+        ],
+        "range": null,
+        "localImagePath": "data/papasha/United Guards.webp"
+      },
+      {
+        "name": "Honor Guard",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Buff"
+        ],
+        "range": "6",
+        "localImagePath": "data/papasha/Honor Guard.webp"
+      },
+      {
+        "name": "Joint Breakthrough",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Cleanse"
+        ],
+        "range": "6",
+        "localImagePath": "data/papasha/Joint Breakthrough.webp"
+      },
+      {
+        "name": "Heart of Protection",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted",
+          "Buff"
+        ],
+        "range": "6",
+        "localImagePath": "data/papasha/Heart of Protection.webp"
+      }
+    ],
+    "summons": [
+      {
+        "name": "City Warden",
+        "localImagePath": "data/papasha/City Warden.webp",
+        "skills": [
+          {
+            "name": "Counter Terrorism Support",
+            "localImagePath": "data/papasha/Counter Terrorism Support.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive",
+              "Support"
+            ],
+            "range": "Map"
+          },
+          {
+            "name": "Explosion Prevention Measures",
+            "localImagePath": "data/papasha/Explosion Prevention Measures.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive",
+              "Healing"
+            ],
+            "range": "Self"
+          },
+          {
+            "name": "Security Monitoring",
+            "localImagePath": "data/papasha/Security Monitoring.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive"
+            ],
+            "range": "Map"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d37",
+    "name": "Peri",
+    "class": "Bulwark",
+    "phase": "Burn",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/peri/avatar.webp",
+    "skills": [
+      {
+        "name": "Passionate Gift",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/peri/Passionate Gift.webp"
+      },
+      {
+        "name": "Profit Maximization",
+        "type": "Passive",
+        "tags": [
+          "Passive"
+        ],
+        "range": null,
+        "localImagePath": "data/peri/Profit Maximization.webp"
+      },
+      {
+        "name": "Venture Capital",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/peri/Venture Capital.webp"
+      },
+      {
+        "name": "Excess Order",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff"
+        ],
+        "range": "6",
+        "localImagePath": "data/peri/Excess Order.webp"
+      },
+      {
+        "name": "Final Bid",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Buff"
+        ],
+        "range": null,
+        "localImagePath": "data/peri/Final Bid.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d38",
+    "name": "Peritya",
+    "class": "Sentinel",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/peritya/avatar.webp",
+    "skills": [
+      {
+        "name": "Rapid Overwrite",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/peritya/Rapid Overwrite.webp"
+      },
+      {
+        "name": "Chain Reaction",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Support"
+        ],
+        "range": "Self",
+        "localImagePath": "data/peritya/Chain Reaction.webp"
+      },
+      {
+        "name": "Fixed Erosion",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Cleanse"
+        ],
+        "range": "8",
+        "localImagePath": "data/peritya/Fixed Erosion.webp"
+      },
+      {
+        "name": "Domain Suppression",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Displacement"
+        ],
+        "range": "8",
+        "localImagePath": "data/peritya/Domain Suppression.webp"
+      },
+      {
+        "name": "Multi-Compilation",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "range": "Self",
+        "localImagePath": "data/peritya/Multi-Compilation.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d39",
+    "name": "Phaetusa",
+    "class": "Sentinel",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Melee"
+    ],
+    "avatar": "data/phaetusa/avatar.webp",
+    "skills": [
+      {
+        "name": "Dual Slash",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted",
+          "Melee"
+        ],
+        "range": "1",
+        "localImagePath": "data/phaetusa/Dual Slash.webp"
+      },
+      {
+        "name": "Escort",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Active",
+          "Support"
+        ],
+        "range": "8",
+        "localImagePath": "data/phaetusa/Escort.webp"
+      },
+      {
+        "name": "Double Descent",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Displacement"
+        ],
+        "range": "--",
+        "localImagePath": "data/phaetusa/Double Descent.webp"
+      },
+      {
+        "name": "Replication Trap",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Debuff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/phaetusa/Replication Trap.webp"
+      },
+      {
+        "name": "Twin Paradise",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Melee",
+          "AoE"
+        ],
+        "range": "Self",
+        "localImagePath": "data/phaetusa/Twin Paradise.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d40",
+    "name": "Qiongjiu",
+    "class": "Sentinel",
+    "phase": "Burn",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "avatar": "data/qiongjiu/avatar.webp",
+    "skills": [
+      {
+        "name": "Fuse",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/qiongjiu/Fuse.webp"
+      },
+      {
+        "name": "Steady Plan",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Support",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/qiongjiu/Steady Plan.webp"
+      },
+      {
+        "name": "Common Rail",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Buff"
+        ],
+        "range": "8",
+        "localImagePath": "data/qiongjiu/Common Rail.webp"
+      },
+      {
+        "name": "Guide to Victory",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff"
+        ],
+        "range": "1",
+        "localImagePath": "data/qiongjiu/Guide to Victory.webp"
+      },
+      {
+        "name": "Pressing the Momentum",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/qiongjiu/Pressing the Momentum.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d41",
+    "name": "Qiuhua",
+    "class": "Vanguard",
+    "phase": "Burn",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Shotgun Ammo",
+      "Light Ammo"
+    ],
+    "avatar": "data/qiuhua/avatar.webp",
+    "skills": [
+      {
+        "name": "Trailblaze",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/qiuhua/Trailblaze.webp"
+      },
+      {
+        "name": "Zao Jun's Rule",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Support"
+        ],
+        "range": "Self",
+        "localImagePath": "data/qiuhua/Zao Jun's Rule.webp"
+      },
+      {
+        "name": "Searing Sizzle",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/qiuhua/Searing Sizzle.webp"
+      },
+      {
+        "name": "Soaring Leap",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/qiuhua/Soaring Leap.webp"
+      },
+      {
+        "name": "Boil and Reduce",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Debuff"
+        ],
+        "range": "6",
+        "localImagePath": "data/qiuhua/Boil and Reduce.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d42",
+    "name": "Robella",
+    "class": "Sentinel",
+    "phase": "Freeze",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/robella/avatar.webp",
+    "skills": [
+      {
+        "name": "Ultra Shot",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/robella/Ultra Shot.webp"
+      },
+      {
+        "name": "Critical Insight",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/robella/Critical Insight.webp"
+      },
+      {
+        "name": "Light of Bond",
+        "type": "Skill 1",
+        "tags": [
+          "Active"
+        ],
+        "range": "8",
+        "localImagePath": "data/robella/Light of Bond.webp"
+      },
+      {
+        "name": "Radiant Memory",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/robella/Radiant Memory.webp"
+      },
+      {
+        "name": "Howling Cyclone",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "range": "1",
+        "localImagePath": "data/robella/Howling Cyclone.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d43",
+    "name": "Sabrina",
+    "class": "Bulwark",
+    "phase": "Hydro",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Shotgun Ammo"
+    ],
+    "avatar": "data/sabrina/avatar.webp",
+    "skills": [
+      {
+        "name": "My Treat",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/sabrina/My Treat.webp"
+      },
+      {
+        "name": "Flexible Modification",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "7",
+        "localImagePath": "data/sabrina/Flexible Modification.webp"
+      },
+      {
+        "name": "Delicious Feast",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff",
+          "Stability Regen"
+        ],
+        "range": "6",
+        "localImagePath": "data/sabrina/Delicious Feast.webp"
+      },
+      {
+        "name": "Meal Preparation",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Debuff",
+          "Cover Destruction"
+        ],
+        "range": "5",
+        "localImagePath": "data/sabrina/Meal Preparation.webp"
+      },
+      {
+        "name": "Gourmet Spirit",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Buff",
+          "Defense",
+          "Counterattack"
+        ],
+        "range": "Self",
+        "localImagePath": "data/sabrina/Gourmet Spirit.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d44",
+    "name": "Sakura",
+    "class": "Vanguard",
+    "phase": "Burn",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/sakura/avatar.webp",
+    "skills": [
+      {
+        "name": "Sakura Chime",
+        "type": "Basic Attack",
+        "tags": [
+          "Targeted",
+          "Basic Attack"
+        ],
+        "range": "7",
+        "localImagePath": "data/sakura/Sakura Chime.webp"
+      },
+      {
+        "name": "Felicitous Prayer",
+        "type": "Passive",
+        "tags": [
+          "Passive"
+        ],
+        "range": "Self",
+        "localImagePath": "data/sakura/Felicitous Prayer.webp"
+      },
+      {
+        "name": "Falling Blossom",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE"
+        ],
+        "range": "Map",
+        "localImagePath": "data/sakura/Falling Blossom.webp"
+      },
+      {
+        "name": "Misfortune Delivery",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "7",
+        "localImagePath": "data/sakura/Misfortune Delivery.webp"
+      },
+      {
+        "name": "Grand Isekai Adventure",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "range": "1",
+        "localImagePath": "data/sakura/Grand Isekai Adventure.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d45",
+    "name": "Sextans",
+    "class": "Support",
+    "phase": "Electric",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Melee"
+    ],
+    "avatar": "data/sextans/avatar.webp",
+    "skills": [
+      {
+        "name": "Dreamscape Garrote",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "1",
+        "localImagePath": "data/sextans/Dreamscape Garrote.webp"
+      },
+      {
+        "name": "Requiem",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/sextans/Requiem.webp"
+      },
+      {
+        "name": "Sanctuary Lauds",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Melee"
+        ],
+        "range": "1",
+        "localImagePath": "data/sextans/Sanctuary Lauds.webp"
+      },
+      {
+        "name": "Death Knell",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Melee"
+        ],
+        "range": "1",
+        "localImagePath": "data/sextans/Death Knell.webp"
+      },
+      {
+        "name": "Midnight Vesper",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Melee",
+          "Tile",
+          "Debuff",
+          "Buff"
+        ],
+        "range": "8",
+        "localImagePath": "data/sextans/Midnight Vesper.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d46",
+    "name": "Sharkry",
+    "class": "Sentinel",
+    "phase": "Burn",
+    "rarity": "Standard",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "avatar": "data/sharkry/avatar.webp",
+    "skills": [
+      {
+        "name": "Love Shot",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/sharkry/Love Shot.webp"
+      },
+      {
+        "name": "Makeup Organization",
+        "type": "Passive",
+        "tags": [
+          "Passive"
+        ],
+        "range": "Self",
+        "localImagePath": "data/sharkry/Makeup Organization.webp"
+      },
+      {
+        "name": "Boiling Soundwaves",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "8",
+        "localImagePath": "data/sharkry/Boiling Soundwaves.webp"
+      },
+      {
+        "name": "Perfect Rising Tone",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Buff",
+          "Debuff"
+        ],
+        "range": "8",
+        "localImagePath": "data/sharkry/Perfect Rising Tone.webp"
+      },
+      {
+        "name": "Highlight Moment",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/sharkry/Highlight Moment.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d47",
+    "name": "Springfield",
+    "class": "Support",
+    "phase": "Hydro",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/springfield/avatar.webp",
+    "skills": [
+      {
+        "name": "Gentle Approach",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/springfield/Gentle Approach.webp"
+      },
+      {
+        "name": "Eagle's Vigilance",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff",
+          "Counterattack"
+        ],
+        "range": "Self",
+        "localImagePath": "data/springfield/Eagle's Vigilance.webp"
+      },
+      {
+        "name": "Intel Manipulation",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "9",
+        "localImagePath": "data/springfield/Intel Manipulation.webp"
+      },
+      {
+        "name": "Opportune Assistance",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Healing",
+          "Buff"
+        ],
+        "range": "9",
+        "localImagePath": "data/springfield/Opportune Assistance.webp"
+      },
+      {
+        "name": "Path of Protection",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Summon"
+        ],
+        "range": "9",
+        "localImagePath": "data/springfield/Path of Protection.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d48",
+    "name": "Suomi",
+    "class": "Support",
+    "phase": "Freeze",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/suomi/avatar.webp",
+    "skills": [
+      {
+        "name": "Pelting Snowflake",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/suomi/Pelting Snowflake.webp"
+      },
+      {
+        "name": "Source of Warmth",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Healing",
+          "Support"
+        ],
+        "range": "Self",
+        "localImagePath": "data/suomi/Source of Warmth.webp"
+      },
+      {
+        "name": "Winter's Wrath",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/suomi/Winter's Wrath.webp"
+      },
+      {
+        "name": "Snow's Grace",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Buff"
+        ],
+        "range": "6",
+        "localImagePath": "data/suomi/Snow's Grace.webp"
+      },
+      {
+        "name": "Snowfield's Radiance",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Tile"
+        ],
+        "range": "6",
+        "localImagePath": "data/suomi/Snowfield's Radiance.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d49",
+    "name": "Tololo",
+    "class": "Sentinel",
+    "phase": "Hydro",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "avatar": "data/tololo/avatar.webp",
+    "skills": [
+      {
+        "name": "Meteor",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/tololo/Meteor.webp"
+      },
+      {
+        "name": "Aurora Curtain",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/tololo/Aurora Curtain.webp"
+      },
+      {
+        "name": "Black Hole Inversion",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/tololo/Black Hole Inversion.webp"
+      },
+      {
+        "name": "Supernova Impact",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/tololo/Supernova Impact.webp"
+      },
+      {
+        "name": "Morte Lumina",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/tololo/Morte Lumina.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d50",
+    "name": "Ullrid",
+    "class": "Vanguard",
+    "phase": "Physical",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Melee",
+      "Light Ammo"
+    ],
+    "avatar": "data/ullrid/avatar.webp",
+    "skills": [
+      {
+        "name": "Warning Shot",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "5",
+        "localImagePath": "data/ullrid/Warning Shot.webp"
+      },
+      {
+        "name": "Optical Camouflage",
+        "type": "Passive",
+        "tags": [
+          "Passive"
+        ],
+        "range": "Self",
+        "localImagePath": "data/ullrid/Optical Camouflage.webp"
+      },
+      {
+        "name": "Hunter's Sight",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Melee",
+          "Debuff"
+        ],
+        "range": "3x3",
+        "localImagePath": "data/ullrid/Hunter's Sight.webp"
+      },
+      {
+        "name": "Blade Whirlwind",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Melee"
+        ],
+        "range": "3x3",
+        "localImagePath": "data/ullrid/Blade Whirlwind.webp"
+      },
+      {
+        "name": "Hidden Pursuit",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted",
+          "Melee"
+        ],
+        "range": "--",
+        "localImagePath": "data/ullrid/Hidden Pursuit.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d51",
+    "name": "Vector",
+    "class": "Support",
+    "phase": "Burn",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/vector/avatar.webp",
+    "skills": [
+      {
+        "name": "Depressive Mentality",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "7",
+        "localImagePath": "data/vector/Depressive Mentality.webp"
+      },
+      {
+        "name": "Perception Block",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Debuff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/vector/Perception Block.webp"
+      },
+      {
+        "name": "Dead End Meltdown",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "7",
+        "localImagePath": "data/vector/Dead End Meltdown.webp"
+      },
+      {
+        "name": "Portent of Doom",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "7",
+        "localImagePath": "data/vector/Portent of Doom.webp"
+      },
+      {
+        "name": "Searing Finale",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Tile",
+          "Buff"
+        ],
+        "range": "7",
+        "localImagePath": "data/vector/Searing Finale.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d52",
+    "name": "Vepley",
+    "class": "Vanguard",
+    "phase": "Physical",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Shotgun Ammo"
+    ],
+    "avatar": "data/vepley/avatar.webp",
+    "skills": [
+      {
+        "name": "Live Interaction",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "5",
+        "localImagePath": "data/vepley/Live Interaction.webp"
+      },
+      {
+        "name": "Idol Talent",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Debuff"
+        ],
+        "range": "Map",
+        "localImagePath": "data/vepley/Idol Talent.webp"
+      },
+      {
+        "name": "All Out Performance",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Cover Destruction",
+          "Displacement"
+        ],
+        "range": "1",
+        "localImagePath": "data/vepley/All Out Performance.webp"
+      },
+      {
+        "name": "Exclusive Stage",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Cleanse"
+        ],
+        "range": "5",
+        "localImagePath": "data/vepley/Exclusive Stage.webp"
+      },
+      {
+        "name": "Infectious Enthusiasm",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Debuff"
+        ],
+        "range": "5",
+        "localImagePath": "data/vepley/Infectious Enthusiasm.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d53",
+    "name": "Voymastina",
+    "class": "Sentinel",
+    "phase": "Physical",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo",
+      "Melee"
+    ],
+    "avatar": "data/voymastina/avatar.webp",
+    "skills": [
+      {
+        "name": "Dread Ultimatum",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/voymastina/Dread Ultimatum.webp"
+      },
+      {
+        "name": "Mastiff’s Pledge",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/voymastina/Mastiff’s Pledge.webp"
+      },
+      {
+        "name": "Sirius Fall",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Support"
+        ],
+        "range": "8",
+        "localImagePath": "data/voymastina/Sirius Fall.webp"
+      },
+      {
+        "name": "Eye of the White Mastiff",
+        "type": "Skill 2",
+        "tags": [
+          "Active"
+        ],
+        "range": "Self",
+        "localImagePath": "data/voymastina/Eye of the White Mastiff.webp"
+      },
+      {
+        "name": "Pile Bunker",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Displacement",
+          "Support"
+        ],
+        "range": "1",
+        "localImagePath": "data/voymastina/Pile Bunker.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d54",
+    "name": "Yoohee",
+    "class": "Support",
+    "phase": "Physical",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "avatar": "data/yoohee/avatar.webp",
+    "skills": [
+      {
+        "name": "Rhythmic Pulse",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/yoohee/Rhythmic Pulse.webp"
+      },
+      {
+        "name": "Main Dancer's Aura",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/yoohee/Main Dancer's Aura.webp"
+      },
+      {
+        "name": "Improv",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/yoohee/Improv.webp"
+      },
+      {
+        "name": "Soul of Dance",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Buff",
+          "Control"
+        ],
+        "range": "8",
+        "localImagePath": "data/yoohee/Soul of Dance.webp"
+      },
+      {
+        "name": "Sparkling Finale",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/yoohee/Sparkling Finale.webp"
+      },
+      {
+        "name": "Graceful Pirouette",
+        "type": "Skill A",
+        "tags": [
+          "Active",
+          "Buff"
+        ],
+        "range": "8",
+        "localImagePath": "data/yoohee/Graceful Pirouette.webp"
+      },
+      {
+        "name": "Passionate Resonance",
+        "type": "Skill B",
+        "tags": [
+          "Active",
+          "Buff"
+        ],
+        "range": "8",
+        "localImagePath": "data/yoohee/Passionate Resonance.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d55",
+    "name": "Zhaohui",
+    "class": "Vanguard",
+    "phase": "Hydro",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "avatar": "data/zhaohui/avatar.webp",
+    "skills": [
+      {
+        "name": "Piercing Wind",
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/zhaohui/Piercing Wind.webp"
+      },
+      {
+        "name": "Shadow Strike",
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Support",
+          "Debuff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/zhaohui/Shadow Strike.webp"
+      },
+      {
+        "name": "Shadow Snare",
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Control"
+        ],
+        "range": "1",
+        "localImagePath": "data/zhaohui/Shadow Snare.webp"
+      },
+      {
+        "name": "Wanderer's Acumen",
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "AoE",
+          "Summon",
+          "Debuff"
+        ],
+        "range": "6",
+        "localImagePath": "data/zhaohui/Wanderer's Acumen.webp"
+      },
+      {
+        "name": "Skybound Leap",
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Targeted",
+          "Debuff"
+        ],
+        "range": "9",
+        "localImagePath": "data/zhaohui/Skybound Leap.webp"
+      }
+    ],
+    "summons": []
+  }
+]

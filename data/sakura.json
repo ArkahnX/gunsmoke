@@ -1,0 +1,1487 @@
+{
+  "success": true,
+  "data": {
+    "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+    "name": "Sakura",
+    "class": "Vanguard",
+    "ammoTypes": "[\"Light Ammo\"]",
+    "phase": "Burn",
+    "rarity": "Elite",
+    "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+    "regionTag": "en",
+    "preview": false,
+    "createdAt": "2025-11-11T03:31:30.682Z",
+    "updatedAt": "2026-01-31T18:37:03.883Z",
+    "searchTags": [
+      "Model 100",
+      "Truck-senpai"
+    ],
+    "dollImages": [
+      {
+        "id": "0d86002a-a10f-4bef-ba4d-db86816dbcd0",
+        "category": "Chibi",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/573553fb68eac4d1874762cea5abfaa1ff2dd94ed30324a2fbe3899a0378d072.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "902846b1-8640-4e4b-a88a-d94daa44cdbf",
+        "category": "Card",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Card/d26e7608e187e827ed8c5b344486727afbf1eadfc1fa01a367bf2214d30d1d5d.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "3c036de9-6fe8-4ba5-884e-7b40fb6fc962",
+        "category": "Skin",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Skin/6fc024c0a766525e6c5d71b02125a1da0f78c957ddf1a46fbb97af375a560807.webp",
+        "skinTitle": "6fc024c0a766525e6c5d71b02125a1da0f78c957ddf1a46fbb97af375a560807.webp",
+        "alt": null
+      }
+    ],
+    "weaponImprintType": null,
+    "weaponImprint": {
+      "id": "775209a5-00ea-43d5-97bd-d26ae9619b3c",
+      "name": "Crimson Covenant",
+      "rarity": "Elite",
+      "weaponType": "Submachine Gun",
+      "primaryAttributeStat": 362,
+      "primaryAttribute": "Attack",
+      "secondaryAttribute": "Crit DMG",
+      "secondaryAttributeStat": "25%",
+      "trait": "<p>If a weakness is exploited, ignores <span style=\"color: rgb(243, 109, 28);\">10%</span> of the target's defense. If a Burn weakness is exploited, ignores an additional <span style=\"color: rgb(243, 109, 28);\">10%</span> of the target's defense.</p>",
+      "effect": "<p><span style=\"color: rgb(237, 79, 18);\">Burn Damage</span> is increased by <span style=\"color: rgb(243, 109, 28);\">15%/18%/21%/24%/27%/30%</span>. <span style=\"color: rgb(243, 109, 28);\">Each time</span> an out-of-turn attack is launched, the damage of out-of-turn attacks is increased by <span style=\"color: rgb(243, 109, 28);\">7%/8%/9%/10%/11%/12%</span>, to a maximum of <span style=\"color: rgb(243, 109, 28);\">14%/16%/18%/20%/22%/24%</span>.</p>",
+      "imprintDescription": "<p>Damage dealt to targets with Burn debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>, and damage dealt to PMC units is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>.</p>",
+      "imageUrl": "https://cdn.dandegate.net/weapons/scarlet-contract/ca928a20fea3ef545b3e1f0bff316e18879b79872f5602416ae17c416ad789a4.webp",
+      "createdAt": "2025-11-11T04:21:14.269Z",
+      "updatedAt": "2026-02-06T03:50:45.935Z",
+      "regionTag": "en",
+      "preview": false,
+      "imprintDollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+      "imprintDoll": {
+        "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "name": "Sakura",
+        "rarity": "Elite",
+        "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp"
+      }
+    },
+    "stabilityGauge": 8,
+    "movement": 9,
+    "effects": "As both founder and courier of \"Ouka Kyuso\", she is primarily active in the satellite cities and contaminated zones around them. Together with her vehicle navigation system \"colleague\", they aim to make life a better place for the locals through speedy and efficient deliveries. Despite being introverted and unfortunate, her hardworking and diligent attitude has earned her the title of \"Ace Courier\". While she has grown into a capable professional, what truly makes her happy is the fact that she will be able to walk her future path with you by her side.\r\n\"If all this hard work wins me praise from the Commander... Then I guess I can work a little harder?\"",
+    "skills": [
+      {
+        "id": "a2085fbf-4199-41d2-9560-3ca8f3afb840",
+        "name": "Sakura Chime",
+        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span><span>,</span> dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Light Ammo\"]",
+        "stabilityDamage": 3,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/8bdcef5124f6c2644f80d5e657176627aea283b6bbde9db30db6767a4c95be22.webp",
+        "createdAt": "2025-11-11T05:12:30.646Z",
+        "updatedAt": "2026-01-31T06:12:36.913Z",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "summonId": null,
+        "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Targeted",
+          "Basic Attack"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Basic Attack",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
+          "createdAt": "2025-09-13T05:51:44.706Z",
+          "updatedAt": "2025-09-13T05:51:44.706Z",
+          "rangeValue": "7",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "8a764d2b-231d-45a8-a1ed-9376520605f8",
+        "name": "Felicitous Prayer",
+        "description": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac]. When the effect of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is triggered without using the Ultimate skill [dollSkill:f25d838f-ea8b-46cc-a8bd-c5dcd52f38db], gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2].</p><p>At the start of the turn, Sakura gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to <span style=\"color: rgb(243, 109, 28);\">3</span> random enemies on the battlefield. If Sakura has [effect:75fd2660-90d0-4026-9703-b80071294145], damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/b8dc0e98c07bae80bf4ff8470ef2e13cf99fbb094a288eb53612c81d7d00f8a9.webp",
+        "createdAt": "2025-11-11T06:36:59.053Z",
+        "updatedAt": "2026-01-31T18:02:41.224Z",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "summonId": null,
+        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "ad2cd15b-f4d0-433f-8d78-cdd85b921414",
+        "vertebraeUpgradeIdLevel3": "78be807d-0df3-44c2-a608-f44db53f5b45",
+        "skillTags": [
+          "Passive"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac]. When the effect of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is triggered without using the Ultimate skill [dollSkill:f25d838f-ea8b-46cc-a8bd-c5dcd52f38db], gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2].</p><p>At the start of the turn, Sakura gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to <span style=\"color: rgb(243, 109, 28);\">5</span> random enemies on the battlefield. If Sakura has [effect:75fd2660-90d0-4026-9703-b80071294145], damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>If the enemy is standing on a Burn tile, the damage dealt by [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+        "descriptionLevel3": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac]. When the effect of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is triggered without using the Ultimate skill [dollSkill:f25d838f-ea8b-46cc-a8bd-c5dcd52f38db], gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2].</p><p>At the start of the turn, Sakura gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to <span style=\"color: rgb(243, 109, 28);\">5</span> random enemies on the battlefield. If Sakura has [effect:75fd2660-90d0-4026-9703-b80071294145], damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span> and critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">25%</span>.</p><p>When an enemy unit gains [effect:633a31d3-52cd-4845-9247-e1c9ab33c922], generates [effect:f793ed02-a490-4ac2-849a-689c57001678] tiles within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of it for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. If the enemy is standing on a Burn tile, the damage dealt by [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>When [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] deals damage, it ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's defense.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+          "createdAt": "2025-09-13T05:48:21.166Z",
+          "updatedAt": "2025-09-13T05:48:21.166Z",
+          "rangeValue": "Self",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "ad2cd15b-f4d0-433f-8d78-cdd85b921414",
+          "level": 2,
+          "effect": "<p>The number of enemy targets who will randomly gain [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased to <span style=\"color: rgb(243, 109, 28);\">5</span>. The damage multiplier of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased to <span style=\"color: rgb(243, 109, 28);\">90%</span> and its effective range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>If the enemy is standing on a Burn tile, the damage dealt by [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+          "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "segment": 1,
+          "imageUrl": "https://cdn.dandegate.net/skills/b8dc0e98c07bae80bf4ff8470ef2e13cf99fbb094a288eb53612c81d7d00f8a9.webp",
+          "createdAt": "2025-11-11T06:39:13.336Z",
+          "updatedAt": "2026-01-31T18:04:40.325Z",
+          "vertebraeName": "Felicitous Prayer Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "78be807d-0df3-44c2-a608-f44db53f5b45",
+          "level": 3,
+          "effect": "<p>If Sakura has [effect:75fd2660-90d0-4026-9703-b80071294145], damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span> and critical damage by <span style=\"color: rgb(243, 109, 28);\">25%</span>.</p><p>When an enemy unit gains [effect:633a31d3-52cd-4845-9247-e1c9ab33c922], generate [effect:f793ed02-a490-4ac2-849a-689c57001678] tiles within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of it for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] deals damage, it ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's defense.</p>",
+          "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "segment": 3,
+          "imageUrl": "https://cdn.dandegate.net/skills/b8dc0e98c07bae80bf4ff8470ef2e13cf99fbb094a288eb53612c81d7d00f8a9.webp",
+          "createdAt": "2025-11-11T06:48:38.066Z",
+          "updatedAt": "2026-01-31T18:07:49.992Z",
+          "vertebraeName": "Felicitous Prayer Lv.3"
+        }
+      },
+      {
+        "id": "3d52fb34-747f-4ce1-a0d4-b4c4e67a83fb",
+        "name": "Falling Blossom",
+        "description": "<p>Selects an empty tile within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of an allied Doll or an enemy target with [effect:633a31d3-52cd-4845-9247-e1c9ab33c922]. Sakura jumps to the selected tile, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of the selected tile and gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+        "phase": "Burn",
+        "ammoTypes": "[]",
+        "stabilityDamage": 1,
+        "cooldown": null,
+        "confectanceCost": 3,
+        "imageUrl": "https://cdn.dandegate.net/skills/a04e34d1ce8ca02b76ffbdf3fc9c796e38a49e108318f68552972d6119d21c84.webp",
+        "createdAt": "2025-11-11T05:29:33.574Z",
+        "updatedAt": "2026-01-31T06:21:37.482Z",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "summonId": null,
+        "rangeMapId": "cbdb959c-7c58-471a-9c70-5dac0d4826d2",
+        "rangeMapIdLevel2": "b3a4c76d-d3ba-415d-9705-575a206b8be3",
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "82923929-ef04-4b8d-9ac6-d7c60a0da326",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "AoE"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 1",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": 2,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects an empty tile within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of an allied Doll or an enemy target with [effect:633a31d3-52cd-4845-9247-e1c9ab33c922]. Sakura jumps to the selected tile, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile and gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "cbdb959c-7c58-471a-9c70-5dac0d4826d2",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/dd432bb6314bd2e9457c6bd64bda35dcfa4505823f8fc1b0f7dd28df706d7c71.webp",
+          "createdAt": "2025-11-11T22:27:40.501Z",
+          "updatedAt": "2025-11-11T22:27:40.501Z",
+          "rangeValue": "Map",
+          "effectiveArea": "2"
+        },
+        "rangeMapLevel2": {
+          "id": "b3a4c76d-d3ba-415d-9705-575a206b8be3",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/62d9ad1c97fce249e92ec4fe1411f8072600bbf9f6076f596530e35acda62811.webp",
+          "createdAt": "2025-11-12T23:34:20.217Z",
+          "updatedAt": "2025-11-12T23:34:20.217Z",
+          "rangeValue": "Map",
+          "effectiveArea": "3"
+        },
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "82923929-ef04-4b8d-9ac6-d7c60a0da326",
+          "level": 2,
+          "effect": "<p>The selectable range for Sakura to jump is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. AoE damage's effective range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>, and Confectance Index cost is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
+          "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "segment": 2,
+          "imageUrl": "https://cdn.dandegate.net/skills/a04e34d1ce8ca02b76ffbdf3fc9c796e38a49e108318f68552972d6119d21c84.webp",
+          "createdAt": "2025-11-11T05:34:49.937Z",
+          "updatedAt": "2026-01-31T18:06:08.478Z",
+          "vertebraeName": "Falling Blossom Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "f8e056ab-8688-486b-b2a6-f31449dbd0b3",
+        "name": "Misfortune Delivery",
+        "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack and applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to it. Before the attack resolves, additionally applies [effect:9223f1cf-7f46-4b8e-ab15-e263375cf18e] to the target for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+        "phase": "Burn",
+        "ammoTypes": "[\"Light Ammo\"]",
+        "stabilityDamage": 3,
+        "cooldown": null,
+        "confectanceCost": 2,
+        "imageUrl": "https://cdn.dandegate.net/skills/d5d55fd8ebf293156ad21c7d2edb48d9bf4299939932f3e8fa364ef355f989d6.webp",
+        "createdAt": "2025-11-11T05:37:54.496Z",
+        "updatedAt": "2026-01-31T06:29:28.712Z",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "summonId": null,
+        "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "841f8aca-0c40-423a-af3b-fde8ccfd02cd",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "Targeted",
+          "Debuff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 2",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to it. Before the attack resolves, additionally applies [effect:9223f1cf-7f46-4b8e-ab15-e263375cf18e] to the target for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+        "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it and apply <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922]. Before the attack, apply [effect:9223f1cf-7f46-4b8e-ab15-e263375cf18e] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
+          "createdAt": "2025-09-13T05:51:44.706Z",
+          "updatedAt": "2025-09-13T05:51:44.706Z",
+          "rangeValue": "7",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "841f8aca-0c40-423a-af3b-fde8ccfd02cd",
+          "level": 2,
+          "effect": "<p>Number of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] stacks applied is increased to <span style=\"color: rgb(243, 109, 28);\">3</span>. Damage multiplier from [effect:9223f1cf-7f46-4b8e-ab15-e263375cf18e] is increased to <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+          "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "segment": 4,
+          "imageUrl": "https://cdn.dandegate.net/skills/d5d55fd8ebf293156ad21c7d2edb48d9bf4299939932f3e8fa364ef355f989d6.webp",
+          "createdAt": "2025-11-11T05:55:56.665Z",
+          "updatedAt": "2026-01-31T18:08:45.039Z",
+          "vertebraeName": "Misfortune Delivery Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "f25d838f-ea8b-46cc-a8bd-c5dcd52f38db",
+        "name": "Grand Isekai Adventure",
+        "description": "<p>Selects a direction, then deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to all enemy units in a<span style=\"color: rgb(243, 109, 28);\"> 3x10 tile area in front</span>. After this skill resolves, triggers the effects of all [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] stacks, Sakura gains [effect:75fd2660-90d0-4026-9703-b80071294145] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+        "phase": "Burn",
+        "ammoTypes": "[]",
+        "stabilityDamage": 2,
+        "cooldown": 2,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/f49e650879aa46bb5a7f5c2bf86cfa121235358f12b82486819c70f29e645ae6.webp",
+        "createdAt": "2025-11-11T06:11:22.229Z",
+        "updatedAt": "2026-01-31T06:43:05.975Z",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "summonId": null,
+        "rangeMapId": "e8b903b9-76d8-4ddd-bd96-cc9351ae9310",
+        "rangeMapIdLevel2": "4c4cacbd-7f97-4826-926e-1e74237d5f97",
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "634ae46e-fe1d-4b1d-b226-fc1a242a8e01",
+        "vertebraeUpgradeIdLevel3": "3a702ee0-41f6-4d6c-88cc-db2133c03592",
+        "skillTags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 3",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects a direction, then deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to all enemy targets in a<span style=\"color: rgb(243, 109, 28);\"> 5x10 area in front</span>. In addition, all enemy units with [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] have this effect stacked to its maximum count. After this skill resolves, triggers the effects of all [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] stacks, Sakura gains [effect:75fd2660-90d0-4026-9703-b80071294145] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+        "descriptionLevel3": "<p>Selects a direction, then deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to all enemy targets in a<span style=\"color: rgb(243, 109, 28);\"> 5x10 area in front</span>. In addition, all enemy units with [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] have this effect stacked to its maximum count. After this skill resolves, triggers the effects of all [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] stacks, Sakura gains [effect:75fd2660-90d0-4026-9703-b80071294145] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "e8b903b9-76d8-4ddd-bd96-cc9351ae9310",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/dc2f8a0eaf15f68760cb7469e52310ae7c30ce32611532ec3b644cee1352ecd3.webp",
+          "createdAt": "2025-11-11T22:35:49.359Z",
+          "updatedAt": "2025-11-13T00:06:18.298Z",
+          "rangeValue": "1",
+          "effectiveArea": "--"
+        },
+        "rangeMapLevel2": {
+          "id": "4c4cacbd-7f97-4826-926e-1e74237d5f97",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/a1a9d20f8efbde21c0eeae67c12f1bf98e363614ecaecdf1ea7ec7678ecc6d95.webp",
+          "createdAt": "2025-11-11T22:37:04.969Z",
+          "updatedAt": "2025-11-13T00:06:25.843Z",
+          "rangeValue": "1",
+          "effectiveArea": "--"
+        },
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "634ae46e-fe1d-4b1d-b226-fc1a242a8e01",
+          "level": 2,
+          "effect": "<p>Damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>, effective range is increased to a <span style=\"color: rgb(243, 109, 28);\">5x10 area in front</span>, and all enemy units with [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] have this effect stacked to its maximum count.</p>",
+          "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/f49e650879aa46bb5a7f5c2bf86cfa121235358f12b82486819c70f29e645ae6.webp",
+          "createdAt": "2025-11-11T06:17:46.485Z",
+          "updatedAt": "2026-01-31T18:09:58.659Z",
+          "vertebraeName": "Grand Isekai Adventure Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "3a702ee0-41f6-4d6c-88cc-db2133c03592",
+          "level": 3,
+          "effect": "<p>[effect:75fd2660-90d0-4026-9703-b80071294145] gains a new effect: Before an allied unit makes an active attack or out-of-turn attack (excluding Sakura herself), Sakura applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to the target. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p>",
+          "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "segment": 6,
+          "imageUrl": "https://cdn.dandegate.net/skills/f49e650879aa46bb5a7f5c2bf86cfa121235358f12b82486819c70f29e645ae6.webp",
+          "createdAt": "2025-11-11T06:21:40.107Z",
+          "updatedAt": "2026-01-31T18:12:03.601Z",
+          "vertebraeName": "Grand Isekai Adventure Lv.3"
+        }
+      }
+    ],
+    "keys": [
+      {
+        "id": "bde75cef-fe4f-4062-85d2-d684eb4d2238",
+        "keyTitle": "Mission Accomplished",
+        "keyType": "Affinity Key",
+        "level": null,
+        "effect": "<p></p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks at Affinity Level 5</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "3%",
+        "attributeName2": "Health Boost",
+        "attributeValue2": "3%",
+        "attributeName3": "Crit DMG",
+        "attributeValue3": "3%",
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/d6e11b4cc7b6da92d427547515587aeabd96cc8ea9bf9cdd3fa36d5f78d2b48c.webp",
+        "createdAt": "2025-11-11T06:54:55.951Z",
+        "updatedAt": "2026-01-29T13:12:44.004Z",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "dollImages": [
+            {
+              "id": "0d86002a-a10f-4bef-ba4d-db86816dbcd0",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/573553fb68eac4d1874762cea5abfaa1ff2dd94ed30324a2fbe3899a0378d072.webp",
+              "createdAt": "2025-11-11T03:31:31.761Z",
+              "updatedAt": "2025-11-11T03:31:31.761Z"
+            }
+          ],
+          "searchTags": [
+            "Model 100",
+            "Truck-senpai"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Affinity Key - Mission Accomplished"
+      },
+      {
+        "id": "913b1bdf-fe4d-431e-9a25-7635acc2bc8e",
+        "keyTitle": "Ace Courier",
+        "keyType": "Common Key",
+        "level": 40,
+        "effect": "<p>AoE damage dealt to enemy targets with debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks after obtaining all Fixed Keys</p>",
+        "attributeName1": "Crit Rate",
+        "attributeValue1": "5%",
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/991d0f2035b12a6f492c6c6c566f441c91403e04fca7f3bb1cfbbb1eaf98dea9.webp",
+        "createdAt": "2025-11-11T06:57:59.650Z",
+        "updatedAt": "2026-01-31T17:56:45.281Z",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "dollImages": [
+            {
+              "id": "0d86002a-a10f-4bef-ba4d-db86816dbcd0",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/573553fb68eac4d1874762cea5abfaa1ff2dd94ed30324a2fbe3899a0378d072.webp",
+              "createdAt": "2025-11-11T03:31:31.761Z",
+              "updatedAt": "2025-11-11T03:31:31.761Z"
+            }
+          ],
+          "searchTags": [
+            "Model 100",
+            "Truck-senpai"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Common Key - Ace Courier"
+      },
+      {
+        "id": "71f9469c-a03d-448e-beed-7ccaebc9136c",
+        "keyTitle": "Hard Work and Guts",
+        "keyType": "Fixed Key",
+        "keyNumber": 1,
+        "level": 20,
+        "effect": "<p>At the start of the battle, Sakura applies <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to <span style=\"color: rgb(243, 109, 28);\">3</span> random enemies on the battlefield.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/ddef42647784d2a284038821807d4ae0cd72e21f194738954db857b6654690ca.webp",
+        "createdAt": "2025-11-11T07:00:00.775Z",
+        "updatedAt": "2026-01-31T17:51:09.553Z",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "dollImages": [
+            {
+              "id": "0d86002a-a10f-4bef-ba4d-db86816dbcd0",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/573553fb68eac4d1874762cea5abfaa1ff2dd94ed30324a2fbe3899a0378d072.webp",
+              "createdAt": "2025-11-11T03:31:31.761Z",
+              "updatedAt": "2025-11-11T03:31:31.761Z"
+            }
+          ],
+          "searchTags": [
+            "Model 100",
+            "Truck-senpai"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 1 - Hard Work and Guts"
+      },
+      {
+        "id": "9f02befd-bb77-4b0c-8967-87e2076499c4",
+        "keyTitle": "Just in Time Logistics",
+        "keyType": "Fixed Key",
+        "keyNumber": 2,
+        "level": 20,
+        "effect": "<p>When [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is not applied by her Ultimate skill, Sakura applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: Correct translation is \"When applying Sakura Mark with non-Ultimate skills (including passive), Sakura additionally applies Overburn for 1 turn.\"</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/dd878d30eb312478177c814a6571af39b301902185ec7fbdf539021b3cb387f9.webp",
+        "createdAt": "2025-11-11T07:05:35.710Z",
+        "updatedAt": "2026-02-22T17:19:14.177Z",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "dollImages": [
+            {
+              "id": "0d86002a-a10f-4bef-ba4d-db86816dbcd0",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/573553fb68eac4d1874762cea5abfaa1ff2dd94ed30324a2fbe3899a0378d072.webp",
+              "createdAt": "2025-11-11T03:31:31.761Z",
+              "updatedAt": "2025-11-11T03:31:31.761Z"
+            }
+          ],
+          "searchTags": [
+            "Model 100",
+            "Truck-senpai"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 2 - Just in Time Logistics"
+      },
+      {
+        "id": "e1a41afb-1940-40c3-bb96-f8c2eea01da7",
+        "keyTitle": "Apologies From the Heart",
+        "keyType": "Fixed Key",
+        "keyNumber": 3,
+        "level": 30,
+        "effect": "<p>When applying [effect:9223f1cf-7f46-4b8e-ab15-e263375cf18e], cleanses <span style=\"color: rgb(243, 109, 28);\">one</span> buff from the target.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/fce0e3e85723c05813b5dca07854739c5abf7229df2de7a1c1738e1ca6d6b759.webp",
+        "createdAt": "2025-11-11T07:07:58.020Z",
+        "updatedAt": "2026-01-31T18:39:46.984Z",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "dollImages": [
+            {
+              "id": "0d86002a-a10f-4bef-ba4d-db86816dbcd0",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/573553fb68eac4d1874762cea5abfaa1ff2dd94ed30324a2fbe3899a0378d072.webp",
+              "createdAt": "2025-11-11T03:31:31.761Z",
+              "updatedAt": "2025-11-11T03:31:31.761Z"
+            }
+          ],
+          "searchTags": [
+            "Model 100",
+            "Truck-senpai"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 3 - Apologies From the Heart"
+      },
+      {
+        "id": "d257b49e-6ef9-456b-96ba-fad87e01a4dd",
+        "keyTitle": "Jinxed by Nature",
+        "keyType": "Fixed Key",
+        "keyNumber": 4,
+        "level": 30,
+        "effect": "<p>At the start of the battle, Sakura applies [effect:9223f1cf-7f46-4b8e-ab15-e263375cf18e] for <span style=\"color: rgb(243, 109, 28);\">3 turns </span>to the enemy unit with the highest HP.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/386200452b1e34b820b0e1a67591ce39a8de2503674ddc93c89cb84c4038c63f.webp",
+        "createdAt": "2025-11-11T07:17:29.633Z",
+        "updatedAt": "2026-01-31T17:53:42.474Z",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "dollImages": [
+            {
+              "id": "0d86002a-a10f-4bef-ba4d-db86816dbcd0",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/573553fb68eac4d1874762cea5abfaa1ff2dd94ed30324a2fbe3899a0378d072.webp",
+              "createdAt": "2025-11-11T03:31:31.761Z",
+              "updatedAt": "2025-11-11T03:31:31.761Z"
+            }
+          ],
+          "searchTags": [
+            "Model 100",
+            "Truck-senpai"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 4 - Jinxed by Nature"
+      },
+      {
+        "id": "e16c2979-d7ea-40fd-be29-e9d3e5a4c629",
+        "keyTitle": "Flying Solo",
+        "keyType": "Fixed Key",
+        "keyNumber": 5,
+        "level": 40,
+        "effect": "<p>At the end of the turn, if there is any enemy unit within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, Sakura gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:af640815-bbef-471b-8888-cee6c3d8b4a4].</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/4add698e075724315a5d8fcdc857c31c7a0757d0e9b35f6d7f4bd1cabd170fa5.webp",
+        "createdAt": "2025-11-11T07:21:15.333Z",
+        "updatedAt": "2026-01-31T17:54:47.727Z",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "dollImages": [
+            {
+              "id": "0d86002a-a10f-4bef-ba4d-db86816dbcd0",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/573553fb68eac4d1874762cea5abfaa1ff2dd94ed30324a2fbe3899a0378d072.webp",
+              "createdAt": "2025-11-11T03:31:31.761Z",
+              "updatedAt": "2025-11-11T03:31:31.761Z"
+            }
+          ],
+          "searchTags": [
+            "Model 100",
+            "Truck-senpai"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 5 - Flying Solo"
+      },
+      {
+        "id": "c31995c5-77c2-43f8-b6bf-9bb90fe3e22d",
+        "keyTitle": "Improving Every Day",
+        "keyType": "Fixed Key",
+        "keyNumber": 6,
+        "level": 40,
+        "effect": "<p>When an enemy unit with [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] dies, attack is increased by <span style=\"color: rgb(243, 109, 28);\">4%</span>, to a maximum of <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/be973df25a60e37881841df40581dcd6f946fcc665951ead682464140d99c6a8.webp",
+        "createdAt": "2025-11-11T07:25:59.847Z",
+        "updatedAt": "2026-01-31T17:55:45.387Z",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "dollImages": [
+            {
+              "id": "0d86002a-a10f-4bef-ba4d-db86816dbcd0",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/573553fb68eac4d1874762cea5abfaa1ff2dd94ed30324a2fbe3899a0378d072.webp",
+              "createdAt": "2025-11-11T03:31:31.761Z",
+              "updatedAt": "2025-11-11T03:31:31.761Z"
+            }
+          ],
+          "searchTags": [
+            "Model 100",
+            "Truck-senpai"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 6 - Improving Every Day"
+      }
+    ],
+    "vertebrae": [
+      {
+        "id": "ad2cd15b-f4d0-433f-8d78-cdd85b921414",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "segment": 1,
+        "vertebraeName": "Felicitous Prayer Lv.2",
+        "level": 2,
+        "effect": "<p>The number of enemy targets who will randomly gain [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased to <span style=\"color: rgb(243, 109, 28);\">5</span>. The damage multiplier of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased to <span style=\"color: rgb(243, 109, 28);\">90%</span> and its effective range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>If the enemy is standing on a Burn tile, the damage dealt by [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/b8dc0e98c07bae80bf4ff8470ef2e13cf99fbb094a288eb53612c81d7d00f8a9.webp",
+        "createdAt": "2025-11-11T06:39:13.336Z",
+        "updatedAt": "2026-01-31T18:04:40.325Z",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "class": "Vanguard",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "As both founder and courier of \"Ouka Kyuso\", she is primarily active in the satellite cities and contaminated zones around them. Together with her vehicle navigation system \"colleague\", they aim to make life a better place for the locals through speedy and efficient deliveries. Despite being introverted and unfortunate, her hardworking and diligent attitude has earned her the title of \"Ace Courier\". While she has grown into a capable professional, what truly makes her happy is the fact that she will be able to walk her future path with you by her side.\r\n\"If all this hard work wins me praise from the Commander... Then I guess I can work a little harder?\"",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [
+          {
+            "id": "8a764d2b-231d-45a8-a1ed-9376520605f8",
+            "name": "Felicitous Prayer",
+            "phase": null,
+            "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/b8dc0e98c07bae80bf4ff8470ef2e13cf99fbb094a288eb53612c81d7d00f8a9.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-11-11T06:36:59.053Z",
+            "skillTags": [
+              "Passive"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2026-01-31T18:02:41.224Z",
+            "description": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac]. When the effect of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is triggered without using the Ultimate skill [dollSkill:f25d838f-ea8b-46cc-a8bd-c5dcd52f38db], gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2].</p><p>At the start of the turn, Sakura gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to <span style=\"color: rgb(243, 109, 28);\">3</span> random enemies on the battlefield. If Sakura has [effect:75fd2660-90d0-4026-9703-b80071294145], damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac]. When the effect of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is triggered without using the Ultimate skill [dollSkill:f25d838f-ea8b-46cc-a8bd-c5dcd52f38db], gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2].</p><p>At the start of the turn, Sakura gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to <span style=\"color: rgb(243, 109, 28);\">5</span> random enemies on the battlefield. If Sakura has [effect:75fd2660-90d0-4026-9703-b80071294145], damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>If the enemy is standing on a Burn tile, the damage dealt by [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+            "descriptionLevel3": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac]. When the effect of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is triggered without using the Ultimate skill [dollSkill:f25d838f-ea8b-46cc-a8bd-c5dcd52f38db], gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2].</p><p>At the start of the turn, Sakura gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to <span style=\"color: rgb(243, 109, 28);\">5</span> random enemies on the battlefield. If Sakura has [effect:75fd2660-90d0-4026-9703-b80071294145], damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span> and critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">25%</span>.</p><p>When an enemy unit gains [effect:633a31d3-52cd-4845-9247-e1c9ab33c922], generates [effect:f793ed02-a490-4ac2-849a-689c57001678] tiles within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of it for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. If the enemy is standing on a Burn tile, the damage dealt by [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>When [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] deals damage, it ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's defense.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "ad2cd15b-f4d0-433f-8d78-cdd85b921414",
+            "vertebraeUpgradeIdLevel3": "78be807d-0df3-44c2-a608-f44db53f5b45"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "82923929-ef04-4b8d-9ac6-d7c60a0da326",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "segment": 2,
+        "vertebraeName": "Falling Blossom Lv.2",
+        "level": 2,
+        "effect": "<p>The selectable range for Sakura to jump is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. AoE damage's effective range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>, and Confectance Index cost is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/a04e34d1ce8ca02b76ffbdf3fc9c796e38a49e108318f68552972d6119d21c84.webp",
+        "createdAt": "2025-11-11T05:34:49.937Z",
+        "updatedAt": "2026-01-31T18:06:08.478Z",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "class": "Vanguard",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "As both founder and courier of \"Ouka Kyuso\", she is primarily active in the satellite cities and contaminated zones around them. Together with her vehicle navigation system \"colleague\", they aim to make life a better place for the locals through speedy and efficient deliveries. Despite being introverted and unfortunate, her hardworking and diligent attitude has earned her the title of \"Ace Courier\". While she has grown into a capable professional, what truly makes her happy is the fact that she will be able to walk her future path with you by her side.\r\n\"If all this hard work wins me praise from the Commander... Then I guess I can work a little harder?\"",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [
+          {
+            "id": "3d52fb34-747f-4ce1-a0d4-b4c4e67a83fb",
+            "name": "Falling Blossom",
+            "phase": "Burn",
+            "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/a04e34d1ce8ca02b76ffbdf3fc9c796e38a49e108318f68552972d6119d21c84.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-11-11T05:29:33.574Z",
+            "skillTags": [
+              "Active",
+              "AoE"
+            ],
+            "skillType": "Skill 1",
+            "updatedAt": "2026-01-31T06:21:37.482Z",
+            "description": "<p>Selects an empty tile within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of an allied Doll or an enemy target with [effect:633a31d3-52cd-4845-9247-e1c9ab33c922]. Sakura jumps to the selected tile, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of the selected tile and gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "cbdb959c-7c58-471a-9c70-5dac0d4826d2",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 3,
+            "stabilityDamage": 1,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects an empty tile within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of an allied Doll or an enemy target with [effect:633a31d3-52cd-4845-9247-e1c9ab33c922]. Sakura jumps to the selected tile, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile and gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": "b3a4c76d-d3ba-415d-9705-575a206b8be3",
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": 2,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "82923929-ef04-4b8d-9ac6-d7c60a0da326",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "78be807d-0df3-44c2-a608-f44db53f5b45",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "segment": 3,
+        "vertebraeName": "Felicitous Prayer Lv.3",
+        "level": 3,
+        "effect": "<p>If Sakura has [effect:75fd2660-90d0-4026-9703-b80071294145], damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span> and critical damage by <span style=\"color: rgb(243, 109, 28);\">25%</span>.</p><p>When an enemy unit gains [effect:633a31d3-52cd-4845-9247-e1c9ab33c922], generate [effect:f793ed02-a490-4ac2-849a-689c57001678] tiles within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of it for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] deals damage, it ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's defense.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/b8dc0e98c07bae80bf4ff8470ef2e13cf99fbb094a288eb53612c81d7d00f8a9.webp",
+        "createdAt": "2025-11-11T06:48:38.066Z",
+        "updatedAt": "2026-01-31T18:07:49.992Z",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "class": "Vanguard",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "As both founder and courier of \"Ouka Kyuso\", she is primarily active in the satellite cities and contaminated zones around them. Together with her vehicle navigation system \"colleague\", they aim to make life a better place for the locals through speedy and efficient deliveries. Despite being introverted and unfortunate, her hardworking and diligent attitude has earned her the title of \"Ace Courier\". While she has grown into a capable professional, what truly makes her happy is the fact that she will be able to walk her future path with you by her side.\r\n\"If all this hard work wins me praise from the Commander... Then I guess I can work a little harder?\"",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "8a764d2b-231d-45a8-a1ed-9376520605f8",
+            "name": "Felicitous Prayer",
+            "phase": null,
+            "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/b8dc0e98c07bae80bf4ff8470ef2e13cf99fbb094a288eb53612c81d7d00f8a9.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-11-11T06:36:59.053Z",
+            "skillTags": [
+              "Passive"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2026-01-31T18:02:41.224Z",
+            "description": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac]. When the effect of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is triggered without using the Ultimate skill [dollSkill:f25d838f-ea8b-46cc-a8bd-c5dcd52f38db], gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2].</p><p>At the start of the turn, Sakura gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to <span style=\"color: rgb(243, 109, 28);\">3</span> random enemies on the battlefield. If Sakura has [effect:75fd2660-90d0-4026-9703-b80071294145], damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac]. When the effect of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is triggered without using the Ultimate skill [dollSkill:f25d838f-ea8b-46cc-a8bd-c5dcd52f38db], gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2].</p><p>At the start of the turn, Sakura gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to <span style=\"color: rgb(243, 109, 28);\">5</span> random enemies on the battlefield. If Sakura has [effect:75fd2660-90d0-4026-9703-b80071294145], damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>If the enemy is standing on a Burn tile, the damage dealt by [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+            "descriptionLevel3": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac]. When the effect of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is triggered without using the Ultimate skill [dollSkill:f25d838f-ea8b-46cc-a8bd-c5dcd52f38db], gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2].</p><p>At the start of the turn, Sakura gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to <span style=\"color: rgb(243, 109, 28);\">5</span> random enemies on the battlefield. If Sakura has [effect:75fd2660-90d0-4026-9703-b80071294145], damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span> and critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">25%</span>.</p><p>When an enemy unit gains [effect:633a31d3-52cd-4845-9247-e1c9ab33c922], generates [effect:f793ed02-a490-4ac2-849a-689c57001678] tiles within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of it for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. If the enemy is standing on a Burn tile, the damage dealt by [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>When [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] deals damage, it ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's defense.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "ad2cd15b-f4d0-433f-8d78-cdd85b921414",
+            "vertebraeUpgradeIdLevel3": "78be807d-0df3-44c2-a608-f44db53f5b45"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "841f8aca-0c40-423a-af3b-fde8ccfd02cd",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "segment": 4,
+        "vertebraeName": "Misfortune Delivery Lv.2",
+        "level": 2,
+        "effect": "<p>Number of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] stacks applied is increased to <span style=\"color: rgb(243, 109, 28);\">3</span>. Damage multiplier from [effect:9223f1cf-7f46-4b8e-ab15-e263375cf18e] is increased to <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/d5d55fd8ebf293156ad21c7d2edb48d9bf4299939932f3e8fa364ef355f989d6.webp",
+        "createdAt": "2025-11-11T05:55:56.665Z",
+        "updatedAt": "2026-01-31T18:08:45.039Z",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "class": "Vanguard",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "As both founder and courier of \"Ouka Kyuso\", she is primarily active in the satellite cities and contaminated zones around them. Together with her vehicle navigation system \"colleague\", they aim to make life a better place for the locals through speedy and efficient deliveries. Despite being introverted and unfortunate, her hardworking and diligent attitude has earned her the title of \"Ace Courier\". While she has grown into a capable professional, what truly makes her happy is the fact that she will be able to walk her future path with you by her side.\r\n\"If all this hard work wins me praise from the Commander... Then I guess I can work a little harder?\"",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [
+          {
+            "id": "f8e056ab-8688-486b-b2a6-f31449dbd0b3",
+            "name": "Misfortune Delivery",
+            "phase": "Burn",
+            "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/d5d55fd8ebf293156ad21c7d2edb48d9bf4299939932f3e8fa364ef355f989d6.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Light Ammo\"]",
+            "createdAt": "2025-11-11T05:37:54.496Z",
+            "skillTags": [
+              "Active",
+              "Targeted",
+              "Debuff"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2026-01-31T06:29:28.712Z",
+            "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack and applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to it. Before the attack resolves, additionally applies [effect:9223f1cf-7f46-4b8e-ab15-e263375cf18e] to the target for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 2,
+            "stabilityDamage": 3,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to it. Before the attack resolves, additionally applies [effect:9223f1cf-7f46-4b8e-ab15-e263375cf18e] to the target for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+            "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it and apply <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922]. Before the attack, apply [effect:9223f1cf-7f46-4b8e-ab15-e263375cf18e] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "841f8aca-0c40-423a-af3b-fde8ccfd02cd",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "634ae46e-fe1d-4b1d-b226-fc1a242a8e01",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "segment": 5,
+        "vertebraeName": "Grand Isekai Adventure Lv.2",
+        "level": 2,
+        "effect": "<p>Damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>, effective range is increased to a <span style=\"color: rgb(243, 109, 28);\">5x10 area in front</span>, and all enemy units with [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] have this effect stacked to its maximum count.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/f49e650879aa46bb5a7f5c2bf86cfa121235358f12b82486819c70f29e645ae6.webp",
+        "createdAt": "2025-11-11T06:17:46.485Z",
+        "updatedAt": "2026-01-31T18:09:58.659Z",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "class": "Vanguard",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "As both founder and courier of \"Ouka Kyuso\", she is primarily active in the satellite cities and contaminated zones around them. Together with her vehicle navigation system \"colleague\", they aim to make life a better place for the locals through speedy and efficient deliveries. Despite being introverted and unfortunate, her hardworking and diligent attitude has earned her the title of \"Ace Courier\". While she has grown into a capable professional, what truly makes her happy is the fact that she will be able to walk her future path with you by her side.\r\n\"If all this hard work wins me praise from the Commander... Then I guess I can work a little harder?\"",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [
+          {
+            "id": "f25d838f-ea8b-46cc-a8bd-c5dcd52f38db",
+            "name": "Grand Isekai Adventure",
+            "phase": "Burn",
+            "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+            "cooldown": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/f49e650879aa46bb5a7f5c2bf86cfa121235358f12b82486819c70f29e645ae6.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-11-11T06:11:22.229Z",
+            "skillTags": [
+              "Ultimate",
+              "AoE"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2026-01-31T06:43:05.975Z",
+            "description": "<p>Selects a direction, then deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to all enemy units in a<span style=\"color: rgb(243, 109, 28);\"> 3x10 tile area in front</span>. After this skill resolves, triggers the effects of all [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] stacks, Sakura gains [effect:75fd2660-90d0-4026-9703-b80071294145] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "e8b903b9-76d8-4ddd-bd96-cc9351ae9310",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects a direction, then deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to all enemy targets in a<span style=\"color: rgb(243, 109, 28);\"> 5x10 area in front</span>. In addition, all enemy units with [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] have this effect stacked to its maximum count. After this skill resolves, triggers the effects of all [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] stacks, Sakura gains [effect:75fd2660-90d0-4026-9703-b80071294145] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+            "descriptionLevel3": "<p>Selects a direction, then deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to all enemy targets in a<span style=\"color: rgb(243, 109, 28);\"> 5x10 area in front</span>. In addition, all enemy units with [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] have this effect stacked to its maximum count. After this skill resolves, triggers the effects of all [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] stacks, Sakura gains [effect:75fd2660-90d0-4026-9703-b80071294145] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+            "rangeMapIdLevel2": "4c4cacbd-7f97-4826-926e-1e74237d5f97",
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "634ae46e-fe1d-4b1d-b226-fc1a242a8e01",
+            "vertebraeUpgradeIdLevel3": "3a702ee0-41f6-4d6c-88cc-db2133c03592"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "3a702ee0-41f6-4d6c-88cc-db2133c03592",
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "segment": 6,
+        "vertebraeName": "Grand Isekai Adventure Lv.3",
+        "level": 3,
+        "effect": "<p>[effect:75fd2660-90d0-4026-9703-b80071294145] gains a new effect: Before an allied unit makes an active attack or out-of-turn attack (excluding Sakura herself), Sakura applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to the target. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/f49e650879aa46bb5a7f5c2bf86cfa121235358f12b82486819c70f29e645ae6.webp",
+        "createdAt": "2025-11-11T06:21:40.107Z",
+        "updatedAt": "2026-01-31T18:12:03.601Z",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "class": "Vanguard",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "As both founder and courier of \"Ouka Kyuso\", she is primarily active in the satellite cities and contaminated zones around them. Together with her vehicle navigation system \"colleague\", they aim to make life a better place for the locals through speedy and efficient deliveries. Despite being introverted and unfortunate, her hardworking and diligent attitude has earned her the title of \"Ace Courier\". While she has grown into a capable professional, what truly makes her happy is the fact that she will be able to walk her future path with you by her side.\r\n\"If all this hard work wins me praise from the Commander... Then I guess I can work a little harder?\"",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "f25d838f-ea8b-46cc-a8bd-c5dcd52f38db",
+            "name": "Grand Isekai Adventure",
+            "phase": "Burn",
+            "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+            "cooldown": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/f49e650879aa46bb5a7f5c2bf86cfa121235358f12b82486819c70f29e645ae6.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-11-11T06:11:22.229Z",
+            "skillTags": [
+              "Ultimate",
+              "AoE"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2026-01-31T06:43:05.975Z",
+            "description": "<p>Selects a direction, then deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to all enemy units in a<span style=\"color: rgb(243, 109, 28);\"> 3x10 tile area in front</span>. After this skill resolves, triggers the effects of all [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] stacks, Sakura gains [effect:75fd2660-90d0-4026-9703-b80071294145] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "e8b903b9-76d8-4ddd-bd96-cc9351ae9310",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects a direction, then deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to all enemy targets in a<span style=\"color: rgb(243, 109, 28);\"> 5x10 area in front</span>. In addition, all enemy units with [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] have this effect stacked to its maximum count. After this skill resolves, triggers the effects of all [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] stacks, Sakura gains [effect:75fd2660-90d0-4026-9703-b80071294145] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+            "descriptionLevel3": "<p>Selects a direction, then deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to all enemy targets in a<span style=\"color: rgb(243, 109, 28);\"> 5x10 area in front</span>. In addition, all enemy units with [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] have this effect stacked to its maximum count. After this skill resolves, triggers the effects of all [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] stacks, Sakura gains [effect:75fd2660-90d0-4026-9703-b80071294145] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+            "rangeMapIdLevel2": "4c4cacbd-7f97-4826-926e-1e74237d5f97",
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "634ae46e-fe1d-4b1d-b226-fc1a242a8e01",
+            "vertebraeUpgradeIdLevel3": "3a702ee0-41f6-4d6c-88cc-db2133c03592"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      }
+    ],
+    "summons": [],
+    "remoldingPattern": {
+      "id": "b5b33c83-02b8-4b11-8408-151830cfe8f0",
+      "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+      "coreSlots": {
+        "bulwark": 1,
+        "support": 0,
+        "sentinel": 2,
+        "vanguard": 3
+      },
+      "statBoosts": {
+        "60": {
+          "hp": 630,
+          "atk": 231,
+          "def": 224
+        }
+      },
+      "dollCore": "Vanguard Core",
+      "createdAt": "2025-11-12T22:59:30.811Z",
+      "updatedAt": "2025-11-12T22:59:30.811Z",
+      "doll": {
+        "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "name": "Sakura",
+        "class": "Vanguard",
+        "phase": "Burn",
+        "rarity": "Elite",
+        "preview": false,
+        "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+        "regionTag": "en",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      "imagoforms": [
+        {
+          "id": "9c142270-db21-4000-a526-68758e164304",
+          "stage": "Embryo",
+          "effect": "<p>Damage dealt to enemy units with Burn debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+          "coreLevel": 1,
+          "createdAt": "2025-11-12T22:59:30.967Z",
+          "updatedAt": "2025-11-12T22:59:30.967Z",
+          "bulwarkFactors": 0,
+          "supportFactors": 0,
+          "sentinelFactors": 2,
+          "vanguardFactors": 4
+        },
+        {
+          "id": "71ba4907-434e-44da-8108-a138749b54ed",
+          "stage": "Seedling",
+          "effect": "<p>Physical and phase damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 10,
+          "createdAt": "2025-11-12T22:59:30.967Z",
+          "updatedAt": "2025-11-12T22:59:30.967Z",
+          "bulwarkFactors": 1,
+          "supportFactors": 0,
+          "sentinelFactors": 3,
+          "vanguardFactors": 6
+        },
+        {
+          "id": "ca5b5344-ad33-4e3c-8544-bc7f12513618",
+          "stage": "Sprout",
+          "effect": "<p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 20,
+          "createdAt": "2025-11-12T22:59:30.967Z",
+          "updatedAt": "2025-11-12T22:59:30.967Z",
+          "bulwarkFactors": 2,
+          "supportFactors": 0,
+          "sentinelFactors": 5,
+          "vanguardFactors": 7
+        },
+        {
+          "id": "ca8b2c84-8375-47dd-bd32-cd95d240c7dc",
+          "stage": "Shoot",
+          "effect": "<p>Damage dealt to enemy targets with <span style=\"color: rgb(243, 109, 28);\">50% or lowe</span><span style=\"color: rgb(243, 109, 28);\">r</span> HP is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+          "coreLevel": 30,
+          "createdAt": "2025-11-12T22:59:30.967Z",
+          "updatedAt": "2025-11-12T22:59:30.967Z",
+          "bulwarkFactors": 3,
+          "supportFactors": 0,
+          "sentinelFactors": 6,
+          "vanguardFactors": 9
+        },
+        {
+          "id": "6b629c8d-4c1a-47ac-b7fb-20e008098d6e",
+          "stage": "Bud",
+          "effect": "<p>Attack is increased by <span style=\"color: rgb(243, 109, 28);\">8%</span>.</p>",
+          "coreLevel": 45,
+          "createdAt": "2025-11-12T22:59:30.967Z",
+          "updatedAt": "2025-11-12T22:59:30.967Z",
+          "bulwarkFactors": 4,
+          "supportFactors": 0,
+          "sentinelFactors": 6,
+          "vanguardFactors": 13
+        },
+        {
+          "id": "024e205f-8a0f-4631-b58a-e9dc78cd1e8b",
+          "stage": "Blossom",
+          "effect": "<p>The damage of attacks which hit <span style=\"color: rgb(243, 109, 28);\">2 or more</span> enemy units is increased by <span style=\"color: rgb(243, 109, 28);\">12%</span>.</p>",
+          "coreLevel": 60,
+          "createdAt": "2025-11-12T22:59:30.967Z",
+          "updatedAt": "2025-11-12T22:59:30.967Z",
+          "bulwarkFactors": 5,
+          "supportFactors": 0,
+          "sentinelFactors": 9,
+          "vanguardFactors": 15
+        }
+      ],
+      "equippedRelics": []
+    },
+    "dollEffects": [
+      {
+        "id": "9223f1cf-7f46-4b8e-ab15-e263375cf18e",
+        "effectName": "Bad Luck",
+        "effectDetails": "{\"mainDetails\":\"<p>Damage taken from [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>. Considered a Burn debuff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"c30f8d49-cf6e-4229-aee8-a2ebe8400ccc\",\"upgradeName\":\"V4\",\"upgradeDetails\":\"<p>Damage taken from [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. Considered a Burn debuff, cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-11-11T05:43:13.674Z",
+        "updatedAt": "2026-01-31T18:23:48.527Z",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "dollImages": [
+            {
+              "id": "0d86002a-a10f-4bef-ba4d-db86816dbcd0",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/573553fb68eac4d1874762cea5abfaa1ff2dd94ed30324a2fbe3899a0378d072.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "Model 100"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "Truck-senpai"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "75fd2660-90d0-4026-9703-b80071294145",
+        "effectName": "Good Luck",
+        "effectDetails": "{\"mainDetails\":\"<p>Before making an active attack, applies <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to the target. Cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"de7c2f25-75bf-41db-ab4f-8dc8821595f2\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>Before making an active attack, applies <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to the target. Before an allied unit (excluding Sakura herself) makes an active attack or an out-of-turn attack, Sakura applies <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of [effect:633a31d3-52cd-4845-9247-e1c9ab33c922] to the target. This can only be triggered a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">3 times</span> per turn. Cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [],
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-11-11T06:09:57.697Z",
+        "updatedAt": "2026-02-11T00:56:37.042Z",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "dollImages": [
+            {
+              "id": "0d86002a-a10f-4bef-ba4d-db86816dbcd0",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/573553fb68eac4d1874762cea5abfaa1ff2dd94ed30324a2fbe3899a0378d072.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "Model 100"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "Truck-senpai"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "633a31d3-52cd-4845-9247-e1c9ab33c922",
+        "effectName": "Sakura Mark",
+        "effectDetails": "{\"mainDetails\":\"<p>When this unit take <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span>, expends <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of this effect; Sakura deals AoE <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span> of attack to this unit and all enemies within <span style=\\\"color: rgb(243, 109, 28);\\\">2 tiles</span> of it. If this effect is triggered by Sakura's Ultimate Skill [dollSkill:f25d838f-ea8b-46cc-a8bd-c5dcd52f38db], expends <span style=\\\"color: rgb(243, 109, 28);\\\">3 stacks </span>of this effect and deals AoE <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">180%</span> of attack to this unit and all enemies within <span style=\\\"color: rgb(243, 109, 28);\\\">2 tiles</span> of it. Stacks up to <span style=\\\"color: rgb(243, 109, 28);\\\">3</span><span style=\\\"color: rgb(243, 109, 28);\\\"> times</span>. Cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"c658b8c5-9df1-4616-a760-a0bc21b378c3\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>When this unit take <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span>, expends <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of this effect; Sakura deals AoE <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">90%</span> of attack to this unit and all enemies within <span style=\\\"color: rgb(243, 109, 28);\\\">3 tiles</span> of it. If this effect is triggered by Sakura's Ultimate Skill [dollSkill:f25d838f-ea8b-46cc-a8bd-c5dcd52f38db], expends <span style=\\\"color: rgb(243, 109, 28);\\\">3 stacks </span>of this effect and deals AoE <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">270%</span> of attack to this unit and all enemies within <span style=\\\"color: rgb(243, 109, 28);\\\">3 tiles</span> of it. Stacks up to <span style=\\\"color: rgb(243, 109, 28);\\\">3 times</span>. Cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [],
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-11-11T05:09:28.295Z",
+        "updatedAt": "2026-01-31T18:19:27.825Z",
+        "doll": {
+          "id": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+          "name": "Sakura",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/sakura/12a93c9b24c782e74eeb5502435c9ae2515c92a622d29125e8d8579c71c3ae8f.webp",
+          "createdAt": "2025-11-11T03:31:30.682Z",
+          "regionTag": "en",
+          "updatedAt": "2026-01-31T18:37:03.883Z",
+          "dollImages": [
+            {
+              "id": "0d86002a-a10f-4bef-ba4d-db86816dbcd0",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/573553fb68eac4d1874762cea5abfaa1ff2dd94ed30324a2fbe3899a0378d072.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "Model 100"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "Truck-senpai"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "shortId": "d44"
+  }
+}

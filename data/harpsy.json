@@ -1,0 +1,1469 @@
+{
+  "success": true,
+  "data": {
+    "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+    "name": "Harpsy",
+    "class": "Vanguard",
+    "ammoTypes": "[\"Light Ammo\"]",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+    "regionTag": "cn",
+    "preview": false,
+    "createdAt": "2025-12-02T03:08:54.041Z",
+    "updatedAt": "2025-12-14T05:50:19.144Z",
+    "searchTags": [
+      "Steyr TMP",
+      "TMP"
+    ],
+    "dollImages": [
+      {
+        "id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
+        "category": "Chibi",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "1569c795-271b-4077-b5d6-9312889dd468",
+        "category": "Card",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Card/363fe7d8e47c64fbde162ce62e1ceac26cace562ceb78c889b9c4ee961ebef88.webp",
+        "skinTitle": null,
+        "alt": null
+      }
+    ],
+    "weaponImprintType": null,
+    "weaponImprint": {
+      "id": "c345cc4b-73bf-4347-b190-903c808b2b05",
+      "name": "Antinomy",
+      "rarity": "Elite",
+      "weaponType": "Submachine Gun",
+      "primaryAttributeStat": 348,
+      "primaryAttribute": "Attack",
+      "secondaryAttribute": "Crit DMG",
+      "secondaryAttributeStat": "25%",
+      "trait": "<p>AoE damage dealt increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. If dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, damage dealt is additionally increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+      "effect": "<p><span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> increased by <span style=\"color: rgb(243, 109, 28);\">25%/28%/31%/34%/37%/40%</span>. After using an active skill on an allied target, critical damage dealt increased by <span style=\"color: rgb(243, 109, 28);\">5%/7%/9%/11%/13%/15%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
+      "imprintDescription": "<p>Damage dealt to Mokosh units is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>. If the target has Corrosion debuffs, increase damage by an additional <span style=\"color: rgb(243, 109, 28);\">2.5%</span>.</p>",
+      "imageUrl": "https://cdn.dandegate.net/weapons/antinomy/5146a33664bfb96692a5c80a12d554d83c286bdb84384ba97ca6378fd34f8911.webp",
+      "createdAt": "2025-12-14T04:43:17.918Z",
+      "updatedAt": "2025-12-14T04:43:17.918Z",
+      "regionTag": "cn",
+      "preview": false,
+      "imprintDollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+      "imprintDoll": {
+        "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "name": "Harpsy",
+        "rarity": "Elite",
+        "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp"
+      }
+    },
+    "stabilityGauge": 8,
+    "movement": 9,
+    "effects": "As a member of Team 404, she provides strong technical support. Her first impression might be that she's timid and hesitant, but her unwavering sense of responsibility is the deciding factor that made her a member of 404. Always seeking security, she not only continuously improves her skills but also strives to overcome her shortcomings. Why not give this introverted little cat a pat on the head and offer her some encouragement?",
+    "skills": [
+      {
+        "id": "16db2cb9-88dc-4eb2-b1eb-c6c1f8a99dbe",
+        "name": "Precision Strike",
+        "description": "<p>Selects 1 target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Light Ammo\"]",
+        "stabilityDamage": 2,
+        "cooldown": 1,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/8bdcef5124f6c2644f80d5e657176627aea283b6bbde9db30db6767a4c95be22.webp",
+        "createdAt": "2025-12-03T02:56:56.738Z",
+        "updatedAt": "2025-12-14T05:39:31.179Z",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Targeted",
+          "Basic Attack"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Basic Attack",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "bffd7471-27d9-4cdf-94b8-ab6be22f9132",
+        "name": "Macro Virus",
+        "description": "<p>After actively attacking, restore <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index to self.</p><p><span style=\"color: rgb(243, 109, 28);\">For each point</span> of Confectance Index consumed when using Ultimate skill, trigger [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] effect <span style=\"color: rgb(243, 109, 28);\">once</span>.</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/1048964ea20365198c5c075971162e7334da08279ce768b8f05ccb93ee6712db.webp",
+        "createdAt": "2025-12-14T04:29:20.467Z",
+        "updatedAt": "2025-12-14T04:32:01.782Z",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "summonId": null,
+        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "d4ec792c-06e5-4ec5-af8d-f8e7bfed3c77",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Passive"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>After actively attacking, restore <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index to self.</p><p><span style=\"color: rgb(243, 109, 28);\">For each point</span> of Confectance Index consumed when using Ultimate skill, trigger [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] effect <span style=\"color: rgb(243, 109, 28);\">once</span>.</p><p>Each time Priority Process is triggered, increase attack and critical damage by <span style=\"color: rgb(243, 109, 28);\">3%</span>, up to <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+          "createdAt": "2025-09-13T05:48:21.166Z",
+          "updatedAt": "2025-09-13T05:48:21.166Z",
+          "rangeValue": "Self",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "d4ec792c-06e5-4ec5-af8d-f8e7bfed3c77",
+          "level": 2,
+          "effect": "<p>Each time [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] is triggered, increase attack and critical damage by <span style=\"color: rgb(243, 109, 28);\">3%</span>, up to <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+          "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "segment": 3,
+          "imageUrl": "https://cdn.dandegate.net/skills/1048964ea20365198c5c075971162e7334da08279ce768b8f05ccb93ee6712db.webp",
+          "createdAt": "2025-12-14T04:30:43.205Z",
+          "updatedAt": "2025-12-14T04:30:43.205Z",
+          "vertebraeName": "Macro Virus"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "8900223d-cda2-4b25-87a7-b4ba2ee880e5",
+        "name": "Wide-Area Amplification",
+        "description": "<p>Select 1 ally within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. Apply [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>, and extend the duration of [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] on all allied units by <span style=\"color: rgb(243, 109, 28);\">1 round</span>. Gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] after using this skill. If the target already has [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], restore 3 points of Confectance Index to self. This skill can be used at most <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn<strong>.</strong></p>",
+        "phase": "Physical",
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": 2,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/5f4b9f4ccda42e2138d7809e94c70802663ed6f1bf1c3ddf48a70aef18726a5c.webp",
+        "createdAt": "2025-12-10T00:33:51.430Z",
+        "updatedAt": "2025-12-14T03:03:00.693Z",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "22677482-c65f-424b-ad58-cea43076d01c",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 1",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": 1,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Select 1 ally within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. Apply [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>, and extend the duration of [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] on all allied units by <span style=\"color: rgb(243, 109, 28);\">1 round</span>. Gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] after using this skill. If the target already has [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], restore 3 points of Confectance Index to self. This skill can be used at most <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn<strong>.</strong></p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "22677482-c65f-424b-ad58-cea43076d01c",
+          "level": 2,
+          "effect": "<p>Confectance Index cost reduced by <span style=\"color: rgb(243, 109, 28);\">1</span>. Uses per turn increased by <span style=\"color: rgb(243, 109, 28);\">1</span>.</p>",
+          "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "segment": 1,
+          "imageUrl": "https://cdn.dandegate.net/skills/5f4b9f4ccda42e2138d7809e94c70802663ed6f1bf1c3ddf48a70aef18726a5c.webp",
+          "createdAt": "2025-12-14T03:02:01.653Z",
+          "updatedAt": "2025-12-14T03:02:01.653Z",
+          "vertebraeName": "Wide-Area Amplification Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "b8717511-0472-4f23-a229-e36fc69c11bd",
+        "name": "Fight Poison With Poison",
+        "description": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack<span style=\"color: rgb(243, 109, 28);\"> </span>as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, knock back <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0].</p>",
+        "phase": "Corrosion",
+        "ammoTypes": "[\"Light Ammo\"]",
+        "stabilityDamage": 2,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/27099fbf9705d0fa4cb12e73011b4d7d52de0571259c3a222f0e98f93495100a.webp",
+        "createdAt": "2025-12-14T03:43:18.857Z",
+        "updatedAt": "2025-12-14T04:13:26.483Z",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "8f96ec90-4e49-4da8-8ae0-f6562be627ee",
+        "vertebraeUpgradeIdLevel3": "9ed0d7b8-c48f-4bc1-83f6-5fc765db8cff",
+        "skillTags": [
+          "Active",
+          "AoE",
+          "Debuff",
+          "Displacement"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 2",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack<span style=\"color: rgb(243, 109, 28);\"> </span>as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, knock back <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0].</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "8f96ec90-4e49-4da8-8ae0-f6562be627ee",
+          "level": 2,
+          "effect": "<p>Damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>. </p><p>[effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] gains a new effect: When the holder dies, transfer all stacks to a random allied unit.</p>",
+          "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "segment": 4,
+          "imageUrl": "https://cdn.dandegate.net/skills/27099fbf9705d0fa4cb12e73011b4d7d52de0571259c3a222f0e98f93495100a.webp",
+          "createdAt": "2025-12-14T03:51:13.866Z",
+          "updatedAt": "2025-12-14T03:51:13.866Z",
+          "vertebraeName": "Fight Poison With Poison Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "9ed0d7b8-c48f-4bc1-83f6-5fc765db8cff",
+          "level": 2,
+          "effect": "<p>[effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] is modified: When triggered, consumes <span style=\"color: rgb(243, 109, 28);\">70%</span> of the existing stacks (rounded up), and the damage multiplier per stack is increased to <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+          "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "segment": 6,
+          "imageUrl": "https://cdn.dandegate.net/skills/27099fbf9705d0fa4cb12e73011b4d7d52de0571259c3a222f0e98f93495100a.webp",
+          "createdAt": "2025-12-14T03:53:10.109Z",
+          "updatedAt": "2025-12-14T04:03:52.887Z",
+          "vertebraeName": "Fight Poison With Poison Lv.3"
+        }
+      },
+      {
+        "id": "38e41a87-0569-476f-bcd9-774a1d3a8827",
+        "name": "Cyber Punch",
+        "description": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>. When more than <span style=\"color: rgb(243, 109, 28);\">2 allies</span> on the field have [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], damage dealt by [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
+        "phase": "Corrosion",
+        "ammoTypes": "[]",
+        "stabilityDamage": 3,
+        "cooldown": 3,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/528d7c4a93f4097501d66b96b45f902d36a1304636b82d033d3cb92a3fa20230.webp",
+        "createdAt": "2025-12-14T04:17:49.831Z",
+        "updatedAt": "2025-12-14T04:27:21.596Z",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "4fb8b6e0-4e3b-45a1-8465-c24439275ef9",
+        "vertebraeUpgradeIdLevel3": "7d5c4f2b-26ce-4620-b35e-0e51d540814d",
+        "skillTags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 3",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>. When Confectance Index is greater than <span style=\"color: rgb(243, 109, 28);\">3 points</span>, consume all Confectance Index. <span style=\"color: rgb(243, 109, 28);\">For each additional point</span> consumed, damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When more than <span style=\"color: rgb(243, 109, 28);\">2 allies</span> on the field have [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], damage dealt by [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
+        "descriptionLevel3": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>. When Confectance Index is greater than <span style=\"color: rgb(243, 109, 28);\">3 points</span>, consume all Confectance Index. <span style=\"color: rgb(243, 109, 28);\">For each additional point</span> consumed, damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When any ally on the field has [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], this skill's damage multiplier is doubled. When more than <span style=\"color: rgb(243, 109, 28);\">2 allies</span> on the field have [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], damage dealt by [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "4fb8b6e0-4e3b-45a1-8465-c24439275ef9",
+          "level": 2,
+          "effect": "<p>When Confectance Index is greater than <span style=\"color: rgb(243, 109, 28);\">3 points</span>, consume all Confectance Index. <span style=\"color: rgb(243, 109, 28);\">For each additional point</span> consumed, damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+          "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "segment": 2,
+          "imageUrl": "https://cdn.dandegate.net/skills/528d7c4a93f4097501d66b96b45f902d36a1304636b82d033d3cb92a3fa20230.webp",
+          "createdAt": "2025-12-14T04:18:50.809Z",
+          "updatedAt": "2025-12-14T04:18:50.809Z",
+          "vertebraeName": "Cyber Punch Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "7d5c4f2b-26ce-4620-b35e-0e51d540814d",
+          "level": 3,
+          "effect": "<p>Damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>. New effect: When any ally on the field has [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d],  this skill's damage multiplier is doubled.</p>",
+          "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/528d7c4a93f4097501d66b96b45f902d36a1304636b82d033d3cb92a3fa20230.webp",
+          "createdAt": "2025-12-14T04:21:22.755Z",
+          "updatedAt": "2025-12-14T04:21:22.755Z",
+          "vertebraeName": "Cyber Punch Lv.3"
+        }
+      }
+    ],
+    "keys": [
+      {
+        "id": "26cb3369-0ff6-4616-ae51-224d60984994",
+        "keyTitle": "Coward's Trouble",
+        "keyType": "Affinity Key",
+        "level": null,
+        "effect": null,
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks at Affinity Level 5</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "3%",
+        "attributeName2": "Health Boost",
+        "attributeValue2": "3%",
+        "attributeName3": "Crit DMG",
+        "attributeValue3": "3%",
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/d22cccbb841b65bf8335004dfb45917bceaab34a04f1cd6d8c25aaa3f3713b5e.webp",
+        "createdAt": "2025-12-02T03:34:54.468Z",
+        "updatedAt": "2025-12-03T02:37:44.435Z",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "dollImages": [
+            {
+              "id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
+              "createdAt": "2025-12-02T03:08:56.765Z",
+              "updatedAt": "2025-12-03T02:23:24.645Z"
+            }
+          ],
+          "searchTags": [
+            "Steyr TMP",
+            "TMP"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Affinity Key - Coward's Trouble"
+      },
+      {
+        "id": "5f5813f2-e809-4ef0-bf66-b59c07dc2ccd",
+        "keyTitle": "Reliable Technology",
+        "keyType": "Common Key",
+        "level": 40,
+        "effect": "<p>After applying a debuff, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks after obtaining all Fixed Keys</p>",
+        "attributeName1": "Crit Rate",
+        "attributeValue1": "5%",
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/885b04a6d5c9fd556af7a43fe5005365e018f9017bd61fedc32eedfb854f7f56.webp",
+        "createdAt": "2025-12-02T03:33:55.167Z",
+        "updatedAt": "2026-02-06T04:28:35.092Z",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "dollImages": [
+            {
+              "id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
+              "createdAt": "2025-12-02T03:08:56.765Z",
+              "updatedAt": "2025-12-03T02:23:24.645Z"
+            }
+          ],
+          "searchTags": [
+            "Steyr TMP",
+            "TMP"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Common Key - Reliable Technology"
+      },
+      {
+        "id": "fbfda004-85e6-4d8b-8ae8-8dcd12e068f8",
+        "keyTitle": "Mobile Base Station",
+        "keyType": "Fixed Key",
+        "keyNumber": 1,
+        "level": 20,
+        "effect": "<p>After using active skill <span style=\"color: rgb(34, 139, 230);\">Wide Area Amplification</span>, gain <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/24c563766d2f74d7b1a6196427f59d403e927aa6825cba96244dcb50cdda26c9.webp",
+        "createdAt": "2025-12-02T03:10:54.059Z",
+        "updatedAt": "2025-12-14T05:58:04.442Z",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "dollImages": [
+            {
+              "id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
+              "createdAt": "2025-12-02T03:08:56.765Z",
+              "updatedAt": "2025-12-03T02:23:24.645Z"
+            }
+          ],
+          "searchTags": [
+            "Steyr TMP",
+            "TMP"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 1 - Mobile Base Station"
+      },
+      {
+        "id": "0dbe4dab-3e9d-40f1-9a60-84d53426bde0",
+        "keyTitle": "Violent Modification",
+        "keyType": "Fixed Key",
+        "keyNumber": 2,
+        "level": 20,
+        "effect": "<p>When [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] is applied, [effect:4ee67890-3dba-4901-8dc0-136ff36c5d67] is also applied to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/2ce950458404a57b3fdf8b7388d47a03201499843cd08c1f6b2ab5a7e6dfb2e4.webp",
+        "createdAt": "2025-12-02T03:20:20.362Z",
+        "updatedAt": "2025-12-14T05:58:10.942Z",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "dollImages": [
+            {
+              "id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
+              "createdAt": "2025-12-02T03:08:56.765Z",
+              "updatedAt": "2025-12-03T02:23:24.645Z"
+            }
+          ],
+          "searchTags": [
+            "Steyr TMP",
+            "TMP"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 2 - Violent Modification"
+      },
+      {
+        "id": "04f19bdf-f136-4e46-95ce-42d95dd00431",
+        "keyTitle": "Multiple Preparations",
+        "keyType": "Fixed Key",
+        "keyNumber": 3,
+        "level": 30,
+        "effect": "<p>After action ends, allied units with [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] gain [effect:968e9913-e847-462c-be10-87bc8fc0f827] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/17eeaad8ffb777c1fca379bcb99144c5723eceb797367ddc1b5521ea6df6b96a.webp",
+        "createdAt": "2025-12-02T03:24:35.970Z",
+        "updatedAt": "2025-12-14T05:58:21.312Z",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "dollImages": [
+            {
+              "id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
+              "createdAt": "2025-12-02T03:08:56.765Z",
+              "updatedAt": "2025-12-03T02:23:24.645Z"
+            }
+          ],
+          "searchTags": [
+            "Steyr TMP",
+            "TMP"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 3 - Multiple Preparations"
+      },
+      {
+        "id": "b081421b-345a-493e-af39-ed58201d7df6",
+        "keyTitle": "Power of Friendship",
+        "keyType": "Fixed Key",
+        "keyNumber": 4,
+        "level": 30,
+        "effect": "<p>For each allied unit with [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], the damage multiplier of for each stack of [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] is increased by <span style=\"color: rgb(243, 109, 28);\">2%</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/c6fad0627d03d1060bfeec32ba1a50156c77d94b38d8bf1274ef22929c59135f.webp",
+        "createdAt": "2025-12-02T03:28:08.665Z",
+        "updatedAt": "2025-12-14T05:58:28.883Z",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "dollImages": [
+            {
+              "id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
+              "createdAt": "2025-12-02T03:08:56.765Z",
+              "updatedAt": "2025-12-03T02:23:24.645Z"
+            }
+          ],
+          "searchTags": [
+            "Steyr TMP",
+            "TMP"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 4 - Power of Friendship"
+      },
+      {
+        "id": "257e3ef2-9932-4db9-81af-ff2d752a2498",
+        "keyTitle": "Gathering Courage",
+        "keyType": "Fixed Key",
+        "keyNumber": 5,
+        "level": 40,
+        "effect": "<p>After using <span style=\"color: rgb(34, 139, 230);\">Wide Area Amplification</span> on an allied doll with [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], increase critical rate by <span style=\"color: rgb(243, 109, 28);\">20%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/add43b6682b610c225504a620357c49cacf6bf78fd1947c98a2a6e962d9044bb.webp",
+        "createdAt": "2025-12-02T03:30:57.854Z",
+        "updatedAt": "2025-12-10T00:07:49.761Z",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "dollImages": [
+            {
+              "id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
+              "createdAt": "2025-12-02T03:08:56.765Z",
+              "updatedAt": "2025-12-03T02:23:24.645Z"
+            }
+          ],
+          "searchTags": [
+            "Steyr TMP",
+            "TMP"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 5 - Gathering Courage"
+      },
+      {
+        "id": "b323e81c-ade6-4219-b42b-df887721bc90",
+        "keyTitle": "Long-Distance Listening",
+        "keyType": "Fixed Key",
+        "keyNumber": 6,
+        "level": 40,
+        "effect": "<p>The range of active skills and basic attack are increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/53c0868baaca6ea72942ae819e6825897ea847fc743c148544a9e2da76398558.webp",
+        "createdAt": "2025-12-02T03:32:00.626Z",
+        "updatedAt": "2025-12-14T05:56:52.120Z",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "dollImages": [
+            {
+              "id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
+              "createdAt": "2025-12-02T03:08:56.765Z",
+              "updatedAt": "2025-12-03T02:23:24.645Z"
+            }
+          ],
+          "searchTags": [
+            "Steyr TMP",
+            "TMP"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 6 - Long-Distance Listening"
+      }
+    ],
+    "vertebrae": [
+      {
+        "id": "22677482-c65f-424b-ad58-cea43076d01c",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "segment": 1,
+        "vertebraeName": "Wide-Area Amplification Lv.2",
+        "level": 2,
+        "effect": "<p>Confectance Index cost reduced by <span style=\"color: rgb(243, 109, 28);\">1</span>. Uses per turn increased by <span style=\"color: rgb(243, 109, 28);\">1</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/5f4b9f4ccda42e2138d7809e94c70802663ed6f1bf1c3ddf48a70aef18726a5c.webp",
+        "createdAt": "2025-12-14T03:02:01.653Z",
+        "updatedAt": "2025-12-14T03:02:01.653Z",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "class": "Vanguard",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "As a member of Team 404, she provides strong technical support. Her first impression might be that she's timid and hesitant, but her unwavering sense of responsibility is the deciding factor that made her a member of 404. Always seeking security, she not only continuously improves her skills but also strives to overcome her shortcomings. Why not give this introverted little cat a pat on the head and offer her some encouragement?",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [
+          {
+            "id": "8900223d-cda2-4b25-87a7-b4ba2ee880e5",
+            "name": "Wide-Area Amplification",
+            "phase": "Physical",
+            "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+            "cooldown": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/5f4b9f4ccda42e2138d7809e94c70802663ed6f1bf1c3ddf48a70aef18726a5c.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-12-10T00:33:51.430Z",
+            "skillTags": [
+              "Active"
+            ],
+            "skillType": "Skill 1",
+            "updatedAt": "2025-12-14T03:03:00.693Z",
+            "description": "<p>Select 1 ally within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. Apply [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>, and extend the duration of [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] on all allied units by <span style=\"color: rgb(243, 109, 28);\">1 round</span>. Gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] after using this skill. If the target already has [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], restore 3 points of Confectance Index to self. This skill can be used at most <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn<strong>.</strong></p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "cooldownLevel2": 1,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Select 1 ally within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. Apply [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>, and extend the duration of [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] on all allied units by <span style=\"color: rgb(243, 109, 28);\">1 round</span>. Gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] after using this skill. If the target already has [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], restore 3 points of Confectance Index to self. This skill can be used at most <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn<strong>.</strong></p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "22677482-c65f-424b-ad58-cea43076d01c",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "4fb8b6e0-4e3b-45a1-8465-c24439275ef9",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "segment": 2,
+        "vertebraeName": "Cyber Punch Lv.2",
+        "level": 2,
+        "effect": "<p>When Confectance Index is greater than <span style=\"color: rgb(243, 109, 28);\">3 points</span>, consume all Confectance Index. <span style=\"color: rgb(243, 109, 28);\">For each additional point</span> consumed, damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/528d7c4a93f4097501d66b96b45f902d36a1304636b82d033d3cb92a3fa20230.webp",
+        "createdAt": "2025-12-14T04:18:50.809Z",
+        "updatedAt": "2025-12-14T04:18:50.809Z",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "class": "Vanguard",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "As a member of Team 404, she provides strong technical support. Her first impression might be that she's timid and hesitant, but her unwavering sense of responsibility is the deciding factor that made her a member of 404. Always seeking security, she not only continuously improves her skills but also strives to overcome her shortcomings. Why not give this introverted little cat a pat on the head and offer her some encouragement?",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [
+          {
+            "id": "38e41a87-0569-476f-bcd9-774a1d3a8827",
+            "name": "Cyber Punch",
+            "phase": "Corrosion",
+            "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+            "cooldown": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/528d7c4a93f4097501d66b96b45f902d36a1304636b82d033d3cb92a3fa20230.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-12-14T04:17:49.831Z",
+            "skillTags": [
+              "Ultimate",
+              "AoE"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-12-14T04:27:21.596Z",
+            "description": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>. When more than <span style=\"color: rgb(243, 109, 28);\">2 allies</span> on the field have [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], damage dealt by [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 3,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>. When Confectance Index is greater than <span style=\"color: rgb(243, 109, 28);\">3 points</span>, consume all Confectance Index. <span style=\"color: rgb(243, 109, 28);\">For each additional point</span> consumed, damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When more than <span style=\"color: rgb(243, 109, 28);\">2 allies</span> on the field have [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], damage dealt by [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
+            "descriptionLevel3": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>. When Confectance Index is greater than <span style=\"color: rgb(243, 109, 28);\">3 points</span>, consume all Confectance Index. <span style=\"color: rgb(243, 109, 28);\">For each additional point</span> consumed, damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When any ally on the field has [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], this skill's damage multiplier is doubled. When more than <span style=\"color: rgb(243, 109, 28);\">2 allies</span> on the field have [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], damage dealt by [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "4fb8b6e0-4e3b-45a1-8465-c24439275ef9",
+            "vertebraeUpgradeIdLevel3": "7d5c4f2b-26ce-4620-b35e-0e51d540814d"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "d4ec792c-06e5-4ec5-af8d-f8e7bfed3c77",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "segment": 3,
+        "vertebraeName": "Macro Virus",
+        "level": 2,
+        "effect": "<p>Each time [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] is triggered, increase attack and critical damage by <span style=\"color: rgb(243, 109, 28);\">3%</span>, up to <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/1048964ea20365198c5c075971162e7334da08279ce768b8f05ccb93ee6712db.webp",
+        "createdAt": "2025-12-14T04:30:43.205Z",
+        "updatedAt": "2025-12-14T04:30:43.205Z",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "class": "Vanguard",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "As a member of Team 404, she provides strong technical support. Her first impression might be that she's timid and hesitant, but her unwavering sense of responsibility is the deciding factor that made her a member of 404. Always seeking security, she not only continuously improves her skills but also strives to overcome her shortcomings. Why not give this introverted little cat a pat on the head and offer her some encouragement?",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [
+          {
+            "id": "bffd7471-27d9-4cdf-94b8-ab6be22f9132",
+            "name": "Macro Virus",
+            "phase": null,
+            "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/1048964ea20365198c5c075971162e7334da08279ce768b8f05ccb93ee6712db.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-12-14T04:29:20.467Z",
+            "skillTags": [
+              "Passive"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-12-14T04:32:01.782Z",
+            "description": "<p>After actively attacking, restore <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index to self.</p><p><span style=\"color: rgb(243, 109, 28);\">For each point</span> of Confectance Index consumed when using Ultimate skill, trigger [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] effect <span style=\"color: rgb(243, 109, 28);\">once</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>After actively attacking, restore <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index to self.</p><p><span style=\"color: rgb(243, 109, 28);\">For each point</span> of Confectance Index consumed when using Ultimate skill, trigger [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d] effect <span style=\"color: rgb(243, 109, 28);\">once</span>.</p><p>Each time Priority Process is triggered, increase attack and critical damage by <span style=\"color: rgb(243, 109, 28);\">3%</span>, up to <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "d4ec792c-06e5-4ec5-af8d-f8e7bfed3c77",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "8f96ec90-4e49-4da8-8ae0-f6562be627ee",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "segment": 4,
+        "vertebraeName": "Fight Poison With Poison Lv.2",
+        "level": 2,
+        "effect": "<p>Damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>. </p><p>[effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] gains a new effect: When the holder dies, transfer all stacks to a random allied unit.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/27099fbf9705d0fa4cb12e73011b4d7d52de0571259c3a222f0e98f93495100a.webp",
+        "createdAt": "2025-12-14T03:51:13.866Z",
+        "updatedAt": "2025-12-14T03:51:13.866Z",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "class": "Vanguard",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "As a member of Team 404, she provides strong technical support. Her first impression might be that she's timid and hesitant, but her unwavering sense of responsibility is the deciding factor that made her a member of 404. Always seeking security, she not only continuously improves her skills but also strives to overcome her shortcomings. Why not give this introverted little cat a pat on the head and offer her some encouragement?",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [
+          {
+            "id": "b8717511-0472-4f23-a229-e36fc69c11bd",
+            "name": "Fight Poison With Poison",
+            "phase": "Corrosion",
+            "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/27099fbf9705d0fa4cb12e73011b4d7d52de0571259c3a222f0e98f93495100a.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Light Ammo\"]",
+            "createdAt": "2025-12-14T03:43:18.857Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Debuff",
+              "Displacement"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2025-12-14T04:13:26.483Z",
+            "description": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack<span style=\"color: rgb(243, 109, 28);\"> </span>as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, knock back <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack<span style=\"color: rgb(243, 109, 28);\"> </span>as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, knock back <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0].</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "8f96ec90-4e49-4da8-8ae0-f6562be627ee",
+            "vertebraeUpgradeIdLevel3": "9ed0d7b8-c48f-4bc1-83f6-5fc765db8cff"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "7d5c4f2b-26ce-4620-b35e-0e51d540814d",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "segment": 5,
+        "vertebraeName": "Cyber Punch Lv.3",
+        "level": 3,
+        "effect": "<p>Damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>. New effect: When any ally on the field has [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d],  this skill's damage multiplier is doubled.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/528d7c4a93f4097501d66b96b45f902d36a1304636b82d033d3cb92a3fa20230.webp",
+        "createdAt": "2025-12-14T04:21:22.755Z",
+        "updatedAt": "2025-12-14T04:21:22.755Z",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "class": "Vanguard",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "As a member of Team 404, she provides strong technical support. Her first impression might be that she's timid and hesitant, but her unwavering sense of responsibility is the deciding factor that made her a member of 404. Always seeking security, she not only continuously improves her skills but also strives to overcome her shortcomings. Why not give this introverted little cat a pat on the head and offer her some encouragement?",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "38e41a87-0569-476f-bcd9-774a1d3a8827",
+            "name": "Cyber Punch",
+            "phase": "Corrosion",
+            "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+            "cooldown": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/528d7c4a93f4097501d66b96b45f902d36a1304636b82d033d3cb92a3fa20230.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-12-14T04:17:49.831Z",
+            "skillTags": [
+              "Ultimate",
+              "AoE"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-12-14T04:27:21.596Z",
+            "description": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>. When more than <span style=\"color: rgb(243, 109, 28);\">2 allies</span> on the field have [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], damage dealt by [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 3,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>. When Confectance Index is greater than <span style=\"color: rgb(243, 109, 28);\">3 points</span>, consume all Confectance Index. <span style=\"color: rgb(243, 109, 28);\">For each additional point</span> consumed, damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When more than <span style=\"color: rgb(243, 109, 28);\">2 allies</span> on the field have [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], damage dealt by [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
+            "descriptionLevel3": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>. When Confectance Index is greater than <span style=\"color: rgb(243, 109, 28);\">3 points</span>, consume all Confectance Index. <span style=\"color: rgb(243, 109, 28);\">For each additional point</span> consumed, damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When any ally on the field has [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], this skill's damage multiplier is doubled. When more than <span style=\"color: rgb(243, 109, 28);\">2 allies</span> on the field have [effect:5a7232cb-b6a0-485a-a03e-a77cd087d28d], damage dealt by [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "4fb8b6e0-4e3b-45a1-8465-c24439275ef9",
+            "vertebraeUpgradeIdLevel3": "7d5c4f2b-26ce-4620-b35e-0e51d540814d"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "9ed0d7b8-c48f-4bc1-83f6-5fc765db8cff",
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "segment": 6,
+        "vertebraeName": "Fight Poison With Poison Lv.3",
+        "level": 2,
+        "effect": "<p>[effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] is modified: When triggered, consumes <span style=\"color: rgb(243, 109, 28);\">70%</span> of the existing stacks (rounded up), and the damage multiplier per stack is increased to <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/27099fbf9705d0fa4cb12e73011b4d7d52de0571259c3a222f0e98f93495100a.webp",
+        "createdAt": "2025-12-14T03:53:10.109Z",
+        "updatedAt": "2025-12-14T04:03:52.887Z",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "class": "Vanguard",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "As a member of Team 404, she provides strong technical support. Her first impression might be that she's timid and hesitant, but her unwavering sense of responsibility is the deciding factor that made her a member of 404. Always seeking security, she not only continuously improves her skills but also strives to overcome her shortcomings. Why not give this introverted little cat a pat on the head and offer her some encouragement?",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "b8717511-0472-4f23-a229-e36fc69c11bd",
+            "name": "Fight Poison With Poison",
+            "phase": "Corrosion",
+            "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/27099fbf9705d0fa4cb12e73011b4d7d52de0571259c3a222f0e98f93495100a.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Light Ammo\"]",
+            "createdAt": "2025-12-14T03:43:18.857Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Debuff",
+              "Displacement"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2025-12-14T04:13:26.483Z",
+            "description": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack<span style=\"color: rgb(243, 109, 28);\"> </span>as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, knock back <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Select <span style=\"color: rgb(243, 109, 28);\">1</span> enemy within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack<span style=\"color: rgb(243, 109, 28);\"> </span>as AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, knock back <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0].</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "8f96ec90-4e49-4da8-8ae0-f6562be627ee",
+            "vertebraeUpgradeIdLevel3": "9ed0d7b8-c48f-4bc1-83f6-5fc765db8cff"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      }
+    ],
+    "summons": [],
+    "remoldingPattern": {
+      "id": "abd11d68-0a47-48c4-a684-851eb1eae004",
+      "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+      "coreSlots": {
+        "bulwark": 1,
+        "support": 0,
+        "sentinel": 2,
+        "vanguard": 3
+      },
+      "statBoosts": {
+        "60": {
+          "hp": 630,
+          "atk": 231,
+          "def": 333
+        }
+      },
+      "dollCore": "Vanguard Core",
+      "createdAt": "2025-12-14T03:38:21.362Z",
+      "updatedAt": "2025-12-14T03:38:21.362Z",
+      "doll": {
+        "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "name": "Harpsy",
+        "class": "Vanguard",
+        "phase": "Corrosion",
+        "rarity": "Elite",
+        "preview": false,
+        "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+        "regionTag": "cn",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      "imagoforms": [
+        {
+          "id": "bd7131e0-70ff-427d-8824-26f1f6d57413",
+          "stage": "Embryo",
+          "effect": "<p>Damage dealt to enemy units with Corrosion debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 1,
+          "createdAt": "2025-12-14T03:38:21.530Z",
+          "updatedAt": "2025-12-14T03:38:21.530Z",
+          "bulwarkFactors": 0,
+          "supportFactors": 0,
+          "sentinelFactors": 2,
+          "vanguardFactors": 4
+        },
+        {
+          "id": "c6cd7c0a-a113-4f0d-b43a-72c9229cafba",
+          "stage": "Seedling",
+          "effect": "<p>Physical and phase damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 10,
+          "createdAt": "2025-12-14T03:38:21.530Z",
+          "updatedAt": "2025-12-14T03:38:21.530Z",
+          "bulwarkFactors": 1,
+          "supportFactors": 0,
+          "sentinelFactors": 3,
+          "vanguardFactors": 6
+        },
+        {
+          "id": "7efc484a-876f-443a-b586-36f2b23908a8",
+          "stage": "Sprout",
+          "effect": "<p><span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 20,
+          "createdAt": "2025-12-14T03:38:21.530Z",
+          "updatedAt": "2025-12-14T03:38:21.530Z",
+          "bulwarkFactors": 2,
+          "supportFactors": 0,
+          "sentinelFactors": 5,
+          "vanguardFactors": 7
+        },
+        {
+          "id": "83f84e78-d5ab-4a3e-b717-901104d24860",
+          "stage": "Shoot",
+          "effect": "<p>Damage dealt to enemy targets with <span style=\"color: rgb(243, 109, 28);\">50% or lower</span> HP is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+          "coreLevel": 30,
+          "createdAt": "2025-12-14T03:38:21.530Z",
+          "updatedAt": "2025-12-14T03:38:21.530Z",
+          "bulwarkFactors": 3,
+          "supportFactors": 0,
+          "sentinelFactors": 6,
+          "vanguardFactors": 9
+        },
+        {
+          "id": "6296f852-19dc-43cd-986f-9eba556ba123",
+          "stage": "Bud",
+          "effect": "<p>Attack is increased by <span style=\"color: rgb(243, 109, 28);\">8%</span>.</p>",
+          "coreLevel": 45,
+          "createdAt": "2025-12-14T03:38:21.530Z",
+          "updatedAt": "2025-12-14T03:38:21.530Z",
+          "bulwarkFactors": 4,
+          "supportFactors": 0,
+          "sentinelFactors": 6,
+          "vanguardFactors": 13
+        },
+        {
+          "id": "9b0e2971-e834-41c8-b6e1-9ecae743e04b",
+          "stage": "Blossom",
+          "effect": "<p>Damage dealt by attacks that only hit <span style=\"color: rgb(243, 109, 28);\">1</span> enemy unit is increased by <span style=\"color: rgb(243, 109, 28);\">12%</span>.</p>",
+          "coreLevel": 60,
+          "createdAt": "2025-12-14T03:38:21.530Z",
+          "updatedAt": "2025-12-14T03:38:21.530Z",
+          "bulwarkFactors": 5,
+          "supportFactors": 0,
+          "sentinelFactors": 9,
+          "vanguardFactors": 15
+        }
+      ],
+      "equippedRelics": []
+    },
+    "dollEffects": [
+      {
+        "id": "b1f656db-5ccb-424b-b6d9-d7ac75ae77c0",
+        "effectName": "Kill Process",
+        "effectDetails": "{\"mainDetails\":\"<p>Before using an active skill or basic attack, the applier deals <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span> of attack as AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> to them and applies <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> random powerful debuff for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>. For each additional stack, damage multiplier increases by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span>. Consumes all stacks when triggered. Stackable. Corrosion-type debuffs cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"9c9637f0-a923-46c5-928f-ff87aa155313\",\"upgradeName\":\"V4\",\"upgradeDetails\":\"<p>Before using an active skill or basic attack, the applier deals <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span> of attack as AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> to them and applies <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> random powerful debuff for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>. For each additional stack, damage multiplier increases by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span>. Consumes all stacks when triggered. Upon death, transfers all stacks to a random allied unit. Stackable. Corrosion-type debuffs cannot be cleansed.</p>\",\"order\":0},{\"id\":\"304653d6-a7ef-4597-bbc1-6219dde544ec\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>Before using an active skill or basic attack, the applier deals <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span> of attack as AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> to them and applies <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> random powerful debuff for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>. For each additional stack, damage multiplier increases by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. Consumes <span style=\\\"color: rgb(243, 109, 28);\\\">70%</span> of stacks when triggered (rounded up). Upon death, transfers all stacks to a random allied unit. Stackable. Corrosion-type debuffs cannot be cleansed.</p>\",\"order\":1}]}",
+        "effectTags": [
+          "Corrosion",
+          "Debuff"
+        ],
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "preview": false,
+        "regionTag": "cn",
+        "createdAt": "2025-12-03T03:25:12.718Z",
+        "updatedAt": "2025-12-14T05:48:04.465Z",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "dollImages": [
+            {
+              "id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "Steyr TMP"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "TMP"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "5a7232cb-b6a0-485a-a03e-a77cd087d28d",
+        "effectName": "Priority Process",
+        "effectDetails": "<p>After dealing damage with an active attack, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] to a random enemy target, prioritizing targets with the fewest stacks of [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0]. Cannot be cleansed.</p>",
+        "effectTags": [],
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "preview": false,
+        "regionTag": "cn",
+        "createdAt": "2025-12-10T00:04:46.053Z",
+        "updatedAt": "2025-12-14T05:49:17.891Z",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "dollImages": [
+            {
+              "id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "Steyr TMP"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "TMP"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "4ee67890-3dba-4901-8dc0-136ff36c5d67",
+        "effectName": "Regression",
+        "effectDetails": "<p>Active skill and basic attack range reduced by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p>",
+        "effectTags": [],
+        "dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+        "preview": false,
+        "regionTag": "cn",
+        "createdAt": "2025-12-03T03:27:52.891Z",
+        "updatedAt": "2025-12-14T05:49:28.365Z",
+        "doll": {
+          "id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
+          "name": "Harpsy",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
+          "createdAt": "2025-12-02T03:08:54.041Z",
+          "regionTag": "cn",
+          "updatedAt": "2025-12-14T05:50:19.144Z",
+          "dollImages": [
+            {
+              "id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "Steyr TMP"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "TMP"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "shortId": "d15"
+  }
+}

@@ -1,0 +1,1775 @@
+{
+  "success": true,
+  "data": {
+    "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+    "name": "Mechty",
+    "class": "Support",
+    "ammoTypes": "[\"Medium Ammo\"]",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+    "regionTag": "en",
+    "preview": false,
+    "createdAt": "2025-09-23T22:34:44.543Z",
+    "updatedAt": "2025-11-14T09:02:59.373Z",
+    "searchTags": [
+      "G11"
+    ],
+    "dollImages": [
+      {
+        "id": "a676a054-4b9f-4a9b-931c-4f133285a741",
+        "category": "Card",
+        "imageUrl": "https://cdn.dandegate.net/dolls/mechty/card-b6a01db10a1545d21303d2ec88f201a9.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+        "category": "Chibi",
+        "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+        "skinTitle": null,
+        "alt": null
+      }
+    ],
+    "weaponImprintType": null,
+    "weaponImprint": {
+      "id": "91ecb396-eb37-45f9-9376-495353f0b8a9",
+      "name": "Daydream",
+      "rarity": "Elite",
+      "weaponType": "Assault Rifle",
+      "primaryAttributeStat": 341,
+      "primaryAttribute": "Attack",
+      "secondaryAttribute": "Attack Boost",
+      "secondaryAttributeStat": "15%",
+      "trait": "<p>Basic attacks ignore <span style=\"color: rgb(243, 109, 28);\">20%</span><span> of the target's defense.</span></p>",
+      "effect": "<p>After performing a basic attack, <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span><span> is increased by </span><span style=\"color: rgb(243, 109, 28);\">15%/19%/23%/27%/30%</span><span>. All </span><span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span><span> dealt by allied units is increased by </span><span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
+      "imprintDescription": "<p>Damage dealt to URNC units is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span><span>. If the target has Corrosion debuffs, increase damage by an additional </span><span style=\"color: rgb(243, 109, 28);\">2.5%</span><span>.</span></p>",
+      "imageUrl": "https://cdn.dandegate.net/weapons/59e19b0d80fa30812d600c5f828f882e.webp",
+      "createdAt": "2025-10-02T22:55:39.522Z",
+      "updatedAt": "2025-10-02T22:55:39.522Z",
+      "regionTag": "en",
+      "preview": false,
+      "imprintDollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+      "imprintDoll": {
+        "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "name": "Mechty",
+        "rarity": "Elite",
+        "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp"
+      }
+    },
+    "stabilityGauge": 10,
+    "movement": 6,
+    "effects": "A doll who approaches everything with peak laziness-except for gaming and reading manga. She's mastered the ultimate skill: falling asleep anytime, anywhere, under any circumstance. Although she seems to embody the philosophy of \"lying flat\" to the extreme, she reveals her dependable side in times of crisis-though in her words, \"It'd be better if we just never ran into any 'crisis' at all...\"",
+    "skills": [
+      {
+        "id": "adeb01e3-d347-423a-b667-60faf1502591",
+        "name": "Bedtime Warmup",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to them.</p><p>When in [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f], damage type is changed to <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>, and Mechty gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Medium Ammo\"]",
+        "stabilityDamage": 3,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/695e6e2db037ecbcca2e8c405a953233.webp",
+        "createdAt": "2025-09-23T23:02:41.413Z",
+        "updatedAt": "2025-10-14T07:06:59.815Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "summonId": null,
+        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "keyUpgradesData": "[\"8ddd9719-1c75-43de-af7e-2dc068498395\",\"3baeab3f-eed3-4cba-aff8-bd239b946a3c\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Basic Attack",
+        "ammoTypesLevel2": null,
+        "ammoTypesLevel3": null,
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+          "createdAt": "2025-09-13T05:53:24.278Z",
+          "updatedAt": "2025-09-13T05:53:24.278Z",
+          "rangeValue": "8",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "fc56efa4-46d7-4db9-a4ef-cdfd3969a805",
+        "name": "Mysterious Nap",
+        "description": "<p>At the start of battle, Mechty enters [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533], and applies [effect:c95cbae9-4ab8-45aa-ad5b-9146ab984168] to all allied units.</p>",
+        "phase": null,
+        "ammoTypes": null,
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/d89a0fe0856743aeef9fe401a7e6a6f8.webp",
+        "createdAt": "2025-09-23T23:25:55.622Z",
+        "updatedAt": "2025-10-14T07:07:05.406Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "summonId": null,
+        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "95d2a3d2-52c8-4825-9d83-49962616a98d",
+        "vertebraeUpgradeIdLevel3": "1ad3a60f-931c-489f-b70f-c83a241c996e",
+        "skillTags": [
+          "Passive",
+          "Buff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": null,
+        "ammoTypesLevel3": null,
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>At the start of battle, Mechty enters [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533], and applies [effect:c95cbae9-4ab8-45aa-ad5b-9146ab984168] to all allied units.</p>",
+        "descriptionLevel3": "<p>At the start of battle, Mechty enters [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533], and applies [effect:c95cbae9-4ab8-45aa-ad5b-9146ab984168] to all allied units.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+          "createdAt": "2025-09-13T05:48:21.166Z",
+          "updatedAt": "2025-09-13T05:48:21.166Z",
+          "rangeValue": "Self",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "95d2a3d2-52c8-4825-9d83-49962616a98d",
+          "level": 2,
+          "effect": "<p>[effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533] gains new effects: Basic attacks deal <span style=\"color: rgb(243, 109, 28);\">50%</span><span> more damage. At the start of the turn, cleanses </span><span style=\"color: rgb(243, 109, 28);\">2</span><span> debuffs on self.</span></p>",
+          "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "segment": 2,
+          "imageUrl": "https://cdn.dandegate.net/skills/d89a0fe0856743aeef9fe401a7e6a6f8.webp",
+          "createdAt": "2025-09-23T23:27:18.568Z",
+          "updatedAt": "2025-10-14T07:06:13.715Z",
+          "vertebraeName": "Mysterious Nap Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "1ad3a60f-931c-489f-b70f-c83a241c996e",
+          "level": 3,
+          "effect": "<p>[effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533] gains new effects: <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span><span> dealt by all allied units is increased by </span><span style=\"color: rgb(243, 109, 28);\">25%</span><span> and Mechty's basic attack critical damage is increased by </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span>. [effect:c95cbae9-4ab8-45aa-ad5b-9146ab984168] gains a new effects: AoE damage dealt by Support Attacks is increased to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span>, stability damage dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">1 point</span><span>, and AoE damage dealt is increased to </span><span style=\"color: rgb(243, 109, 28);\">20%</span><span>.</span></p>",
+          "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "segment": 6,
+          "imageUrl": "https://cdn.dandegate.net/skills/d89a0fe0856743aeef9fe401a7e6a6f8.webp",
+          "createdAt": "2025-09-23T23:42:38.355Z",
+          "updatedAt": "2025-10-14T07:06:14.246Z",
+          "vertebraeName": "Mysterious Nap Lv.3"
+        }
+      },
+      {
+        "id": "5daa910c-b8f3-401e-be70-1ab590975638",
+        "name": "Dreamquake",
+        "description": "<p>Selects 1 enemy unit within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to all enemies within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the target.</p><p>Gains [effect:968e9913-e847-462c-be10-87bc8fc0f827] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> when [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] is active and generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "phase": "Corrosion",
+        "ammoTypes": "[\"Medium Ammo\"]",
+        "stabilityDamage": 3,
+        "cooldown": 2,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/04d0d97dbc1af2ee6b78c9fdb7d742c9.webp",
+        "createdAt": "2025-09-23T23:09:15.701Z",
+        "updatedAt": "2025-11-14T22:50:24.751Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "summonId": null,
+        "rangeMapId": "6606ffa7-6fcb-429b-8e8f-8d4daf2e44fd",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "1e2162e5-0784-497b-9dcc-123d2f3b6cbb",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "AoE",
+          "Tile"
+        ],
+        "keyUpgradesData": "[\"e99913ea-9969-4be6-b6b8-ae53888332bf\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 1",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects 1 enemy unit within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to all enemies within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the target.</p><p>Gains [effect:968e9913-e847-462c-be10-87bc8fc0f827] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> when [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] is active and increases the damage of the next basic attack by <span style=\"color: rgb(243, 109, 28);\">100%</span>. Deals fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to all enemy units within range and generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "6606ffa7-6fcb-429b-8e8f-8d4daf2e44fd",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743089131-r8e1.webp",
+          "createdAt": "2025-09-13T05:58:09.240Z",
+          "updatedAt": "2025-09-13T05:58:09.240Z",
+          "rangeValue": "8",
+          "effectiveArea": "1"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "1e2162e5-0784-497b-9dcc-123d2f3b6cbb",
+          "level": 2,
+          "effect": "<p>Stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span><span>. When [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] is active, increases the damage of the next basic attack by </span><span style=\"color: rgb(243, 109, 28);\">100%</span><span>. Deals fixed damage equal to </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span> of attack to all enemy units within range.</span></p>",
+          "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "segment": 4,
+          "imageUrl": "https://cdn.dandegate.net/skills/04d0d97dbc1af2ee6b78c9fdb7d742c9.webp",
+          "createdAt": "2025-09-23T23:32:49.470Z",
+          "updatedAt": "2025-10-14T07:06:14.067Z",
+          "vertebraeName": "Dreamquake Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "8b433c48-7b93-4b6e-8db2-ba820473d9eb",
+        "name": "Dreamless Night",
+        "description": "<p>Recovers <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability, cleanses all debuffs on self, and applies [effect:8af30c6a-3293-4eff-8e27-d3ee4fc83548] to all allied units within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>When in [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f], the active skill <span style=\"color: rgb(34, 139, 230);\">Dreamquake</span> or the basic attack <span style=\"color: rgb(34, 139, 230);\">Bedtime Warmup</span> can be used after using this skill. Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:31f32341-4599-4652-b094-4a87b31eddde] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": 3,
+        "imageUrl": "https://cdn.dandegate.net/skills/e4f5bda59d93a9eee2f3c9714912837f.webp",
+        "createdAt": "2025-09-23T23:12:36.540Z",
+        "updatedAt": "2025-11-14T22:49:22.075Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "summonId": null,
+        "rangeMapId": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "cb0e161c-7281-4384-bfe1-72b579a97e7c",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "Buff",
+          "Stability Regen"
+        ],
+        "keyUpgradesData": "[\"201de36b-53b1-4569-a05b-1f802ecba7f4\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 2",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Mechty recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of maximum HP, <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability, and cleanses all debuffs on self. The allied unit with the lowest HP recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">15%</span> of Mechty's maximum HP and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability for the allied unit with the lowest HP. Applies [effect:8af30c6a-3293-4eff-8e27-d3ee4fc83548] to all allied units within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>When in [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f], the active skill <span style=\"color: rgb(34, 139, 230);\">Dreamquake</span> or the basic attack <span style=\"color: rgb(34, 139, 230);\">Bedtime Warmup</span> can be used after using this skill. Mechty gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:31f32341-4599-4652-b094-4a87b31eddde] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[\"Active\",\"Buff\",\"Stability Regen\",\"Healing\"]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757744106408-rSe8.webp",
+          "createdAt": "2025-09-13T06:15:06.520Z",
+          "updatedAt": "2025-09-13T06:15:06.520Z",
+          "rangeValue": "Self",
+          "effectiveArea": "8"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "cb0e161c-7281-4384-bfe1-72b579a97e7c",
+          "level": 2,
+          "effect": "<p>The maximum stacks of [effect:31f32341-4599-4652-b094-4a87b31eddde] is increased by <span style=\"color: rgb(243, 109, 28);\">1</span><span>. Mechty recovers HP equal to </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span> of maximum HP and the lowest HP recovers </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span> of Mechty's maximum HP and </span><span style=\"color: rgb(243, 109, 28);\">3 points</span><span> of stability.</span></p><p><span>When in [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f], the number of [effect:31f32341-4599-4652-b094-4a87b31eddde] stacks gained is increased by </span><span style=\"color: rgb(243, 109, 28);\">1</span><span>.</span></p>",
+          "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "segment": 3,
+          "imageUrl": "https://cdn.dandegate.net/skills/e4f5bda59d93a9eee2f3c9714912837f.webp",
+          "createdAt": "2025-09-23T23:31:16.065Z",
+          "updatedAt": "2025-10-14T07:06:13.890Z",
+          "vertebraeName": "Dreamless Night Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "77d76c8c-3e47-4aff-8e65-61fdaa5dbc9e",
+        "name": "Dream Wonderland",
+        "description": "<p>Deactivates [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533] and enters [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. After [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] ends, returns to [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533]. Applies [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] to all allied units and inflicts [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] to the closest enemy target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "phase": null,
+        "ammoTypes": null,
+        "stabilityDamage": null,
+        "cooldown": 4,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/f56994364cb74f87021f71553667c4d5.webp",
+        "createdAt": "2025-09-23T23:15:10.785Z",
+        "updatedAt": "2025-10-14T07:07:03.136Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "summonId": null,
+        "rangeMapId": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "49404d2f-7513-48c9-ae39-42d645be50cf",
+        "vertebraeUpgradeIdLevel3": "9c6cb822-1cfc-4eb9-8b00-5973abc101f7",
+        "skillTags": [
+          "Ultimate",
+          "Buff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 3",
+        "ammoTypesLevel2": null,
+        "ammoTypesLevel3": null,
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Enters [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span><span>. Applies [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] to all allied units and inflicts [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] to the closest enemy unit for </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+        "descriptionLevel3": "<p>Enters [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. Applies [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] to all allied units and inflicts [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] to the closest enemy unit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757747024319-rSeEM.webp",
+          "createdAt": "2025-09-13T07:03:44.424Z",
+          "updatedAt": "2025-09-20T22:07:13.083Z",
+          "rangeValue": "Self",
+          "effectiveArea": "Map"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "49404d2f-7513-48c9-ae39-42d645be50cf",
+          "level": 2,
+          "effect": "<p>No longer deactivates [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533] when entering [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f]. [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] reduces the attacker's attack by <span style=\"color: rgb(243, 109, 28);\">10%</span><span> and increases the amount of debuffs cleansed by </span><span style=\"color: rgb(243, 109, 28);\">1</span><span>. [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] gains a new effect: The Critical rate of basic attacks is increased by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
+          "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "segment": 1,
+          "imageUrl": "https://cdn.dandegate.net/skills/f56994364cb74f87021f71553667c4d5.webp",
+          "createdAt": "2025-09-23T23:17:51.492Z",
+          "updatedAt": "2025-10-14T07:06:12.843Z",
+          "vertebraeName": "Dream Wonderland Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "9c6cb822-1cfc-4eb9-8b00-5973abc101f7",
+          "level": 3,
+          "effect": "<p>[effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] gains new effects: Mobility is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span><span>, applies [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] to allied units without [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] at the end of the action. Gains</span><span style=\"color: rgb(243, 109, 28);\"> 1</span><span> more point of Confectance Index.</span></p>",
+          "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/f56994364cb74f87021f71553667c4d5.webp",
+          "createdAt": "2025-09-23T23:34:28.232Z",
+          "updatedAt": "2025-10-14T07:06:12.312Z",
+          "vertebraeName": "Dream Wonderland Lv.3"
+        }
+      },
+      {
+        "id": "0207f927-0a21-44bb-9240-b1b5a3cd96d9",
+        "name": "Awakening Command",
+        "description": "<p>Remove the [effect:6138d093-4e9f-4fb9-9d2d-f00a1d9e1f85] status and gain <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/3c19aec32aa462811edddaa9736361663a6e37f1b53f13c68316fa73471bec82.webp",
+        "createdAt": "2025-10-26T15:07:09.562Z",
+        "updatedAt": "2025-10-26T15:07:09.562Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "summonId": null,
+        "rangeMapId": null,
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill A",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": null,
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      }
+    ],
+    "keys": [
+      {
+        "id": "5eac650e-9be2-4520-8005-630b2ee1869a",
+        "keyTitle": "Deep Sleep",
+        "keyType": "Affinity Key",
+        "level": null,
+        "effect": null,
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks at Affinity Level 5</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "3%",
+        "attributeName2": "Health Boost",
+        "attributeValue2": "3%",
+        "attributeName3": "Defense Boost",
+        "attributeValue3": "3%",
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/1cfdd720-ee75-49a1-b85e-fa5461a6af0c-deep-sleep.webp",
+        "createdAt": "2025-09-24T00:13:30.300Z",
+        "updatedAt": "2025-09-26T02:33:02.053Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "createdAt": "2025-09-26T04:08:59.480Z",
+              "updatedAt": "2025-09-26T04:08:59.480Z"
+            }
+          ],
+          "searchTags": [
+            "G11"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Affinity Key - Deep Sleep"
+      },
+      {
+        "id": "6b813164-04dc-4404-9641-ab578c0ff6e3",
+        "keyTitle": "Gaming Time",
+        "keyType": "Common Key",
+        "level": 40,
+        "effect": "<p>Basic attack damage is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks after obtaining all Fixed Keys</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "5%",
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/03aa1d77-1249-455f-95cf-fea329c21810-gaming-time.webp",
+        "createdAt": "2025-09-24T00:12:21.425Z",
+        "updatedAt": "2025-09-26T04:11:50.100Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "createdAt": "2025-09-26T04:08:59.480Z",
+              "updatedAt": "2025-09-26T04:08:59.480Z"
+            }
+          ],
+          "searchTags": [
+            "G11"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Common Key - Gaming Time"
+      },
+      {
+        "id": "615bfe83-6874-4f6c-9a39-6c244ac8d1ec",
+        "keyTitle": "Sleepberserking Syndrome",
+        "keyType": "Expansion Key",
+        "keyNumber": 1,
+        "level": 60,
+        "effect": "<p>At the start of battle, Mechty enters into the [effect:6138d093-4e9f-4fb9-9d2d-f00a1d9e1f85] state and gains an additional skill, [dollSkill:0207f927-0a21-44bb-9240-b1b5a3cd96d9].</p><p>If Mechty is in the [effect:6138d093-4e9f-4fb9-9d2d-f00a1d9e1f85] state, at the start of her turn, consumes all points of Confectance Index and gains maximum stacks of [effect:31f32341-4599-4652-b094-4a87b31eddde] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index consumed, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff from herself and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a16ab4fe-2c9f-4019-a29c-af0ef2c97555] to all allied units for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p><p>If Mechty is in the [effect:6138d093-4e9f-4fb9-9d2d-f00a1d9e1f85] state, at the end of her action, for <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:31f32341-4599-4652-b094-4a87b31eddde] held by Mechty, she launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:cfeac20f-b148-4e08-bda4-66fb334e48c3] against the nearest enemy unit, recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of Mechty's attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability to all allied units.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate note: While not stated, Mechty will lose </span>[effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533] <span style=\"color: rgb(34, 139, 230);\">unless she is V1 or above while </span>[effect:6138d093-4e9f-4fb9-9d2d-f00a1d9e1f85].</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/1846d578a21b2e6ede4dbd3e556e8333433b82b875c29de571e5991f87345455.webp",
+        "createdAt": "2025-10-26T15:15:17.301Z",
+        "updatedAt": "2026-01-07T22:36:05.813Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "createdAt": "2025-09-26T04:08:59.480Z",
+              "updatedAt": "2025-09-26T04:08:59.480Z"
+            }
+          ],
+          "searchTags": [
+            "G11"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Expansion Key - Sleepberserking Syndrome"
+      },
+      {
+        "id": "8ddd9719-1c75-43de-af7e-2dc068498395",
+        "keyTitle": "Dream Fragment",
+        "keyType": "Fixed Key",
+        "keyNumber": 1,
+        "level": 20,
+        "effect": "<p>After using the basic attack <span style=\"color: rgb(34, 139, 230);\">Bedtime Warmup</span><span>, gains </span><span style=\"color: rgb(243, 109, 28);\">1</span><span> random buff for </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"6000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/87079876-0f76-4356-847f-9ce2aea6f7f5-dream-fragment.webp",
+        "createdAt": "2025-09-23T22:36:35.202Z",
+        "updatedAt": "2025-09-23T22:36:35.202Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "createdAt": "2025-09-26T04:08:59.480Z",
+              "updatedAt": "2025-09-26T04:08:59.480Z"
+            }
+          ],
+          "searchTags": [
+            "G11"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 1 - Dream Fragment"
+      },
+      {
+        "id": "a479dd7a-69fe-499b-a66d-5c037c99ae32",
+        "keyTitle": "Rest Thee Well",
+        "keyType": "Fixed Key",
+        "keyNumber": 2,
+        "level": 20,
+        "effect": "<p>If any weakness is exploited, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] to the target after the attack resolves.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"6000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/6cf54bae-0ed0-4eb7-a8f0-dc94217a674c-rest-thee-well.webp",
+        "createdAt": "2025-09-23T22:37:37.353Z",
+        "updatedAt": "2025-11-22T23:24:40.502Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "createdAt": "2025-09-26T04:08:59.480Z",
+              "updatedAt": "2025-09-26T04:08:59.480Z"
+            }
+          ],
+          "searchTags": [
+            "G11"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 2 - Rest Thee Well"
+      },
+      {
+        "id": "e99913ea-9969-4be6-b6b8-ae53888332bf",
+        "keyTitle": "Horror Movie Night",
+        "keyType": "Fixed Key",
+        "keyNumber": 3,
+        "level": 30,
+        "effect": "<p>When using the active skill <span style=\"color: rgb(34, 139, 230);\">Dreamquake</span><span>, applies [effect:1b908c38-3129-4280-8ba4-73f162e680e0] for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span> before the attack resolves against large targets.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/878607bf-cede-42e7-866a-d3fff354b1f6-horror-movie-night.webp",
+        "createdAt": "2025-09-23T22:57:00.486Z",
+        "updatedAt": "2025-10-14T07:06:41.990Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "createdAt": "2025-09-26T04:08:59.480Z",
+              "updatedAt": "2025-09-26T04:08:59.480Z"
+            }
+          ],
+          "searchTags": [
+            "G11"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 3 - Horror Movie Night"
+      },
+      {
+        "id": "201de36b-53b1-4569-a05b-1f802ecba7f4",
+        "keyTitle": "Quickly, So We Can Sleep",
+        "keyType": "Fixed Key",
+        "keyNumber": 4,
+        "level": 30,
+        "effect": "<p>When using the active skill <span style=\"color: rgb(34, 139, 230);\">Dreamless Night</span><span>, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within </span><span style=\"color: rgb(243, 109, 28);\">2 tiles</span><span> around the closest enemy for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/465c5f0c-a77a-4a75-97b0-0eebd081dab3-quickly-so-we-can-sleep.webp",
+        "createdAt": "2025-09-23T22:58:15.831Z",
+        "updatedAt": "2025-10-14T07:06:42.166Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "createdAt": "2025-09-26T04:08:59.480Z",
+              "updatedAt": "2025-09-26T04:08:59.480Z"
+            }
+          ],
+          "searchTags": [
+            "G11"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 4 - Quickly, So We Can Sleep"
+      },
+      {
+        "id": "3baeab3f-eed3-4cba-aff8-bd239b946a3c",
+        "keyTitle": "Loser's Spirit",
+        "keyType": "Fixed Key",
+        "keyNumber": 5,
+        "level": 40,
+        "effect": "<p>When using the basic attack <span style=\"color: rgb(34, 139, 230);\">Bedtime Warmup</span>, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> buffs from the target before the attack resolves.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/c81ee3b0-664c-43d9-8d2c-97fa8b9957f3-loser-s-spirit.webp",
+        "createdAt": "2025-09-23T22:59:12.895Z",
+        "updatedAt": "2025-09-27T05:09:22.131Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "createdAt": "2025-09-26T04:08:59.480Z",
+              "updatedAt": "2025-09-26T04:08:59.480Z"
+            }
+          ],
+          "searchTags": [
+            "G11"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 5 - Loser's Spirit"
+      },
+      {
+        "id": "506f1522-260a-473d-a37d-099eb9c9e594",
+        "keyTitle": "Idler's Sofa Aura",
+        "keyType": "Fixed Key",
+        "keyNumber": 6,
+        "level": 40,
+        "effect": "<p>When Mechty has <span style=\"color: rgb(243, 109, 28);\">2</span><span> or more buffs, targeted damage taken is reduced by </span><span style=\"color: rgb(243, 109, 28);\">20%</span><span>.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/658cddbe-5cb7-4eea-8ce5-5809c4a2f23a-idler-s-sofa-aura.webp",
+        "createdAt": "2025-09-23T23:00:06.347Z",
+        "updatedAt": "2025-09-23T23:00:06.347Z",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "createdAt": "2025-09-26T04:08:59.480Z",
+              "updatedAt": "2025-09-26T04:08:59.480Z"
+            }
+          ],
+          "searchTags": [
+            "G11"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 6 - Idler's Sofa Aura"
+      }
+    ],
+    "vertebrae": [
+      {
+        "id": "49404d2f-7513-48c9-ae39-42d645be50cf",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "segment": 1,
+        "vertebraeName": "Dream Wonderland Lv.2",
+        "level": 2,
+        "effect": "<p>No longer deactivates [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533] when entering [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f]. [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] reduces the attacker's attack by <span style=\"color: rgb(243, 109, 28);\">10%</span><span> and increases the amount of debuffs cleansed by </span><span style=\"color: rgb(243, 109, 28);\">1</span><span>. [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] gains a new effect: The Critical rate of basic attacks is increased by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/f56994364cb74f87021f71553667c4d5.webp",
+        "createdAt": "2025-09-23T23:17:51.492Z",
+        "updatedAt": "2025-10-14T07:06:12.843Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "class": "Support",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "A doll who approaches everything with peak laziness-except for gaming and reading manga. She's mastered the ultimate skill: falling asleep anytime, anywhere, under any circumstance. Although she seems to embody the philosophy of \"lying flat\" to the extreme, she reveals her dependable side in times of crisis-though in her words, \"It'd be better if we just never ran into any 'crisis' at all...\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "77d76c8c-3e47-4aff-8e65-61fdaa5dbc9e",
+            "name": "Dream Wonderland",
+            "phase": null,
+            "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+            "cooldown": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/f56994364cb74f87021f71553667c4d5.webp",
+            "summonId": null,
+            "ammoTypes": null,
+            "createdAt": "2025-09-23T23:15:10.785Z",
+            "skillTags": [
+              "Ultimate",
+              "Buff"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-10-14T07:07:03.136Z",
+            "description": "<p>Deactivates [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533] and enters [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. After [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] ends, returns to [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533]. Applies [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] to all allied units and inflicts [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] to the closest enemy target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": null,
+            "ammoTypesLevel3": null,
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": null,
+            "skillTagsLevel3": null,
+            "descriptionLevel2": "<p>Enters [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span><span>. Applies [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] to all allied units and inflicts [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] to the closest enemy unit for </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+            "descriptionLevel3": "<p>Enters [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. Applies [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] to all allied units and inflicts [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] to the closest enemy unit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "49404d2f-7513-48c9-ae39-42d645be50cf",
+            "vertebraeUpgradeIdLevel3": "9c6cb822-1cfc-4eb9-8b00-5973abc101f7"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "95d2a3d2-52c8-4825-9d83-49962616a98d",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "segment": 2,
+        "vertebraeName": "Mysterious Nap Lv.2",
+        "level": 2,
+        "effect": "<p>[effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533] gains new effects: Basic attacks deal <span style=\"color: rgb(243, 109, 28);\">50%</span><span> more damage. At the start of the turn, cleanses </span><span style=\"color: rgb(243, 109, 28);\">2</span><span> debuffs on self.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/d89a0fe0856743aeef9fe401a7e6a6f8.webp",
+        "createdAt": "2025-09-23T23:27:18.568Z",
+        "updatedAt": "2025-10-14T07:06:13.715Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "class": "Support",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "A doll who approaches everything with peak laziness-except for gaming and reading manga. She's mastered the ultimate skill: falling asleep anytime, anywhere, under any circumstance. Although she seems to embody the philosophy of \"lying flat\" to the extreme, she reveals her dependable side in times of crisis-though in her words, \"It'd be better if we just never ran into any 'crisis' at all...\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "fc56efa4-46d7-4db9-a4ef-cdfd3969a805",
+            "name": "Mysterious Nap",
+            "phase": null,
+            "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/d89a0fe0856743aeef9fe401a7e6a6f8.webp",
+            "summonId": null,
+            "ammoTypes": null,
+            "createdAt": "2025-09-23T23:25:55.622Z",
+            "skillTags": [
+              "Passive",
+              "Buff"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-10-14T07:07:05.406Z",
+            "description": "<p>At the start of battle, Mechty enters [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533], and applies [effect:c95cbae9-4ab8-45aa-ad5b-9146ab984168] to all allied units.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": null,
+            "ammoTypesLevel3": null,
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": null,
+            "skillTagsLevel3": null,
+            "descriptionLevel2": "<p>At the start of battle, Mechty enters [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533], and applies [effect:c95cbae9-4ab8-45aa-ad5b-9146ab984168] to all allied units.</p>",
+            "descriptionLevel3": "<p>At the start of battle, Mechty enters [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533], and applies [effect:c95cbae9-4ab8-45aa-ad5b-9146ab984168] to all allied units.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "95d2a3d2-52c8-4825-9d83-49962616a98d",
+            "vertebraeUpgradeIdLevel3": "1ad3a60f-931c-489f-b70f-c83a241c996e"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "cb0e161c-7281-4384-bfe1-72b579a97e7c",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "segment": 3,
+        "vertebraeName": "Dreamless Night Lv.2",
+        "level": 2,
+        "effect": "<p>The maximum stacks of [effect:31f32341-4599-4652-b094-4a87b31eddde] is increased by <span style=\"color: rgb(243, 109, 28);\">1</span><span>. Mechty recovers HP equal to </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span> of maximum HP and the lowest HP recovers </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span> of Mechty's maximum HP and </span><span style=\"color: rgb(243, 109, 28);\">3 points</span><span> of stability.</span></p><p><span>When in [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f], the number of [effect:31f32341-4599-4652-b094-4a87b31eddde] stacks gained is increased by </span><span style=\"color: rgb(243, 109, 28);\">1</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/e4f5bda59d93a9eee2f3c9714912837f.webp",
+        "createdAt": "2025-09-23T23:31:16.065Z",
+        "updatedAt": "2025-10-14T07:06:13.890Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "class": "Support",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "A doll who approaches everything with peak laziness-except for gaming and reading manga. She's mastered the ultimate skill: falling asleep anytime, anywhere, under any circumstance. Although she seems to embody the philosophy of \"lying flat\" to the extreme, she reveals her dependable side in times of crisis-though in her words, \"It'd be better if we just never ran into any 'crisis' at all...\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "8b433c48-7b93-4b6e-8db2-ba820473d9eb",
+            "name": "Dreamless Night",
+            "phase": null,
+            "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/e4f5bda59d93a9eee2f3c9714912837f.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-23T23:12:36.540Z",
+            "skillTags": [
+              "Active",
+              "Buff",
+              "Stability Regen"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2025-11-14T22:49:22.075Z",
+            "description": "<p>Recovers <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability, cleanses all debuffs on self, and applies [effect:8af30c6a-3293-4eff-8e27-d3ee4fc83548] to all allied units within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>When in [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f], the active skill <span style=\"color: rgb(34, 139, 230);\">Dreamquake</span> or the basic attack <span style=\"color: rgb(34, 139, 230);\">Bedtime Warmup</span> can be used after using this skill. Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:31f32341-4599-4652-b094-4a87b31eddde] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 3,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"201de36b-53b1-4569-a05b-1f802ecba7f4\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[\"Active\",\"Buff\",\"Stability Regen\",\"Healing\"]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Mechty recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of maximum HP, <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability, and cleanses all debuffs on self. The allied unit with the lowest HP recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">15%</span> of Mechty's maximum HP and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability for the allied unit with the lowest HP. Applies [effect:8af30c6a-3293-4eff-8e27-d3ee4fc83548] to all allied units within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>When in [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f], the active skill <span style=\"color: rgb(34, 139, 230);\">Dreamquake</span> or the basic attack <span style=\"color: rgb(34, 139, 230);\">Bedtime Warmup</span> can be used after using this skill. Mechty gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:31f32341-4599-4652-b094-4a87b31eddde] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "cb0e161c-7281-4384-bfe1-72b579a97e7c",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "1e2162e5-0784-497b-9dcc-123d2f3b6cbb",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "segment": 4,
+        "vertebraeName": "Dreamquake Lv.2",
+        "level": 2,
+        "effect": "<p>Stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span><span>. When [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] is active, increases the damage of the next basic attack by </span><span style=\"color: rgb(243, 109, 28);\">100%</span><span>. Deals fixed damage equal to </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span> of attack to all enemy units within range.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/04d0d97dbc1af2ee6b78c9fdb7d742c9.webp",
+        "createdAt": "2025-09-23T23:32:49.470Z",
+        "updatedAt": "2025-10-14T07:06:14.067Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "class": "Support",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "A doll who approaches everything with peak laziness-except for gaming and reading manga. She's mastered the ultimate skill: falling asleep anytime, anywhere, under any circumstance. Although she seems to embody the philosophy of \"lying flat\" to the extreme, she reveals her dependable side in times of crisis-though in her words, \"It'd be better if we just never ran into any 'crisis' at all...\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "5daa910c-b8f3-401e-be70-1ab590975638",
+            "name": "Dreamquake",
+            "phase": "Corrosion",
+            "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+            "cooldown": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/04d0d97dbc1af2ee6b78c9fdb7d742c9.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Medium Ammo\"]",
+            "createdAt": "2025-09-23T23:09:15.701Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Tile"
+            ],
+            "skillType": "Skill 1",
+            "updatedAt": "2025-11-14T22:50:24.751Z",
+            "description": "<p>Selects 1 enemy unit within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to all enemies within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the target.</p><p>Gains [effect:968e9913-e847-462c-be10-87bc8fc0f827] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> when [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] is active and generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "6606ffa7-6fcb-429b-8e8f-8d4daf2e44fd",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 3,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"e99913ea-9969-4be6-b6b8-ae53888332bf\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 enemy unit within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to all enemies within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the target.</p><p>Gains [effect:968e9913-e847-462c-be10-87bc8fc0f827] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> when [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] is active and increases the damage of the next basic attack by <span style=\"color: rgb(243, 109, 28);\">100%</span>. Deals fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to all enemy units within range and generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "1e2162e5-0784-497b-9dcc-123d2f3b6cbb",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "9c6cb822-1cfc-4eb9-8b00-5973abc101f7",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "segment": 5,
+        "vertebraeName": "Dream Wonderland Lv.3",
+        "level": 3,
+        "effect": "<p>[effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] gains new effects: Mobility is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span><span>, applies [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] to allied units without [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] at the end of the action. Gains</span><span style=\"color: rgb(243, 109, 28);\"> 1</span><span> more point of Confectance Index.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/f56994364cb74f87021f71553667c4d5.webp",
+        "createdAt": "2025-09-23T23:34:28.232Z",
+        "updatedAt": "2025-10-14T07:06:12.312Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "class": "Support",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "A doll who approaches everything with peak laziness-except for gaming and reading manga. She's mastered the ultimate skill: falling asleep anytime, anywhere, under any circumstance. Although she seems to embody the philosophy of \"lying flat\" to the extreme, she reveals her dependable side in times of crisis-though in her words, \"It'd be better if we just never ran into any 'crisis' at all...\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "77d76c8c-3e47-4aff-8e65-61fdaa5dbc9e",
+            "name": "Dream Wonderland",
+            "phase": null,
+            "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+            "cooldown": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/f56994364cb74f87021f71553667c4d5.webp",
+            "summonId": null,
+            "ammoTypes": null,
+            "createdAt": "2025-09-23T23:15:10.785Z",
+            "skillTags": [
+              "Ultimate",
+              "Buff"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-10-14T07:07:03.136Z",
+            "description": "<p>Deactivates [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533] and enters [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. After [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] ends, returns to [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533]. Applies [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] to all allied units and inflicts [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] to the closest enemy target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": null,
+            "ammoTypesLevel3": null,
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": null,
+            "skillTagsLevel3": null,
+            "descriptionLevel2": "<p>Enters [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span><span>. Applies [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] to all allied units and inflicts [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] to the closest enemy unit for </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+            "descriptionLevel3": "<p>Enters [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. Applies [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] to all allied units and inflicts [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] to the closest enemy unit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "49404d2f-7513-48c9-ae39-42d645be50cf",
+            "vertebraeUpgradeIdLevel3": "9c6cb822-1cfc-4eb9-8b00-5973abc101f7"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "1ad3a60f-931c-489f-b70f-c83a241c996e",
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "segment": 6,
+        "vertebraeName": "Mysterious Nap Lv.3",
+        "level": 3,
+        "effect": "<p>[effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533] gains new effects: <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span><span> dealt by all allied units is increased by </span><span style=\"color: rgb(243, 109, 28);\">25%</span><span> and Mechty's basic attack critical damage is increased by </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span>. [effect:c95cbae9-4ab8-45aa-ad5b-9146ab984168] gains a new effects: AoE damage dealt by Support Attacks is increased to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span>, stability damage dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">1 point</span><span>, and AoE damage dealt is increased to </span><span style=\"color: rgb(243, 109, 28);\">20%</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/d89a0fe0856743aeef9fe401a7e6a6f8.webp",
+        "createdAt": "2025-09-23T23:42:38.355Z",
+        "updatedAt": "2025-10-14T07:06:14.246Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "class": "Support",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "A doll who approaches everything with peak laziness-except for gaming and reading manga. She's mastered the ultimate skill: falling asleep anytime, anywhere, under any circumstance. Although she seems to embody the philosophy of \"lying flat\" to the extreme, she reveals her dependable side in times of crisis-though in her words, \"It'd be better if we just never ran into any 'crisis' at all...\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "fc56efa4-46d7-4db9-a4ef-cdfd3969a805",
+            "name": "Mysterious Nap",
+            "phase": null,
+            "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/d89a0fe0856743aeef9fe401a7e6a6f8.webp",
+            "summonId": null,
+            "ammoTypes": null,
+            "createdAt": "2025-09-23T23:25:55.622Z",
+            "skillTags": [
+              "Passive",
+              "Buff"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-10-14T07:07:05.406Z",
+            "description": "<p>At the start of battle, Mechty enters [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533], and applies [effect:c95cbae9-4ab8-45aa-ad5b-9146ab984168] to all allied units.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": null,
+            "ammoTypesLevel3": null,
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": null,
+            "skillTagsLevel3": null,
+            "descriptionLevel2": "<p>At the start of battle, Mechty enters [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533], and applies [effect:c95cbae9-4ab8-45aa-ad5b-9146ab984168] to all allied units.</p>",
+            "descriptionLevel3": "<p>At the start of battle, Mechty enters [effect:d44e9faa-f5a4-42a2-af48-f723b8f1d533], and applies [effect:c95cbae9-4ab8-45aa-ad5b-9146ab984168] to all allied units.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "95d2a3d2-52c8-4825-9d83-49962616a98d",
+            "vertebraeUpgradeIdLevel3": "1ad3a60f-931c-489f-b70f-c83a241c996e"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      }
+    ],
+    "summons": [],
+    "remoldingPattern": {
+      "id": "0087d92e-791a-41ce-ab02-156f53105b4b",
+      "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+      "coreSlots": {
+        "bulwark": 2,
+        "support": 3,
+        "sentinel": 1,
+        "vanguard": 0
+      },
+      "statBoosts": {
+        "60": {
+          "hp": 672,
+          "atk": 217,
+          "def": 252
+        }
+      },
+      "dollCore": "Support Core",
+      "createdAt": "2025-09-30T22:52:02.991Z",
+      "updatedAt": "2026-02-09T01:49:24.871Z",
+      "doll": {
+        "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "name": "Mechty",
+        "class": "Support",
+        "phase": "Corrosion",
+        "rarity": "Elite",
+        "preview": false,
+        "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+        "regionTag": "en",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      "imagoforms": [
+        {
+          "id": "736f5aa5-8db3-436b-833b-173c0c494386",
+          "stage": "Embryo",
+          "effect": "<p>For every instance of <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> dealt by this unit, <span style=\"color: rgb(135, 120, 233);\">Corrosion damage </span>dealt by all allied units is increased by <span style=\"color: rgb(243, 109, 28);\">1%</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">3%</span>. Does not stack.</p>",
+          "coreLevel": 1,
+          "createdAt": "2025-09-30T22:52:03.023Z",
+          "updatedAt": "2026-02-09T01:49:24.972Z",
+          "bulwarkFactors": 2,
+          "supportFactors": 4,
+          "sentinelFactors": 0,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "9a13c7e2-59c0-4f0a-9492-61ca31e7b35e",
+          "stage": "Seedling",
+          "effect": "<p>Physical and phase damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+          "coreLevel": 10,
+          "createdAt": "2025-09-30T22:52:03.023Z",
+          "updatedAt": "2026-02-09T01:49:24.972Z",
+          "bulwarkFactors": 3,
+          "supportFactors": 6,
+          "sentinelFactors": 1,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "94f818d4-02f2-43c3-8252-464b567a3f4f",
+          "stage": "Sprout",
+          "effect": "<p><span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span><span> dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+          "coreLevel": 20,
+          "createdAt": "2025-09-30T22:52:03.023Z",
+          "updatedAt": "2026-02-09T01:49:24.972Z",
+          "bulwarkFactors": 5,
+          "supportFactors": 7,
+          "sentinelFactors": 2,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "a67e2506-a28a-4800-bd61-0ed40f70ab8f",
+          "stage": "Shoot",
+          "effect": "<p>Damage dealt by all allied units is increased by <span style=\"color: rgb(243, 109, 28);\">4%</span><span>, maximum of </span><span style=\"color: rgb(243, 109, 28);\">3 stacks</span><span>. This effect's potency is progressively reduced by </span><span style=\"color: rgb(243, 109, 28);\">1%</span><span> each time a new stack is applied.</span></p>",
+          "coreLevel": 30,
+          "createdAt": "2025-09-30T22:52:03.023Z",
+          "updatedAt": "2026-02-09T01:49:24.972Z",
+          "bulwarkFactors": 6,
+          "supportFactors": 9,
+          "sentinelFactors": 3,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "df710192-aa76-4cd5-aba8-af776dd48356",
+          "stage": "Bud",
+          "effect": "<p>Attack and max HP is increased by <span style=\"color: rgb(243, 109, 28);\">4%</span><span>.</span></p>",
+          "coreLevel": 45,
+          "createdAt": "2025-09-30T22:52:03.023Z",
+          "updatedAt": "2026-02-09T01:49:24.972Z",
+          "bulwarkFactors": 6,
+          "supportFactors": 13,
+          "sentinelFactors": 4,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "26116135-84ad-4e37-8639-cb290207b204",
+          "stage": "Blossom",
+          "effect": "<p>At the start of the battle, the <span style=\"color: rgb(243, 109, 28);\">2 </span><span>allied units with the highest attack have their attack increased by </span><span style=\"color: rgb(243, 109, 28);\">3%</span><span>. Does not stack.</span></p>",
+          "coreLevel": 60,
+          "createdAt": "2025-09-30T22:52:03.023Z",
+          "updatedAt": "2026-02-09T01:49:24.972Z",
+          "bulwarkFactors": 6,
+          "supportFactors": 15,
+          "sentinelFactors": 5,
+          "vanguardFactors": 0
+        }
+      ],
+      "equippedRelics": []
+    },
+    "dollEffects": [
+      {
+        "id": "8af30c6a-3293-4eff-8e27-d3ee4fc83548",
+        "effectName": "Dream Guardian",
+        "effectDetails": "<p>AoE damage dealt by Support Attacks is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Considered a buff, cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-23T22:44:42.911Z",
+        "updatedAt": "2025-11-01T22:51:30.970Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "G11"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "a16ab4fe-2c9f-4019-a29c-af0ef2c97555",
+        "effectName": "Dreamscape Exhilaration",
+        "effectDetails": "<p><span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Can be stacked, considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Corrosion"
+        ],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-26T15:08:43.299Z",
+        "updatedAt": "2025-11-08T20:13:45.908Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "G11"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "c95cbae9-4ab8-45aa-ad5b-9146ab984168",
+        "effectName": "Nightmare Form",
+        "effectDetails": "{\"mainDetails\":\"<p>AoE damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span> and AoE damage dealt by Support Attacks is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">50%</span>. Additionally, [effect:76e7e852-59e8-49a6-b45f-0f38b78e103c]'s damage type is changed to <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span>. Considered a Corrosion buff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"ca272354-b19d-4c75-9bd6-e711d4f92785\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>AoE damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span>, AoE damage dealt by Support Attacks is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">80%</span>, and stability damage deal is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span>. Additionally, [effect:76e7e852-59e8-49a6-b45f-0f38b78e103c]'s damage type is changed to <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span>. Considered a Corrosion buff, cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [
+          "Buff",
+          "Corrosion"
+        ],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-23T22:53:41.540Z",
+        "updatedAt": "2025-11-03T15:07:48.636Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "G11"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "6671ec6e-a346-47cc-ace8-8e5c1b4735d2",
+        "effectName": "Nightmarish Shroud",
+        "effectDetails": "{\"mainDetails\":\"<p>Before being attacked, reduces the attacker's attack by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span> and cleanses <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> random debuff on the buff holder. If any weakness is being exploited by the enemy, damage taken is reduced by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. Activates <span style=\\\"color: rgb(243, 109, 28);\\\">once</span>, considered a Corrosion buff.</p>\",\"upgrades\":[{\"id\":\"f078fec9-e0a7-434f-9192-fcc7dfb9f15e\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>Before being attacked, reduces the attacker's attack by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span> and cleanses <span style=\\\"color: rgb(243, 109, 28);\\\">2</span> random debuff on the buff holder. If any weakness is being exploited by the enemy, damage taken is reduced by<span style=\\\"color: rgb(243, 109, 28);\\\"> 30%</span>. Activates <span style=\\\"color: rgb(243, 109, 28);\\\">once</span>, considered a Corrosion buff.</p>\",\"order\":0}]}",
+        "effectTags": [
+          "Buff",
+          "Corrosion",
+          "Defense"
+        ],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-23T22:48:22.816Z",
+        "updatedAt": "2025-11-03T15:08:50.509Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "G11"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "d44e9faa-f5a4-42a2-af48-f723b8f1d533",
+        "effectName": "Patch Mode",
+        "effectDetails": "{\"mainDetails\":\"<p>Damage taken is reduced by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. Stability damage taken is reduced by <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span>. Cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"62e13ac1-d0fa-4808-92fb-0a508a42a121\",\"upgradeName\":\"V2\",\"upgradeDetails\":\"<p>Damage taken is reduced by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. Stability damage taken is reduced by <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span>. Basic attacks deal <span style=\\\"color: rgb(243, 109, 28);\\\">50%</span><span> more damage. At the start of the turn, cleanses </span><span style=\\\"color: rgb(243, 109, 28);\\\">2 </span><span>debuffs on self.</span> Cannot be cleansed.</p>\",\"order\":0},{\"id\":\"85635360-6f4a-481c-bb73-d46a75078b45\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>Damage taken is reduced by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span><span>. Stability damage taken is reduced by</span><span style=\\\"color: rgb(243, 109, 28);\\\"> 2 points</span><span>. Basic attack Critical damage is increased by </span><span style=\\\"color: rgb(243, 109, 28);\\\">80%</span><span> and basic attacks deal </span><span style=\\\"color: rgb(243, 109, 28);\\\">50%</span><span> more damage. </span><span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span><span> dealt by all allied units is increased by </span><span style=\\\"color: rgb(243, 109, 28);\\\">25%</span><span>. At the start of the turn, cleanses </span><span style=\\\"color: rgb(243, 109, 28);\\\">2</span><span> debuffs on self. Cannot be cleansed.</span></p>\",\"order\":1}]}",
+        "effectTags": [
+          "Buff",
+          "Stability"
+        ],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-23T22:46:44.321Z",
+        "updatedAt": "2025-11-03T15:16:08.722Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "G11"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "31f32341-4599-4652-b094-4a87b31eddde",
+        "effectName": "Sleep Aid Kit",
+        "effectDetails": "{\"mainDetails\":\"<p>Damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>, maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">2 stacks</span>. Considered a buff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"e80603f6-014b-4d3d-a1ee-6975633443b8\",\"upgradeName\":\"V2\",\"upgradeDetails\":\"<p>Damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>, maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">3 stacks</span>. Considered a buff, cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-23T22:45:54.415Z",
+        "updatedAt": "2025-11-09T09:57:51.666Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "G11"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "6138d093-4e9f-4fb9-9d2d-f00a1d9e1f85",
+        "effectName": "Sleepwalking",
+        "effectDetails": "<p>Unable to move, does not benefit by cover protection, and is immune to control effects. Upon entering this state, Mechty applies [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] and [effect:8af30c6a-3293-4eff-8e27-d3ee4fc83548] to all allied units and enters [effect:f45c8569-cd27-4aa8-8b9d-33b973f2772f]. For every <span style=\"color: rgb(243, 109, 28);\">10 points</span> of Confectance Index consumed, she applies <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2] to all allied units.</p>",
+        "effectTags": [],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-26T15:05:35.368Z",
+        "updatedAt": "2025-11-08T20:11:00.825Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "G11"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "f45c8569-cd27-4aa8-8b9d-33b973f2772f",
+        "effectName": "Turbo Mode",
+        "effectDetails": "{\"mainDetails\":\"<p>Attack and defense are increased by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. At the end of Mechty's action, gains <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span> of Confectance Index. Cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"697e1452-e315-47ec-9eab-d0874cb51bd2\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>Attack, defense and critical rate of basic attacks are increased by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. At the end of Mechty's action, gains <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span> of Confectance Index. Cannot be cleansed.</p>\",\"order\":0},{\"id\":\"a6afe37e-2cdf-4bc5-bd98-4f863d2ae270\",\"upgradeName\":\"V5\",\"upgradeDetails\":\"<p>Attack, defense and critical rate are increased by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. Mobility is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">2 tiles</span> At the end of Mechty's action, gains<span style=\\\"color: rgb(243, 109, 28);\\\"> 3 points</span> of Confectance Index, and applies [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2]  to all allied units without [effect:6671ec6e-a346-47cc-ace8-8e5c1b4735d2]. Cannot be cleansed.</p>\",\"order\":1}]}",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-23T22:43:27.694Z",
+        "updatedAt": "2025-11-03T16:08:19.713Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "G11"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "cfeac20f-b148-4e08-bda4-66fb334e48c3",
+        "effectName": "Waking Ricochet",
+        "effectDetails": "<p>Alternately triggers the active skill <span style=\"color: rgb(34, 139, 230);\">Dreamquake</span> and the basic attack <span style=\"color: rgb(34, 139, 230);\">Bedtime Warmup</span>.</p><p>Before the attack, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] to all enemy units within range for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>The range of <span style=\"color: rgb(34, 139, 230);\">Dreamquake</span> is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> and the damage multiplier of <span style=\"color: rgb(34, 139, 230);\">Bedtime Warmup</span> is increased to <span style=\"color: rgb(243, 109, 28);\">130%</span>.</p>",
+        "effectTags": [],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-26T15:10:41.591Z",
+        "updatedAt": "2025-10-26T15:10:41.591Z",
+        "doll": {
+          "id": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+          "name": "Mechty",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/mechty/893d98a91cb03357c0e927fa07319a0f.webp",
+          "createdAt": "2025-09-23T22:34:44.543Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T09:02:59.373Z",
+          "dollImages": [
+            {
+              "id": "5318f8d1-2846-44ca-ab4e-a5ca49100908",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/mechty/chibi-ce026fb2f044c756dc4b31d8088cb3e1.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "G11"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "shortId": "d31"
+  }
+}

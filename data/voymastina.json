@@ -1,0 +1,1581 @@
+{
+  "success": true,
+  "data": {
+    "id": "70f98730-8d03-4244-8173-3578b935538e",
+    "name": "Voymastina",
+    "class": "Sentinel",
+    "ammoTypes": "[\"Medium Ammo\",\"Melee\"]",
+    "phase": "Physical",
+    "rarity": "Elite",
+    "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+    "regionTag": "en",
+    "preview": false,
+    "createdAt": "2025-10-28T05:11:07.075Z",
+    "updatedAt": "2026-03-13T03:39:41.701Z",
+    "searchTags": [
+      "AK-15"
+    ],
+    "dollImages": [
+      {
+        "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+        "category": "Chibi",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "9f9bbdd1-04b2-4b9a-8be6-5308a84ab70e",
+        "category": "Skin",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Skin/6b7d54f0a72d43a6a51beccbf897cafd671a314f9844b721cb01de330e78409a.webp",
+        "skinTitle": "Erwin",
+        "alt": null
+      },
+      {
+        "id": "fda497b9-184c-4257-88c2-a0cfedbac7df",
+        "category": "Card",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Card/48e917a919fb58567242ee5f09b55e9d89591326c5137fc24126d1aecdf1fbf7.webp",
+        "skinTitle": null,
+        "alt": null
+      }
+    ],
+    "weaponImprintType": null,
+    "weaponImprint": {
+      "id": "bf932a2b-a19c-4712-94c6-2ca06407da64",
+      "name": "6P71",
+      "rarity": "Elite",
+      "weaponType": "Assault Rifle",
+      "primaryAttributeStat": 390,
+      "primaryAttribute": "Attack",
+      "secondaryAttribute": "Crit DMG",
+      "secondaryAttributeStat": "25%",
+      "trait": "<p>After attacking an enemy target with defense <span style=\"color: rgb(243, 109, 28);\">less than or equal to 0</span>, deals <span style=\"color: rgb(243, 109, 28);\">1 point</span> of fixed stability damage.</p>",
+      "effect": "<p>Increases Physical damage dealt by<span style=\"color: rgb(243, 109, 28);\"> 10%/12%/14%/16%/18%/20%</span>. Physical damage ignores <span style=\"color: rgb(243, 109, 28);\">20%/25%/30%/35%/40%/45%</span> of the target's defense.</p>",
+      "imprintDescription": "<p>Increase damage dealt to targets with defensive debuffs by <span style=\"color: rgb(243, 109, 28);\">2.5% </span>and increases damage dealt <span style=\"color: rgb(243, 109, 28);\">2.5%</span> to Girard Group units.</p>",
+      "imageUrl": "https://cdn.dandegate.net/weapons/ak-15/805fdbcb7a5bbc6b93c4f52e447a9c6ba77e12a0c10e53a4d4d2851ae5c42881.webp",
+      "createdAt": "2025-10-28T08:29:52.335Z",
+      "updatedAt": "2026-03-13T14:58:51.598Z",
+      "regionTag": "en",
+      "preview": false,
+      "imprintDollId": "70f98730-8d03-4244-8173-3578b935538e",
+      "imprintDoll": {
+        "id": "70f98730-8d03-4244-8173-3578b935538e",
+        "name": "Voymastina",
+        "rarity": "Elite",
+        "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp"
+      }
+    },
+    "stabilityGauge": 12,
+    "movement": 7,
+    "effects": "No matter how difficult the task is, Voymastina has a way to give a feasible mission plan. In the team, she is the sharpest knife, the strongest shield, and the most reliable component of the entire plan. But sometimes, you will sigh, as fortunately she has never appeared against you.\r\n\"If you want to become the \"Strongest T-Doll\", tactics, efficiency, experience...... Each one is indispensable.\"",
+    "skills": [
+      {
+        "id": "5ac2a31b-bc86-49c4-8051-6eeed5c335a9",
+        "name": "Dread Ultimatum",
+        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80% </span>of attack to it.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Medium Ammo\"]",
+        "stabilityDamage": 3,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/8a00ac67c070b1ce9f3b8282375ded9f4790bea1802a520b11539a622b6392b3.webp",
+        "createdAt": "2025-10-28T06:42:17.640Z",
+        "updatedAt": "2026-03-17T22:21:50.512Z",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "summonId": null,
+        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Basic Attack",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+          "createdAt": "2025-09-13T05:53:24.278Z",
+          "updatedAt": "2025-09-13T05:53:24.278Z",
+          "rangeValue": "8",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "36ff349e-c87f-45c1-af5f-701a11126516",
+        "name": "Mastiff’s Pledge",
+        "description": "<p>Voymastina is immune to displacement and mobility debuffs.</p><p>Voymastina does not benefit from cover protection, but damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span><strong>. </strong>When stability is <span style=\"color: rgb(243, 109, 28);\">greater than 0</span>, this damage reduction is increased to <span style=\"color: rgb(243, 109, 28);\">80%</span>.</p><p>When dealing Physical damage, ignores <span style=\"color: rgb(243, 109, 28);\">50%</span> of the target's defense. After using an active skill or basic attack, Voymastina gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. At maximum Confectance Index, consumes all points of Confectance Index and gains [effect:951e2741-a202-4d41-ae0e-281c9c9daa0f].</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/022f84be0b2e937e8eee9997f82b296691e57d4a8e05b9582e74b7419f2ecfbd.webp",
+        "createdAt": "2025-10-28T07:03:18.504Z",
+        "updatedAt": "2026-03-17T22:36:25.753Z",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "summonId": null,
+        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "8d270b4b-9877-4ea7-ad09-751d6d44cdda",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Passive",
+          "Buff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Immunity to displacement and movement debuffs. Increase movement speed by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p><p>Cannot take protection from cover and damage received is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span><strong>. </strong>When stability is <span style=\"color: rgb(243, 109, 28);\">greater than 0</span>, damage received is reduced to <span style=\"color: rgb(243, 109, 28);\">80%</span>.</p><p>At the start of the battle, gain [effect:3b20ad47-0a62-419f-af97-31034f7283f6] for <span style=\"color: rgb(243, 109, 28);\">1 round</span>. Gain or refresh the duration of [effect:3b20ad47-0a62-419f-af97-31034f7283f6] when dealing damage with<strong> </strong><span style=\"color: rgb(243, 109, 28);\">2 or more</span> active skills or passive effects in each round. For each [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], gain <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:3ee65c92-5fb4-4c30-a1a7-a09aabd20be6].</p><p>When Attack is increased, increase Defense by <span style=\"color: rgb(243, 109, 28);\">50%</span> of the Attack increase, up to a maximum of<span style=\"color: rgb(243, 109, 28);\"> 30%</span><strong> </strong>of initial Defense.</p><p>When dealing Physical damage, ignores <span style=\"color: rgb(243, 109, 28);\">125%</span> of the target's defense. After using an active skill or basic attack, gain <span style=\"color: rgb(243, 109, 28);\">2</span> Confectance Index. When Confectance Index is full, consume all points of Confectance Index and gain [effect:951e2741-a202-4d41-ae0e-281c9c9daa0f].</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+          "createdAt": "2025-09-13T05:48:21.166Z",
+          "updatedAt": "2025-09-13T05:48:21.166Z",
+          "rangeValue": "Self",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "8d270b4b-9877-4ea7-ad09-751d6d44cdda",
+          "level": 2,
+          "effect": "<p>Increase movement speed by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p><p>At the start of the battle, gain [effect:3b20ad47-0a62-419f-af97-31034f7283f6]. Gain or refresh the duration of [effect:3b20ad47-0a62-419f-af97-31034f7283f6] when dealing damage with<strong> </strong><span style=\"color: rgb(243, 109, 28);\">2 or more </span>active skill or passive effects in each round. For each [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:3ee65c92-5fb4-4c30-a1a7-a09aabd20be6].</p><p>When Attack is increased, increase Defense by <span style=\"color: rgb(243, 109, 28);\">50%</span> of the Attack increase, up to a maximum of<span style=\"color: rgb(243, 109, 28);\"> 30%</span><strong> </strong>of initial Defense.</p><p>When dealing Physical damage, the amount of the target's defense ignored increases to <span style=\"color: rgb(243, 109, 28);\">125%</span><span>.</span></p>",
+          "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+          "segment": 6,
+          "imageUrl": "https://cdn.dandegate.net/skills/022f84be0b2e937e8eee9997f82b296691e57d4a8e05b9582e74b7419f2ecfbd.webp",
+          "createdAt": "2025-10-28T07:20:15.808Z",
+          "updatedAt": "2025-11-02T20:46:46.092Z",
+          "vertebraeName": "White Mastiff’s Vow Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "b72c3f75-2be5-47c1-9a4e-10284ccb713f",
+        "name": "Sirius Fall",
+        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of it<strong>.</strong></p><p></p><p>Passive: When an enemy unit within attack range takes targeted damage from an allied unit, Voymastina performs 1 instance<strong> </strong>of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span><strong> </strong>of stability damage to the target and all enemy units within<strong> </strong><span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of it. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">once<strong> </strong></span>per turn.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[]",
+        "stabilityDamage": 3,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/7b752f771d24fdf878cedf189b303d8b92a735f489df9fbb55ca4e04e13f7ce2.webp",
+        "createdAt": "2025-10-28T06:49:09.116Z",
+        "updatedAt": "2026-03-17T22:32:39.438Z",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "summonId": null,
+        "rangeMapId": "f02fc753-9104-4a7a-b517-a0df06f3a3fd",
+        "rangeMapIdLevel2": "e8a5ea18-88be-4742-b614-595826d6fd12",
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "27d60198-e13f-494b-ac26-052c4d3551a1",
+        "vertebraeUpgradeIdLevel3": "bbe44f16-430c-40e3-8f52-3c24dfdbf551",
+        "skillTags": [
+          "Active",
+          "AoE",
+          "Support"
+        ],
+        "keyUpgradesData": "[\"f9716da1-49ef-4988-8047-5d4d6764f642\",\"52c501f5-b129-4121-849d-c464f402050c\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 1",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span><strong>.</strong></p><p></p><p>Passive: When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span><strong> </strong>of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span><strong> </strong>of stability damage to the target and all enemy targets within<strong> </strong><span style=\"color: rgb(243, 109, 28);\">5 tiles</span>. This effect can be triggered up to<span style=\"color: rgb(243, 109, 28);\"><strong> </strong>1 time<strong> </strong></span>per turn.</p>",
+        "descriptionLevel3": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span><strong>.</strong></p><p></p><p>Passive: When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span><strong> </strong>of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span><strong> </strong>of stability damage to the target and all enemy targets within<strong> </strong><span style=\"color: rgb(243, 109, 28);\">5 tiles</span>. This effect can be triggered up to<span style=\"color: rgb(243, 109, 28);\"><strong> </strong>1 time<strong> </strong></span>per turn. When performing any [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], gain <span style=\"color: rgb(243, 109, 28);\">1 stack<strong> </strong></span>of [effect:3ca0a5e5-d420-4d44-a00e-f0cc2b4ee2b9].</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "f02fc753-9104-4a7a-b517-a0df06f3a3fd",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1758593727830-r8e3.webp",
+          "createdAt": "2025-09-23T02:15:27.971Z",
+          "updatedAt": "2025-09-23T02:15:27.971Z",
+          "rangeValue": "8",
+          "effectiveArea": "3"
+        },
+        "rangeMapLevel2": {
+          "id": "e8a5ea18-88be-4742-b614-595826d6fd12",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1758660915813-r8t5.webp",
+          "createdAt": "2025-09-23T20:55:15.959Z",
+          "updatedAt": "2025-09-23T20:55:15.959Z",
+          "rangeValue": "8",
+          "effectiveArea": "5"
+        },
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "27d60198-e13f-494b-ac26-052c4d3551a1",
+          "level": 2,
+          "effect": "<p>Damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">180%</span>, stability damage increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>, and effective range increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p><p>Passive damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">150%</span>, stability damage increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>, and effective range increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p>",
+          "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+          "segment": 1,
+          "imageUrl": "https://cdn.dandegate.net/skills/7b752f771d24fdf878cedf189b303d8b92a735f489df9fbb55ca4e04e13f7ce2.webp",
+          "createdAt": "2025-10-28T07:06:11.887Z",
+          "updatedAt": "2025-11-02T20:23:34.950Z",
+          "vertebraeName": "Celestial Wolf Pack Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "bbe44f16-430c-40e3-8f52-3c24dfdbf551",
+          "level": 3,
+          "effect": "<p>Passive gains an additional effect: When performing any [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span><strong> </strong>of [effect:3ca0a5e5-d420-4d44-a00e-f0cc2b4ee2b9].</p>",
+          "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+          "segment": 4,
+          "imageUrl": "https://cdn.dandegate.net/skills/7b752f771d24fdf878cedf189b303d8b92a735f489df9fbb55ca4e04e13f7ce2.webp",
+          "createdAt": "2025-10-28T07:08:54.217Z",
+          "updatedAt": "2025-11-02T20:25:24.420Z",
+          "vertebraeName": "Celestial Wolf Pack Lv.3"
+        }
+      },
+      {
+        "id": "bde7f3c8-29d1-441e-959f-a99d66c22649",
+        "name": "Eye of the White Mastiff",
+        "description": "<p>Voymastina gains [effect:1eea564f-6f6c-4a60-945b-1c1fab44017d] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span><strong>. </strong>After skill usage, she gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p><p>Passive: At the start of the battle, deals Physical damage that ignores cover equal to <span style=\"color: rgb(243, 109, 28);\">100%</span><strong> </strong>of attack and <span style=\"color: rgb(243, 109, 28);\">3 points </span>of stability damage to the closest <span style=\"color: rgb(243, 109, 28);\">5</span><strong> </strong>enemy targets on the battlefield. Voymastina is immune to damage and fixed damage, lasting until the end of this passive effect.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": 1,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/803c673ee21ff572a15f01124a90374dee8a2852af772b6ea836547560c60300.webp",
+        "createdAt": "2025-10-28T06:54:09.097Z",
+        "updatedAt": "2026-03-17T22:28:21.071Z",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "summonId": null,
+        "rangeMapId": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "0eaba0cb-c537-444c-9fdc-00e364209b68",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 2",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Gains [effect:1eea564f-6f6c-4a60-945b-1c1fab44017d] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span><strong>. </strong>After the skill, gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p><p>Passive: At the start of the battle, deals Physical damage ignoring cover reduction equal to <span style=\"color: rgb(243, 109, 28);\">300%</span><strong> </strong>of attack and <span style=\"color: rgb(243, 109, 28);\">3 points </span>of stability damage to the <span style=\"color: rgb(243, 109, 28);\">10</span><strong> </strong>nearest enemy targets on the entire field, and applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Immunity to damage and stability damage last until the end of this passive.</p><p>Before this skill's active and passive attacks, applies [effect:f2edbeb3-9755-49e7-91f4-dc6fba3b30d9] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757744106408-rSe8.webp",
+          "createdAt": "2025-09-13T06:15:06.520Z",
+          "updatedAt": "2025-09-13T06:15:06.520Z",
+          "rangeValue": "Self",
+          "effectiveArea": "8"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "0eaba0cb-c537-444c-9fdc-00e364209b68",
+          "level": 2,
+          "effect": "<p>Increase duration of [effect:1eea564f-6f6c-4a60-945b-1c1fab44017d] by <span style=\"color: rgb(243, 109, 28);\">1 round</span>; damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">1</span><span style=\"color: rgb(243, 109, 28);\">30%</span><strong> </strong>and removes target trigger limit. If an enemy target spawns within range, deals targeted Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the target.</p><p>Passive effect damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">300%</span>, number of enemy targets increased to <span style=\"color: rgb(243, 109, 28);\">10</span><strong>, </strong>and applies<strong> [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] </strong>to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><strong> </strong>after attacking.</p><p>Before this skill's active and passive attacks, apply [effect:f2edbeb3-9755-49e7-91f4-dc6fba3b30d9] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+          "segment": 3,
+          "imageUrl": "https://cdn.dandegate.net/skills/803c673ee21ff572a15f01124a90374dee8a2852af772b6ea836547560c60300.webp",
+          "createdAt": "2025-10-28T07:15:21.794Z",
+          "updatedAt": "2025-11-02T20:34:59.510Z",
+          "vertebraeName": "Eye of the White Mastiff Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "19725853-c67b-4f27-bdad-c67ba88fd323",
+        "name": "Pile Bunker",
+        "description": "<p>Selects a direction and deals AoE melee Physical damage that ignores cover equal to<span style=\"color: rgb(243, 109, 28);\"> 200%</span><strong> </strong>of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">forward-facing 1×2 tile area</span> in the selected direction. After skill usage, Voymastina gains [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p><p></p><p>Passive: When an enemy unit within attack range takes targeted damage from an allied unit, Voymastina performs 1 instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], charges to an empty tile <span style=\"color: rgb(243, 109, 28);\">within a 2-tile wide area</span><strong> </strong>of the target's tile, then deals targeted melee Physical damage that ignores cover equal to <span style=\"color: rgb(243, 109, 28);\">150%</span><strong> </strong>of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to it. If there are no empty tiles to charge to, shoots the enemy target to deal damage instead. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Melee\"]",
+        "stabilityDamage": 5,
+        "cooldown": 1,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/095189da565431f2e2d96f7131bf2ffff65642636141c630b3e7a7661c814b6e.webp",
+        "createdAt": "2025-10-28T06:58:49.699Z",
+        "updatedAt": "2026-03-17T22:48:31.687Z",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "summonId": null,
+        "rangeMapId": "7e7dcee0-3097-479c-a534-f992f1206901",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "5eec0f7a-e736-4ddc-a09f-beccf942d9b4",
+        "vertebraeUpgradeIdLevel3": "4cb39766-8141-482c-bb6b-b1cc5e2b9bfd",
+        "skillTags": [
+          "Ultimate",
+          "AoE",
+          "Displacement",
+          "Support"
+        ],
+        "keyUpgradesData": "[\"d2ca8377-53ab-4a98-88ea-ccb363d58a9c\",\"c48b5838-8d74-4fac-869d-a65d35b464e0\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 3",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects a direction and deals AoE melee Physical damage ignoring cover reduction equal to<span style=\"color: rgb(243, 109, 28);\"> 200%</span><strong> </strong>of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">1x2 area in front</span>. Gains [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p><p></p><p>Passive: When an enemy unit within range receives targeted damage from an ally, performs an instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], charge to an open tile within a <span style=\"color: rgb(243, 109, 28);\">2 tile width range</span><strong> </strong>of the target, deals targetted melee Physical damage ignoring cover reduction equal to <span style=\"color: rgb(243, 109, 28);\">150%</span><strong> </strong>of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If there is no open tile, fire at the target instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn. Before this skill's active and passive attacks, increase attack by <span style=\"color: rgb(243, 109, 28);\">10%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>; apply [effect:928be1f8-b168-4790-a004-73b489a3ad34] on the target for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>.</p>",
+        "descriptionLevel3": "<p>Selects a direction and deals AoE melee Physical damage ignoring cover reduction equal to<span style=\"color: rgb(243, 109, 28);\"> 300%</span><strong> </strong>of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">1x2 area in front</span>. When [effect:951e2741-a202-4d41-ae0e-281c9c9daa0f] is active, increases attack by <span style=\"color: rgb(243, 109, 28);\">30%</span><strong>. </strong>Gains [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p><p></p><p>Passive: When an enemy unit within range receives targeted damage from an ally, performs an instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], charge to an open tile within a <span style=\"color: rgb(243, 109, 28);\">2 tile width range</span><strong> </strong>of the target, deals targetted melee Physical damage ignoring cover reduction equal to <span style=\"color: rgb(243, 109, 28);\">150%</span><strong> </strong>of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If there is no open tile, fire at the target instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn. Before this skill's active and passive attacks, increase attack by <span style=\"color: rgb(243, 109, 28);\">10%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>; apply [effect:928be1f8-b168-4790-a004-73b489a3ad34] for <span style=\"color: rgb(243, 109, 28);\">2 rounds </span>and [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] for <span style=\"color: rgb(243, 109, 28);\">2 turns </span>on the target.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "7e7dcee0-3097-479c-a534-f992f1206901",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/8764d4743a0df65476ee7a40033dc9f91684356510fac2ef19ceb98d27a06787.webp",
+          "createdAt": "2025-10-28T08:14:25.858Z",
+          "updatedAt": "2025-10-28T08:14:25.858Z",
+          "rangeValue": "1",
+          "effectiveArea": "--"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "5eec0f7a-e736-4ddc-a09f-beccf942d9b4",
+          "level": 2,
+          "effect": "<p>Before this skill's active and passive attacks, increases attack by <span style=\"color: rgb(243, 109, 28);\">10%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>; apply [effect:928be1f8-b168-4790-a004-73b489a3ad34] to the target for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>.</p>",
+          "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+          "segment": 2,
+          "imageUrl": "https://cdn.dandegate.net/skills/095189da565431f2e2d96f7131bf2ffff65642636141c630b3e7a7661c814b6e.webp",
+          "createdAt": "2025-10-28T07:16:45.302Z",
+          "updatedAt": "2025-11-02T19:10:07.406Z",
+          "vertebraeName": "Crushing Fang Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "4cb39766-8141-482c-bb6b-b1cc5e2b9bfd",
+          "level": 3,
+          "effect": "<p>Damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">300%</span>. When Voymastina has [effect:951e2741-a202-4d41-ae0e-281c9c9daa0f], increases attack by <span style=\"color: rgb(243, 109, 28);\">30%</span><strong>.</strong></p><p>Before this skill's active and passive attacks, applies [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/095189da565431f2e2d96f7131bf2ffff65642636141c630b3e7a7661c814b6e.webp",
+          "createdAt": "2025-10-28T07:17:56.504Z",
+          "updatedAt": "2025-11-02T19:13:32.288Z",
+          "vertebraeName": "Crushing Fang Lv.3"
+        }
+      }
+    ],
+    "keys": [
+      {
+        "id": "74ac8642-46ce-4ca2-aa53-5d666ba72c27",
+        "keyTitle": "Silent Vigil",
+        "keyType": "Affinity Key",
+        "level": null,
+        "effect": null,
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks at Affinity Level 5</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "3%",
+        "attributeName2": "Crit Rate",
+        "attributeValue2": "3%",
+        "attributeName3": "Crit DMG",
+        "attributeValue3": "3%",
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/8fb9ff3a76851ed8291edf45cc3d14ca0ae9e586acdda304771bcf86bb66370e.webp",
+        "createdAt": "2025-11-02T18:52:29.724Z",
+        "updatedAt": "2026-03-13T03:39:49.838Z",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "createdAt": "2025-10-28T05:11:08.293Z",
+              "updatedAt": "2025-10-28T05:11:08.293Z"
+            }
+          ],
+          "searchTags": [
+            "AK-15"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Affinity Key - Silent Vigil"
+      },
+      {
+        "id": "50d35622-f736-49b4-bc8e-e7aeed833be9",
+        "keyTitle": "Laceration Legato",
+        "keyType": "Common Key",
+        "level": 40,
+        "effect": "<p>When dealing melee damage, increases Physical damage dealt by <span style=\"color: rgb(243, 109, 28);\">10%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span><strong>.</strong></p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks after obtaining all Fixed Keys</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "5%",
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/laceration-legato/7e582b50b054ac49c0c3cc9197622498c3bc514a5f107603067edcb7756a53c4.webp",
+        "createdAt": "2025-10-28T08:40:26.548Z",
+        "updatedAt": "2026-03-13T03:39:49.838Z",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "createdAt": "2025-10-28T05:11:08.293Z",
+              "updatedAt": "2025-10-28T05:11:08.293Z"
+            }
+          ],
+          "searchTags": [
+            "AK-15"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Common Key - Laceration Legato"
+      },
+      {
+        "id": "f9716da1-49ef-4988-8047-5d4d6764f642",
+        "keyTitle": "Shrapnel Curtain",
+        "keyType": "Fixed Key",
+        "keyNumber": 1,
+        "level": 20,
+        "effect": "<p>When active skill <span style=\"color: rgb(34, 139, 230);\"><strong>Celestial Wolf Pack</strong></span> or its passive effect hit a boss unit or <span style=\"color: rgb(243, 109, 28);\">3 or more</span> enemy targets, gain [effect:af640815-bbef-471b-8888-cee6c3d8b4a4].</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/shrapnel-curtain/81c68cfdc83804a7c2a9539cf41d16ddb4979d82f748a135efac3420d28d1254.webp",
+        "createdAt": "2025-10-28T07:35:34.228Z",
+        "updatedAt": "2026-03-13T03:39:49.838Z",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "createdAt": "2025-10-28T05:11:08.293Z",
+              "updatedAt": "2025-10-28T05:11:08.293Z"
+            }
+          ],
+          "searchTags": [
+            "AK-15"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 1 - Shrapnel Curtain"
+      },
+      {
+        "id": "d2ca8377-53ab-4a98-88ea-ccb363d58a9c",
+        "keyTitle": "Wide Field of View",
+        "keyType": "Fixed Key",
+        "keyNumber": 2,
+        "level": 20,
+        "effect": "<p>After triggering the passive effect of <span style=\"color: rgb(34, 139, 230);\"><strong>Crushing Fang</strong></span>, gain [effect:968e9913-e847-462c-be10-87bc8fc0f827] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/wide-field-of-view/b7108380f8132f2bb155527fd0ba7e16e549a90d692344343e14687d1341caf7.webp",
+        "createdAt": "2025-10-28T07:41:41.517Z",
+        "updatedAt": "2026-03-13T03:39:49.838Z",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "createdAt": "2025-10-28T05:11:08.293Z",
+              "updatedAt": "2025-10-28T05:11:08.293Z"
+            }
+          ],
+          "searchTags": [
+            "AK-15"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 2 - Wide Field of View"
+      },
+      {
+        "id": "0dc47da2-87c6-4335-b494-0aac609f451a",
+        "keyTitle": "Global Hunt",
+        "keyType": "Fixed Key",
+        "keyNumber": 3,
+        "level": 30,
+        "effect": "<p>The range of all [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] is changed to the entire field and increases damage dealt to non-boss enemy targets by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/global-hunt/7ce3f9c9ba6ba4dc15f368ec0b97e363379522650ae2d38b91c0b173e539a662.webp",
+        "createdAt": "2025-10-28T07:43:43.854Z",
+        "updatedAt": "2026-03-13T03:39:49.838Z",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "createdAt": "2025-10-28T05:11:08.293Z",
+              "updatedAt": "2025-10-28T05:11:08.293Z"
+            }
+          ],
+          "searchTags": [
+            "AK-15"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 3 - Global Hunt"
+      },
+      {
+        "id": "52c501f5-b129-4121-849d-c464f402050c",
+        "keyTitle": "Isolated Execution",
+        "keyType": "Fixed Key",
+        "keyNumber": 4,
+        "level": 30,
+        "effect": "<p>When the active skill <span style=\"color: rgb(34, 139, 230);\"><strong>Celestial Wolf Pack</strong></span> or its passive effect hit only <span style=\"color: rgb(243, 109, 28);\">1 target</span>, the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span> and the stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/isolated-execution/57774453782c9a2dca6770c523b31802668c8818ca176c9abc7e9f2796bf9cbc.webp",
+        "createdAt": "2025-10-28T07:55:03.649Z",
+        "updatedAt": "2026-03-13T03:39:49.838Z",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "createdAt": "2025-10-28T05:11:08.293Z",
+              "updatedAt": "2025-10-28T05:11:08.293Z"
+            }
+          ],
+          "searchTags": [
+            "AK-15"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 4 - Isolated Execution"
+      },
+      {
+        "id": "66e7ea33-e651-4172-8d08-1e3a680d7614",
+        "keyTitle": "Apex Killer",
+        "keyType": "Fixed Key",
+        "keyNumber": 5,
+        "level": 40,
+        "effect": "<p>Before attacking, gain [effect:111861b3-c5e8-49d2-bc9d-b4044ab5945e]  for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/apex-killer/e80a2192c82f591d1ae4da9bc2f028ace806b995bb7ffb1abe5770a409df0b5f.webp",
+        "createdAt": "2025-10-28T07:57:17.009Z",
+        "updatedAt": "2026-03-19T14:53:16.145Z",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "createdAt": "2025-10-28T05:11:08.293Z",
+              "updatedAt": "2025-10-28T05:11:08.293Z"
+            }
+          ],
+          "searchTags": [
+            "AK-15"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 5 - Apex Killer"
+      },
+      {
+        "id": "c48b5838-8d74-4fac-869d-a65d35b464e0",
+        "keyTitle": "Scars Bring Strength",
+        "keyType": "Fixed Key",
+        "keyNumber": 6,
+        "level": 40,
+        "effect": "<p>After being attacked, the next usage of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\"><strong>Crushing Fang </strong></span>increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/scars-bring-strength/3dfd3fb65c9dd5205b7bd6f8faac8bb5285c1eaf1bf5946bf383052a24eb8b9c.webp",
+        "createdAt": "2025-10-28T08:11:31.069Z",
+        "updatedAt": "2026-03-13T03:39:49.838Z",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "createdAt": "2025-10-28T05:11:08.293Z",
+              "updatedAt": "2025-10-28T05:11:08.293Z"
+            }
+          ],
+          "searchTags": [
+            "AK-15"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 6 - Scars Bring Strength"
+      }
+    ],
+    "vertebrae": [
+      {
+        "id": "27d60198-e13f-494b-ac26-052c4d3551a1",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "segment": 1,
+        "vertebraeName": "Celestial Wolf Pack Lv.2",
+        "level": 2,
+        "effect": "<p>Damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">180%</span>, stability damage increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>, and effective range increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p><p>Passive damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">150%</span>, stability damage increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>, and effective range increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/7b752f771d24fdf878cedf189b303d8b92a735f489df9fbb55ca4e04e13f7ce2.webp",
+        "createdAt": "2025-10-28T07:06:11.887Z",
+        "updatedAt": "2025-11-02T20:23:34.950Z",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "class": "Sentinel",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "No matter how difficult the task is, Voymastina has a way to give a feasible mission plan. In the team, she is the sharpest knife, the strongest shield, and the most reliable component of the entire plan. But sometimes, you will sigh, as fortunately she has never appeared against you.\r\n\"If you want to become the \"Strongest T-Doll\", tactics, efficiency, experience...... Each one is indispensable.\"",
+          "preview": false,
+          "movement": 7,
+          "ammoTypes": "[\"Medium Ammo\",\"Melee\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "stabilityGauge": 12
+        },
+        "skillsLevel2": [
+          {
+            "id": "b72c3f75-2be5-47c1-9a4e-10284ccb713f",
+            "name": "Sirius Fall",
+            "phase": "Physical",
+            "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/7b752f771d24fdf878cedf189b303d8b92a735f489df9fbb55ca4e04e13f7ce2.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-10-28T06:49:09.116Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Support"
+            ],
+            "skillType": "Skill 1",
+            "updatedAt": "2026-03-17T22:32:39.438Z",
+            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of it<strong>.</strong></p><p></p><p>Passive: When an enemy unit within attack range takes targeted damage from an allied unit, Voymastina performs 1 instance<strong> </strong>of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span><strong> </strong>of stability damage to the target and all enemy units within<strong> </strong><span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of it. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">once<strong> </strong></span>per turn.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "f02fc753-9104-4a7a-b517-a0df06f3a3fd",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 3,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"f9716da1-49ef-4988-8047-5d4d6764f642\",\"52c501f5-b129-4121-849d-c464f402050c\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span><strong>.</strong></p><p></p><p>Passive: When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span><strong> </strong>of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span><strong> </strong>of stability damage to the target and all enemy targets within<strong> </strong><span style=\"color: rgb(243, 109, 28);\">5 tiles</span>. This effect can be triggered up to<span style=\"color: rgb(243, 109, 28);\"><strong> </strong>1 time<strong> </strong></span>per turn.</p>",
+            "descriptionLevel3": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span><strong>.</strong></p><p></p><p>Passive: When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span><strong> </strong>of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span><strong> </strong>of stability damage to the target and all enemy targets within<strong> </strong><span style=\"color: rgb(243, 109, 28);\">5 tiles</span>. This effect can be triggered up to<span style=\"color: rgb(243, 109, 28);\"><strong> </strong>1 time<strong> </strong></span>per turn. When performing any [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], gain <span style=\"color: rgb(243, 109, 28);\">1 stack<strong> </strong></span>of [effect:3ca0a5e5-d420-4d44-a00e-f0cc2b4ee2b9].</p>",
+            "rangeMapIdLevel2": "e8a5ea18-88be-4742-b614-595826d6fd12",
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "27d60198-e13f-494b-ac26-052c4d3551a1",
+            "vertebraeUpgradeIdLevel3": "bbe44f16-430c-40e3-8f52-3c24dfdbf551"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "5eec0f7a-e736-4ddc-a09f-beccf942d9b4",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "segment": 2,
+        "vertebraeName": "Crushing Fang Lv.2",
+        "level": 2,
+        "effect": "<p>Before this skill's active and passive attacks, increases attack by <span style=\"color: rgb(243, 109, 28);\">10%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>; apply [effect:928be1f8-b168-4790-a004-73b489a3ad34] to the target for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/095189da565431f2e2d96f7131bf2ffff65642636141c630b3e7a7661c814b6e.webp",
+        "createdAt": "2025-10-28T07:16:45.302Z",
+        "updatedAt": "2025-11-02T19:10:07.406Z",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "class": "Sentinel",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "No matter how difficult the task is, Voymastina has a way to give a feasible mission plan. In the team, she is the sharpest knife, the strongest shield, and the most reliable component of the entire plan. But sometimes, you will sigh, as fortunately she has never appeared against you.\r\n\"If you want to become the \"Strongest T-Doll\", tactics, efficiency, experience...... Each one is indispensable.\"",
+          "preview": false,
+          "movement": 7,
+          "ammoTypes": "[\"Medium Ammo\",\"Melee\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "stabilityGauge": 12
+        },
+        "skillsLevel2": [
+          {
+            "id": "19725853-c67b-4f27-bdad-c67ba88fd323",
+            "name": "Pile Bunker",
+            "phase": "Physical",
+            "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+            "cooldown": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/095189da565431f2e2d96f7131bf2ffff65642636141c630b3e7a7661c814b6e.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Melee\"]",
+            "createdAt": "2025-10-28T06:58:49.699Z",
+            "skillTags": [
+              "Ultimate",
+              "AoE",
+              "Displacement",
+              "Support"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2026-03-17T22:48:31.687Z",
+            "description": "<p>Selects a direction and deals AoE melee Physical damage that ignores cover equal to<span style=\"color: rgb(243, 109, 28);\"> 200%</span><strong> </strong>of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">forward-facing 1×2 tile area</span> in the selected direction. After skill usage, Voymastina gains [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p><p></p><p>Passive: When an enemy unit within attack range takes targeted damage from an allied unit, Voymastina performs 1 instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], charges to an empty tile <span style=\"color: rgb(243, 109, 28);\">within a 2-tile wide area</span><strong> </strong>of the target's tile, then deals targeted melee Physical damage that ignores cover equal to <span style=\"color: rgb(243, 109, 28);\">150%</span><strong> </strong>of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to it. If there are no empty tiles to charge to, shoots the enemy target to deal damage instead. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "7e7dcee0-3097-479c-a534-f992f1206901",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 5,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"d2ca8377-53ab-4a98-88ea-ccb363d58a9c\",\"c48b5838-8d74-4fac-869d-a65d35b464e0\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects a direction and deals AoE melee Physical damage ignoring cover reduction equal to<span style=\"color: rgb(243, 109, 28);\"> 200%</span><strong> </strong>of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">1x2 area in front</span>. Gains [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p><p></p><p>Passive: When an enemy unit within range receives targeted damage from an ally, performs an instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], charge to an open tile within a <span style=\"color: rgb(243, 109, 28);\">2 tile width range</span><strong> </strong>of the target, deals targetted melee Physical damage ignoring cover reduction equal to <span style=\"color: rgb(243, 109, 28);\">150%</span><strong> </strong>of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If there is no open tile, fire at the target instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn. Before this skill's active and passive attacks, increase attack by <span style=\"color: rgb(243, 109, 28);\">10%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>; apply [effect:928be1f8-b168-4790-a004-73b489a3ad34] on the target for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>.</p>",
+            "descriptionLevel3": "<p>Selects a direction and deals AoE melee Physical damage ignoring cover reduction equal to<span style=\"color: rgb(243, 109, 28);\"> 300%</span><strong> </strong>of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">1x2 area in front</span>. When [effect:951e2741-a202-4d41-ae0e-281c9c9daa0f] is active, increases attack by <span style=\"color: rgb(243, 109, 28);\">30%</span><strong>. </strong>Gains [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p><p></p><p>Passive: When an enemy unit within range receives targeted damage from an ally, performs an instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], charge to an open tile within a <span style=\"color: rgb(243, 109, 28);\">2 tile width range</span><strong> </strong>of the target, deals targetted melee Physical damage ignoring cover reduction equal to <span style=\"color: rgb(243, 109, 28);\">150%</span><strong> </strong>of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If there is no open tile, fire at the target instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn. Before this skill's active and passive attacks, increase attack by <span style=\"color: rgb(243, 109, 28);\">10%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>; apply [effect:928be1f8-b168-4790-a004-73b489a3ad34] for <span style=\"color: rgb(243, 109, 28);\">2 rounds </span>and [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] for <span style=\"color: rgb(243, 109, 28);\">2 turns </span>on the target.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "5eec0f7a-e736-4ddc-a09f-beccf942d9b4",
+            "vertebraeUpgradeIdLevel3": "4cb39766-8141-482c-bb6b-b1cc5e2b9bfd"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "0eaba0cb-c537-444c-9fdc-00e364209b68",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "segment": 3,
+        "vertebraeName": "Eye of the White Mastiff Lv.2",
+        "level": 2,
+        "effect": "<p>Increase duration of [effect:1eea564f-6f6c-4a60-945b-1c1fab44017d] by <span style=\"color: rgb(243, 109, 28);\">1 round</span>; damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">1</span><span style=\"color: rgb(243, 109, 28);\">30%</span><strong> </strong>and removes target trigger limit. If an enemy target spawns within range, deals targeted Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the target.</p><p>Passive effect damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">300%</span>, number of enemy targets increased to <span style=\"color: rgb(243, 109, 28);\">10</span><strong>, </strong>and applies<strong> [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] </strong>to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><strong> </strong>after attacking.</p><p>Before this skill's active and passive attacks, apply [effect:f2edbeb3-9755-49e7-91f4-dc6fba3b30d9] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/803c673ee21ff572a15f01124a90374dee8a2852af772b6ea836547560c60300.webp",
+        "createdAt": "2025-10-28T07:15:21.794Z",
+        "updatedAt": "2025-11-02T20:34:59.510Z",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "class": "Sentinel",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "No matter how difficult the task is, Voymastina has a way to give a feasible mission plan. In the team, she is the sharpest knife, the strongest shield, and the most reliable component of the entire plan. But sometimes, you will sigh, as fortunately she has never appeared against you.\r\n\"If you want to become the \"Strongest T-Doll\", tactics, efficiency, experience...... Each one is indispensable.\"",
+          "preview": false,
+          "movement": 7,
+          "ammoTypes": "[\"Medium Ammo\",\"Melee\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "stabilityGauge": 12
+        },
+        "skillsLevel2": [
+          {
+            "id": "bde7f3c8-29d1-441e-959f-a99d66c22649",
+            "name": "Eye of the White Mastiff",
+            "phase": "Physical",
+            "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+            "cooldown": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/803c673ee21ff572a15f01124a90374dee8a2852af772b6ea836547560c60300.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-10-28T06:54:09.097Z",
+            "skillTags": [
+              "Active"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2026-03-17T22:28:21.071Z",
+            "description": "<p>Voymastina gains [effect:1eea564f-6f6c-4a60-945b-1c1fab44017d] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span><strong>. </strong>After skill usage, she gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p><p>Passive: At the start of the battle, deals Physical damage that ignores cover equal to <span style=\"color: rgb(243, 109, 28);\">100%</span><strong> </strong>of attack and <span style=\"color: rgb(243, 109, 28);\">3 points </span>of stability damage to the closest <span style=\"color: rgb(243, 109, 28);\">5</span><strong> </strong>enemy targets on the battlefield. Voymastina is immune to damage and fixed damage, lasting until the end of this passive effect.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Gains [effect:1eea564f-6f6c-4a60-945b-1c1fab44017d] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span><strong>. </strong>After the skill, gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p><p>Passive: At the start of the battle, deals Physical damage ignoring cover reduction equal to <span style=\"color: rgb(243, 109, 28);\">300%</span><strong> </strong>of attack and <span style=\"color: rgb(243, 109, 28);\">3 points </span>of stability damage to the <span style=\"color: rgb(243, 109, 28);\">10</span><strong> </strong>nearest enemy targets on the entire field, and applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Immunity to damage and stability damage last until the end of this passive.</p><p>Before this skill's active and passive attacks, applies [effect:f2edbeb3-9755-49e7-91f4-dc6fba3b30d9] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "0eaba0cb-c537-444c-9fdc-00e364209b68",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "bbe44f16-430c-40e3-8f52-3c24dfdbf551",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "segment": 4,
+        "vertebraeName": "Celestial Wolf Pack Lv.3",
+        "level": 3,
+        "effect": "<p>Passive gains an additional effect: When performing any [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span><strong> </strong>of [effect:3ca0a5e5-d420-4d44-a00e-f0cc2b4ee2b9].</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/7b752f771d24fdf878cedf189b303d8b92a735f489df9fbb55ca4e04e13f7ce2.webp",
+        "createdAt": "2025-10-28T07:08:54.217Z",
+        "updatedAt": "2025-11-02T20:25:24.420Z",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "class": "Sentinel",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "No matter how difficult the task is, Voymastina has a way to give a feasible mission plan. In the team, she is the sharpest knife, the strongest shield, and the most reliable component of the entire plan. But sometimes, you will sigh, as fortunately she has never appeared against you.\r\n\"If you want to become the \"Strongest T-Doll\", tactics, efficiency, experience...... Each one is indispensable.\"",
+          "preview": false,
+          "movement": 7,
+          "ammoTypes": "[\"Medium Ammo\",\"Melee\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "stabilityGauge": 12
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "b72c3f75-2be5-47c1-9a4e-10284ccb713f",
+            "name": "Sirius Fall",
+            "phase": "Physical",
+            "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/7b752f771d24fdf878cedf189b303d8b92a735f489df9fbb55ca4e04e13f7ce2.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-10-28T06:49:09.116Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Support"
+            ],
+            "skillType": "Skill 1",
+            "updatedAt": "2026-03-17T22:32:39.438Z",
+            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of it<strong>.</strong></p><p></p><p>Passive: When an enemy unit within attack range takes targeted damage from an allied unit, Voymastina performs 1 instance<strong> </strong>of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span><strong> </strong>of stability damage to the target and all enemy units within<strong> </strong><span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of it. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">once<strong> </strong></span>per turn.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "f02fc753-9104-4a7a-b517-a0df06f3a3fd",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 3,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"f9716da1-49ef-4988-8047-5d4d6764f642\",\"52c501f5-b129-4121-849d-c464f402050c\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span><strong>.</strong></p><p></p><p>Passive: When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span><strong> </strong>of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span><strong> </strong>of stability damage to the target and all enemy targets within<strong> </strong><span style=\"color: rgb(243, 109, 28);\">5 tiles</span>. This effect can be triggered up to<span style=\"color: rgb(243, 109, 28);\"><strong> </strong>1 time<strong> </strong></span>per turn.</p>",
+            "descriptionLevel3": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span><strong>.</strong></p><p></p><p>Passive: When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span><strong> </strong>of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span><strong> </strong>of stability damage to the target and all enemy targets within<strong> </strong><span style=\"color: rgb(243, 109, 28);\">5 tiles</span>. This effect can be triggered up to<span style=\"color: rgb(243, 109, 28);\"><strong> </strong>1 time<strong> </strong></span>per turn. When performing any [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], gain <span style=\"color: rgb(243, 109, 28);\">1 stack<strong> </strong></span>of [effect:3ca0a5e5-d420-4d44-a00e-f0cc2b4ee2b9].</p>",
+            "rangeMapIdLevel2": "e8a5ea18-88be-4742-b614-595826d6fd12",
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "27d60198-e13f-494b-ac26-052c4d3551a1",
+            "vertebraeUpgradeIdLevel3": "bbe44f16-430c-40e3-8f52-3c24dfdbf551"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "4cb39766-8141-482c-bb6b-b1cc5e2b9bfd",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "segment": 5,
+        "vertebraeName": "Crushing Fang Lv.3",
+        "level": 3,
+        "effect": "<p>Damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">300%</span>. When Voymastina has [effect:951e2741-a202-4d41-ae0e-281c9c9daa0f], increases attack by <span style=\"color: rgb(243, 109, 28);\">30%</span><strong>.</strong></p><p>Before this skill's active and passive attacks, applies [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/095189da565431f2e2d96f7131bf2ffff65642636141c630b3e7a7661c814b6e.webp",
+        "createdAt": "2025-10-28T07:17:56.504Z",
+        "updatedAt": "2025-11-02T19:13:32.288Z",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "class": "Sentinel",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "No matter how difficult the task is, Voymastina has a way to give a feasible mission plan. In the team, she is the sharpest knife, the strongest shield, and the most reliable component of the entire plan. But sometimes, you will sigh, as fortunately she has never appeared against you.\r\n\"If you want to become the \"Strongest T-Doll\", tactics, efficiency, experience...... Each one is indispensable.\"",
+          "preview": false,
+          "movement": 7,
+          "ammoTypes": "[\"Medium Ammo\",\"Melee\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "stabilityGauge": 12
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "19725853-c67b-4f27-bdad-c67ba88fd323",
+            "name": "Pile Bunker",
+            "phase": "Physical",
+            "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+            "cooldown": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/095189da565431f2e2d96f7131bf2ffff65642636141c630b3e7a7661c814b6e.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Melee\"]",
+            "createdAt": "2025-10-28T06:58:49.699Z",
+            "skillTags": [
+              "Ultimate",
+              "AoE",
+              "Displacement",
+              "Support"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2026-03-17T22:48:31.687Z",
+            "description": "<p>Selects a direction and deals AoE melee Physical damage that ignores cover equal to<span style=\"color: rgb(243, 109, 28);\"> 200%</span><strong> </strong>of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">forward-facing 1×2 tile area</span> in the selected direction. After skill usage, Voymastina gains [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p><p></p><p>Passive: When an enemy unit within attack range takes targeted damage from an allied unit, Voymastina performs 1 instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], charges to an empty tile <span style=\"color: rgb(243, 109, 28);\">within a 2-tile wide area</span><strong> </strong>of the target's tile, then deals targeted melee Physical damage that ignores cover equal to <span style=\"color: rgb(243, 109, 28);\">150%</span><strong> </strong>of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to it. If there are no empty tiles to charge to, shoots the enemy target to deal damage instead. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "7e7dcee0-3097-479c-a534-f992f1206901",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 5,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"d2ca8377-53ab-4a98-88ea-ccb363d58a9c\",\"c48b5838-8d74-4fac-869d-a65d35b464e0\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects a direction and deals AoE melee Physical damage ignoring cover reduction equal to<span style=\"color: rgb(243, 109, 28);\"> 200%</span><strong> </strong>of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">1x2 area in front</span>. Gains [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p><p></p><p>Passive: When an enemy unit within range receives targeted damage from an ally, performs an instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], charge to an open tile within a <span style=\"color: rgb(243, 109, 28);\">2 tile width range</span><strong> </strong>of the target, deals targetted melee Physical damage ignoring cover reduction equal to <span style=\"color: rgb(243, 109, 28);\">150%</span><strong> </strong>of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If there is no open tile, fire at the target instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn. Before this skill's active and passive attacks, increase attack by <span style=\"color: rgb(243, 109, 28);\">10%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>; apply [effect:928be1f8-b168-4790-a004-73b489a3ad34] on the target for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>.</p>",
+            "descriptionLevel3": "<p>Selects a direction and deals AoE melee Physical damage ignoring cover reduction equal to<span style=\"color: rgb(243, 109, 28);\"> 300%</span><strong> </strong>of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">1x2 area in front</span>. When [effect:951e2741-a202-4d41-ae0e-281c9c9daa0f] is active, increases attack by <span style=\"color: rgb(243, 109, 28);\">30%</span><strong>. </strong>Gains [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p><p></p><p>Passive: When an enemy unit within range receives targeted damage from an ally, performs an instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], charge to an open tile within a <span style=\"color: rgb(243, 109, 28);\">2 tile width range</span><strong> </strong>of the target, deals targetted melee Physical damage ignoring cover reduction equal to <span style=\"color: rgb(243, 109, 28);\">150%</span><strong> </strong>of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If there is no open tile, fire at the target instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn. Before this skill's active and passive attacks, increase attack by <span style=\"color: rgb(243, 109, 28);\">10%</span> for <span style=\"color: rgb(243, 109, 28);\">1 round</span>; apply [effect:928be1f8-b168-4790-a004-73b489a3ad34] for <span style=\"color: rgb(243, 109, 28);\">2 rounds </span>and [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] for <span style=\"color: rgb(243, 109, 28);\">2 turns </span>on the target.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "5eec0f7a-e736-4ddc-a09f-beccf942d9b4",
+            "vertebraeUpgradeIdLevel3": "4cb39766-8141-482c-bb6b-b1cc5e2b9bfd"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "8d270b4b-9877-4ea7-ad09-751d6d44cdda",
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "segment": 6,
+        "vertebraeName": "White Mastiff’s Vow Lv.2",
+        "level": 2,
+        "effect": "<p>Increase movement speed by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p><p>At the start of the battle, gain [effect:3b20ad47-0a62-419f-af97-31034f7283f6]. Gain or refresh the duration of [effect:3b20ad47-0a62-419f-af97-31034f7283f6] when dealing damage with<strong> </strong><span style=\"color: rgb(243, 109, 28);\">2 or more </span>active skill or passive effects in each round. For each [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:3ee65c92-5fb4-4c30-a1a7-a09aabd20be6].</p><p>When Attack is increased, increase Defense by <span style=\"color: rgb(243, 109, 28);\">50%</span> of the Attack increase, up to a maximum of<span style=\"color: rgb(243, 109, 28);\"> 30%</span><strong> </strong>of initial Defense.</p><p>When dealing Physical damage, the amount of the target's defense ignored increases to <span style=\"color: rgb(243, 109, 28);\">125%</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/022f84be0b2e937e8eee9997f82b296691e57d4a8e05b9582e74b7419f2ecfbd.webp",
+        "createdAt": "2025-10-28T07:20:15.808Z",
+        "updatedAt": "2025-11-02T20:46:46.092Z",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "class": "Sentinel",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "No matter how difficult the task is, Voymastina has a way to give a feasible mission plan. In the team, she is the sharpest knife, the strongest shield, and the most reliable component of the entire plan. But sometimes, you will sigh, as fortunately she has never appeared against you.\r\n\"If you want to become the \"Strongest T-Doll\", tactics, efficiency, experience...... Each one is indispensable.\"",
+          "preview": false,
+          "movement": 7,
+          "ammoTypes": "[\"Medium Ammo\",\"Melee\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "stabilityGauge": 12
+        },
+        "skillsLevel2": [
+          {
+            "id": "36ff349e-c87f-45c1-af5f-701a11126516",
+            "name": "Mastiff’s Pledge",
+            "phase": null,
+            "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/022f84be0b2e937e8eee9997f82b296691e57d4a8e05b9582e74b7419f2ecfbd.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-10-28T07:03:18.504Z",
+            "skillTags": [
+              "Passive",
+              "Buff"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2026-03-17T22:36:25.753Z",
+            "description": "<p>Voymastina is immune to displacement and mobility debuffs.</p><p>Voymastina does not benefit from cover protection, but damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span><strong>. </strong>When stability is <span style=\"color: rgb(243, 109, 28);\">greater than 0</span>, this damage reduction is increased to <span style=\"color: rgb(243, 109, 28);\">80%</span>.</p><p>When dealing Physical damage, ignores <span style=\"color: rgb(243, 109, 28);\">50%</span> of the target's defense. After using an active skill or basic attack, Voymastina gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. At maximum Confectance Index, consumes all points of Confectance Index and gains [effect:951e2741-a202-4d41-ae0e-281c9c9daa0f].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Immunity to displacement and movement debuffs. Increase movement speed by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p><p>Cannot take protection from cover and damage received is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span><strong>. </strong>When stability is <span style=\"color: rgb(243, 109, 28);\">greater than 0</span>, damage received is reduced to <span style=\"color: rgb(243, 109, 28);\">80%</span>.</p><p>At the start of the battle, gain [effect:3b20ad47-0a62-419f-af97-31034f7283f6] for <span style=\"color: rgb(243, 109, 28);\">1 round</span>. Gain or refresh the duration of [effect:3b20ad47-0a62-419f-af97-31034f7283f6] when dealing damage with<strong> </strong><span style=\"color: rgb(243, 109, 28);\">2 or more</span> active skills or passive effects in each round. For each [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], gain <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:3ee65c92-5fb4-4c30-a1a7-a09aabd20be6].</p><p>When Attack is increased, increase Defense by <span style=\"color: rgb(243, 109, 28);\">50%</span> of the Attack increase, up to a maximum of<span style=\"color: rgb(243, 109, 28);\"> 30%</span><strong> </strong>of initial Defense.</p><p>When dealing Physical damage, ignores <span style=\"color: rgb(243, 109, 28);\">125%</span> of the target's defense. After using an active skill or basic attack, gain <span style=\"color: rgb(243, 109, 28);\">2</span> Confectance Index. When Confectance Index is full, consume all points of Confectance Index and gain [effect:951e2741-a202-4d41-ae0e-281c9c9daa0f].</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "8d270b4b-9877-4ea7-ad09-751d6d44cdda",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      }
+    ],
+    "summons": [],
+    "remoldingPattern": {
+      "id": "a9f2a748-e02e-4ddc-9e89-eb6780d6347d",
+      "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+      "coreSlots": {
+        "bulwark": 1,
+        "support": 0,
+        "sentinel": 4,
+        "vanguard": 1
+      },
+      "statBoosts": {
+        "60": {
+          "hp": 651,
+          "atk": 252,
+          "def": 224
+        }
+      },
+      "dollCore": "Sentinel Core",
+      "createdAt": "2025-10-28T07:30:06.115Z",
+      "updatedAt": "2025-10-28T07:30:06.115Z",
+      "doll": {
+        "id": "70f98730-8d03-4244-8173-3578b935538e",
+        "name": "Voymastina",
+        "class": "Sentinel",
+        "phase": "Physical",
+        "rarity": "Elite",
+        "preview": false,
+        "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+        "regionTag": "en",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      "imagoforms": [
+        {
+          "id": "18a08f4e-d5d6-4d4e-95e4-2f669b9fbbf8",
+          "stage": "Embryo",
+          "effect": "<p>When dealing melee damage, damage dealt increases by <span style=\"color: rgb(243, 109, 28);\">8%</span>.</p>",
+          "coreLevel": 1,
+          "createdAt": "2025-10-28T07:30:06.275Z",
+          "updatedAt": "2025-10-28T07:30:06.275Z",
+          "bulwarkFactors": 0,
+          "supportFactors": 0,
+          "sentinelFactors": 5,
+          "vanguardFactors": 1
+        },
+        {
+          "id": "cf3afc41-b0f1-4257-a836-49e869fbe013",
+          "stage": "Seedling",
+          "effect": "<p>Physical and phase damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+          "coreLevel": 10,
+          "createdAt": "2025-10-28T07:30:06.275Z",
+          "updatedAt": "2025-10-28T07:30:06.275Z",
+          "bulwarkFactors": 1,
+          "supportFactors": 0,
+          "sentinelFactors": 7,
+          "vanguardFactors": 2
+        },
+        {
+          "id": "98adb171-5896-48a3-800f-b101150d604f",
+          "stage": "Sprout",
+          "effect": "<p>Physical damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 20,
+          "createdAt": "2025-10-28T07:30:06.275Z",
+          "updatedAt": "2025-10-28T07:30:06.275Z",
+          "bulwarkFactors": 2,
+          "supportFactors": 0,
+          "sentinelFactors": 8,
+          "vanguardFactors": 3
+        },
+        {
+          "id": "89bacd10-57ad-421f-b49c-ea35a16abfba",
+          "stage": "Shoot",
+          "effect": "<p>Damage dealt to enemy targets in Stability Break is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+          "coreLevel": 30,
+          "createdAt": "2025-10-28T07:30:06.275Z",
+          "updatedAt": "2025-10-28T07:30:06.275Z",
+          "bulwarkFactors": 3,
+          "supportFactors": 0,
+          "sentinelFactors": 11,
+          "vanguardFactors": 4
+        },
+        {
+          "id": "2a1667dd-bee6-41d5-8c9d-850e285ba86c",
+          "stage": "Bud",
+          "effect": "<p>Attack is increased by <span style=\"color: rgb(243, 109, 28);\">8%</span><span>.</span></p>",
+          "coreLevel": 45,
+          "createdAt": "2025-10-28T07:30:06.275Z",
+          "updatedAt": "2025-10-28T07:30:06.275Z",
+          "bulwarkFactors": 4,
+          "supportFactors": 0,
+          "sentinelFactors": 15,
+          "vanguardFactors": 4
+        },
+        {
+          "id": "59c50ec0-338d-4b85-83f7-b046d3fd89ea",
+          "stage": "Blossom",
+          "effect": "<p>Damage dealt by attacks that only hit <span style=\"color: rgb(243, 109, 28);\">1 </span><span>enemy unit is increased by </span><span style=\"color: rgb(243, 109, 28);\">12%</span><span>.</span></p>",
+          "coreLevel": 60,
+          "createdAt": "2025-10-28T07:30:06.275Z",
+          "updatedAt": "2025-10-28T07:30:06.275Z",
+          "bulwarkFactors": 5,
+          "supportFactors": 0,
+          "sentinelFactors": 18,
+          "vanguardFactors": 6
+        }
+      ],
+      "equippedRelics": []
+    },
+    "dollEffects": [
+      {
+        "id": "3b20ad47-0a62-419f-af97-31034f7283f6",
+        "effectName": "Hunter",
+        "effectDetails": "<p>Damage dealt increased&nbsp;by<span style=\"color: rgb(243, 109, 28);\"> 45%</span>&nbsp;and critical damage&nbsp;increased by <span style=\"color: rgb(243, 109, 28);\">30%</span><strong>. </strong>This effect cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-28T06:38:27.180Z",
+        "updatedAt": "2026-03-13T03:39:49.838Z",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AK-15"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "3ee65c92-5fb4-4c30-a1a7-a09aabd20be6",
+        "effectName": "Hunting Rhythm",
+        "effectDetails": "<p>If this effect stacks up to&nbsp;<span style=\"color: rgb(243, 109, 28);\">5 times</span>, trigger the passive effect of the active skill&nbsp;<span style=\"color: rgb(34, 139, 230);\"><strong>Eye of the White Mastiff</strong></span><strong> </strong><span style=\"color: rgb(243, 109, 28);\">once</span> at the start of the next round. Triggers up to&nbsp;<span style=\"color: rgb(243, 109, 28);\">1 time</span><strong>&nbsp;</strong>per battle. This effect cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-28T06:36:37.499Z",
+        "updatedAt": "2026-03-13T03:39:49.838Z",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AK-15"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "951e2741-a202-4d41-ae0e-281c9c9daa0f",
+        "effectName": "Predator Code",
+        "effectDetails": "<p>Before an active attack, ignores <span style=\"color: rgb(243, 109, 28);\">50%</span> of the target's Defense, Critical Rate increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> and Critical Damage increased by<span style=\"color: rgb(243, 109, 28);\"> 25%</span>. This effect cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-28T06:31:53.248Z",
+        "updatedAt": "2026-03-13T03:39:49.838Z",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AK-15"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "928be1f8-b168-4790-a004-73b489a3ad34",
+        "effectName": "Shattered Will",
+        "effectDetails": "<p>When attacked by Voymastina,&nbsp;reduce Defense by <span style=\"color: rgb(243, 109, 28);\">40%</span><strong>.</strong> This debuff cannot be cleansed.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-28T06:33:43.480Z",
+        "updatedAt": "2026-03-13T03:39:49.838Z",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AK-15"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "3ca0a5e5-d420-4d44-a00e-f0cc2b4ee2b9",
+        "effectName": "Task Force Hunt",
+        "effectDetails": "<p>Damage dealt and critical rate increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>, stacking up to <span style=\"color: rgb(243, 109, 28);\">3 times</span>. This effect cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-28T06:35:12.246Z",
+        "updatedAt": "2026-03-13T03:39:49.838Z",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AK-15"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "1eea564f-6f6c-4a60-945b-1c1fab44017d",
+        "effectName": "Wolf's Eye",
+        "effectDetails": "{\"mainDetails\":\"<p>When an enemy unit within <span style=\\\"color: rgb(243, 109, 28);\\\">8 tiles </span>attempts to move, attack, or at the end of the action, perform <span style=\\\"color: rgb(243, 109, 28);\\\">1 instance</span> of <span style=\\\"color: rgb(34, 139, 230);\\\">Lock-On Attack</span>, dealing physical damage ignoring cover equal to <span style=\\\"color: rgb(243, 109, 28);\\\">80%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of stability damage to enemy targets within <span style=\\\"color: rgb(243, 109, 28);\\\">3x3 tiles area</span>, triggering <span style=\\\"color: rgb(243, 109, 28);\\\">1 time </span>per target. This effect can be triggered up to <span style=\\\"color: rgb(243, 109, 28);\\\">6 times </span>per round.</p>\",\"upgrades\":[{\"id\":\"7ead2771-289b-41a8-a474-6af779e02fd0\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>When an enemy unit within <span style=\\\"color: rgb(243, 109, 28);\\\">8 tiles </span>attempts to move, attack, or at the end of the action, perform <span style=\\\"color: rgb(243, 109, 28);\\\">1 instance</span> of <span style=\\\"color: rgb(34, 139, 230);\\\">Lock-On Attack</span>, dealing AoE physical damage ignoring cover equal to <span style=\\\"color: rgb(243, 109, 28);\\\">130%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of stability damage to enemy targets within <span style=\\\"color: rgb(243, 109, 28);\\\">3x3 tiles area</span>. This effect can be triggered up to <span style=\\\"color: rgb(243, 109, 28);\\\">6 times </span>per round. If a new enemy target spawns within range, deal targeted physical damage equal to <span style=\\\"color: rgb(243, 109, 28);\\\">130%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of stability damage without consuming the number of times.</p>\",\"order\":0}]}",
+        "effectTags": [
+          "Physical"
+        ],
+        "dollId": "70f98730-8d03-4244-8173-3578b935538e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-28T05:00:12.333Z",
+        "updatedAt": "2026-03-13T03:39:49.838Z",
+        "doll": {
+          "id": "70f98730-8d03-4244-8173-3578b935538e",
+          "name": "Voymastina",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/voymastina/3f20f1b96a4f5a4bd4e8df54ba32490fa4e13bb2b9eff2fe97a2ee4b34665418.webp",
+          "createdAt": "2025-10-28T05:11:07.075Z",
+          "regionTag": "en",
+          "updatedAt": "2026-03-13T03:39:41.701Z",
+          "dollImages": [
+            {
+              "id": "259527c5-cafa-47de-928b-ef1cdedb2d4a",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/53100db79e7c6636e6df64ab74e40574652b370c0ad27e45c96e3900dcafb34c.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AK-15"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "shortId": "d53"
+  }
+}

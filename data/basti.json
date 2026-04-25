@@ -1,0 +1,1537 @@
+{
+  "success": true,
+  "data": {
+    "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+    "shortId": "d4",
+    "name": "Basti",
+    "class": "Support",
+    "ammoTypes": "[\"Light Ammo\"]",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+    "regionTag": "cn",
+    "preview": false,
+    "createdAt": "2026-01-15T05:52:04.632Z",
+    "updatedAt": "2026-02-11T00:57:21.283Z",
+    "searchTags": [
+      "MK23"
+    ],
+    "dollImages": [
+      {
+        "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+        "category": "Chibi",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "3a65d729-973f-4957-8a33-b2c63ca23abf",
+        "category": "Card",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Card/b4480630529960b79ade91d093e50d0a74c7e636a43f80d16190096ab82d8d31.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "39ecb852-b936-4c1c-bb3b-082aa5560c2b",
+        "category": "Skin",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Skin/5a4a4f0e0e8426d3931894eeb251acb534cf255fb52315baaf7121c00548c2c0.webp",
+        "skinTitle": "5a4a4f0e0e8426d3931894eeb251acb534cf255fb52315baaf7121c00548c2c0.webp",
+        "alt": null
+      }
+    ],
+    "weaponImprintType": null,
+    "weaponImprint": {
+      "id": "2966379f-b1f2-4b66-8de0-36cc1ccade8c",
+      "name": "Death's Psalm",
+      "rarity": "Elite",
+      "weaponType": "Handgun",
+      "primaryAttributeStat": 341,
+      "primaryAttribute": "Attack",
+      "secondaryAttribute": "Attack Boost",
+      "secondaryAttributeStat": "15%",
+      "trait": "<p>AoE damage dealt by the user and their [effect:d149d223-ac66-4556-ba25-5d4fef2504e9] is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. If dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, damage dealt is additionally increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+      "effect": "<p>All <span style=\"color: rgb(135, 120, 233);\">Corrosion damage </span>dealt by allied units is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. For every summon the user creates, the <span style=\"color: rgb(135, 120, 233);\">Corrosion damage </span>dealt by both the user and their summons is increased by <span style=\"color: rgb(243, 109, 28);\">5%/7%/9%/11%/13%/15%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">15%/21%/27%/33%/39%/45%</span>.</p>",
+      "imprintDescription": "<p>Damage dealt to targets with Corrosion-type debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>. Increase damage dealt to the Ouroboros Consortium units by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>.</p>",
+      "imageUrl": "https://cdn.dandegate.net/weapons/death-s-psalm/bc262eabefbcfabb0c5a601dc4b5abf5c258b9c907b343d72cbfeaa445292fb3.webp",
+      "createdAt": "2026-01-15T05:56:58.744Z",
+      "updatedAt": "2026-02-09T02:00:16.878Z",
+      "regionTag": "cn",
+      "preview": false,
+      "imprintDollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+      "imprintDoll": {
+        "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "name": "Basti",
+        "rarity": "Elite",
+        "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp"
+      }
+    },
+    "stabilityGauge": 10,
+    "movement": 6,
+    "effects": "It's difficult to evaluate Basti's resume. In the eyes of those in power, it's a criminal record; in the eyes of local factions, it's a threatening letter; but in the Commander's eyes, it's a moving love letter.\r\n\"Darling, want to know my secrets? The way things are now isn't enough—you need to be bolder, even bolder—\"",
+    "skills": [
+      {
+        "id": "f5b1d770-fe76-432f-8b1b-e381b454b9c3",
+        "name": "Reckless Provocation",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Light Ammo\"]",
+        "stabilityDamage": 2,
+        "cooldown": null,
+        "confectanceCost": 0,
+        "imageUrl": "https://cdn.dandegate.net/skills/56c4f16697086d7b9026f48b48f18a2477c69cd9364c789e9ca53a332136cd53.webp",
+        "createdAt": "2026-01-15T06:35:50.815Z",
+        "updatedAt": "2026-02-09T03:55:01.476Z",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Basic Attack",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "23003354-ee24-45c6-9e1f-f7d2863ecec7",
+        "name": "Graffiti World",
+        "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.<br>At the start of battle, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles on all allied Dolls' positions, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After moving, leaves [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> around self, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>If an enemy target is standing on an allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tile, it gains [effect:d15b5821-0880-4d68-a42d-95c3c38c86d2].<br>When [effect:fad26e78-c747-42da-878f-83d32202402a] is summoned and at the start of action, if allied units are standing on allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles, they gain [effect:072e8edf-84d8-49ec-a5ef-e0121e79c62c] and [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": 0,
+        "cooldown": null,
+        "confectanceCost": 0,
+        "imageUrl": "https://cdn.dandegate.net/skills/df910c512c3b290ef72f7eeea8450eb456a907d30242a4dc27ac37d1f9ede56e.webp",
+        "createdAt": "2026-01-15T07:23:32.253Z",
+        "updatedAt": "2026-02-11T00:29:01.077Z",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "summonId": null,
+        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "ef52b585-d5e0-4e76-a380-f14498622380",
+        "vertebraeUpgradeIdLevel3": "460408c5-555d-4604-b1fc-97dd7282e0c5",
+        "skillTags": [
+          "Passive",
+          "Tile",
+          "Debuff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>At the start of battle, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles on all allied Dolls' positions and within a <span style=\"color: rgb(243, 109, 28);\">3x3 area around them</span>, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After moving, leaves [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around self, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>If an enemy target is standing on an allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tile, it gains [effect:d15b5821-0880-4d68-a42d-95c3c38c86d2].<br>When [effect:fad26e78-c747-42da-878f-83d32202402a] is summoned and at the start of action, if allied units are standing on allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles, they gain [effect:072e8edf-84d8-49ec-a5ef-e0121e79c62c] and [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Before dealing damage, Basti and [effect:fad26e78-c747-42da-878f-83d32202402a] gain 1 stack of [effect:fbd7a19a-c207-43df-8bc4-d911baf325f1].</p>",
+        "descriptionLevel3": "<p>Reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>At the start of battle, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles on all allied Dolls' positions and within a <span style=\"color: rgb(243, 109, 28);\">3x3 area around them</span>, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After moving, leaves [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around self, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>If an enemy target is standing on an allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tile, it gains [effect:d15b5821-0880-4d68-a42d-95c3c38c86d2].<br>When [effect:fad26e78-c747-42da-878f-83d32202402a] is summoned and at the start of action, if allied units are standing on allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles, they gain [effect:072e8edf-84d8-49ec-a5ef-e0121e79c62c] and [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Before dealing damage, Basti and [effect:fad26e78-c747-42da-878f-83d32202402a] gain 1 stack of [effect:fbd7a19a-c207-43df-8bc4-d911baf325f1].</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+          "createdAt": "2025-09-13T05:48:21.166Z",
+          "updatedAt": "2025-09-13T05:48:21.166Z",
+          "rangeValue": "Self",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "ef52b585-d5e0-4e76-a380-f14498622380",
+          "level": 2,
+          "effect": "<p>Reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.<br>At the start of battle, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles on the tiles where all allied Dolls are located and within a <span style=\"color: rgb(243, 109, 28);\">3×3 area</span>, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After moving, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around herself, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>Before dealing damage, Basti and [effect:fad26e78-c747-42da-878f-83d32202402a] gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:fbd7a19a-c207-43df-8bc4-d911baf325f1].</p>",
+          "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "segment": 2,
+          "imageUrl": "https://cdn.dandegate.net/skills/df910c512c3b290ef72f7eeea8450eb456a907d30242a4dc27ac37d1f9ede56e.webp",
+          "createdAt": "2026-01-21T02:53:36.135Z",
+          "updatedAt": "2026-02-09T01:30:11.993Z",
+          "vertebraeName": "The World of Graffiti Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "460408c5-555d-4604-b1fc-97dd7282e0c5",
+          "level": 3,
+          "effect": "<p>[effect:fbd7a19a-c207-43df-8bc4-d911baf325f1] is enhanced: damage dealt is increased to <span style=\"color: rgb(243, 109, 28);\">24%</span>, and healing done is increased to <span style=\"color: rgb(243, 109, 28);\">6%</span>.<br>[effect:072e8edf-84d8-49ec-a5ef-e0121e79c62c] is enhanced: damage dealt is increased to <span style=\"color: rgb(243, 109, 28);\">30%</span>.<br>[effect:d15b5821-0880-4d68-a42d-95c3c38c86d2] is enhanced: <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> taken is increased to <span style=\"color: rgb(243, 109, 28);\">30%</span>, and the HP healed to the attacker when the holder takes <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> is increased to <span style=\"color: rgb(243, 109, 28);\">30%</span> of the damage dealt.</p>",
+          "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "segment": 3,
+          "imageUrl": "https://cdn.dandegate.net/skills/df910c512c3b290ef72f7eeea8450eb456a907d30242a4dc27ac37d1f9ede56e.webp",
+          "createdAt": "2026-01-21T03:09:00.488Z",
+          "updatedAt": "2026-02-09T01:56:16.810Z",
+          "vertebraeName": "The World of Graffiti Lv.3"
+        }
+      },
+      {
+        "id": "1ed67625-8bd2-45bf-9b65-c6d99cad7320",
+        "name": "Bad Influence",
+        "description": "<p>Selects an ally within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, then selects 1 allied empty [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tile.</p><p>Teleport selected ally to that tile, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">5 points</span> of Stability Index, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs and apply [effect:a8794e8b-ebb5-4c04-8f8a-ea7497c112d5] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Teleports Basti to an empty tile within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the selected ally's location.</p><p>After skill usage, Basti gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": 0,
+        "cooldown": null,
+        "confectanceCost": 3,
+        "imageUrl": "https://cdn.dandegate.net/skills/b09c83b9a50d40a80354e3aa27487ae358b1e6f8384db4cec220b5dc7abf124c.webp",
+        "createdAt": "2026-01-15T06:49:22.302Z",
+        "updatedAt": "2026-02-10T23:48:42.881Z",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "Teleport"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 1",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "c3425a26-546f-4810-8656-7d68f7394a9b",
+        "name": "Jirai Shoujo",
+        "description": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and summons 1 [effect:fad26e78-c747-42da-878f-83d32202402a]. After using this skill, Basti can use the active skill [dollSkill:c3425a26-546f-4810-8656-7d68f7394a9b], the active skill [dollSkill:1ed67625-8bd2-45bf-9b65-c6d99cad7320] or the ultimate skill [dollSkill:15cbad75-5fef-4332-ad12-3d8c685b173d]. This skill can be used <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.<br></p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: Since Cutie Pie's wordy effect is enhanced by Fortification Levels, the bottom has the effect description for easier readability and to highlight the changes better.</span><br>Cutie Pie: A summoned unit that inherits Basti’s initial attributes.</p><p>If enemy targets are within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> upon summoning, or if enemy targets spawn, end their action, or are passively displaced into the area, Cutie Pie self-destructs within the area, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Stability damage, and create [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Additionally, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to all enemy targets in the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and restores HP equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Stability Index to Basti.</p><p>A maximum of <span style=\"color: rgb(243, 109, 28);\">2</span> summons can exist on the field at the same time.</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": 0,
+        "cooldown": null,
+        "confectanceCost": 0,
+        "imageUrl": "https://cdn.dandegate.net/skills/6547469b5f9fbaa3a82c515cf5a00b4b820ef075010326735eb3f5e7e4674a7c.webp",
+        "createdAt": "2026-01-15T07:05:09.084Z",
+        "updatedAt": "2026-02-10T23:51:36.630Z",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "a82cdc00-a6be-40a9-8a16-76b33cca766c",
+        "vertebraeUpgradeIdLevel3": "ae88ed70-c9e2-4c10-bed8-55c7ca048ab5",
+        "skillTags": [
+          "Active",
+          "Summon"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 2",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and summons 1 [effect:fad26e78-c747-42da-878f-83d32202402a]. After using this skill, Basti can use the active skill [dollSkill:c3425a26-546f-4810-8656-7d68f7394a9b], the active skill [dollSkill:1ed67625-8bd2-45bf-9b65-c6d99cad7320] or the ultimate skill [dollSkill:15cbad75-5fef-4332-ad12-3d8c685b173d]. This skill can be used <span style=\"color: rgb(243, 109, 28);\">thrice</span> per turn.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: Since Cutie Pie's wordy effect is enhanced by Fortification Levels, the bottom has the effect description for easier readability and to highlight the changes better.</span><br>Cutie Pie: A summoned unit that inherits Basti’s initial attributes.</p><p>If enemy targets are within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> upon summoning, or if enemy targets spawn, end their action, or are passively displaced into the area, Cutie Pie self-destructs within the area, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Stability damage, and create [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Additionally, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to all enemy targets in the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and restores HP equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Stability Index to Basti.</p><p>A maximum of <span style=\"color: rgb(243, 109, 28);\">3</span> summons can exist on the field at the same time.</p>",
+        "descriptionLevel3": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and summons 1 [effect:fad26e78-c747-42da-878f-83d32202402a]. Each time a [effect:fad26e78-c747-42da-878f-83d32202402a] self-destructs, the attack of Basti and other [effect:fad26e78-c747-42da-878f-83d32202402a] is increased by <span style=\"color: rgb(243, 109, 28);\">3%</span>. After using this skill, Basti can use the active skill [dollSkill:c3425a26-546f-4810-8656-7d68f7394a9b], the active skill [dollSkill:1ed67625-8bd2-45bf-9b65-c6d99cad7320] or the ultimate skill [dollSkill:15cbad75-5fef-4332-ad12-3d8c685b173d]. This skill can be used <span style=\"color: rgb(243, 109, 28);\">thrice</span> per turn.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: Since Cutie Pie's wordy effect is enhanced by Fortification Levels, the bottom has the effect description for easier readability and to highlight the changes better.</span><br>Cutie Pie: A summoned unit that inherits Basti’s initial attributes.</p><p>If enemy targets are within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> upon summoning, or if enemy targets spawn, end their action, or are passively displaced into the area, Cutie Pie self-destructs within the area, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Stability damage, and create [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Additionally, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf], [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], and <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful debuff to all enemy targets in the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and restores HP equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Stability Index to Basti.</p><p>A maximum of <span style=\"color: rgb(243, 109, 28);\">3</span> summons can exist on the field at the same time.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": {
+          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+          "createdAt": "2025-09-13T05:53:24.278Z",
+          "updatedAt": "2025-09-13T05:53:24.278Z",
+          "rangeValue": "8",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "a82cdc00-a6be-40a9-8a16-76b33cca766c",
+          "level": 2,
+          "effect": "<p>Attack range is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. This skill can be used <span style=\"color: rgb(243, 109, 28);\">thrice</span> per turn.<br>[effect:fad26e78-c747-42da-878f-83d32202402a] is enhanced: The effective area is increased to <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and the maximum number of summons on the field has been increased to <span style=\"color: rgb(243, 109, 28);\">3</span>.</p>",
+          "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "segment": 1,
+          "imageUrl": "https://cdn.dandegate.net/skills/6547469b5f9fbaa3a82c515cf5a00b4b820ef075010326735eb3f5e7e4674a7c.webp",
+          "createdAt": "2026-01-21T02:42:23.281Z",
+          "updatedAt": "2026-02-11T00:29:52.353Z",
+          "vertebraeName": "Jirai Shoujo Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "ae88ed70-c9e2-4c10-bed8-55c7ca048ab5",
+          "level": 3,
+          "effect": "<p>After each [effect:fad26e78-c747-42da-878f-83d32202402a] self-detonates, the attack of Basti and other Cutie Pie is increased by <span style=\"color: rgb(243, 109, 28);\">3%</span>.<br>[effect:fad26e78-c747-42da-878f-83d32202402a] is enhanced: Damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">130%</span> and <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful debuff is applied when damage is dealt.</p>",
+          "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "segment": 6,
+          "imageUrl": "https://cdn.dandegate.net/skills/6547469b5f9fbaa3a82c515cf5a00b4b820ef075010326735eb3f5e7e4674a7c.webp",
+          "createdAt": "2026-01-21T03:11:56.067Z",
+          "updatedAt": "2026-02-06T05:53:30.802Z",
+          "vertebraeName": "Jirai Shoujo Lv.3"
+        }
+      },
+      {
+        "id": "15cbad75-5fef-4332-ad12-3d8c685b173d",
+        "name": "Sugar-Coated Trap",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to the target and all enemies within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of the center, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:710719e9-0d03-47d2-9e55-9f87e7d0fcc1].</p>",
+        "phase": "Corrosion",
+        "ammoTypes": "[]",
+        "stabilityDamage": 2,
+        "cooldown": 1,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/3619cb17b8067be067d6c075798eed348ae31c5bc9f495f3ea9357896aa9ddbc.webp",
+        "createdAt": "2026-01-15T07:09:33.140Z",
+        "updatedAt": "2026-02-11T00:17:39.991Z",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "summonId": null,
+        "rangeMapId": "ebcafe88-aa25-4856-9cf8-ced9f381db08",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "040b4318-f420-4e65-8310-458945d16835",
+        "vertebraeUpgradeIdLevel3": "edad0075-4b99-4184-9ef0-21063b11f5fa",
+        "skillTags": [
+          "Ultimate",
+          "AoE",
+          "Tile",
+          "Debuff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 3",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack to the target and all enemies within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of the center, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:710719e9-0d03-47d2-9e55-9f87e7d0fcc1] and <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:99f12388-757e-4e6a-a187-7f823e50ddd9]. After using this skill, heal all ally units for HP equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs.</p>",
+        "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack to the target and all enemies within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of the center, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:710719e9-0d03-47d2-9e55-9f87e7d0fcc1] and <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:99f12388-757e-4e6a-a187-7f823e50ddd9]. For each target hit, damage dealt is increase by <span style=\"color: rgb(243, 109, 28);\">20%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">100%</span>. After using this skill, heal all ally units for HP equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs, and cleanses the effects of [effect:b46e4270-c2d5-4f69-bb9b-544785785790] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from all allied units.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[\"Ultimate\",\"AoE\",\"Tile\",\"Debuff\",\"Healing\"]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebcafe88-aa25-4856-9cf8-ced9f381db08",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/ac18c5002b5369cf7d1bc7a5167eeea74c9c70db6cf7151ef0912bb1dc93da30.webp",
+          "createdAt": "2026-01-15T07:18:48.533Z",
+          "updatedAt": "2026-01-15T07:18:48.533Z",
+          "rangeValue": "8",
+          "effectiveArea": "8"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "040b4318-f420-4e65-8310-458945d16835",
+          "level": 2,
+          "effect": "<p>The damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">200%</span>.<br>Apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:99f12388-757e-4e6a-a187-7f823e50ddd9].<br>After the skill usage, heal all ally units for HP equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and cleanse <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs.</p>",
+          "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "segment": 4,
+          "imageUrl": "https://cdn.dandegate.net/skills/3619cb17b8067be067d6c075798eed348ae31c5bc9f495f3ea9357896aa9ddbc.webp",
+          "createdAt": "2026-01-21T03:10:24.367Z",
+          "updatedAt": "2026-02-09T01:14:44.025Z",
+          "vertebraeName": "Sugar-Coated Trap Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "edad0075-4b99-4184-9ef0-21063b11f5fa",
+          "level": 3,
+          "effect": "<p>Apply <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:710719e9-0d03-47d2-9e55-9f87e7d0fcc1], and its damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">200%</span>.<br>For each target hit, the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">100%</span>.<br>After skill usage, additionally cleanses the effects of [effect:b46e4270-c2d5-4f69-bb9b-544785785790] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from all allied units.</p>",
+          "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/3619cb17b8067be067d6c075798eed348ae31c5bc9f495f3ea9357896aa9ddbc.webp",
+          "createdAt": "2026-01-21T03:11:08.816Z",
+          "updatedAt": "2026-02-09T01:38:51.069Z",
+          "vertebraeName": "Sugar-Coated Trap Lv.3"
+        }
+      }
+    ],
+    "keys": [
+      {
+        "id": "f761bd50-df2a-443b-8407-0c8585df6ca4",
+        "keyTitle": "Fleeting Yet Eternal",
+        "keyType": "Affinity Key",
+        "level": null,
+        "effect": null,
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks at Affinity Level 5</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "3%",
+        "attributeName2": "Health Boost",
+        "attributeValue2": "3%",
+        "attributeName3": "Crit Rate",
+        "attributeValue3": "3%",
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/8f65bcc07c5338443bf81b6139e92d22806dabca241ce01a321eb6a42b070336.webp",
+        "createdAt": "2026-02-06T04:15:19.846Z",
+        "updatedAt": "2026-02-06T04:15:19.846Z",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "dollImages": [
+            {
+              "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+              "createdAt": "2026-01-15T05:52:21.800Z",
+              "updatedAt": "2026-01-15T05:58:28.698Z"
+            }
+          ],
+          "searchTags": [
+            "MK23"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Affinity Key - Fleeting Yet Eternal"
+      },
+      {
+        "id": "49855a9b-6331-4b47-bdf6-1ff916ca114c",
+        "keyTitle": "Deadly Possessiveness",
+        "keyType": "Common Key",
+        "level": 40,
+        "effect": "<p>If an enemy is on a Corrosion-type tile, damage dealt to them is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks after obtaining all Fixed Keys</p>",
+        "attributeName1": "Crit Rate",
+        "attributeValue1": "5%",
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/2faa86b7886e62824d32ce8ae47c47a522a4ba15c2cf1c5b20fd5e6d7eec1c25.webp",
+        "createdAt": "2026-02-06T04:27:23.552Z",
+        "updatedAt": "2026-02-09T02:23:43.022Z",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "dollImages": [
+            {
+              "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+              "createdAt": "2026-01-15T05:52:21.800Z",
+              "updatedAt": "2026-01-15T05:58:28.698Z"
+            }
+          ],
+          "searchTags": [
+            "MK23"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Common Key - Deadly Possessiveness"
+      },
+      {
+        "id": "db362b64-5979-4693-b3d2-c17ba7fa4260",
+        "keyTitle": "On A Whim",
+        "keyType": "Fixed Key",
+        "keyNumber": 1,
+        "level": 20,
+        "effect": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index at the start of the battle.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/20297b9656675614c5c0f18d527aae778b73c2286d1ffa53d5fb7063e81304d2.webp",
+        "createdAt": "2026-01-15T06:02:25.367Z",
+        "updatedAt": "2026-02-06T04:16:59.337Z",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "dollImages": [
+            {
+              "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+              "createdAt": "2026-01-15T05:52:21.800Z",
+              "updatedAt": "2026-01-15T05:58:28.698Z"
+            }
+          ],
+          "searchTags": [
+            "MK23"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 1 - On A Whim"
+      },
+      {
+        "id": "7c715531-e54d-4f7b-aea1-59c56e05e3c8",
+        "keyTitle": "Street Art",
+        "keyType": "Fixed Key",
+        "keyNumber": 2,
+        "level": 20,
+        "effect": "<p>If allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles exist on battlefield, all allied units' <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">7%</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/9204e7630685bdb6bbb3eef629deb9dc287a758944912c73e5177c1a7a82e07a.webp",
+        "createdAt": "2026-01-15T06:13:04.962Z",
+        "updatedAt": "2026-02-06T04:18:04.507Z",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "dollImages": [
+            {
+              "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+              "createdAt": "2026-01-15T05:52:21.800Z",
+              "updatedAt": "2026-01-15T05:58:28.698Z"
+            }
+          ],
+          "searchTags": [
+            "MK23"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 2 - Street Art"
+      },
+      {
+        "id": "8b9a8bdf-d992-4b4b-83e1-848f05285a17",
+        "keyTitle": "Pain Dependency",
+        "keyType": "Fixed Key",
+        "keyNumber": 3,
+        "level": 30,
+        "effect": "<p>After being afflicted with [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], or [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] immediately cleanse that effect. Can trigger at most <span style=\"color: rgb(243, 109, 28);\">once</span> per battle. At the start of battle, gains [effect:16e665b8-d576-4fc1-9c34-838e33b2e7ad] for<span style=\"color: rgb(243, 109, 28);\"> 3 turns</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/b7a3f8a42f7e07d9d5ec25f90e104e0c880c426428c36c366d9a6dc0a2a0afe1.webp",
+        "createdAt": "2026-01-15T06:25:02.847Z",
+        "updatedAt": "2026-02-06T04:22:38.841Z",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "dollImages": [
+            {
+              "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+              "createdAt": "2026-01-15T05:52:21.800Z",
+              "updatedAt": "2026-01-15T05:58:28.698Z"
+            }
+          ],
+          "searchTags": [
+            "MK23"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 3 - Pain Dependency"
+      },
+      {
+        "id": "b0d79aa8-f272-450e-8b9a-f9ba22a86d16",
+        "keyTitle": "Genius Troublemaker",
+        "keyType": "Fixed Key",
+        "keyNumber": 4,
+        "level": 30,
+        "effect": "<p>When a [effect:fad26e78-c747-42da-878f-83d32202402a] is summoned, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Stability Index to the allied target with the lowest current HP on the field; this can trigger up to <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/f9de7ffc8fe059c55a5325f1dd58cfb69597a00f7d1941a6432ffe8306976fb3.webp",
+        "createdAt": "2026-01-15T06:26:23.361Z",
+        "updatedAt": "2026-02-06T04:24:16.568Z",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "dollImages": [
+            {
+              "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+              "createdAt": "2026-01-15T05:52:21.800Z",
+              "updatedAt": "2026-01-15T05:58:28.698Z"
+            }
+          ],
+          "searchTags": [
+            "MK23"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 4 - Genius Troublemaker"
+      },
+      {
+        "id": "4989385b-2edc-4154-aa34-ba462458ba71",
+        "keyTitle": "Surprise Gift",
+        "keyType": "Fixed Key",
+        "keyNumber": 5,
+        "level": 40,
+        "effect": "<p>Before a [effect:fad26e78-c747-42da-878f-83d32202402a] attacks, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/a7e1e12cf8e2b8f4d0d130c220236de637bfc4e8c9fb9a6938718632a777aeee.webp",
+        "createdAt": "2026-01-15T06:27:18.296Z",
+        "updatedAt": "2026-02-06T04:24:30.821Z",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "dollImages": [
+            {
+              "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+              "createdAt": "2026-01-15T05:52:21.800Z",
+              "updatedAt": "2026-01-15T05:58:28.698Z"
+            }
+          ],
+          "searchTags": [
+            "MK23"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 5 - Surprise Gift"
+      },
+      {
+        "id": "f2a1778d-8a8b-4daa-82e4-28f604b92826",
+        "keyTitle": "Love Smear",
+        "keyType": "Fixed Key",
+        "keyNumber": 6,
+        "level": 40,
+        "effect": "<p>When a [effect:fad26e78-c747-42da-878f-83d32202402a] is summoned, creates a [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tile at its position.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "cn",
+        "imageUrl": "https://cdn.dandegate.net/keys/6b178005d3c0f2d121dd8961f14782e81299feb31f983ad987dcee8f1e0ec3aa.webp",
+        "createdAt": "2026-01-15T06:28:03.472Z",
+        "updatedAt": "2026-02-06T04:25:08.685Z",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "dollImages": [
+            {
+              "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+              "createdAt": "2026-01-15T05:52:21.800Z",
+              "updatedAt": "2026-01-15T05:58:28.698Z"
+            }
+          ],
+          "searchTags": [
+            "MK23"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 6 - Love Smear"
+      }
+    ],
+    "vertebrae": [
+      {
+        "id": "a82cdc00-a6be-40a9-8a16-76b33cca766c",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "segment": 1,
+        "vertebraeName": "Jirai Shoujo Lv.2",
+        "level": 2,
+        "effect": "<p>Attack range is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. This skill can be used <span style=\"color: rgb(243, 109, 28);\">thrice</span> per turn.<br>[effect:fad26e78-c747-42da-878f-83d32202402a] is enhanced: The effective area is increased to <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and the maximum number of summons on the field has been increased to <span style=\"color: rgb(243, 109, 28);\">3</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/6547469b5f9fbaa3a82c515cf5a00b4b820ef075010326735eb3f5e7e4674a7c.webp",
+        "createdAt": "2026-01-21T02:42:23.281Z",
+        "updatedAt": "2026-02-11T00:29:52.353Z",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "class": "Support",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "It's difficult to evaluate Basti's resume. In the eyes of those in power, it's a criminal record; in the eyes of local factions, it's a threatening letter; but in the Commander's eyes, it's a moving love letter.\r\n\"Darling, want to know my secrets? The way things are now isn't enough—you need to be bolder, even bolder—\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "c3425a26-546f-4810-8656-7d68f7394a9b",
+            "name": "Jirai Shoujo",
+            "phase": null,
+            "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/6547469b5f9fbaa3a82c515cf5a00b4b820ef075010326735eb3f5e7e4674a7c.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2026-01-15T07:05:09.084Z",
+            "skillTags": [
+              "Active",
+              "Summon"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2026-02-10T23:51:36.630Z",
+            "description": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and summons 1 [effect:fad26e78-c747-42da-878f-83d32202402a]. After using this skill, Basti can use the active skill [dollSkill:c3425a26-546f-4810-8656-7d68f7394a9b], the active skill [dollSkill:1ed67625-8bd2-45bf-9b65-c6d99cad7320] or the ultimate skill [dollSkill:15cbad75-5fef-4332-ad12-3d8c685b173d]. This skill can be used <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.<br></p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: Since Cutie Pie's wordy effect is enhanced by Fortification Levels, the bottom has the effect description for easier readability and to highlight the changes better.</span><br>Cutie Pie: A summoned unit that inherits Basti’s initial attributes.</p><p>If enemy targets are within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> upon summoning, or if enemy targets spawn, end their action, or are passively displaced into the area, Cutie Pie self-destructs within the area, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Stability damage, and create [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Additionally, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to all enemy targets in the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and restores HP equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Stability Index to Basti.</p><p>A maximum of <span style=\"color: rgb(243, 109, 28);\">2</span> summons can exist on the field at the same time.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 0,
+            "stabilityDamage": 0,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and summons 1 [effect:fad26e78-c747-42da-878f-83d32202402a]. After using this skill, Basti can use the active skill [dollSkill:c3425a26-546f-4810-8656-7d68f7394a9b], the active skill [dollSkill:1ed67625-8bd2-45bf-9b65-c6d99cad7320] or the ultimate skill [dollSkill:15cbad75-5fef-4332-ad12-3d8c685b173d]. This skill can be used <span style=\"color: rgb(243, 109, 28);\">thrice</span> per turn.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: Since Cutie Pie's wordy effect is enhanced by Fortification Levels, the bottom has the effect description for easier readability and to highlight the changes better.</span><br>Cutie Pie: A summoned unit that inherits Basti’s initial attributes.</p><p>If enemy targets are within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> upon summoning, or if enemy targets spawn, end their action, or are passively displaced into the area, Cutie Pie self-destructs within the area, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Stability damage, and create [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Additionally, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to all enemy targets in the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and restores HP equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Stability Index to Basti.</p><p>A maximum of <span style=\"color: rgb(243, 109, 28);\">3</span> summons can exist on the field at the same time.</p>",
+            "descriptionLevel3": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and summons 1 [effect:fad26e78-c747-42da-878f-83d32202402a]. Each time a [effect:fad26e78-c747-42da-878f-83d32202402a] self-destructs, the attack of Basti and other [effect:fad26e78-c747-42da-878f-83d32202402a] is increased by <span style=\"color: rgb(243, 109, 28);\">3%</span>. After using this skill, Basti can use the active skill [dollSkill:c3425a26-546f-4810-8656-7d68f7394a9b], the active skill [dollSkill:1ed67625-8bd2-45bf-9b65-c6d99cad7320] or the ultimate skill [dollSkill:15cbad75-5fef-4332-ad12-3d8c685b173d]. This skill can be used <span style=\"color: rgb(243, 109, 28);\">thrice</span> per turn.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: Since Cutie Pie's wordy effect is enhanced by Fortification Levels, the bottom has the effect description for easier readability and to highlight the changes better.</span><br>Cutie Pie: A summoned unit that inherits Basti’s initial attributes.</p><p>If enemy targets are within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> upon summoning, or if enemy targets spawn, end their action, or are passively displaced into the area, Cutie Pie self-destructs within the area, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Stability damage, and create [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Additionally, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf], [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], and <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful debuff to all enemy targets in the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and restores HP equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Stability Index to Basti.</p><p>A maximum of <span style=\"color: rgb(243, 109, 28);\">3</span> summons can exist on the field at the same time.</p>",
+            "rangeMapIdLevel2": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "a82cdc00-a6be-40a9-8a16-76b33cca766c",
+            "vertebraeUpgradeIdLevel3": "ae88ed70-c9e2-4c10-bed8-55c7ca048ab5"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "ef52b585-d5e0-4e76-a380-f14498622380",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "segment": 2,
+        "vertebraeName": "The World of Graffiti Lv.2",
+        "level": 2,
+        "effect": "<p>Reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.<br>At the start of battle, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles on the tiles where all allied Dolls are located and within a <span style=\"color: rgb(243, 109, 28);\">3×3 area</span>, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After moving, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around herself, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>Before dealing damage, Basti and [effect:fad26e78-c747-42da-878f-83d32202402a] gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:fbd7a19a-c207-43df-8bc4-d911baf325f1].</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/df910c512c3b290ef72f7eeea8450eb456a907d30242a4dc27ac37d1f9ede56e.webp",
+        "createdAt": "2026-01-21T02:53:36.135Z",
+        "updatedAt": "2026-02-09T01:30:11.993Z",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "class": "Support",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "It's difficult to evaluate Basti's resume. In the eyes of those in power, it's a criminal record; in the eyes of local factions, it's a threatening letter; but in the Commander's eyes, it's a moving love letter.\r\n\"Darling, want to know my secrets? The way things are now isn't enough—you need to be bolder, even bolder—\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "23003354-ee24-45c6-9e1f-f7d2863ecec7",
+            "name": "Graffiti World",
+            "phase": null,
+            "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/df910c512c3b290ef72f7eeea8450eb456a907d30242a4dc27ac37d1f9ede56e.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2026-01-15T07:23:32.253Z",
+            "skillTags": [
+              "Passive",
+              "Tile",
+              "Debuff"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2026-02-11T00:29:01.077Z",
+            "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.<br>At the start of battle, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles on all allied Dolls' positions, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After moving, leaves [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> around self, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>If an enemy target is standing on an allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tile, it gains [effect:d15b5821-0880-4d68-a42d-95c3c38c86d2].<br>When [effect:fad26e78-c747-42da-878f-83d32202402a] is summoned and at the start of action, if allied units are standing on allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles, they gain [effect:072e8edf-84d8-49ec-a5ef-e0121e79c62c] and [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 0,
+            "stabilityDamage": 0,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>At the start of battle, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles on all allied Dolls' positions and within a <span style=\"color: rgb(243, 109, 28);\">3x3 area around them</span>, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After moving, leaves [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around self, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>If an enemy target is standing on an allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tile, it gains [effect:d15b5821-0880-4d68-a42d-95c3c38c86d2].<br>When [effect:fad26e78-c747-42da-878f-83d32202402a] is summoned and at the start of action, if allied units are standing on allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles, they gain [effect:072e8edf-84d8-49ec-a5ef-e0121e79c62c] and [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Before dealing damage, Basti and [effect:fad26e78-c747-42da-878f-83d32202402a] gain 1 stack of [effect:fbd7a19a-c207-43df-8bc4-d911baf325f1].</p>",
+            "descriptionLevel3": "<p>Reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>At the start of battle, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles on all allied Dolls' positions and within a <span style=\"color: rgb(243, 109, 28);\">3x3 area around them</span>, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After moving, leaves [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around self, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>If an enemy target is standing on an allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tile, it gains [effect:d15b5821-0880-4d68-a42d-95c3c38c86d2].<br>When [effect:fad26e78-c747-42da-878f-83d32202402a] is summoned and at the start of action, if allied units are standing on allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles, they gain [effect:072e8edf-84d8-49ec-a5ef-e0121e79c62c] and [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Before dealing damage, Basti and [effect:fad26e78-c747-42da-878f-83d32202402a] gain 1 stack of [effect:fbd7a19a-c207-43df-8bc4-d911baf325f1].</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "ef52b585-d5e0-4e76-a380-f14498622380",
+            "vertebraeUpgradeIdLevel3": "460408c5-555d-4604-b1fc-97dd7282e0c5"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "460408c5-555d-4604-b1fc-97dd7282e0c5",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "segment": 3,
+        "vertebraeName": "The World of Graffiti Lv.3",
+        "level": 3,
+        "effect": "<p>[effect:fbd7a19a-c207-43df-8bc4-d911baf325f1] is enhanced: damage dealt is increased to <span style=\"color: rgb(243, 109, 28);\">24%</span>, and healing done is increased to <span style=\"color: rgb(243, 109, 28);\">6%</span>.<br>[effect:072e8edf-84d8-49ec-a5ef-e0121e79c62c] is enhanced: damage dealt is increased to <span style=\"color: rgb(243, 109, 28);\">30%</span>.<br>[effect:d15b5821-0880-4d68-a42d-95c3c38c86d2] is enhanced: <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> taken is increased to <span style=\"color: rgb(243, 109, 28);\">30%</span>, and the HP healed to the attacker when the holder takes <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> is increased to <span style=\"color: rgb(243, 109, 28);\">30%</span> of the damage dealt.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/df910c512c3b290ef72f7eeea8450eb456a907d30242a4dc27ac37d1f9ede56e.webp",
+        "createdAt": "2026-01-21T03:09:00.488Z",
+        "updatedAt": "2026-02-09T01:56:16.810Z",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "class": "Support",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "It's difficult to evaluate Basti's resume. In the eyes of those in power, it's a criminal record; in the eyes of local factions, it's a threatening letter; but in the Commander's eyes, it's a moving love letter.\r\n\"Darling, want to know my secrets? The way things are now isn't enough—you need to be bolder, even bolder—\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "23003354-ee24-45c6-9e1f-f7d2863ecec7",
+            "name": "Graffiti World",
+            "phase": null,
+            "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/df910c512c3b290ef72f7eeea8450eb456a907d30242a4dc27ac37d1f9ede56e.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2026-01-15T07:23:32.253Z",
+            "skillTags": [
+              "Passive",
+              "Tile",
+              "Debuff"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2026-02-11T00:29:01.077Z",
+            "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.<br>At the start of battle, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles on all allied Dolls' positions, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After moving, leaves [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> around self, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>If an enemy target is standing on an allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tile, it gains [effect:d15b5821-0880-4d68-a42d-95c3c38c86d2].<br>When [effect:fad26e78-c747-42da-878f-83d32202402a] is summoned and at the start of action, if allied units are standing on allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles, they gain [effect:072e8edf-84d8-49ec-a5ef-e0121e79c62c] and [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 0,
+            "stabilityDamage": 0,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>At the start of battle, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles on all allied Dolls' positions and within a <span style=\"color: rgb(243, 109, 28);\">3x3 area around them</span>, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After moving, leaves [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around self, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>If an enemy target is standing on an allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tile, it gains [effect:d15b5821-0880-4d68-a42d-95c3c38c86d2].<br>When [effect:fad26e78-c747-42da-878f-83d32202402a] is summoned and at the start of action, if allied units are standing on allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles, they gain [effect:072e8edf-84d8-49ec-a5ef-e0121e79c62c] and [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Before dealing damage, Basti and [effect:fad26e78-c747-42da-878f-83d32202402a] gain 1 stack of [effect:fbd7a19a-c207-43df-8bc4-d911baf325f1].</p>",
+            "descriptionLevel3": "<p>Reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>At the start of battle, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles on all allied Dolls' positions and within a <span style=\"color: rgb(243, 109, 28);\">3x3 area around them</span>, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After moving, leaves [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around self, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>If an enemy target is standing on an allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tile, it gains [effect:d15b5821-0880-4d68-a42d-95c3c38c86d2].<br>When [effect:fad26e78-c747-42da-878f-83d32202402a] is summoned and at the start of action, if allied units are standing on allied [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles, they gain [effect:072e8edf-84d8-49ec-a5ef-e0121e79c62c] and [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Before dealing damage, Basti and [effect:fad26e78-c747-42da-878f-83d32202402a] gain 1 stack of [effect:fbd7a19a-c207-43df-8bc4-d911baf325f1].</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "ef52b585-d5e0-4e76-a380-f14498622380",
+            "vertebraeUpgradeIdLevel3": "460408c5-555d-4604-b1fc-97dd7282e0c5"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "040b4318-f420-4e65-8310-458945d16835",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "segment": 4,
+        "vertebraeName": "Sugar-Coated Trap Lv.2",
+        "level": 2,
+        "effect": "<p>The damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">200%</span>.<br>Apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:99f12388-757e-4e6a-a187-7f823e50ddd9].<br>After the skill usage, heal all ally units for HP equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and cleanse <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/3619cb17b8067be067d6c075798eed348ae31c5bc9f495f3ea9357896aa9ddbc.webp",
+        "createdAt": "2026-01-21T03:10:24.367Z",
+        "updatedAt": "2026-02-09T01:14:44.025Z",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "class": "Support",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "It's difficult to evaluate Basti's resume. In the eyes of those in power, it's a criminal record; in the eyes of local factions, it's a threatening letter; but in the Commander's eyes, it's a moving love letter.\r\n\"Darling, want to know my secrets? The way things are now isn't enough—you need to be bolder, even bolder—\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "15cbad75-5fef-4332-ad12-3d8c685b173d",
+            "name": "Sugar-Coated Trap",
+            "phase": "Corrosion",
+            "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+            "cooldown": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/3619cb17b8067be067d6c075798eed348ae31c5bc9f495f3ea9357896aa9ddbc.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2026-01-15T07:09:33.140Z",
+            "skillTags": [
+              "Ultimate",
+              "AoE",
+              "Tile",
+              "Debuff"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2026-02-11T00:17:39.991Z",
+            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to the target and all enemies within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of the center, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:710719e9-0d03-47d2-9e55-9f87e7d0fcc1].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebcafe88-aa25-4856-9cf8-ced9f381db08",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[\"Ultimate\",\"AoE\",\"Tile\",\"Debuff\",\"Healing\"]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack to the target and all enemies within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of the center, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:710719e9-0d03-47d2-9e55-9f87e7d0fcc1] and <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:99f12388-757e-4e6a-a187-7f823e50ddd9]. After using this skill, heal all ally units for HP equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs.</p>",
+            "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack to the target and all enemies within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of the center, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:710719e9-0d03-47d2-9e55-9f87e7d0fcc1] and <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:99f12388-757e-4e6a-a187-7f823e50ddd9]. For each target hit, damage dealt is increase by <span style=\"color: rgb(243, 109, 28);\">20%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">100%</span>. After using this skill, heal all ally units for HP equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs, and cleanses the effects of [effect:b46e4270-c2d5-4f69-bb9b-544785785790] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from all allied units.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "040b4318-f420-4e65-8310-458945d16835",
+            "vertebraeUpgradeIdLevel3": "edad0075-4b99-4184-9ef0-21063b11f5fa"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "edad0075-4b99-4184-9ef0-21063b11f5fa",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "segment": 5,
+        "vertebraeName": "Sugar-Coated Trap Lv.3",
+        "level": 3,
+        "effect": "<p>Apply <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:710719e9-0d03-47d2-9e55-9f87e7d0fcc1], and its damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">200%</span>.<br>For each target hit, the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">100%</span>.<br>After skill usage, additionally cleanses the effects of [effect:b46e4270-c2d5-4f69-bb9b-544785785790] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from all allied units.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/3619cb17b8067be067d6c075798eed348ae31c5bc9f495f3ea9357896aa9ddbc.webp",
+        "createdAt": "2026-01-21T03:11:08.816Z",
+        "updatedAt": "2026-02-09T01:38:51.069Z",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "class": "Support",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "It's difficult to evaluate Basti's resume. In the eyes of those in power, it's a criminal record; in the eyes of local factions, it's a threatening letter; but in the Commander's eyes, it's a moving love letter.\r\n\"Darling, want to know my secrets? The way things are now isn't enough—you need to be bolder, even bolder—\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "15cbad75-5fef-4332-ad12-3d8c685b173d",
+            "name": "Sugar-Coated Trap",
+            "phase": "Corrosion",
+            "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+            "cooldown": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/3619cb17b8067be067d6c075798eed348ae31c5bc9f495f3ea9357896aa9ddbc.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2026-01-15T07:09:33.140Z",
+            "skillTags": [
+              "Ultimate",
+              "AoE",
+              "Tile",
+              "Debuff"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2026-02-11T00:17:39.991Z",
+            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to the target and all enemies within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of the center, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:710719e9-0d03-47d2-9e55-9f87e7d0fcc1].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebcafe88-aa25-4856-9cf8-ced9f381db08",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[\"Ultimate\",\"AoE\",\"Tile\",\"Debuff\",\"Healing\"]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack to the target and all enemies within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of the center, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:710719e9-0d03-47d2-9e55-9f87e7d0fcc1] and <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:99f12388-757e-4e6a-a187-7f823e50ddd9]. After using this skill, heal all ally units for HP equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs.</p>",
+            "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack to the target and all enemies within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of the center, generates [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and applies <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:710719e9-0d03-47d2-9e55-9f87e7d0fcc1] and <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:99f12388-757e-4e6a-a187-7f823e50ddd9]. For each target hit, damage dealt is increase by <span style=\"color: rgb(243, 109, 28);\">20%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">100%</span>. After using this skill, heal all ally units for HP equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs, and cleanses the effects of [effect:b46e4270-c2d5-4f69-bb9b-544785785790] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from all allied units.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "040b4318-f420-4e65-8310-458945d16835",
+            "vertebraeUpgradeIdLevel3": "edad0075-4b99-4184-9ef0-21063b11f5fa"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "ae88ed70-c9e2-4c10-bed8-55c7ca048ab5",
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "segment": 6,
+        "vertebraeName": "Jirai Shoujo Lv.3",
+        "level": 3,
+        "effect": "<p>After each [effect:fad26e78-c747-42da-878f-83d32202402a] self-detonates, the attack of Basti and other Cutie Pie is increased by <span style=\"color: rgb(243, 109, 28);\">3%</span>.<br>[effect:fad26e78-c747-42da-878f-83d32202402a] is enhanced: Damage multiplier increased to <span style=\"color: rgb(243, 109, 28);\">130%</span> and <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful debuff is applied when damage is dealt.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/6547469b5f9fbaa3a82c515cf5a00b4b820ef075010326735eb3f5e7e4674a7c.webp",
+        "createdAt": "2026-01-21T03:11:56.067Z",
+        "updatedAt": "2026-02-06T05:53:30.802Z",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "class": "Support",
+          "phase": "Corrosion",
+          "rarity": "Elite",
+          "effects": "It's difficult to evaluate Basti's resume. In the eyes of those in power, it's a criminal record; in the eyes of local factions, it's a threatening letter; but in the Commander's eyes, it's a moving love letter.\r\n\"Darling, want to know my secrets? The way things are now isn't enough—you need to be bolder, even bolder—\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "c3425a26-546f-4810-8656-7d68f7394a9b",
+            "name": "Jirai Shoujo",
+            "phase": null,
+            "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/6547469b5f9fbaa3a82c515cf5a00b4b820ef075010326735eb3f5e7e4674a7c.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2026-01-15T07:05:09.084Z",
+            "skillTags": [
+              "Active",
+              "Summon"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2026-02-10T23:51:36.630Z",
+            "description": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and summons 1 [effect:fad26e78-c747-42da-878f-83d32202402a]. After using this skill, Basti can use the active skill [dollSkill:c3425a26-546f-4810-8656-7d68f7394a9b], the active skill [dollSkill:1ed67625-8bd2-45bf-9b65-c6d99cad7320] or the ultimate skill [dollSkill:15cbad75-5fef-4332-ad12-3d8c685b173d]. This skill can be used <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.<br></p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: Since Cutie Pie's wordy effect is enhanced by Fortification Levels, the bottom has the effect description for easier readability and to highlight the changes better.</span><br>Cutie Pie: A summoned unit that inherits Basti’s initial attributes.</p><p>If enemy targets are within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> upon summoning, or if enemy targets spawn, end their action, or are passively displaced into the area, Cutie Pie self-destructs within the area, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Stability damage, and create [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Additionally, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to all enemy targets in the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and restores HP equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Stability Index to Basti.</p><p>A maximum of <span style=\"color: rgb(243, 109, 28);\">2</span> summons can exist on the field at the same time.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 0,
+            "stabilityDamage": 0,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and summons 1 [effect:fad26e78-c747-42da-878f-83d32202402a]. After using this skill, Basti can use the active skill [dollSkill:c3425a26-546f-4810-8656-7d68f7394a9b], the active skill [dollSkill:1ed67625-8bd2-45bf-9b65-c6d99cad7320] or the ultimate skill [dollSkill:15cbad75-5fef-4332-ad12-3d8c685b173d]. This skill can be used <span style=\"color: rgb(243, 109, 28);\">thrice</span> per turn.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: Since Cutie Pie's wordy effect is enhanced by Fortification Levels, the bottom has the effect description for easier readability and to highlight the changes better.</span><br>Cutie Pie: A summoned unit that inherits Basti’s initial attributes.</p><p>If enemy targets are within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> upon summoning, or if enemy targets spawn, end their action, or are passively displaced into the area, Cutie Pie self-destructs within the area, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Stability damage, and create [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Additionally, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to all enemy targets in the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and restores HP equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Stability Index to Basti.</p><p>A maximum of <span style=\"color: rgb(243, 109, 28);\">3</span> summons can exist on the field at the same time.</p>",
+            "descriptionLevel3": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and summons 1 [effect:fad26e78-c747-42da-878f-83d32202402a]. Each time a [effect:fad26e78-c747-42da-878f-83d32202402a] self-destructs, the attack of Basti and other [effect:fad26e78-c747-42da-878f-83d32202402a] is increased by <span style=\"color: rgb(243, 109, 28);\">3%</span>. After using this skill, Basti can use the active skill [dollSkill:c3425a26-546f-4810-8656-7d68f7394a9b], the active skill [dollSkill:1ed67625-8bd2-45bf-9b65-c6d99cad7320] or the ultimate skill [dollSkill:15cbad75-5fef-4332-ad12-3d8c685b173d]. This skill can be used <span style=\"color: rgb(243, 109, 28);\">thrice</span> per turn.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: Since Cutie Pie's wordy effect is enhanced by Fortification Levels, the bottom has the effect description for easier readability and to highlight the changes better.</span><br>Cutie Pie: A summoned unit that inherits Basti’s initial attributes.</p><p>If enemy targets are within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> upon summoning, or if enemy targets spawn, end their action, or are passively displaced into the area, Cutie Pie self-destructs within the area, dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Stability damage, and create [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Additionally, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf], [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], and <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful debuff to all enemy targets in the area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, and restores HP equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Stability Index to Basti.</p><p>A maximum of <span style=\"color: rgb(243, 109, 28);\">3</span> summons can exist on the field at the same time.</p>",
+            "rangeMapIdLevel2": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "a82cdc00-a6be-40a9-8a16-76b33cca766c",
+            "vertebraeUpgradeIdLevel3": "ae88ed70-c9e2-4c10-bed8-55c7ca048ab5"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      }
+    ],
+    "summons": [],
+    "remoldingPattern": {
+      "id": "52e4bd65-7625-4bd8-b3db-5bbe67a80666",
+      "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+      "coreSlots": {
+        "bulwark": 0,
+        "support": 4,
+        "sentinel": 2,
+        "vanguard": 0
+      },
+      "statBoosts": {
+        "60": {
+          "hp": 714,
+          "atk": 224,
+          "def": 238
+        }
+      },
+      "dollCore": "Support Core",
+      "createdAt": "2026-02-09T02:07:59.658Z",
+      "updatedAt": "2026-02-09T02:07:59.658Z",
+      "doll": {
+        "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "name": "Basti",
+        "class": "Support",
+        "phase": "Corrosion",
+        "rarity": "Elite",
+        "preview": false,
+        "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+        "regionTag": "cn",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      "imagoforms": [
+        {
+          "id": "cc434156-a869-4f12-9727-1244146fd20b",
+          "stage": "Embryo",
+          "effect": "<p>For every instance of <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> dealt by this unit, <span style=\"color: rgb(135, 120, 233);\">Corrosion damage </span>dealt by all allied units is increased by <span style=\"color: rgb(243, 109, 28);\">1%</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">3%</span>. Does not stack.</p>",
+          "coreLevel": 1,
+          "createdAt": "2026-02-09T02:08:00.052Z",
+          "updatedAt": "2026-02-09T02:08:00.052Z",
+          "bulwarkFactors": 0,
+          "supportFactors": 5,
+          "sentinelFactors": 2,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "fc5b7f8e-c00d-4ee5-a1a9-aa505e4c0ab1",
+          "stage": "Seedling",
+          "effect": "<p>Physical and phase damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 10,
+          "createdAt": "2026-02-09T02:08:00.052Z",
+          "updatedAt": "2026-02-09T02:08:00.052Z",
+          "bulwarkFactors": 0,
+          "supportFactors": 8,
+          "sentinelFactors": 3,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "f0c91813-1c4d-4518-a572-ecc4e2c4076d",
+          "stage": "Sprout",
+          "effect": "<p><span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 20,
+          "createdAt": "2026-02-09T02:08:00.052Z",
+          "updatedAt": "2026-02-09T02:08:00.052Z",
+          "bulwarkFactors": 1,
+          "supportFactors": 9,
+          "sentinelFactors": 4,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "37cfdb64-10dc-4d45-9c40-2eba06e992df",
+          "stage": "Shoot",
+          "effect": "<p>Damage dealt by all allied units is increased by <span style=\"color: rgb(243, 109, 28);\">4%</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. This effect's potency is progressively reduced by <span style=\"color: rgb(243, 109, 28);\">1%</span> each time a new stack is applied.</p>",
+          "coreLevel": 30,
+          "createdAt": "2026-02-09T02:08:00.052Z",
+          "updatedAt": "2026-02-09T02:08:00.052Z",
+          "bulwarkFactors": 2,
+          "supportFactors": 15,
+          "sentinelFactors": 7,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "b68927f7-1a2e-489c-bb61-ba15df5b771a",
+          "stage": "Bud",
+          "effect": "<p>Attack and max HP is increased by <span style=\"color: rgb(243, 109, 28);\">4%</span>.</p>",
+          "coreLevel": 45,
+          "createdAt": "2026-02-09T02:08:00.052Z",
+          "updatedAt": "2026-02-09T02:08:00.052Z",
+          "bulwarkFactors": 2,
+          "supportFactors": 15,
+          "sentinelFactors": 5,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "8b386825-f9b3-4a58-867a-161358e1936c",
+          "stage": "Blossom",
+          "effect": "<p>At the start of the battle, the <span style=\"color: rgb(243, 109, 28);\">2 </span>allied units with the highest attack have their attack increased by <span style=\"color: rgb(243, 109, 28);\">3%</span>. Does not stack.</p>",
+          "coreLevel": 60,
+          "createdAt": "2026-02-09T02:08:00.052Z",
+          "updatedAt": "2026-02-09T02:08:00.052Z",
+          "bulwarkFactors": 3,
+          "supportFactors": 18,
+          "sentinelFactors": 8,
+          "vanguardFactors": 0
+        }
+      ],
+      "equippedRelics": []
+    },
+    "dollEffects": [
+      {
+        "id": "072e8edf-84d8-49ec-a5ef-e0121e79c62c",
+        "effectName": "Accomplice's Emblem",
+        "effectDetails": "{\"mainDetails\":\"<p>Damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span>. At the end of the action, restore <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of Stability Index. Cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"c6d07178-7666-4a98-8899-afb0acdc5448\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>Damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. At the end of the action, restore <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of Stability Index. Cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [],
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "preview": false,
+        "regionTag": "cn",
+        "createdAt": "2026-01-21T02:50:15.594Z",
+        "updatedAt": "2026-02-11T00:54:11.994Z",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "dollImages": [
+            {
+              "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "MK23"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "fad26e78-c747-42da-878f-83d32202402a",
+        "effectName": "Cutie Pie",
+        "effectDetails": "{\"mainDetails\":\"<p>A summoned unit that inherits Basti’s initial attributes.</p><p>If enemy targets are within <span style=\\\"color: rgb(243, 109, 28);\\\">3 tiles</span> upon summoning, or if enemy targets spawn, end their action, or are passively displaced into the area, Cutie Pie self-destructs within the area, dealing AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">100%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span> of Stability damage, and create [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within the area for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>.</p><p>Additionally, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to all enemy targets in the area for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>, and restores HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">80%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of Stability Index to Basti.</p><p>A maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">2</span> summons can exist on the field at the same time.</p>\",\"upgrades\":[{\"id\":\"5113f365-0c53-420d-a9da-0fb97f78e28f\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>A summoned unit that inherits Basti’s initial attributes.</p><p>If enemy targets are within <span style=\\\"color: rgb(243, 109, 28);\\\">5 tiles</span> upon summoning, or if enemy targets spawn, end their action, or are passively displaced into the area, Cutie Pie self-destructs within the area, dealing AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">100%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span> of Stability damage, and create [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within the area for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>.</p><p>Additionally, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to all enemy targets in the area for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>, and restores HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">80%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of Stability Index to Basti.</p><p>A maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">3</span> summons can exist on the field at the same time.</p>\",\"order\":0},{\"id\":\"e0a80436-e011-4154-aa0c-c8167959fd51\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>A summoned unit that inherits Basti’s initial attributes.</p><p>If enemy targets are within <span style=\\\"color: rgb(243, 109, 28);\\\">5 tiles</span> upon summoning, or if enemy targets spawn, end their action, or are passively displaced into the area, Cutie Pie self-destructs within the area, dealing AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">130%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span> of Stability damage, and create [effect:1c5e2242-b8ce-41b6-934a-5779d82f6790] tiles within the area for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>.</p><p>Additionally, applies [effect:58510661-8f45-4d0e-8a2b-3d31357deccf], [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], and <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> random powerful debuff to all enemy targets in the area for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>, and restores HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">80%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of Stability Index to Basti.</p><p>A maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">3</span> summons can exist on the field at the same time.</p>\",\"order\":1}]}",
+        "effectTags": [
+          "Corrosion"
+        ],
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "preview": false,
+        "regionTag": "cn",
+        "createdAt": "2026-01-21T02:47:28.138Z",
+        "updatedAt": "2026-02-11T00:36:06.077Z",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "dollImages": [
+            {
+              "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "MK23"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "fbd7a19a-c207-43df-8bc4-d911baf325f1",
+        "effectName": "Energy Drink",
+        "effectDetails": "{\"mainDetails\":\"<p>For <span style=\\\"color: rgb(243, 109, 28);\\\">each</span> stack, increase the damage dealt by the buff holder and their [effect:d149d223-ac66-4556-ba25-5d4fef2504e9] by <span style=\\\"color: rgb(243, 109, 28);\\\">12%</span> and increase their healing done by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>, up to a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">5 stacks</span>. Considered a buff. Cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"51ab3433-cb2a-42c0-aa32-ed4e58ca01a5\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>For <span style=\\\"color: rgb(243, 109, 28);\\\">each</span> stack, increase the damage dealt by the buff holder and their [effect:d149d223-ac66-4556-ba25-5d4fef2504e9] by <span style=\\\"color: rgb(243, 109, 28);\\\">24%</span> and increase their healing done by <span style=\\\"color: rgb(243, 109, 28);\\\">6%</span>, up to a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">5 stacks</span>. Considered a buff. Cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [],
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "preview": false,
+        "regionTag": "cn",
+        "createdAt": "2026-01-21T02:50:54.418Z",
+        "updatedAt": "2026-02-11T00:36:20.078Z",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "dollImages": [
+            {
+              "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "MK23"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "710719e9-0d03-47d2-9e55-9f87e7d0fcc1",
+        "effectName": "Grudge",
+        "effectDetails": "{\"mainDetails\":\"<p>If the holder is <span style=\\\"color: rgb(243, 109, 28);\\\">within 8 tiles</span> around Basti before attacking, consume <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of this effect; Basti performs a special support attack, dealing AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">100%</span> of attack to the holder. Can stack up to <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span>. Considered a Corrosion debuff. Cannot be cleansed.<br></p>\",\"upgrades\":[{\"id\":\"fd866da8-c785-4514-83b6-330b8c0f37db\",\"upgradeName\":\"V5\",\"upgradeDetails\":\"<p>If the holder is <span style=\\\"color: rgb(243, 109, 28);\\\">within 8 tiles</span> around Basti before attacking, consume <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of this effect; Basti performs a special support attack, dealing AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">200%</span> of attack to the holder. Can stack up to <span style=\\\"color: rgb(243, 109, 28);\\\">3 stacks</span>. Considered a Corrosion debuff. Cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [],
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "preview": false,
+        "regionTag": "cn",
+        "createdAt": "2026-01-21T02:48:30.806Z",
+        "updatedAt": "2026-02-11T00:34:45.515Z",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "dollImages": [
+            {
+              "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "MK23"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "d15b5821-0880-4d68-a42d-95c3c38c86d2",
+        "effectName": "Sloppy Grimace",
+        "effectDetails": "{\"mainDetails\":\"<p><span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> taken is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span>. When the holder of this debuff takes <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span>, heals the attacker's HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span> of the damage dealt. Considered a Corrosion debuff. Cannot be cleansed.<br></p>\",\"upgrades\":[{\"id\":\"01d5aa4a-66c2-4625-8a34-f9d86105c5bf\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p><span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> taken is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. When the holder of this debuff takes <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span>, heals the attacker's HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span> of the damage dealt. Considered a Corrosion debuff. Cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [],
+        "dollId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+        "preview": false,
+        "regionTag": "cn",
+        "createdAt": "2026-01-21T02:49:37.079Z",
+        "updatedAt": "2026-02-11T00:37:37.803Z",
+        "doll": {
+          "id": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
+          "name": "Basti",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
+          "createdAt": "2026-01-15T05:52:04.632Z",
+          "regionTag": "cn",
+          "updatedAt": "2026-02-11T00:57:21.283Z",
+          "dollImages": [
+            {
+              "id": "a2997910-7df0-4abf-989b-477896da7a7d",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/f92bb7a10faef328130020bc39c9a32e78250137edc39b0dafe5d2bfa9471501.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "MK23"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

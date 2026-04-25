@@ -1,0 +1,1546 @@
+{
+  "success": true,
+  "data": {
+    "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+    "name": "Daiyan",
+    "class": "Vanguard",
+    "ammoTypes": "[\"Medium Ammo\",\"Light Ammo\"]",
+    "phase": "Physical",
+    "rarity": "Elite",
+    "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+    "regionTag": "en",
+    "preview": false,
+    "createdAt": "2025-09-21T23:25:33.850Z",
+    "updatedAt": "2025-11-14T08:42:44.609Z",
+    "searchTags": [
+      "Type 95"
+    ],
+    "dollImages": [
+      {
+        "id": "2d46ae40-71c7-4e36-9de6-89899399f135",
+        "category": "Card",
+        "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/card-ca20968d4ce1a643a5e09a6811d64771.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+        "category": "Chibi",
+        "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "b386a2a0-1018-4ad9-91ed-da7405fd38d2",
+        "category": "Skin",
+        "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/skin-0-0600bdd14699840335b9a3b68ff7aa26.webp",
+        "skinTitle": "Narcissus",
+        "alt": null
+      }
+    ],
+    "weaponImprintType": null,
+    "weaponImprint": {
+      "id": "338d7b60-5a94-4931-bfce-328904bba4f0",
+      "name": "Heavy Strings",
+      "rarity": "Elite",
+      "weaponType": "Assault Rifle",
+      "primaryAttributeStat": 341,
+      "primaryAttribute": "Attack",
+      "secondaryAttribute": "Crit DMG",
+      "secondaryAttributeStat": "25%",
+      "trait": "<p>Gains 1 random buff for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> if the user has full HP at the start of the action.</p>",
+      "effect": "<p>Before attacking, there is a <span style=\"color: rgb(243, 109, 28);\">20%/36%/25%/68%/84%/100%</span> chance to cleanse <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target. For every <span style=\"color: rgb(243, 109, 28);\">3/3/3/2/2/1 tiles</span> move, damage is increased by <span style=\"color: rgb(243, 109, 28);\">5%/7.5%/10%/10%/10%/10%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">10%/15%/20%/20%/20%/20%</span>. Critical damage against targets not protected by Cover is increased by <span style=\"color: rgb(243, 109, 28);\">10%/10%/10%/10%/15%/20%</span>.</p>",
+      "imprintDescription": "<p>Damage to PMCs is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span><span>, critical damage is increased by </span><span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+      "imageUrl": "https://cdn.dandegate.net/weapons/9a820fa11f180d08182319cb2e271903.webp",
+      "createdAt": "2025-10-02T00:59:51.267Z",
+      "updatedAt": "2025-11-14T08:44:09.296Z",
+      "regionTag": "en",
+      "preview": false,
+      "imprintDollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+      "imprintDoll": {
+        "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "name": "Daiyan",
+        "rarity": "Elite",
+        "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp"
+      }
+    },
+    "stabilityGauge": 8,
+    "movement": 9,
+    "effects": "A gentle and reserved Doll who roams the lands with her guzheng and her bandmates from \"Monsoon\". When she plucks the strings, she evokes the deepest desires buried in the hearts of her listeners - listening to all, and embracing all.",
+    "skills": [
+      {
+        "id": "5d463341-a569-4016-bd32-ffdae5122b13",
+        "name": "Plucking Strings",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Medium Ammo\"]",
+        "stabilityDamage": 1,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/4d69a07ba31edef507b7591dc81aee8e.webp",
+        "createdAt": "2025-09-22T00:02:53.319Z",
+        "updatedAt": "2025-09-22T00:07:09.211Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Basic Attack",
+        "ammoTypesLevel2": null,
+        "ammoTypesLevel3": null,
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "cf636acf-cb3f-424b-bffe-5b9a5d553dcf",
+        "name": "Swift Harmony",
+        "description": "<p>At the start of the action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. When performing an active attack against a target not protected by Cover, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.<br><br>Before taking targeted damage, if the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">2</span>, launches [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], dealing light ammo Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage, and permanently gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">3</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/6cfe4a395c9689b6dd462f0d9445b7da.webp",
+        "createdAt": "2025-09-22T00:04:31.173Z",
+        "updatedAt": "2025-11-04T14:16:38.213Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "summonId": null,
+        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "695ffc38-2200-40f9-926b-4470eac2ae71",
+        "vertebraeUpgradeIdLevel3": "646a728d-e21c-49e9-b93d-575a82058c65",
+        "skillTags": [
+          "Passive",
+          "Interception"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>At the start of the action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. When performing an active attack against a target not protected by Cover, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.<br><br>Before taking targeted damage, if the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">2</span>, launches [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], dealing light ammo Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage, and permanently gains<span style=\"color: rgb(243, 109, 28);\"> 1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. This can be triggered<span style=\"color: rgb(243, 109, 28);\"> once</span> per turn.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">3</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">5</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">40%</span> instead, and stability damage dealt to the attacker before taking targeted damage increases by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. The initial damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+        "descriptionLevel3": "<p>At the start of the action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. When performing an active attack against a target not protected by Cover, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.<br><br>Before taking targeted damage, if the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">2</span>, launches [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], dealing light ammo Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage, and permanently gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">3</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">5</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">40%</span> instead, and stability damage dealt to the attacker before taking targeted damage increases by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. The initial damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">30%</span>.<br>When the number of permanent [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks reaches max, ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of Cover damage reduction when attacking <span style=\"color: rgb(34, 139, 230);\">Exposed</span> enemies.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+          "createdAt": "2025-09-13T05:48:21.166Z",
+          "updatedAt": "2025-09-13T05:48:21.166Z",
+          "rangeValue": "Self",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "695ffc38-2200-40f9-926b-4470eac2ae71",
+          "level": 2,
+          "effect": "<p>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">5</span><span>, increases damage dealt by </span><span style=\"color: rgb(243, 109, 28);\">40%</span><span> instead, and stability damage dealt to the attacker before taking targeted damage increases by </span><span style=\"color: rgb(243, 109, 28);\">2 points</span><span>. The initial damage multiplier increases by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
+          "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "segment": 4,
+          "imageUrl": "https://cdn.dandegate.net/skills/6cfe4a395c9689b6dd462f0d9445b7da.webp",
+          "createdAt": "2025-09-22T00:56:00.534Z",
+          "updatedAt": "2025-10-14T07:06:04.780Z",
+          "vertebraeName": "Swift Harmony Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "646a728d-e21c-49e9-b93d-575a82058c65",
+          "level": 3,
+          "effect": "<p>When the number of permanent [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks reaches max, ignores <span style=\"color: rgb(243, 109, 28);\">15%</span><span> of Cover damage reduction when attacking </span><span style=\"color: rgb(34, 139, 230);\">Exposed</span><span> enemies.</span></p>",
+          "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/6cfe4a395c9689b6dd462f0d9445b7da.webp",
+          "createdAt": "2025-09-22T00:57:17.336Z",
+          "updatedAt": "2025-10-14T07:06:05.997Z",
+          "vertebraeName": "Swift Harmony Lv.3"
+        }
+      },
+      {
+        "id": "c77ffed4-8e88-4199-a4e0-9c82516624dc",
+        "name": "Absolute Tuning",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Light Ammo\"]",
+        "stabilityDamage": 2,
+        "cooldown": null,
+        "confectanceCost": 1,
+        "imageUrl": "https://cdn.dandegate.net/skills/2704e50451d7e8a418ba9a92f2a6064e.webp",
+        "createdAt": "2025-09-22T00:03:12.286Z",
+        "updatedAt": "2025-11-04T14:13:14.319Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "a411e1fd-1437-48cd-b1ef-ac90f6831e06",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "Targeted",
+          "Cleanse"
+        ],
+        "keyUpgradesData": "[\"5acccf31-b59c-4a32-9de6-06c3d11552c4\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 1",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses 1 buff, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. If the target has no buffs to cleanse, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] after the attack.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[\"Active\",\"Targeted\",\"Cleanse\",\"Buff\"]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "a411e1fd-1437-48cd-b1ef-ac90f6831e06",
+          "level": 2,
+          "effect": "<p>If the target has no buffs to cleanse when during the attack, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] after the attack.</span></p>",
+          "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "segment": 1,
+          "imageUrl": "https://cdn.dandegate.net/skills/2704e50451d7e8a418ba9a92f2a6064e.webp",
+          "createdAt": "2025-09-22T00:52:06.942Z",
+          "updatedAt": "2025-10-14T07:06:02.518Z",
+          "vertebraeName": "Absolute Tuning Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "5acc21d3-28ea-49b1-8b24-cd730f6e0e4d",
+        "name": "Qing Shang Harmony",
+        "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], as well as [effect:145ba1c0-00e7-4b51-9b9f-0f65bf8220b1] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": 4,
+        "imageUrl": "https://cdn.dandegate.net/skills/0ea341b0c51415f5a7a7048129c943d1.webp",
+        "createdAt": "2025-09-22T00:03:55.508Z",
+        "updatedAt": "2025-10-30T17:50:37.480Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "summonId": null,
+        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "1880ac71-acfc-4181-9b1d-cdd640265374",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "Buff"
+        ],
+        "keyUpgradesData": "[\"8afde15a-8b36-41ba-93a2-050bf497671e\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 2",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], as well as [effect:145ba1c0-00e7-4b51-9b9f-0f65bf8220b1] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. In addition, gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+          "createdAt": "2025-09-13T05:48:21.166Z",
+          "updatedAt": "2025-09-13T05:48:21.166Z",
+          "rangeValue": "Self",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "1880ac71-acfc-4181-9b1d-cdd640265374",
+          "level": 2,
+          "effect": "<p>Increase the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks gained by <span style=\"color: rgb(243, 109, 28);\">3</span><span>.</span></p>",
+          "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "segment": 2,
+          "imageUrl": "https://cdn.dandegate.net/skills/0ea341b0c51415f5a7a7048129c943d1.webp",
+          "createdAt": "2025-09-22T00:52:54.900Z",
+          "updatedAt": "2025-10-14T07:06:02.692Z",
+          "vertebraeName": "Qing Shang Harmony Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "114307eb-dd99-4401-986e-070d9a33f4a9",
+        "name": "Ethereal Resonance",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">190%</span> of attack. For every <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. After attacking, consumes all stacks of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] and gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Medium Ammo\"]",
+        "stabilityDamage": 2,
+        "cooldown": 6,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/527f3f83f9c73d8b2681274f3ba6aa57.webp",
+        "createdAt": "2025-09-22T00:04:15.729Z",
+        "updatedAt": "2025-10-30T17:49:40.280Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "summonId": null,
+        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "6c7474ce-e2fa-4a00-9bbf-9c3b2b52ed5d",
+        "vertebraeUpgradeIdLevel3": "2333f350-c44f-481f-85a3-4f238cf15b66",
+        "skillTags": [
+          "Ultimate",
+          "Targeted",
+          "Buff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 3",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">190%</span> of attack. For every <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. After attacking, consumes all stacks of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] and gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6 stacks</span>.</p>",
+        "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">190%</span> of attack. For every <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. After attacking, consumes all stacks of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] and gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6 stacks</span>. For every <span style=\"color: rgb(243, 109, 28);\">1</span> enemy unit that dies on the field, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+          "createdAt": "2025-09-13T06:00:32.207Z",
+          "updatedAt": "2025-09-13T06:00:32.207Z",
+          "rangeValue": "6",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "6c7474ce-e2fa-4a00-9bbf-9c3b2b52ed5d",
+          "level": 2,
+          "effect": "<p>Increase the stack limit of permanent [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] by <span style=\"color: rgb(243, 109, 28);\">3 stacks</span><span>.</span></p>",
+          "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "segment": 3,
+          "imageUrl": "https://cdn.dandegate.net/skills/527f3f83f9c73d8b2681274f3ba6aa57.webp",
+          "createdAt": "2025-09-22T00:53:52.596Z",
+          "updatedAt": "2025-10-14T07:06:05.823Z",
+          "vertebraeName": "Ethereal Resonance Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "2333f350-c44f-481f-85a3-4f238cf15b66",
+          "level": 3,
+          "effect": "<p>For every <span style=\"color: rgb(243, 109, 28);\">1</span><span> enemy unit that dies on the field, gain </span><span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently.</span></p>",
+          "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "segment": 6,
+          "imageUrl": "https://cdn.dandegate.net/skills/527f3f83f9c73d8b2681274f3ba6aa57.webp",
+          "createdAt": "2025-09-22T00:58:38.497Z",
+          "updatedAt": "2025-10-14T07:06:06.170Z",
+          "vertebraeName": "Ethereal Resonance Lv.3"
+        }
+      }
+    ],
+    "keys": [
+      {
+        "id": "f1fc6063-20b9-4be0-9b8b-1ea92b7c24f4",
+        "keyTitle": "Sweet Serenade",
+        "keyType": "Affinity Key",
+        "level": null,
+        "effect": "<p> </p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks at Affinity Level 5</p>",
+        "attributeName1": "Crit DMG",
+        "attributeValue1": "3%",
+        "attributeName2": "Attack Boost",
+        "attributeValue2": "3%",
+        "attributeName3": "Health Boost",
+        "attributeValue3": "3%",
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/01f2f6ce-ddb7-4375-a290-2134ecb5ac22-sweet-serenade.webp",
+        "createdAt": "2025-09-21T23:35:51.538Z",
+        "updatedAt": "2025-09-25T18:32:50.427Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "dollImages": [
+            {
+              "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+              "createdAt": "2025-09-25T23:34:38.841Z",
+              "updatedAt": "2025-09-25T23:34:38.841Z"
+            }
+          ],
+          "searchTags": [
+            "Type 95"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Affinity Key - Sweet Serenade"
+      },
+      {
+        "id": "1a777b72-7bff-474e-b409-bf4b5bd6330c",
+        "keyTitle": "Shattering Stone and Silk",
+        "keyType": "Common Key",
+        "level": 40,
+        "effect": "<p>At the start of the action, gains [effect:2eaedbcb-e86c-431a-ac54-2fcb00ebfb70] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This has a cooldown of <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks after obtaining all Fixed Keys</p>",
+        "attributeName1": "Crit Rate",
+        "attributeValue1": "5%",
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/b0354ce3-7974-463e-8044-a3de7fed1403-shattering-stone-and-silk.webp",
+        "createdAt": "2025-09-21T23:34:37.900Z",
+        "updatedAt": "2025-10-21T02:32:44.979Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "dollImages": [
+            {
+              "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+              "createdAt": "2025-09-25T23:34:38.841Z",
+              "updatedAt": "2025-09-25T23:34:38.841Z"
+            }
+          ],
+          "searchTags": [
+            "Type 95"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Common Key - Shattering Stone and Silk"
+      },
+      {
+        "id": "9bbfa9bb-a31c-4a21-b6e1-3aacb20b239c",
+        "keyTitle": "Flowing Melody of the Clouds",
+        "keyType": "Expansion Key",
+        "level": 60,
+        "effect": "<p>For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of permanent [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] Daiyan possesses, ignores <span style=\"color: rgb(243, 109, 28);\">10%</span> of enemy target's defense when attacking.</p><p>At the end of Daiyan's action, she gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], and for <span style=\"color: rgb(243, 109, 28);\">each stack</span> of permanent [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] she gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/4fe1e436-d17e-47c7-aad1-92f06fdde73e-flowing-melody-of-the-clouds.webp",
+        "createdAt": "2025-09-21T23:36:53.606Z",
+        "updatedAt": "2025-10-14T07:06:44.968Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "dollImages": [
+            {
+              "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+              "createdAt": "2025-09-25T23:34:38.841Z",
+              "updatedAt": "2025-09-25T23:34:38.841Z"
+            }
+          ],
+          "searchTags": [
+            "Type 95"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Expansion Key - Flowing Melody of the Clouds"
+      },
+      {
+        "id": "bc0e2425-e930-4d01-b6d4-2733b420a2af",
+        "keyTitle": "Flowing Melody of the Clouds",
+        "keyType": "Expansion Key",
+        "keyNumber": 2,
+        "level": 60,
+        "effect": "<p>When Daiyan uses the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Ethereal Resonance</span> and performs [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], she gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of permanent [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f].</p><p>At the end of the round, if Daiyan has not performed [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800] was performed, she gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of permanent [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] and the damage multiplier of the next active attack is increased by <span style=\"color: rgb(243, 109, 28);\">150%</span> while stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">4 points</span>.</p><p>After using the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Ethereal Resonance</span>, Daiyan performs <span style=\"color: rgb(243, 109, 28);\">1 additional</span><span style=\"color: rgb(243, 109, 28);\"> attack</span> against the target. For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of permanent [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], said attack deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Stability damage.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"1\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"10000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/flowing-melody-of-the-clouds/4092424fb5a5c590a2b4e46239de2a261322e7cc484100a9ff8422121569d705.webp",
+        "createdAt": "2025-10-29T01:03:56.555Z",
+        "updatedAt": "2026-02-22T06:13:15.405Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "dollImages": [
+            {
+              "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+              "createdAt": "2025-09-25T23:34:38.841Z",
+              "updatedAt": "2025-09-25T23:34:38.841Z"
+            }
+          ],
+          "searchTags": [
+            "Type 95"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Expansion Key 2 - Flowing Melody of the Clouds"
+      },
+      {
+        "id": "32e694fc-869f-4397-804e-20cbc00a62b3",
+        "keyTitle": "Echoing Melody",
+        "keyType": "Fixed Key",
+        "keyNumber": 1,
+        "level": 20,
+        "effect": "<p>When Daiyan has [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], increases mobility by <span style=\"color: rgb(243, 109, 28);\">1 tile</span><span>.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/f93354a1-b90f-4f51-82a5-3dd1f4bdb2bb-echoing-melody.webp",
+        "createdAt": "2025-09-21T23:26:56.607Z",
+        "updatedAt": "2025-10-14T07:06:36.384Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "dollImages": [
+            {
+              "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+              "createdAt": "2025-09-25T23:34:38.841Z",
+              "updatedAt": "2025-09-25T23:34:38.841Z"
+            }
+          ],
+          "searchTags": [
+            "Type 95"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 1 - Echoing Melody"
+      },
+      {
+        "id": "0b34c703-6699-4e67-b5d2-dbb903237682",
+        "keyTitle": "Unfulfilled Dreams",
+        "keyType": "Fixed Key",
+        "keyNumber": 2,
+        "level": 20,
+        "effect": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 points</span><span> of Confectance Index at the start of the battle.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/f3f1549c-3661-416e-8d12-1f93843c5972-unfulfilled-dreams.webp",
+        "createdAt": "2025-09-21T23:27:26.781Z",
+        "updatedAt": "2025-09-22T00:25:45.302Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "dollImages": [
+            {
+              "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+              "createdAt": "2025-09-25T23:34:38.841Z",
+              "updatedAt": "2025-09-25T23:34:38.841Z"
+            }
+          ],
+          "searchTags": [
+            "Type 95"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 2 - Unfulfilled Dreams"
+      },
+      {
+        "id": "f6159b83-5528-4763-becb-4daab06fe54b",
+        "keyTitle": "Hazewalker's Melody",
+        "keyType": "Fixed Key",
+        "keyNumber": 3,
+        "level": 30,
+        "effect": "<p>For <span style=\"color: rgb(243, 109, 28);\">each point</span><span> of additional mobility before the attack, critical rate increases by </span><span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/02ca8927-4a7f-48bb-bcf9-ebc1bf0d2539-hazewalker-s-melody.webp",
+        "createdAt": "2025-09-21T23:27:59.070Z",
+        "updatedAt": "2025-09-22T00:26:24.760Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "dollImages": [
+            {
+              "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+              "createdAt": "2025-09-25T23:34:38.841Z",
+              "updatedAt": "2025-09-25T23:34:38.841Z"
+            }
+          ],
+          "searchTags": [
+            "Type 95"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 3 - Hazewalker's Melody"
+      },
+      {
+        "id": "3a7144e8-c1e3-4151-830c-ac192b5c0097",
+        "keyTitle": "Serene Serenade",
+        "keyType": "Fixed Key",
+        "keyNumber": 4,
+        "level": 30,
+        "effect": "<p>If Daiyan's mobility is higher than the target's, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] before using an active attack.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/52b2901f-3295-4691-82c3-14553cc6f25d-serene-serenade.webp",
+        "createdAt": "2025-09-21T23:28:31.939Z",
+        "updatedAt": "2025-10-14T07:06:34.806Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "dollImages": [
+            {
+              "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+              "createdAt": "2025-09-25T23:34:38.841Z",
+              "updatedAt": "2025-09-25T23:34:38.841Z"
+            }
+          ],
+          "searchTags": [
+            "Type 95"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 4 - Serene Serenade"
+      },
+      {
+        "id": "5acccf31-b59c-4a32-9de6-06c3d11552c4",
+        "keyTitle": "Squad Broken",
+        "keyType": "Fixed Key",
+        "keyNumber": 5,
+        "level": 40,
+        "effect": "<p>For every <span style=\"color: rgb(243, 109, 28);\">3 stacks</span><span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], cleanses </span><span style=\"color: rgb(243, 109, 28);\">1</span><span> additional buff when using the active skill </span><span style=\"color: rgb(34, 139, 230);\">Absolute Tuning</span><span>.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/b1567155dfb6fa1fe06a545997b24178.webp",
+        "createdAt": "2025-09-21T23:29:03.692Z",
+        "updatedAt": "2025-10-14T07:06:34.981Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "dollImages": [
+            {
+              "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+              "createdAt": "2025-09-25T23:34:38.841Z",
+              "updatedAt": "2025-09-25T23:34:38.841Z"
+            }
+          ],
+          "searchTags": [
+            "Type 95"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 5 - Squad Broken"
+      },
+      {
+        "id": "8afde15a-8b36-41ba-93a2-050bf497671e",
+        "keyTitle": "Lasting Legacy",
+        "keyType": "Fixed Key",
+        "keyNumber": 6,
+        "level": 40,
+        "effect": "<p>After using <span style=\"color: rgb(34, 139, 230);\">Qing Shang Harmony</span><span>, if a kill occurs in this turn, recovers </span><span style=\"color: rgb(243, 109, 28);\">20%</span><span> max HP and </span><span style=\"color: rgb(243, 109, 28);\">2 points</span><span> of stability index.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/bfd087d83b4e3fa8a08be1bdccac6cc1.webp",
+        "createdAt": "2025-09-21T23:32:33.402Z",
+        "updatedAt": "2025-09-22T00:30:05.986Z",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "dollImages": [
+            {
+              "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+              "createdAt": "2025-09-25T23:34:38.841Z",
+              "updatedAt": "2025-09-25T23:34:38.841Z"
+            }
+          ],
+          "searchTags": [
+            "Type 95"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 6 - Lasting Legacy"
+      }
+    ],
+    "vertebrae": [
+      {
+        "id": "a411e1fd-1437-48cd-b1ef-ac90f6831e06",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "segment": 1,
+        "vertebraeName": "Absolute Tuning Lv.2",
+        "level": 2,
+        "effect": "<p>If the target has no buffs to cleanse when during the attack, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] after the attack.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/2704e50451d7e8a418ba9a92f2a6064e.webp",
+        "createdAt": "2025-09-22T00:52:06.942Z",
+        "updatedAt": "2025-10-14T07:06:02.518Z",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "class": "Vanguard",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "A gentle and reserved Doll who roams the lands with her guzheng and her bandmates from \"Monsoon\". When she plucks the strings, she evokes the deepest desires buried in the hearts of her listeners - listening to all, and embracing all.",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Medium Ammo\",\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [
+          {
+            "id": "c77ffed4-8e88-4199-a4e0-9c82516624dc",
+            "name": "Absolute Tuning",
+            "phase": "Physical",
+            "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/2704e50451d7e8a418ba9a92f2a6064e.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Light Ammo\"]",
+            "createdAt": "2025-09-22T00:03:12.286Z",
+            "skillTags": [
+              "Active",
+              "Targeted",
+              "Cleanse"
+            ],
+            "skillType": "Skill 1",
+            "updatedAt": "2025-11-04T14:13:14.319Z",
+            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 1,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"5acccf31-b59c-4a32-9de6-06c3d11552c4\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[\"Active\",\"Targeted\",\"Cleanse\",\"Buff\"]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses 1 buff, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. If the target has no buffs to cleanse, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] after the attack.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "a411e1fd-1437-48cd-b1ef-ac90f6831e06",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "1880ac71-acfc-4181-9b1d-cdd640265374",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "segment": 2,
+        "vertebraeName": "Qing Shang Harmony Lv.2",
+        "level": 2,
+        "effect": "<p>Increase the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks gained by <span style=\"color: rgb(243, 109, 28);\">3</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/0ea341b0c51415f5a7a7048129c943d1.webp",
+        "createdAt": "2025-09-22T00:52:54.900Z",
+        "updatedAt": "2025-10-14T07:06:02.692Z",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "class": "Vanguard",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "A gentle and reserved Doll who roams the lands with her guzheng and her bandmates from \"Monsoon\". When she plucks the strings, she evokes the deepest desires buried in the hearts of her listeners - listening to all, and embracing all.",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Medium Ammo\",\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [
+          {
+            "id": "5acc21d3-28ea-49b1-8b24-cd730f6e0e4d",
+            "name": "Qing Shang Harmony",
+            "phase": null,
+            "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/0ea341b0c51415f5a7a7048129c943d1.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-22T00:03:55.508Z",
+            "skillTags": [
+              "Active",
+              "Buff"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2025-10-30T17:50:37.480Z",
+            "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], as well as [effect:145ba1c0-00e7-4b51-9b9f-0f65bf8220b1] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 4,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"8afde15a-8b36-41ba-93a2-050bf497671e\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], as well as [effect:145ba1c0-00e7-4b51-9b9f-0f65bf8220b1] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. In addition, gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "1880ac71-acfc-4181-9b1d-cdd640265374",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "6c7474ce-e2fa-4a00-9bbf-9c3b2b52ed5d",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "segment": 3,
+        "vertebraeName": "Ethereal Resonance Lv.2",
+        "level": 2,
+        "effect": "<p>Increase the stack limit of permanent [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] by <span style=\"color: rgb(243, 109, 28);\">3 stacks</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/527f3f83f9c73d8b2681274f3ba6aa57.webp",
+        "createdAt": "2025-09-22T00:53:52.596Z",
+        "updatedAt": "2025-10-14T07:06:05.823Z",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "class": "Vanguard",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "A gentle and reserved Doll who roams the lands with her guzheng and her bandmates from \"Monsoon\". When she plucks the strings, she evokes the deepest desires buried in the hearts of her listeners - listening to all, and embracing all.",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Medium Ammo\",\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [
+          {
+            "id": "114307eb-dd99-4401-986e-070d9a33f4a9",
+            "name": "Ethereal Resonance",
+            "phase": "Physical",
+            "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+            "cooldown": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/527f3f83f9c73d8b2681274f3ba6aa57.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Medium Ammo\"]",
+            "createdAt": "2025-09-22T00:04:15.729Z",
+            "skillTags": [
+              "Ultimate",
+              "Targeted",
+              "Buff"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-10-30T17:49:40.280Z",
+            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">190%</span> of attack. For every <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. After attacking, consumes all stacks of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] and gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">190%</span> of attack. For every <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. After attacking, consumes all stacks of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] and gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6 stacks</span>.</p>",
+            "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">190%</span> of attack. For every <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. After attacking, consumes all stacks of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] and gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6 stacks</span>. For every <span style=\"color: rgb(243, 109, 28);\">1</span> enemy unit that dies on the field, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "6c7474ce-e2fa-4a00-9bbf-9c3b2b52ed5d",
+            "vertebraeUpgradeIdLevel3": "2333f350-c44f-481f-85a3-4f238cf15b66"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "695ffc38-2200-40f9-926b-4470eac2ae71",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "segment": 4,
+        "vertebraeName": "Swift Harmony Lv.2",
+        "level": 2,
+        "effect": "<p>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">5</span><span>, increases damage dealt by </span><span style=\"color: rgb(243, 109, 28);\">40%</span><span> instead, and stability damage dealt to the attacker before taking targeted damage increases by </span><span style=\"color: rgb(243, 109, 28);\">2 points</span><span>. The initial damage multiplier increases by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/6cfe4a395c9689b6dd462f0d9445b7da.webp",
+        "createdAt": "2025-09-22T00:56:00.534Z",
+        "updatedAt": "2025-10-14T07:06:04.780Z",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "class": "Vanguard",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "A gentle and reserved Doll who roams the lands with her guzheng and her bandmates from \"Monsoon\". When she plucks the strings, she evokes the deepest desires buried in the hearts of her listeners - listening to all, and embracing all.",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Medium Ammo\",\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [
+          {
+            "id": "cf636acf-cb3f-424b-bffe-5b9a5d553dcf",
+            "name": "Swift Harmony",
+            "phase": null,
+            "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/6cfe4a395c9689b6dd462f0d9445b7da.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-22T00:04:31.173Z",
+            "skillTags": [
+              "Passive",
+              "Interception"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-11-04T14:16:38.213Z",
+            "description": "<p>At the start of the action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. When performing an active attack against a target not protected by Cover, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.<br><br>Before taking targeted damage, if the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">2</span>, launches [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], dealing light ammo Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage, and permanently gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">3</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>At the start of the action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. When performing an active attack against a target not protected by Cover, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.<br><br>Before taking targeted damage, if the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">2</span>, launches [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], dealing light ammo Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage, and permanently gains<span style=\"color: rgb(243, 109, 28);\"> 1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. This can be triggered<span style=\"color: rgb(243, 109, 28);\"> once</span> per turn.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">3</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">5</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">40%</span> instead, and stability damage dealt to the attacker before taking targeted damage increases by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. The initial damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+            "descriptionLevel3": "<p>At the start of the action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. When performing an active attack against a target not protected by Cover, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.<br><br>Before taking targeted damage, if the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">2</span>, launches [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], dealing light ammo Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage, and permanently gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">3</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">5</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">40%</span> instead, and stability damage dealt to the attacker before taking targeted damage increases by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. The initial damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">30%</span>.<br>When the number of permanent [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks reaches max, ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of Cover damage reduction when attacking <span style=\"color: rgb(34, 139, 230);\">Exposed</span> enemies.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "695ffc38-2200-40f9-926b-4470eac2ae71",
+            "vertebraeUpgradeIdLevel3": "646a728d-e21c-49e9-b93d-575a82058c65"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "646a728d-e21c-49e9-b93d-575a82058c65",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "segment": 5,
+        "vertebraeName": "Swift Harmony Lv.3",
+        "level": 3,
+        "effect": "<p>When the number of permanent [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks reaches max, ignores <span style=\"color: rgb(243, 109, 28);\">15%</span><span> of Cover damage reduction when attacking </span><span style=\"color: rgb(34, 139, 230);\">Exposed</span><span> enemies.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/6cfe4a395c9689b6dd462f0d9445b7da.webp",
+        "createdAt": "2025-09-22T00:57:17.336Z",
+        "updatedAt": "2025-10-14T07:06:05.997Z",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "class": "Vanguard",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "A gentle and reserved Doll who roams the lands with her guzheng and her bandmates from \"Monsoon\". When she plucks the strings, she evokes the deepest desires buried in the hearts of her listeners - listening to all, and embracing all.",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Medium Ammo\",\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "cf636acf-cb3f-424b-bffe-5b9a5d553dcf",
+            "name": "Swift Harmony",
+            "phase": null,
+            "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/6cfe4a395c9689b6dd462f0d9445b7da.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-22T00:04:31.173Z",
+            "skillTags": [
+              "Passive",
+              "Interception"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-11-04T14:16:38.213Z",
+            "description": "<p>At the start of the action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. When performing an active attack against a target not protected by Cover, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.<br><br>Before taking targeted damage, if the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">2</span>, launches [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], dealing light ammo Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage, and permanently gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">3</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>At the start of the action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. When performing an active attack against a target not protected by Cover, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.<br><br>Before taking targeted damage, if the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">2</span>, launches [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], dealing light ammo Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage, and permanently gains<span style=\"color: rgb(243, 109, 28);\"> 1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. This can be triggered<span style=\"color: rgb(243, 109, 28);\"> once</span> per turn.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">3</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">5</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">40%</span> instead, and stability damage dealt to the attacker before taking targeted damage increases by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. The initial damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+            "descriptionLevel3": "<p>At the start of the action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. When performing an active attack against a target not protected by Cover, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.<br><br>Before taking targeted damage, if the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">2</span>, launches [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], dealing light ammo Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage, and permanently gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f]. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">3</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>.<br>If the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks is greater than <span style=\"color: rgb(243, 109, 28);\">5</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">40%</span> instead, and stability damage dealt to the attacker before taking targeted damage increases by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. The initial damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">30%</span>.<br>When the number of permanent [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks reaches max, ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of Cover damage reduction when attacking <span style=\"color: rgb(34, 139, 230);\">Exposed</span> enemies.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "695ffc38-2200-40f9-926b-4470eac2ae71",
+            "vertebraeUpgradeIdLevel3": "646a728d-e21c-49e9-b93d-575a82058c65"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "2333f350-c44f-481f-85a3-4f238cf15b66",
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "segment": 6,
+        "vertebraeName": "Ethereal Resonance Lv.3",
+        "level": 3,
+        "effect": "<p>For every <span style=\"color: rgb(243, 109, 28);\">1</span><span> enemy unit that dies on the field, gain </span><span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/527f3f83f9c73d8b2681274f3ba6aa57.webp",
+        "createdAt": "2025-09-22T00:58:38.497Z",
+        "updatedAt": "2025-10-14T07:06:06.170Z",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "class": "Vanguard",
+          "phase": "Physical",
+          "rarity": "Elite",
+          "effects": "A gentle and reserved Doll who roams the lands with her guzheng and her bandmates from \"Monsoon\". When she plucks the strings, she evokes the deepest desires buried in the hearts of her listeners - listening to all, and embracing all.",
+          "preview": false,
+          "movement": 9,
+          "ammoTypes": "[\"Medium Ammo\",\"Light Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "stabilityGauge": 8
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "114307eb-dd99-4401-986e-070d9a33f4a9",
+            "name": "Ethereal Resonance",
+            "phase": "Physical",
+            "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+            "cooldown": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/527f3f83f9c73d8b2681274f3ba6aa57.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Medium Ammo\"]",
+            "createdAt": "2025-09-22T00:04:15.729Z",
+            "skillTags": [
+              "Ultimate",
+              "Targeted",
+              "Buff"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-10-30T17:49:40.280Z",
+            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">190%</span> of attack. For every <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. After attacking, consumes all stacks of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] and gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">190%</span> of attack. For every <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. After attacking, consumes all stacks of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] and gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6 stacks</span>.</p>",
+            "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">190%</span> of attack. For every <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f], reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. After attacking, consumes all stacks of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] and gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6 stacks</span>. For every <span style=\"color: rgb(243, 109, 28);\">1</span> enemy unit that dies on the field, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] permanently.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "6c7474ce-e2fa-4a00-9bbf-9c3b2b52ed5d",
+            "vertebraeUpgradeIdLevel3": "2333f350-c44f-481f-85a3-4f238cf15b66"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      }
+    ],
+    "summons": [],
+    "remoldingPattern": {
+      "id": "6befda72-94d8-4882-9700-80ace2297eac",
+      "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+      "coreSlots": {
+        "bulwark": 0,
+        "support": 0,
+        "sentinel": 2,
+        "vanguard": 4
+      },
+      "statBoosts": {
+        "60": {
+          "hp": 581,
+          "atk": 217,
+          "def": 217
+        }
+      },
+      "dollCore": "Vanguard Core",
+      "createdAt": "2025-09-30T07:58:37.136Z",
+      "updatedAt": "2025-09-30T07:58:37.136Z",
+      "doll": {
+        "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "name": "Daiyan",
+        "class": "Vanguard",
+        "phase": "Physical",
+        "rarity": "Elite",
+        "preview": false,
+        "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+        "regionTag": "en",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      "imagoforms": [
+        {
+          "id": "dc9bed41-bf0b-45e3-96fb-cd358a8e03b0",
+          "stage": "Embryo",
+          "effect": "<p>Damage dealt by <span style=\"color: rgb(34, 139, 230);\">Interceptions</span><span> is increased by </span><span style=\"color: rgb(243, 109, 28);\">8%</span><span>.</span></p>",
+          "coreLevel": 1,
+          "createdAt": "2025-09-30T07:58:37.163Z",
+          "updatedAt": "2025-09-30T07:58:37.163Z",
+          "bulwarkFactors": 0,
+          "supportFactors": 0,
+          "sentinelFactors": 2,
+          "vanguardFactors": 5
+        },
+        {
+          "id": "692d2c57-4ac3-4cf5-99e0-1bd92177418e",
+          "stage": "Seedling",
+          "effect": "<p>Physical and phase damage taken is recued by <span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+          "coreLevel": 10,
+          "createdAt": "2025-09-30T07:58:37.163Z",
+          "updatedAt": "2025-09-30T07:58:37.163Z",
+          "bulwarkFactors": 0,
+          "supportFactors": 0,
+          "sentinelFactors": 3,
+          "vanguardFactors": 8
+        },
+        {
+          "id": "552bd315-02ee-48be-a031-99ff12accc81",
+          "stage": "Sprout",
+          "effect": "<p>Physical damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+          "coreLevel": 20,
+          "createdAt": "2025-09-30T07:58:37.163Z",
+          "updatedAt": "2025-09-30T07:58:37.163Z",
+          "bulwarkFactors": 1,
+          "supportFactors": 0,
+          "sentinelFactors": 4,
+          "vanguardFactors": 9
+        },
+        {
+          "id": "5f784e81-9a3a-4d6f-941f-37d23554819b",
+          "stage": "Shoot",
+          "effect": "<p>Damage dealt to enemy targets with <span style=\"color: rgb(243, 109, 28);\">50% or lower</span><span> HP is increased by </span><span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
+          "coreLevel": 30,
+          "createdAt": "2025-09-30T07:58:37.163Z",
+          "updatedAt": "2025-09-30T07:58:37.163Z",
+          "bulwarkFactors": 2,
+          "supportFactors": 0,
+          "sentinelFactors": 6,
+          "vanguardFactors": 11
+        },
+        {
+          "id": "951ba9cc-b4f4-47b6-a077-c27ad13b77af",
+          "stage": "Bud",
+          "effect": "<p>Attack in increased by <span style=\"color: rgb(243, 109, 28);\">8%</span><span>.</span></p>",
+          "coreLevel": 45,
+          "createdAt": "2025-09-30T07:58:37.163Z",
+          "updatedAt": "2025-09-30T07:58:37.163Z",
+          "bulwarkFactors": 2,
+          "supportFactors": 0,
+          "sentinelFactors": 7,
+          "vanguardFactors": 15
+        },
+        {
+          "id": "93445a93-65a7-4ad5-b028-fc405e496416",
+          "stage": "Blossom",
+          "effect": "<p>After inflicting a critical hit, deals <span style=\"color: rgb(243, 109, 28);\">3 points</span><span> of fixed stability damage to the enemy target. This effect can trigger up to </span><span style=\"color: rgb(243, 109, 28);\">2 times</span><span> per turn.</span></p>",
+          "coreLevel": 60,
+          "createdAt": "2025-09-30T07:58:37.163Z",
+          "updatedAt": "2025-09-30T07:58:37.163Z",
+          "bulwarkFactors": 3,
+          "supportFactors": 0,
+          "sentinelFactors": 8,
+          "vanguardFactors": 18
+        }
+      ],
+      "equippedRelics": []
+    },
+    "dollEffects": [
+      {
+        "id": "fbe318c6-97b3-4716-bd57-d51b4d190c05",
+        "effectName": "Permanent Tuning",
+        "effectDetails": "<p>Increase critical rate and critical damage by <span style=\"color: rgb(243, 109, 28);\">3% </span><span>maximum of </span><span style=\"color: rgb(243, 109, 28);\">6 stacks</span>. Shares stacks with [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] and cannot be consumed. Gain <span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef] after using an active attack. This buff cannot be cleansed.</span></p>",
+        "effectTags": [],
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-12-27T07:00:46.888Z",
+        "updatedAt": "2025-12-27T07:00:46.888Z",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "dollImages": [
+            {
+              "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "Type 95"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "145ba1c0-00e7-4b51-9b9f-0f65bf8220b1",
+        "effectName": "Pitch Perfect",
+        "effectDetails": "<p>Before launching active attacks, deals stability damage equal to the number of [effect:4f2541d9-a69e-4988-90fd-d5fa6c80510f] stacks. Can trigger <span style=\"color: rgb(243, 109, 28);\">1 time</span>. This effect cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff",
+          "Stability"
+        ],
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-22T00:11:36.681Z",
+        "updatedAt": "2025-11-03T15:20:44.717Z",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "dollImages": [
+            {
+              "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "Type 95"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "4f2541d9-a69e-4988-90fd-d5fa6c80510f",
+        "effectName": "Tuning",
+        "effectDetails": "<p>Increases critical rate and critical damage by <span style=\"color: rgb(243, 109, 28);\">3%</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">10 stacks</span>. Gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef] after using an active attack. This buff cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-22T00:10:29.919Z",
+        "updatedAt": "2025-11-03T16:07:46.305Z",
+        "doll": {
+          "id": "5f8ba26a-4237-4986-805d-900e23dcf6d8",
+          "name": "Daiyan",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/daiyan/b54528b7b15f513b4db93e2b0464ff8a.webp",
+          "createdAt": "2025-09-21T23:25:33.850Z",
+          "regionTag": "en",
+          "updatedAt": "2025-11-14T08:42:44.609Z",
+          "dollImages": [
+            {
+              "id": "960c748d-85cd-4c2f-91d4-192c3ec117f9",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/daiyan/chibi-130af53ea17c63c64e352376b87c78c0.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "Type 95"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "shortId": "d10"
+  }
+}

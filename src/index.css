@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+body {
+	font-family: Roboto, sans-serif;
+}
+canvas {
+	image-rendering: pixelated;
+}
+.doll-card {
+	transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.doll-card:hover {
+	transform: scale(1.05);
+}
+.doll-card.selected {
+	background-color: #052e16 !important;
+}
+.check-overlay {
+	animation: popIn 0.3s ease-out;
+}
+@keyframes popIn {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+.doll-row {
+	transition: background 0.1s;
+	user-select: none;
+}
+.doll-row.drag-over {
+	border-color: #bef575 !important;
+}
+.doll-row.is-idle {
+	transition: 0.25s ease transform;
+}
+.doll-row.is-idle .drag-grip {
+	cursor: grab;
+}
+.doll-row.is-draggable,
+.doll-row.is-draggable .drag-grip {
+	cursor: grabbing;
+}
+
+.doll-row.is-draggable {
+	z-index: 10;
+}
+
+.button-action {
+	aspect-ratio: cos(30deg);
+	clip-path: polygon(-50% 50%, 50% 100%, 150% 50%, 50% 0);
+}
+
+.doll.hide {
+	display: none;
+}
+
+.doll {
+	visibility: hidden;
+}
+
+.doll.show {
+	animation-name: animateIn;
+	animation-duration: 150ms;
+	animation-delay: calc(var(--animation-order) * 100ms);
+	animation-fill-mode: both;
+	animation-timing-function: ease-in-out;
+	visibility: visible;
+}
+
+@keyframes animateIn {
+	0% {
+		opacity: 0;
+		transform: scale(0.6) translateY(-50%);
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+svg {
+	pointer-events: none;
+}

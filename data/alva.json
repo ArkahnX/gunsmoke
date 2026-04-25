@@ -1,0 +1,1608 @@
+{
+  "success": true,
+  "data": {
+    "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+    "shortId": "d1",
+    "name": "Alva",
+    "class": "Support",
+    "ammoTypes": "[\"Medium Ammo\"]",
+    "phase": "Freeze",
+    "rarity": "Elite",
+    "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+    "regionTag": "en",
+    "preview": false,
+    "createdAt": "2025-10-05T23:45:10.302Z",
+    "updatedAt": "2026-02-19T17:37:20.034Z",
+    "searchTags": [
+      "AN-94"
+    ],
+    "dollImages": [
+      {
+        "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+        "category": "Chibi",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "41e94555-565f-4ef0-b5a5-0e2b1143714f",
+        "category": "Card",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Card/b0fe16b13f4af9b9261cd266e35d1f2e9ddfffb36ee144dfe8989edddf21c60c.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "ed813ada-01e2-4d8a-9255-c5f7e013c7db",
+        "category": "Skin",
+        "imageUrl": "https://cdn.dandegate.net/doll-images/Skin/4611b2734f72ad9ece808db644f40c81c5ab8cfd371c9acfc5a20398977c1116.webp",
+        "skinTitle": "Antje",
+        "alt": null
+      }
+    ],
+    "weaponImprintType": null,
+    "weaponImprint": {
+      "id": "6d890f29-636c-4f04-bb2d-f91e3ff014fa",
+      "name": "6P33",
+      "rarity": "Elite",
+      "weaponType": "Assault Rifle",
+      "primaryAttributeStat": 348,
+      "primaryAttribute": "Attack",
+      "secondaryAttribute": "Crit DMG",
+      "secondaryAttributeStat": "25%",
+      "trait": "<p>If the user has full HP at the end of the action, gain a random buff, lasting for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+      "effect": "<p>When allied units deal <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>, critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">10%/12%/14%/16%/18%/20%</span>. If they have a [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600], damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">10%/12%/14%/16%/18%/20%</span>.</p>",
+      "imprintDescription": "<p>Damage dealt to targets with Freeze debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>. Damage dealt to Girard Group units is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>.</p>",
+      "imageUrl": "https://cdn.dandegate.net/weapons/an-94/bac8cff6e7791487b222bdc7be28ec94c6e8cf84b79b9e65de70d82a7e73e16f.webp",
+      "createdAt": "2025-10-12T01:00:18.601Z",
+      "updatedAt": "2026-02-19T17:38:33.000Z",
+      "regionTag": "en",
+      "preview": false,
+      "imprintDollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+      "imprintDoll": {
+        "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "name": "Alva",
+        "rarity": "Elite",
+        "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp"
+      }
+    },
+    "stabilityGauge": 10,
+    "movement": 6,
+    "effects": "A tactical Doll who is outwardly cold, but who has a delicate heart. While she might seem to agree with others without much thought, the truth is that she takes their opinions to heart and tries her best to satisfy them. She notices little details and reactions that are otherwise overlooked and she is quite sensitive to her surroundings. However, this also leads to her being influenced easily by her environment.\r\n“I once thought time would change many things... However, it seems you haven't changed, and neither have we... It is only the world which changes every day.\"",
+    "skills": [
+      {
+        "id": "efc2e737-2f30-4479-add1-c7e9697e217f",
+        "name": "Laceration",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Medium Ammo\"]",
+        "stabilityDamage": 2,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/2bb7737afb7fca836c84ef5d23b340ef56d560b2b4b2f86b6beb271021da1786.webp",
+        "createdAt": "2025-10-06T22:11:13.272Z",
+        "updatedAt": "2025-10-06T22:15:18.260Z",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "summonId": null,
+        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Basic Attack",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+          "createdAt": "2025-09-13T05:53:24.278Z",
+          "updatedAt": "2025-09-13T05:53:24.278Z",
+          "rangeValue": "8",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "21fa628c-7e2d-48da-bb44-9e107e623bea",
+        "name": "Freezing Touch",
+        "description": "<p>The effectiveness of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] applied by all allied units are increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. When allied units gain Shields, the Shields are converted into [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] with an equal value.</p><p>At the end of Alva's action, she gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index. After launching [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], she gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/f13eb5b05fb4b22eb34b762ec6220b3d134ccd8fc096ff333e899565f5907287.webp",
+        "createdAt": "2025-10-07T00:55:24.993Z",
+        "updatedAt": "2025-10-30T13:39:46.018Z",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "summonId": null,
+        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "164fa09f-7c7f-4881-863d-264bc26fc1af",
+        "vertebraeUpgradeIdLevel3": "0d64adf8-9348-4bbc-b6c4-11419d6ccc2a",
+        "skillTags": [
+          "Passive",
+          "Buff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>The effectiveness of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] applied by all allied units are increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>. When allied units gain Shields, the Shields are converted into [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] with an equal value.</p><p>At the end of Alva's action, she gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index. After launching [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], she gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+          "createdAt": "2025-09-13T05:48:21.166Z",
+          "updatedAt": "2025-09-13T05:48:21.166Z",
+          "rangeValue": "Self",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "164fa09f-7c7f-4881-863d-264bc26fc1af",
+          "level": 2,
+          "effect": "<p>The effectiveness of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] applied by all allied units are increased to <span style=\"color: rgb(243, 109, 28);\">50%</span>. [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] gains a new effect: When the holder deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>, critical damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">1%</span> for every <span style=\"color: rgb(243, 109, 28);\">1,000</span> points of Shield HP the unit has.</p>",
+          "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "segment": 3,
+          "imageUrl": "https://cdn.dandegate.net/skills/f13eb5b05fb4b22eb34b762ec6220b3d134ccd8fc096ff333e899565f5907287.webp",
+          "createdAt": "2025-10-11T16:57:47.904Z",
+          "updatedAt": "2025-10-11T16:57:47.904Z",
+          "vertebraeName": "Freezing Touch Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "0d64adf8-9348-4bbc-b6c4-11419d6ccc2a",
+          "level": 3,
+          "effect": "<p>The maximum absorption strength of [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] is increased by <span style=\"color: rgb(243, 109, 28);\">300%</span> of Alva's initial attack. When the holder deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>, the damage increase and critical damage increase per <span style=\"color: rgb(243, 109, 28);\">1,000</span> points of Shield HP the unit has is doubled.</p>",
+          "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "segment": 6,
+          "imageUrl": "https://cdn.dandegate.net/skills/f13eb5b05fb4b22eb34b762ec6220b3d134ccd8fc096ff333e899565f5907287.webp",
+          "createdAt": "2025-10-11T16:58:15.889Z",
+          "updatedAt": "2025-10-11T17:00:05.266Z",
+          "vertebraeName": "Freezing Touch Lv.3"
+        }
+      },
+      {
+        "id": "f000961b-52c7-45ba-b2c3-8e8b8b13cfe2",
+        "name": "Snow Wolf's Heart",
+        "description": "<p>Enters [effect:c7311545-15b6-4d08-be44-b3e5c76c406a] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>. Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it.</p>",
+        "phase": "Freeze",
+        "ammoTypes": "[\"Medium Ammo\"]",
+        "stabilityDamage": 2,
+        "cooldown": 2,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/0a080e9902216287308c831a4163054eafdaef353a0fd0778b205f8c9e61b183.webp",
+        "createdAt": "2025-10-06T23:39:54.570Z",
+        "updatedAt": "2025-10-30T17:06:51.354Z",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "summonId": null,
+        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "242c809f-33b9-477c-acb1-ee3e6cad524a",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "Targeted"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 1",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+          "createdAt": "2025-09-13T05:53:24.278Z",
+          "updatedAt": "2025-09-13T05:53:24.278Z",
+          "rangeValue": "8",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "242c809f-33b9-477c-acb1-ee3e6cad524a",
+          "level": 2,
+          "effect": "<p>While in [effect:c7311545-15b6-4d08-be44-b3e5c76c406a], the conversion rate of [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800] dealt by [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. In addition <span style=\"color: rgb(243, 109, 28);\">20%</span> of the damage dealt by the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Nix Requiem</span> will be converted into [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] and applied to all allied units.</p>",
+          "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "segment": 4,
+          "imageUrl": "https://cdn.dandegate.net/skills/0a080e9902216287308c831a4163054eafdaef353a0fd0778b205f8c9e61b183.webp",
+          "createdAt": "2025-10-11T16:58:40.578Z",
+          "updatedAt": "2025-10-11T17:06:45.919Z",
+          "vertebraeName": "Snow Wolf's Heart Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "4988086c-1820-46fb-8c96-5885304ead1b",
+        "name": "Frosted Echo",
+        "description": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and consumes all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index consumed, deals AoE <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">15%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to it and all enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of the selected tile, and summons [effect:7b5ece77-97d4-418a-b212-367ca951af7e] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>. If Alva has <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] after skill usage, consumes <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] to gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+        "phase": "Freeze",
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": 1,
+        "imageUrl": "https://cdn.dandegate.net/skills/e3d1d28e6cfee8cd06b63f909ab24cb4918268e1f687d20806531ebfb0ba6582.webp",
+        "createdAt": "2025-10-07T00:53:42.467Z",
+        "updatedAt": "2025-10-30T17:06:22.145Z",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "summonId": null,
+        "rangeMapId": "b8111ad3-cc58-4882-8d74-24916d8e4288",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "5164198d-ee94-4052-8d43-9050885a648e",
+        "vertebraeUpgradeIdLevel3": "f695a263-8fb4-4089-b6cf-8b5fe3709517",
+        "skillTags": [
+          "Active",
+          "AoE",
+          "Summon"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 2",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and consumes all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index consumed, deals AoE <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to it and all enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of the selected tile, and summons [effect:7b5ece77-97d4-418a-b212-367ca951af7e] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>. If Alva has <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] after skill usage, enters [effect:c7311545-15b6-4d08-be44-b3e5c76c406a] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>, gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index, and consumes <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] to gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "b8111ad3-cc58-4882-8d74-24916d8e4288",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/f32c1478868930cf12ae05ba2a2002c74365112be892bcb398c3ae894baf6fe8.webp",
+          "createdAt": "2025-10-11T16:38:56.917Z",
+          "updatedAt": "2025-10-11T16:38:56.917Z",
+          "rangeValue": "8",
+          "effectiveArea": "4"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "5164198d-ee94-4052-8d43-9050885a648e",
+          "level": 2,
+          "effect": "<p>Damage multiplier is increased to<span style=\"color: rgb(243, 109, 28);\"> 20%</span>. If Alva has <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] after skill usage, enters [effect:c7311545-15b6-4d08-be44-b3e5c76c406a] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>, and gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index.</p>",
+          "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "segment": 1,
+          "imageUrl": "https://cdn.dandegate.net/skills/e3d1d28e6cfee8cd06b63f909ab24cb4918268e1f687d20806531ebfb0ba6582.webp",
+          "createdAt": "2025-10-11T16:53:53.703Z",
+          "updatedAt": "2025-10-11T16:53:53.703Z",
+          "vertebraeName": "Frosted Echo Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "f695a263-8fb4-4089-b6cf-8b5fe3709517",
+          "level": 3,
+          "effect": "<p>The effect of [effect:7b5ece77-97d4-418a-b212-367ca951af7e] is enhanced. Alva's damage multiplier when attacking is increased to <span style=\"color: rgb(243, 109, 28);\">60%</span> of the Shield's HP, while <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> taken by [effect:1bfc6e24-1df4-4f7e-96b1-e12a2e3b92ec] is increased to <span style=\"color: rgb(243, 109, 28);\">40%</span>.</p>",
+          "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/e3d1d28e6cfee8cd06b63f909ab24cb4918268e1f687d20806531ebfb0ba6582.webp",
+          "createdAt": "2025-10-11T17:01:54.707Z",
+          "updatedAt": "2025-10-11T17:01:54.707Z",
+          "vertebraeName": "Frosted Echo Lv.3"
+        }
+      },
+      {
+        "id": "49a553e7-3959-4810-ae20-d2a02c45ce1c",
+        "name": "Nix Requiem",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and consumes all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index consumed, deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the target.</p>",
+        "phase": "Freeze",
+        "ammoTypes": "[\"Medium Ammo\"]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": 1,
+        "imageUrl": "https://cdn.dandegate.net/skills/4c7aaefaa9483969e44bacb85adc3c43b1bb3b439506fa7e22d0b0045ae7d9b1.webp",
+        "createdAt": "2025-10-07T00:54:26.920Z",
+        "updatedAt": "2025-10-12T02:56:47.581Z",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "summonId": null,
+        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "a526e517-013b-4b03-9f95-5bc833f5269a",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Ultimate",
+          "Targeted"
+        ],
+        "keyUpgradesData": "[\"790e447c-b996-4446-aaa4-b62cdcb3264b\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 3",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and consumes all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index consumed, deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">40%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the target. After using this skill, all <span style=\"color: rgb(66, 205, 224);\">Freeze</span> allied units (excluding Alva herself) gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+          "createdAt": "2025-09-13T05:53:24.278Z",
+          "updatedAt": "2025-09-13T05:53:24.278Z",
+          "rangeValue": "8",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "a526e517-013b-4b03-9f95-5bc833f5269a",
+          "level": 2,
+          "effect": "<p>Damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">40%</span>. After using this skill, all <span style=\"color: rgb(66, 205, 224);\">Freeze</span>-type allied units (excluding Alva herself) gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+          "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "segment": 2,
+          "imageUrl": "https://cdn.dandegate.net/skills/4c7aaefaa9483969e44bacb85adc3c43b1bb3b439506fa7e22d0b0045ae7d9b1.webp",
+          "createdAt": "2025-10-11T16:55:24.074Z",
+          "updatedAt": "2025-10-11T16:55:24.074Z",
+          "vertebraeName": "Nix Requiem Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      }
+    ],
+    "keys": [
+      {
+        "id": "cfc811ae-86b5-4058-80a8-b7d42435410d",
+        "keyTitle": "The Blessed One",
+        "keyType": "Affinity Key",
+        "level": null,
+        "effect": "<p></p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks at Affinity Level 5</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "3%",
+        "attributeName2": "Health Boost",
+        "attributeValue2": "3%",
+        "attributeName3": "Crit DMG",
+        "attributeValue3": "3%",
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/8a70e6346a609fe982f4310fa57ad4bd6534e8038a1df3ec16a9785e1cee07fd.webp",
+        "createdAt": "2025-10-07T00:51:31.141Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "createdAt": "2025-10-05T23:45:11.113Z",
+              "updatedAt": "2025-10-05T23:45:11.113Z"
+            }
+          ],
+          "searchTags": [
+            "AN-94"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Affinity Key - The Blessed One"
+      },
+      {
+        "id": "9ba6b81a-14a3-4f73-a141-13d1c9f39ff9",
+        "keyTitle": "Mind's Eye",
+        "keyType": "Common Key",
+        "level": 40,
+        "effect": "<p>Phase damage dealt to enemy units with Shields is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks after obtaining all Fixed Keys</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "5%",
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/76ca8b38466b598dedf55ed0a528e91db47050c20185f92286562372596bd776.webp",
+        "createdAt": "2025-10-07T00:52:27.855Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "createdAt": "2025-10-05T23:45:11.113Z",
+              "updatedAt": "2025-10-05T23:45:11.113Z"
+            }
+          ],
+          "searchTags": [
+            "AN-94"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Common Key - Mind's Eye"
+      },
+      {
+        "id": "0c50f680-d466-4dce-94e1-92c6681662a3",
+        "keyTitle": "Snowfield Strider",
+        "keyType": "Fixed Key",
+        "keyNumber": 1,
+        "level": 20,
+        "effect": "<p>When [effect:ab60a823-e66a-47ba-96d0-651505dbadfd] is applied to enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of the [effect:7b5ece77-97d4-418a-b212-367ca951af7e], generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles within the area for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/03af218cbdf226d060a4321144e5cceadb32d280750f8d89d449e466501c5f2e.webp",
+        "createdAt": "2025-10-07T00:47:12.368Z",
+        "updatedAt": "2026-02-24T03:08:40.522Z",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "createdAt": "2025-10-05T23:45:11.113Z",
+              "updatedAt": "2025-10-05T23:45:11.113Z"
+            }
+          ],
+          "searchTags": [
+            "AN-94"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 1 - Snowfield Strider"
+      },
+      {
+        "id": "6b8b6326-962a-43f1-9657-0fe6702dfab8",
+        "keyTitle": "Logistics Specialist",
+        "keyType": "Fixed Key",
+        "keyNumber": 2,
+        "level": 20,
+        "effect": "<p>At the start of the battle, gains <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index and <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489].</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/57083ddc9957dd4a2eccd67a0b2b9f80ffcd8d54b092eaf4e160eed80e8439ab.webp",
+        "createdAt": "2025-10-07T00:47:53.771Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "createdAt": "2025-10-05T23:45:11.113Z",
+              "updatedAt": "2025-10-05T23:45:11.113Z"
+            }
+          ],
+          "searchTags": [
+            "AN-94"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 2 - Logistics Specialist"
+      },
+      {
+        "id": "44557d62-b3dd-4cea-b45b-0184d49f8e18",
+        "keyTitle": "Support Command",
+        "keyType": "Fixed Key",
+        "keyNumber": 3,
+        "level": 30,
+        "effect": "<p>When allied units with [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] take stability damage, it is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/201f66a500a6b6c452e0a35d4b7a68a6e9f5c7f5d42c7984c489f9cee35225f8.webp",
+        "createdAt": "2025-10-07T00:48:35.204Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "createdAt": "2025-10-05T23:45:11.113Z",
+              "updatedAt": "2025-10-05T23:45:11.113Z"
+            }
+          ],
+          "searchTags": [
+            "AN-94"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 3 - Support Command"
+      },
+      {
+        "id": "26389761-b026-47fd-9ec6-c2b000f02096",
+        "keyTitle": "Late Bloomer",
+        "keyType": "Fixed Key",
+        "keyNumber": 4,
+        "level": 30,
+        "effect": "<p>For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] consumed, Alva's attack is increased by <span style=\"color: rgb(243, 109, 28);\">3%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">18%</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/e93cee53d94fa24790037517db3a2b4fe574f2a567f1a1c6d1d49e25f3ae5ff8.webp",
+        "createdAt": "2025-10-07T00:49:11.791Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "createdAt": "2025-10-05T23:45:11.113Z",
+              "updatedAt": "2025-10-05T23:45:11.113Z"
+            }
+          ],
+          "searchTags": [
+            "AN-94"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 4 - Late Bloomer"
+      },
+      {
+        "id": "790e447c-b996-4446-aaa4-b62cdcb3264b",
+        "keyTitle": "Rise Anew",
+        "keyType": "Fixed Key",
+        "keyNumber": 5,
+        "level": 40,
+        "effect": "<p>Before using the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Nix Requiem</span>, cleanses <span style=\"color: rgb(243, 109, 28);\">2 buffs</span> from the target.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/b645489e126bc3129ec6ba79b1f8f39cd8ac5c9948cc2bb748cdd6f54db7f366.webp",
+        "createdAt": "2025-10-07T00:49:53.436Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "createdAt": "2025-10-05T23:45:11.113Z",
+              "updatedAt": "2025-10-05T23:45:11.113Z"
+            }
+          ],
+          "searchTags": [
+            "AN-94"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 5 - Rise Anew"
+      },
+      {
+        "id": "64059748-e587-482f-a65e-4ce2f01dc4d1",
+        "keyTitle": "Bonechill",
+        "keyType": "Fixed Key",
+        "keyNumber": 6,
+        "level": 40,
+        "effect": "<p>Stability damage taken by enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of the [effect:7b5ece77-97d4-418a-b212-367ca951af7e] is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/4ea2ce27e5a4626248ae61aecadc509773cd636b12a998366e1a35ab9e7a7e23.webp",
+        "createdAt": "2025-10-07T00:50:21.913Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "createdAt": "2025-10-05T23:45:11.113Z",
+              "updatedAt": "2025-10-05T23:45:11.113Z"
+            }
+          ],
+          "searchTags": [
+            "AN-94"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 6 - Bonechill"
+      }
+    ],
+    "vertebrae": [
+      {
+        "id": "5164198d-ee94-4052-8d43-9050885a648e",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "segment": 1,
+        "vertebraeName": "Frosted Echo Lv.2",
+        "level": 2,
+        "effect": "<p>Damage multiplier is increased to<span style=\"color: rgb(243, 109, 28);\"> 20%</span>. If Alva has <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] after skill usage, enters [effect:c7311545-15b6-4d08-be44-b3e5c76c406a] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>, and gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/e3d1d28e6cfee8cd06b63f909ab24cb4918268e1f687d20806531ebfb0ba6582.webp",
+        "createdAt": "2025-10-11T16:53:53.703Z",
+        "updatedAt": "2025-10-11T16:53:53.703Z",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "class": "Support",
+          "phase": "Freeze",
+          "rarity": "Elite",
+          "effects": "A tactical Doll who is outwardly cold, but who has a delicate heart. While she might seem to agree with others without much thought, the truth is that she takes their opinions to heart and tries her best to satisfy them. She notices little details and reactions that are otherwise overlooked and she is quite sensitive to her surroundings. However, this also leads to her being influenced easily by her environment.\r\n“I once thought time would change many things... However, it seems you haven't changed, and neither have we... It is only the world which changes every day.\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "4988086c-1820-46fb-8c96-5885304ead1b",
+            "name": "Frosted Echo",
+            "phase": "Freeze",
+            "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/e3d1d28e6cfee8cd06b63f909ab24cb4918268e1f687d20806531ebfb0ba6582.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-10-07T00:53:42.467Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Summon"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2025-10-30T17:06:22.145Z",
+            "description": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and consumes all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index consumed, deals AoE <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">15%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to it and all enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of the selected tile, and summons [effect:7b5ece77-97d4-418a-b212-367ca951af7e] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>. If Alva has <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] after skill usage, consumes <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] to gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "b8111ad3-cc58-4882-8d74-24916d8e4288",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 1,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and consumes all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index consumed, deals AoE <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to it and all enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of the selected tile, and summons [effect:7b5ece77-97d4-418a-b212-367ca951af7e] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>. If Alva has <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] after skill usage, enters [effect:c7311545-15b6-4d08-be44-b3e5c76c406a] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>, gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index, and consumes <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] to gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "5164198d-ee94-4052-8d43-9050885a648e",
+            "vertebraeUpgradeIdLevel3": "f695a263-8fb4-4089-b6cf-8b5fe3709517"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "a526e517-013b-4b03-9f95-5bc833f5269a",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "segment": 2,
+        "vertebraeName": "Nix Requiem Lv.2",
+        "level": 2,
+        "effect": "<p>Damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">40%</span>. After using this skill, all <span style=\"color: rgb(66, 205, 224);\">Freeze</span>-type allied units (excluding Alva herself) gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/4c7aaefaa9483969e44bacb85adc3c43b1bb3b439506fa7e22d0b0045ae7d9b1.webp",
+        "createdAt": "2025-10-11T16:55:24.074Z",
+        "updatedAt": "2025-10-11T16:55:24.074Z",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "class": "Support",
+          "phase": "Freeze",
+          "rarity": "Elite",
+          "effects": "A tactical Doll who is outwardly cold, but who has a delicate heart. While she might seem to agree with others without much thought, the truth is that she takes their opinions to heart and tries her best to satisfy them. She notices little details and reactions that are otherwise overlooked and she is quite sensitive to her surroundings. However, this also leads to her being influenced easily by her environment.\r\n“I once thought time would change many things... However, it seems you haven't changed, and neither have we... It is only the world which changes every day.\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "49a553e7-3959-4810-ae20-d2a02c45ce1c",
+            "name": "Nix Requiem",
+            "phase": "Freeze",
+            "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/4c7aaefaa9483969e44bacb85adc3c43b1bb3b439506fa7e22d0b0045ae7d9b1.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Medium Ammo\"]",
+            "createdAt": "2025-10-07T00:54:26.920Z",
+            "skillTags": [
+              "Ultimate",
+              "Targeted"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-10-12T02:56:47.581Z",
+            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and consumes all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index consumed, deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the target.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 1,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"790e447c-b996-4446-aaa4-b62cdcb3264b\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and consumes all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index consumed, deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">40%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the target. After using this skill, all <span style=\"color: rgb(66, 205, 224);\">Freeze</span> allied units (excluding Alva herself) gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "a526e517-013b-4b03-9f95-5bc833f5269a",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "164fa09f-7c7f-4881-863d-264bc26fc1af",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "segment": 3,
+        "vertebraeName": "Freezing Touch Lv.2",
+        "level": 2,
+        "effect": "<p>The effectiveness of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] applied by all allied units are increased to <span style=\"color: rgb(243, 109, 28);\">50%</span>. [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] gains a new effect: When the holder deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>, critical damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">1%</span> for every <span style=\"color: rgb(243, 109, 28);\">1,000</span> points of Shield HP the unit has.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/f13eb5b05fb4b22eb34b762ec6220b3d134ccd8fc096ff333e899565f5907287.webp",
+        "createdAt": "2025-10-11T16:57:47.904Z",
+        "updatedAt": "2025-10-11T16:57:47.904Z",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "class": "Support",
+          "phase": "Freeze",
+          "rarity": "Elite",
+          "effects": "A tactical Doll who is outwardly cold, but who has a delicate heart. While she might seem to agree with others without much thought, the truth is that she takes their opinions to heart and tries her best to satisfy them. She notices little details and reactions that are otherwise overlooked and she is quite sensitive to her surroundings. However, this also leads to her being influenced easily by her environment.\r\n“I once thought time would change many things... However, it seems you haven't changed, and neither have we... It is only the world which changes every day.\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "21fa628c-7e2d-48da-bb44-9e107e623bea",
+            "name": "Freezing Touch",
+            "phase": null,
+            "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/f13eb5b05fb4b22eb34b762ec6220b3d134ccd8fc096ff333e899565f5907287.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-10-07T00:55:24.993Z",
+            "skillTags": [
+              "Passive",
+              "Buff"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-10-30T13:39:46.018Z",
+            "description": "<p>The effectiveness of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] applied by all allied units are increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. When allied units gain Shields, the Shields are converted into [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] with an equal value.</p><p>At the end of Alva's action, she gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index. After launching [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], she gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>The effectiveness of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] applied by all allied units are increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>. When allied units gain Shields, the Shields are converted into [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] with an equal value.</p><p>At the end of Alva's action, she gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index. After launching [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], she gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "164fa09f-7c7f-4881-863d-264bc26fc1af",
+            "vertebraeUpgradeIdLevel3": "0d64adf8-9348-4bbc-b6c4-11419d6ccc2a"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "242c809f-33b9-477c-acb1-ee3e6cad524a",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "segment": 4,
+        "vertebraeName": "Snow Wolf's Heart Lv.2",
+        "level": 2,
+        "effect": "<p>While in [effect:c7311545-15b6-4d08-be44-b3e5c76c406a], the conversion rate of [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800] dealt by [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. In addition <span style=\"color: rgb(243, 109, 28);\">20%</span> of the damage dealt by the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Nix Requiem</span> will be converted into [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] and applied to all allied units.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/0a080e9902216287308c831a4163054eafdaef353a0fd0778b205f8c9e61b183.webp",
+        "createdAt": "2025-10-11T16:58:40.578Z",
+        "updatedAt": "2025-10-11T17:06:45.919Z",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "class": "Support",
+          "phase": "Freeze",
+          "rarity": "Elite",
+          "effects": "A tactical Doll who is outwardly cold, but who has a delicate heart. While she might seem to agree with others without much thought, the truth is that she takes their opinions to heart and tries her best to satisfy them. She notices little details and reactions that are otherwise overlooked and she is quite sensitive to her surroundings. However, this also leads to her being influenced easily by her environment.\r\n“I once thought time would change many things... However, it seems you haven't changed, and neither have we... It is only the world which changes every day.\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "f000961b-52c7-45ba-b2c3-8e8b8b13cfe2",
+            "name": "Snow Wolf's Heart",
+            "phase": "Freeze",
+            "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+            "cooldown": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/0a080e9902216287308c831a4163054eafdaef353a0fd0778b205f8c9e61b183.webp",
+            "summonId": null,
+            "ammoTypes": "[\"Medium Ammo\"]",
+            "createdAt": "2025-10-06T23:39:54.570Z",
+            "skillTags": [
+              "Active",
+              "Targeted"
+            ],
+            "skillType": "Skill 1",
+            "updatedAt": "2025-10-30T17:06:51.354Z",
+            "description": "<p>Enters [effect:c7311545-15b6-4d08-be44-b3e5c76c406a] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>. Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 2,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": null,
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "242c809f-33b9-477c-acb1-ee3e6cad524a",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "f695a263-8fb4-4089-b6cf-8b5fe3709517",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "segment": 5,
+        "vertebraeName": "Frosted Echo Lv.3",
+        "level": 3,
+        "effect": "<p>The effect of [effect:7b5ece77-97d4-418a-b212-367ca951af7e] is enhanced. Alva's damage multiplier when attacking is increased to <span style=\"color: rgb(243, 109, 28);\">60%</span> of the Shield's HP, while <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> taken by [effect:1bfc6e24-1df4-4f7e-96b1-e12a2e3b92ec] is increased to <span style=\"color: rgb(243, 109, 28);\">40%</span>.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/e3d1d28e6cfee8cd06b63f909ab24cb4918268e1f687d20806531ebfb0ba6582.webp",
+        "createdAt": "2025-10-11T17:01:54.707Z",
+        "updatedAt": "2025-10-11T17:01:54.707Z",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "class": "Support",
+          "phase": "Freeze",
+          "rarity": "Elite",
+          "effects": "A tactical Doll who is outwardly cold, but who has a delicate heart. While she might seem to agree with others without much thought, the truth is that she takes their opinions to heart and tries her best to satisfy them. She notices little details and reactions that are otherwise overlooked and she is quite sensitive to her surroundings. However, this also leads to her being influenced easily by her environment.\r\n“I once thought time would change many things... However, it seems you haven't changed, and neither have we... It is only the world which changes every day.\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "4988086c-1820-46fb-8c96-5885304ead1b",
+            "name": "Frosted Echo",
+            "phase": "Freeze",
+            "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/e3d1d28e6cfee8cd06b63f909ab24cb4918268e1f687d20806531ebfb0ba6582.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-10-07T00:53:42.467Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Summon"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2025-10-30T17:06:22.145Z",
+            "description": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and consumes all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index consumed, deals AoE <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">15%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to it and all enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of the selected tile, and summons [effect:7b5ece77-97d4-418a-b212-367ca951af7e] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>. If Alva has <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] after skill usage, consumes <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] to gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "b8111ad3-cc58-4882-8d74-24916d8e4288",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 1,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and consumes all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index consumed, deals AoE <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to it and all enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of the selected tile, and summons [effect:7b5ece77-97d4-418a-b212-367ca951af7e] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>. If Alva has <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] after skill usage, enters [effect:c7311545-15b6-4d08-be44-b3e5c76c406a] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>, gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index, and consumes <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] to gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "5164198d-ee94-4052-8d43-9050885a648e",
+            "vertebraeUpgradeIdLevel3": "f695a263-8fb4-4089-b6cf-8b5fe3709517"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "0d64adf8-9348-4bbc-b6c4-11419d6ccc2a",
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "segment": 6,
+        "vertebraeName": "Freezing Touch Lv.3",
+        "level": 3,
+        "effect": "<p>The maximum absorption strength of [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] is increased by <span style=\"color: rgb(243, 109, 28);\">300%</span> of Alva's initial attack. When the holder deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>, the damage increase and critical damage increase per <span style=\"color: rgb(243, 109, 28);\">1,000</span> points of Shield HP the unit has is doubled.</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/f13eb5b05fb4b22eb34b762ec6220b3d134ccd8fc096ff333e899565f5907287.webp",
+        "createdAt": "2025-10-11T16:58:15.889Z",
+        "updatedAt": "2025-10-11T17:00:05.266Z",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "class": "Support",
+          "phase": "Freeze",
+          "rarity": "Elite",
+          "effects": "A tactical Doll who is outwardly cold, but who has a delicate heart. While she might seem to agree with others without much thought, the truth is that she takes their opinions to heart and tries her best to satisfy them. She notices little details and reactions that are otherwise overlooked and she is quite sensitive to her surroundings. However, this also leads to her being influenced easily by her environment.\r\n“I once thought time would change many things... However, it seems you haven't changed, and neither have we... It is only the world which changes every day.\"",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "21fa628c-7e2d-48da-bb44-9e107e623bea",
+            "name": "Freezing Touch",
+            "phase": null,
+            "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/f13eb5b05fb4b22eb34b762ec6220b3d134ccd8fc096ff333e899565f5907287.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-10-07T00:55:24.993Z",
+            "skillTags": [
+              "Passive",
+              "Buff"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-10-30T13:39:46.018Z",
+            "description": "<p>The effectiveness of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] applied by all allied units are increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. When allied units gain Shields, the Shields are converted into [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] with an equal value.</p><p>At the end of Alva's action, she gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index. After launching [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], she gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>The effectiveness of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] applied by all allied units are increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>. When allied units gain Shields, the Shields are converted into [effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5] with an equal value.</p><p>At the end of Alva's action, she gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d9d5d327-fdd6-45d0-8df1-70176c6d8489] and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index. After launching [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], she gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "164fa09f-7c7f-4881-863d-264bc26fc1af",
+            "vertebraeUpgradeIdLevel3": "0d64adf8-9348-4bbc-b6c4-11419d6ccc2a"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      }
+    ],
+    "summons": [],
+    "remoldingPattern": {
+      "id": "6d0c5ccc-6a46-4fef-911a-673e90f93ac8",
+      "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+      "coreSlots": {
+        "bulwark": 1,
+        "support": 4,
+        "sentinel": 1,
+        "vanguard": 0
+      },
+      "statBoosts": {
+        "60": {
+          "hp": 707,
+          "atk": 231,
+          "def": 217
+        }
+      },
+      "dollCore": "Support Core",
+      "createdAt": "2025-10-11T22:58:50.769Z",
+      "updatedAt": "2025-10-12T00:35:41.076Z",
+      "doll": {
+        "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "name": "Alva",
+        "class": "Support",
+        "phase": "Freeze",
+        "rarity": "Elite",
+        "preview": false,
+        "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+        "regionTag": "en",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      "imagoforms": [
+        {
+          "id": "e2b9ecc3-34de-4a71-b4e5-afa9b5529045",
+          "stage": "Embryo",
+          "effect": "<p>When the unit has a shield, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 1,
+          "createdAt": "2025-10-11T22:58:50.937Z",
+          "updatedAt": "2025-10-12T00:35:41.120Z",
+          "bulwarkFactors": 0,
+          "supportFactors": 5,
+          "sentinelFactors": 1,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "bfa4e531-a27c-49dd-90f4-6149d7ae1c86",
+          "stage": "Seedling",
+          "effect": "<p>Physical and phase damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 10,
+          "createdAt": "2025-10-11T22:58:50.937Z",
+          "updatedAt": "2025-10-12T00:35:41.120Z",
+          "bulwarkFactors": 1,
+          "supportFactors": 7,
+          "sentinelFactors": 2,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "8dd6468b-cfd6-4fdf-80cb-1cc3ba90a1c9",
+          "stage": "Sprout",
+          "effect": "<p><span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 20,
+          "createdAt": "2025-10-11T22:58:50.937Z",
+          "updatedAt": "2025-10-12T00:35:41.120Z",
+          "bulwarkFactors": 2,
+          "supportFactors": 8,
+          "sentinelFactors": 3,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "10d82b59-2307-4cac-bc69-f96ce1ac4863",
+          "stage": "Shoot",
+          "effect": "<p>Damage dealt by all allied units is increased by <span style=\"color: rgb(243, 109, 28);\">4%</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. The effect's potency is progressively reduced by <span style=\"color: rgb(243, 109, 28);\">1%</span> each time a new stack is applied.</p>",
+          "coreLevel": 30,
+          "createdAt": "2025-10-11T22:58:50.937Z",
+          "updatedAt": "2025-10-12T00:35:41.120Z",
+          "bulwarkFactors": 3,
+          "supportFactors": 11,
+          "sentinelFactors": 4,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "3fc58b29-f8bf-4818-aa7f-9bf74357f408",
+          "stage": "Bud",
+          "effect": "<p>Attack and max HP is increased by <span style=\"color: rgb(243, 109, 28);\">4%</span>.</p>",
+          "coreLevel": 45,
+          "createdAt": "2025-10-11T22:58:50.937Z",
+          "updatedAt": "2025-10-12T00:35:41.120Z",
+          "bulwarkFactors": 4,
+          "supportFactors": 15,
+          "sentinelFactors": 4,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "11c168f7-1f94-418a-b8d4-7cc2553a8d66",
+          "stage": "Blossom",
+          "effect": "<p>At the start of the battle, the <span style=\"color: rgb(243, 109, 28);\">2</span> allied units with the highest attack have their attack increased by <span style=\"color: rgb(243, 109, 28);\">3%</span>. Does not stack.</p>",
+          "coreLevel": 60,
+          "createdAt": "2025-10-11T22:58:50.937Z",
+          "updatedAt": "2025-10-12T00:35:41.120Z",
+          "bulwarkFactors": 5,
+          "supportFactors": 18,
+          "sentinelFactors": 6,
+          "vanguardFactors": 0
+        }
+      ],
+      "equippedRelics": []
+    },
+    "dollEffects": [
+      {
+        "id": "d9d5d327-fdd6-45d0-8df1-70176c6d8489",
+        "effectName": "Battle Prep",
+        "effectDetails": "<p>Alva's exclusive effect. Can be stacked, cannot be cleansed.</p>",
+        "effectTags": [],
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-07T00:05:14.509Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AN-94"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "e3473ce9-ebdd-46fd-b24f-866a01612fc5",
+        "effectName": "Brumal Barrier",
+        "effectDetails": "{\"mainDetails\":\"<p>Considered a Shield. Absorption cannot exceed <span style=\\\"color: rgb(243, 109, 28);\\\">200%</span> of Alva's initial attack. When the holder deals <span style=\\\"color: rgb(66, 205, 224);\\\">Freeze damage</span>, damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">1.5%</span> for every <span style=\\\"color: rgb(243, 109, 28);\\\">1,000</span> points of Shield value. After the holder is attacked, applies <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of <span style=\\\"color: rgb(34, 139, 230);\\\">[effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae]</span> to the attacker for <span style=\\\"color: rgb(243, 109, 28);\\\">1 turn</span>. This effect is treated as a <span style=\\\"color: rgb(34, 139, 230);\\\">[effect:abce6753-fe29-4ca3-b487-7453e982b279]</span>. Considered a Freeze buff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"7cdfa7ec-e659-43ae-a78b-7c2a348b55b0\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>Considered a Shield. Absorption cannot exceed <span style=\\\"color: rgb(243, 109, 28);\\\">200%</span> of Alva's initial attack. When the holder deals <span style=\\\"color: rgb(66, 205, 224);\\\">Freeze damage</span>, damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">1.5%</span> and critical damage is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">1%</span> for every <span style=\\\"color: rgb(243, 109, 28);\\\">1,000</span> points of Shield value. After the holder is attacked, applies <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of <span style=\\\"color: rgb(34, 139, 230);\\\">[effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae]</span> to the attacker for <span style=\\\"color: rgb(243, 109, 28);\\\">1 turn</span>. This effect is treated as a <span style=\\\"color: rgb(34, 139, 230);\\\">[effect:abce6753-fe29-4ca3-b487-7453e982b279]</span>. Considered a Freeze buff, cannot be cleansed.</p>\",\"order\":0},{\"id\":\"83082251-8e03-4289-8b9e-9c7e18e1fee0\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>Considered a Shield. Absorption cannot exceed <span style=\\\"color: rgb(243, 109, 28);\\\">300%</span> of Alva's initial attack. When the holder deals <span style=\\\"color: rgb(66, 205, 224);\\\">Freeze damage</span>, damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">3%</span> and critical damage is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">2%</span> for every <span style=\\\"color: rgb(243, 109, 28);\\\">1,000</span> points of Shield value. After the holder is attacked, applies <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of <span style=\\\"color: rgb(34, 139, 230);\\\">[effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae]</span> to the attacker for <span style=\\\"color: rgb(243, 109, 28);\\\">1 turn</span>. This effect is treated as a <span style=\\\"color: rgb(34, 139, 230);\\\">[effect:abce6753-fe29-4ca3-b487-7453e982b279]</span>. Considered a Freeze buff, cannot be cleansed.</p>\",\"order\":1}]}",
+        "effectTags": [
+          "Attack",
+          "Buff",
+          "Defense",
+          "Freeze"
+        ],
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-06T23:31:41.206Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AN-94"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "c7311545-15b6-4d08-be44-b3e5c76c406a",
+        "effectName": "Covering Mode",
+        "effectDetails": "{\"mainDetails\":\"<p><span style=\\\"color: rgb(66, 205, 224);\\\">Freeze damage</span> dealt by allied units to enemy units with Shield effects is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span>. Alva's critical rate is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span>. Before an enemy unit within <span style=\\\"color: rgb(243, 109, 28);\\\">8 tiles</span> launches an active attack, launches <span style=\\\"color: rgb(243, 109, 28);\\\">1 instance</span> of <span style=\\\"color: rgb(34, 139, 230);\\\">[effect:013c5bd7-5fbe-4337-8f26-70872d9a5800],</span> dealing <span style=\\\"color: rgb(66, 205, 224);\\\">Freeze damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">4 points</span> of stability damage, as well as transferring <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span> of the damage from this attack to all allied units' <span style=\\\"color: rgb(34, 139, 230);\\\">[effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5|doll:alva]</span>. This effect can be triggered up to <span style=\\\"color: rgb(243, 109, 28);\\\">3 times</span> per turn. Cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"27e31837-eaef-4024-8660-15ed569fda51\",\"upgradeName\":\"V4\",\"upgradeDetails\":\"<p><span style=\\\"color: rgb(66, 205, 224);\\\">Freeze damage</span> dealt by allied units to enemy units with Shield effects is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span>. Alva's critical rate is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span>. <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span> of all damage dealt by the Ultimate skill <span style=\\\"color: rgb(34, 139, 230);\\\">Nix Requiem</span> is applied to all allied units' <span style=\\\"color: rgb(34, 139, 230);\\\">[effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5|doll:alva]</span>. Before an enemy unit within <span style=\\\"color: rgb(243, 109, 28);\\\">8 tiles</span> launches an active attack, launches <span style=\\\"color: rgb(243, 109, 28);\\\">1 instance</span> of <span style=\\\"color: rgb(34, 139, 230);\\\">[effect:013c5bd7-5fbe-4337-8f26-70872d9a5800]</span>, dealing <span style=\\\"color: rgb(66, 205, 224);\\\">Freeze damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">4 points</span> of stability damage, as well as transferring <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span> of the damage from this attack to all allied units' <span style=\\\"color: rgb(34, 139, 230);\\\">[effect:e3473ce9-ebdd-46fd-b24f-866a01612fc5|doll:alva]</span>. This effect can be triggered up to <span style=\\\"color: rgb(243, 109, 28);\\\">3 times</span> per turn. Cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectTags": [],
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-06T22:37:00.265Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AN-94"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "b6f46bd2-1d20-47e5-889f-b62c11921e66",
+        "effectName": "Frostbite",
+        "effectDetails": "<p><span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> taken is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Removed after gaining <span style=\"color: rgb(34, 139, 230);\">[effect:ab60a823-e66a-47ba-96d0-651505dbadfd|doll:alva]</span>. Considered a Freeze debuff, cannot be cleansed.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze"
+        ],
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-06T23:59:23.547Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AN-94"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "ab60a823-e66a-47ba-96d0-651505dbadfd",
+        "effectName": "Hoarfrost",
+        "effectDetails": "<p>Considered a special shield. Can co-exist with other shields, but is not depleted preferentially over normal HP. When broken, its bearer gains <span style=\"color: rgb(34, 139, 230);\">[effect:b6f46bd2-1d20-47e5-889f-b62c11921e66|doll:alva]</span> and <span style=\"color: rgb(34, 139, 230);\">[effect:f2edbeb3-9755-49e7-91f4-dc6fba3b30d9|doll:klukai]</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Considered a Freeze debuff, cannot be cleansed.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze"
+        ],
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-06T23:49:38.216Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AN-94"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "1bfc6e24-1df4-4f7e-96b1-e12a2e3b92ec",
+        "effectName": "Hypothermia",
+        "effectDetails": "{\"mainDetails\":\"<p><span style=\\\"color: rgb(66, 205, 224);\\\">Freeze damage</span> taken is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span>. Considered a Freeze debuff.</p>\",\"upgrades\":[{\"id\":\"ac81c951-ea2a-4d2b-8275-a6e8403cb199\",\"upgradeName\":\"V5\",\"upgradeDetails\":\"<p><span style=\\\"color: rgb(66, 205, 224);\\\">Freeze damage</span> taken is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">40%</span>. Considered a Freeze debuff.</p>\",\"order\":0}]}",
+        "effectTags": [
+          "Debuff",
+          "Freeze"
+        ],
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-06T23:47:16.645Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AN-94"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "7b5ece77-97d4-418a-b212-367ca951af7e",
+        "effectName": "Liquid N2 Fang",
+        "effectDetails": "{\"mainDetails\":\"<p>Applies [effect:1bfc6e24-1df4-4f7e-96b1-e12a2e3b92ec] to enemy units within <span style=\\\"color: rgb(243, 109, 28);\\\">4 tiles</span> of it. Before enemy units within its range are attacked, if they do not have [effect:ab60a823-e66a-47ba-96d0-651505dbadfd], removes an amount of their HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">500%</span> of Alva's attack and convert it to an equal amount of [effect:ab60a823-e66a-47ba-96d0-651505dbadfd]. This cannot reduce their HP below <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> and it can be triggered up to <span style=\\\"color: rgb(243, 109, 28);\\\">1 time</span> per enemy unit per round. A maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> Liquid N2 Fang can exist at any one time. When an enemy unit within its range has its Shield broken and it is within <span style=\\\"color: rgb(243, 109, 28);\\\">8 tiles</span> of Alva, Alva launches <span style=\\\"color: rgb(243, 109, 28);\\\">1 attack</span> against it, dealing <span style=\\\"color: rgb(66, 205, 224);\\\">Freeze damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">40%</span> of the Shield's total absorption strength.</p>\",\"upgrades\":[{\"id\":\"6ad6087e-6ceb-43fb-a3f7-10849ffee41a\",\"upgradeName\":\"V5\",\"upgradeDetails\":\"<p>Applies [effect:1bfc6e24-1df4-4f7e-96b1-e12a2e3b92ec] to enemy units within <span style=\\\"color: rgb(243, 109, 28);\\\">4 tiles</span> of it. Before enemy units within its range are attacked, if they do not have [effect:ab60a823-e66a-47ba-96d0-651505dbadfd], removes an amount of their HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">500%</span> of Alva's attack and convert it to an equal amount of [effect:ab60a823-e66a-47ba-96d0-651505dbadfd]. This cannot reduce their HP below <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> and it can be triggered up to <span style=\\\"color: rgb(243, 109, 28);\\\">1 time</span> per enemy unit per round. A maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> Liquid N2 Fang can exist at any one time. When an enemy unit within its range has its Shield broken and it is within <span style=\\\"color: rgb(243, 109, 28);\\\">8 tiles</span> of Alva, Alva launches <span style=\\\"color: rgb(243, 109, 28);\\\">1 attack</span> against it, dealing <span style=\\\"color: rgb(66, 205, 224);\\\">Freeze damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span> of the Shield's total absorption strength.</p>\",\"order\":0}]}",
+        "effectTags": [],
+        "dollId": "e72f0929-209d-4df7-a7a2-f1684094a737",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-11T16:21:18.090Z",
+        "updatedAt": "2026-02-19T17:37:20.874Z",
+        "doll": {
+          "id": "e72f0929-209d-4df7-a7a2-f1684094a737",
+          "name": "Alva",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/alva/2915f97a3d1c72134cd648de446d3be29e3bbbedc88377f6fecd23f7ac8d46e9.webp",
+          "createdAt": "2025-10-05T23:45:10.302Z",
+          "regionTag": "en",
+          "updatedAt": "2026-02-19T17:37:20.034Z",
+          "dollImages": [
+            {
+              "id": "13d16faf-2f4d-4792-b05e-eea963967cbb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/94eb3d28c3fa029b655075bb917d5429dfd6eef7ff5deca21a2b1c542bafb67b.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "AN-94"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

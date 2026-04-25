@@ -1,0 +1,1572 @@
+{
+  "success": true,
+  "data": {
+    "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+    "name": "Centaureissi",
+    "class": "Support",
+    "ammoTypes": "[\"Medium Ammo\"]",
+    "phase": "Burn",
+    "rarity": "Elite",
+    "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+    "regionTag": "en",
+    "preview": false,
+    "createdAt": "2025-09-23T03:39:08.101Z",
+    "updatedAt": "2025-10-02T05:32:05.525Z",
+    "searchTags": [
+      "G36",
+      "Sturmgewehr 36",
+      "Reissi"
+    ],
+    "dollImages": [
+      {
+        "id": "89f9b12f-d3e0-46c2-89a9-e5db84cf700e",
+        "category": "Card",
+        "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/card-ad57a6988d909ec2ed9f42db57914d21.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "a3d8341a-4bf7-47cc-898f-9f9457934df1",
+        "category": "Chibi",
+        "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/chibi-ea558f238f50676d04cbc2e0066ca0be.webp",
+        "skinTitle": null,
+        "alt": null
+      },
+      {
+        "id": "4c031ca8-b3c2-43e2-9085-dc3e534a071b",
+        "category": "Skin",
+        "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/skin-0-0a18e4d1c0bba824c0cd62998f40a2e8.webp",
+        "skinTitle": "skin-0-0a18e4d1c0bba824c0cd62998f40a2e8.webp",
+        "alt": null
+      }
+    ],
+    "weaponImprintType": null,
+    "weaponImprint": {
+      "id": "9e457937-392a-4f4f-9d4c-27a9d808b64e",
+      "name": "Maid's Rules",
+      "rarity": "Elite",
+      "weaponType": "Assault Rifle",
+      "primaryAttributeStat": 320,
+      "primaryAttribute": "Attack",
+      "secondaryAttribute": "Attack Boost",
+      "secondaryAttributeStat": "15%",
+      "trait": "<p>After healing, the user recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn.</p>",
+      "effect": "<p>When healing with active skills, if the target's stability is less than <span style=\"color: rgb(243, 109, 28);\">1/2/3/4/4/4</span> point(s), restores an additional <span style=\"color: rgb(243, 109, 28);\">2</span> points of stability to them. This can trigger at most <span style=\"color: rgb(243, 109, 28);\">1/1/1/1/1/2</span> time(s) per turn. When the user's stability is full, healing and damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">20%/25%/30%/35%/40%/40%</span>.</p>",
+      "imprintDescription": "<p>Increase damage dealt to Paradeus by <span style=\"color: rgb(243, 109, 28);\">2.5%</span><span>. If using a skill with a Phase Element, increase it by an additional </span><span style=\"color: rgb(243, 109, 28);\">2.5%</span><span>.</span></p>",
+      "imageUrl": "https://cdn.dandegate.net/weapons/1792091870d6cfd888ab3562f2b44454.webp",
+      "createdAt": "2025-10-02T23:01:44.691Z",
+      "updatedAt": "2025-11-14T08:50:42.342Z",
+      "regionTag": "en",
+      "preview": false,
+      "imprintDollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+      "imprintDoll": {
+        "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "name": "Centaureissi",
+        "rarity": "Elite",
+        "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp"
+      }
+    },
+    "stabilityGauge": 10,
+    "movement": 6,
+    "effects": "A humble yet principled Doll. She brews aromatic coffee and stands as the steadfast guardian of the café - She is the irreplaceable shield of \"Zucchero\".",
+    "skills": [
+      {
+        "id": "b4995179-caec-4a6c-89db-096ab5d6423f",
+        "name": "Cleaning Time",
+        "description": "<p>Selects 1 target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span><span>, dealing Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack.</span></p>",
+        "phase": "Physical",
+        "ammoTypes": "[\"Medium Ammo\"]",
+        "stabilityDamage": 3,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/a7f6b965d43536c27ce95545f0fd12c5.webp",
+        "createdAt": "2025-09-23T03:51:29.330Z",
+        "updatedAt": "2025-09-26T01:33:25.841Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "summonId": null,
+        "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": null,
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Basic Attack",
+        "ammoTypesLevel2": null,
+        "ammoTypesLevel3": null,
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
+          "createdAt": "2025-09-13T05:51:44.706Z",
+          "updatedAt": "2025-09-13T05:51:44.706Z",
+          "rangeValue": "7",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": null,
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "60dfd4ac-acd9-4aa5-b84f-c6388c0e41f4",
+        "name": "Maid's Duty",
+        "description": "<p>At the start of the battle, gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p><p>When the user is under the effects of [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]: Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When healing, additionally heals <span style=\"color: rgb(243, 109, 28);\">10%</span> of the user's max HP. After active attacks, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>When an enemy unit within range receives targeted damage from an ally, prioritize performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] to the allied unit. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/5cfe48271d8409dbb943cab6a8c6164b.webp",
+        "createdAt": "2025-09-23T04:10:27.163Z",
+        "updatedAt": "2025-11-04T06:08:23.201Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "summonId": null,
+        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "b016b9d6-a330-40c2-a74e-f892a1c8b405",
+        "vertebraeUpgradeIdLevel3": "c8f0a33e-88ac-4b5d-8973-afe8550cfa23",
+        "skillTags": [
+          "Passive",
+          "Buff",
+          "Debuff",
+          "Support"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Passive",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>At the start of the battle, gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p><p>When the user is under the effects of [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]: Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When healing, additionally heals <span style=\"color: rgb(243, 109, 28);\">10%</span> of the user's max HP. After active attacks, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>When an enemy unit within range receives targeted damage from an ally, prioritize performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to  <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, along with [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8]. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
+        "descriptionLevel3": "<p>At the start of battle, gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p><p>When self has [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]: Increases healing effect by <span style=\"color: rgb(243, 109, 28);\">20%</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">40%</span>; when healing, additionally heals <span style=\"color: rgb(243, 109, 28);\">10%</span> of self max HP; after active attacks, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the healing target has [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], increases healing effect by <span style=\"color: rgb(243, 109, 28);\">50%</span>; if the attack target has [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>When an enemy unit within range receives targeted damage from an ally, prioritize performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack as Physical damage and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, along with [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8]. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+          "createdAt": "2025-09-13T05:48:21.166Z",
+          "updatedAt": "2025-09-13T05:48:21.166Z",
+          "rangeValue": "Self",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "b016b9d6-a330-40c2-a74e-f892a1c8b405",
+          "level": 2,
+          "effect": "<p>When [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] is triggered, additionally applies [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+          "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "segment": 1,
+          "imageUrl": "https://cdn.dandegate.net/skills/5cfe48271d8409dbb943cab6a8c6164b.webp",
+          "createdAt": "2025-09-23T05:25:43.071Z",
+          "updatedAt": "2025-10-14T07:06:11.433Z",
+          "vertebraeName": "Maid's Duty Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "c8f0a33e-88ac-4b5d-8973-afe8550cfa23",
+          "level": 3,
+          "effect": "<p>When [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] is active: Increase healing by <span style=\"color: rgb(243, 109, 28);\">20%</span><span> and damage dealt by </span><span style=\"color: rgb(243, 109, 28);\">40%</span><span>. If the healing target has [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], the healing increase is raised to </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span>; if the attack target has [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], the damage dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span>.</span></p>",
+          "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "segment": 2,
+          "imageUrl": "https://cdn.dandegate.net/skills/5cfe48271d8409dbb943cab6a8c6164b.webp",
+          "createdAt": "2025-09-23T05:27:27.418Z",
+          "updatedAt": "2025-10-14T07:06:11.610Z",
+          "vertebraeName": "Maid's Duty Lv.3"
+        }
+      },
+      {
+        "id": "ffd58548-8346-4b2e-a184-e026c10802bb",
+        "name": "Careful Hospitality",
+        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to them. After attacking, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to the nearest allied target (excluding the user) and gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]. If the enemy target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], heals 1 additional allied target. </p>",
+        "phase": "Burn",
+        "ammoTypes": null,
+        "stabilityDamage": 6,
+        "cooldown": 1,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/53abee44ccc4f7fa60c1effea1d71298.webp",
+        "createdAt": "2025-09-23T03:54:10.673Z",
+        "updatedAt": "2025-10-14T07:06:58.428Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "summonId": null,
+        "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "61637a65-dbbd-463d-880a-ff6558688207",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "Targeted",
+          "Healing",
+          "Buff"
+        ],
+        "keyUpgradesData": "[]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 1",
+        "ammoTypesLevel2": null,
+        "ammoTypesLevel3": null,
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to them. After attacking, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to the nearest allied target (excluding the user) and gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]. If the enemy target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], heals 1 additional allied target. If the user has [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], gains [effect:5daaf7a7-a831-44dd-9e64-1db0da736e7c].</p>",
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": null,
+        "skillTagsLevel3": null,
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
+          "createdAt": "2025-09-13T05:51:44.706Z",
+          "updatedAt": "2025-09-13T05:51:44.706Z",
+          "rangeValue": "7",
+          "effectiveArea": "Target"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "61637a65-dbbd-463d-880a-ff6558688207",
+          "level": 2,
+          "effect": "<p>If the user has [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], gain [effect:5daaf7a7-a831-44dd-9e64-1db0da736e7c].</p>",
+          "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "segment": 3,
+          "imageUrl": "https://cdn.dandegate.net/skills/53abee44ccc4f7fa60c1effea1d71298.webp",
+          "createdAt": "2025-09-23T05:28:09.597Z",
+          "updatedAt": "2025-10-14T07:06:11.791Z",
+          "vertebraeName": "Careful Hospitality Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "5fdbb595-8b8c-42b3-b64a-285fb063cd3f",
+        "name": "Zucchero's Special Drink",
+        "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, restoring total HP equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to the target and all allied units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>. The healing is distributed evenly among all targets. Additionally, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to all enemies within range. If the enemy targets have [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> of their buffs.</p>",
+        "phase": "Physical",
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": 2,
+        "confectanceCost": null,
+        "imageUrl": "https://cdn.dandegate.net/skills/0fe50ada11c4624d43c2baab664eb0ec.webp",
+        "createdAt": "2025-09-23T03:58:25.794Z",
+        "updatedAt": "2025-10-14T07:07:14.356Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "summonId": null,
+        "rangeMapId": "c400231e-64a3-4ece-b2a0-495216f5f504",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "f253e736-2f4b-41df-9672-9dcb5dc7e7a0",
+        "vertebraeUpgradeIdLevel3": null,
+        "skillTags": [
+          "Active",
+          "AoE",
+          "Healing",
+          "Cleanse"
+        ],
+        "keyUpgradesData": "[\"ae828f32-a504-44b8-9cda-7f1a3960d5b9\",\"fe1a8bef-02dc-4b01-8f76-6ffd66e6304f\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 2",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": null,
+        "descriptionLevel3": null,
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "c400231e-64a3-4ece-b2a0-495216f5f504",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1757747162761-r7e3.webp",
+          "createdAt": "2025-09-13T07:06:02.873Z",
+          "updatedAt": "2025-09-13T07:06:02.873Z",
+          "rangeValue": "7",
+          "effectiveArea": "3"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "f253e736-2f4b-41df-9672-9dcb5dc7e7a0",
+          "level": 2,
+          "effect": "<p>Each allied target restores at least <span style=\"color: rgb(243, 109, 28);\">75%</span><span> of Centaureissi's attack as HP.</span></p>",
+          "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "segment": 5,
+          "imageUrl": "https://cdn.dandegate.net/skills/0fe50ada11c4624d43c2baab664eb0ec.webp",
+          "createdAt": "2025-09-23T05:30:51.303Z",
+          "updatedAt": "2025-09-23T05:30:51.303Z",
+          "vertebraeName": "Zucchero's Special Drink Lv.2"
+        },
+        "vertebraeUpgradeLevel3": null
+      },
+      {
+        "id": "74efb130-d73a-49cd-bc49-e94e0f1dabd7",
+        "name": "Afternoon Tea Break",
+        "description": "<p>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all allies, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs, removes [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], and restores up to <span style=\"color: rgb(243, 109, 28);\">7 points</span> of stability index to the ally with the lowest stability index. After healing, applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p>",
+        "phase": null,
+        "ammoTypes": "[]",
+        "stabilityDamage": null,
+        "cooldown": null,
+        "confectanceCost": 6,
+        "imageUrl": "https://cdn.dandegate.net/skills/4bb491791975116fce50c5c05cf6ccdf.webp",
+        "createdAt": "2025-09-23T04:01:22.052Z",
+        "updatedAt": "2025-10-30T14:27:27.925Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "summonId": null,
+        "rangeMapId": "7367a56d-9c69-4037-8f5f-17b17296a79f",
+        "rangeMapIdLevel2": null,
+        "rangeMapIdLevel3": null,
+        "vertebraeUpgradeIdLevel2": "5dbb3ac4-d8c1-4e50-8c5a-960b09057c50",
+        "vertebraeUpgradeIdLevel3": "3474480a-fc98-43b7-a0ba-b69266195cb0",
+        "skillTags": [
+          "Ultimate",
+          "Healing",
+          "Stability Regen",
+          "Cleanse",
+          "Buff"
+        ],
+        "keyUpgradesData": "[\"fe1a8bef-02dc-4b01-8f76-6ffd66e6304f\"]",
+        "keyUpgradesType": "keys",
+        "skillType": "Skill 3",
+        "ammoTypesLevel2": "[]",
+        "ammoTypesLevel3": "[]",
+        "confectanceCostLevel2": null,
+        "confectanceCostLevel3": null,
+        "cooldownLevel2": null,
+        "cooldownLevel3": null,
+        "descriptionLevel2": "<p>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all allies, cleanses <span style=\"color: rgb(243, 109, 28);\">3</span> debuffs, removes [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], and restores up to <span style=\"color: rgb(243, 109, 28);\">7 points</span> of stability index to the ally with the lowest stability index. After healing, applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p>",
+        "descriptionLevel3": "<p>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all allies, cleanses <span style=\"color: rgb(243, 109, 28);\">3</span> debuffs, removes [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], and restores up to <span style=\"color: rgb(243, 109, 28);\">8 points</span> of stability index to <span style=\"color: rgb(243, 109, 28);\">2</span> allies with the lowest stability index. After healing, applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p>",
+        "phaseLevel2": null,
+        "phaseLevel3": null,
+        "skillTagsLevel2": "[]",
+        "skillTagsLevel3": "[]",
+        "stabilityDamageLevel2": null,
+        "stabilityDamageLevel3": null,
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "preview": false
+        },
+        "summon": null,
+        "rangeMap": {
+          "id": "7367a56d-9c69-4037-8f5f-17b17296a79f",
+          "imageUrl": "https://cdn.dandegate.net/range-maps/1758600507741-map map.webp",
+          "createdAt": "2025-09-23T04:08:27.867Z",
+          "updatedAt": "2025-09-23T04:08:27.867Z",
+          "rangeValue": "Map",
+          "effectiveArea": "Map"
+        },
+        "rangeMapLevel2": null,
+        "rangeMapLevel3": null,
+        "vertebraeUpgradeLevel2": {
+          "id": "5dbb3ac4-d8c1-4e50-8c5a-960b09057c50",
+          "level": 2,
+          "effect": "<p>The number of debuffs cleansed increases by <span style=\"color: rgb(243, 109, 28);\">1</span><span>, and removes [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b].</span></p>",
+          "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "segment": 4,
+          "imageUrl": "https://cdn.dandegate.net/skills/4bb491791975116fce50c5c05cf6ccdf.webp",
+          "createdAt": "2025-09-23T05:29:22.936Z",
+          "updatedAt": "2025-10-14T07:06:11.965Z",
+          "vertebraeName": "Afternoon Tea Break Lv.2"
+        },
+        "vertebraeUpgradeLevel3": {
+          "id": "3474480a-fc98-43b7-a0ba-b69266195cb0",
+          "level": 3,
+          "effect": "<p>Restores stability index for <span style=\"color: rgb(243, 109, 28);\">2</span><span> allies with the lowest stability, then further increase it by </span><span style=\"color: rgb(243, 109, 28);\">1 point</span><span>.</span></p>",
+          "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "segment": 6,
+          "imageUrl": "https://cdn.dandegate.net/skills/4bb491791975116fce50c5c05cf6ccdf.webp",
+          "createdAt": "2025-09-23T05:31:44.904Z",
+          "updatedAt": "2025-09-25T22:51:39.357Z",
+          "vertebraeName": "Afternoon Tea Break Lv.3"
+        }
+      }
+    ],
+    "keys": [
+      {
+        "id": "ce12a6d2-a392-49eb-86e4-776cca3955a8",
+        "keyTitle": "Maid's Pride",
+        "keyType": "Affinity Key",
+        "level": null,
+        "effect": "<p> </p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks at Affinity Level 5</p>",
+        "attributeName1": "Attack Boost",
+        "attributeValue1": "3%",
+        "attributeName2": "Health Boost",
+        "attributeValue2": "3%",
+        "attributeName3": "Defense Boost",
+        "attributeValue3": "3%",
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/535bc0579322a7201eb06792593e537e.webp",
+        "createdAt": "2025-09-23T05:12:31.080Z",
+        "updatedAt": "2025-09-25T22:50:29.141Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "dollImages": [
+            {
+              "id": "a3d8341a-4bf7-47cc-898f-9f9457934df1",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/chibi-ea558f238f50676d04cbc2e0066ca0be.webp",
+              "createdAt": "2025-09-25T22:55:52.422Z",
+              "updatedAt": "2025-09-25T22:55:52.422Z"
+            }
+          ],
+          "searchTags": [
+            "G36",
+            "Sturmgewehr 36",
+            "Reissi"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Affinity Key - Maid's Pride"
+      },
+      {
+        "id": "242f7be4-f63f-4150-a007-4b968a63d59e",
+        "keyTitle": "Essential Hot Beverages",
+        "keyType": "Common Key",
+        "level": 40,
+        "effect": "<p>At the end of action, applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] to the closest allied unit without [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]. This effect has a <span style=\"color: rgb(243, 109, 28);\">2-turn</span> cooldown.</p>",
+        "materialsType": "text",
+        "materialsData": "<p>Unlocks after obtaining all Fixed Keys</p>",
+        "attributeName1": "Health Boost",
+        "attributeValue1": "5%",
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/e74366065654fbbde4dc643b0fc898b5.webp",
+        "createdAt": "2025-09-23T03:49:13.558Z",
+        "updatedAt": "2025-10-14T07:06:40.590Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "dollImages": [
+            {
+              "id": "a3d8341a-4bf7-47cc-898f-9f9457934df1",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/chibi-ea558f238f50676d04cbc2e0066ca0be.webp",
+              "createdAt": "2025-09-25T22:55:52.422Z",
+              "updatedAt": "2025-09-25T22:55:52.422Z"
+            }
+          ],
+          "searchTags": [
+            "G36",
+            "Sturmgewehr 36",
+            "Reissi"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Common Key - Essential Hot Beverages"
+      },
+      {
+        "id": "fe1a8bef-02dc-4b01-8f76-6ffd66e6304f",
+        "keyTitle": "Will To Protect",
+        "keyType": "Expansion Key",
+        "level": 60,
+        "effect": "<p>At the start of battle and after using the Ultimate Skill <span style=\"color: rgb(34, 139, 230);\">Afternoon Tea Break</span>, applies [effect:f6be3959-152e-423c-abef-f97f1cb8a44e] to Centaureissi for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>.</p><p>After using the active skill <span style=\"color: rgb(34, 139, 230);\">Zucchero's Special Drink</span>, applies [effect:87d14238-137a-4e76-aa3d-4bafe01847e0] to all allied units for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>When Centaureissi performs a Support Attack to cover an attack that deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> launched by allied units, Centaureissi gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/74955809-f066-49c6-a3dc-e76214bfd203-will-to-protect.webp",
+        "createdAt": "2025-09-23T04:45:39.015Z",
+        "updatedAt": "2025-10-14T07:06:44.795Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "dollImages": [
+            {
+              "id": "a3d8341a-4bf7-47cc-898f-9f9457934df1",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/chibi-ea558f238f50676d04cbc2e0066ca0be.webp",
+              "createdAt": "2025-09-25T22:55:52.422Z",
+              "updatedAt": "2025-09-25T22:55:52.422Z"
+            }
+          ],
+          "searchTags": [
+            "G36",
+            "Sturmgewehr 36",
+            "Reissi"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Expansion Key - Will To Protect"
+      },
+      {
+        "id": "c0064150-78c9-4534-9a9b-734e74917854",
+        "keyTitle": "Pre-Meal Dessert",
+        "keyType": "Fixed Key",
+        "keyNumber": 1,
+        "level": 20,
+        "effect": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 points</span><span> of Confectance Index at the start of the battle.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/87166484-cf38-4961-9b20-c8b46ee23486-pre-meal-dessert.webp",
+        "createdAt": "2025-09-23T03:42:09.248Z",
+        "updatedAt": "2025-09-23T03:42:09.248Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "dollImages": [
+            {
+              "id": "a3d8341a-4bf7-47cc-898f-9f9457934df1",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/chibi-ea558f238f50676d04cbc2e0066ca0be.webp",
+              "createdAt": "2025-09-25T22:55:52.422Z",
+              "updatedAt": "2025-09-25T22:55:52.422Z"
+            }
+          ],
+          "searchTags": [
+            "G36",
+            "Sturmgewehr 36",
+            "Reissi"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 1 - Pre-Meal Dessert"
+      },
+      {
+        "id": "ee628709-7ae0-4c28-b753-932b01668b7c",
+        "keyTitle": "Maid's Resolve",
+        "keyType": "Fixed Key",
+        "keyNumber": 2,
+        "level": 20,
+        "effect": "<p>If an allied unit within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> enter Stability Break after taking damage, removes [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] from self and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] to the allied unit.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/e7f4af6c-4689-4b87-8a02-84e7f15abfc3-maid-s-resolve.webp",
+        "createdAt": "2025-09-23T03:43:10.056Z",
+        "updatedAt": "2025-10-14T07:06:40.414Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "dollImages": [
+            {
+              "id": "a3d8341a-4bf7-47cc-898f-9f9457934df1",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/chibi-ea558f238f50676d04cbc2e0066ca0be.webp",
+              "createdAt": "2025-09-25T22:55:52.422Z",
+              "updatedAt": "2025-09-25T22:55:52.422Z"
+            }
+          ],
+          "searchTags": [
+            "G36",
+            "Sturmgewehr 36",
+            "Reissi"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 2 - Maid's Resolve"
+      },
+      {
+        "id": "a8de7a58-ed64-43f3-9b6e-b3994a6b3d20",
+        "keyTitle": "Efficient Processing",
+        "keyType": "Fixed Key",
+        "keyNumber": 3,
+        "level": 30,
+        "effect": "<p>When [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] is triggered, randomly cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the attack. Before [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] is triggered, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs from the buff holder(s).</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/4befba09-2e6c-4ab3-8ead-ae5e416e071f-efficient-processing.webp",
+        "createdAt": "2025-09-23T03:44:17.573Z",
+        "updatedAt": "2025-10-14T07:06:40.937Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "dollImages": [
+            {
+              "id": "a3d8341a-4bf7-47cc-898f-9f9457934df1",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/chibi-ea558f238f50676d04cbc2e0066ca0be.webp",
+              "createdAt": "2025-09-25T22:55:52.422Z",
+              "updatedAt": "2025-09-25T22:55:52.422Z"
+            }
+          ],
+          "searchTags": [
+            "G36",
+            "Sturmgewehr 36",
+            "Reissi"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 3 - Efficient Processing"
+      },
+      {
+        "id": "ae828f32-a504-44b8-9cda-7f1a3960d5b9",
+        "keyTitle": "Comforting Blend",
+        "keyType": "Fixed Key",
+        "keyNumber": 4,
+        "level": 30,
+        "effect": "<p>Increase the healing multiplier of the active skill <span style=\"color: rgb(34, 139, 230);\">Zucchero's Special Drink</span><span> by </span><span style=\"color: rgb(243, 109, 28);\">75%</span><span>.</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"8000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/a6469cd6-3ea7-42e1-8616-ef05263fefe7-comforting-blend.webp",
+        "createdAt": "2025-09-23T03:45:15.971Z",
+        "updatedAt": "2025-09-23T03:45:15.971Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "dollImages": [
+            {
+              "id": "a3d8341a-4bf7-47cc-898f-9f9457934df1",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/chibi-ea558f238f50676d04cbc2e0066ca0be.webp",
+              "createdAt": "2025-09-25T22:55:52.422Z",
+              "updatedAt": "2025-09-25T22:55:52.422Z"
+            }
+          ],
+          "searchTags": [
+            "G36",
+            "Sturmgewehr 36",
+            "Reissi"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 4 - Comforting Blend"
+      },
+      {
+        "id": "2a869f8f-ac0a-48ea-bc3f-047b39fd676c",
+        "keyTitle": "Thorough Preparation",
+        "keyType": "Fixed Key",
+        "keyNumber": 5,
+        "level": 40,
+        "effect": "<p>When healing an allied target with an active skill, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff. For targets with [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> additional debuff.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/9d6a7664-f764-4ea7-a9f6-af51e9940c55-thorough-preparation.webp",
+        "createdAt": "2025-09-23T03:46:29.743Z",
+        "updatedAt": "2025-10-14T07:06:40.765Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "dollImages": [
+            {
+              "id": "a3d8341a-4bf7-47cc-898f-9f9457934df1",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/chibi-ea558f238f50676d04cbc2e0066ca0be.webp",
+              "createdAt": "2025-09-25T22:55:52.422Z",
+              "updatedAt": "2025-09-25T22:55:52.422Z"
+            }
+          ],
+          "searchTags": [
+            "G36",
+            "Sturmgewehr 36",
+            "Reissi"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 5 - Thorough Preparation"
+      },
+      {
+        "id": "8e0acd47-6c0f-4dc0-a838-ad3d2bff5445",
+        "keyTitle": "Lucky Menu",
+        "keyType": "Fixed Key",
+        "keyNumber": 6,
+        "level": 40,
+        "effect": "<p>When healing an allied target with an active skill, if the target has [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], randomly applies <span style=\"color: rgb(243, 109, 28);\">1</span> powerful buff to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"12000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/1c098ddfd2bc1cebedde280ca7ce6847.webp",
+        "createdAt": "2025-09-23T03:47:48.995Z",
+        "updatedAt": "2025-10-14T07:06:41.465Z",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "dollImages": [
+            {
+              "id": "a3d8341a-4bf7-47cc-898f-9f9457934df1",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/chibi-ea558f238f50676d04cbc2e0066ca0be.webp",
+              "createdAt": "2025-09-25T22:55:52.422Z",
+              "updatedAt": "2025-09-25T22:55:52.422Z"
+            }
+          ],
+          "searchTags": [
+            "G36",
+            "Sturmgewehr 36",
+            "Reissi"
+          ]
+        },
+        "searchTags": [],
+        "displayTitle": "Fixed Key 6 - Lucky Menu"
+      }
+    ],
+    "vertebrae": [
+      {
+        "id": "b016b9d6-a330-40c2-a74e-f892a1c8b405",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "segment": 1,
+        "vertebraeName": "Maid's Duty Lv.2",
+        "level": 2,
+        "effect": "<p>When [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] is triggered, additionally applies [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/5cfe48271d8409dbb943cab6a8c6164b.webp",
+        "createdAt": "2025-09-23T05:25:43.071Z",
+        "updatedAt": "2025-10-14T07:06:11.433Z",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "class": "Support",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "A humble yet principled Doll. She brews aromatic coffee and stands as the steadfast guardian of the café - She is the irreplaceable shield of \"Zucchero\".",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "60dfd4ac-acd9-4aa5-b84f-c6388c0e41f4",
+            "name": "Maid's Duty",
+            "phase": null,
+            "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/5cfe48271d8409dbb943cab6a8c6164b.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-23T04:10:27.163Z",
+            "skillTags": [
+              "Passive",
+              "Buff",
+              "Debuff",
+              "Support"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-11-04T06:08:23.201Z",
+            "description": "<p>At the start of the battle, gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p><p>When the user is under the effects of [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]: Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When healing, additionally heals <span style=\"color: rgb(243, 109, 28);\">10%</span> of the user's max HP. After active attacks, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>When an enemy unit within range receives targeted damage from an ally, prioritize performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] to the allied unit. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>At the start of the battle, gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p><p>When the user is under the effects of [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]: Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When healing, additionally heals <span style=\"color: rgb(243, 109, 28);\">10%</span> of the user's max HP. After active attacks, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>When an enemy unit within range receives targeted damage from an ally, prioritize performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to  <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, along with [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8]. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
+            "descriptionLevel3": "<p>At the start of battle, gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p><p>When self has [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]: Increases healing effect by <span style=\"color: rgb(243, 109, 28);\">20%</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">40%</span>; when healing, additionally heals <span style=\"color: rgb(243, 109, 28);\">10%</span> of self max HP; after active attacks, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the healing target has [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], increases healing effect by <span style=\"color: rgb(243, 109, 28);\">50%</span>; if the attack target has [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>When an enemy unit within range receives targeted damage from an ally, prioritize performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack as Physical damage and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, along with [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8]. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "b016b9d6-a330-40c2-a74e-f892a1c8b405",
+            "vertebraeUpgradeIdLevel3": "c8f0a33e-88ac-4b5d-8973-afe8550cfa23"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "c8f0a33e-88ac-4b5d-8973-afe8550cfa23",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "segment": 2,
+        "vertebraeName": "Maid's Duty Lv.3",
+        "level": 3,
+        "effect": "<p>When [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] is active: Increase healing by <span style=\"color: rgb(243, 109, 28);\">20%</span><span> and damage dealt by </span><span style=\"color: rgb(243, 109, 28);\">40%</span><span>. If the healing target has [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], the healing increase is raised to </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span>; if the attack target has [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], the damage dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/5cfe48271d8409dbb943cab6a8c6164b.webp",
+        "createdAt": "2025-09-23T05:27:27.418Z",
+        "updatedAt": "2025-10-14T07:06:11.610Z",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "class": "Support",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "A humble yet principled Doll. She brews aromatic coffee and stands as the steadfast guardian of the café - She is the irreplaceable shield of \"Zucchero\".",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "60dfd4ac-acd9-4aa5-b84f-c6388c0e41f4",
+            "name": "Maid's Duty",
+            "phase": null,
+            "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/5cfe48271d8409dbb943cab6a8c6164b.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-23T04:10:27.163Z",
+            "skillTags": [
+              "Passive",
+              "Buff",
+              "Debuff",
+              "Support"
+            ],
+            "skillType": "Passive",
+            "updatedAt": "2025-11-04T06:08:23.201Z",
+            "description": "<p>At the start of the battle, gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p><p>When the user is under the effects of [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]: Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When healing, additionally heals <span style=\"color: rgb(243, 109, 28);\">10%</span> of the user's max HP. After active attacks, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>When an enemy unit within range receives targeted damage from an ally, prioritize performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] to the allied unit. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>At the start of the battle, gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p><p>When the user is under the effects of [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]: Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When healing, additionally heals <span style=\"color: rgb(243, 109, 28);\">10%</span> of the user's max HP. After active attacks, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>When an enemy unit within range receives targeted damage from an ally, prioritize performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to  <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, along with [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8]. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
+            "descriptionLevel3": "<p>At the start of battle, gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p><p>When self has [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]: Increases healing effect by <span style=\"color: rgb(243, 109, 28);\">20%</span>, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">40%</span>; when healing, additionally heals <span style=\"color: rgb(243, 109, 28);\">10%</span> of self max HP; after active attacks, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the healing target has [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], increases healing effect by <span style=\"color: rgb(243, 109, 28);\">50%</span>; if the attack target has [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>When an enemy unit within range receives targeted damage from an ally, prioritize performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack as Physical damage and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, along with [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8]. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "b016b9d6-a330-40c2-a74e-f892a1c8b405",
+            "vertebraeUpgradeIdLevel3": "c8f0a33e-88ac-4b5d-8973-afe8550cfa23"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "61637a65-dbbd-463d-880a-ff6558688207",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "segment": 3,
+        "vertebraeName": "Careful Hospitality Lv.2",
+        "level": 2,
+        "effect": "<p>If the user has [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], gain [effect:5daaf7a7-a831-44dd-9e64-1db0da736e7c].</p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/53abee44ccc4f7fa60c1effea1d71298.webp",
+        "createdAt": "2025-09-23T05:28:09.597Z",
+        "updatedAt": "2025-10-14T07:06:11.791Z",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "class": "Support",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "A humble yet principled Doll. She brews aromatic coffee and stands as the steadfast guardian of the café - She is the irreplaceable shield of \"Zucchero\".",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "ffd58548-8346-4b2e-a184-e026c10802bb",
+            "name": "Careful Hospitality",
+            "phase": "Burn",
+            "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+            "cooldown": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/53abee44ccc4f7fa60c1effea1d71298.webp",
+            "summonId": null,
+            "ammoTypes": null,
+            "createdAt": "2025-09-23T03:54:10.673Z",
+            "skillTags": [
+              "Active",
+              "Targeted",
+              "Healing",
+              "Buff"
+            ],
+            "skillType": "Skill 1",
+            "updatedAt": "2025-10-14T07:06:58.428Z",
+            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to them. After attacking, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to the nearest allied target (excluding the user) and gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]. If the enemy target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], heals 1 additional allied target. </p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": 6,
+            "ammoTypesLevel2": null,
+            "ammoTypesLevel3": null,
+            "keyUpgradesData": "[]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": null,
+            "skillTagsLevel3": null,
+            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to them. After attacking, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to the nearest allied target (excluding the user) and gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]. If the enemy target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], heals 1 additional allied target. If the user has [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], gains [effect:5daaf7a7-a831-44dd-9e64-1db0da736e7c].</p>",
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "61637a65-dbbd-463d-880a-ff6558688207",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "5dbb3ac4-d8c1-4e50-8c5a-960b09057c50",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "segment": 4,
+        "vertebraeName": "Afternoon Tea Break Lv.2",
+        "level": 2,
+        "effect": "<p>The number of debuffs cleansed increases by <span style=\"color: rgb(243, 109, 28);\">1</span><span>, and removes [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b].</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/4bb491791975116fce50c5c05cf6ccdf.webp",
+        "createdAt": "2025-09-23T05:29:22.936Z",
+        "updatedAt": "2025-10-14T07:06:11.965Z",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "class": "Support",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "A humble yet principled Doll. She brews aromatic coffee and stands as the steadfast guardian of the café - She is the irreplaceable shield of \"Zucchero\".",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "74efb130-d73a-49cd-bc49-e94e0f1dabd7",
+            "name": "Afternoon Tea Break",
+            "phase": null,
+            "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/4bb491791975116fce50c5c05cf6ccdf.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-23T04:01:22.052Z",
+            "skillTags": [
+              "Ultimate",
+              "Healing",
+              "Stability Regen",
+              "Cleanse",
+              "Buff"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-10-30T14:27:27.925Z",
+            "description": "<p>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all allies, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs, removes [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], and restores up to <span style=\"color: rgb(243, 109, 28);\">7 points</span> of stability index to the ally with the lowest stability index. After healing, applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "7367a56d-9c69-4037-8f5f-17b17296a79f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 6,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"fe1a8bef-02dc-4b01-8f76-6ffd66e6304f\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all allies, cleanses <span style=\"color: rgb(243, 109, 28);\">3</span> debuffs, removes [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], and restores up to <span style=\"color: rgb(243, 109, 28);\">7 points</span> of stability index to the ally with the lowest stability index. After healing, applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p>",
+            "descriptionLevel3": "<p>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all allies, cleanses <span style=\"color: rgb(243, 109, 28);\">3</span> debuffs, removes [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], and restores up to <span style=\"color: rgb(243, 109, 28);\">8 points</span> of stability index to <span style=\"color: rgb(243, 109, 28);\">2</span> allies with the lowest stability index. After healing, applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "5dbb3ac4-d8c1-4e50-8c5a-960b09057c50",
+            "vertebraeUpgradeIdLevel3": "3474480a-fc98-43b7-a0ba-b69266195cb0"
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "f253e736-2f4b-41df-9672-9dcb5dc7e7a0",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "segment": 5,
+        "vertebraeName": "Zucchero's Special Drink Lv.2",
+        "level": 2,
+        "effect": "<p>Each allied target restores at least <span style=\"color: rgb(243, 109, 28);\">75%</span><span> of Centaureissi's attack as HP.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/0fe50ada11c4624d43c2baab664eb0ec.webp",
+        "createdAt": "2025-09-23T05:30:51.303Z",
+        "updatedAt": "2025-09-23T05:30:51.303Z",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "class": "Support",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "A humble yet principled Doll. She brews aromatic coffee and stands as the steadfast guardian of the café - She is the irreplaceable shield of \"Zucchero\".",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [
+          {
+            "id": "5fdbb595-8b8c-42b3-b64a-285fb063cd3f",
+            "name": "Zucchero's Special Drink",
+            "phase": "Physical",
+            "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+            "cooldown": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/0fe50ada11c4624d43c2baab664eb0ec.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-23T03:58:25.794Z",
+            "skillTags": [
+              "Active",
+              "AoE",
+              "Healing",
+              "Cleanse"
+            ],
+            "skillType": "Skill 2",
+            "updatedAt": "2025-10-14T07:07:14.356Z",
+            "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, restoring total HP equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to the target and all allied units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>. The healing is distributed evenly among all targets. Additionally, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to all enemies within range. If the enemy targets have [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> of their buffs.</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "c400231e-64a3-4ece-b2a0-495216f5f504",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": null,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"ae828f32-a504-44b8-9cda-7f1a3960d5b9\",\"fe1a8bef-02dc-4b01-8f76-6ffd66e6304f\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": null,
+            "descriptionLevel3": null,
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "f253e736-2f4b-41df-9672-9dcb5dc7e7a0",
+            "vertebraeUpgradeIdLevel3": null
+          }
+        ],
+        "skillsLevel3": [],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      },
+      {
+        "id": "3474480a-fc98-43b7-a0ba-b69266195cb0",
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "segment": 6,
+        "vertebraeName": "Afternoon Tea Break Lv.3",
+        "level": 3,
+        "effect": "<p>Restores stability index for <span style=\"color: rgb(243, 109, 28);\">2</span><span> allies with the lowest stability, then further increase it by </span><span style=\"color: rgb(243, 109, 28);\">1 point</span><span>.</span></p>",
+        "imageUrl": "https://cdn.dandegate.net/skills/4bb491791975116fce50c5c05cf6ccdf.webp",
+        "createdAt": "2025-09-23T05:31:44.904Z",
+        "updatedAt": "2025-09-25T22:51:39.357Z",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "class": "Support",
+          "phase": "Burn",
+          "rarity": "Elite",
+          "effects": "A humble yet principled Doll. She brews aromatic coffee and stands as the steadfast guardian of the café - She is the irreplaceable shield of \"Zucchero\".",
+          "preview": false,
+          "movement": 6,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "stabilityGauge": 10
+        },
+        "skillsLevel2": [],
+        "skillsLevel3": [
+          {
+            "id": "74efb130-d73a-49cd-bc49-e94e0f1dabd7",
+            "name": "Afternoon Tea Break",
+            "phase": null,
+            "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+            "cooldown": null,
+            "imageUrl": "https://cdn.dandegate.net/skills/4bb491791975116fce50c5c05cf6ccdf.webp",
+            "summonId": null,
+            "ammoTypes": "[]",
+            "createdAt": "2025-09-23T04:01:22.052Z",
+            "skillTags": [
+              "Ultimate",
+              "Healing",
+              "Stability Regen",
+              "Cleanse",
+              "Buff"
+            ],
+            "skillType": "Skill 3",
+            "updatedAt": "2025-10-30T14:27:27.925Z",
+            "description": "<p>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all allies, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs, removes [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], and restores up to <span style=\"color: rgb(243, 109, 28);\">7 points</span> of stability index to the ally with the lowest stability index. After healing, applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p>",
+            "phaseLevel2": null,
+            "phaseLevel3": null,
+            "rangeMapId": "7367a56d-9c69-4037-8f5f-17b17296a79f",
+            "cooldownLevel2": null,
+            "cooldownLevel3": null,
+            "confectanceCost": 6,
+            "stabilityDamage": null,
+            "ammoTypesLevel2": "[]",
+            "ammoTypesLevel3": "[]",
+            "keyUpgradesData": "[\"fe1a8bef-02dc-4b01-8f76-6ffd66e6304f\"]",
+            "keyUpgradesType": "keys",
+            "skillTagsLevel2": "[]",
+            "skillTagsLevel3": "[]",
+            "descriptionLevel2": "<p>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all allies, cleanses <span style=\"color: rgb(243, 109, 28);\">3</span> debuffs, removes [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], and restores up to <span style=\"color: rgb(243, 109, 28);\">7 points</span> of stability index to the ally with the lowest stability index. After healing, applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p>",
+            "descriptionLevel3": "<p>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to all allies, cleanses <span style=\"color: rgb(243, 109, 28);\">3</span> debuffs, removes [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], and restores up to <span style=\"color: rgb(243, 109, 28);\">8 points</span> of stability index to <span style=\"color: rgb(243, 109, 28);\">2</span> allies with the lowest stability index. After healing, applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe].</p>",
+            "rangeMapIdLevel2": null,
+            "rangeMapIdLevel3": null,
+            "confectanceCostLevel2": null,
+            "confectanceCostLevel3": null,
+            "stabilityDamageLevel2": null,
+            "stabilityDamageLevel3": null,
+            "vertebraeUpgradeIdLevel2": "5dbb3ac4-d8c1-4e50-8c5a-960b09057c50",
+            "vertebraeUpgradeIdLevel3": "3474480a-fc98-43b7-a0ba-b69266195cb0"
+          }
+        ],
+        "summonsLevel2": [],
+        "summonsLevel3": []
+      }
+    ],
+    "summons": [],
+    "remoldingPattern": {
+      "id": "07f8144d-ca6d-4d1f-bcf9-08215117fb62",
+      "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+      "coreSlots": {
+        "bulwark": 2,
+        "support": 4,
+        "sentinel": 0,
+        "vanguard": 0
+      },
+      "statBoosts": {
+        "60": {
+          "hp": 679,
+          "atk": 210,
+          "def": 252
+        }
+      },
+      "dollCore": "Support Core",
+      "createdAt": "2025-09-30T10:00:21.000Z",
+      "updatedAt": "2025-09-30T10:00:21.000Z",
+      "doll": {
+        "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "name": "Centaureissi",
+        "class": "Support",
+        "phase": "Burn",
+        "rarity": "Elite",
+        "preview": false,
+        "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+        "regionTag": "en",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      "imagoforms": [
+        {
+          "id": "95125a04-913b-440f-bdf7-d92e0b4047c9",
+          "stage": "Embryo",
+          "effect": "<p>Before an allied unit takes fatal damage, they recover HP equal to <span style=\"color: rgb(243, 109, 28);\">8%</span> of max HP. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">once </span>per turn. In addition, this effect can only trigger <span style=\"color: rgb(243, 109, 28);\">once </span>per unit per turn.</p>",
+          "coreLevel": 1,
+          "createdAt": "2025-09-30T10:00:21.032Z",
+          "updatedAt": "2025-09-30T10:00:21.032Z",
+          "bulwarkFactors": 2,
+          "supportFactors": 5,
+          "sentinelFactors": 0,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "b81d78b3-c56f-49a5-8e15-505fff4c7abe",
+          "stage": "Seedling",
+          "effect": "<p>Physical and phase damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 10,
+          "createdAt": "2025-09-30T10:00:21.032Z",
+          "updatedAt": "2025-09-30T10:00:21.032Z",
+          "bulwarkFactors": 3,
+          "supportFactors": 8,
+          "sentinelFactors": 0,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "ea5da750-0949-4f75-97c0-809cd5231da5",
+          "stage": "Sprout",
+          "effect": "<p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "coreLevel": 20,
+          "createdAt": "2025-09-30T10:00:21.032Z",
+          "updatedAt": "2025-09-30T10:00:21.032Z",
+          "bulwarkFactors": 4,
+          "supportFactors": 9,
+          "sentinelFactors": 1,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "f854bb29-700f-48da-9ef0-30c8fa254d27",
+          "stage": "Shoot",
+          "effect": "<p>Damage dealt by all allied units is increased by <span style=\"color: rgb(243, 109, 28);\">4%</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. The effect's potency is progressively reduced by <span style=\"color: rgb(243, 109, 28);\">1% </span>each time a new stack is applied.</p>",
+          "coreLevel": 30,
+          "createdAt": "2025-09-30T10:00:21.032Z",
+          "updatedAt": "2025-09-30T10:00:21.032Z",
+          "bulwarkFactors": 6,
+          "supportFactors": 11,
+          "sentinelFactors": 2,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "661d9f79-cd5d-4c5a-991d-c95ab0c302cf",
+          "stage": "Bud",
+          "effect": "<p>Attack and max HP is increased by <span style=\"color: rgb(243, 109, 28);\">4%</span>.</p>",
+          "coreLevel": 45,
+          "createdAt": "2025-09-30T10:00:21.032Z",
+          "updatedAt": "2025-09-30T10:00:21.032Z",
+          "bulwarkFactors": 7,
+          "supportFactors": 15,
+          "sentinelFactors": 2,
+          "vanguardFactors": 0
+        },
+        {
+          "id": "cd9d45cc-b6b3-45cd-8026-e99e4dfbc599",
+          "stage": "Blossom",
+          "effect": "<p>This unit's healing effects are increased by <span style=\"color: rgb(243, 109, 28);\">12%</span>.</p>",
+          "coreLevel": 60,
+          "createdAt": "2025-09-30T10:00:21.032Z",
+          "updatedAt": "2025-09-30T10:00:21.032Z",
+          "bulwarkFactors": 8,
+          "supportFactors": 18,
+          "sentinelFactors": 3,
+          "vanguardFactors": 0
+        }
+      ],
+      "equippedRelics": []
+    },
+    "dollEffects": [
+      {
+        "id": "f6be3959-152e-423c-abef-f97f1cb8a44e",
+        "effectName": "Hot Sobering Tea",
+        "effectDetails": "<p>When allied units deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>, critical damage of Burn damage is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff",
+          "Burn"
+        ],
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-23T04:24:49.201Z",
+        "updatedAt": "2025-11-03T05:56:25.188Z",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "dollImages": [
+            {
+              "id": "a3d8341a-4bf7-47cc-898f-9f9457934df1",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/chibi-ea558f238f50676d04cbc2e0066ca0be.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "G36"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "Sturmgewehr 36"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "Reissi"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "87d14238-137a-4e76-aa3d-4bafe01847e0",
+        "effectName": "Perfect Defense",
+        "effectDetails": "<p>Immune to basic attacks and skill damage. The immunity is removed after receiving <span style=\"color: rgb(243, 109, 28);\">1</span> basic attack or skill attack. This is considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-23T04:12:36.451Z",
+        "updatedAt": "2025-11-03T15:17:26.445Z",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "dollImages": [
+            {
+              "id": "a3d8341a-4bf7-47cc-898f-9f9457934df1",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/chibi-ea558f238f50676d04cbc2e0066ca0be.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "G36"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "Sturmgewehr 36"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "Reissi"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "5daaf7a7-a831-44dd-9e64-1db0da736e7c",
+        "effectName": "Thermal Cycling",
+        "effectDetails": "<p>Upon consuming [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], regain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]. Triggers <span style=\"color: rgb(243, 109, 28);\">1 time</span>. This is considered a Burn buff and cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff",
+          "Burn"
+        ],
+        "dollId": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-23T03:57:35.133Z",
+        "updatedAt": "2025-11-03T16:02:23.558Z",
+        "doll": {
+          "id": "a7d52f2e-fb9b-441e-9407-9e1cda3c11db",
+          "name": "Centaureissi",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/centaureissi/c7ec40462a00617c13040260c82550ad.webp",
+          "createdAt": "2025-09-23T03:39:08.101Z",
+          "regionTag": "en",
+          "updatedAt": "2025-10-02T05:32:05.525Z",
+          "dollImages": [
+            {
+              "id": "a3d8341a-4bf7-47cc-898f-9f9457934df1",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/centaureissi/chibi-ea558f238f50676d04cbc2e0066ca0be.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "G36"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "Sturmgewehr 36"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "Reissi"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "shortId": "d6"
+  }
+}
