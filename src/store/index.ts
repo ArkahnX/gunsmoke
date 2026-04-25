@@ -169,18 +169,29 @@ export function renderAction(dollId: string, action: SkillAction): string {
 
 // ====================== DEFAULT ACTION ORDER ======================
 export function defaultActionOrder(tabIndex: number) {
+	if(tabIndex < 0 || tabIndex > 7) return;
+	const order = new Set(state.tabData[tabIndex].actionOrder);
+	const unique = new Set();
 	setState(
 		produce((s) => {
-			const tab = s.tabData[tabIndex]!;
+			const turn = s.tabData[tabIndex]!;
 			for (const doll of s.selectedDolls) {
-				if (!tab.actionOrder.includes(doll.id)) tab.actionOrder.push(doll.id);
+				order.add(doll.id);
+				unique.add(doll.id);
 				const dollInfo = allDolls().find((d) => d.id === doll.id);
 				if (dollInfo?.hasSummons) {
 					for (const summonId of dollInfo.summons) {
-						if (!tab.actionOrder.includes(summonId)) tab.actionOrder.push(summonId);
+						order.add(summonId);
+						unique.add(summonId);
 					}
 				}
 			}
+			for(const dollId of order) {
+				if(unique.has(dollId) === false) {
+					order.delete(dollId);
+				}
+			}
+			s.tabData[tabIndex].actionOrder = Array.from(order);
 		})
 	);
 }
