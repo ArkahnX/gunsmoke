@@ -288,7 +288,7 @@ function handleSkillClick(dollId: string, sortedIdx: number) {
 		(skill.tags.includes("Healing") || skill.tags.includes("Buff")) &&
 		!skill.tags.includes("Targeted") &&
 		!skill.tags.includes("Tile");
-	if (hasActiveBuff || skill.name === "Light of Bond") {
+	if (hasActiveBuff || skill.name === "Light of Bond" || skill.name === "Bad Influence") {
 		setTargetDollId(dollId);
 		setTargetSkillId(skill.id);
 		setShowTargetModal(true);
