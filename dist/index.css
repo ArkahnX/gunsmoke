@@ -741,6 +741,9 @@
   .gap-0 {
     gap: calc(var(--spacing) * 0);
   }
+  .gap-0\.5 {
+    gap: calc(var(--spacing) * 0.5);
+  }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
   }
@@ -1155,6 +1158,9 @@
   .object-top {
     -o-object-position: top;
     object-position: top;
+  }
+  .p-0\.5 {
+    padding: calc(var(--spacing) * 0.5);
   }
   .p-1 {
     padding: calc(var(--spacing) * 1);
@@ -2619,6 +2625,14 @@
     &:hover {
       @media (hover: hover) {
         text-decoration-line: underline;
+      }
+    }
+  }
+  .hover\:outline-3 {
+    &:hover {
+      @media (hover: hover) {
+        outline-style: var(--tw-outline-style);
+        outline-width: 3px;
       }
     }
   }

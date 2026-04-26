@@ -3953,36 +3953,12 @@ function SquareDollChip(props) {
 }
 delegateEvents(["click", "mousedown", "touchstart"]);
 
-// src/components/icons/Grip.tsx
-var _tmpl$36 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 40 40"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-17,-34)><g transform=matrix(1.14286,0,0,1,-3.85714,0)><ellipse cx=30.5 cy=42 rx=3.5 ry=4></ellipse></g><g transform=matrix(1.14286,0,0,1,-3.85714,12)><ellipse cx=30.5 cy=42 rx=3.5 ry=4></ellipse></g><g transform=matrix(1.14286,0,0,1,-3.85714,24)><ellipse cx=30.5 cy=42 rx=3.5 ry=4></ellipse></g><g transform=matrix(1.14286,0,0,1,8.14286,24)><ellipse cx=30.5 cy=42 rx=3.5 ry=4></ellipse></g><g transform=matrix(1.14286,0,0,1,8.14286,0)><ellipse cx=30.5 cy=42 rx=3.5 ry=4></ellipse></g><g transform=matrix(1.14286,0,0,1,8.14286,12)><ellipse cx=30.5 cy=42 rx=3.5 ry=4>`);
-function Grip(props) {
-  return (() => {
-    var _el$ = _tmpl$36(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$3.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$1.nextSibling, _el$12 = _el$11.firstChild;
-    createRenderEffect((_p$) => {
-      var _v$ = `fill:${props.fill ?? "rgb(235,235,235)"};`, _v$2 = `fill:${props.fill ?? "rgb(235,235,235)"};`, _v$3 = `fill:${props.fill ?? "rgb(235,235,235)"};`, _v$4 = `fill:${props.fill ?? "rgb(235,235,235)"};`, _v$5 = `fill:${props.fill ?? "rgb(235,235,235)"};`, _v$6 = `fill:${props.fill ?? "rgb(235,235,235)"};`;
-      _p$.e = style(_el$4, _v$, _p$.e);
-      _p$.t = style(_el$6, _v$2, _p$.t);
-      _p$.a = style(_el$8, _v$3, _p$.a);
-      _p$.o = style(_el$0, _v$4, _p$.o);
-      _p$.i = style(_el$10, _v$5, _p$.i);
-      _p$.n = style(_el$12, _v$6, _p$.n);
-      return _p$;
-    }, {
-      e: void 0,
-      t: void 0,
-      a: void 0,
-      o: void 0,
-      i: void 0,
-      n: void 0
-    });
-    return _el$;
-  })();
-}
-
 // src/components/ActionSidebar.tsx
-var _tmpl$37 = /* @__PURE__ */ template(`<div><div class="flex flex-col gap-1.5 border-2 border-[#D7D7D7] p-1"><div class="drag-grip flex items-center gap-2"><div class=w-4></div><div class="min-w-0 flex-1"><div class="mt-1 flex flex-wrap gap-1"></div></div></div><div class="flex flex-wrap gap-1.5">`);
-var _tmpl$212 = /* @__PURE__ */ template(`<div class="group relative"><div class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 hover:bg-red-900 hover:text-red-300"title=Remove>`);
-var _tmpl$38 = /* @__PURE__ */ template(`<div>`);
+var _tmpl$36 = /* @__PURE__ */ template(`<button class="cursor-pointer rounded-sm bg-[#384B53] p-0.5 hover:outline-3 hover:outline-white">Up`);
+var _tmpl$212 = /* @__PURE__ */ template(`<button class="cursor-pointer rounded-sm bg-[#384B53] p-0.5 hover:outline-3 hover:outline-white">Down`);
+var _tmpl$37 = /* @__PURE__ */ template(`<div><div class="flex flex-col gap-1.5 border-2 border-[#D7D7D7] p-1"><div class="drag-grip flex items-center gap-2"><div class="flex flex-col gap-0.5"></div><div class="min-w-0 flex-1"><div class="mt-1 flex flex-wrap gap-1"></div></div></div><div class="flex flex-wrap gap-1.5">`);
+var _tmpl$45 = /* @__PURE__ */ template(`<div class="group relative"><div class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 hover:bg-red-900 hover:text-red-300"title=Remove>`);
+var _tmpl$52 = /* @__PURE__ */ template(`<div>`);
 var draggableItem = null;
 var listContainer = void 0;
 var pointerStartX = 0;
@@ -4210,10 +4186,47 @@ function DollRow(props) {
     return d ? getSortedUsableSkills(d) : [];
   });
   return (() => {
-    var _el$ = _tmpl$37(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$3.nextSibling;
-    insert(_el$4, createComponent(Grip, {
-      fill: "#1C2A32"
-    }));
+    var _el$ = _tmpl$37(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$7 = _el$4.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$3.nextSibling;
+    insert(_el$4, createComponent(Show, {
+      get when() {
+        return state.tabData[state.currentTab]?.actionOrder?.indexOf(props.dollId) !== 0;
+      },
+      get children() {
+        var _el$5 = _tmpl$36();
+        _el$5.$$click = () => {
+          setState(produce((s) => {
+            const tab = s.tabData[s.currentTab];
+            const index = tab.actionOrder.indexOf(props.dollId);
+            const targetIndex = index - 1;
+            const targetDollId2 = tab.actionOrder[targetIndex];
+            tab.actionOrder[index] = targetDollId2;
+            tab.actionOrder[targetIndex] = props.dollId;
+          }));
+          saveToLocalStorage();
+        };
+        return _el$5;
+      }
+    }), null);
+    insert(_el$4, createComponent(Show, {
+      get when() {
+        return state.tabData[state.currentTab]?.actionOrder?.indexOf(props.dollId) !== state.tabData[state.currentTab]?.actionOrder?.length - 1;
+      },
+      get children() {
+        var _el$6 = _tmpl$212();
+        _el$6.$$click = () => {
+          setState(produce((s) => {
+            const tab = s.tabData[s.currentTab];
+            const index = tab.actionOrder.indexOf(props.dollId);
+            const targetIndex = index + 1;
+            const targetDollId2 = tab.actionOrder[targetIndex];
+            tab.actionOrder[index] = targetDollId2;
+            tab.actionOrder[targetIndex] = props.dollId;
+          }));
+          saveToLocalStorage();
+        };
+        return _el$6;
+      }
+    }), null);
     insert(_el$3, createComponent(SquareDollChip, {
       get target() {
         return dollInfo();
@@ -4223,22 +4236,22 @@ function DollRow(props) {
       },
       icon: true,
       name: true
-    }), _el$5);
-    insert(_el$6, createComponent(For, {
+    }), _el$7);
+    insert(_el$8, createComponent(For, {
       get each() {
         return actions();
       },
       children: (action, ai) => (() => {
-        var _el$8 = _tmpl$212(), _el$9 = _el$8.firstChild;
-        _el$9.$$click = () => {
+        var _el$0 = _tmpl$45(), _el$1 = _el$0.firstChild;
+        _el$1.$$click = () => {
           removeAction(props.dollId, ai());
         };
-        insert(_el$9, () => renderAction(props.dollId, action));
-        createRenderEffect(() => setAttribute(_el$9, "data-action-idx", ai()));
-        return _el$8;
+        insert(_el$1, () => renderAction(props.dollId, action));
+        createRenderEffect(() => setAttribute(_el$1, "data-action-idx", ai()));
+        return _el$0;
       })()
     }));
-    insert(_el$7, createComponent(For, {
+    insert(_el$9, createComponent(For, {
       get each() {
         return skills();
       },
@@ -4266,6 +4279,7 @@ function ActionSidebar(props) {
     return state.tabData[state.currentTab]?.actionOrder ?? [];
   });
   const handleDragStart = (e) => {
+    return;
     if (e.target instanceof HTMLElement === false) return;
     if (e.target.classList.contains("drag-ignore") || e.target.closest(".drag-ignore")) return;
     if (e.target.classList.contains("drag-grip") || e.target.closest(".drag-grip")) {
@@ -4291,19 +4305,20 @@ function ActionSidebar(props) {
     });
   };
   const handleDragEnd = (e) => {
+    return;
     if (!draggableItem) return;
     applyNewItemsOrder(e);
     cleanup();
   };
   return (() => {
-    var _el$0 = _tmpl$38();
-    _el$0.$$touchend = handleDragEnd;
-    _el$0.$$mouseup = handleDragEnd;
-    _el$0.$$touchstart = handleDragStart;
-    _el$0.$$mousedown = handleDragStart;
+    var _el$10 = _tmpl$52();
+    _el$10.$$touchend = handleDragEnd;
+    _el$10.$$mouseup = handleDragEnd;
+    _el$10.$$touchstart = handleDragStart;
+    _el$10.$$mousedown = handleDragStart;
     var _ref$ = listContainer;
-    typeof _ref$ === "function" ? use(_ref$, _el$0) : listContainer = _el$0;
-    insert(_el$0, createComponent(For, {
+    typeof _ref$ === "function" ? use(_ref$, _el$10) : listContainer = _el$10;
+    insert(_el$10, createComponent(For, {
       get each() {
         return actionOrder();
       },
@@ -4314,24 +4329,24 @@ function ActionSidebar(props) {
         }
       })
     }));
-    createRenderEffect(() => className(_el$0, `flex flex-col gap-1.5 overflow-y-auto p-1 ${props.active ? "" : "hidden"}`));
-    return _el$0;
+    createRenderEffect(() => className(_el$10, `flex flex-col gap-1.5 overflow-y-auto p-1 ${props.active ? "" : "hidden"}`));
+    return _el$10;
   })();
 }
 delegateEvents(["click", "mousedown", "touchstart", "mouseup", "touchend"]);
 
 // src/components/icons/Fortification.tsx
-var _tmpl$39 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 40 40"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-5,-5)><g transform=matrix(1.5,0,0,1.5,-22.25,-20.75)><circle cx=31.5 cy=30.5 r=6 style=fill:rgb(77,131,152)></circle></g><g transform=matrix(2.03293,-2.03293,2.32335,2.32335,-82.455,23.2575)><path d="M30,20L30,27L22,27L22,20L30,20ZM28.828,21.025C27.267,19.659 24.733,19.659 23.172,21.025C21.611,22.391 21.611,24.609 23.172,25.975C24.733,27.341 27.267,27.341 28.828,25.975C30.389,24.609 30.389,22.391 28.828,21.025Z"style=fill:rgb(201,200,204);fill-opacity:0.5></path></g><g transform=matrix(2.03846,0,0,2.03846,-39.2115,-37.1731)><path d="M26.186,34.242C25.439,33.183 25,31.893 25,30.5C25,29.009 25.503,27.635 26.348,26.538L25.348,24.871C25.257,24.721 25.281,24.529 25.405,24.405C25.529,24.281 25.721,24.257 25.871,24.348L27.538,25.348C28.635,24.503 30.009,24 31.5,24C32.991,24 34.365,24.503 35.462,25.348L37.129,24.348C37.279,24.257 37.471,24.281 37.595,24.405C37.719,24.529 37.743,24.721 37.652,24.871L36.652,26.538C37.497,27.635 38,29.009 38,30.5C38,31.893 37.561,33.183 36.814,34.242L37.652,35.638C37.743,35.789 37.719,35.981 37.595,36.105C37.471,36.228 37.279,36.252 37.129,36.162L35.806,35.368C34.659,36.383 33.151,37 31.5,37C29.849,37 28.341,36.383 27.194,35.368L25.871,36.162C25.721,36.252 25.529,36.228 25.405,36.105C25.281,35.981 25.257,35.789 25.348,35.638L26.186,34.242ZM31.5,24.858C28.386,24.858 25.858,27.386 25.858,30.5C25.858,33.614 28.386,36.142 31.5,36.142C34.614,36.142 37.142,33.614 37.142,30.5C37.142,27.386 34.614,24.858 31.5,24.858Z"style=fill:rgb(201,200,204)>`);
+var _tmpl$38 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 40 40"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-5,-5)><g transform=matrix(1.5,0,0,1.5,-22.25,-20.75)><circle cx=31.5 cy=30.5 r=6 style=fill:rgb(77,131,152)></circle></g><g transform=matrix(2.03293,-2.03293,2.32335,2.32335,-82.455,23.2575)><path d="M30,20L30,27L22,27L22,20L30,20ZM28.828,21.025C27.267,19.659 24.733,19.659 23.172,21.025C21.611,22.391 21.611,24.609 23.172,25.975C24.733,27.341 27.267,27.341 28.828,25.975C30.389,24.609 30.389,22.391 28.828,21.025Z"style=fill:rgb(201,200,204);fill-opacity:0.5></path></g><g transform=matrix(2.03846,0,0,2.03846,-39.2115,-37.1731)><path d="M26.186,34.242C25.439,33.183 25,31.893 25,30.5C25,29.009 25.503,27.635 26.348,26.538L25.348,24.871C25.257,24.721 25.281,24.529 25.405,24.405C25.529,24.281 25.721,24.257 25.871,24.348L27.538,25.348C28.635,24.503 30.009,24 31.5,24C32.991,24 34.365,24.503 35.462,25.348L37.129,24.348C37.279,24.257 37.471,24.281 37.595,24.405C37.719,24.529 37.743,24.721 37.652,24.871L36.652,26.538C37.497,27.635 38,29.009 38,30.5C38,31.893 37.561,33.183 36.814,34.242L37.652,35.638C37.743,35.789 37.719,35.981 37.595,36.105C37.471,36.228 37.279,36.252 37.129,36.162L35.806,35.368C34.659,36.383 33.151,37 31.5,37C29.849,37 28.341,36.383 27.194,35.368L25.871,36.162C25.721,36.252 25.529,36.228 25.405,36.105C25.281,35.981 25.257,35.789 25.348,35.638L26.186,34.242ZM31.5,24.858C28.386,24.858 25.858,27.386 25.858,30.5C25.858,33.614 28.386,36.142 31.5,36.142C34.614,36.142 37.142,33.614 37.142,30.5C37.142,27.386 34.614,24.858 31.5,24.858Z"style=fill:rgb(201,200,204)>`);
 function Fortification() {
-  return _tmpl$39();
+  return _tmpl$38();
 }
 
 // src/components/SummaryView.tsx
-var _tmpl$40 = /* @__PURE__ */ template(`<div class="flex flex-row gap-2"><div style="width:430px;height:430px;flex-shrink:0;overflow:hidden;border-right:1px solid #3f3f46"></div><div class="flex min-w-0 grow flex-col gap-1 overflow-y-auto">`);
+var _tmpl$39 = /* @__PURE__ */ template(`<div class="flex flex-row gap-2"><div style="width:430px;height:430px;flex-shrink:0;overflow:hidden;border-right:1px solid #3f3f46"></div><div class="flex min-w-0 grow flex-col gap-1 overflow-y-auto">`);
 var _tmpl$213 = /* @__PURE__ */ template(`<div class="flex flex-col items-start gap-1 rounded-xs border-b-2 bg-[#F4F4F6] p-1 shadow-sm shadow-black/30"><div class="flex flex-row items-center gap-1"><div class="font-bold text-[#325563]"></div></div><div class="min-w-0 flex-1"><div class="flex flex-wrap gap-1">`);
 var _tmpl$310 = /* @__PURE__ */ template(`<span class="rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
-var _tmpl$45 = /* @__PURE__ */ template(`<div class="pt-1 text-sm text-zinc-600">No actions recorded`);
-var _tmpl$52 = /* @__PURE__ */ template(`<ul class="flex flex-col gap-2 self-center"><li class="flex flex-row items-center gap-2"><div>S1 / S2 / S3 / S4</div></li><li class="flex flex-row items-center gap-2"><div>1 / 2 / 3 / 4</div></li><li class="flex flex-row items-center gap-2"><div>BA / S1 / S2 / ULT`);
+var _tmpl$46 = /* @__PURE__ */ template(`<div class="pt-1 text-sm text-zinc-600">No actions recorded`);
+var _tmpl$53 = /* @__PURE__ */ template(`<ul class="flex flex-col gap-2 self-center"><li class="flex flex-row items-center gap-2"><div>S1 / S2 / S3 / S4</div></li><li class="flex flex-row items-center gap-2"><div>1 / 2 / 3 / 4</div></li><li class="flex flex-row items-center gap-2"><div>BA / S1 / S2 / ULT`);
 var _tmpl$62 = /* @__PURE__ */ template(`<div class="flex flex-col gap-1">`);
 var _tmpl$72 = /* @__PURE__ */ template(`<div class="flex h-full flex-col gap-3 overflow-auto bg-zinc-950 p-3"><div class="rounded-sm bg-[#CFCED2] p-1 shadow-sm shadow-black/50"><div class="flex flex-row gap-1.5 border-2 border-[#B1AFB3] p-1"></div></div><div class="flex flex-wrap gap-2">`);
 var _tmpl$82 = /* @__PURE__ */ template(`<div class="rounded-sm bg-[#E6E6E6] p-1 shadow-sm shadow-black/50"><div class="flex flex-row items-center gap-3 border-2 border-[#D7D7D7] p-1"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center text-[18px] font-bold">`);
@@ -4431,7 +4446,7 @@ function TabCard(props) {
   return createComponent(Modal, {
     width: "min-w-140 grow",
     get children() {
-      var _el$ = _tmpl$40(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling;
+      var _el$ = _tmpl$39(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling;
       var _ref$ = canvasWrapRef;
       typeof _ref$ === "function" ? use(_ref$, _el$2) : canvasWrapRef = _el$2;
       insert(_el$3, (() => {
@@ -4472,7 +4487,7 @@ function TabCard(props) {
               return _el$4;
             })();
           }
-        }) : _tmpl$45();
+        }) : _tmpl$46();
       })());
       return _el$;
     }
@@ -4518,7 +4533,7 @@ function SummaryView() {
       isActive: showSkillDesignModal,
       setActive: setShowSkillDesignModal,
       get children() {
-        var _el$12 = _tmpl$52(), _el$13 = _el$12.firstChild, _el$14 = _el$13.firstChild, _el$15 = _el$13.nextSibling, _el$16 = _el$15.firstChild, _el$17 = _el$15.nextSibling, _el$18 = _el$17.firstChild;
+        var _el$12 = _tmpl$53(), _el$13 = _el$12.firstChild, _el$14 = _el$13.firstChild, _el$15 = _el$13.nextSibling, _el$16 = _el$15.firstChild, _el$17 = _el$15.nextSibling, _el$18 = _el$17.firstChild;
         insert(_el$13, createComponent(Button, {
           onClick: () => {
             updateSkillDisplay(0);
@@ -4607,10 +4622,10 @@ function SummaryView() {
 var PHASE_TABS = ["All", "Physical", "Burn", "Electric", "Freeze", "Corrosion", "Hydro"];
 
 // src/components/icons/All.tsx
-var _tmpl$41 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=All><g transform=matrix(1.70115,-3.86259e-32,0,1.70115,-40.1313,-31.7244)><path d=M47.104,43.926L57.391,54.213L47.104,64.5L36.817,54.213L47.104,43.926Z></path></g><g transform=matrix(1.70115,-3.86259e-32,0,1.70115,-40.1313,-72.7244)><path d=M47.104,43.926L57.391,54.213L47.104,64.5L36.817,54.213L47.104,43.926Z></path></g><g transform=matrix(1.04166e-16,-1.70115,1.70115,1.04166e-16,-31.7244,120.131)><path d=M47.104,43.926L57.391,54.213L47.104,64.5L36.817,54.213L47.104,43.926Z></path></g><g transform=matrix(1.04166e-16,-1.70115,1.70115,1.04166e-16,-72.7244,120.131)><path d=M47.104,43.926L57.391,54.213L47.104,64.5L36.817,54.213L47.104,43.926Z>`);
+var _tmpl$40 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=All><g transform=matrix(1.70115,-3.86259e-32,0,1.70115,-40.1313,-31.7244)><path d=M47.104,43.926L57.391,54.213L47.104,64.5L36.817,54.213L47.104,43.926Z></path></g><g transform=matrix(1.70115,-3.86259e-32,0,1.70115,-40.1313,-72.7244)><path d=M47.104,43.926L57.391,54.213L47.104,64.5L36.817,54.213L47.104,43.926Z></path></g><g transform=matrix(1.04166e-16,-1.70115,1.70115,1.04166e-16,-31.7244,120.131)><path d=M47.104,43.926L57.391,54.213L47.104,64.5L36.817,54.213L47.104,43.926Z></path></g><g transform=matrix(1.04166e-16,-1.70115,1.70115,1.04166e-16,-72.7244,120.131)><path d=M47.104,43.926L57.391,54.213L47.104,64.5L36.817,54.213L47.104,43.926Z>`);
 function All(props) {
   return (() => {
-    var _el$ = _tmpl$41(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$3.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild;
+    var _el$ = _tmpl$40(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$3.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild;
     createRenderEffect((_p$) => {
       var _v$ = `fill:${props.fill ?? "white"};`, _v$2 = `fill:${props.fill ?? "white"};`, _v$3 = `fill:${props.fill ?? "white"};`, _v$4 = `fill:${props.fill ?? "white"};`;
       _p$.e = style(_el$4, _v$, _p$.e);
@@ -4629,10 +4644,10 @@ function All(props) {
 }
 
 // src/components/icons/Burn.tsx
-var _tmpl$46 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.58211,0,0,1.96189,-23.2842,-43.7583)><g id=Burn><path id=standalone1 serif:id=standalone d="M33.696,61.874C31.412,61.39 29.373,60.638 27.611,59.665C22.976,56.825 20,52.43 20,47.5C20,47.378 20.002,47.257 20.005,47.136L20,47.136C20.022,42.298 22.463,38.039 26.151,35.553L26.151,36.321L26.166,36.31L26.166,37.225C25.873,37.711 25.714,38.242 25.714,38.757C25.714,40.416 27.471,41.785 29.902,41.762C33.055,41.733 34.559,39.775 34.559,38.116C34.559,37.807 34.477,37.514 34.329,37.243L34.329,37.22C33.787,36.034 33.512,34.557 33.601,32.742C33.61,32.568 33.628,32.393 33.655,32.218L33.642,32.218C33.659,32.141 33.676,32.065 33.695,31.989C34.345,28.673 38.109,25.149 42.496,23.457C42.63,23.406 42.763,23.361 42.896,23.324C42.899,24.148 42.948,25.064 42.948,26.042C42.948,27.27 44.643,31.18 49.318,33.784C55.668,36.382 60,41.552 60,47.5C60,52.559 56.866,57.055 52.023,59.884C50.109,60.883 47.884,61.627 45.381,62.062C49.032,60.428 51.791,57.425 51.791,54.64C51.791,52.663 51.135,51.019 50.053,49.758L50.084,49.702L49.898,49.584C49.242,48.868 48.444,48.283 47.549,47.841C44.734,45.506 41.84,42.273 41.84,40.492C41.84,40.298 41.852,40.109 41.875,39.925C40.472,41.233 39.564,43.317 39.564,45.663C39.564,46.699 39.741,47.684 40.06,48.574C40.067,48.687 40.07,48.801 40.07,48.916C40.07,51.609 38.273,53.796 36.06,53.796C34.221,53.796 32.669,52.285 32.198,50.228C30.435,51.815 29.351,53.856 29.351,55.835C29.351,58.332 31.066,60.524 33.696,61.874Z">`);
+var _tmpl$41 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.58211,0,0,1.96189,-23.2842,-43.7583)><g id=Burn><path id=standalone1 serif:id=standalone d="M33.696,61.874C31.412,61.39 29.373,60.638 27.611,59.665C22.976,56.825 20,52.43 20,47.5C20,47.378 20.002,47.257 20.005,47.136L20,47.136C20.022,42.298 22.463,38.039 26.151,35.553L26.151,36.321L26.166,36.31L26.166,37.225C25.873,37.711 25.714,38.242 25.714,38.757C25.714,40.416 27.471,41.785 29.902,41.762C33.055,41.733 34.559,39.775 34.559,38.116C34.559,37.807 34.477,37.514 34.329,37.243L34.329,37.22C33.787,36.034 33.512,34.557 33.601,32.742C33.61,32.568 33.628,32.393 33.655,32.218L33.642,32.218C33.659,32.141 33.676,32.065 33.695,31.989C34.345,28.673 38.109,25.149 42.496,23.457C42.63,23.406 42.763,23.361 42.896,23.324C42.899,24.148 42.948,25.064 42.948,26.042C42.948,27.27 44.643,31.18 49.318,33.784C55.668,36.382 60,41.552 60,47.5C60,52.559 56.866,57.055 52.023,59.884C50.109,60.883 47.884,61.627 45.381,62.062C49.032,60.428 51.791,57.425 51.791,54.64C51.791,52.663 51.135,51.019 50.053,49.758L50.084,49.702L49.898,49.584C49.242,48.868 48.444,48.283 47.549,47.841C44.734,45.506 41.84,42.273 41.84,40.492C41.84,40.298 41.852,40.109 41.875,39.925C40.472,41.233 39.564,43.317 39.564,45.663C39.564,46.699 39.741,47.684 40.06,48.574C40.067,48.687 40.07,48.801 40.07,48.916C40.07,51.609 38.273,53.796 36.06,53.796C34.221,53.796 32.669,52.285 32.198,50.228C30.435,51.815 29.351,53.856 29.351,55.835C29.351,58.332 31.066,60.524 33.696,61.874Z">`);
 function Burn(props) {
   return (() => {
-    var _el$ = _tmpl$46(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
+    var _el$ = _tmpl$41(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
     createRenderEffect((_$p) => style(_el$4, `fill:${props.fill ?? "rgb(228,102,41)"};`, _$p));
     return _el$;
   })();
@@ -4743,10 +4758,10 @@ function Omni(props) {
 }
 
 // src/components/icons/Physical.tsx
-var _tmpl$53 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(2.47396,0,0,2.05405,-56.4844,-37.027)><g id=Physical><path id=standalone1 serif:id=standalone d=M39,19L52.856,28.25L52.856,46.75L39,56L25.144,46.75L25.144,28.25L39,19ZM29.023,44.16L32.903,41.57L32.903,33.43L39,29.36L45.097,33.43L45.097,41.57L48.977,44.16L48.977,30.84L39,24.18L29.023,30.84L29.023,44.16Z>`);
+var _tmpl$54 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(2.47396,0,0,2.05405,-56.4844,-37.027)><g id=Physical><path id=standalone1 serif:id=standalone d=M39,19L52.856,28.25L52.856,46.75L39,56L25.144,46.75L25.144,28.25L39,19ZM29.023,44.16L32.903,41.57L32.903,33.43L39,29.36L45.097,33.43L45.097,41.57L48.977,44.16L48.977,30.84L39,24.18L29.023,30.84L29.023,44.16Z>`);
 function Physical(props) {
   return (() => {
-    var _el$ = _tmpl$53(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
+    var _el$ = _tmpl$54(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
     createRenderEffect((_$p) => style(_el$4, `fill:${props.fill ?? "rgb(201,200,206)"};`, _$p));
     return _el$;
   })();
@@ -4807,11 +4822,11 @@ function Phase(props) {
 }
 
 // src/components/DollChip.tsx
-var _tmpl$54 = /* @__PURE__ */ template(`<div><div><div class="absolute top-1 left-1 h-6 w-6"></div><img loading=lazy class="h-auto w-32 object-cover"></div><div class="bg-[#1C2A32] p-1 text-center font-bold text-[#EFEFEF]">`, true, false, false);
+var _tmpl$55 = /* @__PURE__ */ template(`<div><div><div class="absolute top-1 left-1 h-6 w-6"></div><img loading=lazy class="h-auto w-32 object-cover"></div><div class="bg-[#1C2A32] p-1 text-center font-bold text-[#EFEFEF]">`, true, false, false);
 var _tmpl$214 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function DollChip(props) {
   return (() => {
-    var _el$ = _tmpl$54(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$2.nextSibling;
+    var _el$ = _tmpl$55(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$2.nextSibling;
     addEventListener(_el$, "click", props.onClick, true);
     insert(_el$2, (() => {
       var _c$ = memo(() => !!props.selected);
@@ -4846,7 +4861,7 @@ function DollChip(props) {
 delegateEvents(["click"]);
 
 // src/components/modals/DollSelectorModal.tsx
-var _tmpl$55 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75">`);
+var _tmpl$56 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75">`);
 var _tmpl$215 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="grid grid-cols-6 gap-4">`);
 var _tmpl$311 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Changing dolls will clear their positions and actions`);
 var _tmpl$410 = /* @__PURE__ */ template(`<button><div class="h-6 w-6"></div><span>`);
@@ -4897,7 +4912,7 @@ function DollSelectorModal() {
   return [createComponent(ModalHeader, {
     title: "Select Dolls"
   }), (() => {
-    var _el$ = _tmpl$55();
+    var _el$ = _tmpl$56();
     insert(_el$, createComponent(For, {
       each: PHASE_TABS,
       children: (tab) => (() => {
@@ -4964,7 +4979,7 @@ function DollSelectorModal() {
 delegateEvents(["click"]);
 
 // src/components/modals/FortificationModal.tsx
-var _tmpl$56 = /* @__PURE__ */ template(`<div class="flex flex-col items-center gap-3 p-2">`);
+var _tmpl$57 = /* @__PURE__ */ template(`<div class="flex flex-col items-center gap-3 p-2">`);
 var _tmpl$216 = /* @__PURE__ */ template(`<div class="flex items-center gap-4"><div class="flex gap-2">`);
 var _tmpl$312 = /* @__PURE__ */ template(`<button>`);
 function FortificationModal() {
@@ -4989,7 +5004,7 @@ function FortificationModal() {
   return [createComponent(ModalHeader, {
     title: "Set Doll Fortifications"
   }), (() => {
-    var _el$ = _tmpl$56();
+    var _el$ = _tmpl$57();
     insert(_el$, createComponent(For, {
       get each() {
         return tempSelected();
@@ -5033,7 +5048,7 @@ function FortificationModal() {
 delegateEvents(["click"]);
 
 // src/components/modals/ImportModal.tsx
-var _tmpl$57 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-4 font-mono text-xs"placeholder="Paste here..."></textarea><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Imported state will overwrite all current settings`);
+var _tmpl$58 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-4 font-mono text-xs"placeholder="Paste here..."></textarea><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Imported state will overwrite all current settings`);
 function ImportModal() {
   const [text, setText] = createSignal("");
   const performImport = async () => {
@@ -5058,7 +5073,7 @@ function ImportModal() {
   return [createComponent(ModalHeader, {
     title: "Import Transcript"
   }), (() => {
-    var _el$ = _tmpl$57(), _el$2 = _el$.firstChild;
+    var _el$ = _tmpl$58(), _el$2 = _el$.firstChild;
     _el$2.$$input = (e) => setText(e.currentTarget.value);
     createRenderEffect(() => _el$2.value = text());
     return _el$;
@@ -5080,7 +5095,7 @@ function ImportModal() {
 delegateEvents(["input"]);
 
 // src/components/modals/TargetModal.tsx
-var _tmpl$58 = /* @__PURE__ */ template(`<div class="fixed inset-0 z-50 flex items-center justify-center bg-black/90"><div class="overflow-hidden rounded-sm border-t-[6px] border-[#506A6C] bg-[#293438]"><div class="border-b border-zinc-700 p-6 text-center"><h3 class="text-lg font-bold">Select Target Character</h3><p class="text-xs text-zinc-400"> \u2192 Target</p></div><div class="grid grid-cols-3 justify-items-center gap-4 p-5"></div><div class="flex justify-center gap-4 border-t border-zinc-700 p-6">`);
+var _tmpl$59 = /* @__PURE__ */ template(`<div class="fixed inset-0 z-50 flex items-center justify-center bg-black/90"><div class="overflow-hidden rounded-sm border-t-[6px] border-[#506A6C] bg-[#293438]"><div class="border-b border-zinc-700 p-6 text-center"><h3 class="text-lg font-bold">Select Target Character</h3><p class="text-xs text-zinc-400"> \u2192 Target</p></div><div class="grid grid-cols-3 justify-items-center gap-4 p-5"></div><div class="flex justify-center gap-4 border-t border-zinc-700 p-6">`);
 function TargetModal() {
   const skillInfo = createMemo(() => {
     const dollId = targetDollId();
@@ -5106,7 +5121,7 @@ function TargetModal() {
     setShowTargetModal(false);
   };
   return (() => {
-    var _el$ = _tmpl$58(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$3.nextSibling, _el$8 = _el$7.nextSibling;
+    var _el$ = _tmpl$59(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$3.nextSibling, _el$8 = _el$7.nextSibling;
     insert(_el$5, () => skillInfo()?.name, _el$6);
     insert(_el$7, createComponent(For, {
       get each() {
@@ -5133,7 +5148,7 @@ function TargetModal() {
 }
 
 // src/App.tsx
-var _tmpl$59 = /* @__PURE__ */ template(`<div class="absolute right-0 left-0 flex items-center justify-center bg-zinc-950">`);
+var _tmpl$60 = /* @__PURE__ */ template(`<div class="absolute right-0 left-0 flex items-center justify-center bg-zinc-950">`);
 var _tmpl$217 = /* @__PURE__ */ template(`<div class="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 rounded-3xl bg-black/80 px-4 py-1.5 font-mono text-xs text-lime-400">`);
 var _tmpl$313 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75"><button><span>Setup</span></button><button><span>Doll Actions`);
 var _tmpl$411 = /* @__PURE__ */ template(`<div class="absolute top-3.75 bottom-3.75 left-3.75 z-10 flex">`);
@@ -5225,7 +5240,7 @@ function App() {
       },
       get children() {
         return [(() => {
-          var _el$3 = _tmpl$59();
+          var _el$3 = _tmpl$60();
           insert(_el$3, createComponent(ArenaCanvas, {
             onCoordsChange: setCoords,
             onMouseUp: () => {
