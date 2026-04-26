@@ -1,4 +1,4 @@
-import { For, createMemo } from "solid-js";
+import { For, Show, createMemo } from "solid-js";
 import { produce } from "solid-js/store";
 import {
 	state,
@@ -330,8 +330,52 @@ function DollRow(props: DollRowProps) {
 			{/* Header */}
 			<div class="flex flex-col gap-1.5 border-2 border-[#D7D7D7] p-1">
 				<div class="drag-grip flex items-center gap-2">
-					<div class="w-4">
+					{/*<div class="w-4">
 						<Grip fill="#1C2A32" />
+					</div>*/}
+					<div class="flex flex-col gap-0.5">
+						<Show when={state.tabData[state.currentTab]?.actionOrder?.indexOf(props.dollId) !== 0}>
+							<button
+								onClick={() => {
+									setState(
+										produce((s) => {
+											const tab = s.tabData[s.currentTab]!;
+											const index = tab.actionOrder.indexOf(props.dollId);
+											const targetIndex = index - 1;
+											const targetDollId = tab.actionOrder[targetIndex];
+											tab.actionOrder[index] = targetDollId;
+											tab.actionOrder[targetIndex] = props.dollId;
+										})
+									);
+									saveToLocalStorage();
+								}}
+								class="cursor-pointer rounded-sm bg-[#384B53] p-0.5 hover:outline-3 hover:outline-white">
+								Up
+							</button>
+						</Show>
+						<Show
+							when={
+								state.tabData[state.currentTab]?.actionOrder?.indexOf(props.dollId) !==
+								state.tabData[state.currentTab]?.actionOrder?.length - 1
+							}>
+							<button
+								onClick={() => {
+									setState(
+										produce((s) => {
+											const tab = s.tabData[s.currentTab]!;
+											const index = tab.actionOrder.indexOf(props.dollId);
+											const targetIndex = index + 1;
+											const targetDollId = tab.actionOrder[targetIndex];
+											tab.actionOrder[index] = targetDollId;
+											tab.actionOrder[targetIndex] = props.dollId;
+										})
+									);
+									saveToLocalStorage();
+								}}
+								class="cursor-pointer rounded-sm bg-[#384B53] p-0.5 hover:outline-3 hover:outline-white">
+								Down
+							</button>
+						</Show>
 					</div>
 					<SquareDollChip target={dollInfo()!} doll={getDollFromSummon(dollInfo()!)} icon={true} name={true} />
 					<div class="min-w-0 flex-1">
@@ -375,6 +419,8 @@ export default function ActionSidebar(props: { active: boolean }) {
 	});
 
 	const handleDragStart = (e: MouseEvent | TouchEvent) => {
+		// TODO: fix this
+		return;
 		if (e.target instanceof HTMLElement === false) return;
 		if (e.target.classList.contains("drag-ignore") || e.target.closest(".drag-ignore")) return;
 		if (e.target.classList.contains("drag-grip") || e.target.closest(".drag-grip")) {
@@ -403,6 +449,8 @@ export default function ActionSidebar(props: { active: boolean }) {
 	};
 
 	const handleDragEnd = (e: MouseEvent | TouchEvent) => {
+		// TODO: fix this
+		return;
 		if (!draggableItem) return;
 
 		applyNewItemsOrder(e);
