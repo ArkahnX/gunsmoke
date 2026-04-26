@@ -35,7 +35,6 @@ export default function TargetModal() {
 				const tab = s.tabData[s.currentTab]!;
 				if (!tab.actions[dollId]) tab.actions[dollId] = [];
 				tab.actions[dollId]!.push(entry);
-				if (!tab.actionOrder.includes(dollId)) tab.actionOrder.push(dollId);
 			})
 		);
 		saveToLocalStorage();

@@ -1537,6 +1537,7 @@ function makeDefaultTabData() {
 var [state, setState] = createStore({
   selectedDolls: [],
   currentTab: 0,
+  actionType: 0,
   tabData: Array.from({ length: 8 }, () => makeDefaultTabData())
 });
 var [showDollModal, setShowDollModal] = createSignal(false);
@@ -1562,7 +1563,7 @@ function getDollFromSummon(summon) {
   return allDolls().find((d) => d.id === summon.dollId);
 }
 function getSortedUsableSkills(doll) {
-  const usable = (doll.skills || []).filter((s) => s.type !== "Passive");
+  const usable = (doll.skills || []).filter((s) => s.type !== "Passive" || s.name === "Escort");
   const basic = usable.filter((s) => s.type === "Basic Attack");
   const numbered = usable.filter((s) => (s.type || "").startsWith("Skill ")).sort((a, b) => parseInt((a.type || "").replace("Skill ", "")) - parseInt((b.type || "").replace("Skill ", "")));
   const rest = usable.filter((s) => !basic.includes(s) && !numbered.includes(s)).sort((a, b) => (a.name || "").localeCompare(b.name || ""));
@@ -1574,15 +1575,6 @@ function isPlaced(dollId) {
   }
   const pos = state.tabData[state.currentTab].dollPositions[dollId];
   return !!pos && pos.x > -1;
-}
-function getPositionsForDoll(dollId) {
-  const positions = [];
-  for (const p of state.tabData[state.currentTab].summonPositions) {
-    if (p.id === dollId) positions.push({ x: p.x, y: p.y });
-  }
-  const pos = state.tabData[state.currentTab].dollPositions[dollId];
-  if (pos) positions.push(pos);
-  return positions;
 }
 function getFortificationFromId(id) {
   return state.selectedDolls.find((d) => d.id === id)?.fortification ?? 0;
@@ -1615,11 +1607,17 @@ function renderAction(dollId, action) {
   const doll = getDollInfoFromId(dollId);
   if (!doll) return "";
   const sorted = getSortedUsableSkills(doll);
+  const skillName = ["BA", "S1", "S2", "ULT", "S3", "S4", "S5", "S6"];
   const skillNum = sorted.findIndex((s) => s.id === skillId) + 1;
   if (targetId) {
     const target = getDollInfoFromId(targetId);
-    return `S${skillNum}>${target?.name ?? "?"}`;
+    if (state.actionType === 0) return `S${skillNum}>${target?.name ?? "?"}`;
+    if (state.actionType === 1) return `${skillNum}>${target?.name ?? "?"}`;
+    if (state.actionType === 2) return `${skillName[skillNum - 1]}>${target?.name ?? "?"}`;
   }
+  if (state.actionType === 0) return `S${skillNum}`;
+  if (state.actionType === 1) return `${skillNum}`;
+  if (state.actionType === 2) return `${skillName[skillNum - 1]}`;
   return `S${skillNum}`;
 }
 function defaultActionOrder(tabIndex) {
@@ -1685,11 +1683,12 @@ function loadState(newData) {
     produce((s) => {
       s.selectedDolls = newData.selectedDolls;
       s.currentTab = newData.currentTab;
+      s.actionType = newData.actionType || 0;
       for (let tabIndex = 0; tabIndex < 8; tabIndex++) {
         const src = newData.tabData[tabIndex];
         const tab = s.tabData[tabIndex];
-        tab.summonPositions = [];
-        tab.actionOrder = [];
+        tab.summonPositions.length = 0;
+        tab.actionOrder.length = 0;
         tab.dollPositions = {};
         tab.actions = {};
         for (const doll of s.selectedDolls) {
@@ -1725,6 +1724,14 @@ function loadFromLocalStorage() {
   } catch {
     return false;
   }
+}
+function updateSkillDisplay(actionType) {
+  setState(
+    produce((s) => {
+      s.actionType = actionType;
+    })
+  );
+  saveToLocalStorage();
 }
 async function compress(str) {
   const byteArray = new TextEncoder().encode(str);
@@ -3279,16 +3286,63 @@ function ConfirmModal(props) {
   });
 }
 
+// src/components/modals/ContentModal.tsx
+function ContentModal(props) {
+  const resolved = children(() => props.children);
+  return createComponent(Portal, {
+    get mount() {
+      return props.mount;
+    },
+    get children() {
+      return createComponent(Show, {
+        get when() {
+          return props.isActive();
+        },
+        fallback: null,
+        get children() {
+          return createComponent(FullScreen, {
+            get children() {
+              return createComponent(Modal, {
+                get width() {
+                  return props.width;
+                },
+                get children() {
+                  return [createComponent(ModalHeader, {
+                    get title() {
+                      return props.title ?? "Confirm";
+                    }
+                  }), memo(() => resolved()), createComponent(ModalFooter, {
+                    styles: "gap-4 justify-center",
+                    get children() {
+                      return createComponent(Button, {
+                        onClick: () => props.setActive(false),
+                        color: "dark",
+                        design: "cancel"
+                      });
+                    }
+                  })];
+                }
+              });
+            }
+          });
+        }
+      });
+    }
+  });
+}
+
 // src/components/SetupSidebar.tsx
 var _tmpl$28 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Summons (drag to map)`);
 var _tmpl$29 = /* @__PURE__ */ template(`<div class="flex flex-wrap gap-3">`);
-var _tmpl$32 = /* @__PURE__ */ template(`<div><div class="flex flex-col items-center gap-3 pt-1 text-sm font-bold text-[#384B53]"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Echelon (drag to map)</div><div class="flex flex-wrap gap-3"></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">State Management</div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">Danger Zone`);
+var _tmpl$32 = /* @__PURE__ */ template(`<ul class="flex flex-col gap-2 self-center"><li class="flex flex-row items-center gap-2"><div>S1 / S2 / S3 / S4</div></li><li class="flex flex-row items-center gap-2"><div>1 / 2 / 3 / 4</div></li><li class="flex flex-row items-center gap-2"><div>BA / S1 / S2 / ULT`);
+var _tmpl$42 = /* @__PURE__ */ template(`<div><div class="flex flex-col items-center gap-3 pt-1 text-sm font-bold text-[#384B53]"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Echelon (drag to map)</div><div class="flex flex-wrap gap-3"></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">State Management</div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">Danger Zone`);
 function SetupSidebar(props) {
   const isActionTab = createMemo(() => state.currentTab >= 1 && state.currentTab <= 7);
   const availableSummonIds = createMemo(() => isActionTab() ? getSummonIdsFromDollIds(state.selectedDolls.map((d) => d.id)) : []);
   const [showClearSkillModal, setShowClearSkillModal] = createSignal(false);
   const [showClearTurnModal, setShowClearTurnModal] = createSignal(false);
   const [showClearDataModal, setShowClearDataModal] = createSignal(false);
+  const [showSkillDesignModal, setShowSkillDesignModal] = createSignal(false);
   const openDollSelector = () => {
     setTempSelected(state.selectedDolls.map((d) => d.id));
     const nums = {};
@@ -3342,8 +3396,8 @@ function SetupSidebar(props) {
     }
     setState(produce((s) => {
       const tab = s.tabData[s.currentTab];
-      tab.actionOrder = [];
-      tab.summonPositions = [];
+      tab.actionOrder.length = 0;
+      tab.summonPositions.length = 0;
       tab.dollPositions = {};
       tab.actions = {};
       for (const doll of s.selectedDolls) {
@@ -3376,7 +3430,7 @@ function SetupSidebar(props) {
     saveToLocalStorage();
   };
   return (() => {
-    var _el$ = _tmpl$32(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$7 = _el$4.nextSibling, _el$8 = _el$7.nextSibling;
+    var _el$ = _tmpl$42(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$7 = _el$4.nextSibling, _el$13 = _el$7.nextSibling;
     insert(_el$2, createComponent(Button, {
       color: "dark",
       onClick: openDollSelector,
@@ -3458,17 +3512,74 @@ function SetupSidebar(props) {
       }
     }), _el$7);
     insert(_el$2, createComponent(Button, {
+      onClick: () => setShowSkillDesignModal(true),
+      color: "dark",
+      design: "custom",
+      content: "Set Skill Display"
+    }), _el$13);
+    insert(_el$2, createComponent(ContentModal, {
+      get mount() {
+        return document.querySelector("#body");
+      },
+      width: "w-90",
+      title: "Skill Display",
+      isActive: showSkillDesignModal,
+      setActive: setShowSkillDesignModal,
+      get children() {
+        var _el$8 = _tmpl$32(), _el$9 = _el$8.firstChild, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$1.nextSibling, _el$12 = _el$11.firstChild;
+        insert(_el$9, createComponent(Button, {
+          onClick: () => {
+            updateSkillDisplay(0);
+            setShowSkillDesignModal(false);
+          },
+          color: "dark",
+          design: "custom",
+          content: "Style 1"
+        }), _el$0);
+        insert(_el$1, createComponent(Button, {
+          onClick: () => {
+            updateSkillDisplay(1);
+            setShowSkillDesignModal(false);
+          },
+          color: "dark",
+          design: "custom",
+          content: "Style 2"
+        }), _el$10);
+        insert(_el$11, createComponent(Button, {
+          onClick: () => {
+            updateSkillDisplay(2);
+            setShowSkillDesignModal(false);
+          },
+          color: "dark",
+          design: "custom",
+          content: "Style 3"
+        }), _el$12);
+        createRenderEffect((_p$) => {
+          var _v$ = `rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 0 ? "outline-2 outline-[#F26C1C]" : ""}`, _v$2 = `rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 1 ? "outline-2 outline-[#F26C1C]" : ""}`, _v$3 = `rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 2 ? "outline-2 outline-[#F26C1C]" : ""}`;
+          _v$ !== _p$.e && className(_el$0, _p$.e = _v$);
+          _v$2 !== _p$.t && className(_el$10, _p$.t = _v$2);
+          _v$3 !== _p$.a && className(_el$12, _p$.a = _v$3);
+          return _p$;
+        }, {
+          e: void 0,
+          t: void 0,
+          a: void 0
+        });
+        return _el$8;
+      }
+    }), _el$13);
+    insert(_el$2, createComponent(Button, {
       onClick: exportAllTabs,
       color: "dark",
       design: "custom",
       content: "Export Transcript"
-    }), _el$8);
+    }), _el$13);
     insert(_el$2, createComponent(Button, {
       onClick: () => setShowImportModal(true),
       color: "dark",
       design: "custom",
       content: "Import Transcript"
-    }), _el$8);
+    }), _el$13);
     insert(_el$2, createComponent(Button, {
       onClick: () => setShowClearSkillModal(true),
       color: "red",
@@ -3526,7 +3637,7 @@ function SetupSidebar(props) {
 var _tmpl$30 = /* @__PURE__ */ template(`<div class="flex h-full flex-col gap-3 overflow-auto bg-zinc-950 p-3"><div class="flex-wrap gap-1 rounded-sm bg-[#CFCED2] p-1 text-sm font-bold text-[#325563] shadow-sm shadow-black/50"><div class="flex flex-row items-center gap-1.5 border-2 border-[#B1AFB3] p-1"><span class="etl whitespace-nowrap"></span><div class="mx-0.5 h-[18px] w-px bg-[#1e2730]"></div><span class=etl>Tool:</span><div class="mx-0.5 h-[18px] w-px bg-[#1e2730]"></div><span class="etl text-[#445566]">Boundary:</span><select class="rounded border border-[#1e2730] bg-[#0c1014] px-1.5 py-0.5 text-[#6a7e8e]"><option value=h>Horizontal</option><option value=v>Vertical</option></select><div class="mx-0.5 h-[18px] w-px bg-[#1e2730]"></div><div class="mx-0.5 h-[18px] w-px bg-[#1e2730]"></div><button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]">Export JSON</button><button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]">Import JSON</button></div></div><div class="flex-1 overflow-auto rounded-md"style=line-height:0><canvas style=display:block;cursor:crosshair></canvas></div><p class="mt-1 pl-0.5 text-[#2a3a4a]">`);
 var _tmpl$210 = /* @__PURE__ */ template(`<button><span class="h-[11px] w-[11px] flex-shrink-0 rounded-[2px]">`);
 var _tmpl$33 = /* @__PURE__ */ template(`<button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]">`);
-var _tmpl$42 = /* @__PURE__ */ template(`<div class="mt-2 flex-shrink-0 rounded-md border border-[#1e2730] bg-[#13181f] p-2"><textarea class="h-[120px] w-full resize-y rounded border border-[#1e2730] bg-[#0c1014] p-1.5 font-mono text-[11px] text-[#6a9a7a]"></textarea><div class="mt-1.5 flex gap-1.5"><button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]"></button><button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]">Close`);
+var _tmpl$43 = /* @__PURE__ */ template(`<div class="mt-2 flex-shrink-0 rounded-md border border-[#1e2730] bg-[#13181f] p-2"><textarea class="h-[120px] w-full resize-y rounded border border-[#1e2730] bg-[#0c1014] p-1.5 font-mono text-[11px] text-[#6a9a7a]"></textarea><div class="mt-1.5 flex gap-1.5"><button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]"></button><button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]">Close`);
 var canvasEl2;
 var ctx2;
 var painting = false;
@@ -3741,7 +3852,7 @@ function EditorView() {
     insert(_el$, (() => {
       var _c$ = memo(() => !!showEditorIo());
       return () => _c$() && (() => {
-        var _el$18 = _tmpl$42(), _el$19 = _el$18.firstChild, _el$20 = _el$19.nextSibling, _el$21 = _el$20.firstChild, _el$22 = _el$21.nextSibling;
+        var _el$18 = _tmpl$43(), _el$19 = _el$18.firstChild, _el$20 = _el$19.nextSibling, _el$21 = _el$20.firstChild, _el$22 = _el$21.nextSibling;
         _el$19.$$input = (e) => setEditorIoText(e.currentTarget.value);
         setAttribute(_el$19, "spellcheck", false);
         _el$21.$$click = handleDoIO;
@@ -3781,7 +3892,7 @@ delegateEvents(["click"]);
 var _tmpl$34 = /* @__PURE__ */ template(`<div class="absolute top-0.5 left-0.5 h-4 w-4">`);
 var _tmpl$211 = /* @__PURE__ */ template(`<div class="absolute top-0 right-0 bottom-0 left-0 flex items-end justify-center bg-linear-to-t from-black/70 via-transparent to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class="overflow-hidden overflow-ellipsis whitespace-nowrap">`);
 var _tmpl$35 = /* @__PURE__ */ template(`<div><div class="relative flex justify-center overflow-hidden bg-[#909597]"><img loading=lazy>`, true, false, false);
-var _tmpl$43 = /* @__PURE__ */ template(`<div class="absolute top-0.5 right-0.5 h-5 w-5 shadow-sm shadow-black/20">`);
+var _tmpl$44 = /* @__PURE__ */ template(`<div class="absolute top-0.5 right-0.5 h-5 w-5 shadow-sm shadow-black/20">`);
 function SquareDollChip(props) {
   const interactive = typeof props.onClick !== "undefined" || typeof props.onDragStart !== "undefined" || typeof props.onMouseDown !== "undefined" || typeof props.onTouchStart !== "undefined";
   return (() => {
@@ -3793,7 +3904,7 @@ function SquareDollChip(props) {
     insert(_el$2, (() => {
       var _c$ = memo(() => !!props.selected);
       return () => _c$() && (() => {
-        var _el$7 = _tmpl$43();
+        var _el$7 = _tmpl$44();
         insert(_el$7, createComponent(Check, {}));
         return _el$7;
       })();
@@ -3872,7 +3983,6 @@ function Grip(props) {
 var _tmpl$37 = /* @__PURE__ */ template(`<div><div class="flex flex-col gap-1.5 border-2 border-[#D7D7D7] p-1"><div class="drag-grip flex items-center gap-2"><div class=w-4></div><div class="min-w-0 flex-1"><div class="mt-1 flex flex-wrap gap-1"></div></div></div><div class="flex flex-wrap gap-1.5">`);
 var _tmpl$212 = /* @__PURE__ */ template(`<div class="group relative"><div class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 hover:bg-red-900 hover:text-red-300"title=Remove>`);
 var _tmpl$38 = /* @__PURE__ */ template(`<div>`);
-var dragSrcId = null;
 var draggableItem = null;
 var listContainer = void 0;
 var pointerStartX = 0;
@@ -4001,6 +4111,9 @@ function applyNewItemsOrder(e) {
     }
   }));
   saveToLocalStorage();
+  reorderedItems.forEach((item) => {
+    listContainer.appendChild(item);
+  });
   draggableItem.style.transform = "";
   requestAnimationFrame(() => {
     if (draggableItem instanceof HTMLElement && prevRect instanceof DOMRect) {
@@ -4030,6 +4143,7 @@ function cleanup() {
   items = [];
   unsetItemState();
   enablePageScroll();
+  defaultActionOrder(state.currentTab);
   document.removeEventListener("mousemove", drag2);
   document.removeEventListener("touchmove", drag2);
 }
@@ -4063,7 +4177,7 @@ function handleSkillClick(dollId, sortedIdx) {
   const skill = sorted[sortedIdx];
   if (!skill) return;
   const hasActiveBuff = skill.range !== "Self" && skill.range !== null && skill.name !== "Absolute Mental Defense" && skill.name !== "Honor Guard" && skill.tags && (skill.tags.includes("Healing") || skill.tags.includes("Buff")) && !skill.tags.includes("Targeted") && !skill.tags.includes("Tile");
-  if (hasActiveBuff || skill.name === "Light of Bond") {
+  if (hasActiveBuff || skill.name === "Light of Bond" || skill.name === "Bad Influence") {
     setTargetDollId(dollId);
     setTargetSkillId(skill.id);
     setShowTargetModal(true);
@@ -4077,7 +4191,6 @@ function recordSkill(dollId, entry) {
     const tab = s.tabData[s.currentTab];
     if (!tab.actions[dollId]) tab.actions[dollId] = [];
     tab.actions[dollId].push(entry);
-    if (!tab.actionOrder.includes(dollId)) tab.actionOrder.push(dollId);
   }));
   saveToLocalStorage();
 }
@@ -4088,59 +4201,14 @@ function removeAction(dollId, actionIdx) {
   }));
   saveToLocalStorage();
 }
-function reorderDolls(fromId, toId) {
-  setState(produce((s) => {
-    const tab = s.tabData[s.currentTab];
-    let order = tab.actionOrder.length ? [...tab.actionOrder] : s.selectedDolls.map((d) => d.id);
-    s.selectedDolls.forEach((d) => {
-      if (!order.includes(d.id)) order.push(d.id);
-    });
-    const fromIdx = order.indexOf(fromId);
-    const toIdx = order.indexOf(toId);
-    if (fromIdx !== -1 && toIdx !== -1) {
-      order.splice(fromIdx, 1);
-      order.splice(toIdx, 0, fromId);
-    }
-    tab.actionOrder = order;
-  }));
-  saveToLocalStorage();
-}
 function DollRow(props) {
   const dollInfo = createMemo(() => getDollInfoFromId(props.dollId));
   const placed = createMemo(() => isPlaced(props.dollId));
-  const positions = createMemo(() => getPositionsForDoll(props.dollId));
-  const fortification = createMemo(() => getFortificationFromId(props.dollId));
   const actions = createMemo(() => state.tabData[state.currentTab]?.actions[props.dollId] ?? []);
   const skills = createMemo(() => {
     const d = dollInfo();
     return d ? getSortedUsableSkills(d) : [];
   });
-  const handleDragStart = (e) => {
-    if (e.currentTarget instanceof HTMLElement === false) return;
-    dragSrcId = props.dollId;
-    e.dataTransfer.effectAllowed = "move";
-    e.currentTarget.style.opacity = "0.4";
-  };
-  const handleDragEnd = (e) => {
-    if (e.currentTarget instanceof HTMLElement === false) return;
-    e.currentTarget.style.opacity = "";
-  };
-  const handleDragOver = (e) => {
-    if (e.currentTarget instanceof HTMLElement === false) return;
-    e.preventDefault();
-    e.currentTarget.classList.add("drag-over");
-  };
-  const handleDragLeave = (e) => {
-    if (e.currentTarget instanceof HTMLElement === false) return;
-    e.preventDefault();
-    e.currentTarget.classList.remove("drag-over");
-  };
-  const handleDrop = (e) => {
-    if (e.currentTarget instanceof HTMLElement === false) return;
-    handleDragLeave(e);
-    if (dragSrcId && dragSrcId !== props.dollId) reorderDolls(dragSrcId, props.dollId);
-    dragSrcId = null;
-  };
   return (() => {
     var _el$ = _tmpl$37(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$3.nextSibling;
     insert(_el$4, createComponent(Grip, {
@@ -4163,7 +4231,6 @@ function DollRow(props) {
       children: (action, ai) => (() => {
         var _el$8 = _tmpl$212(), _el$9 = _el$8.firstChild;
         _el$9.$$click = () => {
-          console.log(props.dollId, ai());
           removeAction(props.dollId, ai());
         };
         insert(_el$9, () => renderAction(props.dollId, action));
@@ -4263,10 +4330,11 @@ function Fortification() {
 var _tmpl$40 = /* @__PURE__ */ template(`<div class="flex flex-row gap-2"><div style="width:430px;height:430px;flex-shrink:0;overflow:hidden;border-right:1px solid #3f3f46"></div><div class="flex min-w-0 grow flex-col gap-1 overflow-y-auto">`);
 var _tmpl$213 = /* @__PURE__ */ template(`<div class="flex flex-col items-start gap-1 rounded-xs border-b-2 bg-[#F4F4F6] p-1 shadow-sm shadow-black/30"><div class="flex flex-row items-center gap-1"><div class="font-bold text-[#325563]"></div></div><div class="min-w-0 flex-1"><div class="flex flex-wrap gap-1">`);
 var _tmpl$310 = /* @__PURE__ */ template(`<span class="rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
-var _tmpl$44 = /* @__PURE__ */ template(`<div class="pt-1 text-sm text-zinc-600">No actions recorded`);
-var _tmpl$52 = /* @__PURE__ */ template(`<div class="flex flex-col gap-1">`);
-var _tmpl$62 = /* @__PURE__ */ template(`<div class="flex h-full flex-col gap-3 overflow-auto bg-zinc-950 p-3"><div class="rounded-sm bg-[#CFCED2] p-1 shadow-sm shadow-black/50"><div class="flex flex-row gap-1.5 border-2 border-[#B1AFB3] p-1"></div></div><div class="flex flex-wrap gap-2">`);
-var _tmpl$72 = /* @__PURE__ */ template(`<div class="rounded-sm bg-[#E6E6E6] p-1 shadow-sm shadow-black/50"><div class="flex flex-row items-center gap-3 border-2 border-[#D7D7D7] p-1"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center text-[18px] font-bold">`);
+var _tmpl$45 = /* @__PURE__ */ template(`<div class="pt-1 text-sm text-zinc-600">No actions recorded`);
+var _tmpl$52 = /* @__PURE__ */ template(`<ul class="flex flex-col gap-2 self-center"><li class="flex flex-row items-center gap-2"><div>S1 / S2 / S3 / S4</div></li><li class="flex flex-row items-center gap-2"><div>1 / 2 / 3 / 4</div></li><li class="flex flex-row items-center gap-2"><div>BA / S1 / S2 / ULT`);
+var _tmpl$62 = /* @__PURE__ */ template(`<div class="flex flex-col gap-1">`);
+var _tmpl$72 = /* @__PURE__ */ template(`<div class="flex h-full flex-col gap-3 overflow-auto bg-zinc-950 p-3"><div class="rounded-sm bg-[#CFCED2] p-1 shadow-sm shadow-black/50"><div class="flex flex-row gap-1.5 border-2 border-[#B1AFB3] p-1"></div></div><div class="flex flex-wrap gap-2">`);
+var _tmpl$82 = /* @__PURE__ */ template(`<div class="rounded-sm bg-[#E6E6E6] p-1 shadow-sm shadow-black/50"><div class="flex flex-row items-center gap-3 border-2 border-[#D7D7D7] p-1"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center text-[18px] font-bold">`);
 function renderTabCanvas(tabIndex) {
   console.log("Rendering tab", tabIndex);
   const placedEntities = [];
@@ -4404,7 +4472,7 @@ function TabCard(props) {
               return _el$4;
             })();
           }
-        }) : _tmpl$44();
+        }) : _tmpl$45();
       })());
       return _el$;
     }
@@ -4420,8 +4488,9 @@ function SummaryView() {
     await navigator.clipboard.writeText(str);
     alert("\u2705 Exported all turns to clipboard!");
   };
+  const [showSkillDesignModal, setShowSkillDesignModal] = createSignal(false);
   return (() => {
-    var _el$1 = _tmpl$62(), _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild, _el$12 = _el$10.nextSibling;
+    var _el$1 = _tmpl$72(), _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild, _el$19 = _el$10.nextSibling;
     insert(_el$11, createComponent(Button, {
       onClick: exportAllTabs,
       color: "dark",
@@ -4434,36 +4503,93 @@ function SummaryView() {
       design: "custom",
       content: "Import Transcript"
     }), null);
-    insert(_el$12, createComponent(Modal, {
+    insert(_el$11, createComponent(Button, {
+      onClick: () => setShowSkillDesignModal(true),
+      color: "dark",
+      design: "custom",
+      content: "Set Skill Display"
+    }), null);
+    insert(_el$11, createComponent(ContentModal, {
+      get mount() {
+        return document.querySelector("#body");
+      },
+      width: "w-90",
+      title: "Skill Display",
+      isActive: showSkillDesignModal,
+      setActive: setShowSkillDesignModal,
+      get children() {
+        var _el$12 = _tmpl$52(), _el$13 = _el$12.firstChild, _el$14 = _el$13.firstChild, _el$15 = _el$13.nextSibling, _el$16 = _el$15.firstChild, _el$17 = _el$15.nextSibling, _el$18 = _el$17.firstChild;
+        insert(_el$13, createComponent(Button, {
+          onClick: () => {
+            updateSkillDisplay(0);
+            setShowSkillDesignModal(false);
+          },
+          color: "dark",
+          design: "custom",
+          content: "Style 1"
+        }), _el$14);
+        insert(_el$15, createComponent(Button, {
+          onClick: () => {
+            updateSkillDisplay(1);
+            setShowSkillDesignModal(false);
+          },
+          color: "dark",
+          design: "custom",
+          content: "Style 2"
+        }), _el$16);
+        insert(_el$17, createComponent(Button, {
+          onClick: () => {
+            updateSkillDisplay(2);
+            setShowSkillDesignModal(false);
+          },
+          color: "dark",
+          design: "custom",
+          content: "Style 3"
+        }), _el$18);
+        createRenderEffect((_p$) => {
+          var _v$ = `rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 0 ? "outline-2 outline-[#F26C1C]" : ""}`, _v$2 = `rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 1 ? "outline-2 outline-[#F26C1C]" : ""}`, _v$3 = `rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 2 ? "outline-2 outline-[#F26C1C]" : ""}`;
+          _v$ !== _p$.e && className(_el$14, _p$.e = _v$);
+          _v$2 !== _p$.t && className(_el$16, _p$.t = _v$2);
+          _v$3 !== _p$.a && className(_el$18, _p$.a = _v$3);
+          return _p$;
+        }, {
+          e: void 0,
+          t: void 0,
+          a: void 0
+        });
+        return _el$12;
+      }
+    }), null);
+    insert(_el$19, createComponent(Modal, {
       width: "w-138 grow",
       get children() {
-        var _el$13 = _tmpl$52();
-        insert(_el$13, createComponent(For, {
+        var _el$20 = _tmpl$62();
+        insert(_el$20, createComponent(For, {
           get each() {
             return state.selectedDolls;
           },
           children: (doll) => {
             const dollInfo = createMemo(() => allDolls().find((d) => d.id === doll.id));
             return (() => {
-              var _el$14 = _tmpl$72(), _el$15 = _el$14.firstChild, _el$16 = _el$15.firstChild, _el$17 = _el$16.firstChild, _el$18 = _el$17.nextSibling;
-              insert(_el$15, createComponent(SmallDollChip, {
+              var _el$21 = _tmpl$82(), _el$22 = _el$21.firstChild, _el$23 = _el$22.firstChild, _el$24 = _el$23.firstChild, _el$25 = _el$24.nextSibling;
+              insert(_el$22, createComponent(SmallDollChip, {
                 get target() {
                   return dollInfo();
                 },
                 get doll() {
                   return dollInfo();
                 }
-              }), _el$16);
-              insert(_el$17, createComponent(Fortification, {}));
-              insert(_el$18, () => doll.fortification || "\u2014");
-              return _el$14;
+              }), _el$23);
+              insert(_el$24, createComponent(Fortification, {}));
+              insert(_el$25, () => doll.fortification || "\u2014");
+              return _el$21;
             })();
           }
         }));
-        return _el$13;
+        return _el$20;
       }
     }), null);
-    insert(_el$12, createComponent(For, {
+    insert(_el$19, createComponent(For, {
       get each() {
         return Array.from({
           length: 8
@@ -4503,20 +4629,20 @@ function All(props) {
 }
 
 // src/components/icons/Burn.tsx
-var _tmpl$45 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.58211,0,0,1.96189,-23.2842,-43.7583)><g id=Burn><path id=standalone1 serif:id=standalone d="M33.696,61.874C31.412,61.39 29.373,60.638 27.611,59.665C22.976,56.825 20,52.43 20,47.5C20,47.378 20.002,47.257 20.005,47.136L20,47.136C20.022,42.298 22.463,38.039 26.151,35.553L26.151,36.321L26.166,36.31L26.166,37.225C25.873,37.711 25.714,38.242 25.714,38.757C25.714,40.416 27.471,41.785 29.902,41.762C33.055,41.733 34.559,39.775 34.559,38.116C34.559,37.807 34.477,37.514 34.329,37.243L34.329,37.22C33.787,36.034 33.512,34.557 33.601,32.742C33.61,32.568 33.628,32.393 33.655,32.218L33.642,32.218C33.659,32.141 33.676,32.065 33.695,31.989C34.345,28.673 38.109,25.149 42.496,23.457C42.63,23.406 42.763,23.361 42.896,23.324C42.899,24.148 42.948,25.064 42.948,26.042C42.948,27.27 44.643,31.18 49.318,33.784C55.668,36.382 60,41.552 60,47.5C60,52.559 56.866,57.055 52.023,59.884C50.109,60.883 47.884,61.627 45.381,62.062C49.032,60.428 51.791,57.425 51.791,54.64C51.791,52.663 51.135,51.019 50.053,49.758L50.084,49.702L49.898,49.584C49.242,48.868 48.444,48.283 47.549,47.841C44.734,45.506 41.84,42.273 41.84,40.492C41.84,40.298 41.852,40.109 41.875,39.925C40.472,41.233 39.564,43.317 39.564,45.663C39.564,46.699 39.741,47.684 40.06,48.574C40.067,48.687 40.07,48.801 40.07,48.916C40.07,51.609 38.273,53.796 36.06,53.796C34.221,53.796 32.669,52.285 32.198,50.228C30.435,51.815 29.351,53.856 29.351,55.835C29.351,58.332 31.066,60.524 33.696,61.874Z">`);
+var _tmpl$46 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.58211,0,0,1.96189,-23.2842,-43.7583)><g id=Burn><path id=standalone1 serif:id=standalone d="M33.696,61.874C31.412,61.39 29.373,60.638 27.611,59.665C22.976,56.825 20,52.43 20,47.5C20,47.378 20.002,47.257 20.005,47.136L20,47.136C20.022,42.298 22.463,38.039 26.151,35.553L26.151,36.321L26.166,36.31L26.166,37.225C25.873,37.711 25.714,38.242 25.714,38.757C25.714,40.416 27.471,41.785 29.902,41.762C33.055,41.733 34.559,39.775 34.559,38.116C34.559,37.807 34.477,37.514 34.329,37.243L34.329,37.22C33.787,36.034 33.512,34.557 33.601,32.742C33.61,32.568 33.628,32.393 33.655,32.218L33.642,32.218C33.659,32.141 33.676,32.065 33.695,31.989C34.345,28.673 38.109,25.149 42.496,23.457C42.63,23.406 42.763,23.361 42.896,23.324C42.899,24.148 42.948,25.064 42.948,26.042C42.948,27.27 44.643,31.18 49.318,33.784C55.668,36.382 60,41.552 60,47.5C60,52.559 56.866,57.055 52.023,59.884C50.109,60.883 47.884,61.627 45.381,62.062C49.032,60.428 51.791,57.425 51.791,54.64C51.791,52.663 51.135,51.019 50.053,49.758L50.084,49.702L49.898,49.584C49.242,48.868 48.444,48.283 47.549,47.841C44.734,45.506 41.84,42.273 41.84,40.492C41.84,40.298 41.852,40.109 41.875,39.925C40.472,41.233 39.564,43.317 39.564,45.663C39.564,46.699 39.741,47.684 40.06,48.574C40.067,48.687 40.07,48.801 40.07,48.916C40.07,51.609 38.273,53.796 36.06,53.796C34.221,53.796 32.669,52.285 32.198,50.228C30.435,51.815 29.351,53.856 29.351,55.835C29.351,58.332 31.066,60.524 33.696,61.874Z">`);
 function Burn(props) {
   return (() => {
-    var _el$ = _tmpl$45(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
+    var _el$ = _tmpl$46(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
     createRenderEffect((_$p) => style(_el$4, `fill:${props.fill ?? "rgb(228,102,41)"};`, _$p));
     return _el$;
   })();
 }
 
 // src/components/icons/Corrosion.tsx
-var _tmpl$46 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.74713,0,0,1.74713,-30.3218,-30.7586)><g id=Corrosion><g id=standalone1 serif:id=standalone><g transform=matrix(1.11111,0,0,1.25,-5.38889,-15.5)><ellipse cx=39.5 cy=58 rx=4.5 ry=4></ellipse></g><g transform=matrix(1.06667,0,0,1.23077,-4.13333,-11.2308)><ellipse cx=54.5 cy=46.5 rx=7.5 ry=6.5></ellipse></g><g transform=matrix(1.18182,0,0,1,-10.5455,1)><ellipse cx=52.5 cy=24.5 rx=5.5 ry=6.5></ellipse></g><g transform=matrix(0.884615,0,0,1.21053,4.34615,-7.68421)><ellipse cx=29 cy=36.5 rx=13 ry=9.5>`);
+var _tmpl$47 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.74713,0,0,1.74713,-30.3218,-30.7586)><g id=Corrosion><g id=standalone1 serif:id=standalone><g transform=matrix(1.11111,0,0,1.25,-5.38889,-15.5)><ellipse cx=39.5 cy=58 rx=4.5 ry=4></ellipse></g><g transform=matrix(1.06667,0,0,1.23077,-4.13333,-11.2308)><ellipse cx=54.5 cy=46.5 rx=7.5 ry=6.5></ellipse></g><g transform=matrix(1.18182,0,0,1,-10.5455,1)><ellipse cx=52.5 cy=24.5 rx=5.5 ry=6.5></ellipse></g><g transform=matrix(0.884615,0,0,1.21053,4.34615,-7.68421)><ellipse cx=29 cy=36.5 rx=13 ry=9.5>`);
 function Corrosion(props) {
   return (() => {
-    var _el$ = _tmpl$46(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild;
+    var _el$ = _tmpl$47(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild;
     createRenderEffect((_p$) => {
       var _v$ = `fill:${props.fill ?? "rgb(134,121,232)"};`, _v$2 = `fill:${props.fill ?? "rgb(134,121,232)"};`, _v$3 = `fill:${props.fill ?? "rgb(134,121,232)"};`, _v$4 = `fill:${props.fill ?? "rgb(134,121,232)"};`;
       _p$.e = style(_el$6, _v$, _p$.e);
@@ -4535,20 +4661,20 @@ function Corrosion(props) {
 }
 
 // src/components/icons/Electric.tsx
-var _tmpl$47 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.63441,0,0,1.63441,-27.828,-26.6022)><g id=Electric><path id=standalone1 serif:id=standalone d=M50,17.5L33,17.5L25,46L42,42L34,64L58,33L40,36L50,17.5Z>`);
+var _tmpl$48 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.63441,0,0,1.63441,-27.828,-26.6022)><g id=Electric><path id=standalone1 serif:id=standalone d=M50,17.5L33,17.5L25,46L42,42L34,64L58,33L40,36L50,17.5Z>`);
 function Electric(props) {
   return (() => {
-    var _el$ = _tmpl$47(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
+    var _el$ = _tmpl$48(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
     createRenderEffect((_$p) => style(_el$4, `fill:${props.fill ?? "rgb(235,191,33)"};`, _$p));
     return _el$;
   })();
 }
 
 // src/components/icons/Freeze.tsx
-var _tmpl$48 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.58333,0,0,1.58333,-23.1721,-23.3333)><g id=Freeze><g id=standalone1 serif:id=standalone><g transform=matrix(1,0,0,1.2,-2,-12.8)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(1,0,0,1.2,-2,-36.8)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(0.961538,0,0,1.13636,-0.865385,-6.02273)><ellipse cx=42.5 cy=40.5 rx=6.5 ry=5.5></ellipse></g><g transform=matrix(0.499153,0.866514,-1.03982,0.598984,85.5838,-34.7286)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(-0.499989,0.866032,-1.03924,-0.599987,127.511,42.0259)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(-0.499153,0.866514,1.03982,0.598984,-5.78748,-34.7286)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(0.499989,0.866032,1.03924,-0.599987,-47.7144,42.0259)><path d=M42,44L47,54L42,64L37,54L42,44Z>`);
+var _tmpl$49 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.58333,0,0,1.58333,-23.1721,-23.3333)><g id=Freeze><g id=standalone1 serif:id=standalone><g transform=matrix(1,0,0,1.2,-2,-12.8)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(1,0,0,1.2,-2,-36.8)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(0.961538,0,0,1.13636,-0.865385,-6.02273)><ellipse cx=42.5 cy=40.5 rx=6.5 ry=5.5></ellipse></g><g transform=matrix(0.499153,0.866514,-1.03982,0.598984,85.5838,-34.7286)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(-0.499989,0.866032,-1.03924,-0.599987,127.511,42.0259)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(-0.499153,0.866514,1.03982,0.598984,-5.78748,-34.7286)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(0.499989,0.866032,1.03924,-0.599987,-47.7144,42.0259)><path d=M42,44L47,54L42,64L37,54L42,44Z>`);
 function Freeze(props) {
   return (() => {
-    var _el$ = _tmpl$48(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$1.nextSibling, _el$12 = _el$11.firstChild, _el$13 = _el$11.nextSibling, _el$14 = _el$13.firstChild, _el$15 = _el$13.nextSibling, _el$16 = _el$15.firstChild;
+    var _el$ = _tmpl$49(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$1.nextSibling, _el$12 = _el$11.firstChild, _el$13 = _el$11.nextSibling, _el$14 = _el$13.firstChild, _el$15 = _el$13.nextSibling, _el$16 = _el$15.firstChild;
     createRenderEffect((_p$) => {
       var _v$ = `fill:${props.fill ?? "rgb(66,204,224)"};`, _v$2 = `fill:${props.fill ?? "rgb(66,204,224)"};`, _v$3 = `fill:${props.fill ?? "rgb(66,204,224)"};`, _v$4 = `fill:${props.fill ?? "rgb(66,204,224)"};`, _v$5 = `fill:${props.fill ?? "rgb(66,204,224)"};`, _v$6 = `fill:${props.fill ?? "rgb(66,204,224)"};`, _v$7 = `fill:${props.fill ?? "rgb(66,204,224)"};`;
       _p$.e = style(_el$6, _v$, _p$.e);
@@ -4573,10 +4699,10 @@ function Freeze(props) {
 }
 
 // src/components/icons/Hydro.tsx
-var _tmpl$49 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.72817,0,0,1.72817,-29.223,-29.1504)><g id=Hydro><g id=standalone1 serif:id=standalone><g transform=matrix(1,0,0,1,2,-1.5)><path d="M28.498,38.795C27.628,40.686 25.716,42 23.5,42C20.464,42 18,39.536 18,36.5C18,35.615 18.209,34.779 18.581,34.038C28.304,13.475 48.678,15.236 59.198,36.5C48.334,25.273 37.769,23.076 28.498,38.795Z"></path></g><g transform=matrix(-1,0,0,-1,78.1114,81.5649)><path d="M28.498,38.795C27.628,40.686 25.716,42 23.5,42C20.464,42 18,39.536 18,36.5C18,35.615 18.209,34.779 18.581,34.038C28.304,13.475 48.678,15.236 59.198,36.5C48.334,25.273 37.769,23.076 28.498,38.795Z">`);
+var _tmpl$50 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.72817,0,0,1.72817,-29.223,-29.1504)><g id=Hydro><g id=standalone1 serif:id=standalone><g transform=matrix(1,0,0,1,2,-1.5)><path d="M28.498,38.795C27.628,40.686 25.716,42 23.5,42C20.464,42 18,39.536 18,36.5C18,35.615 18.209,34.779 18.581,34.038C28.304,13.475 48.678,15.236 59.198,36.5C48.334,25.273 37.769,23.076 28.498,38.795Z"></path></g><g transform=matrix(-1,0,0,-1,78.1114,81.5649)><path d="M28.498,38.795C27.628,40.686 25.716,42 23.5,42C20.464,42 18,39.536 18,36.5C18,35.615 18.209,34.779 18.581,34.038C28.304,13.475 48.678,15.236 59.198,36.5C48.334,25.273 37.769,23.076 28.498,38.795Z">`);
 function Hydro(props) {
   return (() => {
-    var _el$ = _tmpl$49(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild;
+    var _el$ = _tmpl$50(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild;
     createRenderEffect((_p$) => {
       var _v$ = `fill:${props.fill ?? "rgb(43,168,216)"};`, _v$2 = `fill:${props.fill ?? "rgb(43,168,216)"};`;
       _p$.e = style(_el$6, _v$, _p$.e);
@@ -4591,10 +4717,10 @@ function Hydro(props) {
 }
 
 // src/components/icons/Omni.tsx
-var _tmpl$50 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.54461,0,0,1.54461,-22.3824,-21.7702)><g id=Omni><g id=standalone1 serif:id=standalone><g transform=matrix(1.27442,0,0,1.099,-10.2998,-2.98897)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(-0.585385,1.02359,-0.954008,-0.545589,103.249,20.7405)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(0.517371,0.996336,0.97534,-0.506469,-9.83172,37.6917)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(1.13281,-1.73412e-17,1.49543e-17,-1.099,14.7335,84.989)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(-0.547687,0.991618,0.962018,0.531338,13.4075,-3.22855)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(0.55516,1.00515,-0.962018,0.531338,56.4324,-22.5184)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z>`);
+var _tmpl$51 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.54461,0,0,1.54461,-22.3824,-21.7702)><g id=Omni><g id=standalone1 serif:id=standalone><g transform=matrix(1.27442,0,0,1.099,-10.2998,-2.98897)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(-0.585385,1.02359,-0.954008,-0.545589,103.249,20.7405)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(0.517371,0.996336,0.97534,-0.506469,-9.83172,37.6917)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(1.13281,-1.73412e-17,1.49543e-17,-1.099,14.7335,84.989)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(-0.547687,0.991618,0.962018,0.531338,13.4075,-3.22855)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(0.55516,1.00515,-0.962018,0.531338,56.4324,-22.5184)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z>`);
 function Omni(props) {
   return (() => {
-    var _el$ = _tmpl$50(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$1.nextSibling, _el$12 = _el$11.firstChild, _el$13 = _el$11.nextSibling, _el$14 = _el$13.firstChild;
+    var _el$ = _tmpl$51(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$1.nextSibling, _el$12 = _el$11.firstChild, _el$13 = _el$11.nextSibling, _el$14 = _el$13.firstChild;
     createRenderEffect((_p$) => {
       var _v$ = `fill:${props.fill ?? "rgb(223,22,76)"};`, _v$2 = `fill:${props.fill ?? "rgb(223,22,76)"};`, _v$3 = `fill:${props.fill ?? "rgb(223,22,76)"};`, _v$4 = `fill:${props.fill ?? "rgb(223,22,76)"};`, _v$5 = `fill:${props.fill ?? "rgb(223,22,76)"};`, _v$6 = `fill:${props.fill ?? "rgb(223,22,76)"};`;
       _p$.e = style(_el$6, _v$, _p$.e);
@@ -4617,10 +4743,10 @@ function Omni(props) {
 }
 
 // src/components/icons/Physical.tsx
-var _tmpl$51 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(2.47396,0,0,2.05405,-56.4844,-37.027)><g id=Physical><path id=standalone1 serif:id=standalone d=M39,19L52.856,28.25L52.856,46.75L39,56L25.144,46.75L25.144,28.25L39,19ZM29.023,44.16L32.903,41.57L32.903,33.43L39,29.36L45.097,33.43L45.097,41.57L48.977,44.16L48.977,30.84L39,24.18L29.023,30.84L29.023,44.16Z>`);
+var _tmpl$53 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(2.47396,0,0,2.05405,-56.4844,-37.027)><g id=Physical><path id=standalone1 serif:id=standalone d=M39,19L52.856,28.25L52.856,46.75L39,56L25.144,46.75L25.144,28.25L39,19ZM29.023,44.16L32.903,41.57L32.903,33.43L39,29.36L45.097,33.43L45.097,41.57L48.977,44.16L48.977,30.84L39,24.18L29.023,30.84L29.023,44.16Z>`);
 function Physical(props) {
   return (() => {
-    var _el$ = _tmpl$51(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
+    var _el$ = _tmpl$53(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
     createRenderEffect((_$p) => style(_el$4, `fill:${props.fill ?? "rgb(201,200,206)"};`, _$p));
     return _el$;
   })();
@@ -4681,11 +4807,11 @@ function Phase(props) {
 }
 
 // src/components/DollChip.tsx
-var _tmpl$53 = /* @__PURE__ */ template(`<div><div><div class="absolute top-1 left-1 h-6 w-6"></div><img loading=lazy class="h-auto w-32 object-cover"></div><div class="bg-[#1C2A32] p-1 text-center font-bold text-[#EFEFEF]">`, true, false, false);
+var _tmpl$54 = /* @__PURE__ */ template(`<div><div><div class="absolute top-1 left-1 h-6 w-6"></div><img loading=lazy class="h-auto w-32 object-cover"></div><div class="bg-[#1C2A32] p-1 text-center font-bold text-[#EFEFEF]">`, true, false, false);
 var _tmpl$214 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function DollChip(props) {
   return (() => {
-    var _el$ = _tmpl$53(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$2.nextSibling;
+    var _el$ = _tmpl$54(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$2.nextSibling;
     addEventListener(_el$, "click", props.onClick, true);
     insert(_el$2, (() => {
       var _c$ = memo(() => !!props.selected);
@@ -4720,7 +4846,7 @@ function DollChip(props) {
 delegateEvents(["click"]);
 
 // src/components/modals/DollSelectorModal.tsx
-var _tmpl$54 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75">`);
+var _tmpl$55 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75">`);
 var _tmpl$215 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="grid grid-cols-6 gap-4">`);
 var _tmpl$311 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Changing dolls will clear their positions and actions`);
 var _tmpl$410 = /* @__PURE__ */ template(`<button><div class="h-6 w-6"></div><span>`);
@@ -4771,7 +4897,7 @@ function DollSelectorModal() {
   return [createComponent(ModalHeader, {
     title: "Select Dolls"
   }), (() => {
-    var _el$ = _tmpl$54();
+    var _el$ = _tmpl$55();
     insert(_el$, createComponent(For, {
       each: PHASE_TABS,
       children: (tab) => (() => {
@@ -4838,7 +4964,7 @@ function DollSelectorModal() {
 delegateEvents(["click"]);
 
 // src/components/modals/FortificationModal.tsx
-var _tmpl$55 = /* @__PURE__ */ template(`<div class="flex flex-col items-center gap-3 p-2">`);
+var _tmpl$56 = /* @__PURE__ */ template(`<div class="flex flex-col items-center gap-3 p-2">`);
 var _tmpl$216 = /* @__PURE__ */ template(`<div class="flex items-center gap-4"><div class="flex gap-2">`);
 var _tmpl$312 = /* @__PURE__ */ template(`<button>`);
 function FortificationModal() {
@@ -4863,7 +4989,7 @@ function FortificationModal() {
   return [createComponent(ModalHeader, {
     title: "Set Doll Fortifications"
   }), (() => {
-    var _el$ = _tmpl$55();
+    var _el$ = _tmpl$56();
     insert(_el$, createComponent(For, {
       get each() {
         return tempSelected();
@@ -4907,7 +5033,7 @@ function FortificationModal() {
 delegateEvents(["click"]);
 
 // src/components/modals/ImportModal.tsx
-var _tmpl$56 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-4 font-mono text-xs"placeholder="Paste here..."></textarea><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Imported state will overwrite all current settings`);
+var _tmpl$57 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-4 font-mono text-xs"placeholder="Paste here..."></textarea><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Imported state will overwrite all current settings`);
 function ImportModal() {
   const [text, setText] = createSignal("");
   const performImport = async () => {
@@ -4932,7 +5058,7 @@ function ImportModal() {
   return [createComponent(ModalHeader, {
     title: "Import Transcript"
   }), (() => {
-    var _el$ = _tmpl$56(), _el$2 = _el$.firstChild;
+    var _el$ = _tmpl$57(), _el$2 = _el$.firstChild;
     _el$2.$$input = (e) => setText(e.currentTarget.value);
     createRenderEffect(() => _el$2.value = text());
     return _el$;
@@ -4954,7 +5080,7 @@ function ImportModal() {
 delegateEvents(["input"]);
 
 // src/components/modals/TargetModal.tsx
-var _tmpl$57 = /* @__PURE__ */ template(`<div class="fixed inset-0 z-50 flex items-center justify-center bg-black/90"><div class="overflow-hidden rounded-sm border-t-[6px] border-[#506A6C] bg-[#293438]"><div class="border-b border-zinc-700 p-6 text-center"><h3 class="text-lg font-bold">Select Target Character</h3><p class="text-xs text-zinc-400"> \u2192 Target</p></div><div class="grid grid-cols-3 justify-items-center gap-4 p-5"></div><div class="flex justify-center gap-4 border-t border-zinc-700 p-6">`);
+var _tmpl$58 = /* @__PURE__ */ template(`<div class="fixed inset-0 z-50 flex items-center justify-center bg-black/90"><div class="overflow-hidden rounded-sm border-t-[6px] border-[#506A6C] bg-[#293438]"><div class="border-b border-zinc-700 p-6 text-center"><h3 class="text-lg font-bold">Select Target Character</h3><p class="text-xs text-zinc-400"> \u2192 Target</p></div><div class="grid grid-cols-3 justify-items-center gap-4 p-5"></div><div class="flex justify-center gap-4 border-t border-zinc-700 p-6">`);
 function TargetModal() {
   const skillInfo = createMemo(() => {
     const dollId = targetDollId();
@@ -4969,7 +5095,6 @@ function TargetModal() {
       const tab = s.tabData[s.currentTab];
       if (!tab.actions[dollId]) tab.actions[dollId] = [];
       tab.actions[dollId].push(entry);
-      if (!tab.actionOrder.includes(dollId)) tab.actionOrder.push(dollId);
     }));
     saveToLocalStorage();
   };
@@ -4981,7 +5106,7 @@ function TargetModal() {
     setShowTargetModal(false);
   };
   return (() => {
-    var _el$ = _tmpl$57(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$3.nextSibling, _el$8 = _el$7.nextSibling;
+    var _el$ = _tmpl$58(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$3.nextSibling, _el$8 = _el$7.nextSibling;
     insert(_el$5, () => skillInfo()?.name, _el$6);
     insert(_el$7, createComponent(For, {
       get each() {
@@ -5008,11 +5133,11 @@ function TargetModal() {
 }
 
 // src/App.tsx
-var _tmpl$58 = /* @__PURE__ */ template(`<div class="absolute right-0 left-0 flex items-center justify-center bg-zinc-950">`);
+var _tmpl$59 = /* @__PURE__ */ template(`<div class="absolute right-0 left-0 flex items-center justify-center bg-zinc-950">`);
 var _tmpl$217 = /* @__PURE__ */ template(`<div class="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 rounded-3xl bg-black/80 px-4 py-1.5 font-mono text-xs text-lime-400">`);
 var _tmpl$313 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75"><button><span>Setup</span></button><button><span>Doll Actions`);
 var _tmpl$411 = /* @__PURE__ */ template(`<div class="absolute top-3.75 bottom-3.75 left-3.75 z-10 flex">`);
-var _tmpl$59 = /* @__PURE__ */ template(`<div class="flex h-screen flex-col bg-zinc-950 text-white"><div class="relative flex-1 overflow-hidden"id=body>`);
+var _tmpl$510 = /* @__PURE__ */ template(`<div class="flex h-screen flex-col bg-zinc-950 text-white"><div class="relative flex-1 overflow-hidden"id=body>`);
 function App() {
   const [coords, setCoords] = createSignal("");
   const [loaded, setLoaded] = createSignal(false);
@@ -5090,7 +5215,7 @@ function App() {
     }
   };
   return (() => {
-    var _el$ = _tmpl$59(), _el$2 = _el$.firstChild;
+    var _el$ = _tmpl$510(), _el$2 = _el$.firstChild;
     insert(_el$, createComponent(TabBar, {
       onTabChange: handleTabChange
     }), _el$2);
@@ -5100,7 +5225,7 @@ function App() {
       },
       get children() {
         return [(() => {
-          var _el$3 = _tmpl$58();
+          var _el$3 = _tmpl$59();
           insert(_el$3, createComponent(ArenaCanvas, {
             onCoordsChange: setCoords,
             onMouseUp: () => {

@@ -1,29 +1,22 @@
-import { For, Show, createMemo, onMount } from "solid-js";
+import { For, createMemo } from "solid-js";
 import { produce } from "solid-js/store";
 import {
 	state,
 	setState,
-	allDolls,
-	allSummons,
 	getDollInfoFromId,
 	getSortedUsableSkills,
 	isPlaced,
-	getPositionsForDoll,
-	getFortificationFromId,
 	renderAction,
 	saveToLocalStorage,
-	showTargetModal,
 	setShowTargetModal,
 	setTargetDollId,
 	setTargetSkillId,
 	getDollFromSummon,
 	defaultActionOrder,
 } from "../store";
-import type { DollData, SummonData, SkillAction, DollRowProps } from "../types";
+import type { SkillAction, DollRowProps } from "../types";
 import SkillIcon from "./icons/SkillIcon";
-import Button from "./buttons/Button";
 import SquareDollChip from "./SquareDollChip";
-import Modal from "./modals/Modal";
 import Grip from "./icons/Grip";
 
 let dragSrcId: string | null = null;
@@ -306,7 +299,6 @@ function recordSkill(dollId: string, entry: SkillAction) {
 			const tab = s.tabData[s.currentTab]!;
 			if (!tab.actions[dollId]) tab.actions[dollId] = [];
 			tab.actions[dollId]!.push(entry);
-			if (!tab.actionOrder.includes(dollId)) tab.actionOrder.push(dollId);
 		})
 	);
 	saveToLocalStorage();
@@ -322,67 +314,14 @@ function removeAction(dollId: string, actionIdx: number) {
 	saveToLocalStorage();
 }
 
-function reorderDolls(fromId: string, toId: string) {
-	setState(
-		produce((s) => {
-			const tab = s.tabData[s.currentTab]!;
-			let order = tab.actionOrder.length ? [...tab.actionOrder] : s.selectedDolls.map((d) => d.id);
-			s.selectedDolls.forEach((d) => {
-				if (!order.includes(d.id)) order.push(d.id);
-			});
-			const fromIdx = order.indexOf(fromId);
-			const toIdx = order.indexOf(toId);
-			if (fromIdx !== -1 && toIdx !== -1) {
-				order.splice(fromIdx, 1);
-				order.splice(toIdx, 0, fromId);
-			}
-			tab.actionOrder = order;
-		})
-	);
-	saveToLocalStorage();
-}
-
 function DollRow(props: DollRowProps) {
 	const dollInfo = createMemo(() => getDollInfoFromId(props.dollId));
 	const placed = createMemo(() => isPlaced(props.dollId));
-	const positions = createMemo(() => getPositionsForDoll(props.dollId));
-	const fortification = createMemo(() => getFortificationFromId(props.dollId));
 	const actions = createMemo(() => state.tabData[state.currentTab]?.actions[props.dollId] ?? []);
 	const skills = createMemo(() => {
 		const d = dollInfo();
 		return d ? getSortedUsableSkills(d) : [];
 	});
-
-	const handleDragStart = (e: DragEvent) => {
-		if (e.currentTarget instanceof HTMLElement === false) return;
-		dragSrcId = props.dollId;
-		e.dataTransfer!.effectAllowed = "move";
-		e.currentTarget.style.opacity = "0.4";
-	};
-
-	const handleDragEnd = (e: DragEvent) => {
-		if (e.currentTarget instanceof HTMLElement === false) return;
-		e.currentTarget.style.opacity = "";
-	};
-
-	const handleDragOver = (e: DragEvent) => {
-		if (e.currentTarget instanceof HTMLElement === false) return;
-		e.preventDefault();
-		e.currentTarget.classList.add("drag-over");
-	};
-
-	const handleDragLeave = (e: DragEvent) => {
-		if (e.currentTarget instanceof HTMLElement === false) return;
-		e.preventDefault();
-		e.currentTarget.classList.remove("drag-over");
-	};
-
-	const handleDrop = (e: DragEvent) => {
-		if (e.currentTarget instanceof HTMLElement === false) return;
-		handleDragLeave(e);
-		if (dragSrcId && dragSrcId !== props.dollId) reorderDolls(dragSrcId, props.dollId);
-		dragSrcId = null;
-	};
 
 	return (
 		<div
@@ -403,7 +342,6 @@ function DollRow(props: DollRowProps) {
 									<div class="group relative">
 										<div
 											onClick={() => {
-												console.log(props.dollId, ai());
 												removeAction(props.dollId, ai());
 											}}
 											class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 hover:bg-red-900 hover:text-red-300"
@@ -442,6 +380,7 @@ export default function ActionSidebar(props: { active: boolean }) {
 		if (e.target.classList.contains("drag-grip") || e.target.closest(".drag-grip")) {
 			draggableItem = e.target.closest(".doll-row");
 		}
+
 		if (!draggableItem) return;
 
 		if (e instanceof MouseEvent) {
