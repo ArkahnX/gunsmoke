@@ -96,7 +96,7 @@ export function getDollFromSummon(summon: SummonData | DollData): DollData {
 }
 
 export function getSortedUsableSkills(doll: DollData | SummonData) {
-	const usable = (doll.skills || []).filter((s) => s.type !== "Passive");
+	const usable = (doll.skills || []).filter((s) => s.type !== "Passive" || s.name === "Escort");
 	const basic = usable.filter((s) => s.type === "Basic Attack");
 	const numbered = usable
 		.filter((s) => (s.type || "").startsWith("Skill "))
