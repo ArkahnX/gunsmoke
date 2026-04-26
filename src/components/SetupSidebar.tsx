@@ -14,6 +14,7 @@ import {
 	compress,
 	defaultActionOrder,
 	getDollFromSummon,
+	updateSkillDisplay,
 } from "../store";
 import { EDITOR_MAP_KEY, STORAGE_KEY, SAVE_VERSION } from "../types/constants";
 import { editorResetLayout } from "../canvas/editorMap";
@@ -24,6 +25,7 @@ import { DollData, SummonData } from "../types";
 import { beginExternalDrag } from "./ArenaCanvas";
 import Modal from "./modals/Modal";
 import ConfirmModal from "./modals/ConfirmModal";
+import ContentModal from "./modals/ContentModal";
 
 export default function SetupSidebar(props: { active: boolean }) {
 	const isActionTab = createMemo(() => state.currentTab >= 1 && state.currentTab <= 7);
@@ -33,6 +35,7 @@ export default function SetupSidebar(props: { active: boolean }) {
 	const [showClearSkillModal, setShowClearSkillModal] = createSignal(false);
 	const [showClearTurnModal, setShowClearTurnModal] = createSignal(false);
 	const [showClearDataModal, setShowClearDataModal] = createSignal(false);
+	const [showSkillDesignModal, setShowSkillDesignModal] = createSignal(false);
 
 	const openDollSelector = () => {
 		setTempSelected(state.selectedDolls.map((d) => d.id));
@@ -83,8 +86,8 @@ export default function SetupSidebar(props: { active: boolean }) {
 		setState(
 			produce((s) => {
 				const tab = s.tabData[s.currentTab]!;
-				tab.actionOrder = [];
-				tab.summonPositions = [];
+				tab.actionOrder.length = 0;
+				tab.summonPositions.length = 0;
 				tab.dollPositions = {};
 				tab.actions = {};
 				for (const doll of s.selectedDolls) {
@@ -193,6 +196,61 @@ export default function SetupSidebar(props: { active: boolean }) {
 				<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">
 					State Management
 				</div>
+				<Button onClick={() => setShowSkillDesignModal(true)} color="dark" design="custom" content="Set Skill Display" />
+				<ContentModal
+					mount={document.querySelector("#body")!}
+					width="w-90"
+					title="Skill Display"
+					isActive={showSkillDesignModal}
+					setActive={setShowSkillDesignModal}>
+					<ul class="flex flex-col gap-2 self-center">
+						<li class="flex flex-row items-center gap-2">
+							<Button
+								onClick={() => {
+									updateSkillDisplay(0);
+									setShowSkillDesignModal(false);
+								}}
+								color="dark"
+								design="custom"
+								content="Style 1"
+							/>
+							<div
+								class={`rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 0 ? "outline-2 outline-[#F26C1C]" : ""}`}>
+								S1 / S2 / S3 / S4
+							</div>
+						</li>
+						<li class="flex flex-row items-center gap-2">
+							<Button
+								onClick={() => {
+									updateSkillDisplay(1);
+									setShowSkillDesignModal(false);
+								}}
+								color="dark"
+								design="custom"
+								content="Style 2"
+							/>
+							<div
+								class={`rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 1 ? "outline-2 outline-[#F26C1C]" : ""}`}>
+								1 / 2 / 3 / 4
+							</div>
+						</li>
+						<li class="flex flex-row items-center gap-2">
+							<Button
+								onClick={() => {
+									updateSkillDisplay(2);
+									setShowSkillDesignModal(false);
+								}}
+								color="dark"
+								design="custom"
+								content="Style 3"
+							/>
+							<div
+								class={`rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 2 ? "outline-2 outline-[#F26C1C]" : ""}`}>
+								BA / S1 / S2 / ULT
+							</div>
+						</li>
+					</ul>
+				</ContentModal>
 				<Button onClick={exportAllTabs} color="dark" design="custom" content="Export Transcript" />
 				<Button onClick={() => setShowImportModal(true)} color="dark" design="custom" content="Import Transcript" />
 				<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">

@@ -57,6 +57,7 @@ export interface SelectedDoll {
 export interface AppState {
 	selectedDolls: SelectedDoll[];
 	currentTab: number; // -1=editor, 0-7=arena, 8=summary
+	actionType: number;
 	tabData: TabData[];
 }
 

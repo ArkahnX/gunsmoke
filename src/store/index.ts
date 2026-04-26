@@ -63,6 +63,7 @@ function makeDefaultTabData(): TabData {
 export const [state, setState] = createStore<AppState>({
 	selectedDolls: [],
 	currentTab: 0,
+	actionType: 0,
 	tabData: Array.from({ length: 8 }, () => makeDefaultTabData()),
 });
 
@@ -159,17 +160,23 @@ export function renderAction(dollId: string, action: SkillAction): string {
 	const doll = getDollInfoFromId(dollId);
 	if (!doll) return "";
 	const sorted = getSortedUsableSkills(doll);
+	const skillName = ["BA", "S1", "S2", "ULT", "S3", "S4", "S5", "S6"];
 	const skillNum = sorted.findIndex((s) => s.id === skillId) + 1;
 	if (targetId) {
 		const target = getDollInfoFromId(targetId);
-		return `S${skillNum}>${target?.name ?? "?"}`;
+		if (state.actionType === 0) return `S${skillNum}>${target?.name ?? "?"}`;
+		if (state.actionType === 1) return `${skillNum}>${target?.name ?? "?"}`;
+		if (state.actionType === 2) return `${skillName[skillNum - 1]}>${target?.name ?? "?"}`;
 	}
+	if (state.actionType === 0) return `S${skillNum}`;
+	if (state.actionType === 1) return `${skillNum}`;
+	if (state.actionType === 2) return `${skillName[skillNum - 1]}`;
 	return `S${skillNum}`;
 }
 
 // ====================== DEFAULT ACTION ORDER ======================
 export function defaultActionOrder(tabIndex: number) {
-	if(tabIndex < 0 || tabIndex > 7) return;
+	if (tabIndex < 0 || tabIndex > 7) return;
 	const order = new Set(state.tabData[tabIndex].actionOrder);
 	const unique = new Set();
 	setState(
@@ -186,8 +193,8 @@ export function defaultActionOrder(tabIndex: number) {
 					}
 				}
 			}
-			for(const dollId of order) {
-				if(unique.has(dollId) === false) {
+			for (const dollId of order) {
+				if (unique.has(dollId) === false) {
 					order.delete(dollId);
 				}
 			}
@@ -237,11 +244,12 @@ export function loadState(newData: AppState & { version: number }) {
 		produce((s) => {
 			s.selectedDolls = newData.selectedDolls;
 			s.currentTab = newData.currentTab;
+			s.actionType = newData.actionType || 0;
 			for (let tabIndex = 0; tabIndex < 8; tabIndex++) {
 				const src = newData.tabData[tabIndex]!;
 				const tab = s.tabData[tabIndex]!;
-				tab.summonPositions = [];
-				tab.actionOrder = [];
+				tab.summonPositions.length = 0;
+				tab.actionOrder.length = 0;
 				tab.dollPositions = {};
 				tab.actions = {};
 				for (const doll of s.selectedDolls) {
@@ -278,6 +286,15 @@ export function loadFromLocalStorage(): boolean {
 	} catch {
 		return false;
 	}
+}
+
+export function updateSkillDisplay(actionType: number) {
+	setState(
+		produce((s) => {
+			s.actionType = actionType;
+		})
+	);
+	saveToLocalStorage();
 }
 
 // ====================== COMPRESSION ======================

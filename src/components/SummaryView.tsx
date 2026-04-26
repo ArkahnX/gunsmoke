@@ -1,4 +1,4 @@
-import { onMount, For, createMemo } from "solid-js";
+import { onMount, For, createMemo, createSignal } from "solid-js";
 import {
 	state,
 	allSummons,
@@ -11,6 +11,7 @@ import {
 	getDollFromSummon,
 	compress,
 	setShowImportModal,
+	updateSkillDisplay,
 } from "../store";
 import { TILE_SIZE, MAP_SIZE, SAVE_VERSION } from "../types/constants";
 import { drawMapTilesOnArena, drawDollOnCanvas, drawSummonOnCanvas } from "../canvas/draw";
@@ -21,6 +22,7 @@ import SmallDollChip from "./SmallDollChip";
 import Fortification from "./icons/Fortification";
 import Modal from "./modals/Modal";
 import SquareDollChip from "./SquareDollChip";
+import ContentModal from "./modals/ContentModal";
 
 const CANVAS_DISPLAY_PX = 430;
 
@@ -192,6 +194,9 @@ export default function SummaryView() {
 		await navigator.clipboard.writeText(str);
 		alert("✅ Exported all turns to clipboard!");
 	};
+
+	const [showSkillDesignModal, setShowSkillDesignModal] = createSignal(false);
+
 	return (
 		<div class="flex h-full flex-col gap-3 overflow-auto bg-zinc-950 p-3">
 			<div class={`rounded-sm bg-[#CFCED2] p-1 shadow-sm shadow-black/50`}>
@@ -199,6 +204,61 @@ export default function SummaryView() {
 				<div class="flex flex-row gap-1.5 border-2 border-[#B1AFB3] p-1">
 					<Button onClick={exportAllTabs} color="dark" design="custom" content="Export Transcript" />
 					<Button onClick={() => setShowImportModal(true)} color="dark" design="custom" content="Import Transcript" />
+					<Button onClick={() => setShowSkillDesignModal(true)} color="dark" design="custom" content="Set Skill Display" />
+					<ContentModal
+						mount={document.querySelector("#body")!}
+						width="w-90"
+						title="Skill Display"
+						isActive={showSkillDesignModal}
+						setActive={setShowSkillDesignModal}>
+						<ul class="flex flex-col gap-2 self-center">
+							<li class="flex flex-row items-center gap-2">
+								<Button
+									onClick={() => {
+										updateSkillDisplay(0);
+										setShowSkillDesignModal(false);
+									}}
+									color="dark"
+									design="custom"
+									content="Style 1"
+								/>
+								<div
+									class={`rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 0 ? "outline-2 outline-[#F26C1C]" : ""}`}>
+									S1 / S2 / S3 / S4
+								</div>
+							</li>
+							<li class="flex flex-row items-center gap-2">
+								<Button
+									onClick={() => {
+										updateSkillDisplay(1);
+										setShowSkillDesignModal(false);
+									}}
+									color="dark"
+									design="custom"
+									content="Style 2"
+								/>
+								<div
+									class={`rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 1 ? "outline-2 outline-[#F26C1C]" : ""}`}>
+									1 / 2 / 3 / 4
+								</div>
+							</li>
+							<li class="flex flex-row items-center gap-2">
+								<Button
+									onClick={() => {
+										updateSkillDisplay(2);
+										setShowSkillDesignModal(false);
+									}}
+									color="dark"
+									design="custom"
+									content="Style 3"
+								/>
+								<div
+									class={`rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 2 ? "outline-2 outline-[#F26C1C]" : ""}`}>
+									BA / S1 / S2 / ULT
+								</div>
+							</li>
+						</ul>
+					</ContentModal>
 				</div>
 			</div>
 			<div class="flex flex-wrap gap-2">
