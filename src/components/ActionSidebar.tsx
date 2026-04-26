@@ -17,6 +17,7 @@ import {
 	setTargetDollId,
 	setTargetSkillId,
 	getDollFromSummon,
+	defaultActionOrder,
 } from "../store";
 import type { DollData, SummonData, SkillAction, DollRowProps } from "../types";
 import SkillIcon from "./icons/SkillIcon";
@@ -204,9 +205,9 @@ function applyNewItemsOrder(e: MouseEvent | TouchEvent) {
 	saveToLocalStorage();
 
 	// possible cause of bug #6
-	// reorderedItems.forEach((item) => {
-	// 	listContainer.appendChild(item);
-	// });
+	reorderedItems.forEach((item) => {
+		listContainer.appendChild(item);
+	});
 
 	draggableItem.style.transform = "";
 
@@ -242,6 +243,7 @@ function cleanup() {
 	items = [];
 	unsetItemState();
 	enablePageScroll();
+	defaultActionOrder(state.currentTab);
 
 	document.removeEventListener("mousemove", drag);
 	document.removeEventListener("touchmove", drag);
