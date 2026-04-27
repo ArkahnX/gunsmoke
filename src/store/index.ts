@@ -14,7 +14,7 @@ import type {
 	RawDollEntry,
 	Skill,
 } from "../types";
-import { MAP_SIZE, SAVE_VERSION, STORAGE_KEY, TILE_SIZE } from "../types/constants";
+import { MAP_SIZE, SAVE_VERSION, SKILL_DISPLAY_KEY, STORAGE_KEY, TILE_SIZE } from "../types/constants";
 
 // ====================== MAP GRID ======================
 export const mapGrid: Record<string, MapCell> = {};
@@ -70,6 +70,7 @@ export const [editorIoMode, setEditorIoMode] = createSignal<"export" | "import">
 export const [editorIoText, setEditorIoText] = createSignal("");
 export const [showEditorIo, setShowEditorIo] = createSignal(false);
 export const [loaded, setLoaded] = createSignal(false);
+export const [overrideSkillNotations, setOverrideSkillNotations] = createSignal(false);
 
 // ====================== APP STATE ======================
 function makeDefaultTabData(): TabData {
@@ -79,7 +80,7 @@ function makeDefaultTabData(): TabData {
 export const [state, setState] = createStore<AppState>({
 	selectedDolls: [],
 	currentTab: 0,
-	actionType: 0,
+	skillDisplay: [0, 0, 0, 0, 0, 0, 0],
 	tabData: Array.from({ length: 8 }, () => makeDefaultTabData()),
 });
 
@@ -218,17 +219,11 @@ export function renderAction(dollId: string, action: SkillAction): string {
 	if (!doll) return "";
 	const skill = doll.skills.find((s) => s.id === skillId);
 	if (!skill) return "";
-	const userNotation = createMemo(() => {
-		const statedActionTypes = () => Array.from(state.actionType as string);
-		const index = skillOrderMap[skill.type] as number;
-		const userNotation = parseInt(statedActionTypes()[index]);
-		return notations[skill.type][userNotation];
-	});
 	if (targetId) {
 		const target = getInfoFromId(targetId);
-		return userNotation() + ">" + (target?.name ?? "?");
+		return getSkillDisplay(skill.type) + ">" + (target?.name ?? "?");
 	}
-	return userNotation();
+	return getSkillDisplay(skill.type);
 }
 
 // ====================== DEFAULT ACTION ORDER ======================
@@ -294,6 +289,7 @@ export function changeSelectedDolls(newDolls: SelectedDoll[]) {
 // ====================== PERSISTENCE ======================
 export function saveToLocalStorage() {
 	localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: SAVE_VERSION, ...state }));
+	localStorage.setItem(SKILL_DISPLAY_KEY, JSON.stringify({ override: overrideSkillNotations(), skillDisplay: state.skillDisplay }));
 }
 
 export function loadState(newData: AppState & { version: number }) {
@@ -301,17 +297,28 @@ export function loadState(newData: AppState & { version: number }) {
 		produce((s) => {
 			s.selectedDolls = newData.selectedDolls;
 			s.currentTab = newData.currentTab;
-			s.actionType = newData.actionType || "0000000";
-			if (typeof s.actionType === "number") {
-				if (s.actionType === 0) {
-					s.actionType = "0000000";
+			if (typeof newData.actionType === "number") {
+				if (newData.actionType === 0) {
+					newData.actionType = "0000000";
 				}
-				if (s.actionType === 1) {
-					s.actionType = "1111111";
+				if (newData.actionType === 1) {
+					newData.actionType = "1111111";
 				}
-				if (s.actionType === 2) {
-					s.actionType = "2222222";
+				if (newData.actionType === 2) {
+					newData.actionType = "2222222";
 				}
+			} else if (typeof newData.actionType === "string") {
+				if (newData.actionType.length !== 7) {
+					newData.actionType = "0000000";
+				}
+			}
+			if (newData.actionType && typeof newData.actionType === "string" && newData.actionType.length === 7) {
+				s.skillDisplay.length = 0;
+				for (const character of Array.from(newData.actionType)) {
+					s.skillDisplay.push(parseInt(character));
+				}
+			} else if(newData.skillDisplay) {
+				s.skillDisplay = newData.skillDisplay;
 			}
 			for (let tabIndex = 0; tabIndex < 8; tabIndex++) {
 				const src = newData.tabData[tabIndex]!;
@@ -374,14 +381,25 @@ export async function loadFromURL(): Promise<boolean> {
 	}
 }
 
-export function updateSkillDisplay(type: string, value: string) {
-	const valueIndex = notations[type].indexOf(value);
-	const index = skillOrder.indexOf(type);
-	const actionType = Array.from(state.actionType as string);
-	actionType[index] = String(valueIndex);
+export function setSkillDisplay(skillType: string, notationStyle: string) {
+	const index = notations[skillType].indexOf(notationStyle);
 	setState(
 		produce((s) => {
-			s.actionType = actionType.join("");
+			s.skillDisplay[skillOrder.indexOf(skillType)] = index;
+		})
+	);
+	saveToLocalStorage();
+}
+
+export function getSkillDisplay(skillType: string): string {
+	return notations[skillType][state.skillDisplay[skillOrder.indexOf(skillType)]];
+}
+
+export function overrideSkillDisplay(values: number[]) {
+	setState(
+		produce((s) => {
+			s.skillDisplay.length = 0;
+			s.skillDisplay.push(...values);
 		})
 	);
 	saveToLocalStorage();

@@ -15,8 +15,10 @@ import {
 	setLoaded,
 	loaded,
 	showSkillDisplayModal,
+	setOverrideSkillNotations,
+	overrideSkillDisplay,
 } from "./store";
-import type { RawDollEntry, DollData, SummonData, Skill } from "./types";
+import type { RawDollEntry, DollData, SummonData, Skill, SkillDisplay } from "./types";
 
 import TabBar from "./components/TabBar";
 import SetupSidebar from "./components/SetupSidebar";
@@ -33,6 +35,7 @@ import FullScreen from "./components/modals/FullScreen";
 import Modal from "./components/modals/Modal";
 import ExportModal from "./components/modals/ExportModal";
 import SkillDisplayModal from "./components/modals/SkillDisplayModal";
+import { SKILL_DISPLAY_KEY } from "./types/constants";
 
 export default function App() {
 	const [coords, setCoords] = createSignal("");
@@ -57,6 +60,15 @@ export default function App() {
 			for (let i = 0; i < 8; i++) defaultActionOrder(i);
 			if (!restored) saveToLocalStorage();
 
+			const saved = localStorage.getItem(SKILL_DISPLAY_KEY);
+			if (saved) {
+				const data: SkillDisplay = JSON.parse(saved);
+				setOverrideSkillNotations(data.override);
+				if(data.override === true) {
+					overrideSkillDisplay(data.skillDisplay);
+				}
+			}
+
 			setLoaded(true);
 			// Initial draw happens via ArenaCanvas onMount
 		} catch (e) {
@@ -73,7 +85,6 @@ export default function App() {
 	const isArenaTab = () => state.currentTab >= 0 && state.currentTab <= 7;
 	const isSummaryTab = () => state.currentTab === 8;
 	const showSidebars = () => state.currentTab > 0 && state.currentTab < 8;
-	// TODO show left sidebar during setup, show right sidebar during arena, show export and import during summary
 
 	const handleTabChange = (tab: number) => {
 		if (tab === -1) {

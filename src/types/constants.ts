@@ -12,6 +12,7 @@ export const FULL_HEIGHT = Math.round(TILE_SIZE * 0.35);
 export const SAVE_VERSION = 7;
 export const STORAGE_KEY = "arenaPlannerState_v" + SAVE_VERSION;
 export const EDITOR_MAP_KEY = "arenaEditorMap_v1";
+export const SKILL_DISPLAY_KEY = "arenaSkillDisplay_v1";
 
 export const MIN_SCALE = 0.25; // never zoom out further than this
 export const MAX_SCALE = 10;

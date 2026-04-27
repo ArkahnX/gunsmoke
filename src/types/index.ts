@@ -57,8 +57,14 @@ export interface SelectedDoll {
 export interface AppState {
 	selectedDolls: SelectedDoll[];
 	currentTab: number; // -1=editor, 0-7=arena, 8=summary
-	actionType: number|string;
+	actionType?: number|string;
+	skillDisplay: number[];
 	tabData: TabData[];
+}
+
+export interface SkillDisplay {
+	skillDisplay: number[];
+	override: boolean;
 }
 
 export interface MapCell {
