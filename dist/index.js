@@ -5243,9 +5243,6 @@ function DollSelectorModal() {
           setShowDollModal(false);
           setShowFortificationModal(true);
         },
-        get disabled() {
-          return tempSelected().length !== 5;
-        },
         color: "dark",
         design: "confirm"
       })];

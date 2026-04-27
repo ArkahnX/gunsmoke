@@ -122,7 +122,6 @@ export default function DollSelectorModal() {
 						setShowDollModal(false);
 						setShowFortificationModal(true);
 					}}
-					disabled={tempSelected().length !== 5}
 					color="dark"
 					design="confirm"
 				/>
