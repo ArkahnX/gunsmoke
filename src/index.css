@@ -85,3 +85,39 @@ canvas {
 svg {
 	pointer-events: none;
 }
+
+.custom.solid-select-container {
+	color: #325563;
+	flex-grow:1;
+}
+.custom .solid-select-control {
+	border: 2px solid #808284;
+}
+.custom .solid-select-control:hover {
+	outline:3px solid white;
+	outline-offset: 0px;
+}
+
+.custom .solid-select-placeholder {
+	color: #325563;
+}
+.custom .solid-select-list {
+	background-color: #2a343a;
+	border-radius: 3px;
+	display:flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+.custom .solid-select-option {
+	background-color: transparent;
+	color: #fff;
+	border-radius: 3px;
+}
+.custom .solid-select-option:hover {
+	background-color: #52575a;
+	color: #fff;
+}
+.custom .solid-select-option[data-focused="true"] {
+	background-color: #dbdcdc;
+	color: #2a343a;
+}

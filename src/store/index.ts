@@ -10,10 +10,11 @@ import type {
 	SelectedDoll,
 	SkillAction,
 	Position,
-	SummonPosition,
 	TabData,
+	RawDollEntry,
+	Skill,
 } from "../types";
-import { MAP_SIZE, SAVE_VERSION, STORAGE_KEY, EDITOR_MAP_KEY, CANVAS_SIZE, TILE_SIZE } from "../types/constants";
+import { MAP_SIZE, SAVE_VERSION, STORAGE_KEY, TILE_SIZE } from "../types/constants";
 
 // ====================== MAP GRID ======================
 export const mapGrid: Record<string, MapCell> = {};
@@ -71,6 +72,7 @@ export const [state, setState] = createStore<AppState>({
 export const [showDollModal, setShowDollModal] = createSignal(false);
 export const [showFortificationModal, setShowFortificationModal] = createSignal(false);
 export const [showImportModal, setShowImportModal] = createSignal(false);
+export const [showExportModal, setShowExportModal] = createSignal(false);
 export const [showTargetModal, setShowTargetModal] = createSignal(false);
 export const [targetSkillInfo, setTargetSkillInfo] = createSignal("");
 export const [targetDollId, setTargetDollId] = createSignal<string | null>(null);
@@ -168,6 +170,16 @@ export function getSummonIdsFromDollIds(ids: string[]): string[] {
 	return res;
 }
 
+export function getDollNamesAndFortifications() {
+	const dolls: string[] = [];
+	for (const sd of state.selectedDolls) {
+		const doll = getInfoFromId(sd.id) as DollData | undefined;
+		if (!doll) continue;
+		dolls.push(`${doll.name} (V${getFortificationFromId(sd.id)})`);
+	}
+	return dolls;
+}
+
 export function getSelectedDollAndSummonInfo(excludeIds: string[] = []): (DollData | SummonData)[] {
 	const dolls: (DollData | SummonData)[] = [];
 	for (const sd of state.selectedDolls) {
@@ -189,7 +201,7 @@ export function renderAction(dollId: string, action: SkillAction): string {
 	const doll = getInfoFromId(dollId);
 	if (!doll) return "";
 	const sorted = getSortedUsableSkills(doll);
-	const skillName = ["BA", "S1", "S2", "ULT", "S3", "S4", "S5", "S6"];
+	const skillName = ["BA", "S1", "S2", "ULT", "SA", "SB", "SC", "SD"];
 	const skillNum = sorted.findIndex((s) => s.id === skillId) + 1;
 	if (targetId) {
 		const target = getInfoFromId(targetId);
@@ -311,6 +323,24 @@ export function loadFromLocalStorage(): boolean {
 		const data = JSON.parse(saved);
 		if (data.version !== SAVE_VERSION) return false;
 		loadState(data);
+		return true;
+	} catch {
+		return false;
+	}
+}
+
+export async function loadFromURL(): Promise<boolean> {
+	const params = new URLSearchParams(window.location.search);
+	const saved = params.get("state");
+	if (!saved) return false;
+	try {
+		const decompressed = await decompress(saved.trim());
+		const parsed = JSON.parse(decompressed);
+		if (parsed.version !== SAVE_VERSION) {
+			alert("Unsupported version");
+			return false;
+		}
+		loadState(parsed);
 		return true;
 	} catch {
 		return false;

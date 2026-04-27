@@ -9,7 +9,9 @@ import {
 	preloadCanvasImages,
 	defaultActionOrder,
 	saveToLocalStorage,
+	showExportModal,
 	loadCombinedJson,
+	loadFromURL,
 } from "./store";
 import type { RawDollEntry, DollData, SummonData, Skill } from "./types";
 
@@ -26,6 +28,7 @@ import TargetModal from "./components/modals/TargetModal";
 import { loadEditorMap } from "./canvas/editorMap";
 import FullScreen from "./components/modals/FullScreen";
 import Modal from "./components/modals/Modal";
+import ExportModal from "./components/modals/ExportModal";
 
 export default function App() {
 	const [coords, setCoords] = createSignal("");
@@ -37,7 +40,13 @@ export default function App() {
 			await loadCombinedJson();
 			loadEditorMap();
 
-			const restored = loadFromLocalStorage();
+			const params = new URLSearchParams(window.location.search);
+			let restored = false;
+			if (params.has("state")) {
+				restored = await loadFromURL();
+			} else {
+				restored = loadFromLocalStorage();
+			}
 			if (restored) {
 				console.log("Restored state");
 				await preloadCanvasImages();
@@ -46,7 +55,6 @@ export default function App() {
 			if (!restored) saveToLocalStorage();
 
 			setLoaded(true);
-
 			// Initial draw happens via ArenaCanvas onMount
 		} catch (e) {
 			console.error("Please let ArkahnX know about the following error");
@@ -155,6 +163,13 @@ export default function App() {
 				<FullScreen>
 					<Modal width="w-140">
 						<ImportModal />
+					</Modal>
+				</FullScreen>
+			</Show>
+			<Show when={showExportModal() && loaded()}>
+				<FullScreen>
+					<Modal width="w-140">
+						<ExportModal />
 					</Modal>
 				</FullScreen>
 			</Show>

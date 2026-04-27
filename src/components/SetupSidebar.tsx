@@ -9,14 +9,14 @@ import {
 	setDollFortification,
 	setActivePhaseTab,
 	saveToLocalStorage,
-	compress,
 	defaultActionOrder,
 	getDollFromSummon,
 	updateSkillDisplay,
+	setShowExportModal,
 	getDollFromId,
 	getSummonFromId,
 } from "../store";
-import { EDITOR_MAP_KEY, STORAGE_KEY, SAVE_VERSION } from "../types/constants";
+import { STORAGE_KEY } from "../types/constants";
 import { editorResetLayout } from "../canvas/editorMap";
 import { produce } from "solid-js/store";
 import Button from "./buttons/Button";
@@ -45,13 +45,6 @@ export default function SetupSidebar(props: { active: boolean }) {
 		setDollFortification(nums);
 		setActivePhaseTab("All");
 		setShowDollModal(true);
-	};
-
-	const exportAllTabs = async () => {
-		const exportObj = { version: SAVE_VERSION, ...state };
-		const str = await compress(JSON.stringify(exportObj));
-		await navigator.clipboard.writeText(str);
-		alert("✅ Exported all turns to clipboard!");
 	};
 
 	const copyPreviousPlacements = () => {
@@ -251,7 +244,7 @@ export default function SetupSidebar(props: { active: boolean }) {
 						</li>
 					</ul>
 				</ContentModal>
-				<Button onClick={exportAllTabs} color="dark" design="custom" content="Export Transcript" />
+				<Button onClick={() => setShowExportModal(true)} color="dark" design="custom" content="Export Transcript" />
 				<Button onClick={() => setShowImportModal(true)} color="dark" design="custom" content="Import Transcript" />
 				<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">
 					Danger Zone

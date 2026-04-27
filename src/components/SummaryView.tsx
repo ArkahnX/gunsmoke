@@ -7,13 +7,11 @@ import {
 	getDollFromSummon,
 	setShowImportModal,
 	updateSkillDisplay,
-	compress,
+	setShowExportModal,
 	getInfoFromId,
 } from "../store";
-import { TILE_SIZE, MAP_SIZE, SAVE_VERSION } from "../types/constants";
-import { drawMapTilesOnArena, drawDollOnCanvas, drawSummonOnCanvas } from "../canvas/draw";
-import type { DollData } from "../types";
-import DollChip from "./DollChip";
+import { TILE_SIZE, MAP_SIZE } from "../types/constants";
+import { drawMapTilesOnArena } from "../canvas/draw";
 import Button from "./buttons/Button";
 import SmallDollChip from "./SmallDollChip";
 import Fortification from "./icons/Fortification";
@@ -185,13 +183,6 @@ function TabCard(props: { tabIndex: number }) {
 }
 
 export default function SummaryView() {
-	const exportAllTabs = async () => {
-		const exportObj = { version: SAVE_VERSION, ...state };
-		const str = await compress(JSON.stringify(exportObj));
-		await navigator.clipboard.writeText(str);
-		alert("✅ Exported all turns to clipboard!");
-	};
-
 	const [showSkillDesignModal, setShowSkillDesignModal] = createSignal(false);
 
 	return (
@@ -199,7 +190,7 @@ export default function SummaryView() {
 			<div class={`rounded-sm bg-[#CFCED2] p-1 shadow-sm shadow-black/50`}>
 				{/* Header */}
 				<div class="flex flex-row gap-1.5 border-2 border-[#B1AFB3] p-1">
-					<Button onClick={exportAllTabs} color="dark" design="custom" content="Export Transcript" />
+					<Button onClick={() => setShowExportModal(true)} color="dark" design="custom" content="Export Transcript" />
 					<Button onClick={() => setShowImportModal(true)} color="dark" design="custom" content="Import Transcript" />
 					<Button onClick={() => setShowSkillDesignModal(true)} color="dark" design="custom" content="Set Skill Display" />
 					<ContentModal
