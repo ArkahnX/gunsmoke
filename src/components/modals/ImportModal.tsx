@@ -1,6 +1,14 @@
 import { createSignal } from "solid-js";
-import { setShowImportModal, loadState, preloadCanvasImages, saveToLocalStorage, defaultActionOrder, decompress } from "../../store";
-import { SAVE_VERSION } from "../../types/constants";
+import {
+	setShowImportModal,
+	loadState,
+	preloadCanvasImages,
+	saveToLocalStorage,
+	defaultActionOrder,
+	decompress,
+	setLoaded,
+} from "../../store";
+import { SAVE_VERSION, STORAGE_KEY } from "../../types/constants";
 import Button from "../buttons/Button";
 import ModalFooter from "./ModalFooter";
 import ModalHeader from "./ModalHeader";
@@ -9,7 +17,9 @@ export default function ImportModal() {
 	const [text, setText] = createSignal("");
 
 	const performImport = async () => {
+		const oldState = localStorage.getItem(STORAGE_KEY);
 		try {
+			setLoaded(false);
 			const decompressed = await decompress(text().trim());
 			const parsed = JSON.parse(decompressed);
 			if (parsed.version !== SAVE_VERSION) {
@@ -21,10 +31,16 @@ export default function ImportModal() {
 			await preloadCanvasImages();
 			setShowImportModal(false);
 			saveToLocalStorage();
+			setLoaded(true);
 			alert("✅ Import successful!");
 		} catch (e) {
 			console.error(e);
 			alert("Invalid string!");
+			if(!oldState) return;
+			const data = JSON.parse(oldState);
+			if (data.version !== SAVE_VERSION) return false;
+			loadState(data);
+			setLoaded(true);
 		}
 	};
 

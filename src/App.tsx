@@ -12,6 +12,8 @@ import {
 	showExportModal,
 	loadCombinedJson,
 	loadFromURL,
+	setLoaded,
+	loaded,
 } from "./store";
 import type { RawDollEntry, DollData, SummonData, Skill } from "./types";
 
@@ -32,7 +34,6 @@ import ExportModal from "./components/modals/ExportModal";
 
 export default function App() {
 	const [coords, setCoords] = createSignal("");
-	const [loaded, setLoaded] = createSignal(false);
 	const [activeTab, setActiveTab] = createSignal("setup");
 
 	onMount(async () => {

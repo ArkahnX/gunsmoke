@@ -55,6 +55,7 @@ export const [editorCoords, setEditorCoords] = createSignal("");
 export const [editorIoMode, setEditorIoMode] = createSignal<"export" | "import">("export");
 export const [editorIoText, setEditorIoText] = createSignal("");
 export const [showEditorIo, setShowEditorIo] = createSignal(false);
+export const [loaded, setLoaded] = createSignal(false);
 
 // ====================== APP STATE ======================
 function makeDefaultTabData(): TabData {
