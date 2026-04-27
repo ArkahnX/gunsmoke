@@ -249,9 +249,9 @@ export default function SummaryView() {
 					</ContentModal>
 				</div>
 			</div>
-			<div class="flex flex-wrap gap-2">
+			<div class="min-[1860px]:grid min-[1860px]:grid-cols-3 flex flex-row flex-wrap gap-2">
 				{/* Dolls block */}
-				<Modal width="w-138 grow">
+				<Modal width="min-w-151 grow">
 					<div class="flex flex-col gap-1">
 						<For each={state.selectedDolls}>
 							{(doll) => {
