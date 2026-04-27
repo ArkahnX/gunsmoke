@@ -28,6 +28,7 @@ function nextHydrateContext() {
 var IS_DEV = true;
 var equalFn = (a, b) => a === b;
 var $PROXY = /* @__PURE__ */ Symbol("solid-proxy");
+var SUPPORTS_PROXY = typeof Proxy === "function";
 var $TRACK = /* @__PURE__ */ Symbol("solid-track");
 var $DEVCOMP = /* @__PURE__ */ Symbol("solid-dev-component");
 var signalOptions = {
@@ -38,6 +39,7 @@ var runEffects = runQueue;
 var STALE = 1;
 var PENDING = 2;
 var UNOWNED = {};
+var NO_INIT = {};
 var Owner = null;
 var Transition = null;
 var Scheduler = null;
@@ -102,6 +104,11 @@ function createSignal(value, options) {
   };
   return [readSignal.bind(s), setter];
 }
+function createComputed(fn, value, options) {
+  const c = createComputation(fn, value, true, STALE, options);
+  if (Scheduler && Transition && Transition.running) Updates.push(c);
+  else updateComputation(c);
+}
 function createRenderEffect(fn, value, options) {
   const c = createComputation(fn, value, false, STALE, options);
   if (Scheduler && Transition && Transition.running) Updates.push(c);
@@ -126,6 +133,148 @@ function createMemo(fn, value, options) {
   } else updateComputation(c);
   return readSignal.bind(c);
 }
+function isPromise(v) {
+  return v && typeof v === "object" && "then" in v;
+}
+function createResource(pSource, pFetcher, pOptions) {
+  let source;
+  let fetcher;
+  let options;
+  if (typeof pFetcher === "function") {
+    source = pSource;
+    fetcher = pFetcher;
+    options = pOptions || {};
+  } else {
+    source = true;
+    fetcher = pSource;
+    options = pFetcher || {};
+  }
+  let pr = null, initP = NO_INIT, id = null, loadedUnderTransition = false, scheduled = false, resolved = "initialValue" in options, dynamic = typeof source === "function" && createMemo(source);
+  const contexts = /* @__PURE__ */ new Set(), [value, setValue] = (options.storage || createSignal)(options.initialValue), [error, setError] = createSignal(void 0), [track, trigger] = createSignal(void 0, {
+    equals: false
+  }), [state2, setState2] = createSignal(resolved ? "ready" : "unresolved");
+  if (sharedConfig.context) {
+    id = sharedConfig.getNextContextId();
+    if (options.ssrLoadFrom === "initial") initP = options.initialValue;
+    else if (sharedConfig.load && sharedConfig.has(id)) initP = sharedConfig.load(id);
+  }
+  function loadEnd(p, v, error2, key) {
+    if (pr === p) {
+      pr = null;
+      key !== void 0 && (resolved = true);
+      if ((p === initP || v === initP) && options.onHydrated) queueMicrotask(() => options.onHydrated(key, {
+        value: v
+      }));
+      initP = NO_INIT;
+      if (Transition && p && loadedUnderTransition) {
+        Transition.promises.delete(p);
+        loadedUnderTransition = false;
+        runUpdates(() => {
+          Transition.running = true;
+          completeLoad(v, error2);
+        }, false);
+      } else completeLoad(v, error2);
+    }
+    return v;
+  }
+  function completeLoad(v, err) {
+    runUpdates(() => {
+      if (err === void 0) setValue(() => v);
+      setState2(err !== void 0 ? "errored" : resolved ? "ready" : "unresolved");
+      setError(err);
+      for (const c of contexts.keys()) c.decrement();
+      contexts.clear();
+    }, false);
+  }
+  function read() {
+    const c = SuspenseContext && useContext(SuspenseContext), v = value(), err = error();
+    if (err !== void 0 && !pr) throw err;
+    if (Listener && !Listener.user && c) {
+      createComputed(() => {
+        track();
+        if (pr) {
+          if (c.resolved && Transition && loadedUnderTransition) Transition.promises.add(pr);
+          else if (!contexts.has(c)) {
+            c.increment();
+            contexts.add(c);
+          }
+        }
+      });
+    }
+    return v;
+  }
+  function load(refetching = true) {
+    if (refetching !== false && scheduled) return;
+    scheduled = false;
+    const lookup = dynamic ? dynamic() : source;
+    loadedUnderTransition = Transition && Transition.running;
+    if (lookup == null || lookup === false) {
+      loadEnd(pr, untrack(value));
+      return;
+    }
+    if (Transition && pr) Transition.promises.delete(pr);
+    let error2;
+    const p = initP !== NO_INIT ? initP : untrack(() => {
+      try {
+        return fetcher(lookup, {
+          value: value(),
+          refetching
+        });
+      } catch (fetcherError) {
+        error2 = fetcherError;
+      }
+    });
+    if (error2 !== void 0) {
+      loadEnd(pr, void 0, castError(error2), lookup);
+      return;
+    } else if (!isPromise(p)) {
+      loadEnd(pr, p, void 0, lookup);
+      return p;
+    }
+    pr = p;
+    if ("v" in p) {
+      if (p.s === 1) loadEnd(pr, p.v, void 0, lookup);
+      else loadEnd(pr, void 0, castError(p.v), lookup);
+      return p;
+    }
+    scheduled = true;
+    queueMicrotask(() => scheduled = false);
+    runUpdates(() => {
+      setState2(resolved ? "refreshing" : "pending");
+      trigger();
+    }, false);
+    return p.then((v) => loadEnd(p, v, void 0, lookup), (e) => loadEnd(p, void 0, castError(e), lookup));
+  }
+  Object.defineProperties(read, {
+    state: {
+      get: () => state2()
+    },
+    error: {
+      get: () => error()
+    },
+    loading: {
+      get() {
+        const s = state2();
+        return s === "pending" || s === "refreshing";
+      }
+    },
+    latest: {
+      get() {
+        if (!resolved) return read();
+        const err = error();
+        if (err && !pr) throw err;
+        return value();
+      }
+    }
+  });
+  let owner = Owner;
+  if (dynamic) createComputed(() => (owner = Owner, load(false)));
+  else load(false);
+  return [read, {
+    refetch: (info) => runWithOwner(owner, () => load(info)),
+    mutate: setValue
+  }];
+}
 function batch(fn) {
   return runUpdates(fn, false);
 }
@@ -139,6 +288,25 @@ function untrack(fn) {
   } finally {
     Listener = listener;
   }
+}
+function on(deps, fn, options) {
+  const isArray = Array.isArray(deps);
+  let prevInput;
+  let defer = options && options.defer;
+  return (prevValue) => {
+    let input;
+    if (isArray) {
+      input = Array(deps.length);
+      for (let i = 0; i < deps.length; i++) input[i] = deps[i]();
+    } else input = deps();
+    if (defer) {
+      defer = false;
+      return prevValue;
+    }
+    const result = untrack(() => fn(input, prevInput, prevValue));
+    prevInput = input;
+    return result;
+  };
 }
 function onMount(fn) {
   createEffect(() => untrack(fn));
@@ -220,6 +388,14 @@ function registerGraph(value) {
     value.graph = Owner;
   }
   if (DevHooks.afterRegisterGraph) DevHooks.afterRegisterGraph(value);
+}
+function createContext(defaultValue, options) {
+  const id = /* @__PURE__ */ Symbol("context");
+  return {
+    id,
+    Provider: createProvider(id, options),
+    defaultValue
+  };
 }
 function useContext(context) {
   let value;
@@ -649,6 +825,19 @@ function resolveChildren(children2) {
   }
   return children2;
 }
+function createProvider(id, options) {
+  return function provider(props) {
+    let res;
+    createRenderEffect(() => res = untrack(() => {
+      Owner.context = {
+        ...Owner.context,
+        [id]: props.value
+      };
+      return children(() => props.children);
+    }), void 0, options);
+    return res;
+  };
+}
 var FALLBACK = /* @__PURE__ */ Symbol("fallback");
 function dispose(d) {
   for (let i = 0; i < d.length; i++) d[i]();
@@ -754,6 +943,154 @@ function createComponent(Comp, props) {
     }
   }
   return devComponent(Comp, props || {});
+}
+function trueFn() {
+  return true;
+}
+var propTraps = {
+  get(_, property, receiver) {
+    if (property === $PROXY) return receiver;
+    return _.get(property);
+  },
+  has(_, property) {
+    if (property === $PROXY) return true;
+    return _.has(property);
+  },
+  set: trueFn,
+  deleteProperty: trueFn,
+  getOwnPropertyDescriptor(_, property) {
+    return {
+      configurable: true,
+      enumerable: true,
+      get() {
+        return _.get(property);
+      },
+      set: trueFn,
+      deleteProperty: trueFn
+    };
+  },
+  ownKeys(_) {
+    return _.keys();
+  }
+};
+function resolveSource(s) {
+  return !(s = typeof s === "function" ? s() : s) ? {} : s;
+}
+function resolveSources() {
+  for (let i = 0, length = this.length; i < length; ++i) {
+    const v = this[i]();
+    if (v !== void 0) return v;
+  }
+}
+function mergeProps(...sources) {
+  let proxy = false;
+  for (let i = 0; i < sources.length; i++) {
+    const s = sources[i];
+    proxy = proxy || !!s && $PROXY in s;
+    sources[i] = typeof s === "function" ? (proxy = true, createMemo(s)) : s;
+  }
+  if (SUPPORTS_PROXY && proxy) {
+    return new Proxy({
+      get(property) {
+        for (let i = sources.length - 1; i >= 0; i--) {
+          const v = resolveSource(sources[i])[property];
+          if (v !== void 0) return v;
+        }
+      },
+      has(property) {
+        for (let i = sources.length - 1; i >= 0; i--) {
+          if (property in resolveSource(sources[i])) return true;
+        }
+        return false;
+      },
+      keys() {
+        const keys = [];
+        for (let i = 0; i < sources.length; i++) keys.push(...Object.keys(resolveSource(sources[i])));
+        return [...new Set(keys)];
+      }
+    }, propTraps);
+  }
+  const sourcesMap = {};
+  const defined = /* @__PURE__ */ Object.create(null);
+  for (let i = sources.length - 1; i >= 0; i--) {
+    const source = sources[i];
+    if (!source) continue;
+    const sourceKeys = Object.getOwnPropertyNames(source);
+    for (let i2 = sourceKeys.length - 1; i2 >= 0; i2--) {
+      const key = sourceKeys[i2];
+      if (key === "__proto__" || key === "constructor") continue;
+      const desc = Object.getOwnPropertyDescriptor(source, key);
+      if (!defined[key]) {
+        defined[key] = desc.get ? {
+          enumerable: true,
+          configurable: true,
+          get: resolveSources.bind(sourcesMap[key] = [desc.get.bind(source)])
+        } : desc.value !== void 0 ? desc : void 0;
+      } else {
+        const sources2 = sourcesMap[key];
+        if (sources2) {
+          if (desc.get) sources2.push(desc.get.bind(source));
+          else if (desc.value !== void 0) sources2.push(() => desc.value);
+        }
+      }
+    }
+  }
+  const target = {};
+  const definedKeys = Object.keys(defined);
+  for (let i = definedKeys.length - 1; i >= 0; i--) {
+    const key = definedKeys[i], desc = defined[key];
+    if (desc && desc.get) Object.defineProperty(target, key, desc);
+    else target[key] = desc ? desc.value : void 0;
+  }
+  return target;
+}
+function splitProps(props, ...keys) {
+  const len = keys.length;
+  if (SUPPORTS_PROXY && $PROXY in props) {
+    const blocked = len > 1 ? keys.flat() : keys[0];
+    const res = keys.map((k) => {
+      return new Proxy({
+        get(property) {
+          return k.includes(property) ? props[property] : void 0;
+        },
+        has(property) {
+          return k.includes(property) && property in props;
+        },
+        keys() {
+          return k.filter((property) => property in props);
+        }
+      }, propTraps);
+    });
+    res.push(new Proxy({
+      get(property) {
+        return blocked.includes(property) ? void 0 : props[property];
+      },
+      has(property) {
+        return blocked.includes(property) ? false : property in props;
+      },
+      keys() {
+        return Object.keys(props).filter((k) => !blocked.includes(k));
+      }
+    }, propTraps));
+    return res;
+  }
+  const objects = [];
+  for (let i = 0; i <= len; i++) {
+    objects[i] = {};
+  }
+  for (const propName of Object.getOwnPropertyNames(props)) {
+    let keyIndex = len;
+    for (let i = 0; i < keys.length; i++) {
+      if (keys[i].includes(propName)) {
+        keyIndex = i;
+        break;
+      }
+    }
+    const desc = Object.getOwnPropertyDescriptor(props, propName);
+    const isDefaultDesc = !desc.get && !desc.set && desc.enumerable && desc.writable && desc.configurable;
+    isDefaultDesc ? objects[keyIndex][propName] = desc.value : Object.defineProperty(objects[keyIndex], propName, desc);
+  }
+  return objects;
 }
 var narrowedError = (name) => `Attempting to access a stale value from <${name}> that could possibly be undefined. This may occur because you are reading the accessor returned from the component at a time where it has already been unmounted. We recommend cleaning up any stale timers or async, or reading from the initial condition.`;
 function For(props) {
@@ -1489,6 +1826,7 @@ var FULL_HEIGHT = Math.round(TILE_SIZE * 0.35);
 var SAVE_VERSION = 7;
 var STORAGE_KEY = "arenaPlannerState_v" + SAVE_VERSION;
 var EDITOR_MAP_KEY = "arenaEditorMap_v1";
+var SKILL_DISPLAY_KEY = "arenaSkillDisplay_v1";
 var MIN_SCALE = 0.25;
 var MAX_SCALE = 10;
 var MAP_BOUNDS = {
@@ -1522,8 +1860,22 @@ function hasCover(c, r) {
   const cell = mapGrid[gridKey(c, r)];
   return !!cell && cell.cover !== null;
 }
-var [allDolls, setAllDolls] = createSignal([]);
-var [allSummons, setAllSummons] = createSignal([]);
+var allDolls = [];
+var allSummons = [];
+var skillOrder = ["Basic Attack", "Skill 1", "Skill 2", "Skill 3", "Passive", "Skill A", "Skill B"];
+var skillOrderMap = skillOrder.reduce(
+  (previousValue, currentValue, currentIndex) => ({ ...previousValue, [currentValue]: currentIndex, [currentIndex]: currentValue }),
+  {}
+);
+var notations = {
+  "Basic Attack": ["S1", "1", "BA"],
+  "Skill 1": ["S2", "2", "S1"],
+  "Skill 2": ["S3", "3", "S2"],
+  "Skill 3": ["S4", "4", "ULT"],
+  Passive: ["S5", "5", "PSV"],
+  "Skill A": ["S6", "6", "SA", "1"],
+  "Skill B": ["S7", "7", "SB", "2"]
+};
 var [editorTool, setEditorTool] = createSignal("spawn");
 var [boundaryDir, setBoundaryDir] = createSignal("h");
 var [editorStatus, setEditorStatus] = createSignal("Left-click / drag to place \xB7 Right-click to erase");
@@ -1531,18 +1883,22 @@ var [editorCoords, setEditorCoords] = createSignal("");
 var [editorIoMode, setEditorIoMode] = createSignal("export");
 var [editorIoText, setEditorIoText] = createSignal("");
 var [showEditorIo, setShowEditorIo] = createSignal(false);
+var [loaded, setLoaded] = createSignal(false);
+var [overrideSkillNotations, setOverrideSkillNotations] = createSignal(false);
 function makeDefaultTabData() {
   return { actionOrder: [], actions: {}, dollPositions: {}, summonPositions: [] };
 }
 var [state, setState] = createStore({
   selectedDolls: [],
   currentTab: 0,
-  actionType: 0,
+  skillDisplay: [0, 0, 0, 0, 0, 0, 0],
   tabData: Array.from({ length: 8 }, () => makeDefaultTabData())
 });
 var [showDollModal, setShowDollModal] = createSignal(false);
 var [showFortificationModal, setShowFortificationModal] = createSignal(false);
 var [showImportModal, setShowImportModal] = createSignal(false);
+var [showExportModal, setShowExportModal] = createSignal(false);
+var [showSkillDisplayModal, setShowSkillDisplayModal] = createSignal(false);
 var [showTargetModal, setShowTargetModal] = createSignal(false);
 var [targetSkillInfo, setTargetSkillInfo] = createSignal("");
 var [targetDollId, setTargetDollId] = createSignal(null);
@@ -1553,14 +1909,39 @@ var [dollFortification, setDollFortification] = createSignal({});
 var [zoom, setZoom] = createSignal(2);
 var [offsetX, setOffsetX] = createSignal(0);
 var [offsetY, setOffsetY] = createSignal(0);
-function getDollInfoFromId(id) {
-  if (id.startsWith("d")) return allDolls().find((d) => d.id === id);
-  if (id.startsWith("s")) return allSummons().find((d) => d.id === id);
+function getInfoFromId(id) {
+  for (const doll of allDolls) {
+    if (doll.id === id) return doll;
+  }
+  for (const summon of allSummons) {
+    if (summon.id === id) return summon;
+  }
+  return void 0;
+}
+function getDollFromId(id) {
+  for (const doll of allDolls) {
+    if (doll.id === id) return doll;
+  }
+  return void 0;
+}
+function getSummonFromId(id) {
+  for (const summon of allSummons) {
+    if (summon.id === id) return summon;
+  }
   return void 0;
 }
 function getDollFromSummon(summon) {
   if ("dollId" in summon === false) return summon;
-  return allDolls().find((d) => d.id === summon.dollId);
+  return allDolls.find((d) => d.id === summon.dollId);
+}
+function isVisible(phase) {
+  return activePhaseTab() === "All" || phase === activePhaseTab();
+}
+function visibleDollIndex(doll) {
+  const dolls = allDolls.filter((d) => isVisible(d.phase));
+  const index = dolls.findIndex((d) => d.id === doll.id);
+  if (index === -1) return allDolls.length;
+  return index;
 }
 function getSortedUsableSkills(doll) {
   const usable = (doll.skills || []).filter((s) => s.type !== "Passive" || s.name === "Escort");
@@ -1582,21 +1963,30 @@ function getFortificationFromId(id) {
 function getSummonIdsFromDollIds(ids) {
   const res = [];
   for (const id of ids) {
-    const doll = allDolls().find((d) => d.id === id);
-    if (doll?.hasSummons) res.push(...doll.summons);
+    const info = getDollFromId(id);
+    if (info?.hasSummons) res.push(...info.summons);
   }
   return res;
+}
+function getDollNamesAndFortifications() {
+  const dolls = [];
+  for (const sd of state.selectedDolls) {
+    const doll = getInfoFromId(sd.id);
+    if (!doll) continue;
+    dolls.push(`${doll.name} (V${getFortificationFromId(sd.id)})`);
+  }
+  return dolls;
 }
 function getSelectedDollAndSummonInfo(excludeIds = []) {
   const dolls = [];
   for (const sd of state.selectedDolls) {
-    const doll = getDollInfoFromId(sd.id);
+    const doll = getDollFromId(sd.id);
     if (!doll) continue;
     if (!excludeIds.includes(sd.id)) dolls.push(doll);
     for (const summonId of doll.summons) {
       if (!excludeIds.includes(summonId)) {
-        const s = allSummons().find((s2) => s2.id === summonId);
-        if (s) dolls.push(s);
+        const summon = getSummonFromId(summonId);
+        if (summon) dolls.push(summon);
       }
     }
   }
@@ -1604,21 +1994,15 @@ function getSelectedDollAndSummonInfo(excludeIds = []) {
 }
 function renderAction(dollId, action) {
   const [skillId, targetId] = action;
-  const doll = getDollInfoFromId(dollId);
+  const doll = getInfoFromId(dollId);
   if (!doll) return "";
-  const sorted = getSortedUsableSkills(doll);
-  const skillName = ["BA", "S1", "S2", "ULT", "S3", "S4", "S5", "S6"];
-  const skillNum = sorted.findIndex((s) => s.id === skillId) + 1;
+  const skill = doll.skills.find((s) => s.id === skillId);
+  if (!skill) return "";
   if (targetId) {
-    const target = getDollInfoFromId(targetId);
-    if (state.actionType === 0) return `S${skillNum}>${target?.name ?? "?"}`;
-    if (state.actionType === 1) return `${skillNum}>${target?.name ?? "?"}`;
-    if (state.actionType === 2) return `${skillName[skillNum - 1]}>${target?.name ?? "?"}`;
+    const target = getInfoFromId(targetId);
+    return getSkillDisplay(skill.type) + ">" + (target?.name ?? "?");
   }
-  if (state.actionType === 0) return `S${skillNum}`;
-  if (state.actionType === 1) return `${skillNum}`;
-  if (state.actionType === 2) return `${skillName[skillNum - 1]}`;
-  return `S${skillNum}`;
+  return getSkillDisplay(skill.type);
 }
 function defaultActionOrder(tabIndex) {
   if (tabIndex < 0 || tabIndex > 7) return;
@@ -1630,7 +2014,7 @@ function defaultActionOrder(tabIndex) {
       for (const doll of s.selectedDolls) {
         order.add(doll.id);
         unique.add(doll.id);
-        const dollInfo = allDolls().find((d) => d.id === doll.id);
+        const dollInfo = getDollFromId(doll.id);
         if (dollInfo?.hasSummons) {
           for (const summonId of dollInfo.summons) {
             order.add(summonId);
@@ -1677,13 +2061,36 @@ function changeSelectedDolls(newDolls) {
 }
 function saveToLocalStorage() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: SAVE_VERSION, ...state }));
+  localStorage.setItem(SKILL_DISPLAY_KEY, JSON.stringify({ override: overrideSkillNotations(), skillDisplay: state.skillDisplay }));
 }
 function loadState(newData) {
   setState(
     produce((s) => {
       s.selectedDolls = newData.selectedDolls;
       s.currentTab = newData.currentTab;
-      s.actionType = newData.actionType || 0;
+      if (typeof newData.actionType === "number") {
+        if (newData.actionType === 0) {
+          newData.actionType = "0000000";
+        }
+        if (newData.actionType === 1) {
+          newData.actionType = "1111111";
+        }
+        if (newData.actionType === 2) {
+          newData.actionType = "2222222";
+        }
+      } else if (typeof newData.actionType === "string") {
+        if (newData.actionType.length !== 7) {
+          newData.actionType = "0000000";
+        }
+      }
+      if (newData.actionType && typeof newData.actionType === "string" && newData.actionType.length === 7) {
+        s.skillDisplay.length = 0;
+        for (const character of Array.from(newData.actionType)) {
+          s.skillDisplay.push(parseInt(character));
+        }
+      } else if (newData.skillDisplay) {
+        s.skillDisplay = newData.skillDisplay;
+      }
       for (let tabIndex = 0; tabIndex < 8; tabIndex++) {
         const src = newData.tabData[tabIndex];
         const tab = s.tabData[tabIndex];
@@ -1701,7 +2108,7 @@ function loadState(newData) {
         tab.actionOrder.push(...src.actionOrder || []);
         for (const doll of s.selectedDolls) {
           tab.actions[doll.id] = [...src.actions[doll.id] ?? []];
-          const dollInfo = allDolls().find((d) => d.id === doll.id);
+          const dollInfo = getDollFromId(doll.id);
           if (dollInfo?.hasSummons) {
             for (const summonId of dollInfo.summons) {
               tab.actions[summonId] = [...src.actions[summonId] ?? []];
@@ -1725,10 +2132,40 @@ function loadFromLocalStorage() {
     return false;
   }
 }
-function updateSkillDisplay(actionType) {
+async function loadFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  const saved = params.get("state");
+  if (!saved) return false;
+  try {
+    const decompressed = await decompress(saved.trim());
+    const parsed = JSON.parse(decompressed);
+    if (parsed.version !== SAVE_VERSION) {
+      alert("Unsupported version");
+      return false;
+    }
+    loadState(parsed);
+    return true;
+  } catch {
+    return false;
+  }
+}
+function setSkillDisplay(skillType, notationStyle) {
+  const index = notations[skillType].indexOf(notationStyle);
   setState(
     produce((s) => {
-      s.actionType = actionType;
+      s.skillDisplay[skillOrder.indexOf(skillType)] = index;
+    })
+  );
+  saveToLocalStorage();
+}
+function getSkillDisplay(skillType) {
+  return notations[skillType][state.skillDisplay[skillOrder.indexOf(skillType)]];
+}
+function overrideSkillDisplay(values) {
+  setState(
+    produce((s) => {
+      s.skillDisplay.length = 0;
+      s.skillDisplay.push(...values);
     })
   );
   saveToLocalStorage();
@@ -1798,6 +2235,40 @@ function preloadCanvasImages() {
     }
     Promise.all(entries).then(() => resolve());
   });
+}
+async function loadCombinedJson() {
+  try {
+    const res = await fetch("combined.json");
+    const json = await res.json();
+    for (const entry of json) {
+      const doll = {
+        id: entry.id,
+        name: entry.name,
+        phase: entry.phase,
+        avatar: entry.avatar,
+        rarity: entry.rarity,
+        hasSummons: false,
+        skills: entry.skills ? entry.skills : [],
+        summons: []
+      };
+      if (entry.summons) {
+        for (const summon of entry.summons) {
+          doll.hasSummons = true;
+          doll.summons.push(summon.id);
+          allSummons.push({
+            id: summon.id,
+            dollId: entry.id,
+            name: summon.name,
+            avatar: summon.localImagePath,
+            skills: summon.skills ? summon.skills : []
+          });
+        }
+      }
+      allDolls.push(doll);
+    }
+  } catch (e) {
+    console.error(e);
+  }
 }
 
 // src/components/TabBar.tsx
@@ -2554,7 +3025,7 @@ function drawMapTilesOnArena(ctx3, drag3, currentTab) {
       y: pos.y,
       id: doll.id,
       instanceId: null,
-      dollInfo: allDolls().find((d) => d.id === doll.id),
+      dollInfo: getInfoFromId(doll.id),
       summonInfo: null,
       dragId: drag3?.id,
       dragInstanceId: drag3?.instanceId,
@@ -2563,7 +3034,7 @@ function drawMapTilesOnArena(ctx3, drag3, currentTab) {
   });
   if (currentTab >= 1) {
     state.tabData[currentTab].summonPositions.forEach((entry) => {
-      const summon = allSummons().find((s) => s.id === entry.id);
+      const summon = getInfoFromId(entry.id);
       if (summon) {
         const tileBelow = mapGrid[gridKey(entry.x, entry.y + 1)];
         dolls[gridKey(entry.x, entry.y)] = {
@@ -2571,7 +3042,7 @@ function drawMapTilesOnArena(ctx3, drag3, currentTab) {
           y: entry.y,
           id: entry.id,
           instanceId: entry.mapId,
-          dollInfo: allDolls().find((d) => d.id === summon.dollId),
+          dollInfo: getInfoFromId(summon.dollId),
           summonInfo: summon,
           dragId: drag3?.id,
           dragInstanceId: drag3?.instanceId,
@@ -2662,9 +3133,7 @@ function drawDollOnCanvas(ctx3, data) {
 }
 function drawGhostOnCanvas(ctx3, tileX, tileY, dollId, valid) {
   if (!dollId) return;
-  let info;
-  if (dollId.startsWith("d")) info = allDolls().find((d) => d.id === dollId);
-  else if (dollId.startsWith("s")) info = allSummons().find((d) => d.id === dollId);
+  const info = getInfoFromId(dollId);
   if (!info) return;
   const cx = Math.round(tileX * TILE_SIZE + TILE_SIZE / 2);
   const cy = Math.round(tileY * TILE_SIZE + TILE_SIZE / 2);
@@ -3286,63 +3755,16 @@ function ConfirmModal(props) {
   });
 }
 
-// src/components/modals/ContentModal.tsx
-function ContentModal(props) {
-  const resolved = children(() => props.children);
-  return createComponent(Portal, {
-    get mount() {
-      return props.mount;
-    },
-    get children() {
-      return createComponent(Show, {
-        get when() {
-          return props.isActive();
-        },
-        fallback: null,
-        get children() {
-          return createComponent(FullScreen, {
-            get children() {
-              return createComponent(Modal, {
-                get width() {
-                  return props.width;
-                },
-                get children() {
-                  return [createComponent(ModalHeader, {
-                    get title() {
-                      return props.title ?? "Confirm";
-                    }
-                  }), memo(() => resolved()), createComponent(ModalFooter, {
-                    styles: "gap-4 justify-center",
-                    get children() {
-                      return createComponent(Button, {
-                        onClick: () => props.setActive(false),
-                        color: "dark",
-                        design: "cancel"
-                      });
-                    }
-                  })];
-                }
-              });
-            }
-          });
-        }
-      });
-    }
-  });
-}
-
 // src/components/SetupSidebar.tsx
 var _tmpl$28 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Summons (drag to map)`);
 var _tmpl$29 = /* @__PURE__ */ template(`<div class="flex flex-wrap gap-3">`);
-var _tmpl$32 = /* @__PURE__ */ template(`<ul class="flex flex-col gap-2 self-center"><li class="flex flex-row items-center gap-2"><div>S1 / S2 / S3 / S4</div></li><li class="flex flex-row items-center gap-2"><div>1 / 2 / 3 / 4</div></li><li class="flex flex-row items-center gap-2"><div>BA / S1 / S2 / ULT`);
-var _tmpl$42 = /* @__PURE__ */ template(`<div><div class="flex flex-col items-center gap-3 pt-1 text-sm font-bold text-[#384B53]"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Echelon (drag to map)</div><div class="flex flex-wrap gap-3"></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">State Management</div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">Danger Zone`);
+var _tmpl$32 = /* @__PURE__ */ template(`<div><div class="flex flex-col items-center gap-3 pt-1 text-sm font-bold text-[#384B53]"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Echelon (drag to map)</div><div class="flex flex-wrap gap-3"></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">State Management</div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">Danger Zone`);
 function SetupSidebar(props) {
   const isActionTab = createMemo(() => state.currentTab >= 1 && state.currentTab <= 7);
   const availableSummonIds = createMemo(() => isActionTab() ? getSummonIdsFromDollIds(state.selectedDolls.map((d) => d.id)) : []);
   const [showClearSkillModal, setShowClearSkillModal] = createSignal(false);
   const [showClearTurnModal, setShowClearTurnModal] = createSignal(false);
   const [showClearDataModal, setShowClearDataModal] = createSignal(false);
-  const [showSkillDesignModal, setShowSkillDesignModal] = createSignal(false);
   const openDollSelector = () => {
     setTempSelected(state.selectedDolls.map((d) => d.id));
     const nums = {};
@@ -3352,15 +3774,6 @@ function SetupSidebar(props) {
     setDollFortification(nums);
     setActivePhaseTab("All");
     setShowDollModal(true);
-  };
-  const exportAllTabs = async () => {
-    const exportObj = {
-      version: SAVE_VERSION,
-      ...state
-    };
-    const str = await compress(JSON.stringify(exportObj));
-    await navigator.clipboard.writeText(str);
-    alert("\u2705 Exported all turns to clipboard!");
   };
   const copyPreviousPlacements = () => {
     if (state.currentTab <= 0) {
@@ -3406,8 +3819,8 @@ function SetupSidebar(props) {
           y: -1
         };
         tab.actions[doll.id] = [];
-        const dollInfo = allDolls().find((d) => d.id === doll.id);
-        if (dollInfo?.hasSummons) {
+        const dollInfo = getDollFromId(doll.id);
+        if (dollInfo && dollInfo?.hasSummons) {
           for (const summonId of dollInfo.summons) tab.actions[summonId] = [];
         }
       }
@@ -3430,7 +3843,7 @@ function SetupSidebar(props) {
     saveToLocalStorage();
   };
   return (() => {
-    var _el$ = _tmpl$42(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$7 = _el$4.nextSibling, _el$13 = _el$7.nextSibling;
+    var _el$ = _tmpl$32(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$7 = _el$4.nextSibling, _el$8 = _el$7.nextSibling;
     insert(_el$2, createComponent(Button, {
       color: "dark",
       onClick: openDollSelector,
@@ -3455,14 +3868,11 @@ function SetupSidebar(props) {
         return state.selectedDolls;
       },
       children: (doll) => {
-        const dollInfo = createMemo(() => allDolls().find((d) => d.id === doll.id));
+        const dollInfo = getDollFromId(doll.id);
+        if (!dollInfo) return null;
         return createComponent(SmallDollChip, {
-          get target() {
-            return dollInfo();
-          },
-          get doll() {
-            return dollInfo();
-          },
+          target: dollInfo,
+          doll: dollInfo,
           onDragStart: (e) => e.preventDefault(),
           onMouseDown: (e) => {
             e.preventDefault();
@@ -3487,13 +3897,12 @@ function SetupSidebar(props) {
               return availableSummonIds();
             },
             children: (summonId) => {
-              const summonInfo = createMemo(() => allSummons().find((s) => s.id === summonId));
+              const summonInfo = getSummonFromId(summonId);
+              if (!summonInfo) return null;
               return createComponent(SmallDollChip, {
-                get target() {
-                  return summonInfo();
-                },
+                target: summonInfo,
                 get doll() {
-                  return getDollFromSummon(summonInfo());
+                  return getDollFromSummon(summonInfo);
                 },
                 onDragStart: (e) => e.preventDefault(),
                 onMouseDown: (e) => {
@@ -3512,74 +3921,23 @@ function SetupSidebar(props) {
       }
     }), _el$7);
     insert(_el$2, createComponent(Button, {
-      onClick: () => setShowSkillDesignModal(true),
+      onClick: () => setShowSkillDisplayModal(true),
       color: "dark",
       design: "custom",
       content: "Set Skill Display"
-    }), _el$13);
-    insert(_el$2, createComponent(ContentModal, {
-      get mount() {
-        return document.querySelector("#body");
-      },
-      width: "w-90",
-      title: "Skill Display",
-      isActive: showSkillDesignModal,
-      setActive: setShowSkillDesignModal,
-      get children() {
-        var _el$8 = _tmpl$32(), _el$9 = _el$8.firstChild, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$1.nextSibling, _el$12 = _el$11.firstChild;
-        insert(_el$9, createComponent(Button, {
-          onClick: () => {
-            updateSkillDisplay(0);
-            setShowSkillDesignModal(false);
-          },
-          color: "dark",
-          design: "custom",
-          content: "Style 1"
-        }), _el$0);
-        insert(_el$1, createComponent(Button, {
-          onClick: () => {
-            updateSkillDisplay(1);
-            setShowSkillDesignModal(false);
-          },
-          color: "dark",
-          design: "custom",
-          content: "Style 2"
-        }), _el$10);
-        insert(_el$11, createComponent(Button, {
-          onClick: () => {
-            updateSkillDisplay(2);
-            setShowSkillDesignModal(false);
-          },
-          color: "dark",
-          design: "custom",
-          content: "Style 3"
-        }), _el$12);
-        createRenderEffect((_p$) => {
-          var _v$ = `rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 0 ? "outline-2 outline-[#F26C1C]" : ""}`, _v$2 = `rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 1 ? "outline-2 outline-[#F26C1C]" : ""}`, _v$3 = `rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 2 ? "outline-2 outline-[#F26C1C]" : ""}`;
-          _v$ !== _p$.e && className(_el$0, _p$.e = _v$);
-          _v$2 !== _p$.t && className(_el$10, _p$.t = _v$2);
-          _v$3 !== _p$.a && className(_el$12, _p$.a = _v$3);
-          return _p$;
-        }, {
-          e: void 0,
-          t: void 0,
-          a: void 0
-        });
-        return _el$8;
-      }
-    }), _el$13);
+    }), _el$8);
     insert(_el$2, createComponent(Button, {
-      onClick: exportAllTabs,
+      onClick: () => setShowExportModal(true),
       color: "dark",
       design: "custom",
       content: "Export Transcript"
-    }), _el$13);
+    }), _el$8);
     insert(_el$2, createComponent(Button, {
       onClick: () => setShowImportModal(true),
       color: "dark",
       design: "custom",
       content: "Import Transcript"
-    }), _el$13);
+    }), _el$8);
     insert(_el$2, createComponent(Button, {
       onClick: () => setShowClearSkillModal(true),
       color: "red",
@@ -3637,7 +3995,7 @@ function SetupSidebar(props) {
 var _tmpl$30 = /* @__PURE__ */ template(`<div class="flex h-full flex-col gap-3 overflow-auto bg-zinc-950 p-3"><div class="flex-wrap gap-1 rounded-sm bg-[#CFCED2] p-1 text-sm font-bold text-[#325563] shadow-sm shadow-black/50"><div class="flex flex-row items-center gap-1.5 border-2 border-[#B1AFB3] p-1"><span class="etl whitespace-nowrap"></span><div class="mx-0.5 h-[18px] w-px bg-[#1e2730]"></div><span class=etl>Tool:</span><div class="mx-0.5 h-[18px] w-px bg-[#1e2730]"></div><span class="etl text-[#445566]">Boundary:</span><select class="rounded border border-[#1e2730] bg-[#0c1014] px-1.5 py-0.5 text-[#6a7e8e]"><option value=h>Horizontal</option><option value=v>Vertical</option></select><div class="mx-0.5 h-[18px] w-px bg-[#1e2730]"></div><div class="mx-0.5 h-[18px] w-px bg-[#1e2730]"></div><button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]">Export JSON</button><button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]">Import JSON</button></div></div><div class="flex-1 overflow-auto rounded-md"style=line-height:0><canvas style=display:block;cursor:crosshair></canvas></div><p class="mt-1 pl-0.5 text-[#2a3a4a]">`);
 var _tmpl$210 = /* @__PURE__ */ template(`<button><span class="h-[11px] w-[11px] flex-shrink-0 rounded-[2px]">`);
 var _tmpl$33 = /* @__PURE__ */ template(`<button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]">`);
-var _tmpl$43 = /* @__PURE__ */ template(`<div class="mt-2 flex-shrink-0 rounded-md border border-[#1e2730] bg-[#13181f] p-2"><textarea class="h-[120px] w-full resize-y rounded border border-[#1e2730] bg-[#0c1014] p-1.5 font-mono text-[11px] text-[#6a9a7a]"></textarea><div class="mt-1.5 flex gap-1.5"><button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]"></button><button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]">Close`);
+var _tmpl$42 = /* @__PURE__ */ template(`<div class="mt-2 flex-shrink-0 rounded-md border border-[#1e2730] bg-[#13181f] p-2"><textarea class="h-[120px] w-full resize-y rounded border border-[#1e2730] bg-[#0c1014] p-1.5 font-mono text-[11px] text-[#6a9a7a]"></textarea><div class="mt-1.5 flex gap-1.5"><button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]"></button><button class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]">Close`);
 var canvasEl2;
 var ctx2;
 var painting = false;
@@ -3852,7 +4210,7 @@ function EditorView() {
     insert(_el$, (() => {
       var _c$ = memo(() => !!showEditorIo());
       return () => _c$() && (() => {
-        var _el$18 = _tmpl$43(), _el$19 = _el$18.firstChild, _el$20 = _el$19.nextSibling, _el$21 = _el$20.firstChild, _el$22 = _el$21.nextSibling;
+        var _el$18 = _tmpl$42(), _el$19 = _el$18.firstChild, _el$20 = _el$19.nextSibling, _el$21 = _el$20.firstChild, _el$22 = _el$21.nextSibling;
         _el$19.$$input = (e) => setEditorIoText(e.currentTarget.value);
         setAttribute(_el$19, "spellcheck", false);
         _el$21.$$click = handleDoIO;
@@ -3869,19 +4227,21 @@ function EditorView() {
 delegateEvents(["click", "input"]);
 
 // src/components/icons/SkillIcon.tsx
-var _tmpl$31 = /* @__PURE__ */ template(`<div class="skill-icon shrink-0 cursor-pointer"><img class="h-10 w-10 rounded-sm bg-black/70 border-2 border-[#717376] object-cover outline-2 outline-transparent transition transition-discrete duration-175 hover:scale-107 hover:outline-white">`);
+var _tmpl$31 = /* @__PURE__ */ template(`<div class="skill-icon shrink-0 cursor-pointer"><img>`);
 function SkillIcon(props) {
   return (() => {
     var _el$ = _tmpl$31(), _el$2 = _el$.firstChild;
     addEventListener(_el$, "click", props.onClick, true);
     createRenderEffect((_p$) => {
-      var _v$ = props.skill.localImagePath, _v$2 = props.skill.name;
+      var _v$ = props.skill.localImagePath, _v$2 = `h-10 w-10 rounded-sm border-2 border-[#717376] bg-black/70 object-cover outline-2 outline-transparent transition transition-discrete duration-175 ${props.onClick ? "hover:scale-107 hover:outline-white" : ""}`, _v$3 = props.skill.name;
       _v$ !== _p$.e && setAttribute(_el$2, "src", _p$.e = _v$);
-      _v$2 !== _p$.t && setAttribute(_el$2, "title", _p$.t = _v$2);
+      _v$2 !== _p$.t && className(_el$2, _p$.t = _v$2);
+      _v$3 !== _p$.a && setAttribute(_el$2, "title", _p$.a = _v$3);
       return _p$;
     }, {
       e: void 0,
-      t: void 0
+      t: void 0,
+      a: void 0
     });
     return _el$;
   })();
@@ -3892,7 +4252,7 @@ delegateEvents(["click"]);
 var _tmpl$34 = /* @__PURE__ */ template(`<div class="absolute top-0.5 left-0.5 h-4 w-4">`);
 var _tmpl$211 = /* @__PURE__ */ template(`<div class="absolute top-0 right-0 bottom-0 left-0 flex items-end justify-center bg-linear-to-t from-black/70 via-transparent to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class="overflow-hidden overflow-ellipsis whitespace-nowrap">`);
 var _tmpl$35 = /* @__PURE__ */ template(`<div><div class="relative flex justify-center overflow-hidden bg-[#909597]"><img loading=lazy>`, true, false, false);
-var _tmpl$44 = /* @__PURE__ */ template(`<div class="absolute top-0.5 right-0.5 h-5 w-5 shadow-sm shadow-black/20">`);
+var _tmpl$43 = /* @__PURE__ */ template(`<div class="absolute top-0.5 right-0.5 h-5 w-5 shadow-sm shadow-black/20">`);
 function SquareDollChip(props) {
   const interactive = typeof props.onClick !== "undefined" || typeof props.onDragStart !== "undefined" || typeof props.onMouseDown !== "undefined" || typeof props.onTouchStart !== "undefined";
   return (() => {
@@ -3904,7 +4264,7 @@ function SquareDollChip(props) {
     insert(_el$2, (() => {
       var _c$ = memo(() => !!props.selected);
       return () => _c$() && (() => {
-        var _el$7 = _tmpl$44();
+        var _el$7 = _tmpl$43();
         insert(_el$7, createComponent(Check, {}));
         return _el$7;
       })();
@@ -3957,7 +4317,7 @@ delegateEvents(["click", "mousedown", "touchstart"]);
 var _tmpl$36 = /* @__PURE__ */ template(`<button class="cursor-pointer rounded-sm bg-[#384B53] p-0.5 hover:outline-3 hover:outline-white">Up`);
 var _tmpl$212 = /* @__PURE__ */ template(`<button class="cursor-pointer rounded-sm bg-[#384B53] p-0.5 hover:outline-3 hover:outline-white">Down`);
 var _tmpl$37 = /* @__PURE__ */ template(`<div><div class="flex flex-col gap-1.5 border-2 border-[#D7D7D7] p-1"><div class="drag-grip flex items-center gap-2"><div class="flex flex-col gap-0.5"></div><div class="min-w-0 flex-1"><div class="mt-1 flex flex-wrap gap-1"></div></div></div><div class="flex flex-wrap gap-1.5">`);
-var _tmpl$45 = /* @__PURE__ */ template(`<div class="group relative"><div class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 hover:bg-red-900 hover:text-red-300"title=Remove>`);
+var _tmpl$44 = /* @__PURE__ */ template(`<div class="group relative"><div class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 hover:bg-red-900 hover:text-red-300"title=Remove>`);
 var _tmpl$52 = /* @__PURE__ */ template(`<div>`);
 var draggableItem = null;
 var listContainer = void 0;
@@ -4147,7 +4507,7 @@ function handleSkillClick(dollId, sortedIdx) {
     alert("Place doll first!");
     return;
   }
-  const doll = getDollInfoFromId(dollId);
+  const doll = getInfoFromId(dollId);
   if (!doll) return;
   const sorted = getSortedUsableSkills(doll);
   const skill = sorted[sortedIdx];
@@ -4178,13 +4538,10 @@ function removeAction(dollId, actionIdx) {
   saveToLocalStorage();
 }
 function DollRow(props) {
-  const dollInfo = createMemo(() => getDollInfoFromId(props.dollId));
+  const dollInfo = getInfoFromId(props.dollId);
   const placed = createMemo(() => isPlaced(props.dollId));
   const actions = createMemo(() => state.tabData[state.currentTab]?.actions[props.dollId] ?? []);
-  const skills = createMemo(() => {
-    const d = dollInfo();
-    return d ? getSortedUsableSkills(d) : [];
-  });
+  const skills = dollInfo ? getSortedUsableSkills(dollInfo) : [];
   return (() => {
     var _el$ = _tmpl$37(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$7 = _el$4.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$3.nextSibling;
     insert(_el$4, createComponent(Show, {
@@ -4228,11 +4585,9 @@ function DollRow(props) {
       }
     }), null);
     insert(_el$3, createComponent(SquareDollChip, {
-      get target() {
-        return dollInfo();
-      },
+      target: dollInfo,
       get doll() {
-        return getDollFromSummon(dollInfo());
+        return getDollFromSummon(dollInfo);
       },
       icon: true,
       name: true
@@ -4242,7 +4597,7 @@ function DollRow(props) {
         return actions();
       },
       children: (action, ai) => (() => {
-        var _el$0 = _tmpl$45(), _el$1 = _el$0.firstChild;
+        var _el$0 = _tmpl$44(), _el$1 = _el$0.firstChild;
         _el$1.$$click = () => {
           removeAction(props.dollId, ai());
         };
@@ -4252,9 +4607,7 @@ function DollRow(props) {
       })()
     }));
     insert(_el$9, createComponent(For, {
-      get each() {
-        return skills();
-      },
+      each: skills,
       children: (skill, idx) => createComponent(SkillIcon, {
         skill,
         onClick: () => handleSkillClick(props.dollId, idx())
@@ -4345,11 +4698,10 @@ function Fortification() {
 var _tmpl$39 = /* @__PURE__ */ template(`<div class="flex flex-row gap-2"><div style="width:430px;height:430px;flex-shrink:0;overflow:hidden;border-right:1px solid #3f3f46"></div><div class="flex min-w-0 grow flex-col gap-1 overflow-y-auto">`);
 var _tmpl$213 = /* @__PURE__ */ template(`<div class="flex flex-col items-start gap-1 rounded-xs border-b-2 bg-[#F4F4F6] p-1 shadow-sm shadow-black/30"><div class="flex flex-row items-center gap-1"><div class="font-bold text-[#325563]"></div></div><div class="min-w-0 flex-1"><div class="flex flex-wrap gap-1">`);
 var _tmpl$310 = /* @__PURE__ */ template(`<span class="rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
-var _tmpl$46 = /* @__PURE__ */ template(`<div class="pt-1 text-sm text-zinc-600">No actions recorded`);
-var _tmpl$53 = /* @__PURE__ */ template(`<ul class="flex flex-col gap-2 self-center"><li class="flex flex-row items-center gap-2"><div>S1 / S2 / S3 / S4</div></li><li class="flex flex-row items-center gap-2"><div>1 / 2 / 3 / 4</div></li><li class="flex flex-row items-center gap-2"><div>BA / S1 / S2 / ULT`);
-var _tmpl$62 = /* @__PURE__ */ template(`<div class="flex flex-col gap-1">`);
-var _tmpl$72 = /* @__PURE__ */ template(`<div class="flex h-full flex-col gap-3 overflow-auto bg-zinc-950 p-3"><div class="rounded-sm bg-[#CFCED2] p-1 shadow-sm shadow-black/50"><div class="flex flex-row gap-1.5 border-2 border-[#B1AFB3] p-1"></div></div><div class="flex flex-wrap gap-2">`);
-var _tmpl$82 = /* @__PURE__ */ template(`<div class="rounded-sm bg-[#E6E6E6] p-1 shadow-sm shadow-black/50"><div class="flex flex-row items-center gap-3 border-2 border-[#D7D7D7] p-1"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center text-[18px] font-bold">`);
+var _tmpl$45 = /* @__PURE__ */ template(`<div class="pt-1 text-sm text-zinc-600">No actions recorded`);
+var _tmpl$53 = /* @__PURE__ */ template(`<div class="flex flex-col gap-1">`);
+var _tmpl$62 = /* @__PURE__ */ template(`<div class="flex h-full flex-col gap-3 overflow-auto bg-zinc-950 p-3"><div class="rounded-sm bg-[#CFCED2] p-1 shadow-sm shadow-black/50"><div class="flex flex-row gap-1.5 border-2 border-[#B1AFB3] p-1"></div></div><div class="min-[1860px]:grid min-[1860px]:grid-cols-3 flex flex-row flex-wrap gap-2">`);
+var _tmpl$72 = /* @__PURE__ */ template(`<div class="rounded-sm bg-[#E6E6E6] p-1 shadow-sm shadow-black/50"><div class="flex flex-row items-center gap-3 border-2 border-[#D7D7D7] p-1"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center text-[18px] font-bold">`);
 function renderTabCanvas(tabIndex) {
   console.log("Rendering tab", tabIndex);
   const placedEntities = [];
@@ -4444,7 +4796,7 @@ function TabCard(props) {
     return state.selectedDolls.some((d) => (state.tabData[props.tabIndex]?.actions[d.id]?.length ?? 0) > 0);
   });
   return createComponent(Modal, {
-    width: "min-w-140 grow",
+    width: "min-w-151 grow",
     get children() {
       var _el$ = _tmpl$39(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling;
       var _ref$ = canvasWrapRef;
@@ -4458,22 +4810,20 @@ function TabCard(props) {
           children: (dollId) => {
             const actions = createMemo(() => state.tabData[props.tabIndex]?.actions[dollId] ?? []);
             if (!actions().length) return null;
-            const doll = createMemo(() => getDollInfoFromId(dollId));
+            const doll = getInfoFromId(dollId);
             const fort = createMemo(() => getFortificationFromId(dollId));
             return (() => {
               var _el$4 = _tmpl$213(), _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild;
               insert(_el$5, createComponent(SquareDollChip, {
-                get target() {
-                  return doll();
-                },
+                target: doll,
                 get doll() {
-                  return getDollFromSummon(doll());
+                  return getDollFromSummon(doll);
                 },
                 size: "h-10 w-10",
                 icon: false,
                 name: false
               }), _el$6);
-              insert(_el$6, () => doll()?.name);
+              insert(_el$6, () => doll?.name);
               insert(_el$8, createComponent(For, {
                 get each() {
                   return actions();
@@ -4487,27 +4837,17 @@ function TabCard(props) {
               return _el$4;
             })();
           }
-        }) : _tmpl$46();
+        }) : _tmpl$45();
       })());
       return _el$;
     }
   });
 }
 function SummaryView() {
-  const exportAllTabs = async () => {
-    const exportObj = {
-      version: SAVE_VERSION,
-      ...state
-    };
-    const str = await compress(JSON.stringify(exportObj));
-    await navigator.clipboard.writeText(str);
-    alert("\u2705 Exported all turns to clipboard!");
-  };
-  const [showSkillDesignModal, setShowSkillDesignModal] = createSignal(false);
   return (() => {
-    var _el$1 = _tmpl$72(), _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild, _el$19 = _el$10.nextSibling;
+    var _el$1 = _tmpl$62(), _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild, _el$12 = _el$10.nextSibling;
     insert(_el$11, createComponent(Button, {
-      onClick: exportAllTabs,
+      onClick: () => setShowExportModal(true),
       color: "dark",
       design: "custom",
       content: "Export Transcript"
@@ -4519,92 +4859,39 @@ function SummaryView() {
       content: "Import Transcript"
     }), null);
     insert(_el$11, createComponent(Button, {
-      onClick: () => setShowSkillDesignModal(true),
+      onClick: () => setShowSkillDisplayModal(true),
       color: "dark",
       design: "custom",
       content: "Set Skill Display"
     }), null);
-    insert(_el$11, createComponent(ContentModal, {
-      get mount() {
-        return document.querySelector("#body");
-      },
-      width: "w-90",
-      title: "Skill Display",
-      isActive: showSkillDesignModal,
-      setActive: setShowSkillDesignModal,
+    insert(_el$12, createComponent(Modal, {
+      width: "min-w-151 grow",
       get children() {
-        var _el$12 = _tmpl$53(), _el$13 = _el$12.firstChild, _el$14 = _el$13.firstChild, _el$15 = _el$13.nextSibling, _el$16 = _el$15.firstChild, _el$17 = _el$15.nextSibling, _el$18 = _el$17.firstChild;
-        insert(_el$13, createComponent(Button, {
-          onClick: () => {
-            updateSkillDisplay(0);
-            setShowSkillDesignModal(false);
-          },
-          color: "dark",
-          design: "custom",
-          content: "Style 1"
-        }), _el$14);
-        insert(_el$15, createComponent(Button, {
-          onClick: () => {
-            updateSkillDisplay(1);
-            setShowSkillDesignModal(false);
-          },
-          color: "dark",
-          design: "custom",
-          content: "Style 2"
-        }), _el$16);
-        insert(_el$17, createComponent(Button, {
-          onClick: () => {
-            updateSkillDisplay(2);
-            setShowSkillDesignModal(false);
-          },
-          color: "dark",
-          design: "custom",
-          content: "Style 3"
-        }), _el$18);
-        createRenderEffect((_p$) => {
-          var _v$ = `rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 0 ? "outline-2 outline-[#F26C1C]" : ""}`, _v$2 = `rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 1 ? "outline-2 outline-[#F26C1C]" : ""}`, _v$3 = `rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 2 ? "outline-2 outline-[#F26C1C]" : ""}`;
-          _v$ !== _p$.e && className(_el$14, _p$.e = _v$);
-          _v$2 !== _p$.t && className(_el$16, _p$.t = _v$2);
-          _v$3 !== _p$.a && className(_el$18, _p$.a = _v$3);
-          return _p$;
-        }, {
-          e: void 0,
-          t: void 0,
-          a: void 0
-        });
-        return _el$12;
-      }
-    }), null);
-    insert(_el$19, createComponent(Modal, {
-      width: "w-138 grow",
-      get children() {
-        var _el$20 = _tmpl$62();
-        insert(_el$20, createComponent(For, {
+        var _el$13 = _tmpl$53();
+        insert(_el$13, createComponent(For, {
           get each() {
             return state.selectedDolls;
           },
           children: (doll) => {
-            const dollInfo = createMemo(() => allDolls().find((d) => d.id === doll.id));
+            const dollInfo = getInfoFromId(doll.id);
             return (() => {
-              var _el$21 = _tmpl$82(), _el$22 = _el$21.firstChild, _el$23 = _el$22.firstChild, _el$24 = _el$23.firstChild, _el$25 = _el$24.nextSibling;
-              insert(_el$22, createComponent(SmallDollChip, {
-                get target() {
-                  return dollInfo();
-                },
+              var _el$14 = _tmpl$72(), _el$15 = _el$14.firstChild, _el$16 = _el$15.firstChild, _el$17 = _el$16.firstChild, _el$18 = _el$17.nextSibling;
+              insert(_el$15, createComponent(SmallDollChip, {
+                target: dollInfo,
                 get doll() {
-                  return dollInfo();
+                  return getDollFromSummon(dollInfo);
                 }
-              }), _el$23);
-              insert(_el$24, createComponent(Fortification, {}));
-              insert(_el$25, () => doll.fortification || "\u2014");
-              return _el$21;
+              }), _el$16);
+              insert(_el$17, createComponent(Fortification, {}));
+              insert(_el$18, () => doll.fortification || "\u2014");
+              return _el$14;
             })();
           }
         }));
-        return _el$20;
+        return _el$13;
       }
     }), null);
-    insert(_el$19, createComponent(For, {
+    insert(_el$12, createComponent(For, {
       get each() {
         return Array.from({
           length: 8
@@ -4654,10 +4941,10 @@ function Burn(props) {
 }
 
 // src/components/icons/Corrosion.tsx
-var _tmpl$47 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.74713,0,0,1.74713,-30.3218,-30.7586)><g id=Corrosion><g id=standalone1 serif:id=standalone><g transform=matrix(1.11111,0,0,1.25,-5.38889,-15.5)><ellipse cx=39.5 cy=58 rx=4.5 ry=4></ellipse></g><g transform=matrix(1.06667,0,0,1.23077,-4.13333,-11.2308)><ellipse cx=54.5 cy=46.5 rx=7.5 ry=6.5></ellipse></g><g transform=matrix(1.18182,0,0,1,-10.5455,1)><ellipse cx=52.5 cy=24.5 rx=5.5 ry=6.5></ellipse></g><g transform=matrix(0.884615,0,0,1.21053,4.34615,-7.68421)><ellipse cx=29 cy=36.5 rx=13 ry=9.5>`);
+var _tmpl$46 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.74713,0,0,1.74713,-30.3218,-30.7586)><g id=Corrosion><g id=standalone1 serif:id=standalone><g transform=matrix(1.11111,0,0,1.25,-5.38889,-15.5)><ellipse cx=39.5 cy=58 rx=4.5 ry=4></ellipse></g><g transform=matrix(1.06667,0,0,1.23077,-4.13333,-11.2308)><ellipse cx=54.5 cy=46.5 rx=7.5 ry=6.5></ellipse></g><g transform=matrix(1.18182,0,0,1,-10.5455,1)><ellipse cx=52.5 cy=24.5 rx=5.5 ry=6.5></ellipse></g><g transform=matrix(0.884615,0,0,1.21053,4.34615,-7.68421)><ellipse cx=29 cy=36.5 rx=13 ry=9.5>`);
 function Corrosion(props) {
   return (() => {
-    var _el$ = _tmpl$47(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild;
+    var _el$ = _tmpl$46(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild;
     createRenderEffect((_p$) => {
       var _v$ = `fill:${props.fill ?? "rgb(134,121,232)"};`, _v$2 = `fill:${props.fill ?? "rgb(134,121,232)"};`, _v$3 = `fill:${props.fill ?? "rgb(134,121,232)"};`, _v$4 = `fill:${props.fill ?? "rgb(134,121,232)"};`;
       _p$.e = style(_el$6, _v$, _p$.e);
@@ -4676,20 +4963,20 @@ function Corrosion(props) {
 }
 
 // src/components/icons/Electric.tsx
-var _tmpl$48 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.63441,0,0,1.63441,-27.828,-26.6022)><g id=Electric><path id=standalone1 serif:id=standalone d=M50,17.5L33,17.5L25,46L42,42L34,64L58,33L40,36L50,17.5Z>`);
+var _tmpl$47 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.63441,0,0,1.63441,-27.828,-26.6022)><g id=Electric><path id=standalone1 serif:id=standalone d=M50,17.5L33,17.5L25,46L42,42L34,64L58,33L40,36L50,17.5Z>`);
 function Electric(props) {
   return (() => {
-    var _el$ = _tmpl$48(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
+    var _el$ = _tmpl$47(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
     createRenderEffect((_$p) => style(_el$4, `fill:${props.fill ?? "rgb(235,191,33)"};`, _$p));
     return _el$;
   })();
 }
 
 // src/components/icons/Freeze.tsx
-var _tmpl$49 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.58333,0,0,1.58333,-23.1721,-23.3333)><g id=Freeze><g id=standalone1 serif:id=standalone><g transform=matrix(1,0,0,1.2,-2,-12.8)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(1,0,0,1.2,-2,-36.8)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(0.961538,0,0,1.13636,-0.865385,-6.02273)><ellipse cx=42.5 cy=40.5 rx=6.5 ry=5.5></ellipse></g><g transform=matrix(0.499153,0.866514,-1.03982,0.598984,85.5838,-34.7286)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(-0.499989,0.866032,-1.03924,-0.599987,127.511,42.0259)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(-0.499153,0.866514,1.03982,0.598984,-5.78748,-34.7286)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(0.499989,0.866032,1.03924,-0.599987,-47.7144,42.0259)><path d=M42,44L47,54L42,64L37,54L42,44Z>`);
+var _tmpl$48 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.58333,0,0,1.58333,-23.1721,-23.3333)><g id=Freeze><g id=standalone1 serif:id=standalone><g transform=matrix(1,0,0,1.2,-2,-12.8)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(1,0,0,1.2,-2,-36.8)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(0.961538,0,0,1.13636,-0.865385,-6.02273)><ellipse cx=42.5 cy=40.5 rx=6.5 ry=5.5></ellipse></g><g transform=matrix(0.499153,0.866514,-1.03982,0.598984,85.5838,-34.7286)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(-0.499989,0.866032,-1.03924,-0.599987,127.511,42.0259)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(-0.499153,0.866514,1.03982,0.598984,-5.78748,-34.7286)><path d=M42,44L47,54L42,64L37,54L42,44Z></path></g><g transform=matrix(0.499989,0.866032,1.03924,-0.599987,-47.7144,42.0259)><path d=M42,44L47,54L42,64L37,54L42,44Z>`);
 function Freeze(props) {
   return (() => {
-    var _el$ = _tmpl$49(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$1.nextSibling, _el$12 = _el$11.firstChild, _el$13 = _el$11.nextSibling, _el$14 = _el$13.firstChild, _el$15 = _el$13.nextSibling, _el$16 = _el$15.firstChild;
+    var _el$ = _tmpl$48(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$1.nextSibling, _el$12 = _el$11.firstChild, _el$13 = _el$11.nextSibling, _el$14 = _el$13.firstChild, _el$15 = _el$13.nextSibling, _el$16 = _el$15.firstChild;
     createRenderEffect((_p$) => {
       var _v$ = `fill:${props.fill ?? "rgb(66,204,224)"};`, _v$2 = `fill:${props.fill ?? "rgb(66,204,224)"};`, _v$3 = `fill:${props.fill ?? "rgb(66,204,224)"};`, _v$4 = `fill:${props.fill ?? "rgb(66,204,224)"};`, _v$5 = `fill:${props.fill ?? "rgb(66,204,224)"};`, _v$6 = `fill:${props.fill ?? "rgb(66,204,224)"};`, _v$7 = `fill:${props.fill ?? "rgb(66,204,224)"};`;
       _p$.e = style(_el$6, _v$, _p$.e);
@@ -4714,10 +5001,10 @@ function Freeze(props) {
 }
 
 // src/components/icons/Hydro.tsx
-var _tmpl$50 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.72817,0,0,1.72817,-29.223,-29.1504)><g id=Hydro><g id=standalone1 serif:id=standalone><g transform=matrix(1,0,0,1,2,-1.5)><path d="M28.498,38.795C27.628,40.686 25.716,42 23.5,42C20.464,42 18,39.536 18,36.5C18,35.615 18.209,34.779 18.581,34.038C28.304,13.475 48.678,15.236 59.198,36.5C48.334,25.273 37.769,23.076 28.498,38.795Z"></path></g><g transform=matrix(-1,0,0,-1,78.1114,81.5649)><path d="M28.498,38.795C27.628,40.686 25.716,42 23.5,42C20.464,42 18,39.536 18,36.5C18,35.615 18.209,34.779 18.581,34.038C28.304,13.475 48.678,15.236 59.198,36.5C48.334,25.273 37.769,23.076 28.498,38.795Z">`);
+var _tmpl$49 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.72817,0,0,1.72817,-29.223,-29.1504)><g id=Hydro><g id=standalone1 serif:id=standalone><g transform=matrix(1,0,0,1,2,-1.5)><path d="M28.498,38.795C27.628,40.686 25.716,42 23.5,42C20.464,42 18,39.536 18,36.5C18,35.615 18.209,34.779 18.581,34.038C28.304,13.475 48.678,15.236 59.198,36.5C48.334,25.273 37.769,23.076 28.498,38.795Z"></path></g><g transform=matrix(-1,0,0,-1,78.1114,81.5649)><path d="M28.498,38.795C27.628,40.686 25.716,42 23.5,42C20.464,42 18,39.536 18,36.5C18,35.615 18.209,34.779 18.581,34.038C28.304,13.475 48.678,15.236 59.198,36.5C48.334,25.273 37.769,23.076 28.498,38.795Z">`);
 function Hydro(props) {
   return (() => {
-    var _el$ = _tmpl$50(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild;
+    var _el$ = _tmpl$49(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild;
     createRenderEffect((_p$) => {
       var _v$ = `fill:${props.fill ?? "rgb(43,168,216)"};`, _v$2 = `fill:${props.fill ?? "rgb(43,168,216)"};`;
       _p$.e = style(_el$6, _v$, _p$.e);
@@ -4732,10 +5019,10 @@ function Hydro(props) {
 }
 
 // src/components/icons/Omni.tsx
-var _tmpl$51 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.54461,0,0,1.54461,-22.3824,-21.7702)><g id=Omni><g id=standalone1 serif:id=standalone><g transform=matrix(1.27442,0,0,1.099,-10.2998,-2.98897)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(-0.585385,1.02359,-0.954008,-0.545589,103.249,20.7405)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(0.517371,0.996336,0.97534,-0.506469,-9.83172,37.6917)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(1.13281,-1.73412e-17,1.49543e-17,-1.099,14.7335,84.989)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(-0.547687,0.991618,0.962018,0.531338,13.4075,-3.22855)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(0.55516,1.00515,-0.962018,0.531338,56.4324,-22.5184)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z>`);
+var _tmpl$50 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(1.54461,0,0,1.54461,-22.3824,-21.7702)><g id=Omni><g id=standalone1 serif:id=standalone><g transform=matrix(1.27442,0,0,1.099,-10.2998,-2.98897)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(-0.585385,1.02359,-0.954008,-0.545589,103.249,20.7405)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(0.517371,0.996336,0.97534,-0.506469,-9.83172,37.6917)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(1.13281,-1.73412e-17,1.49543e-17,-1.099,14.7335,84.989)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(-0.547687,0.991618,0.962018,0.531338,13.4075,-3.22855)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z></path></g><g transform=matrix(0.55516,1.00515,-0.962018,0.531338,56.4324,-22.5184)><path d=M42.608,31.837L21.421,31.837L25.336,24.558L38.794,24.558L42.608,31.837Z>`);
 function Omni(props) {
   return (() => {
-    var _el$ = _tmpl$51(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$1.nextSibling, _el$12 = _el$11.firstChild, _el$13 = _el$11.nextSibling, _el$14 = _el$13.firstChild;
+    var _el$ = _tmpl$50(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$1.nextSibling, _el$12 = _el$11.firstChild, _el$13 = _el$11.nextSibling, _el$14 = _el$13.firstChild;
     createRenderEffect((_p$) => {
       var _v$ = `fill:${props.fill ?? "rgb(223,22,76)"};`, _v$2 = `fill:${props.fill ?? "rgb(223,22,76)"};`, _v$3 = `fill:${props.fill ?? "rgb(223,22,76)"};`, _v$4 = `fill:${props.fill ?? "rgb(223,22,76)"};`, _v$5 = `fill:${props.fill ?? "rgb(223,22,76)"};`, _v$6 = `fill:${props.fill ?? "rgb(223,22,76)"};`;
       _p$.e = style(_el$6, _v$, _p$.e);
@@ -4758,10 +5045,10 @@ function Omni(props) {
 }
 
 // src/components/icons/Physical.tsx
-var _tmpl$54 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(2.47396,0,0,2.05405,-56.4844,-37.027)><g id=Physical><path id=standalone1 serif:id=standalone d=M39,19L52.856,28.25L52.856,46.75L39,56L25.144,46.75L25.144,28.25L39,19ZM29.023,44.16L32.903,41.57L32.903,33.43L39,29.36L45.097,33.43L45.097,41.57L48.977,44.16L48.977,30.84L39,24.18L29.023,30.84L29.023,44.16Z>`);
+var _tmpl$51 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 80 80"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g id=standalone transform=matrix(2.47396,0,0,2.05405,-56.4844,-37.027)><g id=Physical><path id=standalone1 serif:id=standalone d=M39,19L52.856,28.25L52.856,46.75L39,56L25.144,46.75L25.144,28.25L39,19ZM29.023,44.16L32.903,41.57L32.903,33.43L39,29.36L45.097,33.43L45.097,41.57L48.977,44.16L48.977,30.84L39,24.18L29.023,30.84L29.023,44.16Z>`);
 function Physical(props) {
   return (() => {
-    var _el$ = _tmpl$54(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
+    var _el$ = _tmpl$51(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild;
     createRenderEffect((_$p) => style(_el$4, `fill:${props.fill ?? "rgb(201,200,206)"};`, _$p));
     return _el$;
   })();
@@ -4822,11 +5109,11 @@ function Phase(props) {
 }
 
 // src/components/DollChip.tsx
-var _tmpl$55 = /* @__PURE__ */ template(`<div><div><div class="absolute top-1 left-1 h-6 w-6"></div><img loading=lazy class="h-auto w-32 object-cover"></div><div class="bg-[#1C2A32] p-1 text-center font-bold text-[#EFEFEF]">`, true, false, false);
+var _tmpl$54 = /* @__PURE__ */ template(`<div><div><div class="absolute top-1 left-1 h-6 w-6"></div><img loading=lazy class="h-auto w-32 object-cover"></div><div class="bg-[#1C2A32] p-1 text-center font-bold text-[#EFEFEF]">`, true, false, false);
 var _tmpl$214 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function DollChip(props) {
   return (() => {
-    var _el$ = _tmpl$55(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$2.nextSibling;
+    var _el$ = _tmpl$54(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$2.nextSibling;
     addEventListener(_el$, "click", props.onClick, true);
     insert(_el$2, (() => {
       var _c$ = memo(() => !!props.selected);
@@ -4861,7 +5148,7 @@ function DollChip(props) {
 delegateEvents(["click"]);
 
 // src/components/modals/DollSelectorModal.tsx
-var _tmpl$56 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75">`);
+var _tmpl$55 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75">`);
 var _tmpl$215 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="grid grid-cols-6 gap-4">`);
 var _tmpl$311 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Changing dolls will clear their positions and actions`);
 var _tmpl$410 = /* @__PURE__ */ template(`<button><div class="h-6 w-6"></div><span>`);
@@ -4880,15 +5167,6 @@ function DollSelectorModal() {
     } else if (sel.length < 5) {
       setTempSelected([...sel, id]);
     }
-  };
-  const isVisible = (phase) => {
-    return activePhaseTab() === "All" || phase === activePhaseTab();
-  };
-  const visibleDollIndex = (doll) => {
-    const dolls = allDolls().filter((d) => isVisible(d.phase));
-    const index = dolls.findIndex((d) => d.id === doll.id);
-    if (index === -1) return allDolls().length;
-    return index;
   };
   const toggleDollVisibility = async (phase) => {
     console.log("Running Phase Tab for " + phase);
@@ -4912,7 +5190,7 @@ function DollSelectorModal() {
   return [createComponent(ModalHeader, {
     title: "Select Dolls"
   }), (() => {
-    var _el$ = _tmpl$56();
+    var _el$ = _tmpl$55();
     insert(_el$, createComponent(For, {
       each: PHASE_TABS,
       children: (tab) => (() => {
@@ -4936,9 +5214,7 @@ function DollSelectorModal() {
   })(), (() => {
     var _el$2 = _tmpl$215(), _el$3 = _el$2.firstChild;
     insert(_el$3, createComponent(For, {
-      get each() {
-        return allDolls();
-      },
+      each: allDolls,
       children: (doll) => {
         const isSel = () => tempSelected().includes(doll.id);
         return createComponent(DollChip, {
@@ -4979,7 +5255,7 @@ function DollSelectorModal() {
 delegateEvents(["click"]);
 
 // src/components/modals/FortificationModal.tsx
-var _tmpl$57 = /* @__PURE__ */ template(`<div class="flex flex-col items-center gap-3 p-2">`);
+var _tmpl$56 = /* @__PURE__ */ template(`<div class="flex flex-col items-center gap-3 p-2">`);
 var _tmpl$216 = /* @__PURE__ */ template(`<div class="flex items-center gap-4"><div class="flex gap-2">`);
 var _tmpl$312 = /* @__PURE__ */ template(`<button>`);
 function FortificationModal() {
@@ -5004,20 +5280,22 @@ function FortificationModal() {
   return [createComponent(ModalHeader, {
     title: "Set Doll Fortifications"
   }), (() => {
-    var _el$ = _tmpl$57();
+    var _el$ = _tmpl$56();
     insert(_el$, createComponent(For, {
       get each() {
         return tempSelected();
       },
       children: (dollId) => {
-        const dollInfo = allDolls().find((d) => d.id === dollId);
+        const dollInfo = getInfoFromId(dollId);
         if (!dollInfo) return null;
         const currentNum = () => dollFortification()[dollId] ?? state.selectedDolls.find((d) => d.id === dollId)?.fortification ?? 0;
         return (() => {
           var _el$2 = _tmpl$216(), _el$3 = _el$2.firstChild;
           insert(_el$2, createComponent(SmallDollChip, {
             target: dollInfo,
-            doll: dollInfo
+            get doll() {
+              return getDollFromSummon(dollInfo);
+            }
           }), _el$3);
           insert(_el$3, createComponent(For, {
             each: [0, 1, 2, 3, 4, 5, 6],
@@ -5048,11 +5326,13 @@ function FortificationModal() {
 delegateEvents(["click"]);
 
 // src/components/modals/ImportModal.tsx
-var _tmpl$58 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-4 font-mono text-xs"placeholder="Paste here..."></textarea><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Imported state will overwrite all current settings`);
+var _tmpl$57 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-4 font-mono text-xs"placeholder="Paste here..."></textarea><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Imported state will overwrite all current settings`);
 function ImportModal() {
   const [text, setText] = createSignal("");
   const performImport = async () => {
+    const oldState = localStorage.getItem(STORAGE_KEY);
     try {
+      setLoaded(false);
       const decompressed = await decompress(text().trim());
       const parsed = JSON.parse(decompressed);
       if (parsed.version !== SAVE_VERSION) {
@@ -5064,16 +5344,22 @@ function ImportModal() {
       await preloadCanvasImages();
       setShowImportModal(false);
       saveToLocalStorage();
+      setLoaded(true);
       alert("\u2705 Import successful!");
     } catch (e) {
       console.error(e);
       alert("Invalid string!");
+      if (!oldState) return;
+      const data = JSON.parse(oldState);
+      if (data.version !== SAVE_VERSION) return false;
+      loadState(data);
+      setLoaded(true);
     }
   };
   return [createComponent(ModalHeader, {
     title: "Import Transcript"
   }), (() => {
-    var _el$ = _tmpl$58(), _el$2 = _el$.firstChild;
+    var _el$ = _tmpl$57(), _el$2 = _el$.firstChild;
     _el$2.$$input = (e) => setText(e.currentTarget.value);
     createRenderEffect(() => _el$2.value = text());
     return _el$;
@@ -5095,13 +5381,13 @@ function ImportModal() {
 delegateEvents(["input"]);
 
 // src/components/modals/TargetModal.tsx
-var _tmpl$59 = /* @__PURE__ */ template(`<div class="fixed inset-0 z-50 flex items-center justify-center bg-black/90"><div class="overflow-hidden rounded-sm border-t-[6px] border-[#506A6C] bg-[#293438]"><div class="border-b border-zinc-700 p-6 text-center"><h3 class="text-lg font-bold">Select Target Character</h3><p class="text-xs text-zinc-400"> \u2192 Target</p></div><div class="grid grid-cols-3 justify-items-center gap-4 p-5"></div><div class="flex justify-center gap-4 border-t border-zinc-700 p-6">`);
+var _tmpl$58 = /* @__PURE__ */ template(`<div class="fixed inset-0 z-50 flex items-center justify-center bg-black/90"><div class="overflow-hidden rounded-sm border-t-[6px] border-[#506A6C] bg-[#293438]"><div class="border-b border-zinc-700 p-6 text-center"><h3 class="text-lg font-bold">Select Target Character</h3><p class="text-xs text-zinc-400"> \u2192 Target</p></div><div class="grid grid-cols-3 justify-items-center gap-4 p-5"></div><div class="flex justify-center gap-4 border-t border-zinc-700 p-6">`);
 function TargetModal() {
   const skillInfo = createMemo(() => {
     const dollId = targetDollId();
     const skillId = targetSkillId();
     if (!dollId || skillId == null) return null;
-    const doll = getDollInfoFromId(dollId);
+    const doll = getInfoFromId(dollId);
     return doll?.skills.find((s) => s.id === skillId) ?? null;
   });
   const targets = createMemo(() => getSelectedDollAndSummonInfo([targetDollId() ?? ""]));
@@ -5121,7 +5407,7 @@ function TargetModal() {
     setShowTargetModal(false);
   };
   return (() => {
-    var _el$ = _tmpl$59(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$3.nextSibling, _el$8 = _el$7.nextSibling;
+    var _el$ = _tmpl$58(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$3.nextSibling, _el$8 = _el$7.nextSibling;
     insert(_el$5, () => skillInfo()?.name, _el$6);
     insert(_el$7, createComponent(For, {
       get each() {
@@ -5147,70 +5433,696 @@ function TargetModal() {
   })();
 }
 
+// node_modules/@thisbeyond/solid-select/dist/dev.js
+var createSelect = (props) => {
+  const config = mergeProps({
+    multiple: false,
+    disabled: false,
+    optionToValue: (option) => option,
+    isOptionDisabled: (option) => false
+  }, props);
+  const parseValue = (value2) => {
+    if (config.multiple && Array.isArray(value2)) {
+      return value2;
+    } else if (!config.multiple && !Array.isArray(value2)) {
+      return value2 !== null ? [value2] : [];
+    } else {
+      throw new Error(`Incompatible value type for ${config.multiple ? "multple" : "single"} select.`);
+    }
+  };
+  const [_value, _setValue] = createSignal(config.initialValue !== void 0 ? parseValue(config.initialValue) : []);
+  const value = () => config.multiple ? _value() : _value()[0] || null;
+  const setValue = (value2) => _setValue(parseValue(value2));
+  const clearValue = () => _setValue([]);
+  const hasValue = () => !!(config.multiple ? value().length : value());
+  createEffect(on(_value, () => config.onChange?.(value()), {
+    defer: true
+  }));
+  const [inputValue, setInputValue] = createSignal("");
+  const clearInputValue = () => setInputValue("");
+  const hasInputValue = () => !!inputValue().length;
+  createEffect(on(inputValue, (inputValue2) => config.onInput?.(inputValue2), {
+    defer: true
+  }));
+  createEffect(on(inputValue, (inputValue2) => {
+    if (inputValue2 && !isOpen()) {
+      setIsOpen(true);
+    }
+  }, {
+    defer: true
+  }));
+  const options = typeof config.options === "function" ? createMemo(() => config.options(inputValue()), config.options(inputValue())) : () => config.options;
+  const optionsCount = () => options().length;
+  const pickOption = (option) => {
+    if (config.isOptionDisabled(option)) return;
+    const value2 = config.optionToValue(option);
+    if (config.multiple) {
+      setValue([..._value(), value2]);
+    } else {
+      setValue(value2);
+      setIsActive(false);
+    }
+    setIsOpen(false);
+  };
+  const [isActive, setIsActive] = createSignal(false);
+  const [isOpen, setIsOpen] = createSignal(false);
+  const toggleOpen = () => setIsOpen(!isOpen());
+  const [focusedOptionIndex, setFocusedOptionIndex] = createSignal(-1);
+  const focusedOption = () => options()[focusedOptionIndex()];
+  const isOptionFocused = (option) => option === focusedOption();
+  const focusOption = (direction) => {
+    if (!optionsCount()) setFocusedOptionIndex(-1);
+    const max = optionsCount() - 1;
+    const delta = direction === "next" ? 1 : -1;
+    let index = focusedOptionIndex() + delta;
+    if (index > max) {
+      index = 0;
+    }
+    if (index < 0) {
+      index = max;
+    }
+    setFocusedOptionIndex(index);
+  };
+  const focusPreviousOption = () => focusOption("previous");
+  const focusNextOption = () => focusOption("next");
+  createEffect(on(options, (options2) => {
+    if (isOpen()) setFocusedOptionIndex(Math.min(0, options2.length - 1));
+  }, {
+    defer: true
+  }));
+  createEffect(on(() => config.disabled, (isDisabled) => {
+    if (isDisabled && isOpen()) {
+      setIsOpen(false);
+    }
+  }));
+  createEffect(on(isOpen, (isOpen2) => {
+    if (isOpen2) {
+      if (focusedOptionIndex() === -1) focusNextOption();
+      setIsActive(true);
+    } else {
+      if (focusedOptionIndex() > -1) setFocusedOptionIndex(-1);
+      setInputValue("");
+    }
+  }, {
+    defer: true
+  }));
+  createEffect(on(focusedOptionIndex, (focusedOptionIndex2) => {
+    if (focusedOptionIndex2 > -1 && !isOpen()) {
+      setIsOpen(true);
+    }
+  }, {
+    defer: true
+  }));
+  const onFocusIn = () => setIsActive(true);
+  const onFocusOut = () => {
+    setIsActive(false);
+    setIsOpen(false);
+  };
+  const onMouseDown = (event) => event.preventDefault();
+  const onClick = (event) => {
+    if (!config.disabled && !hasInputValue()) toggleOpen();
+  };
+  const onInput = (event) => {
+    setInputValue(event.target.value);
+  };
+  const onKeyDown = (event) => {
+    switch (event.key) {
+      case "ArrowDown":
+        focusNextOption();
+        break;
+      case "ArrowUp":
+        focusPreviousOption();
+        break;
+      case "Enter":
+        if (isOpen() && focusedOption()) {
+          pickOption(focusedOption());
+          break;
+        }
+        return;
+      case "Escape":
+        if (isOpen()) {
+          setIsOpen(false);
+          break;
+        }
+        return;
+      case "Delete":
+      case "Backspace":
+        if (inputValue()) {
+          return;
+        }
+        if (config.multiple) {
+          const currentValue = value();
+          setValue([...currentValue.slice(0, -1)]);
+        } else {
+          clearValue();
+        }
+        break;
+      case " ":
+        if (inputValue()) {
+          return;
+        }
+        if (!isOpen()) {
+          setIsOpen(true);
+        } else {
+          if (focusedOption()) {
+            pickOption(focusedOption());
+          }
+        }
+        break;
+      case "Tab":
+        if (focusedOption() && isOpen()) {
+          pickOption(focusedOption());
+          break;
+        }
+        return;
+      default:
+        return;
+    }
+    event.preventDefault();
+    event.stopPropagation();
+  };
+  return {
+    options,
+    value,
+    setValue,
+    hasValue,
+    clearValue,
+    inputValue,
+    setInputValue,
+    hasInputValue,
+    clearInputValue,
+    isOpen,
+    setIsOpen,
+    toggleOpen,
+    isActive,
+    setIsActive,
+    get multiple() {
+      return config.multiple;
+    },
+    get disabled() {
+      return config.disabled;
+    },
+    pickOption,
+    isOptionFocused,
+    isOptionDisabled: config.isOptionDisabled,
+    onFocusIn,
+    onFocusOut,
+    onMouseDown,
+    onClick,
+    onInput,
+    onKeyDown
+  };
+};
+var _tmpl$217 = /* @__PURE__ */ template(`<div>`);
+var _tmpl$222 = /* @__PURE__ */ template(`<div class=solid-select-control>`);
+var _tmpl$313 = /* @__PURE__ */ template(`<div class=solid-select-placeholder>`);
+var _tmpl$411 = /* @__PURE__ */ template(`<div class=solid-select-single-value>`);
+var _tmpl$59 = /* @__PURE__ */ template(`<div class=solid-select-multi-value><span></span><button type=button class=solid-select-multi-value-remove>\u2A2F`);
+var _tmpl$63 = /* @__PURE__ */ template(`<input class=solid-select-input type=text tabindex=0 autocomplete=off autocapitalize=none autocorrect=off size=1>`);
+var _tmpl$73 = /* @__PURE__ */ template(`<div class=solid-select-list>`);
+var _tmpl$82 = /* @__PURE__ */ template(`<div class=solid-select-list-placeholder>`);
+var _tmpl$92 = /* @__PURE__ */ template(`<div class=solid-select-option>`);
+var SelectContext = createContext();
+var useSelect = () => {
+  const context = useContext(SelectContext);
+  if (!context) throw new Error("No SelectContext found in ancestry.");
+  return context;
+};
+var Select = (props) => {
+  const [selectProps, local] = splitProps(mergeProps({
+    format: (data, type) => data,
+    placeholder: "Select...",
+    readonly: typeof props.options !== "function",
+    loading: false,
+    loadingPlaceholder: "Loading...",
+    emptyPlaceholder: "No options"
+  }, props), ["options", "optionToValue", "isOptionDisabled", "multiple", "disabled", "onInput", "onChange"]);
+  const select = createSelect(selectProps);
+  createEffect(on(() => local.initialValue, (value) => value !== void 0 && select.setValue(value)));
+  return createComponent(SelectContext.Provider, {
+    value: select,
+    get children() {
+      return createComponent(Container, {
+        get ["class"]() {
+          return local.class;
+        },
+        get children() {
+          return [createComponent(Control, {
+            get id() {
+              return local.id;
+            },
+            get name() {
+              return local.name;
+            },
+            get format() {
+              return local.format;
+            },
+            get placeholder() {
+              return local.placeholder;
+            },
+            get autofocus() {
+              return local.autofocus;
+            },
+            get readonly() {
+              return local.readonly;
+            },
+            ref(r$) {
+              var _ref$ = props.ref;
+              typeof _ref$ === "function" ? _ref$(r$) : props.ref = r$;
+            }
+          }), createComponent(List, {
+            get loading() {
+              return local.loading;
+            },
+            get loadingPlaceholder() {
+              return local.loadingPlaceholder;
+            },
+            get emptyPlaceholder() {
+              return local.emptyPlaceholder;
+            },
+            get format() {
+              return local.format;
+            }
+          })];
+        }
+      });
+    }
+  });
+};
+var Container = (props) => {
+  const select = useSelect();
+  return (() => {
+    var _el$ = _tmpl$217();
+    _el$.$$mousedown = (event) => {
+      select.onMouseDown(event);
+      event.currentTarget.getElementsByTagName("input")[0].focus();
+    };
+    addEventListener(_el$, "focusout", select.onFocusOut, true);
+    addEventListener(_el$, "focusin", select.onFocusIn, true);
+    insert(_el$, () => props.children);
+    createRenderEffect((_p$) => {
+      var _v$ = `solid-select-container ${props.class !== void 0 ? props.class : ""}`, _v$2 = select.disabled;
+      _v$ !== _p$.e && className(_el$, _p$.e = _v$);
+      _v$2 !== _p$.t && setAttribute(_el$, "data-disabled", _p$.t = _v$2);
+      return _p$;
+    }, {
+      e: void 0,
+      t: void 0
+    });
+    return _el$;
+  })();
+};
+var Control = (props) => {
+  const select = useSelect();
+  const removeValue = (index) => {
+    const value = select.value();
+    select.setValue([...value.slice(0, index), ...value.slice(index + 1)]);
+  };
+  return (() => {
+    var _el$2 = _tmpl$222();
+    addEventListener(_el$2, "click", select.onClick, true);
+    insert(_el$2, createComponent(Show, {
+      get when() {
+        return memo(() => !!!select.hasValue())() && !select.hasInputValue();
+      },
+      get children() {
+        return createComponent(Placeholder, {
+          get children() {
+            return props.placeholder;
+          }
+        });
+      }
+    }), null);
+    insert(_el$2, createComponent(Show, {
+      get when() {
+        return memo(() => !!(select.hasValue() && !select.multiple))() && !select.hasInputValue();
+      },
+      get children() {
+        return createComponent(SingleValue, {
+          get children() {
+            return props.format(select.value(), "value");
+          }
+        });
+      }
+    }), null);
+    insert(_el$2, createComponent(Show, {
+      get when() {
+        return memo(() => !!select.hasValue())() && select.multiple;
+      },
+      get children() {
+        return createComponent(For, {
+          get each() {
+            return select.value();
+          },
+          children: (value, index) => createComponent(MultiValue, {
+            onRemove: () => removeValue(index()),
+            get children() {
+              return props.format(value, "value");
+            }
+          })
+        });
+      }
+    }), null);
+    insert(_el$2, createComponent(Input, {
+      get id() {
+        return props.id;
+      },
+      get name() {
+        return props.name;
+      },
+      get autofocus() {
+        return props.autofocus;
+      },
+      get readonly() {
+        return props.readonly;
+      },
+      ref(r$) {
+        var _ref$2 = props.ref;
+        typeof _ref$2 === "function" ? _ref$2(r$) : props.ref = r$;
+      }
+    }), null);
+    createRenderEffect((_p$) => {
+      var _v$3 = select.multiple, _v$4 = select.hasValue(), _v$5 = select.disabled;
+      _v$3 !== _p$.e && setAttribute(_el$2, "data-multiple", _p$.e = _v$3);
+      _v$4 !== _p$.t && setAttribute(_el$2, "data-has-value", _p$.t = _v$4);
+      _v$5 !== _p$.a && setAttribute(_el$2, "data-disabled", _p$.a = _v$5);
+      return _p$;
+    }, {
+      e: void 0,
+      t: void 0,
+      a: void 0
+    });
+    return _el$2;
+  })();
+};
+var Placeholder = (props) => {
+  return (() => {
+    var _el$3 = _tmpl$313();
+    insert(_el$3, () => props.children);
+    return _el$3;
+  })();
+};
+var SingleValue = (props) => {
+  return (() => {
+    var _el$4 = _tmpl$411();
+    insert(_el$4, () => props.children);
+    return _el$4;
+  })();
+};
+var MultiValue = (props) => {
+  useSelect();
+  return (() => {
+    var _el$5 = _tmpl$59(), _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling;
+    insert(_el$6, () => props.children);
+    _el$7.$$click = (event) => {
+      event.stopPropagation();
+      props.onRemove();
+    };
+    return _el$5;
+  })();
+};
+var Input = (props) => {
+  const select = useSelect();
+  return (() => {
+    var _el$8 = _tmpl$63();
+    _el$8.$$mousedown = (event) => {
+      event.stopPropagation();
+    };
+    _el$8.$$keydown = (event) => {
+      select.onKeyDown(event);
+      if (!event.defaultPrevented) {
+        if (event.key === "Escape") {
+          event.preventDefault();
+          event.stopPropagation();
+          event.target.blur();
+        }
+      }
+    };
+    addEventListener(_el$8, "input", select.onInput, true);
+    var _ref$3 = props.ref;
+    typeof _ref$3 === "function" ? use(_ref$3, _el$8) : props.ref = _el$8;
+    createRenderEffect((_p$) => {
+      var _v$6 = props.id, _v$7 = props.name, _v$8 = select.multiple, _v$9 = select.isActive(), _v$0 = props.autofocus, _v$1 = props.readonly, _v$10 = select.disabled;
+      _v$6 !== _p$.e && setAttribute(_el$8, "id", _p$.e = _v$6);
+      _v$7 !== _p$.t && setAttribute(_el$8, "name", _p$.t = _v$7);
+      _v$8 !== _p$.a && setAttribute(_el$8, "data-multiple", _p$.a = _v$8);
+      _v$9 !== _p$.o && setAttribute(_el$8, "data-is-active", _p$.o = _v$9);
+      _v$0 !== _p$.i && (_el$8.autofocus = _p$.i = _v$0);
+      _v$1 !== _p$.n && (_el$8.readOnly = _p$.n = _v$1);
+      _v$10 !== _p$.s && (_el$8.disabled = _p$.s = _v$10);
+      return _p$;
+    }, {
+      e: void 0,
+      t: void 0,
+      a: void 0,
+      o: void 0,
+      i: void 0,
+      n: void 0,
+      s: void 0
+    });
+    createRenderEffect(() => _el$8.value = select.inputValue());
+    return _el$8;
+  })();
+};
+var List = (props) => {
+  const select = useSelect();
+  return createComponent(Show, {
+    get when() {
+      return select.isOpen();
+    },
+    get children() {
+      var _el$9 = _tmpl$73();
+      insert(_el$9, createComponent(Show, {
+        get when() {
+          return !props.loading;
+        },
+        get fallback() {
+          return (() => {
+            var _el$0 = _tmpl$82();
+            insert(_el$0, () => props.loadingPlaceholder);
+            return _el$0;
+          })();
+        },
+        get children() {
+          return createComponent(For, {
+            get each() {
+              return select.options();
+            },
+            get fallback() {
+              return (() => {
+                var _el$1 = _tmpl$82();
+                insert(_el$1, () => props.emptyPlaceholder);
+                return _el$1;
+              })();
+            },
+            children: (option) => createComponent(Option, {
+              option,
+              get children() {
+                return props.format(option, "option");
+              }
+            })
+          });
+        }
+      }));
+      return _el$9;
+    }
+  });
+};
+var Option = (props) => {
+  const select = useSelect();
+  const scrollIntoViewOnFocus = (element) => {
+    createEffect(() => {
+      if (select.isOptionFocused(props.option)) {
+        element.scrollIntoView({
+          block: "nearest"
+        });
+      }
+    });
+  };
+  return (() => {
+    var _el$10 = _tmpl$92();
+    _el$10.$$click = () => select.pickOption(props.option);
+    use(scrollIntoViewOnFocus, _el$10);
+    insert(_el$10, () => props.children);
+    createRenderEffect((_p$) => {
+      var _v$11 = select.isOptionDisabled(props.option), _v$12 = select.isOptionFocused(props.option);
+      _v$11 !== _p$.e && setAttribute(_el$10, "data-disabled", _p$.e = _v$11);
+      _v$12 !== _p$.t && setAttribute(_el$10, "data-focused", _p$.t = _v$12);
+      return _p$;
+    }, {
+      e: void 0,
+      t: void 0
+    });
+    return _el$10;
+  })();
+};
+delegateEvents(["focusin", "focusout", "mousedown", "click", "input", "keydown"]);
+
+// src/components/modals/ExportModal.tsx
+var _tmpl$60 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Export as Text</div><div class="mx-3 flex flex-row items-center justify-center gap-1 text-[#384B53]"><span>Export style:</span></div><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-2 font-mono text-xs"placeholder=Loading...>`);
+function ExportModal() {
+  const exportOptions = ["code only", "code for discord", "shareable url"];
+  const [exportType, setExportType] = createSignal(exportOptions[2]);
+  const [copied, setCopied] = createSignal(false);
+  const getExportString = async () => {
+    const exportObj = {
+      version: SAVE_VERSION,
+      ...state
+    };
+    return await compress(JSON.stringify(exportObj));
+  };
+  const [exportString] = createResource(getExportString);
+  const output = createMemo(() => {
+    const dolls = getDollNamesAndFortifications();
+    if (exportType() === exportOptions[0]) return exportString();
+    if (exportType() === exportOptions[1]) return dolls.join(", ") + "\n```" + exportString() + "```";
+    if (exportType() === exportOptions[2]) return dolls.join(", ") + `
+${window.location.origin + window.location.pathname}?state=` + exportString();
+    return exportString();
+  });
+  const handleCopy = async () => {
+    await navigator.clipboard.writeText(output() ?? "");
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2e3);
+  };
+  return [createComponent(ModalHeader, {
+    title: "Export Transcript"
+  }), (() => {
+    var _el$ = _tmpl$60(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling, _el$4 = _el$3.firstChild, _el$5 = _el$3.nextSibling;
+    insert(_el$3, createComponent(Select, {
+      "class": "custom",
+      options: exportOptions,
+      onChange: setExportType,
+      get initialValue() {
+        return exportType();
+      }
+    }), null);
+    createRenderEffect(() => _el$5.value = output());
+    return _el$;
+  })(), createComponent(ModalFooter, {
+    styles: "justify-between",
+    get children() {
+      return [createComponent(Button, {
+        onClick: () => setShowExportModal(false),
+        color: "dark",
+        design: "cancel",
+        content: "Close"
+      }), createComponent(Button, {
+        onClick: handleCopy,
+        color: "dark",
+        design: "confirm",
+        get content() {
+          return copied() ? "Copied!" : "Copy Text";
+        }
+      })];
+    }
+  })];
+}
+
+// src/components/modals/SkillDisplayModal.tsx
+var _tmpl$61 = /* @__PURE__ */ template(`<div class="flex flex-col gap-2 self-center"><div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>Override imported notations:</span></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Preview</div><div class="flex flex-wrap justify-center gap-1.5">`);
+var _tmpl$218 = /* @__PURE__ */ template(`<div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>`);
+var _tmpl$314 = /* @__PURE__ */ template(`<div class="flex flex-col gap-1"><div class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-center text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
+function SkillDisplayModal() {
+  const dollInfo = getDollFromId("d54");
+  const basicSkill = dollInfo?.skills?.filter((s) => s.type === "Basic Attack") ?? [];
+  const passiveSkill = dollInfo?.skills?.filter((s) => s.type === "Passive") ?? [];
+  const numberedSkills = dollInfo?.skills?.filter((s) => s.type.match(/Skill [0-9]/)) ?? [];
+  const letteredSkills = dollInfo?.skills?.filter((s) => s.type.match(/Skill [A-Z]/)) ?? [];
+  const skills = [...basicSkill, ...numberedSkills, ...passiveSkill, ...letteredSkills];
+  return [createComponent(ModalHeader, {
+    title: "Skill Display"
+  }), (() => {
+    var _el$ = _tmpl$61(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$2.nextSibling, _el$5 = _el$4.nextSibling;
+    insert(_el$2, createComponent(Select, {
+      "class": "custom",
+      options: ["true", "false"],
+      onChange: (value) => {
+        setOverrideSkillNotations(value === "true" ? true : false);
+        saveToLocalStorage();
+      },
+      get initialValue() {
+        return String(overrideSkillNotations());
+      }
+    }), null);
+    insert(_el$, createComponent(For, {
+      get each() {
+        return Object.entries(notations);
+      },
+      children: ([notation, values]) => (() => {
+        var _el$6 = _tmpl$218(), _el$7 = _el$6.firstChild;
+        insert(_el$7, `${notation} style:`);
+        insert(_el$6, createComponent(Select, {
+          "class": "custom",
+          options: values,
+          onChange: (value) => setSkillDisplay(notation, value),
+          get initialValue() {
+            return getSkillDisplay(notation);
+          }
+        }), null);
+        return _el$6;
+      })()
+    }), _el$4);
+    insert(_el$5, createComponent(For, {
+      each: skills,
+      children: (skill, idx) => (() => {
+        var _el$8 = _tmpl$314(), _el$9 = _el$8.firstChild;
+        insert(_el$8, createComponent(SkillIcon, {
+          skill
+        }), _el$9);
+        insert(_el$9, () => renderAction("d54", [skill.id]));
+        createRenderEffect(() => setAttribute(_el$9, "data-skill-id", skill.id));
+        return _el$8;
+      })()
+    }));
+    return _el$;
+  })(), createComponent(ModalFooter, {
+    styles: "justify-center",
+    get children() {
+      return createComponent(Button, {
+        onClick: () => setShowSkillDisplayModal(false),
+        color: "dark",
+        design: "cancel",
+        content: "Close"
+      });
+    }
+  })];
+}
+
 // src/App.tsx
-var _tmpl$60 = /* @__PURE__ */ template(`<div class="absolute right-0 left-0 flex items-center justify-center bg-zinc-950">`);
-var _tmpl$217 = /* @__PURE__ */ template(`<div class="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 rounded-3xl bg-black/80 px-4 py-1.5 font-mono text-xs text-lime-400">`);
-var _tmpl$313 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75"><button><span>Setup</span></button><button><span>Doll Actions`);
-var _tmpl$411 = /* @__PURE__ */ template(`<div class="absolute top-3.75 bottom-3.75 left-3.75 z-10 flex">`);
+var _tmpl$64 = /* @__PURE__ */ template(`<div class="absolute right-0 left-0 flex items-center justify-center bg-zinc-950">`);
+var _tmpl$219 = /* @__PURE__ */ template(`<div class="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 rounded-3xl bg-black/80 px-4 py-1.5 font-mono text-xs text-lime-400">`);
+var _tmpl$315 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75"><button><span>Setup</span></button><button><span>Doll Actions`);
+var _tmpl$412 = /* @__PURE__ */ template(`<div class="absolute top-3.75 bottom-3.75 left-3.75 z-10 flex">`);
 var _tmpl$510 = /* @__PURE__ */ template(`<div class="flex h-screen flex-col bg-zinc-950 text-white"><div class="relative flex-1 overflow-hidden"id=body>`);
 function App() {
   const [coords, setCoords] = createSignal("");
-  const [loaded, setLoaded] = createSignal(false);
   const [activeTab, setActiveTab] = createSignal("setup");
   onMount(async () => {
     try {
-      console.log("Load app");
-      const res = await fetch("combined.json");
-      const json = await res.json();
-      const dolls = [];
-      const summons = [];
-      let summonId = 0;
-      let dollId = 0;
-      for (const entry of json) {
-        dollId++;
-        const doll = {
-          id: entry.id,
-          name: entry.name,
-          phase: entry.phase,
-          avatar: entry.avatar,
-          rarity: entry.rarity,
-          hasSummons: false,
-          skills: entry.skills ? entry.skills.map((s, e) => ({
-            id: e + 1,
-            ...s
-          })) : [],
-          summons: []
-        };
-        if (entry.summons) {
-          for (const summon of entry.summons) {
-            doll.hasSummons = true;
-            summonId++;
-            doll.summons.push("s" + summonId);
-            summons.push({
-              id: "s" + summonId,
-              dollId: "d" + dollId,
-              name: summon.name,
-              avatar: summon.localImagePath,
-              skills: summon.skills ? summon.skills.map((s, e) => ({
-                id: e + 1,
-                ...s
-              })) : []
-            });
-          }
-        }
-        dolls.push(doll);
-      }
-      console.log("Loaded", dolls.length, "dolls", summons.length, "summons");
-      setAllDolls(dolls);
-      setAllSummons(summons);
+      await loadCombinedJson();
       loadEditorMap();
-      const restored = loadFromLocalStorage();
+      const params = new URLSearchParams(window.location.search);
+      let restored = false;
+      if (params.has("state")) {
+        restored = await loadFromURL();
+      } else {
+        restored = loadFromLocalStorage();
+      }
       if (restored) {
         console.log("Restored state");
         await preloadCanvasImages();
       }
       for (let i = 0; i < 8; i++) defaultActionOrder(i);
       if (!restored) saveToLocalStorage();
+      const saved = localStorage.getItem(SKILL_DISPLAY_KEY);
+      if (saved) {
+        const data = JSON.parse(saved);
+        setOverrideSkillNotations(data.override);
+        if (data.override === true) {
+          overrideSkillDisplay(data.skillDisplay);
+        }
+      }
       setLoaded(true);
     } catch (e) {
       console.error("Please let ArkahnX know about the following error");
@@ -5240,7 +6152,7 @@ function App() {
       },
       get children() {
         return [(() => {
-          var _el$3 = _tmpl$60();
+          var _el$3 = _tmpl$64();
           insert(_el$3, createComponent(ArenaCanvas, {
             onCoordsChange: setCoords,
             onMouseUp: () => {
@@ -5248,7 +6160,7 @@ function App() {
           }));
           return _el$3;
         })(), (() => {
-          var _el$4 = _tmpl$217();
+          var _el$4 = _tmpl$219();
           insert(_el$4, () => coords() || "00,00");
           return _el$4;
         })()];
@@ -5259,12 +6171,12 @@ function App() {
         return memo(() => !!isArenaTab())() && loaded();
       },
       get children() {
-        var _el$5 = _tmpl$411();
+        var _el$5 = _tmpl$412();
         insert(_el$5, createComponent(Modal, {
           width: "w-96",
           get children() {
             return [(() => {
-              var _el$6 = _tmpl$313(), _el$7 = _el$6.firstChild, _el$8 = _el$7.nextSibling;
+              var _el$6 = _tmpl$315(), _el$7 = _el$6.firstChild, _el$8 = _el$7.nextSibling;
               _el$7.$$click = () => {
                 setActiveTab("setup");
               };
@@ -5363,6 +6275,40 @@ function App() {
     }), null);
     insert(_el$, createComponent(Show, {
       get when() {
+        return memo(() => !!showExportModal())() && loaded();
+      },
+      get children() {
+        return createComponent(FullScreen, {
+          get children() {
+            return createComponent(Modal, {
+              width: "w-140",
+              get children() {
+                return createComponent(ExportModal, {});
+              }
+            });
+          }
+        });
+      }
+    }), null);
+    insert(_el$, createComponent(Show, {
+      get when() {
+        return memo(() => !!showSkillDisplayModal())() && loaded();
+      },
+      get children() {
+        return createComponent(FullScreen, {
+          get children() {
+            return createComponent(Modal, {
+              width: "w-96",
+              get children() {
+                return createComponent(SkillDisplayModal, {});
+              }
+            });
+          }
+        });
+      }
+    }), null);
+    insert(_el$, createComponent(Show, {
+      get when() {
         return memo(() => !!showTargetModal())() && loaded();
       },
       get children() {
@@ -5378,3 +6324,4 @@ delegateEvents(["click"]);
 var root = document.getElementById("root");
 if (!root) throw new Error("No #root element found");
 render(() => createComponent(App, {}), root);
+new EventSource("/esbuild").addEventListener("change", () => location.reload());
