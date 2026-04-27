@@ -1,5 +1,5 @@
 import { createStore, produce } from "solid-js/store";
-import { createSignal } from "solid-js";
+import { createMemo, createSignal } from "solid-js";
 import type {
 	AppState,
 	DollData,
@@ -46,6 +46,20 @@ export function hasCover(c: number, r: number): boolean {
 export { SAVE_VERSION } from "../types/constants";
 export const allDolls: DollData[] = [];
 export const allSummons: SummonData[] = [];
+export const skillOrder = ["Basic Attack", "Skill 1", "Skill 2", "Skill 3", "Passive", "Skill A", "Skill B"];
+export const skillOrderMap: Record<string, number | string> = skillOrder.reduce(
+	(previousValue, currentValue, currentIndex) => ({ ...previousValue, [currentValue]: currentIndex, [currentIndex]: currentValue }),
+	{}
+);
+export const notations: Record<string, string[]> = {
+	"Basic Attack": ["S1", "1", "BA"],
+	"Skill 1": ["S2", "2", "S1"],
+	"Skill 2": ["S3", "3", "S2"],
+	"Skill 3": ["S4", "4", "ULT"],
+	Passive: ["S5", "5", "PSV"],
+	"Skill A": ["S6", "6", "SA", "1"],
+	"Skill B": ["S7", "7", "SB", "2"],
+};
 
 // ====================== EDITOR STATE ======================
 export const [editorTool, setEditorTool] = createSignal<EditorTool>("spawn");
@@ -74,6 +88,7 @@ export const [showDollModal, setShowDollModal] = createSignal(false);
 export const [showFortificationModal, setShowFortificationModal] = createSignal(false);
 export const [showImportModal, setShowImportModal] = createSignal(false);
 export const [showExportModal, setShowExportModal] = createSignal(false);
+export const [showSkillDisplayModal, setShowSkillDisplayModal] = createSignal(false);
 export const [showTargetModal, setShowTargetModal] = createSignal(false);
 export const [targetSkillInfo, setTargetSkillInfo] = createSignal("");
 export const [targetDollId, setTargetDollId] = createSignal<string | null>(null);
@@ -201,19 +216,19 @@ export function renderAction(dollId: string, action: SkillAction): string {
 	const [skillId, targetId] = action;
 	const doll = getInfoFromId(dollId);
 	if (!doll) return "";
-	const sorted = getSortedUsableSkills(doll);
-	const skillName = ["BA", "S1", "S2", "ULT", "SA", "SB", "SC", "SD"];
-	const skillNum = sorted.findIndex((s) => s.id === skillId) + 1;
+	const skill = doll.skills.find((s) => s.id === skillId);
+	if (!skill) return "";
+	const userNotation = createMemo(() => {
+		const statedActionTypes = () => Array.from(state.actionType as string);
+		const index = skillOrderMap[skill.type] as number;
+		const userNotation = parseInt(statedActionTypes()[index]);
+		return notations[skill.type][userNotation];
+	});
 	if (targetId) {
 		const target = getInfoFromId(targetId);
-		if (state.actionType === 0) return `S${skillNum}>${target?.name ?? "?"}`;
-		if (state.actionType === 1) return `${skillNum}>${target?.name ?? "?"}`;
-		if (state.actionType === 2) return `${skillName[skillNum - 1]}>${target?.name ?? "?"}`;
+		return userNotation() + ">" + (target?.name ?? "?");
 	}
-	if (state.actionType === 0) return `S${skillNum}`;
-	if (state.actionType === 1) return `${skillNum}`;
-	if (state.actionType === 2) return `${skillName[skillNum - 1]}`;
-	return `S${skillNum}`;
+	return userNotation();
 }
 
 // ====================== DEFAULT ACTION ORDER ======================
@@ -286,7 +301,18 @@ export function loadState(newData: AppState & { version: number }) {
 		produce((s) => {
 			s.selectedDolls = newData.selectedDolls;
 			s.currentTab = newData.currentTab;
-			s.actionType = newData.actionType || 0;
+			s.actionType = newData.actionType || "0000000";
+			if (typeof s.actionType === "number") {
+				if (s.actionType === 0) {
+					s.actionType = "0000000";
+				}
+				if (s.actionType === 1) {
+					s.actionType = "1111111";
+				}
+				if (s.actionType === 2) {
+					s.actionType = "2222222";
+				}
+			}
 			for (let tabIndex = 0; tabIndex < 8; tabIndex++) {
 				const src = newData.tabData[tabIndex]!;
 				const tab = s.tabData[tabIndex]!;
@@ -348,10 +374,14 @@ export async function loadFromURL(): Promise<boolean> {
 	}
 }
 
-export function updateSkillDisplay(actionType: number) {
+export function updateSkillDisplay(type: string, value: string) {
+	const valueIndex = notations[type].indexOf(value);
+	const index = skillOrder.indexOf(type);
+	const actionType = Array.from(state.actionType as string);
+	actionType[index] = String(valueIndex);
 	setState(
 		produce((s) => {
-			s.actionType = actionType;
+			s.actionType = actionType.join("");
 		})
 	);
 	saveToLocalStorage();

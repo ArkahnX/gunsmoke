@@ -14,6 +14,7 @@ import {
 	loadFromURL,
 	setLoaded,
 	loaded,
+	showSkillDisplayModal,
 } from "./store";
 import type { RawDollEntry, DollData, SummonData, Skill } from "./types";
 
@@ -31,6 +32,7 @@ import { loadEditorMap } from "./canvas/editorMap";
 import FullScreen from "./components/modals/FullScreen";
 import Modal from "./components/modals/Modal";
 import ExportModal from "./components/modals/ExportModal";
+import SkillDisplayModal from "./components/modals/SkillDisplayModal";
 
 export default function App() {
 	const [coords, setCoords] = createSignal("");
@@ -171,6 +173,13 @@ export default function App() {
 				<FullScreen>
 					<Modal width="w-140">
 						<ExportModal />
+					</Modal>
+				</FullScreen>
+			</Show>
+			<Show when={showSkillDisplayModal() && loaded()}>
+				<FullScreen>
+					<Modal width="w-96">
+						<SkillDisplayModal />
 					</Modal>
 				</FullScreen>
 			</Show>

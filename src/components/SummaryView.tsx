@@ -9,6 +9,7 @@ import {
 	updateSkillDisplay,
 	setShowExportModal,
 	getInfoFromId,
+	setShowSkillDisplayModal,
 } from "../store";
 import { TILE_SIZE, MAP_SIZE } from "../types/constants";
 import { drawMapTilesOnArena } from "../canvas/draw";
@@ -128,7 +129,7 @@ function TabCard(props: { tabIndex: number }) {
 	});
 
 	return (
-		<Modal width="min-w-140 grow">
+		<Modal width="min-w-151 grow">
 			{/* <div class="relative min-w-140 flex-1 overflow-hidden rounded-sm border-t-[6px] border-[#506A6C] bg-[#293438]"> */}
 			<div class="flex flex-row gap-2">
 				{/* Mini map canvas */}
@@ -183,8 +184,6 @@ function TabCard(props: { tabIndex: number }) {
 }
 
 export default function SummaryView() {
-	const [showSkillDesignModal, setShowSkillDesignModal] = createSignal(false);
-
 	return (
 		<div class="flex h-full flex-col gap-3 overflow-auto bg-zinc-950 p-3">
 			<div class={`rounded-sm bg-[#CFCED2] p-1 shadow-sm shadow-black/50`}>
@@ -192,61 +191,7 @@ export default function SummaryView() {
 				<div class="flex flex-row gap-1.5 border-2 border-[#B1AFB3] p-1">
 					<Button onClick={() => setShowExportModal(true)} color="dark" design="custom" content="Export Transcript" />
 					<Button onClick={() => setShowImportModal(true)} color="dark" design="custom" content="Import Transcript" />
-					<Button onClick={() => setShowSkillDesignModal(true)} color="dark" design="custom" content="Set Skill Display" />
-					<ContentModal
-						mount={document.querySelector("#body")!}
-						width="w-90"
-						title="Skill Display"
-						isActive={showSkillDesignModal}
-						setActive={setShowSkillDesignModal}>
-						<ul class="flex flex-col gap-2 self-center">
-							<li class="flex flex-row items-center gap-2">
-								<Button
-									onClick={() => {
-										updateSkillDisplay(0);
-										setShowSkillDesignModal(false);
-									}}
-									color="dark"
-									design="custom"
-									content="Style 1"
-								/>
-								<div
-									class={`rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 0 ? "outline-2 outline-[#F26C1C]" : ""}`}>
-									S1 / S2 / S3 / S4
-								</div>
-							</li>
-							<li class="flex flex-row items-center gap-2">
-								<Button
-									onClick={() => {
-										updateSkillDisplay(1);
-										setShowSkillDesignModal(false);
-									}}
-									color="dark"
-									design="custom"
-									content="Style 2"
-								/>
-								<div
-									class={`rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 1 ? "outline-2 outline-[#F26C1C]" : ""}`}>
-									1 / 2 / 3 / 4
-								</div>
-							</li>
-							<li class="flex flex-row items-center gap-2">
-								<Button
-									onClick={() => {
-										updateSkillDisplay(2);
-										setShowSkillDesignModal(false);
-									}}
-									color="dark"
-									design="custom"
-									content="Style 3"
-								/>
-								<div
-									class={`rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50 ${state.actionType === 2 ? "outline-2 outline-[#F26C1C]" : ""}`}>
-									BA / S1 / S2 / ULT
-								</div>
-							</li>
-						</ul>
-					</ContentModal>
+					<Button onClick={() => setShowSkillDisplayModal(true)} color="dark" design="custom" content="Set Skill Display" />
 				</div>
 			</div>
 			<div class="min-[1860px]:grid min-[1860px]:grid-cols-3 flex flex-row flex-wrap gap-2">
