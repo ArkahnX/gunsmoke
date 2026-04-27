@@ -12,6 +12,7 @@
     "skills": [
       {
         "name": "Laceration",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -22,6 +23,7 @@
       },
       {
         "name": "Freezing Touch",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -32,6 +34,7 @@
       },
       {
         "name": "Snow Wolf's Heart",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -42,6 +45,7 @@
       },
       {
         "name": "Frosted Echo",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -53,6 +57,7 @@
       },
       {
         "name": "Nix Requiem",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -77,6 +82,7 @@
     "skills": [
       {
         "name": "Practice Shot",
+        "id": 2,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -87,6 +93,7 @@
       },
       {
         "name": "Delayed Response",
+        "id": 4,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -98,6 +105,7 @@
       },
       {
         "name": "Gentle Offensive",
+        "id": 7,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -108,6 +116,7 @@
       },
       {
         "name": "Streamlined Tactics",
+        "id": 8,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -119,6 +128,7 @@
       },
       {
         "name": "Fortification Protocol",
+        "id": 9,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -136,6 +146,7 @@
         "skills": [
           {
             "name": "Charged Shot",
+            "id": 0,
             "localImagePath": "data/andoris/Charged Shot.webp",
             "type": "Basic Attack",
             "tags": [
@@ -147,6 +158,7 @@
           },
           {
             "name": "Info Relay",
+            "id": 0,
             "localImagePath": "data/andoris/Info Relay.webp",
             "type": "Passive",
             "tags": [
@@ -157,6 +169,7 @@
           },
           {
             "name": "Crash Mimicry",
+            "id": 0,
             "localImagePath": "data/andoris/Crash Mimicry.webp",
             "type": "Passive",
             "tags": [
@@ -166,6 +179,7 @@
           },
           {
             "name": "En Passant",
+            "id": 0,
             "localImagePath": "data/andoris/En Passant.webp",
             "type": "Passive",
             "tags": [
@@ -191,6 +205,7 @@
     "skills": [
       {
         "name": "Cryoshatter Strike",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -201,6 +216,7 @@
       },
       {
         "name": "Wrench Calibration",
+        "id": 6,
         "type": "Passive",
         "tags": [
           "Passive"
@@ -210,6 +226,7 @@
       },
       {
         "name": "Reinforcement Protocol",
+        "id": 7,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -221,6 +238,7 @@
       },
       {
         "name": "Demolition Protocol",
+        "id": 8,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -231,6 +249,7 @@
       },
       {
         "name": "Raging Chainblast",
+        "id": 9,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -248,6 +267,7 @@
         "skills": [
           {
             "name": "Safety Consciousness",
+            "id": 0,
             "localImagePath": "data/balthilde/Safety Consciousness.webp",
             "type": "Passive",
             "tags": [
@@ -259,6 +279,7 @@
           },
           {
             "name": "Focused Maintenance",
+            "id": 0,
             "localImagePath": "data/balthilde/Focused Maintenance.webp",
             "type": "Passive",
             "tags": [
@@ -275,6 +296,7 @@
         "skills": [
           {
             "name": "Disassembly Knack",
+            "id": 0,
             "localImagePath": "data/balthilde/Disassembly Knack.webp",
             "type": "Basic Attack",
             "tags": [
@@ -285,6 +307,7 @@
           },
           {
             "name": "Additional Modifications",
+            "id": 0,
             "localImagePath": "data/balthilde/Additional Modifications.webp",
             "type": "Passive",
             "tags": [
@@ -309,6 +332,7 @@
     "skills": [
       {
         "name": "Reckless Provocation",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -319,6 +343,7 @@
       },
       {
         "name": "Graffiti World",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -330,6 +355,7 @@
       },
       {
         "name": "Bad Influence",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -340,6 +366,7 @@
       },
       {
         "name": "Jirai Shoujo",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -350,6 +377,7 @@
       },
       {
         "name": "Sugar-Coated Trap",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -376,6 +404,7 @@
     "skills": [
       {
         "name": "Nutcracker Shell",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -386,6 +415,7 @@
       },
       {
         "name": "Forest's Secrets",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -397,6 +427,7 @@
       },
       {
         "name": "Sylvan Vault",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -407,6 +438,7 @@
       },
       {
         "name": "Crackling Core",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -418,6 +450,7 @@
       },
       {
         "name": "Leaping Arc",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -443,6 +476,7 @@
     "skills": [
       {
         "name": "Cleaning Time",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -453,6 +487,7 @@
       },
       {
         "name": "Maid's Duty",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -465,6 +500,7 @@
       },
       {
         "name": "Careful Hospitality",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -477,6 +513,7 @@
       },
       {
         "name": "Zucchero's Special Drink",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -489,6 +526,7 @@
       },
       {
         "name": "Afternoon Tea Break",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -516,6 +554,7 @@
     "skills": [
       {
         "name": "Welcome Gift",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -526,6 +565,7 @@
       },
       {
         "name": "Invention of the Century",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -536,6 +576,7 @@
       },
       {
         "name": "Spicy Candy",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -546,6 +587,7 @@
       },
       {
         "name": "Fireworks Festival",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -557,6 +599,7 @@
       },
       {
         "name": "Surprise Box",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -582,6 +625,7 @@
     "skills": [
       {
         "name": "Playing to Potential",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -592,6 +636,7 @@
       },
       {
         "name": "Meticulous Planning",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -602,6 +647,7 @@
       },
       {
         "name": "Wall of One's Self",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -612,6 +658,7 @@
       },
       {
         "name": "Steadfast Pursuit",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -623,6 +670,7 @@
       },
       {
         "name": "Piercing the Heavens Into the Sun",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Active",
@@ -647,6 +695,7 @@
     "skills": [
       {
         "name": "Quick Reaction",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -657,6 +706,7 @@
       },
       {
         "name": "Medical Contingency",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -668,6 +718,7 @@
       },
       {
         "name": "Crisis Aid",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -679,6 +730,7 @@
       },
       {
         "name": "Battlefield Glow",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -690,6 +742,7 @@
       },
       {
         "name": "Emergency Treatment",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -717,6 +770,7 @@
     "skills": [
       {
         "name": "Plucking Strings",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -727,6 +781,7 @@
       },
       {
         "name": "Swift Harmony",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -737,6 +792,7 @@
       },
       {
         "name": "Absolute Tuning",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -748,6 +804,7 @@
       },
       {
         "name": "Qing Shang Harmony",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -758,6 +815,7 @@
       },
       {
         "name": "Ethereal Resonance",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -783,6 +841,7 @@
     "skills": [
       {
         "name": "Daybreak",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -793,6 +852,7 @@
       },
       {
         "name": "Blessed Artwork",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -803,6 +863,7 @@
       },
       {
         "name": "Hero's Code",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -813,6 +874,7 @@
       },
       {
         "name": "Marzanna's Sanction",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -824,6 +886,7 @@
       },
       {
         "name": "Book of Prophecy",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -850,6 +913,7 @@
     "skills": [
       {
         "name": "Practice Shot",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -860,6 +924,7 @@
       },
       {
         "name": "Tomahawk Combo",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -870,6 +935,7 @@
       },
       {
         "name": "Ruinous Whirl",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -881,6 +947,7 @@
       },
       {
         "name": "Fissioned Firelight",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -892,6 +959,7 @@
       },
       {
         "name": "No Survivors",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -917,6 +985,7 @@
     "skills": [
       {
         "name": "Forced Injection",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -927,6 +996,7 @@
       },
       {
         "name": "Surgical Preparation",
+        "id": 3,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -937,6 +1007,7 @@
       },
       {
         "name": "Special Care",
+        "id": 5,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -947,6 +1018,7 @@
       },
       {
         "name": "Pleasure Trigger",
+        "id": 6,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -957,6 +1029,7 @@
       },
       {
         "name": "Masochistic Hallucination",
+        "id": 7,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -976,6 +1049,7 @@
         "skills": [
           {
             "name": "Precision Anethesia",
+            "id": 0,
             "localImagePath": "data/florence/Precision Anethesia.webp",
             "type": "Skill 1",
             "tags": [
@@ -988,6 +1062,7 @@
           },
           {
             "name": "No. 1 Assistant",
+            "id": 0,
             "localImagePath": "data/florence/No. 1 Assistant.webp",
             "type": "Passive",
             "tags": [
@@ -1013,6 +1088,7 @@
     "skills": [
       {
         "name": "Fire Command",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -1023,6 +1099,7 @@
       },
       {
         "name": "Timely Maintenance",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -1034,6 +1111,7 @@
       },
       {
         "name": "Heavy Suppression",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -1045,6 +1123,7 @@
       },
       {
         "name": "Perfect Cover",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -1056,6 +1135,7 @@
       },
       {
         "name": "Explosive Bombardment",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -1081,6 +1161,7 @@
     "skills": [
       {
         "name": "Precision Strike",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Targeted",
@@ -1091,6 +1172,7 @@
       },
       {
         "name": "Macro Virus",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive"
@@ -1100,6 +1182,7 @@
       },
       {
         "name": "Wide-Area Amplification",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active"
@@ -1109,6 +1192,7 @@
       },
       {
         "name": "Fight Poison With Poison",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -1121,6 +1205,7 @@
       },
       {
         "name": "Cyber Punch",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -1145,6 +1230,7 @@
     "skills": [
       {
         "name": "Condensation",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -1155,6 +1241,7 @@
       },
       {
         "name": "Fearless Valkyrie",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive"
@@ -1164,6 +1251,7 @@
       },
       {
         "name": "Blessing Command",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Buff",
@@ -1174,6 +1262,7 @@
       },
       {
         "name": "Covering Charge",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -1186,6 +1275,7 @@
       },
       {
         "name": "Banner's Watch",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -1211,6 +1301,7 @@
     "skills": [
       {
         "name": "Form-Intention Fist",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -1221,6 +1312,7 @@
       },
       {
         "name": "Grand Aura",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -1231,6 +1323,7 @@
       },
       {
         "name": "Thunderclap",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -1242,6 +1335,7 @@
       },
       {
         "name": "Lightning Smash",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -1252,6 +1346,7 @@
       },
       {
         "name": "Rolling Thunder",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -1277,6 +1372,7 @@
     "skills": [
       {
         "name": "Swift Strike",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -1287,6 +1383,7 @@
       },
       {
         "name": "Elite's Pride",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -1298,6 +1395,7 @@
       },
       {
         "name": "Pinpoint Detonation",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -1309,6 +1407,7 @@
       },
       {
         "name": "Overpowering Corrosion",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -1320,6 +1419,7 @@
       },
       {
         "name": "Devastating Drift",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -1344,6 +1444,7 @@
     "skills": [
       {
         "name": "Instantaneous Slash",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -1355,6 +1456,7 @@
       },
       {
         "name": "Embers",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -1365,6 +1467,7 @@
       },
       {
         "name": "Crushing Revolution",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -1376,6 +1479,7 @@
       },
       {
         "name": "Quenching Slash",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -1388,6 +1492,7 @@
       },
       {
         "name": "Slaughter Sequence",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -1413,6 +1518,7 @@
     "skills": [
       {
         "name": "Special Discount",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -1423,6 +1529,7 @@
       },
       {
         "name": "Passion for Shopping",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -1434,6 +1541,7 @@
       },
       {
         "name": "Favorable Cycle",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -1445,6 +1553,7 @@
       },
       {
         "name": "Comprehensive Rescue",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -1457,6 +1566,7 @@
       },
       {
         "name": "The Secret to Making Money",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -1482,6 +1592,7 @@
     "skills": [
       {
         "name": "Victory Protocol",
+        "id": 2,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -1492,6 +1603,7 @@
       },
       {
         "name": "Precognition Foresight",
+        "id": 4,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -1502,6 +1614,7 @@
       },
       {
         "name": "Combat Algorithm",
+        "id": 5,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -1512,6 +1625,7 @@
       },
       {
         "name": "Computational Crush",
+        "id": 7,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -1522,6 +1636,7 @@
       },
       {
         "name": "Simulated Partner",
+        "id": 10,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -1539,6 +1654,7 @@
         "skills": [
           {
             "name": "Perplexed Reflex",
+            "id": 0,
             "localImagePath": "data/lainie/Perplexed Reflex.webp",
             "type": "Basic Attack",
             "tags": [
@@ -1549,6 +1665,7 @@
           },
           {
             "name": "Offense Simulation",
+            "id": 0,
             "localImagePath": "data/lainie/Offense Simulation.webp",
             "type": "Skill 1",
             "tags": [
@@ -1559,6 +1676,7 @@
           },
           {
             "name": "Hashrate Overclock",
+            "id": 0,
             "localImagePath": "data/lainie/Hashrate Overclock.webp",
             "type": "Skill 2",
             "tags": [
@@ -1569,6 +1687,7 @@
           },
           {
             "name": "Queenside Castle",
+            "id": 0,
             "localImagePath": "data/lainie/Queenside Castle.webp",
             "type": "Skill 3",
             "tags": [
@@ -1578,6 +1697,7 @@
           },
           {
             "name": "Precognition Awareness",
+            "id": 0,
             "localImagePath": "data/lainie/Precognition Awareness.webp",
             "type": "Passive",
             "tags": [
@@ -1603,6 +1723,7 @@
     "skills": [
       {
         "name": "Territory Awareness",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -1613,6 +1734,7 @@
       },
       {
         "name": "King's Authority",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -1623,6 +1745,7 @@
       },
       {
         "name": "Wild Extinction",
+        "id": 3,
         "type": "Skill 1",
         "tags": [],
         "range": "7",
@@ -1630,6 +1753,7 @@
       },
       {
         "name": "Leaping Pursuit",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -1641,6 +1765,7 @@
       },
       {
         "name": "Hunting Strategy",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -1668,6 +1793,7 @@
     "skills": [
       {
         "name": "Dangerous Smile",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -1678,6 +1804,7 @@
       },
       {
         "name": "Fox's Scheme",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -1688,6 +1815,7 @@
       },
       {
         "name": "Rational Suppression",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -1699,6 +1827,7 @@
       },
       {
         "name": "Ordered Disruption",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -1709,6 +1838,7 @@
       },
       {
         "name": "Quantum Calculation",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -1721,6 +1851,7 @@
       },
       {
         "name": "Superconductive Strike",
+        "id": 6,
         "type": "Skill A",
         "tags": [
           "Active",
@@ -1746,6 +1877,7 @@
     "skills": [
       {
         "name": "Playtime",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -1756,6 +1888,7 @@
       },
       {
         "name": "Tin Soldiers on Parade",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive"
@@ -1765,6 +1898,7 @@
       },
       {
         "name": "Bad Guy Cleanup",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -1776,6 +1910,7 @@
       },
       {
         "name": "Surprising Funball",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -1787,6 +1922,7 @@
       },
       {
         "name": "Toy Carnival",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -1811,6 +1947,7 @@
     "skills": [
       {
         "name": "Repulsive Shot",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -1821,6 +1958,7 @@
       },
       {
         "name": "Sweets Stockpile",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Debuff",
@@ -1831,6 +1969,7 @@
       },
       {
         "name": "Assault Spray",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -1842,6 +1981,7 @@
       },
       {
         "name": "Overwhelming Burst",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -1852,6 +1992,7 @@
       },
       {
         "name": "Glucose Overload",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -1876,6 +2017,7 @@
     "skills": [
       {
         "name": "Quick Writing",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -1886,6 +2028,7 @@
       },
       {
         "name": "Systematic Breakdown",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -1896,6 +2039,7 @@
       },
       {
         "name": "Perfect Opportunity",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -1907,6 +2051,7 @@
       },
       {
         "name": "Reliable Cover",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -1919,6 +2064,7 @@
       },
       {
         "name": "Strategist's Plan",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -1943,6 +2089,7 @@
     "skills": [
       {
         "name": "Line Breaker",
+        "id": 2,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -1953,6 +2100,7 @@
       },
       {
         "name": "We Fight as One",
+        "id": 4,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -1964,6 +2112,7 @@
       },
       {
         "name": "All or Nothing",
+        "id": 5,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -1975,6 +2124,7 @@
       },
       {
         "name": "Strategic Masterstroke",
+        "id": 6,
         "type": "Skill 2",
         "tags": [
           "Active"
@@ -1984,6 +2134,7 @@
       },
       {
         "name": "Leading the Charge",
+        "id": 7,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -2001,6 +2152,7 @@
         "skills": [
           {
             "name": "Close-In Defense Autocannon",
+            "id": 0,
             "localImagePath": "data/liushih/Close-In Defense Autocannon.webp",
             "type": "Basic Attack",
             "tags": [
@@ -2011,6 +2163,7 @@
           },
           {
             "name": "Pegasus",
+            "id": 0,
             "localImagePath": "data/liushih/Pegasus.webp",
             "type": "Passive",
             "tags": [
@@ -2035,6 +2188,7 @@
     "skills": [
       {
         "name": "Punishment Prelude",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2045,6 +2199,7 @@
       },
       {
         "name": "Queen’s Gift",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -2055,6 +2210,7 @@
       },
       {
         "name": "Scorching Brand",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -2066,6 +2222,7 @@
       },
       {
         "name": "Crimson Binding Decree",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -2077,6 +2234,7 @@
       },
       {
         "name": "Agony’s Grace",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -2104,6 +2262,7 @@
     "skills": [
       {
         "name": "Heartfelt Confession",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2114,6 +2273,7 @@
       },
       {
         "name": "Bonds of Friendship",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -2124,6 +2284,7 @@
       },
       {
         "name": "Cryo Rounds",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -2136,6 +2297,7 @@
       },
       {
         "name": "Neural Adjustment",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -2146,6 +2308,7 @@
       },
       {
         "name": "Amplified Courage",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -2170,6 +2333,7 @@
     "skills": [
       {
         "name": "Lone Wolf Territory",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2180,6 +2344,7 @@
       },
       {
         "name": "Battlefield Insight",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -2190,6 +2355,7 @@
       },
       {
         "name": "Cold Precision Shot",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -2200,6 +2366,7 @@
       },
       {
         "name": "Professional Tactics",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -2211,6 +2378,7 @@
       },
       {
         "name": "Absolute Mental Defense",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -2237,6 +2405,7 @@
     "skills": [
       {
         "name": "Bedtime Warmup",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2247,6 +2416,7 @@
       },
       {
         "name": "Mysterious Nap",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -2257,6 +2427,7 @@
       },
       {
         "name": "Dreamquake",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -2268,6 +2439,7 @@
       },
       {
         "name": "Dreamless Night",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -2279,6 +2451,7 @@
       },
       {
         "name": "Dream Wonderland",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -2289,6 +2462,7 @@
       },
       {
         "name": "Awakening Command",
+        "id": 6,
         "type": "Skill A",
         "tags": [
           "Active"
@@ -2312,6 +2486,7 @@
     "skills": [
       {
         "name": "Patrol Time",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2322,6 +2497,7 @@
       },
       {
         "name": "Helping Others",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -2333,6 +2509,7 @@
       },
       {
         "name": "Target Victory",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -2344,6 +2521,7 @@
       },
       {
         "name": "Positive Mindset",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -2354,6 +2532,7 @@
       },
       {
         "name": "Declaration of Victory",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -2379,6 +2558,7 @@
     "skills": [
       {
         "name": "Point Shooting",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2389,6 +2569,7 @@
       },
       {
         "name": "Veteran's Skills",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -2400,6 +2581,7 @@
       },
       {
         "name": "Senior's Admonishment",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -2411,6 +2593,7 @@
       },
       {
         "name": "Friend of Justice",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -2422,6 +2605,7 @@
       },
       {
         "name": "Sanction Declaration",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -2447,6 +2631,7 @@
     "skills": [
       {
         "name": "Victory Portent",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2457,6 +2642,7 @@
       },
       {
         "name": "Remote Observation",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -2467,6 +2653,7 @@
       },
       {
         "name": "Enlightened Star",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -2477,6 +2664,7 @@
       },
       {
         "name": "Penetrating Casket",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -2488,6 +2676,7 @@
       },
       {
         "name": "Stellar Pursuit",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -2512,6 +2701,7 @@
     "skills": [
       {
         "name": "Active Deterrence",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2522,6 +2712,7 @@
       },
       {
         "name": "On-Site Enforcement",
+        "id": 4,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -2532,6 +2723,7 @@
       },
       {
         "name": "K9 Deployment",
+        "id": 5,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -2544,6 +2736,7 @@
       },
       {
         "name": "Judgment Strike",
+        "id": 6,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -2555,6 +2748,7 @@
       },
       {
         "name": "Righteous Verdict",
+        "id": 7,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -2572,6 +2766,7 @@
         "skills": [
           {
             "name": "Kulich's Loyalty",
+            "id": 0,
             "localImagePath": "data/nikketa/Kulich's Loyalty.webp",
             "type": "Passive",
             "tags": [
@@ -2582,6 +2777,7 @@
           },
           {
             "name": "Kulich's Intimidation",
+            "id": 0,
             "localImagePath": "data/nikketa/Kulich's Intimidation.webp",
             "type": "Passive",
             "tags": [
@@ -2606,6 +2802,7 @@
     "skills": [
       {
         "name": "Combat Instinct",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2616,6 +2813,7 @@
       },
       {
         "name": "Critical Splash",
+        "id": 2,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2626,6 +2824,7 @@
       },
       {
         "name": "Boojum Phenomenon",
+        "id": 3,
         "type": "Passive",
         "tags": [
           "Passive"
@@ -2635,6 +2834,7 @@
       },
       {
         "name": "Total Suppression",
+        "id": 4,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -2645,6 +2845,7 @@
       },
       {
         "name": "Perfect Adaptation",
+        "id": 5,
         "type": "Skill 2",
         "tags": [
           "Active"
@@ -2654,6 +2855,7 @@
       },
       {
         "name": "Blast Verdict",
+        "id": 6,
         "type": "Skill 3",
         "tags": [
           "Ultimate"
@@ -2677,6 +2879,7 @@
     "skills": [
       {
         "name": "Warning Shot",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2687,6 +2890,7 @@
       },
       {
         "name": "United Guards",
+        "id": 5,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -2697,6 +2901,7 @@
       },
       {
         "name": "Honor Guard",
+        "id": 6,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -2708,6 +2913,7 @@
       },
       {
         "name": "Joint Breakthrough",
+        "id": 7,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -2719,6 +2925,7 @@
       },
       {
         "name": "Heart of Protection",
+        "id": 8,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -2737,6 +2944,7 @@
         "skills": [
           {
             "name": "Counter Terrorism Support",
+            "id": 0,
             "localImagePath": "data/papasha/Counter Terrorism Support.webp",
             "type": "Passive",
             "tags": [
@@ -2747,6 +2955,7 @@
           },
           {
             "name": "Explosion Prevention Measures",
+            "id": 0,
             "localImagePath": "data/papasha/Explosion Prevention Measures.webp",
             "type": "Passive",
             "tags": [
@@ -2757,6 +2966,7 @@
           },
           {
             "name": "Security Monitoring",
+            "id": 0,
             "localImagePath": "data/papasha/Security Monitoring.webp",
             "type": "Passive",
             "tags": [
@@ -2781,6 +2991,7 @@
     "skills": [
       {
         "name": "Passionate Gift",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2791,6 +3002,7 @@
       },
       {
         "name": "Profit Maximization",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive"
@@ -2800,6 +3012,7 @@
       },
       {
         "name": "Venture Capital",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -2810,6 +3023,7 @@
       },
       {
         "name": "Excess Order",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -2821,6 +3035,7 @@
       },
       {
         "name": "Final Bid",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -2845,6 +3060,7 @@
     "skills": [
       {
         "name": "Rapid Overwrite",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2855,6 +3071,7 @@
       },
       {
         "name": "Chain Reaction",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -2865,6 +3082,7 @@
       },
       {
         "name": "Fixed Erosion",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -2876,6 +3094,7 @@
       },
       {
         "name": "Domain Suppression",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -2887,6 +3106,7 @@
       },
       {
         "name": "Multi-Compilation",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -2911,6 +3131,7 @@
     "skills": [
       {
         "name": "Dual Slash",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2922,6 +3143,7 @@
       },
       {
         "name": "Escort",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -2933,6 +3155,7 @@
       },
       {
         "name": "Double Descent",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -2944,6 +3167,7 @@
       },
       {
         "name": "Replication Trap",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -2954,6 +3178,7 @@
       },
       {
         "name": "Twin Paradise",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -2979,6 +3204,7 @@
     "skills": [
       {
         "name": "Fuse",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -2989,6 +3215,7 @@
       },
       {
         "name": "Steady Plan",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -3000,6 +3227,7 @@
       },
       {
         "name": "Common Rail",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3011,6 +3239,7 @@
       },
       {
         "name": "Guide to Victory",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3022,6 +3251,7 @@
       },
       {
         "name": "Pressing the Momentum",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3047,6 +3277,7 @@
     "skills": [
       {
         "name": "Trailblaze",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -3057,6 +3288,7 @@
       },
       {
         "name": "Zao Jun's Rule",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -3067,6 +3299,7 @@
       },
       {
         "name": "Searing Sizzle",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3077,6 +3310,7 @@
       },
       {
         "name": "Soaring Leap",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3087,6 +3321,7 @@
       },
       {
         "name": "Boil and Reduce",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3112,6 +3347,7 @@
     "skills": [
       {
         "name": "Ultra Shot",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -3122,6 +3358,7 @@
       },
       {
         "name": "Critical Insight",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -3132,6 +3369,7 @@
       },
       {
         "name": "Light of Bond",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active"
@@ -3141,6 +3379,7 @@
       },
       {
         "name": "Radiant Memory",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3151,6 +3390,7 @@
       },
       {
         "name": "Howling Cyclone",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3175,6 +3415,7 @@
     "skills": [
       {
         "name": "My Treat",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -3185,6 +3426,7 @@
       },
       {
         "name": "Flexible Modification",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -3195,6 +3437,7 @@
       },
       {
         "name": "Delicious Feast",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3207,6 +3450,7 @@
       },
       {
         "name": "Meal Preparation",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3219,6 +3463,7 @@
       },
       {
         "name": "Gourmet Spirit",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3245,6 +3490,7 @@
     "skills": [
       {
         "name": "Sakura Chime",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Targeted",
@@ -3255,6 +3501,7 @@
       },
       {
         "name": "Felicitous Prayer",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive"
@@ -3264,6 +3511,7 @@
       },
       {
         "name": "Falling Blossom",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3274,6 +3522,7 @@
       },
       {
         "name": "Misfortune Delivery",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3285,6 +3534,7 @@
       },
       {
         "name": "Grand Isekai Adventure",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3309,6 +3559,7 @@
     "skills": [
       {
         "name": "Dreamscape Garrote",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -3319,6 +3570,7 @@
       },
       {
         "name": "Requiem",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -3329,6 +3581,7 @@
       },
       {
         "name": "Sanctuary Lauds",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3340,6 +3593,7 @@
       },
       {
         "name": "Death Knell",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3351,6 +3605,7 @@
       },
       {
         "name": "Midnight Vesper",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3379,6 +3634,7 @@
     "skills": [
       {
         "name": "Love Shot",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -3389,6 +3645,7 @@
       },
       {
         "name": "Makeup Organization",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive"
@@ -3398,6 +3655,7 @@
       },
       {
         "name": "Boiling Soundwaves",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3409,6 +3667,7 @@
       },
       {
         "name": "Perfect Rising Tone",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3421,6 +3680,7 @@
       },
       {
         "name": "Highlight Moment",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3445,6 +3705,7 @@
     "skills": [
       {
         "name": "Gentle Approach",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -3455,6 +3716,7 @@
       },
       {
         "name": "Eagle's Vigilance",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -3466,6 +3728,7 @@
       },
       {
         "name": "Intel Manipulation",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3477,6 +3740,7 @@
       },
       {
         "name": "Opportune Assistance",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3488,6 +3752,7 @@
       },
       {
         "name": "Path of Protection",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3513,6 +3778,7 @@
     "skills": [
       {
         "name": "Pelting Snowflake",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -3523,6 +3789,7 @@
       },
       {
         "name": "Source of Warmth",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -3534,6 +3801,7 @@
       },
       {
         "name": "Winter's Wrath",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3544,6 +3812,7 @@
       },
       {
         "name": "Snow's Grace",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3554,6 +3823,7 @@
       },
       {
         "name": "Snowfield's Radiance",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3578,6 +3848,7 @@
     "skills": [
       {
         "name": "Meteor",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -3588,6 +3859,7 @@
       },
       {
         "name": "Aurora Curtain",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -3598,6 +3870,7 @@
       },
       {
         "name": "Black Hole Inversion",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3608,6 +3881,7 @@
       },
       {
         "name": "Supernova Impact",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3618,6 +3892,7 @@
       },
       {
         "name": "Morte Lumina",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3643,6 +3918,7 @@
     "skills": [
       {
         "name": "Warning Shot",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -3653,6 +3929,7 @@
       },
       {
         "name": "Optical Camouflage",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive"
@@ -3662,6 +3939,7 @@
       },
       {
         "name": "Hunter's Sight",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3674,6 +3952,7 @@
       },
       {
         "name": "Blade Whirlwind",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3685,6 +3964,7 @@
       },
       {
         "name": "Hidden Pursuit",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3710,6 +3990,7 @@
     "skills": [
       {
         "name": "Depressive Mentality",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -3720,6 +4001,7 @@
       },
       {
         "name": "Perception Block",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -3730,6 +4012,7 @@
       },
       {
         "name": "Dead End Meltdown",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3741,6 +4024,7 @@
       },
       {
         "name": "Portent of Doom",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3752,6 +4036,7 @@
       },
       {
         "name": "Searing Finale",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3778,6 +4063,7 @@
     "skills": [
       {
         "name": "Live Interaction",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -3788,6 +4074,7 @@
       },
       {
         "name": "Idol Talent",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -3798,6 +4085,7 @@
       },
       {
         "name": "All Out Performance",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3810,6 +4098,7 @@
       },
       {
         "name": "Exclusive Stage",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3821,6 +4110,7 @@
       },
       {
         "name": "Infectious Enthusiasm",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3847,6 +4137,7 @@
     "skills": [
       {
         "name": "Dread Ultimatum",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -3857,6 +4148,7 @@
       },
       {
         "name": "Mastiff’s Pledge",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -3867,6 +4159,7 @@
       },
       {
         "name": "Sirius Fall",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3878,6 +4171,7 @@
       },
       {
         "name": "Eye of the White Mastiff",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active"
@@ -3887,6 +4181,7 @@
       },
       {
         "name": "Pile Bunker",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3913,6 +4208,7 @@
     "skills": [
       {
         "name": "Rhythmic Pulse",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -3923,6 +4219,7 @@
       },
       {
         "name": "Main Dancer's Aura",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -3933,6 +4230,7 @@
       },
       {
         "name": "Improv",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -3943,6 +4241,7 @@
       },
       {
         "name": "Soul of Dance",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -3955,6 +4254,7 @@
       },
       {
         "name": "Sparkling Finale",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",
@@ -3965,6 +4265,7 @@
       },
       {
         "name": "Graceful Pirouette",
+        "id": 6,
         "type": "Skill A",
         "tags": [
           "Active",
@@ -3975,6 +4276,7 @@
       },
       {
         "name": "Passionate Resonance",
+        "id": 7,
         "type": "Skill B",
         "tags": [
           "Active",
@@ -3999,6 +4301,7 @@
     "skills": [
       {
         "name": "Piercing Wind",
+        "id": 1,
         "type": "Basic Attack",
         "tags": [
           "Basic Attack",
@@ -4009,6 +4312,7 @@
       },
       {
         "name": "Shadow Strike",
+        "id": 2,
         "type": "Passive",
         "tags": [
           "Passive",
@@ -4020,6 +4324,7 @@
       },
       {
         "name": "Shadow Snare",
+        "id": 3,
         "type": "Skill 1",
         "tags": [
           "Active",
@@ -4031,6 +4336,7 @@
       },
       {
         "name": "Wanderer's Acumen",
+        "id": 4,
         "type": "Skill 2",
         "tags": [
           "Active",
@@ -4043,6 +4349,7 @@
       },
       {
         "name": "Skybound Leap",
+        "id": 5,
         "type": "Skill 3",
         "tags": [
           "Ultimate",

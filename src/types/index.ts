@@ -92,7 +92,7 @@ export interface RawSummonEntry {
 	name: string;
 	id: string;
 	localImagePath: string;
-	skills?: Array<Omit<Skill, "id">>;
+	skills?: Skill[];
 }
 
 export interface RawDollEntry {
@@ -101,7 +101,7 @@ export interface RawDollEntry {
 	phase: string;
 	avatar: string;
 	rarity: string;
-	skills?: Array<Omit<Skill, "id">>;
+	skills?: Skill[];
 	summons?: RawSummonEntry[];
 }
 

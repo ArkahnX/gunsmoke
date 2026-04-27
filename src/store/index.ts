@@ -449,7 +449,7 @@ export async function loadCombinedJson() {
 				avatar: entry.avatar,
 				rarity: entry.rarity,
 				hasSummons: false,
-				skills: entry.skills ? entry.skills.map((s, e) => ({ id: e + 1, ...s }) as Skill) : [],
+				skills: entry.skills ? entry.skills : [],
 				summons: [],
 			};
 			if (entry.summons) {
@@ -461,7 +461,7 @@ export async function loadCombinedJson() {
 						dollId: entry.id,
 						name: summon.name,
 						avatar: summon.localImagePath,
-						skills: summon.skills ? summon.skills.map((s, e) => ({ id: e + 1, ...s }) as Skill) : [],
+						skills: summon.skills ? summon.skills : [],
 					});
 				}
 			}
