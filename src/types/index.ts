@@ -90,6 +90,7 @@ export const PHASE_TABS: PhaseTab[] = ["All", "Physical", "Burn", "Electric", "F
 
 export interface RawSummonEntry {
 	name: string;
+	id: string;
 	localImagePath: string;
 	skills?: Array<Omit<Skill, "id">>;
 }

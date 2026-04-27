@@ -1,8 +1,6 @@
 import { createSignal, Show, onMount } from "solid-js";
 import {
 	state,
-	setAllDolls,
-	setAllSummons,
 	showDollModal,
 	showFortificationModal,
 	showImportModal,
@@ -11,6 +9,7 @@ import {
 	preloadCanvasImages,
 	defaultActionOrder,
 	saveToLocalStorage,
+	loadCombinedJson,
 } from "./store";
 import type { RawDollEntry, DollData, SummonData, Skill } from "./types";
 
@@ -35,47 +34,7 @@ export default function App() {
 
 	onMount(async () => {
 		try {
-			console.log("Load app");
-			const res = await fetch("combined.json");
-			const json: RawDollEntry[] = await res.json();
-
-			const dolls: DollData[] = [];
-			const summons: SummonData[] = [];
-			let summonId = 0;
-			let dollId = 0;
-
-			for (const entry of json) {
-				dollId++;
-				const doll: DollData = {
-					id: entry.id,
-					name: entry.name,
-					phase: entry.phase,
-					avatar: entry.avatar,
-					rarity: entry.rarity,
-					hasSummons: false,
-					skills: entry.skills ? entry.skills.map((s, e) => ({ id: e + 1, ...s }) as Skill) : [],
-					summons: [],
-				};
-				if (entry.summons) {
-					for (const summon of entry.summons) {
-						doll.hasSummons = true;
-						summonId++;
-						doll.summons.push("s" + summonId);
-						summons.push({
-							id: "s" + summonId,
-							dollId: "d" + dollId,
-							name: summon.name,
-							avatar: summon.localImagePath,
-							skills: summon.skills ? summon.skills.map((s, e) => ({ id: e + 1, ...s }) as Skill) : [],
-						});
-					}
-				}
-				dolls.push(doll);
-			}
-			console.log("Loaded", dolls.length, "dolls", summons.length, "summons");
-
-			setAllDolls(dolls);
-			setAllSummons(summons);
+			await loadCombinedJson();
 			loadEditorMap();
 
 			const restored = loadFromLocalStorage();

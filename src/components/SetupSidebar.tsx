@@ -2,8 +2,6 @@ import { For, Show, createMemo, createSignal } from "solid-js";
 import {
 	state,
 	setState,
-	allDolls,
-	allSummons,
 	getSummonIdsFromDollIds,
 	setShowDollModal,
 	setShowImportModal,
@@ -15,15 +13,15 @@ import {
 	defaultActionOrder,
 	getDollFromSummon,
 	updateSkillDisplay,
+	getDollFromId,
+	getSummonFromId,
 } from "../store";
 import { EDITOR_MAP_KEY, STORAGE_KEY, SAVE_VERSION } from "../types/constants";
 import { editorResetLayout } from "../canvas/editorMap";
 import { produce } from "solid-js/store";
 import Button from "./buttons/Button";
 import SmallDollChip from "./SmallDollChip";
-import { DollData, SummonData } from "../types";
 import { beginExternalDrag } from "./ArenaCanvas";
-import Modal from "./modals/Modal";
 import ConfirmModal from "./modals/ConfirmModal";
 import ContentModal from "./modals/ContentModal";
 
@@ -93,8 +91,8 @@ export default function SetupSidebar(props: { active: boolean }) {
 				for (const doll of s.selectedDolls) {
 					tab.dollPositions[doll.id] = { x: -1, y: -1 };
 					tab.actions[doll.id] = [];
-					const dollInfo = allDolls().find((d) => d.id === doll.id);
-					if (dollInfo?.hasSummons) {
+					const dollInfo = getDollFromId(doll.id);
+					if (dollInfo && dollInfo?.hasSummons) {
 						for (const summonId of dollInfo.summons) tab.actions[summonId] = [];
 					}
 				}
@@ -135,11 +133,12 @@ export default function SetupSidebar(props: { active: boolean }) {
 				<div class="flex flex-wrap gap-3">
 					<For each={state.selectedDolls}>
 						{(doll) => {
-							const dollInfo = createMemo(() => allDolls().find((d) => d.id === doll.id) as DollData);
+							const dollInfo = getDollFromId(doll.id);
+							if (!dollInfo) return null;
 							return (
 								<SmallDollChip
-									target={dollInfo()}
-									doll={dollInfo()}
+									target={dollInfo}
+									doll={dollInfo}
 									onDragStart={(e) => e.preventDefault()}
 									onMouseDown={(e) => {
 										e.preventDefault();
@@ -163,11 +162,12 @@ export default function SetupSidebar(props: { active: boolean }) {
 					<div class="flex flex-wrap gap-3">
 						<For each={availableSummonIds()}>
 							{(summonId) => {
-								const summonInfo = createMemo(() => allSummons().find((s) => s.id === summonId) as SummonData);
+								const summonInfo = getSummonFromId(summonId);
+								if (!summonInfo) return null;
 								return (
 									<SmallDollChip
-										target={summonInfo()}
-										doll={getDollFromSummon(summonInfo())}
+										target={summonInfo}
+										doll={getDollFromSummon(summonInfo)}
 										onDragStart={(e) => e.preventDefault()}
 										onMouseDown={(e) => {
 											e.preventDefault();

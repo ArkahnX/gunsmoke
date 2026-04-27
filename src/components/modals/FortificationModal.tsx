@@ -1,6 +1,5 @@
 import { For } from "solid-js";
 import {
-	allDolls,
 	tempSelected,
 	setTempSelected,
 	dollFortification,
@@ -11,6 +10,8 @@ import {
 	preloadCanvasImages,
 	saveToLocalStorage,
 	defaultActionOrder,
+	getInfoFromId,
+	getDollFromSummon,
 } from "../../store";
 import SmallDollChip from "../SmallDollChip";
 import Button from "../buttons/Button";
@@ -41,13 +42,13 @@ export default function FortificationModal() {
 			<div class="flex flex-col items-center gap-3 p-2">
 				<For each={tempSelected()}>
 					{(dollId) => {
-						const dollInfo = allDolls().find((d) => d.id === dollId);
+						const dollInfo = getInfoFromId(dollId);
 						if (!dollInfo) return null;
 						const currentNum = () =>
 							dollFortification()[dollId] ?? state.selectedDolls.find((d) => d.id === dollId)?.fortification ?? 0;
 						return (
 							<div class="flex items-center gap-4">
-								<SmallDollChip target={dollInfo} doll={dollInfo} />
+								<SmallDollChip target={dollInfo} doll={getDollFromSummon(dollInfo)} />
 								<div class="flex gap-2">
 									<For each={[0, 1, 2, 3, 4, 5, 6]}>
 										{(n) => (

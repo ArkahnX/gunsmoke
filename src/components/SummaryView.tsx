@@ -1,17 +1,14 @@
 import { onMount, For, createMemo, createSignal } from "solid-js";
 import {
 	state,
-	allSummons,
-	getDollInfoFromId,
 	getFortificationFromId,
 	renderAction,
 	mapGrid,
-	getSelectedDollAndSummonInfo,
-	allDolls,
 	getDollFromSummon,
-	compress,
 	setShowImportModal,
 	updateSkillDisplay,
+	compress,
+	getInfoFromId,
 } from "../store";
 import { TILE_SIZE, MAP_SIZE, SAVE_VERSION } from "../types/constants";
 import { drawMapTilesOnArena, drawDollOnCanvas, drawSummonOnCanvas } from "../canvas/draw";
@@ -148,19 +145,19 @@ function TabCard(props: { tabIndex: number }) {
 							{(dollId) => {
 								const actions = createMemo(() => state.tabData[props.tabIndex]?.actions[dollId] ?? []);
 								if (!actions().length) return null;
-								const doll = createMemo(() => getDollInfoFromId(dollId));
+								const doll = getInfoFromId(dollId);
 								const fort = createMemo(() => getFortificationFromId(dollId));
 								return (
 									<div class="flex flex-col items-start gap-1 rounded-xs border-b-2 bg-[#F4F4F6] p-1 shadow-sm shadow-black/30">
 										<div class="flex flex-row items-center gap-1">
 											<SquareDollChip
-												target={doll()!}
-												doll={getDollFromSummon(doll()!)}
+												target={doll!}
+												doll={getDollFromSummon(doll!)}
 												size="h-10 w-10"
 												icon={false}
 												name={false}
 											/>
-											<div class="font-bold text-[#325563]">{doll()?.name}</div>
+											<div class="font-bold text-[#325563]">{doll?.name}</div>
 										</div>
 										<div class="min-w-0 flex-1">
 											<div class="flex flex-wrap gap-1">
@@ -267,11 +264,11 @@ export default function SummaryView() {
 					<div class="flex flex-col gap-1">
 						<For each={state.selectedDolls}>
 							{(doll) => {
-								const dollInfo = createMemo(() => allDolls().find((d) => d.id === doll.id) as DollData);
+								const dollInfo = getInfoFromId(doll.id);
 								return (
 									<div class="rounded-sm bg-[#E6E6E6] p-1 shadow-sm shadow-black/50">
 										<div class="flex flex-row items-center gap-3 border-2 border-[#D7D7D7] p-1">
-											<SmallDollChip target={dollInfo()} doll={dollInfo()} />
+											<SmallDollChip target={dollInfo!} doll={getDollFromSummon(dollInfo!)} />
 											<div class="relative h-12 w-12">
 												<div class="absolute z-10">
 													<Fortification />

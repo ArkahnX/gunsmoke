@@ -3,7 +3,6 @@ import { produce } from "solid-js/store";
 import {
 	state,
 	setState,
-	getDollInfoFromId,
 	getSortedUsableSkills,
 	isPlaced,
 	renderAction,
@@ -13,6 +12,7 @@ import {
 	setTargetSkillId,
 	getDollFromSummon,
 	defaultActionOrder,
+	getInfoFromId,
 } from "../store";
 import type { SkillAction, DollRowProps } from "../types";
 import SkillIcon from "./icons/SkillIcon";
@@ -269,7 +269,7 @@ function handleSkillClick(dollId: string, sortedIdx: number) {
 		alert("Place doll first!");
 		return;
 	}
-	const doll = getDollInfoFromId(dollId);
+	const doll = getInfoFromId(dollId);
 	if (!doll) return;
 	const sorted = getSortedUsableSkills(doll);
 	const skill = sorted[sortedIdx];
@@ -315,13 +315,10 @@ function removeAction(dollId: string, actionIdx: number) {
 }
 
 function DollRow(props: DollRowProps) {
-	const dollInfo = createMemo(() => getDollInfoFromId(props.dollId));
+	const dollInfo = getInfoFromId(props.dollId);
 	const placed = createMemo(() => isPlaced(props.dollId));
 	const actions = createMemo(() => state.tabData[state.currentTab]?.actions[props.dollId] ?? []);
-	const skills = createMemo(() => {
-		const d = dollInfo();
-		return d ? getSortedUsableSkills(d) : [];
-	});
+	const skills = dollInfo ? getSortedUsableSkills(dollInfo) : [];
 
 	return (
 		<div
@@ -377,7 +374,7 @@ function DollRow(props: DollRowProps) {
 							</button>
 						</Show>
 					</div>
-					<SquareDollChip target={dollInfo()!} doll={getDollFromSummon(dollInfo()!)} icon={true} name={true} />
+					<SquareDollChip target={dollInfo!} doll={getDollFromSummon(dollInfo!)} icon={true} name={true} />
 					<div class="min-w-0 flex-1">
 						{/* Action badges */}
 						<div class="mt-1 flex flex-wrap gap-1">
@@ -402,7 +399,7 @@ function DollRow(props: DollRowProps) {
 
 				{/* Skill icons */}
 				<div class="flex flex-wrap gap-1.5">
-					<For each={skills()}>
+					<For each={skills}>
 						{(skill, idx) => <SkillIcon skill={skill} onClick={() => handleSkillClick(props.dollId, idx())} />}
 					</For>
 				</div>

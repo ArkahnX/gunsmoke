@@ -1,12 +1,13 @@
 import { For } from "solid-js";
 import {
-	allDolls,
 	tempSelected,
 	setTempSelected,
 	activePhaseTab,
 	setActivePhaseTab,
 	setShowDollModal,
 	setShowFortificationModal,
+	visibleDollIndex,
+	allDolls,
 } from "../../store";
 import { DollData, PHASE_TABS } from "../../types";
 import Phase from "../icons/Phase";
@@ -36,17 +37,6 @@ export default function DollSelectorModal() {
 		} else if (sel.length < 5) {
 			setTempSelected([...sel, id]);
 		}
-	};
-
-	const isVisible = (phase: string) => {
-		return activePhaseTab() === "All" || phase === activePhaseTab();
-	};
-
-	const visibleDollIndex = (doll: DollData) => {
-		const dolls = allDolls().filter((d) => isVisible(d.phase));
-		const index = dolls.findIndex((d) => d.id === doll.id);
-		if (index === -1) return allDolls().length;
-		return index;
 	};
 
 	const toggleDollVisibility = async (phase: string) => {
@@ -104,7 +94,7 @@ export default function DollSelectorModal() {
 			{/* Doll grid */}
 			<div class="h-100 overflow-y-scroll p-2 px-4">
 				<div class="grid grid-cols-6 gap-4">
-					<For each={allDolls()}>
+					<For each={allDolls}>
 						{(doll) => {
 							const isSel = () => tempSelected().includes(doll.id);
 							return (

@@ -43,8 +43,8 @@ export function hasCover(c: number, r: number): boolean {
 
 // ====================== DOLL / SUMMON LISTS ======================
 export { SAVE_VERSION } from "../types/constants";
-export const [allDolls, setAllDolls] = createSignal<DollData[]>([]);
-export const [allSummons, setAllSummons] = createSignal<SummonData[]>([]);
+export const allDolls: DollData[] = [];
+export const allSummons: SummonData[] = [];
 
 // ====================== EDITOR STATE ======================
 export const [editorTool, setEditorTool] = createSignal<EditorTool>("spawn");
@@ -85,15 +85,44 @@ export const [offsetX, setOffsetX] = createSignal(0);
 export const [offsetY, setOffsetY] = createSignal(0);
 
 // ====================== HELPERS ======================
-export function getDollInfoFromId(id: string): DollData | SummonData | undefined {
-	if (id.startsWith("d")) return allDolls().find((d) => d.id === id);
-	if (id.startsWith("s")) return allSummons().find((d) => d.id === id);
+export function getInfoFromId(id: string): DollData | SummonData | undefined {
+	for (const doll of allDolls) {
+		if (doll.id === id) return doll;
+	}
+	for (const summon of allSummons) {
+		if (summon.id === id) return summon;
+	}
+	return undefined;
+}
+
+export function getDollFromId(id: string): DollData | undefined {
+	for (const doll of allDolls) {
+		if (doll.id === id) return doll;
+	}
+	return undefined;
+}
+
+export function getSummonFromId(id: string): SummonData | undefined {
+	for (const summon of allSummons) {
+		if (summon.id === id) return summon;
+	}
 	return undefined;
 }
 
 export function getDollFromSummon(summon: SummonData | DollData): DollData {
 	if ("dollId" in summon === false) return summon;
-	return allDolls().find((d) => d.id === summon.dollId) as DollData;
+	return allDolls.find((d) => d.id === summon.dollId) as DollData;
+}
+
+export function isVisible(phase: string): boolean {
+	return activePhaseTab() === "All" || phase === activePhaseTab();
+}
+
+export function visibleDollIndex(doll: DollData) {
+	const dolls = allDolls.filter((d) => isVisible(d.phase));
+	const index = dolls.findIndex((d) => d.id === doll.id);
+	if (index === -1) return allDolls.length;
+	return index;
 }
 
 export function getSortedUsableSkills(doll: DollData | SummonData) {
@@ -133,8 +162,8 @@ export function getFortificationFromId(id: string): number {
 export function getSummonIdsFromDollIds(ids: string[]): string[] {
 	const res: string[] = [];
 	for (const id of ids) {
-		const doll = allDolls().find((d) => d.id === id);
-		if (doll?.hasSummons) res.push(...doll.summons);
+		const info = getDollFromId(id);
+		if (info?.hasSummons) res.push(...info.summons);
 	}
 	return res;
 }
@@ -142,13 +171,13 @@ export function getSummonIdsFromDollIds(ids: string[]): string[] {
 export function getSelectedDollAndSummonInfo(excludeIds: string[] = []): (DollData | SummonData)[] {
 	const dolls: (DollData | SummonData)[] = [];
 	for (const sd of state.selectedDolls) {
-		const doll = getDollInfoFromId(sd.id) as DollData | undefined;
+		const doll = getDollFromId(sd.id);
 		if (!doll) continue;
 		if (!excludeIds.includes(sd.id)) dolls.push(doll);
 		for (const summonId of doll.summons) {
 			if (!excludeIds.includes(summonId)) {
-				const s = allSummons().find((s) => s.id === summonId);
-				if (s) dolls.push(s);
+				const summon = getSummonFromId(summonId);
+				if (summon) dolls.push(summon);
 			}
 		}
 	}
@@ -157,13 +186,13 @@ export function getSelectedDollAndSummonInfo(excludeIds: string[] = []): (DollDa
 
 export function renderAction(dollId: string, action: SkillAction): string {
 	const [skillId, targetId] = action;
-	const doll = getDollInfoFromId(dollId);
+	const doll = getInfoFromId(dollId);
 	if (!doll) return "";
 	const sorted = getSortedUsableSkills(doll);
 	const skillName = ["BA", "S1", "S2", "ULT", "S3", "S4", "S5", "S6"];
 	const skillNum = sorted.findIndex((s) => s.id === skillId) + 1;
 	if (targetId) {
-		const target = getDollInfoFromId(targetId);
+		const target = getInfoFromId(targetId);
 		if (state.actionType === 0) return `S${skillNum}>${target?.name ?? "?"}`;
 		if (state.actionType === 1) return `${skillNum}>${target?.name ?? "?"}`;
 		if (state.actionType === 2) return `${skillName[skillNum - 1]}>${target?.name ?? "?"}`;
@@ -185,7 +214,7 @@ export function defaultActionOrder(tabIndex: number) {
 			for (const doll of s.selectedDolls) {
 				order.add(doll.id);
 				unique.add(doll.id);
-				const dollInfo = allDolls().find((d) => d.id === doll.id);
+				const dollInfo = getDollFromId(doll.id);
 				if (dollInfo?.hasSummons) {
 					for (const summonId of dollInfo.summons) {
 						order.add(summonId);
@@ -262,7 +291,7 @@ export function loadState(newData: AppState & { version: number }) {
 				tab.actionOrder.push(...(src.actionOrder || []));
 				for (const doll of s.selectedDolls) {
 					tab.actions[doll.id] = [...(src.actions[doll.id] ?? [])];
-					const dollInfo = allDolls().find((d) => d.id === doll.id);
+					const dollInfo = getDollFromId(doll.id);
 					if (dollInfo?.hasSummons) {
 						for (const summonId of dollInfo.summons) {
 							tab.actions[summonId] = [...(src.actions[summonId] ?? [])];
@@ -373,4 +402,41 @@ export function preloadCanvasImages() {
 		}
 		Promise.all(entries).then(() => resolve());
 	});
+}
+
+// ====================== LOAD DOLLS AND SUMMONS ======================
+export async function loadCombinedJson() {
+	try {
+		const res = await fetch("combined.json");
+		const json: RawDollEntry[] = await res.json();
+
+		for (const entry of json) {
+			const doll: DollData = {
+				id: entry.id,
+				name: entry.name,
+				phase: entry.phase,
+				avatar: entry.avatar,
+				rarity: entry.rarity,
+				hasSummons: false,
+				skills: entry.skills ? entry.skills.map((s, e) => ({ id: e + 1, ...s }) as Skill) : [],
+				summons: [],
+			};
+			if (entry.summons) {
+				for (const summon of entry.summons) {
+					doll.hasSummons = true;
+					doll.summons.push(summon.id);
+					allSummons.push({
+						id: summon.id,
+						dollId: entry.id,
+						name: summon.name,
+						avatar: summon.localImagePath,
+						skills: summon.skills ? summon.skills.map((s, e) => ({ id: e + 1, ...s }) as Skill) : [],
+					});
+				}
+			}
+			allDolls.push(doll);
+		}
+	} catch (e) {
+		console.error(e);
+	}
 }

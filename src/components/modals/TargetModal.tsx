@@ -1,17 +1,13 @@
 import { For, createMemo } from "solid-js";
 import {
-	showTargetModal,
 	setShowTargetModal,
 	targetDollId,
 	targetSkillId,
-	state,
 	setState,
 	getSelectedDollAndSummonInfo,
-	getDollInfoFromId,
-	getSortedUsableSkills,
 	saveToLocalStorage,
-	defaultActionOrder,
 	getDollFromSummon,
+	getInfoFromId,
 } from "../../store";
 import { produce } from "solid-js/store";
 import type { DollData, SummonData } from "../../types";
@@ -23,7 +19,7 @@ export default function TargetModal() {
 		const dollId = targetDollId();
 		const skillId = targetSkillId();
 		if (!dollId || skillId == null) return null;
-		const doll = getDollInfoFromId(dollId);
+		const doll = getInfoFromId(dollId);
 		return doll?.skills.find((s) => s.id === skillId) ?? null;
 	});
 

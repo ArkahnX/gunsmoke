@@ -1,5 +1,5 @@
 import { TILE_SIZE, MAP_SIZE, HALF_HEIGHT, FULL_HEIGHT } from "../types/constants";
-import { mapGrid, gridKey, cellX, cellY, allDolls, allSummons, state } from "../store";
+import { mapGrid, gridKey, cellX, cellY, state, getInfoFromId } from "../store";
 import type { SummonData, SummonPosition, DollData, DragState, DollInfo } from "../types";
 
 // ─── Editor Draw Functions ─────────────────────────────────────────────────
@@ -297,7 +297,7 @@ export function drawMapTilesOnArena(ctx: CanvasRenderingContext2D, drag: DragSta
 			y: pos.y,
 			id: doll.id,
 			instanceId: null,
-			dollInfo: allDolls().find((d) => d.id === doll.id),
+			dollInfo: getInfoFromId(doll.id) as DollData,
 			summonInfo: null,
 			dragId: drag?.id,
 			dragInstanceId: drag?.instanceId,
@@ -306,7 +306,7 @@ export function drawMapTilesOnArena(ctx: CanvasRenderingContext2D, drag: DragSta
 	});
 	if (currentTab >= 1) {
 		state.tabData[currentTab]!.summonPositions.forEach((entry) => {
-			const summon = allSummons().find((s) => s.id === entry.id);
+			const summon = getInfoFromId(entry.id) as SummonData;
 			if (summon) {
 				const tileBelow = mapGrid[gridKey(entry.x, entry.y + 1)];
 				dolls[gridKey(entry.x, entry.y)] = {
@@ -314,7 +314,7 @@ export function drawMapTilesOnArena(ctx: CanvasRenderingContext2D, drag: DragSta
 					y: entry.y,
 					id: entry.id,
 					instanceId: entry.mapId,
-					dollInfo: allDolls().find((d) => d.id === summon.dollId),
+					dollInfo: getInfoFromId(summon.dollId) as DollData,
 					summonInfo: summon,
 					dragId: drag?.id,
 					dragInstanceId: drag?.instanceId,
@@ -410,9 +410,7 @@ export function drawDollOnCanvas(ctx: CanvasRenderingContext2D, data: DollInfo) 
 
 export function drawGhostOnCanvas(ctx: CanvasRenderingContext2D, tileX: number, tileY: number, dollId: string, valid: boolean) {
 	if (!dollId) return;
-	let info: DollData | SummonData | undefined;
-	if (dollId.startsWith("d")) info = allDolls().find((d) => d.id === dollId);
-	else if (dollId.startsWith("s")) info = allSummons().find((d) => d.id === dollId);
+	const info = getInfoFromId(dollId);
 	if (!info) return;
 	const cx = Math.round(tileX * TILE_SIZE + TILE_SIZE / 2);
 	const cy = Math.round(tileY * TILE_SIZE + TILE_SIZE / 2);
@@ -459,7 +457,7 @@ export function drawSummonOnCanvas(
 	summonId: string | null | undefined,
 	instanceId: string | null | undefined
 ) {
-	const summonInfo = allSummons().find((d) => d.id === summon.id);
+	const summonInfo = getInfoFromId(summon.id);
 	if (!summonInfo) return;
 	const cx = Math.round(entry.x * TILE_SIZE + TILE_SIZE / 2);
 	const cy = Math.round(entry.y * TILE_SIZE + TILE_SIZE / 2);
