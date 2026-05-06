@@ -7,6 +7,17 @@ export interface Skill {
 	localImagePath: string;
 }
 
+export interface FixedKey {
+	id: number;
+	name: string;
+	type: string;
+	localImagePath: string;
+}
+
+export interface CommonKey extends FixedKey {
+	dollId: string;
+}
+
 export interface SummonData {
 	id: string;
 	dollId: string;
@@ -24,6 +35,7 @@ export interface DollData {
 	avatar: string;
 	hasSummons: boolean;
 	skills: Skill[];
+	keys: FixedKey[];
 	summons: string[]; // summon IDs
 	preloadedImage?: HTMLImageElement;
 }
@@ -108,7 +120,13 @@ export interface RawDollEntry {
 	avatar: string;
 	rarity: string;
 	skills?: Skill[];
+	keys?: FixedKey[];
 	summons?: RawSummonEntry[];
+}
+
+export interface KeyData {
+	common: CommonKey[];
+	affinity: CommonKey[];
 }
 
 export interface Camera {

@@ -13,6 +13,7 @@ import type {
 	TabData,
 	RawDollEntry,
 	Skill,
+	KeyData,
 } from "../types";
 import { MAP_SIZE, SAVE_VERSION, SKILL_DISPLAY_KEY, STORAGE_KEY, TILE_SIZE } from "../types/constants";
 
@@ -46,6 +47,7 @@ export function hasCover(c: number, r: number): boolean {
 export { SAVE_VERSION } from "../types/constants";
 export const allDolls: DollData[] = [];
 export const allSummons: SummonData[] = [];
+export const allKeys: KeyData = { common: [], affinity: [] };
 export const skillOrder = ["Basic Attack", "Skill 1", "Skill 2", "Skill 3", "Passive", "Skill A", "Skill B"];
 export const skillOrderMap: Record<string, number | string> = skillOrder.reduce(
 	(previousValue, currentValue, currentIndex) => ({ ...previousValue, [currentValue]: currentIndex, [currentIndex]: currentValue }),
@@ -486,10 +488,13 @@ export function preloadCanvasImages() {
 // ====================== LOAD DOLLS AND SUMMONS ======================
 export async function loadCombinedJson() {
 	try {
-		const res = await fetch("combined.json");
-		const json: RawDollEntry[] = await res.json();
+		const res = await Promise.all([fetch("combined.json"), fetch("keys.json")]);
+		const combinedJson: RawDollEntry[] = await res[0].json();
+		const keysJson: KeyData = await res[1].json();
+		allKeys.affinity.push(...keysJson.affinity);
+		allKeys.common.push(...keysJson.common);
 
-		for (const entry of json) {
+		for (const entry of combinedJson) {
 			const doll: DollData = {
 				id: entry.id,
 				name: entry.name,
@@ -498,6 +503,7 @@ export async function loadCombinedJson() {
 				rarity: entry.rarity,
 				hasSummons: false,
 				skills: entry.skills ? entry.skills : [],
+				keys: entry.keys ? entry.keys : [],
 				summons: [],
 			};
 			if (entry.summons) {

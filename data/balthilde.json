@@ -119,7 +119,8 @@
         "rangeMapLevel2": null,
         "rangeMapLevel3": null,
         "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null
+        "vertebraeUpgradeLevel3": null,
+        "shortId": 1
       },
       {
         "id": "2f2d25c4-9afb-42dd-ad92-9c1a1f04146c",
@@ -570,7 +571,8 @@
           "updatedAt": "2025-11-02T00:17:09.053Z",
           "vertebraeName": "Wrench Calibration Lv.2"
         },
-        "vertebraeUpgradeLevel3": null
+        "vertebraeUpgradeLevel3": null,
+        "shortId": 2
       },
       {
         "id": "c2d351f7-363b-4ff3-be1f-ebc9992e6196",
@@ -650,7 +652,8 @@
           "createdAt": "2025-11-01T23:48:35.957Z",
           "updatedAt": "2025-11-01T23:48:41.285Z",
           "vertebraeName": "Reinforcement Protocol Lv.3"
-        }
+        },
+        "shortId": 3
       },
       {
         "id": "91284cae-21ca-4596-8bea-48a9541c4c1d",
@@ -729,7 +732,8 @@
           "createdAt": "2025-11-01T23:00:48.185Z",
           "updatedAt": "2025-11-01T23:01:57.195Z",
           "vertebraeName": "Demolition Protocol Lv.3"
-        }
+        },
+        "shortId": 4
       },
       {
         "id": "3d903416-3535-4278-9a1c-9a39aab4c1ac",
@@ -798,7 +802,8 @@
           "updatedAt": "2025-11-02T00:12:16.404Z",
           "vertebraeName": "Raging Chainblast Lv.2"
         },
-        "vertebraeUpgradeLevel3": null
+        "vertebraeUpgradeLevel3": null,
+        "shortId": 5
       }
     ],
     "keys": [
@@ -844,7 +849,8 @@
           ]
         },
         "searchTags": [],
-        "displayTitle": "Affinity Key - Clumsy Thoughts"
+        "displayTitle": "Affinity Key - Clumsy Thoughts",
+        "shortId": "k5"
       },
       {
         "id": "2f29b17d-63f8-4333-a927-3652af74107e",
@@ -888,7 +894,8 @@
           ]
         },
         "searchTags": [],
-        "displayTitle": "Common Key - Adept Smith"
+        "displayTitle": "Common Key - Adept Smith",
+        "shortId": "k6"
       },
       {
         "id": "fcc896a6-75b3-4901-850c-64fcf31aee2b",
@@ -933,7 +940,8 @@
           ]
         },
         "searchTags": [],
-        "displayTitle": "Fixed Key 1 - Cannot Spit It Out"
+        "displayTitle": "Fixed Key 1 - Cannot Spit It Out",
+        "shortId": "f1"
       },
       {
         "id": "6254e033-be9f-4a21-8dd4-891cad239170",
@@ -978,7 +986,8 @@
           ]
         },
         "searchTags": [],
-        "displayTitle": "Fixed Key 2 - Impatient"
+        "displayTitle": "Fixed Key 2 - Impatient",
+        "shortId": "f2"
       },
       {
         "id": "e12ada6e-b8dd-4d3b-be9a-21b90fd8cf4b",
@@ -1023,7 +1032,8 @@
           ]
         },
         "searchTags": [],
-        "displayTitle": "Fixed Key 3 - Misunderstood Intentions"
+        "displayTitle": "Fixed Key 3 - Misunderstood Intentions",
+        "shortId": "f3"
       },
       {
         "id": "8fc8ec81-8812-444c-ab77-5711f988c390",
@@ -1068,7 +1078,8 @@
           ]
         },
         "searchTags": [],
-        "displayTitle": "Fixed Key 4 - Fault Elimination Module"
+        "displayTitle": "Fixed Key 4 - Fault Elimination Module",
+        "shortId": "f4"
       },
       {
         "id": "ef396f6a-dffd-47bd-bb41-d92d5bfd5bd3",
@@ -1113,7 +1124,8 @@
           ]
         },
         "searchTags": [],
-        "displayTitle": "Fixed Key 5 - Practical Modification"
+        "displayTitle": "Fixed Key 5 - Practical Modification",
+        "shortId": "f5"
       },
       {
         "id": "49451d74-424f-42b6-a4a0-7e49851a236c",
@@ -1158,7 +1170,8 @@
           ]
         },
         "searchTags": [],
-        "displayTitle": "Fixed Key 6 - Mechanical Control"
+        "displayTitle": "Fixed Key 6 - Mechanical Control",
+        "shortId": "f6"
       }
     ],
     "vertebrae": [
@@ -2139,7 +2152,8 @@
               "createdAt": "2025-11-01T23:48:35.957Z",
               "updatedAt": "2025-11-01T23:48:41.285Z",
               "vertebraeName": "Reinforcement Protocol Lv.3"
-            }
+            },
+            "shortId": 1
           },
           {
             "id": "0e1c5407-c701-4f66-a8e2-54e60259e180",
@@ -2228,7 +2242,8 @@
               "createdAt": "2025-11-01T23:48:35.957Z",
               "updatedAt": "2025-11-01T23:48:41.285Z",
               "vertebraeName": "Reinforcement Protocol Lv.3"
-            }
+            },
+            "shortId": 2
           }
         ],
         "shortId": "s2"
@@ -2403,7 +2418,8 @@
               "createdAt": "2025-11-01T23:00:48.185Z",
               "updatedAt": "2025-11-01T23:01:57.195Z",
               "vertebraeName": "Demolition Protocol Lv.3"
-            }
+            },
+            "shortId": 1
           },
           {
             "id": "007a2b22-9d33-4b51-b952-6ba9cd8b3ab2",
@@ -2475,7 +2491,8 @@
               "updatedAt": "2025-11-01T22:54:01.266Z",
               "vertebraeName": "Demolition Protocol Lv.2"
             },
-            "vertebraeUpgradeLevel3": null
+            "vertebraeUpgradeLevel3": null,
+            "shortId": 2
           }
         ],
         "shortId": "s3"
