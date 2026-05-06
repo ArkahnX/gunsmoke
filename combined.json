@@ -2689,6 +2689,74 @@
     "summons": []
   },
   {
+    "id": "d58",
+    "name": "Nemesis Gnosis",
+    "class": "Sentinel",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Heavy Ammo"
+    ],
+    "avatar": "data/nemesis-gnosis/avatar.webp",
+    "skills": [
+      {
+        "name": "Starfall",
+        "id": 1,
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/nemesis-gnosis/Starfall.webp"
+      },
+      {
+        "name": "Whispers of Nirvana",
+        "id": 2,
+        "type": "Passive",
+        "tags": [
+          "Passive"
+        ],
+        "range": "Self",
+        "localImagePath": "data/nemesis-gnosis/Whispers of Nirvana.webp"
+      },
+      {
+        "name": "Calamity Resonance",
+        "id": 3,
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/nemesis-gnosis/Calamity Resonance.webp"
+      },
+      {
+        "name": "Prismatic Refraction",
+        "id": 4,
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted"
+        ],
+        "range": "9",
+        "localImagePath": "data/nemesis-gnosis/Prismatic Refraction.webp"
+      },
+      {
+        "name": "Fate's Reprise",
+        "id": 5,
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE"
+        ],
+        "range": "9",
+        "localImagePath": "data/nemesis-gnosis/Fate's Reprise.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
     "id": "d35",
     "name": "Nikketa",
     "class": "Sentinel",
@@ -3688,6 +3756,102 @@
         ],
         "range": "Self",
         "localImagePath": "data/sharkry/Highlight Moment.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
+    "id": "d57",
+    "name": "Soppo",
+    "class": "Sentinel",
+    "phase": "Freeze",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "avatar": "data/Soppo/avatar.webp",
+    "skills": [
+      {
+        "name": "Predator's Pursuit",
+        "id": 1,
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "8",
+        "localImagePath": "data/Soppo/Predator's Pursuit.webp"
+      },
+      {
+        "name": "Mad Dog Syndrome",
+        "id": 2,
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/Soppo/Mad Dog Syndrome.webp"
+      },
+      {
+        "name": "Ferocious Bite",
+        "id": 3,
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Tile"
+        ],
+        "range": "6",
+        "localImagePath": "data/Soppo/Ferocious Bite.webp"
+      },
+      {
+        "name": "Ferocious Bite (Burn)",
+        "id": 4,
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Tile"
+        ],
+        "range": "6",
+        "localImagePath": "data/Soppo/Ferocious Bite (Burn).webp"
+      },
+      {
+        "name": "Midnight Howl",
+        "id": 5,
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Buff"
+        ],
+        "range": "Map",
+        "localImagePath": "data/Soppo/Midnight Howl.webp"
+      },
+      {
+        "name": "Midnight Howl (Burn)",
+        "id": 6,
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Buff"
+        ],
+        "range": "Map",
+        "localImagePath": "data/Soppo/Midnight Howl (Burn).webp"
+      },
+      {
+        "name": "Deadly Pounce",
+        "id": 7,
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Interception"
+        ],
+        "range": "Self",
+        "localImagePath": "data/Soppo/Deadly Pounce.webp"
       }
     ],
     "summons": []
