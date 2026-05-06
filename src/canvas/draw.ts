@@ -345,6 +345,14 @@ export function drawMapTilesOnArena(ctx: CanvasRenderingContext2D, drag: DragSta
 			else if (cell.cover === "fcov") drawFullCover(ctx, col, row);
 		}
 	}
+	for (let row = 0; row < MAP_SIZE; row++) {
+		for (let col = 0; col < MAP_SIZE; col++) {
+			const doll = dolls[gridKey(col, row)];
+			if (doll) {
+				drawDollLabelOnCanvas(ctx, doll);
+			}
+		}
+	}
 }
 
 // ─── Doll / Summon on canvas ────────────────────────────────────────────────
@@ -381,6 +389,22 @@ export function drawDollOnCanvas(ctx: CanvasRenderingContext2D, data: DollInfo) 
 		ctx.drawImage(data.dollInfo.preloadedImage, cx - r, cy - avatarOffY - r, r * 2, r * 2);
 		ctx.restore();
 	}
+
+	if (data.summonInfo) {
+		ctx.beginPath();
+		ctx.arc(cx, cy - avatarOffY, r + 2, 0, Math.PI * 2);
+		ctx.strokeStyle = "#2dd4bf";
+		ctx.lineWidth = 2;
+		ctx.stroke();
+	}
+}
+
+export function drawDollLabelOnCanvas(ctx: CanvasRenderingContext2D, data: DollInfo) {
+	if (!data.dollInfo) return;
+	const cx = Math.round(data.x * TILE_SIZE + TILE_SIZE / 2);
+	const cy = Math.round(data.y * TILE_SIZE + TILE_SIZE / 2);
+	const r = Math.round(TILE_SIZE * 0.475);
+	const avatarOffY = Math.round(TILE_SIZE * 0.06);
 	const fontSize = Math.max(7, Math.round(TILE_SIZE * 0.28));
 	ctx.font = `bold ${fontSize}px Roboto, sans-serif`;
 	ctx.textAlign = "center";
@@ -391,11 +415,6 @@ export function drawDollOnCanvas(ctx: CanvasRenderingContext2D, data: DollInfo) 
 	}
 	ctx.fillStyle = "rgba(0,0,0,0.75)";
 	if (data.summonInfo) {
-		ctx.beginPath();
-		ctx.arc(cx, cy - avatarOffY, r + 2, 0, Math.PI * 2);
-		ctx.strokeStyle = "#2dd4bf";
-		ctx.lineWidth = 2;
-		ctx.stroke();
 		const labelW = Math.ceil(ctx.measureText(data.summonInfo.name).width) + 4;
 		ctx.fillRect(Math.round(cx - labelW / 2), labelY, labelW, fontSize + 2);
 		ctx.fillStyle = "#2dd4bf";
