@@ -9,7 +9,7 @@ import Modal from "./modals/Modal";
 import SetupSidebar from "./SetupSidebar";
 import ActionSidebar from "./ActionSidebar";
 
-// TODO note; canvasEl may not be defined outside of ArenaCanvas
+
 let canvasEl!: HTMLCanvasElement;
 let ctx: CanvasRenderingContext2D;
 let dpr: number = 1;
@@ -31,6 +31,8 @@ const [drag, setDrag] = createStore<DragState>({
 	isOverDiscard: false,
 	isActive: false,
 });
+
+// ─── Pointer Events ────────────────────────────────────────────────────────
 
 export function handlePointerDown(e: PointerEvent) {
 	e.preventDefault();
@@ -125,10 +127,44 @@ export function handlePointerUp(e: PointerEvent) {
 	}
 }
 
-export function handleWheel(e: WheelEvent) {
+export function deployFromSetupPanel(id: string, instanceId: string | null, e: PointerEvent): void {
 	e.preventDefault();
-	const factor = e.deltaY < 0 ? 1.1 : 1 / 1.1;
-	zoomAt(e.clientX, e.clientY, factor);
+	canvasEl.setPointerCapture(e.pointerId);
+	activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+	if (activePointers.size === 1) {
+		const world = screenToWorld(e.clientX, e.clientY);
+		const isOccupied = isDollAtTile(world.tileX, world.tileY, id, instanceId);
+		const isValid = isValidMapPosition(world.tileX, world.tileY) && !isOccupied;
+		setDrag(
+			produce((d) => {
+				d.id = id;
+				d.instanceId = instanceId;
+				d.screenX = e.clientX;
+				d.screenY = e.clientY;
+				d.currentTileX = world.tileX;
+				d.currentTileY = world.tileY;
+				d.isActive = true;
+				d.isValid = isValid;
+				d.isOverDiscard = false;
+			})
+		);
+	}
+
+	const onMove = (ev: PointerEvent) => {
+		if (drag.isActive) {
+			updateDragInfo(ev.clientX, ev.clientY);
+		}
+	};
+
+	const onUp = (ev: PointerEvent) => {
+		window.removeEventListener("pointermove", onMove);
+		window.removeEventListener("pointerup", onUp);
+
+		handlePointerUp(ev);
+	};
+
+	window.addEventListener("pointermove", onMove);
+	window.addEventListener("pointerup", onUp);
 }
 
 export function handleDiscardEnter(e: PointerEvent) {
@@ -151,101 +187,27 @@ export function handleDiscardLeave(e: PointerEvent) {
 	);
 }
 
-export function isDragActive() {
-	return drag.isActive;
+// ─── Zoom Events ────────────────────────────────────────────────────────
+
+export function handleWheel(e: WheelEvent) {
+	e.preventDefault();
+	const factor = e.deltaY < 0 ? 1.1 : 1 / 1.1;
+	zoomAt(e.clientX, e.clientY, factor);
 }
-
-export function isDiscardActive() {
-	return drag.isOverDiscard;
-}
-
-// ─── Object helpers ────────────────────────────────────────────────────────
-
-function tileKey(col: number, row: number): string {
-	return `${col},${row}`;
-}
-
-function getObjectAtWorld(
-	tileX: number,
-	tileY: number
-): Omit<DragState, "screenX" | "screenY" | "isOverDiscard" | "isActive" | "isValid"> | null {
-	const tab = state.tabData[state.currentTab]!;
-	for (const [dollId, position] of Object.entries(tab.dollPositions)) {
-		if (position.x === tileX && position.y === tileY) {
-			return {
-				id: dollId,
-				instanceId: null,
-				currentTileX: position.x,
-				currentTileY: position.y,
-			};
-		}
-	}
-	for (const position of tab.summonPositions) {
-		if (position.x === tileX && position.y === tileY) {
-			return {
-				id: position.id,
-				instanceId: position.mapId,
-				currentTileX: position.x,
-				currentTileY: position.y,
-			};
-		}
-	}
-	return null;
-}
-
-// ─── HiDPI ─────────────────────────────────────────────────────────────────
 
 /**
- * Size the canvas pixel buffer to CSS size × devicePixelRatio.
- * The CSS size stays unchanged so the element occupies the same layout space.
- * All drawing goes through applyCamera() which folds dpr into the transform.
+ * Zoom toward a CSS-space point (e.g. mouse or touch midpoint).
+ * Records world position under point before scale change, then shifts
+ * the camera so that same world point remains under the cursor after.
  */
-function fitToWindow(): void {
-	dpr = window.devicePixelRatio || 1;
-
-	const cssW = window.innerWidth;
-	const cssH = window.innerHeight;
-
-	canvasEl.style.width = `${cssW}px`;
-	canvasEl.style.height = `${cssH}px`;
-	canvasEl.width = Math.round(cssW * dpr);
-	canvasEl.height = Math.round(cssH * dpr);
-
-	// After resize the minimum zoom may change — re-clamp
-	clampCamera();
-}
-
-// ─── Coordinate conversion ─────────────────────────────────────────────────
-
-/** CSS pixel → world coordinate (dpr-agnostic: use offsetX/offsetY or clientX/clientY). */
-function screenToWorld(clientX: number, clientY: number): { x: number; y: number; tileX: number; tileY: number } {
-	const rect = canvasEl.getBoundingClientRect();
-	const screenX = clientX - rect.left;
-	const screenY = clientY - rect.top;
-	const cssW = canvasEl.width / dpr;
-	const cssH = canvasEl.height / dpr;
-	const x = (screenX - cssW / 2) / camera.scale + camera.x;
-	const y = (screenY - cssH / 2) / camera.scale + camera.y;
-	return {
-		x,
-		tileX: Math.floor(x / TILE_SIZE),
-		y,
-		tileY: Math.floor(y / TILE_SIZE),
-	};
-}
-
-// ─── Bounds & clamping ─────────────────────────────────────────────────────
-
-/**
- * Returns the minimum scale that prevents the map from being smaller than
- * the viewport in either axis. Ensures at least the full map fits on screen.
- */
-function minScaleForBounds(): number {
-	const cssW = canvasEl.width / dpr;
-	const cssH = canvasEl.height / dpr;
-	const scaleX = cssW / MAP_BOUNDS.maxX;
-	const scaleY = cssH / MAP_BOUNDS.maxY;
-	return Math.max(MIN_SCALE, Math.min(scaleX, scaleY));
+function zoomAt(clientX: number, clientY: number, factor: number): void {
+	const before = screenToWorld(clientX, clientY);
+	camera.scale *= factor;
+	clampCamera(); // clamps scale first
+	const after = screenToWorld(clientX, clientY);
+	camera.x += before.x - after.x;
+	camera.y += before.y - after.y;
+	clampCamera(); // re-clamp position after shift
 }
 
 /**
@@ -288,38 +250,24 @@ function clampCamera(): void {
 	}
 }
 
-// ─── Zoom ──────────────────────────────────────────────────────────────────
-
 /**
- * Zoom toward a CSS-space point (e.g. mouse or touch midpoint).
- * Records world position under point before scale change, then shifts
- * the camera so that same world point remains under the cursor after.
+ * Returns the minimum scale that prevents the map from being smaller than
+ * the viewport in either axis. Ensures at least the full map fits on screen.
  */
-function zoomAt(clientX: number, clientY: number, factor: number): void {
-	const before = screenToWorld(clientX, clientY);
-	camera.scale *= factor;
-	clampCamera(); // clamps scale first
-	const after = screenToWorld(clientX, clientY);
-	camera.x += before.x - after.x;
-	camera.y += before.y - after.y;
-	clampCamera(); // re-clamp position after shift
-}
-
-// ─── Camera transform ──────────────────────────────────────────────────────
-
-/**
- * Sets the canvas transform so all subsequent draw calls are in world space.
- * Folds in dpr so the pixel buffer is sharp on HiDPI displays.
- *
- *   bufferPixel = worldUnit × scale × dpr   +   offset
- */
-function applyCamera(): void {
+function minScaleForBounds(): number {
 	const cssW = canvasEl.width / dpr;
 	const cssH = canvasEl.height / dpr;
-	const s = camera.scale * dpr;
-	const tx = (cssW / 2 - camera.x * camera.scale) * dpr;
-	const ty = (cssH / 2 - camera.y * camera.scale) * dpr;
-	ctx.setTransform(s, 0, 0, s, tx, ty);
+	const scaleX = cssW / MAP_BOUNDS.maxX;
+	const scaleY = cssH / MAP_BOUNDS.maxY;
+	return Math.max(MIN_SCALE, Math.min(scaleX, scaleY));
+}
+
+export function isDragActive() {
+	return drag.isActive;
+}
+
+export function isDiscardActive() {
+	return drag.isOverDiscard;
 }
 
 // ─── Rendering ─────────────────────────────────────────────────────────────
@@ -340,94 +288,44 @@ function draw(): void {
 	}
 }
 
+/**
+ * Sets the canvas transform so all subsequent draw calls are in world space.
+ * Folds in dpr so the pixel buffer is sharp on HiDPI displays.
+ *
+ *   bufferPixel = worldUnit × scale × dpr   +   offset
+ */
+function applyCamera(): void {
+	const cssW = canvasEl.width / dpr;
+	const cssH = canvasEl.height / dpr;
+	const s = camera.scale * dpr;
+	const tx = (cssW / 2 - camera.x * camera.scale) * dpr;
+	const ty = (cssH / 2 - camera.y * camera.scale) * dpr;
+	ctx.setTransform(s, 0, 0, s, tx, ty);
+}
+
 function loop(): void {
 	draw();
 	requestAnimationFrame(() => loop());
 }
 
-// ─── External drag public API ───────────────────────────────────────────────
+// ─── Map Helpers ──────────────────────────────────────────────────────────
 
-// ★ NEW
-// Called by buildStagingArea when the user starts dragging a staging token.
-// Attaches transient window-level listeners that track the pointer until release.
-export function deployFromSetupPanel(id: string, instanceId: string | null, e: PointerEvent): void {
-	e.preventDefault();
-	canvasEl.setPointerCapture(e.pointerId);
-	activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
-	if (activePointers.size === 1) {
-		// determine if we should start dragging a doll or pan the canvas
-		const world = screenToWorld(e.clientX, e.clientY);
-		const isOccupied = isDollAtTile(world.tileX, world.tileY, id, instanceId);
-		const isValid = isValidMapPosition(world.tileX, world.tileY) && !isOccupied;
-		setDrag(
-			produce((d) => {
-				d.id = id;
-				d.instanceId = instanceId;
-				d.screenX = e.clientX;
-				d.screenY = e.clientY;
-				d.currentTileX = world.tileX;
-				d.currentTileY = world.tileY;
-				d.isActive = true;
-				d.isValid = isValid;
-				d.isOverDiscard = false;
-			})
-		);
-	}
-
-	// ★ NEW helper — update ghost position and target tile
-	const onMove = (ev: PointerEvent) => {
-		if (drag.isActive) {
-			updateDragInfo(ev.clientX, ev.clientY);
-		}
+/** CSS pixel → world coordinate (dpr-agnostic: use offsetX/offsetY or clientX/clientY). */
+function screenToWorld(clientX: number, clientY: number): { x: number; y: number; tileX: number; tileY: number } {
+	const rect = canvasEl.getBoundingClientRect();
+	const screenX = clientX - rect.left;
+	const screenY = clientY - rect.top;
+	const cssW = canvasEl.width / dpr;
+	const cssH = canvasEl.height / dpr;
+	const x = (screenX - cssW / 2) / camera.scale + camera.x;
+	const y = (screenY - cssH / 2) / camera.scale + camera.y;
+	return {
+		x,
+		tileX: Math.floor(x / TILE_SIZE),
+		y,
+		tileY: Math.floor(y / TILE_SIZE),
 	};
-
-	// ★ NEW helper — commit or cancel on pointer up
-	const onUp = (ev: PointerEvent) => {
-		window.removeEventListener("pointermove", onMove);
-		window.removeEventListener("pointerup", onUp);
-
-		handlePointerUp(ev);
-	};
-
-	window.addEventListener("pointermove", onMove);
-	window.addEventListener("pointerup", onUp);
 }
-
-// ★ NEW — converts the screen position to a tile and checks validity
-function updateDragInfo(clientX: number, clientY: number): void {
-	if (drag.isActive === false) return;
-
-	const world = screenToWorld(clientX, clientY);
-	const isOccupied = isDollAtTile(world.tileX, world.tileY, drag.id, drag.instanceId);
-	const isValid = isValidMapPosition(world.tileX, world.tileY) && !isOccupied;
-	setDrag(
-		produce((d) => {
-			d.screenX = clientX;
-			d.screenY = clientY;
-			d.currentTileX = world.tileX;
-			d.currentTileY = world.tileY;
-			d.isValid = isValid;
-		})
-	);
-}
-
-// ★ NEW — places a brand-new GameObject on the map at the ghost's tile
-function AddDollToMap(drag: DragState): void {
-	const isOccupied = isDollAtTile(drag.currentTileX, drag.currentTileY, drag.id, drag.instanceId);
-	const isValid = isValidMapPosition(drag.currentTileX, drag.currentTileY) && !isOccupied;
-
-	if (drag.isOverDiscard) {
-		removeDollOrSummon(drag.id, drag.instanceId);
-	} else if (isValid) {
-		if (drag.instanceId) {
-			placeSummon(drag.id, drag.instanceId, drag.currentTileX, drag.currentTileY);
-		} else {
-			placeDoll(drag.id, drag.currentTileX, drag.currentTileY);
-		}
-	}
-}
-
-// ─── Drag helpers ──────────────────────────────────────────────────────────
 
 function isDollAtTile(tileX: number, tileY: number, id: string, instanceId: string | null): boolean {
 	const tab = state.tabData[state.currentTab]!;
@@ -449,31 +347,64 @@ function isValidMapPosition(tileX: number, tileY: number): boolean {
 	return inBounds && ((isSetup && isSpawnTile) || (!isSetup && !isBlocked));
 }
 
-// ★ NEW — recalculate which tile the pointer is over and whether it's a valid drop
-function updateDrag(tileX: number, tileY: number): void {
-	if (!drag) return;
+function AddDollToMap(drag: DragState): void {
+	const isOccupied = isDollAtTile(drag.currentTileX, drag.currentTileY, drag.id, drag.instanceId);
+	const isValid = isValidMapPosition(drag.currentTileX, drag.currentTileY) && !isOccupied;
 
-	const isOccupied = isDollAtTile(tileX, tileY, drag.id, drag.instanceId);
-	const isValid = isValidMapPosition(tileX, tileY) && !isOccupied;
+	if (drag.isOverDiscard) {
+		removeDollOrSummon(drag.id, drag.instanceId);
+	} else if (isValid) {
+		if (drag.instanceId) {
+			placeSummon(drag.id, drag.instanceId, drag.currentTileX, drag.currentTileY);
+		} else {
+			placeDoll(drag.id, drag.currentTileX, drag.currentTileY);
+		}
+	}
+}
+
+function updateDragInfo(clientX: number, clientY: number): void {
+	if (drag.isActive === false) return;
+
+	const world = screenToWorld(clientX, clientY);
+	const isOccupied = isDollAtTile(world.tileX, world.tileY, drag.id, drag.instanceId);
+	const isValid = isValidMapPosition(world.tileX, world.tileY) && !isOccupied;
 	setDrag(
 		produce((d) => {
-			d.currentTileX = tileX;
-			d.currentTileY = tileY;
+			d.screenX = clientX;
+			d.screenY = clientY;
+			d.currentTileX = world.tileX;
+			d.currentTileY = world.tileY;
 			d.isValid = isValid;
 		})
 	);
 }
 
-// ★ NEW — commit or cancel the drop and clear drag state
-function endDrag(): void {
-	if (drag.isValid) {
-		AddDollToMap(drag);
+function getObjectAtWorld(
+	tileX: number,
+	tileY: number
+): Omit<DragState, "screenX" | "screenY" | "isOverDiscard" | "isActive" | "isValid"> | null {
+	const tab = state.tabData[state.currentTab]!;
+	for (const [dollId, position] of Object.entries(tab.dollPositions)) {
+		if (position.x === tileX && position.y === tileY) {
+			return {
+				id: dollId,
+				instanceId: null,
+				currentTileX: position.x,
+				currentTileY: position.y,
+			};
+		}
 	}
-	setDrag(
-		produce((d) => {
-			d.isActive = false;
-		})
-	);
+	for (const position of tab.summonPositions) {
+		if (position.x === tileX && position.y === tileY) {
+			return {
+				id: position.id,
+				instanceId: position.mapId,
+				currentTileX: position.x,
+				currentTileY: position.y,
+			};
+		}
+	}
+	return null;
 }
 
 // ─── Resize ────────────────────────────────────────────────────────────────
@@ -482,12 +413,34 @@ function bindResize(): void {
 	window.addEventListener("resize", () => fitToWindow());
 	// Re-check dpr changes (browser zoom, moving window between displays)
 	window.matchMedia(`(resolution: ${dpr}dppx)`).addEventListener("change", () => fitToWindow());
+	fitToWindow();
 }
+
+/**
+ * Size the canvas pixel buffer to CSS size × devicePixelRatio.
+ * The CSS size stays unchanged so the element occupies the same layout space.
+ * All drawing goes through applyCamera() which folds dpr into the transform.
+ */
+function fitToWindow(): void {
+	dpr = window.devicePixelRatio || 1;
+
+	const cssW = window.innerWidth;
+	const cssH = window.innerHeight;
+
+	canvasEl.style.width = `${cssW}px`;
+	canvasEl.style.height = `${cssH}px`;
+	canvasEl.width = Math.round(cssW * dpr);
+	canvasEl.height = Math.round(cssH * dpr);
+
+	// After resize the minimum zoom may change — re-clamp
+	clampCamera();
+}
+
+// ─── Export Element ────────────────────────────────────────────────────────────────
 
 export default function ArenaCanvas() {
 	onMount(() => {
 		ctx = canvasEl.getContext("2d")!;
-		fitToWindow();
 		bindResize();
 		loop();
 	});
