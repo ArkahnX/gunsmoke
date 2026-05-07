@@ -69,7 +69,7 @@ export interface SelectedDoll {
 export interface AppState {
 	selectedDolls: SelectedDoll[];
 	currentTab: number; // -1=editor, 0-7=arena, 8=summary
-	actionType?: number|string;
+	actionType?: number | string;
 	skillDisplay: number[];
 	tabData: TabData[];
 }
@@ -149,6 +149,13 @@ export interface MapBounds {
 	maxY: number;
 }
 
+export const enum DragStatus {
+	Valid,
+	Blocked,
+	Swap,
+	Discard,
+}
+
 export interface DragState {
 	id: string;
 	instanceId: string | null; // used for summons since they can appear more than once
@@ -156,8 +163,7 @@ export interface DragState {
 	screenY: number;
 	currentTileX: number; // tile column the ghost is hovering over
 	currentTileY: number;
-	isValid: boolean; // tile is in-bounds and unoccupied
-	isOverDiscard: boolean;
+	status: DragStatus;
 	isActive: boolean;
 }
 

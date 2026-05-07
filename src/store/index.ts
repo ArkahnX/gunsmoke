@@ -13,6 +13,7 @@ import type {
 	TabData,
 	RawDollEntry,
 	KeyData,
+	DragState,
 } from "../types";
 import { MAP_SIZE, SAVE_VERSION, SKILL_DISPLAY_KEY, STORAGE_KEY, TILE_SIZE } from "../types/constants";
 
@@ -174,6 +175,16 @@ export function getPositionsForDoll(dollId: string): Position[] {
 	const pos = state.tabData[state.currentTab]!.dollPositions[dollId];
 	if (pos) positions.push(pos);
 	return positions;
+}
+
+export function getDollPosition(dollId: string, instanceId: string | null): Position | null {
+	const positions: Position[] = [];
+	for (const p of state.tabData[state.currentTab]!.summonPositions) {
+		if (p.id === dollId && p.mapId === instanceId) return { x: p.x, y: p.y };
+	}
+	const pos = state.tabData[state.currentTab]!.dollPositions[dollId];
+	if (pos) return pos;
+	return null;
 }
 
 export function getFortificationFromId(id: string): number {
@@ -454,6 +465,59 @@ export function placeSummon(summonId: string, mapId: string, col: number, row: n
 					if (p.x === col && p.y === row) return;
 				}
 				positions.push({ id: summonId, mapId, x: col, y: row });
+			}
+		})
+	);
+	saveToLocalStorage();
+}
+
+export function swapPositions(
+	id: string,
+	instanceId: string | null,
+	col: number,
+	row: number,
+	swapDoll: Omit<DragState, "screenX" | "screenY" | "isActive" | "status"> | null
+) {
+	if(!swapDoll) return;
+	setState(
+		produce((s) => {
+			const oldPosition = getDollPosition(id, instanceId);
+			// place new doll
+			if (!instanceId) {
+				s.tabData[s.currentTab]!.dollPositions[id] = { x: col, y: row };
+			} else {
+				const positions = s.tabData[s.currentTab]!.summonPositions;
+				const existing = positions.find((p) => p.mapId === instanceId && p.id === id);
+				if (existing) {
+					existing.x = col;
+					existing.y = row;
+				} else {
+					positions.push({ id: id, mapId: instanceId, x: col, y: row });
+				}
+			}
+			if (oldPosition) {
+				// move old doll
+				if (!swapDoll.instanceId) {
+					s.tabData[s.currentTab]!.dollPositions[swapDoll.id] = { x: oldPosition.x, y: oldPosition.y };
+				} else {
+					const positions = s.tabData[s.currentTab]!.summonPositions;
+					const existing = positions.find((p) => p.mapId === swapDoll.instanceId && p.id === swapDoll.id);
+					if (existing) {
+						existing.x = oldPosition.x;
+						existing.y = oldPosition.y;
+					}
+				}
+			} else {
+				// if the doll we are trying to place did not have a prior position, remove the swap doll
+				if (!swapDoll.instanceId) {
+					s.tabData[s.currentTab]!.dollPositions[swapDoll.id] = { x: -1, y: -1 };
+				} else {
+					const positions = s.tabData[s.currentTab]!.summonPositions;
+					const existing = positions.find((p) => p.mapId === swapDoll.instanceId && p.id === swapDoll.id);
+					if (existing) {
+						positions.splice(positions.indexOf(existing), 1);
+					}
+				}
 			}
 		})
 	);

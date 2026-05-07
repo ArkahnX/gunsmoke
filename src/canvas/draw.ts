@@ -1,6 +1,6 @@
 import { TILE_SIZE, MAP_SIZE, HALF_HEIGHT, FULL_HEIGHT } from "../types/constants";
 import { mapGrid, gridKey, cellX, cellY, state, getInfoFromId } from "../store";
-import type { SummonData, SummonPosition, DollData, DragState, DollInfo } from "../types";
+import { SummonData, DollData, DragState, DollInfo, DragStatus } from "../types";
 
 // ─── Editor Draw Functions ─────────────────────────────────────────────────
 export function drawFloor(ctx: CanvasRenderingContext2D, c: number, r: number) {
@@ -430,8 +430,12 @@ export function drawDollLabelOnCanvas(ctx: CanvasRenderingContext2D, data: DollI
 export function drawGhostOnCanvas(ctx: CanvasRenderingContext2D, drag: DragState) {
 	const info = getInfoFromId(drag.id);
 	if (!info) return;
-	const cx = Math.round(drag.currentTileX * TILE_SIZE + TILE_SIZE / 2);
-	const cy = Math.round(drag.currentTileY * TILE_SIZE + TILE_SIZE / 2);
+	let cx = Math.round(drag.currentTileX * TILE_SIZE + TILE_SIZE / 2);
+	let cy = Math.round(drag.currentTileY * TILE_SIZE + TILE_SIZE / 2);
+	if (drag.status === DragStatus.Swap) {
+		cx = Math.round(drag.currentTileX * TILE_SIZE + TILE_SIZE / 4);
+		cy = Math.round(drag.currentTileY * TILE_SIZE + TILE_SIZE / 4);
+	}
 	const r = Math.round(TILE_SIZE * 0.475);
 	const avatarOffY = Math.round(TILE_SIZE * 0.06);
 	if (info.preloadedImage?.complete) {
@@ -448,16 +452,16 @@ export function drawGhostOnCanvas(ctx: CanvasRenderingContext2D, drag: DragState
 	ctx.save();
 	ctx.beginPath();
 	ctx.arc(cx, cy - avatarOffY, r + 2, 0, Math.PI * 2);
-	if (drag.isOverDiscard) {
-		ctx.strokeStyle = "#D42D43";
-	} else if (drag.isValid) {
+	if (drag.status === DragStatus.Swap) {
+		ctx.strokeStyle = "#EFEFEF";
+	} else if (drag.status === DragStatus.Valid) {
 		ctx.strokeStyle = "#2dd4bf";
 	} else {
 		ctx.strokeStyle = "#D42D43";
 	}
 	ctx.lineWidth = 2;
 	ctx.stroke();
-	if (drag.isOverDiscard) {
+	if (drag.status === DragStatus.Discard) {
 		ctx.strokeStyle = "#D42D43";
 		ctx.beginPath();
 		ctx.moveTo(drag.currentTileX * TILE_SIZE, drag.currentTileY * TILE_SIZE);
@@ -478,5 +482,9 @@ export function drawGhostOnCanvas(ctx: CanvasRenderingContext2D, drag: DragState
 	ctx.fillStyle = "rgba(0,0,0,0.75)";
 	ctx.fillRect(Math.round(cx - labelW / 2), labelY, labelW, fontSize + 2);
 	ctx.fillStyle = "#ffffff";
-	ctx.fillText(info.name, cx, labelY + 1);
+	if (drag.status === DragStatus.Swap) {
+		ctx.fillText("Swap", cx, labelY + 1);
+	} else {
+		ctx.fillText(info.name, cx, labelY + 1);
+	}
 }

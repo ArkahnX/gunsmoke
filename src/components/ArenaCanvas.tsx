@@ -1,14 +1,13 @@
 import { createSignal, onMount } from "solid-js";
-import { state, placeDoll, placeSummon, mapGrid, removeDollOrSummon, setCoords, coords } from "../store";
+import { state, placeDoll, placeSummon, mapGrid, removeDollOrSummon, setCoords, coords, gridKey, swapPositions } from "../store";
 import { TILE_SIZE, MAP_BOUNDS, MIN_SCALE, MAX_SCALE, MAP_SIZE } from "../types/constants";
 import { drawMapTilesOnArena, drawGhostOnCanvas } from "../canvas/draw";
 import { createStore, produce } from "solid-js/store";
-import { Camera, DragState } from "../types";
+import { Camera, DragState, DragStatus } from "../types";
 import Discard from "./icons/Discard";
 import Modal from "./modals/Modal";
 import SetupSidebar from "./SetupSidebar";
 import ActionSidebar from "./ActionSidebar";
-
 
 let canvasEl!: HTMLCanvasElement;
 let ctx: CanvasRenderingContext2D;
@@ -19,6 +18,7 @@ const camera: Camera = { x: MAP_BOUNDS.maxX / 2, y: MAP_BOUNDS.maxY / 2, scale: 
 const activePointers: Map<number, { x: number; y: number }> = new Map();
 
 const [activeTab, setActiveTab] = createSignal("setup");
+const [discardHover, setDiscardHover] = createSignal(false);
 
 const [drag, setDrag] = createStore<DragState>({
 	id: "",
@@ -27,8 +27,7 @@ const [drag, setDrag] = createStore<DragState>({
 	screenY: -1,
 	currentTileX: -1,
 	currentTileY: -1,
-	isValid: false,
-	isOverDiscard: false,
+	status: DragStatus.Valid,
 	isActive: false,
 });
 
@@ -42,8 +41,6 @@ export function handlePointerDown(e: PointerEvent) {
 		const world = screenToWorld(e.clientX, e.clientY);
 		const hit = getObjectAtWorld(world.tileX, world.tileY);
 		if (hit) {
-			const isOccupied = isDollAtTile(world.tileX, world.tileY, hit.id, hit.instanceId);
-			const isValid = isValidMapPosition(world.tileX, world.tileY) && !isOccupied;
 			setDrag(
 				produce((d) => {
 					d.id = hit.id;
@@ -53,8 +50,7 @@ export function handlePointerDown(e: PointerEvent) {
 					d.currentTileX = hit.currentTileX;
 					d.currentTileY = hit.currentTileY;
 					d.isActive = true;
-					d.isValid = isValid;
-					d.isOverDiscard = false;
+					d.status = getDragStatus(world.tileX, world.tileY, hit.id, hit.instanceId);
 				})
 			);
 		}
@@ -133,8 +129,6 @@ export function deployFromSetupPanel(id: string, instanceId: string | null, e: P
 	activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
 	if (activePointers.size === 1) {
 		const world = screenToWorld(e.clientX, e.clientY);
-		const isOccupied = isDollAtTile(world.tileX, world.tileY, id, instanceId);
-		const isValid = isValidMapPosition(world.tileX, world.tileY) && !isOccupied;
 		setDrag(
 			produce((d) => {
 				d.id = id;
@@ -144,8 +138,7 @@ export function deployFromSetupPanel(id: string, instanceId: string | null, e: P
 				d.currentTileX = world.tileX;
 				d.currentTileY = world.tileY;
 				d.isActive = true;
-				d.isValid = isValid;
-				d.isOverDiscard = false;
+				d.status = getDragStatus(world.tileX, world.tileY, id, instanceId);
 			})
 		);
 	}
@@ -170,21 +163,12 @@ export function deployFromSetupPanel(id: string, instanceId: string | null, e: P
 export function handleDiscardEnter(e: PointerEvent) {
 	e.preventDefault();
 	if (!drag.isActive) return;
-	setDrag(
-		produce((d) => {
-			d.isOverDiscard = true;
-		})
-	);
+	setDiscardHover(true);
 }
 
 export function handleDiscardLeave(e: PointerEvent) {
 	e.preventDefault();
-	if (!drag.isActive) return;
-	setDrag(
-		produce((d) => {
-			d.isOverDiscard = false;
-		})
-	);
+	setDiscardHover(false);
 }
 
 // ─── Zoom Events ────────────────────────────────────────────────────────
@@ -262,14 +246,6 @@ function minScaleForBounds(): number {
 	return Math.max(MIN_SCALE, Math.min(scaleX, scaleY));
 }
 
-export function isDragActive() {
-	return drag.isActive;
-}
-
-export function isDiscardActive() {
-	return drag.isOverDiscard;
-}
-
 // ─── Rendering ─────────────────────────────────────────────────────────────
 
 function draw(): void {
@@ -327,33 +303,31 @@ function screenToWorld(clientX: number, clientY: number): { x: number; y: number
 	};
 }
 
-function isDollAtTile(tileX: number, tileY: number, id: string, instanceId: string | null): boolean {
-	const tab = state.tabData[state.currentTab]!;
-	for (const [dollId, pos] of Object.entries(tab.dollPositions)) {
-		if (pos.x === tileX && pos.y === tileY && dollId !== id) return true;
-	}
-	for (const summon of tab.summonPositions) {
-		if (summon.x === tileX && summon.y === tileY && summon.id !== id && summon.mapId !== instanceId) return true;
-	}
-	return false;
-}
-
-function isValidMapPosition(tileX: number, tileY: number): boolean {
-	const cell = mapGrid[tileKey(tileX, tileY)];
+function getDragStatus(tileX: number, tileY: number, id: string, instanceId: string | null): DragStatus {
+	if (discardHover()) return DragStatus.Discard;
+	const cell = mapGrid[gridKey(tileX, tileY)];
 	const isSetup = state.currentTab === 0;
 	const isSpawnTile = cell && cell.spawn;
-	const isBlocked = cell && (cell.cover === "boss" || cell.cover === "hcov" || cell.cover === "fcov");
 	const inBounds = tileX >= 0 && tileX < MAP_SIZE && tileY >= 0 && tileY < MAP_SIZE;
-	return inBounds && ((isSetup && isSpawnTile) || (!isSetup && !isBlocked));
+	const isBlocked = cell && (cell.cover === "boss" || cell.cover === "hcov" || cell.cover === "fcov");
+	if (!inBounds || (isSetup && !isSpawnTile) || (!isSetup && isBlocked)) return DragStatus.Blocked;
+	const tab = state.tabData[state.currentTab]!;
+	for (const [dollId, pos] of Object.entries(tab.dollPositions)) {
+		if (pos.x === tileX && pos.y === tileY && dollId !== id) return DragStatus.Swap;
+	}
+	for (const summon of tab.summonPositions) {
+		if (summon.x === tileX && summon.y === tileY && summon.id !== id && summon.mapId !== instanceId) return DragStatus.Swap;
+	}
+	return DragStatus.Valid;
 }
 
 function AddDollToMap(drag: DragState): void {
-	const isOccupied = isDollAtTile(drag.currentTileX, drag.currentTileY, drag.id, drag.instanceId);
-	const isValid = isValidMapPosition(drag.currentTileX, drag.currentTileY) && !isOccupied;
-
-	if (drag.isOverDiscard) {
+	if (drag.status === DragStatus.Discard) {
 		removeDollOrSummon(drag.id, drag.instanceId);
-	} else if (isValid) {
+	} else if (drag.status === DragStatus.Swap) {
+		const swapDoll = getObjectAtWorld(drag.currentTileX, drag.currentTileY);
+		swapPositions(drag.id, drag.instanceId, drag.currentTileX, drag.currentTileY, swapDoll);
+	} else if (drag.status === DragStatus.Valid) {
 		if (drag.instanceId) {
 			placeSummon(drag.id, drag.instanceId, drag.currentTileX, drag.currentTileY);
 		} else {
@@ -366,23 +340,18 @@ function updateDragInfo(clientX: number, clientY: number): void {
 	if (drag.isActive === false) return;
 
 	const world = screenToWorld(clientX, clientY);
-	const isOccupied = isDollAtTile(world.tileX, world.tileY, drag.id, drag.instanceId);
-	const isValid = isValidMapPosition(world.tileX, world.tileY) && !isOccupied;
 	setDrag(
 		produce((d) => {
 			d.screenX = clientX;
 			d.screenY = clientY;
 			d.currentTileX = world.tileX;
 			d.currentTileY = world.tileY;
-			d.isValid = isValid;
+			d.status = getDragStatus(world.tileX, world.tileY, drag.id, drag.instanceId);
 		})
 	);
 }
 
-function getObjectAtWorld(
-	tileX: number,
-	tileY: number
-): Omit<DragState, "screenX" | "screenY" | "isOverDiscard" | "isActive" | "isValid"> | null {
+function getObjectAtWorld(tileX: number, tileY: number): Omit<DragState, "screenX" | "screenY" | "isActive" | "status"> | null {
 	const tab = state.tabData[state.currentTab]!;
 	for (const [dollId, position] of Object.entries(tab.dollPositions)) {
 		if (position.x === tileX && position.y === tileY) {
@@ -447,6 +416,7 @@ export default function ArenaCanvas() {
 
 	const isSetupTab = () => activeTab() === "setup" || state.currentTab === 0;
 	const isActionTab = () => activeTab() === "actions" && state.currentTab > 0;
+	const isDragActive = () => drag.isActive === true;
 
 	return (
 		<div>
@@ -462,7 +432,7 @@ export default function ArenaCanvas() {
 					{coords() || "00,00"}
 				</div>
 				<div
-					class={`pointer-events-auto absolute top-1/2 right-6 flex -translate-y-1/2 touch-none flex-col items-center justify-center gap-2 rounded-2xl border-3 border-dashed border-[#7f1d1d] bg-[rgba(127,29,29,0.55)] p-6 backdrop-blur-sm select-none ${isDiscardActive() ? "opacity-40" : "opacity-100"} ${isDragActive() ? "" : "pointer-events-none hidden"}`}
+					class={`pointer-events-auto absolute top-1/2 right-6 flex -translate-y-1/2 touch-none flex-col items-center justify-center gap-2 rounded-2xl border-3 border-dashed border-[#7f1d1d] bg-[rgba(127,29,29,0.55)] p-6 backdrop-blur-sm select-none ${discardHover() ? "opacity-40" : "opacity-100"} ${isDragActive() ? "" : "pointer-events-none hidden"}`}
 					onPointerEnter={handleDiscardEnter}
 					onPointerLeave={handleDiscardLeave}>
 					<div class="h-10 w-10">
