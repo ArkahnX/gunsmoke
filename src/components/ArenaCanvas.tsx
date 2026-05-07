@@ -496,25 +496,27 @@ export default function ArenaCanvas() {
 	const isActionTab = () => activeTab() === "actions" && state.currentTab > 0;
 
 	return (
-		<div
-			class="flex flex-1 touch-none"
-			onWheel={handleWheel}
-			onPointerDown={handlePointerDown}
-			onPointerMove={handlePointerMove}
-			onPointerUp={handlePointerUp}>
-			<canvas ref={canvasEl} />
-			{/* Coords overlay */}
-			<div class="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 rounded-3xl bg-black/80 px-4 py-1.5 font-mono text-xs text-lime-400">
-				{coords() || "00,00"}
-			</div>
+		<div>
 			<div
-				class={`pointer-events-auto absolute top-1/2 right-6 flex -translate-y-1/2 touch-none flex-col items-center justify-center gap-2 rounded-2xl border-3 border-dashed border-[#7f1d1d] bg-[rgba(127,29,29,0.55)] p-6 backdrop-blur-sm select-none ${isDiscardActive() ? "opacity-40" : "opacity-100"} ${isDragActive() ? "" : "pointer-events-none hidden"}`}
-				onPointerEnter={handleDiscardEnter}
-				onPointerLeave={handleDiscardLeave}>
-				<div class="h-10 w-10">
-					<Discard />
+				class="flex flex-1 touch-none"
+				onWheel={handleWheel}
+				onPointerDown={handlePointerDown}
+				onPointerMove={handlePointerMove}
+				onPointerUp={handlePointerUp}>
+				<canvas ref={canvasEl} />
+				{/* Coords overlay */}
+				<div class="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 rounded-3xl bg-black/80 px-4 py-1.5 font-mono text-xs text-lime-400">
+					{coords() || "00,00"}
 				</div>
-				<span class="text-center text-lg leading-tight font-bold text-[#f87171]">Remove</span>
+				<div
+					class={`pointer-events-auto absolute top-1/2 right-6 flex -translate-y-1/2 touch-none flex-col items-center justify-center gap-2 rounded-2xl border-3 border-dashed border-[#7f1d1d] bg-[rgba(127,29,29,0.55)] p-6 backdrop-blur-sm select-none ${isDiscardActive() ? "opacity-40" : "opacity-100"} ${isDragActive() ? "" : "pointer-events-none hidden"}`}
+					onPointerEnter={handleDiscardEnter}
+					onPointerLeave={handleDiscardLeave}>
+					<div class="h-10 w-10">
+						<Discard />
+					</div>
+					<span class="text-center text-lg leading-tight font-bold text-[#f87171]">Remove</span>
+				</div>
 			</div>
 			<div class="absolute top-3.75 bottom-3.75 left-3.75 z-10 flex">
 				<Modal width="w-96">
