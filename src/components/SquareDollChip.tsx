@@ -9,9 +9,6 @@ export default function SquareDollChip(props: {
 	selected?: boolean;
 	draggable?: boolean;
 	onClick?: () => void;
-	onDragStart?: (e: DragEvent) => void;
-	onMouseDown?: (e: MouseEvent) => void;
-	onTouchStart?: (e: TouchEvent) => void;
 	rounded?: boolean;
 	style?: string;
 	size?: string;
@@ -19,16 +16,10 @@ export default function SquareDollChip(props: {
 	name?: boolean;
 }) {
 	const interactive =
-		typeof props.onClick !== "undefined" ||
-		typeof props.onDragStart !== "undefined" ||
-		typeof props.onMouseDown !== "undefined" ||
-		typeof props.onTouchStart !== "undefined";
+		typeof props.onClick !== "undefined";
 	return (
 		<div
 			onClick={props.onClick}
-			onDragStart={props.onDragStart}
-			onMouseDown={props.onMouseDown}
-			onTouchStart={props.onTouchStart}
 			draggable={props.draggable}
 			style={props.style}
 			class={`relative box-border flex ${props.size || "h-14 w-14"} flex-col overflow-hidden border-b-3 shadow-sm shadow-black/50 transition transition-discrete duration-175 ${interactive ? "cursor-pointer outline-3 hover:scale-107 hover:outline-white" : ""} ${props.selected ? "outline-[#F26C1C]" : "outline-transparent"} ${props.doll.rarity === "Elite" ? "border-b-[#DF9E00]" : "border-b-[#7968BA]"} ${props.rounded ? "rounded-sm" : ""}`}>

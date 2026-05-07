@@ -1,28 +1,163 @@
-import { onMount } from "solid-js";
-import { state, setState, zoom, offsetX, offsetY, placeDoll, placeSummon, saveToLocalStorage, mapGrid } from "../store";
-import { TILE_SIZE, CANVAS_SIZE, MAP_BOUNDS, MIN_SCALE, MAX_SCALE, MAP_SIZE } from "../types/constants";
+import { createSignal, onMount } from "solid-js";
+import { state, placeDoll, placeSummon, mapGrid, removeDollOrSummon, setCoords, coords } from "../store";
+import { TILE_SIZE, MAP_BOUNDS, MIN_SCALE, MAX_SCALE, MAP_SIZE } from "../types/constants";
 import { drawMapTilesOnArena, drawGhostOnCanvas } from "../canvas/draw";
-import { produce } from "solid-js/store";
-import { ArenaCanvasProps, Camera, DragState } from "../types";
+import { createStore, produce } from "solid-js/store";
+import { Camera, DragState } from "../types";
+import Discard from "./icons/Discard";
+import Modal from "./modals/Modal";
+import SetupSidebar from "./SetupSidebar";
+import ActionSidebar from "./ActionSidebar";
 
 // TODO note; canvasEl may not be defined outside of ArenaCanvas
 let canvasEl!: HTMLCanvasElement;
 let ctx: CanvasRenderingContext2D;
 let dpr: number = 1;
-let draggingCharId: string | null = null;
 
 const camera: Camera = { x: MAP_BOUNDS.maxX / 2, y: MAP_BOUNDS.maxY / 2, scale: 2 };
 
-// Mouse pan state
-let isPanning = false;
-let lastMouse = { x: 0, y: 0 };
+const activePointers: Map<number, { x: number; y: number }> = new Map();
 
-// Touch state
-const activeTouches: Map<number, { x: number; y: number }> = new Map();
-let lastPinchDist: number | null = null;
+const [activeTab, setActiveTab] = createSignal("setup");
 
-let drag: DragState | null = null;
-let nextObjId = 1;
+const [drag, setDrag] = createStore<DragState>({
+	id: "",
+	instanceId: "",
+	screenX: -1,
+	screenY: -1,
+	currentTileX: -1,
+	currentTileY: -1,
+	isValid: false,
+	isOverDiscard: false,
+	isActive: false,
+});
+
+export function handlePointerDown(e: PointerEvent) {
+	e.preventDefault();
+	activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+	if (activePointers.size === 1) {
+		// determine if we should start dragging a doll or pan the canvas
+		const world = screenToWorld(e.clientX, e.clientY);
+		const hit = getObjectAtWorld(world.tileX, world.tileY);
+		if (hit) {
+			const isOccupied = isDollAtTile(world.tileX, world.tileY, hit.id, hit.instanceId);
+			const isValid = isValidMapPosition(world.tileX, world.tileY) && !isOccupied;
+			setDrag(
+				produce((d) => {
+					d.id = hit.id;
+					d.instanceId = hit.instanceId;
+					d.screenX = e.clientX;
+					d.screenY = e.clientY;
+					d.currentTileX = hit.currentTileX;
+					d.currentTileY = hit.currentTileY;
+					d.isActive = true;
+					d.isValid = isValid;
+					d.isOverDiscard = false;
+				})
+			);
+		}
+	} else {
+		// cancel any ongoing doll dragging if more than one pointer is present
+		setDrag(
+			produce((d) => {
+				d.isActive = false;
+			})
+		);
+	}
+}
+
+export function handlePointerMove(e: PointerEvent) {
+	e.preventDefault();
+	const world = screenToWorld(e.clientX, e.clientY);
+	setCoords(`${String(world.tileX).padStart(2, "0")},${String(world.tileY).padStart(2, "0")}`);
+	// If the number of pointers is not 1 or 2, do nothing
+	if (activePointers.size < 1 || activePointers.size > 2) return;
+	const previousPointers = new Map(activePointers);
+	activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+
+	if (activePointers.size === 1) {
+		if (drag.isActive) {
+			updateDragInfo(e.clientX, e.clientY);
+		} else {
+			// pan canvas
+			const prev = previousPointers.get(e.pointerId)!;
+			const dx = e.clientX - prev.x;
+			const dy = e.clientY - prev.y;
+			camera.x -= dx / camera.scale;
+			camera.y -= dy / camera.scale;
+			clampCamera();
+		}
+	} else {
+		// zoom canvas
+		const [idA, idB] = activePointers.keys();
+		const currA = activePointers.get(idA)!;
+		const currB = activePointers.get(idB)!;
+		const prevA = previousPointers.get(idA)!;
+		const prevB = previousPointers.get(idB)!;
+
+		const prevMid = { x: (prevA.x + prevB.x) / 2, y: (prevA.y + prevB.y) / 2 };
+		const currMid = { x: (currA.x + currB.x) / 2, y: (currA.y + currB.y) / 2 };
+
+		// Pan by midpoint delta
+		camera.x -= (currMid.x - prevMid.x) / camera.scale;
+		camera.y -= (currMid.y - prevMid.y) / camera.scale;
+
+		// Zoom by distance ratio, centred on the midpoint
+		const prevDist = Math.hypot(prevA.x - prevB.x, prevA.y - prevB.y);
+		const currDist = Math.hypot(currA.x - currB.x, currA.y - currB.y);
+		if (prevDist > 0) {
+			zoomAt(currMid.x, currMid.y, currDist / prevDist);
+		}
+	}
+}
+
+export function handlePointerUp(e: PointerEvent) {
+	e.preventDefault();
+	e.stopPropagation();
+	activePointers.delete(e.pointerId);
+	if (activePointers.size === 0) {
+		AddDollToMap(drag);
+		setDrag(
+			produce((d) => {
+				d.isActive = false;
+			})
+		);
+	}
+}
+
+export function handleWheel(e: WheelEvent) {
+	e.preventDefault();
+	const factor = e.deltaY < 0 ? 1.1 : 1 / 1.1;
+	zoomAt(e.clientX, e.clientY, factor);
+}
+
+export function handleDiscardEnter(e: PointerEvent) {
+	e.preventDefault();
+	if (!drag.isActive) return;
+	setDrag(
+		produce((d) => {
+			d.isOverDiscard = true;
+		})
+	);
+}
+
+export function handleDiscardLeave(e: PointerEvent) {
+	e.preventDefault();
+	if (!drag.isActive) return;
+	setDrag(
+		produce((d) => {
+			d.isOverDiscard = false;
+		})
+	);
+}
+
+export function isDragActive() {
+	return drag.isActive;
+}
+
+export function isDiscardActive() {
+	return drag.isOverDiscard;
+}
 
 // ─── Object helpers ────────────────────────────────────────────────────────
 
@@ -30,18 +165,18 @@ function tileKey(col: number, row: number): string {
 	return `${col},${row}`;
 }
 
-function getObjectAtWorld(tileX: number, tileY: number): DragState | null {
+function getObjectAtWorld(
+	tileX: number,
+	tileY: number
+): Omit<DragState, "screenX" | "screenY" | "isOverDiscard" | "isActive" | "isValid"> | null {
 	const tab = state.tabData[state.currentTab]!;
 	for (const [dollId, position] of Object.entries(tab.dollPositions)) {
 		if (position.x === tileX && position.y === tileY) {
 			return {
 				id: dollId,
 				instanceId: null,
-				screenX: 0,
-				screenY: 0,
 				currentTileX: position.x,
 				currentTileY: position.y,
-				isValid: true,
 			};
 		}
 	}
@@ -50,28 +185,12 @@ function getObjectAtWorld(tileX: number, tileY: number): DragState | null {
 			return {
 				id: position.id,
 				instanceId: position.mapId,
-				screenX: 0,
-				screenY: 0,
 				currentTileX: position.x,
 				currentTileY: position.y,
-				isValid: true,
 			};
 		}
 	}
 	return null;
-}
-
-function commitDrop(tileX: number, tileY: number, id: string, instanceId: string | null): void {
-	const isOccupied = isDollAtTile(tileX, tileY, id, instanceId);
-	const isValid = isValidMapPosition(tileX, tileY) && !isOccupied;
-
-	if (isValid) {
-		if (instanceId) {
-			placeSummon(id, instanceId, tileX, tileY);
-		} else {
-			placeDoll(id, tileX, tileY);
-		}
-	}
 }
 
 // ─── HiDPI ─────────────────────────────────────────────────────────────────
@@ -99,26 +218,19 @@ function fitToWindow(): void {
 // ─── Coordinate conversion ─────────────────────────────────────────────────
 
 /** CSS pixel → world coordinate (dpr-agnostic: use offsetX/offsetY or clientX/clientY). */
-function screenToWorld(sx: number, sy: number): { x: number; y: number; tileX: number; tileY: number } {
+function screenToWorld(clientX: number, clientY: number): { x: number; y: number; tileX: number; tileY: number } {
+	const rect = canvasEl.getBoundingClientRect();
+	const screenX = clientX - rect.left;
+	const screenY = clientY - rect.top;
 	const cssW = canvasEl.width / dpr;
 	const cssH = canvasEl.height / dpr;
-	const x = (sx - cssW / 2) / camera.scale + camera.x;
-	const y = (sy - cssH / 2) / camera.scale + camera.y;
+	const x = (screenX - cssW / 2) / camera.scale + camera.x;
+	const y = (screenY - cssH / 2) / camera.scale + camera.y;
 	return {
 		x,
 		tileX: Math.floor(x / TILE_SIZE),
 		y,
 		tileY: Math.floor(y / TILE_SIZE),
-	};
-}
-
-/** World coordinate → CSS pixel. */
-function worldToScreen(wx: number, wy: number): { x: number; y: number } {
-	const cssW = canvasEl.width / dpr;
-	const cssH = canvasEl.height / dpr;
-	return {
-		x: (wx - camera.x) * camera.scale + cssW / 2,
-		y: (wy - camera.y) * camera.scale + cssH / 2,
 	};
 }
 
@@ -183,11 +295,11 @@ function clampCamera(): void {
  * Records world position under point before scale change, then shifts
  * the camera so that same world point remains under the cursor after.
  */
-function zoomAt(cssPx: number, cssPy: number, factor: number): void {
-	const before = screenToWorld(cssPx, cssPy);
+function zoomAt(clientX: number, clientY: number, factor: number): void {
+	const before = screenToWorld(clientX, clientY);
 	camera.scale *= factor;
 	clampCamera(); // clamps scale first
-	const after = screenToWorld(cssPx, cssPy);
+	const after = screenToWorld(clientX, clientY);
 	camera.x += before.x - after.x;
 	camera.y += before.y - after.y;
 	clampCamera(); // re-clamp position after shift
@@ -223,8 +335,8 @@ function draw(): void {
 
 	applyCamera();
 	drawMapTilesOnArena(ctx, drag, state.currentTab);
-	if (drag) {
-		drawGhostOnCanvas(ctx, drag.currentTileX, drag.currentTileY, drag.id, drag.isValid);
+	if (drag.isActive) {
+		drawGhostOnCanvas(ctx, drag);
 	}
 }
 
@@ -238,199 +350,81 @@ function loop(): void {
 // ★ NEW
 // Called by buildStagingArea when the user starts dragging a staging token.
 // Attaches transient window-level listeners that track the pointer until release.
-export function beginExternalDrag(id: string, instanceId: string | null, e: MouseEvent | TouchEvent): void {
-	const getXY = (ev: MouseEvent | TouchEvent) =>
-		"touches" in ev
-			? { x: ev.touches[0].clientX, y: ev.touches[0].clientY }
-			: { x: (ev as MouseEvent).clientX, y: (ev as MouseEvent).clientY };
-
-	const { x, y } = getXY(e);
-
-	drag = {
-		id,
-		instanceId,
-		screenX: x,
-		screenY: y,
-		currentTileX: -1,
-		currentTileY: -1,
-		isValid: false,
-	};
+export function deployFromSetupPanel(id: string, instanceId: string | null, e: PointerEvent): void {
+	e.preventDefault();
+	canvasEl.setPointerCapture(e.pointerId);
+	activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+	if (activePointers.size === 1) {
+		// determine if we should start dragging a doll or pan the canvas
+		const world = screenToWorld(e.clientX, e.clientY);
+		const isOccupied = isDollAtTile(world.tileX, world.tileY, id, instanceId);
+		const isValid = isValidMapPosition(world.tileX, world.tileY) && !isOccupied;
+		setDrag(
+			produce((d) => {
+				d.id = id;
+				d.instanceId = instanceId;
+				d.screenX = e.clientX;
+				d.screenY = e.clientY;
+				d.currentTileX = world.tileX;
+				d.currentTileY = world.tileY;
+				d.isActive = true;
+				d.isValid = isValid;
+				d.isOverDiscard = false;
+			})
+		);
+	}
 
 	// ★ NEW helper — update ghost position and target tile
-	const onMove = (ev: MouseEvent | TouchEvent) => {
-		if (!drag) return;
-		const { x: cx, y: cy } = getXY(ev);
-		drag.screenX = cx;
-		drag.screenY = cy;
-		updateExternalDrag(cx, cy);
+	const onMove = (ev: PointerEvent) => {
+		if (drag.isActive) {
+			updateDragInfo(ev.clientX, ev.clientY);
+		}
 	};
 
 	// ★ NEW helper — commit or cancel on pointer up
-	const onUp = (ev: MouseEvent | TouchEvent) => {
-		window.removeEventListener("mousemove", onMove);
-		window.removeEventListener("mouseup", onUp);
-		window.removeEventListener("touchmove", onMove);
-		window.removeEventListener("touchend", onUp);
+	const onUp = (ev: PointerEvent) => {
+		window.removeEventListener("pointermove", onMove);
+		window.removeEventListener("pointerup", onUp);
 
-		if (drag?.isValid) {
-			commitExternalDrop(drag.currentTileX, drag.currentTileY, id, instanceId);
-		}
-		drag = null;
+		handlePointerUp(ev);
 	};
 
-	window.addEventListener("mousemove", onMove);
-	window.addEventListener("mouseup", onUp);
-	window.addEventListener("touchmove", onMove, { passive: false });
-	window.addEventListener("touchend", onUp);
+	window.addEventListener("pointermove", onMove);
+	window.addEventListener("pointerup", onUp);
 }
 
 // ★ NEW — converts the screen position to a tile and checks validity
-function updateExternalDrag(clientX: number, clientY: number): void {
-	if (!drag) return;
+function updateDragInfo(clientX: number, clientY: number): void {
+	if (drag.isActive === false) return;
 
-	const rect = canvasEl.getBoundingClientRect();
-	const overCanvas = clientX >= rect.left && clientX <= rect.right && clientY >= rect.top && clientY <= rect.bottom;
-
-	if (!overCanvas) {
-		drag.currentTileX = -1;
-		drag.currentTileY = -1;
-		drag.isValid = false;
-		return;
-	}
-
-	const cssX = clientX - rect.left;
-	const cssY = clientY - rect.top;
-	const world = screenToWorld(cssX, cssY);
-	const col = Math.floor(world.x / TILE_SIZE);
-	const row = Math.floor(world.y / TILE_SIZE);
-
-	const isOccupied = isDollAtTile(col, row, drag.id, drag.instanceId);
-	const isValid = isValidMapPosition(col, row) && !isOccupied;
-
-	drag.currentTileX = col;
-	drag.currentTileY = row;
-	drag.isValid = isValid;
+	const world = screenToWorld(clientX, clientY);
+	const isOccupied = isDollAtTile(world.tileX, world.tileY, drag.id, drag.instanceId);
+	const isValid = isValidMapPosition(world.tileX, world.tileY) && !isOccupied;
+	setDrag(
+		produce((d) => {
+			d.screenX = clientX;
+			d.screenY = clientY;
+			d.currentTileX = world.tileX;
+			d.currentTileY = world.tileY;
+			d.isValid = isValid;
+		})
+	);
 }
 
 // ★ NEW — places a brand-new GameObject on the map at the ghost's tile
-function commitExternalDrop(tileX: number, tileY: number, id: string, instanceId: string | null): void {
-	const isOccupied = isDollAtTile(tileX, tileY, id, instanceId);
-	const isValid = isValidMapPosition(tileX, tileY) && !isOccupied;
+function AddDollToMap(drag: DragState): void {
+	const isOccupied = isDollAtTile(drag.currentTileX, drag.currentTileY, drag.id, drag.instanceId);
+	const isValid = isValidMapPosition(drag.currentTileX, drag.currentTileY) && !isOccupied;
 
-	if (isValid) {
-		if (instanceId) {
-			placeSummon(id, instanceId, tileX, tileY);
+	if (drag.isOverDiscard) {
+		removeDollOrSummon(drag.id, drag.instanceId);
+	} else if (isValid) {
+		if (drag.instanceId) {
+			placeSummon(drag.id, drag.instanceId, drag.currentTileX, drag.currentTileY);
 		} else {
-			placeDoll(id, tileX, tileY);
+			placeDoll(drag.id, drag.currentTileX, drag.currentTileY);
 		}
 	}
-}
-
-// ─── Touch events ──────────────────────────────────────────────────────────
-
-/**
- * Strategy:
- *  - Track all active touches by identifier in activeTouches.
- *  - 1 touch  → pan by delta of that finger.
- *  - 2 touches → pan by midpoint delta + zoom by distance ratio.
- *  - 3+ touches → ignore (treat as no gesture).
- *
- * All coordinates are in CSS pixels (clientX/clientY), matching screenToWorld.
- */
-
-function handleTouchStart(e: TouchEvent): void {
-	e.preventDefault();
-	for (const t of Array.from(e.changedTouches)) {
-		activeTouches.set(t.identifier, { x: t.clientX, y: t.clientY });
-	}
-	// ★ NEW — if exactly one finger lands on an object, drag it
-	if (activeTouches.size === 1 && !drag) {
-		const [touch] = e.changedTouches;
-		const rect = canvasEl.getBoundingClientRect();
-		const world = screenToWorld(touch.clientX - rect.left, touch.clientY - rect.top);
-		const hit = getObjectAtWorld(world.tileX, world.tileY);
-		if (hit) {
-			drag = hit;
-		}
-	}
-
-	// If a second finger appears during an object drag, cancel the drag and switch to pan
-	if (activeTouches.size === 2 && drag) {
-		drag = null;
-	}
-	lastPinchDist = getPinchDist();
-}
-
-function handleTouchMove(e: TouchEvent): void {
-	e.preventDefault();
-	const count = activeTouches.size;
-	if (count < 1 || count > 2) return;
-
-	const prevTouches = new Map(activeTouches);
-
-	// Update positions
-	for (const t of Array.from(e.changedTouches)) {
-		if (activeTouches.has(t.identifier)) {
-			activeTouches.set(t.identifier, { x: t.clientX, y: t.clientY });
-		}
-	}
-
-	// ★ NEW — single finger on a dragged object → update ghost
-	if (count === 1 && drag) {
-		const [touch] = e.changedTouches;
-		const rect = canvasEl.getBoundingClientRect();
-		const world = screenToWorld(touch.clientX - rect.left, touch.clientY - rect.top);
-		updateDrag(world.tileX, world.tileY);
-		return;
-	}
-
-	if (count === 1) {
-		const [id] = activeTouches.keys();
-		const prev = prevTouches.get(id)!;
-		const curr = activeTouches.get(id)!;
-		camera.x -= (curr.x - prev.x) / camera.scale;
-		camera.y -= (curr.y - prev.y) / camera.scale;
-		clampCamera();
-	} else {
-		// 2-finger: pan midpoint + zoom
-		const [idA, idB] = activeTouches.keys();
-		const currA = activeTouches.get(idA)!;
-		const currB = activeTouches.get(idB)!;
-		const prevA = prevTouches.get(idA)!;
-		const prevB = prevTouches.get(idB)!;
-
-		const prevMid = { x: (prevA.x + prevB.x) / 2, y: (prevA.y + prevB.y) / 2 };
-		const currMid = { x: (currA.x + currB.x) / 2, y: (currA.y + currB.y) / 2 };
-
-		// Pan by midpoint delta
-		camera.x -= (currMid.x - prevMid.x) / camera.scale;
-		camera.y -= (currMid.y - prevMid.y) / camera.scale;
-
-		// Zoom by distance ratio, centred on the midpoint
-		const prevDist = Math.hypot(prevA.x - prevB.x, prevA.y - prevB.y);
-		const currDist = Math.hypot(currA.x - currB.x, currA.y - currB.y);
-		if (prevDist > 0) {
-			zoomAt(currMid.x, currMid.y, currDist / prevDist);
-		}
-	}
-}
-
-function handleTouchEnd(e: TouchEvent): void {
-	e.preventDefault();
-	// ★ NEW — finger lifting ends a drag
-	if (drag && activeTouches.size === 1) {
-		endDrag();
-	}
-	for (const t of Array.from(e.changedTouches)) {
-		activeTouches.delete(t.identifier);
-	}
-	lastPinchDist = getPinchDist();
-}
-
-function getPinchDist(): number | null {
-	const pts = Array.from(activeTouches.values());
-	if (pts.length !== 2) return null;
-	return Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
 }
 
 // ─── Drag helpers ──────────────────────────────────────────────────────────
@@ -461,19 +455,25 @@ function updateDrag(tileX: number, tileY: number): void {
 
 	const isOccupied = isDollAtTile(tileX, tileY, drag.id, drag.instanceId);
 	const isValid = isValidMapPosition(tileX, tileY) && !isOccupied;
-
-	drag.currentTileX = tileX;
-	drag.currentTileY = tileY;
-	drag.isValid = isValid;
+	setDrag(
+		produce((d) => {
+			d.currentTileX = tileX;
+			d.currentTileY = tileY;
+			d.isValid = isValid;
+		})
+	);
 }
 
 // ★ NEW — commit or cancel the drop and clear drag state
 function endDrag(): void {
-	if (!drag) return;
 	if (drag.isValid) {
-		commitDrop(drag.currentTileX, drag.currentTileY, drag.id, drag.instanceId);
+		AddDollToMap(drag);
 	}
-	drag = null;
+	setDrag(
+		produce((d) => {
+			d.isActive = false;
+		})
+	);
 }
 
 // ─── Resize ────────────────────────────────────────────────────────────────
@@ -484,20 +484,7 @@ function bindResize(): void {
 	window.matchMedia(`(resolution: ${dpr}dppx)`).addEventListener("change", () => fitToWindow());
 }
 
-// ─── Helpers ───────────────────────────────────────────────────────────────
-
-function getWorldPos(clientX: number, clientY: number) {
-	const rect = canvasEl.getBoundingClientRect();
-	const scaleRatio = CANVAS_SIZE / rect.width;
-	const mx = (clientX - rect.left) * scaleRatio;
-	const my = (clientY - rect.top) * scaleRatio;
-	return {
-		col: Math.floor((mx - offsetX()) / (TILE_SIZE * zoom())),
-		row: Math.floor((my - offsetY()) / (TILE_SIZE * zoom())),
-	};
-}
-
-export default function ArenaCanvas(props: ArenaCanvasProps) {
+export default function ArenaCanvas() {
 	onMount(() => {
 		ctx = canvasEl.getContext("2d")!;
 		fitToWindow();
@@ -505,99 +492,60 @@ export default function ArenaCanvas(props: ArenaCanvasProps) {
 		loop();
 	});
 
-	const handleMouseDown = (e: MouseEvent) => {
-		if (e.button !== 0) return;
-		const world = screenToWorld(e.offsetX, e.offsetY);
-		const hit = getObjectAtWorld(world.tileX, world.tileY);
-		if (hit) {
-			drag = hit;
-		} else {
-			isPanning = true;
-			lastMouse = { x: e.clientX, y: e.clientY };
-		}
-	};
-
-	const handleMouseMove = (e: MouseEvent) => {
-		const world = screenToWorld(e.offsetX, e.offsetY);
-		props.onCoordsChange(`${String(world.tileX).padStart(2, "0")},${String(world.tileY).padStart(2, "0")}`);
-		if (drag) {
-			updateDrag(world.tileX, world.tileY);
-		} else if (isPanning) {
-			const dx = e.clientX - lastMouse.x;
-			const dy = e.clientY - lastMouse.y;
-			camera.x -= dx / camera.scale;
-			camera.y -= dy / camera.scale;
-			clampCamera();
-			lastMouse = { x: e.clientX, y: e.clientY };
-		}
-	};
-
-	const handleMouseUp = () => {
-		if (drag) {
-			endDrag();
-		}
-		isPanning = false;
-	};
-
-	const handleWheel = (e: WheelEvent) => {
-		e.preventDefault();
-		const factor = e.deltaY < 0 ? 1.1 : 1 / 1.1;
-		zoomAt(e.offsetX, e.offsetY, factor);
-	};
-
-	const handleDragOver = (e: DragEvent) => e.preventDefault();
-
-	const handleDrop = (e: DragEvent) => {
-		e.preventDefault();
-		const raw = e.dataTransfer?.getData("text/plain") ?? "";
-		const pos = getWorldPos(e.clientX, e.clientY);
-		if (raw.startsWith("summon:")) {
-			const parts = raw.split(":");
-			placeSummon(parts[1]!, parts[2]!, pos.col, pos.row);
-		} else {
-			const parts = raw.split(":");
-			placeDoll(parts[1]!, pos.col, pos.row);
-		}
-	};
-
-	const handleContextMenu = (e: MouseEvent) => {
-		e.preventDefault();
-		if (state.currentTab < 1 || state.currentTab > 7) return;
-		const pos = getWorldPos(e.clientX, e.clientY);
-		setState(
-			produce((s) => {
-				const summons = s.tabData[s.currentTab]!.summonPositions;
-				for (let i = summons.length - 1; i >= 0; i--) {
-					if (summons[i]!.x === pos.col && summons[i]!.y === pos.row) {
-						summons.splice(i, 1);
-						break;
-					}
-				}
-			})
-		);
-		saveToLocalStorage();
-	};
+	const isSetupTab = () => activeTab() === "setup" || state.currentTab === 0;
+	const isActionTab = () => activeTab() === "actions" && state.currentTab > 0;
 
 	return (
-		<canvas
-			ref={canvasEl}
-			class="shadow-2xl"
-			onMouseDown={handleMouseDown}
-			onMouseMove={handleMouseMove}
-			onMouseUp={handleMouseUp}
-			onMouseLeave={() => {
-				// TODO REWRITE
-				isPanning = false;
-				draggingCharId = null;
-			}}
-			onTouchStart={handleTouchStart}
-			onTouchMove={handleTouchMove}
-			onTouchEnd={handleTouchEnd}
-			onTouchCancel={handleTouchEnd}
-			onDragOver={handleDragOver}
-			onDrop={handleDrop}
+		<div
+			class="flex flex-1 touch-none"
 			onWheel={handleWheel}
-			onContextMenu={handleContextMenu}
-		/>
+			onPointerDown={handlePointerDown}
+			onPointerMove={handlePointerMove}
+			onPointerUp={handlePointerUp}>
+			<canvas ref={canvasEl} />
+			{/* Coords overlay */}
+			<div class="pointer-events-none absolute bottom-6 left-1/2 -translate-x-1/2 rounded-3xl bg-black/80 px-4 py-1.5 font-mono text-xs text-lime-400">
+				{coords() || "00,00"}
+			</div>
+			<div
+				class={`pointer-events-auto absolute top-1/2 right-6 flex -translate-y-1/2 touch-none flex-col items-center justify-center gap-2 rounded-2xl border-3 border-dashed border-[#7f1d1d] bg-[rgba(127,29,29,0.55)] p-6 backdrop-blur-sm select-none ${isDiscardActive() ? "opacity-40" : "opacity-100"} ${isDragActive() ? "" : "pointer-events-none hidden"}`}
+				onPointerEnter={handleDiscardEnter}
+				onPointerLeave={handleDiscardLeave}>
+				<div class="h-10 w-10">
+					<Discard />
+				</div>
+				<span class="text-center text-lg leading-tight font-bold text-[#f87171]">Remove</span>
+			</div>
+			<div class="absolute top-3.75 bottom-3.75 left-3.75 z-10 flex">
+				<Modal width="w-96">
+					<div class="flex gap-1 px-3 pb-1.75">
+						<button
+							onClick={() => {
+								setActiveTab("setup");
+							}}
+							class={`flex h-13 flex-1 items-center justify-center gap-1 rounded-t-sm border-b-4 px-1 pt-3 pb-2 text-2xl font-bold transition-all ${
+								isSetupTab()
+									? "border-[#F0AF16] bg-[#384B53] text-[#EFEFEF] shadow-xl/20"
+									: "border-[#8F9094] bg-[#A8A9AE] text-[#384B53] hover:border-[#606164]"
+							}`}>
+							<span>Setup</span>
+						</button>
+						<button
+							onClick={() => {
+								setActiveTab("actions");
+							}}
+							class={`flex h-13 flex-1 items-center justify-center gap-1 rounded-t-sm border-b-4 px-1 pt-3 pb-2 text-2xl font-bold transition-all ${
+								isActionTab()
+									? "border-[#F0AF16] bg-[#384B53] text-[#EFEFEF] shadow-xl/20"
+									: "border-[#8F9094] bg-[#A8A9AE] text-[#384B53] hover:border-[#606164]"
+							} ${state.currentTab === 0 ? "cursor-not-allowed opacity-50" : ""}`}>
+							<span>Doll Actions</span>
+						</button>
+					</div>
+					<SetupSidebar active={isSetupTab()} />
+					<ActionSidebar active={isActionTab()} />
+				</Modal>
+			</div>
+		</div>
 	);
 }

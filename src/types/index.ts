@@ -157,6 +157,8 @@ export interface DragState {
 	currentTileX: number; // tile column the ghost is hovering over
 	currentTileY: number;
 	isValid: boolean; // tile is in-bounds and unoccupied
+	isOverDiscard: boolean;
+	isActive: boolean;
 }
 
 export interface DollInfo {

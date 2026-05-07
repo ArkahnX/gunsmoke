@@ -1,5 +1,5 @@
 import { createStore, produce } from "solid-js/store";
-import { createMemo, createSignal } from "solid-js";
+import { createSignal } from "solid-js";
 import type {
 	AppState,
 	DollData,
@@ -12,7 +12,6 @@ import type {
 	Position,
 	TabData,
 	RawDollEntry,
-	Skill,
 	KeyData,
 } from "../types";
 import { MAP_SIZE, SAVE_VERSION, SKILL_DISPLAY_KEY, STORAGE_KEY, TILE_SIZE } from "../types/constants";
@@ -102,6 +101,7 @@ export const [dollFortification, setDollFortification] = createSignal<Record<str
 
 // ====================== ARENA VIEWPORT ======================
 export const [zoom, setZoom] = createSignal(2.0);
+export const [coords, setCoords] = createSignal("");
 export const [offsetX, setOffsetX] = createSignal(0);
 export const [offsetY, setOffsetY] = createSignal(0);
 
@@ -319,7 +319,7 @@ export function loadState(newData: AppState & { version: number }) {
 				for (const character of Array.from(newData.actionType)) {
 					s.skillDisplay.push(parseInt(character));
 				}
-			} else if(newData.skillDisplay) {
+			} else if (newData.skillDisplay) {
 				s.skillDisplay = newData.skillDisplay;
 			}
 			for (let tabIndex = 0; tabIndex < 8; tabIndex++) {
@@ -454,6 +454,29 @@ export function placeSummon(summonId: string, mapId: string, col: number, row: n
 					if (p.x === col && p.y === row) return;
 				}
 				positions.push({ id: summonId, mapId, x: col, y: row });
+			}
+		})
+	);
+	saveToLocalStorage();
+}
+
+export function removeDollOrSummon(id?: string, instanceId?: string | null) {
+	if (!id) return;
+	if (!instanceId) {
+		setState(
+			produce((s) => {
+				s.tabData[s.currentTab]!.dollPositions[id] = { x: -1, y: -1 };
+			})
+		);
+		saveToLocalStorage();
+		return;
+	}
+	setState(
+		produce((s) => {
+			const positions = s.tabData[s.currentTab]!.summonPositions;
+			const existing = positions.find((p) => p.mapId === instanceId && p.id === id);
+			if (existing) {
+				positions.splice(positions.indexOf(existing), 1);
 			}
 		})
 	);

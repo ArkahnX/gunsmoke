@@ -11,7 +11,6 @@ import {
 	saveToLocalStorage,
 	defaultActionOrder,
 	getDollFromSummon,
-	updateSkillDisplay,
 	setShowExportModal,
 	getDollFromId,
 	getSummonFromId,
@@ -22,9 +21,8 @@ import { editorResetLayout } from "../canvas/editorMap";
 import { produce } from "solid-js/store";
 import Button from "./buttons/Button";
 import SmallDollChip from "./SmallDollChip";
-import { beginExternalDrag } from "./ArenaCanvas";
+import { deployFromSetupPanel } from "./ArenaCanvas";
 import ConfirmModal from "./modals/ConfirmModal";
-import ContentModal from "./modals/ContentModal";
 
 export default function SetupSidebar(props: { active: boolean }) {
 	const isActionTab = createMemo(() => state.currentTab >= 1 && state.currentTab <= 7);
@@ -133,13 +131,9 @@ export default function SetupSidebar(props: { active: boolean }) {
 									target={dollInfo}
 									doll={dollInfo}
 									onDragStart={(e) => e.preventDefault()}
-									onMouseDown={(e) => {
+									onPointerDown={(e) => {
 										e.preventDefault();
-										beginExternalDrag(doll.id, null, e as MouseEvent);
-									}}
-									onTouchStart={(e) => {
-										e.preventDefault();
-										beginExternalDrag(doll.id, null, e as TouchEvent);
+										deployFromSetupPanel(doll.id, null, e);
 									}}
 								/>
 							);
@@ -162,20 +156,12 @@ export default function SetupSidebar(props: { active: boolean }) {
 										target={summonInfo}
 										doll={getDollFromSummon(summonInfo)}
 										onDragStart={(e) => e.preventDefault()}
-										onMouseDown={(e) => {
+										onPointerDown={(e) => {
 											e.preventDefault();
-											beginExternalDrag(
+											deployFromSetupPanel(
 												summonId,
 												`s${state.tabData[state.currentTab]!.summonPositions.length}`,
-												e as MouseEvent
-											);
-										}}
-										onTouchStart={(e) => {
-											e.preventDefault();
-											beginExternalDrag(
-												summonId,
-												`s${state.tabData[state.currentTab]!.summonPositions.length}`,
-												e as TouchEvent
+												e
 											);
 										}}
 									/>

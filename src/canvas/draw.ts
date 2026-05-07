@@ -299,8 +299,8 @@ export function drawMapTilesOnArena(ctx: CanvasRenderingContext2D, drag: DragSta
 			instanceId: null,
 			dollInfo: getInfoFromId(doll.id) as DollData,
 			summonInfo: null,
-			dragId: drag?.id,
-			dragInstanceId: drag?.instanceId,
+			dragId: drag?.isActive ? drag.id : undefined,
+			dragInstanceId: drag?.isActive ? drag.instanceId : null,
 			obscured: obscured(pos.x, pos.y),
 		};
 	});
@@ -316,8 +316,8 @@ export function drawMapTilesOnArena(ctx: CanvasRenderingContext2D, drag: DragSta
 					instanceId: entry.mapId,
 					dollInfo: getInfoFromId(summon.dollId) as DollData,
 					summonInfo: summon,
-					dragId: drag?.id,
-					dragInstanceId: drag?.instanceId,
+					dragId: drag?.isActive ? drag.id : undefined,
+					dragInstanceId: drag?.isActive ? drag.instanceId : null,
 					obscured: obscured(entry.x, entry.y),
 				};
 			}
@@ -427,12 +427,11 @@ export function drawDollLabelOnCanvas(ctx: CanvasRenderingContext2D, data: DollI
 	}
 }
 
-export function drawGhostOnCanvas(ctx: CanvasRenderingContext2D, tileX: number, tileY: number, dollId: string, valid: boolean) {
-	if (!dollId) return;
-	const info = getInfoFromId(dollId);
+export function drawGhostOnCanvas(ctx: CanvasRenderingContext2D, drag: DragState) {
+	const info = getInfoFromId(drag.id);
 	if (!info) return;
-	const cx = Math.round(tileX * TILE_SIZE + TILE_SIZE / 2);
-	const cy = Math.round(tileY * TILE_SIZE + TILE_SIZE / 2);
+	const cx = Math.round(drag.currentTileX * TILE_SIZE + TILE_SIZE / 2);
+	const cy = Math.round(drag.currentTileY * TILE_SIZE + TILE_SIZE / 2);
 	const r = Math.round(TILE_SIZE * 0.475);
 	const avatarOffY = Math.round(TILE_SIZE * 0.06);
 	if (info.preloadedImage?.complete) {
@@ -449,13 +448,26 @@ export function drawGhostOnCanvas(ctx: CanvasRenderingContext2D, tileX: number, 
 	ctx.save();
 	ctx.beginPath();
 	ctx.arc(cx, cy - avatarOffY, r + 2, 0, Math.PI * 2);
-	if (valid) {
+	if (drag.isOverDiscard) {
+		ctx.strokeStyle = "#D42D43";
+	} else if (drag.isValid) {
 		ctx.strokeStyle = "#2dd4bf";
 	} else {
 		ctx.strokeStyle = "#D42D43";
 	}
 	ctx.lineWidth = 2;
 	ctx.stroke();
+	if (drag.isOverDiscard) {
+		ctx.strokeStyle = "#D42D43";
+		ctx.beginPath();
+		ctx.moveTo(drag.currentTileX * TILE_SIZE, drag.currentTileY * TILE_SIZE);
+		ctx.lineTo(drag.currentTileX * TILE_SIZE + TILE_SIZE, drag.currentTileY * TILE_SIZE + TILE_SIZE);
+		ctx.stroke();
+		ctx.beginPath();
+		ctx.moveTo(drag.currentTileX * TILE_SIZE + TILE_SIZE, drag.currentTileY * TILE_SIZE);
+		ctx.lineTo(drag.currentTileX * TILE_SIZE, drag.currentTileY * TILE_SIZE + TILE_SIZE);
+		ctx.stroke();
+	}
 	ctx.restore();
 	const fontSize = Math.max(7, Math.round(TILE_SIZE * 0.28));
 	ctx.font = `bold ${fontSize}px Roboto, sans-serif`;
@@ -467,57 +479,4 @@ export function drawGhostOnCanvas(ctx: CanvasRenderingContext2D, tileX: number, 
 	ctx.fillRect(Math.round(cx - labelW / 2), labelY, labelW, fontSize + 2);
 	ctx.fillStyle = "#ffffff";
 	ctx.fillText(info.name, cx, labelY + 1);
-}
-
-export function drawSummonOnCanvas(
-	ctx: CanvasRenderingContext2D,
-	entry: SummonPosition,
-	summon: SummonData,
-	summonId: string | null | undefined,
-	instanceId: string | null | undefined
-) {
-	const summonInfo = getInfoFromId(summon.id);
-	if (!summonInfo) return;
-	const cx = Math.round(entry.x * TILE_SIZE + TILE_SIZE / 2);
-	const cy = Math.round(entry.y * TILE_SIZE + TILE_SIZE / 2);
-	const r = Math.round(TILE_SIZE * 0.33);
-	const avatarOffY = Math.round(TILE_SIZE * 0.06);
-	ctx.save();
-	ctx.beginPath();
-	ctx.arc(cx, cy - avatarOffY, r + 2, 0, Math.PI * 2);
-	ctx.strokeStyle = "#2dd4bf";
-	ctx.lineWidth = 2;
-	ctx.stroke();
-	ctx.restore();
-	if (summonInfo.preloadedImage?.complete) {
-		ctx.save();
-		if (summonId === entry.id && instanceId === entry.mapId) {
-			// if this summon is being dragged, make the icon mostly transparent
-			ctx.globalAlpha = 0.25;
-		}
-		ctx.beginPath();
-		ctx.arc(cx, cy - avatarOffY, r, 0, Math.PI * 2);
-		ctx.clip();
-		ctx.imageSmoothingEnabled = true;
-		ctx.imageSmoothingQuality = "high";
-		ctx.drawImage(summonInfo.preloadedImage, cx - r, cy - avatarOffY - r, r * 2, r * 2);
-		ctx.restore();
-	} else {
-		ctx.save();
-		ctx.beginPath();
-		ctx.arc(cx, cy - avatarOffY, r, 0, Math.PI * 2);
-		ctx.fillStyle = "#0f4f4a";
-		ctx.fill();
-		ctx.restore();
-	}
-	const fontSize = Math.max(6, Math.round(TILE_SIZE * 0.22));
-	ctx.font = `bold ${fontSize}px Roboto, sans-serif`;
-	ctx.textAlign = "center";
-	ctx.textBaseline = "top";
-	const labelY = Math.round(cy + r - avatarOffY + 2);
-	const labelW = Math.ceil(ctx.measureText(summonInfo.name).width) + 4;
-	ctx.fillStyle = "rgba(0,0,0,0.75)";
-	ctx.fillRect(Math.round(cx - labelW / 2), labelY, labelW, fontSize + 2);
-	ctx.fillStyle = "#2dd4bf";
-	ctx.fillText(summonInfo.name, cx, labelY + 1);
 }

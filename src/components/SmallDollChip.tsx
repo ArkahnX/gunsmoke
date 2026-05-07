@@ -9,21 +9,18 @@ export default function SmallDollChip(props: {
 	draggable?: boolean;
 	onClick?: () => void;
 	onDragStart?: (e: DragEvent) => void;
-	onMouseDown?: (e: MouseEvent) => void;
-	onTouchStart?: (e: TouchEvent) => void;
+	onPointerDown?: (e: PointerEvent) => void;
 	style?: string;
 }) {
 	const interactive =
 		typeof props.onClick !== "undefined" ||
 		typeof props.onDragStart !== "undefined" ||
-		typeof props.onMouseDown !== "undefined" ||
-		typeof props.onTouchStart !== "undefined";
+		typeof props.onPointerDown !== "undefined";
 	return (
 		<div
 			onClick={props.onClick}
 			onDragStart={props.onDragStart}
-			onMouseDown={props.onMouseDown}
-			onTouchStart={props.onTouchStart}
+			onPointerDown={props.onPointerDown}
 			draggable={props.draggable}
 			style={props.style}
 			class={`relative box-border flex max-h-17 w-14 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50 transition transition-discrete duration-175 ${interactive ? "cursor-pointer outline-3 hover:scale-107 hover:outline-white" : ""} ${props.selected ? "outline-[#F26C1C]" : "outline-transparent"}`}>
