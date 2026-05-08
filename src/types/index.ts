@@ -64,12 +64,16 @@ export interface TabData {
 export interface SelectedDoll {
 	id: string;
 	fortification: number;
+	keys: string[];
+	remoldingLvl: number;
+	gun: string;
 }
 
 export interface AppState {
 	selectedDolls: SelectedDoll[];
 	currentTab: number; // -1=editor, 0-7=arena, 8=summary
 	actionType?: number | string;
+	map: string;
 	skillDisplay: number[];
 	tabData: TabData[];
 }

@@ -121,7 +121,6 @@ export const notations: Record<string, string[]> = {
 
 // ====================== EDITOR STATE ======================
 export const [editorTool, setEditorTool] = createSignal<EditorTool>("spawn");
-export const [boundaryDir, setBoundaryDir] = createSignal<BoundaryDir>("h");
 export const [editorStatus, setEditorStatus] = createSignal("Left-click / drag to place · Right-click to erase");
 export const [editorCoords, setEditorCoords] = createSignal("");
 export const [editorIoMode, setEditorIoMode] = createSignal<"export" | "import">("export");
@@ -138,6 +137,7 @@ function makeDefaultTabData(): TabData {
 export const [state, setState] = createStore<AppState>({
 	selectedDolls: [],
 	currentTab: 0,
+	map: "Blade Guard Titan",
 	skillDisplay: [0, 0, 0, 0, 0, 0, 0],
 	tabData: Array.from({ length: 8 }, () => makeDefaultTabData()),
 });
@@ -366,27 +366,7 @@ export function loadState(newData: AppState & { version: number }) {
 		produce((s) => {
 			s.selectedDolls = newData.selectedDolls;
 			s.currentTab = newData.currentTab;
-			if (typeof newData.actionType === "number") {
-				if (newData.actionType === 0) {
-					newData.actionType = "0000000";
-				}
-				if (newData.actionType === 1) {
-					newData.actionType = "1111111";
-				}
-				if (newData.actionType === 2) {
-					newData.actionType = "2222222";
-				}
-			} else if (typeof newData.actionType === "string") {
-				if (newData.actionType.length !== 7) {
-					newData.actionType = "0000000";
-				}
-			}
-			if (newData.actionType && typeof newData.actionType === "string" && newData.actionType.length === 7) {
-				s.skillDisplay.length = 0;
-				for (const character of Array.from(newData.actionType)) {
-					s.skillDisplay.push(parseInt(character));
-				}
-			} else if (newData.skillDisplay) {
+			if (newData.skillDisplay) {
 				s.skillDisplay = newData.skillDisplay;
 			}
 			for (let tabIndex = 0; tabIndex < 8; tabIndex++) {
@@ -430,6 +410,35 @@ export function loadFromLocalStorage(): boolean {
 	} catch {
 		return false;
 	}
+}
+
+export function version7To8Upgrade(data: AppState & { version: number }) {
+	if (data.version !== 7) return data;
+	data.version = 8;
+	if (typeof data.actionType === "number") {
+		if (data.actionType === 0) {
+			data.actionType = "0000000";
+		}
+		if (data.actionType === 1) {
+			data.actionType = "1111111";
+		}
+		if (data.actionType === 2) {
+			data.actionType = "2222222";
+		}
+	} else if (typeof data.actionType === "string") {
+		if (data.actionType.length !== 7) {
+			data.actionType = "0000000";
+		}
+	}
+	if (data.actionType && typeof data.actionType === "string" && data.actionType.length === 7) {
+		data.skillDisplay.length = 0;
+		for (const character of Array.from(data.actionType)) {
+			data.skillDisplay.push(parseInt(character));
+		}
+	}
+	delete data.actionType;
+	data.map = "Tusk Beasteel";
+	return data;
 }
 
 export async function loadFromURL(): Promise<boolean> {
@@ -534,7 +543,7 @@ export function swapPositions(
 	row: number,
 	swapDoll: Omit<DragState, "screenX" | "screenY" | "isActive" | "status"> | null
 ) {
-	if(!swapDoll) return;
+	if (!swapDoll) return;
 	setState(
 		produce((s) => {
 			const oldPosition = getDollPosition(id, instanceId);
