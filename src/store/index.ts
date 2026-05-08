@@ -1,27 +1,27 @@
 import { createStore, produce } from "solid-js/store";
 import { createSignal } from "solid-js";
-import type {
-	AppState,
-	DollData,
-	SummonData,
-	MapCell,
-	EditorTool,
-	BoundaryDir,
-	SelectedDoll,
-	SkillAction,
-	Position,
-	TabData,
-	RawDollEntry,
-	KeyData,
-	DragState,
+import {
+	type AppState,
+	type DollData,
+	type SummonData,
+	type EditorTool,
+	type SelectedDoll,
+	type SkillAction,
+	type Position,
+	type TabData,
+	type RawDollEntry,
+	type KeyData,
+	type DragState,
+	TileType,
+	MapGrid,
 } from "../types";
-import { MAP_SIZE, SAVE_VERSION, SKILL_DISPLAY_KEY, STORAGE_KEY, TILE_SIZE } from "../types/constants";
+import { SAVE_VERSION, SKILL_DISPLAY_KEY, STORAGE_KEY, TILE_SIZE } from "../types/constants";
 
 // ====================== MAP GRID ======================
-export const mapGrid: Record<string, MapCell> = {};
+export const mapGrid: MapGrid = { name: "Default", size: 21, tiles: [] };
 
-export function gridKey(c: number, r: number): string {
-	return `${c},${r}`;
+export function gridKey(column: number, row: number): number {
+	return row * mapGrid.size + column;
 }
 export function cellX(c: number): number {
 	return c * TILE_SIZE;
@@ -30,17 +30,73 @@ export function cellY(r: number): number {
 	return r * TILE_SIZE;
 }
 export function inMapBounds(c: number, r: number): boolean {
-	return c >= 0 && c < MAP_SIZE && r >= 0 && r < MAP_SIZE;
+	return c >= 0 && c < mapGrid.size && r >= 0 && r < mapGrid.size;
 }
-export function getCell(c: number, r: number): MapCell {
-	const k = gridKey(c, r);
-	if (!mapGrid[k]) mapGrid[k] = { cover: null, bossOrigin: null, spawn: false, bndH: false, bndV: false };
-	return mapGrid[k]!;
+export function isTileType(tile: TileType, type: TileType): boolean {
+	return (tile & type) === type;
+}
+export function getCell(column: number, row: number): TileType {
+	if (row > mapGrid.size || column > mapGrid.size) {
+		console.error("Out of bound tile", column, row, mapGrid.size);
+		return TileType.Empty;
+	}
+	return mapGrid.tiles[row * mapGrid.size + column];
+}
+export function getBoss() {
+	const bossIndex = mapGrid.tiles.findIndex((tile) => isTileType(tile, TileType.BossOrigin));
+	if (bossIndex > -1) {
+		return { x: bossIndex % mapGrid.size, y: Math.floor(bossIndex / mapGrid.size) };
+	}
+	return { x: 0, y: 0 };
 }
 export function hasCover(c: number, r: number): boolean {
 	if (!inMapBounds(c, r)) return false;
-	const cell = mapGrid[gridKey(c, r)];
-	return !!cell && cell.cover !== null;
+	const cell = mapGrid.tiles[gridKey(c, r)];
+	return (
+		isTileType(cell, TileType.FullCover) ||
+		isTileType(cell, TileType.HalfCover) ||
+		isTileType(cell, TileType.BossCover) ||
+		isTileType(cell, TileType.BossOrigin)
+	);
+}
+
+export function setMap(name: string, size: number, tiles: TileType[]) {
+	mapGrid.name = name;
+	mapGrid.size = size;
+	mapGrid.tiles.length = 0;
+	mapGrid.tiles.push(...tiles);
+}
+
+export function setCell(x: number, y: number, value: TileType, merge?: boolean) {
+	const before = getCell(x, y);
+	if (merge) {
+		mapGrid.tiles[gridKey(x, y)] = mapGrid.tiles[gridKey(x, y)] | value;
+	}
+	mapGrid.tiles[gridKey(x, y)] = value;
+	console.log(`before: ${debugCell(before)}, after: ${debugCell(getCell(x, y))}`);
+}
+
+export function unsetBoss() {
+	for (const [index, tile] of mapGrid.tiles.entries()) {
+		if (isTileType(tile, TileType.BossCover) || isTileType(tile, TileType.BossOrigin)) {
+			mapGrid.tiles[index] = mapGrid.tiles[index] & ~TileType.BossCover;
+			mapGrid.tiles[index] = mapGrid.tiles[index] & ~TileType.BossOrigin;
+		}
+	}
+}
+
+function debugCell(tile: TileType) {
+	const results = [
+		isTileType(tile, TileType.Empty) ? "Empty" : "",
+		isTileType(tile, TileType.HBoundary) ? "HBoundary" : "",
+		isTileType(tile, TileType.VBoundary) ? "VBoundary" : "",
+		isTileType(tile, TileType.HalfCover) ? "HalfCover" : "",
+		isTileType(tile, TileType.FullCover) ? "FullCover" : "",
+		isTileType(tile, TileType.Spawn) ? "Spawn" : "",
+		isTileType(tile, TileType.BossCover) ? "BossCover" : "",
+		isTileType(tile, TileType.BossOrigin) ? "BossOrigin" : "",
+	];
+	return results.filter((result) => result.length).join(", ");
 }
 
 // ====================== DOLL / SUMMON LISTS ======================

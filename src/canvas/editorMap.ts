@@ -1,72 +1,121 @@
-import { mapGrid, gridKey, getCell, hasCover, inMapBounds } from "../store";
-import { MAP_SIZE, EDITOR_MAP_KEY } from "../types/constants";
-import type { MapData } from "../types";
+import { mapGrid, setMap } from "../store";
+import { EDITOR_MAP_KEY } from "../types/constants";
+import { MapGrid, TileType } from "../types";
+import { createSignal } from "solid-js";
 
-export function editorSerialize(): string {
-	const tiles: MapData["tiles"] = [];
-	const bndHSeen = new Set<string>(),
-		bndVSeen = new Set<string>();
-	for (const k in mapGrid) {
-		const cell = mapGrid[k]!;
-		const [c, r] = k.split(",").map(Number) as [number, number];
-		if (cell.cover === "boss" && cell.bossOrigin?.[0] === c && cell.bossOrigin?.[1] === r) tiles.push({ type: "boss", c, r });
-		else if (cell.cover === "hcov") tiles.push({ type: "hcov", c, r });
-		else if (cell.cover === "fcov") tiles.push({ type: "fcov", c, r });
-		if (cell.spawn) tiles.push({ type: "spawn", c, r });
-		if (cell.bndH && !bndHSeen.has(k)) {
-			bndHSeen.add(k);
-			tiles.push({ type: "hbnd_h", c, r });
-		}
-		if (cell.bndV && !bndVSeen.has(k)) {
-			bndVSeen.add(k);
-			tiles.push({ type: "hbnd_v", c, r });
+export const [editingMap, setEditingMap] = createSignal("Blade Guard Titan");
+
+const empty__ = TileType.Empty;
+const spawn__ = TileType.Spawn;
+const hbound_ = TileType.HBoundary;
+const vbound_ = TileType.VBoundary;
+const hcover_ = TileType.HalfCover;
+const fcover_ = TileType.FullCover;
+const bosssub = TileType.BossCover;
+const bossman = TileType.BossOrigin;
+
+// prettier-ignore
+const maps: MapGrid[] = [{name: "Tusk Beasteel", size: 21, locked: true, tiles: [
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, hcover_, hcover_, hcover_, empty__, empty__, empty__, hbound_, hbound_, hbound_, empty__, empty__, empty__, hcover_, hcover_, hcover_, empty__, empty__, empty__,
+		empty__, empty__, empty__, hcover_, empty__, empty__, empty__, empty__, empty__, hbound_, hbound_, hbound_, empty__, empty__, empty__, empty__, empty__, hcover_, empty__, empty__, empty__,
+		empty__, empty__, empty__, hcover_, empty__, empty__, empty__, spawn__, empty__, empty__, spawn__, empty__, empty__, spawn__, hcover_, empty__, empty__, hcover_, empty__, empty__, empty__,
+		empty__, empty__, empty__, hcover_, empty__, empty__, hcover_, hcover_, hbound_, empty__, empty__, empty__, hbound_, hbound_, hcover_, empty__, empty__, hcover_, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, hcover_, empty__, hbound_, empty__, empty__, empty__, hbound_, hbound_, empty__, empty__, empty__, hcover_, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, spawn__, hcover_, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, spawn__, fcover_, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, hcover_, empty__, empty__, bosssub, bosssub, bosssub, empty__, empty__, empty__, empty__, fcover_, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, bosssub, bossman, bosssub, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, fcover_, empty__, empty__, empty__, empty__, bosssub, bosssub, bosssub, empty__, empty__, hcover_, empty__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, fcover_, spawn__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, hcover_, spawn__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, hcover_, empty__, empty__, empty__, hbound_, hbound_, empty__, empty__, empty__, hbound_, empty__, hcover_, empty__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, hcover_, empty__, empty__, hcover_, hbound_, hbound_, empty__, empty__, empty__, hbound_, hcover_, hcover_, empty__, empty__, hcover_, empty__, empty__, empty__,
+		empty__, empty__, empty__, hcover_, empty__, empty__, hcover_, spawn__, empty__, empty__, spawn__, empty__, empty__, spawn__, empty__, empty__, empty__, hcover_, empty__, empty__, empty__,
+		empty__, empty__, empty__, hcover_, empty__, empty__, empty__, empty__, empty__, hbound_, hbound_, hbound_, empty__, empty__, empty__, empty__, empty__, hcover_, empty__, empty__, empty__,
+		empty__, empty__, empty__, hcover_, hcover_, hcover_, empty__, empty__, empty__, hbound_, hbound_, hbound_, empty__, empty__, empty__, hcover_, hcover_, hcover_, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__
+	]}, {name:"Blade Guard Titan", size: 16, locked: true, default: true, tiles: [
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, vbound_, vbound_, empty__, empty__, empty__, 
+		empty__, empty__, empty__, empty__, hcover_, empty__, empty__, empty__, empty__, empty__, empty__, vbound_, vbound_, empty__, empty__, empty__, 
+		empty__, empty__, hbound_, hbound_, hcover_, empty__, empty__, empty__, hcover_, empty__, empty__, empty__, fcover_, fcover_, empty__, empty__, 
+		empty__, empty__, hbound_, hbound_, empty__, empty__, hcover_, hbound_, empty__, hbound_, hcover_, empty__, empty__, empty__, empty__, empty__, 
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, hbound_, hbound_, hbound_, empty__, empty__, empty__, empty__, empty__, empty__, 
+		empty__, empty__, empty__, empty__, hcover_, empty__, empty__, empty__, hbound_, empty__, empty__, empty__, hcover_, empty__, empty__, empty__, 
+		empty__, empty__, empty__, empty__, vbound_, vbound_, empty__, bosssub, bosssub, bosssub, empty__, vbound_, vbound_, empty__, empty__, empty__, 
+		empty__, empty__, empty__, hcover_, empty__, vbound_, vbound_, bosssub, bossman, bosssub, vbound_, vbound_, empty__, hcover_, empty__, empty__, 
+		empty__, empty__, empty__, empty__, vbound_, vbound_, empty__, bosssub, bosssub, bosssub, empty__, vbound_, vbound_, empty__, empty__, empty__, 
+		empty__, empty__, empty__, empty__, hcover_, empty__, empty__, empty__, hbound_, empty__, empty__, empty__, hcover_, empty__, empty__, empty__, 
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, hbound_, hbound_, hbound_, empty__, empty__, empty__, empty__, empty__, empty__, 
+		empty__, empty__, empty__, empty__, empty__, empty__, hcover_, hbound_, empty__, hbound_, hcover_, empty__, empty__, hbound_, hbound_, empty__, 
+		empty__, empty__, empty__, fcover_, fcover_, empty__, empty__, empty__, hcover_, empty__, empty__, empty__, hcover_, hbound_, hbound_, empty__, 
+		empty__, empty__, empty__, empty__, vbound_, vbound_, empty__, empty__, empty__, empty__, empty__, empty__, hcover_, empty__, empty__, empty__, 
+		empty__, empty__, empty__, empty__, vbound_, vbound_, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, 
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__
+	]}, {name: "Custom", size: 21, tiles:Array(21*21).fill(empty__)}];
+
+export function getDefaultMap() {
+	for (const map of maps) {
+		if (map.default) {
+			return map;
 		}
 	}
-	return JSON.stringify({ cols: MAP_SIZE, rows: MAP_SIZE, tiles }, null, 2);
+	return maps[0];
 }
 
-export function editorDeserialize(json: string) {
-	for (const k in mapGrid) delete mapGrid[k];
-	const data: MapData = JSON.parse(json);
-	for (const t of data.tiles ?? []) {
-		const { type, c, r } = t;
-		if (type === "boss") {
-			if (inMapBounds(c + 2, r + 2)) {
-				for (let dr = 0; dr < 3; dr++)
-					for (let dc = 0; dc < 3; dc++) {
-						const cell = getCell(c + dc, r + dr);
-						cell.cover = "boss";
-						cell.bossOrigin = [c, r];
-						cell.spawn = false;
-						cell.bndH = false;
-						cell.bndV = false;
-					}
-			}
-		} else if (type === "hcov" || type === "fcov") {
-			const cell = getCell(c, r);
-			cell.cover = type;
-			cell.spawn = false;
-			cell.bndH = false;
-			cell.bndV = false;
-		} else if (type === "spawn") {
-			if (!hasCover(c, r)) getCell(c, r).spawn = true;
-		} else if (type === "hbnd_h") {
-			if (inMapBounds(c, r + 1) && !hasCover(c, r) && !hasCover(c, r + 1)) getCell(c, r).bndH = true;
-		} else if (type === "hbnd_v") {
-			if (inMapBounds(c + 1, r) && !hasCover(c, r) && !hasCover(c + 1, r)) getCell(c, r).bndV = true;
+export function mapNames() {
+	return maps.map((map) => map.name);
+}
+
+export function loadMap(name: string) {
+	const map = maps.find((map) => map.name === name);
+	if (map) {
+		setEditingMap(name);
+		setMap(map.name, map.size, map.tiles);
+	}
+}
+
+export function editorSerialize() {
+	for (const map of maps) {
+		if (map.name === editingMap()) {
+			return JSON.stringify(map);
 		}
 	}
+	return "";
+}
+
+export function editorDeserialize(text: string) {
+	try {
+		const data: MapGrid = JSON.parse(text);
+		const oldCustomMap = maps.find((map) => map.name === "Custom");
+		if (oldCustomMap) {
+			maps.splice(maps.indexOf(oldCustomMap), 1);
+		}
+		maps.push(data);
+		return;
+	} catch {}
 }
 
 export function saveEditorMap() {
-	localStorage.setItem(EDITOR_MAP_KEY, editorSerialize());
+	for (const map of maps) {
+		if (map.name === "Custom") {
+			localStorage.setItem(EDITOR_MAP_KEY, JSON.stringify(map));
+		}
+	}
 }
 
 export function loadEditorMap() {
 	const saved = localStorage.getItem(EDITOR_MAP_KEY);
 	if (saved) {
 		try {
-			editorDeserialize(saved);
+			const data: MapGrid = JSON.parse(saved);
+			const oldCustomMap = maps.find((map) => map.name === "Custom");
+			if (oldCustomMap) {
+				maps.splice(maps.indexOf(oldCustomMap), 1);
+			}
+			maps.push(data);
 			return;
 		} catch {}
 	}
@@ -74,112 +123,11 @@ export function loadEditorMap() {
 }
 
 export function editorClearAll() {
-	for (const k in mapGrid) delete mapGrid[k];
-	saveEditorMap();
+	mapGrid.tiles.length = 0;
 }
 
 export function editorResetLayout() {
 	editorClearAll();
-	const defs: [string, number, number][] = [
-		["spawn", 10, 15],
-		["spawn", 13, 15],
-		["spawn", 7, 15],
-		["spawn", 5, 12],
-		["spawn", 5, 8],
-		["spawn", 15, 12],
-		["spawn", 15, 8],
-		["spawn", 7, 5],
-		["spawn", 10, 5],
-		["spawn", 13, 5],
-		["hcov", 6, 14],
-		["hcov", 6, 15],
-		["hcov", 13, 14],
-		["hcov", 14, 14],
-		["hcov", 14, 13],
-		["hcov", 14, 12],
-		["hcov", 14, 11],
-		["hbnd_h", 12, 13],
-		["hbnd_h", 7, 13],
-		["hbnd_h", 8, 13],
-		["hbnd_h", 9, 16],
-		["hbnd_h", 10, 16],
-		["hbnd_h", 11, 16],
-		["fcov", 4, 12],
-		["fcov", 4, 11],
-		["hcov", 6, 9],
-		["hcov", 6, 8],
-		["hcov", 6, 7],
-		["hcov", 7, 6],
-		["hcov", 6, 6],
-		["hbnd_h", 8, 6],
-		["hbnd_h", 9, 3],
-		["hbnd_h", 10, 3],
-		["hbnd_h", 11, 3],
-		["hbnd_h", 12, 6],
-		["hbnd_h", 13, 6],
-		["hcov", 14, 5],
-		["hcov", 14, 6],
-		["fcov", 16, 8],
-		["fcov", 16, 9],
-		["hcov", 5, 17],
-		["hcov", 4, 17],
-		["hcov", 3, 13],
-		["hcov", 3, 14],
-		["hcov", 3, 15],
-		["hcov", 3, 16],
-		["hcov", 3, 17],
-		["hcov", 17, 14],
-		["hcov", 17, 15],
-		["hcov", 15, 17],
-		["hcov", 16, 17],
-		["hcov", 17, 17],
-		["hcov", 17, 16],
-		["hcov", 15, 3],
-		["hcov", 16, 3],
-		["hcov", 17, 3],
-		["hcov", 17, 4],
-		["hcov", 17, 5],
-		["hcov", 17, 6],
-		["hcov", 5, 3],
-		["hcov", 4, 3],
-		["hcov", 3, 3],
-		["hcov", 3, 4],
-		["hcov", 3, 5],
-		["hcov", 3, 6],
-		["hcov", 17, 7],
-		["boss", 9, 9],
-	];
-	for (const [type, c, r] of defs) {
-		if (type === "spawn") {
-			if (!hasCover(c, r)) getCell(c, r).spawn = true;
-		} else if (type === "hcov" || type === "fcov") {
-			const cell = getCell(c, r);
-			cell.cover = type as "hcov" | "fcov";
-			cell.spawn = false;
-			cell.bndH = false;
-			cell.bndV = false;
-		} else if (type === "boss") {
-			if (c + 2 < MAP_SIZE && r + 2 < MAP_SIZE) {
-				let blocked = false;
-				for (let dr = 0; dr < 3 && !blocked; dr++)
-					for (let dc = 0; dc < 3 && !blocked; dc++) if (hasCover(c + dc, r + dr)) blocked = true;
-				if (!blocked) {
-					for (let dr = 0; dr < 3; dr++)
-						for (let dc = 0; dc < 3; dc++) {
-							const cell = getCell(c + dc, r + dr);
-							cell.cover = "boss";
-							cell.bossOrigin = [c, r];
-							cell.spawn = false;
-							cell.bndH = false;
-							cell.bndV = false;
-						}
-				}
-			}
-		} else if (type === "hbnd_h") {
-			if (inMapBounds(c, r + 1) && !hasCover(c, r) && !hasCover(c, r + 1)) getCell(c, r).bndH = true;
-		} else if (type === "hbnd_v") {
-			if (inMapBounds(c + 1, r) && !hasCover(c, r) && !hasCover(c + 1, r)) getCell(c, r).bndV = true;
-		}
-	}
-	saveEditorMap();
+	const defaultMap = getDefaultMap();
+	setMap(defaultMap.name, defaultMap.size, defaultMap.tiles);
 }

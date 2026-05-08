@@ -2,8 +2,6 @@ import { onMount } from "solid-js";
 import {
 	editorTool,
 	setEditorTool,
-	boundaryDir,
-	setBoundaryDir,
 	editorStatus,
 	setEditorStatus,
 	editorCoords,
@@ -16,18 +14,32 @@ import {
 	setShowEditorIo,
 	mapGrid,
 	getCell,
-	hasCover,
 	inMapBounds,
-	gridKey,
+	hasCover,
+	setCell,
+	unsetBoss,
+	isTileType,
 } from "../store";
-import { TILE_SIZE, MAP_SIZE, CANVAS_SIZE, SCALE, E_PAD } from "../types/constants";
+import { TILE_SIZE, CANVAS_SIZE, SCALE, E_PAD } from "../types/constants";
 import { drawMapTilesOnArena } from "../canvas/draw";
-import { editorSerialize, editorDeserialize, saveEditorMap, loadEditorMap, editorClearAll, editorResetLayout } from "../canvas/editorMap";
-import type { EditorTool } from "../types";
+import {
+	saveEditorMap,
+	loadEditorMap,
+	editorClearAll,
+	editorResetLayout,
+	editingMap,
+	loadMap,
+	mapNames,
+	editorSerialize,
+	editorDeserialize,
+} from "../canvas/editorMap";
+import { TileType, type EditorTool } from "../types";
+import { Select } from "@thisbeyond/solid-select";
 
 let canvasEl!: HTMLCanvasElement;
 let ctx: CanvasRenderingContext2D;
 let painting = false;
+const lastPaint = { x: -1, y: -1 };
 
 export function editorRender() {
 	if (!ctx) return;
@@ -45,78 +57,77 @@ function editorHit(e: MouseEvent): { c: number; r: number } {
 	return { c: Math.floor((sx - E_PAD) / TILE_SIZE), r: Math.floor((sy - E_PAD) / TILE_SIZE) };
 }
 
-function applyTool(c: number, r: number, erase: boolean) {
+function applyTool(c: number, r: number) {
 	if (!inMapBounds(c, r)) return;
-	const dir = boundaryDir();
-	if (erase) {
-		const cell = mapGrid[gridKey(c, r)];
-		if (!cell) return;
-		if (cell.cover === "boss" && cell.bossOrigin) {
-			const [oc, or] = cell.bossOrigin;
-			for (let dr = 0; dr < 3; dr++)
-				for (let dc = 0; dc < 3; dc++) {
-					const bk = gridKey(oc + dc, or + dr);
-					if (mapGrid[bk]) {
-						mapGrid[bk]!.cover = null;
-						mapGrid[bk]!.bossOrigin = null;
-					}
-				}
-		} else if (cell.cover) {
-			cell.cover = null;
-		} else if (cell.bndH || cell.bndV) {
-			cell.bndH = false;
-			cell.bndV = false;
-		} else {
-			cell.spawn = false;
-		}
-		editorRender();
-		return;
-	}
 	const tool = editorTool();
 	if (tool === "boss") {
-		if (c + 2 >= MAP_SIZE || r + 2 >= MAP_SIZE) return;
-		for (let dr = 0; dr < 3; dr++) for (let dc = 0; dc < 3; dc++) if (hasCover(c + dc, r + dr)) return;
-		for (let dr = 0; dr < 3; dr++)
-			for (let dc = 0; dc < 3; dc++) {
-				const cell = getCell(c + dc, r + dr);
-				cell.cover = "boss";
-				cell.bossOrigin = [c, r];
-				cell.spawn = false;
-				cell.bndH = false;
-				cell.bndV = false;
+		if (c + 1 >= mapGrid.size || r + 1 >= mapGrid.size) return;
+		if (c - 1 < 0 || r - 1 < 0) return;
+		for (let dr = -1; dr < 2; dr++) for (let dc = -1; dc < 2; dc++) if (hasCover(c + dc, r + dr)) return;
+		unsetBoss();
+		for (let dr = -1; dr < 2; dr++) {
+			for (let dc = -1; dc < 2; dc++) {
+				setCell(c + dc, r + dr, TileType.BossCover);
 			}
-	} else if (tool === "hcov" || tool === "fcov") {
-		const cell = getCell(c, r);
-		cell.cover = tool;
-		cell.spawn = false;
-		cell.bndH = false;
-		cell.bndV = false;
-		cell.bossOrigin = null;
-	} else if (tool === "spawn") {
-		if (!hasCover(c, r)) getCell(c, r).spawn = true;
-	} else if (tool === "hbnd") {
-		if (dir === "h") {
-			if (!inMapBounds(c, r + 1) || hasCover(c, r) || hasCover(c, r + 1)) return;
-			getCell(c, r).bndH = true;
-		} else {
-			if (!inMapBounds(c + 1, r) || hasCover(c, r) || hasCover(c + 1, r)) return;
-			getCell(c, r).bndV = true;
 		}
+		setCell(c, r, TileType.BossOrigin);
+	} else if (tool === "hcov") {
+		setCell(c, r, TileType.HalfCover);
+	} else if (tool === "fcov") {
+		setCell(c, r, TileType.FullCover);
+	} else if (tool === "spawn") {
+		if (!hasCover(c, r)) setCell(c, r, TileType.Spawn, true);
+	} else if (tool === "hbnd_h") {
+		if (!inMapBounds(c, r + 1) || hasCover(c, r) || hasCover(c, r + 1)) return;
+		setCell(c, r, TileType.HBoundary, true);
+		setCell(c, r + 1, TileType.HBoundary, true);
+	} else if (tool === "hbnd_v") {
+		if (!inMapBounds(c + 1, r) || hasCover(c, r) || hasCover(c + 1, r)) return;
+		setCell(c, r, TileType.VBoundary, true);
+		setCell(c + 1, r, TileType.VBoundary, true);
 	} else if (tool === "erase") {
-		applyTool(c, r, true);
-		return;
+		const cell = getCell(c, r);
+		if (isTileType(cell, TileType.BossCover) || isTileType(cell, TileType.BossOrigin)) {
+			unsetBoss();
+		} else {
+			setCell(c, r, TileType.Empty);
+		}
 	}
 	editorRender();
 }
 
 const TOOL_BUTTONS: { tool: EditorTool; label: string; color: string; border: string }[] = [
 	{ tool: "spawn", label: "Spawn", color: "#0d2060", border: "#3060cc" },
-	{ tool: "hbnd", label: "Half boundary", color: "#2a2010", border: "#6a5020" },
+	{ tool: "hbnd_h", label: "H-Boundary", color: "#2a2010", border: "#6a5020" },
+	{ tool: "hbnd_v", label: "V-Boundary", color: "#2a1a10", border: "#6a3a20" },
 	{ tool: "hcov", label: "Half cover", color: "#1e3018", border: "#3a5830" },
 	{ tool: "fcov", label: "Full cover", color: "#2a1c0c", border: "#6a4020" },
 	{ tool: "boss", label: "Boss (3×3)", color: "#300a0a", border: "#882020" },
 	{ tool: "erase", label: "Erase", color: "#1a1a1a", border: "#333" },
 ];
+
+function handlePointerDown(e: PointerEvent) {
+	e.preventDefault();
+	painting = true;
+	const h = editorHit(e);
+	applyTool(h.c, h.r);
+	lastPaint.x = h.c;
+	lastPaint.y = h.r;
+}
+function handlePointerMove(e: PointerEvent) {
+	const pos = editorHit(e);
+	if (pos.c < 0 || pos.r < 0) return;
+	setEditorCoords(`${String(pos.r).padStart(2, "0")},${String(pos.c).padStart(2, "0")}`);
+	if (!painting || (lastPaint.x === pos.c && lastPaint.y === pos.r)) return;
+	applyTool(pos.c, pos.r);
+	lastPaint.x = pos.c;
+	lastPaint.y = pos.r;
+}
+function handlePointerUp(e: PointerEvent) {
+	painting = false;
+	lastPaint.x = -1;
+	lastPaint.y = -1;
+}
 
 export default function EditorView() {
 	onMount(() => {
@@ -125,28 +136,6 @@ export default function EditorView() {
 		ctx = canvasEl.getContext("2d")!;
 		loadEditorMap();
 		editorRender();
-
-		canvasEl.addEventListener("mousedown", (e) => {
-			e.preventDefault();
-			painting = true;
-			const h = editorHit(e);
-			applyTool(h.c, h.r, e.button === 2);
-		});
-		canvasEl.addEventListener("mousemove", (e) => {
-			const pos = editorHit(e);
-			if (pos.c < 0 || pos.r < 0) return;
-			setEditorCoords(`${String(pos.r).padStart(2, "0")},${String(pos.c).padStart(2, "0")}`);
-			if (!painting) return;
-			applyTool(pos.c, pos.r, e.button === 2);
-		});
-		canvasEl.addEventListener("mouseup", () => {
-			painting = false;
-			saveEditorMap();
-		});
-		canvasEl.addEventListener("mouseleave", () => {
-			painting = false;
-		});
-		canvasEl.addEventListener("contextmenu", (e) => e.preventDefault());
 	});
 
 	const handleDoIO = () => {
@@ -171,6 +160,16 @@ export default function EditorView() {
 			{/* Toolbar */}
 			<div class={`flex-wrap gap-1 rounded-sm bg-[#CFCED2] p-1 text-sm font-bold text-[#325563] shadow-sm shadow-black/50`}>
 				<div class="flex flex-row items-center gap-1.5 border-2 border-[#B1AFB3] p-1">
+					<Select
+						class="custom"
+						options={mapNames()}
+						onChange={(value) => {
+							loadMap(value);
+							editorRender();
+						}}
+						initialValue={editingMap()}
+					/>
+					<div class="mx-0.5 h-[18px] w-px bg-[#1e2730]" />
 					<span class="etl whitespace-nowrap">{editorCoords()}</span>
 					<div class="mx-0.5 h-[18px] w-px bg-[#1e2730]" />
 					<span class="etl">Tool:</span>
@@ -192,38 +191,22 @@ export default function EditorView() {
 					))}
 
 					<div class="mx-0.5 h-[18px] w-px bg-[#1e2730]" />
-					<span class="etl text-[#445566]">Boundary:</span>
-					<select
-						value={boundaryDir()}
-						onChange={(e) => setBoundaryDir(e.currentTarget.value as "h" | "v")}
-						class="rounded border border-[#1e2730] bg-[#0c1014] px-1.5 py-0.5 text-[#6a7e8e]">
-						<option value="h">Horizontal</option>
-						<option value="v">Vertical</option>
-					</select>
-
-					<div class="mx-0.5 h-[18px] w-px bg-[#1e2730]" />
-					{[
-						{
-							label: "Reset",
-							onClick: () => {
-								editorResetLayout();
-								editorRender();
-							},
-						},
-						{
-							label: "Clear",
-							onClick: () => {
-								editorClearAll();
-								editorRender();
-							},
-						},
-					].map(({ label, onClick }) => (
-						<button
-							onClick={onClick}
-							class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]">
-							{label}
-						</button>
-					))}
+					<button
+						onClick={() => {
+							editorResetLayout();
+							editorRender();
+						}}
+						class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]">
+						Reset
+					</button>
+					<button
+						onClick={() => {
+							editorClearAll();
+							editorRender();
+						}}
+						class="cursor-pointer rounded border border-[#1e2730] bg-[#0c1014] px-2 py-1 text-[#6a7e8e] hover:border-[#3a2020] hover:text-[#cc5040]">
+						Clear
+					</button>
 
 					<div class="mx-0.5 h-[18px] w-px bg-[#1e2730]" />
 					<button
@@ -250,7 +233,14 @@ export default function EditorView() {
 
 			{/* Canvas */}
 			<div class="flex-1 overflow-auto rounded-md" style="line-height:0">
-				<canvas ref={canvasEl} style="display:block;cursor:crosshair;" />
+				<canvas
+					ref={canvasEl}
+					style="display:block;cursor:crosshair;"
+					onPointerDown={handlePointerDown}
+					onPointerMove={handlePointerMove}
+					onPointerUp={handlePointerUp}
+					onPointerLeave={handlePointerUp}
+				/>
 			</div>
 
 			<p class="mt-1 pl-0.5 text-[#2a3a4a]">{editorStatus()}</p>

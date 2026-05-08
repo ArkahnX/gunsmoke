@@ -79,7 +79,27 @@ export interface SkillDisplay {
 	override: boolean;
 }
 
+export interface MapGrid {
+	size: number;
+	name: string;
+	default?: boolean;
+	locked?: boolean;
+	tiles: TileType[];
+}
+
+export const enum TileType {
+	Empty = 0,
+	Spawn = 1 << 0,
+	HBoundary = 1 << 1,
+	VBoundary = 1 << 2,
+	HalfCover = 1 << 3,
+	FullCover = 1 << 4,
+	BossCover = 1 << 5,
+	BossOrigin = 1 << 6
+}
+
 export interface MapCell {
+	type: TileType;
 	cover: "boss" | "hcov" | "fcov" | null;
 	bossOrigin: [number, number] | null;
 	spawn: boolean;
@@ -87,7 +107,7 @@ export interface MapCell {
 	bndV: boolean;
 }
 
-export type EditorTool = "spawn" | "hbnd" | "hcov" | "fcov" | "boss" | "erase";
+export type EditorTool = "spawn" | "hbnd_h" | "hbnd_v" | "hcov" | "fcov" | "boss" | "erase";
 export type BoundaryDir = "h" | "v";
 
 export interface MapTile {
