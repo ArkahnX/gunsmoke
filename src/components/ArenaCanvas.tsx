@@ -1,9 +1,20 @@
 import { createSignal, onMount } from "solid-js";
-import { state, placeDoll, placeSummon, mapGrid, removeDollOrSummon, setCoords, coords, gridKey, swapPositions } from "../store";
+import {
+	state,
+	placeDoll,
+	placeSummon,
+	mapGrid,
+	removeDollOrSummon,
+	setCoords,
+	coords,
+	gridKey,
+	swapPositions,
+	isTileType,
+} from "../store";
 import { TILE_SIZE, MAP_BOUNDS, MIN_SCALE, MAX_SCALE, MAP_SIZE } from "../types/constants";
 import { drawMapTilesOnArena, drawGhostOnCanvas } from "../canvas/draw";
 import { createStore, produce } from "solid-js/store";
-import { Camera, DragState, DragStatus } from "../types";
+import { Camera, DragState, DragStatus, TileType } from "../types";
 import Discard from "./icons/Discard";
 import Modal from "./modals/Modal";
 import SetupSidebar from "./SetupSidebar";
@@ -305,11 +316,15 @@ function screenToWorld(clientX: number, clientY: number): { x: number; y: number
 
 function getDragStatus(tileX: number, tileY: number, id: string, instanceId: string | null): DragStatus {
 	if (discardHover()) return DragStatus.Discard;
-	const cell = mapGrid[gridKey(tileX, tileY)];
+	const cell = mapGrid.tiles[gridKey(tileX, tileY)];
 	const isSetup = state.currentTab === 0;
-	const isSpawnTile = cell && cell.spawn;
+	const isSpawnTile = isTileType(cell, TileType.Spawn);
 	const inBounds = tileX >= 0 && tileX < MAP_SIZE && tileY >= 0 && tileY < MAP_SIZE;
-	const isBlocked = cell && (cell.cover === "boss" || cell.cover === "hcov" || cell.cover === "fcov");
+	const isBlocked =
+		isTileType(cell, TileType.HalfCover) ||
+		isTileType(cell, TileType.FullCover) ||
+		isTileType(cell, TileType.BossCover) ||
+		isTileType(cell, TileType.BossOrigin);
 	if (!inBounds || (isSetup && !isSpawnTile) || (!isSetup && isBlocked)) return DragStatus.Blocked;
 	const tab = state.tabData[state.currentTab]!;
 	for (const [dollId, pos] of Object.entries(tab.dollPositions)) {

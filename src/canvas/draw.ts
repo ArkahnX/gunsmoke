@@ -271,22 +271,25 @@ export function drawBoss(ctx: CanvasRenderingContext2D, c: number, r: number) {
 }
 
 // ─── Shared map tile renderer ──────────────────────────────────────────────
-function obscured(x: number, y: number, dollGrid?: DollInfo[]) {
+function obscured(x: number, y: number, dollId: string, instanceId: string | null, dollGrid?: DollInfo[]) {
 	const tileBelow = mapGrid.tiles[gridKey(x, y + 1)];
 	const currentTile = mapGrid.tiles[gridKey(x, y)];
-	if (currentTile) {
-		if (isTileType(currentTile, TileType.HBoundary)) return true;
-	}
+	// if there is a boundary below
+	if (currentTile && tileBelow && isTileType(currentTile, TileType.HBoundary) && isTileType(tileBelow, TileType.HBoundary)) return true;
+
+	// if there is a solid tile below
 	if (tileBelow) {
 		if (
-			isTileType(currentTile, TileType.BossCover) ||
-			isTileType(currentTile, TileType.HalfCover) ||
-			isTileType(currentTile, TileType.FullCover)
+			isTileType(tileBelow, TileType.BossCover) ||
+			isTileType(tileBelow, TileType.BossOrigin) ||
+			isTileType(tileBelow, TileType.HalfCover) ||
+			isTileType(tileBelow, TileType.FullCover)
 		)
 			return true;
 	}
+	// if there is a doll below
 	if (dollGrid) {
-		const doll = dollGrid.find((doll) => doll.x === x && doll.y === y);
+		const doll = dollGrid.find((doll) => doll.x === x && doll.y === y + 1);
 		if (doll) return true;
 	}
 	return false;
@@ -306,7 +309,7 @@ export function drawMapTilesOnArena(ctx: CanvasRenderingContext2D, drag: DragSta
 			summonInfo: null,
 			dragId: drag?.isActive ? drag.id : undefined,
 			dragInstanceId: drag?.isActive ? drag.instanceId : null,
-			obscured: obscured(pos.x, pos.y),
+			obscured: obscured(pos.x, pos.y, doll.id, null),
 		});
 	});
 	if (currentTab >= 1) {
@@ -322,13 +325,13 @@ export function drawMapTilesOnArena(ctx: CanvasRenderingContext2D, drag: DragSta
 					summonInfo: summon,
 					dragId: drag?.isActive ? drag.id : undefined,
 					dragInstanceId: drag?.isActive ? drag.instanceId : null,
-					obscured: obscured(entry.x, entry.y),
+					obscured: obscured(entry.x, entry.y, entry.id, entry.mapId),
 				});
 			}
 		});
 	}
 	for (const [grid, entry] of Object.entries(dolls)) {
-		entry.obscured = obscured(entry.x, entry.y, dolls);
+		entry.obscured = obscured(entry.x, entry.y, entry.id, entry.instanceId, dolls);
 	}
 	for (let row = 0; row < mapGrid.size; row++) for (let col = 0; col < mapGrid.size; col++) drawFloor(ctx, col, row);
 	for (let row = 0; row < mapGrid.size; row++) {
