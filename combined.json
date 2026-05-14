@@ -4270,6 +4270,172 @@
     "summons": []
   },
   {
+    "id": "d59",
+    "name": "Mityl",
+    "class": "Sentinel",
+    "phase": "Hydro",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Light Ammo"
+    ],
+    "gunType": "Submachine Gun",
+    "remolding": "data/mityl/RemoldingPattern.png",
+    "avatar": "data/mityl/avatar.webp",
+    "skills": [
+      {
+        "name": "Ambush",
+        "id": 1,
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/mityl/Ambush.webp"
+      },
+      {
+        "name": "Stunt Montage",
+        "id": 2,
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/mityl/Stunt Montage.webp"
+      },
+      {
+        "name": "Squirrel's Hologram",
+        "id": 3,
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "Tile",
+          "Summon",
+          "Teleport"
+        ],
+        "range": "6",
+        "localImagePath": "data/mityl/Squirrel's Hologram.webp"
+      },
+      {
+        "name": "Aerial Dash",
+        "id": 4,
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Targeted",
+          "Displacement"
+        ],
+        "range": "--",
+        "localImagePath": "data/mityl/Aerial Dash.webp"
+      },
+      {
+        "name": "Null Convergence",
+        "id": 5,
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "Tile",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/mityl/Null Convergence.webp"
+      }
+    ],
+    "keys": [
+      {
+        "name": "Cinematic Presence",
+        "id": "k1",
+        "rarity": "Standard",
+        "type": "Fixed Key",
+        "number": 1,
+        "localImagePath": "data/mityl/Cinematic Presence.webp"
+      },
+      {
+        "name": "Disguised Performance",
+        "id": "k2",
+        "rarity": "Standard",
+        "type": "Fixed Key",
+        "number": 2,
+        "localImagePath": "data/mityl/Disguised Performance.webp"
+      },
+      {
+        "name": "Triple Axel",
+        "id": "k3",
+        "rarity": "Standard",
+        "type": "Fixed Key",
+        "number": 3,
+        "localImagePath": "data/mityl/Triple Axel.webp"
+      },
+      {
+        "name": "Tearjerker Performance",
+        "id": "k4",
+        "rarity": "Standard",
+        "type": "Fixed Key",
+        "number": 4,
+        "localImagePath": "data/mityl/Tearjerker Performance.webp"
+      },
+      {
+        "name": "Jump on the Bandwagon",
+        "id": "k5",
+        "rarity": "Standard",
+        "type": "Fixed Key",
+        "number": 5,
+        "localImagePath": "data/mityl/Jump on the Bandwagon.webp"
+      },
+      {
+        "name": "Indistinguishable",
+        "id": "k6",
+        "rarity": "Standard",
+        "type": "Fixed Key",
+        "number": 6,
+        "localImagePath": "data/mityl/Indistinguishable.webp"
+      }
+    ],
+    "summons": [
+      {
+        "name": "Hologram",
+        "id": "s9",
+        "localImagePath": "data/mityl/Hologram.webp",
+        "skills": []
+      },
+      {
+        "name": "Hologram - Clone",
+        "id": "s10",
+        "localImagePath": "data/mityl/Hologram - Clone.webp",
+        "skills": [
+          {
+            "name": "Hologram Strike",
+            "id": 1,
+            "localImagePath": "data/mityl/Hologram Strike.webp",
+            "type": "Basic Attack",
+            "tags": [
+              "Basic Attack",
+              "Targeted"
+            ],
+            "range": "6"
+          },
+          {
+            "name": "Data Regression",
+            "id": 2,
+            "localImagePath": "data/mityl/Data Regression.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive"
+            ],
+            "range": "Self"
+          }
+        ]
+      },
+      {
+        "name": "Hologram - Mimic",
+        "id": "s11",
+        "localImagePath": "data/mityl/Hologram - Mimic.webp",
+        "skills": []
+      }
+    ]
+  },
+  {
     "id": "d32",
     "name": "Mosin-Nagant",
     "class": "Sentinel",
