@@ -8,9 +8,11 @@ export interface Skill {
 }
 
 export interface FixedKey {
-	id: number;
+	id: string;
 	name: string;
+	rarity: string;
 	type: string;
+	number: number | null;
 	localImagePath: string;
 }
 
@@ -33,7 +35,10 @@ export interface DollData {
 	phase: string;
 	rarity: string;
 	avatar: string;
+	remolding: string;
+	gunType: string;
 	hasSummons: boolean;
+	hasExpansionKey: boolean;
 	skills: Skill[];
 	keys: FixedKey[];
 	summons: string[]; // summon IDs
@@ -99,7 +104,7 @@ export const enum TileType {
 	HalfCover = 1 << 3,
 	FullCover = 1 << 4,
 	BossCover = 1 << 5,
-	BossOrigin = 1 << 6
+	BossOrigin = 1 << 6,
 }
 
 export interface MapCell {
@@ -142,7 +147,9 @@ export interface RawDollEntry {
 	name: string;
 	phase: string;
 	avatar: string;
+	remolding: string;
 	rarity: string;
+	gunType: string;
 	skills?: Skill[];
 	keys?: FixedKey[];
 	summons?: RawSummonEntry[];
@@ -151,6 +158,17 @@ export interface RawDollEntry {
 export interface KeyData {
 	common: CommonKey[];
 	affinity: CommonKey[];
+}
+
+export interface WeaponData {
+	name: string;
+	type: string;
+	id: string;
+	attribute: string;
+	imprintId: string | null;
+	imprintName: string | null;
+	imprintImage: string | null;
+	localImagePath: string;
 }
 
 export interface Camera {
@@ -197,7 +215,7 @@ export interface DollInfo {
 	id: string;
 	dollInfo: DollData | undefined;
 	summonInfo: SummonData | null | undefined;
-	instanceId: string | null | undefined;
+	instanceId: string | null;
 	dragId: string | undefined;
 	dragInstanceId: string | null | undefined;
 	obscured: boolean;

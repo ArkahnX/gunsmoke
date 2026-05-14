@@ -8,6 +8,8 @@
     "ammoTypes": [
       "Medium Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/alva/RemoldingPattern.png",
     "avatar": "data/alva/avatar.webp",
     "skills": [
       {
@@ -69,39 +71,59 @@
     ],
     "keys": [
       {
+        "name": "Alpha Successor",
+        "id": "k1",
+        "rarity": "Elite",
+        "type": "Expansion Key",
+        "number": 1,
+        "localImagePath": "data/alva/Alpha Successor1.webp"
+      },
+      {
         "name": "Snowfield Strider",
-        "id": "f1",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/alva/Snowfield Strider.webp"
       },
       {
         "name": "Logistics Specialist",
-        "id": "f2",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/alva/Logistics Specialist.webp"
       },
       {
         "name": "Support Command",
-        "id": "f3",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/alva/Support Command.webp"
       },
       {
         "name": "Late Bloomer",
-        "id": "f4",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/alva/Late Bloomer.webp"
       },
       {
         "name": "Rise Anew",
-        "id": "f5",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/alva/Rise Anew.webp"
       },
       {
         "name": "Bonechill",
-        "id": "f6",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/alva/Bonechill.webp"
       }
     ],
@@ -116,6 +138,8 @@
     "ammoTypes": [
       "Medium Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/andoris/RemoldingPattern.png",
     "avatar": "data/andoris/avatar.webp",
     "skills": [
       {
@@ -179,44 +203,58 @@
     "keys": [
       {
         "name": "Unwavering Vigil",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/andoris/Unwavering Vigil.webp"
+        "number": 1,
+        "localImagePath": "data/andoris/Unwavering Vigil1.webp"
       },
       {
         "name": "Careful Listening",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/andoris/Careful Listening.webp"
       },
       {
         "name": "Sluggish Circuit",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/andoris/Sluggish Circuit.webp"
       },
       {
         "name": "Slow and Steady",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/andoris/Slow and Steady.webp"
       },
       {
         "name": "Tuned Connection",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/andoris/Tuned Connection.webp"
       },
       {
         "name": "Shared Intelligence",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/andoris/Shared Intelligence.webp"
       },
       {
         "name": "Advanced Scouting",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/andoris/Advanced Scouting.webp"
       }
     ],
@@ -283,6 +321,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Machine Gun",
+    "remolding": "data/balthilde/RemoldingPattern.png",
     "avatar": "data/balthilde/avatar.webp",
     "skills": [
       {
@@ -344,38 +384,50 @@
     "keys": [
       {
         "name": "Cannot Spit It Out",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/balthilde/Cannot Spit It Out.webp"
       },
       {
         "name": "Impatient",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/balthilde/Impatient.webp"
       },
       {
         "name": "Misunderstood Intentions",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/balthilde/Misunderstood Intentions.webp"
       },
       {
         "name": "Fault Elimination Module",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/balthilde/Fault Elimination Module.webp"
       },
       {
         "name": "Practical Modification",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/balthilde/Practical Modification.webp"
       },
       {
         "name": "Mechanical Control",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/balthilde/Mechanical Control.webp"
       }
     ],
@@ -448,6 +500,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Handgun",
+    "remolding": "data/basti/RemoldingPattern.png",
     "avatar": "data/basti/avatar.webp",
     "skills": [
       {
@@ -512,38 +566,50 @@
     "keys": [
       {
         "name": "On A Whim",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/basti/On A Whim.webp"
       },
       {
         "name": "Street Art",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/basti/Street Art.webp"
       },
       {
         "name": "Pain Dependency",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/basti/Pain Dependency.webp"
       },
       {
         "name": "Genius Troublemaker",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/basti/Genius Troublemaker.webp"
       },
       {
         "name": "Surprise Gift",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/basti/Surprise Gift.webp"
       },
       {
         "name": "Love Smear",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/basti/Love Smear.webp"
       }
     ],
@@ -558,6 +624,8 @@
     "ammoTypes": [
       "Medium Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/belka/RemoldingPattern.png",
     "avatar": "data/belka/avatar.webp",
     "skills": [
       {
@@ -622,44 +690,58 @@
     "keys": [
       {
         "name": "Squirrel’s Awakening",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/belka/Squirrel’s Awakening.webp"
+        "number": 1,
+        "localImagePath": "data/belka/Squirrel’s Awakening1.webp"
       },
       {
         "name": "Lively Energy",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/belka/Lively Energy.webp"
       },
       {
         "name": "Offensive of Tears",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/belka/Offensive of Tears.webp"
       },
       {
         "name": "Atmosphere Booster",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/belka/Atmosphere Booster.webp"
       },
       {
         "name": "Raised Tail",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/belka/Raised Tail.webp"
       },
       {
         "name": "Desired Praise",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/belka/Desired Praise.webp"
       },
       {
         "name": "Deciding Motive",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/belka/Deciding Motive.webp"
       }
     ],
@@ -674,6 +756,8 @@
     "ammoTypes": [
       "Medium Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/centaureissi/RemoldingPattern.png",
     "avatar": "data/centaureissi/avatar.webp",
     "skills": [
       {
@@ -744,44 +828,58 @@
     "keys": [
       {
         "name": "Will To Protect",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/centaureissi/Will To Protect.webp"
+        "number": 1,
+        "localImagePath": "data/centaureissi/Will To Protect1.webp"
       },
       {
         "name": "Pre-Meal Dessert",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/centaureissi/Pre-Meal Dessert.webp"
       },
       {
         "name": "Maid's Resolve",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/centaureissi/Maid's Resolve.webp"
       },
       {
         "name": "Efficient Processing",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/centaureissi/Efficient Processing.webp"
       },
       {
         "name": "Comforting Blend",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/centaureissi/Comforting Blend.webp"
       },
       {
         "name": "Thorough Preparation",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/centaureissi/Thorough Preparation.webp"
       },
       {
         "name": "Lucky Menu",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/centaureissi/Lucky Menu.webp"
       }
     ],
@@ -796,6 +894,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Submachine Gun",
+    "remolding": "data/cheeta/RemoldingPattern.png",
     "avatar": "data/cheeta/avatar.webp",
     "skills": [
       {
@@ -859,44 +959,58 @@
     "keys": [
       {
         "name": "Genius' Great Invention",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/cheeta/Genius' Great Invention.webp"
+        "number": 1,
+        "localImagePath": "data/cheeta/Genius' Great Invention1.webp"
       },
       {
         "name": "Legitimate Research Expenses",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/cheeta/Legitimate Research Expenses.webp"
       },
       {
         "name": "Super Useful Investion",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/cheeta/Super Useful Investion.webp"
       },
       {
         "name": "Goldfinger",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/cheeta/Goldfinger.webp"
       },
       {
         "name": "Big Prank",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/cheeta/Big Prank.webp"
       },
       {
         "name": "Genius Support Plan",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/cheeta/Genius Support Plan.webp"
       },
       {
         "name": "Genius' Pride",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/cheeta/Genius' Pride.webp"
       }
     ],
@@ -911,6 +1025,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Sniper Rifle",
+    "remolding": "data/cheyanne/RemoldingPattern.png",
     "avatar": "data/cheyanne/avatar.webp",
     "skills": [
       {
@@ -973,38 +1089,50 @@
     "keys": [
       {
         "name": "Don't Approach Me, I'm Shy",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/cheyanne/Don't Approach Me, I'm Shy.webp"
       },
       {
         "name": "The Free Me",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/cheyanne/The Free Me.webp"
       },
       {
         "name": "A Small Step of Courage",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/cheyanne/A Small Step of Courage.webp"
       },
       {
         "name": "Antisocial",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/cheyanne/Antisocial.webp"
       },
       {
         "name": "Mental Resilience",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/cheyanne/Mental Resilience.webp"
       },
       {
         "name": "Full Attention",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/cheyanne/Full Attention.webp"
       }
     ],
@@ -1019,6 +1147,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Handgun",
+    "remolding": "data/colphne/RemoldingPattern.png",
     "avatar": "data/colphne/avatar.webp",
     "skills": [
       {
@@ -1085,44 +1215,58 @@
     "keys": [
       {
         "name": "Emotional Counselling Expert",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/colphne/Emotional Counselling Expert.webp"
+        "number": 1,
+        "localImagePath": "data/colphne/Emotional Counselling Expert1.webp"
       },
       {
         "name": "Doctor's Orders",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/colphne/Doctor's Orders.webp"
       },
       {
         "name": "Quick Surgery",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/colphne/Quick Surgery.webp"
       },
       {
         "name": "Emergency Express",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/colphne/Emergency Express.webp"
       },
       {
         "name": "Combat Medic",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/colphne/Combat Medic.webp"
       },
       {
         "name": "Recovery at Rest",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/colphne/Recovery at Rest.webp"
       },
       {
         "name": "Fast Recovery",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/colphne/Fast Recovery.webp"
       }
     ],
@@ -1138,6 +1282,8 @@
       "Medium Ammo",
       "Light Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/daiyan/RemoldingPattern.png",
     "avatar": "data/daiyan/avatar.webp",
     "skills": [
       {
@@ -1201,50 +1347,66 @@
     "keys": [
       {
         "name": "Flowing Melody of the Clouds",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/daiyan/Flowing Melody of the Clouds.webp"
+        "number": 1,
+        "localImagePath": "data/daiyan/Flowing Melody of the Clouds1.webp"
       },
       {
         "name": "Flowing Melody of the Clouds",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/daiyan/Flowing Melody of the Clouds.webp"
+        "number": 2,
+        "localImagePath": "data/daiyan/Flowing Melody of the Clouds2.webp"
       },
       {
         "name": "Echoing Melody",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/daiyan/Echoing Melody.webp"
       },
       {
         "name": "Unfulfilled Dreams",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/daiyan/Unfulfilled Dreams.webp"
       },
       {
         "name": "Hazewalker's Melody",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/daiyan/Hazewalker's Melody.webp"
       },
       {
         "name": "Serene Serenade",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/daiyan/Serene Serenade.webp"
       },
       {
         "name": "Squad Broken",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/daiyan/Squad Broken.webp"
       },
       {
         "name": "Lasting Legacy",
-        "id": "f8",
+        "id": "k8",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/daiyan/Lasting Legacy.webp"
       }
     ],
@@ -1259,6 +1421,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Sniper Rifle",
+    "remolding": "data/dushevnaya/RemoldingPattern.png",
     "avatar": "data/dushevnaya/avatar.webp",
     "skills": [
       {
@@ -1322,44 +1486,58 @@
     "keys": [
       {
         "name": "Wintersong of the Hero",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/dushevnaya/Wintersong of the Hero.webp"
+        "number": 1,
+        "localImagePath": "data/dushevnaya/Wintersong of the Hero1.webp"
       },
       {
         "name": "Lance of Longinus",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/dushevnaya/Lance of Longinus.webp"
       },
       {
         "name": "Adventurer's Will",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/dushevnaya/Adventurer's Will.webp"
       },
       {
         "name": "Magical Support",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/dushevnaya/Magical Support.webp"
       },
       {
         "name": "Courageous Claymore",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/dushevnaya/Courageous Claymore.webp"
       },
       {
         "name": "Heart of the Sage",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/dushevnaya/Heart of the Sage.webp"
       },
       {
         "name": "Holy Light",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/dushevnaya/Holy Light.webp"
       }
     ],
@@ -1375,6 +1553,8 @@
       "Light Ammo",
       "Melee"
     ],
+    "gunType": "Handgun",
+    "remolding": "data/faye/RemoldingPattern.png",
     "avatar": "data/faye/avatar.webp",
     "skills": [
       {
@@ -1439,44 +1619,58 @@
     "keys": [
       {
         "name": "Relentless Fighting Spirit",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/faye/Relentless Fighting Spirit.webp"
+        "number": 1,
+        "localImagePath": "data/faye/Relentless Fighting Spirit1.webp"
       },
       {
         "name": "Tracking by Scent",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/faye/Tracking by Scent.webp"
       },
       {
         "name": "All-In Slash",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/faye/All-In Slash.webp"
       },
       {
         "name": "Rescue Response Supplies",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/faye/Rescue Response Supplies.webp"
       },
       {
         "name": "Emergency Plans",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/faye/Emergency Plans.webp"
       },
       {
         "name": "Crisis Protection",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/faye/Crisis Protection.webp"
       },
       {
         "name": "In the Fracas",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/faye/In the Fracas.webp"
       }
     ],
@@ -1491,6 +1685,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Handgun",
+    "remolding": "data/florence/RemoldingPattern.png",
     "avatar": "data/florence/avatar.webp",
     "skills": [
       {
@@ -1554,44 +1750,58 @@
     "keys": [
       {
         "name": "Thrill Seeker",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/florence/Thrill Seeker.webp"
+        "number": 1,
+        "localImagePath": "data/florence/Thrill Seeker1.webp"
       },
       {
         "name": "Fatal Thrill",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/florence/Fatal Thrill.webp"
       },
       {
         "name": "Self-Pleasure",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/florence/Self-Pleasure.webp"
       },
       {
         "name": "Sensitivity Boost",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/florence/Sensitivity Boost.webp"
       },
       {
         "name": "Riposte's Reward",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/florence/Riposte's Reward.webp"
       },
       {
         "name": "Bondage Urge",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/florence/Bondage Urge.webp"
       },
       {
         "name": "Sweet Temptation",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/florence/Sweet Temptation.webp"
       }
     ],
@@ -1638,6 +1848,8 @@
     "ammoTypes": [
       "Medium Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/groza/RemoldingPattern.png",
     "avatar": "data/groza/avatar.webp",
     "skills": [
       {
@@ -1703,44 +1915,58 @@
     "keys": [
       {
         "name": "Absolute Defense's Essence",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/groza/Absolute Defense's Essence.webp"
+        "number": 1,
+        "localImagePath": "data/groza/Absolute Defense's Essence1.webp"
       },
       {
         "name": "Multidimensional Assessment",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/groza/Multidimensional Assessment.webp"
       },
       {
         "name": "Controlled Advance",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/groza/Controlled Advance.webp"
       },
       {
         "name": "Adaptive Strategy",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/groza/Adaptive Strategy.webp"
       },
       {
         "name": "Firepower Superiority",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/groza/Firepower Superiority.webp"
       },
       {
         "name": "Sustainable Operations",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/groza/Sustainable Operations.webp"
       },
       {
         "name": "Principles of Evasion",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/groza/Principles of Evasion.webp"
       }
     ],
@@ -1755,6 +1981,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Submachine Gun",
+    "remolding": "data/harpsy/RemoldingPattern.png",
     "avatar": "data/harpsy/avatar.webp",
     "skills": [
       {
@@ -1816,38 +2044,50 @@
     "keys": [
       {
         "name": "Mobile Base Station",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/harpsy/Mobile Base Station.webp"
       },
       {
         "name": "Violent Modification",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/harpsy/Violent Modification.webp"
       },
       {
         "name": "Multiple Preparations",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/harpsy/Multiple Preparations.webp"
       },
       {
         "name": "Power of Friendship",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/harpsy/Power of Friendship.webp"
       },
       {
         "name": "Gathering Courage",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/harpsy/Gathering Courage.webp"
       },
       {
         "name": "Long-Distance Listening",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/harpsy/Long-Distance Listening.webp"
       }
     ],
@@ -1862,6 +2102,8 @@
     "ammoTypes": [
       "Shotgun Ammo"
     ],
+    "gunType": "Shotgun",
+    "remolding": "data/helen/RemoldingPattern.png",
     "avatar": "data/helen/avatar.webp",
     "skills": [
       {
@@ -1924,38 +2166,50 @@
     "keys": [
       {
         "name": "Double Agent",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/helen/Double Agent.webp"
       },
       {
         "name": "Cold Bloom",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/helen/Cold Bloom.webp"
       },
       {
         "name": "Buried Past",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/helen/Buried Past.webp"
       },
       {
         "name": "Guardian's Resolve",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/helen/Guardian's Resolve.webp"
       },
       {
         "name": "Maternal Radiance",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/helen/Maternal Radiance.webp"
       },
       {
         "name": "Rule Manipulator",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/helen/Rule Manipulator.webp"
       }
     ],
@@ -1971,6 +2225,8 @@
       "Medium Ammo",
       "Melee"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/jiangyu/RemoldingPattern.png",
     "avatar": "data/jiangyu/avatar.webp",
     "skills": [
       {
@@ -2034,44 +2290,58 @@
     "keys": [
       {
         "name": "Urge to Perform",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/jiangyu/Urge to Perform.webp"
+        "number": 1,
+        "localImagePath": "data/jiangyu/Urge to Perform1.webp"
       },
       {
         "name": "Atmosphere Catalyst",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/jiangyu/Atmosphere Catalyst.webp"
       },
       {
         "name": "Intercepting Fist",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/jiangyu/Intercepting Fist.webp"
       },
       {
         "name": "Unstoppable Force",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/jiangyu/Unstoppable Force.webp"
       },
       {
         "name": "Calm Focus",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/jiangyu/Calm Focus.webp"
       },
       {
         "name": "Opening Move",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/jiangyu/Opening Move.webp"
       },
       {
         "name": "Elite's Composure",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/jiangyu/Elite's Composure.webp"
       }
     ],
@@ -2086,6 +2356,8 @@
     "ammoTypes": [
       "Medium Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/klukai/RemoldingPattern.png",
     "avatar": "data/klukai/avatar.webp",
     "skills": [
       {
@@ -2150,44 +2422,58 @@
     "keys": [
       {
         "name": "Pride of the Elite",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/klukai/Pride of the Elite.webp"
+        "number": 1,
+        "localImagePath": "data/klukai/Pride of the Elite1.webp"
       },
       {
         "name": "Deadly Entwine",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/klukai/Deadly Entwine.webp"
       },
       {
         "name": "One Fell Swoop",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/klukai/One Fell Swoop.webp"
       },
       {
         "name": "No Mercy",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/klukai/No Mercy.webp"
       },
       {
         "name": "Strong Support",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/klukai/Strong Support.webp"
       },
       {
         "name": "Limit Break",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/klukai/Limit Break.webp"
       },
       {
         "name": "Moment of Doom",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/klukai/Moment of Doom.webp"
       }
     ],
@@ -2202,6 +2488,8 @@
     "ammoTypes": [
       "Melee"
     ],
+    "gunType": "Blade",
+    "remolding": "data/krolik/RemoldingPattern.png",
     "avatar": "data/krolik/avatar.webp",
     "skills": [
       {
@@ -2268,44 +2556,58 @@
     "keys": [
       {
         "name": "Aerial Bunny Assault",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/krolik/Aerial Bunny Assault.webp"
+        "number": 1,
+        "localImagePath": "data/krolik/Aerial Bunny Assault1.webp"
       },
       {
         "name": "Momentary Focus",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/krolik/Momentary Focus.webp"
       },
       {
         "name": "Fierce Predator",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/krolik/Fierce Predator.webp"
       },
       {
         "name": "Blazing Fury",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/krolik/Blazing Fury.webp"
       },
       {
         "name": "Proud Challenger",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/krolik/Proud Challenger.webp"
       },
       {
         "name": "Instinctive Pursuit",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/krolik/Instinctive Pursuit.webp"
       },
       {
         "name": "Hidden Poise",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/krolik/Hidden Poise.webp"
       }
     ],
@@ -2320,6 +2622,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Handgun",
+    "remolding": "data/ksenia/RemoldingPattern.png",
     "avatar": "data/ksenia/avatar.webp",
     "skills": [
       {
@@ -2386,44 +2690,58 @@
     "keys": [
       {
         "name": "Goodwill Over Gold",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/ksenia/Goodwill Over Gold.webp"
+        "number": 1,
+        "localImagePath": "data/ksenia/Goodwill Over Gold1.webp"
       },
       {
         "name": "Win-Win Partnership",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/ksenia/Win-Win Partnership.webp"
       },
       {
         "name": "Equivalent Exchange",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/ksenia/Equivalent Exchange.webp"
       },
       {
         "name": "Steady Income",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/ksenia/Steady Income.webp"
       },
       {
         "name": "Mutual Benefit",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/ksenia/Mutual Benefit.webp"
       },
       {
         "name": "Friendship Gift",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/ksenia/Friendship Gift.webp"
       },
       {
         "name": "Discount Guide",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/ksenia/Discount Guide.webp"
       }
     ],
@@ -2438,6 +2756,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Submachine Gun",
+    "remolding": "data/lainie/RemoldingPattern.png",
     "avatar": "data/lainie/avatar.webp",
     "skills": [
       {
@@ -2499,44 +2819,58 @@
     "keys": [
       {
         "name": "Algorithmic Stack",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/lainie/Algorithmic Stack.webp"
+        "number": 1,
+        "localImagePath": "data/lainie/Algorithmic Stack1.webp"
       },
       {
         "name": "Neural Bonds",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/lainie/Neural Bonds.webp"
       },
       {
         "name": "Bad Stuff, Go Away!",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/lainie/Bad Stuff, Go Away!.webp"
       },
       {
         "name": "Parapluie's Protection",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/lainie/Parapluie's Protection.webp"
       },
       {
         "name": "Friend's Return",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/lainie/Friend's Return.webp"
       },
       {
         "name": "Sunlight's Warmth",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/lainie/Sunlight's Warmth.webp"
       },
       {
         "name": "OGAS's Might",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/lainie/OGAS's Might.webp"
       }
     ],
@@ -2613,6 +2947,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Submachine Gun",
+    "remolding": "data/lenna/RemoldingPattern.png",
     "avatar": "data/lenna/avatar.webp",
     "skills": [
       {
@@ -2674,44 +3010,58 @@
     "keys": [
       {
         "name": "Lioness' Determination",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/lenna/Lioness' Determination.webp"
+        "number": 1,
+        "localImagePath": "data/lenna/Lioness' Determination1.webp"
       },
       {
         "name": "Skillful Strategem",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/lenna/Skillful Strategem.webp"
       },
       {
         "name": "SSStylish Action",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/lenna/SSStylish Action.webp"
       },
       {
         "name": "The Perfect Way",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/lenna/The Perfect Way.webp"
       },
       {
         "name": "I Need More Power",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/lenna/I Need More Power.webp"
       },
       {
         "name": "Driving Force",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/lenna/Driving Force.webp"
       },
       {
         "name": "Top-Tier Immediate Response",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/lenna/Top-Tier Immediate Response.webp"
       }
     ],
@@ -2727,6 +3077,8 @@
       "Light Ammo",
       "Melee"
     ],
+    "gunType": "Submachine Gun",
+    "remolding": "data/leva/RemoldingPattern.png",
     "avatar": "data/leva/avatar.webp",
     "skills": [
       {
@@ -2803,44 +3155,58 @@
     "keys": [
       {
         "name": "Phantom Electric Spy",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/leva/Phantom Electric Spy.webp"
+        "number": 1,
+        "localImagePath": "data/leva/Phantom Electric Spy1.webp"
       },
       {
         "name": "Mature Aplomb",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/leva/Mature Aplomb.webp"
       },
       {
         "name": "Fox's Smile",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/leva/Fox's Smile.webp"
       },
       {
         "name": "Play It by Ear",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/leva/Play It by Ear.webp"
       },
       {
         "name": "Concealment Plan",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/leva/Concealment Plan.webp"
       },
       {
         "name": "Rational Reaction",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/leva/Rational Reaction.webp"
       },
       {
         "name": "Always Prepared",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/leva/Always Prepared.webp"
       }
     ],
@@ -2855,6 +3221,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Machine Gun",
+    "remolding": "data/lewis/RemoldingPattern.png",
     "avatar": "data/lewis/avatar.webp",
     "skills": [
       {
@@ -2917,38 +3285,50 @@
     "keys": [
       {
         "name": "Idealistic Designer",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/lewis/Idealistic Designer.webp"
       },
       {
         "name": "Secret of Spreading Smiles",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/lewis/Secret of Spreading Smiles.webp"
       },
       {
         "name": "Protector of Innocence",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/lewis/Protector of Innocence.webp"
       },
       {
         "name": "Sunny Imagination",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/lewis/Sunny Imagination.webp"
       },
       {
         "name": "Cuteness Is Justice",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/lewis/Cuteness Is Justice.webp"
       },
       {
         "name": "Guardian From The Cloud",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/lewis/Guardian From The Cloud.webp"
       }
     ],
@@ -2963,6 +3343,8 @@
     "ammoTypes": [
       "Shotgun Ammo"
     ],
+    "gunType": "Shotgun",
+    "remolding": "data/lind/RemoldingPattern.png",
     "avatar": "data/lind/avatar.webp",
     "skills": [
       {
@@ -3025,38 +3407,50 @@
     "keys": [
       {
         "name": "Nociception",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/lind/Nociception.webp"
       },
       {
         "name": "Night Owl's Keenness",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/lind/Night Owl's Keenness.webp"
       },
       {
         "name": "Radio Invitation",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/lind/Radio Invitation.webp"
       },
       {
         "name": "Civilized Judgement",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/lind/Civilized Judgement.webp"
       },
       {
         "name": "Dessert Therapy",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/lind/Dessert Therapy.webp"
       },
       {
         "name": "Withdrawal Reaction",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/lind/Withdrawal Reaction.webp"
       }
     ],
@@ -3071,6 +3465,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Machine Gun",
+    "remolding": "data/littara/RemoldingPattern.png",
     "avatar": "data/littara/avatar.webp",
     "skills": [
       {
@@ -3135,44 +3531,58 @@
     "keys": [
       {
         "name": "Tactician's Gaze",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/littara/Tactician's Gaze.webp"
+        "number": 1,
+        "localImagePath": "data/littara/Tactician's Gaze1.webp"
       },
       {
         "name": "Strategic Planning",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/littara/Strategic Planning.webp"
       },
       {
         "name": "Gaining Experience",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/littara/Gaining Experience.webp"
       },
       {
         "name": "Press the Advantage",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/littara/Press the Advantage.webp"
       },
       {
         "name": "Identifying Gaps",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/littara/Identifying Gaps.webp"
       },
       {
         "name": "Battle Analysis",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/littara/Battle Analysis.webp"
       },
       {
         "name": "Aggressive Attack",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/littara/Aggressive Attack.webp"
       }
     ],
@@ -3187,6 +3597,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Sniper Rifle",
+    "remolding": "data/liushih/RemoldingPattern.png",
     "avatar": "data/liushih/avatar.webp",
     "skills": [
       {
@@ -3249,38 +3661,50 @@
     "keys": [
       {
         "name": "Perfect Synergy",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/liushih/Perfect Synergy.webp"
       },
       {
         "name": "Deadeye",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/liushih/Deadeye.webp"
       },
       {
         "name": "No Expense Spared",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/liushih/No Expense Spared.webp"
       },
       {
         "name": "Unbreakable Will",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/liushih/Unbreakable Will.webp"
       },
       {
         "name": "Capital Expenditure",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/liushih/Capital Expenditure.webp"
       },
       {
         "name": "Rallying Cry",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/liushih/Rallying Cry.webp"
       }
     ],
@@ -3324,6 +3748,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Sniper Rifle",
+    "remolding": "data/loreley/RemoldingPattern.png",
     "avatar": "data/loreley/avatar.webp",
     "skills": [
       {
@@ -3390,38 +3816,50 @@
     "keys": [
       {
         "name": "Hidden Passion",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/loreley/Hidden Passion.webp"
       },
       {
         "name": "Pain Threshold",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/loreley/Pain Threshold.webp"
       },
       {
         "name": "Entangled Dreams",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/loreley/Entangled Dreams.webp"
       },
       {
         "name": "Angelic Tenderness",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/loreley/Angelic Tenderness.webp"
       },
       {
         "name": "Demonic Pace",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/loreley/Demonic Pace.webp"
       },
       {
         "name": "Absolute Dominator",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/loreley/Absolute Dominator.webp"
       }
     ],
@@ -3436,6 +3874,8 @@
     "ammoTypes": [
       "Shotgun Ammo"
     ],
+    "gunType": "Shotgun",
+    "remolding": "data/lotta/RemoldingPattern.png",
     "avatar": "data/lotta/avatar.webp",
     "skills": [
       {
@@ -3499,44 +3939,58 @@
     "keys": [
       {
         "name": "Reward of Courage",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/lotta/Reward of Courage.webp"
+        "number": 1,
+        "localImagePath": "data/lotta/Reward of Courage1.webp"
       },
       {
         "name": "Silent Cheer",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/lotta/Silent Cheer.webp"
       },
       {
         "name": "Confidence Booster",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/lotta/Confidence Booster.webp"
       },
       {
         "name": "Trembling Aim",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/lotta/Trembling Aim.webp"
       },
       {
         "name": "Careful Evasion",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/lotta/Careful Evasion.webp"
       },
       {
         "name": "Bold Shout",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/lotta/Bold Shout.webp"
       },
       {
         "name": "Soothing Touch",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/lotta/Soothing Touch.webp"
       }
     ],
@@ -3551,6 +4005,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Sniper Rifle",
+    "remolding": "data/makiatto/RemoldingPattern.png",
     "avatar": "data/makiatto/avatar.webp",
     "skills": [
       {
@@ -3615,44 +4071,58 @@
     "keys": [
       {
         "name": "Sniper's Lock",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/makiatto/Sniper's Lock.webp"
+        "number": 1,
+        "localImagePath": "data/makiatto/Sniper's Lock1.webp"
       },
       {
         "name": "Additional Intelligence",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/makiatto/Additional Intelligence.webp"
       },
       {
         "name": "Iced with Milk Foam",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/makiatto/Iced with Milk Foam.webp"
       },
       {
         "name": "Indomitable Lone Wolf",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/makiatto/Indomitable Lone Wolf.webp"
       },
       {
         "name": "Time for a Break",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/makiatto/Time for a Break.webp"
       },
       {
         "name": "Heated Caramel",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/makiatto/Heated Caramel.webp"
       },
       {
         "name": "Absolute Concentration",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/makiatto/Absolute Concentration.webp"
       }
     ],
@@ -3667,6 +4137,8 @@
     "ammoTypes": [
       "Medium Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/mechty/RemoldingPattern.png",
     "avatar": "data/mechty/avatar.webp",
     "skills": [
       {
@@ -3740,44 +4212,58 @@
     "keys": [
       {
         "name": "Sleepberserking Syndrome",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/mechty/Sleepberserking Syndrome.webp"
+        "number": 1,
+        "localImagePath": "data/mechty/Sleepberserking Syndrome1.webp"
       },
       {
         "name": "Dream Fragment",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/mechty/Dream Fragment.webp"
       },
       {
         "name": "Rest Thee Well",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/mechty/Rest Thee Well.webp"
       },
       {
         "name": "Horror Movie Night",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/mechty/Horror Movie Night.webp"
       },
       {
         "name": "Quickly, So We Can Sleep",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/mechty/Quickly, So We Can Sleep.webp"
       },
       {
         "name": "Loser's Spirit",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/mechty/Loser's Spirit.webp"
       },
       {
         "name": "Idler's Sofa Aura",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/mechty/Idler's Sofa Aura.webp"
       }
     ],
@@ -3792,6 +4278,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Sniper Rifle",
+    "remolding": "data/mosin-nagant/RemoldingPattern.png",
     "avatar": "data/mosin-nagant/avatar.webp",
     "skills": [
       {
@@ -3856,44 +4344,58 @@
     "keys": [
       {
         "name": "White Reaper",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/mosin-nagant/White Reaper.webp"
+        "number": 1,
+        "localImagePath": "data/mosin-nagant/White Reaper1.webp"
       },
       {
         "name": "Security Patrol Squad",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/mosin-nagant/Security Patrol Squad.webp"
       },
       {
         "name": "Preprepared Defenses",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/mosin-nagant/Preprepared Defenses.webp"
       },
       {
         "name": "Orderly Maintenance",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/mosin-nagant/Orderly Maintenance.webp"
       },
       {
         "name": "Positive Mindset",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/mosin-nagant/Positive Mindset.webp"
       },
       {
         "name": "Hard at Work",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/mosin-nagant/Hard at Work.webp"
       },
       {
         "name": "Mobile Patrol",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/mosin-nagant/Mobile Patrol.webp"
       }
     ],
@@ -3908,6 +4410,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Handgun",
+    "remolding": "data/nagant/RemoldingPattern.png",
     "avatar": "data/nagant/avatar.webp",
     "skills": [
       {
@@ -3973,44 +4477,58 @@
     "keys": [
       {
         "name": "Senior's Instructions",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/nagant/Senior's Instructions.webp"
+        "number": 1,
+        "localImagePath": "data/nagant/Senior's Instructions1.webp"
       },
       {
         "name": "Heroic Strike",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/nagant/Heroic Strike.webp"
       },
       {
         "name": "Veteran's Experience",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/nagant/Veteran's Experience.webp"
       },
       {
         "name": "Invisible Bulletproof Vest",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/nagant/Invisible Bulletproof Vest.webp"
       },
       {
         "name": "Legend of Guardians",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/nagant/Legend of Guardians.webp"
       },
       {
         "name": "One Shot, One Victory",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/nagant/One Shot, One Victory.webp"
       },
       {
         "name": "Bullet of Justice",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/nagant/Bullet of Justice.webp"
       }
     ],
@@ -4025,6 +4543,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Sniper Rifle",
+    "remolding": "data/nemesis/RemoldingPattern.png",
     "avatar": "data/nemesis/avatar.webp",
     "skills": [
       {
@@ -4087,44 +4607,58 @@
     "keys": [
       {
         "name": "Forecast Elegy",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/nemesis/Forecast Elegy.webp"
+        "number": 1,
+        "localImagePath": "data/nemesis/Forecast Elegy1.webp"
       },
       {
         "name": "Potent Curse",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/nemesis/Potent Curse.webp"
       },
       {
         "name": "Changing Fortune",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/nemesis/Changing Fortune.webp"
       },
       {
         "name": "Fortune's Call",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/nemesis/Fortune's Call.webp"
       },
       {
         "name": "Silent Catastrophe",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/nemesis/Silent Catastrophe.webp"
       },
       {
         "name": "Fated Calamity",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/nemesis/Fated Calamity.webp"
       },
       {
         "name": "Focused Gaze",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/nemesis/Focused Gaze.webp"
       }
     ],
@@ -4139,6 +4673,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Sniper Rifle",
+    "remolding": "data/nemesis-gnosis/RemoldingPattern.png",
     "avatar": "data/nemesis-gnosis/avatar.webp",
     "skills": [
       {
@@ -4199,38 +4735,50 @@
     "keys": [
       {
         "name": "Return Anchor",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/nemesis-gnosis/Return Anchor.webp"
       },
       {
         "name": "Sagacious Judgment",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/nemesis-gnosis/Sagacious Judgment.webp"
       },
       {
         "name": "Wanderer's Instincts",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/nemesis-gnosis/Wanderer's Instincts.webp"
       },
       {
         "name": "Immune Bloodline",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/nemesis-gnosis/Immune Bloodline.webp"
       },
       {
         "name": "Prophet's Soliloquy",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/nemesis-gnosis/Prophet's Soliloquy.webp"
       },
       {
         "name": "Blessings of Nirvana",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/nemesis-gnosis/Blessings of Nirvana.webp"
       }
     ],
@@ -4245,6 +4793,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Sniper Rifle",
+    "remolding": "data/nikketa/RemoldingPattern.png",
     "avatar": "data/nikketa/avatar.webp",
     "skills": [
       {
@@ -4309,44 +4859,58 @@
     "keys": [
       {
         "name": "Justice Is Always With You",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/nikketa/Justice Is Always With You.webp"
+        "number": 1,
+        "localImagePath": "data/nikketa/Justice Is Always With You1.webp"
       },
       {
         "name": "Righteous Doll",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/nikketa/Righteous Doll.webp"
       },
       {
         "name": "Messenger of Justice",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/nikketa/Messenger of Justice.webp"
       },
       {
         "name": "Valiant Aura",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/nikketa/Valiant Aura.webp"
       },
       {
         "name": "Just Desserts",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/nikketa/Just Desserts.webp"
       },
       {
         "name": "Stern Gaze",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/nikketa/Stern Gaze.webp"
       },
       {
         "name": "Oppressive Air",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/nikketa/Oppressive Air.webp"
       }
     ],
@@ -4390,6 +4954,8 @@
     "ammoTypes": [
       "Medium Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/ots-14/RemoldingPattern.png",
     "avatar": "data/ots-14/avatar.webp",
     "skills": [
       {
@@ -4459,38 +5025,50 @@
     "keys": [
       {
         "name": "Predator's Stride",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/ots-14/Predator's Stride.webp"
       },
       {
         "name": "Self-Identity",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/ots-14/Self-Identity.webp"
       },
       {
         "name": "Single-Minded Obsession",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/ots-14/Single-Minded Obsession.webp"
       },
       {
         "name": "Perfect Battle Plan",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/ots-14/Perfect Battle Plan.webp"
       },
       {
         "name": "At Any Cost",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/ots-14/At Any Cost.webp"
       },
       {
         "name": "Thirst for Destruction",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/ots-14/Thirst for Destruction.webp"
       }
     ],
@@ -4505,6 +5083,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Submachine Gun",
+    "remolding": "data/papasha/RemoldingPattern.png",
     "avatar": "data/papasha/avatar.webp",
     "skills": [
       {
@@ -4569,44 +5149,58 @@
     "keys": [
       {
         "name": "Unconquerable City",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/papasha/Unconquerable City.webp"
+        "number": 1,
+        "localImagePath": "data/papasha/Unconquerable City1.webp"
       },
       {
         "name": "Glory With Us",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/papasha/Glory With Us.webp"
       },
       {
         "name": "Vow to Defend",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/papasha/Vow to Defend.webp"
       },
       {
         "name": "Unwavering Conviction",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/papasha/Unwavering Conviction.webp"
       },
       {
         "name": "Final Assault",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/papasha/Final Assault.webp"
       },
       {
         "name": "I'll Learn it",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/papasha/I'll Learn it.webp"
       },
       {
         "name": "Strength in Unity",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/papasha/Strength in Unity.webp"
       }
     ],
@@ -4661,6 +5255,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Submachine Gun",
+    "remolding": "data/peri/RemoldingPattern.png",
     "avatar": "data/peri/avatar.webp",
     "skills": [
       {
@@ -4722,44 +5318,58 @@
     "keys": [
       {
         "name": "Broker’s Scheme",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/peri/Broker’s Scheme.webp"
+        "number": 1,
+        "localImagePath": "data/peri/Broker’s Scheme1.webp"
       },
       {
         "name": "Basis of Trade",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/peri/Basis of Trade.webp"
       },
       {
         "name": "Cool and Reliable",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/peri/Cool and Reliable.webp"
       },
       {
         "name": "Insider Information",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/peri/Insider Information.webp"
       },
       {
         "name": "Independent Woman",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/peri/Independent Woman.webp"
       },
       {
         "name": "Mature Adult",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/peri/Mature Adult.webp"
       },
       {
         "name": "Social Engineering",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/peri/Social Engineering.webp"
       }
     ],
@@ -4774,6 +5384,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Machine Gun",
+    "remolding": "data/peritya/RemoldingPattern.png",
     "avatar": "data/peritya/avatar.webp",
     "skills": [
       {
@@ -4837,44 +5449,58 @@
     "keys": [
       {
         "name": "Feline Shadow",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/peritya/Feline Shadow.webp"
+        "number": 1,
+        "localImagePath": "data/peritya/Feline Shadow1.webp"
       },
       {
         "name": "Temporary System Maintenance",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/peritya/Temporary System Maintenance.webp"
       },
       {
         "name": "Impromptu Cat and Mouse Game",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/peritya/Impromptu Cat and Mouse Game.webp"
       },
       {
         "name": "Automatic Repair Program",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/peritya/Automatic Repair Program.webp"
       },
       {
         "name": "Lazy Resistance",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/peritya/Lazy Resistance.webp"
       },
       {
         "name": "A Brief Respite",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/peritya/A Brief Respite.webp"
       },
       {
         "name": "Friendly Contact",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/peritya/Friendly Contact.webp"
       }
     ],
@@ -4889,6 +5515,8 @@
     "ammoTypes": [
       "Melee"
     ],
+    "gunType": "Blade",
+    "remolding": "data/phaetusa/RemoldingPattern.png",
     "avatar": "data/phaetusa/avatar.webp",
     "skills": [
       {
@@ -4954,38 +5582,50 @@
     "keys": [
       {
         "name": "Wandering Resolve",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/phaetusa/Wandering Resolve.webp"
       },
       {
         "name": "Cold Bloodline",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/phaetusa/Cold Bloodline.webp"
       },
       {
         "name": "Executor’s Resolve",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/phaetusa/Executor’s Resolve.webp"
       },
       {
         "name": "Life Exchange",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/phaetusa/Life Exchange.webp"
       },
       {
         "name": "Domain Master",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/phaetusa/Domain Master.webp"
       },
       {
         "name": "Twin Shadows",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/phaetusa/Twin Shadows.webp"
       }
     ],
@@ -5000,6 +5640,8 @@
     "ammoTypes": [
       "Medium Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/qiongjiu/RemoldingPattern.png",
     "avatar": "data/qiongjiu/avatar.webp",
     "skills": [
       {
@@ -5064,44 +5706,58 @@
     "keys": [
       {
         "name": "Ruined Gem",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/qiongjiu/Ruined Gem.webp"
+        "number": 1,
+        "localImagePath": "data/qiongjiu/Ruined Gem1.webp"
       },
       {
         "name": "Concentration",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/qiongjiu/Concentration.webp"
       },
       {
         "name": "Efficient Planning",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/qiongjiu/Efficient Planning.webp"
       },
       {
         "name": "Targeted Training",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/qiongjiu/Targeted Training.webp"
       },
       {
         "name": "Point of Vulnerability",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/qiongjiu/Point of Vulnerability.webp"
       },
       {
         "name": "Necessary Adjustments",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/qiongjiu/Necessary Adjustments.webp"
       },
       {
         "name": "Steadiness",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/qiongjiu/Steadiness.webp"
       }
     ],
@@ -5117,6 +5773,8 @@
       "Shotgun Ammo",
       "Light Ammo"
     ],
+    "gunType": "Shotgun",
+    "remolding": "data/qiuhua/RemoldingPattern.png",
     "avatar": "data/qiuhua/avatar.webp",
     "skills": [
       {
@@ -5179,44 +5837,58 @@
     "keys": [
       {
         "name": "Fiery Quick Stir-Fry",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/qiuhua/Fiery Quick Stir-Fry.webp"
+        "number": 1,
+        "localImagePath": "data/qiuhua/Fiery Quick Stir-Fry1.webp"
       },
       {
         "name": "Meal Prep",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/qiuhua/Meal Prep.webp"
       },
       {
         "name": "Roaring Stove",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/qiuhua/Roaring Stove.webp"
       },
       {
         "name": "Slice and Dice",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/qiuhua/Slice and Dice.webp"
       },
       {
         "name": "Fragrant Stir-Fry",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/qiuhua/Fragrant Stir-Fry.webp"
       },
       {
         "name": "Cooking Smoke",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/qiuhua/Cooking Smoke.webp"
       },
       {
         "name": "Bloated Belly",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/qiuhua/Bloated Belly.webp"
       }
     ],
@@ -5231,6 +5903,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Submachine Gun",
+    "remolding": "data/robella/RemoldingPattern.png",
     "avatar": "data/robella/avatar.webp",
     "skills": [
       {
@@ -5291,38 +5965,50 @@
     "keys": [
       {
         "name": "Guard Vent",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/robella/Guard Vent.webp"
       },
       {
         "name": "Third-Gen Neural Cloud",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/robella/Third-Gen Neural Cloud.webp"
       },
       {
         "name": "Extra Attention",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/robella/Extra Attention.webp"
       },
       {
         "name": "Less Than A Dinergate",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/robella/Less Than A Dinergate.webp"
       },
       {
         "name": "Cool Protection",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/robella/Cool Protection.webp"
       },
       {
         "name": "Inner Calm",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/robella/Inner Calm.webp"
       }
     ],
@@ -5337,6 +6023,8 @@
     "ammoTypes": [
       "Shotgun Ammo"
     ],
+    "gunType": "Shotgun",
+    "remolding": "data/sabrina/RemoldingPattern.png",
     "avatar": "data/sabrina/avatar.webp",
     "skills": [
       {
@@ -5404,44 +6092,58 @@
     "keys": [
       {
         "name": "Recipe of Legend",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/sabrina/Recipe of Legend.webp"
+        "number": 1,
+        "localImagePath": "data/sabrina/Recipe of Legend1.webp"
       },
       {
         "name": "Eating is a Blessing",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/sabrina/Eating is a Blessing.webp"
       },
       {
         "name": "Delicious Sharing",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/sabrina/Delicious Sharing.webp"
       },
       {
         "name": "Let Everything Simmer",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/sabrina/Let Everything Simmer.webp"
       },
       {
         "name": "Eat Well, Sleep Well",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/sabrina/Eat Well, Sleep Well.webp"
       },
       {
         "name": "Calorie Overload",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/sabrina/Calorie Overload.webp"
       },
       {
         "name": "Weird-Tasting Health Recipe",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/sabrina/Weird-Tasting Health Recipe.webp"
       }
     ],
@@ -5456,6 +6158,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Submachine Gun",
+    "remolding": "data/sakura/RemoldingPattern.png",
     "avatar": "data/sakura/avatar.webp",
     "skills": [
       {
@@ -5517,38 +6221,50 @@
     "keys": [
       {
         "name": "Hard Work and Guts",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/sakura/Hard Work and Guts.webp"
       },
       {
         "name": "Just in Time Logistics",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/sakura/Just in Time Logistics.webp"
       },
       {
         "name": "Apologies From the Heart",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/sakura/Apologies From the Heart.webp"
       },
       {
         "name": "Jinxed by Nature",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/sakura/Jinxed by Nature.webp"
       },
       {
         "name": "Flying Solo",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/sakura/Flying Solo.webp"
       },
       {
         "name": "Improving Every Day",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/sakura/Improving Every Day.webp"
       }
     ],
@@ -5563,6 +6279,8 @@
     "ammoTypes": [
       "Melee"
     ],
+    "gunType": "Blade",
+    "remolding": "data/sextans/RemoldingPattern.png",
     "avatar": "data/sextans/avatar.webp",
     "skills": [
       {
@@ -5630,38 +6348,50 @@
     "keys": [
       {
         "name": "Contractor's Bond",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/sextans/Contractor's Bond.webp"
       },
       {
         "name": "Silent Inscription",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/sextans/Silent Inscription.webp"
       },
       {
         "name": "Pocket Watch Calibration",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/sextans/Pocket Watch Calibration.webp"
       },
       {
         "name": "Withering Oath",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/sextans/Withering Oath.webp"
       },
       {
         "name": "Red Velvet Curtain",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/sextans/Red Velvet Curtain.webp"
       },
       {
         "name": "Black Swan's Feather",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/sextans/Black Swan's Feather.webp"
       }
     ],
@@ -5676,6 +6406,8 @@
     "ammoTypes": [
       "Medium Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/sharkry/RemoldingPattern.png",
     "avatar": "data/sharkry/avatar.webp",
     "skills": [
       {
@@ -5739,44 +6471,58 @@
     "keys": [
       {
         "name": "Passionate Tempo",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/sharkry/Passionate Tempo.webp"
+        "number": 1,
+        "localImagePath": "data/sharkry/Passionate Tempo1.webp"
       },
       {
         "name": "Devilish Whisper",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/sharkry/Devilish Whisper.webp"
       },
       {
         "name": "Thermal Feedback",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/sharkry/Thermal Feedback.webp"
       },
       {
         "name": "Deadly Allure",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/sharkry/Deadly Allure.webp"
       },
       {
         "name": "Idol Training Day",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/sharkry/Idol Training Day.webp"
       },
       {
         "name": "Target Is Your Heart",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/sharkry/Target Is Your Heart.webp"
       },
       {
         "name": "Palm-Blown Kiss",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/sharkry/Palm-Blown Kiss.webp"
       }
     ],
@@ -5791,6 +6537,8 @@
     "ammoTypes": [
       "Medium Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/Soppo/RemoldingPattern.png",
     "avatar": "data/Soppo/avatar.webp",
     "skills": [
       {
@@ -5879,38 +6627,50 @@
     "keys": [
       {
         "name": "This Is My Turf",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/Soppo/This Is My Turf.webp"
       },
       {
         "name": "Wanna Get Bitten Again?",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/Soppo/Wanna Get Bitten Again_.webp"
       },
       {
         "name": "Frozen Hell",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/Soppo/Frozen Hell.webp"
       },
       {
         "name": "Territorial Recovery",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/Soppo/Territorial Recovery.webp"
       },
       {
         "name": "Unbridled Bloodlust",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/Soppo/Unbridled Bloodlust.webp"
       },
       {
         "name": "Pack Synergy",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/Soppo/Pack Synergy.webp"
       }
     ],
@@ -5925,6 +6685,8 @@
     "ammoTypes": [
       "Heavy Ammo"
     ],
+    "gunType": "Sniper Rifle",
+    "remolding": "data/springfield/RemoldingPattern.png",
     "avatar": "data/springfield/avatar.webp",
     "skills": [
       {
@@ -5989,39 +6751,59 @@
     ],
     "keys": [
       {
+        "name": "Vigilant Bond",
+        "id": "k1",
+        "rarity": "Elite",
+        "type": "Expansion Key",
+        "number": 1,
+        "localImagePath": "data/springfield/Vigilant Bond1.webp"
+      },
+      {
         "name": "Coalesced Core",
-        "id": "f1",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/springfield/Coalesced Core.webp"
       },
       {
         "name": "Intel Acquisition",
-        "id": "f2",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/springfield/Intel Acquisition.webp"
       },
       {
         "name": "Airborne Link",
-        "id": "f3",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/springfield/Airborne Link.webp"
       },
       {
         "name": "Mind Reader",
-        "id": "f4",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/springfield/Mind Reader.webp"
       },
       {
         "name": "Behind Her Smile",
-        "id": "f5",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/springfield/Behind Her Smile.webp"
       },
       {
         "name": "Gentle Ministrations",
-        "id": "f6",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/springfield/Gentle Ministrations.webp"
       }
     ],
@@ -6036,6 +6818,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Submachine Gun",
+    "remolding": "data/suomi/RemoldingPattern.png",
     "avatar": "data/suomi/avatar.webp",
     "skills": [
       {
@@ -6098,44 +6882,58 @@
     "keys": [
       {
         "name": "Rock and Roll, Snowflake!",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/suomi/Rock and Roll, Snowflake!.webp"
+        "number": 1,
+        "localImagePath": "data/suomi/Rock and Roll, Snowflake!1.webp"
       },
       {
         "name": "Unyielding Momentum",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/suomi/Unyielding Momentum.webp"
       },
       {
         "name": "Little Guardian",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/suomi/Little Guardian.webp"
       },
       {
         "name": "Positive Feedback",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/suomi/Positive Feedback.webp"
       },
       {
         "name": "Move Swiftly",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/suomi/Move Swiftly.webp"
       },
       {
         "name": "Immovable",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/suomi/Immovable.webp"
       },
       {
         "name": "Logistics Support in Progress",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/suomi/Logistics Support in Progress.webp"
       }
     ],
@@ -6150,6 +6948,8 @@
     "ammoTypes": [
       "Medium Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/tololo/RemoldingPattern.png",
     "avatar": "data/tololo/avatar.webp",
     "skills": [
       {
@@ -6211,44 +7011,58 @@
     "keys": [
       {
         "name": "Captured Starlight",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/tololo/Captured Starlight.webp"
+        "number": 1,
+        "localImagePath": "data/tololo/Captured Starlight1.webp"
       },
       {
         "name": "Comet Tail Transit",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/tololo/Comet Tail Transit.webp"
       },
       {
         "name": "Principles of Observational Astronomy",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/tololo/Principles of Observational Astronomy.webp"
       },
       {
         "name": "Invisible Light",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/tololo/Invisible Light.webp"
       },
       {
         "name": "Retrograde Motion",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/tololo/Retrograde Motion.webp"
       },
       {
         "name": "Galactic Cruise",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/tololo/Galactic Cruise.webp"
       },
       {
         "name": "Stellar Eclipse",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/tololo/Stellar Eclipse.webp"
       }
     ],
@@ -6264,6 +7078,8 @@
       "Melee",
       "Light Ammo"
     ],
+    "gunType": "Blade",
+    "remolding": "data/ullrid/RemoldingPattern.png",
     "avatar": "data/ullrid/avatar.webp",
     "skills": [
       {
@@ -6328,50 +7144,66 @@
     "keys": [
       {
         "name": "Determined Pursuit",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/ullrid/Determined Pursuit.webp"
+        "number": 1,
+        "localImagePath": "data/ullrid/Determined Pursuit1.webp"
       },
       {
         "name": "Determined Pursuit",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/ullrid/Determined Pursuit.webp"
+        "number": 2,
+        "localImagePath": "data/ullrid/Determined Pursuit2.webp"
       },
       {
         "name": "Swift Action",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/ullrid/Swift Action.webp"
       },
       {
         "name": "Predation",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/ullrid/Predation.webp"
       },
       {
         "name": "Appropriate Caution",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/ullrid/Appropriate Caution.webp"
       },
       {
         "name": "Ideal State",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/ullrid/Ideal State.webp"
       },
       {
         "name": "Oppression",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/ullrid/Oppression.webp"
       },
       {
         "name": "Hunter's Acuity",
-        "id": "f8",
+        "id": "k8",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/ullrid/Hunter's Acuity.webp"
       }
     ],
@@ -6386,6 +7218,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Submachine Gun",
+    "remolding": "data/vector/RemoldingPattern.png",
     "avatar": "data/vector/avatar.webp",
     "skills": [
       {
@@ -6451,44 +7285,58 @@
     "keys": [
       {
         "name": "Depression Empathy",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/vector/Depression Empathy.webp"
+        "number": 1,
+        "localImagePath": "data/vector/Depression Empathy1.webp"
       },
       {
         "name": "Hospice Care",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/vector/Hospice Care.webp"
       },
       {
         "name": "Splattering Pessimism",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/vector/Splattering Pessimism.webp"
       },
       {
         "name": "Dispassionate Support",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/vector/Dispassionate Support.webp"
       },
       {
         "name": "Proliferating Despair",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/vector/Proliferating Despair.webp"
       },
       {
         "name": "Unfortunate Jinx",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/vector/Unfortunate Jinx.webp"
       },
       {
         "name": "Negative Motivation",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/vector/Negative Motivation.webp"
       }
     ],
@@ -6503,6 +7351,8 @@
     "ammoTypes": [
       "Shotgun Ammo"
     ],
+    "gunType": "Shotgun",
+    "remolding": "data/vepley/RemoldingPattern.png",
     "avatar": "data/vepley/avatar.webp",
     "skills": [
       {
@@ -6568,44 +7418,58 @@
     "keys": [
       {
         "name": "Idol Steps",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/vepley/Idol Steps.webp"
+        "number": 1,
+        "localImagePath": "data/vepley/Idol Steps1.webp"
       },
       {
         "name": "Safe Viewing Distance",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/vepley/Safe Viewing Distance.webp"
       },
       {
         "name": "Contamination Zone Tour",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/vepley/Contamination Zone Tour.webp"
       },
       {
         "name": "Fortune of an Idol",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/vepley/Fortune of an Idol.webp"
       },
       {
         "name": "Dino Dash",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/vepley/Dino Dash.webp"
       },
       {
         "name": "Stress Resistance Training",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/vepley/Stress Resistance Training.webp"
       },
       {
         "name": "Stage Commitment",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/vepley/Stage Commitment.webp"
       }
     ],
@@ -6621,6 +7485,8 @@
       "Medium Ammo",
       "Melee"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/voymastina/RemoldingPattern.png",
     "avatar": "data/voymastina/avatar.webp",
     "skills": [
       {
@@ -6684,38 +7550,50 @@
     "keys": [
       {
         "name": "Shrapnel Curtain",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/voymastina/Shrapnel Curtain.webp"
       },
       {
         "name": "Wide Field of View",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/voymastina/Wide Field of View.webp"
       },
       {
         "name": "Global Hunt",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/voymastina/Global Hunt.webp"
       },
       {
         "name": "Isolated Execution",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/voymastina/Isolated Execution.webp"
       },
       {
         "name": "Apex Killer",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/voymastina/Apex Killer.webp"
       },
       {
         "name": "Scars Bring Strength",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/voymastina/Scars Bring Strength.webp"
       }
     ],
@@ -6730,6 +7608,8 @@
     "ammoTypes": [
       "Medium Ammo"
     ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/yoohee/RemoldingPattern.png",
     "avatar": "data/yoohee/avatar.webp",
     "skills": [
       {
@@ -6815,44 +7695,58 @@
     "keys": [
       {
         "name": "Perfect Dance",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/yoohee/Perfect Dance.webp"
+        "number": 1,
+        "localImagePath": "data/yoohee/Perfect Dance1.webp"
       },
       {
         "name": "Effort and Returns",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/yoohee/Effort and Returns.webp"
       },
       {
         "name": "Enjoy The Limelight",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/yoohee/Enjoy The Limelight.webp"
       },
       {
         "name": "Tempo Resonance",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/yoohee/Tempo Resonance.webp"
       },
       {
         "name": "Infectious Emotions",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/yoohee/Infectious Emotions.webp"
       },
       {
         "name": "Marvelous Shift",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/yoohee/Marvelous Shift.webp"
       },
       {
         "name": "Exquisite Choreography",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/yoohee/Exquisite Choreography.webp"
       }
     ],
@@ -6867,6 +7761,8 @@
     "ammoTypes": [
       "Light Ammo"
     ],
+    "gunType": "Submachine Gun",
+    "remolding": "data/zhaohui/RemoldingPattern.png",
     "avatar": "data/zhaohui/avatar.webp",
     "skills": [
       {
@@ -6933,44 +7829,58 @@
     "keys": [
       {
         "name": "Perfect Form",
-        "id": "f1",
+        "id": "k1",
+        "rarity": "Elite",
         "type": "Expansion Key",
-        "localImagePath": "data/zhaohui/Perfect Form.webp"
+        "number": 1,
+        "localImagePath": "data/zhaohui/Perfect Form1.webp"
       },
       {
         "name": "Weakness Exposed",
-        "id": "f2",
+        "id": "k2",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 1,
         "localImagePath": "data/zhaohui/Weakness Exposed.webp"
       },
       {
         "name": "Detest Evil",
-        "id": "f3",
+        "id": "k3",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 2,
         "localImagePath": "data/zhaohui/Detest Evil.webp"
       },
       {
         "name": "Buffer Time",
-        "id": "f4",
+        "id": "k4",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 3,
         "localImagePath": "data/zhaohui/Buffer Time.webp"
       },
       {
         "name": "Light of Justice",
-        "id": "f5",
+        "id": "k5",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 4,
         "localImagePath": "data/zhaohui/Light of Justice.webp"
       },
       {
         "name": "Solidifying Rhythm",
-        "id": "f6",
+        "id": "k6",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 5,
         "localImagePath": "data/zhaohui/Solidifying Rhythm.webp"
       },
       {
         "name": "Dry Humor",
-        "id": "f7",
+        "id": "k7",
+        "rarity": "Standard",
         "type": "Fixed Key",
+        "number": 6,
         "localImagePath": "data/zhaohui/Dry Humor.webp"
       }
     ],
