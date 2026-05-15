@@ -77,6 +77,7 @@ export interface SelectedDoll {
 export interface AppState {
 	selectedDolls: SelectedDoll[];
 	currentTab: number; // -1=editor, 0-7=arena, 8=summary
+	/** @deprecated as of v8 */
 	actionType?: number | string;
 	map: string;
 	skillDisplay: number[];

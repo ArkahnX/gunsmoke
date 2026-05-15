@@ -15,7 +15,18 @@ import {
 	TileType,
 	MapGrid,
 } from "../types";
-import { SAVE_VERSION, SKILL_DISPLAY_KEY, STORAGE_KEY, TILE_SIZE } from "../types/constants";
+import { loadMap, setEditingMap } from "../canvas/editorMap";
+import {
+	CUSTOM_MAP_KEY,
+	SAVE_VERSION,
+	SKILL_DISPLAY_KEY,
+	STORAGE_KEY,
+	TILE_SIZE,
+	V7_EDITOR_MAP_KEY,
+	V7_SAVE_VERSION,
+	V7_SKILL_DISPLAY_KEY,
+	V7_STORAGE_KEY,
+} from "../types/constants";
 
 // ====================== MAP GRID ======================
 export const mapGrid: MapGrid = { name: "Default", size: 21, tiles: [] };
@@ -100,7 +111,6 @@ function debugCell(tile: TileType) {
 }
 
 // ====================== DOLL / SUMMON LISTS ======================
-export { SAVE_VERSION } from "../types/constants";
 export const allDolls: DollData[] = [];
 export const allSummons: SummonData[] = [];
 export const allKeys: KeyData = { common: [], affinity: [] };
@@ -362,15 +372,17 @@ export function saveToLocalStorage() {
 }
 
 export function loadState(newData: AppState & { version: number }) {
+	const incomingState = version7To8Upgrade(newData);
 	setState(
 		produce((s) => {
-			s.selectedDolls = newData.selectedDolls;
-			s.currentTab = newData.currentTab;
-			if (newData.skillDisplay) {
-				s.skillDisplay = newData.skillDisplay;
+			s.selectedDolls = incomingState.selectedDolls;
+			s.currentTab = incomingState.currentTab;
+			s.map = incomingState.map;
+			if (incomingState.skillDisplay) {
+				s.skillDisplay = incomingState.skillDisplay;
 			}
 			for (let tabIndex = 0; tabIndex < 8; tabIndex++) {
-				const src = newData.tabData[tabIndex]!;
+				const src = incomingState.tabData[tabIndex]!;
 				const tab = s.tabData[tabIndex]!;
 				tab.summonPositions.length = 0;
 				tab.actionOrder.length = 0;
@@ -397,23 +409,11 @@ export function loadState(newData: AppState & { version: number }) {
 		})
 	);
 	for (let i = 0; i < 8; i++) defaultActionOrder(i);
-}
-
-export function loadFromLocalStorage(): boolean {
-	const saved = localStorage.getItem(STORAGE_KEY);
-	if (!saved) return false;
-	try {
-		const data = JSON.parse(saved);
-		if (data.version !== SAVE_VERSION) return false;
-		loadState(data);
-		return true;
-	} catch {
-		return false;
-	}
+	setEditingMap(state.map);
 }
 
 export function version7To8Upgrade(data: AppState & { version: number }) {
-	if (data.version !== 7) return data;
+	if (data.version !== V7_SAVE_VERSION) return data;
 	data.version = 8;
 	if (typeof data.actionType === "number") {
 		if (data.actionType === 0) {
@@ -438,25 +438,114 @@ export function version7To8Upgrade(data: AppState & { version: number }) {
 	}
 	delete data.actionType;
 	data.map = "Tusk Beasteel";
+	for (const doll of data.selectedDolls) {
+		if(!doll.keys || doll.keys.length !== 8) {
+			doll.keys = Array(8).fill("");
+		}
+		doll.remoldingLvl = doll.remoldingLvl ?? 1;
+		doll.fortification = doll.fortification ?? 0;
+		doll.gun = doll.gun ?? "";
+	}
 	return data;
 }
 
-export async function loadFromURL(): Promise<boolean> {
-	const params = new URLSearchParams(window.location.search);
-	const saved = params.get("state");
-	if (!saved) return false;
+function localStorageLoad<T>(key: string): T | null {
 	try {
-		const decompressed = await decompress(saved.trim());
-		const parsed = JSON.parse(decompressed);
-		if (parsed.version !== SAVE_VERSION) {
-			alert("Unsupported version");
-			return false;
-		}
-		loadState(parsed);
-		return true;
-	} catch {
-		return false;
+		const item = localStorage.getItem(key);
+		if (!item) return null;
+		return JSON.parse(item) as T;
+	} catch (e) {
+		console.error("Error loading from localStorage", e);
+		return null;
 	}
+}
+
+export function migrate() {
+	if (!localStorage.getItem(V7_STORAGE_KEY)) return;
+	if (localStorage.getItem(STORAGE_KEY)) return;
+	console.log("Migrating data from version 7 to version 8");
+	const v7Data = localStorageLoad<AppState & { version: number }>(V7_STORAGE_KEY);
+	const v7Skills = localStorageLoad<SkillDisplay>(V7_SKILL_DISPLAY_KEY);
+	const v7Map = localStorageLoad<MapGrid>(V7_EDITOR_MAP_KEY);
+	if (v7Data) {
+		const upgraded = version7To8Upgrade(v7Data);
+		localStorage.setItem(STORAGE_KEY, JSON.stringify(upgraded));
+	}
+	if (v7Skills) {
+		localStorage.setItem(SKILL_DISPLAY_KEY, JSON.stringify(v7Skills));
+	}
+	if (v7Map) {
+		localStorage.setItem(CUSTOM_MAP_KEY, JSON.stringify(v7Map));
+	}
+}
+
+export async function importState(
+	processFn: (data: string) => Promise<(AppState & { version: number }) | null>,
+	data: string,
+	fallback = false
+) {
+	const oldState = localStorageLoad<AppState & { version: number }>(STORAGE_KEY);
+	try {
+		const appState = await processFn(data);
+		if (!appState && fallback && oldState && oldState.version === SAVE_VERSION) {
+			console.error("Failed to import state, loading old state");
+			loadState(oldState);
+			return;
+		}
+		if (!appState) {
+			console.error("Failed to import state and no old state found");
+			return;
+		}
+		const migrated = version7To8Upgrade(appState);
+		if (migrated.version !== SAVE_VERSION) {
+			alert("Unsupported version");
+			return;
+		}
+		loadState(migrated);
+		for (let i = 0; i < 8; i++) defaultActionOrder(i);
+		await preloadCanvasImages();
+		saveToLocalStorage();
+		const SkillConfig = localStorageLoad<SkillDisplay>(SKILL_DISPLAY_KEY);
+		if (SkillConfig) {
+			setOverrideSkillNotations(SkillConfig.override);
+			if (SkillConfig.override === true) {
+				overrideSkillDisplay(SkillConfig.skillDisplay);
+			}
+		}
+
+		loadMap(state.map);
+		setupTempSelectedDolls();
+	} catch (e) {
+		console.error("Error importing state", e);
+		if (fallback && oldState && oldState.version === SAVE_VERSION) {
+			loadState(oldState);
+			for (let i = 0; i < 8; i++) defaultActionOrder(i);
+			await preloadCanvasImages();
+			saveToLocalStorage();
+			const SkillConfig = localStorageLoad<SkillDisplay>(SKILL_DISPLAY_KEY);
+			if (SkillConfig) {
+				setOverrideSkillNotations(SkillConfig.override);
+				if (SkillConfig.override === true) {
+					overrideSkillDisplay(SkillConfig.skillDisplay);
+				}
+			}
+
+			loadMap(state.map);
+			setupTempSelectedDolls();
+			return;
+		}
+	}
+}
+
+export function loadFromLocalStorage(data: string): Promise<(AppState & { version: number }) | null> {
+	return new Promise((resolve) => {
+		resolve(localStorageLoad<AppState & { version: number }>(STORAGE_KEY));
+	});
+}
+
+export async function loadFromString(data: string): Promise<(AppState & { version: number }) | null> {
+	const decompressed = await decompress(data.trim());
+	return JSON.parse(decompressed) as AppState & { version: number };
 }
 
 export function setSkillDisplay(skillType: string, notationStyle: string) {

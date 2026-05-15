@@ -6,19 +6,15 @@ import {
 	showImportModal,
 	showTargetModal,
 	loadFromLocalStorage,
-	preloadCanvasImages,
-	defaultActionOrder,
-	saveToLocalStorage,
 	showExportModal,
 	loadCombinedJson,
-	loadFromURL,
 	setLoaded,
 	loaded,
 	showSkillDisplayModal,
-	setOverrideSkillNotations,
-	overrideSkillDisplay,
+	importState,
+	loadFromString,
+	migrate,
 } from "./store";
-import type { SkillDisplay } from "./types";
 
 import TabBar from "./components/TabBar";
 import ArenaCanvas from "./components/ArenaCanvas";
@@ -37,40 +33,18 @@ import { SKILL_DISPLAY_KEY } from "./types/constants";
 
 export default function App() {
 	onMount(async () => {
-		try {
-			await loadCombinedJson();
-			loadEditorMap();
+		await loadCombinedJson();
+		loadEditorMap();
 
-			const params = new URLSearchParams(window.location.search);
-			let restored = false;
-			if (params.has("state")) {
-				restored = await loadFromURL();
-			} else {
-				restored = loadFromLocalStorage();
-			}
-			if (restored) {
-				console.log("Restored state");
-				await preloadCanvasImages();
-			}
-			for (let i = 0; i < 8; i++) defaultActionOrder(i);
-			if (!restored) saveToLocalStorage();
-
-			const saved = localStorage.getItem(SKILL_DISPLAY_KEY);
-			if (saved) {
-				const data: SkillDisplay = JSON.parse(saved);
-				setOverrideSkillNotations(data.override);
-				if (data.override === true) {
-					overrideSkillDisplay(data.skillDisplay);
-				}
-			}
-
-			setLoaded(true);
-			// Initial draw happens via ArenaCanvas onMount
-		} catch (e) {
-			console.error("Please let ArkahnX know about the following error");
-			console.error(e);
-			alert("potentially uncaught error encountered - check console for details");
+		migrate();
+		const params = new URLSearchParams(window.location.search);
+		if (params.has("state")) {
+			await importState(loadFromString, params.get("state")!);
+		} else {
+			await importState(loadFromLocalStorage, "");
 		}
+
+		setTimeout(() => setLoaded(true), 0);
 	});
 
 	const isEditorTab = () => state.currentTab === -1;

@@ -1,5 +1,5 @@
 import { mapGrid, setMap } from "../store";
-import { EDITOR_MAP_KEY } from "../types/constants";
+import { V7_EDITOR_MAP_KEY } from "../types/constants";
 import { MapGrid, TileType } from "../types";
 import { createSignal } from "solid-js";
 
@@ -101,13 +101,13 @@ export function editorDeserialize(text: string) {
 export function saveEditorMap() {
 	for (const map of maps) {
 		if (map.name === "Custom") {
-			localStorage.setItem(EDITOR_MAP_KEY, JSON.stringify(map));
+			localStorage.setItem(V7_EDITOR_MAP_KEY, JSON.stringify(map));
 		}
 	}
 }
 
 export function loadEditorMap() {
-	const saved = localStorage.getItem(EDITOR_MAP_KEY);
+	const saved = localStorage.getItem(V7_EDITOR_MAP_KEY);
 	if (saved) {
 		try {
 			const data: MapGrid = JSON.parse(saved);
