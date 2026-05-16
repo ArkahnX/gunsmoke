@@ -5014,7 +5014,7 @@ function addDollToTempSelect(dollId) {
       selectedDolls.push({
         id: dollId,
         fortification: 0,
-        keys: [],
+        keys: Array(8).fill(""),
         remoldingLvl: 0,
         gun: ""
       });
@@ -5237,7 +5237,7 @@ function displaySmallKeys(dollId, keys) {
   if (!doll) return [];
   const result = [];
   for (const [index, keyType] of keyMapping.entries()) {
-    const keyId = keys[index];
+    const keyId = keys[index] ?? "";
     if (keyType === "Expansion Key") result.push("=");
     if (doll.hasExpansionKey === false && keyType === "Expansion Key") continue;
     if (keyId === "") {
@@ -5258,10 +5258,12 @@ function displaySmallKeys(dollId, keys) {
   return result;
 }
 function sortEquippedKeys(dollId, keys) {
+  const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
   const doll = getInfoFromId(dollId);
   const result = [];
-  if (!doll) return Array(keys.length).fill(null);
-  for (const keyId of keys) {
+  if (!doll) return Array(keyMapping.length).fill(null);
+  for (const [index, keyType] of keyMapping.entries()) {
+    const keyId = keys[index] ?? "";
     if (keyId === "") {
       result.push(null);
       continue;
