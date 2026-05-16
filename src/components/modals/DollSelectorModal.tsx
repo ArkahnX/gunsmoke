@@ -1,46 +1,34 @@
-import { For } from "solid-js";
+import { createMemo, For } from "solid-js";
 import {
-	tempSelected,
-	setTempSelected,
 	activePhaseTab,
 	setActivePhaseTab,
 	setShowDollModal,
-	setShowFortificationModal,
 	visibleDollIndex,
 	allDolls,
+	tempSelectedDolls,
+	removeDollFromTempSelect,
+	addDollToTempSelect,
+	setShowFormationModal,
+	runAfterFramePaint,
 } from "../../store";
-import { DollData, PHASE_TABS } from "../../types";
+import { PHASE_TABS } from "../../types";
 import Phase from "../icons/Phase";
 import DollChip from "../DollChip";
 import Button from "../buttons/Button";
 import ModalHeader from "./ModalHeader";
 import ModalFooter from "./ModalFooter";
 
-function runAfterFramePaint(callback: () => void) {
-	// Queue a "before Render Steps" callback via requestAnimationFrame.
-	requestAnimationFrame(() => {
-		const messageChannel = new MessageChannel();
-
-		// Setup the callback to run in a Task
-		messageChannel.port1.onmessage = callback;
-
-		// Queue the Task on the Task Queue
-		messageChannel.port2.postMessage(undefined);
-	});
-}
-
 export default function DollSelectorModal() {
+	const selectedDollIds = createMemo(() => tempSelectedDolls.map((doll) => doll.id));
 	const toggleDoll = (id: string) => {
-		const sel = tempSelected();
-		if (sel.includes(id)) {
-			setTempSelected(sel.filter((x) => x !== id));
-		} else if (sel.length < 5) {
-			setTempSelected([...sel, id]);
+		if (selectedDollIds().includes(id)) {
+			removeDollFromTempSelect(id);
+		} else if (selectedDollIds().length < 5) {
+			addDollToTempSelect(id);
 		}
 	};
 
 	const toggleDollVisibility = async (phase: string) => {
-		console.log("Running Phase Tab for " + phase);
 		runAfterFramePaint(() => {
 			document.querySelectorAll(`.doll`).forEach((el) => {
 				el.classList.remove("show");
@@ -96,7 +84,7 @@ export default function DollSelectorModal() {
 				<div class="grid grid-cols-6 gap-4">
 					<For each={allDolls}>
 						{(doll) => {
-							const isSel = () => tempSelected().includes(doll.id);
+							const isSel = () => selectedDollIds().includes(doll.id);
 							return (
 								<DollChip
 									target={doll}
@@ -120,7 +108,7 @@ export default function DollSelectorModal() {
 				<Button
 					onClick={() => {
 						setShowDollModal(false);
-						setShowFortificationModal(true);
+						setShowFormationModal(true);
 					}}
 					color="dark"
 					design="confirm"

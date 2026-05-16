@@ -20,6 +20,11 @@ export interface CommonKey extends FixedKey {
 	dollId: string;
 }
 
+export interface DetailedKey extends CommonKey {
+	dollName: string;
+	dollAvatar: string;
+}
+
 export interface SummonData {
 	id: string;
 	dollId: string;
@@ -157,6 +162,11 @@ export interface RawDollEntry {
 }
 
 export interface KeyData {
+	common: DetailedKey[];
+	affinity: DetailedKey[];
+}
+
+export interface RawKeyData {
 	common: CommonKey[];
 	affinity: CommonKey[];
 }

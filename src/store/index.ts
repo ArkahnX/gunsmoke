@@ -1,5 +1,5 @@
 import { createStore, produce } from "solid-js/store";
-import { createSignal } from "solid-js";
+import { createMemo, createSignal } from "solid-js";
 import {
 	type AppState,
 	type DollData,
@@ -14,10 +14,17 @@ import {
 	type DragState,
 	TileType,
 	MapGrid,
+	WeaponData,
+	FixedKey,
+	CommonKey,
+	SkillDisplay,
+	RawKeyData,
+	DetailedKey,
 } from "../types";
 import { loadMap, setEditingMap } from "../canvas/editorMap";
 import {
 	CUSTOM_MAP_KEY,
+	DOLL_LOADOUT_KEY,
 	SAVE_VERSION,
 	SKILL_DISPLAY_KEY,
 	STORAGE_KEY,
@@ -27,6 +34,7 @@ import {
 	V7_SKILL_DISPLAY_KEY,
 	V7_STORAGE_KEY,
 } from "../types/constants";
+import { camera } from "../components/ArenaCanvas";
 
 // ====================== MAP GRID ======================
 export const mapGrid: MapGrid = { name: "Default", size: 21, tiles: [] };
@@ -72,10 +80,13 @@ export function hasCover(c: number, r: number): boolean {
 }
 
 export function setMap(name: string, size: number, tiles: TileType[]) {
+	setState("map", name);
 	mapGrid.name = name;
 	mapGrid.size = size;
 	mapGrid.tiles.length = 0;
 	mapGrid.tiles.push(...tiles);
+	camera.x = (mapGrid.size * TILE_SIZE) / 2;
+	camera.y = (mapGrid.size * TILE_SIZE) / 2;
 }
 
 export function setCell(x: number, y: number, value: TileType, merge?: boolean) {
@@ -84,7 +95,6 @@ export function setCell(x: number, y: number, value: TileType, merge?: boolean) 
 		mapGrid.tiles[gridKey(x, y)] = mapGrid.tiles[gridKey(x, y)] | value;
 	}
 	mapGrid.tiles[gridKey(x, y)] = value;
-	console.log(`before: ${debugCell(before)}, after: ${debugCell(getCell(x, y))}`);
 }
 
 export function unsetBoss() {
@@ -114,6 +124,8 @@ function debugCell(tile: TileType) {
 export const allDolls: DollData[] = [];
 export const allSummons: SummonData[] = [];
 export const allKeys: KeyData = { common: [], affinity: [] };
+export const allWeapons: WeaponData[] = [];
+export const defaultWeapons: Record<string, WeaponData> = {};
 export const skillOrder = ["Basic Attack", "Skill 1", "Skill 2", "Skill 3", "Passive", "Skill A", "Skill B"];
 export const skillOrderMap: Record<string, number | string> = skillOrder.reduce(
 	(previousValue, currentValue, currentIndex) => ({ ...previousValue, [currentValue]: currentIndex, [currentIndex]: currentValue }),
@@ -144,6 +156,8 @@ function makeDefaultTabData(): TabData {
 	return { actionOrder: [], actions: {}, dollPositions: {}, summonPositions: [] };
 }
 
+export const [tempSelectedDolls, setTempSelectedDolls] = createStore<SelectedDoll[]>([]);
+
 export const [state, setState] = createStore<AppState>({
 	selectedDolls: [],
 	currentTab: 0,
@@ -155,6 +169,11 @@ export const [state, setState] = createStore<AppState>({
 // ====================== MODAL STATE ======================
 export const [showDollModal, setShowDollModal] = createSignal(false);
 export const [showFortificationModal, setShowFortificationModal] = createSignal(false);
+export const [showFormationModal, setShowFormationModal] = createSignal(false);
+export const [showWeaponModal, setShowWeaponModal] = createSignal(false);
+export const [showKeyModal, setShowKeyModal] = createSignal(false);
+export const hideFormationModal = createMemo(() => showWeaponModal() || showKeyModal());
+export const [selectedDoll, setSelectedDoll] = createSignal<SelectedDoll | null>(null);
 export const [showImportModal, setShowImportModal] = createSignal(false);
 export const [showExportModal, setShowExportModal] = createSignal(false);
 export const [showSkillDisplayModal, setShowSkillDisplayModal] = createSignal(false);
@@ -173,6 +192,147 @@ export const [offsetX, setOffsetX] = createSignal(0);
 export const [offsetY, setOffsetY] = createSignal(0);
 
 // ====================== HELPERS ======================
+export function setupTempSelectedDolls() {
+	setTempSelectedDolls(
+		produce((selectedDolls) => {
+			selectedDolls.length = 0;
+			for (const doll of state.selectedDolls) {
+				selectedDolls.push({
+					id: doll.id,
+					fortification: doll.fortification,
+					keys: [...doll.keys],
+					remoldingLvl: doll.remoldingLvl,
+					gun: doll.gun,
+				});
+			}
+		})
+	);
+}
+
+export function removeDollFromTempSelect(dollId: string) {
+	setTempSelectedDolls(
+		produce((selectedDolls) => {
+			const index = selectedDolls.findIndex((doll) => doll.id === dollId);
+			if (index > -1) {
+				selectedDolls.splice(index, 1);
+			}
+		})
+	);
+}
+
+export function addDollToTempSelect(dollId: string) {
+	setTempSelectedDolls(
+		produce((selectedDolls) => {
+			selectedDolls.push({
+				id: dollId,
+				fortification: 0,
+				keys: [],
+				remoldingLvl: 0,
+				gun: "",
+			});
+		})
+	);
+}
+
+export function setDollWeapon(dollId: string, weaponId: string | null) {
+	if (!weaponId || !dollId) return;
+	setTempSelectedDolls(
+		produce((selectedDolls) => {
+			for (const doll of selectedDolls) {
+				if (doll.id === dollId) {
+					doll.gun = weaponId;
+				}
+			}
+		})
+	);
+}
+
+export function setDollKey(dollId: string, index: number, keyId: string | null) {
+	if (!dollId) return;
+	setTempSelectedDolls(
+		produce((selectedDolls) => {
+			for (const doll of selectedDolls) {
+				if (doll.id === dollId) {
+					if (keyId === null) {
+						doll.keys[index] = "";
+					} else {
+						doll.keys[index] = keyId;
+					}
+				}
+			}
+		})
+	);
+}
+
+export function changeFortification(dollId: string, fort: number) {
+	setTempSelectedDolls(
+		produce((tempSelected) => {
+			const index = tempSelected.findIndex((d) => d.id === dollId);
+			if (index !== -1) {
+				tempSelected[index].fortification += fort;
+				tempSelected[index].fortification = Math.max(0, tempSelected[index].fortification);
+				tempSelected[index].fortification = Math.min(6, tempSelected[index].fortification);
+			}
+		})
+	);
+}
+
+export function changeRemoldingLvl(dollId: string, modifier: number) {
+	const remoldingLevels = [1, 10, 20, 30, 45, 60];
+	setTempSelectedDolls(
+		produce((tempSelected) => {
+			const index = tempSelected.findIndex((d) => d.id === dollId);
+			if (index !== -1) {
+				let currentLvl = remoldingLevels.indexOf(tempSelected[index].remoldingLvl);
+				currentLvl += modifier;
+				currentLvl = Math.max(0, currentLvl);
+				currentLvl = Math.min(remoldingLevels.length - 1, currentLvl);
+				tempSelected[index].remoldingLvl = remoldingLevels[currentLvl];
+			}
+		})
+	);
+}
+
+export function saveDollLoadout(dollId: string) {
+	const index = tempSelectedDolls.findIndex((d) => d.id === dollId);
+	if (index !== -1) {
+		const doll = tempSelectedDolls[index];
+		localStorage.setItem(DOLL_LOADOUT_KEY(dollId), JSON.stringify(doll));
+	}
+}
+
+export function loadDollLoadout(dollId: string) {
+	const loadout = localStorageLoad<SelectedDoll>(DOLL_LOADOUT_KEY(dollId));
+	setTempSelectedDolls(
+		produce((selectedDolls) => {
+			for (const doll of selectedDolls) {
+				if (doll.id === dollId && loadout) {
+					doll.fortification = loadout.fortification;
+					doll.keys = [...loadout.keys];
+					doll.remoldingLvl = loadout.remoldingLvl;
+					doll.gun = loadout.gun;
+				}
+			}
+		})
+	);
+}
+
+export function dollHasLoadout(dollId: string): boolean {
+	return localStorage.getItem(DOLL_LOADOUT_KEY(dollId)) !== null;
+}
+
+export function updateSelectedDolls() {
+	setState(
+		produce((s) => {
+			s.selectedDolls.length = 0;
+			for (const doll of tempSelectedDolls) {
+				s.selectedDolls.push(doll);
+			}
+		})
+	);
+	saveToLocalStorage();
+}
+
 export function getInfoFromId(id: string): DollData | SummonData | undefined {
 	for (const doll of allDolls) {
 		if (doll.id === id) return doll;
@@ -193,6 +353,20 @@ export function getDollFromId(id: string): DollData | undefined {
 export function getSummonFromId(id: string): SummonData | undefined {
 	for (const summon of allSummons) {
 		if (summon.id === id) return summon;
+	}
+	return undefined;
+}
+
+export function getKeyFromId(dollId: string, keyId: string, dollInfo?: DollData): FixedKey | CommonKey | undefined {
+	const identifier = keyId.charAt(0);
+	if (identifier === "k") {
+		dollInfo = dollInfo ?? getDollFromId(dollId);
+		if (!dollInfo) return undefined;
+		return dollInfo.keys.find((k) => k.id === keyId);
+	} else if (identifier === "c") {
+		return allKeys.common.find((k) => k.id === keyId);
+	} else if (identifier === "a") {
+		return allKeys.affinity.find((k) => k.id === keyId);
 	}
 	return undefined;
 }
@@ -305,6 +479,56 @@ export function renderAction(dollId: string, action: SkillAction): string {
 	return getSkillDisplay(skill.type);
 }
 
+export function displaySmallKeys(dollId: string, keys: string[]) {
+	const doll = getInfoFromId(dollId) as DollData | null;
+	const blankCommonKey = { type: "Common Key", rarity: "None" };
+	const blankFixedKey = { type: "Fixed Key", rarity: "None" };
+	const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
+	if (!doll) return [];
+	const result = [];
+	for (const [index, keyType] of keyMapping.entries()) {
+		const keyId = keys[index];
+		if (keyType === "Expansion Key") result.push("=");
+		if (doll.hasExpansionKey === false && keyType === "Expansion Key") continue;
+		if (keyId === "") {
+			if (keyType === "Fixed Key" || keyType === "Expansion Key") result.push(blankFixedKey);
+			else if (keyType === "Common Key" || keyType === "Affinity Key") result.push(blankCommonKey);
+		} else {
+			let keyInfo = doll.keys.find((key) => key.id === keyId);
+			if (!keyInfo) keyInfo = allKeys.affinity.find((key) => key.id === keyId);
+			if (!keyInfo) keyInfo = allKeys.common.find((key) => key.id === keyId);
+			if (keyInfo) {
+				result.push(keyInfo);
+			} else {
+				console.error("Unable to find key", keyId, doll);
+			}
+		}
+		if (keyType === "Affinity Key") result.push("=");
+	}
+	return result;
+}
+
+export function sortEquippedKeys(dollId: string, keys: string[]): (FixedKey | DetailedKey | null)[] {
+	const doll = getInfoFromId(dollId) as DollData | null;
+	const result = [];
+	if (!doll) return Array(keys.length).fill(null);
+	for (const keyId of keys) {
+		if (keyId === "") {
+			result.push(null);
+			continue;
+		}
+		let keyInfo = doll.keys.find((key) => key.id === keyId);
+		if (!keyInfo) keyInfo = allKeys.affinity.find((key) => key.id === keyId);
+		if (!keyInfo) keyInfo = allKeys.common.find((key) => key.id === keyId);
+		if (keyInfo) {
+			result.push(keyInfo);
+		} else {
+			console.error("Unable to find key", keyId, doll);
+		}
+	}
+	return result;
+}
+
 // ====================== DEFAULT ACTION ORDER ======================
 export function defaultActionOrder(tabIndex: number) {
 	if (tabIndex < 0 || tabIndex > 7) return;
@@ -367,6 +591,7 @@ export function changeSelectedDolls(newDolls: SelectedDoll[]) {
 
 // ====================== PERSISTENCE ======================
 export function saveToLocalStorage() {
+	console.log("Saving to localStorage");
 	localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: SAVE_VERSION, ...state }));
 	localStorage.setItem(SKILL_DISPLAY_KEY, JSON.stringify({ override: overrideSkillNotations(), skillDisplay: state.skillDisplay }));
 }
@@ -439,7 +664,7 @@ export function version7To8Upgrade(data: AppState & { version: number }) {
 	delete data.actionType;
 	data.map = "Tusk Beasteel";
 	for (const doll of data.selectedDolls) {
-		if(!doll.keys || doll.keys.length !== 8) {
+		if (!doll.keys || doll.keys.length !== 8) {
 			doll.keys = Array(8).fill("");
 		}
 		doll.remoldingLvl = doll.remoldingLvl ?? 1;
@@ -488,12 +713,14 @@ export async function importState(
 	try {
 		const appState = await processFn(data);
 		if (!appState && fallback && oldState && oldState.version === SAVE_VERSION) {
-			console.error("Failed to import state, loading old state");
+			alert("Failed to import state, loading old state");
+			console.error("Please pass this text to ArkahnX:\n"+data);
 			loadState(oldState);
 			return;
 		}
 		if (!appState) {
-			console.error("Failed to import state and no old state found");
+			alert("Failed to import state and no old state found");
+			console.error("Please pass this text to ArkahnX:\n"+data);
 			return;
 		}
 		const migrated = version7To8Upgrade(appState);
@@ -504,7 +731,6 @@ export async function importState(
 		loadState(migrated);
 		for (let i = 0; i < 8; i++) defaultActionOrder(i);
 		await preloadCanvasImages();
-		saveToLocalStorage();
 		const SkillConfig = localStorageLoad<SkillDisplay>(SKILL_DISPLAY_KEY);
 		if (SkillConfig) {
 			setOverrideSkillNotations(SkillConfig.override);
@@ -512,16 +738,18 @@ export async function importState(
 				overrideSkillDisplay(SkillConfig.skillDisplay);
 			}
 		}
-
+		
 		loadMap(state.map);
 		setupTempSelectedDolls();
+		console.log("finished loading state");
+		saveToLocalStorage();
 	} catch (e) {
+		alert("Error importing state");
 		console.error("Error importing state", e);
 		if (fallback && oldState && oldState.version === SAVE_VERSION) {
 			loadState(oldState);
 			for (let i = 0; i < 8; i++) defaultActionOrder(i);
 			await preloadCanvasImages();
-			saveToLocalStorage();
 			const SkillConfig = localStorageLoad<SkillDisplay>(SKILL_DISPLAY_KEY);
 			if (SkillConfig) {
 				setOverrideSkillNotations(SkillConfig.override);
@@ -529,9 +757,11 @@ export async function importState(
 					overrideSkillDisplay(SkillConfig.skillDisplay);
 				}
 			}
-
+			
 			loadMap(state.map);
 			setupTempSelectedDolls();
+			console.log("finished loading backup state");
+			saveToLocalStorage();
 			return;
 		}
 	}
@@ -729,20 +959,29 @@ export function preloadCanvasImages() {
 // ====================== LOAD DOLLS AND SUMMONS ======================
 export async function loadCombinedJson() {
 	try {
-		const res = await Promise.all([fetch("combined.json"), fetch("keys.json")]);
+		const res = await Promise.all([fetch("combined.json"), fetch("keys.json"), fetch("weapons.json")]);
 		const combinedJson: RawDollEntry[] = await res[0].json();
-		const keysJson: KeyData = await res[1].json();
-		allKeys.affinity.push(...keysJson.affinity);
-		allKeys.common.push(...keysJson.common);
+		const keysJson: RawKeyData = await res[1].json();
+		const weaponsJson: WeaponData[] = await res[2].json();
+		allWeapons.push(...weaponsJson);
+		for (const weapon of allWeapons) {
+			if (weapon.imprintId === null) {
+				defaultWeapons[weapon.type] = weapon;
+			}
+		}
 
 		for (const entry of combinedJson) {
+			const hasExpansionKey = (entry.keys ?? []).findIndex((key) => key.type === "Expansion Key") > -1;
 			const doll: DollData = {
 				id: entry.id,
 				name: entry.name,
 				phase: entry.phase,
 				avatar: entry.avatar,
+				remolding: entry.remolding,
 				rarity: entry.rarity,
+				gunType: entry.gunType,
 				hasSummons: false,
+				hasExpansionKey: hasExpansionKey,
 				skills: entry.skills ? entry.skills : [],
 				keys: entry.keys ? entry.keys : [],
 				summons: [],
@@ -762,7 +1001,38 @@ export async function loadCombinedJson() {
 			}
 			allDolls.push(doll);
 		}
+		for (const key of keysJson.affinity) {
+			const dollInfo = allDolls.find((d) => d.id === key.dollId);
+			allKeys.affinity.push({
+				dollName: dollInfo ? dollInfo.name : "",
+				dollAvatar: dollInfo ? dollInfo.avatar : "",
+				...key,
+			});
+		}
+		for (const key of keysJson.common) {
+			const dollInfo = allDolls.find((d) => d.id === key.dollId);
+			allKeys.common.push({ dollName: dollInfo ? dollInfo.name : "", dollAvatar: dollInfo ? dollInfo.avatar : "", ...key });
+		}
 	} catch (e) {
 		console.error(e);
 	}
+}
+
+// ====================== CSS HELPERS ======================
+
+export const interactiveStyles = (selected: boolean | undefined = false) =>
+	"cursor-pointer outline-3 transition transition-discrete duration-175 hover:scale-107 hover:outline-white " +
+	(selected ? "outline-[#F26C1C]" : "outline-transparent");
+
+export function runAfterFramePaint(callback: () => void) {
+	// Queue a "before Render Steps" callback via requestAnimationFrame.
+	requestAnimationFrame(() => {
+		const messageChannel = new MessageChannel();
+
+		// Setup the callback to run in a Task
+		messageChannel.port1.onmessage = callback;
+
+		// Queue the Task on the Task Queue
+		messageChannel.port2.postMessage(undefined);
+	});
 }

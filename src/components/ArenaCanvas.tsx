@@ -11,10 +11,10 @@ import {
 	swapPositions,
 	isTileType,
 } from "../store";
-import { TILE_SIZE, MAP_BOUNDS, MIN_SCALE, MAX_SCALE, MAP_SIZE } from "../types/constants";
+import { TILE_SIZE, MIN_SCALE, MAX_SCALE, MAP_SIZE } from "../types/constants";
 import { drawMapTilesOnArena, drawGhostOnCanvas } from "../canvas/draw";
 import { createStore, produce } from "solid-js/store";
-import { Camera, DragState, DragStatus, TileType } from "../types";
+import { Camera, DragState, DragStatus, MapBounds, TileType } from "../types";
 import Discard from "./icons/Discard";
 import Modal from "./modals/Modal";
 import SetupSidebar from "./SetupSidebar";
@@ -24,7 +24,7 @@ let canvasEl!: HTMLCanvasElement;
 let ctx: CanvasRenderingContext2D;
 let dpr: number = 1;
 
-const camera: Camera = { x: MAP_BOUNDS.maxX / 2, y: MAP_BOUNDS.maxY / 2, scale: 2 };
+export const camera: Camera = { x: 10, y: 10, scale: 2 };
 
 const activePointers: Map<number, { x: number; y: number }> = new Map();
 
@@ -215,9 +215,14 @@ function zoomAt(clientX: number, clientY: number, factor: number): void {
  *   halfW = (cssWidth / 2) / scale
  *
  * camera.x must stay in [mapMinX + halfW, mapMaxX - halfW].
- * If the map is narrower than the viewport, centre it instead.
  */
 function clampCamera(): void {
+	const MAP_BOUNDS = {
+		minX: 0,
+		minY: 0,
+		maxX: mapGrid.size * TILE_SIZE,
+		maxY: mapGrid.size * TILE_SIZE,
+	};
 	const cssW = canvasEl.width / dpr;
 	const cssH = canvasEl.height / dpr;
 
@@ -228,21 +233,23 @@ function clampCamera(): void {
 	const halfW = cssW / 2 / camera.scale;
 	const halfH = cssH / 2 / camera.scale;
 
-	const mapW = MAP_BOUNDS.maxX - MAP_BOUNDS.minX;
-	const mapH = MAP_BOUNDS.maxY - MAP_BOUNDS.minY;
+	// Clamp X: camera can pan until only one tile remains visible on either side
+    camera.x = Math.max(
+        MAP_BOUNDS.minX - halfW + TILE_SIZE,   // left limit: left edge + one tile
+        Math.min(
+            MAP_BOUNDS.maxX + halfW - TILE_SIZE, // right limit: right edge - one tile
+            camera.x
+        )
+    );
 
-	if (mapW <= halfW * 2) {
-		// Map narrower than viewport → centre horizontally
-		camera.x = MAP_BOUNDS.minX + mapW / 2;
-	} else {
-		camera.x = Math.max(MAP_BOUNDS.minX + halfW, Math.min(MAP_BOUNDS.maxX - halfW, camera.x));
-	}
-
-	if (mapH <= halfH * 2) {
-		camera.y = MAP_BOUNDS.minY + mapH / 2;
-	} else {
-		camera.y = Math.max(MAP_BOUNDS.minY + halfH, Math.min(MAP_BOUNDS.maxY - halfH, camera.y));
-	}
+    // Clamp Y: same logic vertically
+    camera.y = Math.max(
+        MAP_BOUNDS.minY - halfH + TILE_SIZE,
+        Math.min(
+            MAP_BOUNDS.maxY + halfH - TILE_SIZE,
+            camera.y
+        )
+    );
 }
 
 /**
@@ -252,8 +259,8 @@ function clampCamera(): void {
 function minScaleForBounds(): number {
 	const cssW = canvasEl.width / dpr;
 	const cssH = canvasEl.height / dpr;
-	const scaleX = cssW / MAP_BOUNDS.maxX;
-	const scaleY = cssH / MAP_BOUNDS.maxY;
+	const scaleX = cssW / (mapGrid.size * TILE_SIZE);
+	const scaleY = cssH / (mapGrid.size * TILE_SIZE);
 	return Math.max(MIN_SCALE, Math.min(scaleX, scaleY));
 }
 

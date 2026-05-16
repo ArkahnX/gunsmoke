@@ -1,4 +1,4 @@
-import { onMount, For, createMemo, createSignal } from "solid-js";
+import { onMount, For, createMemo } from "solid-js";
 import {
 	state,
 	getFortificationFromId,
@@ -6,24 +6,26 @@ import {
 	mapGrid,
 	getDollFromSummon,
 	setShowImportModal,
-	updateSkillDisplay,
 	setShowExportModal,
 	getInfoFromId,
 	setShowSkillDisplayModal,
+	isTileType,
+	gridKey,
+	getDollFromId,
+	getKeyFromId,
 } from "../store";
-import { TILE_SIZE, MAP_SIZE } from "../types/constants";
+import { TILE_SIZE } from "../types/constants";
 import { drawMapTilesOnArena } from "../canvas/draw";
 import Button from "./buttons/Button";
 import SmallDollChip from "./SmallDollChip";
 import Fortification from "./icons/Fortification";
 import Modal from "./modals/Modal";
 import SquareDollChip from "./SquareDollChip";
-import ContentModal from "./modals/ContentModal";
+import { TileType } from "../types";
 
 const CANVAS_DISPLAY_PX = 430;
 
 function renderTabCanvas(tabIndex: number): HTMLCanvasElement {
-	console.log("Rendering tab", tabIndex);
 	const placedEntities: { x: number; y: number }[] = [];
 
 	const placedDollPositions: { pos: { x: number; y: number }; doll: { id: string; fortification: number } }[] = [];
@@ -50,20 +52,22 @@ function renderTabCanvas(tabIndex: number): HTMLCanvasElement {
 		if (pos.y < bMinR) bMinR = pos.y;
 		if (pos.y > bMaxR) bMaxR = pos.y;
 	}
-	for (const k in mapGrid) {
-		const cell = mapGrid[k];
-		if (!cell || cell.cover !== "boss") continue;
-		const [tc, tr] = k.split(",").map(Number) as [number, number];
-		if (tc < bMinC) bMinC = tc;
-		if (tc > bMaxC) bMaxC = tc;
-		if (tr < bMinR) bMinR = tr;
-		if (tr > bMaxR) bMaxR = tr;
+	for (let x = 0; x < mapGrid.size; x++) {
+		for (let y = 0; y < mapGrid.size; y++) {
+			const cell = isTileType(mapGrid.tiles[gridKey(x, y)], TileType.BossOrigin);
+			if (cell) {
+				if (x < bMinC) bMinC = x;
+				if (x > bMaxC) bMaxC = x;
+				if (y < bMinR) bMinR = y;
+				if (y > bMaxR) bMaxR = y;
+			}
+		}
 	}
 	if (!isFinite(bMinC)) {
 		bMinC = 0;
-		bMaxC = MAP_SIZE - 1;
+		bMaxC = mapGrid.size - 1;
 		bMinR = 0;
-		bMaxR = MAP_SIZE - 1;
+		bMaxR = mapGrid.size - 1;
 	}
 	bMinC -= 1;
 	bMaxC += 1;
@@ -194,13 +198,14 @@ export default function SummaryView() {
 					<Button onClick={() => setShowSkillDisplayModal(true)} color="dark" design="custom" content="Set Skill Display" />
 				</div>
 			</div>
-			<div class="min-[1860px]:grid min-[1860px]:grid-cols-3 flex flex-row flex-wrap gap-2">
+			<div class="flex flex-row flex-wrap gap-2 min-[1860px]:grid min-[1860px]:grid-cols-3">
 				{/* Dolls block */}
 				<Modal width="min-w-151 grow">
 					<div class="flex flex-col gap-1">
 						<For each={state.selectedDolls}>
 							{(doll) => {
-								const dollInfo = getInfoFromId(doll.id);
+								const dollInfo = getDollFromId(doll.id);
+								if (!dollInfo) return null;
 								return (
 									<div class="rounded-sm bg-[#E6E6E6] p-1 shadow-sm shadow-black/50">
 										<div class="flex flex-row items-center gap-3 border-2 border-[#D7D7D7] p-1">
@@ -213,6 +218,24 @@ export default function SummaryView() {
 													{doll.fortification || "—"}
 												</div>
 											</div>
+											<div class="relative flex h-12 w-12 flex-col items-center justify-center">
+												<div class="h-12 w-12 rounded-full bg-[#293336] p-2">
+													<img src={dollInfo.remolding} class="h-9 w-9 object-cover" />
+												</div>
+												<div class="absolute bottom-0 flex h-full w-full items-end justify-center text-[16px] font-bold">
+													Lv.{doll.remoldingLvl}
+												</div>
+											</div>
+											<For each={doll.keys}>
+												{(key) => {
+													const keyInfo = getKeyFromId(doll.id, key, dollInfo);
+													if(!keyInfo) return null;
+													return (
+													<div class="relative flex h-12 w-12 flex-col items-center justify-center">
+														<img src={keyInfo.localImagePath} class="h-9 w-9 object-cover" />
+													</div>
+												)}}
+											</For>
 										</div>
 									</div>
 								);

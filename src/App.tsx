@@ -11,6 +11,10 @@ import {
 	setLoaded,
 	loaded,
 	showSkillDisplayModal,
+	showFormationModal,
+	hideFormationModal,
+	showKeyModal,
+	showWeaponModal,
 	importState,
 	loadFromString,
 	migrate,
@@ -29,7 +33,10 @@ import FullScreen from "./components/modals/FullScreen";
 import Modal from "./components/modals/Modal";
 import ExportModal from "./components/modals/ExportModal";
 import SkillDisplayModal from "./components/modals/SkillDisplayModal";
-import { SKILL_DISPLAY_KEY } from "./types/constants";
+import FormationModal from "./components/modals/FormationModal";
+import KeyModal from "./components/modals/KeyModal";
+import WeaponModal from "./components/modals/WeaponModal";
+import DarkModal from "./components/modals/DarkModal";
 
 export default function App() {
 	onMount(async () => {
@@ -94,6 +101,23 @@ export default function App() {
 					<Modal width="w-[420px]">
 						<FortificationModal />
 					</Modal>
+				</FullScreen>
+			</Show>
+			<Show when={showFormationModal() && loaded()}>
+				<FullScreen>
+					<DarkModal hide={hideFormationModal()} width="w-[988px]">
+						<FormationModal />
+					</DarkModal>
+					<Show when={showKeyModal() && loaded()}>
+						<DarkModal>
+							<KeyModal />
+						</DarkModal>
+					</Show>
+					<Show when={showWeaponModal() && loaded()}>
+						<Modal>
+							<WeaponModal />
+						</Modal>
+					</Show>
 				</FullScreen>
 			</Show>
 			<Show when={showImportModal() && loaded()}>

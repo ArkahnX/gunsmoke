@@ -1,9 +1,9 @@
 import { children, JSX, Show } from "solid-js";
 
-export default function Modal(props: { children: JSX.Element; title?: string; width?: string }) {
+export default function Modal(props: { children: JSX.Element; title?: string; width?: string; hide?: boolean }) {
 	const resolved = children(() => props.children);
 	return (
-		<div class={`${props.width ?? "w-225"} overflow-hidden rounded-sm border-4 border-[#CFCED2] bg-[#CFCED2] shadow-2xl`}>
+		<div class={`${props.width ?? "w-225"} ${props.hide ? "hidden": ""} overflow-hidden rounded-sm border-4 border-[#CFCED2] bg-[#CFCED2] shadow-2xl`}>
 			<div class="flex h-full w-full flex-col overflow-hidden border-2 border-[#B1AFB3] px-1.5 py-1.75">
 				{/* Header */}
 				<Show when={props.title}>

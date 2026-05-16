@@ -15,14 +15,16 @@ import {
 	getDollFromId,
 	getSummonFromId,
 	setShowSkillDisplayModal,
+	setupTempSelectedDolls,
 } from "../store";
 import { STORAGE_KEY } from "../types/constants";
-import { editorResetLayout } from "../canvas/editorMap";
+import { editorResetLayout, loadMap, mapNames } from "../canvas/editorMap";
 import { produce } from "solid-js/store";
 import Button from "./buttons/Button";
 import SmallDollChip from "./SmallDollChip";
 import { deployFromSetupPanel } from "./ArenaCanvas";
 import ConfirmModal from "./modals/ConfirmModal";
+import { Select } from "@thisbeyond/solid-select";
 
 export default function SetupSidebar(props: { active: boolean }) {
 	const isActionTab = createMemo(() => state.currentTab >= 1 && state.currentTab <= 7);
@@ -34,7 +36,7 @@ export default function SetupSidebar(props: { active: boolean }) {
 	const [showClearDataModal, setShowClearDataModal] = createSignal(false);
 
 	const openDollSelector = () => {
-		setTempSelected(state.selectedDolls.map((d) => d.id));
+		setupTempSelectedDolls();
 		// Seed dollNumbers with current fortifications
 		const nums: Record<string, number> = {};
 		state.selectedDolls.forEach((d) => {
@@ -114,6 +116,15 @@ export default function SetupSidebar(props: { active: boolean }) {
 	return (
 		<div class={`${props.active ? "" : "hidden"} overflow-y-auto`}>
 			<div class="flex flex-col items-center gap-3 pt-1 text-sm font-bold text-[#384B53]">
+				<Select
+					class="custom"
+					options={mapNames()}
+					onChange={(value) => {
+						loadMap(value);
+						saveToLocalStorage();
+					}}
+					initialValue={state.map}
+				/>
 				<Button color="dark" onClick={openDollSelector} design="custom" content="Select Dolls" />
 				<Show when={isActionTab()}>
 					<Button color="dark" onClick={copyPreviousPlacements} design="custom" content="Use Prev Turn Positions" />

@@ -58,7 +58,6 @@ function recordSkill(dollId: string, entry: SkillAction) {
 }
 
 function removeAction(dollId: string, actionIdx: number) {
-	console.log("removeAction", dollId, actionIdx, state.tabData[state.currentTab]!.actions[dollId]);
 	setState(
 		produce((s) => {
 			s.tabData[s.currentTab]!.actions[dollId]?.splice(actionIdx, 1);
@@ -175,7 +174,6 @@ function DollRow(props: DollRowProps) {
 
 export default function ActionSidebar(props: { active: boolean }) {
 	const actionOrder = createMemo(() => {
-		console.log("actionOrder", state.currentTab, state.tabData[state.currentTab]);
 		if (state.currentTab < 0 || state.currentTab > 7) return [];
 		return state.tabData[state.currentTab]?.actionOrder ?? [];
 	});
