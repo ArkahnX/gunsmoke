@@ -358,6 +358,7 @@ export function getSummonFromId(id: string): SummonData | undefined {
 }
 
 export function getKeyFromId(dollId: string, keyId: string, dollInfo?: DollData): FixedKey | CommonKey | undefined {
+	if(!keyId) return undefined;
 	const identifier = keyId.charAt(0);
 	if (identifier === "k") {
 		dollInfo = dollInfo ?? getDollFromId(dollId);

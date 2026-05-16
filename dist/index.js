@@ -5134,6 +5134,7 @@ function getSummonFromId(id) {
   return void 0;
 }
 function getKeyFromId(dollId, keyId, dollInfo) {
+  if (!keyId) return void 0;
   const identifier = keyId.charAt(0);
   if (identifier === "k") {
     dollInfo = dollInfo ?? getDollFromId(dollId);
