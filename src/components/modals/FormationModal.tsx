@@ -19,7 +19,6 @@ import {
 	loadDollLoadout,
 	dollHasLoadout,
 	changeBorrow,
-	setShowBuffModal,
 } from "../../store";
 import Button from "../buttons/Button";
 import { DollData } from "../../types";
@@ -194,7 +193,6 @@ export default function FormationModal() {
 							? "absolute right-10 bottom-8 flex justify-end gap-3"
 							: "flex grow justify-end gap-3"
 					}>
-					<Button onClick={() => setShowBuffModal(true)} color="light" design="custom" content="Support Buff" />
 					<Button onClick={confirm} color="light" design="confirm" />
 				</div>
 			</div>

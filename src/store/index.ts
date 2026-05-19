@@ -178,7 +178,7 @@ export const [showFormationModal, setShowFormationModal] = createSignal(false);
 export const [showWeaponModal, setShowWeaponModal] = createSignal(false);
 export const [showKeyModal, setShowKeyModal] = createSignal(false);
 export const [showBuffModal, setShowBuffModal] = createSignal(false);
-export const hideFormationModal = createMemo(() => showWeaponModal() || showKeyModal() || showBuffModal());
+export const hideFormationModal = createMemo(() => showWeaponModal() || showKeyModal());
 export const [selectedDoll, setSelectedDoll] = createSignal<SelectedDoll | null>(null);
 export const [showImportModal, setShowImportModal] = createSignal(false);
 export const [showExportModal, setShowExportModal] = createSignal(false);

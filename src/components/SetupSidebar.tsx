@@ -15,6 +15,8 @@ import {
 	getSummonFromId,
 	setShowSkillDisplayModal,
 	setupTempSelectedDolls,
+	setShowFormationModal,
+	setShowBuffModal,
 } from "../store";
 import { STORAGE_KEY } from "../types/constants";
 import { editorResetLayout, loadMap, mapNames } from "../canvas/editorMap";
@@ -44,6 +46,17 @@ export default function SetupSidebar(props: { active: boolean }) {
 		setDollFortification(nums);
 		setActivePhaseTab("All");
 		setShowDollModal(true);
+	};
+
+	const openFormation = () => {
+		setupTempSelectedDolls();
+		// Seed dollNumbers with current fortifications
+		const nums: Record<string, number> = {};
+		state.selectedDolls.forEach((d) => {
+			nums[d.id] = d.fortification;
+		});
+		setDollFortification(nums);
+		setShowFormationModal(true);
 	};
 
 	const clearCurrentTurn = () => {
@@ -102,7 +115,11 @@ export default function SetupSidebar(props: { active: boolean }) {
 					}}
 					initialValue={state.map}
 				/>
-				<Button color="dark" onClick={openDollSelector} design="custom" content="Select Dolls" />
+				<div class="flex flex-row gap-2">
+					<Button color="dark" onClick={openDollSelector} design="custom" content="Select Dolls" />
+					<Button color="dark" onClick={openFormation} design="custom" content="Change Equip" />
+				</div>
+				<Button color="dark" onClick={() => setShowBuffModal(true)} design="custom" content="Select Support Buff" />
 				<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">
 					Echelon (drag to map)
 				</div>

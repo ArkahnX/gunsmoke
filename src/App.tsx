@@ -112,11 +112,13 @@ export default function App() {
 							<WeaponModal />
 						</Modal>
 					</Show>
-					<Show when={showBuffModal() && loaded()}>
-						<Modal>
-							<BuffModal />
-						</Modal>
-					</Show>
+				</FullScreen>
+			</Show>
+			<Show when={showBuffModal() && loaded()}>
+				<FullScreen>
+					<Modal>
+						<BuffModal />
+					</Modal>
 				</FullScreen>
 			</Show>
 			<Show when={showImportModal() && loaded()}>
