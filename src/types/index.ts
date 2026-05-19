@@ -179,6 +179,7 @@ export interface WeaponData {
 	type: string;
 	id: string;
 	attribute: string;
+	rarity: string;
 	imprintId: string | null;
 	imprintName: string | null;
 	imprintImage: string | null;

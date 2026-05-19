@@ -1016,7 +1016,7 @@ export async function loadCombinedJson() {
 		allWeapons.push(...weaponsJson);
 		allBuffs.push(...buffsJson);
 		for (const weapon of allWeapons) {
-			if (weapon.imprintId === null) {
+			if (weapon.imprintId === null && weapon.rarity === "Elite") {
 				defaultWeapons[weapon.type] = weapon;
 			}
 		}

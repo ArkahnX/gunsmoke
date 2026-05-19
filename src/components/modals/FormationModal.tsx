@@ -162,9 +162,10 @@ export default function FormationModal() {
 											</Show>
 											<img
 												src={dollWeapon()?.localImagePath}
-												class="relative z-20 h-full w-full border-b-3 border-[#DF9E00] object-cover"
+												class={`relative z-20 h-full w-full border-b-3 ${dollWeapon()?.rarity === "Elite" ? "border-[#DF9E00]" : "border-[#3291AB]"} object-cover`}
 											/>
-											<div class="absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t from-[#453824] from-0% to-transparent to-75%"></div>
+											<div
+										class={`absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${dollWeapon()?.rarity === "Elite" ? "from-[#453824]" : "from-[#133843]"} from-0% to-transparent to-75%`}></div>
 										</div>
 										<div class="flex w-14 flex-col gap-3 text-sm font-bold tracking-wide">
 											<button

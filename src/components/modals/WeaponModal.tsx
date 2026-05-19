@@ -35,19 +35,20 @@ export default function WeaponModal() {
 										</div>
 									)}
 									<Show when={weapon.imprintImage}>
-										<div class="absolute bottom-1 left-2 z-10 h-12 w-12">
+										<div class="absolute bottom-1 left-2 z-20 h-12 w-12">
 											<img src={weapon.imprintImage!} class="relative h-full w-full object-cover" />
 										</div>
 									</Show>
 									<div
-										class={`absolute bottom-1 z-10 w-full text-right font-bold ${weapon.imprintId === null ? "pl-2" : "pl-15"} overflow-hidden pr-2 text-ellipsis whitespace-nowrap`}>
+										class={`absolute bottom-1 z-20 w-full text-right font-bold ${weapon.imprintId === null ? "pl-2" : "pl-15"} overflow-hidden pr-2 text-ellipsis whitespace-nowrap`}>
 										{weapon.name}
 									</div>
 									<img
 										src={weapon.localImagePath}
-										class="relative z-20 h-full w-full border-b-3 border-[#DF9E00] object-cover"
+										class={`relative z-10 h-full w-full border-b-3 ${weapon.rarity === "Elite" ? "border-[#DF9E00]" : "border-[#3291AB]"} object-cover`}
 									/>
-									<div class="absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t from-[#453824] from-0% to-transparent to-75%"></div>
+									<div
+										class={`absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${weapon.rarity === "Elite" ? "from-[#453824]" : "from-[#133843]"} from-0% to-transparent to-75%`}></div>
 								</div>
 							);
 						}}
