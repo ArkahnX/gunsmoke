@@ -37,10 +37,10 @@ import {
 import { camera } from "../components/ArenaCanvas";
 
 // ====================== MAP GRID ======================
-export const mapGrid: MapGrid = { name: "Default", size: 21, tiles: [] };
+export const mapGrid: MapGrid = { name: "Default", size: 21, priority: [], tiles: [] };
 
-export function gridKey(column: number, row: number): number {
-	return row * mapGrid.size + column;
+export function gridKey(column: number, row: number, size?: number): number {
+	return row * (size ?? mapGrid.size) + column;
 }
 export function cellX(c: number): number {
 	return c * TILE_SIZE;
@@ -79,11 +79,13 @@ export function hasCover(c: number, r: number): boolean {
 	);
 }
 
-export function setMap(name: string, size: number, tiles: TileType[]) {
+export function setMap(name: string, size: number, tiles: TileType[], priority: number[]) {
 	setState("map", name);
 	mapGrid.name = name;
 	mapGrid.size = size;
 	mapGrid.tiles.length = 0;
+	mapGrid.priority.length = 0;
+	mapGrid.priority.push(...priority);
 	mapGrid.tiles.push(...tiles);
 	camera.x = (mapGrid.size * TILE_SIZE) / 2;
 	camera.y = (mapGrid.size * TILE_SIZE) / 2;
@@ -203,6 +205,7 @@ export function setupTempSelectedDolls() {
 					keys: [...doll.keys],
 					remoldingLvl: doll.remoldingLvl,
 					gun: doll.gun,
+					borrow: doll.borrow ?? false,
 				});
 			}
 		})
@@ -229,6 +232,7 @@ export function addDollToTempSelect(dollId: string) {
 				keys: Array(8).fill(""),
 				remoldingLvl: 0,
 				gun: "",
+				borrow: false,
 			});
 		})
 	);
@@ -277,6 +281,19 @@ export function changeFortification(dollId: string, fort: number) {
 	);
 }
 
+export function changeBorrow(dollId: string) {
+	setTempSelectedDolls(
+		produce((tempSelected) => {
+			for (const doll of tempSelected) {
+				doll.borrow = false;
+				if (doll.id === dollId) {
+					doll.borrow = !doll.borrow;
+				}
+			}
+		})
+	);
+}
+
 export function changeRemoldingLvl(dollId: string, modifier: number) {
 	const remoldingLevels = [1, 10, 20, 30, 45, 60];
 	setTempSelectedDolls(
@@ -311,6 +328,7 @@ export function loadDollLoadout(dollId: string) {
 					doll.keys = [...loadout.keys];
 					doll.remoldingLvl = loadout.remoldingLvl;
 					doll.gun = loadout.gun;
+					doll.borrow = loadout.borrow ?? false;
 				}
 			}
 		})
@@ -386,6 +404,20 @@ export function visibleDollIndex(doll: DollData) {
 	const index = dolls.findIndex((d) => d.id === doll.id);
 	if (index === -1) return allDolls.length;
 	return index;
+}
+
+export function getDollStartingPosition(dollId: string, instanceId: string | null): number {
+	let pos = gridKey(-1, -1);
+	if (instanceId) {
+		for (const p of state.tabData[0]!.summonPositions) {
+			if (p.id === dollId && p.mapId === instanceId) {
+				pos = gridKey(p.x, p.y);
+			}
+		}
+	}
+	const dollPos = state.tabData[0]!.dollPositions[dollId];
+	pos = gridKey(dollPos?.x ?? -1, dollPos?.y ?? -1);
+	return pos;
 }
 
 export function getSortedUsableSkills(doll: DollData | SummonData) {
@@ -673,6 +705,7 @@ export function version7To8Upgrade(data: AppState & { version: number }) {
 		doll.remoldingLvl = doll.remoldingLvl ?? 1;
 		doll.fortification = doll.fortification ?? 0;
 		doll.gun = doll.gun ?? "";
+		doll.borrow = doll.borrow ?? false;
 	}
 	return data;
 }

@@ -1,4 +1,4 @@
-import { mapGrid, setMap } from "../store";
+import { gridKey, mapGrid, setMap } from "../store";
 import { V7_EDITOR_MAP_KEY } from "../types/constants";
 import { MapGrid, TileType } from "../types";
 import { createSignal } from "solid-js";
@@ -17,7 +17,9 @@ const bosssub = TileType.BossCover;
 const bossman = TileType.BossOrigin;
 
 // prettier-ignore
-const maps: MapGrid[] = [{name: "Tusk Beasteel", size: 21, locked: true, tiles: [
+const maps: MapGrid[] = [{name: "Tusk Beasteel", size: 21, locked: true, 
+	priority:[],
+	tiles: [
 		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
 		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
 		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
@@ -39,7 +41,9 @@ const maps: MapGrid[] = [{name: "Tusk Beasteel", size: 21, locked: true, tiles: 
 		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
 		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
 		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__
-	]}, {name:"Blade Guard Titan", size: 16, locked: true, default: true, tiles: [
+	]}, {name:"Blade Guard Titan", size: 16, locked: true, default: true, 
+		priority:[gridKey(4, 6, 16), gridKey(4, 8, 16), gridKey(9, 11, 16), gridKey(7, 11, 16), gridKey(8, 13, 16), gridKey(2, 7, 16), gridKey(14, 7, 16), gridKey(12, 8, 16), gridKey(12, 6, 16), gridKey(8, 1, 16), gridKey(7, 3, 16), gridKey(9, 3, 16)],
+		tiles: [
 		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, vbound_, vbound_, empty__, empty__, empty__, 
 		empty__, empty__, empty__, empty__, hcover_, empty__, empty__, empty__, spawn__, empty__, empty__, vbound_, vbound_, empty__, empty__, empty__, 
 		empty__, empty__, hbound_, hbound_, hcover_, empty__, empty__, empty__, hcover_, empty__, empty__, empty__, fcover_, fcover_, empty__, empty__, 
@@ -56,7 +60,7 @@ const maps: MapGrid[] = [{name: "Tusk Beasteel", size: 21, locked: true, tiles: 
 		empty__, empty__, empty__, empty__, vbound_, vbound_, empty__, empty__, spawn__, empty__, empty__, empty__, hcover_, empty__, empty__, empty__, 
 		empty__, empty__, empty__, empty__, vbound_, vbound_, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, 
 		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__
-	]}, {name: "Custom", size: 21, tiles:Array(21*21).fill(empty__)}];
+	]}, {name: "Custom", size: 21, priority:[],tiles:Array(21*21).fill(empty__)}];
 
 export function getDefaultMap() {
 	for (const map of maps) {
@@ -75,7 +79,7 @@ export function loadMap(name: string) {
 	const map = maps.find((map) => map.name === name);
 	if (map) {
 		setEditingMap(name);
-		setMap(map.name, map.size, map.tiles);
+		setMap(map.name, map.size, map.tiles, map.priority ?? []);
 	}
 }
 
@@ -131,5 +135,5 @@ export function editorClearAll() {
 export function editorResetLayout() {
 	editorClearAll();
 	const defaultMap = getDefaultMap();
-	setMap(defaultMap.name, defaultMap.size, defaultMap.tiles);
+	setMap(defaultMap.name, defaultMap.size, defaultMap.tiles, defaultMap.priority);
 }

@@ -1,5 +1,5 @@
 import { TILE_SIZE, HALF_HEIGHT, FULL_HEIGHT } from "../types/constants";
-import { mapGrid, gridKey, cellX, cellY, state, getInfoFromId, isTileType, getBoss } from "../store";
+import { mapGrid, gridKey, cellX, cellY, state, getInfoFromId, isTileType, getBoss, getDollStartingPosition } from "../store";
 import { SummonData, DollData, DragState, DollInfo, DragStatus, TileType } from "../types";
 
 // ─── Editor Draw Functions ─────────────────────────────────────────────────
@@ -295,37 +295,71 @@ function obscured(x: number, y: number, dollId: string, instanceId: string | nul
 	return false;
 }
 
+function distance(dollGrid: DollInfo[]) {
+	const bossCoords = getBoss();
+	let min = Infinity;
+	let minDoll: DollInfo | null = null;
+	let max = -Infinity;
+	let maxDoll: DollInfo | null = null;
+	for (const doll of dollGrid) {
+		const dist = Math.abs(doll.x - bossCoords.x) + Math.abs(doll.y - bossCoords.y);
+		const isHigherPriority = () => doll.priority < (minDoll?.priority ?? Infinity) || doll.borrow;
+
+		if (dist < min || (dist === min && isHigherPriority())) {
+			min = dist;
+			minDoll = doll;
+		}
+		if (dist > max || (dist === max && isHigherPriority())) {
+			max = dist;
+			maxDoll = doll;
+		}
+	}
+	if (minDoll) minDoll.distance = "near";
+	if (maxDoll) maxDoll.distance = "far";
+}
+
 export function drawMapTilesOnArena(ctx: CanvasRenderingContext2D, drag: DragState | null, currentTab: number) {
 	const dolls: DollInfo[] = [];
 	state.selectedDolls.forEach((doll) => {
 		const pos = state.tabData[currentTab]?.dollPositions[doll.id] ?? { x: -1, y: -1 };
 		if (pos.x === -1 || pos.y === -1) return;
+		const spawnPosition = getDollStartingPosition(doll.id, null);
+		const priorityIndex = mapGrid.priority.indexOf(spawnPosition);
 		dolls.push({
 			x: pos.x,
 			y: pos.y,
 			id: doll.id,
 			instanceId: null,
+			priority: priorityIndex !== -1 ? priorityIndex : mapGrid.priority.length,
 			dollInfo: getInfoFromId(doll.id) as DollData,
 			summonInfo: null,
 			dragId: drag?.isActive ? drag.id : undefined,
 			dragInstanceId: drag?.isActive ? drag.instanceId : null,
 			obscured: obscured(pos.x, pos.y, doll.id, null),
+			borrow: doll.borrow ?? false,
+			distance: null,
 		});
 	});
 	if (currentTab >= 1) {
 		state.tabData[currentTab]!.summonPositions.forEach((entry) => {
 			const summon = getInfoFromId(entry.id) as SummonData;
 			if (summon) {
+				const selectedDoll = state.selectedDolls.find((d) => d.id === summon.dollId);
+				const spawnPosition = getDollStartingPosition(summon.dollId, entry.mapId);
+				const priorityIndex = mapGrid.priority.indexOf(spawnPosition);
 				dolls.push({
 					x: entry.x,
 					y: entry.y,
 					id: entry.id,
 					instanceId: entry.mapId,
+					priority: priorityIndex !== -1 ? priorityIndex : mapGrid.priority.length,
 					dollInfo: getInfoFromId(summon.dollId) as DollData,
 					summonInfo: summon,
 					dragId: drag?.isActive ? drag.id : undefined,
 					dragInstanceId: drag?.isActive ? drag.instanceId : null,
 					obscured: obscured(entry.x, entry.y, entry.id, entry.mapId),
+					borrow: selectedDoll?.borrow ?? false,
+					distance: null,
 				});
 			}
 		});
@@ -333,6 +367,7 @@ export function drawMapTilesOnArena(ctx: CanvasRenderingContext2D, drag: DragSta
 	for (const [grid, entry] of Object.entries(dolls)) {
 		entry.obscured = obscured(entry.x, entry.y, entry.id, entry.instanceId, dolls);
 	}
+	distance(dolls);
 	for (let row = 0; row < mapGrid.size; row++) for (let col = 0; col < mapGrid.size; col++) drawFloor(ctx, col, row);
 	for (let row = 0; row < mapGrid.size; row++) {
 		for (let col = 0; col < mapGrid.size; col++) {
@@ -354,6 +389,7 @@ export function drawMapTilesOnArena(ctx: CanvasRenderingContext2D, drag: DragSta
 			else if (isTileType(cell, TileType.FullCover)) drawFullCover(ctx, col, row);
 		}
 	}
+	// draw labels on a separate loop to ensure they are always on top
 	for (let row = 0; row < mapGrid.size; row++) {
 		for (let col = 0; col < mapGrid.size; col++) {
 			const doll = dolls.find((doll) => doll.x === col && doll.y === row);
@@ -422,17 +458,31 @@ export function drawDollLabelOnCanvas(ctx: CanvasRenderingContext2D, data: DollI
 	if (data.obscured) {
 		labelY = Math.round(cy - r - avatarOffY + 1 - fontSize - 2);
 	}
-	ctx.fillStyle = "rgba(0,0,0,0.75)";
+	let text = data.dollInfo.name;
+	let color = "#ffffff";
 	if (data.summonInfo) {
-		const labelW = Math.ceil(ctx.measureText(data.summonInfo.name).width) + 4;
-		ctx.fillRect(Math.round(cx - labelW / 2), labelY, labelW, fontSize + 2);
-		ctx.fillStyle = "#2dd4bf";
-		ctx.fillText(data.summonInfo.name, cx, labelY + 1);
-	} else {
-		const labelW = Math.ceil(ctx.measureText(data.dollInfo.name).width) + 4;
-		ctx.fillRect(Math.round(cx - labelW / 2), labelY, labelW, fontSize + 2);
-		ctx.fillStyle = "#ffffff";
-		ctx.fillText(data.dollInfo.name, cx, labelY + 1);
+		text = data.summonInfo.name;
+		color = "#2dd4bf";
+	}
+	const labelW = Math.ceil(ctx.measureText(text).width) + 4;
+	ctx.fillStyle = "rgba(0,0,0,0.75)";
+	ctx.fillRect(Math.round(cx - labelW / 2), labelY, labelW, fontSize + 2);
+	ctx.fillStyle = color;
+	ctx.fillText(text, cx, labelY + 1);
+	if (data.distance === "near" || data.distance === "far") {
+		ctx.beginPath();
+		ctx.arc(cx - avatarOffY - fontSize / 1.5, cy + avatarOffY + fontSize / 1.5, fontSize / 1.5, 0, Math.PI * 2);
+		if (data.distance === "near") {
+			ctx.fillStyle = "#2dd4bf";
+			ctx.fill();
+			ctx.fillStyle = color;
+			ctx.fillText("C", cx - avatarOffY - fontSize / 1.5, cy + avatarOffY + fontSize / 3);
+		} else if (data.distance === "far") {
+			ctx.fillStyle = "#ef4444";
+			ctx.fill();
+			ctx.fillStyle = color;
+			ctx.fillText("F", cx - avatarOffY - fontSize / 1.5, cy + avatarOffY + fontSize / 3);
+		}
 	}
 }
 

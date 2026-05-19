@@ -21,12 +21,15 @@ import {
 	saveDollLoadout,
 	loadDollLoadout,
 	dollHasLoadout,
+	changeBorrow,
 } from "../../store";
 import Button from "../buttons/Button";
 import { DollData } from "../../types";
 import SmallKey from "../icons/SmallKey";
 import DynamicDollChip from "../DynamicDollChip";
 import Fortification from "../icons/Fortification";
+import Check from "../icons/Check";
+import Borrow from "../icons/Borrow";
 
 export default function FormationModal() {
 	const selectedDollIds = createMemo(() => tempSelectedDolls.map((doll) => doll.id));
@@ -64,24 +67,36 @@ export default function FormationModal() {
 							<div class="flex items-center gap-3 bg-[#B6BAC6] p-2.5">
 								<DynamicDollChip target={dollInfo} doll={getDollFromSummon(dollInfo)} />
 								<div class="flex flex-col gap-3">
-									<div
-										onclick={() => {
-											setSelectedDoll(doll);
-											setShowKeyModal(true);
-											setSavedLoadout(false);
-										}}
-										class="text-md flex h-10 w-80.5 cursor-pointer flex-row items-center justify-center gap-1 rounded-sm bg-[#354346] p-1 shadow-sm shadow-black/50 outline-3 outline-transparent transition-all hover:scale-107 hover:outline-white">
-										<For each={keys()}>
-											{(key) =>
-												typeof key === "string" ? (
-													<div class="flex h-7 w-4 items-center justify-center">=</div>
-												) : key ? (
-													<div class="h-5 w-5">
-														<SmallKey rarity={key.rarity} keyType={key.type} />
-													</div>
-												) : null
-											}
-										</For>
+									<div class="flex flex-row gap-3">
+										<div
+											onclick={() => {
+												setSelectedDoll(doll);
+												setShowKeyModal(true);
+												setSavedLoadout(false);
+											}}
+											class={`${interactiveStyles(false)} text-md flex h-10 flex-grow flex-row items-center justify-center gap-1 rounded-sm bg-[#354346] p-1 shadow-sm shadow-black/50`}>
+											<For each={keys()}>
+												{(key) =>
+													typeof key === "string" ? (
+														<div class="flex h-7 w-4 items-center justify-center">=</div>
+													) : key ? (
+														<div class="h-5 w-5">
+															<SmallKey rarity={key.rarity} keyType={key.type} />
+														</div>
+													) : null
+												}
+											</For>
+										</div>
+										<div
+											onClick={() => changeBorrow(doll.id)}
+											class={`${interactiveStyles(doll.borrow)} text-md flex h-10 flex-row items-center justify-center gap-1 rounded-sm bg-[#354346] p-1 shadow-sm shadow-black/50`}>
+											<div class={`${doll.borrow ? "opacity-100" : "opacity-20"} w-5`}>
+												<Check />
+											</div>
+											<div class="w-6">
+												<Borrow />
+											</div>
+										</div>
 									</div>
 									<div class="flex flex-row gap-3">
 										<div class="text-md flex w-12 flex-col items-center justify-center rounded-sm bg-[#354346] shadow-sm shadow-black/50">
@@ -178,7 +193,7 @@ export default function FormationModal() {
 						);
 					}}
 				</For>
-				<div class="absolute right-10 bottom-8 flex justify-end">
+				<div class={tempSelectedDolls.length % 2 === 1 ? "absolute right-10 bottom-8 flex justify-end" : "flex justify-end grow"}>
 					<Button onClick={confirm} color="light" design="confirm" />
 				</div>
 			</div>

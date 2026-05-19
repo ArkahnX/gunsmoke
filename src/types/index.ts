@@ -77,6 +77,7 @@ export interface SelectedDoll {
 	keys: string[];
 	remoldingLvl: number;
 	gun: string;
+	borrow: boolean;
 }
 
 export interface AppState {
@@ -99,6 +100,7 @@ export interface MapGrid {
 	name: string;
 	default?: boolean;
 	locked?: boolean;
+	priority: number[];
 	tiles: TileType[];
 }
 
@@ -224,12 +226,15 @@ export interface DollInfo {
 	x: number;
 	y: number;
 	id: string;
+	priority: number;
 	dollInfo: DollData | undefined;
 	summonInfo: SummonData | null | undefined;
 	instanceId: string | null;
 	dragId: string | undefined;
 	dragInstanceId: string | null | undefined;
 	obscured: boolean;
+	distance: "near" | "far" | null;
+	borrow: boolean
 }
 
 export interface TabBarProps {
