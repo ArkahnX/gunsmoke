@@ -1856,706 +1856,719 @@ var hcover_ = 8 /* HalfCover */;
 var fcover_ = 16 /* FullCover */;
 var bosssub = 32 /* BossCover */;
 var bossman = 64 /* BossOrigin */;
-var maps = [{ name: "Tusk Beasteel", size: 21, locked: true, tiles: [
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  hcover_,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  hbound_,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  hcover_,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  hbound_,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  spawn__,
-  empty__,
-  empty__,
-  spawn__,
-  empty__,
-  empty__,
-  spawn__,
-  hcover_,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  hcover_,
-  hcover_,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  hbound_,
-  hcover_,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  spawn__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  spawn__,
-  fcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  bosssub,
-  bosssub,
-  bosssub,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  fcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  bosssub,
-  bossman,
-  bosssub,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  fcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  bosssub,
-  bosssub,
-  bosssub,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  fcover_,
-  spawn__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  spawn__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  hcover_,
-  hbound_,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  hcover_,
-  hcover_,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  hcover_,
-  spawn__,
-  empty__,
-  empty__,
-  spawn__,
-  empty__,
-  empty__,
-  spawn__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  hbound_,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  hcover_,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  hbound_,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  hcover_,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__
-] }, { name: "Blade Guard Titan", size: 16, locked: true, default: true, tiles: [
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  vbound_,
-  vbound_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  spawn__,
-  empty__,
-  empty__,
-  vbound_,
-  vbound_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  hbound_,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  fcover_,
-  fcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  hbound_,
-  empty__,
-  empty__,
-  hcover_,
-  hspawn_,
-  empty__,
-  hspawn_,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  hbound_,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  vspawn_,
-  vbound_,
-  empty__,
-  bosssub,
-  bosssub,
-  bosssub,
-  empty__,
-  vbound_,
-  vspawn_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  spawn__,
-  hcover_,
-  empty__,
-  vbound_,
-  vbound_,
-  bosssub,
-  bossman,
-  bosssub,
-  vbound_,
-  vbound_,
-  empty__,
-  hcover_,
-  spawn__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  vspawn_,
-  vbound_,
-  empty__,
-  bosssub,
-  bosssub,
-  bosssub,
-  empty__,
-  vbound_,
-  vspawn_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hbound_,
-  hbound_,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  hspawn_,
-  empty__,
-  hspawn_,
-  hcover_,
-  empty__,
-  empty__,
-  hbound_,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  fcover_,
-  fcover_,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  hbound_,
-  hbound_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  vbound_,
-  vbound_,
-  empty__,
-  empty__,
-  spawn__,
-  empty__,
-  empty__,
-  empty__,
-  hcover_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  vbound_,
-  vbound_,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__,
-  empty__
-] }, { name: "Custom", size: 21, tiles: Array(21 * 21).fill(empty__) }];
+var maps = [{
+  name: "Tusk Beasteel",
+  size: 21,
+  locked: true,
+  priority: [],
+  tiles: [
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    hcover_,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    hcover_,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    spawn__,
+    hcover_,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    hcover_,
+    hcover_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hbound_,
+    hcover_,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    fcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    bosssub,
+    bosssub,
+    bosssub,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    fcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    bosssub,
+    bossman,
+    bosssub,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    fcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    bosssub,
+    bosssub,
+    bosssub,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    fcover_,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    hcover_,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hcover_,
+    hcover_,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    hcover_,
+    spawn__,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    hcover_,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    hcover_,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__
+  ]
+}, {
+  name: "Blade Guard Titan",
+  size: 16,
+  locked: true,
+  default: true,
+  priority: [gridKey(4, 6, 16), gridKey(4, 8, 16), gridKey(9, 11, 16), gridKey(7, 11, 16), gridKey(8, 13, 16), gridKey(2, 7, 16), gridKey(14, 7, 16), gridKey(12, 8, 16), gridKey(12, 6, 16), gridKey(8, 1, 16), gridKey(7, 3, 16), gridKey(9, 3, 16)],
+  tiles: [
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    vbound_,
+    vbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    vbound_,
+    vbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hbound_,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    fcover_,
+    fcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    hcover_,
+    hspawn_,
+    empty__,
+    hspawn_,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    vspawn_,
+    vbound_,
+    empty__,
+    bosssub,
+    bosssub,
+    bosssub,
+    empty__,
+    vbound_,
+    vspawn_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    hcover_,
+    empty__,
+    vbound_,
+    vbound_,
+    bosssub,
+    bossman,
+    bosssub,
+    vbound_,
+    vbound_,
+    empty__,
+    hcover_,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    vspawn_,
+    vbound_,
+    empty__,
+    bosssub,
+    bosssub,
+    bosssub,
+    empty__,
+    vbound_,
+    vspawn_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    hspawn_,
+    empty__,
+    hspawn_,
+    hcover_,
+    empty__,
+    empty__,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    fcover_,
+    fcover_,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    vbound_,
+    vbound_,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    vbound_,
+    vbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__
+  ]
+}, { name: "Custom", size: 21, priority: [], tiles: Array(21 * 21).fill(empty__) }];
 function getDefaultMap() {
   for (const map of maps) {
     if (map.default) {
@@ -2571,7 +2584,7 @@ function loadMap(name) {
   const map = maps.find((map2) => map2.name === name);
   if (map) {
     setEditingMap(name);
-    setMap(map.name, map.size, map.tiles);
+    setMap(map.name, map.size, map.tiles, map.priority ?? []);
   }
 }
 function editorSerialize() {
@@ -2623,13 +2636,13 @@ function editorClearAll() {
 function editorResetLayout() {
   editorClearAll();
   const defaultMap = getDefaultMap();
-  setMap(defaultMap.name, defaultMap.size, defaultMap.tiles);
+  setMap(defaultMap.name, defaultMap.size, defaultMap.tiles, defaultMap.priority);
 }
 
 // src/canvas/draw.ts
 function drawFloor(ctx3, c, r) {
   const bossCoords = getBoss();
-  const distance = Math.abs(c - bossCoords.x) + Math.abs(r - bossCoords.y);
+  const distance2 = Math.abs(c - bossCoords.x) + Math.abs(r - bossCoords.y);
   const x = cellX(c), y = cellY(r);
   ctx3.fillStyle = "#18181b";
   ctx3.fillRect(x, y, TILE_SIZE, TILE_SIZE);
@@ -2640,10 +2653,10 @@ function drawFloor(ctx3, c, r) {
   ctx3.font = `bold ${fontSize}px Roboto, sans-serif`;
   ctx3.textAlign = "center";
   ctx3.textBaseline = "top";
-  const labelW = Math.ceil(ctx3.measureText(distance + "").width) + 4;
+  const labelW = Math.ceil(ctx3.measureText(distance2 + "").width) + 4;
   ctx3.fillRect(x + 6, y + 2, labelW, fontSize + 2);
   ctx3.fillStyle = "#27272a";
-  ctx3.fillText(distance + "", x + 6, y + 2);
+  ctx3.fillText(distance2 + "", x + 6, y + 2);
 }
 function drawSpawn(ctx3, c, r) {
   const x = cellX(c), y = cellY(r);
@@ -2885,37 +2898,69 @@ function obscured(x, y, dollId, instanceId, dollGrid) {
   }
   return false;
 }
+function distance(dollGrid) {
+  const bossCoords = getBoss();
+  let min = Infinity;
+  let minDoll = null;
+  let max = -Infinity;
+  let maxDoll = null;
+  for (const doll of dollGrid) {
+    const dist = Math.abs(doll.x - bossCoords.x) + Math.abs(doll.y - bossCoords.y);
+    const isHigherPriority = () => doll.priority < (minDoll?.priority ?? Infinity) || doll.borrow;
+    if (dist < min || dist === min && isHigherPriority()) {
+      min = dist;
+      minDoll = doll;
+    }
+    if (dist > max || dist === max && isHigherPriority()) {
+      max = dist;
+      maxDoll = doll;
+    }
+  }
+  if (minDoll) minDoll.distance = "near";
+  if (maxDoll) maxDoll.distance = "far";
+}
 function drawMapTilesOnArena(ctx3, drag2, currentTab) {
   const dolls = [];
   state.selectedDolls.forEach((doll) => {
     const pos = state.tabData[currentTab]?.dollPositions[doll.id] ?? { x: -1, y: -1 };
     if (pos.x === -1 || pos.y === -1) return;
+    const spawnPosition = getDollStartingPosition(doll.id, null);
+    const priorityIndex = mapGrid.priority.indexOf(spawnPosition);
     dolls.push({
       x: pos.x,
       y: pos.y,
       id: doll.id,
       instanceId: null,
+      priority: priorityIndex !== -1 ? priorityIndex : mapGrid.priority.length,
       dollInfo: getInfoFromId(doll.id),
       summonInfo: null,
       dragId: drag2?.isActive ? drag2.id : void 0,
       dragInstanceId: drag2?.isActive ? drag2.instanceId : null,
-      obscured: obscured(pos.x, pos.y, doll.id, null)
+      obscured: obscured(pos.x, pos.y, doll.id, null),
+      borrow: doll.borrow ?? false,
+      distance: null
     });
   });
   if (currentTab >= 1) {
     state.tabData[currentTab].summonPositions.forEach((entry) => {
       const summon = getInfoFromId(entry.id);
       if (summon) {
+        const selectedDoll2 = state.selectedDolls.find((d) => d.id === summon.dollId);
+        const spawnPosition = getDollStartingPosition(summon.dollId, entry.mapId);
+        const priorityIndex = mapGrid.priority.indexOf(spawnPosition);
         dolls.push({
           x: entry.x,
           y: entry.y,
           id: entry.id,
           instanceId: entry.mapId,
+          priority: priorityIndex !== -1 ? priorityIndex : mapGrid.priority.length,
           dollInfo: getInfoFromId(summon.dollId),
           summonInfo: summon,
           dragId: drag2?.isActive ? drag2.id : void 0,
           dragInstanceId: drag2?.isActive ? drag2.instanceId : null,
-          obscured: obscured(entry.x, entry.y, entry.id, entry.mapId)
+          obscured: obscured(entry.x, entry.y, entry.id, entry.mapId),
+          borrow: selectedDoll2?.borrow ?? false,
+          distance: null
         });
       }
     });
@@ -2923,6 +2968,7 @@ function drawMapTilesOnArena(ctx3, drag2, currentTab) {
   for (const [grid, entry] of Object.entries(dolls)) {
     entry.obscured = obscured(entry.x, entry.y, entry.id, entry.instanceId, dolls);
   }
+  distance(dolls);
   for (let row = 0; row < mapGrid.size; row++) for (let col = 0; col < mapGrid.size; col++) drawFloor(ctx3, col, row);
   for (let row = 0; row < mapGrid.size; row++) {
     for (let col = 0; col < mapGrid.size; col++) {
@@ -3006,17 +3052,31 @@ function drawDollLabelOnCanvas(ctx3, data) {
   if (data.obscured) {
     labelY = Math.round(cy - r - avatarOffY + 1 - fontSize - 2);
   }
-  ctx3.fillStyle = "rgba(0,0,0,0.75)";
+  let text = data.dollInfo.name;
+  let color = "#ffffff";
   if (data.summonInfo) {
-    const labelW = Math.ceil(ctx3.measureText(data.summonInfo.name).width) + 4;
-    ctx3.fillRect(Math.round(cx - labelW / 2), labelY, labelW, fontSize + 2);
-    ctx3.fillStyle = "#2dd4bf";
-    ctx3.fillText(data.summonInfo.name, cx, labelY + 1);
-  } else {
-    const labelW = Math.ceil(ctx3.measureText(data.dollInfo.name).width) + 4;
-    ctx3.fillRect(Math.round(cx - labelW / 2), labelY, labelW, fontSize + 2);
-    ctx3.fillStyle = "#ffffff";
-    ctx3.fillText(data.dollInfo.name, cx, labelY + 1);
+    text = data.summonInfo.name;
+    color = "#2dd4bf";
+  }
+  const labelW = Math.ceil(ctx3.measureText(text).width) + 4;
+  ctx3.fillStyle = "rgba(0,0,0,0.75)";
+  ctx3.fillRect(Math.round(cx - labelW / 2), labelY, labelW, fontSize + 2);
+  ctx3.fillStyle = color;
+  ctx3.fillText(text, cx, labelY + 1);
+  if (data.distance === "near" || data.distance === "far") {
+    ctx3.beginPath();
+    ctx3.arc(cx - avatarOffY - fontSize / 1.5, cy + avatarOffY + fontSize / 1.5, fontSize / 1.5, 0, Math.PI * 2);
+    if (data.distance === "near") {
+      ctx3.fillStyle = "#2dd4bf";
+      ctx3.fill();
+      ctx3.fillStyle = color;
+      ctx3.fillText("C", cx - avatarOffY - fontSize / 1.5, cy + avatarOffY + fontSize / 3);
+    } else if (data.distance === "far") {
+      ctx3.fillStyle = "#ef4444";
+      ctx3.fill();
+      ctx3.fillStyle = color;
+      ctx3.fillText("F", cx - avatarOffY - fontSize / 1.5, cy + avatarOffY + fontSize / 3);
+    }
   }
 }
 function drawGhostOnCanvas(ctx3, drag2) {
@@ -4864,9 +4924,9 @@ function ArenaCanvas() {
 delegateEvents(["pointerdown", "pointermove", "pointerup", "click"]);
 
 // src/store/index.ts
-var mapGrid = { name: "Default", size: 21, tiles: [] };
-function gridKey(column, row) {
-  return row * mapGrid.size + column;
+var mapGrid = { name: "Default", size: 21, priority: [], tiles: [] };
+function gridKey(column, row, size) {
+  return row * (size ?? mapGrid.size) + column;
 }
 function cellX(c) {
   return c * TILE_SIZE;
@@ -4899,11 +4959,13 @@ function hasCover(c, r) {
   const cell = mapGrid.tiles[gridKey(c, r)];
   return isTileType(cell, 16 /* FullCover */) || isTileType(cell, 8 /* HalfCover */) || isTileType(cell, 32 /* BossCover */) || isTileType(cell, 64 /* BossOrigin */);
 }
-function setMap(name, size, tiles) {
+function setMap(name, size, tiles, priority) {
   setState("map", name);
   mapGrid.name = name;
   mapGrid.size = size;
   mapGrid.tiles.length = 0;
+  mapGrid.priority.length = 0;
+  mapGrid.priority.push(...priority);
   mapGrid.tiles.push(...tiles);
   camera.x = mapGrid.size * TILE_SIZE / 2;
   camera.y = mapGrid.size * TILE_SIZE / 2;
@@ -4940,7 +5002,9 @@ var notations = {
   "Skill 3": ["S4", "4", "ULT"],
   Passive: ["S5", "5", "PSV"],
   "Skill A": ["S6", "6", "SA", "1"],
-  "Skill B": ["S7", "7", "SB", "2"]
+  "Skill B": ["S7", "7", "SB", "2"],
+  "End Turn": ["ET", "Z", "END"],
+  Move: ["MV", "W", "MOVE"]
 };
 var [editorTool, setEditorTool] = createSignal("spawn");
 var [editorStatus, setEditorStatus] = createSignal("Left-click / drag to place \xB7 Right-click to erase");
@@ -4962,7 +5026,6 @@ var [state, setState] = createStore({
   tabData: Array.from({ length: 8 }, () => makeDefaultTabData())
 });
 var [showDollModal, setShowDollModal] = createSignal(false);
-var [showFortificationModal, setShowFortificationModal] = createSignal(false);
 var [showFormationModal, setShowFormationModal] = createSignal(false);
 var [showWeaponModal, setShowWeaponModal] = createSignal(false);
 var [showKeyModal, setShowKeyModal] = createSignal(false);
@@ -4985,6 +5048,7 @@ var [offsetY, setOffsetY] = createSignal(0);
 function setupTempSelectedDolls() {
   setTempSelectedDolls(
     produce((selectedDolls) => {
+      console.log("Setting up tempSelectedDolls", selectedDolls.length, state.selectedDolls.length);
       selectedDolls.length = 0;
       for (const doll of state.selectedDolls) {
         selectedDolls.push({
@@ -4992,7 +5056,8 @@ function setupTempSelectedDolls() {
           fortification: doll.fortification,
           keys: [...doll.keys],
           remoldingLvl: doll.remoldingLvl,
-          gun: doll.gun
+          gun: doll.gun,
+          borrow: doll.borrow ?? false
         });
       }
     })
@@ -5016,7 +5081,8 @@ function addDollToTempSelect(dollId) {
         fortification: 0,
         keys: Array(8).fill(""),
         remoldingLvl: 0,
-        gun: ""
+        gun: "",
+        borrow: false
       });
     })
   );
@@ -5061,6 +5127,18 @@ function changeFortification(dollId, fort) {
     })
   );
 }
+function changeBorrow(dollId) {
+  setTempSelectedDolls(
+    produce((tempSelected2) => {
+      for (const doll of tempSelected2) {
+        doll.borrow = false;
+        if (doll.id === dollId) {
+          doll.borrow = !doll.borrow;
+        }
+      }
+    })
+  );
+}
 function changeRemoldingLvl(dollId, modifier) {
   const remoldingLevels = [1, 10, 20, 30, 45, 60];
   setTempSelectedDolls(
@@ -5093,6 +5171,7 @@ function loadDollLoadout(dollId) {
           doll.keys = [...loadout.keys];
           doll.remoldingLvl = loadout.remoldingLvl;
           doll.gun = loadout.gun;
+          doll.borrow = loadout.borrow ?? false;
         }
       }
     })
@@ -5100,17 +5179,6 @@ function loadDollLoadout(dollId) {
 }
 function dollHasLoadout(dollId) {
   return localStorage.getItem(DOLL_LOADOUT_KEY(dollId)) !== null;
-}
-function updateSelectedDolls() {
-  setState(
-    produce((s) => {
-      s.selectedDolls.length = 0;
-      for (const doll of tempSelectedDolls) {
-        s.selectedDolls.push(doll);
-      }
-    })
-  );
-  saveToLocalStorage();
 }
 function getInfoFromId(id) {
   for (const doll of allDolls) {
@@ -5159,6 +5227,19 @@ function visibleDollIndex(doll) {
   const index = dolls.findIndex((d) => d.id === doll.id);
   if (index === -1) return allDolls.length;
   return index;
+}
+function getDollStartingPosition(dollId, instanceId) {
+  let pos = gridKey(-1, -1);
+  if (instanceId) {
+    for (const p of state.tabData[0].summonPositions) {
+      if (p.id === dollId && p.mapId === instanceId) {
+        pos = gridKey(p.x, p.y);
+      }
+    }
+  }
+  const dollPos = state.tabData[0].dollPositions[dollId];
+  pos = gridKey(dollPos?.x ?? -1, dollPos?.y ?? -1);
+  return pos;
 }
 function getSortedUsableSkills(doll) {
   const usable = (doll.skills || []).filter((s) => s.type !== "Passive" || s.name === "Escort");
@@ -5316,7 +5397,8 @@ function changeSelectedDolls(newDolls) {
   const added = newIds.filter((d) => !oldIds.includes(d));
   setState(
     produce((s) => {
-      s.selectedDolls = newDolls;
+      s.selectedDolls.length = 0;
+      s.selectedDolls.push(...newDolls);
       for (let tabIndex = 0; tabIndex < 8; tabIndex++) {
         const tab = s.tabData[tabIndex];
         for (const dollId of removed) {
@@ -5332,8 +5414,15 @@ function changeSelectedDolls(newDolls) {
           if (!tab.actionOrder.includes(dollId)) tab.actionOrder.push(dollId);
         }
       }
+      console.log("Changing selected dolls", added, removed, s.selectedDolls.length);
     })
   );
+}
+async function updateSelectedDolls() {
+  changeSelectedDolls([...tempSelectedDolls]);
+  await preloadCanvasImages();
+  for (let i = 0; i < 8; i++) defaultActionOrder(i);
+  saveToLocalStorage();
 }
 function saveToLocalStorage() {
   console.log("Saving to localStorage");
@@ -5413,6 +5502,7 @@ function version7To8Upgrade(data) {
     doll.remoldingLvl = doll.remoldingLvl ?? 1;
     doll.fortification = doll.fortification ?? 0;
     doll.gun = doll.gun ?? "";
+    doll.borrow = doll.borrow ?? false;
   }
   return data;
 }
@@ -6566,79 +6656,8 @@ function DollSelectorModal() {
 }
 delegateEvents(["click"]);
 
-// src/components/modals/FortificationModal.tsx
-var _tmpl$59 = /* @__PURE__ */ template(`<div class="flex flex-col items-center gap-3 p-2">`);
-var _tmpl$218 = /* @__PURE__ */ template(`<div class="flex items-center gap-4"><div class="flex gap-2">`);
-var _tmpl$312 = /* @__PURE__ */ template(`<button>`);
-function FortificationModal() {
-  const setNum = (dollId, num) => {
-    setDollFortification((prev) => ({
-      ...prev,
-      [dollId]: num
-    }));
-  };
-  const confirm = async () => {
-    setShowFortificationModal(false);
-    const selectedDolls = tempSelected().map((dollId) => ({
-      id: dollId,
-      fortification: dollFortification()[dollId] ?? 0
-    }));
-    changeSelectedDolls(selectedDolls);
-    await preloadCanvasImages();
-    setTempSelected([]);
-    for (let i = 0; i < 8; i++) defaultActionOrder(i);
-    saveToLocalStorage();
-  };
-  return [createComponent(ModalHeader, {
-    title: "Set Doll Fortifications"
-  }), (() => {
-    var _el$ = _tmpl$59();
-    insert(_el$, createComponent(For, {
-      get each() {
-        return tempSelected();
-      },
-      children: (dollId) => {
-        const dollInfo = getInfoFromId(dollId);
-        if (!dollInfo) return null;
-        const currentNum = () => dollFortification()[dollId] ?? state.selectedDolls.find((d) => d.id === dollId)?.fortification ?? 0;
-        return (() => {
-          var _el$2 = _tmpl$218(), _el$3 = _el$2.firstChild;
-          insert(_el$2, createComponent(SmallDollChip, {
-            target: dollInfo,
-            get doll() {
-              return getDollFromSummon(dollInfo);
-            }
-          }), _el$3);
-          insert(_el$3, createComponent(For, {
-            each: [0, 1, 2, 3, 4, 5, 6],
-            children: (n) => (() => {
-              var _el$4 = _tmpl$312();
-              _el$4.$$click = () => setNum(dollId, n);
-              insert(_el$4, n);
-              createRenderEffect(() => className(_el$4, `text-md h-9 w-9 cursor-pointer rounded-sm bg-[#384B53] font-bold text-[#EFEFEF] shadow-sm shadow-black/50 outline-3 transition-all hover:scale-107 hover:outline-white ${currentNum() === n ? "outline-[#F26C1C]" : "outline-transparent"}`));
-              return _el$4;
-            })()
-          }));
-          return _el$2;
-        })();
-      }
-    }));
-    return _el$;
-  })(), createComponent(ModalFooter, {
-    styles: "justify-center",
-    get children() {
-      return createComponent(Button, {
-        onClick: confirm,
-        color: "dark",
-        design: "confirm"
-      });
-    }
-  })];
-}
-delegateEvents(["click"]);
-
 // src/components/modals/ImportModal.tsx
-var _tmpl$60 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-4 font-mono text-xs"placeholder="Paste here..."></textarea><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Imported state will overwrite all current settings`);
+var _tmpl$59 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-4 font-mono text-xs"placeholder="Paste here..."></textarea><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Imported state will overwrite all current settings`);
 function ImportModal() {
   const [text, setText] = createSignal("");
   const performImport = async () => {
@@ -6650,7 +6669,7 @@ function ImportModal() {
   return [createComponent(ModalHeader, {
     title: "Import Transcript"
   }), (() => {
-    var _el$ = _tmpl$60(), _el$2 = _el$.firstChild;
+    var _el$ = _tmpl$59(), _el$2 = _el$.firstChild;
     _el$2.$$input = (e) => setText(e.currentTarget.value);
     createRenderEffect(() => _el$2.value = text());
     return _el$;
@@ -6672,7 +6691,7 @@ function ImportModal() {
 delegateEvents(["input"]);
 
 // src/components/modals/TargetModal.tsx
-var _tmpl$61 = /* @__PURE__ */ template(`<div class="fixed inset-0 z-50 flex items-center justify-center bg-black/90"><div class="overflow-hidden rounded-sm border-t-[6px] border-[#506A6C] bg-[#293438]"><div class="border-b border-zinc-700 p-6 text-center"><h3 class="text-lg font-bold">Select Target Character</h3><p class="text-xs text-zinc-400"> \u2192 Target</p></div><div class="grid grid-cols-3 justify-items-center gap-4 p-5"></div><div class="flex justify-center gap-4 border-t border-zinc-700 p-6">`);
+var _tmpl$60 = /* @__PURE__ */ template(`<div class="fixed inset-0 z-50 flex items-center justify-center bg-black/90"><div class="overflow-hidden rounded-sm border-t-[6px] border-[#506A6C] bg-[#293438]"><div class="border-b border-zinc-700 p-6 text-center"><h3 class="text-lg font-bold">Select Target Character</h3><p class="text-xs text-zinc-400"> \u2192 Target</p></div><div class="grid grid-cols-3 justify-items-center gap-4 p-5"></div><div class="flex justify-center gap-4 border-t border-zinc-700 p-6">`);
 function TargetModal() {
   const skillInfo = createMemo(() => {
     const dollId = targetDollId();
@@ -6698,7 +6717,7 @@ function TargetModal() {
     setShowTargetModal(false);
   };
   return (() => {
-    var _el$ = _tmpl$61(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$3.nextSibling, _el$8 = _el$7.nextSibling;
+    var _el$ = _tmpl$60(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$4.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$3.nextSibling, _el$8 = _el$7.nextSibling;
     insert(_el$5, () => skillInfo()?.name, _el$6);
     insert(_el$7, createComponent(For, {
       get each() {
@@ -6725,7 +6744,7 @@ function TargetModal() {
 }
 
 // src/components/modals/ExportModal.tsx
-var _tmpl$64 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Export as Text</div><div class="mx-3 flex flex-row items-center justify-center gap-1 text-[#384B53]"><span>Export style:</span></div><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-2 font-mono text-xs"placeholder=Loading...>`);
+var _tmpl$61 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Export as Text</div><div class="mx-3 flex flex-row items-center justify-center gap-1 text-[#384B53]"><span>Export style:</span></div><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-2 font-mono text-xs"placeholder=Loading...>`);
 function ExportModal() {
   const exportOptions = ["code only", "code for discord", "shareable url"];
   const [exportType, setExportType] = createSignal(exportOptions[2]);
@@ -6754,7 +6773,7 @@ ${window.location.origin + window.location.pathname}?state=` + exportString();
   return [createComponent(ModalHeader, {
     title: "Export Transcript"
   }), (() => {
-    var _el$ = _tmpl$64(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling, _el$4 = _el$3.firstChild, _el$5 = _el$3.nextSibling;
+    var _el$ = _tmpl$61(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling, _el$4 = _el$3.firstChild, _el$5 = _el$3.nextSibling;
     insert(_el$3, createComponent(Select, {
       "class": "custom",
       options: exportOptions,
@@ -6786,9 +6805,9 @@ ${window.location.origin + window.location.pathname}?state=` + exportString();
 }
 
 // src/components/modals/SkillDisplayModal.tsx
-var _tmpl$65 = /* @__PURE__ */ template(`<div class="flex flex-col gap-2 self-center"><div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>Override imported notations:</span></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Preview</div><div class="flex flex-wrap justify-center gap-1.5">`);
-var _tmpl$219 = /* @__PURE__ */ template(`<div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>`);
-var _tmpl$313 = /* @__PURE__ */ template(`<div class="flex flex-col gap-1"><div class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-center text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
+var _tmpl$64 = /* @__PURE__ */ template(`<div class="flex flex-col gap-2 self-center"><div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>Override imported notations:</span></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Preview</div><div class="flex flex-wrap justify-center gap-1.5">`);
+var _tmpl$218 = /* @__PURE__ */ template(`<div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>`);
+var _tmpl$312 = /* @__PURE__ */ template(`<div class="flex flex-col gap-1"><div class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-center text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
 function SkillDisplayModal() {
   const dollInfo = getDollFromId("d54");
   const basicSkill = dollInfo?.skills?.filter((s) => s.type === "Basic Attack") ?? [];
@@ -6799,7 +6818,7 @@ function SkillDisplayModal() {
   return [createComponent(ModalHeader, {
     title: "Skill Display"
   }), (() => {
-    var _el$ = _tmpl$65(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$2.nextSibling, _el$5 = _el$4.nextSibling;
+    var _el$ = _tmpl$64(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$2.nextSibling, _el$5 = _el$4.nextSibling;
     insert(_el$2, createComponent(Select, {
       "class": "custom",
       options: ["true", "false"],
@@ -6816,7 +6835,7 @@ function SkillDisplayModal() {
         return Object.entries(notations);
       },
       children: ([notation, values]) => (() => {
-        var _el$6 = _tmpl$219(), _el$7 = _el$6.firstChild;
+        var _el$6 = _tmpl$218(), _el$7 = _el$6.firstChild;
         insert(_el$7, `${notation} style:`);
         insert(_el$6, createComponent(Select, {
           "class": "custom",
@@ -6832,7 +6851,7 @@ function SkillDisplayModal() {
     insert(_el$5, createComponent(For, {
       each: skills,
       children: (skill, idx) => (() => {
-        var _el$8 = _tmpl$313(), _el$9 = _el$8.firstChild;
+        var _el$8 = _tmpl$312(), _el$9 = _el$8.firstChild;
         insert(_el$8, createComponent(SkillIcon, {
           skill
         }), _el$9);
@@ -6856,10 +6875,39 @@ function SkillDisplayModal() {
 }
 
 // src/components/icons/CommonKey.tsx
-var _tmpl$66 = /* @__PURE__ */ template(`<svg><g transform=matrix(1,0,0,0.944444,-0.5,-0.555556)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z style=fill:rgb(63,78,82)></svg>`, false, true, false);
-var _tmpl$220 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.444444,22.5294,7.94444)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
-var _tmpl$314 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-33,-5.5)><g transform=matrix(1.17647,0,0,1.11111,-8.17647,-3.38889)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8ZM43.5,10.25L37.979,13.625L37.979,20.375L43.5,23.75L49.021,20.375L49.021,13.625L43.5,10.25Z>`);
+var _tmpl$65 = /* @__PURE__ */ template(`<svg><g transform=matrix(1,0,0,0.944444,-0.5,-0.555556)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z style=fill:rgb(63,78,82)></svg>`, false, true, false);
+var _tmpl$219 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.444444,22.5294,7.94444)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
+var _tmpl$313 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-33,-5.5)><g transform=matrix(1.17647,0,0,1.11111,-8.17647,-3.38889)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8ZM43.5,10.25L37.979,13.625L37.979,20.375L43.5,23.75L49.021,20.375L49.021,13.625L43.5,10.25Z>`);
 function CommonKey2(props) {
+  const color = props.rarity === "Elite" ? "A87D36" : props.rarity === "Standard" ? "5F5A90" : "5B6468";
+  return (() => {
+    var _el$ = _tmpl$313(), _el$2 = _el$.firstChild, _el$5 = _el$2.firstChild, _el$6 = _el$5.firstChild;
+    insert(_el$2, createComponent(Show, {
+      get when() {
+        return memo(() => props.rarity !== "Elite")() && props.rarity !== "Standard";
+      },
+      get children() {
+        return _tmpl$65();
+      }
+    }), _el$5);
+    insert(_el$2, createComponent(Show, {
+      get when() {
+        return props.rarity === "Elite" || props.rarity === "Standard";
+      },
+      get children() {
+        return _tmpl$219();
+      }
+    }), _el$5);
+    createRenderEffect((_$p) => style(_el$6, `fill:#${color}`, _$p));
+    return _el$;
+  })();
+}
+
+// src/components/icons/FixedKey.tsx
+var _tmpl$66 = /* @__PURE__ */ template(`<svg><g transform=matrix(1,0,0,0.894737,-0.5,1.63158)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6Z style=fill:rgb(63,78,82)></svg>`, false, true, false);
+var _tmpl$220 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.421053,7.17647,8.97368)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
+var _tmpl$314 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-4,-5.5)><g transform=matrix(1.17647,0,0,1.05263,-3.05882,-0.815789)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6ZM14.5,8.375L8.125,15.5L14.5,22.625L20.875,15.5L14.5,8.375Z>`);
+function FixedKey2(props) {
   const color = props.rarity === "Elite" ? "A87D36" : props.rarity === "Standard" ? "5F5A90" : "5B6468";
   return (() => {
     var _el$ = _tmpl$314(), _el$2 = _el$.firstChild, _el$5 = _el$2.firstChild, _el$6 = _el$5.firstChild;
@@ -6877,35 +6925,6 @@ function CommonKey2(props) {
       },
       get children() {
         return _tmpl$220();
-      }
-    }), _el$5);
-    createRenderEffect((_$p) => style(_el$6, `fill:#${color}`, _$p));
-    return _el$;
-  })();
-}
-
-// src/components/icons/FixedKey.tsx
-var _tmpl$67 = /* @__PURE__ */ template(`<svg><g transform=matrix(1,0,0,0.894737,-0.5,1.63158)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6Z style=fill:rgb(63,78,82)></svg>`, false, true, false);
-var _tmpl$221 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.421053,7.17647,8.97368)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
-var _tmpl$315 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-4,-5.5)><g transform=matrix(1.17647,0,0,1.05263,-3.05882,-0.815789)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6ZM14.5,8.375L8.125,15.5L14.5,22.625L20.875,15.5L14.5,8.375Z>`);
-function FixedKey2(props) {
-  const color = props.rarity === "Elite" ? "A87D36" : props.rarity === "Standard" ? "5F5A90" : "5B6468";
-  return (() => {
-    var _el$ = _tmpl$315(), _el$2 = _el$.firstChild, _el$5 = _el$2.firstChild, _el$6 = _el$5.firstChild;
-    insert(_el$2, createComponent(Show, {
-      get when() {
-        return memo(() => props.rarity !== "Elite")() && props.rarity !== "Standard";
-      },
-      get children() {
-        return _tmpl$67();
-      }
-    }), _el$5);
-    insert(_el$2, createComponent(Show, {
-      get when() {
-        return props.rarity === "Elite" || props.rarity === "Standard";
-      },
-      get children() {
-        return _tmpl$221();
       }
     }), _el$5);
     createRenderEffect((_$p) => style(_el$6, `fill:#${color}`, _$p));
@@ -6931,16 +6950,16 @@ function SmallKey(props) {
 }
 
 // src/components/DynamicDollChip.tsx
-var _tmpl$68 = /* @__PURE__ */ template(`<div class="h-30 w-23 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50"><div><div class="absolute top-1 left-1 h-5 w-5"></div><img loading=lazy class="h-auto w-22.5 object-cover"></div><div class="bg-[#1C2A32] p-1 text-center text-[14px] font-bold text-[#EFEFEF]">`, true, false, false);
-var _tmpl$223 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-6 w-6 shadow-sm shadow-black/20">`);
+var _tmpl$67 = /* @__PURE__ */ template(`<div class="h-30 w-23 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50"><div><div class="absolute top-1 left-1 h-5 w-5"></div><img loading=lazy class="h-auto w-22.5 object-cover"></div><div class="bg-[#1C2A32] p-1 text-center text-[14px] font-bold text-[#EFEFEF]">`, true, false, false);
+var _tmpl$221 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-6 w-6 shadow-sm shadow-black/20">`);
 function DynamicDollChip(props) {
   return (() => {
-    var _el$ = _tmpl$68(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$2.nextSibling;
+    var _el$ = _tmpl$67(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$2.nextSibling;
     addEventListener(_el$, "click", props.onClick, true);
     insert(_el$2, (() => {
       var _c$ = memo(() => !!props.selected);
       return () => _c$() && (() => {
-        var _el$6 = _tmpl$223();
+        var _el$6 = _tmpl$221();
         insert(_el$6, createComponent(Check, {}));
         return _el$6;
       })();
@@ -6967,10 +6986,16 @@ function DynamicDollChip(props) {
 }
 delegateEvents(["click"]);
 
+// src/components/icons/Borrow.tsx
+var _tmpl$68 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-80.75,-27)><g transform=matrix(0.954545,0,0,1.22222,3.72727,-8.44444)><path d="M82,42.909L82,40.552C82,39.144 83.464,38 85.268,38L89.732,38C91.536,38 93,39.144 93,40.552L93,42.909L82,42.909Z"style=fill:rgb(249,196,32)></path></g><g transform=matrix(0.933333,0,0,0.875,5.86667,3.75)><ellipse cx=87.25 cy=34 rx=3.75 ry=4 style=fill:rgb(249,196,32)></ellipse></g></g><g transform=matrix(1,0,0,1,-80.75,-27)><g transform=matrix(0.818182,0,0,1.04762,23.4091,-2.95238)><path d="M83.125,38.626C83.699,38.236 84.448,38 85.268,38L89.732,38C91.536,38 93,39.144 93,40.552L93,42.909L86.583,42.909L86.583,41.591C86.583,40.041 85.063,38.766 83.125,38.626Z"style=fill:rgb(249,196,32)></path></g><g transform=matrix(0.8,0,0,0.75,25.2429,7.5)><ellipse cx=87.25 cy=34 rx=3.75 ry=4 style=fill:rgb(249,196,32)>`);
+function Borrow() {
+  return _tmpl$68();
+}
+
 // src/components/modals/FormationModal.tsx
-var _tmpl$69 = /* @__PURE__ */ template(`<div class="relative flex flex-wrap items-center justify-start gap-4 px-10 py-8"><div class="absolute right-10 bottom-8 flex justify-end">`);
-var _tmpl$224 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-10 h-8 w-8"><img class="relative h-full w-full object-cover">`);
-var _tmpl$316 = /* @__PURE__ */ template(`<div class="flex items-center gap-3 bg-[#B6BAC6] p-2.5"><div class="flex flex-col gap-3"><div class="text-md flex h-10 w-80.5 cursor-pointer flex-row items-center justify-center gap-1 rounded-sm bg-[#354346] p-1 shadow-sm shadow-black/50 outline-3 outline-transparent transition-all hover:scale-107 hover:outline-white"></div><div class="flex flex-row gap-3"><div class="text-md flex w-12 flex-col items-center justify-center rounded-sm bg-[#354346] shadow-sm shadow-black/50"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center pt-0.5 text-[18px] font-bold"></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div class="text-md flex w-14 flex-col items-center justify-center rounded-sm bg-[#354346] px-1 pt-1 shadow-sm shadow-black/50"><div class="relative h-12 w-12 overflow-hidden rounded-full"><img><div class="absolute top-0 right-0 bottom-0 left-0 flex items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class="overflow-hidden overflow-ellipsis whitespace-nowrap"></div></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div><img class="relative z-20 h-full w-full border-b-3 border-[#DF9E00] object-cover"><div class="absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t from-[#453824] from-0% to-transparent to-75%"></div></div><div class="flex w-14 flex-col gap-3 text-sm font-bold tracking-wide"><button></button><button>Load`);
+var _tmpl$69 = /* @__PURE__ */ template(`<div class="relative flex flex-wrap items-center justify-start gap-4 px-10 py-8"><div>`);
+var _tmpl$223 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-10 h-8 w-8"><img class="relative h-full w-full object-cover">`);
+var _tmpl$315 = /* @__PURE__ */ template(`<div class="flex items-center gap-3 bg-[#B6BAC6] p-2.5"><div class="flex flex-col gap-3"><div class="flex flex-row gap-3"><div></div><div><div></div><div class=w-6></div></div></div><div class="flex flex-row gap-3"><div class="text-md flex w-12 flex-col items-center justify-center rounded-sm bg-[#354346] shadow-sm shadow-black/50"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center pt-0.5 text-[18px] font-bold"></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div class="text-md flex w-14 flex-col items-center justify-center rounded-sm bg-[#354346] px-1 pt-1 shadow-sm shadow-black/50"><div class="relative h-12 w-12 overflow-hidden rounded-full"><img><div class="absolute top-0 right-0 bottom-0 left-0 flex items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class="overflow-hidden overflow-ellipsis whitespace-nowrap"></div></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div><img class="relative z-20 h-full w-full border-b-3 border-[#DF9E00] object-cover"><div class="absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t from-[#453824] from-0% to-transparent to-75%"></div></div><div class="flex w-14 flex-col gap-3 text-sm font-bold tracking-wide"><button></button><button>Load`);
 var _tmpl$411 = /* @__PURE__ */ template(`<div class="flex h-7 w-4 items-center justify-center">=`);
 var _tmpl$510 = /* @__PURE__ */ template(`<div class="h-5 w-5">`);
 function FormationModal() {
@@ -6985,9 +7010,6 @@ function FormationModal() {
   const confirm = async () => {
     setShowFormationModal(false);
     updateSelectedDolls();
-    await preloadCanvasImages();
-    for (let i = 0; i < 8; i++) defaultActionOrder(i);
-    saveToLocalStorage();
   };
   return (() => {
     var _el$ = _tmpl$69(), _el$2 = _el$.firstChild;
@@ -7008,25 +7030,25 @@ function FormationModal() {
         const hasLoadout = createMemo(() => dollHasLoadout(doll.id));
         const keys = createMemo(() => displaySmallKeys(doll.id, doll.keys));
         return (() => {
-          var _el$3 = _tmpl$316(), _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.nextSibling, _el$7 = _el$6.firstChild, _el$8 = _el$7.firstChild, _el$9 = _el$8.firstChild, _el$0 = _el$9.nextSibling, _el$1 = _el$8.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$10.nextSibling, _el$12 = _el$7.nextSibling, _el$13 = _el$12.firstChild, _el$14 = _el$13.firstChild, _el$15 = _el$14.nextSibling, _el$16 = _el$15.firstChild, _el$17 = _el$13.nextSibling, _el$18 = _el$17.firstChild, _el$19 = _el$18.nextSibling, _el$20 = _el$12.nextSibling, _el$23 = _el$20.firstChild, _el$24 = _el$20.nextSibling, _el$25 = _el$24.firstChild, _el$26 = _el$25.nextSibling;
+          var _el$3 = _tmpl$315(), _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.nextSibling, _el$0 = _el$5.nextSibling, _el$1 = _el$0.firstChild, _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild, _el$12 = _el$11.nextSibling, _el$13 = _el$10.nextSibling, _el$14 = _el$13.firstChild, _el$15 = _el$14.nextSibling, _el$16 = _el$1.nextSibling, _el$17 = _el$16.firstChild, _el$18 = _el$17.firstChild, _el$19 = _el$18.nextSibling, _el$20 = _el$19.firstChild, _el$21 = _el$17.nextSibling, _el$22 = _el$21.firstChild, _el$23 = _el$22.nextSibling, _el$24 = _el$16.nextSibling, _el$27 = _el$24.firstChild, _el$28 = _el$24.nextSibling, _el$29 = _el$28.firstChild, _el$30 = _el$29.nextSibling;
           insert(_el$3, createComponent(DynamicDollChip, {
             target: dollInfo,
             get doll() {
               return getDollFromSummon(dollInfo);
             }
           }), _el$4);
-          _el$5.$$click = () => {
+          _el$6.$$click = () => {
             setSelectedDoll(doll);
             setShowKeyModal(true);
             setSavedLoadout(false);
           };
-          insert(_el$5, createComponent(For, {
+          insert(_el$6, createComponent(For, {
             get each() {
               return keys();
             },
             children: (key) => typeof key === "string" ? _tmpl$411() : key ? (() => {
-              var _el$28 = _tmpl$510();
-              insert(_el$28, createComponent(SmallKey, {
+              var _el$32 = _tmpl$510();
+              insert(_el$32, createComponent(SmallKey, {
                 get rarity() {
                   return key.rarity;
                 },
@@ -7034,60 +7056,66 @@ function FormationModal() {
                   return key.type;
                 }
               }));
-              return _el$28;
+              return _el$32;
             })() : null
           }));
-          insert(_el$9, createComponent(Fortification, {}));
-          insert(_el$0, dollFortification2);
-          _el$10.$$click = () => {
+          _el$7.$$click = () => changeBorrow(doll.id);
+          insert(_el$8, createComponent(Check, {}));
+          insert(_el$9, createComponent(Borrow, {}));
+          insert(_el$11, createComponent(Fortification, {}));
+          insert(_el$12, dollFortification2);
+          _el$14.$$click = () => {
             setSavedLoadout(false);
             changeFortification(doll.id, -1);
           };
-          _el$11.$$click = () => {
+          _el$15.$$click = () => {
             setSavedLoadout(false);
             changeFortification(doll.id, 1);
           };
-          insert(_el$16, dollRemolding);
-          _el$18.$$click = () => {
+          insert(_el$20, dollRemolding);
+          _el$22.$$click = () => {
             setSavedLoadout(false);
             changeRemoldingLvl(doll.id, -1);
           };
-          _el$19.$$click = () => {
+          _el$23.$$click = () => {
             setSavedLoadout(false);
             changeRemoldingLvl(doll.id, 1);
           };
-          _el$20.$$click = () => {
+          _el$24.$$click = () => {
             setSelectedDoll(doll);
             setShowWeaponModal(true);
             setSavedLoadout(false);
           };
-          insert(_el$20, createComponent(Show, {
+          insert(_el$24, createComponent(Show, {
             get when() {
               return dollWeapon()?.imprintImage;
             },
             get children() {
-              var _el$21 = _tmpl$224(), _el$22 = _el$21.firstChild;
-              createRenderEffect(() => setAttribute(_el$22, "src", dollWeapon()?.imprintImage));
-              return _el$21;
+              var _el$25 = _tmpl$223(), _el$26 = _el$25.firstChild;
+              createRenderEffect(() => setAttribute(_el$26, "src", dollWeapon()?.imprintImage));
+              return _el$25;
             }
-          }), _el$23);
-          _el$25.$$click = () => {
+          }), _el$27);
+          _el$29.$$click = () => {
             setSavedLoadout(true);
             saveDollLoadout(doll.id);
           };
-          insert(_el$25, () => savedLoadout() ? "Saved" : "Save");
-          _el$26.$$click = () => dollHasLoadout(doll.id) && loadDollLoadout(doll.id);
+          insert(_el$29, () => savedLoadout() ? "Saved" : "Save");
+          _el$30.$$click = () => dollHasLoadout(doll.id) && loadDollLoadout(doll.id);
           createRenderEffect((_p$) => {
-            var _v$ = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$2 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$3 = dollInfo.remolding, _v$4 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$5 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$6 = `${interactiveStyles(false)} relative h-17 w-31.5 flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50`, _v$7 = dollWeapon()?.localImagePath, _v$8 = `${interactiveStyles(false)} rounded-sm bg-[#354346] px-2 py-1 shadow-sm shadow-black/50`, _v$9 = `${hasLoadout() ? interactiveStyles(false) : "opacity-50"} rounded-sm bg-[#354346] px-2 py-1 shadow-sm shadow-black/50`;
-            _v$ !== _p$.e && className(_el$10, _p$.e = _v$);
-            _v$2 !== _p$.t && className(_el$11, _p$.t = _v$2);
-            _v$3 !== _p$.a && setAttribute(_el$14, "src", _p$.a = _v$3);
-            _v$4 !== _p$.o && className(_el$18, _p$.o = _v$4);
-            _v$5 !== _p$.i && className(_el$19, _p$.i = _v$5);
-            _v$6 !== _p$.n && className(_el$20, _p$.n = _v$6);
-            _v$7 !== _p$.s && setAttribute(_el$23, "src", _p$.s = _v$7);
-            _v$8 !== _p$.h && className(_el$25, _p$.h = _v$8);
-            _v$9 !== _p$.r && className(_el$26, _p$.r = _v$9);
+            var _v$ = `${interactiveStyles(false)} text-md flex h-10 grow flex-row items-center justify-center gap-1 rounded-sm bg-[#354346] p-1 shadow-sm shadow-black/50`, _v$2 = `${interactiveStyles(doll.borrow)} text-md flex h-10 flex-row items-center justify-center gap-1 rounded-sm bg-[#354346] p-1 shadow-sm shadow-black/50`, _v$3 = `${doll.borrow ? "opacity-100" : "opacity-20"} w-5`, _v$4 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$5 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$6 = dollInfo.remolding, _v$7 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$8 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$9 = `${interactiveStyles(false)} relative h-17 w-31.5 flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50`, _v$0 = dollWeapon()?.localImagePath, _v$1 = `${interactiveStyles(false)} rounded-sm bg-[#354346] px-2 py-1 shadow-sm shadow-black/50`, _v$10 = `${hasLoadout() ? interactiveStyles(false) : "opacity-50"} rounded-sm bg-[#354346] px-2 py-1 shadow-sm shadow-black/50`;
+            _v$ !== _p$.e && className(_el$6, _p$.e = _v$);
+            _v$2 !== _p$.t && className(_el$7, _p$.t = _v$2);
+            _v$3 !== _p$.a && className(_el$8, _p$.a = _v$3);
+            _v$4 !== _p$.o && className(_el$14, _p$.o = _v$4);
+            _v$5 !== _p$.i && className(_el$15, _p$.i = _v$5);
+            _v$6 !== _p$.n && setAttribute(_el$18, "src", _p$.n = _v$6);
+            _v$7 !== _p$.s && className(_el$22, _p$.s = _v$7);
+            _v$8 !== _p$.h && className(_el$23, _p$.h = _v$8);
+            _v$9 !== _p$.r && className(_el$24, _p$.r = _v$9);
+            _v$0 !== _p$.d && setAttribute(_el$27, "src", _p$.d = _v$0);
+            _v$1 !== _p$.l && className(_el$29, _p$.l = _v$1);
+            _v$10 !== _p$.u && className(_el$30, _p$.u = _v$10);
             return _p$;
           }, {
             e: void 0,
@@ -7098,7 +7126,10 @@ function FormationModal() {
             n: void 0,
             s: void 0,
             h: void 0,
-            r: void 0
+            r: void 0,
+            d: void 0,
+            l: void 0,
+            u: void 0
           });
           return _el$3;
         })();
@@ -7109,6 +7140,7 @@ function FormationModal() {
       color: "light",
       design: "confirm"
     }));
+    createRenderEffect(() => className(_el$2, tempSelectedDolls.length % 2 === 1 ? "absolute right-10 bottom-8 flex justify-end" : "flex justify-end grow"));
     return _el$;
   })();
 }
@@ -7134,8 +7166,8 @@ function EmptyKey(props) {
 
 // src/components/modals/KeyModal.tsx
 var _tmpl$71 = /* @__PURE__ */ template(`<div class="flex max-h-180 flex-row px-10"><div class="flex w-30 shrink-0 flex-col items-stretch justify-center bg-[#2A3D46] py-5"><div class="flex justify-center pb-2"><img loading=lazy class="h-15 w-15 rounded-full border-3 border-[#687177] bg-[#0D1C1C] object-cover"></div></div><div class="flex w-70 grow flex-col"><div class="font-bold h-8 p-2 pl-4 flex shrink-0"></div><div class="flex grow overflow-y-auto p-5 px-4 pt-2"><div class="flex flex-row flex-wrap items-start gap-3.5"></div></div><div class="flex justify-end p-2">`, true, false, false);
-var _tmpl$225 = /* @__PURE__ */ template(`<img class="h-16 w-16 object-cover">`);
-var _tmpl$317 = /* @__PURE__ */ template(`<div><div class="h-15 w-15">`);
+var _tmpl$224 = /* @__PURE__ */ template(`<img class="h-16 w-16 object-cover">`);
+var _tmpl$316 = /* @__PURE__ */ template(`<div><div class="h-15 w-15">`);
 var _tmpl$412 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 z-20 h-7 w-7 shadow-sm shadow-black/20">`);
 var _tmpl$511 = /* @__PURE__ */ template(`<div class="absolute right-1 bottom-1 rounded-sm bg-[#2A3D46] px-1 text-xs font-bold text-[#EFEFEF]">`);
 var _tmpl$610 = /* @__PURE__ */ template(`<div><div><img class="h-22 w-22 object-cover">`);
@@ -7173,7 +7205,7 @@ function KeyModal() {
         const selectedStyle = "border-[#F26C1C] bg-linear-to-r from-[#5B403E] to-transparent scale-107";
         const unselectedStyle = "cursor-pointer transition-discrete duration-175 hover:scale-107 border-transparent hover:border-white bg-linear-to-r from-transparent hover:from-[#515B61] to-transparent";
         return (() => {
-          var _el$0 = _tmpl$317(), _el$1 = _el$0.firstChild;
+          var _el$0 = _tmpl$316(), _el$1 = _el$0.firstChild;
           _el$0.$$click = () => setActiveKeySlot(index());
           insert(_el$1, createComponent(Show, {
             when: selectedKey,
@@ -7185,7 +7217,7 @@ function KeyModal() {
               });
             },
             get children() {
-              var _el$10 = _tmpl$225();
+              var _el$10 = _tmpl$224();
               createRenderEffect(() => setAttribute(_el$10, "src", selectedKey.localImagePath));
               return _el$10;
             }
@@ -7273,8 +7305,8 @@ delegateEvents(["click"]);
 
 // src/components/modals/WeaponModal.tsx
 var _tmpl$75 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
-var _tmpl$226 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-10 h-12 w-12"><img class="relative h-full w-full object-cover">`);
-var _tmpl$318 = /* @__PURE__ */ template(`<div><img class="relative z-20 h-full w-full border-b-3 border-[#DF9E00] object-cover"><div class="absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t from-[#453824] from-0% to-transparent to-75%">`);
+var _tmpl$225 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-10 h-12 w-12"><img class="relative h-full w-full object-cover">`);
+var _tmpl$317 = /* @__PURE__ */ template(`<div><img class="relative z-20 h-full w-full border-b-3 border-[#DF9E00] object-cover"><div class="absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t from-[#453824] from-0% to-transparent to-75%">`);
 var _tmpl$413 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function WeaponModal() {
   const dollInfo = createMemo(() => getInfoFromId(selectedDoll().id));
@@ -7296,7 +7328,7 @@ function WeaponModal() {
       children: (weapon) => {
         const isSel = () => selectedWeaponId() === weapon.id;
         return (() => {
-          var _el$3 = _tmpl$318(), _el$6 = _el$3.firstChild;
+          var _el$3 = _tmpl$317(), _el$6 = _el$3.firstChild;
           _el$3.$$click = () => setSelectedWeaponId(weapon.id);
           insert(_el$3, (() => {
             var _c$ = memo(() => !!isSel());
@@ -7311,7 +7343,7 @@ function WeaponModal() {
               return weapon.imprintImage;
             },
             get children() {
-              var _el$4 = _tmpl$226(), _el$5 = _el$4.firstChild;
+              var _el$4 = _tmpl$225(), _el$5 = _el$4.firstChild;
               createRenderEffect(() => setAttribute(_el$5, "src", weapon.imprintImage));
               return _el$4;
             }
@@ -7372,6 +7404,7 @@ function App() {
     const params = new URLSearchParams(window.location.search);
     if (params.has("state")) {
       await importState(loadFromString, params.get("state"));
+      window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
     } else {
       await importState(loadFromLocalStorage, "");
     }
@@ -7425,23 +7458,6 @@ function App() {
             return createComponent(Modal, {
               get children() {
                 return createComponent(DollSelectorModal, {});
-              }
-            });
-          }
-        });
-      }
-    }), null);
-    insert(_el$, createComponent(Show, {
-      get when() {
-        return memo(() => !!showFortificationModal())() && loaded();
-      },
-      get children() {
-        return createComponent(FullScreen, {
-          get children() {
-            return createComponent(Modal, {
-              width: "w-[420px]",
-              get children() {
-                return createComponent(FortificationModal, {});
               }
             });
           }

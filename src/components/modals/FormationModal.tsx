@@ -71,7 +71,7 @@ export default function FormationModal() {
 												setShowKeyModal(true);
 												setSavedLoadout(false);
 											}}
-											class={`${interactiveStyles(false)} text-md flex h-10 flex-grow flex-row items-center justify-center gap-1 rounded-sm bg-[#354346] p-1 shadow-sm shadow-black/50`}>
+											class={`${interactiveStyles(false)} text-md flex h-10 grow flex-row items-center justify-center gap-1 rounded-sm bg-[#354346] p-1 shadow-sm shadow-black/50`}>
 											<For each={keys()}>
 												{(key) =>
 													typeof key === "string" ? (
