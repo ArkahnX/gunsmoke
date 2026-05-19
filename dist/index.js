@@ -3304,7 +3304,7 @@ function Button(props) {
       }
     }), null);
     createRenderEffect((_p$) => {
-      var _v$ = props.disabled, _v$2 = `${props.color === "dark" ? "bg-[#1C2A32] text-[#EFEFEF]" : props.color === "light" ? "bg-[#C9C8CE] text-[#1C2A32]" : props.color === "red" ? "bg-[#944040] text-[#EFEFEF]" : ""} ${props.design === "custom" ? "h-12 max-w-87.5 px-7.5" : "h-14 max-w-87.5 min-w-60"} relative flex cursor-pointer flex-row items-center overflow-hidden rounded-sm text-xl font-bold whitespace-nowrap shadow-sm shadow-black/50 outline-3 outline-transparent transition transition-discrete duration-250 hover:outline-white hover:duration-0`, _v$3 = `grow ${props.design === "custom" ? "pr-0" : "pr-4"}`;
+      var _v$ = props.disabled, _v$2 = `${props.color === "dark" ? "bg-[#1C2A32] text-[#EFEFEF]" : props.color === "light" ? "bg-[#C9C8CE] text-[#1C2A32]" : props.color === "red" ? "bg-[#944040] text-[#EFEFEF]" : ""} ${props.design === "custom" ? "h-12 max-w-87.5 px-6.5" : "h-14 max-w-87.5 min-w-60"} relative flex cursor-pointer flex-row items-center overflow-hidden rounded-sm text-xl font-bold whitespace-nowrap shadow-sm shadow-black/50 outline-3 outline-transparent transition transition-discrete duration-250 hover:outline-white hover:duration-0`, _v$3 = `grow ${props.design === "custom" ? "pr-0" : "pr-4"}`;
       _v$ !== _p$.e && (_el$.disabled = _p$.e = _v$);
       _v$2 !== _p$.t && className(_el$, _p$.t = _v$2);
       _v$3 !== _p$.a && className(_el$3, _p$.a = _v$3);
@@ -4057,7 +4057,7 @@ delegateEvents(["focusin", "focusout", "mousedown", "click", "input", "keydown"]
 // src/components/SetupSidebar.tsx
 var _tmpl$27 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Summons (drag to map)`);
 var _tmpl$28 = /* @__PURE__ */ template(`<div class="flex flex-wrap gap-3">`);
-var _tmpl$33 = /* @__PURE__ */ template(`<div><div class="flex flex-col items-center gap-3 pt-1 text-sm font-bold text-[#384B53]"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Echelon (drag to map)</div><div class="flex flex-wrap gap-3"></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">State Management</div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">Danger Zone`);
+var _tmpl$33 = /* @__PURE__ */ template(`<div><div class="flex flex-col items-center gap-3 pt-1 text-sm font-bold text-[#384B53]"><div class="flex flex-row gap-2"></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Echelon (drag to map)</div><div class="flex flex-wrap gap-3"></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">State Management</div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">Danger Zone`);
 function SetupSidebar(props) {
   const isActionTab = createMemo(() => state.currentTab >= 1 && state.currentTab <= 7);
   const availableSummonIds = createMemo(() => isActionTab() ? getSummonIdsFromDollIds(state.selectedDolls.map((d) => d.id)) : []);
@@ -4073,6 +4073,15 @@ function SetupSidebar(props) {
     setDollFortification(nums);
     setActivePhaseTab("All");
     setShowDollModal(true);
+  };
+  const openFormation = () => {
+    setupTempSelectedDolls();
+    const nums = {};
+    state.selectedDolls.forEach((d) => {
+      nums[d.id] = d.fortification;
+    });
+    setDollFortification(nums);
+    setShowFormationModal(true);
   };
   const clearCurrentTurn = () => {
     if (state.currentTab === -1) {
@@ -4115,7 +4124,7 @@ function SetupSidebar(props) {
     saveToLocalStorage();
   };
   return (() => {
-    var _el$ = _tmpl$33(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$7 = _el$4.nextSibling, _el$8 = _el$7.nextSibling;
+    var _el$ = _tmpl$33(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$4.nextSibling, _el$8 = _el$5.nextSibling, _el$9 = _el$8.nextSibling;
     insert(_el$2, createComponent(Select, {
       "class": "custom",
       get options() {
@@ -4129,13 +4138,25 @@ function SetupSidebar(props) {
         return state.map;
       }
     }), _el$3);
-    insert(_el$2, createComponent(Button, {
+    insert(_el$3, createComponent(Button, {
       color: "dark",
       onClick: openDollSelector,
       design: "custom",
       content: "Select Dolls"
-    }), _el$3);
-    insert(_el$4, createComponent(For, {
+    }), null);
+    insert(_el$3, createComponent(Button, {
+      color: "dark",
+      onClick: openFormation,
+      design: "custom",
+      content: "Change Equip"
+    }), null);
+    insert(_el$2, createComponent(Button, {
+      color: "dark",
+      onClick: () => setShowBuffModal(true),
+      design: "custom",
+      content: "Select Support Buff"
+    }), _el$4);
+    insert(_el$5, createComponent(For, {
       get each() {
         return state.selectedDolls;
       },
@@ -4159,8 +4180,8 @@ function SetupSidebar(props) {
       },
       get children() {
         return [_tmpl$27(), (() => {
-          var _el$6 = _tmpl$28();
-          insert(_el$6, createComponent(For, {
+          var _el$7 = _tmpl$28();
+          insert(_el$7, createComponent(For, {
             get each() {
               return availableSummonIds();
             },
@@ -4180,28 +4201,28 @@ function SetupSidebar(props) {
               });
             }
           }));
-          return _el$6;
+          return _el$7;
         })()];
       }
-    }), _el$7);
+    }), _el$8);
     insert(_el$2, createComponent(Button, {
       onClick: () => setShowSkillDisplayModal(true),
       color: "dark",
       design: "custom",
       content: "Set Skill Display"
-    }), _el$8);
+    }), _el$9);
     insert(_el$2, createComponent(Button, {
       onClick: () => setShowExportModal(true),
       color: "dark",
       design: "custom",
       content: "Export Transcript"
-    }), _el$8);
+    }), _el$9);
     insert(_el$2, createComponent(Button, {
       onClick: () => setShowImportModal(true),
       color: "dark",
       design: "custom",
       content: "Import Transcript"
-    }), _el$8);
+    }), _el$9);
     insert(_el$2, createComponent(Button, {
       onClick: () => setShowClearSkillModal(true),
       color: "red",
@@ -4993,7 +5014,7 @@ var [showFormationModal, setShowFormationModal] = createSignal(false);
 var [showWeaponModal, setShowWeaponModal] = createSignal(false);
 var [showKeyModal, setShowKeyModal] = createSignal(false);
 var [showBuffModal, setShowBuffModal] = createSignal(false);
-var hideFormationModal = createMemo(() => showWeaponModal() || showKeyModal() || showBuffModal());
+var hideFormationModal = createMemo(() => showWeaponModal() || showKeyModal());
 var [selectedDoll, setSelectedDoll] = createSignal(null);
 var [showImportModal, setShowImportModal] = createSignal(false);
 var [showExportModal, setShowExportModal] = createSignal(false);
@@ -5735,7 +5756,7 @@ async function loadCombinedJson() {
     allWeapons.push(...weaponsJson);
     allBuffs.push(...buffsJson);
     for (const weapon of allWeapons) {
-      if (weapon.imprintId === null) {
+      if (weapon.imprintId === null && weapon.rarity === "Elite") {
         defaultWeapons[weapon.type] = weapon;
       }
     }
@@ -6186,7 +6207,7 @@ var _tmpl$55 = /* @__PURE__ */ template(`<div class="flex flex-col gap-2">`);
 var _tmpl$64 = /* @__PURE__ */ template(`<div class="flex h-full flex-col gap-3 overflow-auto bg-zinc-950 p-3"><div class="grid grid-cols-2 gap-2"></div><div class="flex flex-row flex-wrap gap-2 min-[1860px]:grid min-[1860px]:grid-cols-3">`);
 var _tmpl$74 = /* @__PURE__ */ template(`<div class="relative h-6 w-6">`);
 var _tmpl$84 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-10 h-8 w-8"><img class="relative h-full w-full object-cover">`);
-var _tmpl$94 = /* @__PURE__ */ template(`<div class="flex flex-row items-center gap-2 rounded-sm border-t-4 border-[#3E5356] bg-[#2C373B] p-2 shadow-sm shadow-black/50"><div class="text-md flex w-12 flex-col items-center justify-center"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center pt-0.5 text-[18px] font-bold"></div></div></div><div class="text-md relative flex h-12 w-12 flex-col items-center justify-start overflow-hidden rounded-full"><div class="h-8 w-8"><img></div><div class="absolute bottom-0 flex h-full w-full items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class></div></div></div><div class="relative flex h-[68px] w-[130px] flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50"><div></div><img class="relative z-20 h-full w-full border-b-3 border-[#DF9E00] object-cover"><div class="absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t from-[#453824] from-0% to-transparent to-75%">`);
+var _tmpl$94 = /* @__PURE__ */ template(`<div class="flex flex-row items-center gap-2 rounded-sm border-t-4 border-[#3E5356] bg-[#2C373B] p-2 shadow-sm shadow-black/50"><div class="text-md flex w-12 flex-col items-center justify-center"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center pt-0.5 text-[18px] font-bold"></div></div></div><div class="text-md relative flex h-12 w-12 flex-col items-center justify-start overflow-hidden rounded-full"><div class="h-8 w-8"><img></div><div class="absolute bottom-0 flex h-full w-full items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class></div></div></div><div class="relative flex h-[68px] w-[130px] flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50"><div></div><img><div>`);
 var _tmpl$02 = /* @__PURE__ */ template(`<div class="absolute right-1.5 bottom-1.5 z-20 rounded-sm bg-[#2A3D46] px-1 text-sm font-bold text-[#EFEFEF]">`);
 var _tmpl$110 = /* @__PURE__ */ template(`<div class="inset-shadow-2xl relative flex h-17 w-17 flex-col items-center justify-center"><div class="absolute z-10"><div class="relative w-20"><img class="w-full object-cover object-top">`);
 var _tmpl$102 = /* @__PURE__ */ template(`<div class="absolute right-0 bottom-0.5 z-20 h-8 w-8 overflow-hidden rounded-full border-2 border-white bg-[#C9C8CE]"><div class="relative -top-1 -left-2.25 w-12"><img class="w-full object-cover object-top">`);
@@ -6352,7 +6373,7 @@ function SummaryView() {
           return gun;
         });
         return (() => {
-          var _el$13 = _tmpl$94(), _el$14 = _el$13.firstChild, _el$16 = _el$14.firstChild, _el$17 = _el$16.firstChild, _el$18 = _el$17.nextSibling, _el$19 = _el$14.nextSibling, _el$20 = _el$19.firstChild, _el$21 = _el$20.firstChild, _el$22 = _el$20.nextSibling, _el$23 = _el$22.firstChild, _el$24 = _el$19.nextSibling, _el$27 = _el$24.firstChild, _el$28 = _el$27.nextSibling;
+          var _el$13 = _tmpl$94(), _el$14 = _el$13.firstChild, _el$16 = _el$14.firstChild, _el$17 = _el$16.firstChild, _el$18 = _el$17.nextSibling, _el$19 = _el$14.nextSibling, _el$20 = _el$19.firstChild, _el$21 = _el$20.firstChild, _el$22 = _el$20.nextSibling, _el$23 = _el$22.firstChild, _el$24 = _el$19.nextSibling, _el$27 = _el$24.firstChild, _el$28 = _el$27.nextSibling, _el$29 = _el$28.nextSibling;
           insert(_el$13, createComponent(SmallDollChip, {
             target: dollInfo,
             get doll() {
@@ -6391,40 +6412,44 @@ function SummaryView() {
               const keyInfo = getKeyFromId(doll.id, key, dollInfo);
               if (!keyInfo) return null;
               return (() => {
-                var _el$29 = _tmpl$110(), _el$30 = _el$29.firstChild, _el$31 = _el$30.firstChild, _el$32 = _el$31.firstChild;
-                insert(_el$29, createComponent(Show, {
+                var _el$30 = _tmpl$110(), _el$31 = _el$30.firstChild, _el$32 = _el$31.firstChild, _el$33 = _el$32.firstChild;
+                insert(_el$30, createComponent(Show, {
                   get when() {
                     return keyInfo.number !== null;
                   },
                   get children() {
-                    var _el$33 = _tmpl$02();
-                    insert(_el$33, () => keyInfo.number);
-                    return _el$33;
+                    var _el$34 = _tmpl$02();
+                    insert(_el$34, () => keyInfo.number);
+                    return _el$34;
                   }
                 }), null);
-                insert(_el$29, (() => {
+                insert(_el$30, (() => {
                   var _c$2 = memo(() => "dollAvatar" in keyInfo);
                   return () => _c$2() && (() => {
-                    var _el$34 = _tmpl$102(), _el$35 = _el$34.firstChild, _el$36 = _el$35.firstChild;
-                    createRenderEffect(() => setAttribute(_el$36, "src", keyInfo.dollAvatar));
-                    return _el$34;
+                    var _el$35 = _tmpl$102(), _el$36 = _el$35.firstChild, _el$37 = _el$36.firstChild;
+                    createRenderEffect(() => setAttribute(_el$37, "src", keyInfo.dollAvatar));
+                    return _el$35;
                   })();
                 })(), null);
-                createRenderEffect(() => setAttribute(_el$32, "src", keyInfo.localImagePath));
-                return _el$29;
+                createRenderEffect(() => setAttribute(_el$33, "src", keyInfo.localImagePath));
+                return _el$30;
               })();
             }
           }), null);
           createRenderEffect((_p$) => {
-            var _v$ = dollInfo.remolding, _v$2 = `absolute bottom-1 z-10 w-full text-right font-bold ${dollWeapon().imprintId === null ? "pl-1.25" : "pl-9"} overflow-hidden pr-2 text-ellipsis whitespace-nowrap`, _v$3 = dollWeapon().localImagePath;
+            var _v$ = dollInfo.remolding, _v$2 = `absolute bottom-1 z-30 w-full text-right font-bold ${dollWeapon().imprintId === null ? "pl-1.25" : "pl-9"} overflow-hidden pr-2 text-ellipsis whitespace-nowrap`, _v$3 = dollWeapon().localImagePath, _v$4 = `relative z-20 h-full w-full border-b-3 ${dollWeapon().rarity === "Elite" ? "border-[#DF9E00]" : "border-[#3291AB]"} object-cover`, _v$5 = `absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${dollWeapon().rarity === "Elite" ? "from-[#453824]" : "from-[#133843]"} from-0% to-transparent to-75%`;
             _v$ !== _p$.e && setAttribute(_el$21, "src", _p$.e = _v$);
             _v$2 !== _p$.t && className(_el$27, _p$.t = _v$2);
             _v$3 !== _p$.a && setAttribute(_el$28, "src", _p$.a = _v$3);
+            _v$4 !== _p$.o && className(_el$28, _p$.o = _v$4);
+            _v$5 !== _p$.i && className(_el$29, _p$.i = _v$5);
             return _p$;
           }, {
             e: void 0,
             t: void 0,
-            a: void 0
+            a: void 0,
+            o: void 0,
+            i: void 0
           });
           return _el$13;
         })();
@@ -6443,24 +6468,24 @@ function SummaryView() {
             if (!buff) return null;
             const days = () => buff.days?.[CURRENT_SEASON].length ? "Available on days " + buff.days[CURRENT_SEASON].map((day) => day + 1).join(", ") : "Effective this season";
             return (() => {
-              var _el$37 = _tmpl$112(), _el$38 = _el$37.firstChild, _el$39 = _el$38.firstChild, _el$40 = _el$38.nextSibling, _el$41 = _el$40.firstChild, _el$42 = _el$41.firstChild, _el$43 = _el$42.nextSibling, _el$44 = _el$41.nextSibling;
-              insert(_el$42, () => buff.name);
-              insert(_el$43, days);
-              insert(_el$44, createComponent(Buffs, {
+              var _el$38 = _tmpl$112(), _el$39 = _el$38.firstChild, _el$40 = _el$39.firstChild, _el$41 = _el$39.nextSibling, _el$42 = _el$41.firstChild, _el$43 = _el$42.firstChild, _el$44 = _el$43.nextSibling, _el$45 = _el$42.nextSibling;
+              insert(_el$43, () => buff.name);
+              insert(_el$44, days);
+              insert(_el$45, createComponent(Buffs, {
                 get id() {
                   return buff.id;
                 }
               }));
               createRenderEffect((_p$) => {
-                var _v$4 = `relative flex h-15 w-15 shrink-0 ${buff.core ? "bg-[#0D76A1]" : "bg-[#2D464E]"} rounded-sm`, _v$5 = buff.localImagePath;
-                _v$4 !== _p$.e && className(_el$38, _p$.e = _v$4);
-                _v$5 !== _p$.t && setAttribute(_el$39, "src", _p$.t = _v$5);
+                var _v$6 = `relative flex h-15 w-15 shrink-0 ${buff.core ? "bg-[#0D76A1]" : "bg-[#2D464E]"} rounded-sm`, _v$7 = buff.localImagePath;
+                _v$6 !== _p$.e && className(_el$39, _p$.e = _v$6);
+                _v$7 !== _p$.t && setAttribute(_el$40, "src", _p$.t = _v$7);
                 return _p$;
               }, {
                 e: void 0,
                 t: void 0
               });
-              return _el$37;
+              return _el$38;
             })();
           }
         }));
@@ -7149,7 +7174,7 @@ delegateEvents(["click"]);
 // src/components/modals/FormationModal.tsx
 var _tmpl$76 = /* @__PURE__ */ template(`<div class="relative flex flex-wrap items-center justify-start gap-4 px-10 py-8"><div>`);
 var _tmpl$224 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-10 h-8 w-8"><img class="relative h-full w-full object-cover">`);
-var _tmpl$317 = /* @__PURE__ */ template(`<div class="flex items-center gap-3 bg-[#B6BAC6] p-2.5"><div class="flex flex-col gap-3"><div class="flex flex-row gap-3"><div></div><div><div></div><div class=w-6></div></div></div><div class="flex flex-row gap-3"><div class="text-md flex w-12 flex-col items-center justify-center rounded-sm bg-[#354346] shadow-sm shadow-black/50"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center pt-0.5 text-[18px] font-bold"></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div class="text-md flex w-14 flex-col items-center justify-center rounded-sm bg-[#354346] px-1 pt-1 shadow-sm shadow-black/50"><div class="relative h-12 w-12 overflow-hidden rounded-full"><img><div class="absolute top-0 right-0 bottom-0 left-0 flex items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class="overflow-hidden overflow-ellipsis whitespace-nowrap"></div></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div><img class="relative z-20 h-full w-full border-b-3 border-[#DF9E00] object-cover"><div class="absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t from-[#453824] from-0% to-transparent to-75%"></div></div><div class="flex w-14 flex-col gap-3 text-sm font-bold tracking-wide"><button></button><button>Load`);
+var _tmpl$317 = /* @__PURE__ */ template(`<div class="flex items-center gap-3 bg-[#B6BAC6] p-2.5"><div class="flex flex-col gap-3"><div class="flex flex-row gap-3"><div></div><div><div></div><div class=w-6></div></div></div><div class="flex flex-row gap-3"><div class="text-md flex w-12 flex-col items-center justify-center rounded-sm bg-[#354346] shadow-sm shadow-black/50"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center pt-0.5 text-[18px] font-bold"></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div class="text-md flex w-14 flex-col items-center justify-center rounded-sm bg-[#354346] px-1 pt-1 shadow-sm shadow-black/50"><div class="relative h-12 w-12 overflow-hidden rounded-full"><img><div class="absolute top-0 right-0 bottom-0 left-0 flex items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class="overflow-hidden overflow-ellipsis whitespace-nowrap"></div></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div><img><div></div></div><div class="flex w-14 flex-col gap-3 text-sm font-bold tracking-wide"><button></button><button>Load`);
 var _tmpl$411 = /* @__PURE__ */ template(`<div class="flex h-7 w-4 items-center justify-center">=`);
 var _tmpl$510 = /* @__PURE__ */ template(`<div class="h-5 w-5">`);
 function FormationModal() {
@@ -7184,7 +7209,7 @@ function FormationModal() {
         const hasLoadout = createMemo(() => dollHasLoadout(doll.id));
         const keys = createMemo(() => displaySmallKeys(doll.id, doll.keys));
         return (() => {
-          var _el$3 = _tmpl$317(), _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.nextSibling, _el$0 = _el$5.nextSibling, _el$1 = _el$0.firstChild, _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild, _el$12 = _el$11.nextSibling, _el$13 = _el$10.nextSibling, _el$14 = _el$13.firstChild, _el$15 = _el$14.nextSibling, _el$16 = _el$1.nextSibling, _el$17 = _el$16.firstChild, _el$18 = _el$17.firstChild, _el$19 = _el$18.nextSibling, _el$20 = _el$19.firstChild, _el$21 = _el$17.nextSibling, _el$22 = _el$21.firstChild, _el$23 = _el$22.nextSibling, _el$24 = _el$16.nextSibling, _el$27 = _el$24.firstChild, _el$28 = _el$24.nextSibling, _el$29 = _el$28.firstChild, _el$30 = _el$29.nextSibling;
+          var _el$3 = _tmpl$317(), _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.nextSibling, _el$0 = _el$5.nextSibling, _el$1 = _el$0.firstChild, _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild, _el$12 = _el$11.nextSibling, _el$13 = _el$10.nextSibling, _el$14 = _el$13.firstChild, _el$15 = _el$14.nextSibling, _el$16 = _el$1.nextSibling, _el$17 = _el$16.firstChild, _el$18 = _el$17.firstChild, _el$19 = _el$18.nextSibling, _el$20 = _el$19.firstChild, _el$21 = _el$17.nextSibling, _el$22 = _el$21.firstChild, _el$23 = _el$22.nextSibling, _el$24 = _el$16.nextSibling, _el$27 = _el$24.firstChild, _el$28 = _el$27.nextSibling, _el$29 = _el$24.nextSibling, _el$30 = _el$29.firstChild, _el$31 = _el$30.nextSibling;
           insert(_el$3, createComponent(DynamicDollChip, {
             target: dollInfo,
             get doll() {
@@ -7201,8 +7226,8 @@ function FormationModal() {
               return keys();
             },
             children: (key) => typeof key === "string" ? _tmpl$411() : key ? (() => {
-              var _el$32 = _tmpl$510();
-              insert(_el$32, createComponent(SmallKey, {
+              var _el$33 = _tmpl$510();
+              insert(_el$33, createComponent(SmallKey, {
                 get rarity() {
                   return key.rarity;
                 },
@@ -7210,7 +7235,7 @@ function FormationModal() {
                   return key.type;
                 }
               }));
-              return _el$32;
+              return _el$33;
             })() : null
           }));
           _el$7.$$click = () => changeBorrow(doll.id);
@@ -7250,14 +7275,14 @@ function FormationModal() {
               return _el$25;
             }
           }), _el$27);
-          _el$29.$$click = () => {
+          _el$30.$$click = () => {
             setSavedLoadout(true);
             saveDollLoadout(doll.id);
           };
-          insert(_el$29, () => savedLoadout() ? "Saved" : "Save");
-          _el$30.$$click = () => dollHasLoadout(doll.id) && loadDollLoadout(doll.id);
+          insert(_el$30, () => savedLoadout() ? "Saved" : "Save");
+          _el$31.$$click = () => dollHasLoadout(doll.id) && loadDollLoadout(doll.id);
           createRenderEffect((_p$) => {
-            var _v$ = `${interactiveStyles(false)} text-md flex h-10 grow flex-row items-center justify-center gap-1 rounded-sm bg-[#354346] p-1 shadow-sm shadow-black/50`, _v$2 = `${interactiveStyles(doll.borrow)} text-md flex h-10 flex-row items-center justify-center gap-1 rounded-sm bg-[#354346] p-1 shadow-sm shadow-black/50`, _v$3 = `${doll.borrow ? "opacity-100" : "opacity-20"} w-5`, _v$4 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$5 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$6 = dollInfo.remolding, _v$7 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$8 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$9 = `${interactiveStyles(false)} relative h-17 w-31.5 flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50`, _v$0 = dollWeapon()?.localImagePath, _v$1 = `${interactiveStyles(false)} rounded-sm bg-[#354346] px-2 py-1 shadow-sm shadow-black/50`, _v$10 = `${hasLoadout() ? interactiveStyles(false) : "opacity-50"} rounded-sm bg-[#354346] px-2 py-1 shadow-sm shadow-black/50`;
+            var _v$ = `${interactiveStyles(false)} text-md flex h-10 grow flex-row items-center justify-center gap-1 rounded-sm bg-[#354346] p-1 shadow-sm shadow-black/50`, _v$2 = `${interactiveStyles(doll.borrow)} text-md flex h-10 flex-row items-center justify-center gap-1 rounded-sm bg-[#354346] p-1 shadow-sm shadow-black/50`, _v$3 = `${doll.borrow ? "opacity-100" : "opacity-20"} w-5`, _v$4 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$5 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$6 = dollInfo.remolding, _v$7 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$8 = `${interactiveStyles(false)} flex h-4 w-4 items-center justify-center rounded-sm`, _v$9 = `${interactiveStyles(false)} relative h-17 w-31.5 flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50`, _v$0 = dollWeapon()?.localImagePath, _v$1 = `relative z-20 h-full w-full border-b-3 ${dollWeapon()?.rarity === "Elite" ? "border-[#DF9E00]" : "border-[#3291AB]"} object-cover`, _v$10 = `absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${dollWeapon()?.rarity === "Elite" ? "from-[#453824]" : "from-[#133843]"} from-0% to-transparent to-75%`, _v$11 = `${interactiveStyles(false)} rounded-sm bg-[#354346] px-2 py-1 shadow-sm shadow-black/50`, _v$12 = `${hasLoadout() ? interactiveStyles(false) : "opacity-50"} rounded-sm bg-[#354346] px-2 py-1 shadow-sm shadow-black/50`;
             _v$ !== _p$.e && className(_el$6, _p$.e = _v$);
             _v$2 !== _p$.t && className(_el$7, _p$.t = _v$2);
             _v$3 !== _p$.a && className(_el$8, _p$.a = _v$3);
@@ -7268,8 +7293,10 @@ function FormationModal() {
             _v$8 !== _p$.h && className(_el$23, _p$.h = _v$8);
             _v$9 !== _p$.r && className(_el$24, _p$.r = _v$9);
             _v$0 !== _p$.d && setAttribute(_el$27, "src", _p$.d = _v$0);
-            _v$1 !== _p$.l && className(_el$29, _p$.l = _v$1);
-            _v$10 !== _p$.u && className(_el$30, _p$.u = _v$10);
+            _v$1 !== _p$.l && className(_el$27, _p$.l = _v$1);
+            _v$10 !== _p$.u && className(_el$28, _p$.u = _v$10);
+            _v$11 !== _p$.c && className(_el$30, _p$.c = _v$11);
+            _v$12 !== _p$.w && className(_el$31, _p$.w = _v$12);
             return _p$;
           }, {
             e: void 0,
@@ -7283,23 +7310,19 @@ function FormationModal() {
             r: void 0,
             d: void 0,
             l: void 0,
-            u: void 0
+            u: void 0,
+            c: void 0,
+            w: void 0
           });
           return _el$3;
         })();
       }
     }), _el$2);
     insert(_el$2, createComponent(Button, {
-      onClick: () => setShowBuffModal(true),
-      color: "light",
-      design: "custom",
-      content: "Support Buff"
-    }), null);
-    insert(_el$2, createComponent(Button, {
       onClick: confirm,
       color: "light",
       design: "confirm"
-    }), null);
+    }));
     createRenderEffect(() => className(_el$2, tempSelectedDolls.length % 2 === 1 ? "absolute right-10 bottom-8 flex justify-end gap-3" : "flex grow justify-end gap-3"));
     return _el$;
   })();
@@ -7465,8 +7488,8 @@ delegateEvents(["click"]);
 
 // src/components/modals/WeaponModal.tsx
 var _tmpl$80 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
-var _tmpl$226 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-10 h-12 w-12"><img class="relative h-full w-full object-cover">`);
-var _tmpl$319 = /* @__PURE__ */ template(`<div><div></div><img class="relative z-20 h-full w-full border-b-3 border-[#DF9E00] object-cover"><div class="absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t from-[#453824] from-0% to-transparent to-75%">`);
+var _tmpl$226 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-20 h-12 w-12"><img class="relative h-full w-full object-cover">`);
+var _tmpl$319 = /* @__PURE__ */ template(`<div><div></div><img><div>`);
 var _tmpl$413 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function WeaponModal() {
   const dollInfo = createMemo(() => getInfoFromId(selectedDoll().id));
@@ -7488,14 +7511,14 @@ function WeaponModal() {
       children: (weapon) => {
         const isSel = () => selectedWeaponId() === weapon.id;
         return (() => {
-          var _el$3 = _tmpl$319(), _el$6 = _el$3.firstChild, _el$7 = _el$6.nextSibling;
+          var _el$3 = _tmpl$319(), _el$6 = _el$3.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.nextSibling;
           _el$3.$$click = () => setSelectedWeaponId(weapon.id);
           insert(_el$3, (() => {
             var _c$ = memo(() => !!isSel());
             return () => _c$() && (() => {
-              var _el$8 = _tmpl$413();
-              insert(_el$8, createComponent(Check, {}));
-              return _el$8;
+              var _el$9 = _tmpl$413();
+              insert(_el$9, createComponent(Check, {}));
+              return _el$9;
             })();
           })(), _el$6);
           insert(_el$3, createComponent(Show, {
@@ -7510,15 +7533,19 @@ function WeaponModal() {
           }), _el$6);
           insert(_el$6, () => weapon.name);
           createRenderEffect((_p$) => {
-            var _v$ = `${interactiveStyles(isSel())} relative flex h-25.5 w-48.5 flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50`, _v$2 = `absolute bottom-1 z-10 w-full text-right font-bold ${weapon.imprintId === null ? "pl-2" : "pl-15"} overflow-hidden pr-2 text-ellipsis whitespace-nowrap`, _v$3 = weapon.localImagePath;
+            var _v$ = `${interactiveStyles(isSel())} relative flex h-25.5 w-48.5 flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50`, _v$2 = `absolute bottom-1 z-20 w-full text-right font-bold ${weapon.imprintId === null ? "pl-2" : "pl-15"} overflow-hidden pr-2 text-ellipsis whitespace-nowrap`, _v$3 = weapon.localImagePath, _v$4 = `relative z-10 h-full w-full border-b-3 ${weapon.rarity === "Elite" ? "border-[#DF9E00]" : "border-[#3291AB]"} object-cover`, _v$5 = `absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${weapon.rarity === "Elite" ? "from-[#453824]" : "from-[#133843]"} from-0% to-transparent to-75%`;
             _v$ !== _p$.e && className(_el$3, _p$.e = _v$);
             _v$2 !== _p$.t && className(_el$6, _p$.t = _v$2);
             _v$3 !== _p$.a && setAttribute(_el$7, "src", _p$.a = _v$3);
+            _v$4 !== _p$.o && className(_el$7, _p$.o = _v$4);
+            _v$5 !== _p$.i && className(_el$8, _p$.i = _v$5);
             return _p$;
           }, {
             e: void 0,
             t: void 0,
-            a: void 0
+            a: void 0,
+            o: void 0,
+            i: void 0
           });
           return _el$3;
         })();
@@ -7736,18 +7763,23 @@ function App() {
                   }
                 });
               }
-            }), createComponent(Show, {
-              get when() {
-                return memo(() => !!showBuffModal())() && loaded();
-              },
-              get children() {
-                return createComponent(Modal, {
-                  get children() {
-                    return createComponent(BuffModal, {});
-                  }
-                });
-              }
             })];
+          }
+        });
+      }
+    }), null);
+    insert(_el$, createComponent(Show, {
+      get when() {
+        return memo(() => !!showBuffModal())() && loaded();
+      },
+      get children() {
+        return createComponent(FullScreen, {
+          get children() {
+            return createComponent(Modal, {
+              get children() {
+                return createComponent(BuffModal, {});
+              }
+            });
           }
         });
       }

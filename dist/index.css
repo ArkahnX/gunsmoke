@@ -567,6 +567,9 @@
   .z-20 {
     z-index: 20;
   }
+  .z-30 {
+    z-index: 30;
+  }
   .z-50 {
     z-index: 50;
   }
@@ -1268,6 +1271,9 @@
   .border-\[\#2060cc\] {
     border-color: #2060cc;
   }
+  .border-\[\#3291AB\] {
+    border-color: #3291AB;
+  }
   .border-\[\#7968BA\] {
     border-color: #7968BA;
   }
@@ -1544,6 +1550,10 @@
     --tw-gradient-from: #5B403E;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
+  .from-\[\#133843\] {
+    --tw-gradient-from: #133843;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
   .from-\[\#453824\] {
     --tw-gradient-from: #453824;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -1655,6 +1665,9 @@
   }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
+  }
+  .px-6\.5 {
+    padding-inline: calc(var(--spacing) * 6.5);
   }
   .px-7\.5 {
     padding-inline: calc(var(--spacing) * 7.5);
