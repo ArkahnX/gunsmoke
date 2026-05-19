@@ -2,7 +2,6 @@ import { Show, onMount } from "solid-js";
 import {
 	state,
 	showDollModal,
-	showFortificationModal,
 	showImportModal,
 	showTargetModal,
 	loadFromLocalStorage,
@@ -25,7 +24,6 @@ import ArenaCanvas from "./components/ArenaCanvas";
 import EditorView, { editorRender } from "./components/EditorView";
 import SummaryView from "./components/SummaryView";
 import DollSelectorModal from "./components/modals/DollSelectorModal";
-import FortificationModal from "./components/modals/FortificationModal";
 import ImportModal from "./components/modals/ImportModal";
 import TargetModal from "./components/modals/TargetModal";
 import { loadEditorMap } from "./canvas/editorMap";
@@ -93,13 +91,6 @@ export default function App() {
 				<FullScreen>
 					<Modal>
 						<DollSelectorModal />
-					</Modal>
-				</FullScreen>
-			</Show>
-			<Show when={showFortificationModal() && loaded()}>
-				<FullScreen>
-					<Modal width="w-[420px]">
-						<FortificationModal />
 					</Modal>
 				</FullScreen>
 			</Show>

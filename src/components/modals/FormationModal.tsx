@@ -41,9 +41,6 @@ export default function FormationModal() {
 	const confirm = async () => {
 		setShowFormationModal(false);
 		updateSelectedDolls();
-		await preloadCanvasImages();
-		for (let i = 0; i < 8; i++) defaultActionOrder(i);
-		saveToLocalStorage();
 	};
 	return (
 		<>

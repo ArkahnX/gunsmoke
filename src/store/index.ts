@@ -141,6 +141,8 @@ export const notations: Record<string, string[]> = {
 	Passive: ["S5", "5", "PSV"],
 	"Skill A": ["S6", "6", "SA", "1"],
 	"Skill B": ["S7", "7", "SB", "2"],
+	"End Turn": ["ET", "Z", "END"],
+	Move: ["MV", "W", "MOVE"],
 };
 
 // ====================== EDITOR STATE ======================
@@ -170,7 +172,6 @@ export const [state, setState] = createStore<AppState>({
 
 // ====================== MODAL STATE ======================
 export const [showDollModal, setShowDollModal] = createSignal(false);
-export const [showFortificationModal, setShowFortificationModal] = createSignal(false);
 export const [showFormationModal, setShowFormationModal] = createSignal(false);
 export const [showWeaponModal, setShowWeaponModal] = createSignal(false);
 export const [showKeyModal, setShowKeyModal] = createSignal(false);
@@ -197,6 +198,7 @@ export const [offsetY, setOffsetY] = createSignal(0);
 export function setupTempSelectedDolls() {
 	setTempSelectedDolls(
 		produce((selectedDolls) => {
+			console.log("Setting up tempSelectedDolls", selectedDolls.length, state.selectedDolls.length)
 			selectedDolls.length = 0;
 			for (const doll of state.selectedDolls) {
 				selectedDolls.push({
@@ -339,18 +341,6 @@ export function dollHasLoadout(dollId: string): boolean {
 	return localStorage.getItem(DOLL_LOADOUT_KEY(dollId)) !== null;
 }
 
-export function updateSelectedDolls() {
-	setState(
-		produce((s) => {
-			s.selectedDolls.length = 0;
-			for (const doll of tempSelectedDolls) {
-				s.selectedDolls.push(doll);
-			}
-		})
-	);
-	saveToLocalStorage();
-}
-
 export function getInfoFromId(id: string): DollData | SummonData | undefined {
 	for (const doll of allDolls) {
 		if (doll.id === id) return doll;
@@ -376,7 +366,7 @@ export function getSummonFromId(id: string): SummonData | undefined {
 }
 
 export function getKeyFromId(dollId: string, keyId: string, dollInfo?: DollData): FixedKey | CommonKey | undefined {
-	if(!keyId) return undefined;
+	if (!keyId) return undefined;
 	const identifier = keyId.charAt(0);
 	if (identifier === "k") {
 		dollInfo = dollInfo ?? getDollFromId(dollId);
@@ -594,17 +584,19 @@ export function defaultActionOrder(tabIndex: number) {
 }
 
 // ====================== CHANGE SELECTED DOLLS ======================
-export function changeSelectedDolls(newDolls: SelectedDoll[]) {
+function changeSelectedDolls(newDolls: SelectedDoll[]) {
 	const oldIds = state.selectedDolls.map((d) => d.id);
 	oldIds.push(...getSummonIdsFromDollIds(oldIds));
 	const newIds = newDolls.map((d) => d.id);
 	newIds.push(...getSummonIdsFromDollIds(newIds));
 	const removed = oldIds.filter((d) => !newIds.includes(d));
 	const added = newIds.filter((d) => !oldIds.includes(d));
+	
 
 	setState(
 		produce((s) => {
-			s.selectedDolls = newDolls;
+			s.selectedDolls.length = 0;
+			s.selectedDolls.push(...newDolls);
 			for (let tabIndex = 0; tabIndex < 8; tabIndex++) {
 				const tab = s.tabData[tabIndex]!;
 				for (const dollId of removed) {
@@ -620,8 +612,16 @@ export function changeSelectedDolls(newDolls: SelectedDoll[]) {
 					if (!tab.actionOrder.includes(dollId)) tab.actionOrder.push(dollId);
 				}
 			}
+			console.log("Changing selected dolls", added, removed, s.selectedDolls.length)
 		})
 	);
+}
+
+export async function updateSelectedDolls() {
+	changeSelectedDolls([...tempSelectedDolls]);
+	await preloadCanvasImages();
+	for (let i = 0; i < 8; i++) defaultActionOrder(i);
+	saveToLocalStorage();
 }
 
 // ====================== PERSISTENCE ======================
@@ -750,13 +750,13 @@ export async function importState(
 		const appState = await processFn(data);
 		if (!appState && fallback && oldState && oldState.version === SAVE_VERSION) {
 			alert("Failed to import state, loading old state");
-			console.error("Please pass this text to ArkahnX:\n"+data);
+			console.error("Please pass this text to ArkahnX:\n" + data);
 			loadState(oldState);
 			return;
 		}
 		if (!appState) {
 			alert("Failed to import state and no old state found");
-			console.error("Please pass this text to ArkahnX:\n"+data);
+			console.error("Please pass this text to ArkahnX:\n" + data);
 			return;
 		}
 		const migrated = version7To8Upgrade(appState);
@@ -774,7 +774,7 @@ export async function importState(
 				overrideSkillDisplay(SkillConfig.skillDisplay);
 			}
 		}
-		
+
 		loadMap(state.map);
 		setupTempSelectedDolls();
 		console.log("finished loading state");
@@ -793,7 +793,7 @@ export async function importState(
 					overrideSkillDisplay(SkillConfig.skillDisplay);
 				}
 			}
-			
+
 			loadMap(state.map);
 			setupTempSelectedDolls();
 			console.log("finished loading backup state");
