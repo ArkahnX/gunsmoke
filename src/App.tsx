@@ -45,6 +45,7 @@ export default function App() {
 		const params = new URLSearchParams(window.location.search);
 		if (params.has("state")) {
 			await importState(loadFromString, params.get("state")!);
+			window.history.replaceState({}, document.title, window.location.origin+window.location.pathname);
 		} else {
 			await importState(loadFromLocalStorage, "");
 		}
