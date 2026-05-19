@@ -17,6 +17,7 @@ import {
 	importState,
 	loadFromString,
 	migrate,
+	showBuffModal,
 } from "./store";
 
 import TabBar from "./components/TabBar";
@@ -35,6 +36,7 @@ import FormationModal from "./components/modals/FormationModal";
 import KeyModal from "./components/modals/KeyModal";
 import WeaponModal from "./components/modals/WeaponModal";
 import DarkModal from "./components/modals/DarkModal";
+import BuffModal from "./components/modals/BuffModal";
 
 export default function App() {
 	onMount(async () => {
@@ -45,7 +47,7 @@ export default function App() {
 		const params = new URLSearchParams(window.location.search);
 		if (params.has("state")) {
 			await importState(loadFromString, params.get("state")!);
-			window.history.replaceState({}, document.title, window.location.origin+window.location.pathname);
+			window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
 		} else {
 			await importState(loadFromLocalStorage, "");
 		}
@@ -108,6 +110,11 @@ export default function App() {
 					<Show when={showWeaponModal() && loaded()}>
 						<Modal>
 							<WeaponModal />
+						</Modal>
+					</Show>
+					<Show when={showBuffModal() && loaded()}>
+						<Modal>
+							<BuffModal />
 						</Modal>
 					</Show>
 				</FullScreen>

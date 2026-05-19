@@ -8,6 +8,7 @@ export const CANVAS_SIZE = MAP_SIZE * TILE_SIZE;
 export const E_PAD = 6;
 export const HALF_HEIGHT = Math.round(TILE_SIZE * 0.15);
 export const FULL_HEIGHT = Math.round(TILE_SIZE * 0.35);
+export const CURRENT_SEASON = 25;
 
 // version 7 keys
 export const V7_SAVE_VERSION = 7;

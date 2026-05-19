@@ -5,7 +5,6 @@ import {
 	getSummonIdsFromDollIds,
 	setShowDollModal,
 	setShowImportModal,
-	setTempSelected,
 	setDollFortification,
 	setActivePhaseTab,
 	saveToLocalStorage,
@@ -45,28 +44,6 @@ export default function SetupSidebar(props: { active: boolean }) {
 		setDollFortification(nums);
 		setActivePhaseTab("All");
 		setShowDollModal(true);
-	};
-
-	const copyPreviousPlacements = () => {
-		if (state.currentTab <= 0) {
-			alert("No previous tab!");
-			return;
-		}
-		const prev = state.currentTab - 1;
-		setState(
-			produce((s) => {
-				const curTab = s.tabData[s.currentTab]!;
-				const prevTab = s.tabData[prev]!;
-				for (const doll of s.selectedDolls) {
-					curTab.dollPositions[doll.id] = { x: -1, y: -1 };
-					prevTab.dollPositions[doll.id] = prevTab.dollPositions[doll.id] ?? { x: -1, y: -1 };
-					curTab.dollPositions[doll.id]!.x = prevTab.dollPositions[doll.id]!.x;
-					curTab.dollPositions[doll.id]!.y = prevTab.dollPositions[doll.id]!.y;
-				}
-				curTab.summonPositions = prevTab.summonPositions.map((p) => ({ ...p }));
-			})
-		);
-		saveToLocalStorage();
 	};
 
 	const clearCurrentTurn = () => {
@@ -126,9 +103,6 @@ export default function SetupSidebar(props: { active: boolean }) {
 					initialValue={state.map}
 				/>
 				<Button color="dark" onClick={openDollSelector} design="custom" content="Select Dolls" />
-				<Show when={isActionTab()}>
-					<Button color="dark" onClick={copyPreviousPlacements} design="custom" content="Use Prev Turn Positions" />
-				</Show>
 				<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">
 					Echelon (drag to map)
 				</div>

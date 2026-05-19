@@ -469,16 +469,16 @@ export function drawDollLabelOnCanvas(ctx: CanvasRenderingContext2D, data: DollI
 	ctx.fillRect(Math.round(cx - labelW / 2), labelY, labelW, fontSize + 2);
 	ctx.fillStyle = color;
 	ctx.fillText(text, cx, labelY + 1);
-	if (data.distance === "near" || data.distance === "far") {
+	if ((data.distance === "near" || data.distance === "far") && mapGrid.name === "Blade Guard Titan") {
 		ctx.beginPath();
 		ctx.arc(cx - avatarOffY - fontSize / 1.5, cy + avatarOffY + fontSize / 1.5, fontSize / 1.5, 0, Math.PI * 2);
 		if (data.distance === "near") {
-			ctx.fillStyle = "#2dd4bf";
+			ctx.fillStyle = "#0E76A1";
 			ctx.fill();
 			ctx.fillStyle = color;
 			ctx.fillText("C", cx - avatarOffY - fontSize / 1.5, cy + avatarOffY + fontSize / 3);
 		} else if (data.distance === "far") {
-			ctx.fillStyle = "#ef4444";
+			ctx.fillStyle = "#FF6F19";
 			ctx.fill();
 			ctx.fillStyle = color;
 			ctx.fillText("F", cx - avatarOffY - fontSize / 1.5, cy + avatarOffY + fontSize / 3);

@@ -1,9 +1,6 @@
 import { createMemo, createSignal, For, Show } from "solid-js";
 import {
 	setDollFortification,
-	preloadCanvasImages,
-	saveToLocalStorage,
-	defaultActionOrder,
 	getInfoFromId,
 	getDollFromSummon,
 	setShowFormationModal,
@@ -22,6 +19,7 @@ import {
 	loadDollLoadout,
 	dollHasLoadout,
 	changeBorrow,
+	setShowBuffModal,
 } from "../../store";
 import Button from "../buttons/Button";
 import { DollData } from "../../types";
@@ -190,7 +188,13 @@ export default function FormationModal() {
 						);
 					}}
 				</For>
-				<div class={tempSelectedDolls.length % 2 === 1 ? "absolute right-10 bottom-8 flex justify-end" : "flex justify-end grow"}>
+				<div
+					class={
+						tempSelectedDolls.length % 2 === 1
+							? "absolute right-10 bottom-8 flex justify-end gap-3"
+							: "flex grow justify-end gap-3"
+					}>
+					<Button onClick={() => setShowBuffModal(true)} color="light" design="custom" content="Support Buff" />
 					<Button onClick={confirm} color="light" design="confirm" />
 				</div>
 			</div>

@@ -86,6 +86,7 @@ export interface AppState {
 	/** @deprecated as of v8 */
 	actionType?: number | string;
 	map: string;
+	buffs: string[];
 	skillDisplay: number[];
 	tabData: TabData[];
 }
@@ -184,6 +185,16 @@ export interface WeaponData {
 	localImagePath: string;
 }
 
+export interface BuffData {
+	name: string;
+	description: string;
+	id: string;
+	season: number;
+	core: boolean;
+	days: Record<string, number[]>;
+	localImagePath: string;
+}
+
 export interface Camera {
 	x: number; // world-space X at screen center
 	y: number; // world-space Y at screen center
@@ -234,7 +245,7 @@ export interface DollInfo {
 	dragInstanceId: string | null | undefined;
 	obscured: boolean;
 	distance: "near" | "far" | null;
-	borrow: boolean
+	borrow: boolean;
 }
 
 export interface TabBarProps {

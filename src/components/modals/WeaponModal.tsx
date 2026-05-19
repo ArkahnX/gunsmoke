@@ -28,7 +28,7 @@ export default function WeaponModal() {
 							return (
 								<div
 									onClick={() => setSelectedWeaponId(weapon.id)}
-									class={`${interactiveStyles(isSel())} relative h-25.5 w-48.5 flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50`}>
+									class={`${interactiveStyles(isSel())} relative flex h-25.5 w-48.5 flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50`}>
 									{isSel() && (
 										<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">
 											<Check />
@@ -39,6 +39,10 @@ export default function WeaponModal() {
 											<img src={weapon.imprintImage!} class="relative h-full w-full object-cover" />
 										</div>
 									</Show>
+									<div
+										class={`absolute bottom-1 z-10 w-full text-right font-bold ${weapon.imprintId === null ? "pl-2" : "pl-15"} overflow-hidden pr-2 text-ellipsis whitespace-nowrap`}>
+										{weapon.name}
+									</div>
 									<img
 										src={weapon.localImagePath}
 										class="relative z-20 h-full w-full border-b-3 border-[#DF9E00] object-cover"

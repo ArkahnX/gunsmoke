@@ -16,10 +16,10 @@ import {
 	MapGrid,
 	WeaponData,
 	FixedKey,
-	CommonKey,
 	SkillDisplay,
 	RawKeyData,
 	DetailedKey,
+	BuffData,
 } from "../types";
 import { loadMap, setEditingMap } from "../canvas/editorMap";
 import {
@@ -127,6 +127,7 @@ export const allDolls: DollData[] = [];
 export const allSummons: SummonData[] = [];
 export const allKeys: KeyData = { common: [], affinity: [] };
 export const allWeapons: WeaponData[] = [];
+export const allBuffs: BuffData[] = [];
 export const defaultWeapons: Record<string, WeaponData> = {};
 export const skillOrder = ["Basic Attack", "Skill 1", "Skill 2", "Skill 3", "Passive", "Skill A", "Skill B"];
 export const skillOrderMap: Record<string, number | string> = skillOrder.reduce(
@@ -166,6 +167,7 @@ export const [state, setState] = createStore<AppState>({
 	selectedDolls: [],
 	currentTab: 0,
 	map: "Blade Guard Titan",
+	buffs: [],
 	skillDisplay: [0, 0, 0, 0, 0, 0, 0],
 	tabData: Array.from({ length: 8 }, () => makeDefaultTabData()),
 });
@@ -175,7 +177,8 @@ export const [showDollModal, setShowDollModal] = createSignal(false);
 export const [showFormationModal, setShowFormationModal] = createSignal(false);
 export const [showWeaponModal, setShowWeaponModal] = createSignal(false);
 export const [showKeyModal, setShowKeyModal] = createSignal(false);
-export const hideFormationModal = createMemo(() => showWeaponModal() || showKeyModal());
+export const [showBuffModal, setShowBuffModal] = createSignal(false);
+export const hideFormationModal = createMemo(() => showWeaponModal() || showKeyModal() || showBuffModal());
 export const [selectedDoll, setSelectedDoll] = createSignal<SelectedDoll | null>(null);
 export const [showImportModal, setShowImportModal] = createSignal(false);
 export const [showExportModal, setShowExportModal] = createSignal(false);
@@ -198,7 +201,7 @@ export const [offsetY, setOffsetY] = createSignal(0);
 export function setupTempSelectedDolls() {
 	setTempSelectedDolls(
 		produce((selectedDolls) => {
-			console.log("Setting up tempSelectedDolls", selectedDolls.length, state.selectedDolls.length)
+			console.log("Setting up tempSelectedDolls", selectedDolls.length, state.selectedDolls.length);
 			selectedDolls.length = 0;
 			for (const doll of state.selectedDolls) {
 				selectedDolls.push({
@@ -249,6 +252,15 @@ export function setDollWeapon(dollId: string, weaponId: string | null) {
 					doll.gun = weaponId;
 				}
 			}
+		})
+	);
+}
+
+export function setBuffs(buffIds: string[]) {
+	setState(
+		produce((s) => {
+			s.buffs.length = 0;
+			s.buffs.push(...buffIds);
 		})
 	);
 }
@@ -365,7 +377,7 @@ export function getSummonFromId(id: string): SummonData | undefined {
 	return undefined;
 }
 
-export function getKeyFromId(dollId: string, keyId: string, dollInfo?: DollData): FixedKey | CommonKey | undefined {
+export function getKeyFromId(dollId: string, keyId: string, dollInfo?: DollData): FixedKey | DetailedKey | undefined {
 	if (!keyId) return undefined;
 	const identifier = keyId.charAt(0);
 	if (identifier === "k") {
@@ -591,7 +603,6 @@ function changeSelectedDolls(newDolls: SelectedDoll[]) {
 	newIds.push(...getSummonIdsFromDollIds(newIds));
 	const removed = oldIds.filter((d) => !newIds.includes(d));
 	const added = newIds.filter((d) => !oldIds.includes(d));
-	
 
 	setState(
 		produce((s) => {
@@ -612,7 +623,7 @@ function changeSelectedDolls(newDolls: SelectedDoll[]) {
 					if (!tab.actionOrder.includes(dollId)) tab.actionOrder.push(dollId);
 				}
 			}
-			console.log("Changing selected dolls", added, removed, s.selectedDolls.length)
+			console.log("Changing selected dolls", added, removed, s.selectedDolls.length);
 		})
 	);
 }
@@ -638,6 +649,7 @@ export function loadState(newData: AppState & { version: number }) {
 			s.selectedDolls = incomingState.selectedDolls;
 			s.currentTab = incomingState.currentTab;
 			s.map = incomingState.map;
+			s.buffs = incomingState.buffs ?? [];
 			if (incomingState.skillDisplay) {
 				s.skillDisplay = incomingState.skillDisplay;
 			}
@@ -698,6 +710,7 @@ export function version7To8Upgrade(data: AppState & { version: number }) {
 	}
 	delete data.actionType;
 	data.map = "Tusk Beasteel";
+	data.buffs = data.buffs ?? [];
 	for (const doll of data.selectedDolls) {
 		if (!doll.keys || doll.keys.length !== 8) {
 			doll.keys = Array(8).fill("");
@@ -995,15 +1008,20 @@ export function preloadCanvasImages() {
 // ====================== LOAD DOLLS AND SUMMONS ======================
 export async function loadCombinedJson() {
 	try {
-		const res = await Promise.all([fetch("combined.json"), fetch("keys.json"), fetch("weapons.json")]);
+		const res = await Promise.all([fetch("combined.json"), fetch("keys.json"), fetch("weapons.json"), fetch("buffs.json")]);
 		const combinedJson: RawDollEntry[] = await res[0].json();
 		const keysJson: RawKeyData = await res[1].json();
 		const weaponsJson: WeaponData[] = await res[2].json();
+		const buffsJson: BuffData[] = await res[3].json();
 		allWeapons.push(...weaponsJson);
+		allBuffs.push(...buffsJson);
 		for (const weapon of allWeapons) {
 			if (weapon.imprintId === null) {
 				defaultWeapons[weapon.type] = weapon;
 			}
+		}
+		for (const buff of allBuffs) {
+			buff.core = buff.core ?? false;
 		}
 
 		for (const entry of combinedJson) {
