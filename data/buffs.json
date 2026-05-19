@@ -1,0 +1,911 @@
+{
+  "data": [
+    {
+      "id": "2eabb0e4-afd2-46d2-a5c2-818b3cbace6e",
+      "buffId": 61000310,
+      "buffName": "Acidic Absorption",
+      "libraryDescription": "When units have Corrosion buffs, their damage is increased by 20%.",
+      "description": "When this unit possesses a <color=#8679e8>Corrosion</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_39.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.709",
+      "updatedAt": "2026-05-15T20:58:56.776",
+      "shortId": "b1"
+    },
+    {
+      "id": "d752e4bc-cbb9-454a-8acd-5d5590b40c3f",
+      "buffId": 61001140,
+      "buffName": "Arc Hammer",
+      "libraryDescription": "Increase Physical and Electric damage and critical rate by <color=#f26c1c>30%</color>.",
+      "description": "Increase Physical and Electric damage and critical rate by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_56.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.304",
+      "updatedAt": "2026-05-15T20:58:57.085",
+      "shortId": "b2"
+    },
+    {
+      "id": "1daf2b2e-3336-40c8-9530-2147287ed2e7",
+      "buffId": 61001120,
+      "buffName": "Blaze Hammer",
+      "libraryDescription": "Increase Physical and Burn damage and critical rate by <color=#f26c1c>30%</color>.",
+      "description": "Increase Physical and Burn damage and critical rate by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_54.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.377",
+      "updatedAt": "2026-05-15T20:58:57.039",
+      "shortId": "b3"
+    },
+    {
+      "id": "1aef815a-52a8-4832-890a-00508676ab73",
+      "buffId": 61000340,
+      "buffName": "Burn Drain",
+      "libraryDescription": "When this unit has a <Burn buff>, damage dealt is increased by 20%.",
+      "description": "When this unit has a <color=#e67129>Burn</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_20.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.783",
+      "updatedAt": "2026-05-15T20:58:56.65",
+      "shortId": "b4"
+    },
+    {
+      "id": "fa4ad899-08db-41da-a9b1-bfa8895e5d3d",
+      "buffId": 61000140,
+      "buffName": "Burn Overdrive",
+      "libraryDescription": "Burn damage is increased by 20%.",
+      "description": "Burn damage is increased by <color=#f26c1c>20%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_20.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.212",
+      "updatedAt": "2026-05-15T20:58:56.526",
+      "shortId": "b5"
+    },
+    {
+      "id": "cb76133c-d038-4cef-b104-cb95913cb6f2",
+      "buffId": 61000290,
+      "buffName": "Chain Acid Swamp",
+      "libraryDescription": "Critical damage is increased by 25% when dealing damage to enemy targets with Corrosion debuffs.",
+      "description": "If an enemy is afflicted by Corrosion debuff(s), increases critical damage against them by <color=#f26c1c>25%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_30.png",
+      "regionTag": "en",
+      "season": 25,
+      "days": {
+        "25": [
+          2,
+          5
+        ]
+      },
+      "createdAt": "2025-11-11T21:59:21.634",
+      "updatedAt": "2026-05-15T20:58:56.261",
+      "shortId": "b6"
+    },
+    {
+      "id": "ea432868-3fbb-40f9-941b-fa957cd9d916",
+      "buffId": 61000300,
+      "buffName": "Chain Ice Edge",
+      "libraryDescription": "Critical damage is increased by 25% when dealing damage to enemy targets with Freeze debuffs.",
+      "description": "If an enemy is afflicted by Freeze debuffs, critical damage against them is increased by <color=#f26c1c>25%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_3.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.46",
+      "updatedAt": "2026-05-15T20:58:56.448",
+      "shortId": "b7"
+    },
+    {
+      "id": "07185bcb-9339-4cb8-9f30-7a77a598ea44",
+      "buffId": 61000270,
+      "buffName": "Chain Surge",
+      "libraryDescription": "Critical damage is increased by 25% when attacking enemy targets with Hydro debuffs.",
+      "description": "If an enemy is afflicted by a Hydro debuff, increases the critical damage dealt against them by <color=#f26c1c>25%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_10.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.237",
+      "updatedAt": "2026-05-15T20:58:56.495",
+      "shortId": "b8"
+    },
+    {
+      "id": "a6f8b695-9420-45b1-b23f-42140fa83f1e",
+      "buffId": 61000280,
+      "buffName": "Chained Current",
+      "libraryDescription": "Critical damage is increased by 25% when attacking enemy targets with Electric debuffs.",
+      "description": "If an enemy is afflicted by an Electric debuff, increase critical damage against them by <color=#f26c1c>25%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_29.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.335",
+      "updatedAt": "2026-05-15T20:58:56.588",
+      "shortId": "b9"
+    },
+    {
+      "id": "1f0a18c9-28c6-4c90-b333-d15902e4f843",
+      "buffId": 61000260,
+      "buffName": "Chained Spark",
+      "libraryDescription": "Critical damage is increased by 25% when attacking enemy targets with Burn debuffs.",
+      "description": "Critical damage against targets with Burn debuffs is increased by <color=#f26c1c>25%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_28.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.139",
+      "updatedAt": "2026-05-15T20:58:56.541",
+      "shortId": "b10"
+    },
+    {
+      "id": "fa7afb8b-1189-4efa-afef-c1025ff72a12",
+      "buffId": 61000520,
+      "buffName": "Charged Piercing",
+      "libraryDescription": "When this unit has 4 or more buffs, attacks ignore 25% of defense.",
+      "description": "When this unit has <color=#f26c1c>4 or more</color> buffs, attacks ignore <color=#f26c1c>25%</color> of the target's defense.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_72.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.956",
+      "updatedAt": "2026-05-15T20:58:56.838",
+      "shortId": "b11"
+    },
+    {
+      "id": "56113d40-ee6e-4897-8f49-ec444c8c8bc3",
+      "buffId": 61000220,
+      "buffName": "Close-Range Shooting",
+      "libraryDescription": "Damage is increased by 20% when distance to enemy target is less than or equal to 6 tiles.",
+      "description": "Damage dealt is increased by <color=#f26c1c>20%</color> when distance to the enemy target is less than or equal to <color=#f26c1c>6 tiles</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_8.png",
+      "regionTag": "en",
+      "season": 25,
+      "days": {
+        "25": [
+          2,
+          3,
+          4,
+          6
+        ]
+      },
+      "createdAt": "2025-11-11T21:59:21.286",
+      "updatedAt": "2026-05-15T20:58:56.182",
+      "shortId": "b12"
+    },
+    {
+      "id": "c0e990c1-738e-4a26-8f1e-349cb499758b",
+      "buffId": 61000570,
+      "buffName": "Complementarity Plan",
+      "libraryDescription": "For every <2000 points> of <healing> or <shield> applied by Support-class Dolls, apply <1 stack> of <Complementarity Plan>.\n<Complementarity Plan>: \nDamage dealt is increased by <2%>. At <20 stacks>, each additional stack further increases attack by <2%>. At <40 stacks>, each additional stack increases critical damage by <2%>. This effect stacks up to <50 times> Cannot be cleansed.",
+      "description": "For every <color=#f26c1c>2000</color> points of <color=#f26c1c>healing</color> or <color=#f26c1c>shield</color> applied to allies by Support Dolls, gain <color=#f26c1c>1 stack</color> of <color=#3487e0>Complementarity Plan</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_77.png",
+      "regionTag": "en",
+      "season": 25,
+      "days": {
+        "25": [
+          2,
+          4
+        ]
+      },
+      "createdAt": "2026-05-15T20:58:56.697",
+      "updatedAt": "2026-05-15T20:58:56.697",
+      "shortId": "b13"
+    },
+    {
+      "id": "d2e1a708-0452-4434-a693-96456ea7c650",
+      "buffId": 61000540,
+      "buffName": "Confectant Resonance",
+      "libraryDescription": "At the start of the round, if this unit has 2 or more points of Confectance Index, its damage dealt is increased until the end of the round.",
+      "description": "If this unit's has <color=#f26c1c>2 or more</color> points of Confectance Index at the start of the round, damage dealt is increased by <color=#f26c1c>25%</color> until the end of the round.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_74.png",
+      "regionTag": "en",
+      "season": 25,
+      "days": {
+        "25": [
+          0,
+          1,
+          3,
+          6
+        ]
+      },
+      "createdAt": "2026-01-09T00:42:45.352",
+      "updatedAt": "2026-05-15T20:58:56.745",
+      "shortId": "b14"
+    },
+    {
+      "id": "54375269-e754-43d5-81b6-f6663cf5c12c",
+      "buffId": 61000480,
+      "buffName": "Coordinated Support",
+      "libraryDescription": "Damage dealt by allied summons is increased by 50%.",
+      "description": "Damage dealt by allied summoned units is increased by <color=#f26c1c>50%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_68.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.059",
+      "updatedAt": "2026-05-15T20:58:56.229",
+      "shortId": "b15"
+    },
+    {
+      "id": "17dcac02-6262-4d99-8b69-e56671466ba0",
+      "buffId": 61000170,
+      "buffName": "Corrosion Overdrive",
+      "libraryDescription": "Corrosion damage is increased by 20%.",
+      "description": "Corrosion damage is increased by <color=#f26c1c>20%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_23.png",
+      "regionTag": "en",
+      "season": 25,
+      "days": {
+        "25": [
+          1,
+          5
+        ]
+      },
+      "createdAt": "2025-11-11T21:59:21.435",
+      "updatedAt": "2026-05-15T20:58:56.681",
+      "shortId": "b16"
+    },
+    {
+      "id": "ce17b6d4-5f79-47b4-b4a2-972cf0cf0324",
+      "buffId": 61001020,
+      "buffName": "Corrosive Mist",
+      "libraryDescription": "Increase Corrosion damage dealt by <color=#f26c1c>30%</color>. Increase AoE damage dealt by <color=#f26c1c>25%</color>.",
+      "description": "Increase Corrosion damage dealt by <color=#f26c1c>30%</color>. Increase AoE damage dealt by <color=#f26c1c>25%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_36.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.451",
+      "updatedAt": "2026-05-15T20:58:57.008",
+      "shortId": "b17"
+    },
+    {
+      "id": "5a95a272-10dd-46f6-a48e-dd27caebd657",
+      "buffId": 61001090,
+      "buffName": "Corrupt Arc",
+      "libraryDescription": "Increases Electric and Corrosion damage and their critical rate by <color=#f26c1c>30%</color>.",
+      "description": "Increases Electric and Corrosion damage and their critical rate by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_51.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.279",
+      "updatedAt": "2026-05-15T20:58:56.977",
+      "shortId": "b18"
+    },
+    {
+      "id": "cbfc897b-e5c5-4597-bfcb-3d7d15eeed97",
+      "buffId": 61001040,
+      "buffName": "Corrupting Spark",
+      "libraryDescription": "Increase Corrosion and Burn critical rate and damage dealt by <color=#f26c1c>30%</color>.",
+      "description": "Increase Corrosion and Burn critical rate and damage dealt by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_42.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.206",
+      "updatedAt": "2026-05-15T20:58:57.21",
+      "shortId": "b19"
+    },
+    {
+      "id": "090a752e-dcce-4de9-878c-b2cb5dff1ffc",
+      "buffId": 61000240,
+      "buffName": "Counterattack Enhancement",
+      "libraryDescription": "Damage dealt by Counterattacks is increased by 15%.",
+      "description": "Damage dealt by counterattack skills is increased by <color=#f26c1c>15%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_27.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.163",
+      "updatedAt": "2026-05-15T20:58:56.386",
+      "shortId": "b20"
+    },
+    {
+      "id": "21624cc7-bf3f-4847-bb57-106b538604d0",
+      "buffId": 61000500,
+      "buffName": "Destabilized Execution",
+      "libraryDescription": "Critical damage dealt to targets with 0 stability is increased by 25%.",
+      "description": "Critical damage dealt to targets with <color=#f26c1c>0</color> stability is increased by <color=#f26c1c>25%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_70.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.833",
+      "updatedAt": "2026-05-15T20:58:56.634",
+      "shortId": "b21"
+    },
+    {
+      "id": "18241d64-fc69-4c54-8a98-472093c092f6",
+      "buffId": 61000560,
+      "buffName": "Disarraying Reinforcement",
+      "libraryDescription": "When performing a Support Attack, critical damage dealt is increased by 3% and the attack ignores 5% of the target's defense. Stacks up to 5 times.",
+      "description": "When performing a Support Attack, critical damage is increased by <color=#f26c1c>3%</color> and the attack ignores <color=#f26c1c>5%</color> of the target's defense, can stack up to <color=#f26c1c>5 times</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_76.png",
+      "regionTag": "en",
+      "createdAt": "2026-01-09T00:42:45.369",
+      "updatedAt": "2026-05-15T20:58:56.93",
+      "shortId": "b22"
+    },
+    {
+      "id": "ec2beca4-da4c-42c4-a524-1e6dfca870fa",
+      "buffId": 61000360,
+      "buffName": "Electric Drain",
+      "libraryDescription": "When the unit has Electric buff(s), damage dealt is increased by 20%.",
+      "description": "When this unit has an <color=#d4ae08>Electric</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_22.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.535",
+      "updatedAt": "2026-05-15T20:58:56.166",
+      "shortId": "b23"
+    },
+    {
+      "id": "7717e70a-8a7f-4c1d-a68f-564a46899932",
+      "buffId": 61000160,
+      "buffName": "Electric Overdrive",
+      "libraryDescription": "Electric damage is increased by 20%.",
+      "description": "Increases Electric damage dealt by <color=#f26c1c>20%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_22.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.584",
+      "updatedAt": "2026-05-15T20:58:56.292",
+      "shortId": "b24"
+    },
+    {
+      "id": "529bcb34-bb53-4394-be86-9a9617872b08",
+      "buffId": 61001070,
+      "buffName": "Field Aflame",
+      "libraryDescription": "Increase Hydro and Burn damage dealt by <color=#f26c1c>30%</color>, and critical rate of Hydro and Burn damage dealt by <color=#f26c1c>30%</color>.",
+      "description": "Increase Hydro and Burn damage dealt by <color=#f26c1c>30%</color>, and critical rate of Hydro and Burn damage dealt by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_46.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.427",
+      "updatedAt": "2026-05-15T20:58:56.961",
+      "shortId": "b25"
+    },
+    {
+      "id": "d5edbf91-1386-4bb7-8ea8-925025f137f1",
+      "buffId": 61000030,
+      "buffName": "Fierce Assault",
+      "libraryDescription": "Damage for Vanguard class Dolls is increased by 20%.",
+      "description": "Increase damage dealt by Vanguard-class Dolls by <color=#f26c1c>20%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_2.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.311",
+      "updatedAt": "2026-05-15T20:58:56.51",
+      "shortId": "b26"
+    },
+    {
+      "id": "a48d0152-dfd8-4f85-bf07-f7ffd24658c3",
+      "buffId": 61000600,
+      "buffName": "Firepower Overmatch",
+      "libraryDescription": "At the start of battle, gain 10 stacks of <Firepower Overmatch>.\n<Firepower Overmatch>:\nDamage dealt is increased by 3%, critical damage is increased by 2%. Stacks up to 50 times. Remove 1 stack for each tile moved.",
+      "description": "At the start of the turn, gain <color=#f26c1c>10 stacks</color> of <color=#3487e0>Firepower Overmatch</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_81.png",
+      "regionTag": "en",
+      "createdAt": "2026-05-15T20:58:56.807",
+      "updatedAt": "2026-05-15T20:58:56.807",
+      "shortId": "b27"
+    },
+    {
+      "id": "9b4ae142-378f-41cb-b6d3-def70996b8fc",
+      "buffId": 61000530,
+      "buffName": "Focused Phalanx",
+      "libraryDescription": "When this unit has a Shield, attacks ignore 20% of defense and critical damage is increased by 10%.",
+      "description": "When shielded, attacks ignore <color=#f26c1c>20%</color> of the target's defense and critical damage is increased by <color=#f26c1c>10%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_73.png",
+      "regionTag": "en",
+      "season": 25,
+      "days": {
+        "25": [
+          2,
+          4,
+          5
+        ]
+      },
+      "createdAt": "2026-01-09T00:42:45.301",
+      "updatedAt": "2026-05-15T20:58:56.714",
+      "shortId": "b28"
+    },
+    {
+      "id": "0f31e7f3-2bf8-4963-8387-eb5c5fc50acd",
+      "buffId": 61000350,
+      "buffName": "Freeze Drain",
+      "libraryDescription": "Damage dealt is increased by 20% when affected by a Freeze buff.",
+      "description": "When this unit has a <color=#42cce0>Freeze</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_24.png",
+      "regionTag": "en",
+      "createdAt": "2026-01-09T00:42:45.335",
+      "updatedAt": "2026-05-15T20:58:56.791",
+      "shortId": "b29"
+    },
+    {
+      "id": "3cd888aa-d3d8-47ff-9bcb-04c0c730794f",
+      "buffId": 61000180,
+      "buffName": "Freeze Overdrive",
+      "libraryDescription": "Freeze Damage Increased By 20%",
+      "description": "Increase Freeze damage dealt by <color=#f26c1c>20%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_24.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.907",
+      "updatedAt": "2026-05-15T20:58:56.9",
+      "shortId": "b30"
+    },
+    {
+      "id": "691421d3-40da-48b2-9821-56e1a237f986",
+      "buffId": 61001160,
+      "buffName": "Frost Hammer",
+      "libraryDescription": "Increases Physical and Freeze damage and their critical rate by <color=#f26c1c>30%</color>.",
+      "description": "Increases Physical and Freeze damage and their critical rate by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_58.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.402",
+      "updatedAt": "2026-05-15T20:58:57.178",
+      "shortId": "b31"
+    },
+    {
+      "id": "a27009b5-ecc0-4ab5-a647-bad5a5b90305",
+      "buffId": 61000190,
+      "buffName": "Frost Reinforcement",
+      "libraryDescription": "When Frost Barrier is active on the user, damage dealt is increased by 20%.",
+      "description": "Increase damage dealt by <color=#f26c1c>20%</color> while <color=#3487e0>Frost Barrier</color> is active on self.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_6.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.932",
+      "updatedAt": "2026-05-15T20:58:56.853",
+      "shortId": "b32"
+    },
+    {
+      "id": "04011f65-0106-4216-be27-7af10612665f",
+      "buffId": 61001110,
+      "buffName": "Frozen Arc",
+      "libraryDescription": "Increases Freeze and Electric damage and their critical rate by <color=#f26c1c>30%</color>.",
+      "description": "Increases Freeze and Electric damage and their critical rate by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_53.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.23",
+      "updatedAt": "2026-05-15T20:58:57.132",
+      "shortId": "b33"
+    },
+    {
+      "id": "c083d71c-0d65-41a5-89a7-c6dfb601d54c",
+      "buffId": 61001180,
+      "buffName": "Global Damage Boost",
+      "libraryDescription": "Damage dealt and critical rate of all phase element Dolls (not including Physical) is increased by <color=#f26c1c>30%</color>.",
+      "description": "Damage dealt and critical rate of all phase element Dolls (not including Physical) is increased by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_83.png",
+      "regionTag": "en",
+      "createdAt": "2026-04-25T14:13:22.516",
+      "updatedAt": "2026-05-15T20:58:57.055",
+      "shortId": "b34"
+    },
+    {
+      "id": "86bd3396-728e-4e61-829a-549748db8611",
+      "buffId": 61001060,
+      "buffName": "Hazardous Charge",
+      "libraryDescription": "Hydro and Electric damage dealt is increased by <color=#f26c1c>30%</color>, critical rate of Hydro and Electric damage is increased by <color=#f26c1c>30%</color>.",
+      "description": "Hydro and Electric damage dealt is increased by <color=#f26c1c>30%</color>, critical rate of Hydro and Electric damage is increased by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_45.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.157",
+      "updatedAt": "2026-05-15T20:58:56.992",
+      "shortId": "b35"
+    },
+    {
+      "id": "b16fce3e-4cce-4a4d-a112-0a4d5d44ac84",
+      "buffId": 61000200,
+      "buffName": "Heat Boost",
+      "libraryDescription": "Damage is increased by 20% when the user possesses Heat Recovery.",
+      "description": "Increase damage dealt by <color=#f26c1c>20%</color> while <color=#3487e0>Heat Recovery</color> is active on self.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_25.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.485",
+      "updatedAt": "2026-05-15T20:58:56.479",
+      "shortId": "b36"
+    },
+    {
+      "id": "d06ed338-097c-485d-981e-44c8168d97e5",
+      "buffId": 61000020,
+      "buffName": "High-Explosive Warhead",
+      "libraryDescription": "Critical rate of Sentinel class Dolls is increased by 25%.",
+      "description": "Increase critical rate of Sentinel-class Dolls by <color=#f26c1c>25%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_12.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.758",
+      "updatedAt": "2026-05-15T20:58:56.868",
+      "shortId": "b37"
+    },
+    {
+      "id": "c6ea9b63-1dc3-4d8a-95f8-72c8cd470e73",
+      "buffId": 61000330,
+      "buffName": "Hydro Drain",
+      "libraryDescription": "When this unit has a <Hydro buff>, damage dealt is increased by 20%.",
+      "description": "When this unit has a <color=#2caadb>Hydro</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_44.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.609",
+      "updatedAt": "2026-05-15T20:58:56.432",
+      "shortId": "b38"
+    },
+    {
+      "id": "e8ef374f-6b23-4a90-ad35-6821f8f1a8b4",
+      "buffId": 61001100,
+      "buffName": "Ice Burn",
+      "libraryDescription": "Increases Freeze and Burn damage and their critical rate by <color=#f26c1c>30%</color>.",
+      "description": "Increases Freeze and Burn damage and their critical rate by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_52.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.133",
+      "updatedAt": "2026-05-15T20:58:57.07",
+      "shortId": "b39"
+    },
+    {
+      "id": "63f30f2e-a47e-405a-b9e5-3cf6d7698966",
+      "buffId": 61001050,
+      "buffName": "Igniting Voltage",
+      "libraryDescription": "Increases Electric and Burn damage and their critical rate by <color=#f26c1c>30%</color>.",
+      "description": "Increases Electric and Burn damage and their critical rate by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_43.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.328",
+      "updatedAt": "2026-05-15T20:58:57.163",
+      "shortId": "b40"
+    },
+    {
+      "id": "433f605a-0e86-4cb9-bd79-105ac592117c",
+      "buffId": 61000110,
+      "buffName": "Intense Penetration",
+      "libraryDescription": "Heavy ammo attacks ignore 50% of the target's defense.",
+      "description": "Heavy Ammo ignores <color=#f26c1c>50%</color> of the target's defense.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_5.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.113",
+      "updatedAt": "2026-05-15T20:58:56.02",
+      "shortId": "b41"
+    },
+    {
+      "id": "a1a65f7e-acef-41d0-9de8-33ff25423f69",
+      "buffId": 61000230,
+      "buffName": "Interception Enhancement",
+      "libraryDescription": "Damage dealt by Interceptions is increased by 15%.",
+      "description": "Damage dealt by Interception skills is increased by <color=#f26c1c>15%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_26.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.36",
+      "updatedAt": "2026-05-15T20:58:56.557",
+      "shortId": "b42"
+    },
+    {
+      "id": "4e63e396-de0f-4e42-90d9-e02123fabfb5",
+      "buffId": 61000420,
+      "buffName": "Keen Penetration",
+      "libraryDescription": "Melee attacks ignore 50% of the target's defense.",
+      "description": "Melee attacks ignore <color=#f26c1c>50%</color> of the target's defense.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_62.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.981",
+      "updatedAt": "2026-05-15T20:58:56.323",
+      "shortId": "b43"
+    },
+    {
+      "id": "e9581c1f-093f-4a51-a3d3-a9575407e0a6",
+      "buffId": 61000010,
+      "buffName": "Lethal Firepower",
+      "libraryDescription": "Damage from Sentinel class Dolls is increased by 20%.",
+      "description": "Increase damage dealt by Sentinel-class Dolls by <color=#f26c1c>20%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_1.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.261",
+      "updatedAt": "2026-05-15T20:58:56.417",
+      "shortId": "b44"
+    },
+    {
+      "id": "746abde9-008b-4a72-8b79-2d1707a4d994",
+      "buffId": 61000090,
+      "buffName": "Light Penetration",
+      "libraryDescription": "Light ammo attacks ignore 50% of the target's defense.",
+      "description": "Light Ammo ignores <color=#f26c1c>50%</color> of target's defense.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_4.png",
+      "regionTag": "en",
+      "season": 25,
+      "days": {
+        "25": [
+          0,
+          3
+        ]
+      },
+      "createdAt": "2025-11-11T21:59:20.883",
+      "updatedAt": "2026-05-15T20:58:56.245",
+      "shortId": "b45"
+    },
+    {
+      "id": "6a158e50-f661-4706-9647-4df17443dc1b",
+      "buffId": 61000210,
+      "buffName": "Long-Distance Precision Targeting",
+      "libraryDescription": "Damage to a target is increased by 50% if they are more than 6 tiles away.",
+      "description": "Increase damage dealt by <color=#f26c1c>20%</color> if not within <color=#f26c1c>6 tiles</color> of an enemy.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_7.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.385",
+      "updatedAt": "2026-05-15T20:58:56.761",
+      "shortId": "b46"
+    },
+    {
+      "id": "7c113781-0b41-4e49-bee3-6b2c114168ed",
+      "buffId": 61000510,
+      "buffName": "Macroscale Downburst",
+      "libraryDescription": "When dealing AoE damage, stability damage is increased by 10 points.",
+      "description": "When dealing AoE damage, stability damage is increased by <color=#f26c1c>10 points</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_71.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.858",
+      "updatedAt": "2026-05-15T20:58:56.822",
+      "shortId": "b47"
+    },
+    {
+      "id": "bfac5456-2740-4e11-ad81-9ef3802c9ca2",
+      "buffId": 61000100,
+      "buffName": "Medium Penetration",
+      "libraryDescription": "Medium ammo attacks ignore 50% of the target's defense.",
+      "description": "Medium Ammo ignores <color=#f26c1c>50%</color> of target's defense.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_17.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.411",
+      "updatedAt": "2026-05-15T20:58:56.307",
+      "shortId": "b48"
+    },
+    {
+      "id": "3d99654c-b85a-4b89-9707-c9dd45915a43",
+      "buffId": 61000490,
+      "buffName": "Mounting Synergy",
+      "libraryDescription": "For each allied unit within 5 tiles, damage dealt is increased by 6%.",
+      "description": "For every <color=#f26c1c>1 allied unit</color> within <color=#f26c1c>5 tiles</color>, damage dealt is increased by <color=#f26c1c>6%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_69.png",
+      "regionTag": "en",
+      "season": 25,
+      "days": {
+        "25": [
+          0,
+          4,
+          6
+        ]
+      },
+      "createdAt": "2025-11-11T21:59:22.008",
+      "updatedAt": "2026-05-15T20:58:56.603",
+      "shortId": "b49"
+    },
+    {
+      "id": "2f181b85-3616-4e84-ad3d-f3fafecb0a7c",
+      "buffId": 61001080,
+      "buffName": "Necrotic Torrent",
+      "libraryDescription": "Hydro and Corrosion damage dealt is increased by <color=#f26c1c>30%</color>, critical rate of Hydro and Corrosion damage is increased by <color=#f26c1c>30%</color>.",
+      "description": "Hydro and Corrosion damage dealt is increased by <color=#f26c1c>30%</color>, critical rate of Hydro and Corrosion damage is increased by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_50.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.476",
+      "updatedAt": "2026-05-15T20:58:57.194",
+      "shortId": "b50"
+    },
+    {
+      "id": "800072dd-9288-4f91-a6a6-b6c6a9e67289",
+      "buffId": 61000400,
+      "buffName": "Overpressure Rupture",
+      "libraryDescription": "Sentinel-class Dolls' critical damage is increased by 25%.",
+      "description": "Sentinel-class Dolls' critical damage is increased by <color=#f26c1c>25%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_60.png",
+      "regionTag": "en",
+      "season": 25,
+      "days": {
+        "25": [
+          1,
+          5
+        ]
+      },
+      "createdAt": "2025-11-11T21:59:21.56",
+      "updatedAt": "2026-05-15T20:58:56.276",
+      "shortId": "b51"
+    },
+    {
+      "id": "69098665-759d-4f6c-b6f5-d82f6a094e1a",
+      "buffId": 61000380,
+      "buffName": "Overwhelming Smash",
+      "libraryDescription": "Physical damage is increased by 30%",
+      "description": "Increases Physical damage dealt by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_48.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.51",
+      "updatedAt": "2026-05-15T20:58:56.214",
+      "shortId": "b52"
+    },
+    {
+      "id": "950fb2fd-4314-463a-b5d3-48dc833a8e43",
+      "buffId": 61001010,
+      "buffName": "Perilous Cold Wave",
+      "libraryDescription": "Increase Hydro and Freeze damage and critical rate by <color=#f26c1c>30%</color>.",
+      "description": "Increase Hydro and Freeze damage and critical rate by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_11.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.255",
+      "updatedAt": "2026-05-15T20:58:57.101",
+      "shortId": "b53"
+    },
+    {
+      "id": "c2dce371-3c30-4964-ac5a-7ac31afe8bb9",
+      "buffId": 61001170,
+      "buffName": "Precision Blow",
+      "libraryDescription": "Physical damage is increased by <color=#f26c1c>30%</color> and targeted damage is increased by <color=#f26c1c>25%</color>.",
+      "description": "Physical damage is increased by <color=#f26c1c>30%</color> and targeted damage is increased by <color=#f26c1c>25%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_59.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.182",
+      "updatedAt": "2026-05-15T20:58:57.023",
+      "shortId": "b54"
+    },
+    {
+      "id": "3f933a68-58df-4990-ae80-70a3b2acc521",
+      "buffId": 61001030,
+      "buffName": "Putrid Cold Wave",
+      "libraryDescription": "Increases Corrosion and Freeze damage and their critical rate by <color=#f26c1c>30%</color>.",
+      "description": "Increases Corrosion and Freeze damage and their critical rate by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_41.png",
+      "regionTag": "en",
+      "season": 25,
+      "createdAt": "2025-11-11T21:59:22.5",
+      "updatedAt": "2026-05-15T20:58:57.147",
+      "shortId": "b55"
+    },
+    {
+      "id": "26ff5d75-ab8c-44b1-b1e0-e99d0f2b8e39",
+      "buffId": 61000070,
+      "buffName": "Quake Strike",
+      "libraryDescription": "Stability damage for Support class Dolls is increased by 2 points.",
+      "description": "Stability damage dealt by Support Dolls is increased by <color=#f26c1c>2</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_15.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.734",
+      "updatedAt": "2026-05-15T20:58:56.884",
+      "shortId": "b56"
+    },
+    {
+      "id": "cf6786a9-8ca1-4e11-8d65-a5322be245b7",
+      "buffId": 61001150,
+      "buffName": "Rot Hammer",
+      "libraryDescription": "Increases Physical and Corrosion damage by <color=#f26c1c>30%</color>, and their critical rate by <color=#f26c1c>30%</color>.",
+      "description": "Increases Physical and Corrosion damage by <color=#f26c1c>30%</color>, and their critical rate by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_57.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.353",
+      "updatedAt": "2026-05-15T20:58:56.946",
+      "shortId": "b57"
+    },
+    {
+      "id": "3cc80894-e677-4886-b78c-d4fa85d486e1",
+      "buffId": 61000450,
+      "buffName": "Sanguine Shower",
+      "libraryDescription": "When HP is greater than 100%, attacks ignore 30% of the target's defense.",
+      "description": "When this unit's HP is <color=#f26c1c>greater than or equal to 100%</color>, attacks ignore <color=#f26c1c>30%</color> of the target's defense.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_65.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.033",
+      "updatedAt": "2026-05-15T20:58:56.198",
+      "shortId": "b58"
+    },
+    {
+      "id": "8169e7da-fa60-4fa4-bba3-89dfb4c3612d",
+      "buffId": 61000470,
+      "buffName": "Shield Pierce",
+      "libraryDescription": "When the target has a shield, attacks ignore 30% of its defense.",
+      "description": "When the target has a shield, attacks ignore <color=#f26c1c>30%</color> of the target's defense.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_67.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.084",
+      "updatedAt": "2026-05-15T20:58:56.619",
+      "shortId": "b59"
+    },
+    {
+      "id": "3250c39b-1cdd-49de-95c8-532ca7efd34c",
+      "buffId": 61000550,
+      "buffName": "Shieldbreaker Calamity",
+      "libraryDescription": "Critical damage dealt to targets with 2 or more defense debuffs is increased by 25%.",
+      "description": "Against targets with <color=#f26c1c>2 or more</color> <color=#f26c1c>Defense-type debuffs</color>, critical damage is increased by <color=#f26c1c>25%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_75.png",
+      "regionTag": "en",
+      "createdAt": "2026-01-09T00:42:45.236",
+      "updatedAt": "2026-05-15T20:58:56.666",
+      "shortId": "b60"
+    },
+    {
+      "id": "e7a11417-02c8-40e0-8e58-48ae25fd39a7",
+      "buffId": 61000430,
+      "buffName": "Speedy Offensive",
+      "libraryDescription": "For every 5 tiles moved, damage dealt is permanently increased by 5%. Maximum of 10 stacks.",
+      "description": "For every <color=#f26c1c>5 tiles</color> moved, damage dealt is permanently increased by <color=#f26c1c>5%</color>. Maximum of <color=#f26c1c>10 stacks</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_63.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-27T06:29:48.934",
+      "updatedAt": "2026-05-15T20:58:56.354",
+      "shortId": "b61"
+    },
+    {
+      "id": "705707c7-81bf-4770-bf27-997cfaa8f0b7",
+      "buffId": 61000040,
+      "buffName": "Spike Surge",
+      "libraryDescription": "Critical rate for Vanguard class Dolls is increased by 25%.",
+      "description": "Vanguard class Dolls gain <color=#f26c1c>25%</color> critical rate.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_13.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.659",
+      "updatedAt": "2026-05-15T20:58:56.572",
+      "shortId": "b62"
+    },
+    {
+      "id": "493435cc-5b73-4190-bbaa-a04df2c0dd8c",
+      "buffId": 61000390,
+      "buffName": "Staggering Blows",
+      "libraryDescription": "Physical damage deals 5 additional stability damage, and critical damage is increased by 20%.",
+      "description": "When dealing Physical damage to enemy units, critical damage is increased by <color=#f26c1c>20%</color> and the attack deals an additional <color=#f26c1c>5 points</color> of stability damage.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_49.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.808",
+      "updatedAt": "2026-05-15T20:58:56.915",
+      "shortId": "b63"
+    },
+    {
+      "id": "99293f6a-7b32-4915-a92e-39c470b184e3",
+      "buffId": 61000250,
+      "buffName": "Support Enhancement",
+      "libraryDescription": "Damage from Support Attacks is increased by 15%.",
+      "description": "Increase damage dealt with Support Skills by <color=#f26c1c>15%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_9.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.188",
+      "updatedAt": "2026-05-15T20:58:56.464",
+      "shortId": "b64"
+    },
+    {
+      "id": "f37ed217-5650-43af-a674-0ed7d8bd2567",
+      "buffId": 61000440,
+      "buffName": "Sustained Offensive",
+      "libraryDescription": "For each instance of fixed damage taken by an enemy unit, damage dealt by all allied units is permanently increased by 2%, maximum of 15 stacks.",
+      "description": "For every <color=#f26c1c>1 instance</color> of fixed damage taken by an enemy, all damage dealt by allied units is permanently increased by <color=#f26c1c>2%</color>. Maximum of 15 stacks.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_64.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.109",
+      "updatedAt": "2026-05-15T20:58:56.401",
+      "shortId": "b65"
+    },
+    {
+      "id": "3e24e542-3560-4f54-b1be-88f180fb72cc",
+      "buffId": 61000370,
+      "buffName": "Targeted Enhancement",
+      "libraryDescription": "Targeted damage is increased by 20%",
+      "description": "Increases targeted damage dealt by <color=#f26c1c>20%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_47.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.684",
+      "updatedAt": "2026-05-15T20:58:56.339",
+      "shortId": "b66"
+    },
+    {
+      "id": "34bac51f-abfc-4859-9b43-29ef7494a2eb",
+      "buffId": 61000580,
+      "buffName": "Undaunted Spirit",
+      "libraryDescription": "<Each time> a Bulwark Doll takes damage, apply <1 stack> of <Undaunted Spirit> to all Bulwark Dolls.\n<Undaunted Spirit>:\nDamage dealt is increased by <5%> At <20 stacks>, each additional stack further increases attack by <7%>. At <40 stacks>, each additional stack increases critical damage by <10%>. This effect stacks up to <50 times>. Cannot be cleansed.",
+      "description": "<color=#f26c1c>Each time</color> a Bulwark-class Doll takes damage, gain <color=#f26c1c>1 stack</color> of <color=#3487e0>Undaunted Spirit</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_78.png",
+      "regionTag": "en",
+      "season": 25,
+      "days": {
+        "25": [
+          0,
+          1,
+          3,
+          6
+        ]
+      },
+      "createdAt": "2026-05-15T20:58:56.73",
+      "updatedAt": "2026-05-15T20:58:56.73",
+      "shortId": "b67"
+    },
+    {
+      "id": "378b52a6-b12c-47ac-b2bf-840f7bdd5020",
+      "buffId": 61001130,
+      "buffName": "Water Hammer",
+      "libraryDescription": "Increase Physical and Hydro damage and critical rate by <color=#f26c1c>30%</color>.",
+      "description": "Increase Physical and Hydro damage and critical rate by <color=#f26c1c>30%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_55.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:22.525",
+      "updatedAt": "2026-05-15T20:58:57.116",
+      "shortId": "b68"
+    },
+    {
+      "id": "7fe969a7-796f-4b31-ba90-bd25639eea6e",
+      "buffId": 61000320,
+      "buffName": "Wide-Area Damage",
+      "libraryDescription": "AoE damage is increased by 12%.",
+      "description": "Increases AoE Damage dealt by <color=#f26c1c>12%</color>.",
+      "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_40.png",
+      "regionTag": "en",
+      "createdAt": "2025-11-11T21:59:21.882",
+      "updatedAt": "2026-05-15T20:58:56.37",
+      "shortId": "b69"
+    }
+  ]
+}
