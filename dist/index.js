@@ -2660,7 +2660,10 @@ function drawFloor(ctx3, c, r) {
   ctx3.fillText(distance2 + "", x + 6, y + 2);
 }
 function drawSpawn(ctx3, c, r) {
-  const x = cellX(c), y = cellY(r);
+  const x = cellX(c);
+  const y = cellY(r);
+  const mapCoord = gridKey(c, r);
+  const priority = mapGrid.priority.indexOf(mapCoord);
   ctx3.fillStyle = "rgba(18,60,180,0.18)";
   ctx3.fillRect(x + 1, y + 1, TILE_SIZE - 2, TILE_SIZE - 2);
   ctx3.strokeStyle = "#3070ee";
@@ -2693,6 +2696,14 @@ function drawSpawn(ctx3, c, r) {
   ctx3.closePath();
   ctx3.fillStyle = "#4888ff";
   ctx3.fill();
+  const fontSize = Math.max(7, Math.round(TILE_SIZE * 0.01));
+  ctx3.font = `bold 5px Roboto, sans-serif`;
+  ctx3.textAlign = "left";
+  ctx3.textBaseline = "top";
+  const text = priority + 1 + "\nPriority";
+  const labelW = Math.ceil(ctx3.measureText(text).width);
+  ctx3.fillStyle = "#4888ff";
+  ctx3.fillText(text, x + labelW / 5, y + 3);
 }
 function drawHBoundary(ctx3, c, r) {
   const x = cellX(c), y = cellY(r), THICK = 5;
@@ -4973,7 +4984,7 @@ var allKeys = { common: [], affinity: [] };
 var allWeapons = [];
 var allBuffs = [];
 var defaultWeapons = {};
-var skillOrder = ["Basic Attack", "Skill 1", "Skill 2", "Skill 3", "Passive", "Skill A", "Skill B"];
+var skillOrder = ["Basic Attack", "Skill 1", "Skill 2", "Skill 3", "Passive", "Skill A", "Skill B", "End Turn", "Move"];
 var skillOrderMap = skillOrder.reduce(
   (previousValue, currentValue, currentIndex) => ({ ...previousValue, [currentValue]: currentIndex, [currentIndex]: currentValue }),
   {}
@@ -4987,7 +4998,15 @@ var notations = {
   "Skill A": ["S6", "6", "SA", "1"],
   "Skill B": ["S7", "7", "SB", "2"],
   "End Turn": ["ET", "Z", "END"],
-  Move: ["MV", "W", "MOVE"]
+  Move: ["MV", "W", "MOVE", "MOV"]
+};
+var endTurnSkill = {
+  id: -1,
+  name: "End Turn",
+  type: "End Turn",
+  range: null,
+  tags: [],
+  localImagePath: "data/common/EndTurn.png"
 };
 var [editorTool, setEditorTool] = createSignal("spawn");
 var [editorStatus, setEditorStatus] = createSignal("Left-click / drag to place \xB7 Right-click to erase");
@@ -5237,9 +5256,10 @@ function getDollStartingPosition(dollId, instanceId) {
 function getSortedUsableSkills(doll) {
   const usable = (doll.skills || []).filter((s) => s.type !== "Passive" || s.name === "Escort");
   const basic = usable.filter((s) => s.type === "Basic Attack");
+  const endTurn = usable.filter((s) => s.type === "End Turn");
   const numbered = usable.filter((s) => (s.type || "").startsWith("Skill ")).sort((a, b) => parseInt((a.type || "").replace("Skill ", "")) - parseInt((b.type || "").replace("Skill ", "")));
-  const rest = usable.filter((s) => !basic.includes(s) && !numbered.includes(s)).sort((a, b) => (a.name || "").localeCompare(b.name || ""));
-  return [...basic, ...numbered, ...rest];
+  const rest = usable.filter((s) => !basic.includes(s) && !numbered.includes(s) && !endTurn.includes(s)).sort((a, b) => (a.name || "").localeCompare(b.name || ""));
+  return [...basic, ...numbered, ...rest, ...endTurn];
 }
 function isPlaced(dollId) {
   for (const p of state.tabData[state.currentTab].summonPositions) {
@@ -5596,6 +5616,8 @@ async function loadFromString(data) {
 }
 function setSkillDisplay(skillType, notationStyle) {
   const index = notations[skillType].indexOf(notationStyle);
+  if (state.skillDisplay[skillOrder.indexOf(skillType)] === index) return;
+  console.log("Setting skill display", skillType, notationStyle, index, skillOrder.indexOf(skillType));
   setState(
     produce((s) => {
       s.skillDisplay[skillOrder.indexOf(skillType)] = index;
@@ -5604,7 +5626,7 @@ function setSkillDisplay(skillType, notationStyle) {
   saveToLocalStorage();
 }
 function getSkillDisplay(skillType) {
-  return notations[skillType][state.skillDisplay[skillOrder.indexOf(skillType)]];
+  return notations[skillType][state.skillDisplay[skillOrder.indexOf(skillType)] ?? 0];
 }
 function overrideSkillDisplay(values) {
   setState(
@@ -5775,7 +5797,7 @@ async function loadCombinedJson() {
         gunType: entry.gunType,
         hasSummons: false,
         hasExpansionKey,
-        skills: entry.skills ? entry.skills : [],
+        skills: entry.skills ? [...entry.skills, endTurnSkill] : [endTurnSkill],
         keys: entry.keys ? entry.keys : [],
         summons: []
       };
@@ -5788,7 +5810,7 @@ async function loadCombinedJson() {
             dollId: entry.id,
             name: summon.name,
             avatar: summon.localImagePath,
-            skills: summon.skills ? summon.skills : []
+            skills: summon.skills ? [...summon.skills, endTurnSkill] : [endTurnSkill]
           });
         }
       }
@@ -6999,7 +7021,9 @@ function SkillDisplayModal() {
   const passiveSkill = dollInfo?.skills?.filter((s) => s.type === "Passive") ?? [];
   const numberedSkills = dollInfo?.skills?.filter((s) => s.type.match(/Skill [0-9]/)) ?? [];
   const letteredSkills = dollInfo?.skills?.filter((s) => s.type.match(/Skill [A-Z]/)) ?? [];
-  const skills = [...basicSkill, ...numberedSkills, ...passiveSkill, ...letteredSkills];
+  const endTurnSkills = dollInfo?.skills?.filter((s) => s.type.match("End Turn")) ?? [];
+  const moveSkills = dollInfo?.skills?.filter((s) => s.type.match("Move")) ?? [];
+  const skills = [...moveSkills, ...basicSkill, ...numberedSkills, ...passiveSkill, ...letteredSkills, ...endTurnSkills];
   return [createComponent(ModalHeader, {
     title: "Skill Display"
   }), (() => {
@@ -7826,7 +7850,7 @@ function App() {
         return createComponent(FullScreen, {
           get children() {
             return createComponent(Modal, {
-              width: "w-96",
+              width: "w-[460px]",
               get children() {
                 return createComponent(SkillDisplayModal, {});
               }
