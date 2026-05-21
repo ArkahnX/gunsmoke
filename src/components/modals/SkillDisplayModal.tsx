@@ -23,7 +23,9 @@ export default function SkillDisplayModal() {
 	const passiveSkill = dollInfo?.skills?.filter((s) => s.type === "Passive") ?? [];
 	const numberedSkills = dollInfo?.skills?.filter((s) => s.type.match(/Skill [0-9]/)) ?? [];
 	const letteredSkills = dollInfo?.skills?.filter((s) => s.type.match(/Skill [A-Z]/)) ?? [];
-	const skills = [...basicSkill, ...numberedSkills, ...passiveSkill, ...letteredSkills];
+	const endTurnSkills = dollInfo?.skills?.filter((s) => s.type.match("End Turn")) ?? [];
+	const moveSkills = dollInfo?.skills?.filter((s) => s.type.match("Move")) ?? [];
+	const skills = [...moveSkills, ...basicSkill, ...numberedSkills, ...passiveSkill, ...letteredSkills, ...endTurnSkills];
 
 	return (
 		<>

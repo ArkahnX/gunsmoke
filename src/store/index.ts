@@ -129,7 +129,7 @@ export const allKeys: KeyData = { common: [], affinity: [] };
 export const allWeapons: WeaponData[] = [];
 export const allBuffs: BuffData[] = [];
 export const defaultWeapons: Record<string, WeaponData> = {};
-export const skillOrder = ["Basic Attack", "Skill 1", "Skill 2", "Skill 3", "Passive", "Skill A", "Skill B"];
+export const skillOrder = ["Basic Attack", "Skill 1", "Skill 2", "Skill 3", "Passive", "Skill A", "Skill B", "End Turn", "Move"];
 export const skillOrderMap: Record<string, number | string> = skillOrder.reduce(
 	(previousValue, currentValue, currentIndex) => ({ ...previousValue, [currentValue]: currentIndex, [currentIndex]: currentValue }),
 	{}
@@ -143,8 +143,17 @@ export const notations: Record<string, string[]> = {
 	"Skill A": ["S6", "6", "SA", "1"],
 	"Skill B": ["S7", "7", "SB", "2"],
 	"End Turn": ["ET", "Z", "END"],
-	Move: ["MV", "W", "MOVE"],
+	Move: ["MV", "W", "MOVE", "MOV"],
 };
+
+export const endTurnSkill = {
+	id: -1,
+	name: "End Turn",
+	type: "End Turn",
+	range: null,
+	tags:[],
+	localImagePath: "data/common/EndTurn.png"
+}
 
 // ====================== EDITOR STATE ======================
 export const [editorTool, setEditorTool] = createSignal<EditorTool>("spawn");
@@ -425,13 +434,14 @@ export function getDollStartingPosition(dollId: string, instanceId: string | nul
 export function getSortedUsableSkills(doll: DollData | SummonData) {
 	const usable = (doll.skills || []).filter((s) => s.type !== "Passive" || s.name === "Escort");
 	const basic = usable.filter((s) => s.type === "Basic Attack");
+	const endTurn = usable.filter((s) => s.type === "End Turn");
 	const numbered = usable
 		.filter((s) => (s.type || "").startsWith("Skill "))
 		.sort((a, b) => parseInt((a.type || "").replace("Skill ", "")) - parseInt((b.type || "").replace("Skill ", "")));
 	const rest = usable
-		.filter((s) => !basic.includes(s) && !numbered.includes(s))
+		.filter((s) => !basic.includes(s) && !numbered.includes(s) && !endTurn.includes(s))
 		.sort((a, b) => (a.name || "").localeCompare(b.name || ""));
-	return [...basic, ...numbered, ...rest];
+	return [...basic, ...numbered, ...rest, ...endTurn];
 }
 
 export function isPlaced(dollId: string): boolean {
@@ -829,6 +839,8 @@ export async function loadFromString(data: string): Promise<(AppState & { versio
 
 export function setSkillDisplay(skillType: string, notationStyle: string) {
 	const index = notations[skillType].indexOf(notationStyle);
+	if(state.skillDisplay[skillOrder.indexOf(skillType)] === index) return;
+	console.log("Setting skill display", skillType, notationStyle, index, skillOrder.indexOf(skillType));
 	setState(
 		produce((s) => {
 			s.skillDisplay[skillOrder.indexOf(skillType)] = index;
@@ -838,7 +850,7 @@ export function setSkillDisplay(skillType: string, notationStyle: string) {
 }
 
 export function getSkillDisplay(skillType: string): string {
-	return notations[skillType][state.skillDisplay[skillOrder.indexOf(skillType)]];
+	return notations[skillType][state.skillDisplay[skillOrder.indexOf(skillType)] ?? 0];
 }
 
 export function overrideSkillDisplay(values: number[]) {
@@ -1036,7 +1048,7 @@ export async function loadCombinedJson() {
 				gunType: entry.gunType,
 				hasSummons: false,
 				hasExpansionKey: hasExpansionKey,
-				skills: entry.skills ? entry.skills : [],
+				skills: entry.skills ? [...entry.skills, endTurnSkill] : [endTurnSkill],
 				keys: entry.keys ? entry.keys : [],
 				summons: [],
 			};
@@ -1049,7 +1061,7 @@ export async function loadCombinedJson() {
 						dollId: entry.id,
 						name: summon.name,
 						avatar: summon.localImagePath,
-						skills: summon.skills ? summon.skills : [],
+						skills: summon.skills ? [...summon.skills, endTurnSkill] : [endTurnSkill],
 					});
 				}
 			}

@@ -137,7 +137,7 @@ export default function App() {
 			</Show>
 			<Show when={showSkillDisplayModal() && loaded()}>
 				<FullScreen>
-					<Modal width="w-96">
+					<Modal width="w-[460px]">
 						<SkillDisplayModal />
 					</Modal>
 				</FullScreen>

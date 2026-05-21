@@ -25,8 +25,10 @@ export function drawFloor(ctx: CanvasRenderingContext2D, c: number, r: number) {
 }
 
 export function drawSpawn(ctx: CanvasRenderingContext2D, c: number, r: number) {
-	const x = cellX(c),
-		y = cellY(r);
+	const x = cellX(c);
+		const y = cellY(r);
+		const mapCoord = gridKey(c, r);
+const priority = mapGrid.priority.indexOf(mapCoord);
 	ctx.fillStyle = "rgba(18,60,180,0.18)";
 	ctx.fillRect(x + 1, y + 1, TILE_SIZE - 2, TILE_SIZE - 2);
 	ctx.strokeStyle = "#3070ee";
@@ -60,6 +62,15 @@ export function drawSpawn(ctx: CanvasRenderingContext2D, c: number, r: number) {
 	ctx.closePath();
 	ctx.fillStyle = "#4888ff";
 	ctx.fill();
+
+	const fontSize = Math.max(7, Math.round(TILE_SIZE * 0.01));
+	ctx.font = `bold 5px Roboto, sans-serif`;
+	ctx.textAlign = "left";
+	ctx.textBaseline = "top";
+	const text = (priority+1) + "\nPriority";
+	const labelW = Math.ceil(ctx.measureText(text).width);
+	ctx.fillStyle = "#4888ff";
+	ctx.fillText(text, x + (labelW / 5), y + 3);
 }
 
 export function drawHBoundary(ctx: CanvasRenderingContext2D, c: number, r: number) {
