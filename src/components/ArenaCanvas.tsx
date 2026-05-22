@@ -344,6 +344,7 @@ function getDragStatus(tileX: number, tileY: number, id: string, instanceId: str
 }
 
 function AddDollToMap(drag: DragState): void {
+	if(!drag.id) return;
 	if (drag.status === DragStatus.Discard) {
 		removeDollOrSummon(drag.id, drag.instanceId);
 	} else if (drag.status === DragStatus.Swap) {

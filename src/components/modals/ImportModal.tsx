@@ -1,5 +1,5 @@
 import { createSignal } from "solid-js";
-import { setShowImportModal, setLoaded, importState, loadFromString } from "../../store";
+import { setShowImportModal, setLoaded, importState, loadFromString, setStateFromURL } from "../../store";
 import Button from "../buttons/Button";
 import ModalFooter from "./ModalFooter";
 import ModalHeader from "./ModalHeader";
@@ -9,6 +9,8 @@ export default function ImportModal() {
 
 	const performImport = async () => {
 		setLoaded(false);
+		setStateFromURL(false);
+		window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
 		await importState(loadFromString, text(), true);
 		setShowImportModal(false);
 		setLoaded(true);

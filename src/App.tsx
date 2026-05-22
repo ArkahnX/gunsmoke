@@ -1,4 +1,4 @@
-import { Show, onMount } from "solid-js";
+import { Show, createEffect, onMount } from "solid-js";
 import {
 	state,
 	showDollModal,
@@ -18,6 +18,9 @@ import {
 	loadFromString,
 	migrate,
 	showBuffModal,
+	setStateHashMatch,
+	compareStateHash,
+	setStateFromURL,
 } from "./store";
 
 import TabBar from "./components/TabBar";
@@ -37,6 +40,7 @@ import KeyModal from "./components/modals/KeyModal";
 import WeaponModal from "./components/modals/WeaponModal";
 import DarkModal from "./components/modals/DarkModal";
 import BuffModal from "./components/modals/BuffModal";
+import { trackStore } from "@solid-primitives/deep";
 
 export default function App() {
 	onMount(async () => {
@@ -46,13 +50,22 @@ export default function App() {
 		migrate();
 		const params = new URLSearchParams(window.location.search);
 		if (params.has("state")) {
+			setStateFromURL(true);
 			await importState(loadFromString, params.get("state")!);
-			window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
 		} else {
 			await importState(loadFromLocalStorage, "");
 		}
 
 		setTimeout(() => setLoaded(true), 0);
+		window.addEventListener("focus", function (e) {
+			setStateHashMatch(compareStateHash(state));
+		});
+		createEffect(() => {
+			trackStore(state);
+			setTimeout(() => {
+				setStateHashMatch(compareStateHash(state));
+			}, 0);
+		});
 	});
 
 	const isEditorTab = () => state.currentTab === -1;

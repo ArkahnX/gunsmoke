@@ -7,8 +7,8 @@ import {
 	setOverrideSkillNotations,
 	setSkillDisplay,
 	getSkillDisplay,
-	saveToLocalStorage,
 	overrideSkillNotations,
+	saveSkillDisplay,
 } from "../../store";
 import { Select } from "@thisbeyond/solid-select";
 import Button from "../buttons/Button";
@@ -38,7 +38,7 @@ export default function SkillDisplayModal() {
 						options={["true", "false"]}
 						onChange={(value) => {
 							setOverrideSkillNotations(value === "true" ? true : false);
-							saveToLocalStorage();
+							saveSkillDisplay();
 						}}
 						initialValue={String(overrideSkillNotations())}
 					/>

@@ -1,4 +1,4 @@
-import { createStore, produce } from "solid-js/store";
+import { createStore, produce, unwrap } from "solid-js/store";
 import { createMemo, createSignal } from "solid-js";
 import {
 	type AppState,
@@ -151,9 +151,9 @@ export const endTurnSkill = {
 	name: "End Turn",
 	type: "End Turn",
 	range: null,
-	tags:[],
-	localImagePath: "data/common/EndTurn.png"
-}
+	tags: [],
+	localImagePath: "data/common/EndTurn.png",
+};
 
 // ====================== EDITOR STATE ======================
 export const [editorTool, setEditorTool] = createSignal<EditorTool>("spawn");
@@ -172,14 +172,15 @@ function makeDefaultTabData(): TabData {
 
 export const [tempSelectedDolls, setTempSelectedDolls] = createStore<SelectedDoll[]>([]);
 
-export const [state, setState] = createStore<AppState>({
+const defaultState: AppState = {
 	selectedDolls: [],
 	currentTab: 0,
 	map: "Blade Guard Titan",
 	buffs: [],
 	skillDisplay: [0, 0, 0, 0, 0, 0, 0],
 	tabData: Array.from({ length: 8 }, () => makeDefaultTabData()),
-});
+};
+export const [state, setState] = createStore<AppState>(defaultState);
 
 // ====================== MODAL STATE ======================
 export const [showDollModal, setShowDollModal] = createSignal(false);
@@ -199,6 +200,8 @@ export const [targetSkillId, setTargetSkillId] = createSignal<number | null>(nul
 export const [activePhaseTab, setActivePhaseTab] = createSignal<string>("All");
 export const [tempSelected, setTempSelected] = createSignal<string[]>([]);
 export const [dollFortification, setDollFortification] = createSignal<Record<string, number>>({});
+export const [stateHashMatch, setStateHashMatch] = createSignal(false);
+export const [stateFromURL, setStateFromURL] = createSignal(false);
 
 // ====================== ARENA VIEWPORT ======================
 export const [zoom, setZoom] = createSignal(2.0);
@@ -648,8 +651,32 @@ export async function updateSelectedDolls() {
 // ====================== PERSISTENCE ======================
 export function saveToLocalStorage() {
 	console.log("Saving to localStorage");
+	setStateFromURL(false);
+	window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
 	localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: SAVE_VERSION, ...state }));
+}
+
+export function saveSkillDisplay() {
 	localStorage.setItem(SKILL_DISPLAY_KEY, JSON.stringify({ override: overrideSkillNotations(), skillDisplay: state.skillDisplay }));
+}
+
+export function compareStateHash(localState: AppState) {
+	const storedState = localStorageLoad<AppState & { version: number }>(STORAGE_KEY);
+	if (!storedState) return false;
+	const clone: Exclude<AppState, "version"> = structuredClone(unwrap(localState));
+	const oldState = {
+		selectedDolls: storedState.selectedDolls,
+		map: storedState.map,
+		buffs: storedState.buffs ?? [],
+		tabData: storedState.tabData,
+	};
+	const newState = {
+		selectedDolls: clone.selectedDolls,
+		map: clone.map,
+		buffs: clone.buffs ?? [],
+		tabData: clone.tabData,
+	};
+	return JSON.stringify(oldState) === JSON.stringify(newState);
 }
 
 export function loadState(newData: AppState & { version: number }) {
@@ -801,7 +828,9 @@ export async function importState(
 		loadMap(state.map);
 		setupTempSelectedDolls();
 		console.log("finished loading state");
-		saveToLocalStorage();
+		if (stateFromURL() === false) {
+			saveToLocalStorage();
+		}
 	} catch (e) {
 		alert("Error importing state");
 		console.error("Error importing state", e);
@@ -820,7 +849,6 @@ export async function importState(
 			loadMap(state.map);
 			setupTempSelectedDolls();
 			console.log("finished loading backup state");
-			saveToLocalStorage();
 			return;
 		}
 	}
@@ -828,7 +856,11 @@ export async function importState(
 
 export function loadFromLocalStorage(data: string): Promise<(AppState & { version: number }) | null> {
 	return new Promise((resolve) => {
-		resolve(localStorageLoad<AppState & { version: number }>(STORAGE_KEY));
+		if (localStorage.getItem(STORAGE_KEY) === null) {
+			resolve({ version: SAVE_VERSION, ...defaultState });
+		} else {
+			resolve(localStorageLoad<AppState & { version: number }>(STORAGE_KEY));
+		}
 	});
 }
 
@@ -839,14 +871,13 @@ export async function loadFromString(data: string): Promise<(AppState & { versio
 
 export function setSkillDisplay(skillType: string, notationStyle: string) {
 	const index = notations[skillType].indexOf(notationStyle);
-	if(state.skillDisplay[skillOrder.indexOf(skillType)] === index) return;
+	if (state.skillDisplay[skillOrder.indexOf(skillType)] === index) return;
 	console.log("Setting skill display", skillType, notationStyle, index, skillOrder.indexOf(skillType));
 	setState(
 		produce((s) => {
 			s.skillDisplay[skillOrder.indexOf(skillType)] = index;
 		})
 	);
-	saveToLocalStorage();
 }
 
 export function getSkillDisplay(skillType: string): string {
@@ -860,7 +891,6 @@ export function overrideSkillDisplay(values: number[]) {
 			s.skillDisplay.push(...values);
 		})
 	);
-	saveToLocalStorage();
 }
 
 // ====================== COMPRESSION ======================

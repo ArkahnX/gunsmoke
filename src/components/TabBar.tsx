@@ -1,17 +1,34 @@
 import { createMemo, For, Show } from "solid-js";
-import { state, setState, saveToLocalStorage, setShowExportModal, setShowImportModal, setShowSkillDisplayModal } from "../store";
+import {
+	state,
+	setState,
+	saveToLocalStorage,
+	setShowExportModal,
+	setShowImportModal,
+	setShowSkillDisplayModal,
+	stateHashMatch,
+	interactiveStyles,
+	stateFromURL,
+} from "../store";
 import { produce } from "solid-js/store";
 import { TabBarProps } from "../types";
 import Button from "./buttons/Button";
 
 export default function TabBar(props: TabBarProps) {
+	const savedState = "The current state is saved locally.";
+	const urlState = "The current state is derived from the URL. Make a change to save it locally.";
+	const unsavedState = "The current state is unsaved. Make a change to save it locally.";
+	const stateStyle = createMemo(() => {
+		if(stateFromURL()) return {color:"bg-[#F0AF16]",text:urlState};
+		if(stateHashMatch()) return {color:"bg-[#2dd4bf]",text:savedState};
+		return {color:"bg-[#AE4749]",text:unsavedState};
+	})
 	const switchToTab = (newTab: number) => {
 		setState(
 			produce((s) => {
 				s.currentTab = newTab;
 			})
 		);
-		saveToLocalStorage();
 		props.onTabChange(newTab);
 	};
 	const isActionTab = createMemo(() => state.currentTab >= 1 && state.currentTab <= 7);
@@ -81,16 +98,19 @@ export default function TabBar(props: TabBarProps) {
 					Summary
 				</button>
 			</div>
-			<Show when={state.currentTab === 8}>
-				<div class="flex flex-row gap-1.5 p-1">
-					<Button onClick={() => setShowExportModal(true)} color="dark" design="custom" content="Export Transcript" />
-					<Button onClick={() => setShowImportModal(true)} color="dark" design="custom" content="Import Transcript" />
-					<Button onClick={() => setShowSkillDisplayModal(true)} color="dark" design="custom" content="Set Skill Display" />
-				</div>
-			</Show>
-			<Show when={isActionTab()}>
-				<Button onClick={copyPreviousPlacements} color="dark" design="custom" content="Use Previous Turn Positions" />
-			</Show>
+			<div class="flex flex-row items-center gap-2">
+				<Show when={state.currentTab === 8}>
+					<div class="flex flex-row gap-1.5 p-1">
+						<Button onClick={() => setShowExportModal(true)} color="dark" design="custom" content="Export Transcript" />
+						<Button onClick={() => setShowImportModal(true)} color="dark" design="custom" content="Import Transcript" />
+						<Button onClick={() => setShowSkillDisplayModal(true)} color="dark" design="custom" content="Set Skill Display" />
+					</div>
+				</Show>
+				<Show when={isActionTab()}>
+					<Button onClick={copyPreviousPlacements} color="dark" design="custom" content="Use Previous Turn Positions" />
+				</Show>
+				<div class={`${interactiveStyles(false)} rounded-full w-6 h-6 ${stateStyle().color}`} title={stateStyle().text}></div>
+			</div>
 		</div>
 	);
 }

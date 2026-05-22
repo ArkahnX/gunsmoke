@@ -110,8 +110,10 @@ export default function SetupSidebar(props: { active: boolean }) {
 					class="custom"
 					options={mapNames()}
 					onChange={(value) => {
-						loadMap(value);
-						saveToLocalStorage();
+						if (value !== state.map) {
+							loadMap(value);
+							saveToLocalStorage();
+						}
 					}}
 					initialValue={state.map}
 				/>
