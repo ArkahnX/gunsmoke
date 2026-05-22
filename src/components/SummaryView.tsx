@@ -232,7 +232,7 @@ export default function SummaryView() {
 										<div class="">{dollRemolding()}</div>
 									</div>
 								</div>
-								<div class="relative flex h-[68px] w-[130px] flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50">
+								<div class="relative flex h-17 w-32.5 flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50">
 									<Show when={dollWeapon().imprintImage}>
 										<div class="absolute bottom-1 left-2 z-10 h-8 w-8">
 											<img src={dollWeapon().imprintImage!} class="relative h-full w-full object-cover" />
