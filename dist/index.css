@@ -732,9 +732,6 @@
   .h-\[18px\] {
     height: 18px;
   }
-  .h-\[68px\] {
-    height: 68px;
-  }
   .h-\[120px\] {
     height: 120px;
   }
@@ -832,6 +829,9 @@
   .w-32 {
     width: calc(var(--spacing) * 32);
   }
+  .w-32\.5 {
+    width: calc(var(--spacing) * 32.5);
+  }
   .w-40 {
     width: calc(var(--spacing) * 40);
   }
@@ -855,9 +855,6 @@
   }
   .w-\[11px\] {
     width: 11px;
-  }
-  .w-\[130px\] {
-    width: 130px;
   }
   .w-\[460px\] {
     width: 460px;
