@@ -4142,8 +4142,10 @@ function SetupSidebar(props) {
         return mapNames();
       },
       onChange: (value) => {
-        loadMap(value);
-        saveToLocalStorage();
+        if (value !== state.map) {
+          loadMap(value);
+          saveToLocalStorage();
+        }
       },
       get initialValue() {
         return state.map;
@@ -4794,6 +4796,7 @@ function getDragStatus(tileX, tileY, id, instanceId) {
   return 0 /* Valid */;
 }
 function AddDollToMap(drag2) {
+  if (!drag2.id) return;
   if (drag2.status === 3 /* Discard */) {
     removeDollOrSummon(drag2.id, drag2.instanceId);
   } else if (drag2.status === 2 /* Swap */) {
@@ -5020,14 +5023,15 @@ function makeDefaultTabData() {
   return { actionOrder: [], actions: {}, dollPositions: {}, summonPositions: [] };
 }
 var [tempSelectedDolls, setTempSelectedDolls] = createStore([]);
-var [state, setState] = createStore({
+var defaultState = {
   selectedDolls: [],
   currentTab: 0,
   map: "Blade Guard Titan",
   buffs: [],
   skillDisplay: [0, 0, 0, 0, 0, 0, 0],
   tabData: Array.from({ length: 8 }, () => makeDefaultTabData())
-});
+};
+var [state, setState] = createStore(defaultState);
 var [showDollModal, setShowDollModal] = createSignal(false);
 var [showFormationModal, setShowFormationModal] = createSignal(false);
 var [showWeaponModal, setShowWeaponModal] = createSignal(false);
@@ -5045,6 +5049,8 @@ var [targetSkillId, setTargetSkillId] = createSignal(null);
 var [activePhaseTab, setActivePhaseTab] = createSignal("All");
 var [tempSelected, setTempSelected] = createSignal([]);
 var [dollFortification, setDollFortification] = createSignal({});
+var [stateHashMatch, setStateHashMatch] = createSignal(false);
+var [stateFromURL, setStateFromURL] = createSignal(false);
 var [zoom, setZoom] = createSignal(2);
 var [coords, setCoords] = createSignal("");
 var [offsetX, setOffsetX] = createSignal(0);
@@ -5439,8 +5445,30 @@ async function updateSelectedDolls() {
 }
 function saveToLocalStorage() {
   console.log("Saving to localStorage");
+  setStateFromURL(false);
+  window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
   localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: SAVE_VERSION, ...state }));
+}
+function saveSkillDisplay() {
   localStorage.setItem(SKILL_DISPLAY_KEY, JSON.stringify({ override: overrideSkillNotations(), skillDisplay: state.skillDisplay }));
+}
+function compareStateHash(localState) {
+  const storedState = localStorageLoad(STORAGE_KEY);
+  if (!storedState) return false;
+  const clone = structuredClone(unwrap(localState));
+  const oldState = {
+    selectedDolls: storedState.selectedDolls,
+    map: storedState.map,
+    buffs: storedState.buffs ?? [],
+    tabData: storedState.tabData
+  };
+  const newState = {
+    selectedDolls: clone.selectedDolls,
+    map: clone.map,
+    buffs: clone.buffs ?? [],
+    tabData: clone.tabData
+  };
+  return JSON.stringify(oldState) === JSON.stringify(newState);
 }
 function loadState(newData) {
   const incomingState = version7To8Upgrade(newData);
@@ -5582,7 +5610,9 @@ async function importState(processFn, data, fallback = false) {
     loadMap(state.map);
     setupTempSelectedDolls();
     console.log("finished loading state");
-    saveToLocalStorage();
+    if (stateFromURL() === false) {
+      saveToLocalStorage();
+    }
   } catch (e) {
     alert("Error importing state");
     console.error("Error importing state", e);
@@ -5600,14 +5630,17 @@ async function importState(processFn, data, fallback = false) {
       loadMap(state.map);
       setupTempSelectedDolls();
       console.log("finished loading backup state");
-      saveToLocalStorage();
       return;
     }
   }
 }
 function loadFromLocalStorage(data) {
   return new Promise((resolve) => {
-    resolve(localStorageLoad(STORAGE_KEY));
+    if (localStorage.getItem(STORAGE_KEY) === null) {
+      resolve({ version: SAVE_VERSION, ...defaultState });
+    } else {
+      resolve(localStorageLoad(STORAGE_KEY));
+    }
   });
 }
 async function loadFromString(data) {
@@ -5623,7 +5656,6 @@ function setSkillDisplay(skillType, notationStyle) {
       s.skillDisplay[skillOrder.indexOf(skillType)] = index;
     })
   );
-  saveToLocalStorage();
 }
 function getSkillDisplay(skillType) {
   return notations[skillType][state.skillDisplay[skillOrder.indexOf(skillType)] ?? 0];
@@ -5635,7 +5667,6 @@ function overrideSkillDisplay(values) {
       s.skillDisplay.push(...values);
     })
   );
-  saveToLocalStorage();
 }
 async function compress(str) {
   const byteArray = new TextEncoder().encode(str);
@@ -5843,14 +5874,30 @@ function runAfterFramePaint(callback) {
 
 // src/components/TabBar.tsx
 var _tmpl$37 = /* @__PURE__ */ template(`<div class="flex flex-row gap-1.5 p-1">`);
-var _tmpl$213 = /* @__PURE__ */ template(`<div class="flex items-center justify-between gap-1 overflow-x-auto border-t border-[#E06C28] bg-[#C7C5CE] px-4 py-2"><div class="flex gap-3"><button>Map Editor</button><div class="mx-1 h-6 w-px self-center bg-zinc-700"></div><div class="flex gap-0"></div><button>Summary`);
+var _tmpl$213 = /* @__PURE__ */ template(`<div class="flex items-center justify-between gap-1 overflow-x-auto border-t border-[#E06C28] bg-[#C7C5CE] px-4 py-2"><div class="flex gap-3"><button>Map Editor</button><div class="mx-1 h-6 w-px self-center bg-zinc-700"></div><div class="flex gap-0"></div><button>Summary</button></div><div class="flex flex-row items-center gap-2"><div>`);
 var _tmpl$38 = /* @__PURE__ */ template(`<button>`);
 function TabBar(props) {
+  const savedState = "The current state is saved locally.";
+  const urlState = "The current state is derived from the URL. Make a change to save it locally.";
+  const unsavedState = "The current state is unsaved. Make a change to save it locally.";
+  const stateStyle = createMemo(() => {
+    if (stateFromURL()) return {
+      color: "bg-[#F0AF16]",
+      text: urlState
+    };
+    if (stateHashMatch()) return {
+      color: "bg-[#2dd4bf]",
+      text: savedState
+    };
+    return {
+      color: "bg-[#AE4749]",
+      text: unsavedState
+    };
+  });
   const switchToTab = (newTab) => {
     setState(produce((s) => {
       s.currentTab = newTab;
     }));
-    saveToLocalStorage();
     props.onTabChange(newTab);
   };
   const isActionTab = createMemo(() => state.currentTab >= 1 && state.currentTab <= 7);
@@ -5882,7 +5929,7 @@ function TabBar(props) {
     saveToLocalStorage();
   };
   return (() => {
-    var _el$ = _tmpl$213(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$4.nextSibling, _el$6 = _el$5.nextSibling;
+    var _el$ = _tmpl$213(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$4.nextSibling, _el$6 = _el$5.nextSibling, _el$7 = _el$2.nextSibling, _el$9 = _el$7.firstChild;
     _el$3.$$click = () => switchToTab(-1);
     insert(_el$5, createComponent(For, {
       get each() {
@@ -5891,42 +5938,42 @@ function TabBar(props) {
         }, (_, i) => i);
       },
       children: (i) => (() => {
-        var _el$8 = _tmpl$38();
-        _el$8.$$click = () => switchToTab(i);
-        insert(_el$8, i === 0 ? "Setup" : i);
-        createRenderEffect(() => className(_el$8, `flex h-13 flex-1 cursor-pointer items-center justify-center gap-1 rounded-t-sm border-b-4 px-3 pt-3 pb-2 text-2xl font-bold transition-all ${state.currentTab === i ? "border-[#F26C1C] bg-[#384B53] text-[#EFEFEF] shadow-xl/20" : "border-[#8F9094] bg-transparent text-[#384B53] hover:border-[#606164]"}`));
-        return _el$8;
+        var _el$0 = _tmpl$38();
+        _el$0.$$click = () => switchToTab(i);
+        insert(_el$0, i === 0 ? "Setup" : i);
+        createRenderEffect(() => className(_el$0, `flex h-13 flex-1 cursor-pointer items-center justify-center gap-1 rounded-t-sm border-b-4 px-3 pt-3 pb-2 text-2xl font-bold transition-all ${state.currentTab === i ? "border-[#F26C1C] bg-[#384B53] text-[#EFEFEF] shadow-xl/20" : "border-[#8F9094] bg-transparent text-[#384B53] hover:border-[#606164]"}`));
+        return _el$0;
       })()
     }));
     _el$6.$$click = () => switchToTab(8);
-    insert(_el$, createComponent(Show, {
+    insert(_el$7, createComponent(Show, {
       get when() {
         return state.currentTab === 8;
       },
       get children() {
-        var _el$7 = _tmpl$37();
-        insert(_el$7, createComponent(Button, {
+        var _el$8 = _tmpl$37();
+        insert(_el$8, createComponent(Button, {
           onClick: () => setShowExportModal(true),
           color: "dark",
           design: "custom",
           content: "Export Transcript"
         }), null);
-        insert(_el$7, createComponent(Button, {
+        insert(_el$8, createComponent(Button, {
           onClick: () => setShowImportModal(true),
           color: "dark",
           design: "custom",
           content: "Import Transcript"
         }), null);
-        insert(_el$7, createComponent(Button, {
+        insert(_el$8, createComponent(Button, {
           onClick: () => setShowSkillDisplayModal(true),
           color: "dark",
           design: "custom",
           content: "Set Skill Display"
         }), null);
-        return _el$7;
+        return _el$8;
       }
-    }), null);
-    insert(_el$, createComponent(Show, {
+    }), _el$9);
+    insert(_el$7, createComponent(Show, {
       get when() {
         return isActionTab();
       },
@@ -5938,15 +5985,19 @@ function TabBar(props) {
           content: "Use Previous Turn Positions"
         });
       }
-    }), null);
+    }), _el$9);
     createRenderEffect((_p$) => {
-      var _v$ = `flex h-13 flex-1 cursor-pointer items-center justify-center gap-1 rounded-t-sm border-b-4 px-3 pt-3 pb-2 text-2xl font-bold whitespace-nowrap transition-all ${state.currentTab === -1 ? "border-[#F26C1C] bg-[#384B53] text-[#EFEFEF] shadow-xl/20" : "border-[#8F9094] bg-[#A8A9AE] text-[#384B53] hover:border-[#606164]"}`, _v$2 = `flex h-13 flex-1 cursor-pointer items-center justify-center gap-1 rounded-t-sm border-b-4 px-3 pt-3 pb-2 text-2xl font-bold transition-all ${state.currentTab === 8 ? "border-[#F26C1C] bg-[#384B53] text-[#EFEFEF] shadow-xl/20" : "border-[#8F9094] bg-transparent text-[#384B53] hover:border-[#606164]"}`;
+      var _v$ = `flex h-13 flex-1 cursor-pointer items-center justify-center gap-1 rounded-t-sm border-b-4 px-3 pt-3 pb-2 text-2xl font-bold whitespace-nowrap transition-all ${state.currentTab === -1 ? "border-[#F26C1C] bg-[#384B53] text-[#EFEFEF] shadow-xl/20" : "border-[#8F9094] bg-[#A8A9AE] text-[#384B53] hover:border-[#606164]"}`, _v$2 = `flex h-13 flex-1 cursor-pointer items-center justify-center gap-1 rounded-t-sm border-b-4 px-3 pt-3 pb-2 text-2xl font-bold transition-all ${state.currentTab === 8 ? "border-[#F26C1C] bg-[#384B53] text-[#EFEFEF] shadow-xl/20" : "border-[#8F9094] bg-transparent text-[#384B53] hover:border-[#606164]"}`, _v$3 = `${interactiveStyles(false)} rounded-full w-6 h-6 ${stateStyle().color}`, _v$4 = stateStyle().text;
       _v$ !== _p$.e && className(_el$3, _p$.e = _v$);
       _v$2 !== _p$.t && className(_el$6, _p$.t = _v$2);
+      _v$3 !== _p$.a && className(_el$9, _p$.a = _v$3);
+      _v$4 !== _p$.o && setAttribute(_el$9, "title", _p$.o = _v$4);
       return _p$;
     }, {
       e: void 0,
-      t: void 0
+      t: void 0,
+      a: void 0,
+      o: void 0
     });
     return _el$;
   })();
@@ -6869,6 +6920,8 @@ function ImportModal() {
   const [text, setText] = createSignal("");
   const performImport = async () => {
     setLoaded(false);
+    setStateFromURL(false);
+    window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
     await importState(loadFromString, text(), true);
     setShowImportModal(false);
     setLoaded(true);
@@ -7033,7 +7086,7 @@ function SkillDisplayModal() {
       options: ["true", "false"],
       onChange: (value) => {
         setOverrideSkillNotations(value === "true" ? true : false);
-        saveToLocalStorage();
+        saveSkillDisplay();
       },
       get initialValue() {
         return String(overrideSkillNotations());
@@ -7680,6 +7733,55 @@ function BuffModal() {
 }
 delegateEvents(["click"]);
 
+// node_modules/@solid-primitives/deep/dist/track-store.js
+var EQUALS_FALSE = { equals: false };
+var TrackStoreCache = /* @__PURE__ */ new WeakMap();
+var TrackVersion = 0;
+function getTrackStoreNode(node) {
+  let track = TrackStoreCache.get(node);
+  if (!track) {
+    createRoot(() => {
+      const unwrapped = unwrap(node);
+      let is_reading = false;
+      let is_stale = true;
+      let version = 0;
+      const [signal, trigger] = createSignal(void 0, EQUALS_FALSE);
+      const memo2 = createMemo(() => {
+        if (is_reading) {
+          node[$TRACK];
+          for (const [key, child] of Object.entries(unwrapped)) {
+            let childNode;
+            if (child != null && typeof child === "object" && ((childNode = child[$PROXY]) || $TRACK in (childNode = untrack(() => node[key])))) {
+              getTrackStoreNode(childNode)?.();
+            }
+          }
+        } else {
+          signal();
+          is_stale = true;
+        }
+      }, void 0, EQUALS_FALSE);
+      track = () => {
+        is_reading = true;
+        if (is_stale) {
+          trigger();
+          is_stale = false;
+        }
+        const already_tracked = version === TrackVersion;
+        version = TrackVersion;
+        already_tracked || memo2();
+        is_reading = false;
+      };
+      TrackStoreCache.set(node, track);
+    });
+  }
+  return track;
+}
+function trackStore(store) {
+  TrackVersion++;
+  $TRACK in store && getTrackStoreNode(store)?.();
+  return store;
+}
+
 // src/App.tsx
 var _tmpl$86 = /* @__PURE__ */ template(`<div class="flex h-screen flex-col bg-zinc-950 text-white"><div class="relative flex-1 overflow-hidden"id=body>`);
 function App() {
@@ -7689,12 +7791,21 @@ function App() {
     migrate();
     const params = new URLSearchParams(window.location.search);
     if (params.has("state")) {
+      setStateFromURL(true);
       await importState(loadFromString, params.get("state"));
-      window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
     } else {
       await importState(loadFromLocalStorage, "");
     }
     setTimeout(() => setLoaded(true), 0);
+    window.addEventListener("focus", function(e) {
+      setStateHashMatch(compareStateHash(state));
+    });
+    createEffect(() => {
+      trackStore(state);
+      setTimeout(() => {
+        setStateHashMatch(compareStateHash(state));
+      }, 0);
+    });
   });
   const isEditorTab = () => state.currentTab === -1;
   const isArenaTab = () => state.currentTab >= 0 && state.currentTab <= 7;
