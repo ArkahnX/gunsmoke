@@ -5118,6 +5118,7 @@ function setBuffs(buffIds) {
       s.buffs.push(...buffIds);
     })
   );
+  saveToLocalStorage();
 }
 function setDollKey(dollId, index, keyId) {
   if (!dollId) return;
@@ -5333,49 +5334,57 @@ function renderAction(dollId, action) {
   return getSkillDisplay(skill.type);
 }
 function displaySmallKeys(dollId, keys) {
-  const doll = getInfoFromId(dollId);
   const blankCommonKey = { type: "Common Key", rarity: "None" };
   const blankFixedKey = { type: "Fixed Key", rarity: "None" };
   const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
+  const doll = getInfoFromId(dollId);
   if (!doll) return [];
   const result = [];
+  const sortedKeys = sortEquippedKeys(dollId, keys);
   for (const [index, keyType] of keyMapping.entries()) {
-    const keyId = keys[index] ?? "";
+    const keyInfo = sortedKeys[index];
     if (keyType === "Expansion Key") result.push("=");
     if (doll.hasExpansionKey === false && keyType === "Expansion Key") continue;
-    if (keyId === "") {
+    if (keyInfo === null) {
       if (keyType === "Fixed Key" || keyType === "Expansion Key") result.push(blankFixedKey);
       else if (keyType === "Common Key" || keyType === "Affinity Key") result.push(blankCommonKey);
     } else {
-      let keyInfo = doll.keys.find((key) => key.id === keyId);
-      if (!keyInfo) keyInfo = allKeys.affinity.find((key) => key.id === keyId);
-      if (!keyInfo) keyInfo = allKeys.common.find((key) => key.id === keyId);
-      if (keyInfo) {
-        result.push(keyInfo);
-      } else {
-        console.error("Unable to find key", keyId, doll);
-      }
+      result.push(keyInfo);
     }
     if (keyType === "Affinity Key") result.push("=");
   }
+  console.log(doll.name, result);
   return result;
 }
 function sortEquippedKeys(dollId, keys) {
   const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
+  const result = Array(keyMapping.length).fill(null);
   const doll = getInfoFromId(dollId);
-  const result = [];
-  if (!doll) return Array(keyMapping.length).fill(null);
+  if (!doll) return result;
+  let fixedKeyIndex = keyMapping.indexOf("Fixed Key");
+  let commonKeyIndex = keyMapping.indexOf("Common Key");
+  const expansionKeyIndex = keyMapping.indexOf("Expansion Key");
+  const affinityKeyIndex = keyMapping.indexOf("Affinity Key");
   for (const [index, keyType] of keyMapping.entries()) {
     const keyId = keys[index] ?? "";
     if (keyId === "") {
-      result.push(null);
       continue;
     }
-    let keyInfo = doll.keys.find((key) => key.id === keyId);
-    if (!keyInfo) keyInfo = allKeys.affinity.find((key) => key.id === keyId);
-    if (!keyInfo) keyInfo = allKeys.common.find((key) => key.id === keyId);
-    if (keyInfo) {
-      result.push(keyInfo);
+    let keyInfo = getKeyFromId(dollId, keyId, doll);
+    if (keyInfo && keyInfo.type === "Fixed Key") {
+      result[fixedKeyIndex] = keyInfo;
+      fixedKeyIndex += 1;
+      continue;
+    } else if (keyInfo && keyInfo.type === "Common Key") {
+      result[commonKeyIndex] = keyInfo;
+      commonKeyIndex += 1;
+      continue;
+    } else if (keyInfo && keyInfo.type === "Affinity Key") {
+      result[affinityKeyIndex] = keyInfo;
+      continue;
+    } else if (keyInfo && keyInfo.type === "Expansion Key") {
+      result[expansionKeyIndex] = keyInfo;
+      continue;
     } else {
       console.error("Unable to find key", keyId, doll);
     }
@@ -5707,8 +5716,29 @@ function overrideSkillDisplay(values) {
     })
   );
 }
-async function compress(str) {
-  const byteArray = new TextEncoder().encode(str);
+function sortBuffs(buffId1, buffId2) {
+  const buff1 = allBuffs.find((b) => buffId1 === b.id);
+  const buff2 = allBuffs.find((b) => buffId2 === b.id);
+  if (!buff1 || !buff2) return 0;
+  return +buff2.core - +buff1.core || buff1.days?.[CURRENT_SEASON][0] - buff2.days?.[CURRENT_SEASON][0] || buff1.name.localeCompare(buff2.name);
+}
+async function compress(data) {
+  const clone = structuredClone(unwrap(data));
+  const exportState = {
+    version: SAVE_VERSION,
+    selectedDolls: clone.selectedDolls,
+    currentTab: 8,
+    score: clone.score,
+    description: clone.description,
+    map: clone.map,
+    buffs: (clone.buffs ?? []).sort(sortBuffs),
+    tabData: clone.tabData
+  };
+  for (const doll of exportState.selectedDolls) {
+    doll.keys.sort();
+  }
+  const byteArray = new TextEncoder().encode(JSON.stringify(exportState));
+  console.log(JSON.stringify(exportState));
   const cs = new CompressionStream("deflate");
   const writer = cs.writable.getWriter();
   writer.write(byteArray);
@@ -7045,8 +7075,8 @@ function TargetModal() {
 // src/components/modals/ExportModal.tsx
 var _tmpl$68 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75"><button><span>Export</span></button><button><span>Share`);
 var _tmpl$219 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Export as Text</div><div class="mx-3 flex flex-row items-center justify-center gap-1 text-[#384B53]"><span>Export style:</span></div><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-2 font-mono text-xs"placeholder=Loading...>`);
-var _tmpl$314 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">`);
-var _tmpl$411 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">`);
+var _tmpl$314 = /* @__PURE__ */ template(`<div class="text-md mx-3 text-center flex p-2 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">`);
+var _tmpl$411 = /* @__PURE__ */ template(`<div class="text-md text-center mx-3 flex p-2 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">`);
 var _tmpl$510 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Share Link`);
 var _tmpl$69 = /* @__PURE__ */ template(`<textarea class="mx-3 h-16 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-2 font-mono text-xs"placeholder=Loading...>`);
 var _tmpl$75 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><label class="mx-3 flex flex-row items-center justify-center gap-1 text-[#384B53]">Score: <input class=input type=number></label><textarea maxlength=128 class="input mx-3 h-16 resize-none items-center justify-center self-stretch overflow-hidden rounded-md p-2 text-xs"placeholder="Optional Description...">`);
@@ -7065,7 +7095,7 @@ function ExportModal() {
       version: SAVE_VERSION,
       ...state
     };
-    return await compress(JSON.stringify(exportObj));
+    return await compress(exportObj);
   };
   const [exportString] = createResource(getExportString);
   const output = createMemo(() => {
@@ -7112,13 +7142,20 @@ ${window.location.origin + window.location.pathname}?state=` + exportString();
       ...state
     };
     try {
-      const encoded = await compress(JSON.stringify(exportObj));
+      const encoded = await compress(exportObj);
       const res = await fetch("https://gunsmoke.arkahnx.technology/state", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
+          map: exportObj.map,
+          dolls: exportObj.selectedDolls.map((d) => ({
+            id: d.id,
+            fortification: d.fortification
+          })),
+          score: exportObj.score,
+          description: exportObj.description,
           state: encoded
         })
       });
@@ -7163,7 +7200,7 @@ ${window.location.origin + window.location.pathname}?state=` + exportString();
       setActiveTab2("share");
     };
     createRenderEffect((_p$) => {
-      var _v$ = `flex h-13 flex-1 items-center justify-center gap-1 rounded-t-sm border-b-4 px-1 pt-3 pb-2 text-2xl font-bold transition-all ${isExportTab() ? "border-[#F0AF16] bg-[#384B53] text-[#EFEFEF] shadow-xl/20" : "border-[#8F9094] bg-[#A8A9AE] text-[#384B53] hover:border-[#606164]"}`, _v$2 = `flex h-13 flex-1 items-center justify-center gap-1 rounded-t-sm border-b-4 px-1 pt-3 pb-2 text-2xl font-bold transition-all ${isShareTab() ? "border-[#F0AF16] bg-[#384B53] text-[#EFEFEF] shadow-xl/20" : "border-[#8F9094] bg-[#A8A9AE] text-[#384B53] hover:border-[#606164]"} ${state.currentTab === 0 ? "cursor-not-allowed opacity-50" : ""}`;
+      var _v$ = `flex h-13 flex-1 items-center justify-center gap-1 rounded-t-sm border-b-4 px-1 pt-3 pb-2 text-2xl font-bold transition-all ${isExportTab() ? "border-[#F0AF16] bg-[#384B53] text-[#EFEFEF] shadow-xl/20" : "border-[#8F9094] bg-[#A8A9AE] text-[#384B53] hover:border-[#606164]"}`, _v$2 = `flex h-13 flex-1 items-center justify-center gap-1 rounded-t-sm border-b-4 px-1 pt-3 pb-2 text-2xl font-bold transition-all ${isShareTab() ? "border-[#F0AF16] bg-[#384B53] text-[#EFEFEF] shadow-xl/20" : "border-[#8F9094] bg-[#A8A9AE] text-[#384B53] hover:border-[#606164]"}`;
       _v$ !== _p$.e && className(_el$2, _p$.e = _v$);
       _v$2 !== _p$.t && className(_el$3, _p$.t = _v$2);
       return _p$;
