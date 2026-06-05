@@ -25,6 +25,7 @@ import {
 } from "../types";
 import { loadMap, setEditingMap } from "../canvas/editorMap";
 import {
+	CURRENT_SEASON,
 	CUSTOM_MAP_KEY,
 	DOLL_LOADOUT_KEY,
 	SAVE_VERSION,
@@ -280,6 +281,7 @@ export function setBuffs(buffIds: string[]) {
 			s.buffs.push(...buffIds);
 		})
 	);
+	saveToLocalStorage();
 }
 
 export function setDollKey(dollId: string, index: number, keyId: string | null) {
@@ -533,50 +535,58 @@ export function renderAction(dollId: string, action: SkillAction): string {
 }
 
 export function displaySmallKeys(dollId: string, keys: string[]) {
-	const doll = getInfoFromId(dollId) as DollData | null;
 	const blankCommonKey = { type: "Common Key", rarity: "None" };
 	const blankFixedKey = { type: "Fixed Key", rarity: "None" };
 	const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
+	const doll = getInfoFromId(dollId) as DollData | null;
 	if (!doll) return [];
 	const result = [];
+	const sortedKeys = sortEquippedKeys(dollId, keys);
 	for (const [index, keyType] of keyMapping.entries()) {
-		const keyId = keys[index] ?? "";
+		const keyInfo = sortedKeys[index];
 		if (keyType === "Expansion Key") result.push("=");
 		if (doll.hasExpansionKey === false && keyType === "Expansion Key") continue;
-		if (keyId === "") {
+		if (keyInfo === null) {
 			if (keyType === "Fixed Key" || keyType === "Expansion Key") result.push(blankFixedKey);
 			else if (keyType === "Common Key" || keyType === "Affinity Key") result.push(blankCommonKey);
 		} else {
-			let keyInfo = doll.keys.find((key) => key.id === keyId);
-			if (!keyInfo) keyInfo = allKeys.affinity.find((key) => key.id === keyId);
-			if (!keyInfo) keyInfo = allKeys.common.find((key) => key.id === keyId);
-			if (keyInfo) {
-				result.push(keyInfo);
-			} else {
-				console.error("Unable to find key", keyId, doll);
-			}
+			result.push(keyInfo);
 		}
 		if (keyType === "Affinity Key") result.push("=");
 	}
+	console.log(doll.name, result);
 	return result;
 }
 
 export function sortEquippedKeys(dollId: string, keys: string[]): (FixedKey | DetailedKey | null)[] {
 	const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
+	const result = Array(keyMapping.length).fill(null);
 	const doll = getInfoFromId(dollId) as DollData | null;
-	const result = [];
-	if (!doll) return Array(keyMapping.length).fill(null);
+	if (!doll) return result;
+	let fixedKeyIndex = keyMapping.indexOf("Fixed Key");
+	let commonKeyIndex = keyMapping.indexOf("Common Key");
+	const expansionKeyIndex = keyMapping.indexOf("Expansion Key");
+	const affinityKeyIndex = keyMapping.indexOf("Affinity Key");
 	for (const [index, keyType] of keyMapping.entries()) {
 		const keyId = keys[index] ?? "";
 		if (keyId === "") {
-			result.push(null);
 			continue;
 		}
-		let keyInfo = doll.keys.find((key) => key.id === keyId);
-		if (!keyInfo) keyInfo = allKeys.affinity.find((key) => key.id === keyId);
-		if (!keyInfo) keyInfo = allKeys.common.find((key) => key.id === keyId);
-		if (keyInfo) {
-			result.push(keyInfo);
+		let keyInfo = getKeyFromId(dollId, keyId, doll);
+		if (keyInfo && keyInfo.type === "Fixed Key") {
+			result[fixedKeyIndex] = keyInfo;
+			fixedKeyIndex += 1;
+			continue;
+		} else if (keyInfo && keyInfo.type === "Common Key") {
+			result[commonKeyIndex] = keyInfo;
+			commonKeyIndex += 1;
+			continue;
+		} else if (keyInfo && keyInfo.type === "Affinity Key") {
+			result[affinityKeyIndex] = keyInfo;
+			continue;
+		} else if (keyInfo && keyInfo.type === "Expansion Key") {
+			result[expansionKeyIndex] = keyInfo;
+			continue;
 		} else {
 			console.error("Unable to find key", keyId, doll);
 		}
@@ -641,7 +651,7 @@ function changeSelectedDolls(newDolls: SelectedDoll[]) {
 					if (!tab.actionOrder.includes(dollId)) tab.actionOrder.push(dollId);
 				}
 			}
-			if(added.length || removed.length) {
+			if (added.length || removed.length) {
 				// reset score and description if present when dolls change, as that's likely a new team
 				s.score = 0;
 				s.description = "";
@@ -885,7 +895,7 @@ export async function loadFromString(data: string): Promise<(AppState & { versio
 
 export async function loadFromWorker(stateId: string): Promise<(AppState & { version: number }) | null> {
 	const cachedState = localStorage.getItem(stateId);
-	if(cachedState !== null) {
+	if (cachedState !== null) {
 		const decompressed = await decompress(cachedState);
 		return JSON.parse(decompressed) as AppState & { version: number };
 	}
@@ -898,11 +908,11 @@ export async function loadFromWorker(stateId: string): Promise<(AppState & { ver
 	if (data.result) {
 		const decompressed = await decompress(data.result.state);
 		const savedStates = localStorageLoad<string[]>(SAVED_STATES_KEY);
-		if(!savedStates) {
+		if (!savedStates) {
 			localStorage.setItem(SAVED_STATES_KEY, JSON.stringify([stateId]));
 		} else {
 			savedStates.push(stateId);
-			if(savedStates.length > 10) {
+			if (savedStates.length > 10) {
 				const removedState = savedStates.shift() as string;
 				localStorage.removeItem(removedState);
 			}
@@ -938,9 +948,35 @@ export function overrideSkillDisplay(values: number[]) {
 	);
 }
 
+function sortBuffs(buffId1: string, buffId2: string) {
+	const buff1 = allBuffs.find((b) => buffId1 === b.id);
+	const buff2 = allBuffs.find((b) => buffId2 === b.id);
+	if (!buff1 || !buff2) return 0;
+	return (
+		+buff2.core - +buff1.core ||
+		buff1.days?.[CURRENT_SEASON][0] - buff2.days?.[CURRENT_SEASON][0] ||
+		buff1.name.localeCompare(buff2.name)
+	);
+}
+
 // ====================== COMPRESSION ======================
-export async function compress(str: string): Promise<string> {
-	const byteArray = new TextEncoder().encode(str);
+export async function compress(data: AppState): Promise<string> {
+	const clone = structuredClone(unwrap(data));
+	const exportState: Omit<AppState & { version: number }, "skillDisplay"> = {
+		version: SAVE_VERSION,
+		selectedDolls: clone.selectedDolls,
+		currentTab: 8,
+		score: clone.score,
+		description: clone.description,
+		map: clone.map,
+		buffs: (clone.buffs ?? []).sort(sortBuffs),
+		tabData: clone.tabData,
+	};
+	for (const doll of exportState.selectedDolls) {
+		doll.keys.sort();
+	}
+	const byteArray = new TextEncoder().encode(JSON.stringify(exportState));
+	console.log(JSON.stringify(exportState));
 	const cs = new CompressionStream("deflate");
 	const writer = cs.writable.getWriter();
 	writer.write(byteArray);

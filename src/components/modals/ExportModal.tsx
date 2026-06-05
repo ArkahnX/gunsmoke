@@ -31,7 +31,7 @@ export default function ExportModal() {
 
 	const getExportString = async () => {
 		const exportObj = { version: SAVE_VERSION, ...state };
-		return await compress(JSON.stringify(exportObj));
+		return await compress(exportObj);
 	};
 
 	const [exportString] = createResource(getExportString);
@@ -80,11 +80,17 @@ export default function ExportModal() {
 		if (readiness() !== "") return false;
 		const exportObj = { version: SAVE_VERSION, ...state };
 		try {
-			const encoded = await compress(JSON.stringify(exportObj));
+			const encoded = await compress(exportObj);
 			const res = await fetch("https://gunsmoke.arkahnx.technology/state", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify({ state: encoded }),
+				body: JSON.stringify({
+					map: exportObj.map,
+					dolls: exportObj.selectedDolls.map((d) => ({id:d.id, fortification:d.fortification})),
+					score: exportObj.score,
+					description: exportObj.description,
+					state: encoded
+				}),
 			});
 
 			const data = (await res.json()) as ApiResponse<{ stateId: string }>;
@@ -96,8 +102,8 @@ export default function ExportModal() {
 				setShareLink(`${window.location.origin + window.location.pathname}?stateId=${data.result.stateId}`);
 				saveToLocalStorage();
 			}
-		} catch (e) {
-			setErrorText(e.message);
+		} catch (e: unknown) {
+			setErrorText((e as Error).message);
 			return;
 		}
 	};
@@ -148,7 +154,7 @@ export default function ExportModal() {
 						isShareTab()
 							? "border-[#F0AF16] bg-[#384B53] text-[#EFEFEF] shadow-xl/20"
 							: "border-[#8F9094] bg-[#A8A9AE] text-[#384B53] hover:border-[#606164]"
-					} ${state.currentTab === 0 ? "cursor-not-allowed opacity-50" : ""}`}>
+					}`}>
 					<span>Share</span>
 				</button>
 			</div>
@@ -175,7 +181,7 @@ export default function ExportModal() {
 			<Show when={isShareTab()}>
 				<div class="flex flex-col gap-3">
 					<Show when={readiness() !== ""}>
-						<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">
+						<div class="text-md mx-3 text-center flex p-2 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">
 							{readiness()}
 						</div>
 					</Show>
@@ -190,7 +196,7 @@ export default function ExportModal() {
 						placeholder="Optional Description..."
 					/>
 					<Show when={errorText() !== ""}>
-						<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">
+						<div class="text-md text-center mx-3 flex p-2 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">
 							{errorText()}
 						</div>
 					</Show>
