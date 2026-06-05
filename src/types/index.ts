@@ -86,9 +86,20 @@ export interface AppState {
 	/** @deprecated as of v8 */
 	actionType?: number | string;
 	map: string;
+	score:number;
+	description: string;
 	buffs: string[];
 	skillDisplay: number[];
 	tabData: TabData[];
+}
+
+export interface StateEntry {
+	stateId: string;
+	map: string;
+	dollIds: string[];
+	score: number;
+	description: string;
+	state: string;
 }
 
 export interface SkillDisplay {
@@ -261,4 +272,10 @@ export interface ArenaCanvasProps {
 export interface DollRowProps {
 	dollId: string;
 	index: number;
+}
+
+export interface ApiResponse<T = unknown> {
+	success: boolean;
+	result?: T;
+	error?: string;
 }

@@ -20,12 +20,15 @@ import {
 	RawKeyData,
 	DetailedKey,
 	BuffData,
+	ApiResponse,
+	StateEntry,
 } from "../types";
 import { loadMap, setEditingMap } from "../canvas/editorMap";
 import {
 	CUSTOM_MAP_KEY,
 	DOLL_LOADOUT_KEY,
 	SAVE_VERSION,
+	SAVED_STATES_KEY,
 	SKILL_DISPLAY_KEY,
 	STORAGE_KEY,
 	TILE_SIZE,
@@ -175,6 +178,8 @@ export const [tempSelectedDolls, setTempSelectedDolls] = createStore<SelectedDol
 const defaultState: AppState = {
 	selectedDolls: [],
 	currentTab: 0,
+	score: 0,
+	description: "",
 	map: "Blade Guard Titan",
 	buffs: [],
 	skillDisplay: [0, 0, 0, 0, 0, 0, 0],
@@ -636,6 +641,11 @@ function changeSelectedDolls(newDolls: SelectedDoll[]) {
 					if (!tab.actionOrder.includes(dollId)) tab.actionOrder.push(dollId);
 				}
 			}
+			if(added.length || removed.length) {
+				// reset score and description if present when dolls change, as that's likely a new team
+				s.score = 0;
+				s.description = "";
+			}
 			console.log("Changing selected dolls", added, removed, s.selectedDolls.length);
 		})
 	);
@@ -686,6 +696,8 @@ export function loadState(newData: AppState & { version: number }) {
 			s.selectedDolls = incomingState.selectedDolls;
 			s.currentTab = incomingState.currentTab;
 			s.map = incomingState.map;
+			s.score = incomingState.score ?? 0;
+			s.description = incomingState.description ?? "";
 			s.buffs = incomingState.buffs ?? [];
 			if (incomingState.skillDisplay) {
 				s.skillDisplay = incomingState.skillDisplay;
@@ -747,6 +759,8 @@ export function version7To8Upgrade(data: AppState & { version: number }) {
 	}
 	delete data.actionType;
 	data.map = "Tusk Beasteel";
+	data.score = 0;
+	data.description = "";
 	data.buffs = data.buffs ?? [];
 	for (const doll of data.selectedDolls) {
 		if (!doll.keys || doll.keys.length !== 8) {
@@ -867,6 +881,37 @@ export function loadFromLocalStorage(data: string): Promise<(AppState & { versio
 export async function loadFromString(data: string): Promise<(AppState & { version: number }) | null> {
 	const decompressed = await decompress(data.trim());
 	return JSON.parse(decompressed) as AppState & { version: number };
+}
+
+export async function loadFromWorker(stateId: string): Promise<(AppState & { version: number }) | null> {
+	const cachedState = localStorage.getItem(stateId);
+	if(cachedState !== null) {
+		const decompressed = await decompress(cachedState);
+		return JSON.parse(decompressed) as AppState & { version: number };
+	}
+	const res = await fetch(`https://gunsmoke.arkahnx.technology/state?stateId=${stateId}`);
+
+	const data = (await res.json()) as ApiResponse<StateEntry>;
+	if (data.error) {
+		alert(data.error);
+	}
+	if (data.result) {
+		const decompressed = await decompress(data.result.state);
+		const savedStates = localStorageLoad<string[]>(SAVED_STATES_KEY);
+		if(!savedStates) {
+			localStorage.setItem(SAVED_STATES_KEY, JSON.stringify([stateId]));
+		} else {
+			savedStates.push(stateId);
+			if(savedStates.length > 10) {
+				const removedState = savedStates.shift() as string;
+				localStorage.removeItem(removedState);
+			}
+			localStorage.setItem(SAVED_STATES_KEY, JSON.stringify(savedStates));
+		}
+		localStorage.setItem(stateId, data.result.state);
+		return JSON.parse(decompressed) as AppState & { version: number };
+	}
+	return null;
 }
 
 export function setSkillDisplay(skillType: string, notationStyle: string) {

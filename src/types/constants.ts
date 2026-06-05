@@ -18,6 +18,7 @@ export const V7_SKILL_DISPLAY_KEY = "arenaSkillDisplay_v1";
 
 // version 8 keys
 export const SAVE_VERSION = 8;
+export const SAVED_STATES_KEY = "gunsmoke_state_ids";
 export const STORAGE_KEY = "gunsmoke_state_v" + SAVE_VERSION;
 export const SKILL_DISPLAY_KEY = "gunsmoke_skills_v" + SAVE_VERSION;
 export const DOLL_LOADOUT_KEY = (dollId: string) => `gunsmoke_doll_${dollId}_v${SAVE_VERSION}`;

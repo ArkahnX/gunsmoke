@@ -21,6 +21,7 @@ import {
 	setStateHashMatch,
 	compareStateHash,
 	setStateFromURL,
+	loadFromWorker,
 } from "./store";
 
 import TabBar from "./components/TabBar";
@@ -52,6 +53,9 @@ export default function App() {
 		if (params.has("state")) {
 			setStateFromURL(true);
 			await importState(loadFromString, params.get("state")!);
+		} else if (params.has("stateId")) {
+			setStateFromURL(true);
+			await importState(loadFromWorker, params.get("stateId")!);
 		} else {
 			await importState(loadFromLocalStorage, "");
 		}
