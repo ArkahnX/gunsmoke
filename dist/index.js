@@ -1832,6 +1832,7 @@ var V7_STORAGE_KEY = "arenaPlannerState_v" + V7_SAVE_VERSION;
 var V7_EDITOR_MAP_KEY = "arenaEditorMap_v2";
 var V7_SKILL_DISPLAY_KEY = "arenaSkillDisplay_v1";
 var SAVE_VERSION = 8;
+var SAVED_STATES_KEY = "gunsmoke_state_ids";
 var STORAGE_KEY = "gunsmoke_state_v" + SAVE_VERSION;
 var SKILL_DISPLAY_KEY = "gunsmoke_skills_v" + SAVE_VERSION;
 var DOLL_LOADOUT_KEY = (dollId) => `gunsmoke_doll_${dollId}_v${SAVE_VERSION}`;
@@ -3316,7 +3317,7 @@ function Button(props) {
       }
     }), null);
     createRenderEffect((_p$) => {
-      var _v$ = props.disabled, _v$2 = `${props.color === "dark" ? "bg-[#1C2A32] text-[#EFEFEF]" : props.color === "light" ? "bg-[#C9C8CE] text-[#1C2A32]" : props.color === "red" ? "bg-[#944040] text-[#EFEFEF]" : ""} ${props.design === "custom" ? "h-12 max-w-87.5 px-6.5" : "h-14 max-w-87.5 min-w-60"} relative flex cursor-pointer flex-row items-center overflow-hidden rounded-sm text-xl font-bold whitespace-nowrap shadow-sm shadow-black/50 outline-3 outline-transparent transition transition-discrete duration-250 hover:outline-white hover:duration-0`, _v$3 = `grow ${props.design === "custom" ? "pr-0" : "pr-4"}`;
+      var _v$ = props.disabled, _v$2 = `${props.color === "dark" ? "bg-[#1C2A32] text-[#EFEFEF]" : props.color === "light" ? "bg-[#C9C8CE] text-[#1C2A32]" : props.color === "red" ? "bg-[#944040] text-[#EFEFEF]" : ""} ${props.design === "custom" ? "h-12 max-w-87.5 px-6.5" : "h-14 max-w-87.5 min-w-60"} relative flex flex-row items-center overflow-hidden rounded-sm text-xl font-bold whitespace-nowrap shadow-sm shadow-black/50 ${props.disabled ? " opacity-50 cursor-default" : "cursor-pointer outline-3 outline-transparent transition transition-discrete duration-250 hover:outline-white hover:duration-0"}`, _v$3 = `grow ${props.design === "custom" ? "pr-0" : "pr-4"}`;
       _v$ !== _p$.e && (_el$.disabled = _p$.e = _v$);
       _v$2 !== _p$.t && className(_el$, _p$.t = _v$2);
       _v$3 !== _p$.a && className(_el$3, _p$.a = _v$3);
@@ -3636,7 +3637,6 @@ var createSelect = (props) => {
   }));
   createEffect(on(focusedOptionIndex, (focusedOptionIndex2) => {
     if (focusedOptionIndex2 > -1 && !isOpen()) {
-      setIsOpen(true);
     }
   }, {
     defer: true
@@ -3644,7 +3644,6 @@ var createSelect = (props) => {
   const onFocusIn = () => setIsActive(true);
   const onFocusOut = () => {
     setIsActive(false);
-    setIsOpen(false);
   };
   const onMouseDown = (event) => event.preventDefault();
   const onClick = (event) => {
@@ -5027,6 +5026,8 @@ var [tempSelectedDolls, setTempSelectedDolls] = createStore([]);
 var defaultState = {
   selectedDolls: [],
   currentTab: 0,
+  score: 0,
+  description: "",
   map: "Blade Guard Titan",
   buffs: [],
   skillDisplay: [0, 0, 0, 0, 0, 0, 0],
@@ -5434,6 +5435,10 @@ function changeSelectedDolls(newDolls) {
           if (!tab.actionOrder.includes(dollId)) tab.actionOrder.push(dollId);
         }
       }
+      if (added.length || removed.length) {
+        s.score = 0;
+        s.description = "";
+      }
       console.log("Changing selected dolls", added, removed, s.selectedDolls.length);
     })
   );
@@ -5478,6 +5483,8 @@ function loadState(newData) {
       s.selectedDolls = incomingState.selectedDolls;
       s.currentTab = incomingState.currentTab;
       s.map = incomingState.map;
+      s.score = incomingState.score ?? 0;
+      s.description = incomingState.description ?? "";
       s.buffs = incomingState.buffs ?? [];
       if (incomingState.skillDisplay) {
         s.skillDisplay = incomingState.skillDisplay;
@@ -5538,6 +5545,8 @@ function version7To8Upgrade(data) {
   }
   delete data.actionType;
   data.map = "Tusk Beasteel";
+  data.score = 0;
+  data.description = "";
   data.buffs = data.buffs ?? [];
   for (const doll of data.selectedDolls) {
     if (!doll.keys || doll.keys.length !== 8) {
@@ -5647,6 +5656,35 @@ function loadFromLocalStorage(data) {
 async function loadFromString(data) {
   const decompressed = await decompress(data.trim());
   return JSON.parse(decompressed);
+}
+async function loadFromWorker(stateId) {
+  const cachedState = localStorage.getItem(stateId);
+  if (cachedState !== null) {
+    const decompressed = await decompress(cachedState);
+    return JSON.parse(decompressed);
+  }
+  const res = await fetch(`https://gunsmoke.arkahnx.technology/state?stateId=${stateId}`);
+  const data = await res.json();
+  if (data.error) {
+    alert(data.error);
+  }
+  if (data.result) {
+    const decompressed = await decompress(data.result.state);
+    const savedStates = localStorageLoad(SAVED_STATES_KEY);
+    if (!savedStates) {
+      localStorage.setItem(SAVED_STATES_KEY, JSON.stringify([stateId]));
+    } else {
+      savedStates.push(stateId);
+      if (savedStates.length > 10) {
+        const removedState = savedStates.shift();
+        localStorage.removeItem(removedState);
+      }
+      localStorage.setItem(SAVED_STATES_KEY, JSON.stringify(savedStates));
+    }
+    localStorage.setItem(stateId, data.result.state);
+    return JSON.parse(decompressed);
+  }
+  return null;
 }
 function setSkillDisplay(skillType, notationStyle) {
   const index = notations[skillType].indexOf(notationStyle);
@@ -7005,9 +7043,21 @@ function TargetModal() {
 }
 
 // src/components/modals/ExportModal.tsx
-var _tmpl$68 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Export as Text</div><div class="mx-3 flex flex-row items-center justify-center gap-1 text-[#384B53]"><span>Export style:</span></div><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-2 font-mono text-xs"placeholder=Loading...>`);
+var _tmpl$68 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75"><button><span>Export</span></button><button><span>Share`);
+var _tmpl$219 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Export as Text</div><div class="mx-3 flex flex-row items-center justify-center gap-1 text-[#384B53]"><span>Export style:</span></div><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-2 font-mono text-xs"placeholder=Loading...>`);
+var _tmpl$314 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">`);
+var _tmpl$411 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">`);
+var _tmpl$510 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Share Link`);
+var _tmpl$69 = /* @__PURE__ */ template(`<textarea class="mx-3 h-16 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-2 font-mono text-xs"placeholder=Loading...>`);
+var _tmpl$75 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><label class="mx-3 flex flex-row items-center justify-center gap-1 text-[#384B53]">Score: <input class=input type=number></label><textarea maxlength=128 class="input mx-3 h-16 resize-none items-center justify-center self-stretch overflow-hidden rounded-md p-2 text-xs"placeholder="Optional Description...">`);
 function ExportModal() {
   const exportOptions = ["code only", "code for discord", "shareable url"];
+  const [activeTab2, setActiveTab2] = createSignal("export");
+  const [errorText, setErrorText] = createSignal("");
+  const [readiness, setReadiness] = createSignal("");
+  const [shareLink, setShareLink] = createSignal("");
+  const isExportTab = () => activeTab2() === "export";
+  const isShareTab = () => activeTab2() === "share";
   const [exportType, setExportType] = createSignal(exportOptions[2]);
   const [copied, setCopied] = createSignal(false);
   const getExportString = async () => {
@@ -7031,44 +7081,205 @@ ${window.location.origin + window.location.pathname}?state=` + exportString();
     setCopied(true);
     setTimeout(() => setCopied(false), 2e3);
   };
+  const beforeShare = () => {
+    let value = [];
+    let missingKeys = [];
+    if (state.score === 0) {
+      value.push("Include a predicted final score for this investment.");
+    }
+    for (const doll of state.selectedDolls) {
+      const keys = displaySmallKeys(doll.id, doll.keys);
+      const missingFixedKey = keys.find((key) => typeof key === "object" && key.type === "Fixed Key" && key.rarity === "None");
+      if (missingFixedKey) {
+        const dollInfo = getDollFromId(doll.id);
+        if (!dollInfo) continue;
+        missingKeys.push(`${dollInfo.name} is missing fixed keys`);
+      }
+    }
+    if (missingKeys.length > 2) {
+      value.push("Multiple dolls are missing fixed keys.");
+    } else {
+      value.push(...missingKeys);
+    }
+    setReadiness(value.join("\n"));
+  };
+  const shareTranscript = async () => {
+    setErrorText("");
+    setShareLink("");
+    if (readiness() !== "") return false;
+    const exportObj = {
+      version: SAVE_VERSION,
+      ...state
+    };
+    try {
+      const encoded = await compress(JSON.stringify(exportObj));
+      const res = await fetch("https://gunsmoke.arkahnx.technology/state", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          state: encoded
+        })
+      });
+      const data = await res.json();
+      if (data.error) {
+        setErrorText(data.error);
+        return;
+      }
+      if (data.result) {
+        setShareLink(`${window.location.origin + window.location.pathname}?stateId=${data.result.stateId}`);
+        saveToLocalStorage();
+      }
+    } catch (e) {
+      setErrorText(e.message);
+      return;
+    }
+  };
+  const updateScore = (e) => {
+    setState(produce((s) => {
+      if (e.currentTarget instanceof HTMLInputElement) {
+        s.score = parseInt(e.currentTarget?.value);
+      }
+    }));
+    beforeShare();
+  };
+  const updateDescription = (e) => {
+    setState(produce((s) => {
+      if (e.currentTarget instanceof HTMLTextAreaElement) {
+        s.description = e.currentTarget.value;
+      }
+    }));
+  };
+  beforeShare();
   return [createComponent(ModalHeader, {
     title: "Export Transcript"
   }), (() => {
-    var _el$ = _tmpl$68(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling, _el$4 = _el$3.firstChild, _el$5 = _el$3.nextSibling;
-    insert(_el$3, createComponent(Select, {
-      "class": "custom",
-      options: exportOptions,
-      onChange: setExportType,
-      get initialValue() {
-        return exportType();
-      }
-    }), null);
-    createRenderEffect(() => _el$5.value = output());
+    var _el$ = _tmpl$68(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling;
+    _el$2.$$click = () => {
+      setActiveTab2("export");
+    };
+    _el$3.$$click = () => {
+      setActiveTab2("share");
+    };
+    createRenderEffect((_p$) => {
+      var _v$ = `flex h-13 flex-1 items-center justify-center gap-1 rounded-t-sm border-b-4 px-1 pt-3 pb-2 text-2xl font-bold transition-all ${isExportTab() ? "border-[#F0AF16] bg-[#384B53] text-[#EFEFEF] shadow-xl/20" : "border-[#8F9094] bg-[#A8A9AE] text-[#384B53] hover:border-[#606164]"}`, _v$2 = `flex h-13 flex-1 items-center justify-center gap-1 rounded-t-sm border-b-4 px-1 pt-3 pb-2 text-2xl font-bold transition-all ${isShareTab() ? "border-[#F0AF16] bg-[#384B53] text-[#EFEFEF] shadow-xl/20" : "border-[#8F9094] bg-[#A8A9AE] text-[#384B53] hover:border-[#606164]"} ${state.currentTab === 0 ? "cursor-not-allowed opacity-50" : ""}`;
+      _v$ !== _p$.e && className(_el$2, _p$.e = _v$);
+      _v$2 !== _p$.t && className(_el$3, _p$.t = _v$2);
+      return _p$;
+    }, {
+      e: void 0,
+      t: void 0
+    });
     return _el$;
-  })(), createComponent(ModalFooter, {
-    styles: "justify-between",
+  })(), createComponent(Show, {
+    get when() {
+      return isExportTab();
+    },
     get children() {
-      return [createComponent(Button, {
-        onClick: () => setShowExportModal(false),
-        color: "dark",
-        design: "cancel",
-        content: "Close"
-      }), createComponent(Button, {
-        onClick: handleCopy,
-        color: "dark",
-        design: "confirm",
-        get content() {
-          return copied() ? "Copied!" : "Copy Text";
+      return [(() => {
+        var _el$4 = _tmpl$219(), _el$5 = _el$4.firstChild, _el$6 = _el$5.nextSibling, _el$7 = _el$6.firstChild, _el$8 = _el$6.nextSibling;
+        insert(_el$6, createComponent(Select, {
+          "class": "custom",
+          options: exportOptions,
+          onChange: setExportType,
+          get initialValue() {
+            return exportType();
+          }
+        }), null);
+        createRenderEffect(() => _el$8.value = output());
+        return _el$4;
+      })(), createComponent(ModalFooter, {
+        styles: "justify-between",
+        get children() {
+          return [createComponent(Button, {
+            onClick: () => setShowExportModal(false),
+            color: "dark",
+            design: "cancel",
+            content: "Close"
+          }), createComponent(Button, {
+            onClick: handleCopy,
+            color: "dark",
+            design: "confirm",
+            get content() {
+              return copied() ? "Copied!" : "Copy Text";
+            }
+          })];
+        }
+      })];
+    }
+  }), createComponent(Show, {
+    get when() {
+      return isShareTab();
+    },
+    get children() {
+      return [(() => {
+        var _el$9 = _tmpl$75(), _el$1 = _el$9.firstChild, _el$10 = _el$1.firstChild, _el$11 = _el$10.nextSibling, _el$12 = _el$1.nextSibling;
+        insert(_el$9, createComponent(Show, {
+          get when() {
+            return readiness() !== "";
+          },
+          get children() {
+            var _el$0 = _tmpl$314();
+            insert(_el$0, readiness);
+            return _el$0;
+          }
+        }), _el$1);
+        _el$11.$$input = updateScore;
+        _el$12.$$input = updateDescription;
+        insert(_el$9, createComponent(Show, {
+          get when() {
+            return errorText() !== "";
+          },
+          get children() {
+            var _el$13 = _tmpl$411();
+            insert(_el$13, errorText);
+            return _el$13;
+          }
+        }), null);
+        insert(_el$9, createComponent(Show, {
+          get when() {
+            return shareLink() !== "";
+          },
+          get children() {
+            return [_tmpl$510(), (() => {
+              var _el$15 = _tmpl$69();
+              createRenderEffect(() => _el$15.value = shareLink());
+              return _el$15;
+            })()];
+          }
+        }), null);
+        createRenderEffect(() => _el$11.value = state.score);
+        createRenderEffect(() => _el$12.value = state.description);
+        return _el$9;
+      })(), createComponent(ModalFooter, {
+        styles: "justify-between",
+        get children() {
+          return [createComponent(Button, {
+            onClick: () => setShowExportModal(false),
+            color: "dark",
+            design: "cancel",
+            content: "Close"
+          }), createComponent(Button, {
+            onClick: shareTranscript,
+            get disabled() {
+              return readiness() !== "";
+            },
+            color: "dark",
+            design: "confirm",
+            content: "Share Transcript"
+          })];
         }
       })];
     }
   })];
 }
+delegateEvents(["click", "input"]);
 
 // src/components/modals/SkillDisplayModal.tsx
-var _tmpl$69 = /* @__PURE__ */ template(`<div class="flex flex-col gap-2 self-center"><div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>Override imported notations:</span></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Preview</div><div class="flex flex-wrap justify-center gap-1.5">`);
-var _tmpl$219 = /* @__PURE__ */ template(`<div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>`);
-var _tmpl$314 = /* @__PURE__ */ template(`<div class="flex flex-col gap-1"><div class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-center text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
+var _tmpl$70 = /* @__PURE__ */ template(`<div class="flex flex-col gap-2 self-center"><div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>Override imported notations:</span></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Preview</div><div class="flex flex-wrap justify-center gap-1.5">`);
+var _tmpl$220 = /* @__PURE__ */ template(`<div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>`);
+var _tmpl$315 = /* @__PURE__ */ template(`<div class="flex flex-col gap-1"><div class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-center text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
 function SkillDisplayModal() {
   const dollInfo = getDollFromId("d54");
   const basicSkill = dollInfo?.skills?.filter((s) => s.type === "Basic Attack") ?? [];
@@ -7081,7 +7292,7 @@ function SkillDisplayModal() {
   return [createComponent(ModalHeader, {
     title: "Skill Display"
   }), (() => {
-    var _el$ = _tmpl$69(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$2.nextSibling, _el$5 = _el$4.nextSibling;
+    var _el$ = _tmpl$70(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$2.nextSibling, _el$5 = _el$4.nextSibling;
     insert(_el$2, createComponent(Select, {
       "class": "custom",
       options: ["true", "false"],
@@ -7098,7 +7309,7 @@ function SkillDisplayModal() {
         return Object.entries(notations);
       },
       children: ([notation, values]) => (() => {
-        var _el$6 = _tmpl$219(), _el$7 = _el$6.firstChild;
+        var _el$6 = _tmpl$220(), _el$7 = _el$6.firstChild;
         insert(_el$7, `${notation} style:`);
         insert(_el$6, createComponent(Select, {
           "class": "custom",
@@ -7114,7 +7325,7 @@ function SkillDisplayModal() {
     insert(_el$5, createComponent(For, {
       each: skills,
       children: (skill, idx) => (() => {
-        var _el$8 = _tmpl$314(), _el$9 = _el$8.firstChild;
+        var _el$8 = _tmpl$315(), _el$9 = _el$8.firstChild;
         insert(_el$8, createComponent(SkillIcon, {
           skill
         }), _el$9);
@@ -7138,39 +7349,10 @@ function SkillDisplayModal() {
 }
 
 // src/components/icons/CommonKey.tsx
-var _tmpl$70 = /* @__PURE__ */ template(`<svg><g transform=matrix(1,0,0,0.944444,-0.5,-0.555556)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z style=fill:rgb(63,78,82)></svg>`, false, true, false);
-var _tmpl$220 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.444444,22.5294,7.94444)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
-var _tmpl$315 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-33,-5.5)><g transform=matrix(1.17647,0,0,1.11111,-8.17647,-3.38889)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8ZM43.5,10.25L37.979,13.625L37.979,20.375L43.5,23.75L49.021,20.375L49.021,13.625L43.5,10.25Z>`);
+var _tmpl$71 = /* @__PURE__ */ template(`<svg><g transform=matrix(1,0,0,0.944444,-0.5,-0.555556)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z style=fill:rgb(63,78,82)></svg>`, false, true, false);
+var _tmpl$221 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.444444,22.5294,7.94444)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
+var _tmpl$316 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-33,-5.5)><g transform=matrix(1.17647,0,0,1.11111,-8.17647,-3.38889)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8ZM43.5,10.25L37.979,13.625L37.979,20.375L43.5,23.75L49.021,20.375L49.021,13.625L43.5,10.25Z>`);
 function CommonKey(props) {
-  const color = props.rarity === "Elite" ? "A87D36" : props.rarity === "Standard" ? "5F5A90" : "5B6468";
-  return (() => {
-    var _el$ = _tmpl$315(), _el$2 = _el$.firstChild, _el$5 = _el$2.firstChild, _el$6 = _el$5.firstChild;
-    insert(_el$2, createComponent(Show, {
-      get when() {
-        return memo(() => props.rarity !== "Elite")() && props.rarity !== "Standard";
-      },
-      get children() {
-        return _tmpl$70();
-      }
-    }), _el$5);
-    insert(_el$2, createComponent(Show, {
-      get when() {
-        return props.rarity === "Elite" || props.rarity === "Standard";
-      },
-      get children() {
-        return _tmpl$220();
-      }
-    }), _el$5);
-    createRenderEffect((_$p) => style(_el$6, `fill:#${color}`, _$p));
-    return _el$;
-  })();
-}
-
-// src/components/icons/FixedKey.tsx
-var _tmpl$71 = /* @__PURE__ */ template(`<svg><g transform=matrix(1,0,0,0.894737,-0.5,1.63158)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6Z style=fill:rgb(63,78,82)></svg>`, false, true, false);
-var _tmpl$221 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.421053,7.17647,8.97368)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
-var _tmpl$316 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-4,-5.5)><g transform=matrix(1.17647,0,0,1.05263,-3.05882,-0.815789)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6ZM14.5,8.375L8.125,15.5L14.5,22.625L20.875,15.5L14.5,8.375Z>`);
-function FixedKey2(props) {
   const color = props.rarity === "Elite" ? "A87D36" : props.rarity === "Standard" ? "5F5A90" : "5B6468";
   return (() => {
     var _el$ = _tmpl$316(), _el$2 = _el$.firstChild, _el$5 = _el$2.firstChild, _el$6 = _el$5.firstChild;
@@ -7188,6 +7370,35 @@ function FixedKey2(props) {
       },
       get children() {
         return _tmpl$221();
+      }
+    }), _el$5);
+    createRenderEffect((_$p) => style(_el$6, `fill:#${color}`, _$p));
+    return _el$;
+  })();
+}
+
+// src/components/icons/FixedKey.tsx
+var _tmpl$76 = /* @__PURE__ */ template(`<svg><g transform=matrix(1,0,0,0.894737,-0.5,1.63158)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6Z style=fill:rgb(63,78,82)></svg>`, false, true, false);
+var _tmpl$223 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.421053,7.17647,8.97368)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
+var _tmpl$317 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-4,-5.5)><g transform=matrix(1.17647,0,0,1.05263,-3.05882,-0.815789)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6ZM14.5,8.375L8.125,15.5L14.5,22.625L20.875,15.5L14.5,8.375Z>`);
+function FixedKey2(props) {
+  const color = props.rarity === "Elite" ? "A87D36" : props.rarity === "Standard" ? "5F5A90" : "5B6468";
+  return (() => {
+    var _el$ = _tmpl$317(), _el$2 = _el$.firstChild, _el$5 = _el$2.firstChild, _el$6 = _el$5.firstChild;
+    insert(_el$2, createComponent(Show, {
+      get when() {
+        return memo(() => props.rarity !== "Elite")() && props.rarity !== "Standard";
+      },
+      get children() {
+        return _tmpl$76();
+      }
+    }), _el$5);
+    insert(_el$2, createComponent(Show, {
+      get when() {
+        return props.rarity === "Elite" || props.rarity === "Standard";
+      },
+      get children() {
+        return _tmpl$223();
       }
     }), _el$5);
     createRenderEffect((_$p) => style(_el$6, `fill:#${color}`, _$p));
@@ -7213,16 +7424,16 @@ function SmallKey(props) {
 }
 
 // src/components/DynamicDollChip.tsx
-var _tmpl$75 = /* @__PURE__ */ template(`<div class="h-30 w-23 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50"><div><div class="absolute top-1 left-1 h-5 w-5"></div><img loading=lazy class="h-auto w-22.5 object-cover"></div><div class="bg-[#1C2A32] p-1 text-center text-[14px] font-bold text-[#EFEFEF]">`, true, false, false);
-var _tmpl$223 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-6 w-6 shadow-sm shadow-black/20">`);
+var _tmpl$77 = /* @__PURE__ */ template(`<div class="h-30 w-23 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50"><div><div class="absolute top-1 left-1 h-5 w-5"></div><img loading=lazy class="h-auto w-22.5 object-cover"></div><div class="bg-[#1C2A32] p-1 text-center text-[14px] font-bold text-[#EFEFEF]">`, true, false, false);
+var _tmpl$224 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-6 w-6 shadow-sm shadow-black/20">`);
 function DynamicDollChip(props) {
   return (() => {
-    var _el$ = _tmpl$75(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$2.nextSibling;
+    var _el$ = _tmpl$77(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$2.nextSibling;
     addEventListener(_el$, "click", props.onClick, true);
     insert(_el$2, (() => {
       var _c$ = memo(() => !!props.selected);
       return () => _c$() && (() => {
-        var _el$6 = _tmpl$223();
+        var _el$6 = _tmpl$224();
         insert(_el$6, createComponent(Check, {}));
         return _el$6;
       })();
@@ -7250,11 +7461,11 @@ function DynamicDollChip(props) {
 delegateEvents(["click"]);
 
 // src/components/modals/FormationModal.tsx
-var _tmpl$76 = /* @__PURE__ */ template(`<div class="relative flex flex-wrap items-center justify-start gap-4 px-10 py-8"><div>`);
-var _tmpl$224 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-10 h-8 w-8"><img class="relative h-full w-full object-cover">`);
-var _tmpl$317 = /* @__PURE__ */ template(`<div class="flex items-center gap-3 bg-[#B6BAC6] p-2.5"><div class="flex flex-col gap-3"><div class="flex flex-row gap-3"><div></div><div><div></div><div class=w-6></div></div></div><div class="flex flex-row gap-3"><div class="text-md flex w-12 flex-col items-center justify-center rounded-sm bg-[#354346] shadow-sm shadow-black/50"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center pt-0.5 text-[18px] font-bold"></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div class="text-md flex w-14 flex-col items-center justify-center rounded-sm bg-[#354346] px-1 pt-1 shadow-sm shadow-black/50"><div class="relative h-12 w-12 overflow-hidden rounded-full"><img><div class="absolute top-0 right-0 bottom-0 left-0 flex items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class="overflow-hidden overflow-ellipsis whitespace-nowrap"></div></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div><img><div></div></div><div class="flex w-14 flex-col gap-3 text-sm font-bold tracking-wide"><button></button><button>Load`);
-var _tmpl$411 = /* @__PURE__ */ template(`<div class="flex h-7 w-4 items-center justify-center">=`);
-var _tmpl$510 = /* @__PURE__ */ template(`<div class="h-5 w-5">`);
+var _tmpl$78 = /* @__PURE__ */ template(`<div class="relative flex flex-wrap items-center justify-start gap-4 px-10 py-8"><div>`);
+var _tmpl$225 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-10 h-8 w-8"><img class="relative h-full w-full object-cover">`);
+var _tmpl$318 = /* @__PURE__ */ template(`<div class="flex items-center gap-3 bg-[#B6BAC6] p-2.5"><div class="flex flex-col gap-3"><div class="flex flex-row gap-3"><div></div><div><div></div><div class=w-6></div></div></div><div class="flex flex-row gap-3"><div class="text-md flex w-12 flex-col items-center justify-center rounded-sm bg-[#354346] shadow-sm shadow-black/50"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center pt-0.5 text-[18px] font-bold"></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div class="text-md flex w-14 flex-col items-center justify-center rounded-sm bg-[#354346] px-1 pt-1 shadow-sm shadow-black/50"><div class="relative h-12 w-12 overflow-hidden rounded-full"><img><div class="absolute top-0 right-0 bottom-0 left-0 flex items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class="overflow-hidden overflow-ellipsis whitespace-nowrap"></div></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div><img><div></div></div><div class="flex w-14 flex-col gap-3 text-sm font-bold tracking-wide"><button></button><button>Load`);
+var _tmpl$412 = /* @__PURE__ */ template(`<div class="flex h-7 w-4 items-center justify-center">=`);
+var _tmpl$511 = /* @__PURE__ */ template(`<div class="h-5 w-5">`);
 function FormationModal() {
   const selectedDollIds = createMemo(() => tempSelectedDolls.map((doll) => doll.id));
   const setNum = (dollId, num) => {
@@ -7269,7 +7480,7 @@ function FormationModal() {
     updateSelectedDolls();
   };
   return (() => {
-    var _el$ = _tmpl$76(), _el$2 = _el$.firstChild;
+    var _el$ = _tmpl$78(), _el$2 = _el$.firstChild;
     insert(_el$, createComponent(For, {
       each: tempSelectedDolls,
       children: (doll) => {
@@ -7287,7 +7498,7 @@ function FormationModal() {
         const hasLoadout = createMemo(() => dollHasLoadout(doll.id));
         const keys = createMemo(() => displaySmallKeys(doll.id, doll.keys));
         return (() => {
-          var _el$3 = _tmpl$317(), _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.nextSibling, _el$0 = _el$5.nextSibling, _el$1 = _el$0.firstChild, _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild, _el$12 = _el$11.nextSibling, _el$13 = _el$10.nextSibling, _el$14 = _el$13.firstChild, _el$15 = _el$14.nextSibling, _el$16 = _el$1.nextSibling, _el$17 = _el$16.firstChild, _el$18 = _el$17.firstChild, _el$19 = _el$18.nextSibling, _el$20 = _el$19.firstChild, _el$21 = _el$17.nextSibling, _el$22 = _el$21.firstChild, _el$23 = _el$22.nextSibling, _el$24 = _el$16.nextSibling, _el$27 = _el$24.firstChild, _el$28 = _el$27.nextSibling, _el$29 = _el$24.nextSibling, _el$30 = _el$29.firstChild, _el$31 = _el$30.nextSibling;
+          var _el$3 = _tmpl$318(), _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.nextSibling, _el$0 = _el$5.nextSibling, _el$1 = _el$0.firstChild, _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild, _el$12 = _el$11.nextSibling, _el$13 = _el$10.nextSibling, _el$14 = _el$13.firstChild, _el$15 = _el$14.nextSibling, _el$16 = _el$1.nextSibling, _el$17 = _el$16.firstChild, _el$18 = _el$17.firstChild, _el$19 = _el$18.nextSibling, _el$20 = _el$19.firstChild, _el$21 = _el$17.nextSibling, _el$22 = _el$21.firstChild, _el$23 = _el$22.nextSibling, _el$24 = _el$16.nextSibling, _el$27 = _el$24.firstChild, _el$28 = _el$27.nextSibling, _el$29 = _el$24.nextSibling, _el$30 = _el$29.firstChild, _el$31 = _el$30.nextSibling;
           insert(_el$3, createComponent(DynamicDollChip, {
             target: dollInfo,
             get doll() {
@@ -7303,8 +7514,8 @@ function FormationModal() {
             get each() {
               return keys();
             },
-            children: (key) => typeof key === "string" ? _tmpl$411() : key ? (() => {
-              var _el$33 = _tmpl$510();
+            children: (key) => typeof key === "string" ? _tmpl$412() : key ? (() => {
+              var _el$33 = _tmpl$511();
               insert(_el$33, createComponent(SmallKey, {
                 get rarity() {
                   return key.rarity;
@@ -7348,7 +7559,7 @@ function FormationModal() {
               return dollWeapon()?.imprintImage;
             },
             get children() {
-              var _el$25 = _tmpl$224(), _el$26 = _el$25.firstChild;
+              var _el$25 = _tmpl$225(), _el$26 = _el$25.firstChild;
               createRenderEffect(() => setAttribute(_el$26, "src", dollWeapon()?.imprintImage));
               return _el$25;
             }
@@ -7408,10 +7619,10 @@ function FormationModal() {
 delegateEvents(["click"]);
 
 // src/components/icons/EmptyKey.tsx
-var _tmpl$77 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 62 62"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5><g transform=matrix(1.20833,0,0,1.38095,-22.1667,-18.7143)><ellipse cx=44 cy=36 rx=24 ry=21></ellipse></g><g transform=matrix(2,0,0,1,-29,0.5)><path d=M29,32.5L24.75,32.5L24.75,28.5L29,28.5L29,20L31,20L31,28.5L35.25,28.5L35.25,32.5L31,32.5L31,41L29,41L29,32.5Z>`);
+var _tmpl$79 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 62 62"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5><g transform=matrix(1.20833,0,0,1.38095,-22.1667,-18.7143)><ellipse cx=44 cy=36 rx=24 ry=21></ellipse></g><g transform=matrix(2,0,0,1,-29,0.5)><path d=M29,32.5L24.75,32.5L24.75,28.5L29,28.5L29,20L31,20L31,28.5L35.25,28.5L35.25,32.5L31,32.5L31,41L29,41L29,32.5Z>`);
 function EmptyKey(props) {
   return (() => {
-    var _el$ = _tmpl$77(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$2.nextSibling, _el$5 = _el$4.firstChild;
+    var _el$ = _tmpl$79(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$2.nextSibling, _el$5 = _el$4.firstChild;
     createRenderEffect((_p$) => {
       var _v$ = props.color === "Light" ? "fill:#6D6A78;stroke:#918E9C;stroke-width:1.54px;" : "fill:rgb(33,49,57);stroke:rgb(56,75,83);stroke-width:1.54px;", _v$2 = props.color === "Light" ? "fill:#C9C8CE;" : "fill:rgb(56,75,83);";
       _p$.e = style(_el$3, _v$, _p$.e);
@@ -7426,13 +7637,13 @@ function EmptyKey(props) {
 }
 
 // src/components/modals/KeyModal.tsx
-var _tmpl$78 = /* @__PURE__ */ template(`<div class="flex max-h-180 flex-row px-10"><div class="flex w-30 shrink-0 flex-col items-stretch justify-center bg-[#2A3D46] py-5"><div class="flex justify-center pb-2"><img loading=lazy class="h-15 w-15 rounded-full border-3 border-[#687177] bg-[#0D1C1C] object-cover"></div></div><div class="flex w-70 grow flex-col"><div class="font-bold h-8 p-2 pl-4 flex shrink-0"></div><div class="flex grow overflow-y-auto p-5 px-4 pt-2"><div class="flex flex-row flex-wrap items-start gap-3.5"></div></div><div class="flex justify-end p-2">`, true, false, false);
-var _tmpl$225 = /* @__PURE__ */ template(`<img class="h-16 w-16 object-cover">`);
-var _tmpl$318 = /* @__PURE__ */ template(`<div><div class="h-15 w-15">`);
-var _tmpl$412 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 z-20 h-7 w-7 shadow-sm shadow-black/20">`);
-var _tmpl$511 = /* @__PURE__ */ template(`<div class="absolute right-1 bottom-1 rounded-sm bg-[#2A3D46] px-1 text-xs font-bold text-[#EFEFEF]">`);
+var _tmpl$80 = /* @__PURE__ */ template(`<div class="flex max-h-180 flex-row px-10"><div class="flex w-30 shrink-0 flex-col items-stretch justify-center bg-[#2A3D46] py-5"><div class="flex justify-center pb-2"><img loading=lazy class="h-15 w-15 rounded-full border-3 border-[#687177] bg-[#0D1C1C] object-cover"></div></div><div class="flex w-70 grow flex-col"><div class="font-bold h-8 p-2 pl-4 flex shrink-0"></div><div class="flex grow overflow-y-auto p-5 px-4 pt-2"><div class="flex flex-row flex-wrap items-start gap-3.5"></div></div><div class="flex justify-end p-2">`, true, false, false);
+var _tmpl$226 = /* @__PURE__ */ template(`<img class="h-16 w-16 object-cover">`);
+var _tmpl$319 = /* @__PURE__ */ template(`<div><div class="h-15 w-15">`);
+var _tmpl$413 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 z-20 h-7 w-7 shadow-sm shadow-black/20">`);
+var _tmpl$512 = /* @__PURE__ */ template(`<div class="absolute right-1 bottom-1 rounded-sm bg-[#2A3D46] px-1 text-xs font-bold text-[#EFEFEF]">`);
 var _tmpl$610 = /* @__PURE__ */ template(`<div><div><img class="h-22 w-22 object-cover">`);
-var _tmpl$79 = /* @__PURE__ */ template(`<div class="absolute right-1 bottom-2 z-20 h-8 w-8 overflow-hidden rounded-full border-2 border-white bg-[#C9C8CE]"><div class="relative -top-1 -left-2.5 w-12"><img class="w-full object-cover object-top">`);
+var _tmpl$710 = /* @__PURE__ */ template(`<div class="absolute right-1 bottom-2 z-20 h-8 w-8 overflow-hidden rounded-full border-2 border-white bg-[#C9C8CE]"><div class="relative -top-1 -left-2.5 w-12"><img class="w-full object-cover object-top">`);
 function KeyModal() {
   const dollInfo = createMemo(() => getInfoFromId(selectedDoll().id));
   if (!dollInfo()) return null;
@@ -7455,7 +7666,7 @@ function KeyModal() {
     return keyTypes[keyMapping[activeKeySlot()]].sort((a, b) => +isSel(b.id) - +isSel(a.id) || (a.number || 0) - (b.number || 0) || "dollName" in a && "dollName" in b && a.dollName.localeCompare(b.dollName) || a.name.localeCompare(b.name));
   });
   return (() => {
-    var _el$ = _tmpl$78(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$2.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling;
+    var _el$ = _tmpl$80(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$2.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling;
     insert(_el$2, createComponent(For, {
       get each() {
         return selectedKeys();
@@ -7466,7 +7677,7 @@ function KeyModal() {
         const selectedStyle = "border-[#F26C1C] bg-linear-to-r from-[#5B403E] to-transparent scale-107";
         const unselectedStyle = "cursor-pointer transition-discrete duration-175 hover:scale-107 border-transparent hover:border-white bg-linear-to-r from-transparent hover:from-[#515B61] to-transparent";
         return (() => {
-          var _el$0 = _tmpl$318(), _el$1 = _el$0.firstChild;
+          var _el$0 = _tmpl$319(), _el$1 = _el$0.firstChild;
           _el$0.$$click = () => setActiveKeySlot(index());
           insert(_el$1, createComponent(Show, {
             when: selectedKey,
@@ -7478,7 +7689,7 @@ function KeyModal() {
               });
             },
             get children() {
-              var _el$10 = _tmpl$225();
+              var _el$10 = _tmpl$226();
               createRenderEffect(() => setAttribute(_el$10, "src", selectedKey.localImagePath));
               return _el$10;
             }
@@ -7513,7 +7724,7 @@ function KeyModal() {
               return isSel();
             },
             get children() {
-              var _el$12 = _tmpl$412();
+              var _el$12 = _tmpl$413();
               insert(_el$12, createComponent(Check, {}));
               return _el$12;
             }
@@ -7523,7 +7734,7 @@ function KeyModal() {
               return key.number !== null;
             },
             get children() {
-              var _el$15 = _tmpl$511();
+              var _el$15 = _tmpl$512();
               insert(_el$15, () => key.number);
               return _el$15;
             }
@@ -7531,7 +7742,7 @@ function KeyModal() {
           insert(_el$13, (() => {
             var _c$ = memo(() => "dollAvatar" in key);
             return () => _c$() && (() => {
-              var _el$16 = _tmpl$79(), _el$17 = _el$16.firstChild, _el$18 = _el$17.firstChild;
+              var _el$16 = _tmpl$710(), _el$17 = _el$16.firstChild, _el$18 = _el$17.firstChild;
               createRenderEffect(() => setAttribute(_el$18, "src", key.dollAvatar));
               return _el$16;
             })();
@@ -7565,10 +7776,10 @@ function KeyModal() {
 delegateEvents(["click"]);
 
 // src/components/modals/WeaponModal.tsx
-var _tmpl$80 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
-var _tmpl$226 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-20 h-12 w-12"><img class="relative h-full w-full object-cover">`);
-var _tmpl$319 = /* @__PURE__ */ template(`<div><div></div><img><div>`);
-var _tmpl$413 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
+var _tmpl$81 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
+var _tmpl$227 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-20 h-12 w-12"><img class="relative h-full w-full object-cover">`);
+var _tmpl$320 = /* @__PURE__ */ template(`<div><div></div><img><div>`);
+var _tmpl$414 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function WeaponModal() {
   const dollInfo = createMemo(() => getInfoFromId(selectedDoll().id));
   if (!dollInfo()) return null;
@@ -7583,18 +7794,18 @@ function WeaponModal() {
   return [createComponent(ModalHeader, {
     title: "Select Weapon"
   }), (() => {
-    var _el$ = _tmpl$80(), _el$2 = _el$.firstChild;
+    var _el$ = _tmpl$81(), _el$2 = _el$.firstChild;
     insert(_el$2, createComponent(For, {
       each: visibleWeapons,
       children: (weapon) => {
         const isSel = () => selectedWeaponId() === weapon.id;
         return (() => {
-          var _el$3 = _tmpl$319(), _el$6 = _el$3.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.nextSibling;
+          var _el$3 = _tmpl$320(), _el$6 = _el$3.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.nextSibling;
           _el$3.$$click = () => setSelectedWeaponId(weapon.id);
           insert(_el$3, (() => {
             var _c$ = memo(() => !!isSel());
             return () => _c$() && (() => {
-              var _el$9 = _tmpl$413();
+              var _el$9 = _tmpl$414();
               insert(_el$9, createComponent(Check, {}));
               return _el$9;
             })();
@@ -7604,7 +7815,7 @@ function WeaponModal() {
               return weapon.imprintImage;
             },
             get children() {
-              var _el$4 = _tmpl$226(), _el$5 = _el$4.firstChild;
+              var _el$4 = _tmpl$227(), _el$5 = _el$4.firstChild;
               createRenderEffect(() => setAttribute(_el$5, "src", weapon.imprintImage));
               return _el$4;
             }
@@ -7651,11 +7862,11 @@ function WeaponModal() {
 delegateEvents(["click"]);
 
 // src/components/modals/DarkModal.tsx
-var _tmpl$81 = /* @__PURE__ */ template(`<div>`);
+var _tmpl$85 = /* @__PURE__ */ template(`<div>`);
 function DarkModal(props) {
   const resolved = children(() => props.children);
   return (() => {
-    var _el$ = _tmpl$81();
+    var _el$ = _tmpl$85();
     insert(_el$, resolved);
     createRenderEffect(() => className(_el$, `${props.width ?? "w-225"} ${props.hide ? "hidden" : ""} flex flex-col overflow-hidden rounded-sm border-t-4 border-[#3E5356] bg-[#2C373B] shadow-2xl`));
     return _el$;
@@ -7663,17 +7874,17 @@ function DarkModal(props) {
 }
 
 // src/components/modals/BuffModal.tsx
-var _tmpl$85 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
-var _tmpl$227 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Select one or more buffs relevant to this transcript`);
-var _tmpl$320 = /* @__PURE__ */ template(`<div><div><img class="relative z-20 h-full w-full object-cover"></div><div class="flex grow flex-col gap-3 text-[#384B53]"><div class="flex grow flex-row gap-3 border-b-2 border-[#E0DDE7]"><div class="text-left font-bold text-black"></div><div class=text-left></div></div><div class=text-left>`);
-var _tmpl$414 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
+var _tmpl$86 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
+var _tmpl$228 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Select one or more buffs relevant to this transcript`);
+var _tmpl$321 = /* @__PURE__ */ template(`<div><div><img class="relative z-20 h-full w-full object-cover"></div><div class="flex grow flex-col gap-3 text-[#384B53]"><div class="flex grow flex-row gap-3 border-b-2 border-[#E0DDE7]"><div class="text-left font-bold text-black"></div><div class=text-left></div></div><div class=text-left>`);
+var _tmpl$415 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function BuffModal() {
   const [selectedBuffs, setSelectedBuffs] = createSignal([...state.buffs]);
   const sortedBuffs = [...allBuffs].sort((a, b) => +b.core - +a.core || a.days?.[CURRENT_SEASON][0] - b.days?.[CURRENT_SEASON][0] || a.name.localeCompare(b.name));
   return [createComponent(ModalHeader, {
     title: "Select Seasonal Buffs"
   }), (() => {
-    var _el$ = _tmpl$85(), _el$2 = _el$.firstChild;
+    var _el$ = _tmpl$86(), _el$2 = _el$.firstChild;
     insert(_el$2, createComponent(For, {
       each: sortedBuffs,
       children: (buff) => {
@@ -7681,12 +7892,12 @@ function BuffModal() {
         const toggleBuff = () => setSelectedBuffs((buffs) => selectedBuffs().includes(buff.id) ? selectedBuffs().filter((b) => b !== buff.id) : [...buffs, buff.id]);
         const days = () => buff.days?.[CURRENT_SEASON].length ? "Available on days " + buff.days[CURRENT_SEASON].map((day) => day + 1).join(", ") : "Effective this season";
         return (() => {
-          var _el$4 = _tmpl$320(), _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.firstChild, _el$0 = _el$9.nextSibling, _el$1 = _el$8.nextSibling;
+          var _el$4 = _tmpl$321(), _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.firstChild, _el$0 = _el$9.nextSibling, _el$1 = _el$8.nextSibling;
           _el$4.$$click = () => toggleBuff();
           insert(_el$4, (() => {
             var _c$ = memo(() => !!isSel());
             return () => _c$() && (() => {
-              var _el$10 = _tmpl$414();
+              var _el$10 = _tmpl$415();
               insert(_el$10, createComponent(Check, {}));
               return _el$10;
             })();
@@ -7714,7 +7925,7 @@ function BuffModal() {
       }
     }));
     return _el$;
-  })(), _tmpl$227(), createComponent(ModalFooter, {
+  })(), _tmpl$228(), createComponent(ModalFooter, {
     styles: "justify-between",
     get children() {
       return [createComponent(Button, {
@@ -7784,7 +7995,7 @@ function trackStore(store) {
 }
 
 // src/App.tsx
-var _tmpl$86 = /* @__PURE__ */ template(`<div class="flex h-screen flex-col bg-zinc-950 text-white"><div class="relative flex-1 overflow-hidden"id=body>`);
+var _tmpl$87 = /* @__PURE__ */ template(`<div class="flex h-screen flex-col bg-zinc-950 text-white"><div class="relative flex-1 overflow-hidden"id=body>`);
 function App() {
   onMount(async () => {
     await loadCombinedJson();
@@ -7794,6 +8005,9 @@ function App() {
     if (params.has("state")) {
       setStateFromURL(true);
       await importState(loadFromString, params.get("state"));
+    } else if (params.has("stateId")) {
+      setStateFromURL(true);
+      await importState(loadFromWorker, params.get("stateId"));
     } else {
       await importState(loadFromLocalStorage, "");
     }
@@ -7818,7 +8032,7 @@ function App() {
     }
   };
   return (() => {
-    var _el$ = _tmpl$86(), _el$2 = _el$.firstChild;
+    var _el$ = _tmpl$87(), _el$2 = _el$.firstChild;
     insert(_el$, createComponent(TabBar, {
       onTabChange: handleTabChange
     }), _el$2);
