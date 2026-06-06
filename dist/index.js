@@ -6512,6 +6512,7 @@ function SummaryView() {
           if (!gun) gun = defaultWeapons[dollInfo.gunType];
           return gun;
         });
+        const dollKeys = createMemo(() => sortEquippedKeys(doll.id, doll.keys));
         return (() => {
           var _el$13 = _tmpl$94(), _el$14 = _el$13.firstChild, _el$16 = _el$14.firstChild, _el$17 = _el$16.firstChild, _el$18 = _el$17.nextSibling, _el$19 = _el$14.nextSibling, _el$20 = _el$19.firstChild, _el$21 = _el$20.firstChild, _el$22 = _el$20.nextSibling, _el$23 = _el$22.firstChild, _el$24 = _el$19.nextSibling, _el$27 = _el$24.firstChild, _el$28 = _el$27.nextSibling, _el$29 = _el$28.nextSibling;
           insert(_el$13, createComponent(SmallDollChip, {
@@ -6546,35 +6547,31 @@ function SummaryView() {
           insert(_el$27, () => dollWeapon().name);
           insert(_el$13, createComponent(For, {
             get each() {
-              return doll.keys;
+              return dollKeys();
             },
-            children: (key) => {
-              const keyInfo = getKeyFromId(doll.id, key, dollInfo);
-              if (!keyInfo) return null;
-              return (() => {
-                var _el$30 = _tmpl$110(), _el$31 = _el$30.firstChild, _el$32 = _el$31.firstChild, _el$33 = _el$32.firstChild;
-                insert(_el$30, createComponent(Show, {
-                  get when() {
-                    return keyInfo.number !== null;
-                  },
-                  get children() {
-                    var _el$34 = _tmpl$02();
-                    insert(_el$34, () => keyInfo.number);
-                    return _el$34;
-                  }
-                }), null);
-                insert(_el$30, (() => {
-                  var _c$2 = memo(() => "dollAvatar" in keyInfo);
-                  return () => _c$2() && (() => {
-                    var _el$35 = _tmpl$102(), _el$36 = _el$35.firstChild, _el$37 = _el$36.firstChild;
-                    createRenderEffect(() => setAttribute(_el$37, "src", keyInfo.dollAvatar));
-                    return _el$35;
-                  })();
-                })(), null);
-                createRenderEffect(() => setAttribute(_el$33, "src", keyInfo.localImagePath));
-                return _el$30;
-              })();
-            }
+            children: (key) => key && (() => {
+              var _el$30 = _tmpl$110(), _el$31 = _el$30.firstChild, _el$32 = _el$31.firstChild, _el$33 = _el$32.firstChild;
+              insert(_el$30, createComponent(Show, {
+                get when() {
+                  return key.number !== null;
+                },
+                get children() {
+                  var _el$34 = _tmpl$02();
+                  insert(_el$34, () => key.number);
+                  return _el$34;
+                }
+              }), null);
+              insert(_el$30, (() => {
+                var _c$2 = memo(() => "dollAvatar" in key);
+                return () => _c$2() && (() => {
+                  var _el$35 = _tmpl$102(), _el$36 = _el$35.firstChild, _el$37 = _el$36.firstChild;
+                  createRenderEffect(() => setAttribute(_el$37, "src", key.dollAvatar));
+                  return _el$35;
+                })();
+              })(), null);
+              createRenderEffect(() => setAttribute(_el$33, "src", key.localImagePath));
+              return _el$30;
+            })()
           }), null);
           createRenderEffect((_p$) => {
             var _v$ = dollInfo.remolding, _v$2 = `absolute bottom-1 z-30 w-full text-right font-bold ${dollWeapon().imprintId === null ? "pl-1.25" : "pl-9"} overflow-hidden pr-2 text-ellipsis whitespace-nowrap`, _v$3 = dollWeapon().localImagePath, _v$4 = `relative z-20 h-full w-full border-b-3 ${dollWeapon().rarity === "Elite" ? "border-[#DF9E00]" : "border-[#3291AB]"} object-cover`, _v$5 = `absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${dollWeapon().rarity === "Elite" ? "from-[#453824]" : "from-[#133843]"} from-0% to-transparent to-75%`;
@@ -7116,9 +7113,9 @@ ${window.location.origin + window.location.pathname}?state=` + exportString();
       value.push("Include a predicted final score for this investment.");
     }
     for (const doll of state.selectedDolls) {
-      const keys = displaySmallKeys(doll.id, doll.keys);
-      const missingFixedKey = keys.find((key) => typeof key === "object" && key.type === "Fixed Key" && key.rarity === "None");
-      if (missingFixedKey) {
+      const keys = sortEquippedKeys(doll.id, doll.keys);
+      const fixedKeys = keys.filter((key) => key !== null && key.type === "Fixed Key");
+      if (fixedKeys.length < 3) {
         const dollInfo = getDollFromId(doll.id);
         if (!dollInfo) continue;
         missingKeys.push(`${dollInfo.name} is missing fixed keys`);

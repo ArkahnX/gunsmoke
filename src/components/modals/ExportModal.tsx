@@ -58,9 +58,9 @@ export default function ExportModal() {
 			value.push("Include a predicted final score for this investment.");
 		}
 		for (const doll of state.selectedDolls) {
-			const keys = displaySmallKeys(doll.id, doll.keys);
-			const missingFixedKey = keys.find((key) => typeof key === "object" && key.type === "Fixed Key" && key.rarity === "None");
-			if (missingFixedKey) {
+			const keys = sortEquippedKeys(doll.id, doll.keys);
+			const fixedKeys = keys.filter((key) => key !== null && key.type === "Fixed Key");
+			if (fixedKeys.length < 3) {
 				const dollInfo = getDollFromId(doll.id);
 				if (!dollInfo) continue;
 				missingKeys.push(`${dollInfo.name} is missing fixed keys`);

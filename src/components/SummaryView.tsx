@@ -13,6 +13,7 @@ import {
 	allWeapons,
 	defaultWeapons,
 	allBuffs,
+	sortEquippedKeys,
 } from "../store";
 import { CURRENT_SEASON, TILE_SIZE } from "../types/constants";
 import { drawMapTilesOnArena } from "../canvas/draw";
@@ -205,6 +206,7 @@ export default function SummaryView() {
 							if (!gun) gun = defaultWeapons[dollInfo.gunType];
 							return gun;
 						});
+						const dollKeys = createMemo(() => sortEquippedKeys(doll.id, doll.keys));
 						return (
 							<div class="flex flex-row items-center gap-2 rounded-sm border-t-4 border-[#3E5356] bg-[#2C373B] p-2 shadow-sm shadow-black/50">
 								<SmallDollChip target={dollInfo!} doll={getDollFromSummon(dollInfo!)} />
@@ -249,32 +251,28 @@ export default function SummaryView() {
 									<div
 										class={`absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${dollWeapon().rarity === "Elite" ? "from-[#453824]" : "from-[#133843]"} from-0% to-transparent to-75%`}></div>
 								</div>
-								<For each={doll.keys}>
-									{(key) => {
-										const keyInfo = getKeyFromId(doll.id, key, dollInfo);
-										if (!keyInfo) return null;
-										return (
-											<div class="inset-shadow-2xl relative flex h-17 w-17 flex-col items-center justify-center">
-												<div class="absolute z-10">
-													<div class="relative w-20">
-														<img src={keyInfo.localImagePath} class="w-full object-cover object-top" />
+								<For each={dollKeys()}>
+									{(key) => key && (
+										<div class="inset-shadow-2xl relative flex h-17 w-17 flex-col items-center justify-center">
+											<div class="absolute z-10">
+												<div class="relative w-20">
+													<img src={key.localImagePath} class="w-full object-cover object-top" />
+												</div>
+											</div>
+											<Show when={key.number !== null}>
+												<div class="absolute right-1.5 bottom-1.5 z-20 rounded-sm bg-[#2A3D46] px-1 text-sm font-bold text-[#EFEFEF]">
+													{key.number}
+												</div>
+											</Show>
+											{"dollAvatar" in key && (
+												<div class="absolute right-0 bottom-0.5 z-20 h-8 w-8 overflow-hidden rounded-full border-2 border-white bg-[#C9C8CE]">
+													<div class="relative -top-1 -left-2.25 w-12">
+														<img src={key.dollAvatar} class="w-full object-cover object-top" />
 													</div>
 												</div>
-												<Show when={keyInfo.number !== null}>
-													<div class="absolute right-1.5 bottom-1.5 z-20 rounded-sm bg-[#2A3D46] px-1 text-sm font-bold text-[#EFEFEF]">
-														{keyInfo.number}
-													</div>
-												</Show>
-												{"dollAvatar" in keyInfo && (
-													<div class="absolute right-0 bottom-0.5 z-20 h-8 w-8 overflow-hidden rounded-full border-2 border-white bg-[#C9C8CE]">
-														<div class="relative -top-1 -left-2.25 w-12">
-															<img src={keyInfo.dollAvatar} class="w-full object-cover object-top" />
-														</div>
-													</div>
-												)}
-											</div>
-										);
-									}}
+											)}
+										</div>
+									)}
 								</For>
 							</div>
 						);
