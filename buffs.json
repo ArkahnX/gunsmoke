@@ -1,13 +1,45 @@
 [
   {
+    "name": "Acidic Absorption",
+    "description": "When this unit possesses a <color=#8679e8>Corrosion</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+    "id": "b1",
+    "season": 26,
+    "days": {
+      "26": [
+        1,
+        5
+      ]
+    },
+    "localImagePath": "data/buffs/Acidic Absorption.png"
+  },
+  {
+    "name": "Burn Drain",
+    "description": "When this unit has a <color=#e67129>Burn</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+    "id": "b4",
+    "season": 26,
+    "days": {
+      "26": [
+        2,
+        4
+      ]
+    },
+    "localImagePath": "data/buffs/Burn Drain.png"
+  },
+  {
     "name": "Chain Acid Swamp",
     "description": "If an enemy is afflicted by Corrosion debuff(s), increases critical damage against them by <color=#f26c1c>25%</color>.",
     "id": "b6",
-    "season": 25,
+    "season": 26,
     "days": {
       "25": [
         2,
         5
+      ],
+      "26": [
+        2,
+        3,
+        4,
+        6
       ]
     },
     "localImagePath": "data/buffs/Chain Acid Swamp.png"
@@ -69,6 +101,41 @@
     "localImagePath": "data/buffs/Corrosion Overdrive.png"
   },
   {
+    "name": "Corrupt Arc",
+    "description": "Increases Electric and Corrosion damage and their critical rate by <color=#f26c1c>30%</color>.",
+    "id": "b18",
+    "season": 26,
+    "core": true,
+    "localImagePath": "data/buffs/Corrupt Arc.png"
+  },
+  {
+    "name": "Electric Drain",
+    "description": "When this unit has an <color=#d4ae08>Electric</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+    "id": "b23",
+    "season": 26,
+    "days": {
+      "26": [
+        0,
+        3
+      ]
+    },
+    "localImagePath": "data/buffs/Electric Drain.png"
+  },
+  {
+    "name": "Firepower Overmatch",
+    "description": "At the start of battle, gain <color=#f26c1c>10 stacks</color> of <color=#3487e0>Firepower Overmatch</color>.\nFirepower Overmatch:\nDamage dealt is increased by <color=#f26c1c>3%</color>, critical damage is increased by <color=#f26c1c>2%</color>. Stacks up to <color=#f26c1c>50 times</color>. Remove <color=#f26c1c>1 stack</color> for <color=#f26c1c>each tile</color> moved.",
+    "id": "b27",
+    "season": 26,
+    "days": {
+      "26": [
+        2,
+        4,
+        5
+      ]
+    },
+    "localImagePath": "data/buffs/Firepower Overmatch.png"
+  },
+  {
     "name": "Focused Phalanx",
     "description": "When shielded, attacks ignore <color=#f26c1c>20%</color> of the target's defense and critical damage is increased by <color=#f26c1c>10%</color>.",
     "id": "b28",
@@ -81,6 +148,21 @@
       ]
     },
     "localImagePath": "data/buffs/Focused Phalanx.png"
+  },
+  {
+    "name": "Freeze Drain",
+    "description": "When this unit has a <color=#42cce0>Freeze</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+    "id": "b29",
+    "season": 26,
+    "days": {
+      "26": [
+        0,
+        1,
+        3,
+        6
+      ]
+    },
+    "localImagePath": "data/buffs/Freeze Drain.png"
   },
   {
     "name": "Light Penetration",
@@ -99,12 +181,16 @@
     "name": "Mounting Synergy",
     "description": "For every <color=#f26c1c>1 allied unit</color> within <color=#f26c1c>5 tiles</color>, damage dealt is increased by <color=#f26c1c>6%</color>.",
     "id": "b49",
-    "season": 25,
+    "season": 26,
     "days": {
       "25": [
         0,
         4,
         6
+      ],
+      "26": [
+        2,
+        5
       ]
     },
     "localImagePath": "data/buffs/Mounting Synergy.png"
@@ -113,11 +199,16 @@
     "name": "Overpressure Rupture",
     "description": "Sentinel-class Dolls' critical damage is increased by <color=#f26c1c>25%</color>.",
     "id": "b51",
-    "season": 25,
+    "season": 26,
     "days": {
       "25": [
         1,
         5
+      ],
+      "26": [
+        0,
+        4,
+        6
       ]
     },
     "localImagePath": "data/buffs/Overpressure Rupture.png"
@@ -129,6 +220,34 @@
     "season": 25,
     "core": true,
     "localImagePath": "data/buffs/Putrid Cold Wave.png"
+  },
+  {
+    "name": "Speedy Offensive",
+    "description": "For every <color=#f26c1c>5 tiles</color> moved, damage dealt is permanently increased by <color=#f26c1c>5%</color>. Maximum of <color=#f26c1c>10 stacks</color>.",
+    "id": "b61",
+    "season": 26,
+    "days": {
+      "26": [
+        1,
+        5
+      ]
+    },
+    "localImagePath": "data/buffs/Speedy Offensive.png"
+  },
+  {
+    "name": "Sustained Offensive",
+    "description": "For every <color=#f26c1c>1 instance</color> of fixed damage taken by an enemy, all damage dealt by allied units is permanently increased by <color=#f26c1c>2%</color>. Maximum of 15 stacks.",
+    "id": "b65",
+    "season": 26,
+    "days": {
+      "26": [
+        0,
+        1,
+        3,
+        6
+      ]
+    },
+    "localImagePath": "data/buffs/Sustained Offensive.png"
   },
   {
     "name": "Undaunted Spirit",

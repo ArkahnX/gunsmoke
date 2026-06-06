@@ -1,6 +1,16 @@
 import { JSX } from "solid-js/jsx-runtime";
 
 const tsxBuffs: Record<string, JSX.Element> = {
+	b1: (
+		<span>
+			When this unit possesses a <span style="color:#8679e8">Corrosion</span> buff, damage dealt is increased by <span style="color:#f26c1c">20%</span>.
+		</span>
+	),
+	b4: (
+		<span>
+			When this unit has a <span style="color:#e67129">Burn</span> buff, damage dealt is increased by <span style="color:#f26c1c">20%</span>.
+		</span>
+	),
 	b6: (
 		<span>
 			If an enemy is afflicted by Corrosion debuff(s), increases critical damage against them by{" "}
@@ -31,10 +41,30 @@ const tsxBuffs: Record<string, JSX.Element> = {
 			Corrosion damage is increased by <span style="color:#f26c1c">20%</span>.
 		</span>
 	),
+	b18: (
+		<span>
+			Increases <span style="color:#d4ae08">Electric</span> and <span style="color:#8679e8">Corrosion</span> damage and their critical rate by <span style="color:#f26c1c">30%</span>.
+		</span>
+	),
+	b23: (
+		<span>
+			When this unit has an <span style="color:#d4ae08">Electric</span> buff, damage dealt is increased by <span style="color:#f26c1c">20%</span>.
+		</span>
+	),
+	b27: (
+		<span>
+			At the start of battle, gain <span style="color:#f26c1c">10 stacks</span> of <span style="color:#3487e0">Firepower Overmatch</span>.<br />Firepower Overmatch: Damage dealt is increased by <span style="color:#f26c1c">3%</span>, critical damage is increased by <span style="color:#f26c1c">2%</span>. Stacks up to <span style="color:#f26c1c">50 times</span>. Remove <span style="color:#f26c1c">1 stack</span> for <span style="color:#f26c1c">each tile</span> moved.
+		</span>
+	),
 	b28: (
 		<span>
 			When shielded, attacks ignore <span style="color:#f26c1c">20%</span> of the target's defense and critical damage is increased by{" "}
 			<span style="color:#f26c1c">10%</span>.
+		</span>
+	),
+	b29: (
+		<span>
+			When this unit has a <span style="color:#42cce0">Freeze</span> buff, damage dealt is increased by <span style="color:#f26c1c">20%</span>.
 		</span>
 	),
 	b45: (
@@ -56,6 +86,16 @@ const tsxBuffs: Record<string, JSX.Element> = {
 	b55: (
 		<span>
 			Increases Corrosion and Freeze damage and their critical rate by <span style="color:#f26c1c">30%</span>.
+		</span>
+	),
+	b61: (
+		<span>
+			For every <span style="color:#f26c1c">5 tiles</span> moved, damage dealt is permanently increased by <span style="color:#f26c1c">5%</span>. Maximum of <span style="color:#f26c1c">10 stacks</span>.
+		</span>
+	),
+	b65: (
+		<span>
+			For every <span style="color:#f26c1c">1 instance</span> of fixed damage taken by an enemy, all damage dealt by allied units is permanently increased by <span style="color:#f26c1c">2%</span>. Maximum of 15 stacks.
 		</span>
 	),
 	b67: (

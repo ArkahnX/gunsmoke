@@ -1,5 +1,5 @@
 import { createSignal, For } from "solid-js";
-import { interactiveStyles, setShowBuffModal, allBuffs, setBuffs, state } from "../../store";
+import { interactiveStyles, setShowBuffModal, allBuffs, setBuffs, state, sortBuffs } from "../../store";
 import Button from "../buttons/Button";
 import ModalHeader from "./ModalHeader";
 import ModalFooter from "./ModalFooter";
@@ -9,9 +9,7 @@ import { Buffs } from "../Buffs";
 
 export default function BuffModal() {
 	const [selectedBuffs, setSelectedBuffs] = createSignal<string[]>([...state.buffs]);
-	const sortedBuffs = [...allBuffs].sort(
-		(a, b) => +b.core - +a.core || a.days?.[CURRENT_SEASON][0] - b.days?.[CURRENT_SEASON][0] || a.name.localeCompare(b.name)
-	);
+	const sortedBuffs = [...allBuffs].sort(sortBuffs);
 	return (
 		<>
 			<ModalHeader title="Select Seasonal Buffs" />
@@ -24,10 +22,15 @@ export default function BuffModal() {
 								setSelectedBuffs((buffs) =>
 									selectedBuffs().includes(buff.id) ? selectedBuffs().filter((b) => b !== buff.id) : [...buffs, buff.id]
 								);
-							const days = () =>
-								buff.days?.[CURRENT_SEASON].length
-									? "Available on days " + buff.days[CURRENT_SEASON].map((day) => day + 1).join(", ")
-									: "Effective this season";
+							const days = () => {
+								if (buff.core && buff.season === CURRENT_SEASON) {
+									return "Effective this season";
+								}
+								if (buff.days && buff.days[CURRENT_SEASON]) {
+									return "Available on days " + buff.days[CURRENT_SEASON].map((day) => day + 1).join(", ");
+								}
+								return "Unavailable this gunsmoke season";
+							};
 							return (
 								<div
 									onClick={() => toggleBuff()}

@@ -1826,7 +1826,7 @@ var CANVAS_SIZE = MAP_SIZE * TILE_SIZE;
 var E_PAD = 6;
 var HALF_HEIGHT = Math.round(TILE_SIZE * 0.15);
 var FULL_HEIGHT = Math.round(TILE_SIZE * 0.35);
-var CURRENT_SEASON = 25;
+var CURRENT_SEASON = 26;
 var V7_SAVE_VERSION = 7;
 var V7_STORAGE_KEY = "arenaPlannerState_v" + V7_SAVE_VERSION;
 var V7_EDITOR_MAP_KEY = "arenaEditorMap_v2";
@@ -5716,10 +5716,10 @@ function overrideSkillDisplay(values) {
   );
 }
 function sortBuffs(buffId1, buffId2) {
-  const buff1 = allBuffs.find((b) => buffId1 === b.id);
-  const buff2 = allBuffs.find((b) => buffId2 === b.id);
+  const buff1 = typeof buffId1 === "string" ? allBuffs.find((b) => buffId1 === b.id) : buffId1;
+  const buff2 = typeof buffId2 === "string" ? allBuffs.find((b) => buffId2 === b.id) : buffId2;
   if (!buff1 || !buff2) return 0;
-  return +buff2.core - +buff1.core || buff1.days?.[CURRENT_SEASON][0] - buff2.days?.[CURRENT_SEASON][0] || buff1.name.localeCompare(buff2.name);
+  return buff2.season - buff1.season || +buff2.core - +buff1.core || buff1.days?.[CURRENT_SEASON]?.[0] - buff2.days?.[CURRENT_SEASON]?.[0] || buff1.name.localeCompare(buff2.name);
 }
 async function compress(data) {
   const clone = structuredClone(unwrap(data));
@@ -6307,29 +6307,45 @@ function Borrow() {
 }
 
 // src/components/Buffs.tsx
-var _tmpl$45 = /* @__PURE__ */ template(`<span>If an enemy is afflicted by Corrosion debuff(s), increases critical damage against them by <span style=color:#f26c1c>25%</span>.`);
-var _tmpl$215 = /* @__PURE__ */ template(`<span>Damage dealt is increased by <span style=color:#f26c1c>20%</span> when distance to the enemy target is less than or equal to <span style=color:#f26c1c>6 tiles</span>.`);
-var _tmpl$311 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>2000</span> points of <span style=color:#f26c1c>healing</span> or <span style=color:#f26c1c>shield</span> applied to allies by Support Dolls, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Complementarity Plan</span>.`);
-var _tmpl$46 = /* @__PURE__ */ template(`<span>If this unit's has <span style=color:#f26c1c>2 or more</span> points of Confectance Index at the start of the round, damage dealt is increased by <span style=color:#f26c1c>25%</span> until the end of the round.`);
-var _tmpl$54 = /* @__PURE__ */ template(`<span>Corrosion damage is increased by <span style=color:#f26c1c>20%</span>.`);
-var _tmpl$63 = /* @__PURE__ */ template(`<span>When shielded, attacks ignore <span style=color:#f26c1c>20%</span> of the target's defense and critical damage is increased by <span style=color:#f26c1c>10%</span>.`);
-var _tmpl$73 = /* @__PURE__ */ template(`<span>Light Ammo ignores <span style=color:#f26c1c>50%</span> of target's defense.`);
-var _tmpl$83 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 allied unit</span> within <span style=color:#f26c1c>5 tiles</span>, damage dealt is increased by <span style=color:#f26c1c>6%</span>.`);
-var _tmpl$93 = /* @__PURE__ */ template(`<span>Sentinel-class Dolls' critical damage is increased by <span style=color:#f26c1c>25%</span>.`);
-var _tmpl$0 = /* @__PURE__ */ template(`<span>Increases Corrosion and Freeze damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
-var _tmpl$1 = /* @__PURE__ */ template(`<span><span style=color:#f26c1c>Each time</span> a Bulwark-class Doll takes damage, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Undaunted Spirit</span>.`);
+var _tmpl$45 = /* @__PURE__ */ template(`<span>When this unit possesses a <span style=color:#8679e8>Corrosion</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$215 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#e67129>Burn</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$311 = /* @__PURE__ */ template(`<span>If an enemy is afflicted by Corrosion debuff(s), increases critical damage against them by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$46 = /* @__PURE__ */ template(`<span>Damage dealt is increased by <span style=color:#f26c1c>20%</span> when distance to the enemy target is less than or equal to <span style=color:#f26c1c>6 tiles</span>.`);
+var _tmpl$54 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>2000</span> points of <span style=color:#f26c1c>healing</span> or <span style=color:#f26c1c>shield</span> applied to allies by Support Dolls, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Complementarity Plan</span>.`);
+var _tmpl$63 = /* @__PURE__ */ template(`<span>If this unit's has <span style=color:#f26c1c>2 or more</span> points of Confectance Index at the start of the round, damage dealt is increased by <span style=color:#f26c1c>25%</span> until the end of the round.`);
+var _tmpl$73 = /* @__PURE__ */ template(`<span>Corrosion damage is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$83 = /* @__PURE__ */ template(`<span>Increases <span style=color:#d4ae08>Electric</span> and <span style=color:#8679e8>Corrosion</span> damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$93 = /* @__PURE__ */ template(`<span>When this unit has an <span style=color:#d4ae08>Electric</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$0 = /* @__PURE__ */ template(`<span>At the start of battle, gain <span style=color:#f26c1c>10 stacks</span> of <span style=color:#3487e0>Firepower Overmatch</span>.<br>Firepower Overmatch: Damage dealt is increased by <span style=color:#f26c1c>3%</span>, critical damage is increased by <span style=color:#f26c1c>2%</span>. Stacks up to <span style=color:#f26c1c>50 times</span>. Remove <span style=color:#f26c1c>1 stack</span> for <span style=color:#f26c1c>each tile</span> moved.`);
+var _tmpl$1 = /* @__PURE__ */ template(`<span>When shielded, attacks ignore <span style=color:#f26c1c>20%</span> of the target's defense and critical damage is increased by <span style=color:#f26c1c>10%</span>.`);
+var _tmpl$102 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#42cce0>Freeze</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$112 = /* @__PURE__ */ template(`<span>Light Ammo ignores <span style=color:#f26c1c>50%</span> of target's defense.`);
+var _tmpl$122 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 allied unit</span> within <span style=color:#f26c1c>5 tiles</span>, damage dealt is increased by <span style=color:#f26c1c>6%</span>.`);
+var _tmpl$132 = /* @__PURE__ */ template(`<span>Sentinel-class Dolls' critical damage is increased by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$142 = /* @__PURE__ */ template(`<span>Increases Corrosion and Freeze damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$152 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>5 tiles</span> moved, damage dealt is permanently increased by <span style=color:#f26c1c>5%</span>. Maximum of <span style=color:#f26c1c>10 stacks</span>.`);
+var _tmpl$162 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 instance</span> of fixed damage taken by an enemy, all damage dealt by allied units is permanently increased by <span style=color:#f26c1c>2%</span>. Maximum of 15 stacks.`);
+var _tmpl$172 = /* @__PURE__ */ template(`<span><span style=color:#f26c1c>Each time</span> a Bulwark-class Doll takes damage, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Undaunted Spirit</span>.`);
 var tsxBuffs = {
-  b6: _tmpl$45(),
-  b12: _tmpl$215(),
-  b13: _tmpl$311(),
-  b14: _tmpl$46(),
-  b16: _tmpl$54(),
-  b28: _tmpl$63(),
-  b45: _tmpl$73(),
-  b49: _tmpl$83(),
-  b51: _tmpl$93(),
-  b55: _tmpl$0(),
-  b67: _tmpl$1()
+  b1: _tmpl$45(),
+  b4: _tmpl$215(),
+  b6: _tmpl$311(),
+  b12: _tmpl$46(),
+  b13: _tmpl$54(),
+  b14: _tmpl$63(),
+  b16: _tmpl$73(),
+  b18: _tmpl$83(),
+  b23: _tmpl$93(),
+  b27: _tmpl$0(),
+  b28: _tmpl$1(),
+  b29: _tmpl$102(),
+  b45: _tmpl$112(),
+  b49: _tmpl$122(),
+  b51: _tmpl$132(),
+  b55: _tmpl$142(),
+  b61: _tmpl$152(),
+  b65: _tmpl$162(),
+  b67: _tmpl$172()
 };
 function Buffs(props) {
   if (props.id in tsxBuffs) {
@@ -6350,8 +6366,8 @@ var _tmpl$84 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-
 var _tmpl$94 = /* @__PURE__ */ template(`<div class="flex flex-row items-center gap-2 rounded-sm border-t-4 border-[#3E5356] bg-[#2C373B] p-2 shadow-sm shadow-black/50"><div class="text-md flex w-12 flex-col items-center justify-center"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center pt-0.5 text-[18px] font-bold"></div></div></div><div class="text-md relative flex h-12 w-12 flex-col items-center justify-start overflow-hidden rounded-full"><div class="h-8 w-8"><img></div><div class="absolute bottom-0 flex h-full w-full items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class></div></div></div><div class="relative flex h-17 w-32.5 flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50"><div></div><img><div>`);
 var _tmpl$02 = /* @__PURE__ */ template(`<div class="absolute right-1.5 bottom-1.5 z-20 rounded-sm bg-[#2A3D46] px-1 text-sm font-bold text-[#EFEFEF]">`);
 var _tmpl$110 = /* @__PURE__ */ template(`<div class="inset-shadow-2xl relative flex h-17 w-17 flex-col items-center justify-center"><div class="absolute z-10"><div class="relative w-20"><img class="w-full object-cover object-top">`);
-var _tmpl$102 = /* @__PURE__ */ template(`<div class="absolute right-0 bottom-0.5 z-20 h-8 w-8 overflow-hidden rounded-full border-2 border-white bg-[#C9C8CE]"><div class="relative -top-1 -left-2.25 w-12"><img class="w-full object-cover object-top">`);
-var _tmpl$112 = /* @__PURE__ */ template(`<div class="relative flex grow flex-row items-start gap-3 rounded-sm bg-[#F2EEF8] p-2.5 shadow-sm shadow-black/20"><div><img class="relative z-20 h-full w-full object-cover"></div><div class="flex grow flex-col gap-3 text-[#384B53]"><div class="flex grow flex-row gap-3 border-b-2 border-[#E0DDE7]"><div class="text-left font-bold text-black"></div><div class=text-left></div></div><div class=text-left>`);
+var _tmpl$103 = /* @__PURE__ */ template(`<div class="absolute right-0 bottom-0.5 z-20 h-8 w-8 overflow-hidden rounded-full border-2 border-white bg-[#C9C8CE]"><div class="relative -top-1 -left-2.25 w-12"><img class="w-full object-cover object-top">`);
+var _tmpl$113 = /* @__PURE__ */ template(`<div class="relative flex grow flex-row items-start gap-3 rounded-sm bg-[#F2EEF8] p-2.5 shadow-sm shadow-black/20"><div><img class="relative z-20 h-full w-full object-cover"></div><div class="flex grow flex-col gap-3 text-[#384B53]"><div class="flex grow flex-row gap-3 border-b-2 border-[#E0DDE7]"><div class="text-left font-bold text-black"></div><div class=text-left></div></div><div class=text-left>`);
 function renderTabCanvas(tabIndex) {
   const placedEntities = [];
   const placedDollPositions = [];
@@ -6564,7 +6580,7 @@ function SummaryView() {
               insert(_el$30, (() => {
                 var _c$2 = memo(() => "dollAvatar" in key);
                 return () => _c$2() && (() => {
-                  var _el$35 = _tmpl$102(), _el$36 = _el$35.firstChild, _el$37 = _el$36.firstChild;
+                  var _el$35 = _tmpl$103(), _el$36 = _el$35.firstChild, _el$37 = _el$36.firstChild;
                   createRenderEffect(() => setAttribute(_el$37, "src", key.dollAvatar));
                   return _el$35;
                 })();
@@ -6603,9 +6619,17 @@ function SummaryView() {
           children: (buffId) => {
             const buff = allBuffs.find((b) => buffId === b.id);
             if (!buff) return null;
-            const days = () => buff.days?.[CURRENT_SEASON].length ? "Available on days " + buff.days[CURRENT_SEASON].map((day) => day + 1).join(", ") : "Effective this season";
+            const days = () => {
+              if (buff.core && buff.season === CURRENT_SEASON) {
+                return "Effective this season";
+              }
+              if (buff.days && buff.days[CURRENT_SEASON]) {
+                return "Available on days " + buff.days[CURRENT_SEASON].map((day) => day + 1).join(", ");
+              }
+              return "Unavailable this gunsmoke season";
+            };
             return (() => {
-              var _el$38 = _tmpl$112(), _el$39 = _el$38.firstChild, _el$40 = _el$39.firstChild, _el$41 = _el$39.nextSibling, _el$42 = _el$41.firstChild, _el$43 = _el$42.firstChild, _el$44 = _el$43.nextSibling, _el$45 = _el$42.nextSibling;
+              var _el$38 = _tmpl$113(), _el$39 = _el$38.firstChild, _el$40 = _el$39.firstChild, _el$41 = _el$39.nextSibling, _el$42 = _el$41.firstChild, _el$43 = _el$42.firstChild, _el$44 = _el$43.nextSibling, _el$45 = _el$42.nextSibling;
               insert(_el$43, () => buff.name);
               insert(_el$44, days);
               insert(_el$45, createComponent(Buffs, {
@@ -7912,7 +7936,7 @@ var _tmpl$321 = /* @__PURE__ */ template(`<div><div><img class="relative z-20 h-
 var _tmpl$415 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function BuffModal() {
   const [selectedBuffs, setSelectedBuffs] = createSignal([...state.buffs]);
-  const sortedBuffs = [...allBuffs].sort((a, b) => +b.core - +a.core || a.days?.[CURRENT_SEASON][0] - b.days?.[CURRENT_SEASON][0] || a.name.localeCompare(b.name));
+  const sortedBuffs = [...allBuffs].sort(sortBuffs);
   return [createComponent(ModalHeader, {
     title: "Select Seasonal Buffs"
   }), (() => {
@@ -7922,7 +7946,15 @@ function BuffModal() {
       children: (buff) => {
         const isSel = () => selectedBuffs().includes(buff.id);
         const toggleBuff = () => setSelectedBuffs((buffs) => selectedBuffs().includes(buff.id) ? selectedBuffs().filter((b) => b !== buff.id) : [...buffs, buff.id]);
-        const days = () => buff.days?.[CURRENT_SEASON].length ? "Available on days " + buff.days[CURRENT_SEASON].map((day) => day + 1).join(", ") : "Effective this season";
+        const days = () => {
+          if (buff.core && buff.season === CURRENT_SEASON) {
+            return "Effective this season";
+          }
+          if (buff.days && buff.days[CURRENT_SEASON]) {
+            return "Available on days " + buff.days[CURRENT_SEASON].map((day) => day + 1).join(", ");
+          }
+          return "Unavailable this gunsmoke season";
+        };
         return (() => {
           var _el$4 = _tmpl$321(), _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.firstChild, _el$0 = _el$9.nextSibling, _el$1 = _el$8.nextSibling;
           _el$4.$$click = () => toggleBuff();

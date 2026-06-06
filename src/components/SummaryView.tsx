@@ -252,27 +252,29 @@ export default function SummaryView() {
 										class={`absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${dollWeapon().rarity === "Elite" ? "from-[#453824]" : "from-[#133843]"} from-0% to-transparent to-75%`}></div>
 								</div>
 								<For each={dollKeys()}>
-									{(key) => key && (
-										<div class="inset-shadow-2xl relative flex h-17 w-17 flex-col items-center justify-center">
-											<div class="absolute z-10">
-												<div class="relative w-20">
-													<img src={key.localImagePath} class="w-full object-cover object-top" />
-												</div>
-											</div>
-											<Show when={key.number !== null}>
-												<div class="absolute right-1.5 bottom-1.5 z-20 rounded-sm bg-[#2A3D46] px-1 text-sm font-bold text-[#EFEFEF]">
-													{key.number}
-												</div>
-											</Show>
-											{"dollAvatar" in key && (
-												<div class="absolute right-0 bottom-0.5 z-20 h-8 w-8 overflow-hidden rounded-full border-2 border-white bg-[#C9C8CE]">
-													<div class="relative -top-1 -left-2.25 w-12">
-														<img src={key.dollAvatar} class="w-full object-cover object-top" />
+									{(key) =>
+										key && (
+											<div class="inset-shadow-2xl relative flex h-17 w-17 flex-col items-center justify-center">
+												<div class="absolute z-10">
+													<div class="relative w-20">
+														<img src={key.localImagePath} class="w-full object-cover object-top" />
 													</div>
 												</div>
-											)}
-										</div>
-									)}
+												<Show when={key.number !== null}>
+													<div class="absolute right-1.5 bottom-1.5 z-20 rounded-sm bg-[#2A3D46] px-1 text-sm font-bold text-[#EFEFEF]">
+														{key.number}
+													</div>
+												</Show>
+												{"dollAvatar" in key && (
+													<div class="absolute right-0 bottom-0.5 z-20 h-8 w-8 overflow-hidden rounded-full border-2 border-white bg-[#C9C8CE]">
+														<div class="relative -top-1 -left-2.25 w-12">
+															<img src={key.dollAvatar} class="w-full object-cover object-top" />
+														</div>
+													</div>
+												)}
+											</div>
+										)
+									}
 								</For>
 							</div>
 						);
@@ -287,10 +289,15 @@ export default function SummaryView() {
 							{(buffId) => {
 								const buff = allBuffs.find((b) => buffId === b.id);
 								if (!buff) return null;
-								const days = () =>
-									buff.days?.[CURRENT_SEASON].length
-										? "Available on days " + buff.days[CURRENT_SEASON].map((day) => day + 1).join(", ")
-										: "Effective this season";
+								const days = () => {
+									if (buff.core && buff.season === CURRENT_SEASON) {
+										return "Effective this season";
+									}
+									if (buff.days && buff.days[CURRENT_SEASON]) {
+										return "Available on days " + buff.days[CURRENT_SEASON].map((day) => day + 1).join(", ");
+									}
+									return "Unavailable this gunsmoke season";
+								};
 								return (
 									<div class="relative flex grow flex-row items-start gap-3 rounded-sm bg-[#F2EEF8] p-2.5 shadow-sm shadow-black/20">
 										<div

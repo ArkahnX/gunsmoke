@@ -947,13 +947,14 @@ export function overrideSkillDisplay(values: number[]) {
 	);
 }
 
-function sortBuffs(buffId1: string, buffId2: string) {
-	const buff1 = allBuffs.find((b) => buffId1 === b.id);
-	const buff2 = allBuffs.find((b) => buffId2 === b.id);
+export function sortBuffs(buffId1: string | BuffData, buffId2: string | BuffData) {
+	const buff1 = typeof buffId1 === "string" ? allBuffs.find((b) => buffId1 === b.id) : buffId1;
+	const buff2 = typeof buffId2 === "string" ? allBuffs.find((b) => buffId2 === b.id) : buffId2;
 	if (!buff1 || !buff2) return 0;
 	return (
+		buff2.season - buff1.season ||
 		+buff2.core - +buff1.core ||
-		buff1.days?.[CURRENT_SEASON][0] - buff2.days?.[CURRENT_SEASON][0] ||
+		buff1.days?.[CURRENT_SEASON]?.[0] - buff2.days?.[CURRENT_SEASON]?.[0] ||
 		buff1.name.localeCompare(buff2.name)
 	);
 }
