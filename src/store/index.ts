@@ -554,7 +554,6 @@ export function displaySmallKeys(dollId: string, keys: string[]) {
 		}
 		if (keyType === "Affinity Key") result.push("=");
 	}
-	console.log(doll.name, result);
 	return result;
 }
 
@@ -976,7 +975,6 @@ export async function compress(data: AppState): Promise<string> {
 		doll.keys.sort();
 	}
 	const byteArray = new TextEncoder().encode(JSON.stringify(exportState));
-	console.log(JSON.stringify(exportState));
 	const cs = new CompressionStream("deflate");
 	const writer = cs.writable.getWriter();
 	writer.write(byteArray);

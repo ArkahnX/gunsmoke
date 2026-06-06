@@ -5353,7 +5353,6 @@ function displaySmallKeys(dollId, keys) {
     }
     if (keyType === "Affinity Key") result.push("=");
   }
-  console.log(doll.name, result);
   return result;
 }
 function sortEquippedKeys(dollId, keys) {
@@ -5738,7 +5737,6 @@ async function compress(data) {
     doll.keys.sort();
   }
   const byteArray = new TextEncoder().encode(JSON.stringify(exportState));
-  console.log(JSON.stringify(exportState));
   const cs = new CompressionStream("deflate");
   const writer = cs.writable.getWriter();
   writer.write(byteArray);
