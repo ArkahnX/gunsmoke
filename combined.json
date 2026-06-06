@@ -505,7 +505,7 @@
     "avatar": "data/basti/avatar.webp",
     "skills": [
       {
-        "name": "Reckless Provocation",
+        "name": "Wildcat Impulse",
         "id": 1,
         "type": "Basic Attack",
         "tags": [
@@ -513,7 +513,7 @@
           "Targeted"
         ],
         "range": "6",
-        "localImagePath": "data/basti/skills/Reckless Provocation.webp"
+        "localImagePath": "data/basti/skills/Wildcat Impulse.webp"
       },
       {
         "name": "Graffiti World",
@@ -539,7 +539,7 @@
         "localImagePath": "data/basti/skills/Bad Influence.webp"
       },
       {
-        "name": "Jirai Shoujo",
+        "name": "Landmine Girl",
         "id": 4,
         "type": "Skill 2",
         "tags": [
@@ -547,10 +547,10 @@
           "Summon"
         ],
         "range": "6",
-        "localImagePath": "data/basti/skills/Jirai Shoujo.webp"
+        "localImagePath": "data/basti/skills/Landmine Girl.webp"
       },
       {
-        "name": "Sugar-Coated Trap",
+        "name": "Candy-Coated Carnage",
         "id": 5,
         "type": "Skill 3",
         "tags": [
@@ -560,7 +560,7 @@
           "Debuff"
         ],
         "range": "8",
-        "localImagePath": "data/basti/skills/Sugar-Coated Trap.webp"
+        "localImagePath": "data/basti/skills/Candy-Coated Carnage.webp"
       }
     ],
     "keys": [
@@ -581,12 +581,12 @@
         "localImagePath": "data/basti/keys/Street Art.webp"
       },
       {
-        "name": "Fixed Key 3 - Pain Dependency",
+        "name": "Fixed Key 3 - Pain Dependence",
         "id": "k3",
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 3,
-        "localImagePath": "data/basti/keys/Pain Dependency.webp"
+        "localImagePath": "data/basti/keys/Pain Dependence.webp"
       },
       {
         "name": "Fixed Key 4 - Genius Troublemaker",
@@ -597,20 +597,20 @@
         "localImagePath": "data/basti/keys/Genius Troublemaker.webp"
       },
       {
-        "name": "Fixed Key 5 - Surprise Gift",
+        "name": "Fixed Key 5 - Frightening Gift",
         "id": "k5",
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 5,
-        "localImagePath": "data/basti/keys/Surprise Gift.webp"
+        "localImagePath": "data/basti/keys/Frightening Gift.webp"
       },
       {
-        "name": "Fixed Key 6 - Love Smear",
+        "name": "Fixed Key 6 - Wild Smear",
         "id": "k6",
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 6,
-        "localImagePath": "data/basti/keys/Love Smear.webp"
+        "localImagePath": "data/basti/keys/Wild Smear.webp"
       }
     ],
     "summons": []
@@ -1618,12 +1618,12 @@
     ],
     "keys": [
       {
-        "name": "Expansion Key - Relentless Fighting Spirit",
+        "name": "Expansion Key - Unstoppable Fighting Spirit",
         "id": "k1",
         "rarity": "Elite",
         "type": "Expansion Key",
         "number": 1,
-        "localImagePath": "data/faye/keys/Relentless Fighting Spirit1.webp"
+        "localImagePath": "data/faye/keys/Unstoppable Fighting Spirit1.webp"
       },
       {
         "name": "Fixed Key 1 - Tracking by Scent",
@@ -2107,7 +2107,7 @@
     "avatar": "data/helen/avatar.webp",
     "skills": [
       {
-        "name": "Condensation",
+        "name": "Guardian",
         "id": 1,
         "type": "Basic Attack",
         "tags": [
@@ -2115,7 +2115,7 @@
           "Targeted"
         ],
         "range": "6",
-        "localImagePath": "data/helen/skills/Condensation.webp"
+        "localImagePath": "data/helen/skills/Guardian.webp"
       },
       {
         "name": "Fearless Valkyrie",
@@ -2124,19 +2124,20 @@
         "tags": [
           "Passive"
         ],
-        "range": null,
+        "range": "Self",
         "localImagePath": "data/helen/skills/Fearless Valkyrie.webp"
       },
       {
-        "name": "Blessing Command",
+        "name": "Maternal Care",
         "id": 3,
         "type": "Skill 1",
         "tags": [
           "Buff",
-          "Sharing"
+          "Sharing",
+          "Active"
         ],
         "range": "6",
-        "localImagePath": "data/helen/skills/Blessing Command.webp"
+        "localImagePath": "data/helen/skills/Maternal Care.webp"
       },
       {
         "name": "Covering Charge",
@@ -2146,13 +2147,13 @@
           "Active",
           "Buff",
           "Tile",
-          "Control"
+          "Defense"
         ],
         "range": "8",
         "localImagePath": "data/helen/skills/Covering Charge.webp"
       },
       {
-        "name": "Banner's Watch",
+        "name": "Bannerwatch",
         "id": 5,
         "type": "Skill 3",
         "tags": [
@@ -2160,7 +2161,7 @@
           "Buff"
         ],
         "range": "6",
-        "localImagePath": "data/helen/skills/Banner's Watch.webp"
+        "localImagePath": "data/helen/skills/Bannerwatch.webp"
       }
     ],
     "keys": [
@@ -2173,12 +2174,12 @@
         "localImagePath": "data/helen/keys/Double Agent.webp"
       },
       {
-        "name": "Fixed Key 2 - Cold Bloom",
+        "name": "Fixed Key 2 - Icy Blossom",
         "id": "k2",
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 2,
-        "localImagePath": "data/helen/keys/Cold Bloom.webp"
+        "localImagePath": "data/helen/keys/Icy Blossom.webp"
       },
       {
         "name": "Fixed Key 3 - Buried Past",
@@ -2189,28 +2190,28 @@
         "localImagePath": "data/helen/keys/Buried Past.webp"
       },
       {
-        "name": "Fixed Key 4 - Guardian's Resolve",
+        "name": "Fixed Key 4 - Guardian's Determination",
         "id": "k4",
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 4,
-        "localImagePath": "data/helen/keys/Guardian's Resolve.webp"
+        "localImagePath": "data/helen/keys/Guardian's Determination.webp"
       },
       {
-        "name": "Fixed Key 5 - Maternal Radiance",
+        "name": "Fixed Key 5 - Motherly Glow",
         "id": "k5",
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 5,
-        "localImagePath": "data/helen/keys/Maternal Radiance.webp"
+        "localImagePath": "data/helen/keys/Motherly Glow.webp"
       },
       {
-        "name": "Fixed Key 6 - Rule Manipulator",
+        "name": "Fixed Key 6 - Rule User",
         "id": "k6",
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 6,
-        "localImagePath": "data/helen/keys/Rule Manipulator.webp"
+        "localImagePath": "data/helen/keys/Rule User.webp"
       }
     ],
     "summons": []
@@ -5325,12 +5326,12 @@
     ],
     "keys": [
       {
-        "name": "Expansion Key - Unconquerable City",
+        "name": "Expansion Key - Unbreakable Walls",
         "id": "k1",
         "rarity": "Elite",
         "type": "Expansion Key",
         "number": 1,
-        "localImagePath": "data/papasha/keys/Unconquerable City1.webp"
+        "localImagePath": "data/papasha/keys/Unbreakable Walls1.webp"
       },
       {
         "name": "Fixed Key 1 - Glory With Us",
@@ -5697,7 +5698,7 @@
     "avatar": "data/phaetusa/avatar.webp",
     "skills": [
       {
-        "name": "Dual Slash",
+        "name": "One Strike, Two Cuts",
         "id": 1,
         "type": "Basic Attack",
         "tags": [
@@ -5706,10 +5707,10 @@
           "Melee"
         ],
         "range": "1",
-        "localImagePath": "data/phaetusa/skills/Dual Slash.webp"
+        "localImagePath": "data/phaetusa/skills/One Strike, Two Cuts.webp"
       },
       {
-        "name": "Escort",
+        "name": "Synchrony",
         "id": 2,
         "type": "Passive",
         "tags": [
@@ -5718,10 +5719,10 @@
           "Support"
         ],
         "range": "8",
-        "localImagePath": "data/phaetusa/skills/Escort.webp"
+        "localImagePath": "data/phaetusa/skills/Synchrony.webp"
       },
       {
-        "name": "Double Descent",
+        "name": "Dual-Winged Descent",
         "id": 3,
         "type": "Skill 1",
         "tags": [
@@ -5730,10 +5731,10 @@
           "Displacement"
         ],
         "range": "--",
-        "localImagePath": "data/phaetusa/skills/Double Descent.webp"
+        "localImagePath": "data/phaetusa/skills/Dual-Winged Descent.webp"
       },
       {
-        "name": "Replication Trap",
+        "name": "Overwrite Trap",
         "id": 4,
         "type": "Skill 2",
         "tags": [
@@ -5741,10 +5742,10 @@
           "Debuff"
         ],
         "range": "Self",
-        "localImagePath": "data/phaetusa/skills/Replication Trap.webp"
+        "localImagePath": "data/phaetusa/skills/Overwrite Trap.webp"
       },
       {
-        "name": "Twin Paradise",
+        "name": "Twofold Rapture",
         "id": 5,
         "type": "Skill 3",
         "tags": [
@@ -5753,57 +5754,57 @@
           "AoE"
         ],
         "range": "Self",
-        "localImagePath": "data/phaetusa/skills/Twin Paradise.webp"
+        "localImagePath": "data/phaetusa/skills/Twofold Rapture.webp"
       }
     ],
     "keys": [
       {
-        "name": "Fixed Key 1 - Wandering Resolve",
+        "name": "Fixed Key 2 - Wandering Will",
         "id": "k1",
         "rarity": "Standard",
         "type": "Fixed Key",
-        "number": 1,
-        "localImagePath": "data/phaetusa/keys/Wandering Resolve.webp"
+        "number": 2,
+        "localImagePath": "data/phaetusa/keys/Wandering Will.webp"
       },
       {
-        "name": "Fixed Key 1 - Cold Bloodline",
+        "name": "Fixed Key 1 - Cold-Blooded Pulse",
         "id": "k2",
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 1,
-        "localImagePath": "data/phaetusa/keys/Cold Bloodline.webp"
+        "localImagePath": "data/phaetusa/keys/Cold-Blooded Pulse.webp"
       },
       {
-        "name": "Fixed Key 3 - Executor’s Resolve",
+        "name": "Fixed Key 3 - Fatal Bladebearer",
         "id": "k3",
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 3,
-        "localImagePath": "data/phaetusa/keys/Executor’s Resolve.webp"
+        "localImagePath": "data/phaetusa/keys/Fatal Bladebearer.webp"
       },
       {
-        "name": "Fixed Key 4 - Life Exchange",
+        "name": "Fixed Key 4 - Mutualism",
         "id": "k4",
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 4,
-        "localImagePath": "data/phaetusa/keys/Life Exchange.webp"
+        "localImagePath": "data/phaetusa/keys/Mutualism.webp"
       },
       {
-        "name": "Fixed Key 5 - Domain Master",
+        "name": "Fixed Key 5 - Domain Mistress",
         "id": "k5",
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 5,
-        "localImagePath": "data/phaetusa/keys/Domain Master.webp"
+        "localImagePath": "data/phaetusa/keys/Domain Mistress.webp"
       },
       {
-        "name": "Fixed Key 6 - Twin Shadows",
+        "name": "Fixed Key 6 - Trailing Phantom",
         "id": "k6",
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 6,
-        "localImagePath": "data/phaetusa/keys/Twin Shadows.webp"
+        "localImagePath": "data/phaetusa/keys/Trailing Phantom.webp"
       }
     ],
     "summons": []
@@ -6013,12 +6014,12 @@
     ],
     "keys": [
       {
-        "name": "Expansion Key - Fiery Quick Stir-Fry",
+        "name": "Expansion Key - Sizzling Stir-Fry",
         "id": "k1",
         "rarity": "Elite",
         "type": "Expansion Key",
         "number": 1,
-        "localImagePath": "data/qiuhua/keys/Fiery Quick Stir-Fry1.webp"
+        "localImagePath": "data/qiuhua/keys/Sizzling Stir-Fry1.webp"
       },
       {
         "name": "Fixed Key 1 - Meal Prep",

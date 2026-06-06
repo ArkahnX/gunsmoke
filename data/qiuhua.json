@@ -533,49 +533,46 @@
       },
       {
         "id": "7a3e7564-649b-4a74-9032-d74158c7f3b9",
-        "keyTitle": "Fiery Quick Stir-Fry",
-        "keyType": "Expansion Key",
-        "keyNumber": 1,
-        "level": 60,
-        "effect": "<p>[effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd] damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> and when dealing damage, ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of target's defense; for each [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd] performed, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:c52dd4f3-f7c2-4094-8689-0ad9704c8b09] for <span style=\"color: rgb(243, 109, 28);\">2</span> rounds.</p><p>When a unit with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] dies, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of Qiuhua's attack to all allied units within a <span style=\"color: rgb(243, 109, 28);\">radius of 3 tiles</span>.</p><p>When the active skill <span style=\"color: rgb(34, 139, 230);\">Soaring Leap</span> deals damage, creates [effect:f793ed02-a490-4ac2-849a-689c57001678] Tiles within a<span style=\"color: rgb(243, 109, 28);\"> radius of 1 tile</span> around the target, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "materialsType": "items",
-        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
-        "attributeName1": null,
-        "attributeValue1": null,
-        "attributeName2": null,
-        "attributeValue2": null,
-        "attributeName3": null,
-        "attributeValue3": null,
-        "regionTag": "cn",
-        "imageUrl": "https://cdn.dandegate.net/keys/d69be13d6d0c0b931ceefd13fa1819f4c29aff6bc2d131fc4adf38c1ac6030c6.webp",
-        "createdAt": "2025-10-27T03:48:09.579Z",
-        "updatedAt": "2025-10-27T03:51:03.520Z",
-        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "dollImages": [
-            {
-              "id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-              "createdAt": "2025-09-24T02:45:15.940Z",
-              "updatedAt": "2025-09-24T02:45:15.940Z"
-            }
-          ],
-          "searchTags": [
-            "Type 97 Shotgun",
-            "Captain China"
-          ]
-        },
-        "searchTags": [],
-        "displayTitle": "Expansion Key - Fiery Quick Stir-Fry",
+				"keyTitle": "Sizzling Stir-Fry",
+				"keyType": "Expansion Key",
+				"keyNumber": 1,
+				"level": 60,
+				"effect": "<p>[effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd]'s damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> and damage dealt ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of target's defense.</p><p>For each instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd] performed, this unit gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:c52dd4f3-f7c2-4094-8689-0ad9704c8b09] for <span style=\"color: rgb(243, 109, 28);\">2</span> rounds.</p><p>When a unit with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] dies, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to all its allied units <span style=\"color: rgb(243, 109, 28);\">within </span><span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>When the active skill <span style=\"color: rgb(34, 139, 230);\">Soaring Leap</span> deals damage, generates [effect:f793ed02-a490-4ac2-849a-689c57001678] tiles <span style=\"color: rgb(243, 109, 28);\">within</span> <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+				"materialsType": "items",
+				"materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
+				"attributeName1": null,
+				"attributeValue1": null,
+				"attributeName2": null,
+				"attributeValue2": null,
+				"attributeName3": null,
+				"attributeValue3": null,
+				"regionTag": "en",
+				"imageUrl": "https://cdn.dandegate.net/keys/d69be13d6d0c0b931ceefd13fa1819f4c29aff6bc2d131fc4adf38c1ac6030c6.webp",
+				"createdAt": "2025-10-27T03:48:09.579Z",
+				"updatedAt": "2026-04-24T04:18:56.187Z",
+				"dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+				"doll": {
+					"id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+					"name": "Qiuhua",
+					"rarity": "Elite",
+					"preview": false,
+					"avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
+					"createdAt": "2025-09-24T02:45:15.814Z",
+					"regionTag": "en",
+					"updatedAt": "2025-11-14T07:22:51.364Z",
+					"dollImages": [
+						{
+							"id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
+							"category": "Chibi",
+							"imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
+							"createdAt": "2025-09-24T02:45:15.940Z",
+							"updatedAt": "2025-09-24T02:45:15.940Z"
+						}
+					],
+					"searchTags": ["Type 97 Shotgun", "Captain China"]
+				},
+				"searchTags": [],
+				"displayTitle": "Expansion Key - Sizzling Stir-Fry",
         "shortId": "k1"
       },
       {
@@ -1412,95 +1409,89 @@
       "equippedRelics": []
     },
     "dollEffects": [
-      {
-        "id": "119105e8-f821-47a0-a1ce-b6169bb261b7",
-        "effectName": "Scorch Mark",
-        "effectDetails": "{\"mainDetails\":\"<p>At the end of the action, the inflictor deals <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">7%</span> of attack to the debuff holder. <span style=\\\"color: rgb(243, 109, 28);\\\">Each</span> additional stack increases the damage multiplier by <span style=\\\"color: rgb(243, 109, 28);\\\">7%</span>, after which all stacks are cleared. Gains <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> when taking <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> from an enemy, to a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">12 stacks</span>. Remove all stacks when the inflictor dies. Considered a Burn debuff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"63ccea5d-109b-4d2b-acb6-13724cb2d2a6\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>At the end of the action, the inflictor deals <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">7%</span> of attack to the debuff holder. <span style=\\\"color: rgb(243, 109, 28);\\\">Each</span> additional stack increases the damage multiplier by <span style=\\\"color: rgb(243, 109, 28);\\\">7%</span>, after which all stacks are cleared. Gains <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> when taking <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> from an enemy. Remove all stacks when the inflictor dies. Considered a Burn debuff, cannot be cleansed.</p>\",\"order\":0},{\"id\":\"e3605a10-31e6-405a-980f-27cd48e782cd\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>At the end of the action, the inflictor deals <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span> of attack to the debuff holder. <span style=\\\"color: rgb(243, 109, 28);\\\">Each</span> additional stack increases the damage multiplier by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>, after which all stacks are cleared. Gains <span style=\\\"color: rgb(243, 109, 28);\\\">2 stacks</span> when taking <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> from an enemy. Remove all stacks when the inflictor dies. Considered a Burn debuff, cannot be cleansed.</p>\",\"order\":1}]}",
-        "effectTags": [
-          "Burn",
-          "Debuff"
-        ],
-        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-        "preview": false,
-        "regionTag": "en",
-        "createdAt": "2025-09-24T02:38:37.816Z",
-        "updatedAt": "2025-11-03T15:33:16.428Z",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "dollImages": [
-            {
-              "id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Type 97 Shotgun"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Captain China"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "id": "c52dd4f3-f7c2-4094-8689-0ad9704c8b09",
-        "effectName": "Wok Aura",
-        "effectDetails": "<p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt increased by <span style=\"color: rgb(243, 109, 28);\">7%</span>, damage taken reduced by <span style=\"color: rgb(243, 109, 28);\">7%</span>, stacks up to <span style=\"color: rgb(243, 109, 28);\">4 times</span>. Considered a Burn buff, cannot be cleansed.</p>",
-        "effectTags": [
-          "Buff",
-          "Burn"
-        ],
-        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-        "preview": false,
-        "regionTag": "cn",
-        "createdAt": "2025-10-27T03:43:53.517Z",
-        "updatedAt": "2025-11-03T16:13:11.839Z",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "dollImages": [
-            {
-              "id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Type 97 Shotgun"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Captain China"
-              }
-            }
-          ]
-        }
-      }
-    ],
+			{
+				"id": "119105e8-f821-47a0-a1ce-b6169bb261b7",
+				"effectName": "Scorch Mark",
+				"effectDetails": "{\"mainDetails\":\"<p>At the end of the action, the inflictor deals <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">7%</span> of attack to the debuff holder. <span style=\\\"color: rgb(243, 109, 28);\\\">Each</span> additional stack increases the damage multiplier by <span style=\\\"color: rgb(243, 109, 28);\\\">7%</span>, after which all stacks are cleared. Gains <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> when taking <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> from an enemy, to a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">12 stacks</span>. Remove all stacks when the inflictor dies. Considered a Burn debuff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"63ccea5d-109b-4d2b-acb6-13724cb2d2a6\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>At the end of the action, the inflictor deals <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">7%</span> of attack to the debuff holder. <span style=\\\"color: rgb(243, 109, 28);\\\">Each</span> additional stack increases the damage multiplier by <span style=\\\"color: rgb(243, 109, 28);\\\">7%</span>, after which all stacks are cleared. Gains <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> when taking <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> from an enemy. Remove all stacks when the inflictor dies. Considered a Burn debuff, cannot be cleansed.</p><p><span style=\\\"color: rgb(34, 139, 230);\\\">Dandegate Note: Although not explicity stated, this has a cap of 99 stacks</span></p>\",\"order\":0},{\"id\":\"e3605a10-31e6-405a-980f-27cd48e782cd\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>At the end of the action, the inflictor deals <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span> of attack to the debuff holder. <span style=\\\"color: rgb(243, 109, 28);\\\">Each</span> additional stack increases the damage multiplier by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>, after which all stacks are cleared. Gains <span style=\\\"color: rgb(243, 109, 28);\\\">2 stacks</span> when taking <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> from an enemy. Remove all stacks when the inflictor dies. Considered a Burn debuff, cannot be cleansed.</p><p><span style=\\\"color: rgb(34, 139, 230);\\\">Dandegate Note: Although not explicity stated, this has a cap of 99 stacks</span></p>\",\"order\":1}]}",
+				"effectTags": ["Burn", "Debuff"],
+				"dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+				"preview": false,
+				"regionTag": "en",
+				"createdAt": "2025-09-24T02:38:37.816Z",
+				"updatedAt": "2026-05-05T19:59:01.048Z",
+				"doll": {
+					"id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+					"name": "Qiuhua",
+					"rarity": "Elite",
+					"preview": false,
+					"avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
+					"createdAt": "2025-09-24T02:45:15.814Z",
+					"regionTag": "en",
+					"updatedAt": "2025-11-14T07:22:51.364Z",
+					"dollImages": [
+						{
+							"id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
+							"category": "Chibi",
+							"imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
+							"alt": null
+						}
+					],
+					"searchTags": [
+						{
+							"searchTag": {
+								"name": "Type 97 Shotgun"
+							}
+						},
+						{
+							"searchTag": {
+								"name": "Captain China"
+							}
+						}
+					]
+				}
+			},
+			{
+				"id": "c52dd4f3-f7c2-4094-8689-0ad9704c8b09",
+				"effectName": "Wok Hei",
+				"effectDetails": "<p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">7%</span> and damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">7%</span>. Stacks up to <span style=\"color: rgb(243, 109, 28);\">4 times</span>. Considered a Burn buff, cannot be cleansed.</p>",
+				"effectTags": ["Buff", "Burn"],
+				"dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+				"preview": false,
+				"regionTag": "en",
+				"createdAt": "2025-10-27T03:43:53.517Z",
+				"updatedAt": "2026-04-24T04:19:29.777Z",
+				"doll": {
+					"id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+					"name": "Qiuhua",
+					"rarity": "Elite",
+					"preview": false,
+					"avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
+					"createdAt": "2025-09-24T02:45:15.814Z",
+					"regionTag": "en",
+					"updatedAt": "2025-11-14T07:22:51.364Z",
+					"dollImages": [
+						{
+							"id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
+							"category": "Chibi",
+							"imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
+							"alt": null
+						}
+					],
+					"searchTags": [
+						{
+							"searchTag": {
+								"name": "Type 97 Shotgun"
+							}
+						},
+						{
+							"searchTag": {
+								"name": "Captain China"
+							}
+						}
+					]
+				}
+			}
+		],
     "shortId": "d41"
   }
 }

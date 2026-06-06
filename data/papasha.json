@@ -762,11 +762,11 @@
       },
       {
         "id": "9f75a812-0b75-49ae-b1cb-1fb3f52f775e",
-        "keyTitle": "Unconquerable City",
+        "keyTitle": "Unbreakable Walls",
         "keyType": "Expansion Key",
         "keyNumber": 1,
         "level": 60,
-        "effect": "<p>Damage dealt by [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>. While [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is present on the field, damage dealt by all ally [effect:d149d223-ac66-4556-ba25-5d4fef2504e9] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> and gain [effect:2a885794-26bf-4b04-8908-e5b4d3645575] at the end of their action, lasting for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>The Confectance Index cost of the active skill [dollSkill:80684d20-d47d-43ab-ae47-3b14c8c693d4] is reduced by <span style=\"color: rgb(243, 109, 28);\">3 points</span> and when casted, [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains 2 stacks of [effect:8a2f2d51-5a66-4101-b628-ef10d7ba2a1d].</p>",
+        "effect": "<p>Damage dealt by [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>. When [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is on the battlefield, damage dealt by all allied [effect:d149d223-ac66-4556-ba25-5d4fef2504e9] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. At the end of their action, they gain [effect:2a885794-26bf-4b04-8908-e5b4d3645575] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>The Confectance Index cost of the active skill [dollSkill:80684d20-d47d-43ab-ae47-3b14c8c693d4] is reduced by <span style=\"color: rgb(243, 109, 28);\">3 points</span> and when casted, [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:8a2f2d51-5a66-4101-b628-ef10d7ba2a1d].</p>",
         "materialsType": "items",
         "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
         "attributeName1": null,
@@ -775,10 +775,10 @@
         "attributeValue2": null,
         "attributeName3": null,
         "attributeValue3": null,
-        "regionTag": "cn",
+        "regionTag": "en",
         "imageUrl": "https://cdn.dandegate.net/keys/8ce4365141b017ed45287d33dc27970d8d147fc7978e5745233b1b28304774be.webp",
         "createdAt": "2026-02-09T02:27:02.269Z",
-        "updatedAt": "2026-02-09T02:27:02.269Z",
+        "updatedAt": "2026-05-16T21:16:05.491Z",
         "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
         "doll": {
           "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
@@ -803,7 +803,7 @@
           ]
         },
         "searchTags": [],
-        "displayTitle": "Expansion Key - Unconquerable City",
+        "displayTitle": "Expansion Key - Unbreakable Walls",
         "shortId": "k1"
       },
       {
@@ -2258,17 +2258,17 @@
       },
       {
         "id": "8a2f2d51-5a66-4101-b628-ef10d7ba2a1d",
-        "effectName": "Steel Forging",
-        "effectDetails": "<p>Damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">50%</span>. When damage is taken, <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of this buff is removed. Stacks up to <span style=\"color: rgb(243, 109, 28);\">2 times</span>. This is considered a defense buff.</p>",
+        "effectName": "Steelforged",
+        "effectDetails": "<p>Damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">50%</span>. Upon taking damage, remove <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of this effect. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. Considered a defense buff.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: Effect is listed as a defense debuff in-game, but does not have the red icon and cannot be cleansed by ally. Therefore, this effect is a typo and should be a \"defense buff\" instead.</span></p>",
         "effectTags": [
           "Buff",
           "Defense"
         ],
         "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
         "preview": false,
-        "regionTag": "cn",
+        "regionTag": "en",
         "createdAt": "2026-02-09T02:26:40.098Z",
-        "updatedAt": "2026-02-09T02:28:55.447Z",
+        "updatedAt": "2026-05-16T21:19:57.853Z",
         "doll": {
           "id": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
           "name": "Papasha",

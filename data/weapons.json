@@ -205,8 +205,18 @@
       },
       "imprintDollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
       "eliteCounterpart": null,
-      "standardCounterpart": null,
-      "retiredCounterpart": null,
+      "standardCounterpart": {
+        "id": "0ced10c5-6b33-4185-b20e-71cfb4a48fd1",
+        "name": "Groza-3",
+        "rarity": "Standard",
+        "imageUrl": "https://cdn.dandegate.net/weapons/groza-3/f10dead22dc947b2a5b74e7b2fe687b874177fb4900831709e1496e41fa6a857.webp"
+      },
+      "retiredCounterpart": {
+        "id": "a57d3999-85c3-4bae-920a-e5c12fe0bc4f",
+        "name": "Retired Groza-3",
+        "rarity": "Retired",
+        "imageUrl": "https://cdn.dandegate.net/weapons/retired-groza-3/2fb218111ac3f749725bbe84081a28e47b12fb32ebe1745111f4f17902940779.webp"
+      },
       "shortId": "w4"
     },
     {
@@ -666,8 +676,18 @@
       },
       "imprintDollId": "6a001d4e-fdaa-4726-a6c8-9729dbcc44e9",
       "eliteCounterpart": null,
-      "standardCounterpart": null,
-      "retiredCounterpart": null,
+      "standardCounterpart": {
+        "id": "4ef95658-d1bd-49b5-bccc-9df427d7a89a",
+        "name": "M4A1 SOPMOD II",
+        "rarity": "Standard",
+        "imageUrl": "https://cdn.dandegate.net/weapons/m4a1-sopmod-ii/e43e09553eb3bd0cc7f975b30d998b9fd50110e25776d2537889d24cabd9eb03.webp"
+      },
+      "retiredCounterpart": {
+        "id": "ee26d394-27c7-4409-87fa-ef74305fa242",
+        "name": "Retired M4A1 SOPMOD II",
+        "rarity": "Retired",
+        "imageUrl": "https://cdn.dandegate.net/weapons/retired-m4a1-sopmod-ii/b8db5848c0121d2ff7a642f57eea69ebea8523c5cc412909ac205c54f5605bba.webp"
+      },
       "shortId": "w13"
     },
     {
@@ -989,8 +1009,18 @@
       },
       "imprintDollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
       "eliteCounterpart": null,
-      "standardCounterpart": null,
-      "retiredCounterpart": null,
+      "standardCounterpart": {
+        "id": "ff6f854f-89a5-4966-b431-a61a7c72105f",
+        "name": "P90",
+        "rarity": "Standard",
+        "imageUrl": "https://cdn.dandegate.net/weapons/p90/42538d533ffa8f828d7cc784db52e8477f04d5ca1ad5b30c02a99c4f610d933c.webp"
+      },
+      "retiredCounterpart": {
+        "id": "c6817f1f-598e-482f-b40e-9eb0b5ac288c",
+        "name": "Retired P90",
+        "rarity": "Retired",
+        "imageUrl": "https://cdn.dandegate.net/weapons/retired-p90/67f23e915160abd6b932ab253398d9f03165c67c55bf2fd74b3e72fca488a3ed.webp"
+      },
       "shortId": "w19"
     },
     {
@@ -2465,21 +2495,21 @@
     },
     {
       "id": "2966379f-b1f2-4b66-8de0-36cc1ccade8c",
-      "name": "Death's Psalm",
+      "name": "Dona Eis Requiem",
       "rarity": "Elite",
       "weaponType": "Handgun",
       "primaryAttributeStat": 341,
       "primaryAttribute": "Attack",
       "secondaryAttribute": "Attack Boost",
       "secondaryAttributeStat": "15%",
-      "trait": "<p>AoE damage dealt by the user and their summon is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. If dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, damage dealt is additionally increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-      "effect": "<p>All <span style=\"color: rgb(135, 120, 233);\">Corrosion damage </span>dealt by allied units is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. For every summon the user creates, the <span style=\"color: rgb(135, 120, 233);\">Corrosion damage </span>dealt by both the user and their summons is increased by <span style=\"color: rgb(243, 109, 28);\">5%/7%/9%/11%/13%/15%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">15%/21%/27%/33%/39%/45%</span>.</p>",
+      "trait": "<p>AoE damage dealt by this unit and this unit's summons is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. If the damage dealt is AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, then it is further increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+      "effect": "<p><span style=\"color: rgb(135, 120, 233);\">Corrosion damage </span>dealt by all allied units is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. For each unit summoned, <span style=\"color: rgb(135, 120, 233);\">Corrosion damage </span>dealt by this unit and this unit's summon is increased by <span style=\"color: rgb(243, 109, 28);\">5%/7%/9%/11%/13%/15%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">15%/21%/27%/33%/39%/45%</span>.</p>",
       "imprintCharacterId": "3c37955a-1a15-4f2d-9ba3-6e60f3217f18",
-      "imprintDescription": "<p>Damage dealt to targets with Corrosion-type debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>. Increase damage dealt to the Ouroboros Consortium units by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>.</p>",
+      "imprintDescription": "<p>Damage dealt to targets with Corrosion-type debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>. Damage dealt to the Orlog Conglomerate units is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>.</p>",
       "imageUrl": "https://cdn.dandegate.net/weapons/death-s-psalm/bc262eabefbcfabb0c5a601dc4b5abf5c258b9c907b343d72cbfeaa445292fb3.webp",
       "createdAt": "2026-01-15T05:56:58.744Z",
-      "updatedAt": "2026-04-12T08:29:26.043Z",
-      "regionTag": "cn",
+      "updatedAt": "2026-06-05T04:32:48.627Z",
+      "regionTag": "en",
       "preview": false,
       "searchTags": [],
       "imprintDoll": {
@@ -2489,7 +2519,7 @@
         "phase": "Corrosion",
         "rarity": "Elite",
         "avatarUrl": "https://cdn.dandegate.net/dolls/basti/33f9b491aca3d3703bd858a564ca69931e393beec57a0a623c45bfcf00d68cd6.webp",
-        "regionTag": "cn",
+        "regionTag": "en",
         "preview": false,
         "dollImages": [
           {
@@ -2505,13 +2535,13 @@
       "eliteCounterpart": null,
       "standardCounterpart": {
         "id": "46ea7bff-bc46-4c3a-89ed-7886da44bf89",
-        "name": "MK23",
+        "name": ".45 ACP Pistol",
         "rarity": "Standard",
         "imageUrl": "https://cdn.dandegate.net/weapons/mk23/5e5fc0b6f58985ce31816368bf55579e1701ae44852698beb7eb3ae9004bb8f2.webp"
       },
       "retiredCounterpart": {
         "id": "d899a9a2-8c66-46de-bedd-5e40a843d102",
-        "name": "Retired MK23",
+        "name": "Retired .45 ACP Pistol",
         "rarity": "Retired",
         "imageUrl": "https://cdn.dandegate.net/weapons/retired-mk23/f5a3a837d1ccba6d4283db9d2bbcbfeb16c07ee5d322970bff914d1df22321c1.webp"
       },
@@ -2664,14 +2694,14 @@
       "primaryAttribute": "Attack",
       "secondaryAttribute": "Crit DMG",
       "secondaryAttributeStat": "25%",
-      "trait": "<p>Increase AoE damage dealt by <span style=\"color: rgb(243, 109, 28);\">5%</span>. If <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> was dealt, increase AoE damage dealt by an additional <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-      "effect": "<p>Increase <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> dealt by <span style=\"color: rgb(243, 109, 28);\">15%/18%/21%/24%/27%/30%</span>. If the active skill does not deal damage, increase the critical damage of the next attack by <span style=\"color: rgb(243, 109, 28);\">15%/18%/21%/24%/27%/30%</span>.</p>",
+      "trait": "<p>AoE damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. When dealing AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span>, the AoE damage dealt is further increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+      "effect": "<p><span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> is increased by <span style=\"color: rgb(243, 109, 28);\">15%/18%/21%/24%/27%/30%</span>. If an active skill does not deal damage, critical damage dealt by the next attack is increased by <span style=\"color: rgb(243, 109, 28);\">15%/18%/21%/24%/27%/30%</span>.</p>",
       "imprintCharacterId": "9aef13a5-622d-47ad-82e8-633b009028a9",
-      "imprintDescription": "<p>Increases damage dealt to targets with Corrosion debuffs by <span style=\"color: rgb(243, 109, 28);\">2.5%</span> and increase damage dealt to PMC units by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>.</p>",
+      "imprintDescription": "<p>Damage dealt to targets with Corrosion debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>. Damage dealt to PMC units is increased by <span style=\"color: rgb(243, 109, 28);\">2.5%</span>.</p>",
       "imageUrl": "https://cdn.dandegate.net/weapons/principle-of-causality/b745b9929cc4e819926d771b7890ebf9eab4e90c820fdae85e2415385d63e564.webp",
       "createdAt": "2025-10-21T03:29:41.133Z",
-      "updatedAt": "2026-04-16T05:51:41.160Z",
-      "regionTag": "cn",
+      "updatedAt": "2026-05-15T04:19:13.640Z",
+      "regionTag": "en",
       "preview": false,
       "searchTags": [],
       "imprintDoll": {
@@ -2681,7 +2711,7 @@
         "phase": "Corrosion",
         "rarity": "Elite",
         "avatarUrl": "https://cdn.dandegate.net/dolls/phaetusa/64df11c3cabfa96a02586ae879a33b23695fa3bf2b0fde2258c5ded494e47b1a.webp",
-        "regionTag": "cn",
+        "regionTag": "en",
         "preview": false,
         "dollImages": [
           {
