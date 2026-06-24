@@ -85,365 +85,392 @@
       {
         "id": "ea873d60-c8dc-451a-a405-57447acaa623",
         "name": "Lone Wolf Territory",
-        "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Heavy Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/2a5989d53127f745c159651ae413e9b2.webp",
         "createdAt": "2025-09-21T02:48:54.758Z",
         "updatedAt": "2025-09-26T02:18:42.838Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
         "summonId": null,
-        "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "c836289b-a634-4eac-ad61-32be684af643",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
-          "createdAt": "2025-09-10T05:26:30.831Z",
-          "updatedAt": "2025-09-10T05:26:30.831Z",
-          "rangeValue": "9",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "17cfab49-8da5-40dc-9406-a45bc984c21e",
         "name": "Battlefield Insight",
-        "description": "<p>Increases critical rate by <span style=\"color: rgb(243, 109, 28);\">40%</span> and reduces critical damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the start of the turn, if this unit’s HP exceeds <span style=\"color: rgb(243, 109, 28);\">80%</span>, gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] and [effect:bf6a0f32-41d4-476f-baa0-79e0728f0564] until the next turn.</p><p>When attacking a target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], ignores <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When attacking a target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">30%</span>. These effects cannot stack.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/54fd8eae145ad59299f437788391ed29.webp",
         "createdAt": "2025-09-21T03:19:17.483Z",
         "updatedAt": "2025-11-02T04:15:31.193Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "cda4d3a1-8b38-45fe-92b8-c4811e417542",
-        "vertebraeUpgradeIdLevel3": "b2bd6aec-0d05-42b6-8530-690619a8dc0f",
-        "skillTags": [
-          "Passive",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Increases critical rate by <span style=\"color: rgb(243, 109, 28);\">40%</span> and reduces critical damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the start of the turn, if this unit’s HP exceeds <span style=\"color: rgb(243, 109, 28);\">80%</span>, gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] and [effect:bf6a0f32-41d4-476f-baa0-79e0728f0564] until the next turn.</p><p>When attacking a target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], ignores <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">20%</span>; if <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> is dealt, ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index instead. When attacking a target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">30%</span>; if <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> is dealt, ignores <span style=\"color: rgb(243, 109, 28);\">10 points</span> of stability index instead. These effects cannot stack.</p>",
-        "descriptionLevel3": "<p>Increases critical rate by <span style=\"color: rgb(243, 109, 28);\">40%</span> and reduces critical damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the start of the turn, if this unit’s HP exceeds <span style=\"color: rgb(243, 109, 28);\">80%</span>, gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] and [effect:bf6a0f32-41d4-476f-baa0-79e0728f0564] until the next turn.</p><p>When attacking a target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], ignores <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When attacking a target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">30%</span>. When dealing <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> to an enemy target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae] or [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">10 points</span> of stability index instead and increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span>. These effects cannot stack.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>Increases critical rate by <span style=\"color: rgb(243, 109, 28);\">40%</span> and reduces critical damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the start of the turn, if this unit’s HP exceeds <span style=\"color: rgb(243, 109, 28);\">80%</span>, gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] and [effect:bf6a0f32-41d4-476f-baa0-79e0728f0564] until the next turn.</p><p>When attacking a target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], ignores <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When attacking a target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">30%</span>. These effects cannot stack.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "cda4d3a1-8b38-45fe-92b8-c4811e417542",
-          "level": 2,
-          "effect": "<p>When dealing <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> to an enemy target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], increases the stability index ignored to <span style=\"color: rgb(243, 109, 28);\">6 points</span>. When dealing <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> to an enemy target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], increases the stability index ignored to <span style=\"color: rgb(243, 109, 28);\">10 points</span>.</p>",
-          "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/54fd8eae145ad59299f437788391ed29.webp",
-          "createdAt": "2025-09-21T03:40:57.477Z",
-          "updatedAt": "2025-10-26T18:25:28.812Z",
-          "vertebraeName": "Battlefield Insight Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "cda4d3a1-8b38-45fe-92b8-c4811e417542",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Increases critical rate by <span style=\"color: rgb(243, 109, 28);\">40%</span> and reduces critical damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the start of the turn, if this unit’s HP exceeds <span style=\"color: rgb(243, 109, 28);\">80%</span>, gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] and [effect:bf6a0f32-41d4-476f-baa0-79e0728f0564] until the next turn.</p><p>When attacking a target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], ignores <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">20%</span>; if <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> is dealt, ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index instead. When attacking a target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">30%</span>; if <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> is dealt, ignores <span style=\"color: rgb(243, 109, 28);\">10 points</span> of stability index instead. These effects cannot stack.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "cda4d3a1-8b38-45fe-92b8-c4811e417542",
+            "level": 2,
+            "effect": "<p>When dealing <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> to an enemy target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], increases the stability index ignored to <span style=\"color: rgb(243, 109, 28);\">6 points</span>. When dealing <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> to an enemy target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], increases the stability index ignored to <span style=\"color: rgb(243, 109, 28);\">10 points</span>.</p>",
+            "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/54fd8eae145ad59299f437788391ed29.webp",
+            "createdAt": "2025-09-21T03:40:57.477Z",
+            "updatedAt": "2025-10-26T18:25:28.812Z",
+            "vertebraeName": "Battlefield Insight Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "b2bd6aec-0d05-42b6-8530-690619a8dc0f",
-          "level": 3,
-          "effect": "<p>When dealing <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> to an enemy target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae] or [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], increases the stability index ignored to <span style=\"color: rgb(243, 109, 28);\">10 points</span> and damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-          "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/54fd8eae145ad59299f437788391ed29.webp",
-          "createdAt": "2025-09-21T03:43:25.930Z",
-          "updatedAt": "2025-10-27T02:38:31.505Z",
-          "vertebraeName": "Battlefield Insight Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "b2bd6aec-0d05-42b6-8530-690619a8dc0f",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Increases critical rate by <span style=\"color: rgb(243, 109, 28);\">40%</span> and reduces critical damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the start of the turn, if this unit’s HP exceeds <span style=\"color: rgb(243, 109, 28);\">80%</span>, gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] and [effect:bf6a0f32-41d4-476f-baa0-79e0728f0564] until the next turn.</p><p>When attacking a target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], ignores <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When attacking a target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">30%</span>. When dealing <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> to an enemy target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae] or [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">10 points</span> of stability index instead and increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span>. These effects cannot stack.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "b2bd6aec-0d05-42b6-8530-690619a8dc0f",
+            "level": 3,
+            "effect": "<p>When dealing <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> to an enemy target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae] or [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], increases the stability index ignored to <span style=\"color: rgb(243, 109, 28);\">10 points</span> and damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+            "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/54fd8eae145ad59299f437788391ed29.webp",
+            "createdAt": "2025-09-21T03:43:25.930Z",
+            "updatedAt": "2025-10-27T02:38:31.505Z",
+            "vertebraeName": "Battlefield Insight Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "becffae5-c814-4715-8491-3ebaaf8c84d5",
         "name": "Cold Precision Shot",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack. Increases the critical damage of this attack by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:52b8af4d-b768-4550-be55-be8a4a3eaa44] for each instance of damage dealt.</p>",
-        "phase": "Freeze",
-        "ammoTypes": "[\"Heavy Ammo\"]",
-        "stabilityDamage": 1,
-        "cooldown": null,
-        "confectanceCost": 2,
         "imageUrl": "https://cdn.dandegate.net/skills/c3bdf0435ce64beedd1c931e2808b9ec.webp",
         "createdAt": "2025-09-21T02:53:23.504Z",
         "updatedAt": "2025-10-24T19:37:34.160Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
         "summonId": null,
-        "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "3d499ebc-fc12-4120-825d-c17c9b8e588c",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted"
-        ],
         "keyUpgradesData": "[\"c609c4e6-0c43-4a71-af77-08956063df08\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": 0,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> of self and perform 2 attacks dealing <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack. Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:52b8af4d-b768-4550-be55-be8a4a3eaa44] for each instance of damage dealt. If the first attack crits, increase the critical rate of the second attack by <span style=\"color: rgb(243, 109, 28);\">100%</span> and the critical damage by <span style=\"color: rgb(243, 109, 28);\">80%</span>.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": 0,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "c836289b-a634-4eac-ad61-32be684af643",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
-          "createdAt": "2025-09-10T05:26:30.831Z",
-          "updatedAt": "2025-09-10T05:26:30.831Z",
-          "rangeValue": "9",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack. Increases the critical damage of this attack by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:52b8af4d-b768-4550-be55-be8a4a3eaa44] for each instance of damage dealt.</p>",
+          "phase": "Freeze",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "stabilityDamage": 1,
+          "cooldown": null,
+          "confectanceCost": 2,
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "3d499ebc-fc12-4120-825d-c17c9b8e588c",
-          "level": 2,
-          "effect": "<p>Perform two attacks, critical damage will no longer increase, and the damage dealt is decreased to <span style=\"color: rgb(243, 109, 28);\">100%</span><span> of attack. If the first attack crits, the critical rate of the second attack is increased by </span><span style=\"color: rgb(243, 109, 28);\">100%</span><span>, and the critical damage is increased by </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span>.</span></p>",
-          "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/c3bdf0435ce64beedd1c931e2808b9ec.webp",
-          "createdAt": "2025-09-21T03:37:54.349Z",
-          "updatedAt": "2025-09-26T02:30:17.535Z",
-          "vertebraeName": "Cold Precision Shot Lv.2"
+        "level2": {
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "vertebraeUpgradeId": "3d499ebc-fc12-4120-825d-c17c9b8e588c",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "confectanceCost": 0,
+          "cooldown": null,
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> of self and perform 2 attacks dealing <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack. Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:52b8af4d-b768-4550-be55-be8a4a3eaa44] for each instance of damage dealt. If the first attack crits, increase the critical rate of the second attack by <span style=\"color: rgb(243, 109, 28);\">100%</span> and the critical damage by <span style=\"color: rgb(243, 109, 28);\">80%</span>.</p>",
+          "phase": "Freeze",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "stabilityDamage": 0,
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "3d499ebc-fc12-4120-825d-c17c9b8e588c",
+            "level": 2,
+            "effect": "<p>Perform two attacks, critical damage will no longer increase, and the damage dealt is decreased to <span style=\"color: rgb(243, 109, 28);\">100%</span><span> of attack. If the first attack crits, the critical rate of the second attack is increased by </span><span style=\"color: rgb(243, 109, 28);\">100%</span><span>, and the critical damage is increased by </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span>.</span></p>",
+            "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/c3bdf0435ce64beedd1c931e2808b9ec.webp",
+            "createdAt": "2025-09-21T03:37:54.349Z",
+            "updatedAt": "2025-09-26T02:30:17.535Z",
+            "vertebraeName": "Cold Precision Shot Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "b3c93394-791f-4d46-b1a5-bd94d1e765f8",
         "name": "Professional Tactics",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> of self, deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack, gain <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index, and gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:2d93b666-7349-4094-bc7a-6e22b8e76a1a].</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Heavy Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": 3,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/1af33215222c24ea822319d7a7890c06.webp",
         "createdAt": "2025-09-21T03:09:31.976Z",
         "updatedAt": "2025-10-24T19:36:50.485Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
         "summonId": null,
-        "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "56da907f-4c99-4926-a2eb-b43dce5e02c4",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Buff"
-        ],
         "keyUpgradesData": "[\"049f0bef-ef75-4395-a655-453b632acdcd\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> of self, deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack, gain <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index, and gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:44e8c6d5-e66f-464e-a854-626654fa9395].</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "c836289b-a634-4eac-ad61-32be684af643",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
-          "createdAt": "2025-09-10T05:26:30.831Z",
-          "updatedAt": "2025-09-10T05:26:30.831Z",
-          "rangeValue": "9",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> of self, deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack, gain <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index, and gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:2d93b666-7349-4094-bc7a-6e22b8e76a1a].</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": 3,
+          "confectanceCost": null,
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "56da907f-4c99-4926-a2eb-b43dce5e02c4",
-          "level": 2,
-          "effect": "<p>Change [effect:2d93b666-7349-4094-bc7a-6e22b8e76a1a] to [effect:44e8c6d5-e66f-464e-a854-626654fa9395].</p>",
-          "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/1af33215222c24ea822319d7a7890c06.webp",
-          "createdAt": "2025-09-21T03:42:18.022Z",
-          "updatedAt": "2025-10-14T07:06:01.288Z",
-          "vertebraeName": "Professional Tactics Lv.2"
+        "level2": {
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "vertebraeUpgradeId": "56da907f-4c99-4926-a2eb-b43dce5e02c4",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 3,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> of self, deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack, gain <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index, and gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:44e8c6d5-e66f-464e-a854-626654fa9395].</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Buff"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "56da907f-4c99-4926-a2eb-b43dce5e02c4",
+            "level": 2,
+            "effect": "<p>Change [effect:2d93b666-7349-4094-bc7a-6e22b8e76a1a] to [effect:44e8c6d5-e66f-464e-a854-626654fa9395].</p>",
+            "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/1af33215222c24ea822319d7a7890c06.webp",
+            "createdAt": "2025-09-21T03:42:18.022Z",
+            "updatedAt": "2025-10-14T07:06:01.288Z",
+            "vertebraeName": "Professional Tactics Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "8bf05c8d-79c3-4bbe-9d41-066cb5a7cf60",
         "name": "Absolute Mental Defense",
-        "description": "<p>Gains [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:a352a0e9-b085-4f6d-8bb9-fda0b496a801] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The absorption amount of [effect:abce6753-fe29-4ca3-b487-7453e982b279] is equal to <span style=\"color: rgb(243, 109, 28);\">65%</span> of the initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">60%</span> of max HP.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": 3,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/dbf11bd74fbe4a12cdcecd56f5a1d274.webp",
         "createdAt": "2025-09-21T03:16:20.418Z",
         "updatedAt": "2025-11-02T04:02:45.847Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
         "summonId": null,
-        "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "a02b9331-b84e-493b-9f9c-14813c61d9ed",
-        "vertebraeUpgradeIdLevel3": "8fb37a8c-5f8b-4067-855b-f5d8b5b405cc",
-        "skillTags": [
-          "Ultimate",
-          "Buff",
-          "Interception",
-          "Debuff"
-        ],
         "keyUpgradesData": "[\"048855de-126f-48d4-a4d8-d12ab53d3b1a\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Gains [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:a352a0e9-b085-4f6d-8bb9-fda0b496a801] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The absorption amount of [effect:abce6753-fe29-4ca3-b487-7453e982b279] is equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of this unit's initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">80%</span> of max HP.</p>",
-        "descriptionLevel3": "<p>Gains [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:a352a0e9-b085-4f6d-8bb9-fda0b496a801] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. [effect:abce6753-fe29-4ca3-b487-7453e982b279] absorbs damage up to <span style=\"color: rgb(243, 109, 28);\">80%</span> of base attack, capped at <span style=\"color: rgb(243, 109, 28);\">80%</span> of max HP. After using this skill, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index at the end of each action. This can be triggered <span style=\"color: rgb(243, 109, 28);\">2 times</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "c836289b-a634-4eac-ad61-32be684af643",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
-          "createdAt": "2025-09-10T05:26:30.831Z",
-          "updatedAt": "2025-09-10T05:26:30.831Z",
-          "rangeValue": "9",
-          "effectiveArea": "Target"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Gains [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:a352a0e9-b085-4f6d-8bb9-fda0b496a801] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The absorption amount of [effect:abce6753-fe29-4ca3-b487-7453e982b279] is equal to <span style=\"color: rgb(243, 109, 28);\">65%</span> of the initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">60%</span> of max HP.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": 3,
+          "confectanceCost": null,
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "skillTags": [
+            "Ultimate",
+            "Buff",
+            "Interception",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "a02b9331-b84e-493b-9f9c-14813c61d9ed",
-          "level": 2,
-          "effect": "<p>The absorption amount of [effect:abce6753-fe29-4ca3-b487-7453e982b279] is increased to <span style=\"color: rgb(243, 109, 28);\">80% </span><span>of this unit's initial attack, and the cap is increased to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of max HP. The number of [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800] triggered is increased by </span><span style=\"color: rgb(243, 109, 28);\">1 time</span><span> per turn.</span></p>",
-          "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/dbf11bd74fbe4a12cdcecd56f5a1d274.webp",
-          "createdAt": "2025-09-21T03:39:05.781Z",
-          "updatedAt": "2025-10-14T07:06:00.942Z",
-          "vertebraeName": "Absolute Mental Defense Lv.2"
+        "level2": {
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "vertebraeUpgradeId": "a02b9331-b84e-493b-9f9c-14813c61d9ed",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 3,
+          "description": "<p>Gains [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:a352a0e9-b085-4f6d-8bb9-fda0b496a801] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The absorption amount of [effect:abce6753-fe29-4ca3-b487-7453e982b279] is equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of this unit's initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">80%</span> of max HP.</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Buff",
+            "Interception",
+            "Debuff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "a02b9331-b84e-493b-9f9c-14813c61d9ed",
+            "level": 2,
+            "effect": "<p>The absorption amount of [effect:abce6753-fe29-4ca3-b487-7453e982b279] is increased to <span style=\"color: rgb(243, 109, 28);\">80% </span><span>of this unit's initial attack, and the cap is increased to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of max HP. The number of [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800] triggered is increased by </span><span style=\"color: rgb(243, 109, 28);\">1 time</span><span> per turn.</span></p>",
+            "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/dbf11bd74fbe4a12cdcecd56f5a1d274.webp",
+            "createdAt": "2025-09-21T03:39:05.781Z",
+            "updatedAt": "2025-10-14T07:06:00.942Z",
+            "vertebraeName": "Absolute Mental Defense Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "8fb37a8c-5f8b-4067-855b-f5d8b5b405cc",
-          "level": 3,
-          "effect": "<p>After using <span style=\"color: rgb(34, 139, 230);\">Absolute Mental Defense</span><span>, gains </span><span style=\"color: rgb(243, 109, 28);\">2 points</span><span> of Confectance Index at the end of the action. This effect can be triggered </span><span style=\"color: rgb(243, 109, 28);\">2 times</span><span>. [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800] can be triggered </span><span style=\"color: rgb(243, 109, 28);\">once</span><span> more each turn. If the [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800] deals a critical hit, gains [effect:f9c50d26-807b-4f80-a636-5f13ae7097aa] for </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
-          "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/dbf11bd74fbe4a12cdcecd56f5a1d274.webp",
-          "createdAt": "2025-09-21T03:45:22.782Z",
-          "updatedAt": "2025-10-14T07:06:01.647Z",
-          "vertebraeName": "Absolute Mental Defense Lv.3"
+        "level3": {
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "vertebraeUpgradeId": "8fb37a8c-5f8b-4067-855b-f5d8b5b405cc",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 3,
+          "description": "<p>Gains [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:a352a0e9-b085-4f6d-8bb9-fda0b496a801] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. [effect:abce6753-fe29-4ca3-b487-7453e982b279] absorbs damage up to <span style=\"color: rgb(243, 109, 28);\">80%</span> of base attack, capped at <span style=\"color: rgb(243, 109, 28);\">80%</span> of max HP. After using this skill, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index at the end of each action. This can be triggered <span style=\"color: rgb(243, 109, 28);\">2 times</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Buff",
+            "Interception",
+            "Debuff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "8fb37a8c-5f8b-4067-855b-f5d8b5b405cc",
+            "level": 3,
+            "effect": "<p>After using <span style=\"color: rgb(34, 139, 230);\">Absolute Mental Defense</span><span>, gains </span><span style=\"color: rgb(243, 109, 28);\">2 points</span><span> of Confectance Index at the end of the action. This effect can be triggered </span><span style=\"color: rgb(243, 109, 28);\">2 times</span><span>. [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800] can be triggered </span><span style=\"color: rgb(243, 109, 28);\">once</span><span> more each turn. If the [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800] deals a critical hit, gains [effect:f9c50d26-807b-4f80-a636-5f13ae7097aa] for </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+            "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/dbf11bd74fbe4a12cdcecd56f5a1d274.webp",
+            "createdAt": "2025-09-21T03:45:22.782Z",
+            "updatedAt": "2025-10-14T07:06:01.647Z",
+            "vertebraeName": "Absolute Mental Defense Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -466,28 +493,6 @@
         "createdAt": "2025-09-21T02:46:23.876Z",
         "updatedAt": "2025-09-26T02:17:09.332Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "createdAt": "2025-09-26T02:14:53.018Z",
-              "updatedAt": "2025-09-26T02:14:53.018Z"
-            }
-          ],
-          "searchTags": [
-            "WA2000"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Love So Sweet",
         "shortId": "a30"
@@ -511,28 +516,6 @@
         "createdAt": "2025-09-21T02:39:11.138Z",
         "updatedAt": "2025-09-26T02:18:14.994Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "createdAt": "2025-09-26T02:14:53.018Z",
-              "updatedAt": "2025-09-26T02:14:53.018Z"
-            }
-          ],
-          "searchTags": [
-            "WA2000"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Survival Instinct",
         "shortId": "c30"
@@ -556,28 +539,6 @@
         "createdAt": "2025-09-21T02:41:19.432Z",
         "updatedAt": "2025-10-14T07:06:46.514Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "createdAt": "2025-09-26T02:14:53.018Z",
-              "updatedAt": "2025-09-26T02:14:53.018Z"
-            }
-          ],
-          "searchTags": [
-            "WA2000"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Sniper's Lock",
         "shortId": "k1"
@@ -602,28 +563,6 @@
         "createdAt": "2025-09-21T02:20:07.430Z",
         "updatedAt": "2025-10-26T18:35:29.089Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "createdAt": "2025-09-26T02:14:53.018Z",
-              "updatedAt": "2025-09-26T02:14:53.018Z"
-            }
-          ],
-          "searchTags": [
-            "WA2000"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Additional Intelligence",
         "shortId": "k2"
@@ -648,28 +587,6 @@
         "createdAt": "2025-09-21T02:20:44.128Z",
         "updatedAt": "2025-09-21T02:20:44.128Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "createdAt": "2025-09-26T02:14:53.018Z",
-              "updatedAt": "2025-09-26T02:14:53.018Z"
-            }
-          ],
-          "searchTags": [
-            "WA2000"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Iced with Milk Foam",
         "shortId": "k3"
@@ -694,28 +611,6 @@
         "createdAt": "2025-09-21T02:25:21.427Z",
         "updatedAt": "2025-10-14T07:06:31.508Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "createdAt": "2025-09-26T02:14:53.018Z",
-              "updatedAt": "2025-09-26T02:14:53.018Z"
-            }
-          ],
-          "searchTags": [
-            "WA2000"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Indomitable Lone Wolf",
         "shortId": "k4"
@@ -740,28 +635,6 @@
         "createdAt": "2025-09-21T02:32:42.546Z",
         "updatedAt": "2025-10-14T07:06:31.851Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "createdAt": "2025-09-26T02:14:53.018Z",
-              "updatedAt": "2025-09-26T02:14:53.018Z"
-            }
-          ],
-          "searchTags": [
-            "WA2000"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Time for a Break",
         "shortId": "k5"
@@ -786,28 +659,6 @@
         "createdAt": "2025-09-21T02:34:48.169Z",
         "updatedAt": "2025-10-14T07:06:32.028Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "createdAt": "2025-09-26T02:14:53.018Z",
-              "updatedAt": "2025-09-26T02:14:53.018Z"
-            }
-          ],
-          "searchTags": [
-            "WA2000"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Heated Caramel",
         "shortId": "k6"
@@ -832,28 +683,6 @@
         "createdAt": "2025-09-21T02:35:38.082Z",
         "updatedAt": "2025-09-21T02:35:38.082Z",
         "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "createdAt": "2025-09-26T02:14:53.018Z",
-              "updatedAt": "2025-09-26T02:14:53.018Z"
-            }
-          ],
-          "searchTags": [
-            "WA2000"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Absolute Concentration",
         "shortId": "k7"
@@ -870,68 +699,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/c3bdf0435ce64beedd1c931e2808b9ec.webp",
         "createdAt": "2025-09-21T03:37:54.349Z",
         "updatedAt": "2025-09-26T02:30:17.535Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "class": "Sentinel",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A calm, proud, yet awkward Doll who isn't good at expressing herself. She loves fluffy little animals and overly sweet macchiatos. Always a loner, her gaze often lingers somewhere. When will she finally get the response she's been longing for?",
-          "preview": false,
-          "movement": 4,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "becffae5-c814-4715-8491-3ebaaf8c84d5",
             "name": "Cold Precision Shot",
-            "phase": "Freeze",
             "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/c3bdf0435ce64beedd1c931e2808b9ec.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Heavy Ammo\"]",
-            "createdAt": "2025-09-21T02:53:23.504Z",
-            "skillTags": [
-              "Active",
-              "Targeted"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-24T19:37:34.160Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack. Increases the critical damage of this attack by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:52b8af4d-b768-4550-be55-be8a4a3eaa44] for each instance of damage dealt.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 2,
-            "stabilityDamage": 1,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"c609c4e6-0c43-4a71-af77-08956063df08\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> of self and perform 2 attacks dealing <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack. Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:52b8af4d-b768-4550-be55-be8a4a3eaa44] for each instance of damage dealt. If the first attack crits, increase the critical rate of the second attack by <span style=\"color: rgb(243, 109, 28);\">100%</span> and the critical damage by <span style=\"color: rgb(243, 109, 28);\">80%</span>.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": 0,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": 0,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "3d499ebc-fc12-4120-825d-c17c9b8e588c",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "a02b9331-b84e-493b-9f9c-14813c61d9ed",
@@ -943,70 +722,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/dbf11bd74fbe4a12cdcecd56f5a1d274.webp",
         "createdAt": "2025-09-21T03:39:05.781Z",
         "updatedAt": "2025-10-14T07:06:00.942Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "class": "Sentinel",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A calm, proud, yet awkward Doll who isn't good at expressing herself. She loves fluffy little animals and overly sweet macchiatos. Always a loner, her gaze often lingers somewhere. When will she finally get the response she's been longing for?",
-          "preview": false,
-          "movement": 4,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "8bf05c8d-79c3-4bbe-9d41-066cb5a7cf60",
             "name": "Absolute Mental Defense",
-            "phase": null,
             "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/dbf11bd74fbe4a12cdcecd56f5a1d274.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T03:16:20.418Z",
-            "skillTags": [
-              "Ultimate",
-              "Buff",
-              "Interception",
-              "Debuff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-02T04:02:45.847Z",
-            "description": "<p>Gains [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:a352a0e9-b085-4f6d-8bb9-fda0b496a801] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The absorption amount of [effect:abce6753-fe29-4ca3-b487-7453e982b279] is equal to <span style=\"color: rgb(243, 109, 28);\">65%</span> of the initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">60%</span> of max HP.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"048855de-126f-48d4-a4d8-d12ab53d3b1a\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Gains [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:a352a0e9-b085-4f6d-8bb9-fda0b496a801] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The absorption amount of [effect:abce6753-fe29-4ca3-b487-7453e982b279] is equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of this unit's initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">80%</span> of max HP.</p>",
-            "descriptionLevel3": "<p>Gains [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:a352a0e9-b085-4f6d-8bb9-fda0b496a801] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. [effect:abce6753-fe29-4ca3-b487-7453e982b279] absorbs damage up to <span style=\"color: rgb(243, 109, 28);\">80%</span> of base attack, capped at <span style=\"color: rgb(243, 109, 28);\">80%</span> of max HP. After using this skill, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index at the end of each action. This can be triggered <span style=\"color: rgb(243, 109, 28);\">2 times</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "a02b9331-b84e-493b-9f9c-14813c61d9ed",
-            "vertebraeUpgradeIdLevel3": "8fb37a8c-5f8b-4067-855b-f5d8b5b405cc"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "cda4d3a1-8b38-45fe-92b8-c4811e417542",
@@ -1018,68 +745,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/54fd8eae145ad59299f437788391ed29.webp",
         "createdAt": "2025-09-21T03:40:57.477Z",
         "updatedAt": "2025-10-26T18:25:28.812Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "class": "Sentinel",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A calm, proud, yet awkward Doll who isn't good at expressing herself. She loves fluffy little animals and overly sweet macchiatos. Always a loner, her gaze often lingers somewhere. When will she finally get the response she's been longing for?",
-          "preview": false,
-          "movement": 4,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "17cfab49-8da5-40dc-9406-a45bc984c21e",
             "name": "Battlefield Insight",
-            "phase": null,
             "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/54fd8eae145ad59299f437788391ed29.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T03:19:17.483Z",
-            "skillTags": [
-              "Passive",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-02T04:15:31.193Z",
-            "description": "<p>Increases critical rate by <span style=\"color: rgb(243, 109, 28);\">40%</span> and reduces critical damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the start of the turn, if this unit’s HP exceeds <span style=\"color: rgb(243, 109, 28);\">80%</span>, gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] and [effect:bf6a0f32-41d4-476f-baa0-79e0728f0564] until the next turn.</p><p>When attacking a target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], ignores <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When attacking a target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">30%</span>. These effects cannot stack.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Increases critical rate by <span style=\"color: rgb(243, 109, 28);\">40%</span> and reduces critical damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the start of the turn, if this unit’s HP exceeds <span style=\"color: rgb(243, 109, 28);\">80%</span>, gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] and [effect:bf6a0f32-41d4-476f-baa0-79e0728f0564] until the next turn.</p><p>When attacking a target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], ignores <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">20%</span>; if <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> is dealt, ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index instead. When attacking a target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">30%</span>; if <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> is dealt, ignores <span style=\"color: rgb(243, 109, 28);\">10 points</span> of stability index instead. These effects cannot stack.</p>",
-            "descriptionLevel3": "<p>Increases critical rate by <span style=\"color: rgb(243, 109, 28);\">40%</span> and reduces critical damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the start of the turn, if this unit’s HP exceeds <span style=\"color: rgb(243, 109, 28);\">80%</span>, gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] and [effect:bf6a0f32-41d4-476f-baa0-79e0728f0564] until the next turn.</p><p>When attacking a target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], ignores <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When attacking a target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">30%</span>. When dealing <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> to an enemy target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae] or [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">10 points</span> of stability index instead and increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span>. These effects cannot stack.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "cda4d3a1-8b38-45fe-92b8-c4811e417542",
-            "vertebraeUpgradeIdLevel3": "b2bd6aec-0d05-42b6-8530-690619a8dc0f"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "56da907f-4c99-4926-a2eb-b43dce5e02c4",
@@ -1091,69 +768,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/1af33215222c24ea822319d7a7890c06.webp",
         "createdAt": "2025-09-21T03:42:18.022Z",
         "updatedAt": "2025-10-14T07:06:01.288Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "class": "Sentinel",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A calm, proud, yet awkward Doll who isn't good at expressing herself. She loves fluffy little animals and overly sweet macchiatos. Always a loner, her gaze often lingers somewhere. When will she finally get the response she's been longing for?",
-          "preview": false,
-          "movement": 4,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "b3c93394-791f-4d46-b1a5-bd94d1e765f8",
             "name": "Professional Tactics",
-            "phase": "Physical",
             "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/1af33215222c24ea822319d7a7890c06.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Heavy Ammo\"]",
-            "createdAt": "2025-09-21T03:09:31.976Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Buff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-24T19:36:50.485Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> of self, deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack, gain <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index, and gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:2d93b666-7349-4094-bc7a-6e22b8e76a1a].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"049f0bef-ef75-4395-a655-453b632acdcd\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> of self, deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack, gain <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index, and gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:44e8c6d5-e66f-464e-a854-626654fa9395].</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "56da907f-4c99-4926-a2eb-b43dce5e02c4",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "b2bd6aec-0d05-42b6-8530-690619a8dc0f",
@@ -1165,68 +791,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/54fd8eae145ad59299f437788391ed29.webp",
         "createdAt": "2025-09-21T03:43:25.930Z",
         "updatedAt": "2025-10-27T02:38:31.505Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "class": "Sentinel",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A calm, proud, yet awkward Doll who isn't good at expressing herself. She loves fluffy little animals and overly sweet macchiatos. Always a loner, her gaze often lingers somewhere. When will she finally get the response she's been longing for?",
-          "preview": false,
-          "movement": 4,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "17cfab49-8da5-40dc-9406-a45bc984c21e",
             "name": "Battlefield Insight",
-            "phase": null,
             "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/54fd8eae145ad59299f437788391ed29.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T03:19:17.483Z",
-            "skillTags": [
-              "Passive",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-02T04:15:31.193Z",
-            "description": "<p>Increases critical rate by <span style=\"color: rgb(243, 109, 28);\">40%</span> and reduces critical damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the start of the turn, if this unit’s HP exceeds <span style=\"color: rgb(243, 109, 28);\">80%</span>, gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] and [effect:bf6a0f32-41d4-476f-baa0-79e0728f0564] until the next turn.</p><p>When attacking a target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], ignores <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When attacking a target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">30%</span>. These effects cannot stack.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Increases critical rate by <span style=\"color: rgb(243, 109, 28);\">40%</span> and reduces critical damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the start of the turn, if this unit’s HP exceeds <span style=\"color: rgb(243, 109, 28);\">80%</span>, gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] and [effect:bf6a0f32-41d4-476f-baa0-79e0728f0564] until the next turn.</p><p>When attacking a target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], ignores <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">20%</span>; if <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> is dealt, ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index instead. When attacking a target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">30%</span>; if <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> is dealt, ignores <span style=\"color: rgb(243, 109, 28);\">10 points</span> of stability index instead. These effects cannot stack.</p>",
-            "descriptionLevel3": "<p>Increases critical rate by <span style=\"color: rgb(243, 109, 28);\">40%</span> and reduces critical damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the start of the turn, if this unit’s HP exceeds <span style=\"color: rgb(243, 109, 28);\">80%</span>, gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] and [effect:bf6a0f32-41d4-476f-baa0-79e0728f0564] until the next turn.</p><p>When attacking a target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae], ignores <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When attacking a target with [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability index and increases damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">30%</span>. When dealing <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> to an enemy target with [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae] or [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], ignores <span style=\"color: rgb(243, 109, 28);\">10 points</span> of stability index instead and increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span>. These effects cannot stack.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "cda4d3a1-8b38-45fe-92b8-c4811e417542",
-            "vertebraeUpgradeIdLevel3": "b2bd6aec-0d05-42b6-8530-690619a8dc0f"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "8fb37a8c-5f8b-4067-855b-f5d8b5b405cc",
@@ -1238,70 +814,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/dbf11bd74fbe4a12cdcecd56f5a1d274.webp",
         "createdAt": "2025-09-21T03:45:22.782Z",
         "updatedAt": "2025-10-14T07:06:01.647Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "class": "Sentinel",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A calm, proud, yet awkward Doll who isn't good at expressing herself. She loves fluffy little animals and overly sweet macchiatos. Always a loner, her gaze often lingers somewhere. When will she finally get the response she's been longing for?",
-          "preview": false,
-          "movement": 4,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "8bf05c8d-79c3-4bbe-9d41-066cb5a7cf60",
             "name": "Absolute Mental Defense",
-            "phase": null,
             "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/dbf11bd74fbe4a12cdcecd56f5a1d274.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T03:16:20.418Z",
-            "skillTags": [
-              "Ultimate",
-              "Buff",
-              "Interception",
-              "Debuff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-02T04:02:45.847Z",
-            "description": "<p>Gains [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:a352a0e9-b085-4f6d-8bb9-fda0b496a801] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The absorption amount of [effect:abce6753-fe29-4ca3-b487-7453e982b279] is equal to <span style=\"color: rgb(243, 109, 28);\">65%</span> of the initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">60%</span> of max HP.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"048855de-126f-48d4-a4d8-d12ab53d3b1a\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Gains [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:a352a0e9-b085-4f6d-8bb9-fda0b496a801] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The absorption amount of [effect:abce6753-fe29-4ca3-b487-7453e982b279] is equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of this unit's initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">80%</span> of max HP.</p>",
-            "descriptionLevel3": "<p>Gains [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:a352a0e9-b085-4f6d-8bb9-fda0b496a801] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. [effect:abce6753-fe29-4ca3-b487-7453e982b279] absorbs damage up to <span style=\"color: rgb(243, 109, 28);\">80%</span> of base attack, capped at <span style=\"color: rgb(243, 109, 28);\">80%</span> of max HP. After using this skill, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index at the end of each action. This can be triggered <span style=\"color: rgb(243, 109, 28);\">2 times</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "a02b9331-b84e-493b-9f9c-14813c61d9ed",
-            "vertebraeUpgradeIdLevel3": "8fb37a8c-5f8b-4067-855b-f5d8b5b405cc"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1426,32 +950,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T03:13:14.876Z",
-        "updatedAt": "2025-11-06T06:31:52.045Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "WA2000"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-06T06:31:52.045Z"
       },
       {
         "id": "52b8af4d-b768-4550-be55-be8a4a3eaa44",
@@ -1465,32 +964,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T02:52:55.831Z",
-        "updatedAt": "2025-11-06T06:47:32.648Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "WA2000"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-06T06:47:32.648Z"
       },
       {
         "id": "44e8c6d5-e66f-464e-a854-626654fa9395",
@@ -1504,32 +978,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T03:42:06.914Z",
-        "updatedAt": "2025-11-01T23:05:32.839Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "WA2000"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-01T23:05:32.839Z"
       },
       {
         "id": "937acdbc-f0d7-44aa-92e4-15be9d684985",
@@ -1542,32 +991,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T02:23:25.511Z",
-        "updatedAt": "2025-11-03T06:04:14.183Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "WA2000"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T06:04:14.183Z"
       },
       {
         "id": "fbecd0e1-7852-4164-a9cc-d2fdd69724e4",
@@ -1580,32 +1004,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T02:34:21.412Z",
-        "updatedAt": "2025-11-03T15:06:17.078Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "WA2000"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T15:06:17.078Z"
       },
       {
         "id": "f9c50d26-807b-4f80-a636-5f13ae7097aa",
@@ -1618,32 +1017,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T03:45:05.662Z",
-        "updatedAt": "2025-11-03T15:30:19.752Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "WA2000"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T15:30:19.752Z"
       },
       {
         "id": "2d93b666-7349-4094-bc7a-6e22b8e76a1a",
@@ -1656,32 +1030,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T03:09:02.299Z",
-        "updatedAt": "2025-11-03T15:52:15.199Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "WA2000"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T15:52:15.199Z"
       },
       {
         "id": "bf6a0f32-41d4-476f-baa0-79e0728f0564",
@@ -1695,32 +1044,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T03:18:14.996Z",
-        "updatedAt": "2025-11-03T15:52:50.044Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "WA2000"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T15:52:50.044Z"
       },
       {
         "id": "1e13643b-d0e3-4e67-a86f-cd08221264f2",
@@ -1733,32 +1057,64 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T02:41:01.451Z",
-        "updatedAt": "2025-11-03T15:54:34.869Z",
-        "doll": {
-          "id": "f88eca4b-5847-4496-a054-bb1361025067",
-          "name": "Makiatto",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/makiatto/973e1bf0f72aa76bec23cd061bfb1f15.webp",
-          "createdAt": "2025-09-21T02:13:47.108Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:46:53.625Z",
-          "dollImages": [
-            {
-              "id": "dbc7ca45-9ffe-4a7a-bb58-5b3a3d31de23",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/makiatto/chibi-6cfa60bac84d058f3ae348f9a81bd62d.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "WA2000"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T15:54:34.869Z"
+      },
+      {
+        "id": "4b5fd3bb-8d4a-44e7-ba99-b48331d2e194",
+        "effectName": "Insight",
+        "effectDetails": "<p>Increases the range of Ultimate Skills by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:11:35.926Z",
+        "updatedAt": "2025-11-03T05:56:58.293Z"
+      },
+      {
+        "id": "d85addc9-1d0c-46cb-a37a-377dde1be0ae",
+        "effectName": "Frozen",
+        "effectDetails": "<p>Movement is decreased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. If <span style=\"color: rgb(34, 139, 230);\">Frozen</span> has reached <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> at the end of the action, it is converted into [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. This is considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T02:24:20.358Z",
+        "updatedAt": "2025-11-02T02:29:37.253Z"
+      },
+      {
+        "id": "f4fc6af5-7a01-48a3-91e2-e432a7216dbc",
+        "effectName": "Frigid",
+        "effectDetails": "<p>Unable to move and cannot be actively displaced. Considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T19:22:25.160Z",
+        "updatedAt": "2025-11-01T23:37:44.521Z"
+      },
+      {
+        "id": "abce6753-fe29-4ca3-b487-7453e982b279",
+        "effectName": "Frost Barrier",
+        "effectDetails": "<p>When [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] or <span style=\"color: rgb(34, 139, 230);\">Frost Barrier</span> is destroyed, apply [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to the unit that destroyed it. This is considered a Freeze buff and cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff",
+          "Freeze"
+        ],
+        "dollId": "f88eca4b-5847-4496-a054-bb1361025067",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T19:19:34.427Z",
+        "updatedAt": "2025-11-02T02:27:53.908Z"
       }
     ],
     "shortId": "d30"

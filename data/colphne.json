@@ -90,367 +90,397 @@
       {
         "id": "e80bb318-fc7a-49a5-846d-24c225751724",
         "name": "Quick Reaction",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/778798ca286990065428583ce643a35e.webp",
         "createdAt": "2025-09-21T18:42:59.052Z",
         "updatedAt": "2025-09-26T01:35:05.475Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "0f57b04c-ee03-4e0f-bb5e-afa6a1c3c2f1",
         "name": "Medical Contingency",
-        "description": "<p>When an enemy unit within range receives targeted damage from an allied unit, prioritizes performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:90e40fd3-e06c-4dca-aa63-464cf6e0c9f7] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When applying an active heal to an allied unit, if the target is in Stability Break, additionally restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability index. Cooldown: <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/428223bd45d6bbab9ed316e912a1e4b0.webp",
         "createdAt": "2025-09-21T18:51:40.879Z",
         "updatedAt": "2025-10-14T07:06:56.497Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "cd77fce6-6d38-4b9e-ab13-f5746e9b20df",
-        "vertebraeUpgradeIdLevel3": "498b43de-84e8-43ef-aeeb-c4f4cd490171",
-        "skillTags": [
-          "Passive",
-          "Support",
-          "Stability Regen"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>When an enemy unit within range receives targeted damage from an allied unit, prioritizes performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:90e40fd3-e06c-4dca-aa63-464cf6e0c9f7] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When applying an active heal to an allied unit, if the target is in Stability Break, additionally restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability index. Cooldown: <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Passive",
+            "Support",
+            "Stability Regen"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "cd77fce6-6d38-4b9e-ab13-f5746e9b20df",
-          "level": 2,
-          "effect": "<p>Stability index recovery increases by <span style=\"color: rgb(243, 109, 28);\">2 points</span><span>.</span></p>",
-          "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/428223bd45d6bbab9ed316e912a1e4b0.webp",
-          "createdAt": "2025-09-21T18:53:08.777Z",
-          "updatedAt": "2025-09-26T00:42:49.992Z",
-          "vertebraeName": "Medical Contingency Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "cd77fce6-6d38-4b9e-ab13-f5746e9b20df",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>When an enemy unit within range receives targeted damage from an allied unit, prioritizes performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:90e40fd3-e06c-4dca-aa63-464cf6e0c9f7] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When applying an active heal to an allied unit, if the target is in Stability Break, additionally restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability index. Cooldown: <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Support",
+            "Stability Regen"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "cd77fce6-6d38-4b9e-ab13-f5746e9b20df",
+            "level": 2,
+            "effect": "<p>Stability index recovery increases by <span style=\"color: rgb(243, 109, 28);\">2 points</span><span>.</span></p>",
+            "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/428223bd45d6bbab9ed316e912a1e4b0.webp",
+            "createdAt": "2025-09-21T18:53:08.777Z",
+            "updatedAt": "2025-09-26T00:42:49.992Z",
+            "vertebraeName": "Medical Contingency Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "498b43de-84e8-43ef-aeeb-c4f4cd490171",
-          "level": 3,
-          "effect": "<p>Cooldown reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
-          "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/428223bd45d6bbab9ed316e912a1e4b0.webp",
-          "createdAt": "2025-09-21T18:53:51.857Z",
-          "updatedAt": "2025-09-26T00:42:42.224Z",
-          "vertebraeName": "Medical Contingency Lv.3"
+        "level3": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "498b43de-84e8-43ef-aeeb-c4f4cd490171",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>When an enemy unit within range receives targeted damage from an allied unit, prioritizes performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:90e40fd3-e06c-4dca-aa63-464cf6e0c9f7] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When applying an active heal to an allied unit, if the target is in Stability Break, additionally restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability index. Cooldown: <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Support",
+            "Stability Regen"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "498b43de-84e8-43ef-aeeb-c4f4cd490171",
+            "level": 3,
+            "effect": "<p>Cooldown reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+            "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/428223bd45d6bbab9ed316e912a1e4b0.webp",
+            "createdAt": "2025-09-21T18:53:51.857Z",
+            "updatedAt": "2025-09-26T00:42:42.224Z",
+            "vertebraeName": "Medical Contingency Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "99209894-0e43-46f9-a58e-ebc1546493f2",
         "name": "Crisis Aid",
-        "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, restoring their HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applies [effect:a8794e8b-ebb5-4c04-8f8a-ea7497c112d5] and [effect:45a4686b-80dd-401d-991c-aed564cb0ca9] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/6ba55f53004a993c6073b1ab14192379.webp",
         "createdAt": "2025-09-21T18:46:41.135Z",
         "updatedAt": "2025-10-14T07:07:01.911Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "e90aeab5-def8-4162-af44-6806b0a84c27",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Healing",
-          "Buff"
-        ],
         "keyUpgradesData": "[\"6b3748e2-412b-4357-9e36-169519a3b2c3\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, restoring their HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applies [effect:a8794e8b-ebb5-4c04-8f8a-ea7497c112d5] and [effect:45a4686b-80dd-401d-991c-aed564cb0ca9] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If this fully restores the target's HP, applies <span style=\"color: rgb(243, 109, 28);\">1</span> random buff to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, restoring their HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applies [effect:a8794e8b-ebb5-4c04-8f8a-ea7497c112d5] and [effect:45a4686b-80dd-401d-991c-aed564cb0ca9] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Healing",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "e90aeab5-def8-4162-af44-6806b0a84c27",
-          "level": 2,
-          "effect": "<p>If the target's HP is fully restored after healing, randomly grant it <span style=\"color: rgb(243, 109, 28);\">1</span><span> buff for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
-          "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/6ba55f53004a993c6073b1ab14192379.webp",
-          "createdAt": "2025-09-21T18:52:22.193Z",
-          "updatedAt": "2025-09-26T00:42:32.832Z",
-          "vertebraeName": "Crisis Aid Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "e90aeab5-def8-4162-af44-6806b0a84c27",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, restoring their HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applies [effect:a8794e8b-ebb5-4c04-8f8a-ea7497c112d5] and [effect:45a4686b-80dd-401d-991c-aed564cb0ca9] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If this fully restores the target's HP, applies <span style=\"color: rgb(243, 109, 28);\">1</span> random buff to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+          "phase": null,
+          "skillTags": [
+            "Active",
+            "Healing",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "e90aeab5-def8-4162-af44-6806b0a84c27",
+            "level": 2,
+            "effect": "<p>If the target's HP is fully restored after healing, randomly grant it <span style=\"color: rgb(243, 109, 28);\">1</span><span> buff for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
+            "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/6ba55f53004a993c6073b1ab14192379.webp",
+            "createdAt": "2025-09-21T18:52:22.193Z",
+            "updatedAt": "2025-09-26T00:42:32.832Z",
+            "vertebraeName": "Crisis Aid Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "6e463075-7551-4ca8-aeef-25a85b8dd44d",
         "name": "Battlefield Glow",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack and restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to the allied target with the lowest HP.</p>",
-        "phase": "Hydro",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 4,
-        "cooldown": 1,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/0857f0a139dbba1ad5187c0b880ae3e7.webp",
         "createdAt": "2025-09-21T18:48:16.644Z",
         "updatedAt": "2025-10-30T17:46:38.014Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "24b370a5-705f-453a-a63a-558bcb7ab526",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Healing"
-        ],
         "keyUpgradesData": "[\"c462107c-1046-4749-a0a3-45d97e9d6675\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack. Additionally, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to the allied unit with the lowest HP. Gains <span style=\"color: rgb(243, 109, 28);\">1</span> additional use of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack and restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to the allied target with the lowest HP.</p>",
+          "phase": "Hydro",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 4,
+          "cooldown": 1,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Healing"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "24b370a5-705f-453a-a63a-558bcb7ab526",
-          "level": 2,
-          "effect": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 extra</span><span> [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn.</span></p>",
-          "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/0857f0a139dbba1ad5187c0b880ae3e7.webp",
-          "createdAt": "2025-09-21T18:52:44.135Z",
-          "updatedAt": "2025-10-14T07:06:05.128Z",
-          "vertebraeName": "Battlefield Glow Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "24b370a5-705f-453a-a63a-558bcb7ab526",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack. Additionally, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to the allied unit with the lowest HP. Gains <span style=\"color: rgb(243, 109, 28);\">1</span> additional use of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn.</p>",
+          "phase": "Hydro",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Healing"
+          ],
+          "stabilityDamage": 4,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "24b370a5-705f-453a-a63a-558bcb7ab526",
+            "level": 2,
+            "effect": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 extra</span><span> [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn.</span></p>",
+            "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/0857f0a139dbba1ad5187c0b880ae3e7.webp",
+            "createdAt": "2025-09-21T18:52:44.135Z",
+            "updatedAt": "2025-10-14T07:06:05.128Z",
+            "vertebraeName": "Battlefield Glow Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "cb7c8671-9c00-49f5-9d80-1ffc43884ee3",
         "name": "Emergency Treatment",
-        "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, restoring their HP equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs from them, and removing [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] effects.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": 2,
         "imageUrl": "https://cdn.dandegate.net/skills/0498bf44ba59c353b1a6b608425a8b43.webp",
         "createdAt": "2025-09-21T18:49:39.489Z",
         "updatedAt": "2025-11-01T19:34:10.414Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "fcd03de2-34c1-4368-a614-43d4398af812",
-        "vertebraeUpgradeIdLevel3": "b2dda8ff-dbcf-4d1f-836f-d51b0256aadd",
-        "skillTags": [
-          "Ultimate",
-          "Healing",
-          "Stability Regen",
-          "Cleanse"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, restoring HP equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs, alongside removing [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] effects.</p>",
-        "descriptionLevel3": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, restoring HP equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">5 points</span> of stability, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs alongside removing [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] effects.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, restoring their HP equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs from them, and removing [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] effects.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": 2,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Ultimate",
+            "Healing",
+            "Stability Regen",
+            "Cleanse"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "fcd03de2-34c1-4368-a614-43d4398af812",
-          "level": 2,
-          "effect": "<p>Healing multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
-          "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/0498bf44ba59c353b1a6b608425a8b43.webp",
-          "createdAt": "2025-09-21T18:53:28.858Z",
-          "updatedAt": "2025-09-26T00:42:46.187Z",
-          "vertebraeName": "Emergency Treatment Lv.2"
+        "level2": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "fcd03de2-34c1-4368-a614-43d4398af812",
+          "ammoTypes": "[]",
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, restoring HP equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs, alongside removing [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] effects.</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Healing",
+            "Stability Regen",
+            "Cleanse"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "fcd03de2-34c1-4368-a614-43d4398af812",
+            "level": 2,
+            "effect": "<p>Healing multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
+            "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/0498bf44ba59c353b1a6b608425a8b43.webp",
+            "createdAt": "2025-09-21T18:53:28.858Z",
+            "updatedAt": "2025-09-26T00:42:46.187Z",
+            "vertebraeName": "Emergency Treatment Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "b2dda8ff-dbcf-4d1f-836f-d51b0256aadd",
-          "level": 3,
-          "effect": "<p>Increases Stability Index recovery by <span style=\"color: rgb(243, 109, 28);\">1 point</span><span>.</span></p>",
-          "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/0498bf44ba59c353b1a6b608425a8b43.webp",
-          "createdAt": "2025-09-21T18:54:37.412Z",
-          "updatedAt": "2025-09-26T00:42:37.894Z",
-          "vertebraeName": "Emergency Treatment Lv.3"
+        "level3": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "b2dda8ff-dbcf-4d1f-836f-d51b0256aadd",
+          "ammoTypes": "[]",
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, restoring HP equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">5 points</span> of stability, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs alongside removing [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] effects.</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Healing",
+            "Stability Regen",
+            "Cleanse"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "b2dda8ff-dbcf-4d1f-836f-d51b0256aadd",
+            "level": 3,
+            "effect": "<p>Increases Stability Index recovery by <span style=\"color: rgb(243, 109, 28);\">1 point</span><span>.</span></p>",
+            "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/0498bf44ba59c353b1a6b608425a8b43.webp",
+            "createdAt": "2025-09-21T18:54:37.412Z",
+            "updatedAt": "2025-09-26T00:42:37.894Z",
+            "vertebraeName": "Emergency Treatment Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -473,40 +503,6 @@
         "createdAt": "2025-09-21T18:42:06.007Z",
         "updatedAt": "2025-09-25T23:18:07.387Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "dollImages": [
-            {
-              "id": "bfa9bb6f-746b-4160-a41f-312ccb5ebace",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/colphne/chibi-138ea897ae1d5d0a24e9567da3b05e57.webp",
-              "createdAt": "2025-09-25T23:12:20.119Z",
-              "updatedAt": "2025-09-25T23:12:20.119Z"
-            }
-          ],
-          "searchTags": [
-            "Cellphone",
-            "Colphene",
-            "Colgate",
-            "Cellophane",
-            "Korufen",
-            "Cold Pain",
-            "Coughknee",
-            "Copenhagen",
-            "Cologne",
-            "Calpis",
-            "Coffee",
-            "Cold Feet",
-            "Corny"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Healing Treatment",
         "shortId": "a9"
@@ -530,40 +526,6 @@
         "createdAt": "2025-09-21T18:39:56.654Z",
         "updatedAt": "2025-09-25T23:18:15.538Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "dollImages": [
-            {
-              "id": "bfa9bb6f-746b-4160-a41f-312ccb5ebace",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/colphne/chibi-138ea897ae1d5d0a24e9567da3b05e57.webp",
-              "createdAt": "2025-09-25T23:12:20.119Z",
-              "updatedAt": "2025-09-25T23:12:20.119Z"
-            }
-          ],
-          "searchTags": [
-            "Cellphone",
-            "Colphene",
-            "Colgate",
-            "Cellophane",
-            "Korufen",
-            "Cold Pain",
-            "Coughknee",
-            "Copenhagen",
-            "Cologne",
-            "Calpis",
-            "Coffee",
-            "Cold Feet",
-            "Corny"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Fabricated Life",
         "shortId": "c9"
@@ -587,40 +549,6 @@
         "createdAt": "2025-09-21T18:41:09.370Z",
         "updatedAt": "2025-10-14T07:06:34.462Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "dollImages": [
-            {
-              "id": "bfa9bb6f-746b-4160-a41f-312ccb5ebace",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/colphne/chibi-138ea897ae1d5d0a24e9567da3b05e57.webp",
-              "createdAt": "2025-09-25T23:12:20.119Z",
-              "updatedAt": "2025-09-25T23:12:20.119Z"
-            }
-          ],
-          "searchTags": [
-            "Cellphone",
-            "Colphene",
-            "Colgate",
-            "Cellophane",
-            "Korufen",
-            "Cold Pain",
-            "Coughknee",
-            "Copenhagen",
-            "Cologne",
-            "Calpis",
-            "Coffee",
-            "Cold Feet",
-            "Corny"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Emotional Counselling Expert",
         "shortId": "k1"
@@ -645,40 +573,6 @@
         "createdAt": "2025-09-21T18:35:53.694Z",
         "updatedAt": "2025-10-14T07:06:34.112Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "dollImages": [
-            {
-              "id": "bfa9bb6f-746b-4160-a41f-312ccb5ebace",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/colphne/chibi-138ea897ae1d5d0a24e9567da3b05e57.webp",
-              "createdAt": "2025-09-25T23:12:20.119Z",
-              "updatedAt": "2025-09-25T23:12:20.119Z"
-            }
-          ],
-          "searchTags": [
-            "Cellphone",
-            "Colphene",
-            "Colgate",
-            "Cellophane",
-            "Korufen",
-            "Cold Pain",
-            "Coughknee",
-            "Copenhagen",
-            "Cologne",
-            "Calpis",
-            "Coffee",
-            "Cold Feet",
-            "Corny"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Doctor's Orders",
         "shortId": "k2"
@@ -703,40 +597,6 @@
         "createdAt": "2025-09-21T18:36:30.850Z",
         "updatedAt": "2025-10-14T07:06:34.287Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "dollImages": [
-            {
-              "id": "bfa9bb6f-746b-4160-a41f-312ccb5ebace",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/colphne/chibi-138ea897ae1d5d0a24e9567da3b05e57.webp",
-              "createdAt": "2025-09-25T23:12:20.119Z",
-              "updatedAt": "2025-09-25T23:12:20.119Z"
-            }
-          ],
-          "searchTags": [
-            "Cellphone",
-            "Colphene",
-            "Colgate",
-            "Cellophane",
-            "Korufen",
-            "Cold Pain",
-            "Coughknee",
-            "Copenhagen",
-            "Cologne",
-            "Calpis",
-            "Coffee",
-            "Cold Feet",
-            "Corny"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Quick Surgery",
         "shortId": "k3"
@@ -761,40 +621,6 @@
         "createdAt": "2025-09-21T18:37:14.724Z",
         "updatedAt": "2025-09-21T18:37:14.724Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "dollImages": [
-            {
-              "id": "bfa9bb6f-746b-4160-a41f-312ccb5ebace",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/colphne/chibi-138ea897ae1d5d0a24e9567da3b05e57.webp",
-              "createdAt": "2025-09-25T23:12:20.119Z",
-              "updatedAt": "2025-09-25T23:12:20.119Z"
-            }
-          ],
-          "searchTags": [
-            "Cellphone",
-            "Colphene",
-            "Colgate",
-            "Cellophane",
-            "Korufen",
-            "Cold Pain",
-            "Coughknee",
-            "Copenhagen",
-            "Cologne",
-            "Calpis",
-            "Coffee",
-            "Cold Feet",
-            "Corny"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Emergency Express",
         "shortId": "k4"
@@ -819,40 +645,6 @@
         "createdAt": "2025-09-21T18:37:53.235Z",
         "updatedAt": "2025-09-21T18:37:53.235Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "dollImages": [
-            {
-              "id": "bfa9bb6f-746b-4160-a41f-312ccb5ebace",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/colphne/chibi-138ea897ae1d5d0a24e9567da3b05e57.webp",
-              "createdAt": "2025-09-25T23:12:20.119Z",
-              "updatedAt": "2025-09-25T23:12:20.119Z"
-            }
-          ],
-          "searchTags": [
-            "Cellphone",
-            "Colphene",
-            "Colgate",
-            "Cellophane",
-            "Korufen",
-            "Cold Pain",
-            "Coughknee",
-            "Copenhagen",
-            "Cologne",
-            "Calpis",
-            "Coffee",
-            "Cold Feet",
-            "Corny"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Combat Medic",
         "shortId": "k5"
@@ -877,40 +669,6 @@
         "createdAt": "2025-09-21T18:38:29.435Z",
         "updatedAt": "2025-10-04T01:23:51.583Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "dollImages": [
-            {
-              "id": "bfa9bb6f-746b-4160-a41f-312ccb5ebace",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/colphne/chibi-138ea897ae1d5d0a24e9567da3b05e57.webp",
-              "createdAt": "2025-09-25T23:12:20.119Z",
-              "updatedAt": "2025-09-25T23:12:20.119Z"
-            }
-          ],
-          "searchTags": [
-            "Cellphone",
-            "Colphene",
-            "Colgate",
-            "Cellophane",
-            "Korufen",
-            "Cold Pain",
-            "Coughknee",
-            "Copenhagen",
-            "Cologne",
-            "Calpis",
-            "Coffee",
-            "Cold Feet",
-            "Corny"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Recovery at Rest",
         "shortId": "k6"
@@ -935,40 +693,6 @@
         "createdAt": "2025-09-21T18:39:07.885Z",
         "updatedAt": "2025-09-21T18:39:07.885Z",
         "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "dollImages": [
-            {
-              "id": "bfa9bb6f-746b-4160-a41f-312ccb5ebace",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/colphne/chibi-138ea897ae1d5d0a24e9567da3b05e57.webp",
-              "createdAt": "2025-09-25T23:12:20.119Z",
-              "updatedAt": "2025-09-25T23:12:20.119Z"
-            }
-          ],
-          "searchTags": [
-            "Cellphone",
-            "Colphene",
-            "Colgate",
-            "Cellophane",
-            "Korufen",
-            "Cold Pain",
-            "Coughknee",
-            "Copenhagen",
-            "Cologne",
-            "Calpis",
-            "Coffee",
-            "Cold Feet",
-            "Corny"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Fast Recovery",
         "shortId": "k7"
@@ -985,69 +709,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/6ba55f53004a993c6073b1ab14192379.webp",
         "createdAt": "2025-09-21T18:52:22.193Z",
         "updatedAt": "2025-09-26T00:42:32.832Z",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "class": "Support",
-          "phase": "Hydro",
-          "rarity": "Standard",
-          "effects": "Although she often appears cheerful and enthusiastic, her face can sometimes take on a completely different, cold expression. The syringe in her hand—is it meant to save lives, or take them?",
-          "preview": false,
-          "movement": 7,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "99209894-0e43-46f9-a58e-ebc1546493f2",
             "name": "Crisis Aid",
-            "phase": null,
             "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/6ba55f53004a993c6073b1ab14192379.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-21T18:46:41.135Z",
-            "skillTags": [
-              "Active",
-              "Healing",
-              "Buff"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-14T07:07:01.911Z",
-            "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, restoring their HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applies [effect:a8794e8b-ebb5-4c04-8f8a-ea7497c112d5] and [effect:45a4686b-80dd-401d-991c-aed564cb0ca9] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"6b3748e2-412b-4357-9e36-169519a3b2c3\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, restoring their HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applies [effect:a8794e8b-ebb5-4c04-8f8a-ea7497c112d5] and [effect:45a4686b-80dd-401d-991c-aed564cb0ca9] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If this fully restores the target's HP, applies <span style=\"color: rgb(243, 109, 28);\">1</span> random buff to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "e90aeab5-def8-4162-af44-6806b0a84c27",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "24b370a5-705f-453a-a63a-558bcb7ab526",
@@ -1059,69 +732,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/0857f0a139dbba1ad5187c0b880ae3e7.webp",
         "createdAt": "2025-09-21T18:52:44.135Z",
         "updatedAt": "2025-10-14T07:06:05.128Z",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "class": "Support",
-          "phase": "Hydro",
-          "rarity": "Standard",
-          "effects": "Although she often appears cheerful and enthusiastic, her face can sometimes take on a completely different, cold expression. The syringe in her hand—is it meant to save lives, or take them?",
-          "preview": false,
-          "movement": 7,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "6e463075-7551-4ca8-aeef-25a85b8dd44d",
             "name": "Battlefield Glow",
-            "phase": "Hydro",
             "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/0857f0a139dbba1ad5187c0b880ae3e7.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-09-21T18:48:16.644Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Healing"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-30T17:46:38.014Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack and restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to the allied target with the lowest HP.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 4,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"c462107c-1046-4749-a0a3-45d97e9d6675\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack. Additionally, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to the allied unit with the lowest HP. Gains <span style=\"color: rgb(243, 109, 28);\">1</span> additional use of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "24b370a5-705f-453a-a63a-558bcb7ab526",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "cd77fce6-6d38-4b9e-ab13-f5746e9b20df",
@@ -1133,69 +755,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/428223bd45d6bbab9ed316e912a1e4b0.webp",
         "createdAt": "2025-09-21T18:53:08.777Z",
         "updatedAt": "2025-09-26T00:42:49.992Z",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "class": "Support",
-          "phase": "Hydro",
-          "rarity": "Standard",
-          "effects": "Although she often appears cheerful and enthusiastic, her face can sometimes take on a completely different, cold expression. The syringe in her hand—is it meant to save lives, or take them?",
-          "preview": false,
-          "movement": 7,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "0f57b04c-ee03-4e0f-bb5e-afa6a1c3c2f1",
             "name": "Medical Contingency",
-            "phase": null,
             "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/428223bd45d6bbab9ed316e912a1e4b0.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-21T18:51:40.879Z",
-            "skillTags": [
-              "Passive",
-              "Support",
-              "Stability Regen"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:06:56.497Z",
-            "description": "<p>When an enemy unit within range receives targeted damage from an allied unit, prioritizes performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:90e40fd3-e06c-4dca-aa63-464cf6e0c9f7] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When applying an active heal to an allied unit, if the target is in Stability Break, additionally restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability index. Cooldown: <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "cd77fce6-6d38-4b9e-ab13-f5746e9b20df",
-            "vertebraeUpgradeIdLevel3": "498b43de-84e8-43ef-aeeb-c4f4cd490171"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "fcd03de2-34c1-4368-a614-43d4398af812",
@@ -1207,70 +778,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/0498bf44ba59c353b1a6b608425a8b43.webp",
         "createdAt": "2025-09-21T18:53:28.858Z",
         "updatedAt": "2025-09-26T00:42:46.187Z",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "class": "Support",
-          "phase": "Hydro",
-          "rarity": "Standard",
-          "effects": "Although she often appears cheerful and enthusiastic, her face can sometimes take on a completely different, cold expression. The syringe in her hand—is it meant to save lives, or take them?",
-          "preview": false,
-          "movement": 7,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "cb7c8671-9c00-49f5-9d80-1ffc43884ee3",
             "name": "Emergency Treatment",
-            "phase": null,
             "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/0498bf44ba59c353b1a6b608425a8b43.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T18:49:39.489Z",
-            "skillTags": [
-              "Ultimate",
-              "Healing",
-              "Stability Regen",
-              "Cleanse"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-01T19:34:10.414Z",
-            "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, restoring their HP equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs from them, and removing [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] effects.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 2,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, restoring HP equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs, alongside removing [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] effects.</p>",
-            "descriptionLevel3": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, restoring HP equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">5 points</span> of stability, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs alongside removing [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] effects.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "fcd03de2-34c1-4368-a614-43d4398af812",
-            "vertebraeUpgradeIdLevel3": "b2dda8ff-dbcf-4d1f-836f-d51b0256aadd"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "498b43de-84e8-43ef-aeeb-c4f4cd490171",
@@ -1282,69 +801,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/428223bd45d6bbab9ed316e912a1e4b0.webp",
         "createdAt": "2025-09-21T18:53:51.857Z",
         "updatedAt": "2025-09-26T00:42:42.224Z",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "class": "Support",
-          "phase": "Hydro",
-          "rarity": "Standard",
-          "effects": "Although she often appears cheerful and enthusiastic, her face can sometimes take on a completely different, cold expression. The syringe in her hand—is it meant to save lives, or take them?",
-          "preview": false,
-          "movement": 7,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "0f57b04c-ee03-4e0f-bb5e-afa6a1c3c2f1",
             "name": "Medical Contingency",
-            "phase": null,
             "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/428223bd45d6bbab9ed316e912a1e4b0.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-21T18:51:40.879Z",
-            "skillTags": [
-              "Passive",
-              "Support",
-              "Stability Regen"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:06:56.497Z",
-            "description": "<p>When an enemy unit within range receives targeted damage from an allied unit, prioritizes performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to them, and applies [effect:90e40fd3-e06c-4dca-aa63-464cf6e0c9f7] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When applying an active heal to an allied unit, if the target is in Stability Break, additionally restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability index. Cooldown: <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "cd77fce6-6d38-4b9e-ab13-f5746e9b20df",
-            "vertebraeUpgradeIdLevel3": "498b43de-84e8-43ef-aeeb-c4f4cd490171"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "b2dda8ff-dbcf-4d1f-836f-d51b0256aadd",
@@ -1356,70 +824,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/0498bf44ba59c353b1a6b608425a8b43.webp",
         "createdAt": "2025-09-21T18:54:37.412Z",
         "updatedAt": "2025-09-26T00:42:37.894Z",
-        "doll": {
-          "id": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-          "name": "Colphne",
-          "class": "Support",
-          "phase": "Hydro",
-          "rarity": "Standard",
-          "effects": "Although she often appears cheerful and enthusiastic, her face can sometimes take on a completely different, cold expression. The syringe in her hand—is it meant to save lives, or take them?",
-          "preview": false,
-          "movement": 7,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/colphne/e357fce304f2a8154760af33d2bf90fc.webp",
-          "createdAt": "2025-09-21T18:33:48.459Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-09T02:48:13.518Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "cb7c8671-9c00-49f5-9d80-1ffc43884ee3",
             "name": "Emergency Treatment",
-            "phase": null,
             "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/0498bf44ba59c353b1a6b608425a8b43.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T18:49:39.489Z",
-            "skillTags": [
-              "Ultimate",
-              "Healing",
-              "Stability Regen",
-              "Cleanse"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-01T19:34:10.414Z",
-            "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, restoring their HP equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs from them, and removing [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] effects.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 2,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, restoring HP equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs, alongside removing [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] effects.</p>",
-            "descriptionLevel3": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, restoring HP equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">5 points</span> of stability, cleansing <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs alongside removing [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] effects.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "fcd03de2-34c1-4368-a614-43d4398af812",
-            "vertebraeUpgradeIdLevel3": "b2dda8ff-dbcf-4d1f-836f-d51b0256aadd"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1530,7 +946,87 @@
       ],
       "equippedRelics": []
     },
-    "dollEffects": [],
+    "dollEffects": [
+      {
+        "id": "ab2e634f-d257-44e3-af90-ce66a6ac43f3",
+        "effectName": "Support Action",
+        "effectDetails": "<p>Performs a Support Attack; cannot be triggered by another Support Attack.</p>",
+        "effectTags": [],
+        "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:08:04.163Z",
+        "updatedAt": "2025-09-11T00:08:04.163Z"
+      },
+      {
+        "id": "90e40fd3-e06c-4dca-aa63-464cf6e0c9f7",
+        "effectName": "Attack Up I",
+        "effectDetails": "<p>Attack is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Attack",
+          "Buff"
+        ],
+        "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:16:28.702Z",
+        "updatedAt": "2025-11-06T06:39:36.480Z"
+      },
+      {
+        "id": "a8794e8b-ebb5-4c04-8f8a-ea7497c112d5",
+        "effectName": "Continuous Healing II",
+        "effectDetails": "<p>Recover <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP at the end of the action. Considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Healing"
+        ],
+        "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T18:45:33.984Z",
+        "updatedAt": "2025-11-01T22:26:59.956Z"
+      },
+      {
+        "id": "45a4686b-80dd-401d-991c-aed564cb0ca9",
+        "effectName": "Constant Stability Regen I",
+        "effectDetails": "<p>Recover <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability index at the end of the action. This is considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Stability"
+        ],
+        "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T18:46:00.333Z",
+        "updatedAt": "2025-11-06T06:46:18.012Z"
+      },
+      {
+        "id": "fadf4f3f-2810-49f0-b947-6d683741429d",
+        "effectName": "Taunt",
+        "effectDetails": "<p>Uncontrollable, forced to use basic attacks on the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:35:26.444Z",
+        "updatedAt": "2025-11-03T16:00:56.734Z"
+      },
+      {
+        "id": "e82fca4c-de4a-40b6-83c2-e84d716f72d3",
+        "effectName": "Fear",
+        "effectDetails": "<p>Uncontrollable, actively moves away from the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "6e2ca99d-caa5-47a7-9a3e-457f2c9cb8ac",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T15:54:18.994Z",
+        "updatedAt": "2025-11-03T14:56:03.797Z"
+      }
+    ],
     "shortId": "d9"
   }
 }

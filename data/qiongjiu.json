@@ -73,365 +73,385 @@
       {
         "id": "426bbc25-b95b-43ba-b9d7-4459483a5557",
         "name": "Fuse",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/2c7c453e5d1c63d6fa0a9ddf74c638b1.webp",
         "createdAt": "2025-09-19T05:42:12.232Z",
         "updatedAt": "2025-09-27T05:18:26.398Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "13e8803d-1fb1-4443-a544-987965810ebb",
         "name": "Steady Plan",
-        "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index <span style=\"color: rgb(243, 109, 28);\">each time</span> after dealing damage. Increases damage dealt to targets not under the protection of Cover by <span style=\"color: rgb(243, 109, 28);\">10%</span>. When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/215d139aa7964def82f66fc25d464522.webp",
         "createdAt": "2025-09-19T05:43:32.759Z",
         "updatedAt": "2025-10-14T07:07:12.250Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "0252605f-1d0c-4ce4-a395-97944c0c8d03",
-        "vertebraeUpgradeIdLevel3": "da0241dd-6b55-4974-a1ff-7fedafb27712",
-        "skillTags": [
-          "Passive",
-          "Support",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index <span style=\"color: rgb(243, 109, 28);\">each time</span> after dealing damage. Increases damage dealt to targets not under the protection of Cover by <span style=\"color: rgb(243, 109, 28);\">10%</span>. When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. After performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Damage dealt by [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-        "descriptionLevel3": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index <span style=\"color: rgb(243, 109, 28);\">each time</span> after dealing damage. Increases damage dealt to targets not under the protection of Cover by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. After performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Damage dealt by [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index <span style=\"color: rgb(243, 109, 28);\">each time</span> after dealing damage. Increases damage dealt to targets not under the protection of Cover by <span style=\"color: rgb(243, 109, 28);\">10%</span>. When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Support",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "0252605f-1d0c-4ce4-a395-97944c0c8d03",
-          "level": 2,
-          "effect": "<p>After [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], apply [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>. [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3]'s damage increases by </span><span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
-          "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/215d139aa7964def82f66fc25d464522.webp",
-          "createdAt": "2025-09-19T06:10:37.030Z",
-          "updatedAt": "2025-10-14T07:05:58.852Z",
-          "vertebraeName": "Steady Plan Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "0252605f-1d0c-4ce4-a395-97944c0c8d03",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index <span style=\"color: rgb(243, 109, 28);\">each time</span> after dealing damage. Increases damage dealt to targets not under the protection of Cover by <span style=\"color: rgb(243, 109, 28);\">10%</span>. When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. After performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Damage dealt by [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Support",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "0252605f-1d0c-4ce4-a395-97944c0c8d03",
+            "level": 2,
+            "effect": "<p>After [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], apply [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>. [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3]'s damage increases by </span><span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
+            "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/215d139aa7964def82f66fc25d464522.webp",
+            "createdAt": "2025-09-19T06:10:37.030Z",
+            "updatedAt": "2025-10-14T07:05:58.852Z",
+            "vertebraeName": "Steady Plan Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "da0241dd-6b55-4974-a1ff-7fedafb27712",
-          "level": 3,
-          "effect": "<p>Increases damage by <span style=\"color: rgb(243, 109, 28);\">10%</span><span> against targets without Cover protection.</span></p>",
-          "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/215d139aa7964def82f66fc25d464522.webp",
-          "createdAt": "2025-09-19T06:13:19.760Z",
-          "updatedAt": "2025-09-27T03:31:39.825Z",
-          "vertebraeName": "Steady Plan Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "da0241dd-6b55-4974-a1ff-7fedafb27712",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index <span style=\"color: rgb(243, 109, 28);\">each time</span> after dealing damage. Increases damage dealt to targets not under the protection of Cover by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. After performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Damage dealt by [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Support",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "da0241dd-6b55-4974-a1ff-7fedafb27712",
+            "level": 3,
+            "effect": "<p>Increases damage by <span style=\"color: rgb(243, 109, 28);\">10%</span><span> against targets without Cover protection.</span></p>",
+            "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/215d139aa7964def82f66fc25d464522.webp",
+            "createdAt": "2025-09-19T06:13:19.760Z",
+            "updatedAt": "2025-09-27T03:31:39.825Z",
+            "vertebraeName": "Steady Plan Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "f6959743-2f2b-47de-86cb-739ec43c8889",
         "name": "Common Rail",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them and the user gains [effect:e1d78dfe-8609-4ee8-a770-ac155116bff3].</p>",
-        "phase": "Burn",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": 1,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/667e244793eb5e0c32c75602202f7a24.webp",
         "createdAt": "2025-09-19T05:42:29.727Z",
         "updatedAt": "2025-10-30T16:31:16.826Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "d5b1ab0c-4c10-4a55-be0b-a36ee72c7875",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. Additionally, this unit gains [effect:e1d78dfe-8609-4ee8-a770-ac155116bff3] as well. If the enemy is killed from this skill, increases the damage bonus from [effect:e1d78dfe-8609-4ee8-a770-ac155116bff3] by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them and the user gains [effect:e1d78dfe-8609-4ee8-a770-ac155116bff3].</p>",
+          "phase": "Burn",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": 1,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "d5b1ab0c-4c10-4a55-be0b-a36ee72c7875",
-          "level": 2,
-          "effect": "<p>If a kill is scored, increase the damage bonus of [effect:e1d78dfe-8609-4ee8-a770-ac155116bff3] to <span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
-          "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/667e244793eb5e0c32c75602202f7a24.webp",
-          "createdAt": "2025-09-19T06:08:36.712Z",
-          "updatedAt": "2025-10-14T07:05:58.510Z",
-          "vertebraeName": "Common Rail Lv.2"
+        "level2": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "d5b1ab0c-4c10-4a55-be0b-a36ee72c7875",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. Additionally, this unit gains [effect:e1d78dfe-8609-4ee8-a770-ac155116bff3] as well. If the enemy is killed from this skill, increases the damage bonus from [effect:e1d78dfe-8609-4ee8-a770-ac155116bff3] by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Buff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "d5b1ab0c-4c10-4a55-be0b-a36ee72c7875",
+            "level": 2,
+            "effect": "<p>If a kill is scored, increase the damage bonus of [effect:e1d78dfe-8609-4ee8-a770-ac155116bff3] to <span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
+            "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/667e244793eb5e0c32c75602202f7a24.webp",
+            "createdAt": "2025-09-19T06:08:36.712Z",
+            "updatedAt": "2025-10-14T07:05:58.510Z",
+            "vertebraeName": "Common Rail Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "8a0e360c-f15d-48b4-9e5d-66be6a077ed8",
         "name": "Guide to Victory",
-        "description": "<p>Selects 1 direction and deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to the first enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> in the selected direction. Applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phase": "Burn",
-        "ammoTypes": "[]",
-        "stabilityDamage": 3,
-        "cooldown": 1,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/eeb2b577442b03e9eb0c6c869f510420.webp",
         "createdAt": "2025-09-19T05:42:49.616Z",
         "updatedAt": "2025-11-03T17:56:12.631Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
         "summonId": null,
-        "rangeMapId": "2ffa3144-bd0c-47d8-8493-52eb322905d3",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "ab54916e-cad0-439f-a5aa-c4bbe62046a1",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "AoE",
-          "Debuff"
-        ],
         "keyUpgradesData": "[\"380a196d-a1a9-4ef1-95d1-f230d49d8b9b\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 direction and deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to the first enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> in the selected direction. Applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the target is already affected by [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], the critical rate of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">100%</span>.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "2ffa3144-bd0c-47d8-8493-52eb322905d3",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742898657-r1e8.webp",
-          "createdAt": "2025-09-13T05:54:58.759Z",
-          "updatedAt": "2025-09-13T05:54:58.759Z",
-          "rangeValue": "1",
-          "effectiveArea": "8"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects 1 direction and deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to the first enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> in the selected direction. Applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": "Burn",
+          "ammoTypes": "[]",
+          "stabilityDamage": 3,
+          "cooldown": 1,
+          "confectanceCost": null,
+          "rangeMapId": "2ffa3144-bd0c-47d8-8493-52eb322905d3",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "2ffa3144-bd0c-47d8-8493-52eb322905d3",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742898657-r1e8.webp",
+            "createdAt": "2025-09-13T05:54:58.759Z",
+            "updatedAt": "2025-09-13T05:54:58.759Z",
+            "rangeValue": "1",
+            "effectiveArea": "8"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "ab54916e-cad0-439f-a5aa-c4bbe62046a1",
-          "level": 2,
-          "effect": "<p>If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases the critical rate of this attack by <span style=\"color: rgb(243, 109, 28);\">100%</span><span>.</span></p>",
-          "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/eeb2b577442b03e9eb0c6c869f510420.webp",
-          "createdAt": "2025-09-19T06:09:33.599Z",
-          "updatedAt": "2025-10-14T07:05:58.681Z",
-          "vertebraeName": "Guide to Victory Lv.2"
+        "level2": {
+          "rangeMapId": "2ffa3144-bd0c-47d8-8493-52eb322905d3",
+          "vertebraeUpgradeId": "ab54916e-cad0-439f-a5aa-c4bbe62046a1",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects 1 direction and deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to the first enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> in the selected direction. Applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the target is already affected by [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], the critical rate of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">100%</span>.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "2ffa3144-bd0c-47d8-8493-52eb322905d3",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742898657-r1e8.webp",
+            "createdAt": "2025-09-13T05:54:58.759Z",
+            "updatedAt": "2025-09-13T05:54:58.759Z",
+            "rangeValue": "1",
+            "effectiveArea": "8"
+          },
+          "vertebraeUpgrade": {
+            "id": "ab54916e-cad0-439f-a5aa-c4bbe62046a1",
+            "level": 2,
+            "effect": "<p>If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases the critical rate of this attack by <span style=\"color: rgb(243, 109, 28);\">100%</span><span>.</span></p>",
+            "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/eeb2b577442b03e9eb0c6c869f510420.webp",
+            "createdAt": "2025-09-19T06:09:33.599Z",
+            "updatedAt": "2025-10-14T07:05:58.681Z",
+            "vertebraeName": "Guide to Victory Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "c857101f-c3a9-4992-81b9-766d9ead0007",
         "name": "Pressing the Momentum",
-        "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:faecc72a-efdd-48e7-a947-60d52f647024]. At max Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> and increases the maximum number of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn by <span style=\"color: rgb(243, 109, 28);\">1</span>.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": 3,
         "imageUrl": "https://cdn.dandegate.net/skills/ab82364602216702b32e3bcf1fe221ec.webp",
         "createdAt": "2025-09-19T05:43:10.280Z",
         "updatedAt": "2025-11-03T18:06:02.809Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "10a6ed58-177b-4deb-baaf-1ac2ff8bcaea",
-        "vertebraeUpgradeIdLevel3": "c5de2fb5-8324-4524-8cf4-a0273d4fd65b",
-        "skillTags": [
-          "Ultimate",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:faecc72a-efdd-48e7-a947-60d52f647024]. At max Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> and increases the maximum number of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn by <span style=\"color: rgb(243, 109, 28);\">1</span>. Applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to targets not protected by Cover.</p>",
-        "descriptionLevel3": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:faecc72a-efdd-48e7-a947-60d52f647024]. At max Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> and increases the maximum number of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn by <span style=\"color: rgb(243, 109, 28);\">1</span>. Applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] to targets not protected by Cover. When performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] to self and the allied unit before the aforementioned allied unit makes their attack, lasting for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[\"Ultimate\",\"Buff\",\"Debuff\"]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:faecc72a-efdd-48e7-a947-60d52f647024]. At max Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> and increases the maximum number of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn by <span style=\"color: rgb(243, 109, 28);\">1</span>.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": 3,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Ultimate",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "10a6ed58-177b-4deb-baaf-1ac2ff8bcaea",
-          "level": 2,
-          "effect": "<p>Applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] to targets that are not protected by Cover for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
-          "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/ab82364602216702b32e3bcf1fe221ec.webp",
-          "createdAt": "2025-09-19T06:11:34.040Z",
-          "updatedAt": "2025-10-14T07:05:59.024Z",
-          "vertebraeName": "Pressing the Momentum Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "10a6ed58-177b-4deb-baaf-1ac2ff8bcaea",
+          "ammoTypes": "[]",
+          "confectanceCost": 3,
+          "cooldown": null,
+          "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:faecc72a-efdd-48e7-a947-60d52f647024]. At max Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> and increases the maximum number of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn by <span style=\"color: rgb(243, 109, 28);\">1</span>. Applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to targets not protected by Cover.</p>",
+          "phase": null,
+          "skillTags": "[\"Ultimate\",\"Buff\",\"Debuff\"]",
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "10a6ed58-177b-4deb-baaf-1ac2ff8bcaea",
+            "level": 2,
+            "effect": "<p>Applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] to targets that are not protected by Cover for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+            "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/ab82364602216702b32e3bcf1fe221ec.webp",
+            "createdAt": "2025-09-19T06:11:34.040Z",
+            "updatedAt": "2025-10-14T07:05:59.024Z",
+            "vertebraeName": "Pressing the Momentum Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "c5de2fb5-8324-4524-8cf4-a0273d4fd65b",
-          "level": 3,
-          "effect": "<p>When performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] to self and the allied unit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span> before the aforementioned allied unit makes their attack.</span></p>",
-          "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/ab82364602216702b32e3bcf1fe221ec.webp",
-          "createdAt": "2025-09-19T06:12:40.135Z",
-          "updatedAt": "2025-10-14T07:05:59.196Z",
-          "vertebraeName": "Pressing the Momentum Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "c5de2fb5-8324-4524-8cf4-a0273d4fd65b",
+          "ammoTypes": "[]",
+          "confectanceCost": 3,
+          "cooldown": null,
+          "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:faecc72a-efdd-48e7-a947-60d52f647024]. At max Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> and increases the maximum number of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn by <span style=\"color: rgb(243, 109, 28);\">1</span>. Applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] to targets not protected by Cover. When performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] to self and the allied unit before the aforementioned allied unit makes their attack, lasting for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": null,
+          "skillTags": "[\"Ultimate\",\"Buff\",\"Debuff\"]",
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "c5de2fb5-8324-4524-8cf4-a0273d4fd65b",
+            "level": 3,
+            "effect": "<p>When performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] to self and the allied unit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span> before the aforementioned allied unit makes their attack.</span></p>",
+            "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/ab82364602216702b32e3bcf1fe221ec.webp",
+            "createdAt": "2025-09-19T06:12:40.135Z",
+            "updatedAt": "2025-10-14T07:05:59.196Z",
+            "vertebraeName": "Pressing the Momentum Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -454,30 +474,6 @@
         "createdAt": "2025-09-19T05:39:36.293Z",
         "updatedAt": "2025-09-27T03:29:44.624Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "dollImages": [
-            {
-              "id": "f216a2c9-b213-4a7d-8616-b3c3bd3935f0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiongjiu/chibi-4cb86e756e61ccb10fd308aff46857c8.webp",
-              "createdAt": "2025-09-27T03:29:31.547Z",
-              "updatedAt": "2025-09-27T03:29:31.547Z"
-            }
-          ],
-          "searchTags": [
-            "QJ",
-            "QBZ-191",
-            "Imada"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Warm as Jade",
         "shortId": "a40"
@@ -501,30 +497,6 @@
         "createdAt": "2025-09-19T05:36:55.831Z",
         "updatedAt": "2025-09-27T03:30:00.526Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "dollImages": [
-            {
-              "id": "f216a2c9-b213-4a7d-8616-b3c3bd3935f0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiongjiu/chibi-4cb86e756e61ccb10fd308aff46857c8.webp",
-              "createdAt": "2025-09-27T03:29:31.547Z",
-              "updatedAt": "2025-09-27T03:29:31.547Z"
-            }
-          ],
-          "searchTags": [
-            "QJ",
-            "QBZ-191",
-            "Imada"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Strategic Negotiation",
         "shortId": "c40"
@@ -548,30 +520,6 @@
         "createdAt": "2025-09-19T05:37:59.993Z",
         "updatedAt": "2025-10-14T07:06:29.416Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "dollImages": [
-            {
-              "id": "f216a2c9-b213-4a7d-8616-b3c3bd3935f0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiongjiu/chibi-4cb86e756e61ccb10fd308aff46857c8.webp",
-              "createdAt": "2025-09-27T03:29:31.547Z",
-              "updatedAt": "2025-09-27T03:29:31.547Z"
-            }
-          ],
-          "searchTags": [
-            "QJ",
-            "QBZ-191",
-            "Imada"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Ruined Gem",
         "shortId": "k1"
@@ -596,30 +544,6 @@
         "createdAt": "2025-09-19T05:23:18.710Z",
         "updatedAt": "2025-09-20T03:40:42.657Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "dollImages": [
-            {
-              "id": "f216a2c9-b213-4a7d-8616-b3c3bd3935f0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiongjiu/chibi-4cb86e756e61ccb10fd308aff46857c8.webp",
-              "createdAt": "2025-09-27T03:29:31.547Z",
-              "updatedAt": "2025-09-27T03:29:31.547Z"
-            }
-          ],
-          "searchTags": [
-            "QJ",
-            "QBZ-191",
-            "Imada"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Concentration",
         "shortId": "k2"
@@ -644,30 +568,6 @@
         "createdAt": "2025-09-19T05:24:08.304Z",
         "updatedAt": "2025-09-20T03:41:23.711Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "dollImages": [
-            {
-              "id": "f216a2c9-b213-4a7d-8616-b3c3bd3935f0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiongjiu/chibi-4cb86e756e61ccb10fd308aff46857c8.webp",
-              "createdAt": "2025-09-27T03:29:31.547Z",
-              "updatedAt": "2025-09-27T03:29:31.547Z"
-            }
-          ],
-          "searchTags": [
-            "QJ",
-            "QBZ-191",
-            "Imada"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Efficient Planning",
         "shortId": "k3"
@@ -692,30 +592,6 @@
         "createdAt": "2025-09-19T05:27:46.669Z",
         "updatedAt": "2025-10-14T07:06:29.591Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "dollImages": [
-            {
-              "id": "f216a2c9-b213-4a7d-8616-b3c3bd3935f0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiongjiu/chibi-4cb86e756e61ccb10fd308aff46857c8.webp",
-              "createdAt": "2025-09-27T03:29:31.547Z",
-              "updatedAt": "2025-09-27T03:29:31.547Z"
-            }
-          ],
-          "searchTags": [
-            "QJ",
-            "QBZ-191",
-            "Imada"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Targeted Training",
         "shortId": "k4"
@@ -740,30 +616,6 @@
         "createdAt": "2025-09-19T05:28:35.215Z",
         "updatedAt": "2025-09-20T03:43:11.776Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "dollImages": [
-            {
-              "id": "f216a2c9-b213-4a7d-8616-b3c3bd3935f0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiongjiu/chibi-4cb86e756e61ccb10fd308aff46857c8.webp",
-              "createdAt": "2025-09-27T03:29:31.547Z",
-              "updatedAt": "2025-09-27T03:29:31.547Z"
-            }
-          ],
-          "searchTags": [
-            "QJ",
-            "QBZ-191",
-            "Imada"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Point of Vulnerability",
         "shortId": "k5"
@@ -788,30 +640,6 @@
         "createdAt": "2025-09-19T05:29:22.312Z",
         "updatedAt": "2025-10-14T07:06:29.762Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "dollImages": [
-            {
-              "id": "f216a2c9-b213-4a7d-8616-b3c3bd3935f0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiongjiu/chibi-4cb86e756e61ccb10fd308aff46857c8.webp",
-              "createdAt": "2025-09-27T03:29:31.547Z",
-              "updatedAt": "2025-09-27T03:29:31.547Z"
-            }
-          ],
-          "searchTags": [
-            "QJ",
-            "QBZ-191",
-            "Imada"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Necessary Adjustments",
         "shortId": "k6"
@@ -836,30 +664,6 @@
         "createdAt": "2025-09-19T05:29:52.604Z",
         "updatedAt": "2025-09-20T03:53:09.585Z",
         "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "dollImages": [
-            {
-              "id": "f216a2c9-b213-4a7d-8616-b3c3bd3935f0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiongjiu/chibi-4cb86e756e61ccb10fd308aff46857c8.webp",
-              "createdAt": "2025-09-27T03:29:31.547Z",
-              "updatedAt": "2025-09-27T03:29:31.547Z"
-            }
-          ],
-          "searchTags": [
-            "QJ",
-            "QBZ-191",
-            "Imada"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Steadiness",
         "shortId": "k7"
@@ -876,69 +680,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/667e244793eb5e0c32c75602202f7a24.webp",
         "createdAt": "2025-09-19T06:08:36.712Z",
         "updatedAt": "2025-10-14T07:05:58.510Z",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "A Doll who steps up to shoulder heavy responsibilities. She dedicates her time and energy to Griffin, while perfectly maintaining her individuality, thanks to her precise and efficient work planning. She never deviates, never breaks the rules; rather than changing the plan, she prefers to change reality.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "f6959743-2f2b-47de-86cb-739ec43c8889",
             "name": "Common Rail",
-            "phase": "Burn",
             "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/667e244793eb5e0c32c75602202f7a24.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Medium Ammo\"]",
-            "createdAt": "2025-09-19T05:42:29.727Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Buff"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-30T16:31:16.826Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them and the user gains [effect:e1d78dfe-8609-4ee8-a770-ac155116bff3].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. Additionally, this unit gains [effect:e1d78dfe-8609-4ee8-a770-ac155116bff3] as well. If the enemy is killed from this skill, increases the damage bonus from [effect:e1d78dfe-8609-4ee8-a770-ac155116bff3] by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "d5b1ab0c-4c10-4a55-be0b-a36ee72c7875",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "ab54916e-cad0-439f-a5aa-c4bbe62046a1",
@@ -950,69 +703,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/eeb2b577442b03e9eb0c6c869f510420.webp",
         "createdAt": "2025-09-19T06:09:33.599Z",
         "updatedAt": "2025-10-14T07:05:58.681Z",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "A Doll who steps up to shoulder heavy responsibilities. She dedicates her time and energy to Griffin, while perfectly maintaining her individuality, thanks to her precise and efficient work planning. She never deviates, never breaks the rules; rather than changing the plan, she prefers to change reality.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "8a0e360c-f15d-48b4-9e5d-66be6a077ed8",
             "name": "Guide to Victory",
-            "phase": "Burn",
             "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/eeb2b577442b03e9eb0c6c869f510420.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-19T05:42:49.616Z",
-            "skillTags": [
-              "Active",
-              "AoE",
-              "Debuff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-11-03T17:56:12.631Z",
-            "description": "<p>Selects 1 direction and deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to the first enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> in the selected direction. Applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "2ffa3144-bd0c-47d8-8493-52eb322905d3",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"380a196d-a1a9-4ef1-95d1-f230d49d8b9b\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 direction and deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to the first enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> in the selected direction. Applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the target is already affected by [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], the critical rate of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">100%</span>.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "ab54916e-cad0-439f-a5aa-c4bbe62046a1",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "0252605f-1d0c-4ce4-a395-97944c0c8d03",
@@ -1024,69 +726,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/215d139aa7964def82f66fc25d464522.webp",
         "createdAt": "2025-09-19T06:10:37.030Z",
         "updatedAt": "2025-10-14T07:05:58.852Z",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "A Doll who steps up to shoulder heavy responsibilities. She dedicates her time and energy to Griffin, while perfectly maintaining her individuality, thanks to her precise and efficient work planning. She never deviates, never breaks the rules; rather than changing the plan, she prefers to change reality.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "13e8803d-1fb1-4443-a544-987965810ebb",
             "name": "Steady Plan",
-            "phase": null,
             "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/215d139aa7964def82f66fc25d464522.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-19T05:43:32.759Z",
-            "skillTags": [
-              "Passive",
-              "Support",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:07:12.250Z",
-            "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index <span style=\"color: rgb(243, 109, 28);\">each time</span> after dealing damage. Increases damage dealt to targets not under the protection of Cover by <span style=\"color: rgb(243, 109, 28);\">10%</span>. When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index <span style=\"color: rgb(243, 109, 28);\">each time</span> after dealing damage. Increases damage dealt to targets not under the protection of Cover by <span style=\"color: rgb(243, 109, 28);\">10%</span>. When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. After performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Damage dealt by [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-            "descriptionLevel3": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index <span style=\"color: rgb(243, 109, 28);\">each time</span> after dealing damage. Increases damage dealt to targets not under the protection of Cover by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. After performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Damage dealt by [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "0252605f-1d0c-4ce4-a395-97944c0c8d03",
-            "vertebraeUpgradeIdLevel3": "da0241dd-6b55-4974-a1ff-7fedafb27712"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "10a6ed58-177b-4deb-baaf-1ac2ff8bcaea",
@@ -1098,68 +749,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/ab82364602216702b32e3bcf1fe221ec.webp",
         "createdAt": "2025-09-19T06:11:34.040Z",
         "updatedAt": "2025-10-14T07:05:59.024Z",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "A Doll who steps up to shoulder heavy responsibilities. She dedicates her time and energy to Griffin, while perfectly maintaining her individuality, thanks to her precise and efficient work planning. She never deviates, never breaks the rules; rather than changing the plan, she prefers to change reality.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "c857101f-c3a9-4992-81b9-766d9ead0007",
             "name": "Pressing the Momentum",
-            "phase": null,
             "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/ab82364602216702b32e3bcf1fe221ec.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-19T05:43:10.280Z",
-            "skillTags": [
-              "Ultimate",
-              "Buff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-03T18:06:02.809Z",
-            "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:faecc72a-efdd-48e7-a947-60d52f647024]. At max Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> and increases the maximum number of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn by <span style=\"color: rgb(243, 109, 28);\">1</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 3,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[\"Ultimate\",\"Buff\",\"Debuff\"]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:faecc72a-efdd-48e7-a947-60d52f647024]. At max Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> and increases the maximum number of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn by <span style=\"color: rgb(243, 109, 28);\">1</span>. Applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to targets not protected by Cover.</p>",
-            "descriptionLevel3": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:faecc72a-efdd-48e7-a947-60d52f647024]. At max Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> and increases the maximum number of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn by <span style=\"color: rgb(243, 109, 28);\">1</span>. Applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] to targets not protected by Cover. When performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] to self and the allied unit before the aforementioned allied unit makes their attack, lasting for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "10a6ed58-177b-4deb-baaf-1ac2ff8bcaea",
-            "vertebraeUpgradeIdLevel3": "c5de2fb5-8324-4524-8cf4-a0273d4fd65b"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "c5de2fb5-8324-4524-8cf4-a0273d4fd65b",
@@ -1171,68 +772,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/ab82364602216702b32e3bcf1fe221ec.webp",
         "createdAt": "2025-09-19T06:12:40.135Z",
         "updatedAt": "2025-10-14T07:05:59.196Z",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "A Doll who steps up to shoulder heavy responsibilities. She dedicates her time and energy to Griffin, while perfectly maintaining her individuality, thanks to her precise and efficient work planning. She never deviates, never breaks the rules; rather than changing the plan, she prefers to change reality.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "c857101f-c3a9-4992-81b9-766d9ead0007",
             "name": "Pressing the Momentum",
-            "phase": null,
             "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/ab82364602216702b32e3bcf1fe221ec.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-19T05:43:10.280Z",
-            "skillTags": [
-              "Ultimate",
-              "Buff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-03T18:06:02.809Z",
-            "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:faecc72a-efdd-48e7-a947-60d52f647024]. At max Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> and increases the maximum number of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn by <span style=\"color: rgb(243, 109, 28);\">1</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 3,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[\"Ultimate\",\"Buff\",\"Debuff\"]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:faecc72a-efdd-48e7-a947-60d52f647024]. At max Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> and increases the maximum number of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn by <span style=\"color: rgb(243, 109, 28);\">1</span>. Applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to targets not protected by Cover.</p>",
-            "descriptionLevel3": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">3 stacks</span> of [effect:faecc72a-efdd-48e7-a947-60d52f647024]. At max Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> and increases the maximum number of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] this turn by <span style=\"color: rgb(243, 109, 28);\">1</span>. Applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] to targets not protected by Cover. When performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] to self and the allied unit before the aforementioned allied unit makes their attack, lasting for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "10a6ed58-177b-4deb-baaf-1ac2ff8bcaea",
-            "vertebraeUpgradeIdLevel3": "c5de2fb5-8324-4524-8cf4-a0273d4fd65b"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "da0241dd-6b55-4974-a1ff-7fedafb27712",
@@ -1244,69 +795,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/215d139aa7964def82f66fc25d464522.webp",
         "createdAt": "2025-09-19T06:13:19.760Z",
         "updatedAt": "2025-09-27T03:31:39.825Z",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "A Doll who steps up to shoulder heavy responsibilities. She dedicates her time and energy to Griffin, while perfectly maintaining her individuality, thanks to her precise and efficient work planning. She never deviates, never breaks the rules; rather than changing the plan, she prefers to change reality.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "13e8803d-1fb1-4443-a544-987965810ebb",
             "name": "Steady Plan",
-            "phase": null,
             "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/215d139aa7964def82f66fc25d464522.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-19T05:43:32.759Z",
-            "skillTags": [
-              "Passive",
-              "Support",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:07:12.250Z",
-            "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index <span style=\"color: rgb(243, 109, 28);\">each time</span> after dealing damage. Increases damage dealt to targets not under the protection of Cover by <span style=\"color: rgb(243, 109, 28);\">10%</span>. When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index <span style=\"color: rgb(243, 109, 28);\">each time</span> after dealing damage. Increases damage dealt to targets not under the protection of Cover by <span style=\"color: rgb(243, 109, 28);\">10%</span>. When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. After performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Damage dealt by [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-            "descriptionLevel3": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index <span style=\"color: rgb(243, 109, 28);\">each time</span> after dealing damage. Increases damage dealt to targets not under the protection of Cover by <span style=\"color: rgb(243, 109, 28);\">20%</span>. When an enemy unit within range receives targeted damage from an ally, performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. After performing [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Damage dealt by [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "0252605f-1d0c-4ce4-a395-97944c0c8d03",
-            "vertebraeUpgradeIdLevel3": "da0241dd-6b55-4974-a1ff-7fedafb27712"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1429,42 +929,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-19T05:52:10.377Z",
-        "updatedAt": "2025-11-03T15:56:38.805Z",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "dollImages": [
-            {
-              "id": "f216a2c9-b213-4a7d-8616-b3c3bd3935f0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiongjiu/chibi-4cb86e756e61ccb10fd308aff46857c8.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "QJ"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "QBZ-191"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Imada"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T15:56:38.805Z"
       },
       {
         "id": "faecc72a-efdd-48e7-a947-60d52f647024",
@@ -1477,42 +942,59 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-19T05:53:41.902Z",
-        "updatedAt": "2025-11-03T15:56:55.451Z",
-        "doll": {
-          "id": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
-          "name": "Qiongjiu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiongjiu/04cd26edfafe1717cc3a468106b0eac8.webp",
-          "createdAt": "2025-09-19T05:22:26.778Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-05T00:50:38.357Z",
-          "dollImages": [
-            {
-              "id": "f216a2c9-b213-4a7d-8616-b3c3bd3935f0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiongjiu/chibi-4cb86e756e61ccb10fd308aff46857c8.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "QJ"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "QBZ-191"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Imada"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T15:56:55.451Z"
+      },
+      {
+        "id": "ab2e634f-d257-44e3-af90-ce66a6ac43f3",
+        "effectName": "Support Action",
+        "effectDetails": "<p>Performs a Support Attack; cannot be triggered by another Support Attack.</p>",
+        "effectTags": [],
+        "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:08:04.163Z",
+        "updatedAt": "2025-09-11T00:08:04.163Z"
+      },
+      {
+        "id": "71b3f790-db3b-4188-a3d7-15fa9752b57a",
+        "effectName": "Overburn",
+        "effectDetails": "<p>Upon gaining this effect and at the end of action, the buff holder and all allied units within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the buff holder take fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of the effect applier's attack. Considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T03:40:29.821Z",
+        "updatedAt": "2025-11-03T15:09:18.125Z"
+      },
+      {
+        "id": "0b76cac3-8e34-4e32-98d8-d204e26522d7",
+        "effectName": "Vulnerable I",
+        "effectDetails": "<p>Increase damage taken by <span style=\"color: rgb(243, 109, 28);\">10%</span>. This is considered a defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T05:06:54.834Z",
+        "updatedAt": "2025-11-03T16:11:12.716Z"
+      },
+      {
+        "id": "82c6b99c-0a5e-4707-b81e-b6700f1b6dd8",
+        "effectName": "Damage Up II",
+        "effectDetails": "<p>Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "768c75d8-3f1d-444e-af3d-c86c7b2a1d61",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T05:55:21.778Z",
+        "updatedAt": "2025-11-01T21:45:27.363Z"
       }
     ],
     "shortId": "d40"

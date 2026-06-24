@@ -64,371 +64,389 @@
       {
         "id": "4209b5e9-26e6-403b-a049-bacad901f2c4",
         "name": "Daybreak",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Heavy Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/780dabf8b3348a9383c028f08ebe066e.webp",
         "createdAt": "2025-09-21T16:10:38.267Z",
         "updatedAt": "2025-09-26T01:36:32.728Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "7248fc17-9b61-418d-8898-c5acaf6f051e",
         "name": "Blessed Artwork",
-        "description": "<p>Increases all allied units' damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>, with an additional <span style=\"color: rgb(243, 109, 28);\">10%</span> boost specifically for <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>. At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p><p>When the user's HP is above <span style=\"color: rgb(243, 109, 28);\">80%</span>, reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span> and gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. While under the effects of [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194], increases the range of active skills and Support Attacks (except Ultimates) by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/5ecca39eb5d654810c77b7e991f5fd15.webp",
         "createdAt": "2025-09-21T16:19:51.687Z",
         "updatedAt": "2025-11-04T14:47:11.292Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "45426a0d-8414-4584-ab20-c92ae6482f98",
-        "vertebraeUpgradeIdLevel3": "3d60b8fd-0d90-42da-90ff-33a7c9fbed11",
-        "skillTags": [
-          "Passive",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Increases all allied units' damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>, with an additional <span style=\"color: rgb(243, 109, 28);\">10%</span> boost specifically for <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>. Attacks ignore <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's Cover damage reduction.</p><p>At the start of the action, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles within a<span style=\"color: rgb(243, 109, 28);\"> 1 tile radius</span> around the user for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the user is standing on an allied Freeze tile, their stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p><p>When the user's HP is above <span style=\"color: rgb(243, 109, 28);\">80%</span>, reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span> and gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. While under the effects of [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194], increases the range of active skills and Support Attacks (except Ultimates) by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p>",
-        "descriptionLevel3": "<p>Increases all allied units' damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>, with an additional <span style=\"color: rgb(243, 109, 28);\">40%</span> boost for <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>. Attacks ignore <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's Cover damage reduction.</p><p>At the start of the action, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles within a <span style=\"color: rgb(243, 109, 28);\">1 tile radius</span> around the user for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the user is positioned on an allied Freeze tile, their stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p><p>When the user's HP is above <span style=\"color: rgb(243, 109, 28);\">80%</span>, reduce stability damage taken by<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> and gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. While under the effects of [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194], increases the range of active skills and Support Attacks (except Ultimates) by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>After an active attack, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> defense buff from the target. If the user is positioned on an allied Freeze tile, applies [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>Increases all allied units' damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>, with an additional <span style=\"color: rgb(243, 109, 28);\">10%</span> boost specifically for <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>. At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p><p>When the user's HP is above <span style=\"color: rgb(243, 109, 28);\">80%</span>, reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span> and gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. While under the effects of [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194], increases the range of active skills and Support Attacks (except Ultimates) by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "45426a0d-8414-4584-ab20-c92ae6482f98",
-          "level": 2,
-          "effect": "<p>Attacks ignore <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's Cover damage reduction. </p><p>At the start of the action, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles within a <span style=\"color: rgb(243, 109, 28);\">1 tile radius</span> around the user for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the user is standing on an allied Freeze tile, their stability damage is increased by 1 point.</p>",
-          "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/5ecca39eb5d654810c77b7e991f5fd15.webp",
-          "createdAt": "2025-09-21T16:22:31.885Z",
-          "updatedAt": "2025-10-14T07:06:03.390Z",
-          "vertebraeName": "Blessed Artwork Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "45426a0d-8414-4584-ab20-c92ae6482f98",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Increases all allied units' damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>, with an additional <span style=\"color: rgb(243, 109, 28);\">10%</span> boost specifically for <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>. Attacks ignore <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's Cover damage reduction.</p><p>At the start of the action, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles within a<span style=\"color: rgb(243, 109, 28);\"> 1 tile radius</span> around the user for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the user is standing on an allied Freeze tile, their stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p><p>When the user's HP is above <span style=\"color: rgb(243, 109, 28);\">80%</span>, reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span> and gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. While under the effects of [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194], increases the range of active skills and Support Attacks (except Ultimates) by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "45426a0d-8414-4584-ab20-c92ae6482f98",
+            "level": 2,
+            "effect": "<p>Attacks ignore <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's Cover damage reduction. </p><p>At the start of the action, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles within a <span style=\"color: rgb(243, 109, 28);\">1 tile radius</span> around the user for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the user is standing on an allied Freeze tile, their stability damage is increased by 1 point.</p>",
+            "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/5ecca39eb5d654810c77b7e991f5fd15.webp",
+            "createdAt": "2025-09-21T16:22:31.885Z",
+            "updatedAt": "2025-10-14T07:06:03.390Z",
+            "vertebraeName": "Blessed Artwork Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "3d60b8fd-0d90-42da-90ff-33a7c9fbed11",
-          "level": 3,
-          "effect": "<p>Increases the damage of active attacks by <span style=\"color: rgb(243, 109, 28);\">20%</span><span>, with an additional </span><span style=\"color: rgb(243, 109, 28);\">40%</span><span> boost for </span><span style=\"color: rgb(66, 205, 224);\">Freeze damage</span><span>. After an active attack, cleanses </span><span style=\"color: rgb(243, 109, 28);\">1</span><span> defense buff from the target. If the user is standing on an allied Freeze tile, applies [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] to the target for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
-          "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/5ecca39eb5d654810c77b7e991f5fd15.webp",
-          "createdAt": "2025-09-21T16:26:02.759Z",
-          "updatedAt": "2025-10-14T07:06:04.603Z",
-          "vertebraeName": "Blessed Artwork Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "3d60b8fd-0d90-42da-90ff-33a7c9fbed11",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Increases all allied units' damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>, with an additional <span style=\"color: rgb(243, 109, 28);\">40%</span> boost for <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>. Attacks ignore <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's Cover damage reduction.</p><p>At the start of the action, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles within a <span style=\"color: rgb(243, 109, 28);\">1 tile radius</span> around the user for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the user is positioned on an allied Freeze tile, their stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p><p>When the user's HP is above <span style=\"color: rgb(243, 109, 28);\">80%</span>, reduce stability damage taken by<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> and gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. While under the effects of [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194], increases the range of active skills and Support Attacks (except Ultimates) by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>After an active attack, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> defense buff from the target. If the user is positioned on an allied Freeze tile, applies [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "3d60b8fd-0d90-42da-90ff-33a7c9fbed11",
+            "level": 3,
+            "effect": "<p>Increases the damage of active attacks by <span style=\"color: rgb(243, 109, 28);\">20%</span><span>, with an additional </span><span style=\"color: rgb(243, 109, 28);\">40%</span><span> boost for </span><span style=\"color: rgb(66, 205, 224);\">Freeze damage</span><span>. After an active attack, cleanses </span><span style=\"color: rgb(243, 109, 28);\">1</span><span> defense buff from the target. If the user is standing on an allied Freeze tile, applies [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] to the target for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
+            "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/5ecca39eb5d654810c77b7e991f5fd15.webp",
+            "createdAt": "2025-09-21T16:26:02.759Z",
+            "updatedAt": "2025-10-14T07:06:04.603Z",
+            "vertebraeName": "Blessed Artwork Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "d3ca1cd3-1e43-406b-8ce3-7c4974eebd30",
         "name": "Hero's Code",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to them.</p><p>If this kills an enemy unit with Freeze debuffs, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:cbc18b63-cd24-4629-85c3-dbd9d290481b].</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Heavy Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": 2,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/397b4265f0b328fe5ae0a1f6caddd260.webp",
         "createdAt": "2025-09-21T16:12:12.795Z",
         "updatedAt": "2025-10-30T18:05:35.529Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "9d801506-d0ff-43ae-bc3d-03b985fe6280",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted"
-        ],
         "keyUpgradesData": "[\"f49dfd72-d7e9-48d5-8fd6-017555179afd\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to them.</p><p>If this kills an enemy unit with Freeze debuffs, gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:cbc18b63-cd24-4629-85c3-dbd9d290481b].</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to them.</p><p>If this kills an enemy unit with Freeze debuffs, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:cbc18b63-cd24-4629-85c3-dbd9d290481b].</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": 2,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "9d801506-d0ff-43ae-bc3d-03b985fe6280",
-          "level": 2,
-          "effect": "<p>The number of [effect:cbc18b63-cd24-4629-85c3-dbd9d290481b] stacks gained increases by <span style=\"color: rgb(243, 109, 28);\">1</span>. When the number of stacks reaches <span style=\"color: rgb(243, 109, 28);\">4</span>, the skill's effect is enhanced, increasing the damage dealt to <span style=\"color: rgb(243, 109, 28);\">140%</span>. If the target is on an allied Freeze tile, the damage dealt increases to <span style=\"color: rgb(243, 109, 28);\">160%</span>.</p>",
-          "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/397b4265f0b328fe5ae0a1f6caddd260.webp",
-          "createdAt": "2025-09-21T16:24:03.043Z",
-          "updatedAt": "2025-10-14T07:06:03.562Z",
-          "vertebraeName": "Hero's Code Lv.2"
+        "level2": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "9d801506-d0ff-43ae-bc3d-03b985fe6280",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to them.</p><p>If this kills an enemy unit with Freeze debuffs, gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:cbc18b63-cd24-4629-85c3-dbd9d290481b].</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "9d801506-d0ff-43ae-bc3d-03b985fe6280",
+            "level": 2,
+            "effect": "<p>The number of [effect:cbc18b63-cd24-4629-85c3-dbd9d290481b] stacks gained increases by <span style=\"color: rgb(243, 109, 28);\">1</span>. When the number of stacks reaches <span style=\"color: rgb(243, 109, 28);\">4</span>, the skill's effect is enhanced, increasing the damage dealt to <span style=\"color: rgb(243, 109, 28);\">140%</span>. If the target is on an allied Freeze tile, the damage dealt increases to <span style=\"color: rgb(243, 109, 28);\">160%</span>.</p>",
+            "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/397b4265f0b328fe5ae0a1f6caddd260.webp",
+            "createdAt": "2025-09-21T16:24:03.043Z",
+            "updatedAt": "2025-10-14T07:06:03.562Z",
+            "vertebraeName": "Hero's Code Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "45222e67-6820-45b8-9926-da3d4e326434",
         "name": "Marzanna's Sanction",
-        "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE <span style=\"color: rgb(66, 205, 224);\">Freeze Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of the selected tile, and generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The next use of this skill will be enhanced, increasing the damage multiplier to <span style=\"color: rgb(243, 109, 28);\">70%</span>, whilst applying [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This enhancement cannot be triggered again if the skill has already been enhanced.</p><p>If Confectance Index is full, <span style=\"color: rgb(34, 139, 230);\">Marzanna's Sanction</span> can immediately be used again.</p>",
-        "phase": "Freeze",
-        "ammoTypes": "[]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": 3,
         "imageUrl": "https://cdn.dandegate.net/skills/646fdd4fb38bc8755975da827747d273.webp",
         "createdAt": "2025-09-21T16:15:59.454Z",
         "updatedAt": "2025-11-06T04:14:37.481Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
         "summonId": null,
-        "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "38c6fc5d-964a-4ca6-a493-b3e1db16e25f",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Debuff",
-          "Tile"
-        ],
         "keyUpgradesData": "[\"cff4fc7a-99ab-41a8-9169-8c80738e01a7\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE <span style=\"color: rgb(66, 205, 224);\">Freeze Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile, and generates <span style=\"color: rgb(34, 139, 230);\">Frost</span> tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The next use of this skill will be enhanced, increasing the damage multiplier to <span style=\"color: rgb(243, 109, 28);\">90%</span>, whilst applying [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This enhancement cannot be triggered again if the skill has already been enhanced.</p><p>If Confectance Index is full, <span style=\"color: rgb(34, 139, 230);\">Marzanna's Sanction</span> can immediately be used again.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743777095-r6e2.webp",
-          "createdAt": "2025-09-13T06:09:37.222Z",
-          "updatedAt": "2025-09-13T06:09:37.222Z",
-          "rangeValue": "6",
-          "effectiveArea": "2"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE <span style=\"color: rgb(66, 205, 224);\">Freeze Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of the selected tile, and generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The next use of this skill will be enhanced, increasing the damage multiplier to <span style=\"color: rgb(243, 109, 28);\">70%</span>, whilst applying [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This enhancement cannot be triggered again if the skill has already been enhanced.</p><p>If Confectance Index is full, <span style=\"color: rgb(34, 139, 230);\">Marzanna's Sanction</span> can immediately be used again.</p>",
+          "phase": "Freeze",
+          "ammoTypes": "[]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": 3,
+          "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+          "skillTags": [
+            "Active",
+            "Debuff",
+            "Tile"
+          ],
+          "rangeMap": {
+            "id": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743777095-r6e2.webp",
+            "createdAt": "2025-09-13T06:09:37.222Z",
+            "updatedAt": "2025-09-13T06:09:37.222Z",
+            "rangeValue": "6",
+            "effectiveArea": "2"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "38c6fc5d-964a-4ca6-a493-b3e1db16e25f",
-          "level": 2,
-          "effect": "<p>Effective range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span><span>. The initial damage multiplier is increased to </span><span style=\"color: rgb(243, 109, 28);\">70%</span><span>. Thish will be further increased to </span><span style=\"color: rgb(243, 109, 28);\">90%</span><span> for the enhanced skill.</span></p>",
-          "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/646fdd4fb38bc8755975da827747d273.webp",
-          "createdAt": "2025-09-21T16:23:11.857Z",
-          "updatedAt": "2025-09-21T23:37:33.672Z",
-          "vertebraeName": "Marzanna's Sanction Lv.2"
+        "level2": {
+          "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+          "vertebraeUpgradeId": "38c6fc5d-964a-4ca6-a493-b3e1db16e25f",
+          "ammoTypes": "[]",
+          "confectanceCost": 3,
+          "cooldown": null,
+          "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE <span style=\"color: rgb(66, 205, 224);\">Freeze Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile, and generates <span style=\"color: rgb(34, 139, 230);\">Frost</span> tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The next use of this skill will be enhanced, increasing the damage multiplier to <span style=\"color: rgb(243, 109, 28);\">90%</span>, whilst applying [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This enhancement cannot be triggered again if the skill has already been enhanced.</p><p>If Confectance Index is full, <span style=\"color: rgb(34, 139, 230);\">Marzanna's Sanction</span> can immediately be used again.</p>",
+          "phase": "Freeze",
+          "skillTags": [
+            "Active",
+            "Debuff",
+            "Tile"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743777095-r6e2.webp",
+            "createdAt": "2025-09-13T06:09:37.222Z",
+            "updatedAt": "2025-09-13T06:09:37.222Z",
+            "rangeValue": "6",
+            "effectiveArea": "2"
+          },
+          "vertebraeUpgrade": {
+            "id": "38c6fc5d-964a-4ca6-a493-b3e1db16e25f",
+            "level": 2,
+            "effect": "<p>Effective range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span><span>. The initial damage multiplier is increased to </span><span style=\"color: rgb(243, 109, 28);\">70%</span><span>. Thish will be further increased to </span><span style=\"color: rgb(243, 109, 28);\">90%</span><span> for the enhanced skill.</span></p>",
+            "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/646fdd4fb38bc8755975da827747d273.webp",
+            "createdAt": "2025-09-21T16:23:11.857Z",
+            "updatedAt": "2025-09-21T23:37:33.672Z",
+            "vertebraeName": "Marzanna's Sanction Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "7d39c610-c426-4db7-85e3-16e8649f4224",
         "name": "Book of Prophecy",
-        "description": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb] to all allied units within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. Gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, as well as [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index if it is at <span style=\"color: rgb(243, 109, 28);\">0</span> at the end of the action.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": 3,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/383bad69e1aba277f6bc41bf8b22e74b.webp",
         "createdAt": "2025-09-21T16:18:06.827Z",
         "updatedAt": "2025-10-30T18:03:02.556Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
         "summonId": null,
-        "rangeMapId": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-        "rangeMapIdLevel2": "31543159-fffd-41bd-8786-a75f9ab07051",
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "f1bf8723-07c5-4793-91fb-7015f8586505",
-        "vertebraeUpgradeIdLevel3": "5d418356-87f6-4e32-966d-6818af4b87ef",
-        "skillTags": [
-          "Ultimate",
-          "Buff",
-          "Support"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb], [effect:968e9913-e847-462c-be10-87bc8fc0f827], as well as <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful buff to all allied units within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, as well as [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index if it is at <span style=\"color: rgb(243, 109, 28);\">0</span> at the end of the action.</p>",
-        "descriptionLevel3": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb], [effect:968e9913-e847-462c-be10-87bc8fc0f827], as well as <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful buff to all allied units within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Cleanses 1 buff from <span style=\"color: rgb(243, 109, 28);\">4</span> random enemy units within range. Grants <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, as well as [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, ignores <span style=\"color: rgb(243, 109, 28);\">30%</span> of the target's defense and gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index if it is at <span style=\"color: rgb(243, 109, 28);\">0</span> at the end of the action.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743399114-rSe7.webp",
-          "createdAt": "2025-09-13T06:03:19.163Z",
-          "updatedAt": "2025-09-13T06:03:19.163Z",
-          "rangeValue": "Self",
-          "effectiveArea": "7"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb] to all allied units within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. Gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, as well as [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index if it is at <span style=\"color: rgb(243, 109, 28);\">0</span> at the end of the action.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": 3,
+          "confectanceCost": null,
+          "rangeMapId": "11b6a136-4748-4d13-97f7-5825ef50eae1",
+          "skillTags": [
+            "Ultimate",
+            "Buff",
+            "Support"
+          ],
+          "rangeMap": {
+            "id": "11b6a136-4748-4d13-97f7-5825ef50eae1",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743399114-rSe7.webp",
+            "createdAt": "2025-09-13T06:03:19.163Z",
+            "updatedAt": "2025-09-13T06:03:19.163Z",
+            "rangeValue": "Self",
+            "effectiveArea": "7"
+          }
         },
-        "rangeMapLevel2": {
-          "id": "31543159-fffd-41bd-8786-a75f9ab07051",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757555783515-rSelf_e9.webp",
-          "createdAt": "2025-09-11T01:56:23.646Z",
-          "updatedAt": "2025-09-11T01:56:23.646Z",
-          "rangeValue": "Self",
-          "effectiveArea": "9"
+        "level2": {
+          "rangeMapId": "31543159-fffd-41bd-8786-a75f9ab07051",
+          "vertebraeUpgradeId": "f1bf8723-07c5-4793-91fb-7015f8586505",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 3,
+          "description": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb], [effect:968e9913-e847-462c-be10-87bc8fc0f827], as well as <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful buff to all allied units within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, as well as [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index if it is at <span style=\"color: rgb(243, 109, 28);\">0</span> at the end of the action.</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Buff",
+            "Support"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "31543159-fffd-41bd-8786-a75f9ab07051",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757555783515-rSelf_e9.webp",
+            "createdAt": "2025-09-11T01:56:23.646Z",
+            "updatedAt": "2025-09-11T01:56:23.646Z",
+            "rangeValue": "Self",
+            "effectiveArea": "9"
+          },
+          "vertebraeUpgrade": {
+            "id": "f1bf8723-07c5-4793-91fb-7015f8586505",
+            "level": 2,
+            "effect": "<p>Increases the effective range by <span style=\"color: rgb(243, 109, 28);\">2 tiles </span>and applies <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful buff and [effect:968e9913-e847-462c-be10-87bc8fc0f827] to all allied units within range for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb] increases damage dealt by an additional <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+            "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/383bad69e1aba277f6bc41bf8b22e74b.webp",
+            "createdAt": "2025-09-21T16:21:22.447Z",
+            "updatedAt": "2026-02-10T23:22:15.172Z",
+            "vertebraeName": "Book of Prophecy Lv.2"
+          }
         },
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "f1bf8723-07c5-4793-91fb-7015f8586505",
-          "level": 2,
-          "effect": "<p>Increases the effective range by <span style=\"color: rgb(243, 109, 28);\">2 tiles </span>and applies <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful buff and [effect:968e9913-e847-462c-be10-87bc8fc0f827] to all allied units within range for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb] increases damage dealt by an additional <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-          "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/383bad69e1aba277f6bc41bf8b22e74b.webp",
-          "createdAt": "2025-09-21T16:21:22.447Z",
-          "updatedAt": "2026-02-10T23:22:15.172Z",
-          "vertebraeName": "Book of Prophecy Lv.2"
+        "level3": {
+          "rangeMapId": "31543159-fffd-41bd-8786-a75f9ab07051",
+          "vertebraeUpgradeId": "5d418356-87f6-4e32-966d-6818af4b87ef",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 3,
+          "description": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb], [effect:968e9913-e847-462c-be10-87bc8fc0f827], as well as <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful buff to all allied units within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Cleanses 1 buff from <span style=\"color: rgb(243, 109, 28);\">4</span> random enemy units within range. Grants <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, as well as [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, ignores <span style=\"color: rgb(243, 109, 28);\">30%</span> of the target's defense and gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index if it is at <span style=\"color: rgb(243, 109, 28);\">0</span> at the end of the action.</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Buff",
+            "Support"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "31543159-fffd-41bd-8786-a75f9ab07051",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757555783515-rSelf_e9.webp",
+            "createdAt": "2025-09-11T01:56:23.646Z",
+            "updatedAt": "2025-09-11T01:56:23.646Z",
+            "rangeValue": "Self",
+            "effectiveArea": "9"
+          },
+          "vertebraeUpgrade": {
+            "id": "5d418356-87f6-4e32-966d-6818af4b87ef",
+            "level": 3,
+            "effect": "<p>Cleanses 1 buff from <span style=\"color: rgb(243, 109, 28);\">4</span><span> random enemy units within range. Increases the number of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb] stacks applied by </span><span style=\"color: rgb(243, 109, 28);\">1</span><span>. While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, ignores </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span> of the target's defense. The maximum number of Support Attacks increases by </span><span style=\"color: rgb(243, 109, 28);\">1</span><span>.</span></p>",
+            "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/383bad69e1aba277f6bc41bf8b22e74b.webp",
+            "createdAt": "2025-09-21T16:25:05.703Z",
+            "updatedAt": "2025-10-14T07:06:02.345Z",
+            "vertebraeName": "Book of Prophecy Lv.3"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "5d418356-87f6-4e32-966d-6818af4b87ef",
-          "level": 3,
-          "effect": "<p>Cleanses 1 buff from <span style=\"color: rgb(243, 109, 28);\">4</span><span> random enemy units within range. Increases the number of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb] stacks applied by </span><span style=\"color: rgb(243, 109, 28);\">1</span><span>. While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, ignores </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span> of the target's defense. The maximum number of Support Attacks increases by </span><span style=\"color: rgb(243, 109, 28);\">1</span><span>.</span></p>",
-          "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/383bad69e1aba277f6bc41bf8b22e74b.webp",
-          "createdAt": "2025-09-21T16:25:05.703Z",
-          "updatedAt": "2025-10-14T07:06:02.345Z",
-          "vertebraeName": "Book of Prophecy Lv.3"
-        },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -451,28 +469,6 @@
         "createdAt": "2025-09-21T16:09:42.135Z",
         "updatedAt": "2025-09-25T23:40:43.445Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "dollImages": [
-            {
-              "id": "c1294abe-c5f7-4326-a272-7406d2898a0b",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/dushevnaya/chibi-500f00d73d570650ea9e0191a68930af.webp",
-              "createdAt": "2025-09-25T23:41:14.931Z",
-              "updatedAt": "2025-09-25T23:41:14.931Z"
-            }
-          ],
-          "searchTags": [
-            "KSVK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Shining Memories",
         "shortId": "a11"
@@ -496,28 +492,6 @@
         "createdAt": "2025-09-21T16:07:29.612Z",
         "updatedAt": "2025-09-25T23:40:51.466Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "dollImages": [
-            {
-              "id": "c1294abe-c5f7-4326-a272-7406d2898a0b",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/dushevnaya/chibi-500f00d73d570650ea9e0191a68930af.webp",
-              "createdAt": "2025-09-25T23:41:14.931Z",
-              "updatedAt": "2025-09-25T23:41:14.931Z"
-            }
-          ],
-          "searchTags": [
-            "KSVK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Artistic Inspiration",
         "shortId": "c11"
@@ -542,28 +516,6 @@
         "createdAt": "2025-10-09T05:25:00.822Z",
         "updatedAt": "2025-10-23T03:24:27.515Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "dollImages": [
-            {
-              "id": "c1294abe-c5f7-4326-a272-7406d2898a0b",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/dushevnaya/chibi-500f00d73d570650ea9e0191a68930af.webp",
-              "createdAt": "2025-09-25T23:41:14.931Z",
-              "updatedAt": "2025-09-25T23:41:14.931Z"
-            }
-          ],
-          "searchTags": [
-            "KSVK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Wintersong of the Hero",
         "shortId": "k1"
@@ -588,28 +540,6 @@
         "createdAt": "2025-09-21T16:00:00.260Z",
         "updatedAt": "2025-10-14T07:06:33.414Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "dollImages": [
-            {
-              "id": "c1294abe-c5f7-4326-a272-7406d2898a0b",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/dushevnaya/chibi-500f00d73d570650ea9e0191a68930af.webp",
-              "createdAt": "2025-09-25T23:41:14.931Z",
-              "updatedAt": "2025-09-25T23:41:14.931Z"
-            }
-          ],
-          "searchTags": [
-            "KSVK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Lance of Longinus",
         "shortId": "k2"
@@ -634,28 +564,6 @@
         "createdAt": "2025-09-21T16:00:44.155Z",
         "updatedAt": "2025-09-21T16:00:44.155Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "dollImages": [
-            {
-              "id": "c1294abe-c5f7-4326-a272-7406d2898a0b",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/dushevnaya/chibi-500f00d73d570650ea9e0191a68930af.webp",
-              "createdAt": "2025-09-25T23:41:14.931Z",
-              "updatedAt": "2025-09-25T23:41:14.931Z"
-            }
-          ],
-          "searchTags": [
-            "KSVK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Adventurer's Will",
         "shortId": "k3"
@@ -680,28 +588,6 @@
         "createdAt": "2025-09-21T16:01:53.465Z",
         "updatedAt": "2025-10-14T07:06:33.591Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "dollImages": [
-            {
-              "id": "c1294abe-c5f7-4326-a272-7406d2898a0b",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/dushevnaya/chibi-500f00d73d570650ea9e0191a68930af.webp",
-              "createdAt": "2025-09-25T23:41:14.931Z",
-              "updatedAt": "2025-09-25T23:41:14.931Z"
-            }
-          ],
-          "searchTags": [
-            "KSVK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Magical Support",
         "shortId": "k4"
@@ -726,28 +612,6 @@
         "createdAt": "2025-09-21T16:03:58.557Z",
         "updatedAt": "2025-10-14T07:06:33.766Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "dollImages": [
-            {
-              "id": "c1294abe-c5f7-4326-a272-7406d2898a0b",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/dushevnaya/chibi-500f00d73d570650ea9e0191a68930af.webp",
-              "createdAt": "2025-09-25T23:41:14.931Z",
-              "updatedAt": "2025-09-25T23:41:14.931Z"
-            }
-          ],
-          "searchTags": [
-            "KSVK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Courageous Claymore",
         "shortId": "k5"
@@ -772,28 +636,6 @@
         "createdAt": "2025-09-21T16:05:48.924Z",
         "updatedAt": "2025-10-14T07:06:33.939Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "dollImages": [
-            {
-              "id": "c1294abe-c5f7-4326-a272-7406d2898a0b",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/dushevnaya/chibi-500f00d73d570650ea9e0191a68930af.webp",
-              "createdAt": "2025-09-25T23:41:14.931Z",
-              "updatedAt": "2025-09-25T23:41:14.931Z"
-            }
-          ],
-          "searchTags": [
-            "KSVK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Heart of the Sage",
         "shortId": "k6"
@@ -818,28 +660,6 @@
         "createdAt": "2025-09-21T16:06:24.468Z",
         "updatedAt": "2025-09-21T16:06:24.468Z",
         "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "dollImages": [
-            {
-              "id": "c1294abe-c5f7-4326-a272-7406d2898a0b",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/dushevnaya/chibi-500f00d73d570650ea9e0191a68930af.webp",
-              "createdAt": "2025-09-25T23:41:14.931Z",
-              "updatedAt": "2025-09-25T23:41:14.931Z"
-            }
-          ],
-          "searchTags": [
-            "KSVK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Holy Light",
         "shortId": "k7"
@@ -856,69 +676,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/383bad69e1aba277f6bc41bf8b22e74b.webp",
         "createdAt": "2025-09-21T16:21:22.447Z",
         "updatedAt": "2026-02-10T23:22:15.172Z",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "class": "Support",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A highly sensitive Doll who has lost her neural records, persistently searching for her past and wholeheartedly fulfilling the requests of others. The way she expresses her emotions can be both somewhat exaggerated and immature, often leaving others puzzles in her wake. In truth, these mannerisms are simply a way to mask her own awkwardness and insecurities.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "7d39c610-c426-4db7-85e3-16e8649f4224",
             "name": "Book of Prophecy",
-            "phase": null,
             "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/383bad69e1aba277f6bc41bf8b22e74b.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T16:18:06.827Z",
-            "skillTags": [
-              "Ultimate",
-              "Buff",
-              "Support"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-30T18:03:02.556Z",
-            "description": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb] to all allied units within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. Gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, as well as [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index if it is at <span style=\"color: rgb(243, 109, 28);\">0</span> at the end of the action.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb], [effect:968e9913-e847-462c-be10-87bc8fc0f827], as well as <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful buff to all allied units within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, as well as [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index if it is at <span style=\"color: rgb(243, 109, 28);\">0</span> at the end of the action.</p>",
-            "descriptionLevel3": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb], [effect:968e9913-e847-462c-be10-87bc8fc0f827], as well as <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful buff to all allied units within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Cleanses 1 buff from <span style=\"color: rgb(243, 109, 28);\">4</span> random enemy units within range. Grants <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, as well as [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, ignores <span style=\"color: rgb(243, 109, 28);\">30%</span> of the target's defense and gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index if it is at <span style=\"color: rgb(243, 109, 28);\">0</span> at the end of the action.</p>",
-            "rangeMapIdLevel2": "31543159-fffd-41bd-8786-a75f9ab07051",
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "f1bf8723-07c5-4793-91fb-7015f8586505",
-            "vertebraeUpgradeIdLevel3": "5d418356-87f6-4e32-966d-6818af4b87ef"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "45426a0d-8414-4584-ab20-c92ae6482f98",
@@ -930,68 +699,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/5ecca39eb5d654810c77b7e991f5fd15.webp",
         "createdAt": "2025-09-21T16:22:31.885Z",
         "updatedAt": "2025-10-14T07:06:03.390Z",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "class": "Support",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A highly sensitive Doll who has lost her neural records, persistently searching for her past and wholeheartedly fulfilling the requests of others. The way she expresses her emotions can be both somewhat exaggerated and immature, often leaving others puzzles in her wake. In truth, these mannerisms are simply a way to mask her own awkwardness and insecurities.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "7248fc17-9b61-418d-8898-c5acaf6f051e",
             "name": "Blessed Artwork",
-            "phase": null,
             "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/5ecca39eb5d654810c77b7e991f5fd15.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T16:19:51.687Z",
-            "skillTags": [
-              "Passive",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-04T14:47:11.292Z",
-            "description": "<p>Increases all allied units' damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>, with an additional <span style=\"color: rgb(243, 109, 28);\">10%</span> boost specifically for <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>. At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p><p>When the user's HP is above <span style=\"color: rgb(243, 109, 28);\">80%</span>, reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span> and gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. While under the effects of [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194], increases the range of active skills and Support Attacks (except Ultimates) by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Increases all allied units' damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>, with an additional <span style=\"color: rgb(243, 109, 28);\">10%</span> boost specifically for <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>. Attacks ignore <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's Cover damage reduction.</p><p>At the start of the action, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles within a<span style=\"color: rgb(243, 109, 28);\"> 1 tile radius</span> around the user for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the user is standing on an allied Freeze tile, their stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p><p>When the user's HP is above <span style=\"color: rgb(243, 109, 28);\">80%</span>, reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span> and gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. While under the effects of [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194], increases the range of active skills and Support Attacks (except Ultimates) by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p>",
-            "descriptionLevel3": "<p>Increases all allied units' damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>, with an additional <span style=\"color: rgb(243, 109, 28);\">40%</span> boost for <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>. Attacks ignore <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's Cover damage reduction.</p><p>At the start of the action, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles within a <span style=\"color: rgb(243, 109, 28);\">1 tile radius</span> around the user for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the user is positioned on an allied Freeze tile, their stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p><p>When the user's HP is above <span style=\"color: rgb(243, 109, 28);\">80%</span>, reduce stability damage taken by<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> and gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. While under the effects of [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194], increases the range of active skills and Support Attacks (except Ultimates) by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>After an active attack, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> defense buff from the target. If the user is positioned on an allied Freeze tile, applies [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "45426a0d-8414-4584-ab20-c92ae6482f98",
-            "vertebraeUpgradeIdLevel3": "3d60b8fd-0d90-42da-90ff-33a7c9fbed11"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "38c6fc5d-964a-4ca6-a493-b3e1db16e25f",
@@ -1003,69 +722,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/646fdd4fb38bc8755975da827747d273.webp",
         "createdAt": "2025-09-21T16:23:11.857Z",
         "updatedAt": "2025-09-21T23:37:33.672Z",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "class": "Support",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A highly sensitive Doll who has lost her neural records, persistently searching for her past and wholeheartedly fulfilling the requests of others. The way she expresses her emotions can be both somewhat exaggerated and immature, often leaving others puzzles in her wake. In truth, these mannerisms are simply a way to mask her own awkwardness and insecurities.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "45222e67-6820-45b8-9926-da3d4e326434",
             "name": "Marzanna's Sanction",
-            "phase": "Freeze",
             "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/646fdd4fb38bc8755975da827747d273.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T16:15:59.454Z",
-            "skillTags": [
-              "Active",
-              "Debuff",
-              "Tile"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-11-06T04:14:37.481Z",
-            "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE <span style=\"color: rgb(66, 205, 224);\">Freeze Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of the selected tile, and generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The next use of this skill will be enhanced, increasing the damage multiplier to <span style=\"color: rgb(243, 109, 28);\">70%</span>, whilst applying [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This enhancement cannot be triggered again if the skill has already been enhanced.</p><p>If Confectance Index is full, <span style=\"color: rgb(34, 139, 230);\">Marzanna's Sanction</span> can immediately be used again.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 3,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"cff4fc7a-99ab-41a8-9169-8c80738e01a7\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing AoE <span style=\"color: rgb(66, 205, 224);\">Freeze Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile, and generates <span style=\"color: rgb(34, 139, 230);\">Frost</span> tiles for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. The next use of this skill will be enhanced, increasing the damage multiplier to <span style=\"color: rgb(243, 109, 28);\">90%</span>, whilst applying [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This enhancement cannot be triggered again if the skill has already been enhanced.</p><p>If Confectance Index is full, <span style=\"color: rgb(34, 139, 230);\">Marzanna's Sanction</span> can immediately be used again.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "38c6fc5d-964a-4ca6-a493-b3e1db16e25f",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "9d801506-d0ff-43ae-bc3d-03b985fe6280",
@@ -1077,68 +745,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/397b4265f0b328fe5ae0a1f6caddd260.webp",
         "createdAt": "2025-09-21T16:24:03.043Z",
         "updatedAt": "2025-10-14T07:06:03.562Z",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "class": "Support",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A highly sensitive Doll who has lost her neural records, persistently searching for her past and wholeheartedly fulfilling the requests of others. The way she expresses her emotions can be both somewhat exaggerated and immature, often leaving others puzzles in her wake. In truth, these mannerisms are simply a way to mask her own awkwardness and insecurities.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "d3ca1cd3-1e43-406b-8ce3-7c4974eebd30",
             "name": "Hero's Code",
-            "phase": "Physical",
             "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-            "cooldown": 2,
-            "imageUrl": "https://cdn.dandegate.net/skills/397b4265f0b328fe5ae0a1f6caddd260.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Heavy Ammo\"]",
-            "createdAt": "2025-09-21T16:12:12.795Z",
-            "skillTags": [
-              "Active",
-              "Targeted"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-30T18:05:35.529Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to them.</p><p>If this kills an enemy unit with Freeze debuffs, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:cbc18b63-cd24-4629-85c3-dbd9d290481b].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"f49dfd72-d7e9-48d5-8fd6-017555179afd\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to them.</p><p>If this kills an enemy unit with Freeze debuffs, gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:cbc18b63-cd24-4629-85c3-dbd9d290481b].</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "9d801506-d0ff-43ae-bc3d-03b985fe6280",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "5d418356-87f6-4e32-966d-6818af4b87ef",
@@ -1150,69 +768,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/383bad69e1aba277f6bc41bf8b22e74b.webp",
         "createdAt": "2025-09-21T16:25:05.703Z",
         "updatedAt": "2025-10-14T07:06:02.345Z",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "class": "Support",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A highly sensitive Doll who has lost her neural records, persistently searching for her past and wholeheartedly fulfilling the requests of others. The way she expresses her emotions can be both somewhat exaggerated and immature, often leaving others puzzles in her wake. In truth, these mannerisms are simply a way to mask her own awkwardness and insecurities.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "7d39c610-c426-4db7-85e3-16e8649f4224",
             "name": "Book of Prophecy",
-            "phase": null,
             "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/383bad69e1aba277f6bc41bf8b22e74b.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T16:18:06.827Z",
-            "skillTags": [
-              "Ultimate",
-              "Buff",
-              "Support"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-30T18:03:02.556Z",
-            "description": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb] to all allied units within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. Gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, as well as [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index if it is at <span style=\"color: rgb(243, 109, 28);\">0</span> at the end of the action.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb], [effect:968e9913-e847-462c-be10-87bc8fc0f827], as well as <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful buff to all allied units within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, as well as [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index if it is at <span style=\"color: rgb(243, 109, 28);\">0</span> at the end of the action.</p>",
-            "descriptionLevel3": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:a19d6142-2b6d-4cd4-bedf-072f15ec68fb], [effect:968e9913-e847-462c-be10-87bc8fc0f827], as well as <span style=\"color: rgb(243, 109, 28);\">1</span> random powerful buff to all allied units within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Cleanses 1 buff from <span style=\"color: rgb(243, 109, 28);\">4</span> random enemy units within range. Grants <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, as well as [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>While [effect:2029722c-48e9-40e7-bcf5-609dba9ba155] is active, ignores <span style=\"color: rgb(243, 109, 28);\">30%</span> of the target's defense and gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index if it is at <span style=\"color: rgb(243, 109, 28);\">0</span> at the end of the action.</p>",
-            "rangeMapIdLevel2": "31543159-fffd-41bd-8786-a75f9ab07051",
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "f1bf8723-07c5-4793-91fb-7015f8586505",
-            "vertebraeUpgradeIdLevel3": "5d418356-87f6-4e32-966d-6818af4b87ef"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "3d60b8fd-0d90-42da-90ff-33a7c9fbed11",
@@ -1224,68 +791,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/5ecca39eb5d654810c77b7e991f5fd15.webp",
         "createdAt": "2025-09-21T16:26:02.759Z",
         "updatedAt": "2025-10-14T07:06:04.603Z",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "class": "Support",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A highly sensitive Doll who has lost her neural records, persistently searching for her past and wholeheartedly fulfilling the requests of others. The way she expresses her emotions can be both somewhat exaggerated and immature, often leaving others puzzles in her wake. In truth, these mannerisms are simply a way to mask her own awkwardness and insecurities.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "7248fc17-9b61-418d-8898-c5acaf6f051e",
             "name": "Blessed Artwork",
-            "phase": null,
             "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/5ecca39eb5d654810c77b7e991f5fd15.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T16:19:51.687Z",
-            "skillTags": [
-              "Passive",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-04T14:47:11.292Z",
-            "description": "<p>Increases all allied units' damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>, with an additional <span style=\"color: rgb(243, 109, 28);\">10%</span> boost specifically for <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>. At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p><p>When the user's HP is above <span style=\"color: rgb(243, 109, 28);\">80%</span>, reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span> and gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. While under the effects of [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194], increases the range of active skills and Support Attacks (except Ultimates) by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Increases all allied units' damage by <span style=\"color: rgb(243, 109, 28);\">10%</span>, with an additional <span style=\"color: rgb(243, 109, 28);\">10%</span> boost specifically for <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>. Attacks ignore <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's Cover damage reduction.</p><p>At the start of the action, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles within a<span style=\"color: rgb(243, 109, 28);\"> 1 tile radius</span> around the user for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the user is standing on an allied Freeze tile, their stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p><p>When the user's HP is above <span style=\"color: rgb(243, 109, 28);\">80%</span>, reduces stability damage taken by <span style=\"color: rgb(243, 109, 28);\">1 point</span> and gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. While under the effects of [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194], increases the range of active skills and Support Attacks (except Ultimates) by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p>",
-            "descriptionLevel3": "<p>Increases all allied units' damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>, with an additional <span style=\"color: rgb(243, 109, 28);\">40%</span> boost for <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span>. Attacks ignore <span style=\"color: rgb(243, 109, 28);\">15%</span> of the target's Cover damage reduction.</p><p>At the start of the action, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles within a <span style=\"color: rgb(243, 109, 28);\">1 tile radius</span> around the user for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the user is positioned on an allied Freeze tile, their stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p><p>When the user's HP is above <span style=\"color: rgb(243, 109, 28);\">80%</span>, reduce stability damage taken by<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> and gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. While under the effects of [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194], increases the range of active skills and Support Attacks (except Ultimates) by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>After an active attack, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> defense buff from the target. If the user is positioned on an allied Freeze tile, applies [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "45426a0d-8414-4584-ab20-c92ae6482f98",
-            "vertebraeUpgradeIdLevel3": "3d60b8fd-0d90-42da-90ff-33a7c9fbed11"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1410,32 +927,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T16:17:07.395Z",
-        "updatedAt": "2025-11-06T06:32:40.198Z",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "dollImages": [
-            {
-              "id": "c1294abe-c5f7-4326-a272-7406d2898a0b",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/dushevnaya/chibi-500f00d73d570650ea9e0191a68930af.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "KSVK"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-06T06:32:40.198Z"
       },
       {
         "id": "2029722c-48e9-40e7-bcf5-609dba9ba155",
@@ -1448,32 +940,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T16:05:22.799Z",
-        "updatedAt": "2025-11-03T15:00:26.946Z",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "dollImages": [
-            {
-              "id": "c1294abe-c5f7-4326-a272-7406d2898a0b",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/dushevnaya/chibi-500f00d73d570650ea9e0191a68930af.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "KSVK"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T15:00:26.946Z"
       },
       {
         "id": "cbc18b63-cd24-4629-85c3-dbd9d290481b",
@@ -1487,32 +954,77 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T15:57:52.693Z",
-        "updatedAt": "2025-11-03T15:02:24.981Z",
-        "doll": {
-          "id": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
-          "name": "Dushevnaya",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/dushevnaya/88b9fad017beb6ecf6c7132a6c474103.webp",
-          "createdAt": "2025-09-21T15:55:42.585Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T08:11:39.720Z",
-          "dollImages": [
-            {
-              "id": "c1294abe-c5f7-4326-a272-7406d2898a0b",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/dushevnaya/chibi-500f00d73d570650ea9e0191a68930af.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "KSVK"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T15:02:24.981Z"
+      },
+      {
+        "id": "4b5fd3bb-8d4a-44e7-ba99-b48331d2e194",
+        "effectName": "Insight",
+        "effectDetails": "<p>Increases the range of Ultimate Skills by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:11:35.926Z",
+        "updatedAt": "2025-11-03T05:56:58.293Z"
+      },
+      {
+        "id": "3c3d2b25-6823-4ce4-a33e-cf69e0e759a5",
+        "effectName": "Frost",
+        "effectDetails": "<p>Applies [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae] to units which end their movement in this area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Enemy units in this area gain a weakness to <span style=\"color: rgb(66, 205, 224);\">Freeze </span>damage and Freeze tiles.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze"
+        ],
+        "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T16:14:46.543Z",
+        "updatedAt": "2025-11-01T23:39:59.216Z"
+      },
+      {
+        "id": "cc1ca7a9-6314-4501-86b9-4f88892c00a6",
+        "effectName": "Vulnerable II",
+        "effectDetails": "<p>Increase damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>. This is considered a defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:15:12.237Z",
+        "updatedAt": "2025-11-03T16:11:26.806Z"
+      },
+      {
+        "id": "f4fc6af5-7a01-48a3-91e2-e432a7216dbc",
+        "effectName": "Frigid",
+        "effectDetails": "<p>Unable to move and cannot be actively displaced. Considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T19:22:25.160Z",
+        "updatedAt": "2025-11-01T23:37:44.521Z"
+      },
+      {
+        "id": "968e9913-e847-462c-be10-87bc8fc0f827",
+        "effectName": "Movement Up II",
+        "effectDetails": "<p>Mobility is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Movement"
+        ],
+        "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T04:53:00.406Z",
+        "updatedAt": "2025-11-03T05:40:17.240Z"
       }
     ],
     "shortId": "d11"

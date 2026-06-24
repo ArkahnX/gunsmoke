@@ -62,372 +62,390 @@
       {
         "id": "5e001b57-950b-408c-a03f-5869a9599c30",
         "name": "Warning Shot",
-        "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/3633e07d188f4cab72a65c2405e1e2bc.webp",
         "createdAt": "2025-09-22T04:37:00.639Z",
         "updatedAt": "2025-10-30T16:25:28.929Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
         "summonId": null,
-        "rangeMapId": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757744243604-r5et.webp",
-          "createdAt": "2025-09-13T06:17:23.709Z",
-          "updatedAt": "2025-09-13T06:17:23.709Z",
-          "rangeValue": "5",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744243604-r5et.webp",
+            "createdAt": "2025-09-13T06:17:23.709Z",
+            "updatedAt": "2025-09-13T06:17:23.709Z",
+            "rangeValue": "5",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "c064882e-09b5-4e1d-a9ee-1a20191b05b2",
         "name": "Optical Camouflage",
-        "description": "<p>Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index after active attacks.</p><p>At the end of an enemy unit's action, if Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">30%</span>, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Cooldown: <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/c8586e5b006617b83dc075e3a4a2f990.webp",
         "createdAt": "2025-09-22T04:38:21.875Z",
         "updatedAt": "2025-10-30T16:24:00.406Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "8780234a-8c4b-4865-b1cf-b21b17eed133",
-        "vertebraeUpgradeIdLevel3": "33a1d1b8-5862-488d-8a52-824aab4d2508",
-        "skillTags": [
-          "Passive"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>At the start of the battle, for each allied target on the field (excluding self), gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index after active attacks.</p><p>At the end of an enemy unit's action, if Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">30%</span>, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Cooldown: <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-        "descriptionLevel3": "<p>At the start of the battle, for each allied target on the field (excluding self), gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index after active attacks.</p><p>Before attacking, if this unit has moved <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> or more, increase attack by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>At the end of an enemy unit's action, if Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">50%</span>, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Cooldown: <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index after active attacks.</p><p>At the end of an enemy unit's action, if Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">30%</span>, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Cooldown: <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "8780234a-8c4b-4865-b1cf-b21b17eed133",
-          "level": 2,
-          "effect": "<p>At the start of the battle, for each allied target on the field (excluding self), gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and </span><span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of Confectance Index.</span></p>",
-          "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/c8586e5b006617b83dc075e3a4a2f990.webp",
-          "createdAt": "2025-09-22T04:57:32.060Z",
-          "updatedAt": "2025-10-14T07:06:08.139Z",
-          "vertebraeName": "Optical Camouflage Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "8780234a-8c4b-4865-b1cf-b21b17eed133",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of the battle, for each allied target on the field (excluding self), gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index after active attacks.</p><p>At the end of an enemy unit's action, if Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">30%</span>, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Cooldown: <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "8780234a-8c4b-4865-b1cf-b21b17eed133",
+            "level": 2,
+            "effect": "<p>At the start of the battle, for each allied target on the field (excluding self), gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and </span><span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of Confectance Index.</span></p>",
+            "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/c8586e5b006617b83dc075e3a4a2f990.webp",
+            "createdAt": "2025-09-22T04:57:32.060Z",
+            "updatedAt": "2025-10-14T07:06:08.139Z",
+            "vertebraeName": "Optical Camouflage Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "33a1d1b8-5862-488d-8a52-824aab4d2508",
-          "level": 3,
-          "effect": "<p>Before attacking, if this unit has moved <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> or more, increase attack by <span style=\"color: rgb(243, 109, 28);\">20%</span>. If Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">50%</span>, gain [effect:84c330eb-743f-4497-8def-2baaceabf738|doll:ullrid] and reduce the effect's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-          "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/c8586e5b006617b83dc075e3a4a2f990.webp",
-          "createdAt": "2025-09-22T05:00:42.279Z",
-          "updatedAt": "2025-10-14T07:06:08.653Z",
-          "vertebraeName": "Optical Camouflage Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "33a1d1b8-5862-488d-8a52-824aab4d2508",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of the battle, for each allied target on the field (excluding self), gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index after active attacks.</p><p>Before attacking, if this unit has moved <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> or more, increase attack by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>At the end of an enemy unit's action, if Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">50%</span>, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Cooldown: <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "33a1d1b8-5862-488d-8a52-824aab4d2508",
+            "level": 3,
+            "effect": "<p>Before attacking, if this unit has moved <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> or more, increase attack by <span style=\"color: rgb(243, 109, 28);\">20%</span>. If Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">50%</span>, gain [effect:84c330eb-743f-4497-8def-2baaceabf738|doll:ullrid] and reduce the effect's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/c8586e5b006617b83dc075e3a4a2f990.webp",
+            "createdAt": "2025-09-22T05:00:42.279Z",
+            "updatedAt": "2025-10-14T07:06:08.653Z",
+            "vertebraeName": "Optical Camouflage Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "8ccc02b2-4a95-4ec4-9821-1aa636395f7d",
         "name": "Hunter's Sight",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, dealing melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack and gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If the target is not killed, applies [effect:e5e9a343-a00c-4482-ba42-71cf9c163b5a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Melee\"]",
-        "stabilityDamage": 1,
-        "cooldown": 1,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/9b29e0f0280ed67e37635c0611118a09.webp",
         "createdAt": "2025-09-22T04:37:20.548Z",
         "updatedAt": "2025-10-30T16:25:10.896Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
         "summonId": null,
-        "rangeMapId": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "76b49e98-e9d0-49ee-8a99-942d908149ea",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Melee",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, dealing melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack and gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If the target is not killed, applies [effect:e5e9a343-a00c-4482-ba42-71cf9c163b5a] and [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When Ullrid is attacked by a target with [effect:e5e9a343-a00c-4482-ba42-71cf9c163b5a], reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758516219536-3x3 ullrid.webp",
-          "createdAt": "2025-09-22T04:43:39.687Z",
-          "updatedAt": "2025-09-22T04:43:39.687Z",
-          "rangeValue": "3x3",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, dealing melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack and gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If the target is not killed, applies [effect:e5e9a343-a00c-4482-ba42-71cf9c163b5a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Melee\"]",
+          "stabilityDamage": 1,
+          "cooldown": 1,
+          "confectanceCost": null,
+          "rangeMapId": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Melee",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758516219536-3x3 ullrid.webp",
+            "createdAt": "2025-09-22T04:43:39.687Z",
+            "updatedAt": "2025-09-22T04:43:39.687Z",
+            "rangeValue": "3x3",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "76b49e98-e9d0-49ee-8a99-942d908149ea",
-          "level": 2,
-          "effect": "<p>If the target is not killed, applies [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] to the enemy target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>. When Ullrid is attacked by a target with [effect:e5e9a343-a00c-4482-ba42-71cf9c163b5a], reduces damage taken.</span></p>",
-          "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/9b29e0f0280ed67e37635c0611118a09.webp",
-          "createdAt": "2025-09-22T04:58:37.886Z",
-          "updatedAt": "2025-10-14T07:06:08.312Z",
-          "vertebraeName": "Hunter's Sight Lv.2"
+        "level2": {
+          "rangeMapId": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
+          "vertebraeUpgradeId": "76b49e98-e9d0-49ee-8a99-942d908149ea",
+          "ammoTypes": "[\"Melee\"]",
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, dealing melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack and gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If the target is not killed, applies [effect:e5e9a343-a00c-4482-ba42-71cf9c163b5a] and [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When Ullrid is attacked by a target with [effect:e5e9a343-a00c-4482-ba42-71cf9c163b5a], reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Melee",
+            "Debuff"
+          ],
+          "stabilityDamage": 1,
+          "rangeMap": {
+            "id": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758516219536-3x3 ullrid.webp",
+            "createdAt": "2025-09-22T04:43:39.687Z",
+            "updatedAt": "2025-09-22T04:43:39.687Z",
+            "rangeValue": "3x3",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "76b49e98-e9d0-49ee-8a99-942d908149ea",
+            "level": 2,
+            "effect": "<p>If the target is not killed, applies [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] to the enemy target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>. When Ullrid is attacked by a target with [effect:e5e9a343-a00c-4482-ba42-71cf9c163b5a], reduces damage taken.</span></p>",
+            "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/9b29e0f0280ed67e37635c0611118a09.webp",
+            "createdAt": "2025-09-22T04:58:37.886Z",
+            "updatedAt": "2025-10-14T07:06:08.312Z",
+            "vertebraeName": "Hunter's Sight Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "5bf67f39-b883-4aa1-b3a2-92ce74afdb4f",
         "name": "Blade Whirlwind",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to it. Gain [effect:73876bb7-ee48-40c2-b5c8-8722d06ce307] after attacking.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Melee\"]",
-        "stabilityDamage": 1,
-        "cooldown": null,
-        "confectanceCost": 3,
         "imageUrl": "https://cdn.dandegate.net/skills/9877ab25ffb408b88e55d716ca709c99.webp",
         "createdAt": "2025-09-22T04:37:41.709Z",
         "updatedAt": "2025-10-30T16:25:43.110Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
         "summonId": null,
-        "rangeMapId": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "3249a206-298a-4bba-a8f9-71c17bfb1fc3",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Melee"
-        ],
         "keyUpgradesData": "[\"922ab545-29f6-47e6-aa80-df21cfeec5fb\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to it. Gain [effect:73876bb7-ee48-40c2-b5c8-8722d06ce307] after attacking. If attacking the same target within one action, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758516219536-3x3 ullrid.webp",
-          "createdAt": "2025-09-22T04:43:39.687Z",
-          "updatedAt": "2025-09-22T04:43:39.687Z",
-          "rangeValue": "3x3",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to it. Gain [effect:73876bb7-ee48-40c2-b5c8-8722d06ce307] after attacking.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Melee\"]",
+          "stabilityDamage": 1,
+          "cooldown": null,
+          "confectanceCost": 3,
+          "rangeMapId": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Melee"
+          ],
+          "rangeMap": {
+            "id": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758516219536-3x3 ullrid.webp",
+            "createdAt": "2025-09-22T04:43:39.687Z",
+            "updatedAt": "2025-09-22T04:43:39.687Z",
+            "rangeValue": "3x3",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "3249a206-298a-4bba-a8f9-71c17bfb1fc3",
-          "level": 2,
-          "effect": "<p>If attacking the same target within one action, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span>. </p><p>The effects of [effect:73876bb7-ee48-40c2-b5c8-8722d06ce307] are enhanced. Ignores Cover damage reduction when attacking.</p>",
-          "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/9877ab25ffb408b88e55d716ca709c99.webp",
-          "createdAt": "2025-09-22T04:56:29.663Z",
-          "updatedAt": "2025-10-14T07:06:07.790Z",
-          "vertebraeName": "Blade Whirlwind Lv.2"
+        "level2": {
+          "rangeMapId": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
+          "vertebraeUpgradeId": "3249a206-298a-4bba-a8f9-71c17bfb1fc3",
+          "ammoTypes": "[\"Melee\"]",
+          "confectanceCost": 3,
+          "cooldown": null,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to it. Gain [effect:73876bb7-ee48-40c2-b5c8-8722d06ce307] after attacking. If attacking the same target within one action, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Melee"
+          ],
+          "stabilityDamage": 1,
+          "rangeMap": {
+            "id": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758516219536-3x3 ullrid.webp",
+            "createdAt": "2025-09-22T04:43:39.687Z",
+            "updatedAt": "2025-09-22T04:43:39.687Z",
+            "rangeValue": "3x3",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "3249a206-298a-4bba-a8f9-71c17bfb1fc3",
+            "level": 2,
+            "effect": "<p>If attacking the same target within one action, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span>. </p><p>The effects of [effect:73876bb7-ee48-40c2-b5c8-8722d06ce307] are enhanced. Ignores Cover damage reduction when attacking.</p>",
+            "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/9877ab25ffb408b88e55d716ca709c99.webp",
+            "createdAt": "2025-09-22T04:56:29.663Z",
+            "updatedAt": "2025-10-14T07:06:07.790Z",
+            "vertebraeName": "Blade Whirlwind Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "d9dba843-22ea-429f-b200-57139c04156e",
         "name": "Hidden Pursuit",
-        "description": "<p>Select a tile in a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area within 5 tiles</span>, move to that tile and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the enemy target with the highest HP within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>Consume all stacks of [effect:4df7f2de-0e82-4406-9e50-d3db79689163], for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, increase damage dealt by this attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a <span style=\"color: rgb(243, 109, 28);\">30%</span> increase. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "phase": null,
-        "ammoTypes": "[\"Melee\"]",
-        "stabilityDamage": 2,
-        "cooldown": 3,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/3351e89954e638c52818e37ff1b4440a.webp",
         "createdAt": "2025-09-22T04:38:04.864Z",
         "updatedAt": "2025-10-30T16:24:47.436Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
         "summonId": null,
-        "rangeMapId": "63e0bbe4-dcca-4f0d-b5cb-6838e5dc122c",
-        "rangeMapIdLevel2": "8ecd583f-edca-435e-a34a-75fcfa403f56",
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "4bc37885-e6d6-4cc3-9e66-4ba3221a0dfa",
-        "vertebraeUpgradeIdLevel3": "c4f4ee39-ce24-4d57-a40b-05df3513cbd1",
-        "skillTags": [
-          "Ultimate",
-          "Targeted",
-          "Melee"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Select a tile in a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area within 7 tiles</span>, move to that tile and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the enemy target with the highest HP within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>Consume all stacks of [effect:4df7f2de-0e82-4406-9e50-d3db79689163], for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, increase damage dealt by this attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a <span style=\"color: rgb(243, 109, 28);\">60%</span> increase. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "descriptionLevel3": "<p>Select a tile in a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area within 7 tiles</span>, move to that tile and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the enemy target with the highest HP within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>Consume all stacks of [effect:4df7f2de-0e82-4406-9e50-d3db79689163], for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, increase damage dealt by this attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a <span style=\"color: rgb(243, 109, 28);\">60%</span> increase. For every <span style=\"color: rgb(243, 109, 28);\">2%</span> of the enemy target's missing HP, increase attack by <span style=\"color: rgb(243, 109, 28);\">1%</span> for this skill. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "63e0bbe4-dcca-4f0d-b5cb-6838e5dc122c",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758516505173-ullrid s1 1.webp",
-          "createdAt": "2025-09-22T04:48:25.318Z",
-          "updatedAt": "2025-09-22T04:48:25.318Z",
-          "rangeValue": "--",
-          "effectiveArea": "1"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Select a tile in a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area within 5 tiles</span>, move to that tile and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the enemy target with the highest HP within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>Consume all stacks of [effect:4df7f2de-0e82-4406-9e50-d3db79689163], for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, increase damage dealt by this attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a <span style=\"color: rgb(243, 109, 28);\">30%</span> increase. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": null,
+          "ammoTypes": "[\"Melee\"]",
+          "stabilityDamage": 2,
+          "cooldown": 3,
+          "confectanceCost": null,
+          "rangeMapId": "63e0bbe4-dcca-4f0d-b5cb-6838e5dc122c",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Melee"
+          ],
+          "rangeMap": {
+            "id": "63e0bbe4-dcca-4f0d-b5cb-6838e5dc122c",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758516505173-ullrid s1 1.webp",
+            "createdAt": "2025-09-22T04:48:25.318Z",
+            "updatedAt": "2025-09-22T04:48:25.318Z",
+            "rangeValue": "--",
+            "effectiveArea": "1"
+          }
         },
-        "rangeMapLevel2": {
-          "id": "8ecd583f-edca-435e-a34a-75fcfa403f56",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758516534516-ullrid s1 2.webp",
-          "createdAt": "2025-09-22T04:48:54.652Z",
-          "updatedAt": "2025-09-22T04:48:54.652Z",
-          "rangeValue": "--",
-          "effectiveArea": "1"
+        "level2": {
+          "rangeMapId": "8ecd583f-edca-435e-a34a-75fcfa403f56",
+          "vertebraeUpgradeId": "4bc37885-e6d6-4cc3-9e66-4ba3221a0dfa",
+          "ammoTypes": "[\"Melee\"]",
+          "confectanceCost": null,
+          "cooldown": 3,
+          "description": "<p>Select a tile in a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area within 7 tiles</span>, move to that tile and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the enemy target with the highest HP within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>Consume all stacks of [effect:4df7f2de-0e82-4406-9e50-d3db79689163], for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, increase damage dealt by this attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a <span style=\"color: rgb(243, 109, 28);\">60%</span> increase. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Melee"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "8ecd583f-edca-435e-a34a-75fcfa403f56",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758516534516-ullrid s1 2.webp",
+            "createdAt": "2025-09-22T04:48:54.652Z",
+            "updatedAt": "2025-09-22T04:48:54.652Z",
+            "rangeValue": "--",
+            "effectiveArea": "1"
+          },
+          "vertebraeUpgrade": {
+            "id": "4bc37885-e6d6-4cc3-9e66-4ba3221a0dfa",
+            "level": 2,
+            "effect": "<p>Increase range by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. Raise the damage increase cap to <span style=\"color: rgb(243, 109, 28);\">60%</span> by consuming [effect:4df7f2de-0e82-4406-9e50-d3db79689163].</p>",
+            "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/3351e89954e638c52818e37ff1b4440a.webp",
+            "createdAt": "2025-09-22T04:59:28.837Z",
+            "updatedAt": "2025-10-14T07:06:07.962Z",
+            "vertebraeName": "Hidden Pursuit Lv.2"
+          }
         },
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "4bc37885-e6d6-4cc3-9e66-4ba3221a0dfa",
-          "level": 2,
-          "effect": "<p>Increase range by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. Raise the damage increase cap to <span style=\"color: rgb(243, 109, 28);\">60%</span> by consuming [effect:4df7f2de-0e82-4406-9e50-d3db79689163].</p>",
-          "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/3351e89954e638c52818e37ff1b4440a.webp",
-          "createdAt": "2025-09-22T04:59:28.837Z",
-          "updatedAt": "2025-10-14T07:06:07.962Z",
-          "vertebraeName": "Hidden Pursuit Lv.2"
+        "level3": {
+          "rangeMapId": "8ecd583f-edca-435e-a34a-75fcfa403f56",
+          "vertebraeUpgradeId": "c4f4ee39-ce24-4d57-a40b-05df3513cbd1",
+          "ammoTypes": "[\"Melee\"]",
+          "confectanceCost": null,
+          "cooldown": 3,
+          "description": "<p>Select a tile in a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area within 7 tiles</span>, move to that tile and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the enemy target with the highest HP within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>Consume all stacks of [effect:4df7f2de-0e82-4406-9e50-d3db79689163], for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, increase damage dealt by this attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a <span style=\"color: rgb(243, 109, 28);\">60%</span> increase. For every <span style=\"color: rgb(243, 109, 28);\">2%</span> of the enemy target's missing HP, increase attack by <span style=\"color: rgb(243, 109, 28);\">1%</span> for this skill. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Melee"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "8ecd583f-edca-435e-a34a-75fcfa403f56",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758516534516-ullrid s1 2.webp",
+            "createdAt": "2025-09-22T04:48:54.652Z",
+            "updatedAt": "2025-09-22T04:48:54.652Z",
+            "rangeValue": "--",
+            "effectiveArea": "1"
+          },
+          "vertebraeUpgrade": {
+            "id": "c4f4ee39-ce24-4d57-a40b-05df3513cbd1",
+            "level": 3,
+            "effect": "<p>For every <span style=\"color: rgb(243, 109, 28);\">2%</span> of the enemy target's missing HP, increase self attack by <span style=\"color: rgb(243, 109, 28);\">1%</span> for this skill.</p><p>If this kills the target, increase damage dealt by the next active attack by <span style=\"color: rgb(243, 109, 28);\">30%</span>. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain only <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738|doll:ullrid], but [effect:84c330eb-743f-4497-8def-2baaceabf738|doll:ullrid] is no longer consumed after taking damage.</p>",
+            "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/3351e89954e638c52818e37ff1b4440a.webp",
+            "createdAt": "2025-09-22T05:02:44.774Z",
+            "updatedAt": "2025-10-14T07:06:19.139Z",
+            "vertebraeName": "Hidden Pursuit Lv.3"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "c4f4ee39-ce24-4d57-a40b-05df3513cbd1",
-          "level": 3,
-          "effect": "<p>For every <span style=\"color: rgb(243, 109, 28);\">2%</span> of the enemy target's missing HP, increase self attack by <span style=\"color: rgb(243, 109, 28);\">1%</span> for this skill.</p><p>If this kills the target, increase damage dealt by the next active attack by <span style=\"color: rgb(243, 109, 28);\">30%</span>. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain only <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738|doll:ullrid], but [effect:84c330eb-743f-4497-8def-2baaceabf738|doll:ullrid] is no longer consumed after taking damage.</p>",
-          "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/3351e89954e638c52818e37ff1b4440a.webp",
-          "createdAt": "2025-09-22T05:02:44.774Z",
-          "updatedAt": "2025-10-14T07:06:19.139Z",
-          "vertebraeName": "Hidden Pursuit Lv.3"
-        },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -450,26 +468,6 @@
         "createdAt": "2025-09-22T04:35:07.973Z",
         "updatedAt": "2025-09-27T06:01:48.263Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "createdAt": "2025-09-27T06:01:30.671Z",
-              "updatedAt": "2025-09-27T06:01:30.671Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Stress Ball Terminator",
         "shortId": "a50"
@@ -493,26 +491,6 @@
         "createdAt": "2025-09-22T04:31:18.430Z",
         "updatedAt": "2025-09-27T06:07:16.936Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "createdAt": "2025-09-27T06:01:30.671Z",
-              "updatedAt": "2025-09-27T06:01:30.671Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Mangle",
         "shortId": "c50"
@@ -536,26 +514,6 @@
         "createdAt": "2025-09-22T04:33:16.837Z",
         "updatedAt": "2025-09-22T04:33:16.837Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "createdAt": "2025-09-27T06:01:30.671Z",
-              "updatedAt": "2025-09-27T06:01:30.671Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Determined Pursuit",
         "shortId": "k1"
@@ -580,26 +538,6 @@
         "createdAt": "2025-10-27T03:17:20.072Z",
         "updatedAt": "2026-02-26T14:50:35.312Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "createdAt": "2025-09-27T06:01:30.671Z",
-              "updatedAt": "2025-09-27T06:01:30.671Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key 2 - Determined Pursuit",
         "shortId": "k2"
@@ -624,26 +562,6 @@
         "createdAt": "2025-09-22T04:20:00.363Z",
         "updatedAt": "2025-10-14T07:06:31.160Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "createdAt": "2025-09-27T06:01:30.671Z",
-              "updatedAt": "2025-09-27T06:01:30.671Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Swift Action",
         "shortId": "k3"
@@ -668,26 +586,6 @@
         "createdAt": "2025-09-22T04:26:58.159Z",
         "updatedAt": "2025-09-22T04:26:58.159Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "createdAt": "2025-09-27T06:01:30.671Z",
-              "updatedAt": "2025-09-27T06:01:30.671Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Predation",
         "shortId": "k4"
@@ -712,26 +610,6 @@
         "createdAt": "2025-09-22T04:27:44.275Z",
         "updatedAt": "2025-09-22T04:27:44.275Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "createdAt": "2025-09-27T06:01:30.671Z",
-              "updatedAt": "2025-09-27T06:01:30.671Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Appropriate Caution",
         "shortId": "k5"
@@ -756,26 +634,6 @@
         "createdAt": "2025-09-22T04:28:43.412Z",
         "updatedAt": "2025-09-22T04:28:43.412Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "createdAt": "2025-09-27T06:01:30.671Z",
-              "updatedAt": "2025-09-27T06:01:30.671Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Ideal State",
         "shortId": "k6"
@@ -800,26 +658,6 @@
         "createdAt": "2025-09-22T04:29:23.590Z",
         "updatedAt": "2025-09-22T04:29:23.590Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "createdAt": "2025-09-27T06:01:30.671Z",
-              "updatedAt": "2025-09-27T06:01:30.671Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Oppression",
         "shortId": "k7"
@@ -844,26 +682,6 @@
         "createdAt": "2025-09-22T04:30:21.410Z",
         "updatedAt": "2025-10-14T07:06:38.336Z",
         "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "createdAt": "2025-09-27T06:01:30.671Z",
-              "updatedAt": "2025-09-27T06:01:30.671Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Hunter's Acuity",
         "shortId": "k8"
@@ -880,69 +698,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/9877ab25ffb408b88e55d716ca709c99.webp",
         "createdAt": "2025-09-22T04:56:29.663Z",
         "updatedAt": "2025-10-14T07:06:07.790Z",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "A Doll with great ambitions. She draws friends to her side with her bold nature and strong decisiveness. However, she occasionally longs for a quiet corner to unload her burden and rest.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Melee\",\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "5bf67f39-b883-4aa1-b3a2-92ce74afdb4f",
             "name": "Blade Whirlwind",
-            "phase": "Physical",
             "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/9877ab25ffb408b88e55d716ca709c99.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Melee\"]",
-            "createdAt": "2025-09-22T04:37:41.709Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Melee"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-30T16:25:43.110Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to it. Gain [effect:73876bb7-ee48-40c2-b5c8-8722d06ce307] after attacking.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 3,
-            "stabilityDamage": 1,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"922ab545-29f6-47e6-aa80-df21cfeec5fb\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to it. Gain [effect:73876bb7-ee48-40c2-b5c8-8722d06ce307] after attacking. If attacking the same target within one action, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "3249a206-298a-4bba-a8f9-71c17bfb1fc3",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "8780234a-8c4b-4865-b1cf-b21b17eed133",
@@ -954,67 +721,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/c8586e5b006617b83dc075e3a4a2f990.webp",
         "createdAt": "2025-09-22T04:57:32.060Z",
         "updatedAt": "2025-10-14T07:06:08.139Z",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "A Doll with great ambitions. She draws friends to her side with her bold nature and strong decisiveness. However, she occasionally longs for a quiet corner to unload her burden and rest.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Melee\",\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "c064882e-09b5-4e1d-a9ee-1a20191b05b2",
             "name": "Optical Camouflage",
-            "phase": null,
             "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/c8586e5b006617b83dc075e3a4a2f990.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-22T04:38:21.875Z",
-            "skillTags": [
-              "Passive"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-30T16:24:00.406Z",
-            "description": "<p>Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index after active attacks.</p><p>At the end of an enemy unit's action, if Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">30%</span>, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Cooldown: <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the start of the battle, for each allied target on the field (excluding self), gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index after active attacks.</p><p>At the end of an enemy unit's action, if Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">30%</span>, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Cooldown: <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-            "descriptionLevel3": "<p>At the start of the battle, for each allied target on the field (excluding self), gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index after active attacks.</p><p>Before attacking, if this unit has moved <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> or more, increase attack by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>At the end of an enemy unit's action, if Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">50%</span>, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Cooldown: <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "8780234a-8c4b-4865-b1cf-b21b17eed133",
-            "vertebraeUpgradeIdLevel3": "33a1d1b8-5862-488d-8a52-824aab4d2508"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "76b49e98-e9d0-49ee-8a99-942d908149ea",
@@ -1026,70 +744,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/9b29e0f0280ed67e37635c0611118a09.webp",
         "createdAt": "2025-09-22T04:58:37.886Z",
         "updatedAt": "2025-10-14T07:06:08.312Z",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "A Doll with great ambitions. She draws friends to her side with her bold nature and strong decisiveness. However, she occasionally longs for a quiet corner to unload her burden and rest.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Melee\",\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "8ccc02b2-4a95-4ec4-9821-1aa636395f7d",
             "name": "Hunter's Sight",
-            "phase": "Physical",
             "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/9b29e0f0280ed67e37635c0611118a09.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Melee\"]",
-            "createdAt": "2025-09-22T04:37:20.548Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Melee",
-              "Debuff"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-30T16:25:10.896Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, dealing melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack and gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If the target is not killed, applies [effect:e5e9a343-a00c-4482-ba42-71cf9c163b5a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ba55ecc1-bb08-408e-bee0-44ce8684b0e0",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 1,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, dealing melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack and gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If the target is not killed, applies [effect:e5e9a343-a00c-4482-ba42-71cf9c163b5a] and [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When Ullrid is attacked by a target with [effect:e5e9a343-a00c-4482-ba42-71cf9c163b5a], reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "76b49e98-e9d0-49ee-8a99-942d908149ea",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "4bc37885-e6d6-4cc3-9e66-4ba3221a0dfa",
@@ -1101,69 +767,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3351e89954e638c52818e37ff1b4440a.webp",
         "createdAt": "2025-09-22T04:59:28.837Z",
         "updatedAt": "2025-10-14T07:06:07.962Z",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "A Doll with great ambitions. She draws friends to her side with her bold nature and strong decisiveness. However, she occasionally longs for a quiet corner to unload her burden and rest.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Melee\",\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "d9dba843-22ea-429f-b200-57139c04156e",
             "name": "Hidden Pursuit",
-            "phase": null,
             "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/3351e89954e638c52818e37ff1b4440a.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Melee\"]",
-            "createdAt": "2025-09-22T04:38:04.864Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted",
-              "Melee"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-30T16:24:47.436Z",
-            "description": "<p>Select a tile in a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area within 5 tiles</span>, move to that tile and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the enemy target with the highest HP within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>Consume all stacks of [effect:4df7f2de-0e82-4406-9e50-d3db79689163], for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, increase damage dealt by this attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a <span style=\"color: rgb(243, 109, 28);\">30%</span> increase. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "63e0bbe4-dcca-4f0d-b5cb-6838e5dc122c",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Select a tile in a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area within 7 tiles</span>, move to that tile and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the enemy target with the highest HP within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>Consume all stacks of [effect:4df7f2de-0e82-4406-9e50-d3db79689163], for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, increase damage dealt by this attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a <span style=\"color: rgb(243, 109, 28);\">60%</span> increase. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "descriptionLevel3": "<p>Select a tile in a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area within 7 tiles</span>, move to that tile and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the enemy target with the highest HP within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>Consume all stacks of [effect:4df7f2de-0e82-4406-9e50-d3db79689163], for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, increase damage dealt by this attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a <span style=\"color: rgb(243, 109, 28);\">60%</span> increase. For every <span style=\"color: rgb(243, 109, 28);\">2%</span> of the enemy target's missing HP, increase attack by <span style=\"color: rgb(243, 109, 28);\">1%</span> for this skill. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "rangeMapIdLevel2": "8ecd583f-edca-435e-a34a-75fcfa403f56",
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "4bc37885-e6d6-4cc3-9e66-4ba3221a0dfa",
-            "vertebraeUpgradeIdLevel3": "c4f4ee39-ce24-4d57-a40b-05df3513cbd1"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "33a1d1b8-5862-488d-8a52-824aab4d2508",
@@ -1175,67 +790,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/c8586e5b006617b83dc075e3a4a2f990.webp",
         "createdAt": "2025-09-22T05:00:42.279Z",
         "updatedAt": "2025-10-14T07:06:08.653Z",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "A Doll with great ambitions. She draws friends to her side with her bold nature and strong decisiveness. However, she occasionally longs for a quiet corner to unload her burden and rest.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Melee\",\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "c064882e-09b5-4e1d-a9ee-1a20191b05b2",
             "name": "Optical Camouflage",
-            "phase": null,
             "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/c8586e5b006617b83dc075e3a4a2f990.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-22T04:38:21.875Z",
-            "skillTags": [
-              "Passive"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-30T16:24:00.406Z",
-            "description": "<p>Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index after active attacks.</p><p>At the end of an enemy unit's action, if Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">30%</span>, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Cooldown: <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the start of the battle, for each allied target on the field (excluding self), gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index after active attacks.</p><p>At the end of an enemy unit's action, if Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">30%</span>, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Cooldown: <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-            "descriptionLevel3": "<p>At the start of the battle, for each allied target on the field (excluding self), gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>Gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index after active attacks.</p><p>Before attacking, if this unit has moved <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> or more, increase attack by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>At the end of an enemy unit's action, if Ullrid's HP is below <span style=\"color: rgb(243, 109, 28);\">50%</span>, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Cooldown: <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "8780234a-8c4b-4865-b1cf-b21b17eed133",
-            "vertebraeUpgradeIdLevel3": "33a1d1b8-5862-488d-8a52-824aab4d2508"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "c4f4ee39-ce24-4d57-a40b-05df3513cbd1",
@@ -1247,69 +813,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3351e89954e638c52818e37ff1b4440a.webp",
         "createdAt": "2025-09-22T05:02:44.774Z",
         "updatedAt": "2025-10-14T07:06:19.139Z",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "A Doll with great ambitions. She draws friends to her side with her bold nature and strong decisiveness. However, she occasionally longs for a quiet corner to unload her burden and rest.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Melee\",\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "d9dba843-22ea-429f-b200-57139c04156e",
             "name": "Hidden Pursuit",
-            "phase": null,
             "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/3351e89954e638c52818e37ff1b4440a.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Melee\"]",
-            "createdAt": "2025-09-22T04:38:04.864Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted",
-              "Melee"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-30T16:24:47.436Z",
-            "description": "<p>Select a tile in a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area within 5 tiles</span>, move to that tile and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the enemy target with the highest HP within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>Consume all stacks of [effect:4df7f2de-0e82-4406-9e50-d3db79689163], for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, increase damage dealt by this attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a <span style=\"color: rgb(243, 109, 28);\">30%</span> increase. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "63e0bbe4-dcca-4f0d-b5cb-6838e5dc122c",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Select a tile in a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area within 7 tiles</span>, move to that tile and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the enemy target with the highest HP within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>Consume all stacks of [effect:4df7f2de-0e82-4406-9e50-d3db79689163], for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, increase damage dealt by this attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a <span style=\"color: rgb(243, 109, 28);\">60%</span> increase. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "descriptionLevel3": "<p>Select a tile in a <span style=\"color: rgb(243, 109, 28);\">cross-shaped area within 7 tiles</span>, move to that tile and deal melee Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to the enemy target with the highest HP within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p><p>Consume all stacks of [effect:4df7f2de-0e82-4406-9e50-d3db79689163], for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, increase damage dealt by this attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a <span style=\"color: rgb(243, 109, 28);\">60%</span> increase. For every <span style=\"color: rgb(243, 109, 28);\">2%</span> of the enemy target's missing HP, increase attack by <span style=\"color: rgb(243, 109, 28);\">1%</span> for this skill. If there are <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:4df7f2de-0e82-4406-9e50-d3db79689163] or more, gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:84c330eb-743f-4497-8def-2baaceabf738] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "rangeMapIdLevel2": "8ecd583f-edca-435e-a34a-75fcfa403f56",
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "4bc37885-e6d6-4cc3-9e66-4ba3221a0dfa",
-            "vertebraeUpgradeIdLevel3": "c4f4ee39-ce24-4d57-a40b-05df3513cbd1"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1424,7 +939,17 @@
       {
         "id": "84c330eb-743f-4497-8def-2baaceabf738",
         "effectName": "Camouflage",
-        "effectDetails": "{\"mainDetails\":\"<p>When other allied units are on the field, this unit cannot be targeted by enemy basic attacks or active skills. This buff is consumed when damage is taken, and can stack up to <span style=\\\"color: rgb(243, 109, 28);\\\">2 times</span>. Cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"a71400f2-a0e0-488d-9b8c-3ed1f2fee6c0\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>When other allied units are on the field, this unit cannot be targeted by enemy basic attacks or active skills. Cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>When other allied units are on the field, this unit cannot be targeted by enemy basic attacks or active skills. This buff is consumed when damage is taken, and can stack up to <span style=\"color: rgb(243, 109, 28);\">2 times</span>. Cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "a71400f2-a0e0-488d-9b8c-3ed1f2fee6c0",
+              "upgradeName": "V6",
+              "upgradeDetails": "<p>When other allied units are on the field, this unit cannot be targeted by enemy basic attacks or active skills. Cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [
           "Buff"
         ],
@@ -1432,26 +957,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-22T05:26:43.064Z",
-        "updatedAt": "2025-11-03T14:52:01.008Z",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2025-11-03T14:52:01.008Z"
       },
       {
         "id": "4df7f2de-0e82-4406-9e50-d3db79689163",
@@ -1462,26 +968,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-22T04:15:46.083Z",
-        "updatedAt": "2025-09-28T04:35:03.855Z",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2025-09-28T04:35:03.855Z"
       },
       {
         "id": "e5e9a343-a00c-4482-ba42-71cf9c163b5a",
@@ -1495,31 +982,28 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-22T04:13:43.305Z",
-        "updatedAt": "2025-11-03T06:05:07.726Z",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2025-11-03T06:05:07.726Z"
       },
       {
         "id": "73876bb7-ee48-40c2-b5c8-8722d06ce307",
         "effectName": "Whirlwind",
-        "effectDetails": "{\"mainDetails\":\"<p>Gain <span style=\\\"color: rgb(243, 109, 28);\\\">6 tiles</span> of extra mobility, and allow for the use of <span style=\\\"color: rgb(34, 139, 230);\\\">Blade Whirlwind</span>.</p>\",\"upgrades\":[{\"id\":\"ab7c11b9-52c1-4116-aeee-eb96cacf79f6\",\"upgradeName\":\"Ullrid Fixed Key 1\",\"upgradeDetails\":\"<p>Gain <span style=\\\"color: rgb(243, 109, 28);\\\">6 tiles</span> of mobility, and allow for the use of <span style=\\\"color: rgb(34, 139, 230);\\\">Blade Whirlwind</span>. When using a basic attack or other active skills, additionally consume <span style=\\\"color: rgb(243, 109, 28);\\\">2</span> points of Confectance Index.</p>\",\"order\":0},{\"id\":\"03c4e01a-9bc9-4c62-ac5d-73c6977211c9\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>Gain <span style=\\\"color: rgb(243, 109, 28);\\\">6 tiles</span> of extra mobility, and allow for the use of <span style=\\\"color: rgb(34, 139, 230);\\\">Blade Whirlwind</span>. Ignore Cover damage reduction when attacking.</p>\",\"order\":1}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Gain <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of extra mobility, and allow for the use of <span style=\"color: rgb(34, 139, 230);\">Blade Whirlwind</span>.</p>",
+          "upgrades": [
+            {
+              "id": "ab7c11b9-52c1-4116-aeee-eb96cacf79f6",
+              "upgradeName": "Ullrid Fixed Key 1",
+              "upgradeDetails": "<p>Gain <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of mobility, and allow for the use of <span style=\"color: rgb(34, 139, 230);\">Blade Whirlwind</span>. When using a basic attack or other active skills, additionally consume <span style=\"color: rgb(243, 109, 28);\">2</span> points of Confectance Index.</p>",
+              "order": 0
+            },
+            {
+              "id": "03c4e01a-9bc9-4c62-ac5d-73c6977211c9",
+              "upgradeName": "V1",
+              "upgradeDetails": "<p>Gain <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of extra mobility, and allow for the use of <span style=\"color: rgb(34, 139, 230);\">Blade Whirlwind</span>. Ignore Cover damage reduction when attacking.</p>",
+              "order": 1
+            }
+          ]
+        },
         "effectTags": [
           "Buff",
           "Movement"
@@ -1528,26 +1012,34 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-22T04:15:12.074Z",
-        "updatedAt": "2025-11-03T16:12:31.519Z",
-        "doll": {
-          "id": "1172e268-24cf-4fad-9d60-0226bed17635",
-          "name": "Ullrid",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ullrid/2c72eebc36c0761c372e27b8cf044aa6.webp",
-          "createdAt": "2025-09-22T04:11:44.653Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-03T00:43:56.606Z",
-          "dollImages": [
-            {
-              "id": "b0c7be07-4682-4b64-8ca7-d132852acb36",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ullrid/chibi-156fac6c84172ba886490d396d88f046.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2025-11-03T16:12:31.519Z"
+      },
+      {
+        "id": "1b83587d-eddc-4abd-b90c-cb0aa4b2cfef",
+        "effectName": "Additional Movement",
+        "effectDetails": "<p>Can move once, but cannot use any other commands.</p>",
+        "effectTags": [
+          "Movement"
+        ],
+        "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:30:54.242Z",
+        "updatedAt": "2025-11-06T06:30:55.814Z"
+      },
+      {
+        "id": "4776f3a1-92cb-4e79-b018-35433bfdc6e2",
+        "effectName": "Movement Down II",
+        "effectDetails": "<p>Mobility decreased by<span style=\"color: rgb(243, 109, 28);\"> 2 tiles</span>. Movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Movement"
+        ],
+        "dollId": "1172e268-24cf-4fad-9d60-0226bed17635",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:32:24.079Z",
+        "updatedAt": "2025-11-03T05:42:27.501Z"
       }
     ],
     "shortId": "d50"

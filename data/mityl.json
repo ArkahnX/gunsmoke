@@ -72,108 +72,52 @@
       {
         "id": "9dd5838b-94dc-4dc2-8943-c156400f84ed",
         "name": "Ambush",
-        "description": "<p>Selects 1 enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": null,
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/8bdcef5124f6c2644f80d5e657176627aea283b6bbde9db30db6767a4c95be22.webp",
         "createdAt": "2026-04-28T04:58:29.664Z",
         "updatedAt": "2026-04-28T04:58:29.664Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": null,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "a6c036cd-5e55-4976-a4ee-aeb1e1575f6a",
         "name": "Hologram Strike",
-        "description": "<p>Selects 1 enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it.</p>",
-        "phase": "Hydro",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/8bdcef5124f6c2644f80d5e657176627aea283b6bbde9db30db6767a4c95be22.webp",
         "createdAt": "2026-04-29T05:52:31.361Z",
         "updatedAt": "2026-04-30T04:56:32.544Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
         "summonId": "e73da99f-1c69-402a-b2d2-c9c2b2b9cac8",
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "preview": false
-        },
         "summon": {
           "hp": 100,
           "id": "e73da99f-1c69-402a-b2d2-c9c2b2b9cac8",
@@ -191,73 +135,74 @@
           "updatedAt": "2026-05-06T15:02:06.026Z",
           "stabilityGauge": 9
         },
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "level1": {
+          "description": "<p>Selects 1 enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it.</p>",
+          "phase": "Hydro",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
-          "level": 1,
-          "effect": "<p>Each time [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is triggered, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:24bd3433-b247-4af8-8f95-2482125404d2].</p><p>The damage multiplier of the [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8]'s basic attack [skillsummon:a6c036cd-5e55-4976-a4ee-aeb1e1575f6a] is increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>.</p>",
-          "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/07b34c3eae552f54233295c18ba0f7dd272c2148b55090462609600ade68bf37.webp",
-          "createdAt": "2026-04-30T04:23:22.759Z",
-          "updatedAt": "2026-04-30T04:24:34.408Z",
-          "vertebraeName": "Squirrel's Arc Shadow Lv.1"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Selects 1 enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it.</p>",
+          "phase": "Hydro",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
+            "level": 1,
+            "effect": "<p>Each time [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is triggered, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:24bd3433-b247-4af8-8f95-2482125404d2].</p><p>The damage multiplier of the [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8]'s basic attack [skillsummon:a6c036cd-5e55-4976-a4ee-aeb1e1575f6a] is increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>.</p>",
+            "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/07b34c3eae552f54233295c18ba0f7dd272c2148b55090462609600ade68bf37.webp",
+            "createdAt": "2026-04-30T04:23:22.759Z",
+            "updatedAt": "2026-04-30T04:24:34.408Z",
+            "vertebraeName": "Squirrel's Arc Shadow Lv.1"
+          }
         },
-        "vertebraeUpgradeLevel3": null
+        "level3": null,
+        "level4": null
       },
       {
         "id": "28e93f82-8a93-43f6-9e5b-fc6af142f7a5",
         "name": "Data Regression",
-        "description": "<p>When casting [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f], recovers <span style=\"color: rgb(243, 109, 28);\">50%</span> of max HP, and increase its max HP by <span style=\"color: rgb(243, 109, 28);\">5%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/11a31155c5ff495d055920cde4b7cafcaa6a15a3aded8b475e6b0911362522e3.webp",
         "createdAt": "2026-04-30T05:33:03.541Z",
         "updatedAt": "2026-04-30T05:33:03.541Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
         "summonId": "e73da99f-1c69-402a-b2d2-c9c2b2b9cac8",
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Passive"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "preview": false
-        },
         "summon": {
           "hp": 100,
           "id": "e73da99f-1c69-402a-b2d2-c9c2b2b9cac8",
@@ -275,329 +220,378 @@
           "updatedAt": "2026-05-06T15:02:06.026Z",
           "stabilityGauge": 9
         },
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "level1": {
+          "description": "<p>When casting [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f], recovers <span style=\"color: rgb(243, 109, 28);\">50%</span> of max HP, and increase its max HP by <span style=\"color: rgb(243, 109, 28);\">5%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "73b9aea0-27bc-401d-bf5a-87c60827de14",
         "name": "Stunt Montage",
-        "description": "<p>At the end of the allied turn, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] use [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>After Mityl or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>If the target, Mityl, or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is on a Hydro tile, gains <span style=\"color: rgb(243, 109, 28);\">1 additional point</span> of Confectance Index, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6</span> per turn.</p><p>At the start of battle, gains [effect:40f8b617-a8b6-4bbd-ba21-cb7426ea52ac]. For every <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index gained (including overflow Confectance Index), increase the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a].</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/349bd6c06ae595c55ca307792cc210b1271e0ba8578d533fc4c163d0b23c65d0.webp",
         "createdAt": "2026-04-28T05:23:00.205Z",
         "updatedAt": "2026-04-30T05:23:48.702Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "81392101-edca-4897-8541-4a764ea3a8bf",
-        "vertebraeUpgradeIdLevel3": "cf6c8efd-e07a-45c6-b2a4-f1fdc9f2af90",
-        "skillTags": [
-          "Passive",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>At the end of the allied turn, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] use [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>After Mityl or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>If the target, Mityl, or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is on a Hydro tile, gains <span style=\"color: rgb(243, 109, 28);\">1 additional point</span> of Confectance Index, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6</span> per turn.</p><p>At the start of battle, gains [effect:40f8b617-a8b6-4bbd-ba21-cb7426ea52ac]. For every <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index gained (including overflow Confectance Index), increase the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a].</p><p>When the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a] is increased, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p>",
-        "descriptionLevel3": "<p>At the end of the allied turn, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] use [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>After Mityl or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>If the target, Mityl, or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is on a Hydro tile, gains <span style=\"color: rgb(243, 109, 28);\">1 additional point</span> of Confectance Index, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6</span> per turn.</p><p>At the start of battle, gains [effect:40f8b617-a8b6-4bbd-ba21-cb7426ea52ac]. For every <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index gained (including overflow Confectance Index), increase the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a].</p><p>When the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a] is increased, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>When a [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] uses [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f], gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:e2f16642-ab25-4015-87e7-4d16aa1c24b9].</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>At the end of the allied turn, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] use [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>After Mityl or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>If the target, Mityl, or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is on a Hydro tile, gains <span style=\"color: rgb(243, 109, 28);\">1 additional point</span> of Confectance Index, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6</span> per turn.</p><p>At the start of battle, gains [effect:40f8b617-a8b6-4bbd-ba21-cb7426ea52ac]. For every <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index gained (including overflow Confectance Index), increase the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a].</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "81392101-edca-4897-8541-4a764ea3a8bf",
-          "level": 2,
-          "effect": "<p>The damage multiplier of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is increased to <span style=\"color: rgb(243, 109, 28);\">60%</span>.</p><p>When the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a] is increased, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>The Confectance Index requirement to increase rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a] is reduced to <span style=\"color: rgb(243, 109, 28);\">4 points</span>.</p><p>[effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] applies [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] on the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-          "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/349bd6c06ae595c55ca307792cc210b1271e0ba8578d533fc4c163d0b23c65d0.webp",
-          "createdAt": "2026-04-30T04:17:11.891Z",
-          "updatedAt": "2026-04-30T05:24:33.577Z",
-          "vertebraeName": "Stunt Montage Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "81392101-edca-4897-8541-4a764ea3a8bf",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the end of the allied turn, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] use [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>After Mityl or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>If the target, Mityl, or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is on a Hydro tile, gains <span style=\"color: rgb(243, 109, 28);\">1 additional point</span> of Confectance Index, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6</span> per turn.</p><p>At the start of battle, gains [effect:40f8b617-a8b6-4bbd-ba21-cb7426ea52ac]. For every <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index gained (including overflow Confectance Index), increase the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a].</p><p>When the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a] is increased, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "81392101-edca-4897-8541-4a764ea3a8bf",
+            "level": 2,
+            "effect": "<p>The damage multiplier of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is increased to <span style=\"color: rgb(243, 109, 28);\">60%</span>.</p><p>When the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a] is increased, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>The Confectance Index requirement to increase rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a] is reduced to <span style=\"color: rgb(243, 109, 28);\">4 points</span>.</p><p>[effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] applies [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] on the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+            "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/349bd6c06ae595c55ca307792cc210b1271e0ba8578d533fc4c163d0b23c65d0.webp",
+            "createdAt": "2026-04-30T04:17:11.891Z",
+            "updatedAt": "2026-04-30T05:24:33.577Z",
+            "vertebraeName": "Stunt Montage Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "cf6c8efd-e07a-45c6-b2a4-f1fdc9f2af90",
-          "level": 3,
-          "effect": "<p>[effect:c88b2002-c9fb-4786-bf40-b07ec0d6d91d] is enhanced: For every <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index gained, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>When a [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] uses [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f], gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:e2f16642-ab25-4015-87e7-4d16aa1c24b9].</p>",
-          "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/349bd6c06ae595c55ca307792cc210b1271e0ba8578d533fc4c163d0b23c65d0.webp",
-          "createdAt": "2026-04-30T04:55:02.520Z",
-          "updatedAt": "2026-04-30T05:12:37.423Z",
-          "vertebraeName": "Stunt Montage Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "cf6c8efd-e07a-45c6-b2a4-f1fdc9f2af90",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the end of the allied turn, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] use [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>After Mityl or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>If the target, Mityl, or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is on a Hydro tile, gains <span style=\"color: rgb(243, 109, 28);\">1 additional point</span> of Confectance Index, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6</span> per turn.</p><p>At the start of battle, gains [effect:40f8b617-a8b6-4bbd-ba21-cb7426ea52ac]. For every <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index gained (including overflow Confectance Index), increase the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a].</p><p>When the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a] is increased, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>When a [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] uses [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f], gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:e2f16642-ab25-4015-87e7-4d16aa1c24b9].</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "cf6c8efd-e07a-45c6-b2a4-f1fdc9f2af90",
+            "level": 3,
+            "effect": "<p>[effect:c88b2002-c9fb-4786-bf40-b07ec0d6d91d] is enhanced: For every <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index gained, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>When a [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] uses [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f], gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:e2f16642-ab25-4015-87e7-4d16aa1c24b9].</p>",
+            "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/349bd6c06ae595c55ca307792cc210b1271e0ba8578d533fc4c163d0b23c65d0.webp",
+            "createdAt": "2026-04-30T04:55:02.520Z",
+            "updatedAt": "2026-04-30T05:12:37.423Z",
+            "vertebraeName": "Stunt Montage Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "88e47b63-2cd1-46b9-8040-97de22da703f",
         "name": "Squirrel's Hologram",
-        "description": "<p>Select one enemy target (excluding summons) <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>, then select one empty tile <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around that target to summon its [summon:aaa6ba96-f834-49b3-8e3b-5ffc49bc82f8], and generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> around it, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. A maximum of <span style=\"color: rgb(243, 109, 28);\">2</span> [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03]<span style=\"color: rgb(34, 139, 230);\">s</span> may exist at a time.</p><p>If the target is a Doll, Boss unit, or Large unit, [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] is summoned instead.</p><p>A [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] can also be selected <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> instead and teleported to a selected empty tile <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> of it.</p><p>After this skill resolves, Mityl gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb], which can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/07b34c3eae552f54233295c18ba0f7dd272c2148b55090462609600ade68bf37.webp",
         "createdAt": "2026-04-28T04:54:30.188Z",
         "updatedAt": "2026-04-30T05:42:02.512Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Tile",
-          "Summon",
-          "Teleport"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Select one enemy target (excluding summons) <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>, then select one empty tile <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around that target to summon its [summon:aaa6ba96-f834-49b3-8e3b-5ffc49bc82f8], and generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> around it, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. A maximum of <span style=\"color: rgb(243, 109, 28);\">2</span> [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03]<span style=\"color: rgb(34, 139, 230);\">s</span> may exist at a time.</p><p>If the target is a Doll, Boss unit, or Large unit, [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] is summoned instead.</p><p>A [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] can also be selected <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> instead and teleported to a selected empty tile <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> of it.</p><p>Each time [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is triggered, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:24bd3433-b247-4af8-8f95-2482125404d2].</p><p>After this skill resolves, Mityl gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb], which can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Select one enemy target (excluding summons) <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>, then select one empty tile <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around that target to summon its [summon:aaa6ba96-f834-49b3-8e3b-5ffc49bc82f8], and generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> around it, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. A maximum of <span style=\"color: rgb(243, 109, 28);\">2</span> [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03]<span style=\"color: rgb(34, 139, 230);\">s</span> may exist at a time.</p><p>If the target is a Doll, Boss unit, or Large unit, [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] is summoned instead.</p><p>A [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] can also be selected <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> instead and teleported to a selected empty tile <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> of it.</p><p>After this skill resolves, Mityl gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb], which can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Tile",
+            "Summon",
+            "Teleport"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
-          "level": 1,
-          "effect": "<p>Each time [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is triggered, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:24bd3433-b247-4af8-8f95-2482125404d2].</p><p>The damage multiplier of the [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8]'s basic attack [skillsummon:a6c036cd-5e55-4976-a4ee-aeb1e1575f6a] is increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>.</p>",
-          "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/07b34c3eae552f54233295c18ba0f7dd272c2148b55090462609600ade68bf37.webp",
-          "createdAt": "2026-04-30T04:23:22.759Z",
-          "updatedAt": "2026-04-30T04:24:34.408Z",
-          "vertebraeName": "Squirrel's Arc Shadow Lv.1"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Select one enemy target (excluding summons) <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>, then select one empty tile <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around that target to summon its [summon:aaa6ba96-f834-49b3-8e3b-5ffc49bc82f8], and generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> around it, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. A maximum of <span style=\"color: rgb(243, 109, 28);\">2</span> [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03]<span style=\"color: rgb(34, 139, 230);\">s</span> may exist at a time.</p><p>If the target is a Doll, Boss unit, or Large unit, [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] is summoned instead.</p><p>A [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] can also be selected <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> instead and teleported to a selected empty tile <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> of it.</p><p>Each time [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is triggered, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:24bd3433-b247-4af8-8f95-2482125404d2].</p><p>After this skill resolves, Mityl gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb], which can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+          "phase": null,
+          "skillTags": [
+            "Active",
+            "Tile",
+            "Summon",
+            "Teleport"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
+            "level": 1,
+            "effect": "<p>Each time [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is triggered, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:24bd3433-b247-4af8-8f95-2482125404d2].</p><p>The damage multiplier of the [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8]'s basic attack [skillsummon:a6c036cd-5e55-4976-a4ee-aeb1e1575f6a] is increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>.</p>",
+            "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/07b34c3eae552f54233295c18ba0f7dd272c2148b55090462609600ade68bf37.webp",
+            "createdAt": "2026-04-30T04:23:22.759Z",
+            "updatedAt": "2026-04-30T04:24:34.408Z",
+            "vertebraeName": "Squirrel's Arc Shadow Lv.1"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "111305a5-0407-44b4-a008-71be40565fd7",
         "name": "Aerial Dash",
-        "description": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">a cross-shaped area of 3 to 6 tiles</span>, lands on the selected tile, and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the nearest enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>.</p><p>If both the tile before skill usage and the tile when dealing damage are Hydro tiles, then this skill can be used again and the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>This skill can be used again up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
-        "phase": "Hydro",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": null,
-        "confectanceCost": 2,
         "imageUrl": "https://cdn.dandegate.net/skills/c1c01be4472d3067c271218f5092c0783655a5f66f2c77ba41db4124d5fc0c38.webp",
         "createdAt": "2026-04-28T05:09:28.652Z",
         "updatedAt": "2026-04-30T05:07:01.593Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
         "summonId": null,
-        "rangeMapId": "e804b56e-7ed5-47ef-b815-7b755e2d066b",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "c8cce1c6-40ad-46fd-811c-a8d526283579",
-        "vertebraeUpgradeIdLevel3": "15b8317d-06e5-40e9-8197-669fbdc54140",
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Displacement"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">a cross-shaped area of 3 to 6 tiles</span>, lands on the selected tile, and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to the nearest enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>.</p><p>If either the tile before skill usage or the tile when dealing damage is a Hydro tile, then this skill can be used again and the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>This skill can be used again up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
-        "descriptionLevel3": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">a cross-shaped area of 3 to 6 tiles</span>, lands on the selected tile, and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to the nearest enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>.</p><p>If either the tile before skill usage or the tile when dealing damage is a Hydro tile, then this skill can be used again and the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>This skill can be used again up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p><p>After using this skill, [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] will launch <span style=\"color: rgb(243, 109, 28);\">1</span> instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and dealing <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p>The damage dealt by [summon:aaa6ba96-f834-49b3-8e3b-5ffc49bc82f8] is increased by <span style=\"color: rgb(243, 109, 28);\">100%</span> for this turn. This effect cannot be stacked.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[\"Active\",\"Targeted\",\"Displacement\",\"Support\"]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "e804b56e-7ed5-47ef-b815-7b755e2d066b",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/814ddbd41a946adab43157eacb97897fb6b8d4a3b194cc6415e73df07132abf3.webp",
-          "createdAt": "2026-04-29T04:56:22.544Z",
-          "updatedAt": "2026-04-29T04:56:22.544Z",
-          "rangeValue": "--",
-          "effectiveArea": "6"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">a cross-shaped area of 3 to 6 tiles</span>, lands on the selected tile, and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the nearest enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>.</p><p>If both the tile before skill usage and the tile when dealing damage are Hydro tiles, then this skill can be used again and the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>This skill can be used again up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
+          "phase": "Hydro",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": null,
+          "confectanceCost": 2,
+          "rangeMapId": "e804b56e-7ed5-47ef-b815-7b755e2d066b",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Displacement"
+          ],
+          "rangeMap": {
+            "id": "e804b56e-7ed5-47ef-b815-7b755e2d066b",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/814ddbd41a946adab43157eacb97897fb6b8d4a3b194cc6415e73df07132abf3.webp",
+            "createdAt": "2026-04-29T04:56:22.544Z",
+            "updatedAt": "2026-04-29T04:56:22.544Z",
+            "rangeValue": "--",
+            "effectiveArea": "6"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "c8cce1c6-40ad-46fd-811c-a8d526283579",
-          "level": 2,
-          "effect": "<p>Damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">160%</span>.</p><p>The condition to use this skill again has changed to required either the tile before skill usage or the tile when dealing damage to be a Hydro tile.</p><p>Damage dealt when using the active skill again is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p>",
-          "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/c1c01be4472d3067c271218f5092c0783655a5f66f2c77ba41db4124d5fc0c38.webp",
-          "createdAt": "2026-04-30T04:42:59.072Z",
-          "updatedAt": "2026-04-30T04:42:59.072Z",
-          "vertebraeName": "Aerial Dash Lv.2"
+        "level2": {
+          "rangeMapId": "e804b56e-7ed5-47ef-b815-7b755e2d066b",
+          "vertebraeUpgradeId": "c8cce1c6-40ad-46fd-811c-a8d526283579",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">a cross-shaped area of 3 to 6 tiles</span>, lands on the selected tile, and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to the nearest enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>.</p><p>If either the tile before skill usage or the tile when dealing damage is a Hydro tile, then this skill can be used again and the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>This skill can be used again up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
+          "phase": "Hydro",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Displacement"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "e804b56e-7ed5-47ef-b815-7b755e2d066b",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/814ddbd41a946adab43157eacb97897fb6b8d4a3b194cc6415e73df07132abf3.webp",
+            "createdAt": "2026-04-29T04:56:22.544Z",
+            "updatedAt": "2026-04-29T04:56:22.544Z",
+            "rangeValue": "--",
+            "effectiveArea": "6"
+          },
+          "vertebraeUpgrade": {
+            "id": "c8cce1c6-40ad-46fd-811c-a8d526283579",
+            "level": 2,
+            "effect": "<p>Damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">160%</span>.</p><p>The condition to use this skill again has changed to required either the tile before skill usage or the tile when dealing damage to be a Hydro tile.</p><p>Damage dealt when using the active skill again is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p>",
+            "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/c1c01be4472d3067c271218f5092c0783655a5f66f2c77ba41db4124d5fc0c38.webp",
+            "createdAt": "2026-04-30T04:42:59.072Z",
+            "updatedAt": "2026-04-30T04:42:59.072Z",
+            "vertebraeName": "Aerial Dash Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "15b8317d-06e5-40e9-8197-669fbdc54140",
-          "level": 3,
-          "effect": "<p>After using this skill, [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] will launch <span style=\"color: rgb(243, 109, 28);\">1</span> instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and dealing <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p>The damage dealt by [summon:aaa6ba96-f834-49b3-8e3b-5ffc49bc82f8] is increased by <span style=\"color: rgb(243, 109, 28);\">100%</span> for this turn. This effect cannot be stacked.</p>",
-          "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/c1c01be4472d3067c271218f5092c0783655a5f66f2c77ba41db4124d5fc0c38.webp",
-          "createdAt": "2026-04-30T04:47:21.847Z",
-          "updatedAt": "2026-04-30T05:01:10.170Z",
-          "vertebraeName": "Aerial Dash Lv.3"
+        "level3": {
+          "rangeMapId": "e804b56e-7ed5-47ef-b815-7b755e2d066b",
+          "vertebraeUpgradeId": "15b8317d-06e5-40e9-8197-669fbdc54140",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">a cross-shaped area of 3 to 6 tiles</span>, lands on the selected tile, and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to the nearest enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>.</p><p>If either the tile before skill usage or the tile when dealing damage is a Hydro tile, then this skill can be used again and the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>This skill can be used again up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p><p>After using this skill, [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] will launch <span style=\"color: rgb(243, 109, 28);\">1</span> instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and dealing <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p>The damage dealt by [summon:aaa6ba96-f834-49b3-8e3b-5ffc49bc82f8] is increased by <span style=\"color: rgb(243, 109, 28);\">100%</span> for this turn. This effect cannot be stacked.</p>",
+          "phase": "Hydro",
+          "skillTags": "[\"Active\",\"Targeted\",\"Displacement\",\"Support\"]",
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "e804b56e-7ed5-47ef-b815-7b755e2d066b",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/814ddbd41a946adab43157eacb97897fb6b8d4a3b194cc6415e73df07132abf3.webp",
+            "createdAt": "2026-04-29T04:56:22.544Z",
+            "updatedAt": "2026-04-29T04:56:22.544Z",
+            "rangeValue": "--",
+            "effectiveArea": "6"
+          },
+          "vertebraeUpgrade": {
+            "id": "15b8317d-06e5-40e9-8197-669fbdc54140",
+            "level": 3,
+            "effect": "<p>After using this skill, [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] will launch <span style=\"color: rgb(243, 109, 28);\">1</span> instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and dealing <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p>The damage dealt by [summon:aaa6ba96-f834-49b3-8e3b-5ffc49bc82f8] is increased by <span style=\"color: rgb(243, 109, 28);\">100%</span> for this turn. This effect cannot be stacked.</p>",
+            "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/c1c01be4472d3067c271218f5092c0783655a5f66f2c77ba41db4124d5fc0c38.webp",
+            "createdAt": "2026-04-30T04:47:21.847Z",
+            "updatedAt": "2026-04-30T05:01:10.170Z",
+            "vertebraeName": "Aerial Dash Lv.3"
+          }
         },
-        "shortId": 4
+        "level4": null
       },
       {
         "id": "e94b23a7-2ce5-4b4b-8364-ef19313a3631",
         "name": "Null Convergence",
-        "description": "<p>Gains [effect:a485d8e2-033a-4474-983a-2db5fac82ddf] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span> and generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> around herself, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>After this skill resolves, Mityl gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": 2,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/916c37e6fb3466ecf9ccf0336974f229a2a777194fbb12da1d578413c61fdab7.webp",
         "createdAt": "2026-04-28T05:14:58.908Z",
         "updatedAt": "2026-04-30T05:05:41.355Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
         "summonId": null,
-        "rangeMapId": "7191f9f7-a4fe-4d59-92e9-253bacb02249",
-        "rangeMapIdLevel2": "d82e2509-117c-4e7a-8923-6c557024d1ce",
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "5d5f51c2-58ca-4f0c-bbe4-338d920735ac",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Ultimate",
-          "Tile",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Gains [effect:a485d8e2-033a-4474-983a-2db5fac82ddf] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span> and generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles <span style=\"color: rgb(243, 109, 28);\">within 7 tiles</span> around herself, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>After this skill resolves, Mityl gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "7191f9f7-a4fe-4d59-92e9-253bacb02249",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1759640345875-lennaS3.webp",
-          "createdAt": "2025-10-05T04:59:05.929Z",
-          "updatedAt": "2025-10-05T04:59:05.929Z",
-          "rangeValue": "Self",
-          "effectiveArea": "5"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Gains [effect:a485d8e2-033a-4474-983a-2db5fac82ddf] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span> and generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> around herself, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>After this skill resolves, Mityl gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": 2,
+          "confectanceCost": null,
+          "rangeMapId": "7191f9f7-a4fe-4d59-92e9-253bacb02249",
+          "skillTags": [
+            "Ultimate",
+            "Tile",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "7191f9f7-a4fe-4d59-92e9-253bacb02249",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1759640345875-lennaS3.webp",
+            "createdAt": "2025-10-05T04:59:05.929Z",
+            "updatedAt": "2025-10-05T04:59:05.929Z",
+            "rangeValue": "Self",
+            "effectiveArea": "5"
+          }
         },
-        "rangeMapLevel2": {
-          "id": "d82e2509-117c-4e7a-8923-6c557024d1ce",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/6401b2ed1fc682c1d2dba7afc62f864b5909ae02d6577a96bcd70a2eb2a72076.webp",
-          "createdAt": "2026-04-30T05:05:19.955Z",
-          "updatedAt": "2026-04-30T05:05:19.955Z",
-          "rangeValue": "Self",
-          "effectiveArea": "7"
+        "level2": {
+          "rangeMapId": "d82e2509-117c-4e7a-8923-6c557024d1ce",
+          "vertebraeUpgradeId": "5d5f51c2-58ca-4f0c-bbe4-338d920735ac",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>Gains [effect:a485d8e2-033a-4474-983a-2db5fac82ddf] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span> and generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles <span style=\"color: rgb(243, 109, 28);\">within 7 tiles</span> around herself, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>After this skill resolves, Mityl gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Tile",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "d82e2509-117c-4e7a-8923-6c557024d1ce",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/6401b2ed1fc682c1d2dba7afc62f864b5909ae02d6577a96bcd70a2eb2a72076.webp",
+            "createdAt": "2026-04-30T05:05:19.955Z",
+            "updatedAt": "2026-04-30T05:05:19.955Z",
+            "rangeValue": "Self",
+            "effectiveArea": "7"
+          },
+          "vertebraeUpgrade": {
+            "id": "5d5f51c2-58ca-4f0c-bbe4-338d920735ac",
+            "level": 2,
+            "effect": "<p>The range of [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles generated is increased to <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>.</p><p>The attack increase from [effect:a485d8e2-033a-4474-983a-2db5fac82ddf] is increased to <span style=\"color: rgb(243, 109, 28);\">40%</span> and applies to [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03].</p><p>If <span style=\"color: rgb(243, 109, 28);\">4 or more</span> instances of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is triggered, then [effect:a485d8e2-033a-4474-983a-2db5fac82ddf] will not consume its duration.</p>",
+            "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/916c37e6fb3466ecf9ccf0336974f229a2a777194fbb12da1d578413c61fdab7.webp",
+            "createdAt": "2026-04-30T04:29:13.752Z",
+            "updatedAt": "2026-04-30T05:30:41.493Z",
+            "vertebraeName": "Null Convergence Lv.2"
+          }
         },
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "5d5f51c2-58ca-4f0c-bbe4-338d920735ac",
-          "level": 2,
-          "effect": "<p>The range of [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles generated is increased to <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>.</p><p>The attack increase from [effect:a485d8e2-033a-4474-983a-2db5fac82ddf] is increased to <span style=\"color: rgb(243, 109, 28);\">40%</span> and applies to [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03].</p><p>If <span style=\"color: rgb(243, 109, 28);\">4 or more</span> instances of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is triggered, then [effect:a485d8e2-033a-4474-983a-2db5fac82ddf] will not consume its duration.</p>",
-          "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/916c37e6fb3466ecf9ccf0336974f229a2a777194fbb12da1d578413c61fdab7.webp",
-          "createdAt": "2026-04-30T04:29:13.752Z",
-          "updatedAt": "2026-04-30T05:30:41.493Z",
-          "vertebraeName": "Null Convergence Lv.2"
-        },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 5
+        "level3": null,
+        "level4": null
       }
     ],
     "keys": [
@@ -620,29 +614,6 @@
         "createdAt": "2026-04-28T05:35:25.992Z",
         "updatedAt": "2026-04-28T05:35:25.992Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "createdAt": "2026-04-28T04:37:53.004Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            }
-          ],
-          "searchTags": [
-            "Rush B",
-            "Rodent"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Mouse Home",
         "shortId": "a59"
@@ -666,29 +637,6 @@
         "createdAt": "2026-04-28T05:33:36.533Z",
         "updatedAt": "2026-04-28T05:33:36.533Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "createdAt": "2026-04-28T04:37:53.004Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            }
-          ],
-          "searchTags": [
-            "Rush B",
-            "Rodent"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Stuart Mitty",
         "shortId": "c59"
@@ -713,29 +661,6 @@
         "createdAt": "2026-04-28T05:24:57.015Z",
         "updatedAt": "2026-04-29T05:11:53.168Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "createdAt": "2026-04-28T04:37:53.004Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            }
-          ],
-          "searchTags": [
-            "Rush B",
-            "Rodent"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Cinematic Presence",
         "shortId": "k1"
@@ -760,29 +685,6 @@
         "createdAt": "2026-04-28T05:26:00.685Z",
         "updatedAt": "2026-04-29T05:11:35.554Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "createdAt": "2026-04-28T04:37:53.004Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            }
-          ],
-          "searchTags": [
-            "Rush B",
-            "Rodent"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Disguised Performance",
         "shortId": "k2"
@@ -807,29 +709,6 @@
         "createdAt": "2026-04-28T05:26:59.183Z",
         "updatedAt": "2026-04-28T05:27:19.054Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "createdAt": "2026-04-28T04:37:53.004Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            }
-          ],
-          "searchTags": [
-            "Rush B",
-            "Rodent"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Triple Axel",
         "shortId": "k3"
@@ -854,29 +733,6 @@
         "createdAt": "2026-04-28T05:28:04.004Z",
         "updatedAt": "2026-04-29T06:05:25.736Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "createdAt": "2026-04-28T04:37:53.004Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            }
-          ],
-          "searchTags": [
-            "Rush B",
-            "Rodent"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Tearjerker Performance",
         "shortId": "k4"
@@ -901,29 +757,6 @@
         "createdAt": "2026-04-28T05:29:41.533Z",
         "updatedAt": "2026-04-30T06:31:18.284Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "createdAt": "2026-04-28T04:37:53.004Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            }
-          ],
-          "searchTags": [
-            "Rush B",
-            "Rodent"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Jump on the Bandwagon",
         "shortId": "k5"
@@ -948,29 +781,6 @@
         "createdAt": "2026-04-28T05:31:41.300Z",
         "updatedAt": "2026-04-29T05:57:55.765Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "createdAt": "2026-04-28T04:37:53.004Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            }
-          ],
-          "searchTags": [
-            "Rush B",
-            "Rodent"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Indistinguishable",
         "shortId": "k6"
@@ -987,68 +797,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/349bd6c06ae595c55ca307792cc210b1271e0ba8578d533fc4c163d0b23c65d0.webp",
         "createdAt": "2026-04-30T04:17:11.891Z",
         "updatedAt": "2026-04-30T05:24:33.577Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "Lively yet giving off a theatrical impression, she enjoys group activities, always following trends and imitating others, and dislikes being alone. When she has nothing to do, she streams with Carol, gaining audience approval through her lifelike imitations and her naturally goofy personality. She often does nonsensical things in life, but is actually very good at getting along with people and considerate of her friends' feelings. In battle, she likes to be at the forefront, muttering strange \"lines\":\r\n\"Rush B, GOGOGO!\"",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "73b9aea0-27bc-401d-bf5a-87c60827de14",
             "name": "Stunt Montage",
-            "phase": null,
             "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/349bd6c06ae595c55ca307792cc210b1271e0ba8578d533fc4c163d0b23c65d0.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2026-04-28T05:23:00.205Z",
-            "skillTags": [
-              "Passive",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2026-04-30T05:23:48.702Z",
-            "description": "<p>At the end of the allied turn, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] use [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>After Mityl or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>If the target, Mityl, or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is on a Hydro tile, gains <span style=\"color: rgb(243, 109, 28);\">1 additional point</span> of Confectance Index, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6</span> per turn.</p><p>At the start of battle, gains [effect:40f8b617-a8b6-4bbd-ba21-cb7426ea52ac]. For every <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index gained (including overflow Confectance Index), increase the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the end of the allied turn, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] use [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>After Mityl or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>If the target, Mityl, or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is on a Hydro tile, gains <span style=\"color: rgb(243, 109, 28);\">1 additional point</span> of Confectance Index, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6</span> per turn.</p><p>At the start of battle, gains [effect:40f8b617-a8b6-4bbd-ba21-cb7426ea52ac]. For every <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index gained (including overflow Confectance Index), increase the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a].</p><p>When the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a] is increased, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p>",
-            "descriptionLevel3": "<p>At the end of the allied turn, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] use [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>After Mityl or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>If the target, Mityl, or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is on a Hydro tile, gains <span style=\"color: rgb(243, 109, 28);\">1 additional point</span> of Confectance Index, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6</span> per turn.</p><p>At the start of battle, gains [effect:40f8b617-a8b6-4bbd-ba21-cb7426ea52ac]. For every <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index gained (including overflow Confectance Index), increase the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a].</p><p>When the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a] is increased, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>When a [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] uses [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f], gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:e2f16642-ab25-4015-87e7-4d16aa1c24b9].</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "81392101-edca-4897-8541-4a764ea3a8bf",
-            "vertebraeUpgradeIdLevel3": "cf6c8efd-e07a-45c6-b2a4-f1fdc9f2af90"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
@@ -1060,111 +820,24 @@
         "imageUrl": "https://cdn.dandegate.net/skills/07b34c3eae552f54233295c18ba0f7dd272c2148b55090462609600ade68bf37.webp",
         "createdAt": "2026-04-30T04:23:22.759Z",
         "updatedAt": "2026-04-30T04:24:34.408Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "Lively yet giving off a theatrical impression, she enjoys group activities, always following trends and imitating others, and dislikes being alone. When she has nothing to do, she streams with Carol, gaining audience approval through her lifelike imitations and her naturally goofy personality. She often does nonsensical things in life, but is actually very good at getting along with people and considerate of her friends' feelings. In battle, she likes to be at the forefront, muttering strange \"lines\":\r\n\"Rush B, GOGOGO!\"",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "88e47b63-2cd1-46b9-8040-97de22da703f",
             "name": "Squirrel's Hologram",
-            "phase": null,
             "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/07b34c3eae552f54233295c18ba0f7dd272c2148b55090462609600ade68bf37.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2026-04-28T04:54:30.188Z",
-            "skillTags": [
-              "Active",
-              "Tile",
-              "Summon",
-              "Teleport"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2026-04-30T05:42:02.512Z",
-            "description": "<p>Select one enemy target (excluding summons) <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>, then select one empty tile <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around that target to summon its [summon:aaa6ba96-f834-49b3-8e3b-5ffc49bc82f8], and generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> around it, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. A maximum of <span style=\"color: rgb(243, 109, 28);\">2</span> [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03]<span style=\"color: rgb(34, 139, 230);\">s</span> may exist at a time.</p><p>If the target is a Doll, Boss unit, or Large unit, [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] is summoned instead.</p><p>A [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] can also be selected <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> instead and teleported to a selected empty tile <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> of it.</p><p>After this skill resolves, Mityl gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb], which can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Select one enemy target (excluding summons) <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>, then select one empty tile <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around that target to summon its [summon:aaa6ba96-f834-49b3-8e3b-5ffc49bc82f8], and generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> around it, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. A maximum of <span style=\"color: rgb(243, 109, 28);\">2</span> [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03]<span style=\"color: rgb(34, 139, 230);\">s</span> may exist at a time.</p><p>If the target is a Doll, Boss unit, or Large unit, [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] is summoned instead.</p><p>A [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] can also be selected <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> instead and teleported to a selected empty tile <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> of it.</p><p>Each time [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is triggered, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:24bd3433-b247-4af8-8f95-2482125404d2].</p><p>After this skill resolves, Mityl gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb], which can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           },
           {
             "id": "a6c036cd-5e55-4976-a4ee-aeb1e1575f6a",
             "name": "Hologram Strike",
-            "phase": "Hydro",
             "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/8bdcef5124f6c2644f80d5e657176627aea283b6bbde9db30db6767a4c95be22.webp",
-            "summonId": "e73da99f-1c69-402a-b2d2-c9c2b2b9cac8",
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2026-04-29T05:52:31.361Z",
-            "skillTags": [
-              "Basic Attack",
-              "Targeted"
-            ],
-            "skillType": "Basic Attack",
-            "updatedAt": "2026-04-30T04:56:32.544Z",
-            "description": "<p>Selects 1 enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": "e73da99f-1c69-402a-b2d2-c9c2b2b9cac8"
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "5d5f51c2-58ca-4f0c-bbe4-338d920735ac",
@@ -1176,69 +849,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/916c37e6fb3466ecf9ccf0336974f229a2a777194fbb12da1d578413c61fdab7.webp",
         "createdAt": "2026-04-30T04:29:13.752Z",
         "updatedAt": "2026-04-30T05:30:41.493Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "Lively yet giving off a theatrical impression, she enjoys group activities, always following trends and imitating others, and dislikes being alone. When she has nothing to do, she streams with Carol, gaining audience approval through her lifelike imitations and her naturally goofy personality. She often does nonsensical things in life, but is actually very good at getting along with people and considerate of her friends' feelings. In battle, she likes to be at the forefront, muttering strange \"lines\":\r\n\"Rush B, GOGOGO!\"",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "e94b23a7-2ce5-4b4b-8364-ef19313a3631",
             "name": "Null Convergence",
-            "phase": null,
             "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-            "cooldown": 2,
-            "imageUrl": "https://cdn.dandegate.net/skills/916c37e6fb3466ecf9ccf0336974f229a2a777194fbb12da1d578413c61fdab7.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2026-04-28T05:14:58.908Z",
-            "skillTags": [
-              "Ultimate",
-              "Tile",
-              "Buff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2026-04-30T05:05:41.355Z",
-            "description": "<p>Gains [effect:a485d8e2-033a-4474-983a-2db5fac82ddf] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span> and generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> around herself, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>After this skill resolves, Mityl gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "7191f9f7-a4fe-4d59-92e9-253bacb02249",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Gains [effect:a485d8e2-033a-4474-983a-2db5fac82ddf] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span> and generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles <span style=\"color: rgb(243, 109, 28);\">within 7 tiles</span> around herself, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>After this skill resolves, Mityl gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": "d82e2509-117c-4e7a-8923-6c557024d1ce",
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "5d5f51c2-58ca-4f0c-bbe4-338d920735ac",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "c8cce1c6-40ad-46fd-811c-a8d526283579",
@@ -1250,69 +872,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/c1c01be4472d3067c271218f5092c0783655a5f66f2c77ba41db4124d5fc0c38.webp",
         "createdAt": "2026-04-30T04:42:59.072Z",
         "updatedAt": "2026-04-30T04:42:59.072Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "Lively yet giving off a theatrical impression, she enjoys group activities, always following trends and imitating others, and dislikes being alone. When she has nothing to do, she streams with Carol, gaining audience approval through her lifelike imitations and her naturally goofy personality. She often does nonsensical things in life, but is actually very good at getting along with people and considerate of her friends' feelings. In battle, she likes to be at the forefront, muttering strange \"lines\":\r\n\"Rush B, GOGOGO!\"",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "111305a5-0407-44b4-a008-71be40565fd7",
             "name": "Aerial Dash",
-            "phase": "Hydro",
             "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/c1c01be4472d3067c271218f5092c0783655a5f66f2c77ba41db4124d5fc0c38.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2026-04-28T05:09:28.652Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Displacement"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2026-04-30T05:07:01.593Z",
-            "description": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">a cross-shaped area of 3 to 6 tiles</span>, lands on the selected tile, and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the nearest enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>.</p><p>If both the tile before skill usage and the tile when dealing damage are Hydro tiles, then this skill can be used again and the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>This skill can be used again up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "e804b56e-7ed5-47ef-b815-7b755e2d066b",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 2,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[\"Active\",\"Targeted\",\"Displacement\",\"Support\"]",
-            "descriptionLevel2": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">a cross-shaped area of 3 to 6 tiles</span>, lands on the selected tile, and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to the nearest enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>.</p><p>If either the tile before skill usage or the tile when dealing damage is a Hydro tile, then this skill can be used again and the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>This skill can be used again up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
-            "descriptionLevel3": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">a cross-shaped area of 3 to 6 tiles</span>, lands on the selected tile, and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to the nearest enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>.</p><p>If either the tile before skill usage or the tile when dealing damage is a Hydro tile, then this skill can be used again and the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>This skill can be used again up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p><p>After using this skill, [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] will launch <span style=\"color: rgb(243, 109, 28);\">1</span> instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and dealing <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p>The damage dealt by [summon:aaa6ba96-f834-49b3-8e3b-5ffc49bc82f8] is increased by <span style=\"color: rgb(243, 109, 28);\">100%</span> for this turn. This effect cannot be stacked.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "c8cce1c6-40ad-46fd-811c-a8d526283579",
-            "vertebraeUpgradeIdLevel3": "15b8317d-06e5-40e9-8197-669fbdc54140"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "15b8317d-06e5-40e9-8197-669fbdc54140",
@@ -1324,69 +895,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/c1c01be4472d3067c271218f5092c0783655a5f66f2c77ba41db4124d5fc0c38.webp",
         "createdAt": "2026-04-30T04:47:21.847Z",
         "updatedAt": "2026-04-30T05:01:10.170Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "Lively yet giving off a theatrical impression, she enjoys group activities, always following trends and imitating others, and dislikes being alone. When she has nothing to do, she streams with Carol, gaining audience approval through her lifelike imitations and her naturally goofy personality. She often does nonsensical things in life, but is actually very good at getting along with people and considerate of her friends' feelings. In battle, she likes to be at the forefront, muttering strange \"lines\":\r\n\"Rush B, GOGOGO!\"",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "111305a5-0407-44b4-a008-71be40565fd7",
             "name": "Aerial Dash",
-            "phase": "Hydro",
             "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/c1c01be4472d3067c271218f5092c0783655a5f66f2c77ba41db4124d5fc0c38.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2026-04-28T05:09:28.652Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Displacement"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2026-04-30T05:07:01.593Z",
-            "description": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">a cross-shaped area of 3 to 6 tiles</span>, lands on the selected tile, and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the nearest enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>.</p><p>If both the tile before skill usage and the tile when dealing damage are Hydro tiles, then this skill can be used again and the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>This skill can be used again up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "e804b56e-7ed5-47ef-b815-7b755e2d066b",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 2,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[\"Active\",\"Targeted\",\"Displacement\",\"Support\"]",
-            "descriptionLevel2": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">a cross-shaped area of 3 to 6 tiles</span>, lands on the selected tile, and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to the nearest enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>.</p><p>If either the tile before skill usage or the tile when dealing damage is a Hydro tile, then this skill can be used again and the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>This skill can be used again up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p>",
-            "descriptionLevel3": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">a cross-shaped area of 3 to 6 tiles</span>, lands on the selected tile, and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to the nearest enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>.</p><p>If either the tile before skill usage or the tile when dealing damage is a Hydro tile, then this skill can be used again and the damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p><p>This skill can be used again up to a maximum of <span style=\"color: rgb(243, 109, 28);\">1</span> additional time.</p><p>After using this skill, [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] will launch <span style=\"color: rgb(243, 109, 28);\">1</span> instance of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and dealing <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p>The damage dealt by [summon:aaa6ba96-f834-49b3-8e3b-5ffc49bc82f8] is increased by <span style=\"color: rgb(243, 109, 28);\">100%</span> for this turn. This effect cannot be stacked.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "c8cce1c6-40ad-46fd-811c-a8d526283579",
-            "vertebraeUpgradeIdLevel3": "15b8317d-06e5-40e9-8197-669fbdc54140"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "cf6c8efd-e07a-45c6-b2a4-f1fdc9f2af90",
@@ -1398,68 +918,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/349bd6c06ae595c55ca307792cc210b1271e0ba8578d533fc4c163d0b23c65d0.webp",
         "createdAt": "2026-04-30T04:55:02.520Z",
         "updatedAt": "2026-04-30T05:12:37.423Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "Lively yet giving off a theatrical impression, she enjoys group activities, always following trends and imitating others, and dislikes being alone. When she has nothing to do, she streams with Carol, gaining audience approval through her lifelike imitations and her naturally goofy personality. She often does nonsensical things in life, but is actually very good at getting along with people and considerate of her friends' feelings. In battle, she likes to be at the forefront, muttering strange \"lines\":\r\n\"Rush B, GOGOGO!\"",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "73b9aea0-27bc-401d-bf5a-87c60827de14",
             "name": "Stunt Montage",
-            "phase": null,
             "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/349bd6c06ae595c55ca307792cc210b1271e0ba8578d533fc4c163d0b23c65d0.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2026-04-28T05:23:00.205Z",
-            "skillTags": [
-              "Passive",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2026-04-30T05:23:48.702Z",
-            "description": "<p>At the end of the allied turn, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] use [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>After Mityl or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>If the target, Mityl, or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is on a Hydro tile, gains <span style=\"color: rgb(243, 109, 28);\">1 additional point</span> of Confectance Index, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6</span> per turn.</p><p>At the start of battle, gains [effect:40f8b617-a8b6-4bbd-ba21-cb7426ea52ac]. For every <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index gained (including overflow Confectance Index), increase the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the end of the allied turn, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] use [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>After Mityl or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>If the target, Mityl, or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is on a Hydro tile, gains <span style=\"color: rgb(243, 109, 28);\">1 additional point</span> of Confectance Index, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6</span> per turn.</p><p>At the start of battle, gains [effect:40f8b617-a8b6-4bbd-ba21-cb7426ea52ac]. For every <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index gained (including overflow Confectance Index), increase the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a].</p><p>When the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a] is increased, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p>",
-            "descriptionLevel3": "<p>At the end of the allied turn, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] use [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>After Mityl or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>If the target, Mityl, or [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is on a Hydro tile, gains <span style=\"color: rgb(243, 109, 28);\">1 additional point</span> of Confectance Index, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">6</span> per turn.</p><p>At the start of battle, gains [effect:40f8b617-a8b6-4bbd-ba21-cb7426ea52ac]. For every <span style=\"color: rgb(243, 109, 28);\">4 points</span> of Confectance Index gained (including overflow Confectance Index), increase the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a].</p><p>When the rank level of [effect:91995c79-f0ef-4776-841b-87dc9ddf624a] is increased, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>When a [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] uses [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f], gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:e2f16642-ab25-4015-87e7-4d16aa1c24b9].</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "81392101-edca-4897-8541-4a764ea3a8bf",
-            "vertebraeUpgradeIdLevel3": "cf6c8efd-e07a-45c6-b2a4-f1fdc9f2af90"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [
@@ -1467,92 +937,33 @@
         "id": "e55ab1c4-8e53-4714-a984-3bd04f4efa03",
         "name": "Hologram",
         "imageUrl": "https://cdn.dandegate.net/summons/hologram/dd361aec8d452f54597c6f3535adf316ccc1bcb14bbdb5222c182bf2c286cd83.webp",
-        "stabilityGauge": 9,
-        "movement": 6,
-        "class": null,
         "phase": null,
         "ammoTypes": [],
-        "unitInfo": "<p>Mityl's summoned entity, inheriting her base attributes. Includes [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] and [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] .</p>",
-        "hp": 100,
-        "atk": 100,
-        "def": 100,
         "createdAt": "2026-04-28T04:39:07.630Z",
         "updatedAt": "2026-05-06T15:02:04.804Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
         "skillOrder": null,
-        "atkLevel2": null,
-        "atkLevel3": null,
-        "classLevel2": null,
-        "classLevel3": null,
-        "defLevel2": null,
-        "defLevel3": null,
-        "hpLevel2": null,
-        "hpLevel3": null,
-        "movementLevel2": null,
-        "movementLevel3": null,
-        "stabilityGaugeLevel2": null,
-        "stabilityGaugeLevel3": null,
-        "unitInfoLevel2": null,
-        "unitInfoLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "alt": null,
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "isActive": true,
-              "createdAt": "2026-04-28T04:37:53.004Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            },
-            {
-              "id": "f2e499f5-aacd-46d8-9d66-24b5b442e093",
-              "alt": null,
-              "category": "Card",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Card/ac44217c69a04833d60f6c1f616b136817fad53a19aa6bcb80d563fd0e6ee3bd.webp",
-              "isActive": true,
-              "createdAt": "2026-04-28T04:37:54.226Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            },
-            {
-              "id": "d7f5b07c-bd5f-4656-ae7e-f7f5d6f0722f",
-              "alt": null,
-              "category": "Skin",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Skin/28403479518a9a2313dd211f3de3681e52a6b82bb67281ef9252dbfdf58f0bd9.webp",
-              "isActive": true,
-              "createdAt": "2026-04-28T04:37:55.526Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            }
-          ]
+        "shortId": "s9",
+        "level1": {
+          "stabilityGauge": 9,
+          "movement": 6,
+          "class": null,
+          "unitInfo": "<p>Mityl's summoned entity, inheriting her base attributes. Includes [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] and [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] .</p>",
+          "hp": 100,
+          "atk": 100,
+          "def": 100
         },
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "skills": [],
-        "shortId": "s9"
+        "level2": null,
+        "level3": null,
+        "level4": null,
+        "skills": []
       },
       {
         "id": "e73da99f-1c69-402a-b2d2-c9c2b2b9cac8",
         "name": "Hologram - Clone",
         "imageUrl": "https://cdn.dandegate.net/summons/hologram-–-clone/dd361aec8d452f54597c6f3535adf316ccc1bcb14bbdb5222c182bf2c286cd83.webp",
-        "stabilityGauge": 9,
-        "movement": 6,
-        "class": null,
         "phase": null,
         "ammoTypes": [],
-        "unitInfo": "<p>Has its own skills and appearance. Considered a [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] .</p>",
-        "hp": 100,
-        "atk": 100,
-        "def": 100,
         "createdAt": "2026-04-28T04:39:09.086Z",
         "updatedAt": "2026-05-06T15:02:06.026Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
@@ -1560,282 +971,153 @@
           "a6c036cd-5e55-4976-a4ee-aeb1e1575f6a",
           "28e93f82-8a93-43f6-9e5b-fc6af142f7a5"
         ],
-        "atkLevel2": null,
-        "atkLevel3": null,
-        "classLevel2": null,
-        "classLevel3": null,
-        "defLevel2": null,
-        "defLevel3": null,
-        "hpLevel2": null,
-        "hpLevel3": null,
-        "movementLevel2": null,
-        "movementLevel3": null,
-        "stabilityGaugeLevel2": null,
-        "stabilityGaugeLevel3": null,
-        "unitInfoLevel2": null,
-        "unitInfoLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "alt": null,
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "isActive": true,
-              "createdAt": "2026-04-28T04:37:53.004Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            },
-            {
-              "id": "f2e499f5-aacd-46d8-9d66-24b5b442e093",
-              "alt": null,
-              "category": "Card",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Card/ac44217c69a04833d60f6c1f616b136817fad53a19aa6bcb80d563fd0e6ee3bd.webp",
-              "isActive": true,
-              "createdAt": "2026-04-28T04:37:54.226Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            },
-            {
-              "id": "d7f5b07c-bd5f-4656-ae7e-f7f5d6f0722f",
-              "alt": null,
-              "category": "Skin",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Skin/28403479518a9a2313dd211f3de3681e52a6b82bb67281ef9252dbfdf58f0bd9.webp",
-              "isActive": true,
-              "createdAt": "2026-04-28T04:37:55.526Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            }
-          ]
+        "shortId": "s10",
+        "level1": {
+          "stabilityGauge": 9,
+          "movement": 6,
+          "class": null,
+          "unitInfo": "<p>Has its own skills and appearance. Considered a [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] .</p>",
+          "hp": 100,
+          "atk": 100,
+          "def": 100
         },
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
+        "level2": null,
+        "level3": null,
+        "level4": null,
         "skills": [
           {
             "id": "a6c036cd-5e55-4976-a4ee-aeb1e1575f6a",
             "name": "Hologram Strike",
-            "description": "<p>Selects 1 enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it.</p>",
-            "phase": "Hydro",
-            "ammoTypes": "[\"Light Ammo\"]",
-            "stabilityDamage": 2,
-            "cooldown": null,
-            "confectanceCost": null,
             "imageUrl": "https://cdn.dandegate.net/skills/8bdcef5124f6c2644f80d5e657176627aea283b6bbde9db30db6767a4c95be22.webp",
             "createdAt": "2026-04-29T05:52:31.361Z",
             "updatedAt": "2026-04-30T04:56:32.544Z",
             "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
             "summonId": "e73da99f-1c69-402a-b2d2-c9c2b2b9cac8",
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "vertebraeUpgradeIdLevel2": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
-            "vertebraeUpgradeIdLevel3": null,
-            "skillTags": [
-              "Basic Attack",
-              "Targeted"
-            ],
             "keyUpgradesData": "[]",
             "keyUpgradesType": "keys",
             "skillType": "Basic Attack",
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "descriptionLevel2": "<p>Selects 1 enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it.</p>",
-            "descriptionLevel3": null,
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "doll": {
-              "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-              "name": "Mityl",
-              "rarity": "Elite",
-              "preview": false,
-              "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-              "createdAt": "2026-04-28T04:37:50.854Z",
-              "regionTag": "cn",
-              "updatedAt": "2026-05-06T15:02:02.174Z"
+            "shortId": 1,
+            "level1": {
+              "description": "<p>Selects 1 enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it.</p>",
+              "phase": "Hydro",
+              "ammoTypes": "[\"Light Ammo\"]",
+              "stabilityDamage": 2,
+              "cooldown": null,
+              "confectanceCost": null,
+              "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+              "skillTags": [
+                "Basic Attack",
+                "Targeted"
+              ],
+              "rangeMap": {
+                "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+                "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+                "createdAt": "2025-09-13T06:00:32.207Z",
+                "updatedAt": "2025-09-13T06:00:32.207Z",
+                "rangeValue": "6",
+                "effectiveArea": "Target"
+              }
             },
-            "rangeMap": {
-              "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-              "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-              "createdAt": "2025-09-13T06:00:32.207Z",
-              "updatedAt": "2025-09-13T06:00:32.207Z",
-              "rangeValue": "6",
-              "effectiveArea": "Target"
+            "level2": {
+              "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+              "vertebraeUpgradeId": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
+              "ammoTypes": "[\"Light Ammo\"]",
+              "confectanceCost": null,
+              "cooldown": null,
+              "description": "<p>Selects 1 enemy target <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it.</p>",
+              "phase": "Hydro",
+              "skillTags": [
+                "Basic Attack",
+                "Targeted"
+              ],
+              "stabilityDamage": 2,
+              "rangeMap": {
+                "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+                "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+                "createdAt": "2025-09-13T06:00:32.207Z",
+                "updatedAt": "2025-09-13T06:00:32.207Z",
+                "rangeValue": "6",
+                "effectiveArea": "Target"
+              },
+              "vertebraeUpgrade": {
+                "id": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
+                "level": 1,
+                "effect": "<p>Each time [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is triggered, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:24bd3433-b247-4af8-8f95-2482125404d2].</p><p>The damage multiplier of the [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8]'s basic attack [skillsummon:a6c036cd-5e55-4976-a4ee-aeb1e1575f6a] is increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>.</p>",
+                "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+                "segment": 2,
+                "imageUrl": "https://cdn.dandegate.net/skills/07b34c3eae552f54233295c18ba0f7dd272c2148b55090462609600ade68bf37.webp",
+                "createdAt": "2026-04-30T04:23:22.759Z",
+                "updatedAt": "2026-04-30T04:24:34.408Z",
+                "vertebraeName": "Squirrel's Arc Shadow Lv.1"
+              }
             },
-            "rangeMapLevel2": null,
-            "rangeMapLevel3": null,
-            "vertebraeUpgradeLevel2": {
-              "id": "5301cc1d-0766-483c-a7bd-3467fa2a0072",
-              "level": 1,
-              "effect": "<p>Each time [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is triggered, [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:24bd3433-b247-4af8-8f95-2482125404d2].</p><p>The damage multiplier of the [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8]'s basic attack [skillsummon:a6c036cd-5e55-4976-a4ee-aeb1e1575f6a] is increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>.</p>",
-              "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-              "segment": 2,
-              "imageUrl": "https://cdn.dandegate.net/skills/07b34c3eae552f54233295c18ba0f7dd272c2148b55090462609600ade68bf37.webp",
-              "createdAt": "2026-04-30T04:23:22.759Z",
-              "updatedAt": "2026-04-30T04:24:34.408Z",
-              "vertebraeName": "Squirrel's Arc Shadow Lv.1"
-            },
-            "vertebraeUpgradeLevel3": null,
-            "shortId": 1
+            "level3": null,
+            "level4": null
           },
           {
             "id": "28e93f82-8a93-43f6-9e5b-fc6af142f7a5",
             "name": "Data Regression",
-            "description": "<p>When casting [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f], recovers <span style=\"color: rgb(243, 109, 28);\">50%</span> of max HP, and increase its max HP by <span style=\"color: rgb(243, 109, 28);\">5%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "phase": null,
-            "ammoTypes": "[]",
-            "stabilityDamage": null,
-            "cooldown": null,
-            "confectanceCost": null,
             "imageUrl": "https://cdn.dandegate.net/skills/11a31155c5ff495d055920cde4b7cafcaa6a15a3aded8b475e6b0911362522e3.webp",
             "createdAt": "2026-04-30T05:33:03.541Z",
             "updatedAt": "2026-04-30T05:33:03.541Z",
             "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
             "summonId": "e73da99f-1c69-402a-b2d2-c9c2b2b9cac8",
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "vertebraeUpgradeIdLevel2": null,
-            "vertebraeUpgradeIdLevel3": null,
-            "skillTags": [
-              "Passive"
-            ],
             "keyUpgradesData": "[]",
             "keyUpgradesType": "keys",
             "skillType": "Passive",
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "doll": {
-              "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-              "name": "Mityl",
-              "rarity": "Elite",
-              "preview": false,
-              "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-              "createdAt": "2026-04-28T04:37:50.854Z",
-              "regionTag": "cn",
-              "updatedAt": "2026-05-06T15:02:02.174Z"
+            "shortId": 2,
+            "level1": {
+              "description": "<p>When casting [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f], recovers <span style=\"color: rgb(243, 109, 28);\">50%</span> of max HP, and increase its max HP by <span style=\"color: rgb(243, 109, 28);\">5%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+              "phase": null,
+              "ammoTypes": "[]",
+              "stabilityDamage": null,
+              "cooldown": null,
+              "confectanceCost": null,
+              "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+              "skillTags": [
+                "Passive"
+              ],
+              "rangeMap": {
+                "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+                "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+                "createdAt": "2025-09-13T05:48:21.166Z",
+                "updatedAt": "2025-09-13T05:48:21.166Z",
+                "rangeValue": "Self",
+                "effectiveArea": "Target"
+              }
             },
-            "rangeMap": {
-              "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-              "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-              "createdAt": "2025-09-13T05:48:21.166Z",
-              "updatedAt": "2025-09-13T05:48:21.166Z",
-              "rangeValue": "Self",
-              "effectiveArea": "Target"
-            },
-            "rangeMapLevel2": null,
-            "rangeMapLevel3": null,
-            "vertebraeUpgradeLevel2": null,
-            "vertebraeUpgradeLevel3": null,
-            "shortId": 2
+            "level2": null,
+            "level3": null,
+            "level4": null
           }
-        ],
-        "shortId": "s10"
+        ]
       },
       {
         "id": "aaa6ba96-f834-49b3-8e3b-5ffc49bc82f8",
         "name": "Hologram - Mimic",
         "imageUrl": "https://cdn.dandegate.net/summons/hologram---mimic/feb8becdcce23fdc405a693d7d7e80fa3fb013c392d880afb9743694eb43b467.webp",
-        "stabilityGauge": 9,
-        "movement": 6,
-        "class": null,
         "phase": null,
         "ammoTypes": [],
-        "unitInfo": "<p>Copies the target's skills and appearance. Considered a [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] .</p>",
-        "hp": 100,
-        "atk": 100,
-        "def": 100,
         "createdAt": "2026-04-29T05:35:24.331Z",
         "updatedAt": "2026-05-06T15:02:07.438Z",
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
         "skillOrder": [
           "f042551c-2d39-4b2c-8c93-c968a8940ffc"
         ],
-        "atkLevel2": null,
-        "atkLevel3": null,
-        "classLevel2": null,
-        "classLevel3": null,
-        "defLevel2": null,
-        "defLevel3": null,
-        "hpLevel2": null,
-        "hpLevel3": null,
-        "movementLevel2": null,
-        "movementLevel3": null,
-        "stabilityGaugeLevel2": null,
-        "stabilityGaugeLevel3": null,
-        "unitInfoLevel2": null,
-        "unitInfoLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "alt": null,
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "isActive": true,
-              "createdAt": "2026-04-28T04:37:53.004Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            },
-            {
-              "id": "f2e499f5-aacd-46d8-9d66-24b5b442e093",
-              "alt": null,
-              "category": "Card",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Card/ac44217c69a04833d60f6c1f616b136817fad53a19aa6bcb80d563fd0e6ee3bd.webp",
-              "isActive": true,
-              "createdAt": "2026-04-28T04:37:54.226Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            },
-            {
-              "id": "d7f5b07c-bd5f-4656-ae7e-f7f5d6f0722f",
-              "alt": null,
-              "category": "Skin",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Skin/28403479518a9a2313dd211f3de3681e52a6b82bb67281ef9252dbfdf58f0bd9.webp",
-              "isActive": true,
-              "createdAt": "2026-04-28T04:37:55.526Z",
-              "updatedAt": "2026-04-29T02:02:53.364Z"
-            }
-          ]
+        "shortId": "s11",
+        "level1": {
+          "stabilityGauge": 9,
+          "movement": 6,
+          "class": null,
+          "unitInfo": "<p>Copies the target's skills and appearance. Considered a [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] .</p>",
+          "hp": 100,
+          "atk": 100,
+          "def": 100
         },
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "skills": [],
-        "shortId": "s11"
+        "level2": null,
+        "level3": null,
+        "level4": null,
+        "skills": []
       }
     ],
     "remoldingPattern": {
@@ -1955,78 +1237,28 @@
         "preview": false,
         "regionTag": "cn",
         "createdAt": "2026-04-30T04:54:23.373Z",
-        "updatedAt": "2026-04-30T05:14:22.994Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Rush B"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Rodent"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2026-04-30T05:14:22.994Z"
       },
       {
         "id": "c9bfaae1-8aa9-417b-92dc-817d427b2a7f",
         "effectName": "Convergence Resonance",
-        "effectDetails": "{\"mainDetails\":\"<p>Deals <span style=\\\"color: rgb(43, 171, 218);\\\">Hydro damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">40%</span> of attack to all enemy units <span style=\\\"color: rgb(243, 109, 28);\\\">within 5 tiles</span> and deals <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of stability damage.</p><p>Triggers a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">10</span> times per turn.</p>\",\"upgrades\":[{\"id\":\"31799b56-bbfd-4f5b-b537-bfb15034a5db\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>Deals <span style=\\\"color: rgb(43, 171, 218);\\\">Hydro damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span> of attack to all enemy units <span style=\\\"color: rgb(243, 109, 28);\\\">within 5 tiles</span> and deals <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of stability damage to all targets and applies [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] to all targets for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>.</p><p>Triggers a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">10</span> times per turn.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">40%</span> of attack to all enemy units <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> and deals <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage.</p><p>Triggers a maximum of <span style=\"color: rgb(243, 109, 28);\">10</span> times per turn.</p>",
+          "upgrades": [
+            {
+              "id": "31799b56-bbfd-4f5b-b537-bfb15034a5db",
+              "upgradeName": "V1",
+              "upgradeDetails": "<p>Deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to all enemy units <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> and deals <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to all targets and applies [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] to all targets for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Triggers a maximum of <span style=\"color: rgb(243, 109, 28);\">10</span> times per turn.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [],
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
         "preview": false,
         "regionTag": "cn",
         "createdAt": "2026-04-29T06:08:35.898Z",
-        "updatedAt": "2026-04-30T05:18:08.605Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Rush B"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Rodent"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2026-04-30T05:18:08.605Z"
       },
       {
         "id": "672a73b6-685d-460b-b77c-1af04c6cdd07",
@@ -2037,78 +1269,28 @@
         "preview": false,
         "regionTag": "cn",
         "createdAt": "2026-04-29T06:05:02.792Z",
-        "updatedAt": "2026-04-29T06:05:02.792Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Rush B"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Rodent"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2026-04-29T06:05:02.792Z"
       },
       {
         "id": "c88b2002-c9fb-4786-bf40-b07ec0d6d91d",
         "effectName": "Legendary Star",
-        "effectDetails": "{\"mainDetails\":\"<p>Damage dealt by the user and their [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span> for every allied units on the field (excluding the user), up to a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">40%</span>. This buff cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"513506c0-3eca-4a9d-94b9-a0c6aa264172\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>Damage dealt by the user and their [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span> for every allied units on the field (excluding the user), up to a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">40%</span>. </p><p>For every 4 points of Confectance Index gained, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> instance of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f]. </p><p>This buff cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Damage dealt by the user and their [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span> for every allied units on the field (excluding the user), up to a maximum of <span style=\"color: rgb(243, 109, 28);\">40%</span>. This buff cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "513506c0-3eca-4a9d-94b9-a0c6aa264172",
+              "upgradeName": "V6",
+              "upgradeDetails": "<p>Damage dealt by the user and their [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span> for every allied units on the field (excluding the user), up to a maximum of <span style=\"color: rgb(243, 109, 28);\">40%</span>. </p><p>For every 4 points of Confectance Index gained, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1</span> instance of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f]. </p><p>This buff cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [],
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
         "preview": false,
         "regionTag": "cn",
         "createdAt": "2026-04-29T06:23:34.702Z",
-        "updatedAt": "2026-04-30T05:22:15.759Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Rush B"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Rodent"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2026-04-30T05:22:15.759Z"
       },
       {
         "id": "40f8b617-a8b6-4bbd-ba21-cb7426ea52ac",
@@ -2119,78 +1301,28 @@
         "preview": false,
         "regionTag": "cn",
         "createdAt": "2026-04-29T06:10:05.195Z",
-        "updatedAt": "2026-04-29T06:10:05.195Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Rush B"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Rodent"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2026-04-29T06:10:05.195Z"
       },
       {
         "id": "a485d8e2-033a-4474-983a-2db5fac82ddf",
         "effectName": "Saturation Overflow",
-        "effectDetails": "{\"mainDetails\":\"<p>Increase the attack of the buff holder by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span>.</p><p>After casting [dollSkill:111305a5-0407-44b4-a008-71be40565fd7], generate [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles with a <span style=\\\"color: rgb(243, 109, 28);\\\">5-tile-wide</span> area along the path for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>.</p><p>After using [dollSkill:111305a5-0407-44b4-a008-71be40565fd7], all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> instance of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>This buff cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"ad05b525-f85e-47cb-af40-c47eeda86be9\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>Increase the attack of the buff holder and their [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] by <span style=\\\"color: rgb(243, 109, 28);\\\">40%</span>.</p><p>After casting [dollSkill:111305a5-0407-44b4-a008-71be40565fd7], generate [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles with a <span style=\\\"color: rgb(243, 109, 28);\\\">5-tile-wide</span> area along the path for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>.</p><p>After using [dollSkill:111305a5-0407-44b4-a008-71be40565fd7], all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> instance of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>If <span style=\\\"color: rgb(243, 109, 28);\\\">4 or more</span> instances of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is triggered, then this effect will not consume its duration.</p><p>This buff cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Increase the attack of the buff holder by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>After casting [dollSkill:111305a5-0407-44b4-a008-71be40565fd7], generate [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles with a <span style=\"color: rgb(243, 109, 28);\">5-tile-wide</span> area along the path for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>After using [dollSkill:111305a5-0407-44b4-a008-71be40565fd7], all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1</span> instance of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>This buff cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "ad05b525-f85e-47cb-af40-c47eeda86be9",
+              "upgradeName": "V3",
+              "upgradeDetails": "<p>Increase the attack of the buff holder and their [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] by <span style=\"color: rgb(243, 109, 28);\">40%</span>.</p><p>After casting [dollSkill:111305a5-0407-44b4-a008-71be40565fd7], generate [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] tiles with a <span style=\"color: rgb(243, 109, 28);\">5-tile-wide</span> area along the path for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>After using [dollSkill:111305a5-0407-44b4-a008-71be40565fd7], all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1</span> instance of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f].</p><p>If <span style=\"color: rgb(243, 109, 28);\">4 or more</span> instances of [effect:c9bfaae1-8aa9-417b-92dc-817d427b2a7f] is triggered, then this effect will not consume its duration.</p><p>This buff cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [],
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
         "preview": false,
         "regionTag": "cn",
         "createdAt": "2026-04-30T04:36:45.102Z",
-        "updatedAt": "2026-04-30T05:30:04.848Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Rush B"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Rodent"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2026-04-30T05:30:04.848Z"
       },
       {
         "id": "91995c79-f0ef-4776-841b-87dc9ddf624a",
@@ -2201,37 +1333,7 @@
         "preview": false,
         "regionTag": "cn",
         "createdAt": "2026-04-29T06:19:58.291Z",
-        "updatedAt": "2026-04-30T05:13:36.738Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Rush B"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Rodent"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2026-04-30T05:13:36.738Z"
       },
       {
         "id": "50b52244-8f12-4b40-88da-8b2c24498c4f",
@@ -2242,37 +1344,7 @@
         "preview": false,
         "regionTag": "cn",
         "createdAt": "2026-04-29T06:22:41.777Z",
-        "updatedAt": "2026-04-29T06:22:41.777Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Rush B"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Rodent"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2026-04-29T06:22:41.777Z"
       },
       {
         "id": "24bd3433-b247-4af8-8f95-2482125404d2",
@@ -2283,37 +1355,43 @@
         "preview": false,
         "regionTag": "cn",
         "createdAt": "2026-04-30T04:21:05.498Z",
-        "updatedAt": "2026-04-30T04:23:17.492Z",
-        "doll": {
-          "id": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
-          "name": "Mityl",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/mityl/8663ef09a3c23cbe4e3756145274fb124e6abb8617fc50c09e3077b6810d666a.webp",
-          "createdAt": "2026-04-28T04:37:50.854Z",
-          "regionTag": "cn",
-          "updatedAt": "2026-05-06T15:02:02.174Z",
-          "dollImages": [
-            {
-              "id": "4af2b5ff-e8ed-4118-9098-c0fb1df83fee",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/85be0409f2947aa1d1cb934463a8054ecee36bd700c42c37f9fdebf1b258561e.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Rush B"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Rodent"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2026-04-30T04:23:17.492Z"
+      },
+      {
+        "id": "a7a2cc2b-3078-4d27-bafc-f20b389335c0",
+        "effectName": "Tideway",
+        "effectDetails": "<p>Applies [effect:7dec35ce-d8cc-443e-8a4e-410233b3cda6] to units which end their movement in this area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Enemy units in this area gain a weakness to <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>. Considered a Hydro tile.</p>",
+        "effectTags": [
+          "Hydro",
+          "Weakness"
+        ],
+        "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:50:07.621Z",
+        "updatedAt": "2025-11-03T16:02:52.756Z"
+      },
+      {
+        "id": "c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb",
+        "effectName": "Extra Command",
+        "effectDetails": "<p>Commands other than movement can be executed.</p>",
+        "effectTags": [],
+        "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T19:42:00.107Z",
+        "updatedAt": "2025-09-14T19:42:00.107Z"
+      },
+      {
+        "id": "ab2e634f-d257-44e3-af90-ce66a6ac43f3",
+        "effectName": "Support Action",
+        "effectDetails": "<p>Performs a Support Attack; cannot be triggered by another Support Attack.</p>",
+        "effectTags": [],
+        "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:08:04.163Z",
+        "updatedAt": "2025-09-11T00:08:04.163Z"
       }
     ],
     "shortId": "d59"

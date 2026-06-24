@@ -76,366 +76,389 @@
       {
         "id": "808ee407-cee3-4b3e-8364-71c5e8b1f117",
         "name": "Live Interaction",
-        "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and deal physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Shotgun Ammo\"]",
-        "stabilityDamage": 1,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/0dd7d626736621041f11c0effa34c828.webp",
         "createdAt": "2025-09-20T05:16:37.385Z",
         "updatedAt": "2025-10-30T16:09:36.121Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
         "summonId": null,
-        "rangeMapId": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757744243604-r5et.webp",
-          "createdAt": "2025-09-13T06:17:23.709Z",
-          "updatedAt": "2025-09-13T06:17:23.709Z",
-          "rangeValue": "5",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and deal physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "stabilityDamage": 1,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744243604-r5et.webp",
+            "createdAt": "2025-09-13T06:17:23.709Z",
+            "updatedAt": "2025-09-13T06:17:23.709Z",
+            "rangeValue": "5",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "3e969fde-b49b-4d0f-9a85-8ae5a65b219a",
         "name": "Idol Talent",
-        "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each instance</span> of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Damage dealt to targets with movement debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/73fb9c83959eea1a6e837dbbad47d7b7.webp",
         "createdAt": "2025-09-20T05:18:32.326Z",
         "updatedAt": "2025-10-14T07:06:57.193Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
         "summonId": null,
-        "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "dd103112-419c-4170-b4e8-78722d3b37ed",
-        "vertebraeUpgradeIdLevel3": "b022ff71-c03e-40d0-a5c7-df6ebd017783",
-        "skillTags": [
-          "Passive",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each instance</span> of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Damage dealt to targets with movement debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. If this unit moved <span style=\"color: rgb(243, 109, 28);\">3 or more tiles</span>, applies [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before attacking. </p>",
-        "descriptionLevel3": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each instance</span> of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Damage dealt to targets with movement debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. If this unit moved <span style=\"color: rgb(243, 109, 28);\">3 or more tiles</span>, applies [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before attacking. If the target has movement debuffs, applies [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
-          "createdAt": "2025-09-13T06:39:18.350Z",
-          "updatedAt": "2025-09-20T22:07:05.813Z",
-          "rangeValue": "Map",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each instance</span> of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Damage dealt to targets with movement debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+          "skillTags": [
+            "Passive",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
+            "createdAt": "2025-09-13T06:39:18.350Z",
+            "updatedAt": "2025-09-20T22:07:05.813Z",
+            "rangeValue": "Map",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "dd103112-419c-4170-b4e8-78722d3b37ed",
-          "level": 2,
-          "effect": "<p>If this unit moved <span style=\"color: rgb(243, 109, 28);\">3 or more tiles</span><span>, applies [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] to the target before attacking.</span></p>",
-          "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/73fb9c83959eea1a6e837dbbad47d7b7.webp",
-          "createdAt": "2025-09-20T05:51:12.285Z",
-          "updatedAt": "2025-10-14T07:06:00.067Z",
-          "vertebraeName": "Idol Talent Lv.2"
+        "level2": {
+          "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+          "vertebraeUpgradeId": "dd103112-419c-4170-b4e8-78722d3b37ed",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each instance</span> of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Damage dealt to targets with movement debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. If this unit moved <span style=\"color: rgb(243, 109, 28);\">3 or more tiles</span>, applies [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before attacking. </p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Debuff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
+            "createdAt": "2025-09-13T06:39:18.350Z",
+            "updatedAt": "2025-09-20T22:07:05.813Z",
+            "rangeValue": "Map",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "dd103112-419c-4170-b4e8-78722d3b37ed",
+            "level": 2,
+            "effect": "<p>If this unit moved <span style=\"color: rgb(243, 109, 28);\">3 or more tiles</span><span>, applies [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] to the target before attacking.</span></p>",
+            "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/73fb9c83959eea1a6e837dbbad47d7b7.webp",
+            "createdAt": "2025-09-20T05:51:12.285Z",
+            "updatedAt": "2025-10-14T07:06:00.067Z",
+            "vertebraeName": "Idol Talent Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "b022ff71-c03e-40d0-a5c7-df6ebd017783",
-          "level": 3,
-          "effect": "<p>If the target has movement debuffs, applies [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
-          "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/73fb9c83959eea1a6e837dbbad47d7b7.webp",
-          "createdAt": "2025-09-20T05:51:54.737Z",
-          "updatedAt": "2025-10-14T07:05:59.715Z",
-          "vertebraeName": "Idol Talent Lv.3"
+        "level3": {
+          "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+          "vertebraeUpgradeId": "b022ff71-c03e-40d0-a5c7-df6ebd017783",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each instance</span> of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Damage dealt to targets with movement debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. If this unit moved <span style=\"color: rgb(243, 109, 28);\">3 or more tiles</span>, applies [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before attacking. If the target has movement debuffs, applies [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Debuff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
+            "createdAt": "2025-09-13T06:39:18.350Z",
+            "updatedAt": "2025-09-20T22:07:05.813Z",
+            "rangeValue": "Map",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "b022ff71-c03e-40d0-a5c7-df6ebd017783",
+            "level": 3,
+            "effect": "<p>If the target has movement debuffs, applies [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+            "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/73fb9c83959eea1a6e837dbbad47d7b7.webp",
+            "createdAt": "2025-09-20T05:51:54.737Z",
+            "updatedAt": "2025-10-14T07:05:59.715Z",
+            "vertebraeName": "Idol Talent Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "81a9e2bd-69c8-41d1-b99c-3f4410fde30d",
         "name": "All Out Performance",
-        "description": "<p>Select 1 direction and deal AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack to the first enemy target in each line within a <span style=\"color: rgb(243, 109, 28);\">3x5 area in the chosen direction</span> and knock those targets back by <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>. </p><p>Simultaneously, destroy destructible Cover within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around the user.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Shotgun Ammo\"]",
-        "stabilityDamage": 1,
-        "cooldown": 2,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/a59328e3748a005936c3fb7e606997ad.webp",
         "createdAt": "2025-09-20T05:16:53.495Z",
         "updatedAt": "2025-10-14T07:07:01.735Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
         "summonId": null,
-        "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "ab083a4f-16ee-4ca3-ab77-ce1788f2223d",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "AoE",
-          "Cover Destruction",
-          "Displacement"
-        ],
         "keyUpgradesData": "[\"909ab127-4062-4ee3-88c1-04454a65c344\",\"ee3a37ef-2457-435c-b4aa-f86f9ac63ebc\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Select 1 direction and deal AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack to the first enemy target in each line within a <span style=\"color: rgb(243, 109, 28);\">3x5 area in the chosen direction</span> and knock those targets back by <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>. </p><p>Simultaneously, destroy destructible Cover within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around the user. If <span style=\"color: rgb(243, 109, 28);\">2</span> or more targets are hit, gain <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "543d2984-4f29-4331-9291-dbe6ba1773a3",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1759018029369-range1effectnull.webp",
-          "createdAt": "2025-09-28T00:07:09.531Z",
-          "updatedAt": "2025-09-28T00:07:09.531Z",
-          "rangeValue": "1",
-          "effectiveArea": "--"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Select 1 direction and deal AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack to the first enemy target in each line within a <span style=\"color: rgb(243, 109, 28);\">3x5 area in the chosen direction</span> and knock those targets back by <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>. </p><p>Simultaneously, destroy destructible Cover within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around the user.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "stabilityDamage": 1,
+          "cooldown": 2,
+          "confectanceCost": null,
+          "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Cover Destruction",
+            "Displacement"
+          ],
+          "rangeMap": {
+            "id": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1759018029369-range1effectnull.webp",
+            "createdAt": "2025-09-28T00:07:09.531Z",
+            "updatedAt": "2025-09-28T00:07:09.531Z",
+            "rangeValue": "1",
+            "effectiveArea": "--"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "ab083a4f-16ee-4ca3-ab77-ce1788f2223d",
-          "level": 2,
-          "effect": "<p>If <span style=\"color: rgb(243, 109, 28);\">2</span><span> or more targets are hit, gain </span><span style=\"color: rgb(243, 109, 28);\">3 tiles</span><span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</span></p>",
-          "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/a59328e3748a005936c3fb7e606997ad.webp",
-          "createdAt": "2025-09-20T05:49:07.241Z",
-          "updatedAt": "2025-10-14T07:05:55.721Z",
-          "vertebraeName": "All Out Performance Lv.2"
+        "level2": {
+          "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+          "vertebraeUpgradeId": "ab083a4f-16ee-4ca3-ab77-ce1788f2223d",
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>Select 1 direction and deal AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack to the first enemy target in each line within a <span style=\"color: rgb(243, 109, 28);\">3x5 area in the chosen direction</span> and knock those targets back by <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>. </p><p>Simultaneously, destroy destructible Cover within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around the user. If <span style=\"color: rgb(243, 109, 28);\">2</span> or more targets are hit, gain <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Cover Destruction",
+            "Displacement"
+          ],
+          "stabilityDamage": 1,
+          "rangeMap": {
+            "id": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1759018029369-range1effectnull.webp",
+            "createdAt": "2025-09-28T00:07:09.531Z",
+            "updatedAt": "2025-09-28T00:07:09.531Z",
+            "rangeValue": "1",
+            "effectiveArea": "--"
+          },
+          "vertebraeUpgrade": {
+            "id": "ab083a4f-16ee-4ca3-ab77-ce1788f2223d",
+            "level": 2,
+            "effect": "<p>If <span style=\"color: rgb(243, 109, 28);\">2</span><span> or more targets are hit, gain </span><span style=\"color: rgb(243, 109, 28);\">3 tiles</span><span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</span></p>",
+            "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/a59328e3748a005936c3fb7e606997ad.webp",
+            "createdAt": "2025-09-20T05:49:07.241Z",
+            "updatedAt": "2025-10-14T07:05:55.721Z",
+            "vertebraeName": "All Out Performance Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "465d4664-dcaa-42aa-90e0-419a9400e2b4",
         "name": "Exclusive Stage",
-        "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and deal physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to it. If the target is not protected by Cover, cleanse <span style=\"color: rgb(243, 109, 28);\">2</span> of its buffs before attacking.</p>",
-        "phase": "Physical",
-        "ammoTypes": null,
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": 1,
         "imageUrl": "https://cdn.dandegate.net/skills/87b1601c866254d531a5676432c38a58.webp",
         "createdAt": "2025-09-20T05:17:27.383Z",
         "updatedAt": "2025-09-20T06:00:36.007Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
         "summonId": null,
-        "rangeMapId": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "b5c4a747-a2e4-4ea6-81ec-cc9f8c20737d",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Cleanse"
-        ],
         "keyUpgradesData": "[\"e997ff8c-5318-434b-aed3-2a13e2bece16\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and deal physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to it. If the target has movement debuffs, increase critical rate by <span style=\"color: rgb(243, 109, 28);\">100%</span>. If the target is not protected by Cover, cleanse <span style=\"color: rgb(243, 109, 28);\">2</span> of its buffs before attacking.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757744243604-r5et.webp",
-          "createdAt": "2025-09-13T06:17:23.709Z",
-          "updatedAt": "2025-09-13T06:17:23.709Z",
-          "rangeValue": "5",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and deal physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to it. If the target is not protected by Cover, cleanse <span style=\"color: rgb(243, 109, 28);\">2</span> of its buffs before attacking.</p>",
+          "phase": "Physical",
+          "ammoTypes": null,
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": 1,
+          "rangeMapId": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Cleanse"
+          ],
+          "rangeMap": {
+            "id": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744243604-r5et.webp",
+            "createdAt": "2025-09-13T06:17:23.709Z",
+            "updatedAt": "2025-09-13T06:17:23.709Z",
+            "rangeValue": "5",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "b5c4a747-a2e4-4ea6-81ec-cc9f8c20737d",
-          "level": 2,
-          "effect": "<p>If the target has movement debuffs, increase critical rate by <span style=\"color: rgb(243, 109, 28);\">100%</span><span>.</span></p>",
-          "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/87b1601c866254d531a5676432c38a58.webp",
-          "createdAt": "2025-09-20T05:49:46.134Z",
-          "updatedAt": "2025-09-20T05:53:06.860Z",
-          "vertebraeName": "Exclusive Stage Lv.2"
+        "level2": {
+          "rangeMapId": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
+          "vertebraeUpgradeId": "b5c4a747-a2e4-4ea6-81ec-cc9f8c20737d",
+          "ammoTypes": null,
+          "confectanceCost": 1,
+          "cooldown": null,
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and deal physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to it. If the target has movement debuffs, increase critical rate by <span style=\"color: rgb(243, 109, 28);\">100%</span>. If the target is not protected by Cover, cleanse <span style=\"color: rgb(243, 109, 28);\">2</span> of its buffs before attacking.</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Cleanse"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744243604-r5et.webp",
+            "createdAt": "2025-09-13T06:17:23.709Z",
+            "updatedAt": "2025-09-13T06:17:23.709Z",
+            "rangeValue": "5",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "b5c4a747-a2e4-4ea6-81ec-cc9f8c20737d",
+            "level": 2,
+            "effect": "<p>If the target has movement debuffs, increase critical rate by <span style=\"color: rgb(243, 109, 28);\">100%</span><span>.</span></p>",
+            "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/87b1601c866254d531a5676432c38a58.webp",
+            "createdAt": "2025-09-20T05:49:46.134Z",
+            "updatedAt": "2025-09-20T05:53:06.860Z",
+            "vertebraeName": "Exclusive Stage Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "49ddf3ed-312c-44a7-bffd-1d001aef96ca",
         "name": "Infectious Enthusiasm",
-        "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> to attack, dealing AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applying [effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] and [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": 4,
         "imageUrl": "https://cdn.dandegate.net/skills/f8fd955980abed120b82c9e68d7200d3.webp",
         "createdAt": "2025-09-20T05:18:01.282Z",
         "updatedAt": "2025-11-03T18:04:59.902Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
         "summonId": null,
-        "rangeMapId": "a33a8a3a-c5e0-4b4f-96f8-43d339d766db",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "18d79509-44cd-4ebb-99b9-975c963f03f1",
-        "vertebraeUpgradeIdLevel3": "2e1c6797-da10-4c50-8caf-81e9aadc06cd",
-        "skillTags": [
-          "Ultimate",
-          "AoE",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> to attack, applying [effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, dealing AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applying [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
-        "descriptionLevel3": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> to attack, applying [effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, dealing AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applying [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If only 1 target is hit, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[\"Ultimate\",\"AoE\",\"Debuff\",\"Control\"]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a33a8a3a-c5e0-4b4f-96f8-43d339d766db",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757744278638-r5e2.webp",
-          "createdAt": "2025-09-13T06:17:58.749Z",
-          "updatedAt": "2025-09-13T06:17:58.749Z",
-          "rangeValue": "5",
-          "effectiveArea": "2"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> to attack, dealing AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applying [effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] and [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": 4,
+          "rangeMapId": "a33a8a3a-c5e0-4b4f-96f8-43d339d766db",
+          "skillTags": [
+            "Ultimate",
+            "AoE",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "a33a8a3a-c5e0-4b4f-96f8-43d339d766db",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744278638-r5e2.webp",
+            "createdAt": "2025-09-13T06:17:58.749Z",
+            "updatedAt": "2025-09-13T06:17:58.749Z",
+            "rangeValue": "5",
+            "effectiveArea": "2"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "18d79509-44cd-4ebb-99b9-975c963f03f1",
-          "level": 2,
-          "effect": "<p>[effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] is now applied before the attack instead of after.</p>",
-          "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/f8fd955980abed120b82c9e68d7200d3.webp",
-          "createdAt": "2025-09-20T05:50:25.799Z",
-          "updatedAt": "2025-10-14T07:05:59.542Z",
-          "vertebraeName": "Infectious Enthusiasm Lv.2"
+        "level2": {
+          "rangeMapId": "a33a8a3a-c5e0-4b4f-96f8-43d339d766db",
+          "vertebraeUpgradeId": "18d79509-44cd-4ebb-99b9-975c963f03f1",
+          "ammoTypes": "[]",
+          "confectanceCost": 4,
+          "cooldown": null,
+          "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> to attack, applying [effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, dealing AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applying [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Ultimate",
+            "AoE",
+            "Debuff"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "a33a8a3a-c5e0-4b4f-96f8-43d339d766db",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744278638-r5e2.webp",
+            "createdAt": "2025-09-13T06:17:58.749Z",
+            "updatedAt": "2025-09-13T06:17:58.749Z",
+            "rangeValue": "5",
+            "effectiveArea": "2"
+          },
+          "vertebraeUpgrade": {
+            "id": "18d79509-44cd-4ebb-99b9-975c963f03f1",
+            "level": 2,
+            "effect": "<p>[effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] is now applied before the attack instead of after.</p>",
+            "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/f8fd955980abed120b82c9e68d7200d3.webp",
+            "createdAt": "2025-09-20T05:50:25.799Z",
+            "updatedAt": "2025-10-14T07:05:59.542Z",
+            "vertebraeName": "Infectious Enthusiasm Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "2e1c6797-da10-4c50-8caf-81e9aadc06cd",
-          "level": 3,
-          "effect": "<p>If only 1 target is hit, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
-          "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/f8fd955980abed120b82c9e68d7200d3.webp",
-          "createdAt": "2025-09-20T05:52:45.899Z",
-          "updatedAt": "2025-10-14T07:05:59.893Z",
-          "vertebraeName": "Infectious Enthusiasm Lv.3"
+        "level3": {
+          "rangeMapId": "a33a8a3a-c5e0-4b4f-96f8-43d339d766db",
+          "vertebraeUpgradeId": "2e1c6797-da10-4c50-8caf-81e9aadc06cd",
+          "ammoTypes": "[]",
+          "confectanceCost": 4,
+          "cooldown": null,
+          "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> to attack, applying [effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, dealing AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applying [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If only 1 target is hit, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": "Physical",
+          "skillTags": "[\"Ultimate\",\"AoE\",\"Debuff\",\"Control\"]",
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "a33a8a3a-c5e0-4b4f-96f8-43d339d766db",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744278638-r5e2.webp",
+            "createdAt": "2025-09-13T06:17:58.749Z",
+            "updatedAt": "2025-09-13T06:17:58.749Z",
+            "rangeValue": "5",
+            "effectiveArea": "2"
+          },
+          "vertebraeUpgrade": {
+            "id": "2e1c6797-da10-4c50-8caf-81e9aadc06cd",
+            "level": 3,
+            "effect": "<p>If only 1 target is hit, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+            "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/f8fd955980abed120b82c9e68d7200d3.webp",
+            "createdAt": "2025-09-20T05:52:45.899Z",
+            "updatedAt": "2025-10-14T07:05:59.893Z",
+            "vertebraeName": "Infectious Enthusiasm Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -458,26 +481,6 @@
         "createdAt": "2025-09-20T06:26:05.311Z",
         "updatedAt": "2025-09-27T06:18:56.840Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "dollImages": [
-            {
-              "id": "69f5334c-c1a9-45ab-b0e1-debbb06ef25d",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/vepley/chibi-272a6263ef24df5c6d5113e31aca9f14.webp",
-              "createdAt": "2025-09-27T06:14:24.626Z",
-              "updatedAt": "2025-09-27T06:14:24.626Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Grand Debut",
         "shortId": "a52"
@@ -501,26 +504,6 @@
         "createdAt": "2025-09-20T05:12:09.835Z",
         "updatedAt": "2025-09-27T06:18:47.555Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "dollImages": [
-            {
-              "id": "69f5334c-c1a9-45ab-b0e1-debbb06ef25d",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/vepley/chibi-272a6263ef24df5c6d5113e31aca9f14.webp",
-              "createdAt": "2025-09-27T06:14:24.626Z",
-              "updatedAt": "2025-09-27T06:14:24.626Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Heart Melting Strike",
         "shortId": "c52"
@@ -544,26 +527,6 @@
         "createdAt": "2025-09-20T05:14:35.465Z",
         "updatedAt": "2025-10-14T07:06:32.209Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "dollImages": [
-            {
-              "id": "69f5334c-c1a9-45ab-b0e1-debbb06ef25d",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/vepley/chibi-272a6263ef24df5c6d5113e31aca9f14.webp",
-              "createdAt": "2025-09-27T06:14:24.626Z",
-              "updatedAt": "2025-09-27T06:14:24.626Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Idol Steps",
         "shortId": "k1"
@@ -588,26 +551,6 @@
         "createdAt": "2025-09-20T05:01:18.214Z",
         "updatedAt": "2025-09-20T05:01:18.214Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "dollImages": [
-            {
-              "id": "69f5334c-c1a9-45ab-b0e1-debbb06ef25d",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/vepley/chibi-272a6263ef24df5c6d5113e31aca9f14.webp",
-              "createdAt": "2025-09-27T06:14:24.626Z",
-              "updatedAt": "2025-09-27T06:14:24.626Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Safe Viewing Distance",
         "shortId": "k2"
@@ -632,26 +575,6 @@
         "createdAt": "2025-09-20T05:02:28.510Z",
         "updatedAt": "2025-09-20T05:02:28.510Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "dollImages": [
-            {
-              "id": "69f5334c-c1a9-45ab-b0e1-debbb06ef25d",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/vepley/chibi-272a6263ef24df5c6d5113e31aca9f14.webp",
-              "createdAt": "2025-09-27T06:14:24.626Z",
-              "updatedAt": "2025-09-27T06:14:24.626Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Contamination Zone Tour",
         "shortId": "k3"
@@ -676,26 +599,6 @@
         "createdAt": "2025-09-20T05:03:52.366Z",
         "updatedAt": "2025-10-14T07:06:29.935Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "dollImages": [
-            {
-              "id": "69f5334c-c1a9-45ab-b0e1-debbb06ef25d",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/vepley/chibi-272a6263ef24df5c6d5113e31aca9f14.webp",
-              "createdAt": "2025-09-27T06:14:24.626Z",
-              "updatedAt": "2025-09-27T06:14:24.626Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Fortune of an Idol",
         "shortId": "k4"
@@ -720,26 +623,6 @@
         "createdAt": "2025-09-20T05:07:57.731Z",
         "updatedAt": "2025-09-20T05:07:57.731Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "dollImages": [
-            {
-              "id": "69f5334c-c1a9-45ab-b0e1-debbb06ef25d",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/vepley/chibi-272a6263ef24df5c6d5113e31aca9f14.webp",
-              "createdAt": "2025-09-27T06:14:24.626Z",
-              "updatedAt": "2025-09-27T06:14:24.626Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Dino Dash",
         "shortId": "k5"
@@ -764,26 +647,6 @@
         "createdAt": "2025-09-20T05:08:53.706Z",
         "updatedAt": "2025-09-20T05:08:53.706Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "dollImages": [
-            {
-              "id": "69f5334c-c1a9-45ab-b0e1-debbb06ef25d",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/vepley/chibi-272a6263ef24df5c6d5113e31aca9f14.webp",
-              "createdAt": "2025-09-27T06:14:24.626Z",
-              "updatedAt": "2025-09-27T06:14:24.626Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Stress Resistance Training",
         "shortId": "k6"
@@ -808,26 +671,6 @@
         "createdAt": "2025-09-20T05:10:56.864Z",
         "updatedAt": "2025-09-20T05:10:56.864Z",
         "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "dollImages": [
-            {
-              "id": "69f5334c-c1a9-45ab-b0e1-debbb06ef25d",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/vepley/chibi-272a6263ef24df5c6d5113e31aca9f14.webp",
-              "createdAt": "2025-09-27T06:14:24.626Z",
-              "updatedAt": "2025-09-27T06:14:24.626Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Stage Commitment",
         "shortId": "k7"
@@ -844,70 +687,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/a59328e3748a005936c3fb7e606997ad.webp",
         "createdAt": "2025-09-20T05:49:07.241Z",
         "updatedAt": "2025-10-14T07:05:55.721Z",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "An idol who shines on the unique stage, the \"battlefield\"! She prepares meiculously every day for her next performance - this way, she will not easily trip or bump into others again.",
-          "preview": false,
-          "movement": 8,
-          "ammoTypes": "[\"Shotgun Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "81a9e2bd-69c8-41d1-b99c-3f4410fde30d",
             "name": "All Out Performance",
-            "phase": "Physical",
             "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-            "cooldown": 2,
-            "imageUrl": "https://cdn.dandegate.net/skills/a59328e3748a005936c3fb7e606997ad.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Shotgun Ammo\"]",
-            "createdAt": "2025-09-20T05:16:53.495Z",
-            "skillTags": [
-              "Active",
-              "AoE",
-              "Cover Destruction",
-              "Displacement"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-14T07:07:01.735Z",
-            "description": "<p>Select 1 direction and deal AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack to the first enemy target in each line within a <span style=\"color: rgb(243, 109, 28);\">3x5 area in the chosen direction</span> and knock those targets back by <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>. </p><p>Simultaneously, destroy destructible Cover within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around the user.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 1,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"909ab127-4062-4ee3-88c1-04454a65c344\",\"ee3a37ef-2457-435c-b4aa-f86f9ac63ebc\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Select 1 direction and deal AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack to the first enemy target in each line within a <span style=\"color: rgb(243, 109, 28);\">3x5 area in the chosen direction</span> and knock those targets back by <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>. </p><p>Simultaneously, destroy destructible Cover within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around the user. If <span style=\"color: rgb(243, 109, 28);\">2</span> or more targets are hit, gain <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "ab083a4f-16ee-4ca3-ab77-ce1788f2223d",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "b5c4a747-a2e4-4ea6-81ec-cc9f8c20737d",
@@ -919,69 +710,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/87b1601c866254d531a5676432c38a58.webp",
         "createdAt": "2025-09-20T05:49:46.134Z",
         "updatedAt": "2025-09-20T05:53:06.860Z",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "An idol who shines on the unique stage, the \"battlefield\"! She prepares meiculously every day for her next performance - this way, she will not easily trip or bump into others again.",
-          "preview": false,
-          "movement": 8,
-          "ammoTypes": "[\"Shotgun Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "465d4664-dcaa-42aa-90e0-419a9400e2b4",
             "name": "Exclusive Stage",
-            "phase": "Physical",
             "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/87b1601c866254d531a5676432c38a58.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-20T05:17:27.383Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Cleanse"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-09-20T06:00:36.007Z",
-            "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and deal physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to it. If the target is not protected by Cover, cleanse <span style=\"color: rgb(243, 109, 28);\">2</span> of its buffs before attacking.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "0f2ec55c-ccbe-49b9-acf7-53e28a1e5454",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 1,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"e997ff8c-5318-434b-aed3-2a13e2bece16\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and deal physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to it. If the target has movement debuffs, increase critical rate by <span style=\"color: rgb(243, 109, 28);\">100%</span>. If the target is not protected by Cover, cleanse <span style=\"color: rgb(243, 109, 28);\">2</span> of its buffs before attacking.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "b5c4a747-a2e4-4ea6-81ec-cc9f8c20737d",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "18d79509-44cd-4ebb-99b9-975c963f03f1",
@@ -993,69 +733,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/f8fd955980abed120b82c9e68d7200d3.webp",
         "createdAt": "2025-09-20T05:50:25.799Z",
         "updatedAt": "2025-10-14T07:05:59.542Z",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "An idol who shines on the unique stage, the \"battlefield\"! She prepares meiculously every day for her next performance - this way, she will not easily trip or bump into others again.",
-          "preview": false,
-          "movement": 8,
-          "ammoTypes": "[\"Shotgun Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "49ddf3ed-312c-44a7-bffd-1d001aef96ca",
             "name": "Infectious Enthusiasm",
-            "phase": "Physical",
             "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/f8fd955980abed120b82c9e68d7200d3.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-20T05:18:01.282Z",
-            "skillTags": [
-              "Ultimate",
-              "AoE",
-              "Debuff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-03T18:04:59.902Z",
-            "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> to attack, dealing AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applying [effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] and [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a33a8a3a-c5e0-4b4f-96f8-43d339d766db",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 4,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[\"Ultimate\",\"AoE\",\"Debuff\",\"Control\"]",
-            "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> to attack, applying [effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, dealing AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applying [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
-            "descriptionLevel3": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> to attack, applying [effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, dealing AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applying [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If only 1 target is hit, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "18d79509-44cd-4ebb-99b9-975c963f03f1",
-            "vertebraeUpgradeIdLevel3": "2e1c6797-da10-4c50-8caf-81e9aadc06cd"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "dd103112-419c-4170-b4e8-78722d3b37ed",
@@ -1067,68 +756,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/73fb9c83959eea1a6e837dbbad47d7b7.webp",
         "createdAt": "2025-09-20T05:51:12.285Z",
         "updatedAt": "2025-10-14T07:06:00.067Z",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "An idol who shines on the unique stage, the \"battlefield\"! She prepares meiculously every day for her next performance - this way, she will not easily trip or bump into others again.",
-          "preview": false,
-          "movement": 8,
-          "ammoTypes": "[\"Shotgun Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "3e969fde-b49b-4d0f-9a85-8ae5a65b219a",
             "name": "Idol Talent",
-            "phase": null,
             "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/73fb9c83959eea1a6e837dbbad47d7b7.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-20T05:18:32.326Z",
-            "skillTags": [
-              "Passive",
-              "Debuff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:06:57.193Z",
-            "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each instance</span> of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Damage dealt to targets with movement debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each instance</span> of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Damage dealt to targets with movement debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. If this unit moved <span style=\"color: rgb(243, 109, 28);\">3 or more tiles</span>, applies [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before attacking. </p>",
-            "descriptionLevel3": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each instance</span> of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Damage dealt to targets with movement debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. If this unit moved <span style=\"color: rgb(243, 109, 28);\">3 or more tiles</span>, applies [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before attacking. If the target has movement debuffs, applies [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "dd103112-419c-4170-b4e8-78722d3b37ed",
-            "vertebraeUpgradeIdLevel3": "b022ff71-c03e-40d0-a5c7-df6ebd017783"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "b022ff71-c03e-40d0-a5c7-df6ebd017783",
@@ -1140,68 +779,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/73fb9c83959eea1a6e837dbbad47d7b7.webp",
         "createdAt": "2025-09-20T05:51:54.737Z",
         "updatedAt": "2025-10-14T07:05:59.715Z",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "An idol who shines on the unique stage, the \"battlefield\"! She prepares meiculously every day for her next performance - this way, she will not easily trip or bump into others again.",
-          "preview": false,
-          "movement": 8,
-          "ammoTypes": "[\"Shotgun Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "3e969fde-b49b-4d0f-9a85-8ae5a65b219a",
             "name": "Idol Talent",
-            "phase": null,
             "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/73fb9c83959eea1a6e837dbbad47d7b7.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-20T05:18:32.326Z",
-            "skillTags": [
-              "Passive",
-              "Debuff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:06:57.193Z",
-            "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each instance</span> of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Damage dealt to targets with movement debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each instance</span> of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Damage dealt to targets with movement debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. If this unit moved <span style=\"color: rgb(243, 109, 28);\">3 or more tiles</span>, applies [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before attacking. </p>",
-            "descriptionLevel3": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each instance</span> of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Damage dealt to targets with movement debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. If this unit moved <span style=\"color: rgb(243, 109, 28);\">3 or more tiles</span>, applies [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before attacking. If the target has movement debuffs, applies [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "dd103112-419c-4170-b4e8-78722d3b37ed",
-            "vertebraeUpgradeIdLevel3": "b022ff71-c03e-40d0-a5c7-df6ebd017783"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "2e1c6797-da10-4c50-8caf-81e9aadc06cd",
@@ -1213,69 +802,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/f8fd955980abed120b82c9e68d7200d3.webp",
         "createdAt": "2025-09-20T05:52:45.899Z",
         "updatedAt": "2025-10-14T07:05:59.893Z",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "An idol who shines on the unique stage, the \"battlefield\"! She prepares meiculously every day for her next performance - this way, she will not easily trip or bump into others again.",
-          "preview": false,
-          "movement": 8,
-          "ammoTypes": "[\"Shotgun Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "49ddf3ed-312c-44a7-bffd-1d001aef96ca",
             "name": "Infectious Enthusiasm",
-            "phase": "Physical",
             "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/f8fd955980abed120b82c9e68d7200d3.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-20T05:18:01.282Z",
-            "skillTags": [
-              "Ultimate",
-              "AoE",
-              "Debuff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-03T18:04:59.902Z",
-            "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> to attack, dealing AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applying [effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] and [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a33a8a3a-c5e0-4b4f-96f8-43d339d766db",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 4,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[\"Ultimate\",\"AoE\",\"Debuff\",\"Control\"]",
-            "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> to attack, applying [effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, dealing AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applying [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
-            "descriptionLevel3": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> to attack, applying [effect:b322b1fd-06e1-424b-8b1b-65bdaf96b4f4] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, dealing AoE physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and applying [effect:cc1ca7a9-6314-4501-86b9-4f88892c00a6] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If only 1 target is hit, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "18d79509-44cd-4ebb-99b9-975c963f03f1",
-            "vertebraeUpgradeIdLevel3": "2e1c6797-da10-4c50-8caf-81e9aadc06cd"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1398,26 +936,75 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-20T05:46:39.127Z",
-        "updatedAt": "2025-11-03T15:13:03.681Z",
-        "doll": {
-          "id": "428bf11a-5632-4600-9112-92e644ab0701",
-          "name": "Vepley",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/vepley/0a93e07e67849ff13ebeb3d1ff47414c.webp",
-          "createdAt": "2025-09-20T04:54:42.012Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T06:14:24.706Z",
-          "dollImages": [
-            {
-              "id": "69f5334c-c1a9-45ab-b0e1-debbb06ef25d",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/vepley/chibi-272a6263ef24df5c6d5113e31aca9f14.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2025-11-03T15:13:03.681Z"
+      },
+      {
+        "id": "4776f3a1-92cb-4e79-b018-35433bfdc6e2",
+        "effectName": "Movement Down II",
+        "effectDetails": "<p>Mobility decreased by<span style=\"color: rgb(243, 109, 28);\"> 2 tiles</span>. Movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Movement"
+        ],
+        "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:32:24.079Z",
+        "updatedAt": "2025-11-03T05:42:27.501Z"
+      },
+      {
+        "id": "42d85a9b-2025-4f14-b4c2-df25f9c11bd3",
+        "effectName": "Movement Denied",
+        "effectDetails": "<p>Unable to move. Considered a movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Movement"
+        ],
+        "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:25:58.311Z",
+        "updatedAt": "2025-11-03T05:59:35.540Z"
+      },
+      {
+        "id": "1b83587d-eddc-4abd-b90c-cb0aa4b2cfef",
+        "effectName": "Additional Movement",
+        "effectDetails": "<p>Can move once, but cannot use any other commands.</p>",
+        "effectTags": [
+          "Movement"
+        ],
+        "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:30:54.242Z",
+        "updatedAt": "2025-11-06T06:30:55.814Z"
+      },
+      {
+        "id": "cc1ca7a9-6314-4501-86b9-4f88892c00a6",
+        "effectName": "Vulnerable II",
+        "effectDetails": "<p>Increase damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>. This is considered a defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:15:12.237Z",
+        "updatedAt": "2025-11-03T16:11:26.806Z"
+      },
+      {
+        "id": "dd0752a2-37c4-47ba-91ad-2dc640d2372b",
+        "effectName": "Stun",
+        "effectDetails": "<p>Unable to act.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "428bf11a-5632-4600-9112-92e644ab0701",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T03:49:59.941Z",
+        "updatedAt": "2025-11-03T15:54:17.616Z"
       }
     ],
     "shortId": "d52"

@@ -72,49 +72,14 @@
       {
         "id": "203681ec-921a-4a98-9f1a-87d3fd31a2c0",
         "name": "Charged Shot",
-        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it, and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phase": "Electric",
-        "ammoTypes": null,
-        "stabilityDamage": 1,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/0c6bff206d31cbec735f043aae7214d3.webp",
         "createdAt": "2025-09-26T02:07:06.873Z",
         "updatedAt": "2025-10-14T07:07:12.423Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
         "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one enemy unit within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span><span>, dealing </span><span style=\"color: rgb(213, 173, 13);\">Electric damage</span><span> equal to </span><span style=\"color: rgb(243, 109, 28);\">100%</span><span> of attack and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": "Electric",
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "preview": false
-        },
         "summon": {
           "hp": 50,
           "id": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
@@ -132,140 +97,114 @@
           "updatedAt": "2025-10-14T07:08:07.673Z",
           "stabilityGauge": 0
         },
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "level1": {
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it, and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": "Electric",
+          "ammoTypes": null,
+          "stabilityDamage": 1,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": {
-          "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
-          "createdAt": "2025-09-13T05:51:44.706Z",
-          "updatedAt": "2025-09-13T05:51:44.706Z",
-          "rangeValue": "7",
-          "effectiveArea": "Target"
+        "level2": {
+          "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+          "vertebraeUpgradeId": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Selects one enemy unit within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span><span>, dealing </span><span style=\"color: rgb(213, 173, 13);\">Electric damage</span><span> equal to </span><span style=\"color: rgb(243, 109, 28);\">100%</span><span> of attack and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
+          "phase": "Electric",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 1,
+          "rangeMap": {
+            "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
+            "createdAt": "2025-09-13T05:51:44.706Z",
+            "updatedAt": "2025-09-13T05:51:44.706Z",
+            "rangeValue": "7",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+            "level": 2,
+            "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+            "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
+            "createdAt": "2025-09-26T01:19:51.773Z",
+            "updatedAt": "2025-10-14T07:06:23.005Z",
+            "vertebraeName": "Gentle Offensive Lv.2"
+          }
         },
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-          "level": 2,
-          "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-          "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
-          "createdAt": "2025-09-26T01:19:51.773Z",
-          "updatedAt": "2025-10-14T07:06:23.005Z",
-          "vertebraeName": "Gentle Offensive Lv.2"
-        },
-        "vertebraeUpgradeLevel3": null
+        "level3": null,
+        "level4": null
       },
       {
         "id": "23309b86-4d30-4f24-b8e4-6a1b1e7059ad",
         "name": "Practice Shot",
-        "description": "<p>Selects 1 target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 4,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/63b49075ab3d00d2059e009ab52a4306.webp",
         "createdAt": "2025-09-26T00:39:58.588Z",
         "updatedAt": "2025-10-31T03:12:13.221Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
         "summonId": null,
-        "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
-          "createdAt": "2025-09-13T05:51:44.706Z",
-          "updatedAt": "2025-09-13T05:51:44.706Z",
-          "rangeValue": "7",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 4,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
+            "createdAt": "2025-09-13T05:51:44.706Z",
+            "updatedAt": "2025-09-13T05:51:44.706Z",
+            "rangeValue": "7",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "119d6a84-2397-4485-9229-67979941e299",
         "name": "Crash Mimicry",
-        "description": "<p>Cannot be healed or shielded. Immune to [effect:5e16965e-d995-425c-9ba5-8ace79df7840] effects and will not be automatically targeted by the enemy.</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/88ca8fc3b400a8b5b1b3d9d8d112e3b2.webp",
         "createdAt": "2025-09-26T02:09:41.264Z",
         "updatedAt": "2025-10-14T07:06:51.394Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
         "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Passive"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p><span style=\"color: rgb(213, 173, 13);\">Electric damage</span> deal is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span><span>. </span>Cannot be healed or shielded. Immune to [effect:5e16965e-d995-425c-9ba5-8ace79df7840] effects and will not be automatically targeted by the enemy.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "preview": false
-        },
         "summon": {
           "hp": 50,
           "id": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
@@ -283,155 +222,177 @@
           "updatedAt": "2025-10-14T07:08:07.673Z",
           "stabilityGauge": 0
         },
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "level1": {
+          "description": "<p>Cannot be healed or shielded. Immune to [effect:5e16965e-d995-425c-9ba5-8ace79df7840] effects and will not be automatically targeted by the enemy.</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-          "level": 2,
-          "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-          "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
-          "createdAt": "2025-09-26T01:19:51.773Z",
-          "updatedAt": "2025-10-14T07:06:23.005Z",
-          "vertebraeName": "Gentle Offensive Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p><span style=\"color: rgb(213, 173, 13);\">Electric damage</span> deal is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span><span>. </span>Cannot be healed or shielded. Immune to [effect:5e16965e-d995-425c-9ba5-8ace79df7840] effects and will not be automatically targeted by the enemy.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+            "level": 2,
+            "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+            "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
+            "createdAt": "2025-09-26T01:19:51.773Z",
+            "updatedAt": "2025-10-14T07:06:23.005Z",
+            "vertebraeName": "Gentle Offensive Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null
+        "level3": null,
+        "level4": null
       },
       {
         "id": "fe351577-45e0-46b8-bff6-7b6c7a22be67",
         "name": "Delayed Response",
-        "description": "<p>At the start of the battle, Andoris gains [effect:86f58c59-130f-43b4-a94a-36c572b371ea]. This effect can only trigger again after <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an allied unit with [effect:f3c29056-b252-443d-bf3d-55462b514967] takes damage, Andoris shares <span style=\"color: rgb(243, 109, 28);\">45%</span> of the [effect:27f19bae-b7f0-4d81-bb6c-fee2348458b4] with it. When performing an active attack on an enemy target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Andoris recovers <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP.</p><p>When taking damage, Andoris recovers <span style=\"color: rgb(243, 109, 28);\">5%</span> of maximum HP, grants <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to self and all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> on the field. If not protected by Cover, Andoris expends <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability and reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/98784cbf5bde4dfcd813fceef38e751d.webp",
         "createdAt": "2025-09-26T01:10:53.224Z",
         "updatedAt": "2025-11-01T19:24:57.228Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "414b49a9-5bc1-488d-aac5-b56250478f58",
-        "vertebraeUpgradeIdLevel3": "a038c11d-8607-4bee-b997-6da2097df9ed",
-        "skillTags": [
-          "Passive",
-          "Sharing",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>At the start of the battle, Andoris attack and that of all [effect:344566f5-70f6-44bd-8255-fbc4b6b29ac3]<span style=\"color: rgb(34, 139, 230);\">s</span> are increased by a number equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Andoris' initial defense and Andoris gains [effect:86f58c59-130f-43b4-a94a-36c572b371ea]. This effect can only trigger again after<span style=\"color: rgb(243, 109, 28);\"> 3 turns</span>.</p><p>When an allied unit with [effect:f3c29056-b252-443d-bf3d-55462b514967] takes damage, Andoris shares <span style=\"color: rgb(243, 109, 28);\">45%</span> of the [effect:27f19bae-b7f0-4d81-bb6c-fee2348458b4] with it. When performing an active attack on an enemy target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Andoris recovers <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP.</p><p>When taking damage, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span><span>,</span> Andoris recovers <span style=\"color: rgb(243, 109, 28);\">5% </span>of maximum HP, grants <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:40a28bbb-9230-4976-966f-39431d332e30] to self and all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> on the field. If not protected by Cover, Andoris expends <span style=\"color: rgb(243, 109, 28);\">1 point </span>of stability and reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>When [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is damaged, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to it and Andoris.</p>",
-        "descriptionLevel3": "<p>At the start of the battle, Andoris' attack and that of all [effect:344566f5-70f6-44bd-8255-fbc4b6b29ac3]<span style=\"color: rgb(34, 139, 230);\">s</span> are increased by a number equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Andoris' initial defense. Andoris' maximum stability is increased by<span style=\"color: rgb(243, 109, 28);\"> 6</span>. Andoris gains [effect:86f58c59-130f-43b4-a94a-36c572b371ea]. This effect can only trigger again after <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. When an allied unit with [effect:f3c29056-b252-443d-bf3d-55462b514967] takes damage, Andoris shares <span style=\"color: rgb(243, 109, 28);\">45%</span> of the [effect:27f19bae-b7f0-4d81-bb6c-fee2348458b4] with it. When performing an active attack on an enemy target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Andoris recovers <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP.</p><p>When taking damage, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>, Andoris recovers <span style=\"color: rgb(243, 109, 28);\">5%</span> of maximum HP, grants <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to self and all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> on the field. If not protected by Cover, Andoris expends <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability and reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>When any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is damaged, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to it and Andoris.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>At the start of the battle, Andoris gains [effect:86f58c59-130f-43b4-a94a-36c572b371ea]. This effect can only trigger again after <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an allied unit with [effect:f3c29056-b252-443d-bf3d-55462b514967] takes damage, Andoris shares <span style=\"color: rgb(243, 109, 28);\">45%</span> of the [effect:27f19bae-b7f0-4d81-bb6c-fee2348458b4] with it. When performing an active attack on an enemy target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Andoris recovers <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP.</p><p>When taking damage, Andoris recovers <span style=\"color: rgb(243, 109, 28);\">5%</span> of maximum HP, grants <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to self and all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> on the field. If not protected by Cover, Andoris expends <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability and reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Sharing",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "414b49a9-5bc1-488d-aac5-b56250478f58",
-          "level": 2,
-          "effect": "<p>New effects: Stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point.</span> At the start of the battle, Andoris' attack and that of all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> are increased by a number equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Andoris' initial defense. When any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is damaged applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to it and Andoris. The effect of [effect:40a28bbb-9230-4976-966f-39431d332e30] is enhanced: Defense boost multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>, and the maximum number of stacks is increased by <span style=\"color: rgb(243, 109, 28);\">3</span>.</p>",
-          "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/98784cbf5bde4dfcd813fceef38e751d.webp",
-          "createdAt": "2025-09-26T01:47:09.043Z",
-          "updatedAt": "2025-10-14T07:06:19.480Z",
-          "vertebraeName": "Delayed Response Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "414b49a9-5bc1-488d-aac5-b56250478f58",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of the battle, Andoris attack and that of all [effect:344566f5-70f6-44bd-8255-fbc4b6b29ac3]<span style=\"color: rgb(34, 139, 230);\">s</span> are increased by a number equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Andoris' initial defense and Andoris gains [effect:86f58c59-130f-43b4-a94a-36c572b371ea]. This effect can only trigger again after<span style=\"color: rgb(243, 109, 28);\"> 3 turns</span>.</p><p>When an allied unit with [effect:f3c29056-b252-443d-bf3d-55462b514967] takes damage, Andoris shares <span style=\"color: rgb(243, 109, 28);\">45%</span> of the [effect:27f19bae-b7f0-4d81-bb6c-fee2348458b4] with it. When performing an active attack on an enemy target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Andoris recovers <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP.</p><p>When taking damage, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span><span>,</span> Andoris recovers <span style=\"color: rgb(243, 109, 28);\">5% </span>of maximum HP, grants <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:40a28bbb-9230-4976-966f-39431d332e30] to self and all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> on the field. If not protected by Cover, Andoris expends <span style=\"color: rgb(243, 109, 28);\">1 point </span>of stability and reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>When [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is damaged, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to it and Andoris.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Sharing",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "414b49a9-5bc1-488d-aac5-b56250478f58",
+            "level": 2,
+            "effect": "<p>New effects: Stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point.</span> At the start of the battle, Andoris' attack and that of all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> are increased by a number equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Andoris' initial defense. When any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is damaged applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to it and Andoris. The effect of [effect:40a28bbb-9230-4976-966f-39431d332e30] is enhanced: Defense boost multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>, and the maximum number of stacks is increased by <span style=\"color: rgb(243, 109, 28);\">3</span>.</p>",
+            "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/98784cbf5bde4dfcd813fceef38e751d.webp",
+            "createdAt": "2025-09-26T01:47:09.043Z",
+            "updatedAt": "2025-10-14T07:06:19.480Z",
+            "vertebraeName": "Delayed Response Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "a038c11d-8607-4bee-b997-6da2097df9ed",
-          "level": 3,
-          "effect": "<p>At the start of the battle, max stability is increased by <span style=\"color: rgb(243, 109, 28);\">6</span><span>. The effect of [effect:86f58c59-130f-43b4-a94a-36c572b371ea] is enhanced: When taking fatal damage, Andoris recovers </span><span style=\"color: rgb(243, 109, 28);\">60%</span><span> of maximum HP, all stability, and gains [effect:d7897b0c-5cd7-4f39-9ec2-b678468be52f] for </span><span style=\"color: rgb(243, 109, 28);\">2 rounds</span><span>.</span></p>",
-          "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/98784cbf5bde4dfcd813fceef38e751d.webp",
-          "createdAt": "2025-09-26T01:51:15.070Z",
-          "updatedAt": "2025-10-14T07:06:15.112Z",
-          "vertebraeName": "Delayed Response Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "a038c11d-8607-4bee-b997-6da2097df9ed",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of the battle, Andoris' attack and that of all [effect:344566f5-70f6-44bd-8255-fbc4b6b29ac3]<span style=\"color: rgb(34, 139, 230);\">s</span> are increased by a number equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Andoris' initial defense. Andoris' maximum stability is increased by<span style=\"color: rgb(243, 109, 28);\"> 6</span>. Andoris gains [effect:86f58c59-130f-43b4-a94a-36c572b371ea]. This effect can only trigger again after <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. When an allied unit with [effect:f3c29056-b252-443d-bf3d-55462b514967] takes damage, Andoris shares <span style=\"color: rgb(243, 109, 28);\">45%</span> of the [effect:27f19bae-b7f0-4d81-bb6c-fee2348458b4] with it. When performing an active attack on an enemy target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Andoris recovers <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP.</p><p>When taking damage, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>, Andoris recovers <span style=\"color: rgb(243, 109, 28);\">5%</span> of maximum HP, grants <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to self and all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> on the field. If not protected by Cover, Andoris expends <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability and reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>When any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is damaged, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to it and Andoris.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Sharing",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "a038c11d-8607-4bee-b997-6da2097df9ed",
+            "level": 3,
+            "effect": "<p>At the start of the battle, max stability is increased by <span style=\"color: rgb(243, 109, 28);\">6</span><span>. The effect of [effect:86f58c59-130f-43b4-a94a-36c572b371ea] is enhanced: When taking fatal damage, Andoris recovers </span><span style=\"color: rgb(243, 109, 28);\">60%</span><span> of maximum HP, all stability, and gains [effect:d7897b0c-5cd7-4f39-9ec2-b678468be52f] for </span><span style=\"color: rgb(243, 109, 28);\">2 rounds</span><span>.</span></p>",
+            "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/98784cbf5bde4dfcd813fceef38e751d.webp",
+            "createdAt": "2025-09-26T01:51:15.070Z",
+            "updatedAt": "2025-10-14T07:06:15.112Z",
+            "vertebraeName": "Delayed Response Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "b37ed520-7950-49da-a645-a7de1e3c46a7",
         "name": "En Passant",
-        "description": "<p>When an enemy within range takes targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] performs 1 [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage , and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p><span style=\"color: rgb(34, 139, 230);\">Note: This skill is inactive until V1.</span></p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/46f1cf8b012d74ce18f55746f008a051.webp",
         "createdAt": "2025-09-26T02:15:14.339Z",
         "updatedAt": "2025-10-15T22:35:20.023Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
         "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Passive",
-          "Support"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>When an enemy within range takes targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] performs 1 [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage , and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "preview": false
-        },
         "summon": {
           "hp": 50,
           "id": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
@@ -449,74 +410,74 @@
           "updatedAt": "2025-10-14T07:08:07.673Z",
           "stabilityGauge": 0
         },
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "level1": {
+          "description": "<p>When an enemy within range takes targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] performs 1 [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage , and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p><span style=\"color: rgb(34, 139, 230);\">Note: This skill is inactive until V1.</span></p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Support"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-          "level": 2,
-          "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-          "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
-          "createdAt": "2025-09-26T01:19:51.773Z",
-          "updatedAt": "2025-10-14T07:06:23.005Z",
-          "vertebraeName": "Gentle Offensive Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>When an enemy within range takes targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] performs 1 [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage , and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Support"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+            "level": 2,
+            "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+            "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
+            "createdAt": "2025-09-26T01:19:51.773Z",
+            "updatedAt": "2025-10-14T07:06:23.005Z",
+            "vertebraeName": "Gentle Offensive Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null
+        "level3": null,
+        "level4": null
       },
       {
         "id": "18a77273-1e7e-4f43-a137-e101b3693cd5",
         "name": "Info Relay",
-        "description": "<p>At the end of the action, applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to <span style=\"color: rgb(243, 109, 28);\">2 </span><span>enemies within </span><span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/4ed1241b2286c941b0a7ab8760ed2465.webp",
         "createdAt": "2025-09-26T02:08:31.423Z",
         "updatedAt": "2025-10-14T07:06:52.095Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
         "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Passive",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "preview": false
-        },
         "summon": {
           "hp": 50,
           "id": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
@@ -534,246 +495,274 @@
           "updatedAt": "2025-10-14T07:08:07.673Z",
           "stabilityGauge": 0
         },
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "level1": {
+          "description": "<p>At the end of the action, applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to <span style=\"color: rgb(243, 109, 28);\">2 </span><span>enemies within </span><span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Passive",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "34d25c61-fe02-42c9-8987-ca631f0cd770",
         "name": "Gentle Offensive",
-        "description": "<p>Summons one [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on an empty tile within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">2</span>. When more than <span style=\"color: rgb(243, 109, 28);\">2</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> are created, the earliest created [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] self-destructs. Whenever any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] dies, Andoris gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This skill can be used again after being used.</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": 3,
         "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
         "createdAt": "2025-09-26T00:43:57.340Z",
         "updatedAt": "2025-10-14T07:07:15.051Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
         "summonId": null,
-        "rangeMapId": "0219c3db-4b93-4828-86ce-0e96a00d0c2c",
-        "rangeMapIdLevel2": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-        "vertebraeUpgradeIdLevel3": "77abf26e-2f67-4031-bbad-f92ed5b27dee",
-        "skillTags": [
-          "Active",
-          "Summon"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": 2,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Summons one [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">2</span>. When more than<span style=\"color: rgb(243, 109, 28);\"> 2</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> are created, the earliest created [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] self-destructs. Whenever any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] dies, Andoris gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This skill can be used again after being used.</p>",
-        "descriptionLevel3": "<p>Summons one [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">3</span>. When more than <span style=\"color: rgb(243, 109, 28);\">3</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s </span>are created, the earliest created [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] self-destructs. Whenever any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] dies, Andoris gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For every [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on the field, allied units gain <span style=\"color: rgb(243, 109, 28);\">10%</span> attack boost upon dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>. After using this skill, Andoris gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "0219c3db-4b93-4828-86ce-0e96a00d0c2c",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758847532613-range3targetself.webp",
-          "createdAt": "2025-09-26T00:45:32.718Z",
-          "updatedAt": "2025-09-26T00:45:32.718Z",
-          "rangeValue": "3",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Summons one [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on an empty tile within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">2</span>. When more than <span style=\"color: rgb(243, 109, 28);\">2</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> are created, the earliest created [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] self-destructs. Whenever any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] dies, Andoris gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This skill can be used again after being used.</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": 3,
+          "rangeMapId": "0219c3db-4b93-4828-86ce-0e96a00d0c2c",
+          "skillTags": [
+            "Active",
+            "Summon"
+          ],
+          "rangeMap": {
+            "id": "0219c3db-4b93-4828-86ce-0e96a00d0c2c",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758847532613-range3targetself.webp",
+            "createdAt": "2025-09-26T00:45:32.718Z",
+            "updatedAt": "2025-09-26T00:45:32.718Z",
+            "rangeValue": "3",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+          "ammoTypes": null,
+          "confectanceCost": 3,
+          "cooldown": null,
+          "description": "<p>Summons one [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">2</span>. When more than<span style=\"color: rgb(243, 109, 28);\"> 2</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> are created, the earliest created [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] self-destructs. Whenever any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] dies, Andoris gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This skill can be used again after being used.</p>",
+          "phase": null,
+          "skillTags": [
+            "Active",
+            "Summon"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+            "level": 2,
+            "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+            "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
+            "createdAt": "2025-09-26T01:19:51.773Z",
+            "updatedAt": "2025-10-14T07:06:23.005Z",
+            "vertebraeName": "Gentle Offensive Lv.2"
+          }
         },
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-          "level": 2,
-          "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-          "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
-          "createdAt": "2025-09-26T01:19:51.773Z",
-          "updatedAt": "2025-10-14T07:06:23.005Z",
-          "vertebraeName": "Gentle Offensive Lv.2"
+        "level3": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "77abf26e-2f67-4031-bbad-f92ed5b27dee",
+          "ammoTypes": null,
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Summons one [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">3</span>. When more than <span style=\"color: rgb(243, 109, 28);\">3</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s </span>are created, the earliest created [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] self-destructs. Whenever any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] dies, Andoris gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For every [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on the field, allied units gain <span style=\"color: rgb(243, 109, 28);\">10%</span> attack boost upon dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>. After using this skill, Andoris gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+          "phase": null,
+          "skillTags": [
+            "Active",
+            "Summon"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "77abf26e-2f67-4031-bbad-f92ed5b27dee",
+            "level": 3,
+            "effect": "<p>The maximum number of [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased from <span style=\"color: rgb(243, 109, 28);\">2</span> to <span style=\"color: rgb(243, 109, 28);\">3</span>, and [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> Confectance Index cost is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p><p>Added effect: For <span style=\"color: rgb(243, 109, 28);\">each</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on the field, allied units gain <span style=\"color: rgb(243, 109, 28);\">10%</span> attack boost upon dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>.</p><p>Post-usage effect enhanced to gaining [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] after skill usage.</p>",
+            "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
+            "createdAt": "2025-09-26T01:59:54.951Z",
+            "updatedAt": "2025-10-14T07:06:21.927Z",
+            "vertebraeName": "Gentle Offensive Lv.3"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "77abf26e-2f67-4031-bbad-f92ed5b27dee",
-          "level": 3,
-          "effect": "<p>The maximum number of [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased from <span style=\"color: rgb(243, 109, 28);\">2</span> to <span style=\"color: rgb(243, 109, 28);\">3</span>, and [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> Confectance Index cost is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p><p>Added effect: For <span style=\"color: rgb(243, 109, 28);\">each</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on the field, allied units gain <span style=\"color: rgb(243, 109, 28);\">10%</span> attack boost upon dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>.</p><p>Post-usage effect enhanced to gaining [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] after skill usage.</p>",
-          "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
-          "createdAt": "2025-09-26T01:59:54.951Z",
-          "updatedAt": "2025-10-14T07:06:21.927Z",
-          "vertebraeName": "Gentle Offensive Lv.3"
-        },
-        "shortId": 3
+        "level4": null
       },
       {
         "id": "50ee9516-9ab8-43cc-abcb-9994eb1528b9",
         "name": "Streamlined Tactics",
-        "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to it. Applies [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before the attack.</p>",
-        "phase": "Electric",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/e43eb9d24a0d75549b6647c182187726.webp",
         "createdAt": "2025-09-26T00:54:45.768Z",
         "updatedAt": "2025-10-14T07:06:54.212Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
         "summonId": null,
-        "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "98ac1874-b2cf-4b02-b6f7-8888c0f2d57c",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span><span> and deals </span><span style=\"color: rgb(213, 173, 13);\">Electric damage</span><span> equal to </span><span style=\"color: rgb(243, 109, 28);\">110%</span><span> of attack to it. Applies [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span> before the attack.</span></p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
-          "createdAt": "2025-09-13T05:51:44.706Z",
-          "updatedAt": "2025-09-13T05:51:44.706Z",
-          "rangeValue": "7",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to it. Applies [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before the attack.</p>",
+          "phase": "Electric",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
+            "createdAt": "2025-09-13T05:51:44.706Z",
+            "updatedAt": "2025-09-13T05:51:44.706Z",
+            "rangeValue": "7",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "98ac1874-b2cf-4b02-b6f7-8888c0f2d57c",
-          "level": 2,
-          "effect": "<p>[effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] gains a new effect: When a target with [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] ends its action, it applies [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span> to all allied units without [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] within </span><span style=\"color: rgb(243, 109, 28);\">3 tiles</span><span>. When taking </span><span style=\"color: rgb(213, 173, 13);\">Electric damage</span><span>, the damage taken is increased by </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p>",
-          "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/e43eb9d24a0d75549b6647c182187726.webp",
-          "createdAt": "2025-09-26T01:57:19.694Z",
-          "updatedAt": "2025-10-14T07:06:15.286Z",
-          "vertebraeName": "Streamlined Tactics Lv.2"
+        "level2": {
+          "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+          "vertebraeUpgradeId": "98ac1874-b2cf-4b02-b6f7-8888c0f2d57c",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span><span> and deals </span><span style=\"color: rgb(213, 173, 13);\">Electric damage</span><span> equal to </span><span style=\"color: rgb(243, 109, 28);\">110%</span><span> of attack to it. Applies [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span> before the attack.</span></p>",
+          "phase": "Electric",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
+            "createdAt": "2025-09-13T05:51:44.706Z",
+            "updatedAt": "2025-09-13T05:51:44.706Z",
+            "rangeValue": "7",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "98ac1874-b2cf-4b02-b6f7-8888c0f2d57c",
+            "level": 2,
+            "effect": "<p>[effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] gains a new effect: When a target with [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] ends its action, it applies [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span> to all allied units without [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] within </span><span style=\"color: rgb(243, 109, 28);\">3 tiles</span><span>. When taking </span><span style=\"color: rgb(213, 173, 13);\">Electric damage</span><span>, the damage taken is increased by </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p>",
+            "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/e43eb9d24a0d75549b6647c182187726.webp",
+            "createdAt": "2025-09-26T01:57:19.694Z",
+            "updatedAt": "2025-10-14T07:06:15.286Z",
+            "vertebraeName": "Streamlined Tactics Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "24617fd1-06b7-4dfc-bb38-2f2596eca2be",
         "name": "Fortification Protocol",
-        "description": "<p>Andoris recovers <span style=\"color: rgb(243, 109, 28);\">8 points </span>of stability. Applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], along with [effect:f3c29056-b252-443d-bf3d-55462b514967] which lasts for <span style=\"color: rgb(243, 109, 28);\">3 turns</span> to all allied Dolls. Andoris gains [effect:d7897b0c-5cd7-4f39-9ec2-b678468be52f] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": 2,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/065cb1b9f1bc57dc49f129b7d7a5fada.webp",
         "createdAt": "2025-09-26T00:57:11.753Z",
         "updatedAt": "2025-11-07T04:08:23.410Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
         "summonId": null,
-        "rangeMapId": "e56bdcbb-047e-41bc-8365-0274cec374ab",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "edfa5452-3aa7-4050-8a0b-8773688e1b46",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Ultimate",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Andoris recovers all stability, <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP, and cleanses all debuffs on self. Applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], along with [effect:f3c29056-b252-443d-bf3d-55462b514967] which lasts for <span style=\"color: rgb(243, 109, 28);\">3 turns</span> to all allied Dolls. Andoris gains [effect:d7897b0c-5cd7-4f39-9ec2-b678468be52f] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>. When Andoris is on the field, she applies [effect:968e9913-e847-462c-be10-87bc8fc0f827] and [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] to all allied units with [effect:f3c29056-b252-443d-bf3d-55462b514967].</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "e56bdcbb-047e-41bc-8365-0274cec374ab",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757747024319-rSeEM.webp",
-          "createdAt": "2025-09-13T07:03:44.424Z",
-          "updatedAt": "2025-09-20T22:07:13.083Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Map"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Andoris recovers <span style=\"color: rgb(243, 109, 28);\">8 points </span>of stability. Applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], along with [effect:f3c29056-b252-443d-bf3d-55462b514967] which lasts for <span style=\"color: rgb(243, 109, 28);\">3 turns</span> to all allied Dolls. Andoris gains [effect:d7897b0c-5cd7-4f39-9ec2-b678468be52f] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": 2,
+          "confectanceCost": null,
+          "rangeMapId": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+          "skillTags": [
+            "Ultimate",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757747024319-rSeEM.webp",
+            "createdAt": "2025-09-13T07:03:44.424Z",
+            "updatedAt": "2025-09-20T22:07:13.083Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Map"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "edfa5452-3aa7-4050-8a0b-8773688e1b46",
-          "level": 2,
-          "effect": "<p>Effects enhanced: Andoris recovers all stability, <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP and cleanses all debuffs on self.</p><p>When Andoris is on the field, she applies [effect:968e9913-e847-462c-be10-87bc8fc0f827] and [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] to all allied Dolls with [effect:f3c29056-b252-443d-bf3d-55462b514967].</p>",
-          "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/065cb1b9f1bc57dc49f129b7d7a5fada.webp",
-          "createdAt": "2025-09-26T01:42:57.663Z",
-          "updatedAt": "2025-10-14T07:06:15.458Z",
-          "vertebraeName": "Fortification Protocol Lv.2"
+        "level2": {
+          "rangeMapId": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+          "vertebraeUpgradeId": "edfa5452-3aa7-4050-8a0b-8773688e1b46",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>Andoris recovers all stability, <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP, and cleanses all debuffs on self. Applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], along with [effect:f3c29056-b252-443d-bf3d-55462b514967] which lasts for <span style=\"color: rgb(243, 109, 28);\">3 turns</span> to all allied Dolls. Andoris gains [effect:d7897b0c-5cd7-4f39-9ec2-b678468be52f] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>. When Andoris is on the field, she applies [effect:968e9913-e847-462c-be10-87bc8fc0f827] and [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] to all allied units with [effect:f3c29056-b252-443d-bf3d-55462b514967].</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757747024319-rSeEM.webp",
+            "createdAt": "2025-09-13T07:03:44.424Z",
+            "updatedAt": "2025-09-20T22:07:13.083Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Map"
+          },
+          "vertebraeUpgrade": {
+            "id": "edfa5452-3aa7-4050-8a0b-8773688e1b46",
+            "level": 2,
+            "effect": "<p>Effects enhanced: Andoris recovers all stability, <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP and cleanses all debuffs on self.</p><p>When Andoris is on the field, she applies [effect:968e9913-e847-462c-be10-87bc8fc0f827] and [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] to all allied Dolls with [effect:f3c29056-b252-443d-bf3d-55462b514967].</p>",
+            "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/065cb1b9f1bc57dc49f129b7d7a5fada.webp",
+            "createdAt": "2025-09-26T01:42:57.663Z",
+            "updatedAt": "2025-10-14T07:06:15.458Z",
+            "vertebraeName": "Fortification Protocol Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 5
+        "level3": null,
+        "level4": null
       }
     ],
     "keys": [
@@ -796,28 +785,6 @@
         "createdAt": "2025-09-26T00:36:54.315Z",
         "updatedAt": "2025-09-27T00:21:19.749Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "createdAt": "2025-09-26T00:22:07.322Z",
-              "updatedAt": "2025-09-26T00:22:07.322Z"
-            }
-          ],
-          "searchTags": [
-            "G36K-KSK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Rain Nourishes in Silence",
         "shortId": "a2"
@@ -841,28 +808,6 @@
         "createdAt": "2025-09-26T00:35:51.291Z",
         "updatedAt": "2025-09-27T00:21:25.813Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "createdAt": "2025-09-26T00:22:07.322Z",
-              "updatedAt": "2025-09-26T00:22:07.322Z"
-            }
-          ],
-          "searchTags": [
-            "G36K-KSK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Inductive Field",
         "shortId": "c2"
@@ -887,28 +832,6 @@
         "createdAt": "2025-10-26T14:20:46.240Z",
         "updatedAt": "2025-11-30T01:05:27.511Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "createdAt": "2025-09-26T00:22:07.322Z",
-              "updatedAt": "2025-09-26T00:22:07.322Z"
-            }
-          ],
-          "searchTags": [
-            "G36K-KSK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Unwavering Vigil",
         "shortId": "k1"
@@ -933,28 +856,6 @@
         "createdAt": "2025-09-26T00:26:21.961Z",
         "updatedAt": "2025-12-30T04:14:49.456Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "createdAt": "2025-09-26T00:22:07.322Z",
-              "updatedAt": "2025-09-26T00:22:07.322Z"
-            }
-          ],
-          "searchTags": [
-            "G36K-KSK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Careful Listening",
         "shortId": "k2"
@@ -979,28 +880,6 @@
         "createdAt": "2025-09-26T00:27:56.769Z",
         "updatedAt": "2025-12-30T04:14:58.937Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "createdAt": "2025-09-26T00:22:07.322Z",
-              "updatedAt": "2025-09-26T00:22:07.322Z"
-            }
-          ],
-          "searchTags": [
-            "G36K-KSK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Sluggish Circuit",
         "shortId": "k3"
@@ -1025,28 +904,6 @@
         "createdAt": "2025-09-26T00:31:04.247Z",
         "updatedAt": "2025-10-14T07:06:45.827Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "createdAt": "2025-09-26T00:22:07.322Z",
-              "updatedAt": "2025-09-26T00:22:07.322Z"
-            }
-          ],
-          "searchTags": [
-            "G36K-KSK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Slow and Steady",
         "shortId": "k4"
@@ -1071,28 +928,6 @@
         "createdAt": "2025-09-26T00:32:23.108Z",
         "updatedAt": "2025-10-14T07:06:46.340Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "createdAt": "2025-09-26T00:22:07.322Z",
-              "updatedAt": "2025-09-26T00:22:07.322Z"
-            }
-          ],
-          "searchTags": [
-            "G36K-KSK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Tuned Connection",
         "shortId": "k5"
@@ -1117,28 +952,6 @@
         "createdAt": "2025-09-26T00:33:21.243Z",
         "updatedAt": "2025-10-14T07:06:45.998Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "createdAt": "2025-09-26T00:22:07.322Z",
-              "updatedAt": "2025-09-26T00:22:07.322Z"
-            }
-          ],
-          "searchTags": [
-            "G36K-KSK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Shared Intelligence",
         "shortId": "k6"
@@ -1163,28 +976,6 @@
         "createdAt": "2025-09-26T00:34:23.138Z",
         "updatedAt": "2025-10-14T07:06:46.170Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "createdAt": "2025-09-26T00:22:07.322Z",
-              "updatedAt": "2025-09-26T00:22:07.322Z"
-            }
-          ],
-          "searchTags": [
-            "G36K-KSK"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Advanced Scouting",
         "shortId": "k7"
@@ -1201,191 +992,36 @@
         "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
         "createdAt": "2025-09-26T01:19:51.773Z",
         "updatedAt": "2025-10-14T07:06:23.005Z",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "class": "Bulwark",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "A gentle, approachable Doll. Although she has performance limitations, she does not indulge in self-pity, but instead proactively searches for a place she can call home. A Doll who embraces and accommodates everyone around her, she has become a source of refuge for others without realizing it.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "stabilityGauge": 12
-        },
         "skillsLevel2": [
           {
             "id": "119d6a84-2397-4485-9229-67979941e299",
             "name": "Crash Mimicry",
-            "phase": null,
             "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/88ca8fc3b400a8b5b1b3d9d8d112e3b2.webp",
-            "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
-            "ammoTypes": null,
-            "createdAt": "2025-09-26T02:09:41.264Z",
-            "skillTags": [
-              "Passive"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:06:51.394Z",
-            "description": "<p>Cannot be healed or shielded. Immune to [effect:5e16965e-d995-425c-9ba5-8ace79df7840] effects and will not be automatically targeted by the enemy.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p><span style=\"color: rgb(213, 173, 13);\">Electric damage</span> deal is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span><span>. </span>Cannot be healed or shielded. Immune to [effect:5e16965e-d995-425c-9ba5-8ace79df7840] effects and will not be automatically targeted by the enemy.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f"
           },
           {
             "id": "b37ed520-7950-49da-a645-a7de1e3c46a7",
             "name": "En Passant",
-            "phase": null,
             "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/46f1cf8b012d74ce18f55746f008a051.webp",
-            "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-26T02:15:14.339Z",
-            "skillTags": [
-              "Passive",
-              "Support"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-15T22:35:20.023Z",
-            "description": "<p>When an enemy within range takes targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] performs 1 [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage , and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p><span style=\"color: rgb(34, 139, 230);\">Note: This skill is inactive until V1.</span></p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>When an enemy within range takes targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] performs 1 [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage , and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f"
           },
           {
             "id": "203681ec-921a-4a98-9f1a-87d3fd31a2c0",
             "name": "Charged Shot",
-            "phase": "Electric",
             "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/0c6bff206d31cbec735f043aae7214d3.webp",
-            "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
-            "ammoTypes": null,
-            "createdAt": "2025-09-26T02:07:06.873Z",
-            "skillTags": [
-              "Basic Attack",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Basic Attack",
-            "updatedAt": "2025-10-14T07:07:12.423Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it, and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": "Electric",
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 1,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects one enemy unit within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span><span>, dealing </span><span style=\"color: rgb(213, 173, 13);\">Electric damage</span><span> equal to </span><span style=\"color: rgb(243, 109, 28);\">100%</span><span> of attack and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f"
           },
           {
             "id": "34d25c61-fe02-42c9-8987-ca631f0cd770",
             "name": "Gentle Offensive",
-            "phase": null,
             "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-26T00:43:57.340Z",
-            "skillTags": [
-              "Active",
-              "Summon"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-14T07:07:15.051Z",
-            "description": "<p>Summons one [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on an empty tile within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">2</span>. When more than <span style=\"color: rgb(243, 109, 28);\">2</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> are created, the earliest created [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] self-destructs. Whenever any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] dies, Andoris gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This skill can be used again after being used.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "0219c3db-4b93-4828-86ce-0e96a00d0c2c",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 3,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Summons one [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">2</span>. When more than<span style=\"color: rgb(243, 109, 28);\"> 2</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> are created, the earliest created [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] self-destructs. Whenever any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] dies, Andoris gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This skill can be used again after being used.</p>",
-            "descriptionLevel3": "<p>Summons one [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">3</span>. When more than <span style=\"color: rgb(243, 109, 28);\">3</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s </span>are created, the earliest created [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] self-destructs. Whenever any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] dies, Andoris gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For every [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on the field, allied units gain <span style=\"color: rgb(243, 109, 28);\">10%</span> attack boost upon dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>. After using this skill, Andoris gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-            "rangeMapIdLevel2": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": 2,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-            "vertebraeUpgradeIdLevel3": "77abf26e-2f67-4031-bbad-f92ed5b27dee"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "edfa5452-3aa7-4050-8a0b-8773688e1b46",
@@ -1397,68 +1033,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/065cb1b9f1bc57dc49f129b7d7a5fada.webp",
         "createdAt": "2025-09-26T01:42:57.663Z",
         "updatedAt": "2025-10-14T07:06:15.458Z",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "class": "Bulwark",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "A gentle, approachable Doll. Although she has performance limitations, she does not indulge in self-pity, but instead proactively searches for a place she can call home. A Doll who embraces and accommodates everyone around her, she has become a source of refuge for others without realizing it.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "stabilityGauge": 12
-        },
         "skillsLevel2": [
           {
             "id": "24617fd1-06b7-4dfc-bb38-2f2596eca2be",
             "name": "Fortification Protocol",
-            "phase": null,
             "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-            "cooldown": 2,
-            "imageUrl": "https://cdn.dandegate.net/skills/065cb1b9f1bc57dc49f129b7d7a5fada.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-26T00:57:11.753Z",
-            "skillTags": [
-              "Ultimate",
-              "Buff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-07T04:08:23.410Z",
-            "description": "<p>Andoris recovers <span style=\"color: rgb(243, 109, 28);\">8 points </span>of stability. Applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], along with [effect:f3c29056-b252-443d-bf3d-55462b514967] which lasts for <span style=\"color: rgb(243, 109, 28);\">3 turns</span> to all allied Dolls. Andoris gains [effect:d7897b0c-5cd7-4f39-9ec2-b678468be52f] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "e56bdcbb-047e-41bc-8365-0274cec374ab",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Andoris recovers all stability, <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP, and cleanses all debuffs on self. Applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], along with [effect:f3c29056-b252-443d-bf3d-55462b514967] which lasts for <span style=\"color: rgb(243, 109, 28);\">3 turns</span> to all allied Dolls. Andoris gains [effect:d7897b0c-5cd7-4f39-9ec2-b678468be52f] for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>. When Andoris is on the field, she applies [effect:968e9913-e847-462c-be10-87bc8fc0f827] and [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] to all allied units with [effect:f3c29056-b252-443d-bf3d-55462b514967].</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "edfa5452-3aa7-4050-8a0b-8773688e1b46",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "414b49a9-5bc1-488d-aac5-b56250478f58",
@@ -1470,69 +1056,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/98784cbf5bde4dfcd813fceef38e751d.webp",
         "createdAt": "2025-09-26T01:47:09.043Z",
         "updatedAt": "2025-10-14T07:06:19.480Z",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "class": "Bulwark",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "A gentle, approachable Doll. Although she has performance limitations, she does not indulge in self-pity, but instead proactively searches for a place she can call home. A Doll who embraces and accommodates everyone around her, she has become a source of refuge for others without realizing it.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "stabilityGauge": 12
-        },
         "skillsLevel2": [
           {
             "id": "fe351577-45e0-46b8-bff6-7b6c7a22be67",
             "name": "Delayed Response",
-            "phase": null,
             "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/98784cbf5bde4dfcd813fceef38e751d.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-26T01:10:53.224Z",
-            "skillTags": [
-              "Passive",
-              "Sharing",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-01T19:24:57.228Z",
-            "description": "<p>At the start of the battle, Andoris gains [effect:86f58c59-130f-43b4-a94a-36c572b371ea]. This effect can only trigger again after <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an allied unit with [effect:f3c29056-b252-443d-bf3d-55462b514967] takes damage, Andoris shares <span style=\"color: rgb(243, 109, 28);\">45%</span> of the [effect:27f19bae-b7f0-4d81-bb6c-fee2348458b4] with it. When performing an active attack on an enemy target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Andoris recovers <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP.</p><p>When taking damage, Andoris recovers <span style=\"color: rgb(243, 109, 28);\">5%</span> of maximum HP, grants <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to self and all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> on the field. If not protected by Cover, Andoris expends <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability and reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the start of the battle, Andoris attack and that of all [effect:344566f5-70f6-44bd-8255-fbc4b6b29ac3]<span style=\"color: rgb(34, 139, 230);\">s</span> are increased by a number equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Andoris' initial defense and Andoris gains [effect:86f58c59-130f-43b4-a94a-36c572b371ea]. This effect can only trigger again after<span style=\"color: rgb(243, 109, 28);\"> 3 turns</span>.</p><p>When an allied unit with [effect:f3c29056-b252-443d-bf3d-55462b514967] takes damage, Andoris shares <span style=\"color: rgb(243, 109, 28);\">45%</span> of the [effect:27f19bae-b7f0-4d81-bb6c-fee2348458b4] with it. When performing an active attack on an enemy target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Andoris recovers <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP.</p><p>When taking damage, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span><span>,</span> Andoris recovers <span style=\"color: rgb(243, 109, 28);\">5% </span>of maximum HP, grants <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:40a28bbb-9230-4976-966f-39431d332e30] to self and all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> on the field. If not protected by Cover, Andoris expends <span style=\"color: rgb(243, 109, 28);\">1 point </span>of stability and reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>When [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is damaged, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to it and Andoris.</p>",
-            "descriptionLevel3": "<p>At the start of the battle, Andoris' attack and that of all [effect:344566f5-70f6-44bd-8255-fbc4b6b29ac3]<span style=\"color: rgb(34, 139, 230);\">s</span> are increased by a number equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Andoris' initial defense. Andoris' maximum stability is increased by<span style=\"color: rgb(243, 109, 28);\"> 6</span>. Andoris gains [effect:86f58c59-130f-43b4-a94a-36c572b371ea]. This effect can only trigger again after <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. When an allied unit with [effect:f3c29056-b252-443d-bf3d-55462b514967] takes damage, Andoris shares <span style=\"color: rgb(243, 109, 28);\">45%</span> of the [effect:27f19bae-b7f0-4d81-bb6c-fee2348458b4] with it. When performing an active attack on an enemy target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Andoris recovers <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP.</p><p>When taking damage, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>, Andoris recovers <span style=\"color: rgb(243, 109, 28);\">5%</span> of maximum HP, grants <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to self and all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> on the field. If not protected by Cover, Andoris expends <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability and reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>When any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is damaged, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to it and Andoris.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "414b49a9-5bc1-488d-aac5-b56250478f58",
-            "vertebraeUpgradeIdLevel3": "a038c11d-8607-4bee-b997-6da2097df9ed"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "a038c11d-8607-4bee-b997-6da2097df9ed",
@@ -1544,69 +1079,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/98784cbf5bde4dfcd813fceef38e751d.webp",
         "createdAt": "2025-09-26T01:51:15.070Z",
         "updatedAt": "2025-10-14T07:06:15.112Z",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "class": "Bulwark",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "A gentle, approachable Doll. Although she has performance limitations, she does not indulge in self-pity, but instead proactively searches for a place she can call home. A Doll who embraces and accommodates everyone around her, she has become a source of refuge for others without realizing it.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "stabilityGauge": 12
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "fe351577-45e0-46b8-bff6-7b6c7a22be67",
             "name": "Delayed Response",
-            "phase": null,
             "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/98784cbf5bde4dfcd813fceef38e751d.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-26T01:10:53.224Z",
-            "skillTags": [
-              "Passive",
-              "Sharing",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-01T19:24:57.228Z",
-            "description": "<p>At the start of the battle, Andoris gains [effect:86f58c59-130f-43b4-a94a-36c572b371ea]. This effect can only trigger again after <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an allied unit with [effect:f3c29056-b252-443d-bf3d-55462b514967] takes damage, Andoris shares <span style=\"color: rgb(243, 109, 28);\">45%</span> of the [effect:27f19bae-b7f0-4d81-bb6c-fee2348458b4] with it. When performing an active attack on an enemy target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Andoris recovers <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP.</p><p>When taking damage, Andoris recovers <span style=\"color: rgb(243, 109, 28);\">5%</span> of maximum HP, grants <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to self and all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> on the field. If not protected by Cover, Andoris expends <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability and reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the start of the battle, Andoris attack and that of all [effect:344566f5-70f6-44bd-8255-fbc4b6b29ac3]<span style=\"color: rgb(34, 139, 230);\">s</span> are increased by a number equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Andoris' initial defense and Andoris gains [effect:86f58c59-130f-43b4-a94a-36c572b371ea]. This effect can only trigger again after<span style=\"color: rgb(243, 109, 28);\"> 3 turns</span>.</p><p>When an allied unit with [effect:f3c29056-b252-443d-bf3d-55462b514967] takes damage, Andoris shares <span style=\"color: rgb(243, 109, 28);\">45%</span> of the [effect:27f19bae-b7f0-4d81-bb6c-fee2348458b4] with it. When performing an active attack on an enemy target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Andoris recovers <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP.</p><p>When taking damage, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span><span>,</span> Andoris recovers <span style=\"color: rgb(243, 109, 28);\">5% </span>of maximum HP, grants <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:40a28bbb-9230-4976-966f-39431d332e30] to self and all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> on the field. If not protected by Cover, Andoris expends <span style=\"color: rgb(243, 109, 28);\">1 point </span>of stability and reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>When [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is damaged, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to it and Andoris.</p>",
-            "descriptionLevel3": "<p>At the start of the battle, Andoris' attack and that of all [effect:344566f5-70f6-44bd-8255-fbc4b6b29ac3]<span style=\"color: rgb(34, 139, 230);\">s</span> are increased by a number equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Andoris' initial defense. Andoris' maximum stability is increased by<span style=\"color: rgb(243, 109, 28);\"> 6</span>. Andoris gains [effect:86f58c59-130f-43b4-a94a-36c572b371ea]. This effect can only trigger again after <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. When an allied unit with [effect:f3c29056-b252-443d-bf3d-55462b514967] takes damage, Andoris shares <span style=\"color: rgb(243, 109, 28);\">45%</span> of the [effect:27f19bae-b7f0-4d81-bb6c-fee2348458b4] with it. When performing an active attack on an enemy target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Andoris recovers <span style=\"color: rgb(243, 109, 28);\">20%</span> of maximum HP.</p><p>When taking damage, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>, Andoris recovers <span style=\"color: rgb(243, 109, 28);\">5%</span> of maximum HP, grants <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to self and all [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> on the field. If not protected by Cover, Andoris expends <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability and reduces damage taken by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>When any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is damaged, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:40a28bbb-9230-4976-966f-39431d332e30] to it and Andoris.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "414b49a9-5bc1-488d-aac5-b56250478f58",
-            "vertebraeUpgradeIdLevel3": "a038c11d-8607-4bee-b997-6da2097df9ed"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "98ac1874-b2cf-4b02-b6f7-8888c0f2d57c",
@@ -1618,69 +1102,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/e43eb9d24a0d75549b6647c182187726.webp",
         "createdAt": "2025-09-26T01:57:19.694Z",
         "updatedAt": "2025-10-14T07:06:15.286Z",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "class": "Bulwark",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "A gentle, approachable Doll. Although she has performance limitations, she does not indulge in self-pity, but instead proactively searches for a place she can call home. A Doll who embraces and accommodates everyone around her, she has become a source of refuge for others without realizing it.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "stabilityGauge": 12
-        },
         "skillsLevel2": [
           {
             "id": "50ee9516-9ab8-43cc-abcb-9994eb1528b9",
             "name": "Streamlined Tactics",
-            "phase": "Electric",
             "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/e43eb9d24a0d75549b6647c182187726.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Medium Ammo\"]",
-            "createdAt": "2025-09-26T00:54:45.768Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-14T07:06:54.212Z",
-            "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to it. Applies [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before the attack.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span><span> and deals </span><span style=\"color: rgb(213, 173, 13);\">Electric damage</span><span> equal to </span><span style=\"color: rgb(243, 109, 28);\">110%</span><span> of attack to it. Applies [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span> before the attack.</span></p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "98ac1874-b2cf-4b02-b6f7-8888c0f2d57c",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "77abf26e-2f67-4031-bbad-f92ed5b27dee",
@@ -1692,68 +1125,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
         "createdAt": "2025-09-26T01:59:54.951Z",
         "updatedAt": "2025-10-14T07:06:21.927Z",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "class": "Bulwark",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "A gentle, approachable Doll. Although she has performance limitations, she does not indulge in self-pity, but instead proactively searches for a place she can call home. A Doll who embraces and accommodates everyone around her, she has become a source of refuge for others without realizing it.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "stabilityGauge": 12
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "34d25c61-fe02-42c9-8987-ca631f0cd770",
             "name": "Gentle Offensive",
-            "phase": null,
             "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-26T00:43:57.340Z",
-            "skillTags": [
-              "Active",
-              "Summon"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-14T07:07:15.051Z",
-            "description": "<p>Summons one [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on an empty tile within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">2</span>. When more than <span style=\"color: rgb(243, 109, 28);\">2</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> are created, the earliest created [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] self-destructs. Whenever any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] dies, Andoris gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This skill can be used again after being used.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "0219c3db-4b93-4828-86ce-0e96a00d0c2c",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 3,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Summons one [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">2</span>. When more than<span style=\"color: rgb(243, 109, 28);\"> 2</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s</span> are created, the earliest created [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] self-destructs. Whenever any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] dies, Andoris gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This skill can be used again after being used.</p>",
-            "descriptionLevel3": "<p>Summons one [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">3</span>. When more than <span style=\"color: rgb(243, 109, 28);\">3</span> [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">s </span>are created, the earliest created [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] self-destructs. Whenever any [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] dies, Andoris gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. For every [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] on the field, allied units gain <span style=\"color: rgb(243, 109, 28);\">10%</span> attack boost upon dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>. After using this skill, Andoris gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-            "rangeMapIdLevel2": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": 2,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-            "vertebraeUpgradeIdLevel3": "77abf26e-2f67-4031-bbad-f92ed5b27dee"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [
@@ -1761,15 +1144,8 @@
         "id": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
         "name": "Auto-Turret",
         "imageUrl": "https://cdn.dandegate.net/summons/auto-turret/1758949372960-Summon_Whole_AndorisSSR01Turret_Custom2.webp",
-        "stabilityGauge": 0,
-        "movement": 0,
-        "class": null,
         "phase": null,
         "ammoTypes": [],
-        "unitInfo": "<p>Summon. Inherits <span style=\"color: rgb(243, 109, 28);\">50%</span><span> of Andoris' initial HP, </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span> of Andoris' initial attack, and </span><span style=\"color: rgb(243, 109, 28);\">100%</span><span> of Andoris' initial defense. Cannot move. Can apply [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623].</span></p>",
-        "hp": 50,
-        "atk": 50,
-        "def": 100,
         "createdAt": "2025-09-26T00:22:07.195Z",
         "updatedAt": "2025-10-14T07:08:07.673Z",
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
@@ -1779,359 +1155,265 @@
           "119d6a84-2397-4485-9229-67979941e299",
           "b37ed520-7950-49da-a645-a7de1e3c46a7"
         ],
-        "atkLevel2": null,
-        "atkLevel3": null,
-        "classLevel2": null,
-        "classLevel3": null,
-        "defLevel2": null,
-        "defLevel3": null,
-        "hpLevel2": null,
-        "hpLevel3": null,
-        "movementLevel2": null,
-        "movementLevel3": null,
-        "stabilityGaugeLevel2": null,
-        "stabilityGaugeLevel3": null,
-        "unitInfoLevel2": null,
-        "unitInfoLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "alt": null,
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "isActive": true,
-              "createdAt": "2025-09-26T00:22:07.322Z",
-              "updatedAt": "2025-09-26T00:22:07.322Z"
-            },
-            {
-              "id": "2b23c214-625f-431b-a5f4-684913bf15e7",
-              "alt": null,
-              "category": "Card",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/card-a5114b7a4ddc59ed69b44a500d0a01e8.webp",
-              "isActive": true,
-              "createdAt": "2025-09-26T00:22:07.548Z",
-              "updatedAt": "2025-09-26T00:22:07.548Z"
-            },
-            {
-              "id": "7a2b8a87-d17c-43d3-bf3a-81718df41dcd",
-              "alt": null,
-              "category": "Skin",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/skin-0-19f87fd2cc89e3774abfed1801e9ba24.webp",
-              "isActive": true,
-              "createdAt": "2025-09-26T00:22:07.770Z",
-              "updatedAt": "2025-10-02T05:27:54.221Z"
-            }
-          ]
+        "shortId": "s1",
+        "level1": {
+          "stabilityGauge": 0,
+          "movement": 0,
+          "class": null,
+          "unitInfo": "<p>Summon. Inherits <span style=\"color: rgb(243, 109, 28);\">50%</span><span> of Andoris' initial HP, </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span> of Andoris' initial attack, and </span><span style=\"color: rgb(243, 109, 28);\">100%</span><span> of Andoris' initial defense. Cannot move. Can apply [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623].</span></p>",
+          "hp": 50,
+          "atk": 50,
+          "def": 100
         },
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
+        "level2": null,
+        "level3": null,
+        "level4": null,
         "skills": [
           {
             "id": "203681ec-921a-4a98-9f1a-87d3fd31a2c0",
             "name": "Charged Shot",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it, and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phase": "Electric",
-            "ammoTypes": null,
-            "stabilityDamage": 1,
-            "cooldown": null,
-            "confectanceCost": null,
             "imageUrl": "https://cdn.dandegate.net/skills/0c6bff206d31cbec735f043aae7214d3.webp",
             "createdAt": "2025-09-26T02:07:06.873Z",
             "updatedAt": "2025-10-14T07:07:12.423Z",
             "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
             "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "rangeMapIdLevel2": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-            "rangeMapIdLevel3": null,
-            "vertebraeUpgradeIdLevel2": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-            "vertebraeUpgradeIdLevel3": null,
-            "skillTags": [
-              "Basic Attack",
-              "Targeted",
-              "Debuff"
-            ],
             "keyUpgradesData": "[]",
             "keyUpgradesType": "keys",
             "skillType": "Basic Attack",
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "descriptionLevel2": "<p>Selects one enemy unit within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span><span>, dealing </span><span style=\"color: rgb(213, 173, 13);\">Electric damage</span><span> equal to </span><span style=\"color: rgb(243, 109, 28);\">100%</span><span> of attack and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
-            "descriptionLevel3": null,
-            "phaseLevel2": "Electric",
-            "phaseLevel3": null,
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "doll": {
-              "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-              "name": "Andoris",
-              "rarity": "Elite",
-              "preview": false,
-              "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-              "createdAt": "2025-09-26T00:22:07.162Z",
-              "regionTag": "en",
-              "updatedAt": "2025-10-02T05:27:54.250Z"
+            "shortId": 1,
+            "level1": {
+              "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it, and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+              "phase": "Electric",
+              "ammoTypes": null,
+              "stabilityDamage": 1,
+              "cooldown": null,
+              "confectanceCost": null,
+              "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+              "skillTags": [
+                "Basic Attack",
+                "Targeted",
+                "Debuff"
+              ],
+              "rangeMap": {
+                "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+                "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+                "createdAt": "2025-09-13T06:00:32.207Z",
+                "updatedAt": "2025-09-13T06:00:32.207Z",
+                "rangeValue": "6",
+                "effectiveArea": "Target"
+              }
             },
-            "rangeMap": {
-              "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-              "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-              "createdAt": "2025-09-13T06:00:32.207Z",
-              "updatedAt": "2025-09-13T06:00:32.207Z",
-              "rangeValue": "6",
-              "effectiveArea": "Target"
+            "level2": {
+              "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+              "vertebraeUpgradeId": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+              "ammoTypes": null,
+              "confectanceCost": null,
+              "cooldown": null,
+              "description": "<p>Selects one enemy unit within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span><span>, dealing </span><span style=\"color: rgb(213, 173, 13);\">Electric damage</span><span> equal to </span><span style=\"color: rgb(243, 109, 28);\">100%</span><span> of attack and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
+              "phase": "Electric",
+              "skillTags": [
+                "Basic Attack",
+                "Targeted",
+                "Debuff"
+              ],
+              "stabilityDamage": 1,
+              "rangeMap": {
+                "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+                "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
+                "createdAt": "2025-09-13T05:51:44.706Z",
+                "updatedAt": "2025-09-13T05:51:44.706Z",
+                "rangeValue": "7",
+                "effectiveArea": "Target"
+              },
+              "vertebraeUpgrade": {
+                "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+                "level": 2,
+                "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+                "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+                "segment": 1,
+                "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
+                "createdAt": "2025-09-26T01:19:51.773Z",
+                "updatedAt": "2025-10-14T07:06:23.005Z",
+                "vertebraeName": "Gentle Offensive Lv.2"
+              }
             },
-            "rangeMapLevel2": {
-              "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-              "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
-              "createdAt": "2025-09-13T05:51:44.706Z",
-              "updatedAt": "2025-09-13T05:51:44.706Z",
-              "rangeValue": "7",
-              "effectiveArea": "Target"
-            },
-            "rangeMapLevel3": null,
-            "vertebraeUpgradeLevel2": {
-              "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-              "level": 2,
-              "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-              "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-              "segment": 1,
-              "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
-              "createdAt": "2025-09-26T01:19:51.773Z",
-              "updatedAt": "2025-10-14T07:06:23.005Z",
-              "vertebraeName": "Gentle Offensive Lv.2"
-            },
-            "vertebraeUpgradeLevel3": null,
-            "shortId": 1
+            "level3": null,
+            "level4": null
           },
           {
             "id": "18a77273-1e7e-4f43-a137-e101b3693cd5",
             "name": "Info Relay",
-            "description": "<p>At the end of the action, applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to <span style=\"color: rgb(243, 109, 28);\">2 </span><span>enemies within </span><span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
-            "phase": null,
-            "ammoTypes": null,
-            "stabilityDamage": null,
-            "cooldown": null,
-            "confectanceCost": null,
             "imageUrl": "https://cdn.dandegate.net/skills/4ed1241b2286c941b0a7ab8760ed2465.webp",
             "createdAt": "2025-09-26T02:08:31.423Z",
             "updatedAt": "2025-10-14T07:06:52.095Z",
             "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
             "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "vertebraeUpgradeIdLevel2": null,
-            "vertebraeUpgradeIdLevel3": null,
-            "skillTags": [
-              "Passive",
-              "Debuff"
-            ],
             "keyUpgradesData": "[]",
             "keyUpgradesType": "keys",
             "skillType": "Passive",
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "doll": {
-              "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-              "name": "Andoris",
-              "rarity": "Elite",
-              "preview": false,
-              "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-              "createdAt": "2025-09-26T00:22:07.162Z",
-              "regionTag": "en",
-              "updatedAt": "2025-10-02T05:27:54.250Z"
+            "shortId": 2,
+            "level1": {
+              "description": "<p>At the end of the action, applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to <span style=\"color: rgb(243, 109, 28);\">2 </span><span>enemies within </span><span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
+              "phase": null,
+              "ammoTypes": null,
+              "stabilityDamage": null,
+              "cooldown": null,
+              "confectanceCost": null,
+              "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+              "skillTags": [
+                "Passive",
+                "Debuff"
+              ],
+              "rangeMap": {
+                "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+                "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+                "createdAt": "2025-09-13T06:00:32.207Z",
+                "updatedAt": "2025-09-13T06:00:32.207Z",
+                "rangeValue": "6",
+                "effectiveArea": "Target"
+              }
             },
-            "rangeMap": {
-              "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-              "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-              "createdAt": "2025-09-13T06:00:32.207Z",
-              "updatedAt": "2025-09-13T06:00:32.207Z",
-              "rangeValue": "6",
-              "effectiveArea": "Target"
-            },
-            "rangeMapLevel2": null,
-            "rangeMapLevel3": null,
-            "vertebraeUpgradeLevel2": null,
-            "vertebraeUpgradeLevel3": null,
-            "shortId": 2
+            "level2": null,
+            "level3": null,
+            "level4": null
           },
           {
             "id": "119d6a84-2397-4485-9229-67979941e299",
             "name": "Crash Mimicry",
-            "description": "<p>Cannot be healed or shielded. Immune to [effect:5e16965e-d995-425c-9ba5-8ace79df7840] effects and will not be automatically targeted by the enemy.</p>",
-            "phase": null,
-            "ammoTypes": null,
-            "stabilityDamage": null,
-            "cooldown": null,
-            "confectanceCost": null,
             "imageUrl": "https://cdn.dandegate.net/skills/88ca8fc3b400a8b5b1b3d9d8d112e3b2.webp",
             "createdAt": "2025-09-26T02:09:41.264Z",
             "updatedAt": "2025-10-14T07:06:51.394Z",
             "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
             "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "vertebraeUpgradeIdLevel2": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-            "vertebraeUpgradeIdLevel3": null,
-            "skillTags": [
-              "Passive"
-            ],
             "keyUpgradesData": "[]",
             "keyUpgradesType": "keys",
             "skillType": "Passive",
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "descriptionLevel2": "<p><span style=\"color: rgb(213, 173, 13);\">Electric damage</span> deal is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span><span>. </span>Cannot be healed or shielded. Immune to [effect:5e16965e-d995-425c-9ba5-8ace79df7840] effects and will not be automatically targeted by the enemy.</p>",
-            "descriptionLevel3": null,
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "doll": {
-              "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-              "name": "Andoris",
-              "rarity": "Elite",
-              "preview": false,
-              "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-              "createdAt": "2025-09-26T00:22:07.162Z",
-              "regionTag": "en",
-              "updatedAt": "2025-10-02T05:27:54.250Z"
+            "shortId": 3,
+            "level1": {
+              "description": "<p>Cannot be healed or shielded. Immune to [effect:5e16965e-d995-425c-9ba5-8ace79df7840] effects and will not be automatically targeted by the enemy.</p>",
+              "phase": null,
+              "ammoTypes": null,
+              "stabilityDamage": null,
+              "cooldown": null,
+              "confectanceCost": null,
+              "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+              "skillTags": [
+                "Passive"
+              ],
+              "rangeMap": {
+                "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+                "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+                "createdAt": "2025-09-13T05:48:21.166Z",
+                "updatedAt": "2025-09-13T05:48:21.166Z",
+                "rangeValue": "Self",
+                "effectiveArea": "Target"
+              }
             },
-            "rangeMap": {
-              "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-              "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-              "createdAt": "2025-09-13T05:48:21.166Z",
-              "updatedAt": "2025-09-13T05:48:21.166Z",
-              "rangeValue": "Self",
-              "effectiveArea": "Target"
+            "level2": {
+              "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+              "vertebraeUpgradeId": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+              "ammoTypes": null,
+              "confectanceCost": null,
+              "cooldown": null,
+              "description": "<p><span style=\"color: rgb(213, 173, 13);\">Electric damage</span> deal is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span><span>. </span>Cannot be healed or shielded. Immune to [effect:5e16965e-d995-425c-9ba5-8ace79df7840] effects and will not be automatically targeted by the enemy.</p>",
+              "phase": null,
+              "skillTags": [
+                "Passive"
+              ],
+              "stabilityDamage": null,
+              "rangeMap": {
+                "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+                "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+                "createdAt": "2025-09-13T05:48:21.166Z",
+                "updatedAt": "2025-09-13T05:48:21.166Z",
+                "rangeValue": "Self",
+                "effectiveArea": "Target"
+              },
+              "vertebraeUpgrade": {
+                "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+                "level": 2,
+                "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+                "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+                "segment": 1,
+                "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
+                "createdAt": "2025-09-26T01:19:51.773Z",
+                "updatedAt": "2025-10-14T07:06:23.005Z",
+                "vertebraeName": "Gentle Offensive Lv.2"
+              }
             },
-            "rangeMapLevel2": null,
-            "rangeMapLevel3": null,
-            "vertebraeUpgradeLevel2": {
-              "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-              "level": 2,
-              "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-              "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-              "segment": 1,
-              "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
-              "createdAt": "2025-09-26T01:19:51.773Z",
-              "updatedAt": "2025-10-14T07:06:23.005Z",
-              "vertebraeName": "Gentle Offensive Lv.2"
-            },
-            "vertebraeUpgradeLevel3": null,
-            "shortId": 3
+            "level3": null,
+            "level4": null
           },
           {
             "id": "b37ed520-7950-49da-a645-a7de1e3c46a7",
             "name": "En Passant",
-            "description": "<p>When an enemy within range takes targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] performs 1 [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage , and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p><span style=\"color: rgb(34, 139, 230);\">Note: This skill is inactive until V1.</span></p>",
-            "phase": null,
-            "ammoTypes": "[]",
-            "stabilityDamage": null,
-            "cooldown": null,
-            "confectanceCost": null,
             "imageUrl": "https://cdn.dandegate.net/skills/46f1cf8b012d74ce18f55746f008a051.webp",
             "createdAt": "2025-09-26T02:15:14.339Z",
             "updatedAt": "2025-10-15T22:35:20.023Z",
             "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
             "summonId": "bc582d96-07b9-4b7d-8aab-e4e2dd66909f",
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "vertebraeUpgradeIdLevel2": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-            "vertebraeUpgradeIdLevel3": null,
-            "skillTags": [
-              "Passive",
-              "Support"
-            ],
             "keyUpgradesData": "[]",
             "keyUpgradesType": "keys",
             "skillType": "Passive",
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "descriptionLevel2": "<p>When an enemy within range takes targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] performs 1 [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage , and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-            "descriptionLevel3": null,
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "doll": {
-              "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-              "name": "Andoris",
-              "rarity": "Elite",
-              "preview": false,
-              "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-              "createdAt": "2025-09-26T00:22:07.162Z",
-              "regionTag": "en",
-              "updatedAt": "2025-10-02T05:27:54.250Z"
+            "shortId": 4,
+            "level1": {
+              "description": "<p>When an enemy within range takes targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] performs 1 [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage , and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p><span style=\"color: rgb(34, 139, 230);\">Note: This skill is inactive until V1.</span></p>",
+              "phase": null,
+              "ammoTypes": "[]",
+              "stabilityDamage": null,
+              "cooldown": null,
+              "confectanceCost": null,
+              "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+              "skillTags": [
+                "Passive",
+                "Support"
+              ],
+              "rangeMap": {
+                "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+                "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+                "createdAt": "2025-09-13T05:48:21.166Z",
+                "updatedAt": "2025-09-13T05:48:21.166Z",
+                "rangeValue": "Self",
+                "effectiveArea": "Target"
+              }
             },
-            "rangeMap": {
-              "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-              "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-              "createdAt": "2025-09-13T05:48:21.166Z",
-              "updatedAt": "2025-09-13T05:48:21.166Z",
-              "rangeValue": "Self",
-              "effectiveArea": "Target"
+            "level2": {
+              "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+              "vertebraeUpgradeId": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+              "ammoTypes": "[]",
+              "confectanceCost": null,
+              "cooldown": null,
+              "description": "<p>When an enemy within range takes targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] performs 1 [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage , and applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+              "phase": null,
+              "skillTags": [
+                "Passive",
+                "Support"
+              ],
+              "stabilityDamage": null,
+              "rangeMap": {
+                "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+                "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+                "createdAt": "2025-09-13T05:48:21.166Z",
+                "updatedAt": "2025-09-13T05:48:21.166Z",
+                "rangeValue": "Self",
+                "effectiveArea": "Target"
+              },
+              "vertebraeUpgrade": {
+                "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
+                "level": 2,
+                "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+                "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+                "segment": 1,
+                "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
+                "createdAt": "2025-09-26T01:19:51.773Z",
+                "updatedAt": "2025-10-14T07:06:23.005Z",
+                "vertebraeName": "Gentle Offensive Lv.2"
+              }
             },
-            "rangeMapLevel2": null,
-            "rangeMapLevel3": null,
-            "vertebraeUpgradeLevel2": {
-              "id": "9ee6b1b7-25cc-4988-8cf7-856ed14513e8",
-              "level": 2,
-              "effect": "<p>Skill range of releasing [summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] is increased by <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f]<span style=\"color: rgb(34, 139, 230);\">'s</span> basic attack, <span style=\"color: rgb(34, 139, 230);\">charged Shot</span>'s range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Passive <span style=\"color: rgb(34, 139, 230);\">Crash Mimicry</span> gains a new effect, increasing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by self by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>[summon:bc582d96-07b9-4b7d-8aab-e4e2dd66909f] gains a new passive, <span style=\"color: rgb(34, 139, 230);\">En Passant</span>. When enemies in range are about to receive Targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> from an allied unit's active attack, launches an Support Action, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, applying [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, this effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-              "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
-              "segment": 1,
-              "imageUrl": "https://cdn.dandegate.net/skills/bc699b806f058cbb7631ab07c6d0d82d.webp",
-              "createdAt": "2025-09-26T01:19:51.773Z",
-              "updatedAt": "2025-10-14T07:06:23.005Z",
-              "vertebraeName": "Gentle Offensive Lv.2"
-            },
-            "vertebraeUpgradeLevel3": null,
-            "shortId": 4
+            "level3": null,
+            "level4": null
           }
-        ],
-        "shortId": "s1"
+        ]
       }
     ],
     "remoldingPattern": {
@@ -2251,37 +1533,22 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-26T00:47:52.404Z",
-        "updatedAt": "2025-10-14T07:07:25.002Z",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "G36K-KSK"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-10-14T07:07:25.002Z"
       },
       {
         "id": "40a28bbb-9230-4976-966f-39431d332e30",
         "effectName": "Blunted Nerves",
-        "effectDetails": "{\"mainDetails\":\"<p>Defense is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>, maximum of 5 stacks. Considered a buff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"6151c225-5fd0-4edd-9392-c72a13a7244a\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>Defense is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span><span>, maximum of 8 stacks. Considered a buff, cannot be cleansed.</span></p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Defense is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>, maximum of 5 stacks. Considered a buff, cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "6151c225-5fd0-4edd-9392-c72a13a7244a",
+              "upgradeName": "V3",
+              "upgradeDetails": "<p>Defense is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span><span>, maximum of 8 stacks. Considered a buff, cannot be cleansed.</span></p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [
           "Buff",
           "Defense"
@@ -2290,37 +1557,22 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-26T01:03:09.416Z",
-        "updatedAt": "2025-11-01T22:31:30.853Z",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "G36K-KSK"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-01T22:31:30.853Z"
       },
       {
         "id": "f8bb89d5-7fb8-4d07-9de9-489f791120f5",
         "effectName": "Electro Charge",
-        "effectDetails": "{\"mainDetails\":\"<p>When hit by a targeted Electric attack, stability damage taken is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span>. The attacker drains HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span> of damage dealt. Considered an Electric debuff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"f85b920b-ce8e-48a8-ae48-b3ff5a45a133\",\"upgradeName\":\"V5\",\"upgradeDetails\":\"<p>When hit by a targeted Electric attack, stability damage taken is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span><span>. The attacker recovers HP equal to </span><span style=\\\"color: rgb(243, 109, 28);\\\">20%</span><span> of damage dealt. When hit by </span><span style=\\\"color: rgb(213, 173, 13);\\\">Electric damage</span><span>, damage taken is increased by </span><span style=\\\"color: rgb(243, 109, 28);\\\">15%</span><span>. At the end of this unit's action, applies [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] for </span><span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span><span> to allied units without [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] within </span><span style=\\\"color: rgb(243, 109, 28);\\\">3 tiles</span><span>. Considered an Electric debuff, cannot be cleansed.</span></p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>When hit by a targeted Electric attack, stability damage taken is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. The attacker drains HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of damage dealt. Considered an Electric debuff, cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "f85b920b-ce8e-48a8-ae48-b3ff5a45a133",
+              "upgradeName": "V5",
+              "upgradeDetails": "<p>When hit by a targeted Electric attack, stability damage taken is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span><span>. The attacker recovers HP equal to </span><span style=\"color: rgb(243, 109, 28);\">20%</span><span> of damage dealt. When hit by </span><span style=\"color: rgb(213, 173, 13);\">Electric damage</span><span>, damage taken is increased by </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span>. At the end of this unit's action, applies [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] for </span><span style=\"color: rgb(243, 109, 28);\">2 turns</span><span> to allied units without [effect:f8bb89d5-7fb8-4d07-9de9-489f791120f5] within </span><span style=\"color: rgb(243, 109, 28);\">3 tiles</span><span>. Considered an Electric debuff, cannot be cleansed.</span></p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [
           "Debuff",
           "Electric"
@@ -2329,32 +1581,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-26T00:29:08.787Z",
-        "updatedAt": "2025-11-01T23:03:29.340Z",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "G36K-KSK"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-01T23:03:29.340Z"
       },
       {
         "id": "d7897b0c-5cd7-4f39-9ec2-b678468be52f",
@@ -2368,68 +1595,141 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-26T00:59:27.959Z",
-        "updatedAt": "2025-11-03T14:58:28.932Z",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "G36K-KSK"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T14:58:28.932Z"
       },
       {
         "id": "86f58c59-130f-43b4-a94a-36c572b371ea",
         "effectName": "Self-Diagnosis",
-        "effectDetails": "{\"mainDetails\":\"<p>Will not die upon taking fatal damage. Instead, cleanses all debuffs, recovers HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span> of max HP and <span style=\\\"color: rgb(243, 109, 28);\\\">5 points</span> of stability. Only activates <span style=\\\"color: rgb(243, 109, 28);\\\">once</span>. Cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"0d2e6f80-ca5d-4c4e-81bc-b643fdef827d\",\"upgradeName\":\"V4\",\"upgradeDetails\":\"<p>Will not die upon taking fatal damage. Instead, cleanses all debuffs, recovers HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span><span> of max HP and all stability, and gains [effect:d7897b0c-5cd7-4f39-9ec2-b678468be52f] for </span><span style=\\\"color: rgb(243, 109, 28);\\\">2 rounds</span><span>. Only activates </span><span style=\\\"color: rgb(243, 109, 28);\\\">once</span><span>. Cannot be cleansed.</span></p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Will not die upon taking fatal damage. Instead, cleanses all debuffs, recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of max HP and <span style=\"color: rgb(243, 109, 28);\">5 points</span> of stability. Only activates <span style=\"color: rgb(243, 109, 28);\">once</span>. Cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "0d2e6f80-ca5d-4c4e-81bc-b643fdef827d",
+              "upgradeName": "V4",
+              "upgradeDetails": "<p>Will not die upon taking fatal damage. Instead, cleanses all debuffs, recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">60%</span><span> of max HP and all stability, and gains [effect:d7897b0c-5cd7-4f39-9ec2-b678468be52f] for </span><span style=\"color: rgb(243, 109, 28);\">2 rounds</span><span>. Only activates </span><span style=\"color: rgb(243, 109, 28);\">once</span><span>. Cannot be cleansed.</span></p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [],
         "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-26T01:01:56.383Z",
-        "updatedAt": "2025-10-14T07:07:25.176Z",
-        "doll": {
-          "id": "d25d393c-a908-45ce-844a-24c637fddf66",
-          "name": "Andoris",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/andoris/ea99c19288032578f3b8889df8a8c1a1.webp",
-          "createdAt": "2025-09-26T00:22:07.162Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:27:54.250Z",
-          "dollImages": [
-            {
-              "id": "264aba7a-7dbe-42a4-ba5d-ae24e6046ca7",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/andoris/chibi-49a6d282e87be0a0d18b82fbda003fa2.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "G36K-KSK"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-10-14T07:07:25.176Z"
+      },
+      {
+        "id": "a9d5e1de-1be0-41d0-8970-2290e5ea4623",
+        "effectName": "Negative Charge",
+        "effectDetails": "<p>When taking targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>, all targets with <span style=\"color: rgb(34, 139, 230);\">Negative Charge</span> take fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of the damage from that attack. When <span style=\"color: rgb(34, 139, 230);\">Negative Charge</span> is applied again, the target takes <span style=\"color: rgb(243, 109, 28);\">an additional instance</span> of fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">3%</span> of the applier's attack. When taking an attack from a unit with [effect:f3c29056-b252-443d-bf3d-55462b514967], <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> taken is increased. Considered an Electric debuff (when an effect with the same name is applied again while the previous one is still in effect, the newly applied effect overwrites the former and inherits the remaining duration of the former effect).</p>",
+        "effectTags": [
+          "Debuff",
+          "Electric"
+        ],
+        "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T00:32:35.698Z",
+        "updatedAt": "2025-11-03T15:06:54.337Z"
+      },
+      {
+        "id": "5e16965e-d995-425c-9ba5-8ace79df7840",
+        "effectName": "Crowd Control",
+        "effectDetails": "<p>Includes the effects [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b].</p>",
+        "effectTags": [],
+        "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T21:44:31.039Z",
+        "updatedAt": "2025-10-14T07:07:22.015Z"
+      },
+      {
+        "id": "f3c29056-b252-443d-bf3d-55462b514967",
+        "effectName": "Positive Charge",
+        "effectDetails": "<p>At the end of the buff holder's action, recovers HP equal to 20% of max HP. If another allied unit within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> has <span style=\"color: rgb(34, 139, 230);\">Positive Charge</span>, additionally recovers HP equal to 15% of max HP. When attacking an enemy with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">35%</span>. Triggers on each target that has <span style=\"color: rgb(34, 139, 230);\">Positive Charge</span> at most <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. Considered an Electric buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Electric"
+        ],
+        "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-25T07:06:32.634Z",
+        "updatedAt": "2025-11-03T15:21:07.812Z"
+      },
+      {
+        "id": "27f19bae-b7f0-4d81-bb6c-fee2348458b4",
+        "effectName": "Initial Damage",
+        "effectDetails": "<p>Damage before shield protection and cover damage reduction.</p>",
+        "effectTags": [],
+        "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-26T01:02:29.292Z",
+        "updatedAt": "2025-09-26T01:02:29.292Z"
+      },
+      {
+        "id": "ab2e634f-d257-44e3-af90-ce66a6ac43f3",
+        "effectName": "Support Action",
+        "effectDetails": "<p>Performs a Support Attack; cannot be triggered by another Support Attack.</p>",
+        "effectTags": [],
+        "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:08:04.163Z",
+        "updatedAt": "2025-09-11T00:08:04.163Z"
+      },
+      {
+        "id": "c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb",
+        "effectName": "Extra Command",
+        "effectDetails": "<p>Commands other than movement can be executed.</p>",
+        "effectTags": [],
+        "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T19:42:00.107Z",
+        "updatedAt": "2025-09-14T19:42:00.107Z"
+      },
+      {
+        "id": "10b11942-01c9-4937-b446-1fe44c50d88a",
+        "effectName": "Shelter",
+        "effectDetails": "<p>Gains Stability Protection, reducing stability damage taken by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. Each instance of stability damage taken consumes<span style=\"color: rgb(243, 109, 28);\"> 1 stack</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Stability"
+        ],
+        "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:39:27.216Z",
+        "updatedAt": "2025-11-03T15:16:50.856Z"
+      },
+      {
+        "id": "968e9913-e847-462c-be10-87bc8fc0f827",
+        "effectName": "Movement Up II",
+        "effectDetails": "<p>Mobility is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Movement"
+        ],
+        "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T04:53:00.406Z",
+        "updatedAt": "2025-11-03T05:40:17.240Z"
+      },
+      {
+        "id": "82c6b99c-0a5e-4707-b81e-b6700f1b6dd8",
+        "effectName": "Damage Up II",
+        "effectDetails": "<p>Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T05:55:21.778Z",
+        "updatedAt": "2025-11-01T21:45:27.363Z"
       }
     ]
   }

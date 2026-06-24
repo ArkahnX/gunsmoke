@@ -79,363 +79,387 @@
       {
         "id": "6b56a8d7-2084-4cde-a4c3-ef544630b1fb",
         "name": "Trailblaze",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Shotgun Ammo\"]",
-        "stabilityDamage": 4,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/bac33f5c02192ee425e22f57af46bf15.webp",
         "createdAt": "2025-09-24T03:01:22.444Z",
         "updatedAt": "2025-09-24T03:02:30.231Z",
         "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "stabilityDamage": 4,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "2934fdc3-8a90-4035-a942-2aacf69229ed",
         "name": "Zao Jun's Rule",
-        "description": "<p>Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5% </span>when there are no other allied Dolls within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of Qiuhua.</p><p>If [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy within attack range, Qiuhua launches one instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, and gaining <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p>Critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> to targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7].</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/c1e060582e342ae1ca3ccebae3a3388e.webp",
         "createdAt": "2025-09-24T03:39:16.300Z",
         "updatedAt": "2025-10-27T03:55:52.414Z",
         "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "c37007c9-e4a7-4c98-9ba9-e393d56da880",
-        "vertebraeUpgradeIdLevel3": "7d25d7c9-349e-4f95-b3f1-b5f436024ec0",
-        "skillTags": [
-          "Passive",
-          "Support"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. When dealing damage, if critical rate of this attack exceeds <span style=\"color: rgb(243, 109, 28);\">100%</span>, every <span style=\"color: rgb(243, 109, 28);\">1%</span> of overflow critical rate is converted to <span style=\"color: rgb(243, 109, 28);\">1%</span> critical damage.</p><p>If [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy within attack range, Qiuhua launches one instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, and gaining <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.</p><p>Critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> to targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7].</p>",
-        "descriptionLevel3": "<p>Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. When dealing damage, if critical rate of this attack exceeds <span style=\"color: rgb(243, 109, 28);\">100%</span>, every <span style=\"color: rgb(243, 109, 28);\">1%</span> of overflow critical rate is converted to <span style=\"color: rgb(243, 109, 28);\">1%</span> critical damage.</p><p>If [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy within attack range, Qiuhua launches one instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, and gaining <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.</p><p>Critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> to targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7]. If the target holds more than <span style=\"color: rgb(243, 109, 28);\">10 stacks</span> of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], for <span style=\"color: rgb(243, 109, 28);\">each excess stack</span>, Qiuhua's attack is increased by <span style=\"color: rgb(243, 109, 28);\">1%</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5% </span>when there are no other allied Dolls within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of Qiuhua.</p><p>If [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy within attack range, Qiuhua launches one instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, and gaining <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p>Critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> to targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7].</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Support"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "c37007c9-e4a7-4c98-9ba9-e393d56da880",
-          "level": 2,
-          "effect": "<p>Instances of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd] is increased by <span style=\"color: rgb(243, 109, 28);\">1</span>. Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased to <span style=\"color: rgb(243, 109, 28);\">15%</span>. The limit of not having other allied Dolls around Qiuhua is no longer needed.</p><p></p><p>When dealing damage, if critical rate of this attack exceeds <span style=\"color: rgb(243, 109, 28);\">100%</span>, every <span style=\"color: rgb(243, 109, 28);\">1%</span> of overflow critical rate is converted to <span style=\"color: rgb(243, 109, 28);\">1%</span> critical damage.</p>",
-          "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/c1e060582e342ae1ca3ccebae3a3388e.webp",
-          "createdAt": "2025-09-26T03:46:14.989Z",
-          "updatedAt": "2025-10-14T07:06:24.056Z",
-          "vertebraeName": "Zao Jun's Rule Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "c37007c9-e4a7-4c98-9ba9-e393d56da880",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. When dealing damage, if critical rate of this attack exceeds <span style=\"color: rgb(243, 109, 28);\">100%</span>, every <span style=\"color: rgb(243, 109, 28);\">1%</span> of overflow critical rate is converted to <span style=\"color: rgb(243, 109, 28);\">1%</span> critical damage.</p><p>If [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy within attack range, Qiuhua launches one instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, and gaining <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.</p><p>Critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> to targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7].</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Support"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "c37007c9-e4a7-4c98-9ba9-e393d56da880",
+            "level": 2,
+            "effect": "<p>Instances of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd] is increased by <span style=\"color: rgb(243, 109, 28);\">1</span>. Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased to <span style=\"color: rgb(243, 109, 28);\">15%</span>. The limit of not having other allied Dolls around Qiuhua is no longer needed.</p><p></p><p>When dealing damage, if critical rate of this attack exceeds <span style=\"color: rgb(243, 109, 28);\">100%</span>, every <span style=\"color: rgb(243, 109, 28);\">1%</span> of overflow critical rate is converted to <span style=\"color: rgb(243, 109, 28);\">1%</span> critical damage.</p>",
+            "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/c1e060582e342ae1ca3ccebae3a3388e.webp",
+            "createdAt": "2025-09-26T03:46:14.989Z",
+            "updatedAt": "2025-10-14T07:06:24.056Z",
+            "vertebraeName": "Zao Jun's Rule Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "7d25d7c9-349e-4f95-b3f1-b5f436024ec0",
-          "level": 3,
-          "effect": "<p>[effect:119105e8-f821-47a0-a1ce-b6169bb261b7] no longer has a stack limit.</p><p></p><p>A new effect is added when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span> to enemy targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7]: If the target holds more than </span><span style=\"color: rgb(243, 109, 28);\">10 stacks</span><span> of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], for </span><span style=\"color: rgb(243, 109, 28);\">each excess stack</span><span>, Qiuhua's attack is increased by </span><span style=\"color: rgb(243, 109, 28);\">1%</span><span>.</span></p>",
-          "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/c1e060582e342ae1ca3ccebae3a3388e.webp",
-          "createdAt": "2025-09-26T03:48:09.658Z",
-          "updatedAt": "2025-10-14T07:06:14.589Z",
-          "vertebraeName": "Zao Jun's Rule Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "7d25d7c9-349e-4f95-b3f1-b5f436024ec0",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. When dealing damage, if critical rate of this attack exceeds <span style=\"color: rgb(243, 109, 28);\">100%</span>, every <span style=\"color: rgb(243, 109, 28);\">1%</span> of overflow critical rate is converted to <span style=\"color: rgb(243, 109, 28);\">1%</span> critical damage.</p><p>If [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy within attack range, Qiuhua launches one instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, and gaining <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.</p><p>Critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> to targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7]. If the target holds more than <span style=\"color: rgb(243, 109, 28);\">10 stacks</span> of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], for <span style=\"color: rgb(243, 109, 28);\">each excess stack</span>, Qiuhua's attack is increased by <span style=\"color: rgb(243, 109, 28);\">1%</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Support"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "7d25d7c9-349e-4f95-b3f1-b5f436024ec0",
+            "level": 3,
+            "effect": "<p>[effect:119105e8-f821-47a0-a1ce-b6169bb261b7] no longer has a stack limit.</p><p></p><p>A new effect is added when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span> to enemy targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7]: If the target holds more than </span><span style=\"color: rgb(243, 109, 28);\">10 stacks</span><span> of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], for </span><span style=\"color: rgb(243, 109, 28);\">each excess stack</span><span>, Qiuhua's attack is increased by </span><span style=\"color: rgb(243, 109, 28);\">1%</span><span>.</span></p>",
+            "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/c1e060582e342ae1ca3ccebae3a3388e.webp",
+            "createdAt": "2025-09-26T03:48:09.658Z",
+            "updatedAt": "2025-10-14T07:06:14.589Z",
+            "vertebraeName": "Zao Jun's Rule Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "eb2943f1-4fb1-43bd-8fde-85892e3ce522",
         "name": "Searing Sizzle",
-        "description": "<p>Selects 1 enemy target with <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it. </p><p>If the distance to the target is less than or equal to <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, and stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
-        "phase": "Burn",
-        "ammoTypes": "[\"Shotgun Ammo\"]",
-        "stabilityDamage": 4,
-        "cooldown": null,
-        "confectanceCost": 2,
         "imageUrl": "https://cdn.dandegate.net/skills/72e9e5aea6cbeabe99ebdb9d1b082339.webp",
         "createdAt": "2025-09-24T03:08:18.865Z",
         "updatedAt": "2025-10-12T00:39:45.203Z",
         "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "63562861-3c15-4ed7-afc7-6136345ff3ff",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target with <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it. After the attack, Qiuhua gains Extra Movement buff that allows an extra movement for <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target holds [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], damage dealt to the target is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>If the distance to the target is less than or equal to <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>, and stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects 1 enemy target with <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it. </p><p>If the distance to the target is less than or equal to <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, and stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
+          "phase": "Burn",
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "stabilityDamage": 4,
+          "cooldown": null,
+          "confectanceCost": 2,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "63562861-3c15-4ed7-afc7-6136345ff3ff",
-          "level": 2,
-          "effect": "<p>Qiuhua gains Extra Movement buff that allows an extra movement for <span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> after attacking.</span></p><p></p><p><span>If the target holds [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], damage dealt to the target is increased by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>. If the distance to the target is less than or equal to </span><span style=\"color: rgb(243, 109, 28);\">4 tiles</span><span>, damage dealt to the  target is increased by </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span> and stability damage dealt to the target is increased by </span><span style=\"color: rgb(243, 109, 28);\">2 points</span><span>.</span></p>",
-          "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/72e9e5aea6cbeabe99ebdb9d1b082339.webp",
-          "createdAt": "2025-09-26T03:51:57.562Z",
-          "updatedAt": "2025-10-14T07:06:18.260Z",
-          "vertebraeName": "Searing Sizzle Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "63562861-3c15-4ed7-afc7-6136345ff3ff",
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Selects 1 enemy target with <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it. After the attack, Qiuhua gains Extra Movement buff that allows an extra movement for <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target holds [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], damage dealt to the target is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>If the distance to the target is less than or equal to <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>, and stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "stabilityDamage": 4,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "63562861-3c15-4ed7-afc7-6136345ff3ff",
+            "level": 2,
+            "effect": "<p>Qiuhua gains Extra Movement buff that allows an extra movement for <span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> after attacking.</span></p><p></p><p><span>If the target holds [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], damage dealt to the target is increased by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>. If the distance to the target is less than or equal to </span><span style=\"color: rgb(243, 109, 28);\">4 tiles</span><span>, damage dealt to the  target is increased by </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span> and stability damage dealt to the target is increased by </span><span style=\"color: rgb(243, 109, 28);\">2 points</span><span>.</span></p>",
+            "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/72e9e5aea6cbeabe99ebdb9d1b082339.webp",
+            "createdAt": "2025-09-26T03:51:57.562Z",
+            "updatedAt": "2025-10-14T07:06:18.260Z",
+            "vertebraeName": "Searing Sizzle Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "b191f04e-55c4-4a45-b280-c78a9ebc50dc",
         "name": "Soaring Leap",
-        "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, leaps to it, and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equivalent to <span style=\"color: rgb(243, 109, 28);\">30% </span>of attack to the nearest enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. After the attack, Qiuhua gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb]. The cooldown of the Ultimate Skill <span style=\"color: rgb(34, 139, 230);\">Boil and Reduce</span> is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "phase": "Burn",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": 1,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/67e17e56f89cfb397e6104733587197a.webp",
         "createdAt": "2025-09-24T03:15:22.558Z",
         "updatedAt": "2025-10-12T00:44:11.093Z",
         "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
         "summonId": null,
-        "rangeMapId": "29c3af32-fc82-45f5-b934-6c36b8fa624d",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "28a445dd-2062-40bf-9a26-91e111cef225",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, leaps to it, and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equivalent to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to the nearest enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. After the attack, Qiuhua gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb]. In addition, Qiuhua gains [effect:74708574-8ab6-4216-a8d2-e28494703a9f] and [effect:4bb0f99c-7615-40a5-838a-ceff0e4b57a2] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. The cooldown of the Ultimate Skill<span style=\"color: rgb(34, 139, 230);\"> Boil and Reduce</span> is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If the target holds [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], deals 1 additional instance of fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to it.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "29c3af32-fc82-45f5-b934-6c36b8fa624d",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758683767849-Range 6 Eff Area 6.webp",
-          "createdAt": "2025-09-24T03:16:07.965Z",
-          "updatedAt": "2025-09-24T03:16:07.965Z",
-          "rangeValue": "6",
-          "effectiveArea": "6"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, leaps to it, and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equivalent to <span style=\"color: rgb(243, 109, 28);\">30% </span>of attack to the nearest enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. After the attack, Qiuhua gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb]. The cooldown of the Ultimate Skill <span style=\"color: rgb(34, 139, 230);\">Boil and Reduce</span> is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": "Burn",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": 1,
+          "confectanceCost": null,
+          "rangeMapId": "29c3af32-fc82-45f5-b934-6c36b8fa624d",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "29c3af32-fc82-45f5-b934-6c36b8fa624d",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758683767849-Range 6 Eff Area 6.webp",
+            "createdAt": "2025-09-24T03:16:07.965Z",
+            "updatedAt": "2025-09-24T03:16:07.965Z",
+            "rangeValue": "6",
+            "effectiveArea": "6"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "28a445dd-2062-40bf-9a26-91e111cef225",
-          "level": 2,
-          "effect": "<p>Damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span><span>. if the target holds [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], deals 1 additional instance of fixed damage equal to </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span> of attack to it. After the attack, Qiuhua gains [effect:74708574-8ab6-4216-a8d2-e28494703a9f] and [effect:4bb0f99c-7615-40a5-838a-ceff0e4b57a2] for </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
-          "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/67e17e56f89cfb397e6104733587197a.webp",
-          "createdAt": "2025-09-26T03:49:56.648Z",
-          "updatedAt": "2025-10-14T07:06:14.764Z",
-          "vertebraeName": "Soaring Leap Lv.2"
+        "level2": {
+          "rangeMapId": "29c3af32-fc82-45f5-b934-6c36b8fa624d",
+          "vertebraeUpgradeId": "28a445dd-2062-40bf-9a26-91e111cef225",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, leaps to it, and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equivalent to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to the nearest enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. After the attack, Qiuhua gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb]. In addition, Qiuhua gains [effect:74708574-8ab6-4216-a8d2-e28494703a9f] and [effect:4bb0f99c-7615-40a5-838a-ceff0e4b57a2] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. The cooldown of the Ultimate Skill<span style=\"color: rgb(34, 139, 230);\"> Boil and Reduce</span> is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If the target holds [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], deals 1 additional instance of fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to it.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "29c3af32-fc82-45f5-b934-6c36b8fa624d",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758683767849-Range 6 Eff Area 6.webp",
+            "createdAt": "2025-09-24T03:16:07.965Z",
+            "updatedAt": "2025-09-24T03:16:07.965Z",
+            "rangeValue": "6",
+            "effectiveArea": "6"
+          },
+          "vertebraeUpgrade": {
+            "id": "28a445dd-2062-40bf-9a26-91e111cef225",
+            "level": 2,
+            "effect": "<p>Damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span><span>. if the target holds [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], deals 1 additional instance of fixed damage equal to </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span> of attack to it. After the attack, Qiuhua gains [effect:74708574-8ab6-4216-a8d2-e28494703a9f] and [effect:4bb0f99c-7615-40a5-838a-ceff0e4b57a2] for </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+            "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/67e17e56f89cfb397e6104733587197a.webp",
+            "createdAt": "2025-09-26T03:49:56.648Z",
+            "updatedAt": "2025-10-14T07:06:14.764Z",
+            "vertebraeName": "Soaring Leap Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "d6290fa1-961a-4b3c-ad5b-1c6bde4e5b3c",
         "name": "Boil and Reduce",
-        "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90% </span>of attack, and applies [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. Expends all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, the damage multiplier of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-        "phase": "Burn",
-        "ammoTypes": "[]",
-        "stabilityDamage": 3,
-        "cooldown": 3,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/e073d08d3bc09095b7986f5dd2ac0522.webp",
         "createdAt": "2025-09-24T03:25:44.236Z",
         "updatedAt": "2025-10-12T00:54:50.791Z",
         "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
         "summonId": null,
-        "rangeMapId": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "bc83b4cd-81c9-4e29-889e-c4ebc3a7cdc3",
-        "vertebraeUpgradeIdLevel3": "8ca58583-8403-458d-8afa-a238bd8033dc",
-        "skillTags": [
-          "Ultimate",
-          "AoE",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": 2,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack, applies [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, and triggers the end-of-turn effect of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] once. Expends all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, the damage multiplier of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-        "descriptionLevel3": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack, applies [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, and triggers the end-of-turn effect of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] once. Expends all points of Confectance Index. For each point of Confectance Index expended, the damage multiplier of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. If only <span style=\"color: rgb(243, 109, 28);\">one</span> target is hit, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757744168858-r6e3.webp",
-          "createdAt": "2025-09-13T06:16:08.963Z",
-          "updatedAt": "2025-09-13T06:16:08.963Z",
-          "rangeValue": "6",
-          "effectiveArea": "3"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90% </span>of attack, and applies [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. Expends all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, the damage multiplier of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "phase": "Burn",
+          "ammoTypes": "[]",
+          "stabilityDamage": 3,
+          "cooldown": 3,
+          "confectanceCost": null,
+          "rangeMapId": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+          "skillTags": [
+            "Ultimate",
+            "AoE",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744168858-r6e3.webp",
+            "createdAt": "2025-09-13T06:16:08.963Z",
+            "updatedAt": "2025-09-13T06:16:08.963Z",
+            "rangeValue": "6",
+            "effectiveArea": "3"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "bc83b4cd-81c9-4e29-889e-c4ebc3a7cdc3",
-          "level": 2,
-          "effect": "<p>Cooldown is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>. When dealing damage, triggers the end-of-turn effect of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] once.</span></p>",
-          "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/e073d08d3bc09095b7986f5dd2ac0522.webp",
-          "createdAt": "2025-09-26T03:43:46.510Z",
-          "updatedAt": "2025-10-14T07:06:05.474Z",
-          "vertebraeName": "Boil and Reduce Lv.2"
+        "level2": {
+          "rangeMapId": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+          "vertebraeUpgradeId": "bc83b4cd-81c9-4e29-889e-c4ebc3a7cdc3",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack, applies [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, and triggers the end-of-turn effect of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] once. Expends all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, the damage multiplier of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Ultimate",
+            "AoE",
+            "Debuff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744168858-r6e3.webp",
+            "createdAt": "2025-09-13T06:16:08.963Z",
+            "updatedAt": "2025-09-13T06:16:08.963Z",
+            "rangeValue": "6",
+            "effectiveArea": "3"
+          },
+          "vertebraeUpgrade": {
+            "id": "bc83b4cd-81c9-4e29-889e-c4ebc3a7cdc3",
+            "level": 2,
+            "effect": "<p>Cooldown is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>. When dealing damage, triggers the end-of-turn effect of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] once.</span></p>",
+            "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/e073d08d3bc09095b7986f5dd2ac0522.webp",
+            "createdAt": "2025-09-26T03:43:46.510Z",
+            "updatedAt": "2025-10-14T07:06:05.474Z",
+            "vertebraeName": "Boil and Reduce Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "8ca58583-8403-458d-8afa-a238bd8033dc",
-          "level": 3,
-          "effect": "<p>If only <span style=\"color: rgb(243, 109, 28);\">one</span><span> target is hit, damage dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p><p></p><p><span>The effect of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] is changed: Damage dealt is increased, equal to </span><span style=\"color: rgb(243, 109, 28);\">10%</span><span> of the inflictor's attack. When the target with this debuff takes </span><span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span>, it gains </span><span style=\"color: rgb(243, 109, 28);\">2 stacks</span><span> instead.</span></p>",
-          "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/e073d08d3bc09095b7986f5dd2ac0522.webp",
-          "createdAt": "2025-09-26T03:53:36.852Z",
-          "updatedAt": "2025-10-14T07:06:18.439Z",
-          "vertebraeName": "Boil and Reduce Lv.3"
+        "level3": {
+          "rangeMapId": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+          "vertebraeUpgradeId": "8ca58583-8403-458d-8afa-a238bd8033dc",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack, applies [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, and triggers the end-of-turn effect of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] once. Expends all points of Confectance Index. For each point of Confectance Index expended, the damage multiplier of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. If only <span style=\"color: rgb(243, 109, 28);\">one</span> target is hit, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Ultimate",
+            "AoE",
+            "Debuff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744168858-r6e3.webp",
+            "createdAt": "2025-09-13T06:16:08.963Z",
+            "updatedAt": "2025-09-13T06:16:08.963Z",
+            "rangeValue": "6",
+            "effectiveArea": "3"
+          },
+          "vertebraeUpgrade": {
+            "id": "8ca58583-8403-458d-8afa-a238bd8033dc",
+            "level": 3,
+            "effect": "<p>If only <span style=\"color: rgb(243, 109, 28);\">one</span><span> target is hit, damage dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p><p></p><p><span>The effect of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] is changed: Damage dealt is increased, equal to </span><span style=\"color: rgb(243, 109, 28);\">10%</span><span> of the inflictor's attack. When the target with this debuff takes </span><span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span>, it gains </span><span style=\"color: rgb(243, 109, 28);\">2 stacks</span><span> instead.</span></p>",
+            "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/e073d08d3bc09095b7986f5dd2ac0522.webp",
+            "createdAt": "2025-09-26T03:53:36.852Z",
+            "updatedAt": "2025-10-14T07:06:18.439Z",
+            "vertebraeName": "Boil and Reduce Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -458,29 +482,6 @@
         "createdAt": "2025-09-26T23:34:49.337Z",
         "updatedAt": "2025-09-27T05:19:48.423Z",
         "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "dollImages": [
-            {
-              "id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-              "createdAt": "2025-09-24T02:45:15.940Z",
-              "updatedAt": "2025-09-24T02:45:15.940Z"
-            }
-          ],
-          "searchTags": [
-            "Type 97 Shotgun",
-            "Captain China"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Cooking Consultant",
         "shortId": "a41"
@@ -504,75 +505,32 @@
         "createdAt": "2025-09-26T23:33:31.261Z",
         "updatedAt": "2025-10-14T07:06:48.455Z",
         "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "dollImages": [
-            {
-              "id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-              "createdAt": "2025-09-24T02:45:15.940Z",
-              "updatedAt": "2025-09-24T02:45:15.940Z"
-            }
-          ],
-          "searchTags": [
-            "Type 97 Shotgun",
-            "Captain China"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Delicious Cooking",
         "shortId": "c41"
       },
       {
         "id": "7a3e7564-649b-4a74-9032-d74158c7f3b9",
-				"keyTitle": "Sizzling Stir-Fry",
-				"keyType": "Expansion Key",
-				"keyNumber": 1,
-				"level": 60,
-				"effect": "<p>[effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd]'s damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> and damage dealt ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of target's defense.</p><p>For each instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd] performed, this unit gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:c52dd4f3-f7c2-4094-8689-0ad9704c8b09] for <span style=\"color: rgb(243, 109, 28);\">2</span> rounds.</p><p>When a unit with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] dies, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to all its allied units <span style=\"color: rgb(243, 109, 28);\">within </span><span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>When the active skill <span style=\"color: rgb(34, 139, 230);\">Soaring Leap</span> deals damage, generates [effect:f793ed02-a490-4ac2-849a-689c57001678] tiles <span style=\"color: rgb(243, 109, 28);\">within</span> <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-				"materialsType": "items",
-				"materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
-				"attributeName1": null,
-				"attributeValue1": null,
-				"attributeName2": null,
-				"attributeValue2": null,
-				"attributeName3": null,
-				"attributeValue3": null,
-				"regionTag": "en",
-				"imageUrl": "https://cdn.dandegate.net/keys/d69be13d6d0c0b931ceefd13fa1819f4c29aff6bc2d131fc4adf38c1ac6030c6.webp",
-				"createdAt": "2025-10-27T03:48:09.579Z",
-				"updatedAt": "2026-04-24T04:18:56.187Z",
-				"dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-				"doll": {
-					"id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-					"name": "Qiuhua",
-					"rarity": "Elite",
-					"preview": false,
-					"avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-					"createdAt": "2025-09-24T02:45:15.814Z",
-					"regionTag": "en",
-					"updatedAt": "2025-11-14T07:22:51.364Z",
-					"dollImages": [
-						{
-							"id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-							"category": "Chibi",
-							"imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-							"createdAt": "2025-09-24T02:45:15.940Z",
-							"updatedAt": "2025-09-24T02:45:15.940Z"
-						}
-					],
-					"searchTags": ["Type 97 Shotgun", "Captain China"]
-				},
-				"searchTags": [],
-				"displayTitle": "Expansion Key - Sizzling Stir-Fry",
+        "keyTitle": "Sizzling Stir-Fry",
+        "keyType": "Expansion Key",
+        "keyNumber": 1,
+        "level": 60,
+        "effect": "<p>[effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd]'s damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> and damage dealt ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of target's defense.</p><p>For each instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd] performed, this unit gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:c52dd4f3-f7c2-4094-8689-0ad9704c8b09] for <span style=\"color: rgb(243, 109, 28);\">2</span> rounds.</p><p>When a unit with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] dies, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to all its allied units <span style=\"color: rgb(243, 109, 28);\">within </span><span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p><p>When the active skill <span style=\"color: rgb(34, 139, 230);\">Soaring Leap</span> deals damage, generates [effect:f793ed02-a490-4ac2-849a-689c57001678] tiles <span style=\"color: rgb(243, 109, 28);\">within</span> <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
+        "regionTag": "en",
+        "imageUrl": "https://cdn.dandegate.net/keys/d69be13d6d0c0b931ceefd13fa1819f4c29aff6bc2d131fc4adf38c1ac6030c6.webp",
+        "createdAt": "2025-10-27T03:48:09.579Z",
+        "updatedAt": "2026-04-24T04:18:56.187Z",
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "searchTags": [],
+        "displayTitle": "Expansion Key - Sizzling Stir-Fry",
         "shortId": "k1"
       },
       {
@@ -595,29 +553,6 @@
         "createdAt": "2025-09-24T02:49:49.776Z",
         "updatedAt": "2025-09-24T02:49:49.776Z",
         "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "dollImages": [
-            {
-              "id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-              "createdAt": "2025-09-24T02:45:15.940Z",
-              "updatedAt": "2025-09-24T02:45:15.940Z"
-            }
-          ],
-          "searchTags": [
-            "Type 97 Shotgun",
-            "Captain China"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Meal Prep",
         "shortId": "k2"
@@ -642,29 +577,6 @@
         "createdAt": "2025-09-24T02:52:40.107Z",
         "updatedAt": "2025-10-14T07:06:42.681Z",
         "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "dollImages": [
-            {
-              "id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-              "createdAt": "2025-09-24T02:45:15.940Z",
-              "updatedAt": "2025-09-24T02:45:15.940Z"
-            }
-          ],
-          "searchTags": [
-            "Type 97 Shotgun",
-            "Captain China"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Roaring Stove",
         "shortId": "k3"
@@ -689,29 +601,6 @@
         "createdAt": "2025-09-24T02:54:22.138Z",
         "updatedAt": "2025-09-24T02:54:22.138Z",
         "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "dollImages": [
-            {
-              "id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-              "createdAt": "2025-09-24T02:45:15.940Z",
-              "updatedAt": "2025-09-24T02:45:15.940Z"
-            }
-          ],
-          "searchTags": [
-            "Type 97 Shotgun",
-            "Captain China"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Slice and Dice",
         "shortId": "k4"
@@ -736,29 +625,6 @@
         "createdAt": "2025-09-24T02:55:30.985Z",
         "updatedAt": "2025-10-14T07:06:42.858Z",
         "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "dollImages": [
-            {
-              "id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-              "createdAt": "2025-09-24T02:45:15.940Z",
-              "updatedAt": "2025-09-24T02:45:15.940Z"
-            }
-          ],
-          "searchTags": [
-            "Type 97 Shotgun",
-            "Captain China"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Fragrant Stir-Fry",
         "shortId": "k5"
@@ -783,29 +649,6 @@
         "createdAt": "2025-09-24T02:56:42.477Z",
         "updatedAt": "2025-10-14T07:06:43.202Z",
         "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "dollImages": [
-            {
-              "id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-              "createdAt": "2025-09-24T02:45:15.940Z",
-              "updatedAt": "2025-09-24T02:45:15.940Z"
-            }
-          ],
-          "searchTags": [
-            "Type 97 Shotgun",
-            "Captain China"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Cooking Smoke",
         "shortId": "k6"
@@ -830,29 +673,6 @@
         "createdAt": "2025-09-24T02:57:48.431Z",
         "updatedAt": "2025-10-14T07:06:43.375Z",
         "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "dollImages": [
-            {
-              "id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-              "createdAt": "2025-09-24T02:45:15.940Z",
-              "updatedAt": "2025-09-24T02:45:15.940Z"
-            }
-          ],
-          "searchTags": [
-            "Type 97 Shotgun",
-            "Captain China"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Bloated Belly",
         "shortId": "k7"
@@ -869,69 +689,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/e073d08d3bc09095b7986f5dd2ac0522.webp",
         "createdAt": "2025-09-26T03:43:46.510Z",
         "updatedAt": "2025-10-14T07:06:05.474Z",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "class": "Vanguard",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "A passionate, high-energy Doll with an optimistic outlook on life. As a gourmet hunter in the Yellow Zones, she's made it her mission to develop new ingredients to tackle food shortages. Standing against injustice is a way of life for her and her credo is to never let a conversation trail off. \"While I can't say I approve of adding ketchup to Guo Bao Rou, if that's how you like it, then I suppose I can live with it.\"",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Shotgun Ammo\",\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "d6290fa1-961a-4b3c-ad5b-1c6bde4e5b3c",
             "name": "Boil and Reduce",
-            "phase": "Burn",
             "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/e073d08d3bc09095b7986f5dd2ac0522.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-24T03:25:44.236Z",
-            "skillTags": [
-              "Ultimate",
-              "AoE",
-              "Debuff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-12T00:54:50.791Z",
-            "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90% </span>of attack, and applies [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. Expends all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, the damage multiplier of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
-            "cooldownLevel2": 2,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack, applies [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, and triggers the end-of-turn effect of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] once. Expends all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, the damage multiplier of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-            "descriptionLevel3": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack, applies [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, and triggers the end-of-turn effect of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] once. Expends all points of Confectance Index. For each point of Confectance Index expended, the damage multiplier of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. If only <span style=\"color: rgb(243, 109, 28);\">one</span> target is hit, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "bc83b4cd-81c9-4e29-889e-c4ebc3a7cdc3",
-            "vertebraeUpgradeIdLevel3": "8ca58583-8403-458d-8afa-a238bd8033dc"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "c37007c9-e4a7-4c98-9ba9-e393d56da880",
@@ -943,68 +712,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/c1e060582e342ae1ca3ccebae3a3388e.webp",
         "createdAt": "2025-09-26T03:46:14.989Z",
         "updatedAt": "2025-10-14T07:06:24.056Z",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "class": "Vanguard",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "A passionate, high-energy Doll with an optimistic outlook on life. As a gourmet hunter in the Yellow Zones, she's made it her mission to develop new ingredients to tackle food shortages. Standing against injustice is a way of life for her and her credo is to never let a conversation trail off. \"While I can't say I approve of adding ketchup to Guo Bao Rou, if that's how you like it, then I suppose I can live with it.\"",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Shotgun Ammo\",\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "2934fdc3-8a90-4035-a942-2aacf69229ed",
             "name": "Zao Jun's Rule",
-            "phase": null,
             "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/c1e060582e342ae1ca3ccebae3a3388e.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-24T03:39:16.300Z",
-            "skillTags": [
-              "Passive",
-              "Support"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-27T03:55:52.414Z",
-            "description": "<p>Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5% </span>when there are no other allied Dolls within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of Qiuhua.</p><p>If [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy within attack range, Qiuhua launches one instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, and gaining <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p>Critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> to targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. When dealing damage, if critical rate of this attack exceeds <span style=\"color: rgb(243, 109, 28);\">100%</span>, every <span style=\"color: rgb(243, 109, 28);\">1%</span> of overflow critical rate is converted to <span style=\"color: rgb(243, 109, 28);\">1%</span> critical damage.</p><p>If [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy within attack range, Qiuhua launches one instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, and gaining <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.</p><p>Critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> to targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7].</p>",
-            "descriptionLevel3": "<p>Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. When dealing damage, if critical rate of this attack exceeds <span style=\"color: rgb(243, 109, 28);\">100%</span>, every <span style=\"color: rgb(243, 109, 28);\">1%</span> of overflow critical rate is converted to <span style=\"color: rgb(243, 109, 28);\">1%</span> critical damage.</p><p>If [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy within attack range, Qiuhua launches one instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, and gaining <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.</p><p>Critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> to targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7]. If the target holds more than <span style=\"color: rgb(243, 109, 28);\">10 stacks</span> of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], for <span style=\"color: rgb(243, 109, 28);\">each excess stack</span>, Qiuhua's attack is increased by <span style=\"color: rgb(243, 109, 28);\">1%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "c37007c9-e4a7-4c98-9ba9-e393d56da880",
-            "vertebraeUpgradeIdLevel3": "7d25d7c9-349e-4f95-b3f1-b5f436024ec0"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "7d25d7c9-349e-4f95-b3f1-b5f436024ec0",
@@ -1016,68 +735,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/c1e060582e342ae1ca3ccebae3a3388e.webp",
         "createdAt": "2025-09-26T03:48:09.658Z",
         "updatedAt": "2025-10-14T07:06:14.589Z",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "class": "Vanguard",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "A passionate, high-energy Doll with an optimistic outlook on life. As a gourmet hunter in the Yellow Zones, she's made it her mission to develop new ingredients to tackle food shortages. Standing against injustice is a way of life for her and her credo is to never let a conversation trail off. \"While I can't say I approve of adding ketchup to Guo Bao Rou, if that's how you like it, then I suppose I can live with it.\"",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Shotgun Ammo\",\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "2934fdc3-8a90-4035-a942-2aacf69229ed",
             "name": "Zao Jun's Rule",
-            "phase": null,
             "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/c1e060582e342ae1ca3ccebae3a3388e.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-24T03:39:16.300Z",
-            "skillTags": [
-              "Passive",
-              "Support"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-27T03:55:52.414Z",
-            "description": "<p>Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5% </span>when there are no other allied Dolls within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of Qiuhua.</p><p>If [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy within attack range, Qiuhua launches one instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, and gaining <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p>Critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> to targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. When dealing damage, if critical rate of this attack exceeds <span style=\"color: rgb(243, 109, 28);\">100%</span>, every <span style=\"color: rgb(243, 109, 28);\">1%</span> of overflow critical rate is converted to <span style=\"color: rgb(243, 109, 28);\">1%</span> critical damage.</p><p>If [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy within attack range, Qiuhua launches one instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, and gaining <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.</p><p>Critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> to targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7].</p>",
-            "descriptionLevel3": "<p>Qiuhua's <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. When dealing damage, if critical rate of this attack exceeds <span style=\"color: rgb(243, 109, 28);\">100%</span>, every <span style=\"color: rgb(243, 109, 28);\">1%</span> of overflow critical rate is converted to <span style=\"color: rgb(243, 109, 28);\">1%</span> critical damage.</p><p>If [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy within attack range, Qiuhua launches one instance of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage, and gaining <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.</p><p>Critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> when dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> to targets with [effect:119105e8-f821-47a0-a1ce-b6169bb261b7]. If the target holds more than <span style=\"color: rgb(243, 109, 28);\">10 stacks</span> of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], for <span style=\"color: rgb(243, 109, 28);\">each excess stack</span>, Qiuhua's attack is increased by <span style=\"color: rgb(243, 109, 28);\">1%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "c37007c9-e4a7-4c98-9ba9-e393d56da880",
-            "vertebraeUpgradeIdLevel3": "7d25d7c9-349e-4f95-b3f1-b5f436024ec0"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "28a445dd-2062-40bf-9a26-91e111cef225",
@@ -1089,68 +758,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/67e17e56f89cfb397e6104733587197a.webp",
         "createdAt": "2025-09-26T03:49:56.648Z",
         "updatedAt": "2025-10-14T07:06:14.764Z",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "class": "Vanguard",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "A passionate, high-energy Doll with an optimistic outlook on life. As a gourmet hunter in the Yellow Zones, she's made it her mission to develop new ingredients to tackle food shortages. Standing against injustice is a way of life for her and her credo is to never let a conversation trail off. \"While I can't say I approve of adding ketchup to Guo Bao Rou, if that's how you like it, then I suppose I can live with it.\"",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Shotgun Ammo\",\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "b191f04e-55c4-4a45-b280-c78a9ebc50dc",
             "name": "Soaring Leap",
-            "phase": "Burn",
             "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/67e17e56f89cfb397e6104733587197a.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-09-24T03:15:22.558Z",
-            "skillTags": [
-              "Active",
-              "Targeted"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-12T00:44:11.093Z",
-            "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, leaps to it, and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equivalent to <span style=\"color: rgb(243, 109, 28);\">30% </span>of attack to the nearest enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. After the attack, Qiuhua gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb]. The cooldown of the Ultimate Skill <span style=\"color: rgb(34, 139, 230);\">Boil and Reduce</span> is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "29c3af32-fc82-45f5-b934-6c36b8fa624d",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, leaps to it, and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equivalent to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to the nearest enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. After the attack, Qiuhua gains [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb]. In addition, Qiuhua gains [effect:74708574-8ab6-4216-a8d2-e28494703a9f] and [effect:4bb0f99c-7615-40a5-838a-ceff0e4b57a2] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. The cooldown of the Ultimate Skill<span style=\"color: rgb(34, 139, 230);\"> Boil and Reduce</span> is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If the target holds [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], deals 1 additional instance of fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to it.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "28a445dd-2062-40bf-9a26-91e111cef225",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "63562861-3c15-4ed7-afc7-6136345ff3ff",
@@ -1162,68 +781,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/72e9e5aea6cbeabe99ebdb9d1b082339.webp",
         "createdAt": "2025-09-26T03:51:57.562Z",
         "updatedAt": "2025-10-14T07:06:18.260Z",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "class": "Vanguard",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "A passionate, high-energy Doll with an optimistic outlook on life. As a gourmet hunter in the Yellow Zones, she's made it her mission to develop new ingredients to tackle food shortages. Standing against injustice is a way of life for her and her credo is to never let a conversation trail off. \"While I can't say I approve of adding ketchup to Guo Bao Rou, if that's how you like it, then I suppose I can live with it.\"",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Shotgun Ammo\",\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "eb2943f1-4fb1-43bd-8fde-85892e3ce522",
             "name": "Searing Sizzle",
-            "phase": "Burn",
             "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/72e9e5aea6cbeabe99ebdb9d1b082339.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Shotgun Ammo\"]",
-            "createdAt": "2025-09-24T03:08:18.865Z",
-            "skillTags": [
-              "Active",
-              "Targeted"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-12T00:39:45.203Z",
-            "description": "<p>Selects 1 enemy target with <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it. </p><p>If the distance to the target is less than or equal to <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, and stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 2,
-            "stabilityDamage": 4,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 enemy target with <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it. After the attack, Qiuhua gains Extra Movement buff that allows an extra movement for <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target holds [effect:119105e8-f821-47a0-a1ce-b6169bb261b7], damage dealt to the target is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>If the distance to the target is less than or equal to <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>, and stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "63562861-3c15-4ed7-afc7-6136345ff3ff",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "8ca58583-8403-458d-8afa-a238bd8033dc",
@@ -1235,69 +804,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/e073d08d3bc09095b7986f5dd2ac0522.webp",
         "createdAt": "2025-09-26T03:53:36.852Z",
         "updatedAt": "2025-10-14T07:06:18.439Z",
-        "doll": {
-          "id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-          "name": "Qiuhua",
-          "class": "Vanguard",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "A passionate, high-energy Doll with an optimistic outlook on life. As a gourmet hunter in the Yellow Zones, she's made it her mission to develop new ingredients to tackle food shortages. Standing against injustice is a way of life for her and her credo is to never let a conversation trail off. \"While I can't say I approve of adding ketchup to Guo Bao Rou, if that's how you like it, then I suppose I can live with it.\"",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Shotgun Ammo\",\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-          "createdAt": "2025-09-24T02:45:15.814Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:22:51.364Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "d6290fa1-961a-4b3c-ad5b-1c6bde4e5b3c",
             "name": "Boil and Reduce",
-            "phase": "Burn",
             "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/e073d08d3bc09095b7986f5dd2ac0522.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-24T03:25:44.236Z",
-            "skillTags": [
-              "Ultimate",
-              "AoE",
-              "Debuff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-12T00:54:50.791Z",
-            "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90% </span>of attack, and applies [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. Expends all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, the damage multiplier of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
-            "cooldownLevel2": 2,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack, applies [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, and triggers the end-of-turn effect of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] once. Expends all points of Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, the damage multiplier of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-            "descriptionLevel3": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack, applies [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, and triggers the end-of-turn effect of [effect:119105e8-f821-47a0-a1ce-b6169bb261b7] once. Expends all points of Confectance Index. For each point of Confectance Index expended, the damage multiplier of this attack is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. If only <span style=\"color: rgb(243, 109, 28);\">one</span> target is hit, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "bc83b4cd-81c9-4e29-889e-c4ebc3a7cdc3",
-            "vertebraeUpgradeIdLevel3": "8ca58583-8403-458d-8afa-a238bd8033dc"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1409,89 +927,114 @@
       "equippedRelics": []
     },
     "dollEffects": [
-			{
-				"id": "119105e8-f821-47a0-a1ce-b6169bb261b7",
-				"effectName": "Scorch Mark",
-				"effectDetails": "{\"mainDetails\":\"<p>At the end of the action, the inflictor deals <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">7%</span> of attack to the debuff holder. <span style=\\\"color: rgb(243, 109, 28);\\\">Each</span> additional stack increases the damage multiplier by <span style=\\\"color: rgb(243, 109, 28);\\\">7%</span>, after which all stacks are cleared. Gains <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> when taking <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> from an enemy, to a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">12 stacks</span>. Remove all stacks when the inflictor dies. Considered a Burn debuff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"63ccea5d-109b-4d2b-acb6-13724cb2d2a6\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>At the end of the action, the inflictor deals <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">7%</span> of attack to the debuff holder. <span style=\\\"color: rgb(243, 109, 28);\\\">Each</span> additional stack increases the damage multiplier by <span style=\\\"color: rgb(243, 109, 28);\\\">7%</span>, after which all stacks are cleared. Gains <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> when taking <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> from an enemy. Remove all stacks when the inflictor dies. Considered a Burn debuff, cannot be cleansed.</p><p><span style=\\\"color: rgb(34, 139, 230);\\\">Dandegate Note: Although not explicity stated, this has a cap of 99 stacks</span></p>\",\"order\":0},{\"id\":\"e3605a10-31e6-405a-980f-27cd48e782cd\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>At the end of the action, the inflictor deals <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span> of attack to the debuff holder. <span style=\\\"color: rgb(243, 109, 28);\\\">Each</span> additional stack increases the damage multiplier by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>, after which all stacks are cleared. Gains <span style=\\\"color: rgb(243, 109, 28);\\\">2 stacks</span> when taking <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> from an enemy. Remove all stacks when the inflictor dies. Considered a Burn debuff, cannot be cleansed.</p><p><span style=\\\"color: rgb(34, 139, 230);\\\">Dandegate Note: Although not explicity stated, this has a cap of 99 stacks</span></p>\",\"order\":1}]}",
-				"effectTags": ["Burn", "Debuff"],
-				"dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-				"preview": false,
-				"regionTag": "en",
-				"createdAt": "2025-09-24T02:38:37.816Z",
-				"updatedAt": "2026-05-05T19:59:01.048Z",
-				"doll": {
-					"id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-					"name": "Qiuhua",
-					"rarity": "Elite",
-					"preview": false,
-					"avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-					"createdAt": "2025-09-24T02:45:15.814Z",
-					"regionTag": "en",
-					"updatedAt": "2025-11-14T07:22:51.364Z",
-					"dollImages": [
-						{
-							"id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-							"category": "Chibi",
-							"imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-							"alt": null
-						}
-					],
-					"searchTags": [
-						{
-							"searchTag": {
-								"name": "Type 97 Shotgun"
-							}
-						},
-						{
-							"searchTag": {
-								"name": "Captain China"
-							}
-						}
-					]
-				}
-			},
-			{
-				"id": "c52dd4f3-f7c2-4094-8689-0ad9704c8b09",
-				"effectName": "Wok Hei",
-				"effectDetails": "<p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">7%</span> and damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">7%</span>. Stacks up to <span style=\"color: rgb(243, 109, 28);\">4 times</span>. Considered a Burn buff, cannot be cleansed.</p>",
-				"effectTags": ["Buff", "Burn"],
-				"dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-				"preview": false,
-				"regionTag": "en",
-				"createdAt": "2025-10-27T03:43:53.517Z",
-				"updatedAt": "2026-04-24T04:19:29.777Z",
-				"doll": {
-					"id": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
-					"name": "Qiuhua",
-					"rarity": "Elite",
-					"preview": false,
-					"avatarUrl": "https://cdn.dandegate.net/dolls/qiuhua/5fedf06686d91abcbd0e21003e58fa91.webp",
-					"createdAt": "2025-09-24T02:45:15.814Z",
-					"regionTag": "en",
-					"updatedAt": "2025-11-14T07:22:51.364Z",
-					"dollImages": [
-						{
-							"id": "87369263-0eb2-40f4-88dc-a89e6ad076d3",
-							"category": "Chibi",
-							"imageUrl": "https://cdn.dandegate.net/dolls/qiuhua/chibi-1a6bf2ef293c26878cec12896ccd6659.webp",
-							"alt": null
-						}
-					],
-					"searchTags": [
-						{
-							"searchTag": {
-								"name": "Type 97 Shotgun"
-							}
-						},
-						{
-							"searchTag": {
-								"name": "Captain China"
-							}
-						}
-					]
-				}
-			}
-		],
+      {
+        "id": "119105e8-f821-47a0-a1ce-b6169bb261b7",
+        "effectName": "Scorch Mark",
+        "effectDetails": {
+          "mainDetails": "<p>At the end of the action, the inflictor deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">7%</span> of attack to the debuff holder. <span style=\"color: rgb(243, 109, 28);\">Each</span> additional stack increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">7%</span>, after which all stacks are cleared. Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> when taking <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> from an enemy, to a maximum of <span style=\"color: rgb(243, 109, 28);\">12 stacks</span>. Remove all stacks when the inflictor dies. Considered a Burn debuff, cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "63ccea5d-109b-4d2b-acb6-13724cb2d2a6",
+              "upgradeName": "V3",
+              "upgradeDetails": "<p>At the end of the action, the inflictor deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">7%</span> of attack to the debuff holder. <span style=\"color: rgb(243, 109, 28);\">Each</span> additional stack increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">7%</span>, after which all stacks are cleared. Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> when taking <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> from an enemy. Remove all stacks when the inflictor dies. Considered a Burn debuff, cannot be cleansed.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: Although not explicity stated, this has a cap of 99 stacks</span></p>",
+              "order": 0
+            },
+            {
+              "id": "e3605a10-31e6-405a-980f-27cd48e782cd",
+              "upgradeName": "V6",
+              "upgradeDetails": "<p>At the end of the action, the inflictor deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of attack to the debuff holder. <span style=\"color: rgb(243, 109, 28);\">Each</span> additional stack increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">10%</span>, after which all stacks are cleared. Gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> when taking <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> from an enemy. Remove all stacks when the inflictor dies. Considered a Burn debuff, cannot be cleansed.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: Although not explicity stated, this has a cap of 99 stacks</span></p>",
+              "order": 1
+            }
+          ]
+        },
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-24T02:38:37.816Z",
+        "updatedAt": "2026-05-05T19:59:01.048Z"
+      },
+      {
+        "id": "c52dd4f3-f7c2-4094-8689-0ad9704c8b09",
+        "effectName": "Wok Hei",
+        "effectDetails": "<p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">7%</span> and damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">7%</span>. Stacks up to <span style=\"color: rgb(243, 109, 28);\">4 times</span>. Considered a Burn buff, cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff",
+          "Burn"
+        ],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-27T03:43:53.517Z",
+        "updatedAt": "2026-04-24T04:19:29.777Z"
+      },
+      {
+        "id": "71b3f790-db3b-4188-a3d7-15fa9752b57a",
+        "effectName": "Overburn",
+        "effectDetails": "<p>Upon gaining this effect and at the end of action, the buff holder and all allied units within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the buff holder take fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of the effect applier's attack. Considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T03:40:29.821Z",
+        "updatedAt": "2025-11-03T15:09:18.125Z"
+      },
+      {
+        "id": "bf9cca5c-a432-44ad-ba77-05ba7435b1dd",
+        "effectName": "Emergency Support",
+        "effectDetails": "<p>Performs a Support Attack.</p>",
+        "effectTags": [],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:51:55.812Z",
+        "updatedAt": "2025-09-13T03:51:55.812Z"
+      },
+      {
+        "id": "c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb",
+        "effectName": "Extra Command",
+        "effectDetails": "<p>Commands other than movement can be executed.</p>",
+        "effectTags": [],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T19:42:00.107Z",
+        "updatedAt": "2025-09-14T19:42:00.107Z"
+      },
+      {
+        "id": "74708574-8ab6-4216-a8d2-e28494703a9f",
+        "effectName": "Phase Boost II",
+        "effectDetails": "<p>Increases Phase damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-24T02:24:20.248Z",
+        "updatedAt": "2025-11-03T15:18:37.142Z"
+      },
+      {
+        "id": "4bb0f99c-7615-40a5-838a-ceff0e4b57a2",
+        "effectName": "Stability Offensive II",
+        "effectDetails": "<p>Stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Stability"
+        ],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-24T02:26:35.297Z",
+        "updatedAt": "2025-11-03T15:51:47.654Z"
+      }
+    ],
     "shortId": "d41"
   }
 }

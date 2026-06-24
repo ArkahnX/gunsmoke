@@ -69,364 +69,387 @@
       {
         "id": "7a048667-fcc7-4b35-b46e-abfffda318bb",
         "name": "Love Shot",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/9433932bb116c2e006ab95be63f920f4.webp",
         "createdAt": "2025-09-22T23:35:02.401Z",
         "updatedAt": "2025-09-22T23:35:02.401Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "3a37a4a5-9c32-46b5-acd2-d628f4b6bc9b",
         "name": "Makeup Organization",
-        "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy target, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Critical rate against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/b2ee8e136270d83ff61d9653bcba7e72.webp",
         "createdAt": "2025-09-22T23:51:26.035Z",
         "updatedAt": "2025-10-14T07:07:04.873Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "9281dcdf-db4c-458d-9c93-5d03d17f5851",
-        "vertebraeUpgradeIdLevel3": "57046e67-3bac-4396-8124-1e955ea82541",
-        "skillTags": [
-          "Passive"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy target, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Critical rate increased by <span style=\"color: rgb(243, 109, 28);\">30% </span>against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a]. Critical damage increased by <span style=\"color: rgb(243, 109, 28);\">3%</span><span> per buff effect on this unit, up to a maximum of </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p>",
-        "descriptionLevel3": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span><span>of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a] </span>and <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index. When [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy target, gains <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index. Critical rate increased by<span style=\"color: rgb(243, 109, 28);\"> 30%</span> against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a]. Critical damage increased by <span style=\"color: rgb(243, 109, 28);\">3%</span> per buff effect on this unit, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy target, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Critical rate against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "9281dcdf-db4c-458d-9c93-5d03d17f5851",
-          "level": 2,
-          "effect": "<p>Critical Rate is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span> against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a]. Critical damage is increased by </span><span style=\"color: rgb(243, 109, 28);\">3%</span><span> for each active buff, up to a maximum of </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p>",
-          "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/b2ee8e136270d83ff61d9653bcba7e72.webp",
-          "createdAt": "2025-09-22T23:57:37.657Z",
-          "updatedAt": "2025-10-14T07:06:10.385Z",
-          "vertebraeName": "Makeup Organization Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "9281dcdf-db4c-458d-9c93-5d03d17f5851",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy target, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Critical rate increased by <span style=\"color: rgb(243, 109, 28);\">30% </span>against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a]. Critical damage increased by <span style=\"color: rgb(243, 109, 28);\">3%</span><span> per buff effect on this unit, up to a maximum of </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p>",
+          "phase": null,
+          "skillTags": [
+            "Passive"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "9281dcdf-db4c-458d-9c93-5d03d17f5851",
+            "level": 2,
+            "effect": "<p>Critical Rate is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span> against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a]. Critical damage is increased by </span><span style=\"color: rgb(243, 109, 28);\">3%</span><span> for each active buff, up to a maximum of </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p>",
+            "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/b2ee8e136270d83ff61d9653bcba7e72.webp",
+            "createdAt": "2025-09-22T23:57:37.657Z",
+            "updatedAt": "2025-10-14T07:06:10.385Z",
+            "vertebraeName": "Makeup Organization Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "57046e67-3bac-4396-8124-1e955ea82541",
-          "level": 3,
-          "effect": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a].</span></p>",
-          "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/b2ee8e136270d83ff61d9653bcba7e72.webp",
-          "createdAt": "2025-09-22T23:59:39.918Z",
-          "updatedAt": "2025-10-14T07:06:10.734Z",
-          "vertebraeName": "Makeup Organization Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "57046e67-3bac-4396-8124-1e955ea82541",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span><span>of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a] </span>and <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index. When [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy target, gains <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index. Critical rate increased by<span style=\"color: rgb(243, 109, 28);\"> 30%</span> against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a]. Critical damage increased by <span style=\"color: rgb(243, 109, 28);\">3%</span> per buff effect on this unit, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "57046e67-3bac-4396-8124-1e955ea82541",
+            "level": 3,
+            "effect": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a].</span></p>",
+            "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/b2ee8e136270d83ff61d9653bcba7e72.webp",
+            "createdAt": "2025-09-22T23:59:39.918Z",
+            "updatedAt": "2025-10-14T07:06:10.734Z",
+            "vertebraeName": "Makeup Organization Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "43acbe01-21df-4b5a-bb39-0ace31b89433",
         "name": "Boiling Soundwaves",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to them. If the user is under the effects of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], Increases stability damage dealt by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
-        "phase": "Burn",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": 2,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/0e78335448973e441280101f77457b1d.webp",
         "createdAt": "2025-09-22T23:38:00.390Z",
         "updatedAt": "2025-10-14T07:07:04.351Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "d559261d-18b3-4452-93a9-226399cbbf29",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Debuff"
-        ],
         "keyUpgradesData": "[\"8b266b3a-4b03-47ce-806c-b33efbf31197\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turn</span>, and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to them. If the user is under the effects of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], Increases stability damage dealt by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to them. If the user is under the effects of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], Increases stability damage dealt by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
+          "phase": "Burn",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": 2,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "d559261d-18b3-4452-93a9-226399cbbf29",
-          "level": 2,
-          "effect": "<p>Increase the duration of [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] by <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
-          "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/0e78335448973e441280101f77457b1d.webp",
-          "createdAt": "2025-09-22T23:52:47.175Z",
-          "updatedAt": "2025-10-14T07:06:09.872Z",
-          "vertebraeName": "Boiling Soundwaves Lv.2"
+        "level2": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "d559261d-18b3-4452-93a9-226399cbbf29",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turn</span>, and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to them. If the user is under the effects of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], Increases stability damage dealt by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "d559261d-18b3-4452-93a9-226399cbbf29",
+            "level": 2,
+            "effect": "<p>Increase the duration of [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] by <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+            "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/0e78335448973e441280101f77457b1d.webp",
+            "createdAt": "2025-09-22T23:52:47.175Z",
+            "updatedAt": "2025-10-14T07:06:09.872Z",
+            "vertebraeName": "Boiling Soundwaves Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "fe2f412a-d6e2-496b-b7ed-1c8e4383c1da",
         "name": "Perfect Rising Tone",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. This unit gains [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a]. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:6f14204f-abba-469b-b056-ca1588d14104] before the attack, and changes the damage type to <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": 2,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/92def60bbfe6cb713d5ba2f3321ace1b.webp",
         "createdAt": "2025-09-22T23:47:03.349Z",
         "updatedAt": "2025-10-14T07:07:13.301Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "80cd7b55-b5cf-4979-b84c-35412a447421",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Buff",
-          "Debuff"
-        ],
         "keyUpgradesData": "[\"af8aaddb-2648-4583-a692-9b5e1b80c942\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. Gains [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a]. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:6f14204f-abba-469b-b056-ca1588d14104] before the attack, and changes the damage type to <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>. If the enemy is killed, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a].</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. This unit gains [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a]. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:6f14204f-abba-469b-b056-ca1588d14104] before the attack, and changes the damage type to <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": 2,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Buff",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "80cd7b55-b5cf-4979-b84c-35412a447421",
-          "level": 2,
-          "effect": "<p>If a kill is scored, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span><span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a].</span></p>",
-          "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/92def60bbfe6cb713d5ba2f3321ace1b.webp",
-          "createdAt": "2025-09-22T23:55:52.494Z",
-          "updatedAt": "2025-10-14T07:06:10.218Z",
-          "vertebraeName": "Perfect Rising Tone Lv.2"
+        "level2": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "80cd7b55-b5cf-4979-b84c-35412a447421",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. Gains [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a]. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:6f14204f-abba-469b-b056-ca1588d14104] before the attack, and changes the damage type to <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>. If the enemy is killed, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a].</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Buff",
+            "Debuff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "80cd7b55-b5cf-4979-b84c-35412a447421",
+            "level": 2,
+            "effect": "<p>If a kill is scored, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span><span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a].</span></p>",
+            "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/92def60bbfe6cb713d5ba2f3321ace1b.webp",
+            "createdAt": "2025-09-22T23:55:52.494Z",
+            "updatedAt": "2025-10-14T07:06:10.218Z",
+            "vertebraeName": "Perfect Rising Tone Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "43e9d051-1838-4c20-8acf-babe16fc3a90",
         "name": "Highlight Moment",
-        "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": 3,
         "imageUrl": "https://cdn.dandegate.net/skills/522f1fb94cae887ecb6ccef3eda54443.webp",
         "createdAt": "2025-09-22T23:49:24.744Z",
         "updatedAt": "2025-10-14T07:07:03.654Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "66eaf2af-0add-4068-8ced-2fbc08dde89d",
-        "vertebraeUpgradeIdLevel3": "a8f19460-1cc8-407b-9649-15a117e5fd05",
-        "skillTags": [
-          "Ultimate",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], as well as [effect:6fd51e21-f25d-4ef4-b554-e00aef225a58] for </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>. Gains </span><span style=\"color: rgb(243, 109, 28);\">1 instance</span><span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</span></p>",
-        "descriptionLevel3": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], as well as [effect:6fd51e21-f25d-4ef4-b554-e00aef225a58] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": 3,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Ultimate",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "66eaf2af-0add-4068-8ced-2fbc08dde89d",
-          "level": 2,
-          "effect": "<p>The user gains [effect:6fd51e21-f25d-4ef4-b554-e00aef225a58] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
-          "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/522f1fb94cae887ecb6ccef3eda54443.webp",
-          "createdAt": "2025-09-22T23:54:52.838Z",
-          "updatedAt": "2025-10-14T07:06:10.044Z",
-          "vertebraeName": "Highlight Moment Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "66eaf2af-0add-4068-8ced-2fbc08dde89d",
+          "ammoTypes": null,
+          "confectanceCost": 3,
+          "cooldown": null,
+          "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], as well as [effect:6fd51e21-f25d-4ef4-b554-e00aef225a58] for </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>. Gains </span><span style=\"color: rgb(243, 109, 28);\">1 instance</span><span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</span></p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "66eaf2af-0add-4068-8ced-2fbc08dde89d",
+            "level": 2,
+            "effect": "<p>The user gains [effect:6fd51e21-f25d-4ef4-b554-e00aef225a58] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>.</span></p>",
+            "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/522f1fb94cae887ecb6ccef3eda54443.webp",
+            "createdAt": "2025-09-22T23:54:52.838Z",
+            "updatedAt": "2025-10-14T07:06:10.044Z",
+            "vertebraeName": "Highlight Moment Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "a8f19460-1cc8-407b-9649-15a117e5fd05",
-          "level": 3,
-          "effect": "<p>The effects of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a] are enhanced, increasing damage dealt by <span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
-          "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/522f1fb94cae887ecb6ccef3eda54443.webp",
-          "createdAt": "2025-09-22T23:58:46.650Z",
-          "updatedAt": "2025-10-14T07:06:10.562Z",
-          "vertebraeName": "Highlight Moment Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "a8f19460-1cc8-407b-9649-15a117e5fd05",
+          "ammoTypes": null,
+          "confectanceCost": 3,
+          "cooldown": null,
+          "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], as well as [effect:6fd51e21-f25d-4ef4-b554-e00aef225a58] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "a8f19460-1cc8-407b-9649-15a117e5fd05",
+            "level": 3,
+            "effect": "<p>The effects of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a] are enhanced, increasing damage dealt by <span style=\"color: rgb(243, 109, 28);\">5%</span><span>.</span></p>",
+            "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/522f1fb94cae887ecb6ccef3eda54443.webp",
+            "createdAt": "2025-09-22T23:58:46.650Z",
+            "updatedAt": "2025-10-14T07:06:10.562Z",
+            "vertebraeName": "Highlight Moment Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -449,26 +472,6 @@
         "createdAt": "2025-09-23T00:18:27.153Z",
         "updatedAt": "2025-09-27T05:29:33.294Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "dollImages": [
-            {
-              "id": "cb3f40cd-258b-4357-b09e-84f84d5e2ae6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sharkry/chibi-374623299d9f82df8424ebfff1c09f02.webp",
-              "createdAt": "2025-09-27T05:29:15.297Z",
-              "updatedAt": "2025-09-27T05:29:15.297Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Idol's Determination",
         "shortId": "a46"
@@ -492,26 +495,6 @@
         "createdAt": "2025-09-23T00:15:50.743Z",
         "updatedAt": "2025-12-10T00:13:39.425Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "dollImages": [
-            {
-              "id": "cb3f40cd-258b-4357-b09e-84f84d5e2ae6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sharkry/chibi-374623299d9f82df8424ebfff1c09f02.webp",
-              "createdAt": "2025-09-27T05:29:15.297Z",
-              "updatedAt": "2025-09-27T05:29:15.297Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Opening Fireworks",
         "shortId": "c46"
@@ -535,26 +518,6 @@
         "createdAt": "2025-09-23T00:17:03.417Z",
         "updatedAt": "2025-10-14T07:06:48.279Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "dollImages": [
-            {
-              "id": "cb3f40cd-258b-4357-b09e-84f84d5e2ae6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sharkry/chibi-374623299d9f82df8424ebfff1c09f02.webp",
-              "createdAt": "2025-09-27T05:29:15.297Z",
-              "updatedAt": "2025-09-27T05:29:15.297Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Passionate Tempo",
         "shortId": "k1"
@@ -579,26 +542,6 @@
         "createdAt": "2025-09-23T00:00:50.079Z",
         "updatedAt": "2025-09-23T00:45:12.961Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "dollImages": [
-            {
-              "id": "cb3f40cd-258b-4357-b09e-84f84d5e2ae6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sharkry/chibi-374623299d9f82df8424ebfff1c09f02.webp",
-              "createdAt": "2025-09-27T05:29:15.297Z",
-              "updatedAt": "2025-09-27T05:29:15.297Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Devilish Whisper",
         "shortId": "k2"
@@ -623,26 +566,6 @@
         "createdAt": "2025-09-23T00:03:01.262Z",
         "updatedAt": "2025-10-14T07:06:39.550Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "dollImages": [
-            {
-              "id": "cb3f40cd-258b-4357-b09e-84f84d5e2ae6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sharkry/chibi-374623299d9f82df8424ebfff1c09f02.webp",
-              "createdAt": "2025-09-27T05:29:15.297Z",
-              "updatedAt": "2025-09-27T05:29:15.297Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Thermal Feedback",
         "shortId": "k3"
@@ -667,26 +590,6 @@
         "createdAt": "2025-09-23T00:04:22.898Z",
         "updatedAt": "2025-10-14T07:06:40.236Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "dollImages": [
-            {
-              "id": "cb3f40cd-258b-4357-b09e-84f84d5e2ae6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sharkry/chibi-374623299d9f82df8424ebfff1c09f02.webp",
-              "createdAt": "2025-09-27T05:29:15.297Z",
-              "updatedAt": "2025-09-27T05:29:15.297Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Deadly Allure",
         "shortId": "k4"
@@ -711,26 +614,6 @@
         "createdAt": "2025-09-23T00:05:45.363Z",
         "updatedAt": "2025-10-14T07:06:39.720Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "dollImages": [
-            {
-              "id": "cb3f40cd-258b-4357-b09e-84f84d5e2ae6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sharkry/chibi-374623299d9f82df8424ebfff1c09f02.webp",
-              "createdAt": "2025-09-27T05:29:15.297Z",
-              "updatedAt": "2025-09-27T05:29:15.297Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Idol Training Day",
         "shortId": "k5"
@@ -755,26 +638,6 @@
         "createdAt": "2025-09-23T00:07:10.954Z",
         "updatedAt": "2025-10-14T07:06:39.894Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "dollImages": [
-            {
-              "id": "cb3f40cd-258b-4357-b09e-84f84d5e2ae6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sharkry/chibi-374623299d9f82df8424ebfff1c09f02.webp",
-              "createdAt": "2025-09-27T05:29:15.297Z",
-              "updatedAt": "2025-09-27T05:29:15.297Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Target Is Your Heart",
         "shortId": "k6"
@@ -799,26 +662,6 @@
         "createdAt": "2025-09-23T00:14:29.857Z",
         "updatedAt": "2025-10-14T07:06:40.064Z",
         "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "dollImages": [
-            {
-              "id": "cb3f40cd-258b-4357-b09e-84f84d5e2ae6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sharkry/chibi-374623299d9f82df8424ebfff1c09f02.webp",
-              "createdAt": "2025-09-27T05:29:15.297Z",
-              "updatedAt": "2025-09-27T05:29:15.297Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Palm-Blown Kiss",
         "shortId": "k7"
@@ -835,69 +678,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/0e78335448973e441280101f77457b1d.webp",
         "createdAt": "2025-09-22T23:52:47.175Z",
         "updatedAt": "2025-10-14T07:06:09.872Z",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "A mischievous, impish Doll whose sweet smiles hide a cute cunning. She is hungry not only for the stage but also for the boundless adoration from her customers. ♥",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "43acbe01-21df-4b5a-bb39-0ace31b89433",
             "name": "Boiling Soundwaves",
-            "phase": "Burn",
             "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-            "cooldown": 2,
-            "imageUrl": "https://cdn.dandegate.net/skills/0e78335448973e441280101f77457b1d.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Medium Ammo\"]",
-            "createdAt": "2025-09-22T23:38:00.390Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-14T07:07:04.351Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to them. If the user is under the effects of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], Increases stability damage dealt by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"8b266b3a-4b03-47ce-806c-b33efbf31197\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turn</span>, and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to them. If the user is under the effects of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], Increases stability damage dealt by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "d559261d-18b3-4452-93a9-226399cbbf29",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "66eaf2af-0add-4068-8ced-2fbc08dde89d",
@@ -909,68 +701,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/522f1fb94cae887ecb6ccef3eda54443.webp",
         "createdAt": "2025-09-22T23:54:52.838Z",
         "updatedAt": "2025-10-14T07:06:10.044Z",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "A mischievous, impish Doll whose sweet smiles hide a cute cunning. She is hungry not only for the stage but also for the boundless adoration from her customers. ♥",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "43e9d051-1838-4c20-8acf-babe16fc3a90",
             "name": "Highlight Moment",
-            "phase": null,
             "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/522f1fb94cae887ecb6ccef3eda54443.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-22T23:49:24.744Z",
-            "skillTags": [
-              "Ultimate",
-              "Buff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-14T07:07:03.654Z",
-            "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 3,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], as well as [effect:6fd51e21-f25d-4ef4-b554-e00aef225a58] for </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>. Gains </span><span style=\"color: rgb(243, 109, 28);\">1 instance</span><span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</span></p>",
-            "descriptionLevel3": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], as well as [effect:6fd51e21-f25d-4ef4-b554-e00aef225a58] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "66eaf2af-0add-4068-8ced-2fbc08dde89d",
-            "vertebraeUpgradeIdLevel3": "a8f19460-1cc8-407b-9649-15a117e5fd05"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "80cd7b55-b5cf-4979-b84c-35412a447421",
@@ -982,70 +724,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/92def60bbfe6cb713d5ba2f3321ace1b.webp",
         "createdAt": "2025-09-22T23:55:52.494Z",
         "updatedAt": "2025-10-14T07:06:10.218Z",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "A mischievous, impish Doll whose sweet smiles hide a cute cunning. She is hungry not only for the stage but also for the boundless adoration from her customers. ♥",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "fe2f412a-d6e2-496b-b7ed-1c8e4383c1da",
             "name": "Perfect Rising Tone",
-            "phase": "Physical",
             "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-            "cooldown": 2,
-            "imageUrl": "https://cdn.dandegate.net/skills/92def60bbfe6cb713d5ba2f3321ace1b.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Medium Ammo\"]",
-            "createdAt": "2025-09-22T23:47:03.349Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Buff",
-              "Debuff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-14T07:07:13.301Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. This unit gains [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a]. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:6f14204f-abba-469b-b056-ca1588d14104] before the attack, and changes the damage type to <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"af8aaddb-2648-4583-a692-9b5e1b80c942\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing physical damage equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. Gains [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a]. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:6f14204f-abba-469b-b056-ca1588d14104] before the attack, and changes the damage type to <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>. If the enemy is killed, gains <span style=\"color: rgb(243, 109, 28);\">1 additional stack</span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a].</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "80cd7b55-b5cf-4979-b84c-35412a447421",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "9281dcdf-db4c-458d-9c93-5d03d17f5851",
@@ -1057,67 +747,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/b2ee8e136270d83ff61d9653bcba7e72.webp",
         "createdAt": "2025-09-22T23:57:37.657Z",
         "updatedAt": "2025-10-14T07:06:10.385Z",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "A mischievous, impish Doll whose sweet smiles hide a cute cunning. She is hungry not only for the stage but also for the boundless adoration from her customers. ♥",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "3a37a4a5-9c32-46b5-acd2-d628f4b6bc9b",
             "name": "Makeup Organization",
-            "phase": null,
             "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/b2ee8e136270d83ff61d9653bcba7e72.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-22T23:51:26.035Z",
-            "skillTags": [
-              "Passive"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:07:04.873Z",
-            "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy target, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Critical rate against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy target, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Critical rate increased by <span style=\"color: rgb(243, 109, 28);\">30% </span>against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a]. Critical damage increased by <span style=\"color: rgb(243, 109, 28);\">3%</span><span> per buff effect on this unit, up to a maximum of </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p>",
-            "descriptionLevel3": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span><span>of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a] </span>and <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index. When [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy target, gains <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index. Critical rate increased by<span style=\"color: rgb(243, 109, 28);\"> 30%</span> against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a]. Critical damage increased by <span style=\"color: rgb(243, 109, 28);\">3%</span> per buff effect on this unit, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "9281dcdf-db4c-458d-9c93-5d03d17f5851",
-            "vertebraeUpgradeIdLevel3": "57046e67-3bac-4396-8124-1e955ea82541"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "a8f19460-1cc8-407b-9649-15a117e5fd05",
@@ -1129,68 +770,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/522f1fb94cae887ecb6ccef3eda54443.webp",
         "createdAt": "2025-09-22T23:58:46.650Z",
         "updatedAt": "2025-10-14T07:06:10.562Z",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "A mischievous, impish Doll whose sweet smiles hide a cute cunning. She is hungry not only for the stage but also for the boundless adoration from her customers. ♥",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "43e9d051-1838-4c20-8acf-babe16fc3a90",
             "name": "Highlight Moment",
-            "phase": null,
             "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/522f1fb94cae887ecb6ccef3eda54443.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-22T23:49:24.744Z",
-            "skillTags": [
-              "Ultimate",
-              "Buff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-14T07:07:03.654Z",
-            "description": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 3,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], as well as [effect:6fd51e21-f25d-4ef4-b554-e00aef225a58] for </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>. Gains </span><span style=\"color: rgb(243, 109, 28);\">1 instance</span><span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</span></p>",
-            "descriptionLevel3": "<p>Gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a], as well as [effect:6fd51e21-f25d-4ef4-b554-e00aef225a58] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "66eaf2af-0add-4068-8ced-2fbc08dde89d",
-            "vertebraeUpgradeIdLevel3": "a8f19460-1cc8-407b-9649-15a117e5fd05"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "57046e67-3bac-4396-8124-1e955ea82541",
@@ -1202,67 +793,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/b2ee8e136270d83ff61d9653bcba7e72.webp",
         "createdAt": "2025-09-22T23:59:39.918Z",
         "updatedAt": "2025-10-14T07:06:10.734Z",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "A mischievous, impish Doll whose sweet smiles hide a cute cunning. She is hungry not only for the stage but also for the boundless adoration from her customers. ♥",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "3a37a4a5-9c32-46b5-acd2-d628f4b6bc9b",
             "name": "Makeup Organization",
-            "phase": null,
             "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/b2ee8e136270d83ff61d9653bcba7e72.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-22T23:51:26.035Z",
-            "skillTags": [
-              "Passive"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:07:04.873Z",
-            "description": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy target, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Critical rate against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy target, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Critical rate increased by <span style=\"color: rgb(243, 109, 28);\">30% </span>against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a]. Critical damage increased by <span style=\"color: rgb(243, 109, 28);\">3%</span><span> per buff effect on this unit, up to a maximum of </span><span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p>",
-            "descriptionLevel3": "<p>At the start of action, gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span><span>of [effect:4aca66a4-3aff-4344-9130-f3c14b18f74a] </span>and <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index. When [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] is applied to an enemy target, gains <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index. Critical rate increased by<span style=\"color: rgb(243, 109, 28);\"> 30%</span> against targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a]. Critical damage increased by <span style=\"color: rgb(243, 109, 28);\">3%</span> per buff effect on this unit, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "9281dcdf-db4c-458d-9c93-5d03d17f5851",
-            "vertebraeUpgradeIdLevel3": "57046e67-3bac-4396-8124-1e955ea82541"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1377,7 +919,17 @@
       {
         "id": "4aca66a4-3aff-4344-9130-f3c14b18f74a",
         "effectName": "Zoom In",
-        "effectDetails": "{\"mainDetails\":\"<p>Increase damage dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span>, and increase stability damage by <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span>. This stacks up to <span style=\\\"color: rgb(243, 109, 28);\\\">2 time</span> and is effective <span style=\\\"color: rgb(243, 109, 28);\\\">once</span>. This buff cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"cf8d915d-957f-47c3-a877-e27197b0ed64\",\"upgradeName\":\"V5\",\"upgradeDetails\":\"<p>Increase damage dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span>, and increase stability damage by <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span>. Maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">2 stacks</span>. Triggers <span style=\\\"color: rgb(243, 109, 28);\\\">1</span><span> time.</span> This buff cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span>, and increase stability damage by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. This stacks up to <span style=\"color: rgb(243, 109, 28);\">2 time</span> and is effective <span style=\"color: rgb(243, 109, 28);\">once</span>. This buff cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "cf8d915d-957f-47c3-a877-e27197b0ed64",
+              "upgradeName": "V5",
+              "upgradeDetails": "<p>Increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>, and increase stability damage by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. Triggers <span style=\"color: rgb(243, 109, 28);\">1</span><span> time.</span> This buff cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [
           "Buff"
         ],
@@ -1385,26 +937,59 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-22T23:42:38.439Z",
-        "updatedAt": "2025-11-03T16:13:38.129Z",
-        "doll": {
-          "id": "3015d8df-67c9-481f-a21e-5887e6f22d74",
-          "name": "Sharkry",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sharkry/dd2e8238b6ec2c3759fe153c45868336.webp",
-          "createdAt": "2025-09-22T23:31:33.132Z",
-          "regionTag": "en",
-          "updatedAt": "2025-09-27T05:29:15.356Z",
-          "dollImages": [
-            {
-              "id": "cb3f40cd-258b-4357-b09e-84f84d5e2ae6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sharkry/chibi-374623299d9f82df8424ebfff1c09f02.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2025-11-03T16:13:38.129Z"
+      },
+      {
+        "id": "71b3f790-db3b-4188-a3d7-15fa9752b57a",
+        "effectName": "Overburn",
+        "effectDetails": "<p>Upon gaining this effect and at the end of action, the buff holder and all allied units within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the buff holder take fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of the effect applier's attack. Considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T03:40:29.821Z",
+        "updatedAt": "2025-11-03T15:09:18.125Z"
+      },
+      {
+        "id": "6f14204f-abba-469b-b056-ca1588d14104",
+        "effectName": "Flammable",
+        "effectDetails": "<p>When taking Burn damage, increase stability damage taken by <span style=\"color: rgb(243, 109, 28);\">2 points</span>, and the attacker recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability index. Each time Burn damage is taken, <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of consumed. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. This is considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T23:21:45.050Z",
+        "updatedAt": "2025-11-01T23:36:58.648Z"
+      },
+      {
+        "id": "c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb",
+        "effectName": "Extra Command",
+        "effectDetails": "<p>Commands other than movement can be executed.</p>",
+        "effectTags": [],
+        "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T19:42:00.107Z",
+        "updatedAt": "2025-09-14T19:42:00.107Z"
+      },
+      {
+        "id": "6fd51e21-f25d-4ef4-b554-e00aef225a58",
+        "effectName": "Damage Up I",
+        "effectDetails": "<p>Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "3015d8df-67c9-481f-a21e-5887e6f22d74",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:21:07.710Z",
+        "updatedAt": "2025-11-01T21:45:00.703Z"
       }
     ],
     "shortId": "d46"

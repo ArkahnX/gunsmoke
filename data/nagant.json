@@ -71,366 +71,394 @@
       {
         "id": "9777a28b-d54a-4b76-9977-0afb84795069",
         "name": "Point Shooting",
-        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/bba1f00016e819f289746ce34bcd70dd.webp",
         "createdAt": "2025-09-22T00:26:26.847Z",
         "updatedAt": "2025-11-15T04:07:59.538Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "a91f91ed-56d5-49bb-9213-e6a61c06d01e",
         "name": "Veteran's Skills",
-        "description": "<p>For <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If an enemy unit moves within Nagant's range, she deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the target has a defense debuff, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/d12087bf25ab0f6bc3d5b2cbe68e7802.webp",
         "createdAt": "2025-09-22T00:43:21.370Z",
         "updatedAt": "2025-11-15T04:10:29.669Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "45691915-a3f8-42f5-a675-1917399c0e88",
-        "vertebraeUpgradeIdLevel3": "be3cd931-d8c4-4a3d-8354-53e30075d3ba",
-        "skillTags": [
-          "Passive",
-          "Debuff",
-          "Control"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>For <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If an enemy unit moves within Nagant's range, she deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target has a defense debuff, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-        "descriptionLevel3": "<p>For <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If an enemy unit moves within Nagant's range, she deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target has a defense debuff, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>For <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If an enemy unit moves within Nagant's range, she deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the target has a defense debuff, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Passive",
+            "Debuff",
+            "Control"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "45691915-a3f8-42f5-a675-1917399c0e88",
-          "level": 2,
-          "effect": "<p>Damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">30%</span> and deals <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Stability Damage.</p>",
-          "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/d12087bf25ab0f6bc3d5b2cbe68e7802.webp",
-          "createdAt": "2025-09-22T00:44:34.514Z",
-          "updatedAt": "2025-09-22T00:44:34.514Z",
-          "vertebraeName": "Veteran's Skills Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "45691915-a3f8-42f5-a675-1917399c0e88",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>For <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If an enemy unit moves within Nagant's range, she deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target has a defense debuff, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Debuff",
+            "Control"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "45691915-a3f8-42f5-a675-1917399c0e88",
+            "level": 2,
+            "effect": "<p>Damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">30%</span> and deals <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Stability Damage.</p>",
+            "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/d12087bf25ab0f6bc3d5b2cbe68e7802.webp",
+            "createdAt": "2025-09-22T00:44:34.514Z",
+            "updatedAt": "2025-09-22T00:44:34.514Z",
+            "vertebraeName": "Veteran's Skills Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "be3cd931-d8c4-4a3d-8354-53e30075d3ba",
-          "level": 3,
-          "effect": "<p>Increase the trigger count by <span style=\"color: rgb(243, 109, 28);\">1</span> every turn.</p>",
-          "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/d12087bf25ab0f6bc3d5b2cbe68e7802.webp",
-          "createdAt": "2025-09-22T00:45:08.925Z",
-          "updatedAt": "2025-09-22T00:45:08.925Z",
-          "vertebraeName": "Veteran's Skills Lv.3"
+        "level3": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "be3cd931-d8c4-4a3d-8354-53e30075d3ba",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>For <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If an enemy unit moves within Nagant's range, she deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target has a defense debuff, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Debuff",
+            "Control"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "be3cd931-d8c4-4a3d-8354-53e30075d3ba",
+            "level": 3,
+            "effect": "<p>Increase the trigger count by <span style=\"color: rgb(243, 109, 28);\">1</span> every turn.</p>",
+            "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/d12087bf25ab0f6bc3d5b2cbe68e7802.webp",
+            "createdAt": "2025-09-22T00:45:08.925Z",
+            "updatedAt": "2025-09-22T00:45:08.925Z",
+            "vertebraeName": "Veteran's Skills Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "54a62853-c0cf-4867-b25b-12e86c167137",
         "name": "Senior's Admonishment",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. After activating if the target is under the effects of Stability Break, apply [effect:1b908c38-3129-4280-8ba4-73f162e680e0]  to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 4,
-        "cooldown": 2,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/0611a403e3875609b353210ab77c2306.webp",
         "createdAt": "2025-09-22T00:29:39.481Z",
         "updatedAt": "2025-10-14T07:06:54.912Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Debuff"
-        ],
         "keyUpgradesData": "[\"d96756d8-8483-4306-b281-9b50769684bf\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. After activating if the target is under the effects of Stability Break, apply [effect:1b908c38-3129-4280-8ba4-73f162e680e0]  to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 4,
+          "cooldown": 2,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "7046fc89-9001-418a-b2d1-5bd00cf7b3b1",
         "name": "Friend of Justice",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical Damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack. If there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, performs an additional attack on the original target and applies [effect:1b908c38-3129-4280-8ba4-73f162e680e0] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": 3,
-        "cooldown": 3,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/b67cfca72d190635f7040e88e920e0ed.webp",
         "createdAt": "2025-09-22T00:31:55.036Z",
         "updatedAt": "2025-11-15T04:06:41.704Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "7c76c327-d41b-433d-9c0b-ea77a56b84b1",
-        "vertebraeUpgradeIdLevel3": "f580d4cd-e384-4e0b-b1d9-b5da797f189d",
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Debuff"
-        ],
         "keyUpgradesData": "[\"9c69769c-5609-4bc4-854a-2035f135839d\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical Damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack. If there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, performs an additional attack on the original target and applies [effect:1b908c38-3129-4280-8ba4-73f162e680e0] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If the target is inflicted with defense debuffs, reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals physical damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack. If there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, performs an additional attack on the original target and applies [effect:1b908c38-3129-4280-8ba4-73f162e680e0] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If the target is inflicted with defense debuffs, reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical Damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack. If there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, performs an additional attack on the original target and applies [effect:1b908c38-3129-4280-8ba4-73f162e680e0] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": 3,
+          "cooldown": 3,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "7c76c327-d41b-433d-9c0b-ea77a56b84b1",
-          "level": 2,
-          "effect": "<p>If the target has a defense debuff, this skill's cooldown is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-          "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/b67cfca72d190635f7040e88e920e0ed.webp",
-          "createdAt": "2025-09-22T00:37:51.605Z",
-          "updatedAt": "2025-09-22T00:37:51.605Z",
-          "vertebraeName": "Friend of Justice Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "7c76c327-d41b-433d-9c0b-ea77a56b84b1",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 3,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical Damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack. If there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, performs an additional attack on the original target and applies [effect:1b908c38-3129-4280-8ba4-73f162e680e0] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If the target is inflicted with defense debuffs, reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "7c76c327-d41b-433d-9c0b-ea77a56b84b1",
+            "level": 2,
+            "effect": "<p>If the target has a defense debuff, this skill's cooldown is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/b67cfca72d190635f7040e88e920e0ed.webp",
+            "createdAt": "2025-09-22T00:37:51.605Z",
+            "updatedAt": "2025-09-22T00:37:51.605Z",
+            "vertebraeName": "Friend of Justice Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "f580d4cd-e384-4e0b-b1d9-b5da797f189d",
-          "level": 3,
-          "effect": "<p>If there are no enemies within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around self, perform an additional attack on the original target.</p>",
-          "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/b67cfca72d190635f7040e88e920e0ed.webp",
-          "createdAt": "2025-09-22T00:39:34.605Z",
-          "updatedAt": "2025-09-26T23:51:42.915Z",
-          "vertebraeName": "Friend of Justice Lv.3"
+        "level3": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "f580d4cd-e384-4e0b-b1d9-b5da797f189d",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 3,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals physical damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack. If there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, performs an additional attack on the original target and applies [effect:1b908c38-3129-4280-8ba4-73f162e680e0] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If the target is inflicted with defense debuffs, reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "f580d4cd-e384-4e0b-b1d9-b5da797f189d",
+            "level": 3,
+            "effect": "<p>If there are no enemies within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around self, perform an additional attack on the original target.</p>",
+            "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/b67cfca72d190635f7040e88e920e0ed.webp",
+            "createdAt": "2025-09-22T00:39:34.605Z",
+            "updatedAt": "2025-09-26T23:51:42.915Z",
+            "vertebraeName": "Friend of Justice Lv.3"
+          }
         },
-        "shortId": 4
+        "level4": null
       },
       {
         "id": "7492a799-8a25-4bec-9560-4816900e5ecf",
         "name": "Sanction Declaration",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. If the target has defense debuffs, applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] before attacking for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Stability damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p>",
-        "phase": "Corrosion",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 4,
-        "cooldown": null,
-        "confectanceCost": 3,
         "imageUrl": "https://cdn.dandegate.net/skills/900420333ddbdae045ea95277ef27de4.webp",
         "createdAt": "2025-09-22T00:35:28.326Z",
         "updatedAt": "2025-10-14T07:06:59.467Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "937b7253-c1eb-42ef-970e-28592d70b16b",
-        "vertebraeUpgradeIdLevel3": "1e20a7fa-318b-4a42-afdf-ef1f3b47ccd7",
-        "skillTags": [
-          "Ultimate",
-          "Targeted",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. If the target has defense debuffs, applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] before attacking for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Stability damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>, and critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-        "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to them. If the target has defense debuffs, applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] before attacking for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Stability damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>, and critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. If the target has defense debuffs, applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] before attacking for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Stability damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p>",
+          "phase": "Corrosion",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 4,
+          "cooldown": null,
+          "confectanceCost": 3,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "937b7253-c1eb-42ef-970e-28592d70b16b",
-          "level": 2,
-          "effect": "<p>If the target has Defense debuffs, increases critical rate by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-          "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/900420333ddbdae045ea95277ef27de4.webp",
-          "createdAt": "2025-09-22T00:38:52.460Z",
-          "updatedAt": "2025-09-22T00:38:52.460Z",
-          "vertebraeName": "Sanction Declaration Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "937b7253-c1eb-42ef-970e-28592d70b16b",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": 3,
+          "cooldown": null,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. If the target has defense debuffs, applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] before attacking for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Stability damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>, and critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+          "phase": "Corrosion",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 4,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "937b7253-c1eb-42ef-970e-28592d70b16b",
+            "level": 2,
+            "effect": "<p>If the target has Defense debuffs, increases critical rate by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+            "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/900420333ddbdae045ea95277ef27de4.webp",
+            "createdAt": "2025-09-22T00:38:52.460Z",
+            "updatedAt": "2025-09-22T00:38:52.460Z",
+            "vertebraeName": "Sanction Declaration Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "1e20a7fa-318b-4a42-afdf-ef1f3b47ccd7",
-          "level": 3,
-          "effect": "<p>Damage multiplier increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-          "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/900420333ddbdae045ea95277ef27de4.webp",
-          "createdAt": "2025-09-22T00:40:13.429Z",
-          "updatedAt": "2025-09-22T00:40:13.429Z",
-          "vertebraeName": "Sanction Declaration Lv.3"
+        "level3": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "1e20a7fa-318b-4a42-afdf-ef1f3b47ccd7",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": 3,
+          "cooldown": null,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to them. If the target has defense debuffs, applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] before attacking for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Stability damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>, and critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+          "phase": "Corrosion",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 4,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "1e20a7fa-318b-4a42-afdf-ef1f3b47ccd7",
+            "level": 3,
+            "effect": "<p>Damage multiplier increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+            "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/900420333ddbdae045ea95277ef27de4.webp",
+            "createdAt": "2025-09-22T00:40:13.429Z",
+            "updatedAt": "2025-09-22T00:40:13.429Z",
+            "vertebraeName": "Sanction Declaration Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -453,28 +481,6 @@
         "createdAt": "2025-09-22T02:16:34.261Z",
         "updatedAt": "2025-09-26T23:59:20.520Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "dollImages": [
-            {
-              "id": "b87f31c2-65ca-44b8-be9d-894c94d227f5",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nagant/chibi-5a3f2ed25674926a966bf25336b8b95c.webp",
-              "createdAt": "2025-09-26T23:51:14.757Z",
-              "updatedAt": "2025-09-26T23:51:14.757Z"
-            }
-          ],
-          "searchTags": [
-            "M1895"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Hat Trick",
         "shortId": "a33"
@@ -498,28 +504,6 @@
         "createdAt": "2025-09-22T02:02:10.859Z",
         "updatedAt": "2025-09-26T23:59:28.772Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "dollImages": [
-            {
-              "id": "b87f31c2-65ca-44b8-be9d-894c94d227f5",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nagant/chibi-5a3f2ed25674926a966bf25336b8b95c.webp",
-              "createdAt": "2025-09-26T23:51:14.757Z",
-              "updatedAt": "2025-09-26T23:51:14.757Z"
-            }
-          ],
-          "searchTags": [
-            "M1895"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Veteran's Wisdom",
         "shortId": "c33"
@@ -543,28 +527,6 @@
         "createdAt": "2025-09-22T02:00:26.339Z",
         "updatedAt": "2025-10-14T07:06:36.203Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "dollImages": [
-            {
-              "id": "b87f31c2-65ca-44b8-be9d-894c94d227f5",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nagant/chibi-5a3f2ed25674926a966bf25336b8b95c.webp",
-              "createdAt": "2025-09-26T23:51:14.757Z",
-              "updatedAt": "2025-09-26T23:51:14.757Z"
-            }
-          ],
-          "searchTags": [
-            "M1895"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Senior's Instructions",
         "shortId": "k1"
@@ -589,28 +551,6 @@
         "createdAt": "2025-09-22T00:18:10.381Z",
         "updatedAt": "2025-09-22T02:03:10.991Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "dollImages": [
-            {
-              "id": "b87f31c2-65ca-44b8-be9d-894c94d227f5",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nagant/chibi-5a3f2ed25674926a966bf25336b8b95c.webp",
-              "createdAt": "2025-09-26T23:51:14.757Z",
-              "updatedAt": "2025-09-26T23:51:14.757Z"
-            }
-          ],
-          "searchTags": [
-            "M1895"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Heroic Strike",
         "shortId": "k2"
@@ -635,28 +575,6 @@
         "createdAt": "2025-09-22T00:19:05.673Z",
         "updatedAt": "2025-09-22T02:17:50.863Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "dollImages": [
-            {
-              "id": "b87f31c2-65ca-44b8-be9d-894c94d227f5",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nagant/chibi-5a3f2ed25674926a966bf25336b8b95c.webp",
-              "createdAt": "2025-09-26T23:51:14.757Z",
-              "updatedAt": "2025-09-26T23:51:14.757Z"
-            }
-          ],
-          "searchTags": [
-            "M1895"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Veteran's Experience",
         "shortId": "k3"
@@ -681,28 +599,6 @@
         "createdAt": "2025-09-22T00:19:49.600Z",
         "updatedAt": "2025-09-22T02:15:23.968Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "dollImages": [
-            {
-              "id": "b87f31c2-65ca-44b8-be9d-894c94d227f5",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nagant/chibi-5a3f2ed25674926a966bf25336b8b95c.webp",
-              "createdAt": "2025-09-26T23:51:14.757Z",
-              "updatedAt": "2025-09-26T23:51:14.757Z"
-            }
-          ],
-          "searchTags": [
-            "M1895"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Invisible Bulletproof Vest",
         "shortId": "k4"
@@ -727,28 +623,6 @@
         "createdAt": "2025-09-22T00:20:49.694Z",
         "updatedAt": "2025-09-22T02:18:05.655Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "dollImages": [
-            {
-              "id": "b87f31c2-65ca-44b8-be9d-894c94d227f5",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nagant/chibi-5a3f2ed25674926a966bf25336b8b95c.webp",
-              "createdAt": "2025-09-26T23:51:14.757Z",
-              "updatedAt": "2025-09-26T23:51:14.757Z"
-            }
-          ],
-          "searchTags": [
-            "M1895"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Legend of Guardians",
         "shortId": "k5"
@@ -773,28 +647,6 @@
         "createdAt": "2025-09-22T00:21:52.026Z",
         "updatedAt": "2025-09-27T05:14:46.956Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "dollImages": [
-            {
-              "id": "b87f31c2-65ca-44b8-be9d-894c94d227f5",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nagant/chibi-5a3f2ed25674926a966bf25336b8b95c.webp",
-              "createdAt": "2025-09-26T23:51:14.757Z",
-              "updatedAt": "2025-09-26T23:51:14.757Z"
-            }
-          ],
-          "searchTags": [
-            "M1895"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - One Shot, One Victory",
         "shortId": "k6"
@@ -819,28 +671,6 @@
         "createdAt": "2025-09-22T00:23:51.917Z",
         "updatedAt": "2025-09-22T02:14:56.153Z",
         "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "dollImages": [
-            {
-              "id": "b87f31c2-65ca-44b8-be9d-894c94d227f5",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nagant/chibi-5a3f2ed25674926a966bf25336b8b95c.webp",
-              "createdAt": "2025-09-26T23:51:14.757Z",
-              "updatedAt": "2025-09-26T23:51:14.757Z"
-            }
-          ],
-          "searchTags": [
-            "M1895"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Bullet of Justice",
         "shortId": "k7"
@@ -857,69 +687,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/b67cfca72d190635f7040e88e920e0ed.webp",
         "createdAt": "2025-09-22T00:37:51.605Z",
         "updatedAt": "2025-09-22T00:37:51.605Z",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "class": "Support",
-          "phase": "Corrosion",
-          "rarity": "Standard",
-          "effects": "A Doll who likes to play the mature grown-up, but looks up to heroes and also aspires to be one. Even after leaving the battlefield, she continues to shine as a security Doll, ensuring peaceful nights.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "7046fc89-9001-418a-b2d1-5bd00cf7b3b1",
             "name": "Friend of Justice",
-            "phase": null,
             "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/b67cfca72d190635f7040e88e920e0ed.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-22T00:31:55.036Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-11-15T04:06:41.704Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical Damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack. If there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, performs an additional attack on the original target and applies [effect:1b908c38-3129-4280-8ba4-73f162e680e0] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"9c69769c-5609-4bc4-854a-2035f135839d\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical Damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack. If there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, performs an additional attack on the original target and applies [effect:1b908c38-3129-4280-8ba4-73f162e680e0] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If the target is inflicted with defense debuffs, reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals physical damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack. If there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, performs an additional attack on the original target and applies [effect:1b908c38-3129-4280-8ba4-73f162e680e0] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If the target is inflicted with defense debuffs, reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "7c76c327-d41b-433d-9c0b-ea77a56b84b1",
-            "vertebraeUpgradeIdLevel3": "f580d4cd-e384-4e0b-b1d9-b5da797f189d"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "937b7253-c1eb-42ef-970e-28592d70b16b",
@@ -931,69 +710,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/900420333ddbdae045ea95277ef27de4.webp",
         "createdAt": "2025-09-22T00:38:52.460Z",
         "updatedAt": "2025-09-22T00:38:52.460Z",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "class": "Support",
-          "phase": "Corrosion",
-          "rarity": "Standard",
-          "effects": "A Doll who likes to play the mature grown-up, but looks up to heroes and also aspires to be one. Even after leaving the battlefield, she continues to shine as a security Doll, ensuring peaceful nights.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "7492a799-8a25-4bec-9560-4816900e5ecf",
             "name": "Sanction Declaration",
-            "phase": "Corrosion",
             "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/900420333ddbdae045ea95277ef27de4.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-09-22T00:35:28.326Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-14T07:06:59.467Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. If the target has defense debuffs, applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] before attacking for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Stability damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 3,
-            "stabilityDamage": 4,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. If the target has defense debuffs, applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] before attacking for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Stability damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>, and critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to them. If the target has defense debuffs, applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] before attacking for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Stability damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>, and critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "937b7253-c1eb-42ef-970e-28592d70b16b",
-            "vertebraeUpgradeIdLevel3": "1e20a7fa-318b-4a42-afdf-ef1f3b47ccd7"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "f580d4cd-e384-4e0b-b1d9-b5da797f189d",
@@ -1005,69 +733,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/b67cfca72d190635f7040e88e920e0ed.webp",
         "createdAt": "2025-09-22T00:39:34.605Z",
         "updatedAt": "2025-09-26T23:51:42.915Z",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "class": "Support",
-          "phase": "Corrosion",
-          "rarity": "Standard",
-          "effects": "A Doll who likes to play the mature grown-up, but looks up to heroes and also aspires to be one. Even after leaving the battlefield, she continues to shine as a security Doll, ensuring peaceful nights.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "7046fc89-9001-418a-b2d1-5bd00cf7b3b1",
             "name": "Friend of Justice",
-            "phase": null,
             "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/b67cfca72d190635f7040e88e920e0ed.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-22T00:31:55.036Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-11-15T04:06:41.704Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical Damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack. If there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, performs an additional attack on the original target and applies [effect:1b908c38-3129-4280-8ba4-73f162e680e0] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"9c69769c-5609-4bc4-854a-2035f135839d\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical Damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack. If there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span>, performs an additional attack on the original target and applies [effect:1b908c38-3129-4280-8ba4-73f162e680e0] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If the target is inflicted with defense debuffs, reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals physical damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack. If there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, performs an additional attack on the original target and applies [effect:1b908c38-3129-4280-8ba4-73f162e680e0] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. If the target is inflicted with defense debuffs, reduces this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "7c76c327-d41b-433d-9c0b-ea77a56b84b1",
-            "vertebraeUpgradeIdLevel3": "f580d4cd-e384-4e0b-b1d9-b5da797f189d"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "1e20a7fa-318b-4a42-afdf-ef1f3b47ccd7",
@@ -1079,69 +756,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/900420333ddbdae045ea95277ef27de4.webp",
         "createdAt": "2025-09-22T00:40:13.429Z",
         "updatedAt": "2025-09-22T00:40:13.429Z",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "class": "Support",
-          "phase": "Corrosion",
-          "rarity": "Standard",
-          "effects": "A Doll who likes to play the mature grown-up, but looks up to heroes and also aspires to be one. Even after leaving the battlefield, she continues to shine as a security Doll, ensuring peaceful nights.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "7492a799-8a25-4bec-9560-4816900e5ecf",
             "name": "Sanction Declaration",
-            "phase": "Corrosion",
             "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/900420333ddbdae045ea95277ef27de4.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-09-22T00:35:28.326Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-14T07:06:59.467Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. If the target has defense debuffs, applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] before attacking for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Stability damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 3,
-            "stabilityDamage": 4,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to them. If the target has defense debuffs, applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] before attacking for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Stability damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>, and critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "descriptionLevel3": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to them. If the target has defense debuffs, applies [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] before attacking for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Stability damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>, and critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "937b7253-c1eb-42ef-970e-28592d70b16b",
-            "vertebraeUpgradeIdLevel3": "1e20a7fa-318b-4a42-afdf-ef1f3b47ccd7"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "45691915-a3f8-42f5-a675-1917399c0e88",
@@ -1153,69 +779,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/d12087bf25ab0f6bc3d5b2cbe68e7802.webp",
         "createdAt": "2025-09-22T00:44:34.514Z",
         "updatedAt": "2025-09-22T00:44:34.514Z",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "class": "Support",
-          "phase": "Corrosion",
-          "rarity": "Standard",
-          "effects": "A Doll who likes to play the mature grown-up, but looks up to heroes and also aspires to be one. Even after leaving the battlefield, she continues to shine as a security Doll, ensuring peaceful nights.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "a91f91ed-56d5-49bb-9213-e6a61c06d01e",
             "name": "Veteran's Skills",
-            "phase": null,
             "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/d12087bf25ab0f6bc3d5b2cbe68e7802.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-22T00:43:21.370Z",
-            "skillTags": [
-              "Passive",
-              "Debuff",
-              "Control"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-15T04:10:29.669Z",
-            "description": "<p>For <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If an enemy unit moves within Nagant's range, she deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the target has a defense debuff, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>For <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If an enemy unit moves within Nagant's range, she deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target has a defense debuff, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-            "descriptionLevel3": "<p>For <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If an enemy unit moves within Nagant's range, she deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target has a defense debuff, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "45691915-a3f8-42f5-a675-1917399c0e88",
-            "vertebraeUpgradeIdLevel3": "be3cd931-d8c4-4a3d-8354-53e30075d3ba"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "be3cd931-d8c4-4a3d-8354-53e30075d3ba",
@@ -1227,69 +802,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/d12087bf25ab0f6bc3d5b2cbe68e7802.webp",
         "createdAt": "2025-09-22T00:45:08.925Z",
         "updatedAt": "2025-09-22T00:45:08.925Z",
-        "doll": {
-          "id": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-          "name": "Nagant",
-          "class": "Support",
-          "phase": "Corrosion",
-          "rarity": "Standard",
-          "effects": "A Doll who likes to play the mature grown-up, but looks up to heroes and also aspires to be one. Even after leaving the battlefield, she continues to shine as a security Doll, ensuring peaceful nights.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/negant/41afb8aa40f4b433e2553f3060856443.webp",
-          "createdAt": "2025-09-22T00:16:28.922Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:13.649Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "a91f91ed-56d5-49bb-9213-e6a61c06d01e",
             "name": "Veteran's Skills",
-            "phase": null,
             "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/d12087bf25ab0f6bc3d5b2cbe68e7802.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-22T00:43:21.370Z",
-            "skillTags": [
-              "Passive",
-              "Debuff",
-              "Control"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-15T04:10:29.669Z",
-            "description": "<p>For <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If an enemy unit moves within Nagant's range, she deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the target has a defense debuff, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>For <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If an enemy unit moves within Nagant's range, she deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target has a defense debuff, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p>",
-            "descriptionLevel3": "<p>For <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage dealt, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If an enemy unit moves within Nagant's range, she deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target has a defense debuff, applies [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. This effect can only be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "45691915-a3f8-42f5-a675-1917399c0e88",
-            "vertebraeUpgradeIdLevel3": "be3cd931-d8c4-4a3d-8354-53e30075d3ba"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1400,7 +924,50 @@
       ],
       "equippedRelics": []
     },
-    "dollEffects": [],
+    "dollEffects": [
+      {
+        "id": "dd0752a2-37c4-47ba-91ad-2dc640d2372b",
+        "effectName": "Stun",
+        "effectDetails": "<p>Unable to act.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T03:49:59.941Z",
+        "updatedAt": "2025-11-03T15:54:17.616Z"
+      },
+      {
+        "id": "1b908c38-3129-4280-8ba4-73f162e680e0",
+        "effectName": "Acid Corrosion II",
+        "effectDetails": "<p>Reduces defense by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Considered a Corrosion defense debuff.</p>",
+        "effectTags": [
+          "Corrosion",
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-22T01:12:15.098Z",
+        "updatedAt": "2026-01-09T04:44:28.328Z"
+      },
+      {
+        "id": "0b76cac3-8e34-4e32-98d8-d204e26522d7",
+        "effectName": "Vulnerable I",
+        "effectDetails": "<p>Increase damage taken by <span style=\"color: rgb(243, 109, 28);\">10%</span>. This is considered a defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "349de042-be53-4d2a-8fc9-58b6d010dcfa",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T05:06:54.834Z",
+        "updatedAt": "2025-11-03T16:11:12.716Z"
+      }
+    ],
     "shortId": "d33"
   }
 }

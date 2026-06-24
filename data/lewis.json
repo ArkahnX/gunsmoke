@@ -69,363 +69,385 @@
       {
         "id": "e9fde72a-b8dc-4b1a-b624-8980cfefca57",
         "name": "Playtime",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Heavy Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/b68e1792e982febf5ebc073b53a4dc90aeb80689013a3707b1baec98db3dd42f.webp",
         "createdAt": "2025-10-05T17:03:21.626Z",
         "updatedAt": "2025-10-07T00:49:15.927Z",
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "617ed22d-110b-475a-876b-f6946b9435c2",
         "name": "Tin Soldiers on Parade",
-        "description": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac|doll:lewis]. Lewis consumes all Confectance Index, then selects the <span style=\"color: rgb(243, 109, 28);\">2 closest</span><span> allied Burn attributed Dolls (excluding Lewis herself) and attaches </span><span style=\"color: rgb(243, 109, 28);\">1 Rank I</span>  [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] to them.</p><p>When units with an attached [effect:ef73e84e-716c-41c9-a227-85593b33970c] deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span> with active skills or basic attacks, Lewis commands the </span>[effect:ef73e84e-716c-41c9-a227-85593b33970c] to perform [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the damaged target, as well as gaining <span style=\"color: rgb(243, 109, 28);\">3 points</span><span> of </span>[effect:9f893006-1231-4255-b5c9-9a373aa441a2] and <span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of Confectance Index. Each </span>[effect:ef73e84e-716c-41c9-a227-85593b33970c] can trigger this effect <span style=\"color: rgb(243, 109, 28);\">once</span><span> per turn. When such units deal </span><span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span>, they gain </span><span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of </span>[effect:fb22ea59-387c-49af-b880-715c8a628617]. At the end of the round, these units consume <span style=\"color: rgb(243, 109, 28);\">4 stacks</span><span> of </span>[effect:fb22ea59-387c-49af-b880-715c8a628617] to increase the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of their attached [effect:ef73e84e-716c-41c9-a227-85593b33970c]. Rank can be increasd by a maximum of <span style=\"color: rgb(243, 109, 28);\">once</span><span> per round.</span></p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/f6abe309b09cd1a4869bf95c84dec961ce6e99a77eb8c23e64ca4fa7f7750e7a.webp",
         "createdAt": "2025-10-06T00:12:30.636Z",
         "updatedAt": "2026-02-19T00:30:50.989Z",
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
         "summonId": null,
-        "rangeMapId": "7367a56d-9c69-4037-8f5f-17b17296a79f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "95edccff-0d02-4be8-b721-c16539fa1210",
-        "vertebraeUpgradeIdLevel3": "a736aa87-c769-4494-b1cc-e1bcd958528a",
-        "skillTags": [
-          "Passive"
-        ],
         "keyUpgradesData": "[\"7d22ccf8-b85b-47c9-afd5-f1b3b763055a\"]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac|doll:lewis]. Lewis consumes all Confectance Index, then selects the <span style=\"color: rgb(243, 109, 28);\">2 closest</span> allied Burn attributed Dolls (excluding Lewis herself) and attaches <span style=\"color: rgb(243, 109, 28);\">1 Rank I</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] to them.</p><p>When units with an attached [effect:ef73e84e-716c-41c9-a227-85593b33970c] deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> with active skills or basic attacks, Lewis commands the [effect:ef73e84e-716c-41c9-a227-85593b33970c] to perform [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the damaged target, as well as gaining <span style=\"color: rgb(243, 109, 28);\">3 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Each [effect:ef73e84e-716c-41c9-a227-85593b33970c] can trigger this effect <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When such units deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, they gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617]. At the end of the round, these units consume <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617] to increase the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of their attached [effect:ef73e84e-716c-41c9-a227-85593b33970c]. Rank can be increasd by a maximum of <span style=\"color: rgb(243, 109, 28);\">once</span> per round.</p>",
-        "descriptionLevel3": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac|doll:lewis]. Lewis consumes all Confectance Index, then selects the <span style=\"color: rgb(243, 109, 28);\">2 closest</span> allied Burn attributed Dolls (excluding Lewis herself) and attaches <span style=\"color: rgb(243, 109, 28);\">1 Rank II</span>  [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] to them.</p><p>When units with an attached [effect:ef73e84e-716c-41c9-a227-85593b33970c] deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> with active skills or basic attacks, Lewis commands the [effect:ef73e84e-716c-41c9-a227-85593b33970c] to perform [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the damaged target, as well as gaining <span style=\"color: rgb(243, 109, 28);\">3 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Each [effect:ef73e84e-716c-41c9-a227-85593b33970c] can trigger this effect <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When such units deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, they gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617]. At the end of the round, these units consume <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617] to increase the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of their attached [effect:ef73e84e-716c-41c9-a227-85593b33970c]. Rank can be increasd by a maximum of <span style=\"color: rgb(243, 109, 28);\">once</span> per round.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "7367a56d-9c69-4037-8f5f-17b17296a79f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758600507741-map map.webp",
-          "createdAt": "2025-09-23T04:08:27.867Z",
-          "updatedAt": "2025-09-23T04:08:27.867Z",
-          "rangeValue": "Map",
-          "effectiveArea": "Map"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac|doll:lewis]. Lewis consumes all Confectance Index, then selects the <span style=\"color: rgb(243, 109, 28);\">2 closest</span><span> allied Burn attributed Dolls (excluding Lewis herself) and attaches </span><span style=\"color: rgb(243, 109, 28);\">1 Rank I</span>  [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] to them.</p><p>When units with an attached [effect:ef73e84e-716c-41c9-a227-85593b33970c] deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span> with active skills or basic attacks, Lewis commands the </span>[effect:ef73e84e-716c-41c9-a227-85593b33970c] to perform [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the damaged target, as well as gaining <span style=\"color: rgb(243, 109, 28);\">3 points</span><span> of </span>[effect:9f893006-1231-4255-b5c9-9a373aa441a2] and <span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of Confectance Index. Each </span>[effect:ef73e84e-716c-41c9-a227-85593b33970c] can trigger this effect <span style=\"color: rgb(243, 109, 28);\">once</span><span> per turn. When such units deal </span><span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span>, they gain </span><span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of </span>[effect:fb22ea59-387c-49af-b880-715c8a628617]. At the end of the round, these units consume <span style=\"color: rgb(243, 109, 28);\">4 stacks</span><span> of </span>[effect:fb22ea59-387c-49af-b880-715c8a628617] to increase the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of their attached [effect:ef73e84e-716c-41c9-a227-85593b33970c]. Rank can be increasd by a maximum of <span style=\"color: rgb(243, 109, 28);\">once</span><span> per round.</span></p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "7367a56d-9c69-4037-8f5f-17b17296a79f",
+          "skillTags": [
+            "Passive"
+          ],
+          "rangeMap": {
+            "id": "7367a56d-9c69-4037-8f5f-17b17296a79f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758600507741-map map.webp",
+            "createdAt": "2025-09-23T04:08:27.867Z",
+            "updatedAt": "2025-09-23T04:08:27.867Z",
+            "rangeValue": "Map",
+            "effectiveArea": "Map"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "95edccff-0d02-4be8-b721-c16539fa1210",
-          "level": 2,
-          "effect": "<p>The base damage multiplier of [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis] is increased to <span style=\"color: rgb(243, 109, 28);\">120% </span>of attack.</p><p>When performing [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis], if the target has [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], triggers [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] a number of times equal to its [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289|doll:lewis] level.</p>",
-          "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/f6abe309b09cd1a4869bf95c84dec961ce6e99a77eb8c23e64ca4fa7f7750e7a.webp",
-          "createdAt": "2025-10-06T00:36:44.508Z",
-          "updatedAt": "2026-01-13T03:09:05.247Z",
-          "vertebraeName": "Tin Soldiers on Parade Lv.2"
+        "level2": {
+          "rangeMapId": "7367a56d-9c69-4037-8f5f-17b17296a79f",
+          "vertebraeUpgradeId": "95edccff-0d02-4be8-b721-c16539fa1210",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac|doll:lewis]. Lewis consumes all Confectance Index, then selects the <span style=\"color: rgb(243, 109, 28);\">2 closest</span> allied Burn attributed Dolls (excluding Lewis herself) and attaches <span style=\"color: rgb(243, 109, 28);\">1 Rank I</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] to them.</p><p>When units with an attached [effect:ef73e84e-716c-41c9-a227-85593b33970c] deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> with active skills or basic attacks, Lewis commands the [effect:ef73e84e-716c-41c9-a227-85593b33970c] to perform [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the damaged target, as well as gaining <span style=\"color: rgb(243, 109, 28);\">3 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Each [effect:ef73e84e-716c-41c9-a227-85593b33970c] can trigger this effect <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When such units deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, they gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617]. At the end of the round, these units consume <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617] to increase the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of their attached [effect:ef73e84e-716c-41c9-a227-85593b33970c]. Rank can be increasd by a maximum of <span style=\"color: rgb(243, 109, 28);\">once</span> per round.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "7367a56d-9c69-4037-8f5f-17b17296a79f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758600507741-map map.webp",
+            "createdAt": "2025-09-23T04:08:27.867Z",
+            "updatedAt": "2025-09-23T04:08:27.867Z",
+            "rangeValue": "Map",
+            "effectiveArea": "Map"
+          },
+          "vertebraeUpgrade": {
+            "id": "95edccff-0d02-4be8-b721-c16539fa1210",
+            "level": 2,
+            "effect": "<p>The base damage multiplier of [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis] is increased to <span style=\"color: rgb(243, 109, 28);\">120% </span>of attack.</p><p>When performing [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis], if the target has [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], triggers [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] a number of times equal to its [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289|doll:lewis] level.</p>",
+            "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/f6abe309b09cd1a4869bf95c84dec961ce6e99a77eb8c23e64ca4fa7f7750e7a.webp",
+            "createdAt": "2025-10-06T00:36:44.508Z",
+            "updatedAt": "2026-01-13T03:09:05.247Z",
+            "vertebraeName": "Tin Soldiers on Parade Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "a736aa87-c769-4494-b1cc-e1bcd958528a",
-          "level": 3,
-          "effect": "<p>[effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] attached now starts at <span style=\"color: rgb(243, 109, 28);\">Rank II</span>.</p><p>The effects of [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] are enhanced:</p><p><span style=\"color: rgb(243, 109, 28);\">Rank II</span>: Critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank III</span>: At the end of Lewis' action, performs [effect:942a63fb-137d-43cb-8307-71645f9d79a4] once on the nearest enemy. This does not count against the maximum number of uses and does not restore Confectance Index.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: the Rank III Volley Fire is triggered at the end of the holder's action, not Lewis's.</span></p>",
-          "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/f6abe309b09cd1a4869bf95c84dec961ce6e99a77eb8c23e64ca4fa7f7750e7a.webp",
-          "createdAt": "2025-10-06T00:45:23.183Z",
-          "updatedAt": "2026-01-17T16:29:08.632Z",
-          "vertebraeName": "Tin Soldiers on Parade Lv.3"
+        "level3": {
+          "rangeMapId": "7367a56d-9c69-4037-8f5f-17b17296a79f",
+          "vertebraeUpgradeId": "a736aa87-c769-4494-b1cc-e1bcd958528a",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac|doll:lewis]. Lewis consumes all Confectance Index, then selects the <span style=\"color: rgb(243, 109, 28);\">2 closest</span> allied Burn attributed Dolls (excluding Lewis herself) and attaches <span style=\"color: rgb(243, 109, 28);\">1 Rank II</span>  [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] to them.</p><p>When units with an attached [effect:ef73e84e-716c-41c9-a227-85593b33970c] deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> with active skills or basic attacks, Lewis commands the [effect:ef73e84e-716c-41c9-a227-85593b33970c] to perform [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the damaged target, as well as gaining <span style=\"color: rgb(243, 109, 28);\">3 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Each [effect:ef73e84e-716c-41c9-a227-85593b33970c] can trigger this effect <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When such units deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, they gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617]. At the end of the round, these units consume <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617] to increase the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of their attached [effect:ef73e84e-716c-41c9-a227-85593b33970c]. Rank can be increasd by a maximum of <span style=\"color: rgb(243, 109, 28);\">once</span> per round.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "7367a56d-9c69-4037-8f5f-17b17296a79f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758600507741-map map.webp",
+            "createdAt": "2025-09-23T04:08:27.867Z",
+            "updatedAt": "2025-09-23T04:08:27.867Z",
+            "rangeValue": "Map",
+            "effectiveArea": "Map"
+          },
+          "vertebraeUpgrade": {
+            "id": "a736aa87-c769-4494-b1cc-e1bcd958528a",
+            "level": 3,
+            "effect": "<p>[effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] attached now starts at <span style=\"color: rgb(243, 109, 28);\">Rank II</span>.</p><p>The effects of [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] are enhanced:</p><p><span style=\"color: rgb(243, 109, 28);\">Rank II</span>: Critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank III</span>: At the end of Lewis' action, performs [effect:942a63fb-137d-43cb-8307-71645f9d79a4] once on the nearest enemy. This does not count against the maximum number of uses and does not restore Confectance Index.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: the Rank III Volley Fire is triggered at the end of the holder's action, not Lewis's.</span></p>",
+            "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/f6abe309b09cd1a4869bf95c84dec961ce6e99a77eb8c23e64ca4fa7f7750e7a.webp",
+            "createdAt": "2025-10-06T00:45:23.183Z",
+            "updatedAt": "2026-01-17T16:29:08.632Z",
+            "vertebraeName": "Tin Soldiers on Parade Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "9833bbfc-a029-49cc-a8d8-29eaef10f7a0",
         "name": "Bad Guy Cleanup",
-        "description": "<p>Selects one direction, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy targets in a <span style=\"color: rgb(243, 109, 28);\">3x5 tile area in front</span>,<span style=\"color: rgb(243, 109, 28);\"> </span>and applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phase": "Burn",
-        "ammoTypes": "[]",
-        "stabilityDamage": 2,
-        "cooldown": 1,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/8725b936d1834ca795ecece244f6f50e9cd931c3efc30e45794a4864d9d0e7da.webp",
         "createdAt": "2025-10-05T17:13:57.974Z",
         "updatedAt": "2026-02-18T22:52:00.727Z",
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
         "summonId": null,
-        "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "0d878bfc-35ab-4f06-ba5e-c023796fd7d6",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "AoE",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one direction, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to all enemy targets in a <span style=\"color: rgb(243, 109, 28);\">3x5 area in front,</span> and applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For <span style=\"color: rgb(243, 109, 28);\">each</span> Burn debuff on the target, the damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>, to a maximum increase of </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "543d2984-4f29-4331-9291-dbe6ba1773a3",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1759018029369-range1effectnull.webp",
-          "createdAt": "2025-09-28T00:07:09.531Z",
-          "updatedAt": "2025-09-28T00:07:09.531Z",
-          "rangeValue": "1",
-          "effectiveArea": "--"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects one direction, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy targets in a <span style=\"color: rgb(243, 109, 28);\">3x5 tile area in front</span>,<span style=\"color: rgb(243, 109, 28);\"> </span>and applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": "Burn",
+          "ammoTypes": "[]",
+          "stabilityDamage": 2,
+          "cooldown": 1,
+          "confectanceCost": null,
+          "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1759018029369-range1effectnull.webp",
+            "createdAt": "2025-09-28T00:07:09.531Z",
+            "updatedAt": "2025-09-28T00:07:09.531Z",
+            "rangeValue": "1",
+            "effectiveArea": "--"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "0d878bfc-35ab-4f06-ba5e-c023796fd7d6",
-          "level": 2,
-          "effect": "<p>The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>. For <span style=\"color: rgb(243, 109, 28);\">each</span> Burn debuff on the target, damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-          "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/8725b936d1834ca795ecece244f6f50e9cd931c3efc30e45794a4864d9d0e7da.webp",
-          "createdAt": "2025-10-05T19:43:41.171Z",
-          "updatedAt": "2026-01-13T03:12:10.323Z",
-          "vertebraeName": "Bad Guy Cleanup Lv.2"
+        "level2": {
+          "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+          "vertebraeUpgradeId": "0d878bfc-35ab-4f06-ba5e-c023796fd7d6",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects one direction, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to all enemy targets in a <span style=\"color: rgb(243, 109, 28);\">3x5 area in front,</span> and applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For <span style=\"color: rgb(243, 109, 28);\">each</span> Burn debuff on the target, the damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>, to a maximum increase of </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1759018029369-range1effectnull.webp",
+            "createdAt": "2025-09-28T00:07:09.531Z",
+            "updatedAt": "2025-09-28T00:07:09.531Z",
+            "rangeValue": "1",
+            "effectiveArea": "--"
+          },
+          "vertebraeUpgrade": {
+            "id": "0d878bfc-35ab-4f06-ba5e-c023796fd7d6",
+            "level": 2,
+            "effect": "<p>The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">120%</span>. For <span style=\"color: rgb(243, 109, 28);\">each</span> Burn debuff on the target, damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+            "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/8725b936d1834ca795ecece244f6f50e9cd931c3efc30e45794a4864d9d0e7da.webp",
+            "createdAt": "2025-10-05T19:43:41.171Z",
+            "updatedAt": "2026-01-13T03:12:10.323Z",
+            "vertebraeName": "Bad Guy Cleanup Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "e594d5a6-c611-4e4c-b99d-020d6510d09c",
         "name": "Surprising Funball",
-        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles,</span> deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to it, then deals fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of attack to both the target and all enemies within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of it. Gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:b41dd0eb-d3d4-400d-af35-b3a39f157c2e|doll:lewis].</p>",
-        "phase": "Burn",
-        "ammoTypes": "[\"Heavy Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": 1,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/9f7688ee8c29382137265c392980c3d270c37a899afcbe9d84e8fa210895661d.webp",
         "createdAt": "2025-10-06T00:51:23.477Z",
         "updatedAt": "2026-02-18T22:42:40.923Z",
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "ccc5b8cb-1e2e-46ba-9de6-80a424518f9b",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles,</span> deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it, then deals fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to both the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of it. Gain [effect:b41dd0eb-d3d4-400d-af35-b3a39f157c2e] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>.</p>",
-        "descriptionLevel3": "<p></p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles,</span> deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to it, then deals fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of attack to both the target and all enemies within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of it. Gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:b41dd0eb-d3d4-400d-af35-b3a39f157c2e|doll:lewis].</p>",
+          "phase": "Burn",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": 1,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "ccc5b8cb-1e2e-46ba-9de6-80a424518f9b",
-          "level": 2,
-          "effect": "<p>The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">160%</span> and the fixed damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">50%</span><span> of attack</span>. The effect of [effect:b41dd0eb-d3d4-400d-af35-b3a39f157c2e|doll:lewis] lasts for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>, and is changed to increasing the damage of [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis] by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p>",
-          "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/9f7688ee8c29382137265c392980c3d270c37a899afcbe9d84e8fa210895661d.webp",
-          "createdAt": "2025-10-06T00:59:54.979Z",
-          "updatedAt": "2026-01-13T03:02:15.244Z",
-          "vertebraeName": "Surprising Funball Lv.2"
+        "level2": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "ccc5b8cb-1e2e-46ba-9de6-80a424518f9b",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles,</span> deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it, then deals fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to both the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of it. Gain [effect:b41dd0eb-d3d4-400d-af35-b3a39f157c2e] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Buff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "ccc5b8cb-1e2e-46ba-9de6-80a424518f9b",
+            "level": 2,
+            "effect": "<p>The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">160%</span> and the fixed damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">50%</span><span> of attack</span>. The effect of [effect:b41dd0eb-d3d4-400d-af35-b3a39f157c2e|doll:lewis] lasts for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>, and is changed to increasing the damage of [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis] by <span style=\"color: rgb(243, 109, 28);\">50%</span>.</p>",
+            "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/9f7688ee8c29382137265c392980c3d270c37a899afcbe9d84e8fa210895661d.webp",
+            "createdAt": "2025-10-06T00:59:54.979Z",
+            "updatedAt": "2026-01-13T03:02:15.244Z",
+            "vertebraeName": "Surprising Funball Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "77e63377-4ae8-4855-85f0-b9a09200d143",
         "name": "Toy Carnival",
-        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] on the battlefield, the damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">15%</span><span> x the </span><span style=\"color: rgb(34, 139, 230);\">Rank</span><span> of that Tin Soldier). In addition, the critical rate of the attack is increased by (</span><span style=\"color: rgb(243, 109, 28);\">5%</span><span> x the </span><span style=\"color: rgb(34, 139, 230);\">Rank</span><span> level of that Tin Soldier).</span></p>",
-        "phase": "Burn",
-        "ammoTypes": "[\"Heavy Ammo\"]",
-        "stabilityDamage": 5,
-        "cooldown": null,
-        "confectanceCost": 6,
         "imageUrl": "https://cdn.dandegate.net/skills/ac51fff75e4998090d64fb4db364d2d3cec07d42720e0ca3f68e30e3b08b64f0.webp",
         "createdAt": "2025-10-06T01:14:04.388Z",
         "updatedAt": "2026-02-19T00:10:21.021Z",
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "52fc9335-a0fa-42ba-ae62-1bcc8802d10c",
-        "vertebraeUpgradeIdLevel3": "7a7bf010-3d2c-4cb5-ba30-08cd122f901e",
-        "skillTags": [
-          "Ultimate",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": 4,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] on the battlefield, the damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">15%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> of that Tin Soldier). In addition, the critical rate of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">5%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> level of that Tin Soldier). </p><p>The attack gains additional effects based on the highest <span style=\"color: rgb(34, 139, 230);\">Rank</span><span> level Tin Solider present on the battlefield (Higher ranks include all the effects of lower ranks):</span></p><p><span style=\"color: rgb(243, 109, 28);\">Rank I</span>: Before the attack, gains [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank II</span>: The attack now deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> that ignores cover.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank III</span>: The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack.</p>",
-        "descriptionLevel3": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] on the battlefield, the damage multiplier of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">10%</span><span> of the </span><span style=\"color: rgb(34, 139, 230);\">Rank</span><span> level of that Tin Soldier),</span> the damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">15%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> of that Tin Soldier), and the critical rate of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">5%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> level of that Tin Soldier). </p><p>The attack gains additional effects based on the highest <span style=\"color: rgb(34, 139, 230);\">Rank</span> level Tin Solider present on the battlefield (Higher ranks include all the effects of lower ranks):</p><p><span style=\"color: rgb(243, 109, 28);\">Rank I</span>: Before the attack, gains [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank II</span>: The attack now deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> that ignores cover.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank III</span>: The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] on the battlefield, the damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">15%</span><span> x the </span><span style=\"color: rgb(34, 139, 230);\">Rank</span><span> of that Tin Soldier). In addition, the critical rate of the attack is increased by (</span><span style=\"color: rgb(243, 109, 28);\">5%</span><span> x the </span><span style=\"color: rgb(34, 139, 230);\">Rank</span><span> level of that Tin Soldier).</span></p>",
+          "phase": "Burn",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "stabilityDamage": 5,
+          "cooldown": null,
+          "confectanceCost": 6,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Ultimate",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "52fc9335-a0fa-42ba-ae62-1bcc8802d10c",
-          "level": 2,
-          "effect": "<p>Confectance Index consumption is reduced by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. The attack gains additional effects based on the highest [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289|doll:lewis] level Tin Solider present on the battlefield (Higher ranks include include all the effects of the lower ranks):</p><p>Rank I: Before the attack, gains [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Rank II: The attack now deals<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> that ignores cover.</p><p>Rank III: The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack.</p>",
-          "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/ac51fff75e4998090d64fb4db364d2d3cec07d42720e0ca3f68e30e3b08b64f0.webp",
-          "createdAt": "2025-10-06T01:19:52.007Z",
-          "updatedAt": "2026-01-13T03:00:46.509Z",
-          "vertebraeName": "Toy Carnival Lv.2"
+        "level2": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "52fc9335-a0fa-42ba-ae62-1bcc8802d10c",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "confectanceCost": 4,
+          "cooldown": null,
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] on the battlefield, the damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">15%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> of that Tin Soldier). In addition, the critical rate of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">5%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> level of that Tin Soldier). </p><p>The attack gains additional effects based on the highest <span style=\"color: rgb(34, 139, 230);\">Rank</span><span> level Tin Solider present on the battlefield (Higher ranks include all the effects of lower ranks):</span></p><p><span style=\"color: rgb(243, 109, 28);\">Rank I</span>: Before the attack, gains [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank II</span>: The attack now deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> that ignores cover.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank III</span>: The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Ultimate",
+            "Targeted"
+          ],
+          "stabilityDamage": 5,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "52fc9335-a0fa-42ba-ae62-1bcc8802d10c",
+            "level": 2,
+            "effect": "<p>Confectance Index consumption is reduced by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. The attack gains additional effects based on the highest [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289|doll:lewis] level Tin Solider present on the battlefield (Higher ranks include include all the effects of the lower ranks):</p><p>Rank I: Before the attack, gains [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Rank II: The attack now deals<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> that ignores cover.</p><p>Rank III: The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack.</p>",
+            "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/ac51fff75e4998090d64fb4db364d2d3cec07d42720e0ca3f68e30e3b08b64f0.webp",
+            "createdAt": "2025-10-06T01:19:52.007Z",
+            "updatedAt": "2026-01-13T03:00:46.509Z",
+            "vertebraeName": "Toy Carnival Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "7a7bf010-3d2c-4cb5-ba30-08cd122f901e",
-          "level": 3,
-          "effect": "<p>For <span style=\"color: rgb(243, 109, 28);\">each </span>[effect:ef73e84e-716c-41c9-a227-85593b33970c] on the battlefield, the damage multiplier of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">10%</span> × the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of that Tin Soldier), and the critical damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">5%</span> × the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level ot that Tin Soldier).</p>",
-          "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/ac51fff75e4998090d64fb4db364d2d3cec07d42720e0ca3f68e30e3b08b64f0.webp",
-          "createdAt": "2025-10-06T01:25:42.996Z",
-          "updatedAt": "2026-01-13T03:34:45.165Z",
-          "vertebraeName": "Toy Carnival Lv.3"
+        "level3": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "7a7bf010-3d2c-4cb5-ba30-08cd122f901e",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "confectanceCost": 4,
+          "cooldown": null,
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] on the battlefield, the damage multiplier of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">10%</span><span> of the </span><span style=\"color: rgb(34, 139, 230);\">Rank</span><span> level of that Tin Soldier),</span> the damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">15%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> of that Tin Soldier), and the critical rate of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">5%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> level of that Tin Soldier). </p><p>The attack gains additional effects based on the highest <span style=\"color: rgb(34, 139, 230);\">Rank</span> level Tin Solider present on the battlefield (Higher ranks include all the effects of lower ranks):</p><p><span style=\"color: rgb(243, 109, 28);\">Rank I</span>: Before the attack, gains [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank II</span>: The attack now deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> that ignores cover.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank III</span>: The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Ultimate",
+            "Targeted"
+          ],
+          "stabilityDamage": 5,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "7a7bf010-3d2c-4cb5-ba30-08cd122f901e",
+            "level": 3,
+            "effect": "<p>For <span style=\"color: rgb(243, 109, 28);\">each </span>[effect:ef73e84e-716c-41c9-a227-85593b33970c] on the battlefield, the damage multiplier of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">10%</span> × the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of that Tin Soldier), and the critical damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">5%</span> × the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level ot that Tin Soldier).</p>",
+            "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/ac51fff75e4998090d64fb4db364d2d3cec07d42720e0ca3f68e30e3b08b64f0.webp",
+            "createdAt": "2025-10-06T01:25:42.996Z",
+            "updatedAt": "2026-01-13T03:34:45.165Z",
+            "vertebraeName": "Toy Carnival Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -448,26 +470,6 @@
         "createdAt": "2025-10-06T01:54:56.687Z",
         "updatedAt": "2026-01-09T04:17:04.718Z",
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "dollImages": [
-            {
-              "id": "20c891ba-d2e0-4a5c-8c4b-fd4acc40ee18",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/e53ba804f5a3df87e18f970a743d3c10dd95912b369a2718992efa1d4fe50cc2.webp",
-              "createdAt": "2025-10-05T15:58:32.523Z",
-              "updatedAt": "2025-10-05T15:58:32.523Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Childlike Dream",
         "shortId": "a24"
@@ -491,26 +493,6 @@
         "createdAt": "2025-10-06T01:53:03.464Z",
         "updatedAt": "2026-01-13T02:54:08.848Z",
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "dollImages": [
-            {
-              "id": "20c891ba-d2e0-4a5c-8c4b-fd4acc40ee18",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/e53ba804f5a3df87e18f970a743d3c10dd95912b369a2718992efa1d4fe50cc2.webp",
-              "createdAt": "2025-10-05T15:58:32.523Z",
-              "updatedAt": "2025-10-05T15:58:32.523Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Mighty Miracles",
         "shortId": "c24"
@@ -535,26 +517,6 @@
         "createdAt": "2025-10-05T19:23:47.120Z",
         "updatedAt": "2026-01-13T02:53:01.691Z",
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "dollImages": [
-            {
-              "id": "20c891ba-d2e0-4a5c-8c4b-fd4acc40ee18",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/e53ba804f5a3df87e18f970a743d3c10dd95912b369a2718992efa1d4fe50cc2.webp",
-              "createdAt": "2025-10-05T15:58:32.523Z",
-              "updatedAt": "2025-10-05T15:58:32.523Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Idealistic Designer",
         "shortId": "k1"
@@ -579,26 +541,6 @@
         "createdAt": "2025-10-06T01:38:22.338Z",
         "updatedAt": "2026-01-13T03:49:10.744Z",
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "dollImages": [
-            {
-              "id": "20c891ba-d2e0-4a5c-8c4b-fd4acc40ee18",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/e53ba804f5a3df87e18f970a743d3c10dd95912b369a2718992efa1d4fe50cc2.webp",
-              "createdAt": "2025-10-05T15:58:32.523Z",
-              "updatedAt": "2025-10-05T15:58:32.523Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Secret of Spreading Smiles",
         "shortId": "k2"
@@ -623,26 +565,6 @@
         "createdAt": "2025-10-06T01:42:13.011Z",
         "updatedAt": "2026-01-13T03:50:10.745Z",
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "dollImages": [
-            {
-              "id": "20c891ba-d2e0-4a5c-8c4b-fd4acc40ee18",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/e53ba804f5a3df87e18f970a743d3c10dd95912b369a2718992efa1d4fe50cc2.webp",
-              "createdAt": "2025-10-05T15:58:32.523Z",
-              "updatedAt": "2025-10-05T15:58:32.523Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Protector of Innocence",
         "shortId": "k3"
@@ -667,26 +589,6 @@
         "createdAt": "2025-10-06T01:44:55.393Z",
         "updatedAt": "2026-01-13T03:50:53.997Z",
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "dollImages": [
-            {
-              "id": "20c891ba-d2e0-4a5c-8c4b-fd4acc40ee18",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/e53ba804f5a3df87e18f970a743d3c10dd95912b369a2718992efa1d4fe50cc2.webp",
-              "createdAt": "2025-10-05T15:58:32.523Z",
-              "updatedAt": "2025-10-05T15:58:32.523Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Sunny Imagination",
         "shortId": "k4"
@@ -711,26 +613,6 @@
         "createdAt": "2025-10-06T01:49:00.103Z",
         "updatedAt": "2026-01-13T03:52:28.857Z",
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "dollImages": [
-            {
-              "id": "20c891ba-d2e0-4a5c-8c4b-fd4acc40ee18",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/e53ba804f5a3df87e18f970a743d3c10dd95912b369a2718992efa1d4fe50cc2.webp",
-              "createdAt": "2025-10-05T15:58:32.523Z",
-              "updatedAt": "2025-10-05T15:58:32.523Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Cuteness Is Justice",
         "shortId": "k5"
@@ -755,26 +637,6 @@
         "createdAt": "2025-10-06T01:50:49.503Z",
         "updatedAt": "2026-01-13T03:54:06.592Z",
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "dollImages": [
-            {
-              "id": "20c891ba-d2e0-4a5c-8c4b-fd4acc40ee18",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/e53ba804f5a3df87e18f970a743d3c10dd95912b369a2718992efa1d4fe50cc2.webp",
-              "createdAt": "2025-10-05T15:58:32.523Z",
-              "updatedAt": "2025-10-05T15:58:32.523Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Guardian From The Cloud",
         "shortId": "k6"
@@ -791,67 +653,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/f6abe309b09cd1a4869bf95c84dec961ce6e99a77eb8c23e64ca4fa7f7750e7a.webp",
         "createdAt": "2025-10-06T00:36:44.508Z",
         "updatedAt": "2026-01-13T03:09:05.247Z",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "An innocent and pure-hearted Tactical Doll who also works as a toy designer. Possessing great strength, she has an endless love for all things cute. Famous in the toy collecting world, Lewis doesn’t care for reputation or rewards—only for bringing joy to others and protecting the smiles of children when they hold toys. As a toy designer, she continues to design toys to pass on happiness into the future, and as a Tactical Doll, she wields her weapon to ensure that future arrives.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "617ed22d-110b-475a-876b-f6946b9435c2",
             "name": "Tin Soldiers on Parade",
-            "phase": null,
             "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/f6abe309b09cd1a4869bf95c84dec961ce6e99a77eb8c23e64ca4fa7f7750e7a.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-10-06T00:12:30.636Z",
-            "skillTags": [
-              "Passive"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2026-02-19T00:30:50.989Z",
-            "description": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac|doll:lewis]. Lewis consumes all Confectance Index, then selects the <span style=\"color: rgb(243, 109, 28);\">2 closest</span><span> allied Burn attributed Dolls (excluding Lewis herself) and attaches </span><span style=\"color: rgb(243, 109, 28);\">1 Rank I</span>  [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] to them.</p><p>When units with an attached [effect:ef73e84e-716c-41c9-a227-85593b33970c] deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span> with active skills or basic attacks, Lewis commands the </span>[effect:ef73e84e-716c-41c9-a227-85593b33970c] to perform [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the damaged target, as well as gaining <span style=\"color: rgb(243, 109, 28);\">3 points</span><span> of </span>[effect:9f893006-1231-4255-b5c9-9a373aa441a2] and <span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of Confectance Index. Each </span>[effect:ef73e84e-716c-41c9-a227-85593b33970c] can trigger this effect <span style=\"color: rgb(243, 109, 28);\">once</span><span> per turn. When such units deal </span><span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span>, they gain </span><span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of </span>[effect:fb22ea59-387c-49af-b880-715c8a628617]. At the end of the round, these units consume <span style=\"color: rgb(243, 109, 28);\">4 stacks</span><span> of </span>[effect:fb22ea59-387c-49af-b880-715c8a628617] to increase the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of their attached [effect:ef73e84e-716c-41c9-a227-85593b33970c]. Rank can be increasd by a maximum of <span style=\"color: rgb(243, 109, 28);\">once</span><span> per round.</span></p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "7367a56d-9c69-4037-8f5f-17b17296a79f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"7d22ccf8-b85b-47c9-afd5-f1b3b763055a\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac|doll:lewis]. Lewis consumes all Confectance Index, then selects the <span style=\"color: rgb(243, 109, 28);\">2 closest</span> allied Burn attributed Dolls (excluding Lewis herself) and attaches <span style=\"color: rgb(243, 109, 28);\">1 Rank I</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] to them.</p><p>When units with an attached [effect:ef73e84e-716c-41c9-a227-85593b33970c] deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> with active skills or basic attacks, Lewis commands the [effect:ef73e84e-716c-41c9-a227-85593b33970c] to perform [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the damaged target, as well as gaining <span style=\"color: rgb(243, 109, 28);\">3 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Each [effect:ef73e84e-716c-41c9-a227-85593b33970c] can trigger this effect <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When such units deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, they gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617]. At the end of the round, these units consume <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617] to increase the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of their attached [effect:ef73e84e-716c-41c9-a227-85593b33970c]. Rank can be increasd by a maximum of <span style=\"color: rgb(243, 109, 28);\">once</span> per round.</p>",
-            "descriptionLevel3": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac|doll:lewis]. Lewis consumes all Confectance Index, then selects the <span style=\"color: rgb(243, 109, 28);\">2 closest</span> allied Burn attributed Dolls (excluding Lewis herself) and attaches <span style=\"color: rgb(243, 109, 28);\">1 Rank II</span>  [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] to them.</p><p>When units with an attached [effect:ef73e84e-716c-41c9-a227-85593b33970c] deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> with active skills or basic attacks, Lewis commands the [effect:ef73e84e-716c-41c9-a227-85593b33970c] to perform [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the damaged target, as well as gaining <span style=\"color: rgb(243, 109, 28);\">3 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Each [effect:ef73e84e-716c-41c9-a227-85593b33970c] can trigger this effect <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When such units deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, they gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617]. At the end of the round, these units consume <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617] to increase the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of their attached [effect:ef73e84e-716c-41c9-a227-85593b33970c]. Rank can be increasd by a maximum of <span style=\"color: rgb(243, 109, 28);\">once</span> per round.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "95edccff-0d02-4be8-b721-c16539fa1210",
-            "vertebraeUpgradeIdLevel3": "a736aa87-c769-4494-b1cc-e1bcd958528a"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "52fc9335-a0fa-42ba-ae62-1bcc8802d10c",
@@ -863,68 +676,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/ac51fff75e4998090d64fb4db364d2d3cec07d42720e0ca3f68e30e3b08b64f0.webp",
         "createdAt": "2025-10-06T01:19:52.007Z",
         "updatedAt": "2026-01-13T03:00:46.509Z",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "An innocent and pure-hearted Tactical Doll who also works as a toy designer. Possessing great strength, she has an endless love for all things cute. Famous in the toy collecting world, Lewis doesn’t care for reputation or rewards—only for bringing joy to others and protecting the smiles of children when they hold toys. As a toy designer, she continues to design toys to pass on happiness into the future, and as a Tactical Doll, she wields her weapon to ensure that future arrives.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "77e63377-4ae8-4855-85f0-b9a09200d143",
             "name": "Toy Carnival",
-            "phase": "Burn",
             "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/ac51fff75e4998090d64fb4db364d2d3cec07d42720e0ca3f68e30e3b08b64f0.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Heavy Ammo\"]",
-            "createdAt": "2025-10-06T01:14:04.388Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2026-02-19T00:10:21.021Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] on the battlefield, the damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">15%</span><span> x the </span><span style=\"color: rgb(34, 139, 230);\">Rank</span><span> of that Tin Soldier). In addition, the critical rate of the attack is increased by (</span><span style=\"color: rgb(243, 109, 28);\">5%</span><span> x the </span><span style=\"color: rgb(34, 139, 230);\">Rank</span><span> level of that Tin Soldier).</span></p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 6,
-            "stabilityDamage": 5,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] on the battlefield, the damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">15%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> of that Tin Soldier). In addition, the critical rate of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">5%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> level of that Tin Soldier). </p><p>The attack gains additional effects based on the highest <span style=\"color: rgb(34, 139, 230);\">Rank</span><span> level Tin Solider present on the battlefield (Higher ranks include all the effects of lower ranks):</span></p><p><span style=\"color: rgb(243, 109, 28);\">Rank I</span>: Before the attack, gains [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank II</span>: The attack now deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> that ignores cover.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank III</span>: The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack.</p>",
-            "descriptionLevel3": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] on the battlefield, the damage multiplier of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">10%</span><span> of the </span><span style=\"color: rgb(34, 139, 230);\">Rank</span><span> level of that Tin Soldier),</span> the damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">15%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> of that Tin Soldier), and the critical rate of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">5%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> level of that Tin Soldier). </p><p>The attack gains additional effects based on the highest <span style=\"color: rgb(34, 139, 230);\">Rank</span> level Tin Solider present on the battlefield (Higher ranks include all the effects of lower ranks):</p><p><span style=\"color: rgb(243, 109, 28);\">Rank I</span>: Before the attack, gains [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank II</span>: The attack now deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> that ignores cover.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank III</span>: The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": 4,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "52fc9335-a0fa-42ba-ae62-1bcc8802d10c",
-            "vertebraeUpgradeIdLevel3": "7a7bf010-3d2c-4cb5-ba30-08cd122f901e"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "ccc5b8cb-1e2e-46ba-9de6-80a424518f9b",
@@ -936,69 +699,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/9f7688ee8c29382137265c392980c3d270c37a899afcbe9d84e8fa210895661d.webp",
         "createdAt": "2025-10-06T00:59:54.979Z",
         "updatedAt": "2026-01-13T03:02:15.244Z",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "An innocent and pure-hearted Tactical Doll who also works as a toy designer. Possessing great strength, she has an endless love for all things cute. Famous in the toy collecting world, Lewis doesn’t care for reputation or rewards—only for bringing joy to others and protecting the smiles of children when they hold toys. As a toy designer, she continues to design toys to pass on happiness into the future, and as a Tactical Doll, she wields her weapon to ensure that future arrives.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "e594d5a6-c611-4e4c-b99d-020d6510d09c",
             "name": "Surprising Funball",
-            "phase": "Burn",
             "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/9f7688ee8c29382137265c392980c3d270c37a899afcbe9d84e8fa210895661d.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Heavy Ammo\"]",
-            "createdAt": "2025-10-06T00:51:23.477Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Buff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2026-02-18T22:42:40.923Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles,</span> deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to it, then deals fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of attack to both the target and all enemies within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of it. Gain <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:b41dd0eb-d3d4-400d-af35-b3a39f157c2e|doll:lewis].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles,</span> deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it, then deals fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to both the target and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> of it. Gain [effect:b41dd0eb-d3d4-400d-af35-b3a39f157c2e] for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>.</p>",
-            "descriptionLevel3": "<p></p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "ccc5b8cb-1e2e-46ba-9de6-80a424518f9b",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "0d878bfc-35ab-4f06-ba5e-c023796fd7d6",
@@ -1010,69 +722,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/8725b936d1834ca795ecece244f6f50e9cd931c3efc30e45794a4864d9d0e7da.webp",
         "createdAt": "2025-10-05T19:43:41.171Z",
         "updatedAt": "2026-01-13T03:12:10.323Z",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "An innocent and pure-hearted Tactical Doll who also works as a toy designer. Possessing great strength, she has an endless love for all things cute. Famous in the toy collecting world, Lewis doesn’t care for reputation or rewards—only for bringing joy to others and protecting the smiles of children when they hold toys. As a toy designer, she continues to design toys to pass on happiness into the future, and as a Tactical Doll, she wields her weapon to ensure that future arrives.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "9833bbfc-a029-49cc-a8d8-29eaef10f7a0",
             "name": "Bad Guy Cleanup",
-            "phase": "Burn",
             "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/8725b936d1834ca795ecece244f6f50e9cd931c3efc30e45794a4864d9d0e7da.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-10-05T17:13:57.974Z",
-            "skillTags": [
-              "Active",
-              "AoE",
-              "Debuff"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2026-02-18T22:52:00.727Z",
-            "description": "<p>Selects one direction, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy targets in a <span style=\"color: rgb(243, 109, 28);\">3x5 tile area in front</span>,<span style=\"color: rgb(243, 109, 28);\"> </span>and applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects one direction, deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to all enemy targets in a <span style=\"color: rgb(243, 109, 28);\">3x5 area in front,</span> and applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For <span style=\"color: rgb(243, 109, 28);\">each</span> Burn debuff on the target, the damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>, to a maximum increase of </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "0d878bfc-35ab-4f06-ba5e-c023796fd7d6",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "7a7bf010-3d2c-4cb5-ba30-08cd122f901e",
@@ -1084,68 +745,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/ac51fff75e4998090d64fb4db364d2d3cec07d42720e0ca3f68e30e3b08b64f0.webp",
         "createdAt": "2025-10-06T01:25:42.996Z",
         "updatedAt": "2026-01-13T03:34:45.165Z",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "An innocent and pure-hearted Tactical Doll who also works as a toy designer. Possessing great strength, she has an endless love for all things cute. Famous in the toy collecting world, Lewis doesn’t care for reputation or rewards—only for bringing joy to others and protecting the smiles of children when they hold toys. As a toy designer, she continues to design toys to pass on happiness into the future, and as a Tactical Doll, she wields her weapon to ensure that future arrives.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "77e63377-4ae8-4855-85f0-b9a09200d143",
             "name": "Toy Carnival",
-            "phase": "Burn",
             "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/ac51fff75e4998090d64fb4db364d2d3cec07d42720e0ca3f68e30e3b08b64f0.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Heavy Ammo\"]",
-            "createdAt": "2025-10-06T01:14:04.388Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2026-02-19T00:10:21.021Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] on the battlefield, the damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">15%</span><span> x the </span><span style=\"color: rgb(34, 139, 230);\">Rank</span><span> of that Tin Soldier). In addition, the critical rate of the attack is increased by (</span><span style=\"color: rgb(243, 109, 28);\">5%</span><span> x the </span><span style=\"color: rgb(34, 139, 230);\">Rank</span><span> level of that Tin Soldier).</span></p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 6,
-            "stabilityDamage": 5,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] on the battlefield, the damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">15%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> of that Tin Soldier). In addition, the critical rate of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">5%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> level of that Tin Soldier). </p><p>The attack gains additional effects based on the highest <span style=\"color: rgb(34, 139, 230);\">Rank</span><span> level Tin Solider present on the battlefield (Higher ranks include all the effects of lower ranks):</span></p><p><span style=\"color: rgb(243, 109, 28);\">Rank I</span>: Before the attack, gains [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank II</span>: The attack now deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> that ignores cover.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank III</span>: The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack.</p>",
-            "descriptionLevel3": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. For <span style=\"color: rgb(243, 109, 28);\">each</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] on the battlefield, the damage multiplier of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">10%</span><span> of the </span><span style=\"color: rgb(34, 139, 230);\">Rank</span><span> level of that Tin Soldier),</span> the damage of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">15%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> of that Tin Soldier), and the critical rate of the attack is increased by (<span style=\"color: rgb(243, 109, 28);\">5%</span> x the <span style=\"color: rgb(34, 139, 230);\">Rank</span> level of that Tin Soldier). </p><p>The attack gains additional effects based on the highest <span style=\"color: rgb(34, 139, 230);\">Rank</span> level Tin Solider present on the battlefield (Higher ranks include all the effects of lower ranks):</p><p><span style=\"color: rgb(243, 109, 28);\">Rank I</span>: Before the attack, gains [effect:82c6b99c-0a5e-4707-b81e-b6700f1b6dd8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank II</span>: The attack now deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> that ignores cover.</p><p><span style=\"color: rgb(243, 109, 28);\">Rank III</span>: The damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">200%</span> of attack.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": 4,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "52fc9335-a0fa-42ba-ae62-1bcc8802d10c",
-            "vertebraeUpgradeIdLevel3": "7a7bf010-3d2c-4cb5-ba30-08cd122f901e"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "a736aa87-c769-4494-b1cc-e1bcd958528a",
@@ -1157,67 +768,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/f6abe309b09cd1a4869bf95c84dec961ce6e99a77eb8c23e64ca4fa7f7750e7a.webp",
         "createdAt": "2025-10-06T00:45:23.183Z",
         "updatedAt": "2026-01-17T16:29:08.632Z",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "class": "Sentinel",
-          "phase": "Burn",
-          "rarity": "Elite",
-          "effects": "An innocent and pure-hearted Tactical Doll who also works as a toy designer. Possessing great strength, she has an endless love for all things cute. Famous in the toy collecting world, Lewis doesn’t care for reputation or rewards—only for bringing joy to others and protecting the smiles of children when they hold toys. As a toy designer, she continues to design toys to pass on happiness into the future, and as a Tactical Doll, she wields her weapon to ensure that future arrives.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "617ed22d-110b-475a-876b-f6946b9435c2",
             "name": "Tin Soldiers on Parade",
-            "phase": null,
             "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/f6abe309b09cd1a4869bf95c84dec961ce6e99a77eb8c23e64ca4fa7f7750e7a.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-10-06T00:12:30.636Z",
-            "skillTags": [
-              "Passive"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2026-02-19T00:30:50.989Z",
-            "description": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac|doll:lewis]. Lewis consumes all Confectance Index, then selects the <span style=\"color: rgb(243, 109, 28);\">2 closest</span><span> allied Burn attributed Dolls (excluding Lewis herself) and attaches </span><span style=\"color: rgb(243, 109, 28);\">1 Rank I</span>  [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] to them.</p><p>When units with an attached [effect:ef73e84e-716c-41c9-a227-85593b33970c] deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span> with active skills or basic attacks, Lewis commands the </span>[effect:ef73e84e-716c-41c9-a227-85593b33970c] to perform [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the damaged target, as well as gaining <span style=\"color: rgb(243, 109, 28);\">3 points</span><span> of </span>[effect:9f893006-1231-4255-b5c9-9a373aa441a2] and <span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of Confectance Index. Each </span>[effect:ef73e84e-716c-41c9-a227-85593b33970c] can trigger this effect <span style=\"color: rgb(243, 109, 28);\">once</span><span> per turn. When such units deal </span><span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span>, they gain </span><span style=\"color: rgb(243, 109, 28);\">1 stack</span><span> of </span>[effect:fb22ea59-387c-49af-b880-715c8a628617]. At the end of the round, these units consume <span style=\"color: rgb(243, 109, 28);\">4 stacks</span><span> of </span>[effect:fb22ea59-387c-49af-b880-715c8a628617] to increase the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of their attached [effect:ef73e84e-716c-41c9-a227-85593b33970c]. Rank can be increasd by a maximum of <span style=\"color: rgb(243, 109, 28);\">once</span><span> per round.</span></p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "7367a56d-9c69-4037-8f5f-17b17296a79f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"7d22ccf8-b85b-47c9-afd5-f1b3b763055a\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac|doll:lewis]. Lewis consumes all Confectance Index, then selects the <span style=\"color: rgb(243, 109, 28);\">2 closest</span> allied Burn attributed Dolls (excluding Lewis herself) and attaches <span style=\"color: rgb(243, 109, 28);\">1 Rank I</span> [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] to them.</p><p>When units with an attached [effect:ef73e84e-716c-41c9-a227-85593b33970c] deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> with active skills or basic attacks, Lewis commands the [effect:ef73e84e-716c-41c9-a227-85593b33970c] to perform [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the damaged target, as well as gaining <span style=\"color: rgb(243, 109, 28);\">3 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Each [effect:ef73e84e-716c-41c9-a227-85593b33970c] can trigger this effect <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When such units deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, they gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617]. At the end of the round, these units consume <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617] to increase the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of their attached [effect:ef73e84e-716c-41c9-a227-85593b33970c]. Rank can be increasd by a maximum of <span style=\"color: rgb(243, 109, 28);\">once</span> per round.</p>",
-            "descriptionLevel3": "<p>At the start of battle, gains [effect:137fa391-c1aa-4777-bb43-278f788a6aac|doll:lewis]. Lewis consumes all Confectance Index, then selects the <span style=\"color: rgb(243, 109, 28);\">2 closest</span> allied Burn attributed Dolls (excluding Lewis herself) and attaches <span style=\"color: rgb(243, 109, 28);\">1 Rank II</span>  [effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis] to them.</p><p>When units with an attached [effect:ef73e84e-716c-41c9-a227-85593b33970c] deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> with active skills or basic attacks, Lewis commands the [effect:ef73e84e-716c-41c9-a227-85593b33970c] to perform [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the damaged target, as well as gaining <span style=\"color: rgb(243, 109, 28);\">3 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Each [effect:ef73e84e-716c-41c9-a227-85593b33970c] can trigger this effect <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When such units deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, they gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617]. At the end of the round, these units consume <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:fb22ea59-387c-49af-b880-715c8a628617] to increase the [effect:8342fdb5-55bd-47b6-b2a1-04b184d2b289] level of their attached [effect:ef73e84e-716c-41c9-a227-85593b33970c]. Rank can be increasd by a maximum of <span style=\"color: rgb(243, 109, 28);\">once</span> per round.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "95edccff-0d02-4be8-b721-c16539fa1210",
-            "vertebraeUpgradeIdLevel3": "a736aa87-c769-4494-b1cc-e1bcd958528a"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1338,56 +900,28 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-10-05T23:18:31.016Z",
-        "updatedAt": "2026-02-19T05:15:23.089Z",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "dollImages": [
-            {
-              "id": "20c891ba-d2e0-4a5c-8c4b-fd4acc40ee18",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/e53ba804f5a3df87e18f970a743d3c10dd95912b369a2718992efa1d4fe50cc2.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2026-02-19T05:15:23.089Z"
       },
       {
         "id": "8342fdb5-55bd-47b6-b2a1-04b184d2b289",
         "effectName": "Rank",
-        "effectDetails": "{\"mainDetails\":\"<p>[effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis]<span style=\\\"color: rgb(34, 139, 230);\\\">s</span> provide extra buffs to Lewis based on their <span style=\\\"color: rgb(34, 139, 230);\\\">Rank</span> level (Higher ranks include all the effects of lower ranks). The effects can stack.</p><p>Rank I: <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> dealt by Lews is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>.</p><p>Rank II: <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> dealt by Lewis is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span> and critical rate is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>.</p><p>Rank III: Before Lewis attacks an enemy target with the Ultimate skill <span style=\\\"color: rgb(34, 139, 230);\\\">Toy Carnival</span>, performs 1 instance of  [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis] that does not count against the maximum number of uses and does not restore Confectance Index.</p>\",\"upgrades\":[{\"id\":\"65cc6cc6-29d0-4bad-a600-4a11a4c050a2\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>[effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis]<span style=\\\"color: rgb(34, 139, 230);\\\">s</span> provide extra buffs to Lewis based on their <span style=\\\"color: rgb(34, 139, 230);\\\">Rank</span> level (Higher ranks include all the effects of lower ranks). The effects can stack.</p><p>Rank I: <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> dealt by Lews is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>.</p><p>Rank II: <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> dealt by Lewis is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span>, critical rate is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>, and critical damage is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span><span>.</span></p><p>Rank III: Before Lewis attacks an enemy target with the Ultimate skill <span style=\\\"color: rgb(34, 139, 230);\\\">Toy Carnival</span>, performs 1 instance of  [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis] that does not count against the maximum number of uses and or restore Confectance Index to it. At the end of this unit's action, performs 1 instance of [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the nearest enemy target that does not count against the maximum number of uses and does not restore Confectance Index.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>[effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis]<span style=\"color: rgb(34, 139, 230);\">s</span> provide extra buffs to Lewis based on their <span style=\"color: rgb(34, 139, 230);\">Rank</span> level (Higher ranks include all the effects of lower ranks). The effects can stack.</p><p>Rank I: <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt by Lews is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p><p>Rank II: <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt by Lewis is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span> and critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p><p>Rank III: Before Lewis attacks an enemy target with the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Toy Carnival</span>, performs 1 instance of  [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis] that does not count against the maximum number of uses and does not restore Confectance Index.</p>",
+          "upgrades": [
+            {
+              "id": "65cc6cc6-29d0-4bad-a600-4a11a4c050a2",
+              "upgradeName": "V6",
+              "upgradeDetails": "<p>[effect:ef73e84e-716c-41c9-a227-85593b33970c|doll:lewis]<span style=\"color: rgb(34, 139, 230);\">s</span> provide extra buffs to Lewis based on their <span style=\"color: rgb(34, 139, 230);\">Rank</span> level (Higher ranks include all the effects of lower ranks). The effects can stack.</p><p>Rank I: <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt by Lews is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p><p>Rank II: <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt by Lewis is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>, critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>, and critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p><p>Rank III: Before Lewis attacks an enemy target with the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Toy Carnival</span>, performs 1 instance of  [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis] that does not count against the maximum number of uses and or restore Confectance Index to it. At the end of this unit's action, performs 1 instance of [effect:942a63fb-137d-43cb-8307-71645f9d79a4] on the nearest enemy target that does not count against the maximum number of uses and does not restore Confectance Index.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [],
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-10-05T23:17:32.744Z",
-        "updatedAt": "2026-02-19T05:28:00.533Z",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "dollImages": [
-            {
-              "id": "20c891ba-d2e0-4a5c-8c4b-fd4acc40ee18",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/e53ba804f5a3df87e18f970a743d3c10dd95912b369a2718992efa1d4fe50cc2.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2026-02-19T05:28:00.533Z"
       },
       {
         "id": "ef73e84e-716c-41c9-a227-85593b33970c",
@@ -1398,86 +932,87 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-10-05T21:37:28.543Z",
-        "updatedAt": "2026-02-19T05:12:52.788Z",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "dollImages": [
-            {
-              "id": "20c891ba-d2e0-4a5c-8c4b-fd4acc40ee18",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/e53ba804f5a3df87e18f970a743d3c10dd95912b369a2718992efa1d4fe50cc2.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2026-02-19T05:12:52.788Z"
       },
       {
         "id": "b41dd0eb-d3d4-400d-af35-b3a39f157c2e",
         "effectName": "Tin Soldier's Order",
-        "effectDetails": "{\"mainDetails\":\"<p>When [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis] is triggered, consume <span style=\\\"color: rgb(243, 109, 28);\\\">1 stack</span> of this effect to increase the damage dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. Maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">6 stacks</span>. Cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"eed6a8e8-176f-4e63-8419-cd7c16f1d56f\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>When [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis] is triggered, increase the damage dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">50%</span>. Cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>When [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis] is triggered, consume <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of this effect to increase the damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">6 stacks</span>. Cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "eed6a8e8-176f-4e63-8419-cd7c16f1d56f",
+              "upgradeName": "V3",
+              "upgradeDetails": "<p>When [effect:942a63fb-137d-43cb-8307-71645f9d79a4|doll:lewis] is triggered, increase the damage dealt by <span style=\"color: rgb(243, 109, 28);\">50%</span>. Cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [],
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-10-06T00:53:20.819Z",
-        "updatedAt": "2026-01-15T13:25:50.033Z",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "dollImages": [
-            {
-              "id": "20c891ba-d2e0-4a5c-8c4b-fd4acc40ee18",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/e53ba804f5a3df87e18f970a743d3c10dd95912b369a2718992efa1d4fe50cc2.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2026-01-15T13:25:50.033Z"
       },
       {
         "id": "942a63fb-137d-43cb-8307-71645f9d79a4",
         "effectName": "Volley Fire",
-        "effectDetails": "{\"mainDetails\":\"<p>Deals targeted <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> that ignores cover equal to <span style=\\\"color: rgb(243, 109, 28);\\\">100%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of stability damage. Each level of <span style=\\\"color: rgb(34, 139, 230);\\\">Rank</span> increases the damage multiplier by Damage multiplier is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>. Gains <span style=\\\"color: rgb(243, 109, 28);\\\">3 points</span> of <span style=\\\"color: rgb(34, 139, 230);\\\">Searing Flame</span> and Lewis recovers <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of Confectance Index.</p>\",\"upgrades\":[{\"id\":\"5d1a0eec-47b7-4e84-b500-1d2d9f95a395\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>Deals targeted <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> that ignores cover equal to <span style=\\\"color: rgb(243, 109, 28);\\\">120%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of stability damage. Each level of <span style=\\\"color: rgb(34, 139, 230);\\\">Rank</span><span> increases the damage multiplier by </span>Damage multiplier is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span><span>. Gains </span><span style=\\\"color: rgb(243, 109, 28);\\\">3 points</span><span> of </span><span style=\\\"color: rgb(34, 139, 230);\\\">Searing Flame</span><span> and Lewis recovers </span><span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span><span> of Confectance Index. If the target has </span><span style=\\\"color: rgb(34, 139, 230);\\\">Overburn</span><span>, triggers </span><span style=\\\"color: rgb(34, 139, 230);\\\">Overburn</span><span> a number of times equal to the Tin Soldier's </span><span style=\\\"color: rgb(34, 139, 230);\\\">Rank</span><span> level.</span></p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Deals targeted <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> that ignores cover equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. Each level of <span style=\"color: rgb(34, 139, 230);\">Rank</span> increases the damage multiplier by Damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Gains <span style=\"color: rgb(243, 109, 28);\">3 points</span> of <span style=\"color: rgb(34, 139, 230);\">Searing Flame</span> and Lewis recovers <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+          "upgrades": [
+            {
+              "id": "5d1a0eec-47b7-4e84-b500-1d2d9f95a395",
+              "upgradeName": "V1",
+              "upgradeDetails": "<p>Deals targeted <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> that ignores cover equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. Each level of <span style=\"color: rgb(34, 139, 230);\">Rank</span><span> increases the damage multiplier by </span>Damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>. Gains </span><span style=\"color: rgb(243, 109, 28);\">3 points</span><span> of </span><span style=\"color: rgb(34, 139, 230);\">Searing Flame</span><span> and Lewis recovers </span><span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of Confectance Index. If the target has </span><span style=\"color: rgb(34, 139, 230);\">Overburn</span><span>, triggers </span><span style=\"color: rgb(34, 139, 230);\">Overburn</span><span> a number of times equal to the Tin Soldier's </span><span style=\"color: rgb(34, 139, 230);\">Rank</span><span> level.</span></p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [],
         "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-10-05T22:00:55.462Z",
-        "updatedAt": "2026-02-19T05:01:00.519Z",
-        "doll": {
-          "id": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
-          "name": "Lewis",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/lewis/9b71c9110289fa04a17b4b54c405d5a829d04466bb57376f110638900c4b3aa7.webp",
-          "createdAt": "2025-10-05T15:58:31.810Z",
-          "regionTag": "en",
-          "updatedAt": "2026-01-09T04:17:04.390Z",
-          "dollImages": [
-            {
-              "id": "20c891ba-d2e0-4a5c-8c4b-fd4acc40ee18",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/e53ba804f5a3df87e18f970a743d3c10dd95912b369a2718992efa1d4fe50cc2.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2026-02-19T05:01:00.519Z"
+      },
+      {
+        "id": "9f893006-1231-4255-b5c9-9a373aa441a2",
+        "effectName": "Searing Flame",
+        "effectDetails": "<p>Charges up [effect:137fa391-c1aa-4777-bb43-278f788a6aac].</p>",
+        "effectTags": [],
+        "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-05T20:11:36.809Z",
+        "updatedAt": "2026-02-19T05:04:46.811Z"
+      },
+      {
+        "id": "71b3f790-db3b-4188-a3d7-15fa9752b57a",
+        "effectName": "Overburn",
+        "effectDetails": "<p>Upon gaining this effect and at the end of action, the buff holder and all allied units within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the buff holder take fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of the effect applier's attack. Considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T03:40:29.821Z",
+        "updatedAt": "2025-11-03T15:09:18.125Z"
+      },
+      {
+        "id": "82c6b99c-0a5e-4707-b81e-b6700f1b6dd8",
+        "effectName": "Damage Up II",
+        "effectDetails": "<p>Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "9f95347c-72a0-4b03-b6fa-2a2474a9f741",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T05:55:21.778Z",
+        "updatedAt": "2025-11-01T21:45:27.363Z"
       }
     ],
     "shortId": "d24"

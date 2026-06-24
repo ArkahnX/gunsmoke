@@ -64,367 +64,396 @@
       {
         "id": "7b799c4b-01c1-4b43-9cdb-fe0acbb720b7",
         "name": "Special Discount",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/890ea9306ccfa2bfdb7f72a63048c163.webp",
         "createdAt": "2025-09-21T00:11:55.522Z",
         "updatedAt": "2025-09-21T00:11:55.522Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "c09497f7-e100-4f4d-99b9-b8668e35b457",
         "name": "Passion for Shopping",
-        "description": "<p>When an enemy unit within range receives targeted damage from an allied unit, prioritizes performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to the enemy unit, and applies [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When under the effects of [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, grants <span style=\"color: rgb(243, 109, 28);\">1</span> point of Confectance Index for <span style=\"color: rgb(243, 109, 28);\">each</span> Burn buff.</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/e2b20d3a5c3b37d4d6e6ebea0eba4476.webp",
         "createdAt": "2025-09-21T00:27:57.613Z",
         "updatedAt": "2025-10-14T07:06:57.020Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "f6a92a10-8c04-4515-a4e1-b8b3aff07629",
-        "vertebraeUpgradeIdLevel3": "57537e6d-1e4a-439c-a596-2511d645aea4",
-        "skillTags": [
-          "Passive",
-          "Support",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>When an enemy unit within range receives targeted damage from an allied unit, prioritizes performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to the enemy unit, and applies [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When under the effects of [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, grants <span style=\"color: rgb(243, 109, 28);\">1</span> point of Confectance Index for <span style=\"color: rgb(243, 109, 28);\">each</span> Burn buff.</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Support",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "f6a92a10-8c04-4515-a4e1-b8b3aff07629",
-          "level": 2,
-          "effect": "<p>When under the effects of [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8], increases stability damage dealt by <span style=\"color: rgb(243, 109, 28);\">1 point</span><span>.</span></p>",
-          "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "segment": 2,
-          "imageUrl": null,
-          "createdAt": "2025-09-21T00:31:03.528Z",
-          "updatedAt": "2025-10-14T07:06:00.240Z",
-          "vertebraeName": "Passion for Shopping Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "f6a92a10-8c04-4515-a4e1-b8b3aff07629",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>When an enemy unit within range receives targeted damage from an allied unit, prioritizes performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to the enemy unit, and applies [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When under the effects of [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, grants <span style=\"color: rgb(243, 109, 28);\">1</span> point of Confectance Index for <span style=\"color: rgb(243, 109, 28);\">each</span> Burn buff.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Support",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "f6a92a10-8c04-4515-a4e1-b8b3aff07629",
+            "level": 2,
+            "effect": "<p>When under the effects of [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8], increases stability damage dealt by <span style=\"color: rgb(243, 109, 28);\">1 point</span><span>.</span></p>",
+            "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
+            "segment": 2,
+            "imageUrl": null,
+            "createdAt": "2025-09-21T00:31:03.528Z",
+            "updatedAt": "2025-10-14T07:06:00.240Z",
+            "vertebraeName": "Passion for Shopping Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "57537e6d-1e4a-439c-a596-2511d645aea4",
-          "level": 3,
-          "effect": "<p>The maximum amount of times that [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] can trigger increases by <span style=\"color: rgb(243, 109, 28);\">1</span><span>.</span></p>",
-          "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "segment": 4,
-          "imageUrl": null,
-          "createdAt": "2025-09-21T00:32:17.985Z",
-          "updatedAt": "2025-10-14T07:06:00.591Z",
-          "vertebraeName": "Passion for Shopping Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "57537e6d-1e4a-439c-a596-2511d645aea4",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>When an enemy unit within range receives targeted damage from an allied unit, prioritizes performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to the enemy unit, and applies [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When under the effects of [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, grants <span style=\"color: rgb(243, 109, 28);\">1</span> point of Confectance Index for <span style=\"color: rgb(243, 109, 28);\">each</span> Burn buff.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Support",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "57537e6d-1e4a-439c-a596-2511d645aea4",
+            "level": 3,
+            "effect": "<p>The maximum amount of times that [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] can trigger increases by <span style=\"color: rgb(243, 109, 28);\">1</span><span>.</span></p>",
+            "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
+            "segment": 4,
+            "imageUrl": null,
+            "createdAt": "2025-09-21T00:32:17.985Z",
+            "updatedAt": "2025-10-14T07:06:00.591Z",
+            "vertebraeName": "Passion for Shopping Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "f544370f-5ffa-4d56-aca0-9d4e02b695d9",
         "name": "Favorable Cycle",
-        "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deal physical damage equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack to it and apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:6f14204f-abba-469b-b056-ca1588d14104]. If under the effect of <span style=\"color: rgb(243, 109, 28);\">2 or more</span> Burn buffs, perform an additional attack on the original target, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2</span> stability damage.</p>",
-        "phase": null,
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": 2,
         "imageUrl": "https://cdn.dandegate.net/skills/3eb9e6d26bb848d948bd091f63cb2f8b.webp",
         "createdAt": "2025-09-21T00:16:39.939Z",
         "updatedAt": "2025-11-05T19:57:49.101Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "4a8f1d85-de9d-4484-8dc8-25c7218301da",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Debuff"
-        ],
         "keyUpgradesData": "[\"91ae7705-f9ba-40b7-9ead-ea45045cc7cd\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deal physical damage equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack to it and apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:6f14204f-abba-469b-b056-ca1588d14104]. If under the effect of <span style=\"color: rgb(243, 109, 28);\">2 or more</span> Burn buffs, perform an additional attack on the original target, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2</span> stability damage.</p>",
+          "phase": null,
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": 2,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "4a8f1d85-de9d-4484-8dc8-25c7218301da",
-          "level": 2,
-          "effect": "<p>Apply [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span> after the first attack.</span></p>",
-          "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/3eb9e6d26bb848d948bd091f63cb2f8b.webp",
-          "createdAt": "2025-09-21T00:17:47.510Z",
-          "updatedAt": "2025-10-14T07:06:14.418Z",
-          "vertebraeName": "Favorable Cycle Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "4a8f1d85-de9d-4484-8dc8-25c7218301da",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deal physical damage equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack to it and apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:6f14204f-abba-469b-b056-ca1588d14104]. If under the effect of <span style=\"color: rgb(243, 109, 28);\">2 or more</span> Burn buffs, perform an additional attack on the original target, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2</span> stability damage.</p>",
+          "phase": null,
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "4a8f1d85-de9d-4484-8dc8-25c7218301da",
+            "level": 2,
+            "effect": "<p>Apply [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span> after the first attack.</span></p>",
+            "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/3eb9e6d26bb848d948bd091f63cb2f8b.webp",
+            "createdAt": "2025-09-21T00:17:47.510Z",
+            "updatedAt": "2025-10-14T07:06:14.418Z",
+            "vertebraeName": "Favorable Cycle Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "98cf3b9e-4632-4c81-aab0-d78e00dc3136",
         "name": "Comprehensive Rescue",
-        "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, restoring HP equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability index, and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]. If the target's HP is fully restored after healing, applies [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": 2,
         "imageUrl": "https://cdn.dandegate.net/skills/b3e75fd8d8a533160039b008d62c4fe1.webp",
         "createdAt": "2025-09-21T00:23:02.785Z",
         "updatedAt": "2025-10-14T07:07:17.536Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "70bf6485-2bb7-4550-a597-da2a208fefef",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Healing",
-          "Stability Regen",
-          "Buff"
-        ],
         "keyUpgradesData": "[\"2ca1c212-31b9-4ee6-9a0f-1a08e31b98d5\",\"c4af2183-512a-4b79-b8cd-8b4e29f48c2c\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, restoring HP equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability index, and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]. If the target's HP is fully restored after healing, applies [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": 2,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Healing",
+            "Stability Regen",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "70bf6485-2bb7-4550-a597-da2a208fefef",
-          "level": 2,
-          "effect": "<p>If the target's HP is fully restored after healing and wasn't full before that, additionally restores <span style=\"color: rgb(243, 109, 28);\">2 points</span><span> of their stability index.</span></p>",
-          "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "segment": 5,
-          "imageUrl": null,
-          "createdAt": "2025-09-21T00:32:56.523Z",
-          "updatedAt": "2025-09-26T01:29:50.824Z",
-          "vertebraeName": "Comprehensive Rescue Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "70bf6485-2bb7-4550-a597-da2a208fefef",
+          "ammoTypes": "[]",
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, restoring HP equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability index, and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]. If the target's HP is fully restored after healing, applies [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Active",
+            "Healing",
+            "Stability Regen",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "70bf6485-2bb7-4550-a597-da2a208fefef",
+            "level": 2,
+            "effect": "<p>If the target's HP is fully restored after healing and wasn't full before that, additionally restores <span style=\"color: rgb(243, 109, 28);\">2 points</span><span> of their stability index.</span></p>",
+            "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
+            "segment": 5,
+            "imageUrl": null,
+            "createdAt": "2025-09-21T00:32:56.523Z",
+            "updatedAt": "2025-09-26T01:29:50.824Z",
+            "vertebraeName": "Comprehensive Rescue Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "9907559b-311f-4e77-b225-153d29dd4c0c",
         "name": "The Secret to Making Money",
-        "description": "<p>The user gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] and [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.</p>",
-        "phase": "Burn",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 5,
-        "cooldown": 2,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/e6a352389e01e7b7b26fc493fa1aa20d.webp",
         "createdAt": "2025-09-21T00:25:05.047Z",
         "updatedAt": "2025-10-14T07:07:10.321Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "3268458a-b470-47f0-877f-4edcf465011e",
-        "vertebraeUpgradeIdLevel3": "432475d5-ca43-44f1-bc07-49819549cfc0",
-        "skillTags": [
-          "Ultimate",
-          "Targeted",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>The user gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] and [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.</p>",
+          "phase": "Burn",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 5,
+          "cooldown": 2,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "3268458a-b470-47f0-877f-4edcf465011e",
-          "level": 2,
-          "effect": "<p>If a phase weakness is exploited, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span><span>.</span></p>",
-          "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "segment": 3,
-          "imageUrl": null,
-          "createdAt": "2025-09-21T00:31:38.414Z",
-          "updatedAt": "2025-09-26T01:29:42.369Z",
-          "vertebraeName": "The Secret to Making Money Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "3268458a-b470-47f0-877f-4edcf465011e",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>The user gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] and [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Buff"
+          ],
+          "stabilityDamage": 5,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "3268458a-b470-47f0-877f-4edcf465011e",
+            "level": 2,
+            "effect": "<p>If a phase weakness is exploited, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span><span>.</span></p>",
+            "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
+            "segment": 3,
+            "imageUrl": null,
+            "createdAt": "2025-09-21T00:31:38.414Z",
+            "updatedAt": "2025-09-26T01:29:42.369Z",
+            "vertebraeName": "The Secret to Making Money Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "432475d5-ca43-44f1-bc07-49819549cfc0",
-          "level": 3,
-          "effect": "<p>When attacking targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increase critical rate by <span style=\"color: rgb(243, 109, 28);\">100%</span><span>.</span></p>",
-          "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "segment": 6,
-          "imageUrl": null,
-          "createdAt": "2025-09-21T00:33:32.531Z",
-          "updatedAt": "2025-10-14T07:06:00.768Z",
-          "vertebraeName": "The Secret to Making Money Lv.3"
+        "level3": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "432475d5-ca43-44f1-bc07-49819549cfc0",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>The user gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] and [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Buff"
+          ],
+          "stabilityDamage": 5,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "432475d5-ca43-44f1-bc07-49819549cfc0",
+            "level": 3,
+            "effect": "<p>When attacking targets with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increase critical rate by <span style=\"color: rgb(243, 109, 28);\">100%</span><span>.</span></p>",
+            "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
+            "segment": 6,
+            "imageUrl": null,
+            "createdAt": "2025-09-21T00:33:32.531Z",
+            "updatedAt": "2025-10-14T07:06:00.768Z",
+            "vertebraeName": "The Secret to Making Money Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -447,28 +476,6 @@
         "createdAt": "2025-09-21T00:07:27.632Z",
         "updatedAt": "2025-09-26T01:28:57.576Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "dollImages": [
-            {
-              "id": "1501b2bc-85b7-4703-b3d3-801424412f60",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ksenia/chibi-0651ba8f1da09b7e7a63780b81f0c17c.webp",
-              "createdAt": "2025-09-26T01:30:04.880Z",
-              "updatedAt": "2025-09-26T01:30:04.880Z"
-            }
-          ],
-          "searchTags": [
-            "Stechkin"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Making Money",
         "shortId": "a20"
@@ -492,28 +499,6 @@
         "createdAt": "2025-09-20T23:59:08.297Z",
         "updatedAt": "2025-09-26T01:28:29.074Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "dollImages": [
-            {
-              "id": "1501b2bc-85b7-4703-b3d3-801424412f60",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ksenia/chibi-0651ba8f1da09b7e7a63780b81f0c17c.webp",
-              "createdAt": "2025-09-26T01:30:04.880Z",
-              "updatedAt": "2025-09-26T01:30:04.880Z"
-            }
-          ],
-          "searchTags": [
-            "Stechkin"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Blazing Inferno",
         "shortId": "c20"
@@ -537,28 +522,6 @@
         "createdAt": "2025-09-21T00:05:36.355Z",
         "updatedAt": "2025-09-26T01:27:58.642Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "dollImages": [
-            {
-              "id": "1501b2bc-85b7-4703-b3d3-801424412f60",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ksenia/chibi-0651ba8f1da09b7e7a63780b81f0c17c.webp",
-              "createdAt": "2025-09-26T01:30:04.880Z",
-              "updatedAt": "2025-09-26T01:30:04.880Z"
-            }
-          ],
-          "searchTags": [
-            "Stechkin"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Goodwill Over Gold",
         "shortId": "k1"
@@ -583,28 +546,6 @@
         "createdAt": "2025-09-20T23:34:41.849Z",
         "updatedAt": "2025-09-20T23:34:41.849Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "dollImages": [
-            {
-              "id": "1501b2bc-85b7-4703-b3d3-801424412f60",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ksenia/chibi-0651ba8f1da09b7e7a63780b81f0c17c.webp",
-              "createdAt": "2025-09-26T01:30:04.880Z",
-              "updatedAt": "2025-09-26T01:30:04.880Z"
-            }
-          ],
-          "searchTags": [
-            "Stechkin"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Win-Win Partnership",
         "shortId": "k2"
@@ -629,28 +570,6 @@
         "createdAt": "2025-09-20T23:39:42.316Z",
         "updatedAt": "2025-10-14T07:06:30.810Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "dollImages": [
-            {
-              "id": "1501b2bc-85b7-4703-b3d3-801424412f60",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ksenia/chibi-0651ba8f1da09b7e7a63780b81f0c17c.webp",
-              "createdAt": "2025-09-26T01:30:04.880Z",
-              "updatedAt": "2025-09-26T01:30:04.880Z"
-            }
-          ],
-          "searchTags": [
-            "Stechkin"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Equivalent Exchange",
         "shortId": "k3"
@@ -675,28 +594,6 @@
         "createdAt": "2025-09-20T23:42:23.346Z",
         "updatedAt": "2025-09-20T23:42:23.346Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "dollImages": [
-            {
-              "id": "1501b2bc-85b7-4703-b3d3-801424412f60",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ksenia/chibi-0651ba8f1da09b7e7a63780b81f0c17c.webp",
-              "createdAt": "2025-09-26T01:30:04.880Z",
-              "updatedAt": "2025-09-26T01:30:04.880Z"
-            }
-          ],
-          "searchTags": [
-            "Stechkin"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Steady Income",
         "shortId": "k4"
@@ -721,28 +618,6 @@
         "createdAt": "2025-09-20T23:45:20.924Z",
         "updatedAt": "2025-09-20T23:45:20.924Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "dollImages": [
-            {
-              "id": "1501b2bc-85b7-4703-b3d3-801424412f60",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ksenia/chibi-0651ba8f1da09b7e7a63780b81f0c17c.webp",
-              "createdAt": "2025-09-26T01:30:04.880Z",
-              "updatedAt": "2025-09-26T01:30:04.880Z"
-            }
-          ],
-          "searchTags": [
-            "Stechkin"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Mutual Benefit",
         "shortId": "k5"
@@ -767,28 +642,6 @@
         "createdAt": "2025-09-20T23:47:03.404Z",
         "updatedAt": "2025-09-20T23:47:03.404Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "dollImages": [
-            {
-              "id": "1501b2bc-85b7-4703-b3d3-801424412f60",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ksenia/chibi-0651ba8f1da09b7e7a63780b81f0c17c.webp",
-              "createdAt": "2025-09-26T01:30:04.880Z",
-              "updatedAt": "2025-09-26T01:30:04.880Z"
-            }
-          ],
-          "searchTags": [
-            "Stechkin"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Friendship Gift",
         "shortId": "k6"
@@ -813,28 +666,6 @@
         "createdAt": "2025-09-20T23:47:56.896Z",
         "updatedAt": "2025-10-14T07:06:30.985Z",
         "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "dollImages": [
-            {
-              "id": "1501b2bc-85b7-4703-b3d3-801424412f60",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/ksenia/chibi-0651ba8f1da09b7e7a63780b81f0c17c.webp",
-              "createdAt": "2025-09-26T01:30:04.880Z",
-              "updatedAt": "2025-09-26T01:30:04.880Z"
-            }
-          ],
-          "searchTags": [
-            "Stechkin"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Discount Guide",
         "shortId": "k7"
@@ -851,69 +682,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3eb9e6d26bb848d948bd091f63cb2f8b.webp",
         "createdAt": "2025-09-21T00:17:47.510Z",
         "updatedAt": "2025-10-14T07:06:14.418Z",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "class": "Support",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "A Doll with an unusual obsession with making money, she finds a sense of security by working hard to earn it and then spending it all. However, the time she spends working with her reliable companions is equally her treasure.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "f544370f-5ffa-4d56-aca0-9d4e02b695d9",
             "name": "Favorable Cycle",
-            "phase": null,
             "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/3eb9e6d26bb848d948bd091f63cb2f8b.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-09-21T00:16:39.939Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-11-05T19:57:49.101Z",
-            "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, deal physical damage equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack to it and apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:6f14204f-abba-469b-b056-ca1588d14104]. If under the effect of <span style=\"color: rgb(243, 109, 28);\">2 or more</span> Burn buffs, perform an additional attack on the original target, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2</span> stability damage.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 2,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"91ae7705-f9ba-40b7-9ead-ea45045cc7cd\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "4a8f1d85-de9d-4484-8dc8-25c7218301da",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "f6a92a10-8c04-4515-a4e1-b8b3aff07629",
@@ -925,69 +705,18 @@
         "imageUrl": null,
         "createdAt": "2025-09-21T00:31:03.528Z",
         "updatedAt": "2025-10-14T07:06:00.240Z",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "class": "Support",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "A Doll with an unusual obsession with making money, she finds a sense of security by working hard to earn it and then spending it all. However, the time she spends working with her reliable companions is equally her treasure.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "c09497f7-e100-4f4d-99b9-b8668e35b457",
             "name": "Passion for Shopping",
-            "phase": null,
             "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/e2b20d3a5c3b37d4d6e6ebea0eba4476.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-21T00:27:57.613Z",
-            "skillTags": [
-              "Passive",
-              "Support",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:06:57.020Z",
-            "description": "<p>When an enemy unit within range receives targeted damage from an allied unit, prioritizes performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to the enemy unit, and applies [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When under the effects of [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, grants <span style=\"color: rgb(243, 109, 28);\">1</span> point of Confectance Index for <span style=\"color: rgb(243, 109, 28);\">each</span> Burn buff.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "f6a92a10-8c04-4515-a4e1-b8b3aff07629",
-            "vertebraeUpgradeIdLevel3": "57537e6d-1e4a-439c-a596-2511d645aea4"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "3268458a-b470-47f0-877f-4edcf465011e",
@@ -999,69 +728,18 @@
         "imageUrl": null,
         "createdAt": "2025-09-21T00:31:38.414Z",
         "updatedAt": "2025-09-26T01:29:42.369Z",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "class": "Support",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "A Doll with an unusual obsession with making money, she finds a sense of security by working hard to earn it and then spending it all. However, the time she spends working with her reliable companions is equally her treasure.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "9907559b-311f-4e77-b225-153d29dd4c0c",
             "name": "The Secret to Making Money",
-            "phase": "Burn",
             "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-            "cooldown": 2,
-            "imageUrl": "https://cdn.dandegate.net/skills/e6a352389e01e7b7b26fc493fa1aa20d.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-09-21T00:25:05.047Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted",
-              "Buff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-14T07:07:10.321Z",
-            "description": "<p>The user gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] and [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 5,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "3268458a-b470-47f0-877f-4edcf465011e",
-            "vertebraeUpgradeIdLevel3": "432475d5-ca43-44f1-bc07-49819549cfc0"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "57537e6d-1e4a-439c-a596-2511d645aea4",
@@ -1073,69 +751,18 @@
         "imageUrl": null,
         "createdAt": "2025-09-21T00:32:17.985Z",
         "updatedAt": "2025-10-14T07:06:00.591Z",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "class": "Support",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "A Doll with an unusual obsession with making money, she finds a sense of security by working hard to earn it and then spending it all. However, the time she spends working with her reliable companions is equally her treasure.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "c09497f7-e100-4f4d-99b9-b8668e35b457",
             "name": "Passion for Shopping",
-            "phase": null,
             "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/e2b20d3a5c3b37d4d6e6ebea0eba4476.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-21T00:27:57.613Z",
-            "skillTags": [
-              "Passive",
-              "Support",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:06:57.020Z",
-            "description": "<p>When an enemy unit within range receives targeted damage from an allied unit, prioritizes performing <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to the enemy unit, and applies [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] to the allied unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. When under the effects of [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe], stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. At the end of the action, grants <span style=\"color: rgb(243, 109, 28);\">1</span> point of Confectance Index for <span style=\"color: rgb(243, 109, 28);\">each</span> Burn buff.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "f6a92a10-8c04-4515-a4e1-b8b3aff07629",
-            "vertebraeUpgradeIdLevel3": "57537e6d-1e4a-439c-a596-2511d645aea4"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "70bf6485-2bb7-4550-a597-da2a208fefef",
@@ -1147,70 +774,18 @@
         "imageUrl": null,
         "createdAt": "2025-09-21T00:32:56.523Z",
         "updatedAt": "2025-09-26T01:29:50.824Z",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "class": "Support",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "A Doll with an unusual obsession with making money, she finds a sense of security by working hard to earn it and then spending it all. However, the time she spends working with her reliable companions is equally her treasure.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "98cf3b9e-4632-4c81-aab0-d78e00dc3136",
             "name": "Comprehensive Rescue",
-            "phase": null,
             "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/b3e75fd8d8a533160039b008d62c4fe1.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T00:23:02.785Z",
-            "skillTags": [
-              "Active",
-              "Healing",
-              "Stability Regen",
-              "Buff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-14T07:07:17.536Z",
-            "description": "<p>Selects 1 allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, restoring HP equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack, <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability index, and applies [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe]. If the target's HP is fully restored after healing, applies [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 2,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"2ca1c212-31b9-4ee6-9a0f-1a08e31b98d5\",\"c4af2183-512a-4b79-b8cd-8b4e29f48c2c\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "70bf6485-2bb7-4550-a597-da2a208fefef",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "432475d5-ca43-44f1-bc07-49819549cfc0",
@@ -1222,69 +797,18 @@
         "imageUrl": null,
         "createdAt": "2025-09-21T00:33:32.531Z",
         "updatedAt": "2025-10-14T07:06:00.768Z",
-        "doll": {
-          "id": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-          "name": "Ksenia",
-          "class": "Support",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "A Doll with an unusual obsession with making money, she finds a sense of security by working hard to earn it and then spending it all. However, the time she spends working with her reliable companions is equally her treasure.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/ksenia/133ee89eb801cba7afc8b7211edeab61.webp",
-          "createdAt": "2025-09-20T23:24:28.034Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:20:13.491Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "9907559b-311f-4e77-b225-153d29dd4c0c",
             "name": "The Secret to Making Money",
-            "phase": "Burn",
             "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
-            "cooldown": 2,
-            "imageUrl": "https://cdn.dandegate.net/skills/e6a352389e01e7b7b26fc493fa1aa20d.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-09-21T00:25:05.047Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted",
-              "Buff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-14T07:07:10.321Z",
-            "description": "<p>The user gains [effect:d5571913-f803-4fc4-b716-d0d2f156dbbe] and [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deal <span style=\"color: rgb(243, 109, 28);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 5,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "3268458a-b470-47f0-877f-4edcf465011e",
-            "vertebraeUpgradeIdLevel3": "432475d5-ca43-44f1-bc07-49819549cfc0"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1395,7 +919,62 @@
       ],
       "equippedRelics": []
     },
-    "dollEffects": [],
+    "dollEffects": [
+      {
+        "id": "ab2e634f-d257-44e3-af90-ce66a6ac43f3",
+        "effectName": "Support Action",
+        "effectDetails": "<p>Performs a Support Attack; cannot be triggered by another Support Attack.</p>",
+        "effectTags": [],
+        "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:08:04.163Z",
+        "updatedAt": "2025-09-11T00:08:04.163Z"
+      },
+      {
+        "id": "6d138a9f-2068-42d9-9ecb-bfd3000a4ac8",
+        "effectName": "Blazing Assault II",
+        "effectDetails": "<p>Increases attack by <span style=\"color: rgb(243, 109, 28);\">15%</span>. Considered a Burn buff.</p>",
+        "effectTags": [
+          "Attack",
+          "Buff",
+          "Burn"
+        ],
+        "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T03:51:17.801Z",
+        "updatedAt": "2026-04-08T05:29:53.352Z"
+      },
+      {
+        "id": "d5571913-f803-4fc4-b716-d0d2f156dbbe",
+        "effectName": "Heat Recovery",
+        "effectDetails": "<p>Before being attacked, recovers own HP equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of attack, recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability, and randomly cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the attacker. Triggers <span style=\"color: rgb(243, 109, 28);\">once</span>. Considered a Burn buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Burn"
+        ],
+        "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T23:22:55.837Z",
+        "updatedAt": "2025-11-03T00:33:17.994Z"
+      },
+      {
+        "id": "6f14204f-abba-469b-b056-ca1588d14104",
+        "effectName": "Flammable",
+        "effectDetails": "<p>When taking Burn damage, increase stability damage taken by <span style=\"color: rgb(243, 109, 28);\">2 points</span>, and the attacker recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability index. Each time Burn damage is taken, <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of consumed. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. This is considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "d8b3941e-fef9-400d-96b0-b4bbeeae8783",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T23:21:45.050Z",
+        "updatedAt": "2025-11-01T23:36:58.648Z"
+      }
+    ],
     "shortId": "d20"
   }
 }

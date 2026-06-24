@@ -72,364 +72,388 @@
       {
         "id": "9535f9e5-ca99-45a0-beb2-9b10ac32e430",
         "name": "Form-Intention Fist",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/a25f53ae34e213d1a0e7d6f68ed3946b.webp",
         "createdAt": "2025-09-25T17:19:56.962Z",
         "updatedAt": "2025-09-25T17:45:19.950Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "c945c53a-ca31-461d-b525-27c4b999c8e3",
         "name": "Grand Aura",
-        "description": "<p>At the start of the turn, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. At the end of the action, if Confectance Index is full, expends all points of Confectance Index and reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Rolling Thunder</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When enemy units gain [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] multiple times, applies 1 stack of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When allied units gain [effect:f3c29056-b252-443d-bf3d-55462b514967] multiple times, applies 1 stack of [effect:606069e8-1303-4970-81ae-9fbaf3334049] to them for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an enemy unit within range takes targeted damage from an allied unit, prioritizes launching <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] against the target, and Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40]. If the target's stability is greater than <span style=\"color: rgb(243, 109, 28);\">0</span>, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target is in Stability Break, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/3d945143da079dea53fb91e903791d29.webp",
         "createdAt": "2025-09-25T17:44:59.171Z",
         "updatedAt": "2025-11-05T19:37:11.407Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "da83effb-fb6d-4891-81d5-67b550aa04a3",
-        "vertebraeUpgradeIdLevel3": "08099205-bf89-4ecd-9946-f69560229d88",
-        "skillTags": [
-          "Passive",
-          "Support"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>At the start of the battle, deals <span style=\"color: rgb(243, 109, 28);\">4 points</span> of fixed stability damage to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>. At the start of the turn, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. At the end of the action, if Confectance Index is full, expends all points of Confectance Index and reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Rolling Thunder</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When enemy units gain [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] multiple times, applies 1 stack of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When allied units gain [effect:f3c29056-b252-443d-bf3d-55462b514967] multiple times, applies 1 stack of [effect:606069e8-1303-4970-81ae-9fbaf3334049] to them for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an enemy unit within range takes targeted damage from an allied unit, prioritizes launching <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] against the target and gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40]. If the target's stability is greater than <span style=\"color: rgb(243, 109, 28);\">0</span>, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target is in Stability Break, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p>",
-        "descriptionLevel3": "<p>At the start of the battle, deals <span style=\"color: rgb(243, 109, 28);\">8 points</span> of fixed stability damage to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>. At the start of the turn, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. At the end of the action, if Confectance Index is full, expends all points of Confectance Index and reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Rolling Thunder</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When enemy units gain [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] multiple times, applies 1 stack of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When allied units gain [effect:f3c29056-b252-443d-bf3d-55462b514967] multiple times, applies 1 stack of [effect:606069e8-1303-4970-81ae-9fbaf3334049] to them for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an enemy unit within range takes targeted damage from an allied unit, prioritizes launching <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] against the target and gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40]. If the target's stability is greater than <span style=\"color: rgb(243, 109, 28);\">0</span>, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target is in Stability Break, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p><p>When Jiangyu has [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40], <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>At the start of the turn, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. At the end of the action, if Confectance Index is full, expends all points of Confectance Index and reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Rolling Thunder</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When enemy units gain [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] multiple times, applies 1 stack of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When allied units gain [effect:f3c29056-b252-443d-bf3d-55462b514967] multiple times, applies 1 stack of [effect:606069e8-1303-4970-81ae-9fbaf3334049] to them for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an enemy unit within range takes targeted damage from an allied unit, prioritizes launching <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] against the target, and Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40]. If the target's stability is greater than <span style=\"color: rgb(243, 109, 28);\">0</span>, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target is in Stability Break, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Support"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "da83effb-fb6d-4891-81d5-67b550aa04a3",
-          "level": 2,
-          "effect": "<p>[effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] can be triggered <span style=\"color: rgb(243, 109, 28);\">1</span> more time. </p><p>At the start of the battle, deals <span style=\"color: rgb(243, 109, 28);\">4 points</span> of fixed stability damage to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>.</p><p>[effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] gains a new effect: Upon receiving this effect, takes fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">(current stacks x 10%)</span> of the inflictor's attack. </p><p>[effect:606069e8-1303-4970-81ae-9fbaf3334049] gains a new effect: Upon receiving this effect, recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of max HP.</p>",
-          "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/3d945143da079dea53fb91e903791d29.webp",
-          "createdAt": "2025-09-25T17:48:48.083Z",
-          "updatedAt": "2025-10-14T07:06:19.823Z",
-          "vertebraeName": "Grand Aura Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "da83effb-fb6d-4891-81d5-67b550aa04a3",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of the battle, deals <span style=\"color: rgb(243, 109, 28);\">4 points</span> of fixed stability damage to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>. At the start of the turn, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. At the end of the action, if Confectance Index is full, expends all points of Confectance Index and reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Rolling Thunder</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When enemy units gain [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] multiple times, applies 1 stack of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When allied units gain [effect:f3c29056-b252-443d-bf3d-55462b514967] multiple times, applies 1 stack of [effect:606069e8-1303-4970-81ae-9fbaf3334049] to them for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an enemy unit within range takes targeted damage from an allied unit, prioritizes launching <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] against the target and gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40]. If the target's stability is greater than <span style=\"color: rgb(243, 109, 28);\">0</span>, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target is in Stability Break, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Support"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "da83effb-fb6d-4891-81d5-67b550aa04a3",
+            "level": 2,
+            "effect": "<p>[effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] can be triggered <span style=\"color: rgb(243, 109, 28);\">1</span> more time. </p><p>At the start of the battle, deals <span style=\"color: rgb(243, 109, 28);\">4 points</span> of fixed stability damage to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>.</p><p>[effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] gains a new effect: Upon receiving this effect, takes fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">(current stacks x 10%)</span> of the inflictor's attack. </p><p>[effect:606069e8-1303-4970-81ae-9fbaf3334049] gains a new effect: Upon receiving this effect, recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of max HP.</p>",
+            "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/3d945143da079dea53fb91e903791d29.webp",
+            "createdAt": "2025-09-25T17:48:48.083Z",
+            "updatedAt": "2025-10-14T07:06:19.823Z",
+            "vertebraeName": "Grand Aura Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "08099205-bf89-4ecd-9946-f69560229d88",
-          "level": 3,
-          "effect": "<p>Fixed stability damage dealt at the start of the battle is increased by <span style=\"color: rgb(243, 109, 28);\">4 points</span>.</p><p>When Jiangyu has [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40], <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. </p><p>Maximum stacks of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] is increased by <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. </p><p>The effect of [effect:606069e8-1303-4970-81ae-9fbaf3334049] is changed: The amount of defense ignored when dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> is increased to <span style=\"color: rgb(243, 109, 28);\">10%</span> and healing received is increased to <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-          "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/3d945143da079dea53fb91e903791d29.webp",
-          "createdAt": "2025-09-25T18:49:07.799Z",
-          "updatedAt": "2025-10-14T07:06:20.355Z",
-          "vertebraeName": "Grand Aura Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "08099205-bf89-4ecd-9946-f69560229d88",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of the battle, deals <span style=\"color: rgb(243, 109, 28);\">8 points</span> of fixed stability damage to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>. At the start of the turn, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. At the end of the action, if Confectance Index is full, expends all points of Confectance Index and reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Rolling Thunder</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When enemy units gain [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] multiple times, applies 1 stack of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When allied units gain [effect:f3c29056-b252-443d-bf3d-55462b514967] multiple times, applies 1 stack of [effect:606069e8-1303-4970-81ae-9fbaf3334049] to them for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an enemy unit within range takes targeted damage from an allied unit, prioritizes launching <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] against the target and gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40]. If the target's stability is greater than <span style=\"color: rgb(243, 109, 28);\">0</span>, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target is in Stability Break, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p><p>When Jiangyu has [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40], <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Support"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "08099205-bf89-4ecd-9946-f69560229d88",
+            "level": 3,
+            "effect": "<p>Fixed stability damage dealt at the start of the battle is increased by <span style=\"color: rgb(243, 109, 28);\">4 points</span>.</p><p>When Jiangyu has [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40], <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. </p><p>Maximum stacks of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] is increased by <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. </p><p>The effect of [effect:606069e8-1303-4970-81ae-9fbaf3334049] is changed: The amount of defense ignored when dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> is increased to <span style=\"color: rgb(243, 109, 28);\">10%</span> and healing received is increased to <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+            "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/3d945143da079dea53fb91e903791d29.webp",
+            "createdAt": "2025-09-25T18:49:07.799Z",
+            "updatedAt": "2025-10-14T07:06:20.355Z",
+            "vertebraeName": "Grand Aura Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "35fdb462-e3c1-4610-88af-fd1d020efab3",
         "name": "Thunderclap",
-        "description": "<p>Selects one enemy target within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> and deals melee AoE <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to it and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span>, as well as generating [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. If this attack exploits a phase weakness, deals an additional <span style=\"color: rgb(243, 109, 28);\">5 points</span> of stability damage. After the attack, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of Additional Movement and 1 instance of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-        "phase": "Electric",
-        "ammoTypes": "[\"Melee\"]",
-        "stabilityDamage": 5,
-        "cooldown": 1,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/b53d6f73dd3c2905bdf1959e97daead2.webp",
         "createdAt": "2025-09-25T17:25:26.428Z",
         "updatedAt": "2025-10-14T07:07:08.226Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
         "summonId": null,
-        "rangeMapId": "dcc1e2a2-d361-4e20-90db-9aa9fc072e56",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "ac502b68-1822-49f2-8f6e-647bf6c9d5dc",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "AoE",
-          "Melee"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one enemy target within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> and deals melee AoE <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to it and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span>, as well as generating [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. If this attack exploits a phase weakness, deals an additional <span style=\"color: rgb(243, 109, 28);\">5 points</span> of stability damage. When dealing stability damage, deals <span style=\"color: rgb(243, 109, 28);\">5 points</span> of fixed stability damage to all enemy targets afflicted with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623]. Before the attack, Jiangyu gains [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. After the attack, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of Additional Movement and 1 instance of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "dcc1e2a2-d361-4e20-90db-9aa9fc072e56",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758827939742-Range 3x3 Eff Area 3x3.webp",
-          "createdAt": "2025-09-25T19:18:59.901Z",
-          "updatedAt": "2025-09-25T19:18:59.901Z",
-          "rangeValue": "3x3",
-          "effectiveArea": "3x3"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects one enemy target within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> and deals melee AoE <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to it and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span>, as well as generating [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. If this attack exploits a phase weakness, deals an additional <span style=\"color: rgb(243, 109, 28);\">5 points</span> of stability damage. After the attack, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of Additional Movement and 1 instance of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+          "phase": "Electric",
+          "ammoTypes": "[\"Melee\"]",
+          "stabilityDamage": 5,
+          "cooldown": 1,
+          "confectanceCost": null,
+          "rangeMapId": "dcc1e2a2-d361-4e20-90db-9aa9fc072e56",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Melee"
+          ],
+          "rangeMap": {
+            "id": "dcc1e2a2-d361-4e20-90db-9aa9fc072e56",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758827939742-Range 3x3 Eff Area 3x3.webp",
+            "createdAt": "2025-09-25T19:18:59.901Z",
+            "updatedAt": "2025-09-25T19:18:59.901Z",
+            "rangeValue": "3x3",
+            "effectiveArea": "3x3"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "ac502b68-1822-49f2-8f6e-647bf6c9d5dc",
-          "level": 2,
-          "effect": "<p>Before the attack, Jiangyu gains [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for<span style=\"color: rgb(243, 109, 28);\"> 3 turns</span>. </p><p>When dealing stability damage, deals <span style=\"color: rgb(243, 109, 28);\">5 points</span> of fixed stability damage to all enemy targets afflicted with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623].</p>",
-          "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/b53d6f73dd3c2905bdf1959e97daead2.webp",
-          "createdAt": "2025-09-25T18:13:48.652Z",
-          "updatedAt": "2025-10-14T07:06:20.178Z",
-          "vertebraeName": "Thunderclap Lv.2"
+        "level2": {
+          "rangeMapId": "dcc1e2a2-d361-4e20-90db-9aa9fc072e56",
+          "vertebraeUpgradeId": "ac502b68-1822-49f2-8f6e-647bf6c9d5dc",
+          "ammoTypes": "[\"Melee\"]",
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects one enemy target within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> and deals melee AoE <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to it and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span>, as well as generating [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. If this attack exploits a phase weakness, deals an additional <span style=\"color: rgb(243, 109, 28);\">5 points</span> of stability damage. When dealing stability damage, deals <span style=\"color: rgb(243, 109, 28);\">5 points</span> of fixed stability damage to all enemy targets afflicted with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623]. Before the attack, Jiangyu gains [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. After the attack, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of Additional Movement and 1 instance of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+          "phase": "Electric",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Melee"
+          ],
+          "stabilityDamage": 5,
+          "rangeMap": {
+            "id": "dcc1e2a2-d361-4e20-90db-9aa9fc072e56",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758827939742-Range 3x3 Eff Area 3x3.webp",
+            "createdAt": "2025-09-25T19:18:59.901Z",
+            "updatedAt": "2025-09-25T19:18:59.901Z",
+            "rangeValue": "3x3",
+            "effectiveArea": "3x3"
+          },
+          "vertebraeUpgrade": {
+            "id": "ac502b68-1822-49f2-8f6e-647bf6c9d5dc",
+            "level": 2,
+            "effect": "<p>Before the attack, Jiangyu gains [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for<span style=\"color: rgb(243, 109, 28);\"> 3 turns</span>. </p><p>When dealing stability damage, deals <span style=\"color: rgb(243, 109, 28);\">5 points</span> of fixed stability damage to all enemy targets afflicted with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623].</p>",
+            "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/b53d6f73dd3c2905bdf1959e97daead2.webp",
+            "createdAt": "2025-09-25T18:13:48.652Z",
+            "updatedAt": "2025-10-14T07:06:20.178Z",
+            "vertebraeName": "Thunderclap Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "c322cbf1-2ec7-41d9-b4c7-27de424c394b",
         "name": "Lightning Smash",
-        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to it. If the target is in Stability Break, Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40] before this skill resolves.</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-        "phase": "Electric",
-        "ammoTypes": null,
-        "stabilityDamage": 3,
-        "cooldown": 1,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/f47fa6f097de968b2a1b532e8808d5df.webp",
         "createdAt": "2025-09-25T17:28:13.265Z",
         "updatedAt": "2025-10-14T07:07:09.103Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "389382a9-8cd6-48a7-b326-3e73417064ea",
-        "vertebraeUpgradeIdLevel3": "751288e3-fc7d-49e3-95f0-6ab620cc46ae",
-        "skillTags": [
-          "Active",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to it. Damage dealt against targets afflicted with [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Before dealing damage, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target. If the target is in Stability Break, Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40] before this skill resolves.</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-        "descriptionLevel3": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to it. If the target is in Stability Break, Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40] before this skill resolves and performs an additional attack. Damage dealt against targets afflicted with [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Before dealing damage, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> buffs from the target.</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to it. If the target is in Stability Break, Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40] before this skill resolves.</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+          "phase": "Electric",
+          "ammoTypes": null,
+          "stabilityDamage": 3,
+          "cooldown": 1,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "389382a9-8cd6-48a7-b326-3e73417064ea",
-          "level": 2,
-          "effect": "<p>Damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">140%</span>. </p><p>Damage dealt against targets afflicted with [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Before dealing damage, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target.</p>",
-          "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/f47fa6f097de968b2a1b532e8808d5df.webp",
-          "createdAt": "2025-09-25T18:11:00.281Z",
-          "updatedAt": "2025-10-14T07:06:19.996Z",
-          "vertebraeName": "Lightning Smash Lv.2"
+        "level2": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "389382a9-8cd6-48a7-b326-3e73417064ea",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to it. Damage dealt against targets afflicted with [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Before dealing damage, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target. If the target is in Stability Break, Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40] before this skill resolves.</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+          "phase": "Electric",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "389382a9-8cd6-48a7-b326-3e73417064ea",
+            "level": 2,
+            "effect": "<p>Damage multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">140%</span>. </p><p>Damage dealt against targets afflicted with [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Before dealing damage, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target.</p>",
+            "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/f47fa6f097de968b2a1b532e8808d5df.webp",
+            "createdAt": "2025-09-25T18:11:00.281Z",
+            "updatedAt": "2025-10-14T07:06:19.996Z",
+            "vertebraeName": "Lightning Smash Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "751288e3-fc7d-49e3-95f0-6ab620cc46ae",
-          "level": 3,
-          "effect": "<p>Cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> more buff from the target.</p><p>If the target is in Stability Break, Jiangyu performs an additional attack.</p>",
-          "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/f47fa6f097de968b2a1b532e8808d5df.webp",
-          "createdAt": "2025-09-25T18:20:42.199Z",
-          "updatedAt": "2025-10-22T17:13:48.116Z",
-          "vertebraeName": "Lightning Smash Lv.3"
+        "level3": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "751288e3-fc7d-49e3-95f0-6ab620cc46ae",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to it. If the target is in Stability Break, Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40] before this skill resolves and performs an additional attack. Damage dealt against targets afflicted with [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Before dealing damage, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> buffs from the target.</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+          "phase": "Electric",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "751288e3-fc7d-49e3-95f0-6ab620cc46ae",
+            "level": 3,
+            "effect": "<p>Cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> more buff from the target.</p><p>If the target is in Stability Break, Jiangyu performs an additional attack.</p>",
+            "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/f47fa6f097de968b2a1b532e8808d5df.webp",
+            "createdAt": "2025-09-25T18:20:42.199Z",
+            "updatedAt": "2025-10-22T17:13:48.116Z",
+            "vertebraeName": "Lightning Smash Lv.3"
+          }
         },
-        "shortId": 4
+        "level4": null
       },
       {
         "id": "50f0aabe-94f1-4f6f-aac4-899efab351b4",
         "name": "Rolling Thunder",
-        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, gains 2 stacks of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40], and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> that ignores Cover equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the target. Applies [effect:f3c29056-b252-443d-bf3d-55462b514967] to all allied Dolls for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, cleanses <span style=\"color: rgb(243, 109, 28);\">1 </span>debuff, and removes [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] and [effect:fadf4f3f-2810-49f0-b947-6d683741429d].</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-        "phase": "Electric",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 4,
-        "cooldown": 3,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/205e3dbb087d7db7aed5a45353195216.webp",
         "createdAt": "2025-09-25T17:32:00.769Z",
         "updatedAt": "2025-10-14T07:07:08.930Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "5799f146-66ac-48a3-9251-2e03e60d53f4",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Ultimate",
-          "Targeted",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": 2,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, gains 2 stacks of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40], and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> that ignores Cover equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the target. Restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability to all allied dolls and applies [effect:f3c29056-b252-443d-bf3d-55462b514967] that lasts <span style=\"color: rgb(243, 109, 28);\">3 turns</span> to them. In addition, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs and removes [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], and [effect:b46e4270-c2d5-4f69-bb9b-544785785790].</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, gains 2 stacks of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40], and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> that ignores Cover equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the target. Applies [effect:f3c29056-b252-443d-bf3d-55462b514967] to all allied Dolls for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, cleanses <span style=\"color: rgb(243, 109, 28);\">1 </span>debuff, and removes [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] and [effect:fadf4f3f-2810-49f0-b947-6d683741429d].</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+          "phase": "Electric",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 4,
+          "cooldown": 3,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "5799f146-66ac-48a3-9251-2e03e60d53f4",
-          "level": 2,
-          "effect": "<p>Cooldown is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1</span> more point of Confectance Index. Restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability to all allied Dolls, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff and removes [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] and [effect:b46e4270-c2d5-4f69-bb9b-544785785790].</p>",
-          "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/205e3dbb087d7db7aed5a45353195216.webp",
-          "createdAt": "2025-09-25T18:08:59.164Z",
-          "updatedAt": "2025-10-14T07:06:19.652Z",
-          "vertebraeName": "Rolling Thunder Lv.2"
+        "level2": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "5799f146-66ac-48a3-9251-2e03e60d53f4",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, gains 2 stacks of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40], and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> that ignores Cover equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the target. Restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability to all allied dolls and applies [effect:f3c29056-b252-443d-bf3d-55462b514967] that lasts <span style=\"color: rgb(243, 109, 28);\">3 turns</span> to them. In addition, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs and removes [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], and [effect:b46e4270-c2d5-4f69-bb9b-544785785790].</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+          "phase": "Electric",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Buff"
+          ],
+          "stabilityDamage": 4,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "5799f146-66ac-48a3-9251-2e03e60d53f4",
+            "level": 2,
+            "effect": "<p>Cooldown is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1</span> more point of Confectance Index. Restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability to all allied Dolls, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff and removes [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] and [effect:b46e4270-c2d5-4f69-bb9b-544785785790].</p>",
+            "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/205e3dbb087d7db7aed5a45353195216.webp",
+            "createdAt": "2025-09-25T18:08:59.164Z",
+            "updatedAt": "2025-10-14T07:06:19.652Z",
+            "vertebraeName": "Rolling Thunder Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 5
+        "level3": null,
+        "level4": null
       }
     ],
     "keys": [
@@ -452,29 +476,6 @@
         "createdAt": "2025-09-25T17:13:14.261Z",
         "updatedAt": "2025-09-25T17:13:49.418Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "dollImages": [
-            {
-              "id": "ded1e607-c1f2-4a7c-86f3-36c65527275c",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/jiangyu/chibi-7ae1941275a8e61a4b4c566ac3326fe4.webp",
-              "createdAt": "2025-09-25T16:26:06.352Z",
-              "updatedAt": "2025-09-25T16:26:06.352Z"
-            }
-          ],
-          "searchTags": [
-            "Lyn's waifu",
-            "Type 97"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Rebellious Beat",
         "shortId": "a17"
@@ -498,29 +499,6 @@
         "createdAt": "2025-09-25T17:05:27.705Z",
         "updatedAt": "2025-09-25T18:18:58.603Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "dollImages": [
-            {
-              "id": "ded1e607-c1f2-4a7c-86f3-36c65527275c",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/jiangyu/chibi-7ae1941275a8e61a4b4c566ac3326fe4.webp",
-              "createdAt": "2025-09-25T16:26:06.352Z",
-              "updatedAt": "2025-09-25T16:26:06.352Z"
-            }
-          ],
-          "searchTags": [
-            "Lyn's waifu",
-            "Type 97"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Might Makes Right",
         "shortId": "c17"
@@ -545,29 +523,6 @@
         "createdAt": "2025-10-26T14:02:37.928Z",
         "updatedAt": "2026-01-14T03:52:22.950Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "dollImages": [
-            {
-              "id": "ded1e607-c1f2-4a7c-86f3-36c65527275c",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/jiangyu/chibi-7ae1941275a8e61a4b4c566ac3326fe4.webp",
-              "createdAt": "2025-09-25T16:26:06.352Z",
-              "updatedAt": "2025-09-25T16:26:06.352Z"
-            }
-          ],
-          "searchTags": [
-            "Lyn's waifu",
-            "Type 97"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Urge to Perform",
         "shortId": "k1"
@@ -592,29 +547,6 @@
         "createdAt": "2025-09-25T16:45:36.269Z",
         "updatedAt": "2025-10-14T07:06:43.901Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "dollImages": [
-            {
-              "id": "ded1e607-c1f2-4a7c-86f3-36c65527275c",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/jiangyu/chibi-7ae1941275a8e61a4b4c566ac3326fe4.webp",
-              "createdAt": "2025-09-25T16:26:06.352Z",
-              "updatedAt": "2025-09-25T16:26:06.352Z"
-            }
-          ],
-          "searchTags": [
-            "Lyn's waifu",
-            "Type 97"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Atmosphere Catalyst",
         "shortId": "k2"
@@ -639,29 +571,6 @@
         "createdAt": "2025-09-25T16:48:09.199Z",
         "updatedAt": "2025-10-14T07:06:38.160Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "dollImages": [
-            {
-              "id": "ded1e607-c1f2-4a7c-86f3-36c65527275c",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/jiangyu/chibi-7ae1941275a8e61a4b4c566ac3326fe4.webp",
-              "createdAt": "2025-09-25T16:26:06.352Z",
-              "updatedAt": "2025-09-25T16:26:06.352Z"
-            }
-          ],
-          "searchTags": [
-            "Lyn's waifu",
-            "Type 97"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Intercepting Fist",
         "shortId": "k3"
@@ -686,29 +595,6 @@
         "createdAt": "2025-09-25T16:49:54.232Z",
         "updatedAt": "2025-10-14T07:06:37.603Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "dollImages": [
-            {
-              "id": "ded1e607-c1f2-4a7c-86f3-36c65527275c",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/jiangyu/chibi-7ae1941275a8e61a4b4c566ac3326fe4.webp",
-              "createdAt": "2025-09-25T16:26:06.352Z",
-              "updatedAt": "2025-09-25T16:26:06.352Z"
-            }
-          ],
-          "searchTags": [
-            "Lyn's waifu",
-            "Type 97"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Unstoppable Force",
         "shortId": "k4"
@@ -733,29 +619,6 @@
         "createdAt": "2025-09-25T16:51:10.386Z",
         "updatedAt": "2025-10-14T07:06:37.776Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "dollImages": [
-            {
-              "id": "ded1e607-c1f2-4a7c-86f3-36c65527275c",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/jiangyu/chibi-7ae1941275a8e61a4b4c566ac3326fe4.webp",
-              "createdAt": "2025-09-25T16:26:06.352Z",
-              "updatedAt": "2025-09-25T16:26:06.352Z"
-            }
-          ],
-          "searchTags": [
-            "Lyn's waifu",
-            "Type 97"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Calm Focus",
         "shortId": "k5"
@@ -780,29 +643,6 @@
         "createdAt": "2025-09-25T16:53:24.354Z",
         "updatedAt": "2025-10-14T07:06:37.984Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "dollImages": [
-            {
-              "id": "ded1e607-c1f2-4a7c-86f3-36c65527275c",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/jiangyu/chibi-7ae1941275a8e61a4b4c566ac3326fe4.webp",
-              "createdAt": "2025-09-25T16:26:06.352Z",
-              "updatedAt": "2025-09-25T16:26:06.352Z"
-            }
-          ],
-          "searchTags": [
-            "Lyn's waifu",
-            "Type 97"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Opening Move",
         "shortId": "k6"
@@ -827,29 +667,6 @@
         "createdAt": "2025-09-25T16:54:33.635Z",
         "updatedAt": "2025-09-25T16:54:33.635Z",
         "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "dollImages": [
-            {
-              "id": "ded1e607-c1f2-4a7c-86f3-36c65527275c",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/jiangyu/chibi-7ae1941275a8e61a4b4c566ac3326fe4.webp",
-              "createdAt": "2025-09-25T16:26:06.352Z",
-              "updatedAt": "2025-09-25T16:26:06.352Z"
-            }
-          ],
-          "searchTags": [
-            "Lyn's waifu",
-            "Type 97"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Elite's Composure",
         "shortId": "k7"
@@ -866,68 +683,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3d945143da079dea53fb91e903791d29.webp",
         "createdAt": "2025-09-25T17:48:48.083Z",
         "updatedAt": "2025-10-14T07:06:19.823Z",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "class": "Support",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "A lively and enthusiastic Doll who follows in her older sister's footsteps with a carefree spirit. She roams the lands with her bandmates, bringing fresh and fiery notes to \"Monsoon\".",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Medium Ammo\",\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "c945c53a-ca31-461d-b525-27c4b999c8e3",
             "name": "Grand Aura",
-            "phase": null,
             "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/3d945143da079dea53fb91e903791d29.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-25T17:44:59.171Z",
-            "skillTags": [
-              "Passive",
-              "Support"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-05T19:37:11.407Z",
-            "description": "<p>At the start of the turn, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. At the end of the action, if Confectance Index is full, expends all points of Confectance Index and reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Rolling Thunder</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When enemy units gain [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] multiple times, applies 1 stack of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When allied units gain [effect:f3c29056-b252-443d-bf3d-55462b514967] multiple times, applies 1 stack of [effect:606069e8-1303-4970-81ae-9fbaf3334049] to them for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an enemy unit within range takes targeted damage from an allied unit, prioritizes launching <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] against the target, and Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40]. If the target's stability is greater than <span style=\"color: rgb(243, 109, 28);\">0</span>, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target is in Stability Break, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the start of the battle, deals <span style=\"color: rgb(243, 109, 28);\">4 points</span> of fixed stability damage to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>. At the start of the turn, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. At the end of the action, if Confectance Index is full, expends all points of Confectance Index and reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Rolling Thunder</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When enemy units gain [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] multiple times, applies 1 stack of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When allied units gain [effect:f3c29056-b252-443d-bf3d-55462b514967] multiple times, applies 1 stack of [effect:606069e8-1303-4970-81ae-9fbaf3334049] to them for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an enemy unit within range takes targeted damage from an allied unit, prioritizes launching <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] against the target and gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40]. If the target's stability is greater than <span style=\"color: rgb(243, 109, 28);\">0</span>, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target is in Stability Break, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p>",
-            "descriptionLevel3": "<p>At the start of the battle, deals <span style=\"color: rgb(243, 109, 28);\">8 points</span> of fixed stability damage to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>. At the start of the turn, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. At the end of the action, if Confectance Index is full, expends all points of Confectance Index and reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Rolling Thunder</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When enemy units gain [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] multiple times, applies 1 stack of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When allied units gain [effect:f3c29056-b252-443d-bf3d-55462b514967] multiple times, applies 1 stack of [effect:606069e8-1303-4970-81ae-9fbaf3334049] to them for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an enemy unit within range takes targeted damage from an allied unit, prioritizes launching <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] against the target and gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40]. If the target's stability is greater than <span style=\"color: rgb(243, 109, 28);\">0</span>, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target is in Stability Break, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p><p>When Jiangyu has [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40], <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "da83effb-fb6d-4891-81d5-67b550aa04a3",
-            "vertebraeUpgradeIdLevel3": "08099205-bf89-4ecd-9946-f69560229d88"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "5799f146-66ac-48a3-9251-2e03e60d53f4",
@@ -939,69 +706,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/205e3dbb087d7db7aed5a45353195216.webp",
         "createdAt": "2025-09-25T18:08:59.164Z",
         "updatedAt": "2025-10-14T07:06:19.652Z",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "class": "Support",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "A lively and enthusiastic Doll who follows in her older sister's footsteps with a carefree spirit. She roams the lands with her bandmates, bringing fresh and fiery notes to \"Monsoon\".",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Medium Ammo\",\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "50f0aabe-94f1-4f6f-aac4-899efab351b4",
             "name": "Rolling Thunder",
-            "phase": "Electric",
             "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/205e3dbb087d7db7aed5a45353195216.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Medium Ammo\"]",
-            "createdAt": "2025-09-25T17:32:00.769Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted",
-              "Buff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-14T07:07:08.930Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, gains 2 stacks of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40], and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> that ignores Cover equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the target. Applies [effect:f3c29056-b252-443d-bf3d-55462b514967] to all allied Dolls for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, cleanses <span style=\"color: rgb(243, 109, 28);\">1 </span>debuff, and removes [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] and [effect:fadf4f3f-2810-49f0-b947-6d683741429d].</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": 2,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 4,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, gains 2 stacks of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40], and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> that ignores Cover equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the target. Restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability to all allied dolls and applies [effect:f3c29056-b252-443d-bf3d-55462b514967] that lasts <span style=\"color: rgb(243, 109, 28);\">3 turns</span> to them. In addition, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs and removes [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b], [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], and [effect:b46e4270-c2d5-4f69-bb9b-544785785790].</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "5799f146-66ac-48a3-9251-2e03e60d53f4",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "389382a9-8cd6-48a7-b326-3e73417064ea",
@@ -1013,68 +729,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/f47fa6f097de968b2a1b532e8808d5df.webp",
         "createdAt": "2025-09-25T18:11:00.281Z",
         "updatedAt": "2025-10-14T07:06:19.996Z",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "class": "Support",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "A lively and enthusiastic Doll who follows in her older sister's footsteps with a carefree spirit. She roams the lands with her bandmates, bringing fresh and fiery notes to \"Monsoon\".",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Medium Ammo\",\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "c322cbf1-2ec7-41d9-b4c7-27de424c394b",
             "name": "Lightning Smash",
-            "phase": "Electric",
             "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/f47fa6f097de968b2a1b532e8808d5df.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-25T17:28:13.265Z",
-            "skillTags": [
-              "Active",
-              "Targeted"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-14T07:07:09.103Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to it. If the target is in Stability Break, Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40] before this skill resolves.</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to it. Damage dealt against targets afflicted with [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Before dealing damage, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target. If the target is in Stability Break, Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40] before this skill resolves.</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-            "descriptionLevel3": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to it. If the target is in Stability Break, Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40] before this skill resolves and performs an additional attack. Damage dealt against targets afflicted with [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Before dealing damage, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> buffs from the target.</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "389382a9-8cd6-48a7-b326-3e73417064ea",
-            "vertebraeUpgradeIdLevel3": "751288e3-fc7d-49e3-95f0-6ab620cc46ae"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "ac502b68-1822-49f2-8f6e-647bf6c9d5dc",
@@ -1086,69 +752,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/b53d6f73dd3c2905bdf1959e97daead2.webp",
         "createdAt": "2025-09-25T18:13:48.652Z",
         "updatedAt": "2025-10-14T07:06:20.178Z",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "class": "Support",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "A lively and enthusiastic Doll who follows in her older sister's footsteps with a carefree spirit. She roams the lands with her bandmates, bringing fresh and fiery notes to \"Monsoon\".",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Medium Ammo\",\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "35fdb462-e3c1-4610-88af-fd1d020efab3",
             "name": "Thunderclap",
-            "phase": "Electric",
             "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/b53d6f73dd3c2905bdf1959e97daead2.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Melee\"]",
-            "createdAt": "2025-09-25T17:25:26.428Z",
-            "skillTags": [
-              "Active",
-              "AoE",
-              "Melee"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-14T07:07:08.226Z",
-            "description": "<p>Selects one enemy target within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> and deals melee AoE <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to it and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span>, as well as generating [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. If this attack exploits a phase weakness, deals an additional <span style=\"color: rgb(243, 109, 28);\">5 points</span> of stability damage. After the attack, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of Additional Movement and 1 instance of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "dcc1e2a2-d361-4e20-90db-9aa9fc072e56",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 5,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects one enemy target within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> and deals melee AoE <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">90%</span> of attack to it and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span>, as well as generating [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. If this attack exploits a phase weakness, deals an additional <span style=\"color: rgb(243, 109, 28);\">5 points</span> of stability damage. When dealing stability damage, deals <span style=\"color: rgb(243, 109, 28);\">5 points</span> of fixed stability damage to all enemy targets afflicted with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623]. Before the attack, Jiangyu gains [effect:13704d31-93dc-41f4-8ae8-52bf9ceb0a06] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. After the attack, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of Additional Movement and 1 instance of [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "ac502b68-1822-49f2-8f6e-647bf6c9d5dc",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "751288e3-fc7d-49e3-95f0-6ab620cc46ae",
@@ -1160,68 +775,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/f47fa6f097de968b2a1b532e8808d5df.webp",
         "createdAt": "2025-09-25T18:20:42.199Z",
         "updatedAt": "2025-10-22T17:13:48.116Z",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "class": "Support",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "A lively and enthusiastic Doll who follows in her older sister's footsteps with a carefree spirit. She roams the lands with her bandmates, bringing fresh and fiery notes to \"Monsoon\".",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Medium Ammo\",\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "c322cbf1-2ec7-41d9-b4c7-27de424c394b",
             "name": "Lightning Smash",
-            "phase": "Electric",
             "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/f47fa6f097de968b2a1b532e8808d5df.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-25T17:28:13.265Z",
-            "skillTags": [
-              "Active",
-              "Targeted"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-14T07:07:09.103Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack to it. If the target is in Stability Break, Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40] before this skill resolves.</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to it. Damage dealt against targets afflicted with [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Before dealing damage, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target. If the target is in Stability Break, Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40] before this skill resolves.</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-            "descriptionLevel3": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack to it. If the target is in Stability Break, Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40] before this skill resolves and performs an additional attack. Damage dealt against targets afflicted with [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Before dealing damage, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> buffs from the target.</p><p>Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "389382a9-8cd6-48a7-b326-3e73417064ea",
-            "vertebraeUpgradeIdLevel3": "751288e3-fc7d-49e3-95f0-6ab620cc46ae"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "08099205-bf89-4ecd-9946-f69560229d88",
@@ -1233,68 +798,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3d945143da079dea53fb91e903791d29.webp",
         "createdAt": "2025-09-25T18:49:07.799Z",
         "updatedAt": "2025-10-14T07:06:20.355Z",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "class": "Support",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "A lively and enthusiastic Doll who follows in her older sister's footsteps with a carefree spirit. She roams the lands with her bandmates, bringing fresh and fiery notes to \"Monsoon\".",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Medium Ammo\",\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "c945c53a-ca31-461d-b525-27c4b999c8e3",
             "name": "Grand Aura",
-            "phase": null,
             "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/3d945143da079dea53fb91e903791d29.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-25T17:44:59.171Z",
-            "skillTags": [
-              "Passive",
-              "Support"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-05T19:37:11.407Z",
-            "description": "<p>At the start of the turn, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. At the end of the action, if Confectance Index is full, expends all points of Confectance Index and reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Rolling Thunder</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When enemy units gain [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] multiple times, applies 1 stack of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When allied units gain [effect:f3c29056-b252-443d-bf3d-55462b514967] multiple times, applies 1 stack of [effect:606069e8-1303-4970-81ae-9fbaf3334049] to them for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an enemy unit within range takes targeted damage from an allied unit, prioritizes launching <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] against the target, and Jiangyu gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40]. If the target's stability is greater than <span style=\"color: rgb(243, 109, 28);\">0</span>, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target is in Stability Break, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the start of the battle, deals <span style=\"color: rgb(243, 109, 28);\">4 points</span> of fixed stability damage to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>. At the start of the turn, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. At the end of the action, if Confectance Index is full, expends all points of Confectance Index and reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Rolling Thunder</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When enemy units gain [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] multiple times, applies 1 stack of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When allied units gain [effect:f3c29056-b252-443d-bf3d-55462b514967] multiple times, applies 1 stack of [effect:606069e8-1303-4970-81ae-9fbaf3334049] to them for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an enemy unit within range takes targeted damage from an allied unit, prioritizes launching <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] against the target and gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40]. If the target's stability is greater than <span style=\"color: rgb(243, 109, 28);\">0</span>, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target is in Stability Break, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p>",
-            "descriptionLevel3": "<p>At the start of the battle, deals <span style=\"color: rgb(243, 109, 28);\">8 points</span> of fixed stability damage to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>. At the start of the turn, Jiangyu gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. At the end of the action, if Confectance Index is full, expends all points of Confectance Index and reduces the cooldown of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Rolling Thunder</span> by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>When enemy units gain [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] multiple times, applies 1 stack of [effect:6e4bce1a-755f-41ae-8de8-2f71581991f4] to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. When allied units gain [effect:f3c29056-b252-443d-bf3d-55462b514967] multiple times, applies 1 stack of [effect:606069e8-1303-4970-81ae-9fbaf3334049] to them for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>When an enemy unit within range takes targeted damage from an allied unit, prioritizes launching <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] against the target and gains 1 stack of [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40]. If the target's stability is greater than <span style=\"color: rgb(243, 109, 28);\">0</span>, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. If the target is in Stability Break, deals <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">75%</span> of attack instead. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn.</p><p>When Jiangyu has [effect:452c5bd4-0685-42e4-aeb8-0539acae4c40], <span style=\"color: rgb(213, 173, 13);\">Electric Damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "da83effb-fb6d-4891-81d5-67b550aa04a3",
-            "vertebraeUpgradeIdLevel3": "08099205-bf89-4ecd-9946-f69560229d88"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1418,42 +933,28 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-25T07:02:05.567Z",
-        "updatedAt": "2025-11-06T06:46:00.162Z",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "dollImages": [
-            {
-              "id": "ded1e607-c1f2-4a7c-86f3-36c65527275c",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/jiangyu/chibi-7ae1941275a8e61a4b4c566ac3326fe4.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Lyn's waifu"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Type 97"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-06T06:46:00.162Z"
       },
       {
         "id": "606069e8-1303-4970-81ae-9fbaf3334049",
         "effectName": "Power Surge",
-        "effectDetails": "{\"mainDetails\":\"<p>When dealing <span style=\\\"color: rgb(213, 173, 13);\\\">Electric damage</span>, ignores <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span> of the target's defense. In addition, healing received is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>. Maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">3 stacks</span>. Considered an Electric buff, cannot be cleansed.</p><p><span style=\\\"color: rgb(34, 139, 230);\\\">Dandegate Note: This effect is bugged. It uses the stacks on Jiangyu to calculate the % of defense ignored instead of the holder (Holder must have at least 1 stack). The effect behaves correctly in the level 3 (V6) version of the skill. Last replicate on March 19th, 2026 and may have been fixed since then.</span></p>\",\"upgrades\":[{\"id\":\"11c3b7e3-76ca-4e31-a7b3-b5f9294b052a\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>When dealing <span style=\\\"color: rgb(213, 173, 13);\\\">Electric damage</span>, ignores <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span> of the target's defense. In addition, healing received is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>. Maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">3 stacks</span>. Upon gaining this effect, recovers HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span> of max HP. Considered an Electric buff, cannot be cleansed.</p><p><span style=\\\"color: rgb(34, 139, 230);\\\">Dandegate Note: This effect is bugged. It uses the stacks on Jiangyu to calculate the % of defense ignored instead of the holder (Holder must have at least 1 stack). The effect behaves correctly in the level 3 (V6) version of the skill. Last replicate on March 19th, 2026 and may have been fixed since then.</span></p>\",\"order\":0},{\"id\":\"fe6a03f5-bcfb-4d34-8695-c9d2f9b0b9ea\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>When dealing <span style=\\\"color: rgb(213, 173, 13);\\\">Electric damage</span>, ignores <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span> of the target's defense. In addition, healing received is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>. Maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">3 stacks</span>. Upon gaining this effect, recovers HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span> of max HP. Considered an Electric buff, cannot be cleansed.</p>\",\"order\":1}]}",
+        "effectDetails": {
+          "mainDetails": "<p>When dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>, ignores <span style=\"color: rgb(243, 109, 28);\">5%</span> of the target's defense. In addition, healing received is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. Considered an Electric buff, cannot be cleansed.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: This effect is bugged. It uses the stacks on Jiangyu to calculate the % of defense ignored instead of the holder (Holder must have at least 1 stack). The effect behaves correctly in the level 3 (V6) version of the skill. Last replicate on March 19th, 2026 and may have been fixed since then.</span></p>",
+          "upgrades": [
+            {
+              "id": "11c3b7e3-76ca-4e31-a7b3-b5f9294b052a",
+              "upgradeName": "V1",
+              "upgradeDetails": "<p>When dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>, ignores <span style=\"color: rgb(243, 109, 28);\">5%</span> of the target's defense. In addition, healing received is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. Upon gaining this effect, recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of max HP. Considered an Electric buff, cannot be cleansed.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: This effect is bugged. It uses the stacks on Jiangyu to calculate the % of defense ignored instead of the holder (Holder must have at least 1 stack). The effect behaves correctly in the level 3 (V6) version of the skill. Last replicate on March 19th, 2026 and may have been fixed since then.</span></p>",
+              "order": 0
+            },
+            {
+              "id": "fe6a03f5-bcfb-4d34-8695-c9d2f9b0b9ea",
+              "upgradeName": "V6",
+              "upgradeDetails": "<p>When dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>, ignores <span style=\"color: rgb(243, 109, 28);\">10%</span> of the target's defense. In addition, healing received is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. Upon gaining this effect, recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of max HP. Considered an Electric buff, cannot be cleansed.</p>",
+              "order": 1
+            }
+          ]
+        },
         "effectTags": [
           "Buff",
           "Electric"
@@ -1462,42 +963,28 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-25T07:09:31.494Z",
-        "updatedAt": "2026-03-19T06:28:41.054Z",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "dollImages": [
-            {
-              "id": "ded1e607-c1f2-4a7c-86f3-36c65527275c",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/jiangyu/chibi-7ae1941275a8e61a4b4c566ac3326fe4.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Lyn's waifu"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Type 97"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2026-03-19T06:28:41.054Z"
       },
       {
         "id": "6e4bce1a-755f-41ae-8de8-2f71581991f4",
         "effectName": "Voltage Sag",
-        "effectDetails": "{\"mainDetails\":\"<p>Damage dealt is reduced by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span> and <span style=\\\"color: rgb(213, 173, 13);\\\">Electric damage</span> taken is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">6%</span>. Maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">3 stacks</span>. Considered an Electric debuff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"9e64c599-ad41-4ac6-a655-23c6b5bb5077\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>Damage dealt is reduced by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span> and <span style=\\\"color: rgb(213, 173, 13);\\\">Electric damage</span> taken is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">6%</span>. Maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">3 stacks</span>. Upon gaining this effect, the holder takes fixed damage equal to <span style=\\\"color: rgb(243, 109, 28);\\\">(current stacks x10)%</span> of the inflictor's attack. Considered an Electric debuff, cannot be cleansed.</p>\",\"order\":0},{\"id\":\"9160b3cd-d25f-4530-aa17-fa6677919bfc\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>Damage dealt is reduced by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span> and <span style=\\\"color: rgb(213, 173, 13);\\\">Electric damage</span> taken is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">6%</span>. Maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">6 stacks</span>. Upon gaining this effect, the holder takes fixed damage equal to <span style=\\\"color: rgb(243, 109, 28);\\\">(current stacks x10)%</span> of the inflictor's attack. Considered an Electric debuff, cannot be cleansed.</p>\",\"order\":1}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Damage dealt is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span> and <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> taken is increased by <span style=\"color: rgb(243, 109, 28);\">6%</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. Considered an Electric debuff, cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "9e64c599-ad41-4ac6-a655-23c6b5bb5077",
+              "upgradeName": "V1",
+              "upgradeDetails": "<p>Damage dealt is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span> and <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> taken is increased by <span style=\"color: rgb(243, 109, 28);\">6%</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. Upon gaining this effect, the holder takes fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">(current stacks x10)%</span> of the inflictor's attack. Considered an Electric debuff, cannot be cleansed.</p>",
+              "order": 0
+            },
+            {
+              "id": "9160b3cd-d25f-4530-aa17-fa6677919bfc",
+              "upgradeName": "V6",
+              "upgradeDetails": "<p>Damage dealt is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span> and <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> taken is increased by <span style=\"color: rgb(243, 109, 28);\">6%</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">6 stacks</span>. Upon gaining this effect, the holder takes fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">(current stacks x10)%</span> of the inflictor's attack. Considered an Electric debuff, cannot be cleansed.</p>",
+              "order": 1
+            }
+          ]
+        },
         "effectTags": [
           "Debuff",
           "Electric"
@@ -1506,37 +993,137 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-25T07:08:25.775Z",
-        "updatedAt": "2025-11-03T16:10:39.067Z",
-        "doll": {
-          "id": "dc4714d2-9d05-4c04-915e-eeeed970e338",
-          "name": "Jiangyu",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/jiangyu/f55a908d2d35a7c1e9cd268b911b3cb2.webp",
-          "createdAt": "2025-09-25T16:26:06.231Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T09:28:16.596Z",
-          "dollImages": [
-            {
-              "id": "ded1e607-c1f2-4a7c-86f3-36c65527275c",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/jiangyu/chibi-7ae1941275a8e61a4b4c566ac3326fe4.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Lyn's waifu"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "Type 97"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T16:10:39.067Z"
+      },
+      {
+        "id": "a9d5e1de-1be0-41d0-8970-2290e5ea4623",
+        "effectName": "Negative Charge",
+        "effectDetails": "<p>When taking targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>, all targets with <span style=\"color: rgb(34, 139, 230);\">Negative Charge</span> take fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of the damage from that attack. When <span style=\"color: rgb(34, 139, 230);\">Negative Charge</span> is applied again, the target takes <span style=\"color: rgb(243, 109, 28);\">an additional instance</span> of fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">3%</span> of the applier's attack. When taking an attack from a unit with [effect:f3c29056-b252-443d-bf3d-55462b514967], <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> taken is increased. Considered an Electric debuff (when an effect with the same name is applied again while the previous one is still in effect, the newly applied effect overwrites the former and inherits the remaining duration of the former effect).</p>",
+        "effectTags": [
+          "Debuff",
+          "Electric"
+        ],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T00:32:35.698Z",
+        "updatedAt": "2025-11-03T15:06:54.337Z"
+      },
+      {
+        "id": "f3c29056-b252-443d-bf3d-55462b514967",
+        "effectName": "Positive Charge",
+        "effectDetails": "<p>At the end of the buff holder's action, recovers HP equal to 20% of max HP. If another allied unit within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> has <span style=\"color: rgb(34, 139, 230);\">Positive Charge</span>, additionally recovers HP equal to 15% of max HP. When attacking an enemy with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">35%</span>. Triggers on each target that has <span style=\"color: rgb(34, 139, 230);\">Positive Charge</span> at most <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. Considered an Electric buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Electric"
+        ],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-25T07:06:32.634Z",
+        "updatedAt": "2025-11-03T15:21:07.812Z"
+      },
+      {
+        "id": "ab2e634f-d257-44e3-af90-ce66a6ac43f3",
+        "effectName": "Support Action",
+        "effectDetails": "<p>Performs a Support Attack; cannot be triggered by another Support Attack.</p>",
+        "effectTags": [],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:08:04.163Z",
+        "updatedAt": "2025-09-11T00:08:04.163Z"
+      },
+      {
+        "id": "d63f94c1-d638-4437-8196-f9cb9705c834",
+        "effectName": "Voltage",
+        "effectDetails": "<p>Adds <span style=\"color: rgb(213, 173, 13);\">Electric</span> weakness to enemy units in the area. When enemy units on the affected tiles suffer AoE damage, a tile reaction is triggered, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of attack, and removes the tile effect. If the AoE damage is <span style=\"color: rgb(213, 173, 13);\">Electric</span> or <span style=\"color: rgb(43, 171, 218);\">Hydro</span>, the fixed damage increases to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack. Deals <span style=\"color: rgb(243, 109, 28);\">double</span> damage to large targets. Considered an Electric tile.</p>",
+        "effectTags": [
+          "Electric",
+          "Weakness"
+        ],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-25T06:53:28.069Z",
+        "updatedAt": "2025-11-03T16:10:20.637Z"
+      },
+      {
+        "id": "c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb",
+        "effectName": "Extra Command",
+        "effectDetails": "<p>Commands other than movement can be executed.</p>",
+        "effectTags": [],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T19:42:00.107Z",
+        "updatedAt": "2025-09-14T19:42:00.107Z"
+      },
+      {
+        "id": "13704d31-93dc-41f4-8ae8-52bf9ceb0a06",
+        "effectName": "Attack Up II",
+        "effectDetails": "<p>Attack is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Attack",
+          "Buff"
+        ],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:55:59.558Z",
+        "updatedAt": "2025-11-06T06:39:50.435Z"
+      },
+      {
+        "id": "dd0752a2-37c4-47ba-91ad-2dc640d2372b",
+        "effectName": "Stun",
+        "effectDetails": "<p>Unable to act.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T03:49:59.941Z",
+        "updatedAt": "2025-11-03T15:54:17.616Z"
+      },
+      {
+        "id": "fadf4f3f-2810-49f0-b947-6d683741429d",
+        "effectName": "Taunt",
+        "effectDetails": "<p>Uncontrollable, forced to use basic attacks on the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:35:26.444Z",
+        "updatedAt": "2025-11-03T16:00:56.734Z"
+      },
+      {
+        "id": "e82fca4c-de4a-40b6-83c2-e84d716f72d3",
+        "effectName": "Fear",
+        "effectDetails": "<p>Uncontrollable, actively moves away from the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T15:54:18.994Z",
+        "updatedAt": "2025-11-03T14:56:03.797Z"
+      },
+      {
+        "id": "b46e4270-c2d5-4f69-bb9b-544785785790",
+        "effectName": "Infatuated",
+        "effectDetails": "<p>Uncontrollable, actively moves towards the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T21:37:27.720Z",
+        "updatedAt": "2025-11-03T15:04:08.566Z"
       }
     ],
     "shortId": "d17"

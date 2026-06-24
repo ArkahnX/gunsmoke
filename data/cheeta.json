@@ -72,364 +72,389 @@
       {
         "id": "419ae1a3-a5d1-450c-925b-732732a0030c",
         "name": "Welcome Gift",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\"> 6 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/467cf92994cc2af783db935f2f3e8093.webp",
         "createdAt": "2025-09-24T01:43:04.787Z",
         "updatedAt": "2025-09-24T01:43:04.787Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\"> 6 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "ec39de9e-3379-4a45-9a5a-f616da988306",
         "name": "Invention of the Century",
-        "description": "<p>When the user is under the effects of buffs, after attacking, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack to the allied target with the lowest HP within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. <span style=\"color: rgb(243, 109, 28);\">Each buff</span> increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">5%,</span> up to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/c26fae844a7a84569e733333dfae6afc.webp",
         "createdAt": "2025-09-24T01:55:32.659Z",
         "updatedAt": "2025-11-07T04:30:39.255Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
         "summonId": null,
-        "rangeMapId": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "74744ee0-45de-471c-a0f7-80ea148a71c9",
-        "vertebraeUpgradeIdLevel3": "52cf5353-1a4f-4017-98d2-7d2a6b39e938",
-        "skillTags": [
-          "Passive",
-          "Healing"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>When the user is under the effects of buffs, after attacking, restores HP equal to<span style=\"color: rgb(243, 109, 28);\"> 45%</span> of attack to the allied target with the lowest HP within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. <span style=\"color: rgb(243, 109, 28);\">Each buff</span> increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-        "descriptionLevel3": "<p>When the user is under the effects of buffs, after attacking, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to the allied target with the lowest HP within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. <span style=\"color: rgb(243, 109, 28);\">Each buff</span> increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743399114-rSe7.webp",
-          "createdAt": "2025-09-13T06:03:19.163Z",
-          "updatedAt": "2025-09-13T06:03:19.163Z",
-          "rangeValue": "Self",
-          "effectiveArea": "7"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>When the user is under the effects of buffs, after attacking, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack to the allied target with the lowest HP within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. <span style=\"color: rgb(243, 109, 28);\">Each buff</span> increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">5%,</span> up to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "11b6a136-4748-4d13-97f7-5825ef50eae1",
+          "skillTags": [
+            "Passive",
+            "Healing"
+          ],
+          "rangeMap": {
+            "id": "11b6a136-4748-4d13-97f7-5825ef50eae1",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743399114-rSe7.webp",
+            "createdAt": "2025-09-13T06:03:19.163Z",
+            "updatedAt": "2025-09-13T06:03:19.163Z",
+            "rangeValue": "Self",
+            "effectiveArea": "7"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "74744ee0-45de-471c-a0f7-80ea148a71c9",
-          "level": 2,
-          "effect": "<p>Increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">10%</span><span> for </span><span style=\"color: rgb(243, 109, 28);\">each</span><span> buff the user has, up to a maximum of </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
-          "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/c26fae844a7a84569e733333dfae6afc.webp",
-          "createdAt": "2025-09-24T01:59:27.722Z",
-          "updatedAt": "2025-09-24T01:59:27.722Z",
-          "vertebraeName": "Invention of the Century Lv.2"
+        "level2": {
+          "rangeMapId": "11b6a136-4748-4d13-97f7-5825ef50eae1",
+          "vertebraeUpgradeId": "74744ee0-45de-471c-a0f7-80ea148a71c9",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>When the user is under the effects of buffs, after attacking, restores HP equal to<span style=\"color: rgb(243, 109, 28);\"> 45%</span> of attack to the allied target with the lowest HP within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. <span style=\"color: rgb(243, 109, 28);\">Each buff</span> increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Healing"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "11b6a136-4748-4d13-97f7-5825ef50eae1",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743399114-rSe7.webp",
+            "createdAt": "2025-09-13T06:03:19.163Z",
+            "updatedAt": "2025-09-13T06:03:19.163Z",
+            "rangeValue": "Self",
+            "effectiveArea": "7"
+          },
+          "vertebraeUpgrade": {
+            "id": "74744ee0-45de-471c-a0f7-80ea148a71c9",
+            "level": 2,
+            "effect": "<p>Increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">10%</span><span> for </span><span style=\"color: rgb(243, 109, 28);\">each</span><span> buff the user has, up to a maximum of </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
+            "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/c26fae844a7a84569e733333dfae6afc.webp",
+            "createdAt": "2025-09-24T01:59:27.722Z",
+            "updatedAt": "2025-09-24T01:59:27.722Z",
+            "vertebraeName": "Invention of the Century Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "52cf5353-1a4f-4017-98d2-7d2a6b39e938",
-          "level": 3,
-          "effect": "<p>Increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p>",
-          "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/c26fae844a7a84569e733333dfae6afc.webp",
-          "createdAt": "2025-09-24T02:00:03.725Z",
-          "updatedAt": "2025-09-25T22:54:03.500Z",
-          "vertebraeName": "Invention of the Century Lv.3"
+        "level3": {
+          "rangeMapId": "11b6a136-4748-4d13-97f7-5825ef50eae1",
+          "vertebraeUpgradeId": "52cf5353-1a4f-4017-98d2-7d2a6b39e938",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>When the user is under the effects of buffs, after attacking, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to the allied target with the lowest HP within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. <span style=\"color: rgb(243, 109, 28);\">Each buff</span> increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Healing"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "11b6a136-4748-4d13-97f7-5825ef50eae1",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743399114-rSe7.webp",
+            "createdAt": "2025-09-13T06:03:19.163Z",
+            "updatedAt": "2025-09-13T06:03:19.163Z",
+            "rangeValue": "Self",
+            "effectiveArea": "7"
+          },
+          "vertebraeUpgrade": {
+            "id": "52cf5353-1a4f-4017-98d2-7d2a6b39e938",
+            "level": 3,
+            "effect": "<p>Increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">15%</span><span>.</span></p>",
+            "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/c26fae844a7a84569e733333dfae6afc.webp",
+            "createdAt": "2025-09-24T02:00:03.725Z",
+            "updatedAt": "2025-09-25T22:54:03.500Z",
+            "vertebraeName": "Invention of the Century Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "8a3b0c0d-fdbd-4d89-a136-b675b9d121cf",
         "name": "Spicy Candy",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack. If the user has <span style=\"color: rgb(34, 139, 230);\">Blazing Assault</span>, this attack's damage is further increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-        "phase": "Burn",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 4,
-        "cooldown": null,
-        "confectanceCost": 2,
         "imageUrl": "https://cdn.dandegate.net/skills/5b9b3f48ff35cbfb1aa1e9a6a3549790.webp",
         "createdAt": "2025-09-24T01:45:32.048Z",
         "updatedAt": "2025-11-07T04:32:01.552Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "be8b7e44-4ce6-4cfb-8bcd-12da4c852e70",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted"
-        ],
         "keyUpgradesData": "[\"cff3754b-eb44-417f-9faf-a9334e4bd024\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack. If the user has <span style=\"color: rgb(34, 139, 230);\">Blazing Assault</span>, this attack's damage is further increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack. If the user has <span style=\"color: rgb(34, 139, 230);\">Blazing Assault</span>, this attack's damage is further increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+          "phase": "Burn",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 4,
+          "cooldown": null,
+          "confectanceCost": 2,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "be8b7e44-4ce6-4cfb-8bcd-12da4c852e70",
-          "level": 2,
-          "effect": "<p>Damage multiplier increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
-          "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/5b9b3f48ff35cbfb1aa1e9a6a3549790.webp",
-          "createdAt": "2025-09-24T01:57:48.715Z",
-          "updatedAt": "2025-09-24T01:57:48.715Z",
-          "vertebraeName": "Spicy Candy Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "be8b7e44-4ce6-4cfb-8bcd-12da4c852e70",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack. If the user has <span style=\"color: rgb(34, 139, 230);\">Blazing Assault</span>, this attack's damage is further increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "stabilityDamage": 4,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "be8b7e44-4ce6-4cfb-8bcd-12da4c852e70",
+            "level": 2,
+            "effect": "<p>Damage multiplier increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
+            "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/5b9b3f48ff35cbfb1aa1e9a6a3549790.webp",
+            "createdAt": "2025-09-24T01:57:48.715Z",
+            "updatedAt": "2025-09-24T01:57:48.715Z",
+            "vertebraeName": "Spicy Candy Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "eea8e639-5ff8-4a88-80e2-7b035c09075e",
         "name": "Fireworks Festival",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> to attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to them and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If only <span style=\"color: rgb(243, 109, 28);\">1</span> target is hit, applies [effect:7d900a53-1edb-4532-9da4-c614b83cb560] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": 3,
         "imageUrl": "https://cdn.dandegate.net/skills/2c7363e7d9a8649d2b9b9116ea3d91fe.webp",
         "createdAt": "2025-09-24T01:47:54.660Z",
         "updatedAt": "2025-10-14T07:07:06.449Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
         "summonId": null,
-        "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "24eafdf4-dd34-478a-b770-03a79ccb21ac",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "AoE",
-          "Debuff"
-        ],
         "keyUpgradesData": "[\"cebee41d-b73d-410a-9d60-e006356b1fad\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": 2,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743777095-r6e2.webp",
-          "createdAt": "2025-09-13T06:09:37.222Z",
-          "updatedAt": "2025-09-13T06:09:37.222Z",
-          "rangeValue": "6",
-          "effectiveArea": "2"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> to attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to them and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If only <span style=\"color: rgb(243, 109, 28);\">1</span> target is hit, applies [effect:7d900a53-1edb-4532-9da4-c614b83cb560] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": 3,
+          "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743777095-r6e2.webp",
+            "createdAt": "2025-09-13T06:09:37.222Z",
+            "updatedAt": "2025-09-13T06:09:37.222Z",
+            "rangeValue": "6",
+            "effectiveArea": "2"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "24eafdf4-dd34-478a-b770-03a79ccb21ac",
-          "level": 2,
-          "effect": "<p>Reduces Confectance Index consumption by <span style=\"color: rgb(243, 109, 28);\">1 point</span><span>.</span></p>",
-          "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/2c7363e7d9a8649d2b9b9116ea3d91fe.webp",
-          "createdAt": "2025-09-24T01:58:32.009Z",
-          "updatedAt": "2025-09-25T22:53:53.457Z",
-          "vertebraeName": "Fireworks Festival Lv.2"
+        "level2": {
+          "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+          "vertebraeUpgradeId": "24eafdf4-dd34-478a-b770-03a79ccb21ac",
+          "ammoTypes": null,
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> to attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to them and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If only <span style=\"color: rgb(243, 109, 28);\">1</span> target is hit, applies [effect:7d900a53-1edb-4532-9da4-c614b83cb560] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743777095-r6e2.webp",
+            "createdAt": "2025-09-13T06:09:37.222Z",
+            "updatedAt": "2025-09-13T06:09:37.222Z",
+            "rangeValue": "6",
+            "effectiveArea": "2"
+          },
+          "vertebraeUpgrade": {
+            "id": "24eafdf4-dd34-478a-b770-03a79ccb21ac",
+            "level": 2,
+            "effect": "<p>Reduces Confectance Index consumption by <span style=\"color: rgb(243, 109, 28);\">1 point</span><span>.</span></p>",
+            "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/2c7363e7d9a8649d2b9b9116ea3d91fe.webp",
+            "createdAt": "2025-09-24T01:58:32.009Z",
+            "updatedAt": "2025-09-25T22:53:53.457Z",
+            "vertebraeName": "Fireworks Festival Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "0a70db6c-f46a-4177-b959-fb9bf781a900",
         "name": "Surprise Box",
-        "description": "<p>Apply [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and <span style=\"color: rgb(243, 109, 28);\">2</span> random buffs to all allied targets within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For each allied unit in range, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Gain [effect:2fa0814b-b365-46e5-8e49-39db6e7d5f72], which can be activated up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": 3,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/0d99ed18ae765acee8c7fdac4fa11732.webp",
         "createdAt": "2025-09-24T01:51:28.823Z",
         "updatedAt": "2025-10-14T07:07:07.669Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
         "summonId": null,
-        "rangeMapId": "b9c82204-b6c6-4287-850e-543ff93c7ad8",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "d7ac4c6d-1376-4a61-9d77-29ca56b31cb2",
-        "vertebraeUpgradeIdLevel3": "215f9c4a-dace-4f40-8cc3-a3218d0967aa",
-        "skillTags": [
-          "Ultimate",
-          "Buff",
-          "Support"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Apply [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and <span style=\"color: rgb(243, 109, 28);\">3 </span>random buffs to all allied targets within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For each allied unit in range, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Gain [effect:2fa0814b-b365-46e5-8e49-39db6e7d5f72], which can be activated up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn for<span style=\"color: rgb(243, 109, 28);\"> 2 turns</span>.</p>",
-        "descriptionLevel3": "<p>Apply [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and <span style=\"color: rgb(243, 109, 28);\">3 </span>random buffs to all allied targets within<span style=\"color: rgb(243, 109, 28);\"> 6 tiles</span> for<span style=\"color: rgb(243, 109, 28);\"> 2 turns</span>. For each allied unit in range, gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. Gain [effect:2fa0814b-b365-46e5-8e49-39db6e7d5f72], which can be activated up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "b9c82204-b6c6-4287-850e-543ff93c7ad8",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743314506-rSe6.webp",
-          "createdAt": "2025-09-13T06:01:54.605Z",
-          "updatedAt": "2025-09-13T06:01:54.605Z",
-          "rangeValue": "Self",
-          "effectiveArea": "6"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Apply [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and <span style=\"color: rgb(243, 109, 28);\">2</span> random buffs to all allied targets within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For each allied unit in range, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Gain [effect:2fa0814b-b365-46e5-8e49-39db6e7d5f72], which can be activated up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": 3,
+          "confectanceCost": null,
+          "rangeMapId": "b9c82204-b6c6-4287-850e-543ff93c7ad8",
+          "skillTags": [
+            "Ultimate",
+            "Buff",
+            "Support"
+          ],
+          "rangeMap": {
+            "id": "b9c82204-b6c6-4287-850e-543ff93c7ad8",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743314506-rSe6.webp",
+            "createdAt": "2025-09-13T06:01:54.605Z",
+            "updatedAt": "2025-09-13T06:01:54.605Z",
+            "rangeValue": "Self",
+            "effectiveArea": "6"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "d7ac4c6d-1376-4a61-9d77-29ca56b31cb2",
-          "level": 2,
-          "effect": "<p>The number of random buffs granted increases by <span style=\"color: rgb(243, 109, 28);\">1</span><span>.</span></p>",
-          "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/0d99ed18ae765acee8c7fdac4fa11732.webp",
-          "createdAt": "2025-09-24T01:57:15.404Z",
-          "updatedAt": "2025-09-24T01:57:15.404Z",
-          "vertebraeName": "Surprise Box Lv.2"
+        "level2": {
+          "rangeMapId": "b9c82204-b6c6-4287-850e-543ff93c7ad8",
+          "vertebraeUpgradeId": "d7ac4c6d-1376-4a61-9d77-29ca56b31cb2",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": 3,
+          "description": "<p>Apply [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and <span style=\"color: rgb(243, 109, 28);\">3 </span>random buffs to all allied targets within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For each allied unit in range, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Gain [effect:2fa0814b-b365-46e5-8e49-39db6e7d5f72], which can be activated up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn for<span style=\"color: rgb(243, 109, 28);\"> 2 turns</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Buff",
+            "Support"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "b9c82204-b6c6-4287-850e-543ff93c7ad8",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743314506-rSe6.webp",
+            "createdAt": "2025-09-13T06:01:54.605Z",
+            "updatedAt": "2025-09-13T06:01:54.605Z",
+            "rangeValue": "Self",
+            "effectiveArea": "6"
+          },
+          "vertebraeUpgrade": {
+            "id": "d7ac4c6d-1376-4a61-9d77-29ca56b31cb2",
+            "level": 2,
+            "effect": "<p>The number of random buffs granted increases by <span style=\"color: rgb(243, 109, 28);\">1</span><span>.</span></p>",
+            "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/0d99ed18ae765acee8c7fdac4fa11732.webp",
+            "createdAt": "2025-09-24T01:57:15.404Z",
+            "updatedAt": "2025-09-24T01:57:15.404Z",
+            "vertebraeName": "Surprise Box Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "215f9c4a-dace-4f40-8cc3-a3218d0967aa",
-          "level": 3,
-          "effect": "<p>Confectance Index gain increases by <span style=\"color: rgb(243, 109, 28);\">1 point</span><span>.</span></p>",
-          "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/0d99ed18ae765acee8c7fdac4fa11732.webp",
-          "createdAt": "2025-09-24T02:00:34.575Z",
-          "updatedAt": "2025-09-24T02:00:34.575Z",
-          "vertebraeName": "Surprise Box Lv.3"
+        "level3": {
+          "rangeMapId": "b9c82204-b6c6-4287-850e-543ff93c7ad8",
+          "vertebraeUpgradeId": "215f9c4a-dace-4f40-8cc3-a3218d0967aa",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": 3,
+          "description": "<p>Apply [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and <span style=\"color: rgb(243, 109, 28);\">3 </span>random buffs to all allied targets within<span style=\"color: rgb(243, 109, 28);\"> 6 tiles</span> for<span style=\"color: rgb(243, 109, 28);\"> 2 turns</span>. For each allied unit in range, gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. Gain [effect:2fa0814b-b365-46e5-8e49-39db6e7d5f72], which can be activated up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Buff",
+            "Support"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "b9c82204-b6c6-4287-850e-543ff93c7ad8",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743314506-rSe6.webp",
+            "createdAt": "2025-09-13T06:01:54.605Z",
+            "updatedAt": "2025-09-13T06:01:54.605Z",
+            "rangeValue": "Self",
+            "effectiveArea": "6"
+          },
+          "vertebraeUpgrade": {
+            "id": "215f9c4a-dace-4f40-8cc3-a3218d0967aa",
+            "level": 3,
+            "effect": "<p>Confectance Index gain increases by <span style=\"color: rgb(243, 109, 28);\">1 point</span><span>.</span></p>",
+            "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/0d99ed18ae765acee8c7fdac4fa11732.webp",
+            "createdAt": "2025-09-24T02:00:34.575Z",
+            "updatedAt": "2025-09-24T02:00:34.575Z",
+            "vertebraeName": "Surprise Box Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -452,29 +477,6 @@
         "createdAt": "2025-09-24T01:41:14.539Z",
         "updatedAt": "2025-09-25T22:52:01.067Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "dollImages": [
-            {
-              "id": "3685ae5c-ec26-4c16-9948-e1c17c46bfbb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/cheeta/chibi-b0c1aaa96ac1d4fd7450d444688d3020.webp",
-              "createdAt": "2025-09-24T01:27:49.393Z",
-              "updatedAt": "2025-09-24T01:27:49.393Z"
-            }
-          ],
-          "searchTags": [
-            "Ei",
-            "MP7"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Genius' Luck",
         "shortId": "a7"
@@ -499,29 +501,6 @@
         "createdAt": "2025-09-24T01:40:07.820Z",
         "updatedAt": "2026-01-12T03:37:48.116Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "dollImages": [
-            {
-              "id": "3685ae5c-ec26-4c16-9948-e1c17c46bfbb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/cheeta/chibi-b0c1aaa96ac1d4fd7450d444688d3020.webp",
-              "createdAt": "2025-09-24T01:27:49.393Z",
-              "updatedAt": "2025-09-24T01:27:49.393Z"
-            }
-          ],
-          "searchTags": [
-            "Ei",
-            "MP7"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Overengineered Invention",
         "shortId": "c7"
@@ -546,29 +525,6 @@
         "createdAt": "2025-10-26T13:32:55.700Z",
         "updatedAt": "2025-10-26T13:37:58.302Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "dollImages": [
-            {
-              "id": "3685ae5c-ec26-4c16-9948-e1c17c46bfbb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/cheeta/chibi-b0c1aaa96ac1d4fd7450d444688d3020.webp",
-              "createdAt": "2025-09-24T01:27:49.393Z",
-              "updatedAt": "2025-09-24T01:27:49.393Z"
-            }
-          ],
-          "searchTags": [
-            "Ei",
-            "MP7"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Genius' Great Invention",
         "shortId": "k1"
@@ -593,29 +549,6 @@
         "createdAt": "2025-09-24T01:30:34.178Z",
         "updatedAt": "2025-09-24T01:30:34.178Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "dollImages": [
-            {
-              "id": "3685ae5c-ec26-4c16-9948-e1c17c46bfbb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/cheeta/chibi-b0c1aaa96ac1d4fd7450d444688d3020.webp",
-              "createdAt": "2025-09-24T01:27:49.393Z",
-              "updatedAt": "2025-09-24T01:27:49.393Z"
-            }
-          ],
-          "searchTags": [
-            "Ei",
-            "MP7"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Legitimate Research Expenses",
         "shortId": "k2"
@@ -640,29 +573,6 @@
         "createdAt": "2025-09-24T01:31:19.902Z",
         "updatedAt": "2025-10-14T07:06:42.339Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "dollImages": [
-            {
-              "id": "3685ae5c-ec26-4c16-9948-e1c17c46bfbb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/cheeta/chibi-b0c1aaa96ac1d4fd7450d444688d3020.webp",
-              "createdAt": "2025-09-24T01:27:49.393Z",
-              "updatedAt": "2025-09-24T01:27:49.393Z"
-            }
-          ],
-          "searchTags": [
-            "Ei",
-            "MP7"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Super Useful Investion",
         "shortId": "k3"
@@ -687,29 +597,6 @@
         "createdAt": "2025-09-24T01:32:54.119Z",
         "updatedAt": "2025-09-24T05:10:15.429Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "dollImages": [
-            {
-              "id": "3685ae5c-ec26-4c16-9948-e1c17c46bfbb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/cheeta/chibi-b0c1aaa96ac1d4fd7450d444688d3020.webp",
-              "createdAt": "2025-09-24T01:27:49.393Z",
-              "updatedAt": "2025-09-24T01:27:49.393Z"
-            }
-          ],
-          "searchTags": [
-            "Ei",
-            "MP7"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Goldfinger",
         "shortId": "k4"
@@ -734,29 +621,6 @@
         "createdAt": "2025-09-24T01:33:56.131Z",
         "updatedAt": "2025-09-27T04:02:09.587Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "dollImages": [
-            {
-              "id": "3685ae5c-ec26-4c16-9948-e1c17c46bfbb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/cheeta/chibi-b0c1aaa96ac1d4fd7450d444688d3020.webp",
-              "createdAt": "2025-09-24T01:27:49.393Z",
-              "updatedAt": "2025-09-24T01:27:49.393Z"
-            }
-          ],
-          "searchTags": [
-            "Ei",
-            "MP7"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Big Prank",
         "shortId": "k5"
@@ -781,29 +645,6 @@
         "createdAt": "2025-09-24T01:35:27.201Z",
         "updatedAt": "2025-09-24T02:07:36.916Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "dollImages": [
-            {
-              "id": "3685ae5c-ec26-4c16-9948-e1c17c46bfbb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/cheeta/chibi-b0c1aaa96ac1d4fd7450d444688d3020.webp",
-              "createdAt": "2025-09-24T01:27:49.393Z",
-              "updatedAt": "2025-09-24T01:27:49.393Z"
-            }
-          ],
-          "searchTags": [
-            "Ei",
-            "MP7"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Genius Support Plan",
         "shortId": "k6"
@@ -828,29 +669,6 @@
         "createdAt": "2025-09-24T01:36:31.008Z",
         "updatedAt": "2025-09-24T05:10:36.671Z",
         "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "dollImages": [
-            {
-              "id": "3685ae5c-ec26-4c16-9948-e1c17c46bfbb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/cheeta/chibi-b0c1aaa96ac1d4fd7450d444688d3020.webp",
-              "createdAt": "2025-09-24T01:27:49.393Z",
-              "updatedAt": "2025-09-24T01:27:49.393Z"
-            }
-          ],
-          "searchTags": [
-            "Ei",
-            "MP7"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Genius' Pride",
         "shortId": "k7"
@@ -867,69 +685,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/0d99ed18ae765acee8c7fdac4fa11732.webp",
         "createdAt": "2025-09-24T01:57:15.404Z",
         "updatedAt": "2025-09-24T01:57:15.404Z",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "class": "Support",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "This Doll with a ceaseless fountain of inspiration is Griffin's Queen of Inventions. Undeterred by countless setbacks, her mind churns out a whirlwind of quirky, headache-inducing ideas. Yet, when the moment demands it, she always manages to come up with ingenious solutions.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "0a70db6c-f46a-4177-b959-fb9bf781a900",
             "name": "Surprise Box",
-            "phase": null,
             "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/0d99ed18ae765acee8c7fdac4fa11732.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-24T01:51:28.823Z",
-            "skillTags": [
-              "Ultimate",
-              "Buff",
-              "Support"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-14T07:07:07.669Z",
-            "description": "<p>Apply [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and <span style=\"color: rgb(243, 109, 28);\">2</span> random buffs to all allied targets within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For each allied unit in range, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Gain [effect:2fa0814b-b365-46e5-8e49-39db6e7d5f72], which can be activated up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "b9c82204-b6c6-4287-850e-543ff93c7ad8",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Apply [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and <span style=\"color: rgb(243, 109, 28);\">3 </span>random buffs to all allied targets within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For each allied unit in range, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Gain [effect:2fa0814b-b365-46e5-8e49-39db6e7d5f72], which can be activated up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn for<span style=\"color: rgb(243, 109, 28);\"> 2 turns</span>.</p>",
-            "descriptionLevel3": "<p>Apply [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and <span style=\"color: rgb(243, 109, 28);\">3 </span>random buffs to all allied targets within<span style=\"color: rgb(243, 109, 28);\"> 6 tiles</span> for<span style=\"color: rgb(243, 109, 28);\"> 2 turns</span>. For each allied unit in range, gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. Gain [effect:2fa0814b-b365-46e5-8e49-39db6e7d5f72], which can be activated up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "d7ac4c6d-1376-4a61-9d77-29ca56b31cb2",
-            "vertebraeUpgradeIdLevel3": "215f9c4a-dace-4f40-8cc3-a3218d0967aa"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "be8b7e44-4ce6-4cfb-8bcd-12da4c852e70",
@@ -941,68 +708,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/5b9b3f48ff35cbfb1aa1e9a6a3549790.webp",
         "createdAt": "2025-09-24T01:57:48.715Z",
         "updatedAt": "2025-09-24T01:57:48.715Z",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "class": "Support",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "This Doll with a ceaseless fountain of inspiration is Griffin's Queen of Inventions. Undeterred by countless setbacks, her mind churns out a whirlwind of quirky, headache-inducing ideas. Yet, when the moment demands it, she always manages to come up with ingenious solutions.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "8a3b0c0d-fdbd-4d89-a136-b675b9d121cf",
             "name": "Spicy Candy",
-            "phase": "Burn",
             "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/5b9b3f48ff35cbfb1aa1e9a6a3549790.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-09-24T01:45:32.048Z",
-            "skillTags": [
-              "Active",
-              "Targeted"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-11-07T04:32:01.552Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack. If the user has <span style=\"color: rgb(34, 139, 230);\">Blazing Assault</span>, this attack's damage is further increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 2,
-            "stabilityDamage": 4,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"cff3754b-eb44-417f-9faf-a9334e4bd024\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack. If the user has <span style=\"color: rgb(34, 139, 230);\">Blazing Assault</span>, this attack's damage is further increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "be8b7e44-4ce6-4cfb-8bcd-12da4c852e70",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "24eafdf4-dd34-478a-b770-03a79ccb21ac",
@@ -1014,69 +731,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/2c7363e7d9a8649d2b9b9116ea3d91fe.webp",
         "createdAt": "2025-09-24T01:58:32.009Z",
         "updatedAt": "2025-09-25T22:53:53.457Z",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "class": "Support",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "This Doll with a ceaseless fountain of inspiration is Griffin's Queen of Inventions. Undeterred by countless setbacks, her mind churns out a whirlwind of quirky, headache-inducing ideas. Yet, when the moment demands it, she always manages to come up with ingenious solutions.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "eea8e639-5ff8-4a88-80e2-7b035c09075e",
             "name": "Fireworks Festival",
-            "phase": null,
             "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/2c7363e7d9a8649d2b9b9116ea3d91fe.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-24T01:47:54.660Z",
-            "skillTags": [
-              "Active",
-              "AoE",
-              "Debuff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-14T07:07:06.449Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> to attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to them and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If only <span style=\"color: rgb(243, 109, 28);\">1</span> target is hit, applies [effect:7d900a53-1edb-4532-9da4-c614b83cb560] to them for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 3,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"cebee41d-b73d-410a-9d60-e006356b1fad\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": 2,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "24eafdf4-dd34-478a-b770-03a79ccb21ac",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "74744ee0-45de-471c-a0f7-80ea148a71c9",
@@ -1088,68 +754,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/c26fae844a7a84569e733333dfae6afc.webp",
         "createdAt": "2025-09-24T01:59:27.722Z",
         "updatedAt": "2025-09-24T01:59:27.722Z",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "class": "Support",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "This Doll with a ceaseless fountain of inspiration is Griffin's Queen of Inventions. Undeterred by countless setbacks, her mind churns out a whirlwind of quirky, headache-inducing ideas. Yet, when the moment demands it, she always manages to come up with ingenious solutions.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "ec39de9e-3379-4a45-9a5a-f616da988306",
             "name": "Invention of the Century",
-            "phase": null,
             "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/c26fae844a7a84569e733333dfae6afc.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-24T01:55:32.659Z",
-            "skillTags": [
-              "Passive",
-              "Healing"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-07T04:30:39.255Z",
-            "description": "<p>When the user is under the effects of buffs, after attacking, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack to the allied target with the lowest HP within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. <span style=\"color: rgb(243, 109, 28);\">Each buff</span> increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">5%,</span> up to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>When the user is under the effects of buffs, after attacking, restores HP equal to<span style=\"color: rgb(243, 109, 28);\"> 45%</span> of attack to the allied target with the lowest HP within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. <span style=\"color: rgb(243, 109, 28);\">Each buff</span> increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-            "descriptionLevel3": "<p>When the user is under the effects of buffs, after attacking, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to the allied target with the lowest HP within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. <span style=\"color: rgb(243, 109, 28);\">Each buff</span> increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "74744ee0-45de-471c-a0f7-80ea148a71c9",
-            "vertebraeUpgradeIdLevel3": "52cf5353-1a4f-4017-98d2-7d2a6b39e938"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "52cf5353-1a4f-4017-98d2-7d2a6b39e938",
@@ -1161,68 +777,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/c26fae844a7a84569e733333dfae6afc.webp",
         "createdAt": "2025-09-24T02:00:03.725Z",
         "updatedAt": "2025-09-25T22:54:03.500Z",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "class": "Support",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "This Doll with a ceaseless fountain of inspiration is Griffin's Queen of Inventions. Undeterred by countless setbacks, her mind churns out a whirlwind of quirky, headache-inducing ideas. Yet, when the moment demands it, she always manages to come up with ingenious solutions.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "ec39de9e-3379-4a45-9a5a-f616da988306",
             "name": "Invention of the Century",
-            "phase": null,
             "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/c26fae844a7a84569e733333dfae6afc.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-24T01:55:32.659Z",
-            "skillTags": [
-              "Passive",
-              "Healing"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-07T04:30:39.255Z",
-            "description": "<p>When the user is under the effects of buffs, after attacking, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">45%</span> of attack to the allied target with the lowest HP within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. <span style=\"color: rgb(243, 109, 28);\">Each buff</span> increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">5%,</span> up to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>When the user is under the effects of buffs, after attacking, restores HP equal to<span style=\"color: rgb(243, 109, 28);\"> 45%</span> of attack to the allied target with the lowest HP within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. <span style=\"color: rgb(243, 109, 28);\">Each buff</span> increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-            "descriptionLevel3": "<p>When the user is under the effects of buffs, after attacking, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to the allied target with the lowest HP within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>. <span style=\"color: rgb(243, 109, 28);\">Each buff</span> increases the healing multiplier by <span style=\"color: rgb(243, 109, 28);\">10%</span>, up to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "74744ee0-45de-471c-a0f7-80ea148a71c9",
-            "vertebraeUpgradeIdLevel3": "52cf5353-1a4f-4017-98d2-7d2a6b39e938"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "215f9c4a-dace-4f40-8cc3-a3218d0967aa",
@@ -1234,69 +800,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/0d99ed18ae765acee8c7fdac4fa11732.webp",
         "createdAt": "2025-09-24T02:00:34.575Z",
         "updatedAt": "2025-09-24T02:00:34.575Z",
-        "doll": {
-          "id": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-          "name": "Cheeta",
-          "class": "Support",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "This Doll with a ceaseless fountain of inspiration is Griffin's Queen of Inventions. Undeterred by countless setbacks, her mind churns out a whirlwind of quirky, headache-inducing ideas. Yet, when the moment demands it, she always manages to come up with ingenious solutions.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/cheeta/e36528cf1293688f92b9bebd73a2a10e.webp",
-          "createdAt": "2025-09-24T01:27:49.303Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:17:20.223Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "0a70db6c-f46a-4177-b959-fb9bf781a900",
             "name": "Surprise Box",
-            "phase": null,
             "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/0d99ed18ae765acee8c7fdac4fa11732.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-24T01:51:28.823Z",
-            "skillTags": [
-              "Ultimate",
-              "Buff",
-              "Support"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-14T07:07:07.669Z",
-            "description": "<p>Apply [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and <span style=\"color: rgb(243, 109, 28);\">2</span> random buffs to all allied targets within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For each allied unit in range, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Gain [effect:2fa0814b-b365-46e5-8e49-39db6e7d5f72], which can be activated up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "b9c82204-b6c6-4287-850e-543ff93c7ad8",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Apply [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and <span style=\"color: rgb(243, 109, 28);\">3 </span>random buffs to all allied targets within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For each allied unit in range, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. Gain [effect:2fa0814b-b365-46e5-8e49-39db6e7d5f72], which can be activated up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn for<span style=\"color: rgb(243, 109, 28);\"> 2 turns</span>.</p>",
-            "descriptionLevel3": "<p>Apply [effect:6d138a9f-2068-42d9-9ecb-bfd3000a4ac8] and <span style=\"color: rgb(243, 109, 28);\">3 </span>random buffs to all allied targets within<span style=\"color: rgb(243, 109, 28);\"> 6 tiles</span> for<span style=\"color: rgb(243, 109, 28);\"> 2 turns</span>. For each allied unit in range, gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. Gain [effect:2fa0814b-b365-46e5-8e49-39db6e7d5f72], which can be activated up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "d7ac4c6d-1376-4a61-9d77-29ca56b31cb2",
-            "vertebraeUpgradeIdLevel3": "215f9c4a-dace-4f40-8cc3-a3218d0967aa"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1407,7 +922,48 @@
       ],
       "equippedRelics": []
     },
-    "dollEffects": [],
+    "dollEffects": [
+      {
+        "id": "7d900a53-1edb-4532-9da4-c614b83cb560",
+        "effectName": "Overheat",
+        "effectDetails": "<p>Command Prohibition, disallows the use of active skills. Considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-22T05:25:13.170Z",
+        "updatedAt": "2025-11-03T15:12:04.286Z"
+      },
+      {
+        "id": "6d138a9f-2068-42d9-9ecb-bfd3000a4ac8",
+        "effectName": "Blazing Assault II",
+        "effectDetails": "<p>Increases attack by <span style=\"color: rgb(243, 109, 28);\">15%</span>. Considered a Burn buff.</p>",
+        "effectTags": [
+          "Attack",
+          "Buff",
+          "Burn"
+        ],
+        "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T03:51:17.801Z",
+        "updatedAt": "2026-04-08T05:29:53.352Z"
+      },
+      {
+        "id": "2fa0814b-b365-46e5-8e49-39db6e7d5f72",
+        "effectName": "Support",
+        "effectDetails": "<p>Enters Support Stance. When an enemy within range receives targeted damage from an ally, prioritizes <span style=\"color: rgb(34, 139, 230);\">Support Action</span><span> </span><span style=\"color: rgb(243, 109, 28);\">1 time,</span><span> dealing Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack and </span><span style=\"color: rgb(243, 109, 28);\">3</span><span> stability damage. This effect cannot be cleansed.</span></p>",
+        "effectTags": [],
+        "dollId": "ced1bffb-a71a-477c-858d-acf5e23490d4",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-24T01:53:09.807Z",
+        "updatedAt": "2025-09-24T01:53:09.807Z"
+      }
+    ],
     "shortId": "d7"
   }
 }

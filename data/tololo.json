@@ -79,362 +79,384 @@
       {
         "id": "f8185a6b-fe18-4023-b9ad-1354d1568062",
         "name": "Meteor",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/fda8a58c0e9372b57fd2e69f83c67631.webp",
         "createdAt": "2025-09-24T07:22:33.962Z",
         "updatedAt": "2025-09-24T07:23:04.519Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "99514666-7b29-4abe-b2cf-917c37a35f41",
         "name": "Aurora Curtain",
-        "description": "<p>Fills Confectance Index to maximum at the start of the battle. After attacking, if Confectance Index is at max, consumes all of it and gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2]. At the start of each action, for every <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1</span> random buff until the end of the action. <span style=\"color: rgb(243, 109, 28);\">Each time</span> an allied unit deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, this unit gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a].</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/c71b746236473aec0c3bde9ebc1d5e17.webp",
         "createdAt": "2025-09-24T07:57:49.568Z",
         "updatedAt": "2025-10-14T07:07:03.826Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "80da7f04-36b1-4953-8148-bd1a7e3acfe2",
-        "vertebraeUpgradeIdLevel3": "aae05f17-bddf-4a43-a980-a37ba49d4251",
-        "skillTags": [
-          "Passive",
-          "Buff"
-        ],
         "keyUpgradesData": "[\"4cc910a6-5ca0-4689-aa53-8bb15dfe27c8\",\"f105605a-8c40-47da-b400-75fcdbf8f0e1\"]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Fills Confectance Index to maximum at the start of the battle. After attacking, if Confectance Index is at max, consumes all of it and gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">instance </span>of [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2]. During the [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2], this unit gains [effect:e0dbfa33-a7ac-440b-9dc3-24033bec351f], [effect:d57b4e35-45b8-4c7a-8521-afcd99c30dd9], [effect:74708574-8ab6-4216-a8d2-e28494703a9f], and [effect:a4596022-af69-4df2-abec-317af173ae0b] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. At the start of each action, for every <span style=\"color: rgb(243, 109, 28);\">2</span> points of Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1</span> random buff until the end of the action. <span style=\"color: rgb(243, 109, 28);\">Each time</span> an allied unit deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, this unit gains <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a].</p>",
-        "descriptionLevel3": "<p>Fills Confectance Index to maximum at the start of the battle. After attacking, if Confectance Index is at max, consumes all of it and gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2]. During the [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2], this unit gains [effect:e0dbfa33-a7ac-440b-9dc3-24033bec351f], [effect:d57b4e35-45b8-4c7a-8521-afcd99c30dd9], [effect:74708574-8ab6-4216-a8d2-e28494703a9f], and [effect:a4596022-af69-4df2-abec-317af173ae0b] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. At the start of each action, for every <span style=\"color: rgb(243, 109, 28);\">2</span> points of Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1</span> random buff until the end of the action. <span style=\"color: rgb(243, 109, 28);\">Each time</span> an allied unit deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, this unit gains <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a].</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>Fills Confectance Index to maximum at the start of the battle. After attacking, if Confectance Index is at max, consumes all of it and gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2]. At the start of each action, for every <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1</span> random buff until the end of the action. <span style=\"color: rgb(243, 109, 28);\">Each time</span> an allied unit deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, this unit gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a].</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "80da7f04-36b1-4953-8148-bd1a7e3acfe2",
-          "level": 2,
-          "effect": "<p>During an [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2], this unit gains [effect:e0dbfa33-a7ac-440b-9dc3-24033bec351f], [effect:d57b4e35-45b8-4c7a-8521-afcd99c30dd9], [effect:74708574-8ab6-4216-a8d2-e28494703a9f], and [effect:a4596022-af69-4df2-abec-317af173ae0b] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
-          "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/c71b746236473aec0c3bde9ebc1d5e17.webp",
-          "createdAt": "2025-09-24T08:00:14.664Z",
-          "updatedAt": "2025-10-14T07:06:17.388Z",
-          "vertebraeName": "Aurora Curtain Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "80da7f04-36b1-4953-8148-bd1a7e3acfe2",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Fills Confectance Index to maximum at the start of the battle. After attacking, if Confectance Index is at max, consumes all of it and gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">instance </span>of [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2]. During the [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2], this unit gains [effect:e0dbfa33-a7ac-440b-9dc3-24033bec351f], [effect:d57b4e35-45b8-4c7a-8521-afcd99c30dd9], [effect:74708574-8ab6-4216-a8d2-e28494703a9f], and [effect:a4596022-af69-4df2-abec-317af173ae0b] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. At the start of each action, for every <span style=\"color: rgb(243, 109, 28);\">2</span> points of Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1</span> random buff until the end of the action. <span style=\"color: rgb(243, 109, 28);\">Each time</span> an allied unit deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, this unit gains <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a].</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "80da7f04-36b1-4953-8148-bd1a7e3acfe2",
+            "level": 2,
+            "effect": "<p>During an [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2], this unit gains [effect:e0dbfa33-a7ac-440b-9dc3-24033bec351f], [effect:d57b4e35-45b8-4c7a-8521-afcd99c30dd9], [effect:74708574-8ab6-4216-a8d2-e28494703a9f], and [effect:a4596022-af69-4df2-abec-317af173ae0b] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>.</span></p>",
+            "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/c71b746236473aec0c3bde9ebc1d5e17.webp",
+            "createdAt": "2025-09-24T08:00:14.664Z",
+            "updatedAt": "2025-10-14T07:06:17.388Z",
+            "vertebraeName": "Aurora Curtain Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "aae05f17-bddf-4a43-a980-a37ba49d4251",
-          "level": 3,
-          "effect": "<p>The effects of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a] is enhanced, increasing critical rate and critical damage by <span style=\"color: rgb(243, 109, 28);\">2%</span><span>.</span></p>",
-          "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/c71b746236473aec0c3bde9ebc1d5e17.webp",
-          "createdAt": "2025-09-24T08:06:10.879Z",
-          "updatedAt": "2025-10-14T07:06:17.564Z",
-          "vertebraeName": "Aurora Curtain Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "aae05f17-bddf-4a43-a980-a37ba49d4251",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Fills Confectance Index to maximum at the start of the battle. After attacking, if Confectance Index is at max, consumes all of it and gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2]. During the [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2], this unit gains [effect:e0dbfa33-a7ac-440b-9dc3-24033bec351f], [effect:d57b4e35-45b8-4c7a-8521-afcd99c30dd9], [effect:74708574-8ab6-4216-a8d2-e28494703a9f], and [effect:a4596022-af69-4df2-abec-317af173ae0b] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. At the start of each action, for every <span style=\"color: rgb(243, 109, 28);\">2</span> points of Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1</span> random buff until the end of the action. <span style=\"color: rgb(243, 109, 28);\">Each time</span> an allied unit deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, this unit gains <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a].</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "aae05f17-bddf-4a43-a980-a37ba49d4251",
+            "level": 3,
+            "effect": "<p>The effects of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a] is enhanced, increasing critical rate and critical damage by <span style=\"color: rgb(243, 109, 28);\">2%</span><span>.</span></p>",
+            "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/c71b746236473aec0c3bde9ebc1d5e17.webp",
+            "createdAt": "2025-09-24T08:06:10.879Z",
+            "updatedAt": "2025-10-14T07:06:17.564Z",
+            "vertebraeName": "Aurora Curtain Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "119fa8b8-3648-4678-93d6-3f851c44860a",
         "name": "Black Hole Inversion",
-        "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If phase weakness is exploited, gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-        "phase": "Hydro",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": 2,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/74af7faea2c8704ac05fdcf9b056da99.webp",
         "createdAt": "2025-09-24T07:28:11.548Z",
         "updatedAt": "2025-10-30T16:26:55.609Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "5ad9f02b-c97c-45aa-9972-58e2c07ac97c",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted"
-        ],
         "keyUpgradesData": "[\"20585e61-ee54-4d77-860c-f83b2f5a0c6f\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If phase weakness is exploited, this attack ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of Cover damage reduction and gain <span style=\"color: rgb(243, 109, 28);\">2</span><span style=\"color: rgb(243, 109, 28);\"> </span><span style=\"color: rgb(243, 109, 28);\">points</span> of Confectance Index.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If phase weakness is exploited, gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+          "phase": "Hydro",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": 2,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "5ad9f02b-c97c-45aa-9972-58e2c07ac97c",
-          "level": 2,
-          "effect": "<p>If a phase weakness is exploited, ignores <span style=\"color: rgb(243, 109, 28);\">15%</span><span> of Cover damage reduction for this attack.</span></p>",
-          "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/74af7faea2c8704ac05fdcf9b056da99.webp",
-          "createdAt": "2025-09-24T07:29:59.418Z",
-          "updatedAt": "2025-09-27T05:54:12.711Z",
-          "vertebraeName": "Black Hole Inversion Lv.2"
+        "level2": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "5ad9f02b-c97c-45aa-9972-58e2c07ac97c",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If phase weakness is exploited, this attack ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of Cover damage reduction and gain <span style=\"color: rgb(243, 109, 28);\">2</span><span style=\"color: rgb(243, 109, 28);\"> </span><span style=\"color: rgb(243, 109, 28);\">points</span> of Confectance Index.</p>",
+          "phase": "Hydro",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "5ad9f02b-c97c-45aa-9972-58e2c07ac97c",
+            "level": 2,
+            "effect": "<p>If a phase weakness is exploited, ignores <span style=\"color: rgb(243, 109, 28);\">15%</span><span> of Cover damage reduction for this attack.</span></p>",
+            "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/74af7faea2c8704ac05fdcf9b056da99.webp",
+            "createdAt": "2025-09-24T07:29:59.418Z",
+            "updatedAt": "2025-09-27T05:54:12.711Z",
+            "vertebraeName": "Black Hole Inversion Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "77a4a7c4-db5d-4a20-9b96-0e29873109b9",
         "name": "Supernova Impact",
-        "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">2</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span> and gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-        "phase": null,
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": 2,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/a7799a0c5b58b0a2267750e831c024ff.webp",
         "createdAt": "2025-09-24T07:39:28.449Z",
         "updatedAt": "2025-10-30T07:05:00.172Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "f40704ae-9785-4aff-8d59-96b2f3b3075d",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted"
-        ],
         "keyUpgradesData": "[\"fffa830e-d56d-41f0-854f-971ea2ed45d8\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">2</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span> and gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> instead and additionally gain <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">point</span> of Confectance Index.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">2</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span> and gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+          "phase": null,
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": 2,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "f40704ae-9785-4aff-8d59-96b2f3b3075d",
-          "level": 2,
-          "effect": "<p>If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span><span> or more buffs, this attack deals </span><span style=\"color: rgb(43, 171, 218);\">Hydro damage</span><span>. Additionally gain </span><span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of Confectance Index. </span></p>",
-          "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/a7799a0c5b58b0a2267750e831c024ff.webp",
-          "createdAt": "2025-09-24T07:40:44.634Z",
-          "updatedAt": "2025-09-27T05:54:19.082Z",
-          "vertebraeName": "Supernova Impact Lv.2"
+        "level2": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "f40704ae-9785-4aff-8d59-96b2f3b3075d",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">2</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span> and gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> instead and additionally gain <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">point</span> of Confectance Index.</p>",
+          "phase": null,
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "f40704ae-9785-4aff-8d59-96b2f3b3075d",
+            "level": 2,
+            "effect": "<p>If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span><span> or more buffs, this attack deals </span><span style=\"color: rgb(43, 171, 218);\">Hydro damage</span><span>. Additionally gain </span><span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of Confectance Index. </span></p>",
+            "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/a7799a0c5b58b0a2267750e831c024ff.webp",
+            "createdAt": "2025-09-24T07:40:44.634Z",
+            "updatedAt": "2025-09-27T05:54:19.082Z",
+            "vertebraeName": "Supernova Impact Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "bdb32418-9aa0-478f-bbc8-8cea4234a1e2",
         "name": "Morte Lumina",
-        "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span> and reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phase": "Hydro",
-        "ammoTypes": "[]",
-        "stabilityDamage": 4,
-        "cooldown": 4,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/adb2fb0166b7d4e302685d674ecc54cb.webp",
         "createdAt": "2025-09-24T07:48:14.688Z",
         "updatedAt": "2025-10-30T16:27:15.310Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "601518d7-f888-474e-99d7-c39acac7f6ce",
-        "vertebraeUpgradeIdLevel3": "5585eff6-5488-4a41-81e3-2cbb55731b37",
-        "skillTags": [
-          "Ultimate",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span> and reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-        "descriptionLevel3": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span> and reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. If this kills the target, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span> and reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": "Hydro",
+          "ammoTypes": "[]",
+          "stabilityDamage": 4,
+          "cooldown": 4,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Ultimate",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "601518d7-f888-474e-99d7-c39acac7f6ce",
-          "level": 2,
-          "effect": "<p>If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span><span> or more buffs, increase damage dealt by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span> and reduce this skill's cooldown by </span><span style=\"color: rgb(243, 109, 28);\">3 turns</span><span>.</span></p>",
-          "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/adb2fb0166b7d4e302685d674ecc54cb.webp",
-          "createdAt": "2025-09-24T07:50:40.613Z",
-          "updatedAt": "2025-09-27T05:54:29.259Z",
-          "vertebraeName": "Morte Lumina Lv.2"
+        "level2": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "601518d7-f888-474e-99d7-c39acac7f6ce",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 4,
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span> and reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+          "phase": "Hydro",
+          "skillTags": [
+            "Ultimate",
+            "Targeted"
+          ],
+          "stabilityDamage": 4,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "601518d7-f888-474e-99d7-c39acac7f6ce",
+            "level": 2,
+            "effect": "<p>If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span><span> or more buffs, increase damage dealt by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span> and reduce this skill's cooldown by </span><span style=\"color: rgb(243, 109, 28);\">3 turns</span><span>.</span></p>",
+            "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/adb2fb0166b7d4e302685d674ecc54cb.webp",
+            "createdAt": "2025-09-24T07:50:40.613Z",
+            "updatedAt": "2025-09-27T05:54:29.259Z",
+            "vertebraeName": "Morte Lumina Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "5585eff6-5488-4a41-81e3-2cbb55731b37",
-          "level": 3,
-          "effect": "<p>If this kills the target, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of Confectance Index.</span></p>",
-          "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/adb2fb0166b7d4e302685d674ecc54cb.webp",
-          "createdAt": "2025-09-24T08:14:53.659Z",
-          "updatedAt": "2025-09-27T05:54:52.375Z",
-          "vertebraeName": "Morte Lumina Lv.3"
+        "level3": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "5585eff6-5488-4a41-81e3-2cbb55731b37",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 4,
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span> and reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. If this kills the target, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+          "phase": "Hydro",
+          "skillTags": [
+            "Ultimate",
+            "Targeted"
+          ],
+          "stabilityDamage": 4,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "5585eff6-5488-4a41-81e3-2cbb55731b37",
+            "level": 3,
+            "effect": "<p>If this kills the target, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of Confectance Index.</span></p>",
+            "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/adb2fb0166b7d4e302685d674ecc54cb.webp",
+            "createdAt": "2025-09-24T08:14:53.659Z",
+            "updatedAt": "2025-09-27T05:54:52.375Z",
+            "vertebraeName": "Morte Lumina Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -457,29 +479,6 @@
         "createdAt": "2025-09-24T07:12:21.152Z",
         "updatedAt": "2025-09-25T22:19:41.410Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "dollImages": [
-            {
-              "id": "ee7ce6c0-c814-4ff8-9fe9-99361cdadf67",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/tololo/chibi-4c7f384d64f63d1e23e6d14047ec8480.webp",
-              "createdAt": "2025-09-25T22:24:01.672Z",
-              "updatedAt": "2025-09-25T22:24:01.672Z"
-            }
-          ],
-          "searchTags": [
-            "TLL",
-            "AK-Alfa"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Stardust's Whispers",
         "shortId": "a49"
@@ -503,29 +502,6 @@
         "createdAt": "2025-09-24T07:14:53.152Z",
         "updatedAt": "2025-09-25T22:24:52.276Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "dollImages": [
-            {
-              "id": "ee7ce6c0-c814-4ff8-9fe9-99361cdadf67",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/tololo/chibi-4c7f384d64f63d1e23e6d14047ec8480.webp",
-              "createdAt": "2025-09-25T22:24:01.672Z",
-              "updatedAt": "2025-09-25T22:24:01.672Z"
-            }
-          ],
-          "searchTags": [
-            "TLL",
-            "AK-Alfa"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Afterglow",
         "shortId": "c49"
@@ -549,29 +525,6 @@
         "createdAt": "2025-09-24T07:18:17.089Z",
         "updatedAt": "2025-09-24T07:18:17.089Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "dollImages": [
-            {
-              "id": "ee7ce6c0-c814-4ff8-9fe9-99361cdadf67",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/tololo/chibi-4c7f384d64f63d1e23e6d14047ec8480.webp",
-              "createdAt": "2025-09-25T22:24:01.672Z",
-              "updatedAt": "2025-09-25T22:24:01.672Z"
-            }
-          ],
-          "searchTags": [
-            "TLL",
-            "AK-Alfa"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Captured Starlight",
         "shortId": "k1"
@@ -596,29 +549,6 @@
         "createdAt": "2025-09-24T06:59:20.729Z",
         "updatedAt": "2025-10-14T07:06:44.077Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "dollImages": [
-            {
-              "id": "ee7ce6c0-c814-4ff8-9fe9-99361cdadf67",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/tololo/chibi-4c7f384d64f63d1e23e6d14047ec8480.webp",
-              "createdAt": "2025-09-25T22:24:01.672Z",
-              "updatedAt": "2025-09-25T22:24:01.672Z"
-            }
-          ],
-          "searchTags": [
-            "TLL",
-            "AK-Alfa"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Comet Tail Transit",
         "shortId": "k2"
@@ -643,29 +573,6 @@
         "createdAt": "2025-09-24T07:01:30.153Z",
         "updatedAt": "2025-10-14T07:06:44.249Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "dollImages": [
-            {
-              "id": "ee7ce6c0-c814-4ff8-9fe9-99361cdadf67",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/tololo/chibi-4c7f384d64f63d1e23e6d14047ec8480.webp",
-              "createdAt": "2025-09-25T22:24:01.672Z",
-              "updatedAt": "2025-09-25T22:24:01.672Z"
-            }
-          ],
-          "searchTags": [
-            "TLL",
-            "AK-Alfa"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Principles of Observational Astronomy",
         "shortId": "k3"
@@ -690,29 +597,6 @@
         "createdAt": "2025-09-24T07:03:08.292Z",
         "updatedAt": "2025-10-14T07:06:44.424Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "dollImages": [
-            {
-              "id": "ee7ce6c0-c814-4ff8-9fe9-99361cdadf67",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/tololo/chibi-4c7f384d64f63d1e23e6d14047ec8480.webp",
-              "createdAt": "2025-09-25T22:24:01.672Z",
-              "updatedAt": "2025-09-25T22:24:01.672Z"
-            }
-          ],
-          "searchTags": [
-            "TLL",
-            "AK-Alfa"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Invisible Light",
         "shortId": "k4"
@@ -737,29 +621,6 @@
         "createdAt": "2025-09-24T07:05:24.123Z",
         "updatedAt": "2025-10-14T07:06:44.624Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "dollImages": [
-            {
-              "id": "ee7ce6c0-c814-4ff8-9fe9-99361cdadf67",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/tololo/chibi-4c7f384d64f63d1e23e6d14047ec8480.webp",
-              "createdAt": "2025-09-25T22:24:01.672Z",
-              "updatedAt": "2025-09-25T22:24:01.672Z"
-            }
-          ],
-          "searchTags": [
-            "TLL",
-            "AK-Alfa"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Retrograde Motion",
         "shortId": "k5"
@@ -784,29 +645,6 @@
         "createdAt": "2025-09-24T07:06:57.939Z",
         "updatedAt": "2025-09-24T07:09:57.396Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "dollImages": [
-            {
-              "id": "ee7ce6c0-c814-4ff8-9fe9-99361cdadf67",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/tololo/chibi-4c7f384d64f63d1e23e6d14047ec8480.webp",
-              "createdAt": "2025-09-25T22:24:01.672Z",
-              "updatedAt": "2025-09-25T22:24:01.672Z"
-            }
-          ],
-          "searchTags": [
-            "TLL",
-            "AK-Alfa"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Galactic Cruise",
         "shortId": "k6"
@@ -831,29 +669,6 @@
         "createdAt": "2025-09-24T07:08:31.092Z",
         "updatedAt": "2025-09-24T07:10:03.001Z",
         "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "dollImages": [
-            {
-              "id": "ee7ce6c0-c814-4ff8-9fe9-99361cdadf67",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/tololo/chibi-4c7f384d64f63d1e23e6d14047ec8480.webp",
-              "createdAt": "2025-09-25T22:24:01.672Z",
-              "updatedAt": "2025-09-25T22:24:01.672Z"
-            }
-          ],
-          "searchTags": [
-            "TLL",
-            "AK-Alfa"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Stellar Eclipse",
         "shortId": "k7"
@@ -870,68 +685,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/74af7faea2c8704ac05fdcf9b056da99.webp",
         "createdAt": "2025-09-24T07:29:59.418Z",
         "updatedAt": "2025-09-27T05:54:12.711Z",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A serene Doll who finds solace under the starry sky. Hidden beneath her reticence is a delicate and sensitive soul. When the world slumbers, she confides in the vast cosmos and delights in the stars that seem to shine just for her.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "119fa8b8-3648-4678-93d6-3f851c44860a",
             "name": "Black Hole Inversion",
-            "phase": "Hydro",
             "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-            "cooldown": 2,
-            "imageUrl": "https://cdn.dandegate.net/skills/74af7faea2c8704ac05fdcf9b056da99.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Medium Ammo\"]",
-            "createdAt": "2025-09-24T07:28:11.548Z",
-            "skillTags": [
-              "Active",
-              "Targeted"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-30T16:26:55.609Z",
-            "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If phase weakness is exploited, gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"20585e61-ee54-4d77-860c-f83b2f5a0c6f\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If phase weakness is exploited, this attack ignores <span style=\"color: rgb(243, 109, 28);\">15%</span> of Cover damage reduction and gain <span style=\"color: rgb(243, 109, 28);\">2</span><span style=\"color: rgb(243, 109, 28);\"> </span><span style=\"color: rgb(243, 109, 28);\">points</span> of Confectance Index.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "5ad9f02b-c97c-45aa-9972-58e2c07ac97c",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "f40704ae-9785-4aff-8d59-96b2f3b3075d",
@@ -943,68 +708,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/a7799a0c5b58b0a2267750e831c024ff.webp",
         "createdAt": "2025-09-24T07:40:44.634Z",
         "updatedAt": "2025-09-27T05:54:19.082Z",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A serene Doll who finds solace under the starry sky. Hidden beneath her reticence is a delicate and sensitive soul. When the world slumbers, she confides in the vast cosmos and delights in the stars that seem to shine just for her.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "77a4a7c4-db5d-4a20-9b96-0e29873109b9",
             "name": "Supernova Impact",
-            "phase": null,
             "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-            "cooldown": 2,
-            "imageUrl": "https://cdn.dandegate.net/skills/a7799a0c5b58b0a2267750e831c024ff.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Medium Ammo\"]",
-            "createdAt": "2025-09-24T07:39:28.449Z",
-            "skillTags": [
-              "Active",
-              "Targeted"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-30T07:05:00.172Z",
-            "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">2</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span> and gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"fffa830e-d56d-41f0-854f-971ea2ed45d8\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">2</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span> and gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> instead and additionally gain <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">point</span> of Confectance Index.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "f40704ae-9785-4aff-8d59-96b2f3b3075d",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "601518d7-f888-474e-99d7-c39acac7f6ce",
@@ -1016,68 +731,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/adb2fb0166b7d4e302685d674ecc54cb.webp",
         "createdAt": "2025-09-24T07:50:40.613Z",
         "updatedAt": "2025-09-27T05:54:29.259Z",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A serene Doll who finds solace under the starry sky. Hidden beneath her reticence is a delicate and sensitive soul. When the world slumbers, she confides in the vast cosmos and delights in the stars that seem to shine just for her.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "bdb32418-9aa0-478f-bbc8-8cea4234a1e2",
             "name": "Morte Lumina",
-            "phase": "Hydro",
             "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-            "cooldown": 4,
-            "imageUrl": "https://cdn.dandegate.net/skills/adb2fb0166b7d4e302685d674ecc54cb.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-24T07:48:14.688Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-30T16:27:15.310Z",
-            "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span> and reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 4,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span> and reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-            "descriptionLevel3": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span> and reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. If this kills the target, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "601518d7-f888-474e-99d7-c39acac7f6ce",
-            "vertebraeUpgradeIdLevel3": "5585eff6-5488-4a41-81e3-2cbb55731b37"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "80da7f04-36b1-4953-8148-bd1a7e3acfe2",
@@ -1089,68 +754,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/c71b746236473aec0c3bde9ebc1d5e17.webp",
         "createdAt": "2025-09-24T08:00:14.664Z",
         "updatedAt": "2025-10-14T07:06:17.388Z",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A serene Doll who finds solace under the starry sky. Hidden beneath her reticence is a delicate and sensitive soul. When the world slumbers, she confides in the vast cosmos and delights in the stars that seem to shine just for her.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "99514666-7b29-4abe-b2cf-917c37a35f41",
             "name": "Aurora Curtain",
-            "phase": null,
             "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/c71b746236473aec0c3bde9ebc1d5e17.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-24T07:57:49.568Z",
-            "skillTags": [
-              "Passive",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:07:03.826Z",
-            "description": "<p>Fills Confectance Index to maximum at the start of the battle. After attacking, if Confectance Index is at max, consumes all of it and gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2]. At the start of each action, for every <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1</span> random buff until the end of the action. <span style=\"color: rgb(243, 109, 28);\">Each time</span> an allied unit deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, this unit gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"4cc910a6-5ca0-4689-aa53-8bb15dfe27c8\",\"f105605a-8c40-47da-b400-75fcdbf8f0e1\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Fills Confectance Index to maximum at the start of the battle. After attacking, if Confectance Index is at max, consumes all of it and gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">instance </span>of [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2]. During the [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2], this unit gains [effect:e0dbfa33-a7ac-440b-9dc3-24033bec351f], [effect:d57b4e35-45b8-4c7a-8521-afcd99c30dd9], [effect:74708574-8ab6-4216-a8d2-e28494703a9f], and [effect:a4596022-af69-4df2-abec-317af173ae0b] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. At the start of each action, for every <span style=\"color: rgb(243, 109, 28);\">2</span> points of Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1</span> random buff until the end of the action. <span style=\"color: rgb(243, 109, 28);\">Each time</span> an allied unit deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, this unit gains <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a].</p>",
-            "descriptionLevel3": "<p>Fills Confectance Index to maximum at the start of the battle. After attacking, if Confectance Index is at max, consumes all of it and gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2]. During the [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2], this unit gains [effect:e0dbfa33-a7ac-440b-9dc3-24033bec351f], [effect:d57b4e35-45b8-4c7a-8521-afcd99c30dd9], [effect:74708574-8ab6-4216-a8d2-e28494703a9f], and [effect:a4596022-af69-4df2-abec-317af173ae0b] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. At the start of each action, for every <span style=\"color: rgb(243, 109, 28);\">2</span> points of Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1</span> random buff until the end of the action. <span style=\"color: rgb(243, 109, 28);\">Each time</span> an allied unit deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, this unit gains <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a].</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "80da7f04-36b1-4953-8148-bd1a7e3acfe2",
-            "vertebraeUpgradeIdLevel3": "aae05f17-bddf-4a43-a980-a37ba49d4251"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "aae05f17-bddf-4a43-a980-a37ba49d4251",
@@ -1162,68 +777,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/c71b746236473aec0c3bde9ebc1d5e17.webp",
         "createdAt": "2025-09-24T08:06:10.879Z",
         "updatedAt": "2025-10-14T07:06:17.564Z",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A serene Doll who finds solace under the starry sky. Hidden beneath her reticence is a delicate and sensitive soul. When the world slumbers, she confides in the vast cosmos and delights in the stars that seem to shine just for her.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "99514666-7b29-4abe-b2cf-917c37a35f41",
             "name": "Aurora Curtain",
-            "phase": null,
             "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/c71b746236473aec0c3bde9ebc1d5e17.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-24T07:57:49.568Z",
-            "skillTags": [
-              "Passive",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:07:03.826Z",
-            "description": "<p>Fills Confectance Index to maximum at the start of the battle. After attacking, if Confectance Index is at max, consumes all of it and gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2]. At the start of each action, for every <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1</span> random buff until the end of the action. <span style=\"color: rgb(243, 109, 28);\">Each time</span> an allied unit deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, this unit gains <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"4cc910a6-5ca0-4689-aa53-8bb15dfe27c8\",\"f105605a-8c40-47da-b400-75fcdbf8f0e1\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Fills Confectance Index to maximum at the start of the battle. After attacking, if Confectance Index is at max, consumes all of it and gains <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">instance </span>of [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2]. During the [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2], this unit gains [effect:e0dbfa33-a7ac-440b-9dc3-24033bec351f], [effect:d57b4e35-45b8-4c7a-8521-afcd99c30dd9], [effect:74708574-8ab6-4216-a8d2-e28494703a9f], and [effect:a4596022-af69-4df2-abec-317af173ae0b] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. At the start of each action, for every <span style=\"color: rgb(243, 109, 28);\">2</span> points of Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1</span> random buff until the end of the action. <span style=\"color: rgb(243, 109, 28);\">Each time</span> an allied unit deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, this unit gains <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a].</p>",
-            "descriptionLevel3": "<p>Fills Confectance Index to maximum at the start of the battle. After attacking, if Confectance Index is at max, consumes all of it and gains <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2]. During the [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2], this unit gains [effect:e0dbfa33-a7ac-440b-9dc3-24033bec351f], [effect:d57b4e35-45b8-4c7a-8521-afcd99c30dd9], [effect:74708574-8ab6-4216-a8d2-e28494703a9f], and [effect:a4596022-af69-4df2-abec-317af173ae0b] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. At the start of each action, for every <span style=\"color: rgb(243, 109, 28);\">2</span> points of Confectance Index, gains <span style=\"color: rgb(243, 109, 28);\">1</span> random buff until the end of the action. <span style=\"color: rgb(243, 109, 28);\">Each time</span> an allied unit deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, this unit gains <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:e0f1583f-a237-4f2e-aeaf-f11a44179f2a].</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "80da7f04-36b1-4953-8148-bd1a7e3acfe2",
-            "vertebraeUpgradeIdLevel3": "aae05f17-bddf-4a43-a980-a37ba49d4251"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "5585eff6-5488-4a41-81e3-2cbb55731b37",
@@ -1235,68 +800,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/adb2fb0166b7d4e302685d674ecc54cb.webp",
         "createdAt": "2025-09-24T08:14:53.659Z",
         "updatedAt": "2025-09-27T05:54:52.375Z",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A serene Doll who finds solace under the starry sky. Hidden beneath her reticence is a delicate and sensitive soul. When the world slumbers, she confides in the vast cosmos and delights in the stars that seem to shine just for her.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "bdb32418-9aa0-478f-bbc8-8cea4234a1e2",
             "name": "Morte Lumina",
-            "phase": "Hydro",
             "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-            "cooldown": 4,
-            "imageUrl": "https://cdn.dandegate.net/skills/adb2fb0166b7d4e302685d674ecc54cb.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-24T07:48:14.688Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-30T16:27:15.310Z",
-            "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span> and reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 4,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span> and reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-            "descriptionLevel3": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to it. If under the effect of <span style=\"color: rgb(243, 109, 28);\">3</span> or more buffs, increase damage dealt by <span style=\"color: rgb(243, 109, 28);\">30%</span> and reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. If this kills the target, gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "601518d7-f888-474e-99d7-c39acac7f6ce",
-            "vertebraeUpgradeIdLevel3": "5585eff6-5488-4a41-81e3-2cbb55731b37"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1411,7 +926,17 @@
       {
         "id": "e0f1583f-a237-4f2e-aeaf-f11a44179f2a",
         "effectName": "Lightspike",
-        "effectDetails": "{\"mainDetails\":\"<p>Critical rate and critical damage increased by <span style=\\\"color: rgb(243, 109, 28);\\\">3%</span>, stacking up to <span style=\\\"color: rgb(243, 109, 28);\\\">8 times</span>. This buff cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"e921edfa-e9ef-4628-8191-f48351f92bb2\",\"upgradeName\":\"V5\",\"upgradeDetails\":\"<p>Increase critical rate and critical damage by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span><span>. Maximum of </span><span style=\\\"color: rgb(243, 109, 28);\\\">8 stacks</span><span>. This buff cannot be cleansed.</span></p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Critical rate and critical damage increased by <span style=\"color: rgb(243, 109, 28);\">3%</span>, stacking up to <span style=\"color: rgb(243, 109, 28);\">8 times</span>. This buff cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "e921edfa-e9ef-4628-8191-f48351f92bb2",
+              "upgradeName": "V5",
+              "upgradeDetails": "<p>Increase critical rate and critical damage by <span style=\"color: rgb(243, 109, 28);\">5%</span><span>. Maximum of </span><span style=\"color: rgb(243, 109, 28);\">8 stacks</span><span>. This buff cannot be cleansed.</span></p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [
           "Buff"
         ],
@@ -1419,37 +944,70 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-24T06:39:00.343Z",
-        "updatedAt": "2025-11-03T05:58:08.193Z",
-        "doll": {
-          "id": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
-          "name": "Tololo",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/tololo/dbaa7d0e8fa21da1e5269d851a8228e8.webp",
-          "createdAt": "2025-09-24T06:52:40.968Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-16T01:09:01.567Z",
-          "dollImages": [
-            {
-              "id": "ee7ce6c0-c814-4ff8-9fe9-99361cdadf67",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/tololo/chibi-4c7f384d64f63d1e23e6d14047ec8480.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "TLL"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "AK-Alfa"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T05:58:08.193Z"
+      },
+      {
+        "id": "3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2",
+        "effectName": "Extra Action",
+        "effectDetails": "<p>1 action can be taken.</p>",
+        "effectTags": [],
+        "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T16:21:07.459Z",
+        "updatedAt": "2025-09-14T16:21:07.459Z"
+      },
+      {
+        "id": "e0dbfa33-a7ac-440b-9dc3-24033bec351f",
+        "effectName": "Targeted Attack Boost II",
+        "effectDetails": "<p>Targeted damage increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. This is considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-24T06:30:06.131Z",
+        "updatedAt": "2025-11-03T15:58:29.654Z"
+      },
+      {
+        "id": "d57b4e35-45b8-4c7a-8521-afcd99c30dd9",
+        "effectName": "Critical Rate Boost II",
+        "effectDetails": "<p>Critical rate increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-24T06:32:04.536Z",
+        "updatedAt": "2025-11-01T21:39:36.629Z"
+      },
+      {
+        "id": "74708574-8ab6-4216-a8d2-e28494703a9f",
+        "effectName": "Phase Boost II",
+        "effectDetails": "<p>Increases Phase damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-24T02:24:20.248Z",
+        "updatedAt": "2025-11-03T15:18:37.142Z"
+      },
+      {
+        "id": "a4596022-af69-4df2-abec-317af173ae0b",
+        "effectName": "Piercing II",
+        "effectDetails": "<p>Targeted damage ignores <span style=\"color: rgb(243, 109, 28);\">30%</span> of the target's defense. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "2826b8ee-bb06-45a1-9285-b30928ea04e6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-24T06:33:21.988Z",
+        "updatedAt": "2025-11-03T15:19:43.082Z"
       }
     ],
     "shortId": "d49"

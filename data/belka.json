@@ -72,365 +72,392 @@
       {
         "id": "c3ec2b30-d09e-4e6d-8819-ed6aab9ca379",
         "name": "Nutcracker Shell",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles </span>and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 1,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/96844e13b75507c8a9789c3023975b9f.webp",
         "createdAt": "2025-09-21T04:01:29.839Z",
         "updatedAt": "2025-09-21T04:01:29.839Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles </span>and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 1,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "186727d9-4328-4360-9830-c4a9f1294db1",
         "name": "Forest's Secrets",
-        "description": "<p>At the start of the turn, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When attacking, applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to the target and the closest enemy to it.</p><p>If the attack kills the enemy target, Belka gains [effect:ebb94ca6-620c-4fe6-ab91-3c65d506c37e]. Every time an allied unit applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Belka's critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/5d2cb361213472367ef934e4278caa5e.webp",
         "createdAt": "2025-09-21T04:33:42.797Z",
         "updatedAt": "2025-10-30T17:42:12.066Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "28488867-9147-40ae-9da8-26dcd3eb353d",
-        "vertebraeUpgradeIdLevel3": "34bec8ef-c379-4ab4-bd4a-9f016a56dcb6",
-        "skillTags": [
-          "Passive",
-          "Debuff",
-          "Buff"
-        ],
         "keyUpgradesData": "[\"96737117-bb15-4bd4-ad52-ed90cd74ff5c\"]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>At the start of the turn, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When attacking, applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to the target and the closest enemy to it.</p><p>If the attack kills the enemy target, Belka gains [effect:ebb94ca6-620c-4fe6-ab91-3c65d506c37e]. Every time an allied unit applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Belka's critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Debuff",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "28488867-9147-40ae-9da8-26dcd3eb353d",
-          "level": 2,
-          "effect": "<p>Before attacking, applies [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to the enemy target.</p><p>If the target has [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], ignores <span style=\"color: rgb(243, 109, 28);\">10%</span> of its defense.</p><p>When Belka deals targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> to a target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], the multiplier of the fixed damage of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] is increased to <span style=\"color: rgb(243, 109, 28);\">40%</span>.</p><p>Each time an allied unit deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:63ac9c84-5a40-460c-ab38-8c959e608e6e].</p>",
-          "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/5d2cb361213472367ef934e4278caa5e.webp",
-          "createdAt": "2025-09-21T05:40:46.088Z",
-          "updatedAt": "2025-10-14T07:06:21.058Z",
-          "vertebraeName": "Forest's Secrets Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "28488867-9147-40ae-9da8-26dcd3eb353d",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of the turn, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When attacking, applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to the target and the closest enemy to it.</p><p>If the attack kills the enemy target, Belka gains [effect:ebb94ca6-620c-4fe6-ab91-3c65d506c37e]. Every time an allied unit applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Belka's critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Debuff",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "28488867-9147-40ae-9da8-26dcd3eb353d",
+            "level": 2,
+            "effect": "<p>Before attacking, applies [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to the enemy target.</p><p>If the target has [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], ignores <span style=\"color: rgb(243, 109, 28);\">10%</span> of its defense.</p><p>When Belka deals targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> to a target with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], the multiplier of the fixed damage of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] is increased to <span style=\"color: rgb(243, 109, 28);\">40%</span>.</p><p>Each time an allied unit deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:63ac9c84-5a40-460c-ab38-8c959e608e6e].</p>",
+            "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/5d2cb361213472367ef934e4278caa5e.webp",
+            "createdAt": "2025-09-21T05:40:46.088Z",
+            "updatedAt": "2025-10-14T07:06:21.058Z",
+            "vertebraeName": "Forest's Secrets Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "34bec8ef-c379-4ab4-bd4a-9f016a56dcb6",
-          "level": 3,
-          "effect": "<p>At the start of the battle, Belka increases her mobility and range by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. </p><p>The maximum number of [effect:63ac9c84-5a40-460c-ab38-8c959e608e6e] stacks increases by <span style=\"color: rgb(243, 109, 28);\">4</span>. <span style=\"color: rgb(243, 109, 28);\">Each time </span>Belka deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>, she gains an <span style=\"color: rgb(243, 109, 28);\">additional stack</span> of [effect:63ac9c84-5a40-460c-ab38-8c959e608e6e].</p>",
-          "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/5d2cb361213472367ef934e4278caa5e.webp",
-          "createdAt": "2025-09-21T06:06:57.125Z",
-          "updatedAt": "2025-10-14T07:06:02.866Z",
-          "vertebraeName": "Forest's Secrets Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "34bec8ef-c379-4ab4-bd4a-9f016a56dcb6",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of the turn, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When attacking, applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to the target and the closest enemy to it.</p><p>If the attack kills the enemy target, Belka gains [effect:ebb94ca6-620c-4fe6-ab91-3c65d506c37e]. Every time an allied unit applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Belka's critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Debuff",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "34bec8ef-c379-4ab4-bd4a-9f016a56dcb6",
+            "level": 3,
+            "effect": "<p>At the start of the battle, Belka increases her mobility and range by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. </p><p>The maximum number of [effect:63ac9c84-5a40-460c-ab38-8c959e608e6e] stacks increases by <span style=\"color: rgb(243, 109, 28);\">4</span>. <span style=\"color: rgb(243, 109, 28);\">Each time </span>Belka deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>, she gains an <span style=\"color: rgb(243, 109, 28);\">additional stack</span> of [effect:63ac9c84-5a40-460c-ab38-8c959e608e6e].</p>",
+            "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/5d2cb361213472367ef934e4278caa5e.webp",
+            "createdAt": "2025-09-21T06:06:57.125Z",
+            "updatedAt": "2025-10-14T07:06:02.866Z",
+            "vertebraeName": "Forest's Secrets Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "663a14d9-8c66-47ff-b212-43be5c170be8",
         "name": "Sylvan Vault",
-        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it.</p><p>The damage dealt by this attack is increased by (<span style=\"color: rgb(243, 109, 28);\">3%</span> × the number of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623]) on the battlefield, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">15%</span>. If the target is a boss unit which has [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], the damage dealt is directly increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p><p>If a critical hit is dealt, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>After using the skill, selects an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and charges towards it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": 1,
         "imageUrl": "https://cdn.dandegate.net/skills/7a6c4066dcc3d376550ecbb8d39d144b.webp",
         "createdAt": "2025-09-21T04:20:40.633Z",
         "updatedAt": "2025-11-04T05:59:12.423Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "476ccfd4-0227-4dd2-ac7f-402732eb8b90",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it.</p><p>The critical damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span><span>. </span>The damage dealt by this attack is increased by (<span style=\"color: rgb(243, 109, 28);\">6%</span> × the number of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623]) on the battlefield, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>. If the target is a boss unit which has [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], the damage dealt is directly increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>If a critical hit is dealt, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>After using the skill, selects an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and charges towards it.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": 4,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it.</p><p>The damage dealt by this attack is increased by (<span style=\"color: rgb(243, 109, 28);\">3%</span> × the number of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623]) on the battlefield, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">15%</span>. If the target is a boss unit which has [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], the damage dealt is directly increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p><p>If a critical hit is dealt, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>After using the skill, selects an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and charges towards it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": 1,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "476ccfd4-0227-4dd2-ac7f-402732eb8b90",
-          "level": 2,
-          "effect": "<p>Stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. </p><p>The critical damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. </p><p>The damage dealt by this attack is increased by (<span style=\"color: rgb(243, 109, 28);\">6%</span> x the number of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623]) on the battlefield, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>. </p><p>If the target is a boss unit which has [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], the damage dealt is directly increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-          "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/7a6c4066dcc3d376550ecbb8d39d144b.webp",
-          "createdAt": "2025-09-21T06:09:02.904Z",
-          "updatedAt": "2025-10-14T07:06:03.044Z",
-          "vertebraeName": "Sylvan Vault Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "476ccfd4-0227-4dd2-ac7f-402732eb8b90",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "confectanceCost": 1,
+          "cooldown": null,
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it.</p><p>The critical damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span><span>. </span>The damage dealt by this attack is increased by (<span style=\"color: rgb(243, 109, 28);\">6%</span> × the number of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623]) on the battlefield, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>. If the target is a boss unit which has [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], the damage dealt is directly increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>If a critical hit is dealt, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>After using the skill, selects an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and charges towards it.</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "stabilityDamage": 4,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "476ccfd4-0227-4dd2-ac7f-402732eb8b90",
+            "level": 2,
+            "effect": "<p>Stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. </p><p>The critical damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. </p><p>The damage dealt by this attack is increased by (<span style=\"color: rgb(243, 109, 28);\">6%</span> x the number of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623]) on the battlefield, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>. </p><p>If the target is a boss unit which has [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], the damage dealt is directly increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+            "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/7a6c4066dcc3d376550ecbb8d39d144b.webp",
+            "createdAt": "2025-09-21T06:09:02.904Z",
+            "updatedAt": "2025-10-14T07:06:03.044Z",
+            "vertebraeName": "Sylvan Vault Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "52435e19-948b-457d-a266-914c2a66dca2",
         "name": "Crackling Core",
-        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. <span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b]. After using this skill, Belka can use the active skill <span style=\"color: rgb(34, 139, 230);\">Sylvan Vault</span> or her basic attack <span style=\"color: rgb(34, 139, 230);\">Nutcracker Shell</span>.</p>",
-        "phase": "Electric",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": 1,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/098b3ce9fc9852fd35a7e08744753a24.webp",
         "createdAt": "2025-09-21T04:26:12.903Z",
         "updatedAt": "2025-11-04T00:15:46.028Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "24ecd3cb-1c0b-4ec9-bddc-7b7278d08d46",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Buff"
-        ],
         "keyUpgradesData": "[\"83ae8d44-4b32-4f4d-8e4d-92dc3977cbcd\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. <span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">8%</span>. Damage dealt to enemies with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b]. After using this skill, Belka can use the active skill <span style=\"color: rgb(34, 139, 230);\">Sylvan Vault </span>or her basic attack <span style=\"color: rgb(34, 139, 230);\">Nutcracker Shell</span>.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. <span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b]. After using this skill, Belka can use the active skill <span style=\"color: rgb(34, 139, 230);\">Sylvan Vault</span> or her basic attack <span style=\"color: rgb(34, 139, 230);\">Nutcracker Shell</span>.</p>",
+          "phase": "Electric",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": 1,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "24ecd3cb-1c0b-4ec9-bddc-7b7278d08d46",
-          "level": 2,
-          "effect": "<p><span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended additionally increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">3%</span>. Damage dealt to enemies with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
-          "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/098b3ce9fc9852fd35a7e08744753a24.webp",
-          "createdAt": "2025-09-21T04:35:56.520Z",
-          "updatedAt": "2025-10-14T07:06:01.999Z",
-          "vertebraeName": "Crackling Core Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "24ecd3cb-1c0b-4ec9-bddc-7b7278d08d46",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. <span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">8%</span>. Damage dealt to enemies with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b]. After using this skill, Belka can use the active skill <span style=\"color: rgb(34, 139, 230);\">Sylvan Vault </span>or her basic attack <span style=\"color: rgb(34, 139, 230);\">Nutcracker Shell</span>.</p>",
+          "phase": "Electric",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Buff"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "24ecd3cb-1c0b-4ec9-bddc-7b7278d08d46",
+            "level": 2,
+            "effect": "<p><span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended additionally increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">3%</span>. Damage dealt to enemies with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+            "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/098b3ce9fc9852fd35a7e08744753a24.webp",
+            "createdAt": "2025-09-21T04:35:56.520Z",
+            "updatedAt": "2025-10-14T07:06:01.999Z",
+            "vertebraeName": "Crackling Core Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "05071574-8cbb-44d4-b7e3-5bae7ce1844a",
         "name": "Leaping Arc",
-        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it. <span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Applies [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] to the enemy target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Belka gains [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phase": "Electric",
-        "ammoTypes": "[\"Medium Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": null,
-        "confectanceCost": 4,
         "imageUrl": "https://cdn.dandegate.net/skills/06d003c3a6a3cb09bbd5d00a487ee947.webp",
         "createdAt": "2025-09-21T04:30:42.246Z",
         "updatedAt": "2025-10-30T17:42:30.420Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "8c0cf324-f82e-4b1c-8808-985fba999af9",
-        "vertebraeUpgradeIdLevel3": "319019b3-3ff4-49bc-b2b5-3485c28bb930",
-        "skillTags": [
-          "Ultimate",
-          "Targeted",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it. <span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Applies [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] to the enemy target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Belka gains [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": "Electric",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": null,
+          "confectanceCost": 4,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "8c0cf324-f82e-4b1c-8808-985fba999af9",
-          "level": 2,
-          "effect": "<p>Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b|doll:belka].</p><p>[effect:0fbfd3cd-3787-4137-995f-d5975b378e52] gains new effects: If the target of [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] this turn is the same as the target of this skill, applies [effect:e809a359-05d8-42fa-9f90-abf087a5584d] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before the attack resolves.</p>",
-          "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/06d003c3a6a3cb09bbd5d00a487ee947.webp",
-          "createdAt": "2025-09-21T04:41:42.516Z",
-          "updatedAt": "2025-12-05T03:01:03.864Z",
-          "vertebraeName": "Leaping Arc Lv.2"
+        "level2": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "8c0cf324-f82e-4b1c-8808-985fba999af9",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "confectanceCost": 4,
+          "cooldown": null,
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it. <span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Applies [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] to the enemy target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Belka gains [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": "Electric",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "8c0cf324-f82e-4b1c-8808-985fba999af9",
+            "level": 2,
+            "effect": "<p>Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b|doll:belka].</p><p>[effect:0fbfd3cd-3787-4137-995f-d5975b378e52] gains new effects: If the target of [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] this turn is the same as the target of this skill, applies [effect:e809a359-05d8-42fa-9f90-abf087a5584d] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before the attack resolves.</p>",
+            "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/06d003c3a6a3cb09bbd5d00a487ee947.webp",
+            "createdAt": "2025-09-21T04:41:42.516Z",
+            "updatedAt": "2025-12-05T03:01:03.864Z",
+            "vertebraeName": "Leaping Arc Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "319019b3-3ff4-49bc-b2b5-3485c28bb930",
-          "level": 3,
-          "effect": "<p><span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended additionally increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">5%</span>. The damage multiplier of [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. </p><p>If the target has <span style=\"color: rgb(243, 109, 28);\">2</span> or more Electric debuffs, critical damage increases by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-          "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/06d003c3a6a3cb09bbd5d00a487ee947.webp",
-          "createdAt": "2025-09-21T06:12:37.603Z",
-          "updatedAt": "2025-10-14T07:06:03.213Z",
-          "vertebraeName": "Leaping Arc Lv.3"
+        "level3": {
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "vertebraeUpgradeId": "319019b3-3ff4-49bc-b2b5-3485c28bb930",
+          "ammoTypes": "[\"Medium Ammo\"]",
+          "confectanceCost": 4,
+          "cooldown": null,
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it. <span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Applies [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] to the enemy target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Belka gains [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": "Electric",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "319019b3-3ff4-49bc-b2b5-3485c28bb930",
+            "level": 3,
+            "effect": "<p><span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended additionally increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">5%</span>. The damage multiplier of [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. </p><p>If the target has <span style=\"color: rgb(243, 109, 28);\">2</span> or more Electric debuffs, critical damage increases by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+            "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/06d003c3a6a3cb09bbd5d00a487ee947.webp",
+            "createdAt": "2025-09-21T06:12:37.603Z",
+            "updatedAt": "2025-10-14T07:06:03.213Z",
+            "vertebraeName": "Leaping Arc Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -453,29 +480,6 @@
         "createdAt": "2025-09-25T04:28:47.285Z",
         "updatedAt": "2025-09-25T17:03:08.519Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "dollImages": [
-            {
-              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
-              "createdAt": "2025-09-25T23:37:45.754Z",
-              "updatedAt": "2025-09-25T23:37:45.754Z"
-            }
-          ],
-          "searchTags": [
-            "Sturmgewehr 28",
-            "G28"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Vivid Preoccupation",
         "shortId": "a5"
@@ -499,29 +503,6 @@
         "createdAt": "2025-09-21T03:39:34.972Z",
         "updatedAt": "2025-09-25T04:29:49.518Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "dollImages": [
-            {
-              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
-              "createdAt": "2025-09-25T23:37:45.754Z",
-              "updatedAt": "2025-09-25T23:37:45.754Z"
-            }
-          ],
-          "searchTags": [
-            "Sturmgewehr 28",
-            "G28"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - The Will to Fight for Favor",
         "shortId": "c5"
@@ -546,29 +527,6 @@
         "createdAt": "2025-10-26T14:34:32.556Z",
         "updatedAt": "2026-02-20T13:15:48.317Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "dollImages": [
-            {
-              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
-              "createdAt": "2025-09-25T23:37:45.754Z",
-              "updatedAt": "2025-09-25T23:37:45.754Z"
-            }
-          ],
-          "searchTags": [
-            "Sturmgewehr 28",
-            "G28"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Squirrel’s Awakening",
         "shortId": "k1"
@@ -593,29 +551,6 @@
         "createdAt": "2025-09-21T03:22:39.191Z",
         "updatedAt": "2025-10-14T07:06:32.384Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "dollImages": [
-            {
-              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
-              "createdAt": "2025-09-25T23:37:45.754Z",
-              "updatedAt": "2025-09-25T23:37:45.754Z"
-            }
-          ],
-          "searchTags": [
-            "Sturmgewehr 28",
-            "G28"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Lively Energy",
         "shortId": "k2"
@@ -640,29 +575,6 @@
         "createdAt": "2025-09-21T03:23:48.584Z",
         "updatedAt": "2025-10-14T07:06:32.558Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "dollImages": [
-            {
-              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
-              "createdAt": "2025-09-25T23:37:45.754Z",
-              "updatedAt": "2025-09-25T23:37:45.754Z"
-            }
-          ],
-          "searchTags": [
-            "Sturmgewehr 28",
-            "G28"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Offensive of Tears",
         "shortId": "k3"
@@ -687,29 +599,6 @@
         "createdAt": "2025-09-21T03:29:04.376Z",
         "updatedAt": "2025-10-14T07:06:32.730Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "dollImages": [
-            {
-              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
-              "createdAt": "2025-09-25T23:37:45.754Z",
-              "updatedAt": "2025-09-25T23:37:45.754Z"
-            }
-          ],
-          "searchTags": [
-            "Sturmgewehr 28",
-            "G28"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Atmosphere Booster",
         "shortId": "k4"
@@ -734,29 +623,6 @@
         "createdAt": "2025-09-21T03:31:05.514Z",
         "updatedAt": "2025-10-14T07:06:32.896Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "dollImages": [
-            {
-              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
-              "createdAt": "2025-09-25T23:37:45.754Z",
-              "updatedAt": "2025-09-25T23:37:45.754Z"
-            }
-          ],
-          "searchTags": [
-            "Sturmgewehr 28",
-            "G28"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Raised Tail",
         "shortId": "k5"
@@ -781,29 +647,6 @@
         "createdAt": "2025-09-21T03:32:45.217Z",
         "updatedAt": "2025-10-14T07:06:33.240Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "dollImages": [
-            {
-              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
-              "createdAt": "2025-09-25T23:37:45.754Z",
-              "updatedAt": "2025-09-25T23:37:45.754Z"
-            }
-          ],
-          "searchTags": [
-            "Sturmgewehr 28",
-            "G28"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Desired Praise",
         "shortId": "k6"
@@ -828,29 +671,6 @@
         "createdAt": "2025-09-21T03:37:24.026Z",
         "updatedAt": "2025-09-21T03:37:24.026Z",
         "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "dollImages": [
-            {
-              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
-              "createdAt": "2025-09-25T23:37:45.754Z",
-              "updatedAt": "2025-09-25T23:37:45.754Z"
-            }
-          ],
-          "searchTags": [
-            "Sturmgewehr 28",
-            "G28"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Deciding Motive",
         "shortId": "k7"
@@ -867,69 +687,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/098b3ce9fc9852fd35a7e08744753a24.webp",
         "createdAt": "2025-09-21T04:35:56.520Z",
         "updatedAt": "2025-10-14T07:06:01.999Z",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "class": "Vanguard",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "Her innocence, liveliness, and harmless little scheming are written on her face. Absolutely loyal to the Commander and her big sister, she is a Doll who strives to become an elite Doll loved by everyone. With her around, awkward silences are no longer a thing!",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "52435e19-948b-457d-a266-914c2a66dca2",
             "name": "Crackling Core",
-            "phase": "Electric",
             "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/098b3ce9fc9852fd35a7e08744753a24.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Medium Ammo\"]",
-            "createdAt": "2025-09-21T04:26:12.903Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Buff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-11-04T00:15:46.028Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. <span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b]. After using this skill, Belka can use the active skill <span style=\"color: rgb(34, 139, 230);\">Sylvan Vault</span> or her basic attack <span style=\"color: rgb(34, 139, 230);\">Nutcracker Shell</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"83ae8d44-4b32-4f4d-8e4d-92dc3977cbcd\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. <span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">8%</span>. Damage dealt to enemies with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b]. After using this skill, Belka can use the active skill <span style=\"color: rgb(34, 139, 230);\">Sylvan Vault </span>or her basic attack <span style=\"color: rgb(34, 139, 230);\">Nutcracker Shell</span>.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "24ecd3cb-1c0b-4ec9-bddc-7b7278d08d46",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "8c0cf324-f82e-4b1c-8808-985fba999af9",
@@ -941,69 +710,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/06d003c3a6a3cb09bbd5d00a487ee947.webp",
         "createdAt": "2025-09-21T04:41:42.516Z",
         "updatedAt": "2025-12-05T03:01:03.864Z",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "class": "Vanguard",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "Her innocence, liveliness, and harmless little scheming are written on her face. Absolutely loyal to the Commander and her big sister, she is a Doll who strives to become an elite Doll loved by everyone. With her around, awkward silences are no longer a thing!",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "05071574-8cbb-44d4-b7e3-5bae7ce1844a",
             "name": "Leaping Arc",
-            "phase": "Electric",
             "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/06d003c3a6a3cb09bbd5d00a487ee947.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Medium Ammo\"]",
-            "createdAt": "2025-09-21T04:30:42.246Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-30T17:42:30.420Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it. <span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Applies [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] to the enemy target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Belka gains [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 4,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "8c0cf324-f82e-4b1c-8808-985fba999af9",
-            "vertebraeUpgradeIdLevel3": "319019b3-3ff4-49bc-b2b5-3485c28bb930"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "28488867-9147-40ae-9da8-26dcd3eb353d",
@@ -1015,69 +733,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/5d2cb361213472367ef934e4278caa5e.webp",
         "createdAt": "2025-09-21T05:40:46.088Z",
         "updatedAt": "2025-10-14T07:06:21.058Z",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "class": "Vanguard",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "Her innocence, liveliness, and harmless little scheming are written on her face. Absolutely loyal to the Commander and her big sister, she is a Doll who strives to become an elite Doll loved by everyone. With her around, awkward silences are no longer a thing!",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "186727d9-4328-4360-9830-c4a9f1294db1",
             "name": "Forest's Secrets",
-            "phase": null,
             "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/5d2cb361213472367ef934e4278caa5e.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T04:33:42.797Z",
-            "skillTags": [
-              "Passive",
-              "Debuff",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-30T17:42:12.066Z",
-            "description": "<p>At the start of the turn, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When attacking, applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to the target and the closest enemy to it.</p><p>If the attack kills the enemy target, Belka gains [effect:ebb94ca6-620c-4fe6-ab91-3c65d506c37e]. Every time an allied unit applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Belka's critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"96737117-bb15-4bd4-ad52-ed90cd74ff5c\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "28488867-9147-40ae-9da8-26dcd3eb353d",
-            "vertebraeUpgradeIdLevel3": "34bec8ef-c379-4ab4-bd4a-9f016a56dcb6"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "34bec8ef-c379-4ab4-bd4a-9f016a56dcb6",
@@ -1089,69 +756,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/5d2cb361213472367ef934e4278caa5e.webp",
         "createdAt": "2025-09-21T06:06:57.125Z",
         "updatedAt": "2025-10-14T07:06:02.866Z",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "class": "Vanguard",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "Her innocence, liveliness, and harmless little scheming are written on her face. Absolutely loyal to the Commander and her big sister, she is a Doll who strives to become an elite Doll loved by everyone. With her around, awkward silences are no longer a thing!",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "186727d9-4328-4360-9830-c4a9f1294db1",
             "name": "Forest's Secrets",
-            "phase": null,
             "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/5d2cb361213472367ef934e4278caa5e.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T04:33:42.797Z",
-            "skillTags": [
-              "Passive",
-              "Debuff",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-30T17:42:12.066Z",
-            "description": "<p>At the start of the turn, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. When attacking, applies [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to the target and the closest enemy to it.</p><p>If the attack kills the enemy target, Belka gains [effect:ebb94ca6-620c-4fe6-ab91-3c65d506c37e]. Every time an allied unit applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], Belka's critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"96737117-bb15-4bd4-ad52-ed90cd74ff5c\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "28488867-9147-40ae-9da8-26dcd3eb353d",
-            "vertebraeUpgradeIdLevel3": "34bec8ef-c379-4ab4-bd4a-9f016a56dcb6"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "476ccfd4-0227-4dd2-ac7f-402732eb8b90",
@@ -1163,68 +779,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/7a6c4066dcc3d376550ecbb8d39d144b.webp",
         "createdAt": "2025-09-21T06:09:02.904Z",
         "updatedAt": "2025-10-14T07:06:03.044Z",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "class": "Vanguard",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "Her innocence, liveliness, and harmless little scheming are written on her face. Absolutely loyal to the Commander and her big sister, she is a Doll who strives to become an elite Doll loved by everyone. With her around, awkward silences are no longer a thing!",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "663a14d9-8c66-47ff-b212-43be5c170be8",
             "name": "Sylvan Vault",
-            "phase": "Physical",
             "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/7a6c4066dcc3d376550ecbb8d39d144b.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Medium Ammo\"]",
-            "createdAt": "2025-09-21T04:20:40.633Z",
-            "skillTags": [
-              "Active",
-              "Targeted"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-11-04T05:59:12.423Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it.</p><p>The damage dealt by this attack is increased by (<span style=\"color: rgb(243, 109, 28);\">3%</span> × the number of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623]) on the battlefield, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">15%</span>. If the target is a boss unit which has [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], the damage dealt is directly increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p><p>If a critical hit is dealt, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>After using the skill, selects an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and charges towards it.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 1,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it.</p><p>The critical damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span><span>. </span>The damage dealt by this attack is increased by (<span style=\"color: rgb(243, 109, 28);\">6%</span> × the number of [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623]) on the battlefield, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">30%</span>. If the target is a boss unit which has [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], the damage dealt is directly increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p><p>If a critical hit is dealt, Belka gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>After using the skill, selects an empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and charges towards it.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": 4,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "476ccfd4-0227-4dd2-ac7f-402732eb8b90",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "319019b3-3ff4-49bc-b2b5-3485c28bb930",
@@ -1236,69 +802,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/06d003c3a6a3cb09bbd5d00a487ee947.webp",
         "createdAt": "2025-09-21T06:12:37.603Z",
         "updatedAt": "2025-10-14T07:06:03.213Z",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "class": "Vanguard",
-          "phase": "Electric",
-          "rarity": "Elite",
-          "effects": "Her innocence, liveliness, and harmless little scheming are written on her face. Absolutely loyal to the Commander and her big sister, she is a Doll who strives to become an elite Doll loved by everyone. With her around, awkward silences are no longer a thing!",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Medium Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "05071574-8cbb-44d4-b7e3-5bae7ce1844a",
             "name": "Leaping Arc",
-            "phase": "Electric",
             "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/06d003c3a6a3cb09bbd5d00a487ee947.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Medium Ammo\"]",
-            "createdAt": "2025-09-21T04:30:42.246Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-30T17:42:30.420Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>, dealing <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it. <span style=\"color: rgb(243, 109, 28);\">Each point</span> of mobility expended increases the damage multiplier by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Applies [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] to the enemy target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Belka gains [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 4,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "8c0cf324-f82e-4b1c-8808-985fba999af9",
-            "vertebraeUpgradeIdLevel3": "319019b3-3ff4-49bc-b2b5-3485c28bb930"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1423,42 +938,28 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T03:18:50.665Z",
-        "updatedAt": "2025-11-06T06:30:10.447Z",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "dollImages": [
-            {
-              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Sturmgewehr 28"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "G28"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-06T06:30:10.447Z"
       },
       {
         "id": "0fbfd3cd-3787-4137-995f-d5975b378e52",
         "effectName": "Continual Release",
-        "effectDetails": "{\"mainDetails\":\"<p>At the end of the buff holder's action, deals <span style=\\\"color: rgb(243, 109, 28);\\\">1 instance</span> of <span style=\\\"color: rgb(213, 173, 13);\\\">Electric damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">80%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span> of stability damage to the closest enemy target within <span style=\\\"color: rgb(243, 109, 28);\\\">8 tiles</span>. Cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"a00c9fbf-0cc4-4da0-9798-aa9b23238f77\",\"upgradeName\":\"V2\",\"upgradeDetails\":\"<p>At the end of the buff holder's action, deals <span style=\\\"color: rgb(243, 109, 28);\\\">1 instance</span> of <span style=\\\"color: rgb(213, 173, 13);\\\">Electric damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">80%</span> of attack and <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span> of stability damage to the closest enemy target within <span style=\\\"color: rgb(243, 109, 28);\\\">8 tiles</span>. If this target is the same as that of the Ultimate skill <span style=\\\"color: rgb(34, 139, 230);\\\">Leaping Arc</span>, the before the attack, applies [effect:e809a359-05d8-42fa-9f90-abf087a5584d] to the target for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>. Cannot be cleansed.</p>\",\"order\":0},{\"id\":\"36711be8-5d14-40b5-bdbb-d8fd8b876fec\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>At the end of the buff holder's action, deals <span style=\\\"color: rgb(243, 109, 28);\\\">1 instance</span> of <span style=\\\"color: rgb(213, 173, 13);\\\">Electric damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">110%</span> of attack and<span style=\\\"color: rgb(243, 109, 28);\\\"> 2 points</span> of stability damage to the closest enemy target within <span style=\\\"color: rgb(243, 109, 28);\\\">8 tiles</span>. If this target is the same as that of the Ultimate skill <span style=\\\"color: rgb(34, 139, 230);\\\">Leaping Arc</span>, the before the attack, applies [effect:e809a359-05d8-42fa-9f90-abf087a5584d] to the target for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>. Cannot be cleansed.</p>\",\"order\":1}]}",
+        "effectDetails": {
+          "mainDetails": "<p>At the end of the buff holder's action, deals <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to the closest enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>. Cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "a00c9fbf-0cc4-4da0-9798-aa9b23238f77",
+              "upgradeName": "V2",
+              "upgradeDetails": "<p>At the end of the buff holder's action, deals <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to the closest enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>. If this target is the same as that of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Leaping Arc</span>, the before the attack, applies [effect:e809a359-05d8-42fa-9f90-abf087a5584d] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Cannot be cleansed.</p>",
+              "order": 0
+            },
+            {
+              "id": "36711be8-5d14-40b5-bdbb-d8fd8b876fec",
+              "upgradeName": "V6",
+              "upgradeDetails": "<p>At the end of the buff holder's action, deals <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">110%</span> of attack and<span style=\"color: rgb(243, 109, 28);\"> 2 points</span> of stability damage to the closest enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span>. If this target is the same as that of the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Leaping Arc</span>, the before the attack, applies [effect:e809a359-05d8-42fa-9f90-abf087a5584d] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Cannot be cleansed.</p>",
+              "order": 1
+            }
+          ]
+        },
         "effectTags": [
           "Buff",
           "Electric"
@@ -1467,37 +968,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T00:14:25.065Z",
-        "updatedAt": "2025-11-03T06:13:14.720Z",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "dollImages": [
-            {
-              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Sturmgewehr 28"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "G28"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T06:13:14.720Z"
       },
       {
         "id": "e809a359-05d8-42fa-9f90-abf087a5584d",
@@ -1510,42 +981,22 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T04:46:37.204Z",
-        "updatedAt": "2025-11-03T15:11:43.493Z",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "dollImages": [
-            {
-              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Sturmgewehr 28"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "G28"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T15:11:43.493Z"
       },
       {
         "id": "63ac9c84-5a40-460c-ab38-8c959e608e6e",
         "effectName": "Stored Charge",
-        "effectDetails": "{\"mainDetails\":\"<p><span style=\\\"color: rgb(213, 173, 13);\\\">Electric damage</span> dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>, maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">6 stacks</span>. Considered an Electric debuff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"fd4d0db3-90eb-4030-88e3-f052ba996bea\",\"upgradeName\":\"V4\",\"upgradeDetails\":\"<p><span style=\\\"color: rgb(213, 173, 13);\\\">Electric damage</span> dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>, maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">10 stacks</span>. Considered an Electric debuff, cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p><span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">6 stacks</span>. Considered an Electric debuff, cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "fd4d0db3-90eb-4030-88e3-f052ba996bea",
+              "upgradeName": "V4",
+              "upgradeDetails": "<p><span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">10 stacks</span>. Considered an Electric debuff, cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [
           "Debuff",
           "Electric"
@@ -1554,37 +1005,48 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T05:02:28.425Z",
-        "updatedAt": "2025-11-03T15:53:54.738Z",
-        "doll": {
-          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
-          "name": "Belka",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
-          "createdAt": "2025-09-19T01:44:28.832Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-02T05:32:48.423Z",
-          "dollImages": [
-            {
-              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Sturmgewehr 28"
-              }
-            },
-            {
-              "searchTag": {
-                "name": "G28"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T15:53:54.738Z"
+      },
+      {
+        "id": "a9d5e1de-1be0-41d0-8970-2290e5ea4623",
+        "effectName": "Negative Charge",
+        "effectDetails": "<p>When taking targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>, all targets with <span style=\"color: rgb(34, 139, 230);\">Negative Charge</span> take fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of the damage from that attack. When <span style=\"color: rgb(34, 139, 230);\">Negative Charge</span> is applied again, the target takes <span style=\"color: rgb(243, 109, 28);\">an additional instance</span> of fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">3%</span> of the applier's attack. When taking an attack from a unit with [effect:f3c29056-b252-443d-bf3d-55462b514967], <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> taken is increased. Considered an Electric debuff (when an effect with the same name is applied again while the previous one is still in effect, the newly applied effect overwrites the former and inherits the remaining duration of the former effect).</p>",
+        "effectTags": [
+          "Debuff",
+          "Electric"
+        ],
+        "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T00:32:35.698Z",
+        "updatedAt": "2025-11-03T15:06:54.337Z"
+      },
+      {
+        "id": "ebb94ca6-620c-4fe6-ab91-3c65d506c37e",
+        "effectName": "Concealment",
+        "effectDetails": "<p>Cannot be selected by enemy basic attacks and active skill. Considered a buff, cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T00:12:38.194Z",
+        "updatedAt": "2025-11-01T21:24:16.741Z"
+      },
+      {
+        "id": "d4fd8953-92c9-4830-ad8b-ac4d56d95b7d",
+        "effectName": "Conductivity",
+        "effectDetails": "<p>Damage taken is converted to [effect:8cfe89a9-404a-42e5-9cc7-5bf57b070887]. Considered an Electric debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Electric"
+        ],
+        "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T03:20:39.075Z",
+        "updatedAt": "2025-11-01T21:25:46.875Z"
       }
     ],
     "shortId": "d5"

@@ -64,372 +64,390 @@
       {
         "id": "1253acca-c43e-4bc1-8d93-22e70f5fa725",
         "name": "Quick Writing",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Heavy Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/48064130195d2fb423e580e9da42aebd.webp",
         "createdAt": "2025-09-17T04:49:33.123Z",
         "updatedAt": "2025-11-05T20:00:44.484Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
         "summonId": null,
-        "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
-          "createdAt": "2025-09-13T05:53:24.278Z",
-          "updatedAt": "2025-09-13T05:53:24.278Z",
-          "rangeValue": "8",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "690c5102-9b6f-45e9-8dde-b0b7b9d7bacf",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742804165-r8et.webp",
+            "createdAt": "2025-09-13T05:53:24.278Z",
+            "updatedAt": "2025-09-13T05:53:24.278Z",
+            "rangeValue": "8",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "608cfa86-3c59-4e7b-9b65-e60962b4529a",
         "name": "Systematic Breakdown",
-        "description": "<p>At the end of the action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the nearest target within range under a defense debuff, and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/ac47d5af8c98dc721cf68579803062e2.webp",
         "createdAt": "2025-09-17T05:26:31.209Z",
         "updatedAt": "2025-11-05T20:07:10.691Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
         "summonId": null,
-        "rangeMapId": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "df2b8437-65db-4422-b21e-0c84295953fa",
-        "vertebraeUpgradeIdLevel3": "02464aab-9a02-41e7-bc6a-b28a7a705a4d",
-        "skillTags": [
-          "Passive",
-          "AoE"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>At the end of the action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the nearest target within range under a defense debuff, and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-        "descriptionLevel3": "<p>At the end of the action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to <span style=\"color: rgb(243, 109, 28);\">2</span> nearest targets within range under a defense debuff, and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757744106408-rSe8.webp",
-          "createdAt": "2025-09-13T06:15:06.520Z",
-          "updatedAt": "2025-09-13T06:15:06.520Z",
-          "rangeValue": "Self",
-          "effectiveArea": "8"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>At the end of the action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the nearest target within range under a defense debuff, and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+          "skillTags": [
+            "Passive",
+            "AoE"
+          ],
+          "rangeMap": {
+            "id": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744106408-rSe8.webp",
+            "createdAt": "2025-09-13T06:15:06.520Z",
+            "updatedAt": "2025-09-13T06:15:06.520Z",
+            "rangeValue": "Self",
+            "effectiveArea": "8"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "df2b8437-65db-4422-b21e-0c84295953fa",
-          "level": 2,
-          "effect": "<p>Increase damage multiplier by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-          "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/ac47d5af8c98dc721cf68579803062e2.webp",
-          "createdAt": "2025-09-17T05:33:39.519Z",
-          "updatedAt": "2025-09-17T05:33:54.209Z",
-          "vertebraeName": "Systematic Breakdown Lv.2"
+        "level2": {
+          "rangeMapId": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+          "vertebraeUpgradeId": "df2b8437-65db-4422-b21e-0c84295953fa",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the end of the action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the nearest target within range under a defense debuff, and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "AoE"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744106408-rSe8.webp",
+            "createdAt": "2025-09-13T06:15:06.520Z",
+            "updatedAt": "2025-09-13T06:15:06.520Z",
+            "rangeValue": "Self",
+            "effectiveArea": "8"
+          },
+          "vertebraeUpgrade": {
+            "id": "df2b8437-65db-4422-b21e-0c84295953fa",
+            "level": 2,
+            "effect": "<p>Increase damage multiplier by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+            "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/ac47d5af8c98dc721cf68579803062e2.webp",
+            "createdAt": "2025-09-17T05:33:39.519Z",
+            "updatedAt": "2025-09-17T05:33:54.209Z",
+            "vertebraeName": "Systematic Breakdown Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "02464aab-9a02-41e7-bc6a-b28a7a705a4d",
-          "level": 3,
-          "effect": "<p>Deals damage to <span style=\"color: rgb(243, 109, 28);\">2</span> nearest enemy targets within range with a defense debuff.</p>",
-          "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/ac47d5af8c98dc721cf68579803062e2.webp",
-          "createdAt": "2025-09-17T05:38:22.055Z",
-          "updatedAt": "2025-09-17T05:38:40.201Z",
-          "vertebraeName": "Systematic Breakdown Lv.3"
+        "level3": {
+          "rangeMapId": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+          "vertebraeUpgradeId": "02464aab-9a02-41e7-bc6a-b28a7a705a4d",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the end of the action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to <span style=\"color: rgb(243, 109, 28);\">2</span> nearest targets within range under a defense debuff, and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "AoE"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744106408-rSe8.webp",
+            "createdAt": "2025-09-13T06:15:06.520Z",
+            "updatedAt": "2025-09-13T06:15:06.520Z",
+            "rangeValue": "Self",
+            "effectiveArea": "8"
+          },
+          "vertebraeUpgrade": {
+            "id": "02464aab-9a02-41e7-bc6a-b28a7a705a4d",
+            "level": 3,
+            "effect": "<p>Deals damage to <span style=\"color: rgb(243, 109, 28);\">2</span> nearest enemy targets within range with a defense debuff.</p>",
+            "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/ac47d5af8c98dc721cf68579803062e2.webp",
+            "createdAt": "2025-09-17T05:38:22.055Z",
+            "updatedAt": "2025-09-17T05:38:40.201Z",
+            "vertebraeName": "Systematic Breakdown Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "ba28e14c-e3b1-4c82-ad3d-091cb9948dc6",
         "name": "Perfect Opportunity",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack to them and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, applying [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[]",
-        "stabilityDamage": 2,
-        "cooldown": 2,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/3c703f5603e15d916e78e9d6dba9b800.webp",
         "createdAt": "2025-09-17T04:51:47.442Z",
         "updatedAt": "2025-10-14T07:07:14.874Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
         "summonId": null,
-        "rangeMapId": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "08d9b099-06fd-4b05-994b-18edc7ed67e8",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "AoE",
-          "Debuff"
-        ],
         "keyUpgradesData": "[\"24850de1-e7f0-4dfc-8742-2830cb653992\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to them and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, applying [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757744015805-r8e2.webp",
-          "createdAt": "2025-09-13T06:13:35.955Z",
-          "updatedAt": "2025-09-13T06:13:35.955Z",
-          "rangeValue": "8",
-          "effectiveArea": "2"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack to them and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, applying [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[]",
+          "stabilityDamage": 2,
+          "cooldown": 2,
+          "confectanceCost": null,
+          "rangeMapId": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744015805-r8e2.webp",
+            "createdAt": "2025-09-13T06:13:35.955Z",
+            "updatedAt": "2025-09-13T06:13:35.955Z",
+            "rangeValue": "8",
+            "effectiveArea": "2"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "08d9b099-06fd-4b05-994b-18edc7ed67e8",
-          "level": 2,
-          "effect": "<p>Damage multiplier increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-          "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/3c703f5603e15d916e78e9d6dba9b800.webp",
-          "createdAt": "2025-09-17T05:30:36.499Z",
-          "updatedAt": "2025-09-25T22:44:26.992Z",
-          "vertebraeName": "Perfect Opportunity Lv.2"
+        "level2": {
+          "rangeMapId": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
+          "vertebraeUpgradeId": "08d9b099-06fd-4b05-994b-18edc7ed67e8",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to them and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, applying [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744015805-r8e2.webp",
+            "createdAt": "2025-09-13T06:13:35.955Z",
+            "updatedAt": "2025-09-13T06:13:35.955Z",
+            "rangeValue": "8",
+            "effectiveArea": "2"
+          },
+          "vertebraeUpgrade": {
+            "id": "08d9b099-06fd-4b05-994b-18edc7ed67e8",
+            "level": 2,
+            "effect": "<p>Damage multiplier increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+            "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/3c703f5603e15d916e78e9d6dba9b800.webp",
+            "createdAt": "2025-09-17T05:30:36.499Z",
+            "updatedAt": "2025-09-25T22:44:26.992Z",
+            "vertebraeName": "Perfect Opportunity Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "0516d008-2568-42f2-b754-171ff93ac792",
         "name": "Reliable Cover",
-        "description": "<p>Select 1 direction around self, deal AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">65%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x8 area, 2 tiles away</span> in the selected direction and apply [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Destroy all destructible Cover within that area. For each target hit, reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Heavy Ammo\"]",
-        "stabilityDamage": 1,
-        "cooldown": 3,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/c712462b99044653eef1b25f4a1b4592.webp",
         "createdAt": "2025-09-17T05:02:50.233Z",
         "updatedAt": "2025-11-05T20:02:02.395Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
         "summonId": null,
-        "rangeMapId": "146f4c91-8e7e-4965-b6bb-587bcc5437c7",
-        "rangeMapIdLevel2": "19d033b1-dcd5-4ebc-bbe7-372635e6cb08",
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "ce8511eb-71ce-4120-801a-892b5f7f594a",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "AoE",
-          "Debuff",
-          "Cover Destruction"
-        ],
         "keyUpgradesData": "[\"98a84acc-f67d-41dc-a039-62bd227913aa\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Select 1 direction around self, deal AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">65%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x8 area</span> in the selected direction and apply [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Destroy all destructible Cover within that area, excluding a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around self. For each target hit, reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "146f4c91-8e7e-4965-b6bb-587bcc5437c7",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758140618494-r1e--.webp",
-          "createdAt": "2025-09-17T20:23:38.609Z",
-          "updatedAt": "2025-09-17T20:23:38.609Z",
-          "rangeValue": "1",
-          "effectiveArea": "--"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Select 1 direction around self, deal AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">65%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x8 area, 2 tiles away</span> in the selected direction and apply [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Destroy all destructible Cover within that area. For each target hit, reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "stabilityDamage": 1,
+          "cooldown": 3,
+          "confectanceCost": null,
+          "rangeMapId": "146f4c91-8e7e-4965-b6bb-587bcc5437c7",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff",
+            "Cover Destruction"
+          ],
+          "rangeMap": {
+            "id": "146f4c91-8e7e-4965-b6bb-587bcc5437c7",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758140618494-r1e--.webp",
+            "createdAt": "2025-09-17T20:23:38.609Z",
+            "updatedAt": "2025-09-17T20:23:38.609Z",
+            "rangeValue": "1",
+            "effectiveArea": "--"
+          }
         },
-        "rangeMapLevel2": {
-          "id": "19d033b1-dcd5-4ebc-bbe7-372635e6cb08",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1759018605622-range1and3x8.webp",
-          "createdAt": "2025-09-28T00:16:45.801Z",
-          "updatedAt": "2025-09-28T00:16:45.801Z",
-          "rangeValue": "1",
-          "effectiveArea": "--"
+        "level2": {
+          "rangeMapId": "19d033b1-dcd5-4ebc-bbe7-372635e6cb08",
+          "vertebraeUpgradeId": "ce8511eb-71ce-4120-801a-892b5f7f594a",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 3,
+          "description": "<p>Select 1 direction around self, deal AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">65%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x8 area</span> in the selected direction and apply [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Destroy all destructible Cover within that area, excluding a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around self. For each target hit, reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff",
+            "Cover Destruction"
+          ],
+          "stabilityDamage": 1,
+          "rangeMap": {
+            "id": "19d033b1-dcd5-4ebc-bbe7-372635e6cb08",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1759018605622-range1and3x8.webp",
+            "createdAt": "2025-09-28T00:16:45.801Z",
+            "updatedAt": "2025-09-28T00:16:45.801Z",
+            "rangeValue": "1",
+            "effectiveArea": "--"
+          },
+          "vertebraeUpgrade": {
+            "id": "ce8511eb-71ce-4120-801a-892b5f7f594a",
+            "level": 2,
+            "effect": "<p>The effect range increases to <span style=\"color: rgb(243, 109, 28);\">3x8 tiles in front</span>.</p>",
+            "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/c712462b99044653eef1b25f4a1b4592.webp",
+            "createdAt": "2025-09-17T05:32:10.084Z",
+            "updatedAt": "2025-09-17T05:32:18.542Z",
+            "vertebraeName": "Reliable Cover Lv.2"
+          }
         },
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "ce8511eb-71ce-4120-801a-892b5f7f594a",
-          "level": 2,
-          "effect": "<p>The effect range increases to <span style=\"color: rgb(243, 109, 28);\">3x8 tiles in front</span>.</p>",
-          "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/c712462b99044653eef1b25f4a1b4592.webp",
-          "createdAt": "2025-09-17T05:32:10.084Z",
-          "updatedAt": "2025-09-17T05:32:18.542Z",
-          "vertebraeName": "Reliable Cover Lv.2"
-        },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "604943fe-c504-4164-8425-3a9bfb27b7e3",
         "name": "Strategist's Plan",
-        "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to launch an attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">85%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If the target has a defense debuff, change the damage dealt to AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">95%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage.</p>",
-        "phase": "Physical",
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": 4,
         "imageUrl": "https://cdn.dandegate.net/skills/ce37d571390283f36bcb522d43408791.webp",
         "createdAt": "2025-09-17T04:56:48.015Z",
         "updatedAt": "2025-09-26T02:06:01.983Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
         "summonId": null,
-        "rangeMapId": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "76120511-17ec-4505-9fbd-4a6248542663",
-        "vertebraeUpgradeIdLevel3": "f65a4a11-a97e-421d-b005-85fa5202f15e",
-        "skillTags": [
-          "Ultimate",
-          "AoE"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": 2,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to launch an attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">85%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If the target has a defense debuff, change the damage dealt to AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">95%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage. Additionally, damage dealt to targets with defense debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-        "descriptionLevel3": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to launch an attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">85%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If the target has a defense debuff, change the damage dealt to AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">95%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage. Additionally, damage dealt to targets with defense debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757744015805-r8e2.webp",
-          "createdAt": "2025-09-13T06:13:35.955Z",
-          "updatedAt": "2025-09-13T06:13:35.955Z",
-          "rangeValue": "8",
-          "effectiveArea": "2"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to launch an attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">85%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If the target has a defense debuff, change the damage dealt to AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">95%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage.</p>",
+          "phase": "Physical",
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": 4,
+          "rangeMapId": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
+          "skillTags": [
+            "Ultimate",
+            "AoE"
+          ],
+          "rangeMap": {
+            "id": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744015805-r8e2.webp",
+            "createdAt": "2025-09-13T06:13:35.955Z",
+            "updatedAt": "2025-09-13T06:13:35.955Z",
+            "rangeValue": "8",
+            "effectiveArea": "2"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "76120511-17ec-4505-9fbd-4a6248542663",
-          "level": 2,
-          "effect": "<p>Damage dealt to targets with defense debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-          "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/ce37d571390283f36bcb522d43408791.webp",
-          "createdAt": "2025-09-17T05:54:01.226Z",
-          "updatedAt": "2025-09-17T05:54:28.022Z",
-          "vertebraeName": "Strategist's Plan Lv.2"
+        "level2": {
+          "rangeMapId": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
+          "vertebraeUpgradeId": "76120511-17ec-4505-9fbd-4a6248542663",
+          "ammoTypes": null,
+          "confectanceCost": 4,
+          "cooldown": null,
+          "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to launch an attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">85%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If the target has a defense debuff, change the damage dealt to AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">95%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage. Additionally, damage dealt to targets with defense debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Ultimate",
+            "AoE"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744015805-r8e2.webp",
+            "createdAt": "2025-09-13T06:13:35.955Z",
+            "updatedAt": "2025-09-13T06:13:35.955Z",
+            "rangeValue": "8",
+            "effectiveArea": "2"
+          },
+          "vertebraeUpgrade": {
+            "id": "76120511-17ec-4505-9fbd-4a6248542663",
+            "level": 2,
+            "effect": "<p>Damage dealt to targets with defense debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+            "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/ce37d571390283f36bcb522d43408791.webp",
+            "createdAt": "2025-09-17T05:54:01.226Z",
+            "updatedAt": "2025-09-17T05:54:28.022Z",
+            "vertebraeName": "Strategist's Plan Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "f65a4a11-a97e-421d-b005-85fa5202f15e",
-          "level": 3,
-          "effect": "<p>Confectance Index consumption is reduced by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. </p>",
-          "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/ce37d571390283f36bcb522d43408791.webp",
-          "createdAt": "2025-09-17T05:37:09.058Z",
-          "updatedAt": "2025-09-17T05:37:22.826Z",
-          "vertebraeName": "Strategist's Plan Lv.3"
+        "level3": {
+          "rangeMapId": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
+          "vertebraeUpgradeId": "f65a4a11-a97e-421d-b005-85fa5202f15e",
+          "ammoTypes": null,
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to launch an attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">85%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If the target has a defense debuff, change the damage dealt to AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">95%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage. Additionally, damage dealt to targets with defense debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Ultimate",
+            "AoE"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744015805-r8e2.webp",
+            "createdAt": "2025-09-13T06:13:35.955Z",
+            "updatedAt": "2025-09-13T06:13:35.955Z",
+            "rangeValue": "8",
+            "effectiveArea": "2"
+          },
+          "vertebraeUpgrade": {
+            "id": "f65a4a11-a97e-421d-b005-85fa5202f15e",
+            "level": 3,
+            "effect": "<p>Confectance Index consumption is reduced by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. </p>",
+            "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/ce37d571390283f36bcb522d43408791.webp",
+            "createdAt": "2025-09-17T05:37:09.058Z",
+            "updatedAt": "2025-09-17T05:37:22.826Z",
+            "vertebraeName": "Strategist's Plan Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -452,28 +470,6 @@
         "createdAt": "2025-09-25T22:43:06.926Z",
         "updatedAt": "2025-09-25T22:43:06.926Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "dollImages": [
-            {
-              "id": "6a3b6591-ed1e-4e37-b9f6-03d474cffefe",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/littara/chibi-f131a5234615c1d71e6fdf195439b90a.webp",
-              "createdAt": "2025-09-26T02:13:05.675Z",
-              "updatedAt": "2025-09-26T02:13:05.675Z"
-            }
-          ],
-          "searchTags": [
-            "Galil ARM"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Scribbled Thoughts",
         "shortId": "a26"
@@ -497,28 +493,6 @@
         "createdAt": "2025-09-18T03:15:28.325Z",
         "updatedAt": "2025-09-25T22:43:33.020Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "dollImages": [
-            {
-              "id": "6a3b6591-ed1e-4e37-b9f6-03d474cffefe",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/littara/chibi-f131a5234615c1d71e6fdf195439b90a.webp",
-              "createdAt": "2025-09-26T02:13:05.675Z",
-              "updatedAt": "2025-09-26T02:13:05.675Z"
-            }
-          ],
-          "searchTags": [
-            "Galil ARM"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Vulnerability Exploit",
         "shortId": "c26"
@@ -542,28 +516,6 @@
         "createdAt": "2025-09-18T03:20:23.232Z",
         "updatedAt": "2025-09-18T03:20:23.232Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "dollImages": [
-            {
-              "id": "6a3b6591-ed1e-4e37-b9f6-03d474cffefe",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/littara/chibi-f131a5234615c1d71e6fdf195439b90a.webp",
-              "createdAt": "2025-09-26T02:13:05.675Z",
-              "updatedAt": "2025-09-26T02:13:05.675Z"
-            }
-          ],
-          "searchTags": [
-            "Galil ARM"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Tactician's Gaze",
         "shortId": "k1"
@@ -588,28 +540,6 @@
         "createdAt": "2025-09-17T04:05:37.371Z",
         "updatedAt": "2025-09-17T04:05:37.371Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "dollImages": [
-            {
-              "id": "6a3b6591-ed1e-4e37-b9f6-03d474cffefe",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/littara/chibi-f131a5234615c1d71e6fdf195439b90a.webp",
-              "createdAt": "2025-09-26T02:13:05.675Z",
-              "updatedAt": "2025-09-26T02:13:05.675Z"
-            }
-          ],
-          "searchTags": [
-            "Galil ARM"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Strategic Planning",
         "shortId": "k2"
@@ -634,28 +564,6 @@
         "createdAt": "2025-09-17T04:06:59.936Z",
         "updatedAt": "2025-09-17T04:06:59.936Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "dollImages": [
-            {
-              "id": "6a3b6591-ed1e-4e37-b9f6-03d474cffefe",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/littara/chibi-f131a5234615c1d71e6fdf195439b90a.webp",
-              "createdAt": "2025-09-26T02:13:05.675Z",
-              "updatedAt": "2025-09-26T02:13:05.675Z"
-            }
-          ],
-          "searchTags": [
-            "Galil ARM"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Gaining Experience",
         "shortId": "k3"
@@ -680,28 +588,6 @@
         "createdAt": "2025-09-17T04:12:50.003Z",
         "updatedAt": "2025-09-17T04:12:50.003Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "dollImages": [
-            {
-              "id": "6a3b6591-ed1e-4e37-b9f6-03d474cffefe",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/littara/chibi-f131a5234615c1d71e6fdf195439b90a.webp",
-              "createdAt": "2025-09-26T02:13:05.675Z",
-              "updatedAt": "2025-09-26T02:13:05.675Z"
-            }
-          ],
-          "searchTags": [
-            "Galil ARM"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Press the Advantage",
         "shortId": "k4"
@@ -726,28 +612,6 @@
         "createdAt": "2025-09-17T04:17:07.705Z",
         "updatedAt": "2025-09-17T04:17:07.705Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "dollImages": [
-            {
-              "id": "6a3b6591-ed1e-4e37-b9f6-03d474cffefe",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/littara/chibi-f131a5234615c1d71e6fdf195439b90a.webp",
-              "createdAt": "2025-09-26T02:13:05.675Z",
-              "updatedAt": "2025-09-26T02:13:05.675Z"
-            }
-          ],
-          "searchTags": [
-            "Galil ARM"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Identifying Gaps",
         "shortId": "k5"
@@ -772,28 +636,6 @@
         "createdAt": "2025-09-17T04:20:36.766Z",
         "updatedAt": "2025-10-14T07:06:25.579Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "dollImages": [
-            {
-              "id": "6a3b6591-ed1e-4e37-b9f6-03d474cffefe",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/littara/chibi-f131a5234615c1d71e6fdf195439b90a.webp",
-              "createdAt": "2025-09-26T02:13:05.675Z",
-              "updatedAt": "2025-09-26T02:13:05.675Z"
-            }
-          ],
-          "searchTags": [
-            "Galil ARM"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Battle Analysis",
         "shortId": "k6"
@@ -818,28 +660,6 @@
         "createdAt": "2025-09-17T04:23:46.912Z",
         "updatedAt": "2025-09-25T22:45:39.445Z",
         "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "dollImages": [
-            {
-              "id": "6a3b6591-ed1e-4e37-b9f6-03d474cffefe",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/littara/chibi-f131a5234615c1d71e6fdf195439b90a.webp",
-              "createdAt": "2025-09-26T02:13:05.675Z",
-              "updatedAt": "2025-09-26T02:13:05.675Z"
-            }
-          ],
-          "searchTags": [
-            "Galil ARM"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Aggressive Attack",
         "shortId": "k7"
@@ -856,69 +676,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3c703f5603e15d916e78e9d6dba9b800.webp",
         "createdAt": "2025-09-17T05:30:36.499Z",
         "updatedAt": "2025-09-25T22:44:26.992Z",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "class": "Sentinel",
-          "phase": "Physical",
-          "rarity": "Standard",
-          "effects": "An extremely introverted doll who needs to communicate through writing. She is meticulous and thorough, playing a \"strategist\" role in the team. After switching to a new Imprint Model, she has become even more reliable, supporting her teammates' dreams daily.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "ba28e14c-e3b1-4c82-ad3d-091cb9948dc6",
             "name": "Perfect Opportunity",
-            "phase": "Physical",
             "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-            "cooldown": 2,
-            "imageUrl": "https://cdn.dandegate.net/skills/3c703f5603e15d916e78e9d6dba9b800.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-17T04:51:47.442Z",
-            "skillTags": [
-              "Active",
-              "AoE",
-              "Debuff"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-14T07:07:14.874Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">70%</span> of attack to them and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, applying [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"24850de1-e7f0-4dfc-8742-2830cb653992\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to them and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, applying [effect:0b76cac3-8e34-4e32-98d8-d204e26522d7] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "08d9b099-06fd-4b05-994b-18edc7ed67e8",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "ce8511eb-71ce-4120-801a-892b5f7f594a",
@@ -930,70 +699,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/c712462b99044653eef1b25f4a1b4592.webp",
         "createdAt": "2025-09-17T05:32:10.084Z",
         "updatedAt": "2025-09-17T05:32:18.542Z",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "class": "Sentinel",
-          "phase": "Physical",
-          "rarity": "Standard",
-          "effects": "An extremely introverted doll who needs to communicate through writing. She is meticulous and thorough, playing a \"strategist\" role in the team. After switching to a new Imprint Model, she has become even more reliable, supporting her teammates' dreams daily.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "0516d008-2568-42f2-b754-171ff93ac792",
             "name": "Reliable Cover",
-            "phase": "Physical",
             "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/c712462b99044653eef1b25f4a1b4592.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Heavy Ammo\"]",
-            "createdAt": "2025-09-17T05:02:50.233Z",
-            "skillTags": [
-              "Active",
-              "AoE",
-              "Debuff",
-              "Cover Destruction"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-11-05T20:02:02.395Z",
-            "description": "<p>Select 1 direction around self, deal AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">65%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x8 area, 2 tiles away</span> in the selected direction and apply [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Destroy all destructible Cover within that area. For each target hit, reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "146f4c91-8e7e-4965-b6bb-587bcc5437c7",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 1,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"98a84acc-f67d-41dc-a039-62bd227913aa\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Select 1 direction around self, deal AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">65%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x8 area</span> in the selected direction and apply [effect:1403cc19-233b-4c0c-8335-83cda83c7a62] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Destroy all destructible Cover within that area, excluding a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around self. For each target hit, reduce this skill's cooldown by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": "19d033b1-dcd5-4ebc-bbe7-372635e6cb08",
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "ce8511eb-71ce-4120-801a-892b5f7f594a",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "df2b8437-65db-4422-b21e-0c84295953fa",
@@ -1005,68 +722,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/ac47d5af8c98dc721cf68579803062e2.webp",
         "createdAt": "2025-09-17T05:33:39.519Z",
         "updatedAt": "2025-09-17T05:33:54.209Z",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "class": "Sentinel",
-          "phase": "Physical",
-          "rarity": "Standard",
-          "effects": "An extremely introverted doll who needs to communicate through writing. She is meticulous and thorough, playing a \"strategist\" role in the team. After switching to a new Imprint Model, she has become even more reliable, supporting her teammates' dreams daily.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "608cfa86-3c59-4e7b-9b65-e60962b4529a",
             "name": "Systematic Breakdown",
-            "phase": null,
             "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/ac47d5af8c98dc721cf68579803062e2.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-17T05:26:31.209Z",
-            "skillTags": [
-              "Passive",
-              "AoE"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-05T20:07:10.691Z",
-            "description": "<p>At the end of the action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the nearest target within range under a defense debuff, and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the end of the action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the nearest target within range under a defense debuff, and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "descriptionLevel3": "<p>At the end of the action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to <span style=\"color: rgb(243, 109, 28);\">2</span> nearest targets within range under a defense debuff, and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "df2b8437-65db-4422-b21e-0c84295953fa",
-            "vertebraeUpgradeIdLevel3": "02464aab-9a02-41e7-bc6a-b28a7a705a4d"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "76120511-17ec-4505-9fbd-4a6248542663",
@@ -1078,68 +745,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/ce37d571390283f36bcb522d43408791.webp",
         "createdAt": "2025-09-17T05:54:01.226Z",
         "updatedAt": "2025-09-17T05:54:28.022Z",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "class": "Sentinel",
-          "phase": "Physical",
-          "rarity": "Standard",
-          "effects": "An extremely introverted doll who needs to communicate through writing. She is meticulous and thorough, playing a \"strategist\" role in the team. After switching to a new Imprint Model, she has become even more reliable, supporting her teammates' dreams daily.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "604943fe-c504-4164-8425-3a9bfb27b7e3",
             "name": "Strategist's Plan",
-            "phase": "Physical",
             "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/ce37d571390283f36bcb522d43408791.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-17T04:56:48.015Z",
-            "skillTags": [
-              "Ultimate",
-              "AoE"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-09-26T02:06:01.983Z",
-            "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to launch an attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">85%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If the target has a defense debuff, change the damage dealt to AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">95%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 4,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to launch an attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">85%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If the target has a defense debuff, change the damage dealt to AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">95%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage. Additionally, damage dealt to targets with defense debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "descriptionLevel3": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to launch an attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">85%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If the target has a defense debuff, change the damage dealt to AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">95%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage. Additionally, damage dealt to targets with defense debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": 2,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "76120511-17ec-4505-9fbd-4a6248542663",
-            "vertebraeUpgradeIdLevel3": "f65a4a11-a97e-421d-b005-85fa5202f15e"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "f65a4a11-a97e-421d-b005-85fa5202f15e",
@@ -1151,68 +768,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/ce37d571390283f36bcb522d43408791.webp",
         "createdAt": "2025-09-17T05:37:09.058Z",
         "updatedAt": "2025-09-17T05:37:22.826Z",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "class": "Sentinel",
-          "phase": "Physical",
-          "rarity": "Standard",
-          "effects": "An extremely introverted doll who needs to communicate through writing. She is meticulous and thorough, playing a \"strategist\" role in the team. After switching to a new Imprint Model, she has become even more reliable, supporting her teammates' dreams daily.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "604943fe-c504-4164-8425-3a9bfb27b7e3",
             "name": "Strategist's Plan",
-            "phase": "Physical",
             "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/ce37d571390283f36bcb522d43408791.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-17T04:56:48.015Z",
-            "skillTags": [
-              "Ultimate",
-              "AoE"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-09-26T02:06:01.983Z",
-            "description": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to launch an attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">85%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If the target has a defense debuff, change the damage dealt to AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">95%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "c5bc1300-10e2-4493-a1d0-e3102e99e022",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 4,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to launch an attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">85%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If the target has a defense debuff, change the damage dealt to AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">95%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage. Additionally, damage dealt to targets with defense debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "descriptionLevel3": "<p>Selects 1 tile within <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> to launch an attack, dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">85%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. If the target has a defense debuff, change the damage dealt to AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">95%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage. Additionally, damage dealt to targets with defense debuffs is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": 2,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "76120511-17ec-4505-9fbd-4a6248542663",
-            "vertebraeUpgradeIdLevel3": "f65a4a11-a97e-421d-b005-85fa5202f15e"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "02464aab-9a02-41e7-bc6a-b28a7a705a4d",
@@ -1224,68 +791,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/ac47d5af8c98dc721cf68579803062e2.webp",
         "createdAt": "2025-09-17T05:38:22.055Z",
         "updatedAt": "2025-09-17T05:38:40.201Z",
-        "doll": {
-          "id": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-          "name": "Littara",
-          "class": "Sentinel",
-          "phase": "Physical",
-          "rarity": "Standard",
-          "effects": "An extremely introverted doll who needs to communicate through writing. She is meticulous and thorough, playing a \"strategist\" role in the team. After switching to a new Imprint Model, she has become even more reliable, supporting her teammates' dreams daily.",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/littara/ae03491fc9d4ab6254e89d6e30a7786d.webp",
-          "createdAt": "2025-09-17T03:59:16.392Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:18:33.235Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "608cfa86-3c59-4e7b-9b65-e60962b4529a",
             "name": "Systematic Breakdown",
-            "phase": null,
             "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/ac47d5af8c98dc721cf68579803062e2.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-17T05:26:31.209Z",
-            "skillTags": [
-              "Passive",
-              "AoE"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-05T20:07:10.691Z",
-            "description": "<p>At the end of the action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the nearest target within range under a defense debuff, and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "1c692e4b-7fe3-4937-80ba-c4487479c90f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the end of the action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the nearest target within range under a defense debuff, and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "descriptionLevel3": "<p>At the end of the action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to <span style=\"color: rgb(243, 109, 28);\">2</span> nearest targets within range under a defense debuff, and gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "df2b8437-65db-4422-b21e-0c84295953fa",
-            "vertebraeUpgradeIdLevel3": "02464aab-9a02-41e7-bc6a-b28a7a705a4d"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1396,7 +913,36 @@
       ],
       "equippedRelics": []
     },
-    "dollEffects": [],
+    "dollEffects": [
+      {
+        "id": "0b76cac3-8e34-4e32-98d8-d204e26522d7",
+        "effectName": "Vulnerable I",
+        "effectDetails": "<p>Increase damage taken by <span style=\"color: rgb(243, 109, 28);\">10%</span>. This is considered a defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T05:06:54.834Z",
+        "updatedAt": "2025-11-03T16:11:12.716Z"
+      },
+      {
+        "id": "1403cc19-233b-4c0c-8335-83cda83c7a62",
+        "effectName": "Defense Down II",
+        "effectDetails": "<p>Defense is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Considered a defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "03ab3f42-cd35-4508-ab00-3ef2f7229c7f",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:03:00.728Z",
+        "updatedAt": "2025-11-01T22:14:13.451Z"
+      }
+    ],
     "shortId": "d26"
   }
 }

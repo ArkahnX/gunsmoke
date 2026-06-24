@@ -71,365 +71,391 @@
       {
         "id": "7084a150-21ca-4bc2-91bc-71eb53caf2d3",
         "name": "Practice Shot",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/01e5ddf6c82285878bd695304aeb84ef.webp",
         "createdAt": "2025-09-24T03:38:21.979Z",
         "updatedAt": "2025-09-26T01:41:01.061Z",
         "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span><span> and deals Physical damage equal to </span><span style=\"color: rgb(243, 109, 28);\">80%</span><span> of attack to it.</span></p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "c4d649d2-a253-41ce-acf0-23145e6eb2b1",
         "name": "Tomahawk Combo",
-        "description": "<p>When attacking, Faye ignores an amount of the target's defense equal to (<span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> + (<span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) of Max HP.<br><br>At the end of an enemy unit's action, if it is within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, Faye throws a tomahawk at it, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the enemy is within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, Faye performs an axe whirl instead; gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> a turn.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/2e0794f26832966bbe58976c3633768d.webp",
         "createdAt": "2025-09-24T03:39:40.137Z",
         "updatedAt": "2025-11-04T19:57:02.860Z",
         "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "abac12df-3035-496f-ad8a-092ff46aaf0a",
-        "vertebraeUpgradeIdLevel3": "8cedea1d-3dda-4e0e-a72c-129031b476ab",
-        "skillTags": [
-          "Passive",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>When attacking, Faye ignores an amount of the target's defense equal to <span style=\"color: rgb(243, 109, 28);\">4%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> + <span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks of Max HP.<br><br>At the end of an enemy unit's action, if it is within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, Faye throws a tomahawk at it, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the enemy is within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, Faye performs an axe whirl instead; gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> a turn.<br><br>At the end of an enemy unit's action, if it holds <span style=\"color: rgb(243, 109, 28);\">2</span> <span style=\"color: rgb(243, 109, 28);\">or more</span> <span style=\"color: rgb(243, 109, 28);\">stacks </span>of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to the nearest enemy unit.</p>",
-        "descriptionLevel3": "<p>When attacking, Faye ignores an amount of the target's defense equal to (<span style=\"color: rgb(243, 109, 28);\">4%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> + (<span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) of Max HP.<br><br>At the end of an enemy unit's action, if it is within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, Faye throws a tomahawk at it, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the enemy is within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, Faye performs an axe whirl instead; gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> a turn.<br><br>At the end of an enemy unit's action, if it holds <span style=\"color: rgb(243, 109, 28);\">2</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to the nearest enemy unit.<br><br>At the end of Faye's action, she performs an axe whirl and applies [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to all enemy units within the area for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.<br>Damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>When attacking, Faye ignores an amount of the target's defense equal to (<span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> + (<span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) of Max HP.<br><br>At the end of an enemy unit's action, if it is within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, Faye throws a tomahawk at it, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the enemy is within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, Faye performs an axe whirl instead; gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> a turn.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Passive",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "abac12df-3035-496f-ad8a-092ff46aaf0a",
-          "level": 2,
-          "effect": "<p>The amount of defense ignore by per stack of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] is increased by <span style=\"color: rgb(243, 109, 28);\">2%</span><span>.</span><br><span>At the end of an enemy unit's action, if it holds </span><span style=\"color: rgb(243, 109, 28);\">2</span><span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye applies </span><span style=\"color: rgb(243, 109, 28);\">2 stacks</span><span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to the nearest enemy unit.</span></p>",
-          "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/2e0794f26832966bbe58976c3633768d.webp",
-          "createdAt": "2025-09-24T04:04:27.146Z",
-          "updatedAt": "2025-10-14T07:06:15.631Z",
-          "vertebraeName": "Tomahawk Combo Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "abac12df-3035-496f-ad8a-092ff46aaf0a",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>When attacking, Faye ignores an amount of the target's defense equal to <span style=\"color: rgb(243, 109, 28);\">4%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> + <span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks of Max HP.<br><br>At the end of an enemy unit's action, if it is within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, Faye throws a tomahawk at it, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the enemy is within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, Faye performs an axe whirl instead; gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> a turn.<br><br>At the end of an enemy unit's action, if it holds <span style=\"color: rgb(243, 109, 28);\">2</span> <span style=\"color: rgb(243, 109, 28);\">or more</span> <span style=\"color: rgb(243, 109, 28);\">stacks </span>of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to the nearest enemy unit.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Debuff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "abac12df-3035-496f-ad8a-092ff46aaf0a",
+            "level": 2,
+            "effect": "<p>The amount of defense ignore by per stack of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] is increased by <span style=\"color: rgb(243, 109, 28);\">2%</span><span>.</span><br><span>At the end of an enemy unit's action, if it holds </span><span style=\"color: rgb(243, 109, 28);\">2</span><span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye applies </span><span style=\"color: rgb(243, 109, 28);\">2 stacks</span><span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to the nearest enemy unit.</span></p>",
+            "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/2e0794f26832966bbe58976c3633768d.webp",
+            "createdAt": "2025-09-24T04:04:27.146Z",
+            "updatedAt": "2025-10-14T07:06:15.631Z",
+            "vertebraeName": "Tomahawk Combo Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "8cedea1d-3dda-4e0e-a72c-129031b476ab",
-          "level": 3,
-          "effect": "<p>At the end of Faye's action, performs an axe whirl and applies [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to all enemy units within the area for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>. </span><br><span>Damage dealt by this attack is increased by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
-          "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/2e0794f26832966bbe58976c3633768d.webp",
-          "createdAt": "2025-09-24T04:07:13.961Z",
-          "updatedAt": "2025-10-14T07:06:16.513Z",
-          "vertebraeName": "Tomahawk Combo Lv.3"
+        "level3": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "8cedea1d-3dda-4e0e-a72c-129031b476ab",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>When attacking, Faye ignores an amount of the target's defense equal to (<span style=\"color: rgb(243, 109, 28);\">4%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> + (<span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) of Max HP.<br><br>At the end of an enemy unit's action, if it is within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, Faye throws a tomahawk at it, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the enemy is within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, Faye performs an axe whirl instead; gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> a turn.<br><br>At the end of an enemy unit's action, if it holds <span style=\"color: rgb(243, 109, 28);\">2</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to the nearest enemy unit.<br><br>At the end of Faye's action, she performs an axe whirl and applies [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to all enemy units within the area for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.<br>Damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Debuff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "8cedea1d-3dda-4e0e-a72c-129031b476ab",
+            "level": 3,
+            "effect": "<p>At the end of Faye's action, performs an axe whirl and applies [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to all enemy units within the area for <span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>. </span><br><span>Damage dealt by this attack is increased by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
+            "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/2e0794f26832966bbe58976c3633768d.webp",
+            "createdAt": "2025-09-24T04:07:13.961Z",
+            "updatedAt": "2025-10-14T07:06:16.513Z",
+            "vertebraeName": "Tomahawk Combo Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "6d60f5e2-8ea0-47b3-b185-dd6a07f9dbc9",
         "name": "Ruinous Whirl",
-        "description": "<p>Expends all Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, Faye applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, pulls them <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> toward self, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack, while also applying [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.<br>Faye gains <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef] and [effect:b612d113-bb5d-4b9e-b51f-fb757caef5c7] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Melee\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": 1,
         "imageUrl": "https://cdn.dandegate.net/skills/38b2cc0ba9a58f9ae277ae67fb5109b2.webp",
         "createdAt": "2025-09-24T03:38:39.284Z",
         "updatedAt": "2025-10-14T07:07:09.276Z",
         "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
         "summonId": null,
-        "rangeMapId": "ddcd62e1-68fc-4ee4-a66a-2ddb41846844",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "d60a817f-c4da-4b16-9aec-aa9b27abfdbf",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "AoE",
-          "Debuff"
-        ],
         "keyUpgradesData": "[\"87f2864b-eaf2-4e0d-9c40-695436b5fb0e\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Expends all Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, Faye applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, pulls them <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> toward self, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack, while also applying [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>Faye gains <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef] and [effect:b612d113-bb5d-4b9e-b51f-fb757caef5c7] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After this skill is used, Faye cleanses all defense and movement debuffs on self.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ddcd62e1-68fc-4ee4-a66a-2ddb41846844",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758685352407-self 3.webp",
-          "createdAt": "2025-09-24T03:42:32.535Z",
-          "updatedAt": "2025-09-24T03:42:32.535Z",
-          "rangeValue": "Self",
-          "effectiveArea": "3"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Expends all Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, Faye applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, pulls them <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> toward self, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack, while also applying [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.<br>Faye gains <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef] and [effect:b612d113-bb5d-4b9e-b51f-fb757caef5c7] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Melee\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": 1,
+          "rangeMapId": "ddcd62e1-68fc-4ee4-a66a-2ddb41846844",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "ddcd62e1-68fc-4ee4-a66a-2ddb41846844",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758685352407-self 3.webp",
+            "createdAt": "2025-09-24T03:42:32.535Z",
+            "updatedAt": "2025-09-24T03:42:32.535Z",
+            "rangeValue": "Self",
+            "effectiveArea": "3"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "d60a817f-c4da-4b16-9aec-aa9b27abfdbf",
-          "level": 2,
-          "effect": "<p>Damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span><span>. Duration of [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] and [effect:b612d113-bb5d-4b9e-b51f-fb757caef5c7] is increased by </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>. </span><br><span>After this skill is used, Faye cleanses all defense and movement debuffs on self.</span></p>",
-          "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/38b2cc0ba9a58f9ae277ae67fb5109b2.webp",
-          "createdAt": "2025-09-24T04:10:30.496Z",
-          "updatedAt": "2025-10-14T07:06:16.862Z",
-          "vertebraeName": "Ruinous Whirl Lv.2"
+        "level2": {
+          "rangeMapId": "ddcd62e1-68fc-4ee4-a66a-2ddb41846844",
+          "vertebraeUpgradeId": "d60a817f-c4da-4b16-9aec-aa9b27abfdbf",
+          "ammoTypes": "[\"Melee\"]",
+          "confectanceCost": 1,
+          "cooldown": null,
+          "description": "<p>Expends all Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, Faye applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, pulls them <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> toward self, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack, while also applying [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>Faye gains <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef] and [effect:b612d113-bb5d-4b9e-b51f-fb757caef5c7] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After this skill is used, Faye cleanses all defense and movement debuffs on self.</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "ddcd62e1-68fc-4ee4-a66a-2ddb41846844",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758685352407-self 3.webp",
+            "createdAt": "2025-09-24T03:42:32.535Z",
+            "updatedAt": "2025-09-24T03:42:32.535Z",
+            "rangeValue": "Self",
+            "effectiveArea": "3"
+          },
+          "vertebraeUpgrade": {
+            "id": "d60a817f-c4da-4b16-9aec-aa9b27abfdbf",
+            "level": 2,
+            "effect": "<p>Damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span><span>. Duration of [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] and [effect:b612d113-bb5d-4b9e-b51f-fb757caef5c7] is increased by </span><span style=\"color: rgb(243, 109, 28);\">1 turn</span><span>. </span><br><span>After this skill is used, Faye cleanses all defense and movement debuffs on self.</span></p>",
+            "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/38b2cc0ba9a58f9ae277ae67fb5109b2.webp",
+            "createdAt": "2025-09-24T04:10:30.496Z",
+            "updatedAt": "2025-10-14T07:06:16.862Z",
+            "vertebraeName": "Ruinous Whirl Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "1c30527e-2a82-4a0e-9a8d-68040770afc3",
         "name": "Fissioned Firelight",
-        "description": "<p>Faye gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 4,
-        "cooldown": 2,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/e56300f1a9ff51e47fff2cf06d4146b8.webp",
         "createdAt": "2025-09-24T03:38:56.822Z",
         "updatedAt": "2025-10-30T18:08:36.493Z",
         "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "04ec9f7c-ca2b-4a19-8508-888f5b88cfe1",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Faye gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack.</p><p>If the enemy target holds <span style=\"color: rgb(243, 109, 28);\">4</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] after Faye uses this skill, Faye additionally applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the number of stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Faye gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 4,
+          "cooldown": 2,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "04ec9f7c-ca2b-4a19-8508-888f5b88cfe1",
-          "level": 2,
-          "effect": "<p>Damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span><span>. If the enemy target holds </span><span style=\"color: rgb(243, 109, 28);\">4</span><span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] after Faye uses this skill, Faye additionally applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the number of stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it.</span></p>",
-          "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/e56300f1a9ff51e47fff2cf06d4146b8.webp",
-          "createdAt": "2025-09-24T04:05:59.963Z",
-          "updatedAt": "2025-10-14T07:06:16.339Z",
-          "vertebraeName": "Fissioned Firelight Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "04ec9f7c-ca2b-4a19-8508-888f5b88cfe1",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 2,
+          "description": "<p>Faye gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack.</p><p>If the enemy target holds <span style=\"color: rgb(243, 109, 28);\">4</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] after Faye uses this skill, Faye additionally applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the number of stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it.</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 4,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "04ec9f7c-ca2b-4a19-8508-888f5b88cfe1",
+            "level": 2,
+            "effect": "<p>Damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span><span>. If the enemy target holds </span><span style=\"color: rgb(243, 109, 28);\">4</span><span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] after Faye uses this skill, Faye additionally applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the number of stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it.</span></p>",
+            "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/e56300f1a9ff51e47fff2cf06d4146b8.webp",
+            "createdAt": "2025-09-24T04:05:59.963Z",
+            "updatedAt": "2025-10-14T07:06:16.339Z",
+            "vertebraeName": "Fissioned Firelight Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "1186f026-dd60-4f81-93d3-013871f848d0",
         "name": "No Survivors",
-        "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. Applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemies holding [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.<br>If the target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] from the target to increase the damage that the target takes from this attack by <span style=\"color: rgb(243, 109, 28);\">120%</span>.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/d8cd76a8bdea66b410aeb9d78034b409.webp",
         "createdAt": "2025-09-24T03:39:21.629Z",
         "updatedAt": "2025-11-04T14:18:36.692Z",
         "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "865fbb6a-4054-409f-96d3-68e071a9fbec",
-        "vertebraeUpgradeIdLevel3": "24f5c065-9edb-4f4d-b9da-8a40fd56f6e6",
-        "skillTags": [
-          "Ultimate",
-          "Targeted",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to all enemy units on the field. If an enemy unit holds [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye additionally applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b]. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.<br>If the enemy target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] from the target to increase the damage that the target takes from this attack by <span style=\"color: rgb(243, 109, 28);\">120%</span>. At the end of Faye's action, triggers effects of all stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] but does not expend the stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a].</p>",
-        "descriptionLevel3": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to all enemy units on the field. If an enemy unit holds [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye additionally applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b]. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack.<br>If the enemy target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b].<br>For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] that the enemy target holds, damage taken from this attack is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">160%</span>.<br>Each stack of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] increases Faye's critical rate for this attack by <span style=\"color: rgb(243, 109, 28);\">5%</span> and critical damage for this attack by <span style=\"color: rgb(243, 109, 28);\">2%</span>. At the end of Faye's action, triggers effects of all stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] but does not expend the stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a].</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. Applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemies holding [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.<br>If the target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] from the target to increase the damage that the target takes from this attack by <span style=\"color: rgb(243, 109, 28);\">120%</span>.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "865fbb6a-4054-409f-96d3-68e071a9fbec",
-          "level": 2,
-          "effect": "<p>The effect of applying [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to all enemies around Faye with [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] is changed as follows: Applies <span style=\"color: rgb(243, 109, 28);\">4 stacks</span><span> of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to all enemy units with stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], applies an equal number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to them. At the end of Faye's action, triggers all stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] but does not expend the stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a].</span></p>",
-          "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/d8cd76a8bdea66b410aeb9d78034b409.webp",
-          "createdAt": "2025-09-24T04:09:15.655Z",
-          "updatedAt": "2025-10-14T07:06:16.684Z",
-          "vertebraeName": "No Survivors Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "865fbb6a-4054-409f-96d3-68e071a9fbec",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to all enemy units on the field. If an enemy unit holds [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye additionally applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b]. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.<br>If the enemy target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] from the target to increase the damage that the target takes from this attack by <span style=\"color: rgb(243, 109, 28);\">120%</span>. At the end of Faye's action, triggers effects of all stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] but does not expend the stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a].</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "865fbb6a-4054-409f-96d3-68e071a9fbec",
+            "level": 2,
+            "effect": "<p>The effect of applying [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to all enemies around Faye with [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] is changed as follows: Applies <span style=\"color: rgb(243, 109, 28);\">4 stacks</span><span> of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to all enemy units with stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], applies an equal number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to them. At the end of Faye's action, triggers all stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] but does not expend the stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a].</span></p>",
+            "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/d8cd76a8bdea66b410aeb9d78034b409.webp",
+            "createdAt": "2025-09-24T04:09:15.655Z",
+            "updatedAt": "2025-10-14T07:06:16.684Z",
+            "vertebraeName": "No Survivors Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "24f5c065-9edb-4f4d-b9da-8a40fd56f6e6",
-          "level": 3,
-          "effect": "<p>The effects applied when the target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] is changed as follows:<br>Expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] that the enemy target holds, damage taken from this attack is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">160%</span>. <br>Each stack of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] increase's Faye's critical rate for this attack by <span style=\"color: rgb(243, 109, 28);\">5%</span> and critical damage for this attack by <span style=\"color: rgb(243, 109, 28);\">2%</span>.</p>",
-          "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/d8cd76a8bdea66b410aeb9d78034b409.webp",
-          "createdAt": "2025-09-24T04:12:44.535Z",
-          "updatedAt": "2025-10-14T07:06:17.038Z",
-          "vertebraeName": "No Survivors Lv.3"
+        "level3": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "24f5c065-9edb-4f4d-b9da-8a40fd56f6e6",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to all enemy units on the field. If an enemy unit holds [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye additionally applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b]. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack.<br>If the enemy target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b].<br>For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] that the enemy target holds, damage taken from this attack is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">160%</span>.<br>Each stack of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] increases Faye's critical rate for this attack by <span style=\"color: rgb(243, 109, 28);\">5%</span> and critical damage for this attack by <span style=\"color: rgb(243, 109, 28);\">2%</span>. At the end of Faye's action, triggers effects of all stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] but does not expend the stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a].</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "24f5c065-9edb-4f4d-b9da-8a40fd56f6e6",
+            "level": 3,
+            "effect": "<p>The effects applied when the target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] is changed as follows:<br>Expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] that the enemy target holds, damage taken from this attack is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">160%</span>. <br>Each stack of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] increase's Faye's critical rate for this attack by <span style=\"color: rgb(243, 109, 28);\">5%</span> and critical damage for this attack by <span style=\"color: rgb(243, 109, 28);\">2%</span>.</p>",
+            "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/d8cd76a8bdea66b410aeb9d78034b409.webp",
+            "createdAt": "2025-09-24T04:12:44.535Z",
+            "updatedAt": "2025-10-14T07:06:17.038Z",
+            "vertebraeName": "No Survivors Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -452,28 +478,6 @@
         "createdAt": "2025-09-25T23:43:56.544Z",
         "updatedAt": "2025-09-25T23:43:56.544Z",
         "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "dollImages": [
-            {
-              "id": "dc6a9b1e-fa62-44ec-afb6-1b5f37ab4da6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/faye/chibi-eb7e24370c049984df901c43c3adab80.webp",
-              "createdAt": "2025-09-25T23:42:46.548Z",
-              "updatedAt": "2025-09-25T23:42:46.548Z"
-            }
-          ],
-          "searchTags": [
-            "CZ75"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - The Line Between Life and Death",
         "shortId": "a12"
@@ -497,76 +501,32 @@
         "createdAt": "2025-09-24T03:36:52.672Z",
         "updatedAt": "2025-09-26T00:49:16.482Z",
         "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "dollImages": [
-            {
-              "id": "dc6a9b1e-fa62-44ec-afb6-1b5f37ab4da6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/faye/chibi-eb7e24370c049984df901c43c3adab80.webp",
-              "createdAt": "2025-09-25T23:42:46.548Z",
-              "updatedAt": "2025-09-25T23:42:46.548Z"
-            }
-          ],
-          "searchTags": [
-            "CZ75"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Holmgang",
         "shortId": "c12"
       },
       {
         "id": "a730e6c3-bcd4-47cc-9a2e-4d20c018587e",
-    "keyTitle": "Unstoppable Fighting Spirit",
-    "keyType": "Expansion Key",
-    "keyNumber": 1,
-    "level": 60,
-    "effect": "<p>When dealing damage against enemy targets afflicted with [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a], ignores <span style=\"color: rgb(243, 109, 28);\">50%</span> of the target's defense and increase attack by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p><p>After using the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">No Survivors</span>, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b].</p><p>After throwing a Tomahawk or using Axe Cleave, inflicts [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to targets hit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: \"throwing a Tomahawk\" and \"Axe Cleave\" are parts of her passive skill Tomahawk Combo</span></p>",
-    "materialsType": "items",
-    "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
-    "attributeName1": null,
-    "attributeValue1": null,
-    "attributeName2": null,
-    "attributeValue2": null,
-    "attributeName3": null,
-    "attributeValue3": null,
-    "regionTag": "en",
-    "imageUrl": "https://cdn.dandegate.net/keys/relentless-fighting-spirit/1c2d60aa0a6fadedfbd1cef7a6e43ace4dcc6cd1f1128dd53d599a29f7f1f6f1.webp",
-    "createdAt": "2025-10-26T14:43:04.709Z",
-    "updatedAt": "2026-04-16T05:53:08.527Z",
-    "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-    "doll": {
-        "id": "69acc184-793f-43be-b943-7d83766b35c8",
-        "name": "Faye",
-        "rarity": "Elite",
-        "preview": false,
-        "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-        "createdAt": "2025-09-24T02:15:43.314Z",
+        "keyTitle": "Unstoppable Fighting Spirit",
+        "keyType": "Expansion Key",
+        "keyNumber": 1,
+        "level": 60,
+        "effect": "<p>When dealing damage against enemy targets afflicted with [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a], ignores <span style=\"color: rgb(243, 109, 28);\">50%</span> of the target's defense and increase attack by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p><p>After using the Ultimate skill <span style=\"color: rgb(34, 139, 230);\">No Survivors</span>, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b].</p><p>After throwing a Tomahawk or using Axe Cleave, inflicts [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to targets hit for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: \"throwing a Tomahawk\" and \"Axe Cleave\" are parts of her passive skill Tomahawk Combo</span></p>",
+        "materialsType": "items",
+        "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
+        "attributeName1": null,
+        "attributeValue1": null,
+        "attributeName2": null,
+        "attributeValue2": null,
+        "attributeName3": null,
+        "attributeValue3": null,
         "regionTag": "en",
-        "updatedAt": "2025-11-14T07:29:33.393Z",
-        "dollImages": [
-            {
-                "id": "dc6a9b1e-fa62-44ec-afb6-1b5f37ab4da6",
-                "category": "Chibi",
-                "imageUrl": "https://cdn.dandegate.net/dolls/faye/chibi-eb7e24370c049984df901c43c3adab80.webp",
-                "createdAt": "2025-09-25T23:42:46.548Z",
-                "updatedAt": "2025-09-25T23:42:46.548Z"
-            }
-        ],
-        "searchTags": [
-            "CZ75"
-        ]
-    },
-    "searchTags": [],
-    "displayTitle": "Expansion Key - Unstoppable Fighting Spirit",
+        "imageUrl": "https://cdn.dandegate.net/keys/relentless-fighting-spirit/1c2d60aa0a6fadedfbd1cef7a6e43ace4dcc6cd1f1128dd53d599a29f7f1f6f1.webp",
+        "createdAt": "2025-10-26T14:43:04.709Z",
+        "updatedAt": "2026-04-16T05:53:08.527Z",
+        "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
+        "searchTags": [],
+        "displayTitle": "Expansion Key - Unstoppable Fighting Spirit",
         "shortId": "k1"
       },
       {
@@ -589,28 +549,6 @@
         "createdAt": "2025-09-24T03:29:10.132Z",
         "updatedAt": "2025-10-14T07:06:43.030Z",
         "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "dollImages": [
-            {
-              "id": "dc6a9b1e-fa62-44ec-afb6-1b5f37ab4da6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/faye/chibi-eb7e24370c049984df901c43c3adab80.webp",
-              "createdAt": "2025-09-25T23:42:46.548Z",
-              "updatedAt": "2025-09-25T23:42:46.548Z"
-            }
-          ],
-          "searchTags": [
-            "CZ75"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Tracking by Scent",
         "shortId": "k2"
@@ -635,28 +573,6 @@
         "createdAt": "2025-09-24T03:30:11.026Z",
         "updatedAt": "2025-09-24T03:30:11.026Z",
         "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "dollImages": [
-            {
-              "id": "dc6a9b1e-fa62-44ec-afb6-1b5f37ab4da6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/faye/chibi-eb7e24370c049984df901c43c3adab80.webp",
-              "createdAt": "2025-09-25T23:42:46.548Z",
-              "updatedAt": "2025-09-25T23:42:46.548Z"
-            }
-          ],
-          "searchTags": [
-            "CZ75"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - All-In Slash",
         "shortId": "k3"
@@ -681,28 +597,6 @@
         "createdAt": "2025-09-24T03:30:56.066Z",
         "updatedAt": "2025-09-27T00:25:12.820Z",
         "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "dollImages": [
-            {
-              "id": "dc6a9b1e-fa62-44ec-afb6-1b5f37ab4da6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/faye/chibi-eb7e24370c049984df901c43c3adab80.webp",
-              "createdAt": "2025-09-25T23:42:46.548Z",
-              "updatedAt": "2025-09-25T23:42:46.548Z"
-            }
-          ],
-          "searchTags": [
-            "CZ75"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Rescue Response Supplies",
         "shortId": "k4"
@@ -727,28 +621,6 @@
         "createdAt": "2025-09-24T03:31:53.396Z",
         "updatedAt": "2025-09-24T03:31:53.396Z",
         "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "dollImages": [
-            {
-              "id": "dc6a9b1e-fa62-44ec-afb6-1b5f37ab4da6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/faye/chibi-eb7e24370c049984df901c43c3adab80.webp",
-              "createdAt": "2025-09-25T23:42:46.548Z",
-              "updatedAt": "2025-09-25T23:42:46.548Z"
-            }
-          ],
-          "searchTags": [
-            "CZ75"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Emergency Plans",
         "shortId": "k5"
@@ -773,28 +645,6 @@
         "createdAt": "2025-09-24T03:33:08.696Z",
         "updatedAt": "2025-10-14T07:06:43.723Z",
         "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "dollImages": [
-            {
-              "id": "dc6a9b1e-fa62-44ec-afb6-1b5f37ab4da6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/faye/chibi-eb7e24370c049984df901c43c3adab80.webp",
-              "createdAt": "2025-09-25T23:42:46.548Z",
-              "updatedAt": "2025-09-25T23:42:46.548Z"
-            }
-          ],
-          "searchTags": [
-            "CZ75"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Crisis Protection",
         "shortId": "k6"
@@ -819,28 +669,6 @@
         "createdAt": "2025-09-24T03:35:39.014Z",
         "updatedAt": "2025-10-14T07:06:43.551Z",
         "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "dollImages": [
-            {
-              "id": "dc6a9b1e-fa62-44ec-afb6-1b5f37ab4da6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/faye/chibi-eb7e24370c049984df901c43c3adab80.webp",
-              "createdAt": "2025-09-25T23:42:46.548Z",
-              "updatedAt": "2025-09-25T23:42:46.548Z"
-            }
-          ],
-          "searchTags": [
-            "CZ75"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - In the Fracas",
         "shortId": "k7"
@@ -857,68 +685,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/2e0794f26832966bbe58976c3633768d.webp",
         "createdAt": "2025-09-24T04:04:27.146Z",
         "updatedAt": "2025-10-14T07:06:15.631Z",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "A Doll whose appearance contrasts greatly with her personality. Small in stature yet imposing, she carries a gun in one hand and an axe in another, creating a presence that would scare off most people. However, if you are willing to look pass her appearance and get to understand her better, you will find that, behind her intolerant expression and irritable tone lies a delicate, sensitive soul. She too, is awaiting your warmth.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Light Ammo\",\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "c4d649d2-a253-41ce-acf0-23145e6eb2b1",
             "name": "Tomahawk Combo",
-            "phase": null,
             "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/2e0794f26832966bbe58976c3633768d.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-24T03:39:40.137Z",
-            "skillTags": [
-              "Passive",
-              "Debuff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-04T19:57:02.860Z",
-            "description": "<p>When attacking, Faye ignores an amount of the target's defense equal to (<span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> + (<span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) of Max HP.<br><br>At the end of an enemy unit's action, if it is within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, Faye throws a tomahawk at it, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the enemy is within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, Faye performs an axe whirl instead; gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> a turn.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>When attacking, Faye ignores an amount of the target's defense equal to <span style=\"color: rgb(243, 109, 28);\">4%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> + <span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks of Max HP.<br><br>At the end of an enemy unit's action, if it is within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, Faye throws a tomahawk at it, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the enemy is within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, Faye performs an axe whirl instead; gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> a turn.<br><br>At the end of an enemy unit's action, if it holds <span style=\"color: rgb(243, 109, 28);\">2</span> <span style=\"color: rgb(243, 109, 28);\">or more</span> <span style=\"color: rgb(243, 109, 28);\">stacks </span>of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to the nearest enemy unit.</p>",
-            "descriptionLevel3": "<p>When attacking, Faye ignores an amount of the target's defense equal to (<span style=\"color: rgb(243, 109, 28);\">4%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> + (<span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) of Max HP.<br><br>At the end of an enemy unit's action, if it is within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, Faye throws a tomahawk at it, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the enemy is within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, Faye performs an axe whirl instead; gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> a turn.<br><br>At the end of an enemy unit's action, if it holds <span style=\"color: rgb(243, 109, 28);\">2</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to the nearest enemy unit.<br><br>At the end of Faye's action, she performs an axe whirl and applies [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to all enemy units within the area for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.<br>Damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "abac12df-3035-496f-ad8a-092ff46aaf0a",
-            "vertebraeUpgradeIdLevel3": "8cedea1d-3dda-4e0e-a72c-129031b476ab"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "04ec9f7c-ca2b-4a19-8508-888f5b88cfe1",
@@ -930,69 +708,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/e56300f1a9ff51e47fff2cf06d4146b8.webp",
         "createdAt": "2025-09-24T04:05:59.963Z",
         "updatedAt": "2025-10-14T07:06:16.339Z",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "A Doll whose appearance contrasts greatly with her personality. Small in stature yet imposing, she carries a gun in one hand and an axe in another, creating a presence that would scare off most people. However, if you are willing to look pass her appearance and get to understand her better, you will find that, behind her intolerant expression and irritable tone lies a delicate, sensitive soul. She too, is awaiting your warmth.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Light Ammo\",\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "1c30527e-2a82-4a0e-9a8d-68040770afc3",
             "name": "Fissioned Firelight",
-            "phase": "Physical",
             "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-            "cooldown": 2,
-            "imageUrl": "https://cdn.dandegate.net/skills/e56300f1a9ff51e47fff2cf06d4146b8.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-09-24T03:38:56.822Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-30T18:08:36.493Z",
-            "description": "<p>Faye gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 4,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Faye gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">140%</span> of attack.</p><p>If the enemy target holds <span style=\"color: rgb(243, 109, 28);\">4</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] after Faye uses this skill, Faye additionally applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the number of stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "04ec9f7c-ca2b-4a19-8508-888f5b88cfe1",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "8cedea1d-3dda-4e0e-a72c-129031b476ab",
@@ -1004,68 +731,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/2e0794f26832966bbe58976c3633768d.webp",
         "createdAt": "2025-09-24T04:07:13.961Z",
         "updatedAt": "2025-10-14T07:06:16.513Z",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "A Doll whose appearance contrasts greatly with her personality. Small in stature yet imposing, she carries a gun in one hand and an axe in another, creating a presence that would scare off most people. However, if you are willing to look pass her appearance and get to understand her better, you will find that, behind her intolerant expression and irritable tone lies a delicate, sensitive soul. She too, is awaiting your warmth.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Light Ammo\",\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "c4d649d2-a253-41ce-acf0-23145e6eb2b1",
             "name": "Tomahawk Combo",
-            "phase": null,
             "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/2e0794f26832966bbe58976c3633768d.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-24T03:39:40.137Z",
-            "skillTags": [
-              "Passive",
-              "Debuff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-04T19:57:02.860Z",
-            "description": "<p>When attacking, Faye ignores an amount of the target's defense equal to (<span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> + (<span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) of Max HP.<br><br>At the end of an enemy unit's action, if it is within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, Faye throws a tomahawk at it, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the enemy is within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, Faye performs an axe whirl instead; gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> a turn.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>When attacking, Faye ignores an amount of the target's defense equal to <span style=\"color: rgb(243, 109, 28);\">4%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> + <span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks of Max HP.<br><br>At the end of an enemy unit's action, if it is within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, Faye throws a tomahawk at it, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the enemy is within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, Faye performs an axe whirl instead; gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> a turn.<br><br>At the end of an enemy unit's action, if it holds <span style=\"color: rgb(243, 109, 28);\">2</span> <span style=\"color: rgb(243, 109, 28);\">or more</span> <span style=\"color: rgb(243, 109, 28);\">stacks </span>of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to the nearest enemy unit.</p>",
-            "descriptionLevel3": "<p>When attacking, Faye ignores an amount of the target's defense equal to (<span style=\"color: rgb(243, 109, 28);\">4%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> + (<span style=\"color: rgb(243, 109, 28);\">2%×</span> number of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] stacks) of Max HP.<br><br>At the end of an enemy unit's action, if it is within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, Faye throws a tomahawk at it, gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to it, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. If the enemy is within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, Faye performs an axe whirl instead; gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index, applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> a turn.<br><br>At the end of an enemy unit's action, if it holds <span style=\"color: rgb(243, 109, 28);\">2</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye applies <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to the nearest enemy unit.<br><br>At the end of Faye's action, she performs an axe whirl and applies [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] to all enemy units within the area for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.<br>Damage dealt by this attack is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "abac12df-3035-496f-ad8a-092ff46aaf0a",
-            "vertebraeUpgradeIdLevel3": "8cedea1d-3dda-4e0e-a72c-129031b476ab"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "865fbb6a-4054-409f-96d3-68e071a9fbec",
@@ -1077,69 +754,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/d8cd76a8bdea66b410aeb9d78034b409.webp",
         "createdAt": "2025-09-24T04:09:15.655Z",
         "updatedAt": "2025-10-14T07:06:16.684Z",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "A Doll whose appearance contrasts greatly with her personality. Small in stature yet imposing, she carries a gun in one hand and an axe in another, creating a presence that would scare off most people. However, if you are willing to look pass her appearance and get to understand her better, you will find that, behind her intolerant expression and irritable tone lies a delicate, sensitive soul. She too, is awaiting your warmth.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Light Ammo\",\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "1186f026-dd60-4f81-93d3-013871f848d0",
             "name": "No Survivors",
-            "phase": "Physical",
             "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/d8cd76a8bdea66b410aeb9d78034b409.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-09-24T03:39:21.629Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-04T14:18:36.692Z",
-            "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. Applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemies holding [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.<br>If the target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] from the target to increase the damage that the target takes from this attack by <span style=\"color: rgb(243, 109, 28);\">120%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to all enemy units on the field. If an enemy unit holds [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye additionally applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b]. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.<br>If the enemy target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] from the target to increase the damage that the target takes from this attack by <span style=\"color: rgb(243, 109, 28);\">120%</span>. At the end of Faye's action, triggers effects of all stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] but does not expend the stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a].</p>",
-            "descriptionLevel3": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to all enemy units on the field. If an enemy unit holds [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye additionally applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b]. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack.<br>If the enemy target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b].<br>For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] that the enemy target holds, damage taken from this attack is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">160%</span>.<br>Each stack of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] increases Faye's critical rate for this attack by <span style=\"color: rgb(243, 109, 28);\">5%</span> and critical damage for this attack by <span style=\"color: rgb(243, 109, 28);\">2%</span>. At the end of Faye's action, triggers effects of all stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] but does not expend the stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a].</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "865fbb6a-4054-409f-96d3-68e071a9fbec",
-            "vertebraeUpgradeIdLevel3": "24f5c065-9edb-4f4d-b9da-8a40fd56f6e6"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "d60a817f-c4da-4b16-9aec-aa9b27abfdbf",
@@ -1151,69 +777,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/38b2cc0ba9a58f9ae277ae67fb5109b2.webp",
         "createdAt": "2025-09-24T04:10:30.496Z",
         "updatedAt": "2025-10-14T07:06:16.862Z",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "A Doll whose appearance contrasts greatly with her personality. Small in stature yet imposing, she carries a gun in one hand and an axe in another, creating a presence that would scare off most people. However, if you are willing to look pass her appearance and get to understand her better, you will find that, behind her intolerant expression and irritable tone lies a delicate, sensitive soul. She too, is awaiting your warmth.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Light Ammo\",\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "6d60f5e2-8ea0-47b3-b185-dd6a07f9dbc9",
             "name": "Ruinous Whirl",
-            "phase": "Physical",
             "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/38b2cc0ba9a58f9ae277ae67fb5109b2.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Melee\"]",
-            "createdAt": "2025-09-24T03:38:39.284Z",
-            "skillTags": [
-              "Active",
-              "AoE",
-              "Debuff"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-14T07:07:09.276Z",
-            "description": "<p>Expends all Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, Faye applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, pulls them <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> toward self, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack, while also applying [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.<br>Faye gains <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef] and [effect:b612d113-bb5d-4b9e-b51f-fb757caef5c7] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ddcd62e1-68fc-4ee4-a66a-2ddb41846844",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 1,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"87f2864b-eaf2-4e0d-9c40-695436b5fb0e\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Expends all Confectance Index. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index expended, Faye applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, pulls them <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> toward self, and deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack, while also applying [effect:42d85a9b-2025-4f14-b4c2-df25f9c11bd3] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.<br>Faye gains <span style=\"color: rgb(243, 109, 28);\">8 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef] and [effect:b612d113-bb5d-4b9e-b51f-fb757caef5c7] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. After this skill is used, Faye cleanses all defense and movement debuffs on self.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "d60a817f-c4da-4b16-9aec-aa9b27abfdbf",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "24f5c065-9edb-4f4d-b9da-8a40fd56f6e6",
@@ -1225,69 +800,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/d8cd76a8bdea66b410aeb9d78034b409.webp",
         "createdAt": "2025-09-24T04:12:44.535Z",
         "updatedAt": "2025-10-14T07:06:17.038Z",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "class": "Vanguard",
-          "phase": "Physical",
-          "rarity": "Elite",
-          "effects": "A Doll whose appearance contrasts greatly with her personality. Small in stature yet imposing, she carries a gun in one hand and an axe in another, creating a presence that would scare off most people. However, if you are willing to look pass her appearance and get to understand her better, you will find that, behind her intolerant expression and irritable tone lies a delicate, sensitive soul. She too, is awaiting your warmth.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Light Ammo\",\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "1186f026-dd60-4f81-93d3-013871f848d0",
             "name": "No Survivors",
-            "phase": "Physical",
             "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/d8cd76a8bdea66b410aeb9d78034b409.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-09-24T03:39:21.629Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-04T14:18:36.692Z",
-            "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. Applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] to all enemies holding [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.<br>If the target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] from the target to increase the damage that the target takes from this attack by <span style=\"color: rgb(243, 109, 28);\">120%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to all enemy units on the field. If an enemy unit holds [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye additionally applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b]. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack to it.<br>If the enemy target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] from the target to increase the damage that the target takes from this attack by <span style=\"color: rgb(243, 109, 28);\">120%</span>. At the end of Faye's action, triggers effects of all stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] but does not expend the stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a].</p>",
-            "descriptionLevel3": "<p>Applies <span style=\"color: rgb(243, 109, 28);\">4 stacks</span> of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] to all enemy units on the field. If an enemy unit holds [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], Faye additionally applies a number of stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] equal to the stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b]. Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack.<br>If the enemy target holds <span style=\"color: rgb(243, 109, 28);\">6</span> or more stacks of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b], expends <span style=\"color: rgb(243, 109, 28);\">6 stacks</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b].<br>For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] that the enemy target holds, damage taken from this attack is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">160%</span>.<br>Each stack of [effect:f502fa4a-a0db-4f3a-8b8e-37b65345be0b] increases Faye's critical rate for this attack by <span style=\"color: rgb(243, 109, 28);\">5%</span> and critical damage for this attack by <span style=\"color: rgb(243, 109, 28);\">2%</span>. At the end of Faye's action, triggers effects of all stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a] but does not expend the stacks of [effect:8edd061d-c69c-4418-abda-c131b1f0ac1a].</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "865fbb6a-4054-409f-96d3-68e071a9fbec",
-            "vertebraeUpgradeIdLevel3": "24f5c065-9edb-4f4d-b9da-8a40fd56f6e6"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1411,32 +935,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-24T03:24:52.411Z",
-        "updatedAt": "2025-11-01T22:35:23.975Z",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "dollImages": [
-            {
-              "id": "dc6a9b1e-fa62-44ec-afb6-1b5f37ab4da6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/faye/chibi-eb7e24370c049984df901c43c3adab80.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "CZ75"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-01T22:35:23.975Z"
       },
       {
         "id": "8edd061d-c69c-4418-abda-c131b1f0ac1a",
@@ -1449,32 +948,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-24T03:26:31.428Z",
-        "updatedAt": "2025-11-02T02:30:13.445Z",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "dollImages": [
-            {
-              "id": "dc6a9b1e-fa62-44ec-afb6-1b5f37ab4da6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/faye/chibi-eb7e24370c049984df901c43c3adab80.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "CZ75"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-02T02:30:13.445Z"
       },
       {
         "id": "f502fa4a-a0db-4f3a-8b8e-37b65345be0b",
@@ -1488,32 +962,34 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-24T03:24:09.092Z",
-        "updatedAt": "2025-11-03T15:31:03.307Z",
-        "doll": {
-          "id": "69acc184-793f-43be-b943-7d83766b35c8",
-          "name": "Faye",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/faye/f023973f2582543df9c0f30ef6c73402.webp",
-          "createdAt": "2025-09-24T02:15:43.314Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:29:33.393Z",
-          "dollImages": [
-            {
-              "id": "dc6a9b1e-fa62-44ec-afb6-1b5f37ab4da6",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/faye/chibi-eb7e24370c049984df901c43c3adab80.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "CZ75"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T15:31:03.307Z"
+      },
+      {
+        "id": "42d85a9b-2025-4f14-b4c2-df25f9c11bd3",
+        "effectName": "Movement Denied",
+        "effectDetails": "<p>Unable to move. Considered a movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Movement"
+        ],
+        "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:25:58.311Z",
+        "updatedAt": "2025-11-03T05:59:35.540Z"
+      },
+      {
+        "id": "1b83587d-eddc-4abd-b90c-cb0aa4b2cfef",
+        "effectName": "Additional Movement",
+        "effectDetails": "<p>Can move once, but cannot use any other commands.</p>",
+        "effectTags": [
+          "Movement"
+        ],
+        "dollId": "69acc184-793f-43be-b943-7d83766b35c8",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:30:54.242Z",
+        "updatedAt": "2025-11-06T06:30:55.814Z"
       }
     ],
     "shortId": "d12"

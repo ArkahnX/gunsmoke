@@ -78,395 +78,389 @@
       {
         "id": "3a1f59c8-0dcf-47e4-97b2-400f73b37405",
         "name": "Instantaneous Slash",
-        "description": "<p>Selects 1 target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, dealing melee physical damage equal to<span style=\"color: rgb(243, 109, 28);\"> 80%</span> of attack to them.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Melee\"]",
-        "stabilityDamage": 1,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/1e1c7b26d5b7072fd8683a705ac31d4f.webp",
         "createdAt": "2025-09-21T22:23:47.586Z",
         "updatedAt": "2025-09-21T23:17:22.339Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
         "summonId": null,
-        "rangeMapId": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted",
-          "Melee"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758496470789-1 d.webp",
-          "createdAt": "2025-09-21T23:14:30.847Z",
-          "updatedAt": "2025-09-26T01:43:37.808Z",
-          "rangeValue": "1",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, dealing melee physical damage equal to<span style=\"color: rgb(243, 109, 28);\"> 80%</span> of attack to them.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Melee\"]",
+          "stabilityDamage": 1,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted",
+            "Melee"
+          ],
+          "rangeMap": {
+            "id": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758496470789-1 d.webp",
+            "createdAt": "2025-09-21T23:14:30.847Z",
+            "updatedAt": "2025-09-26T01:43:37.808Z",
+            "rangeValue": "1",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "62528541-3bb4-434d-9f4c-532c08591bd4",
         "name": "Embers",
-        "description": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span>. At the end of the action, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the closest <span style=\"color: rgb(243, 109, 28);\">2</span> enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/f8f31fbeedff0b62dddc8ad3ede93d3d.webp",
         "createdAt": "2025-09-21T22:51:22.316Z",
         "updatedAt": "2025-11-05T19:53:16.485Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
         "summonId": null,
-        "rangeMapId": "03abf5a0-be53-463d-95a9-c1cab80bb8ac",
-        "rangeMapIdLevel2": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-        "rangeMapIdLevel3": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-        "vertebraeUpgradeIdLevel2": "6d17439e-3bc0-4914-9a2d-ea7f93077395",
-        "vertebraeUpgradeIdLevel3": "9b3866c1-2d01-45fc-b921-5a5226abfd2d",
-        "skillTags": [
-          "Passive",
-          "Debuff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span>. At the end of the action, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the closest <span style=\"color: rgb(243, 109, 28);\">2</span> enemy targets within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "descriptionLevel3": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span> and critical damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>. At the end of the action, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the closest <span style=\"color: rgb(243, 109, 28);\">2</span> enemy targets within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "03abf5a0-be53-463d-95a9-c1cab80bb8ac",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758140661112-rSe5.webp",
-          "createdAt": "2025-09-17T20:24:21.205Z",
-          "updatedAt": "2025-09-17T20:24:21.205Z",
-          "rangeValue": "5",
-          "effectiveArea": "--"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span>. At the end of the action, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the closest <span style=\"color: rgb(243, 109, 28);\">2</span> enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "03abf5a0-be53-463d-95a9-c1cab80bb8ac",
+          "skillTags": [
+            "Passive",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "03abf5a0-be53-463d-95a9-c1cab80bb8ac",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758140661112-rSe5.webp",
+            "createdAt": "2025-09-17T20:24:21.205Z",
+            "updatedAt": "2025-09-17T20:24:21.205Z",
+            "rangeValue": "5",
+            "effectiveArea": "--"
+          }
         },
-        "rangeMapLevel2": {
-          "id": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743399114-rSe7.webp",
-          "createdAt": "2025-09-13T06:03:19.163Z",
-          "updatedAt": "2025-09-13T06:03:19.163Z",
-          "rangeValue": "Self",
-          "effectiveArea": "7"
+        "level2": {
+          "rangeMapId": "11b6a136-4748-4d13-97f7-5825ef50eae1",
+          "vertebraeUpgradeId": "6d17439e-3bc0-4914-9a2d-ea7f93077395",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span>. At the end of the action, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the closest <span style=\"color: rgb(243, 109, 28);\">2</span> enemy targets within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Debuff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "11b6a136-4748-4d13-97f7-5825ef50eae1",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743399114-rSe7.webp",
+            "createdAt": "2025-09-13T06:03:19.163Z",
+            "updatedAt": "2025-09-13T06:03:19.163Z",
+            "rangeValue": "Self",
+            "effectiveArea": "7"
+          },
+          "vertebraeUpgrade": {
+            "id": "6d17439e-3bc0-4914-9a2d-ea7f93077395",
+            "level": 2,
+            "effect": "<p>Range increases by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p>",
+            "dollId": "cc750023-c814-470d-86a4-789e0a654979",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/f8f31fbeedff0b62dddc8ad3ede93d3d.webp",
+            "createdAt": "2025-09-21T22:57:41.403Z",
+            "updatedAt": "2025-09-21T22:57:41.403Z",
+            "vertebraeName": "Embers Lv.2"
+          }
         },
-        "rangeMapLevel3": {
-          "id": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743399114-rSe7.webp",
-          "createdAt": "2025-09-13T06:03:19.163Z",
-          "updatedAt": "2025-09-13T06:03:19.163Z",
-          "rangeValue": "Self",
-          "effectiveArea": "7"
+        "level3": {
+          "rangeMapId": "11b6a136-4748-4d13-97f7-5825ef50eae1",
+          "vertebraeUpgradeId": "9b3866c1-2d01-45fc-b921-5a5226abfd2d",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span> and critical damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>. At the end of the action, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the closest <span style=\"color: rgb(243, 109, 28);\">2</span> enemy targets within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Debuff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "11b6a136-4748-4d13-97f7-5825ef50eae1",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743399114-rSe7.webp",
+            "createdAt": "2025-09-13T06:03:19.163Z",
+            "updatedAt": "2025-09-13T06:03:19.163Z",
+            "rangeValue": "Self",
+            "effectiveArea": "7"
+          },
+          "vertebraeUpgrade": {
+            "id": "9b3866c1-2d01-45fc-b921-5a5226abfd2d",
+            "level": 3,
+            "effect": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases critical damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+            "dollId": "cc750023-c814-470d-86a4-789e0a654979",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/f8f31fbeedff0b62dddc8ad3ede93d3d.webp",
+            "createdAt": "2025-09-21T22:59:33.049Z",
+            "updatedAt": "2025-10-14T07:06:05.646Z",
+            "vertebraeName": "Embers Lv.3"
+          }
         },
-        "vertebraeUpgradeLevel2": {
-          "id": "6d17439e-3bc0-4914-9a2d-ea7f93077395",
-          "level": 2,
-          "effect": "<p>Range increases by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p>",
-          "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/f8f31fbeedff0b62dddc8ad3ede93d3d.webp",
-          "createdAt": "2025-09-21T22:57:41.403Z",
-          "updatedAt": "2025-09-21T22:57:41.403Z",
-          "vertebraeName": "Embers Lv.2"
-        },
-        "vertebraeUpgradeLevel3": {
-          "id": "9b3866c1-2d01-45fc-b921-5a5226abfd2d",
-          "level": 3,
-          "effect": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases critical damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
-          "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/f8f31fbeedff0b62dddc8ad3ede93d3d.webp",
-          "createdAt": "2025-09-21T22:59:33.049Z",
-          "updatedAt": "2025-10-14T07:06:05.646Z",
-          "vertebraeName": "Embers Lv.3"
-        },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "bcf70138-671a-4824-bc56-399025f302f4",
         "name": "Crushing Revolution",
-        "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> and deal AoE melee physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around it. Gain <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index. If there are no other allied units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> after attacking, gain <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Melee\"]",
-        "stabilityDamage": 1,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/a5b5882ab57b9c2b737ffe7b6411aa0a.webp",
         "createdAt": "2025-09-21T22:30:20.833Z",
         "updatedAt": "2025-10-14T07:07:02.609Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
         "summonId": null,
-        "rangeMapId": "dde95128-6319-4ada-a511-9e9ec380bf80",
-        "rangeMapIdLevel2": "dde95128-6319-4ada-a511-9e9ec380bf80",
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "379dd14a-5216-4f9e-97d6-6310ee0afb66",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "AoE",
-          "Melee"
-        ],
         "keyUpgradesData": "[\"8ae10220-8963-47ed-95c1-dfa42cba2210\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[\"Melee\"]",
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> and deal AoE melee physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around it. Gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If the target is in Stability Break, ignore <span style=\"color: rgb(243, 109, 28);\">30%</span> of its defense. If there are no other allied units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> after attacking, gain <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "dde95128-6319-4ada-a511-9e9ec380bf80",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758496449898-1 3x3.webp",
-          "createdAt": "2025-09-21T23:14:10.009Z",
-          "updatedAt": "2025-09-21T23:14:10.009Z",
-          "rangeValue": "1",
-          "effectiveArea": "3x3"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> and deal AoE melee physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around it. Gain <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index. If there are no other allied units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> after attacking, gain <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Melee\"]",
+          "stabilityDamage": 1,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "dde95128-6319-4ada-a511-9e9ec380bf80",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Melee"
+          ],
+          "rangeMap": {
+            "id": "dde95128-6319-4ada-a511-9e9ec380bf80",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758496449898-1 3x3.webp",
+            "createdAt": "2025-09-21T23:14:10.009Z",
+            "updatedAt": "2025-09-21T23:14:10.009Z",
+            "rangeValue": "1",
+            "effectiveArea": "3x3"
+          }
         },
-        "rangeMapLevel2": {
-          "id": "dde95128-6319-4ada-a511-9e9ec380bf80",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758496449898-1 3x3.webp",
-          "createdAt": "2025-09-21T23:14:10.009Z",
-          "updatedAt": "2025-09-21T23:14:10.009Z",
-          "rangeValue": "1",
-          "effectiveArea": "3x3"
+        "level2": {
+          "rangeMapId": "dde95128-6319-4ada-a511-9e9ec380bf80",
+          "vertebraeUpgradeId": "379dd14a-5216-4f9e-97d6-6310ee0afb66",
+          "ammoTypes": "[\"Melee\"]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> and deal AoE melee physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around it. Gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If the target is in Stability Break, ignore <span style=\"color: rgb(243, 109, 28);\">30%</span> of its defense. If there are no other allied units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> after attacking, gain <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Melee"
+          ],
+          "stabilityDamage": 1,
+          "rangeMap": {
+            "id": "dde95128-6319-4ada-a511-9e9ec380bf80",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758496449898-1 3x3.webp",
+            "createdAt": "2025-09-21T23:14:10.009Z",
+            "updatedAt": "2025-09-21T23:14:10.009Z",
+            "rangeValue": "1",
+            "effectiveArea": "3x3"
+          },
+          "vertebraeUpgrade": {
+            "id": "379dd14a-5216-4f9e-97d6-6310ee0afb66",
+            "level": 2,
+            "effect": "<p>If the target is under the effects of Stability Break, ignore <span style=\"color: rgb(243, 109, 28);\">30%</span> of its defense.</p>",
+            "dollId": "cc750023-c814-470d-86a4-789e0a654979",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/a5b5882ab57b9c2b737ffe7b6411aa0a.webp",
+            "createdAt": "2025-09-21T22:55:46.155Z",
+            "updatedAt": "2025-09-25T23:50:14.734Z",
+            "vertebraeName": "Crushing Revolution Lv.2"
+          }
         },
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "379dd14a-5216-4f9e-97d6-6310ee0afb66",
-          "level": 2,
-          "effect": "<p>If the target is under the effects of Stability Break, ignore <span style=\"color: rgb(243, 109, 28);\">30%</span> of its defense.</p>",
-          "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/a5b5882ab57b9c2b737ffe7b6411aa0a.webp",
-          "createdAt": "2025-09-21T22:55:46.155Z",
-          "updatedAt": "2025-09-25T23:50:14.734Z",
-          "vertebraeName": "Crushing Revolution Lv.2"
-        },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "9b1aa30e-1cd5-49d8-8c76-40ca170be833",
         "name": "Quenching Slash",
-        "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, apply [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, deal melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack, and gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. After the attack, return to the original position before the action.</p>",
-        "phase": "Burn",
-        "ammoTypes": "[\"Melee\"]",
-        "stabilityDamage": 2,
-        "cooldown": 3,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/e28ba47583b50dc2090ec91553c52238.webp",
         "createdAt": "2025-09-21T22:37:01.487Z",
         "updatedAt": "2025-10-14T07:07:07.497Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
         "summonId": null,
-        "rangeMapId": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
-        "rangeMapIdLevel2": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "754fae13-e06b-4635-a43c-476e5f9962c9",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Melee",
-          "Debuff"
-        ],
         "keyUpgradesData": "[\"5ef27a51-cfa7-4af0-bda4-8d7a690c41f5\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[\"Melee\"]",
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": 0,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": 3,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, apply [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, deal melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack, and gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. After the attack, return to the original position before the action.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": "Burn",
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[\"Active\",\"Targeted\",\"Melee\",\"Debuff\"]",
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": 2,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758496470789-1 d.webp",
-          "createdAt": "2025-09-21T23:14:30.847Z",
-          "updatedAt": "2025-09-26T01:43:37.808Z",
-          "rangeValue": "1",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, apply [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, deal melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack, and gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. After the attack, return to the original position before the action.</p>",
+          "phase": "Burn",
+          "ammoTypes": "[\"Melee\"]",
+          "stabilityDamage": 2,
+          "cooldown": 3,
+          "confectanceCost": null,
+          "rangeMapId": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Melee",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758496470789-1 d.webp",
+            "createdAt": "2025-09-21T23:14:30.847Z",
+            "updatedAt": "2025-09-26T01:43:37.808Z",
+            "rangeValue": "1",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": {
-          "id": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758496470789-1 d.webp",
-          "createdAt": "2025-09-21T23:14:30.847Z",
-          "updatedAt": "2025-09-26T01:43:37.808Z",
-          "rangeValue": "1",
-          "effectiveArea": "Target"
+        "level2": {
+          "rangeMapId": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
+          "vertebraeUpgradeId": "754fae13-e06b-4635-a43c-476e5f9962c9",
+          "ammoTypes": "[\"Melee\"]",
+          "confectanceCost": 0,
+          "cooldown": 3,
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, apply [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, deal melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack, and gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. After the attack, return to the original position before the action.</p>",
+          "phase": "Burn",
+          "skillTags": "[\"Active\",\"Targeted\",\"Melee\",\"Debuff\"]",
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758496470789-1 d.webp",
+            "createdAt": "2025-09-21T23:14:30.847Z",
+            "updatedAt": "2025-09-26T01:43:37.808Z",
+            "rangeValue": "1",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "754fae13-e06b-4635-a43c-476e5f9962c9",
+            "level": 2,
+            "effect": "<p>Damage multiplier increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+            "dollId": "cc750023-c814-470d-86a4-789e0a654979",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/e28ba47583b50dc2090ec91553c52238.webp",
+            "createdAt": "2025-09-21T22:56:22.325Z",
+            "updatedAt": "2025-09-25T23:50:18.595Z",
+            "vertebraeName": "Quenching Slash Lv.2"
+          }
         },
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "754fae13-e06b-4635-a43c-476e5f9962c9",
-          "level": 2,
-          "effect": "<p>Damage multiplier increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-          "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/e28ba47583b50dc2090ec91553c52238.webp",
-          "createdAt": "2025-09-21T22:56:22.325Z",
-          "updatedAt": "2025-09-25T23:50:18.595Z",
-          "vertebraeName": "Quenching Slash Lv.2"
-        },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "a65a4910-0c58-451d-92ce-8d0726d7fa56",
         "name": "Slaughter Sequence",
-        "description": "<p>Selects 1 direction and moves to the farthest tile within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the first enemy encountered. If the target is already inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], ignores their Cover damage reduction and gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
-        "phase": "Burn",
-        "ammoTypes": "[\"Melee\"]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": 4,
         "imageUrl": "https://cdn.dandegate.net/skills/3e83fc658d07582571f4b757bc78fe6b.webp",
         "createdAt": "2025-09-21T22:48:27.831Z",
         "updatedAt": "2025-11-05T19:55:17.423Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
         "summonId": null,
-        "rangeMapId": "9ccc6cf8-0f2f-46d7-8106-31507f649334",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "051640c1-084f-4003-952a-512dfee98948",
-        "vertebraeUpgradeIdLevel3": "1801004e-0042-43c9-a9dc-29ce84961755",
-        "skillTags": [
-          "Ultimate",
-          "Targeted",
-          "Melee"
-        ],
         "keyUpgradesData": "[\"a0ddf449-ecbb-422e-9add-ca89e631f5e6\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 direction and moves to the farthest tile within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing melee<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the first enemy encountered. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], ignores their Cover damage reduction and gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If an enemy is killed, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-        "descriptionLevel3": "<p>Selects 1 direction and moves to the farthest tile within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the first enemy encountered. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], ignores their Cover damage reduction, increases critical rate by <span style=\"color: rgb(243, 109, 28);\">100%</span> for this attack, and gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If the enemy is killed, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "9ccc6cf8-0f2f-46d7-8106-31507f649334",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758496489876-1 7.webp",
-          "createdAt": "2025-09-21T23:14:49.936Z",
-          "updatedAt": "2025-09-21T23:14:49.936Z",
-          "rangeValue": "1",
-          "effectiveArea": "7"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Selects 1 direction and moves to the farthest tile within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the first enemy encountered. If the target is already inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], ignores their Cover damage reduction and gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
+          "phase": "Burn",
+          "ammoTypes": "[\"Melee\"]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": 4,
+          "rangeMapId": "9ccc6cf8-0f2f-46d7-8106-31507f649334",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Melee"
+          ],
+          "rangeMap": {
+            "id": "9ccc6cf8-0f2f-46d7-8106-31507f649334",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758496489876-1 7.webp",
+            "createdAt": "2025-09-21T23:14:49.936Z",
+            "updatedAt": "2025-09-21T23:14:49.936Z",
+            "rangeValue": "1",
+            "effectiveArea": "7"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "051640c1-084f-4003-952a-512dfee98948",
-          "level": 2,
-          "effect": "<p>If this kills the target, gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-          "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/3e83fc658d07582571f4b757bc78fe6b.webp",
-          "createdAt": "2025-09-21T22:57:09.834Z",
-          "updatedAt": "2025-09-25T23:50:24.674Z",
-          "vertebraeName": "Slaughter Sequence Lv.2"
+        "level2": {
+          "rangeMapId": "9ccc6cf8-0f2f-46d7-8106-31507f649334",
+          "vertebraeUpgradeId": "051640c1-084f-4003-952a-512dfee98948",
+          "ammoTypes": "[\"Melee\"]",
+          "confectanceCost": 4,
+          "cooldown": null,
+          "description": "<p>Selects 1 direction and moves to the farthest tile within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing melee<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the first enemy encountered. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], ignores their Cover damage reduction and gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If an enemy is killed, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Melee"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "9ccc6cf8-0f2f-46d7-8106-31507f649334",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758496489876-1 7.webp",
+            "createdAt": "2025-09-21T23:14:49.936Z",
+            "updatedAt": "2025-09-21T23:14:49.936Z",
+            "rangeValue": "1",
+            "effectiveArea": "7"
+          },
+          "vertebraeUpgrade": {
+            "id": "051640c1-084f-4003-952a-512dfee98948",
+            "level": 2,
+            "effect": "<p>If this kills the target, gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+            "dollId": "cc750023-c814-470d-86a4-789e0a654979",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/3e83fc658d07582571f4b757bc78fe6b.webp",
+            "createdAt": "2025-09-21T22:57:09.834Z",
+            "updatedAt": "2025-09-25T23:50:24.674Z",
+            "vertebraeName": "Slaughter Sequence Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "1801004e-0042-43c9-a9dc-29ce84961755",
-          "level": 3,
-          "effect": "<p>If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases critical rate by <span style=\"color: rgb(243, 109, 28);\">100%</span>.</p>",
-          "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/3e83fc658d07582571f4b757bc78fe6b.webp",
-          "createdAt": "2025-09-21T22:58:40.739Z",
-          "updatedAt": "2025-10-14T07:06:06.346Z",
-          "vertebraeName": "Slaughter Sequence Lv.3"
+        "level3": {
+          "rangeMapId": "9ccc6cf8-0f2f-46d7-8106-31507f649334",
+          "vertebraeUpgradeId": "1801004e-0042-43c9-a9dc-29ce84961755",
+          "ammoTypes": "[\"Melee\"]",
+          "confectanceCost": 4,
+          "cooldown": null,
+          "description": "<p>Selects 1 direction and moves to the farthest tile within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the first enemy encountered. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], ignores their Cover damage reduction, increases critical rate by <span style=\"color: rgb(243, 109, 28);\">100%</span> for this attack, and gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If the enemy is killed, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
+          "phase": "Burn",
+          "skillTags": [
+            "Ultimate",
+            "Targeted",
+            "Melee"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "9ccc6cf8-0f2f-46d7-8106-31507f649334",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758496489876-1 7.webp",
+            "createdAt": "2025-09-21T23:14:49.936Z",
+            "updatedAt": "2025-09-21T23:14:49.936Z",
+            "rangeValue": "1",
+            "effectiveArea": "7"
+          },
+          "vertebraeUpgrade": {
+            "id": "1801004e-0042-43c9-a9dc-29ce84961755",
+            "level": 3,
+            "effect": "<p>If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases critical rate by <span style=\"color: rgb(243, 109, 28);\">100%</span>.</p>",
+            "dollId": "cc750023-c814-470d-86a4-789e0a654979",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/3e83fc658d07582571f4b757bc78fe6b.webp",
+            "createdAt": "2025-09-21T22:58:40.739Z",
+            "updatedAt": "2025-10-14T07:06:06.346Z",
+            "vertebraeName": "Slaughter Sequence Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -489,28 +483,6 @@
         "createdAt": "2025-09-22T02:11:36.735Z",
         "updatedAt": "2025-09-25T23:49:58.472Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "dollImages": [
-            {
-              "id": "e3f546b4-f8d6-45c5-a234-c19084161d07",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/krolik/chibi-2cf5228afe58cc025d2daa31b3c1138f.webp",
-              "createdAt": "2025-09-25T23:52:34.748Z",
-              "updatedAt": "2025-09-25T23:52:34.748Z"
-            }
-          ],
-          "searchTags": [
-            "Krosha"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Scorching Protection",
         "shortId": "a19"
@@ -534,28 +506,6 @@
         "createdAt": "2025-09-22T02:13:14.447Z",
         "updatedAt": "2025-10-14T07:06:35.682Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "dollImages": [
-            {
-              "id": "e3f546b4-f8d6-45c5-a234-c19084161d07",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/krolik/chibi-2cf5228afe58cc025d2daa31b3c1138f.webp",
-              "createdAt": "2025-09-25T23:52:34.748Z",
-              "updatedAt": "2025-09-25T23:52:34.748Z"
-            }
-          ],
-          "searchTags": [
-            "Krosha"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Art of Violence",
         "shortId": "c19"
@@ -579,28 +529,6 @@
         "createdAt": "2025-09-21T23:04:25.951Z",
         "updatedAt": "2025-09-22T02:06:02.348Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "dollImages": [
-            {
-              "id": "e3f546b4-f8d6-45c5-a234-c19084161d07",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/krolik/chibi-2cf5228afe58cc025d2daa31b3c1138f.webp",
-              "createdAt": "2025-09-25T23:52:34.748Z",
-              "updatedAt": "2025-09-25T23:52:34.748Z"
-            }
-          ],
-          "searchTags": [
-            "Krosha"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Aerial Bunny Assault",
         "shortId": "k1"
@@ -625,28 +553,6 @@
         "createdAt": "2025-09-21T21:53:11.773Z",
         "updatedAt": "2025-09-22T02:04:08.794Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "dollImages": [
-            {
-              "id": "e3f546b4-f8d6-45c5-a234-c19084161d07",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/krolik/chibi-2cf5228afe58cc025d2daa31b3c1138f.webp",
-              "createdAt": "2025-09-25T23:52:34.748Z",
-              "updatedAt": "2025-09-25T23:52:34.748Z"
-            }
-          ],
-          "searchTags": [
-            "Krosha"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Momentary Focus",
         "shortId": "k2"
@@ -671,28 +577,6 @@
         "createdAt": "2025-09-21T21:56:07.076Z",
         "updatedAt": "2025-09-25T23:54:37.653Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "dollImages": [
-            {
-              "id": "e3f546b4-f8d6-45c5-a234-c19084161d07",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/krolik/chibi-2cf5228afe58cc025d2daa31b3c1138f.webp",
-              "createdAt": "2025-09-25T23:52:34.748Z",
-              "updatedAt": "2025-09-25T23:52:34.748Z"
-            }
-          ],
-          "searchTags": [
-            "Krosha"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Fierce Predator",
         "shortId": "k3"
@@ -717,28 +601,6 @@
         "createdAt": "2025-09-21T21:55:11.192Z",
         "updatedAt": "2025-09-22T02:04:24.555Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "dollImages": [
-            {
-              "id": "e3f546b4-f8d6-45c5-a234-c19084161d07",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/krolik/chibi-2cf5228afe58cc025d2daa31b3c1138f.webp",
-              "createdAt": "2025-09-25T23:52:34.748Z",
-              "updatedAt": "2025-09-25T23:52:34.748Z"
-            }
-          ],
-          "searchTags": [
-            "Krosha"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Blazing Fury",
         "shortId": "k4"
@@ -763,28 +625,6 @@
         "createdAt": "2025-09-21T21:57:13.320Z",
         "updatedAt": "2025-09-22T02:04:32.561Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "dollImages": [
-            {
-              "id": "e3f546b4-f8d6-45c5-a234-c19084161d07",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/krolik/chibi-2cf5228afe58cc025d2daa31b3c1138f.webp",
-              "createdAt": "2025-09-25T23:52:34.748Z",
-              "updatedAt": "2025-09-25T23:52:34.748Z"
-            }
-          ],
-          "searchTags": [
-            "Krosha"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Proud Challenger",
         "shortId": "k5"
@@ -809,28 +649,6 @@
         "createdAt": "2025-09-21T22:02:26.646Z",
         "updatedAt": "2025-10-14T07:06:34.634Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "dollImages": [
-            {
-              "id": "e3f546b4-f8d6-45c5-a234-c19084161d07",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/krolik/chibi-2cf5228afe58cc025d2daa31b3c1138f.webp",
-              "createdAt": "2025-09-25T23:52:34.748Z",
-              "updatedAt": "2025-09-25T23:52:34.748Z"
-            }
-          ],
-          "searchTags": [
-            "Krosha"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Instinctive Pursuit",
         "shortId": "k6"
@@ -855,28 +673,6 @@
         "createdAt": "2025-09-21T22:04:16.766Z",
         "updatedAt": "2025-09-22T02:04:58.961Z",
         "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "dollImages": [
-            {
-              "id": "e3f546b4-f8d6-45c5-a234-c19084161d07",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/krolik/chibi-2cf5228afe58cc025d2daa31b3c1138f.webp",
-              "createdAt": "2025-09-25T23:52:34.748Z",
-              "updatedAt": "2025-09-25T23:52:34.748Z"
-            }
-          ],
-          "searchTags": [
-            "Krosha"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Hidden Poise",
         "shortId": "k7"
@@ -893,69 +689,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/a5b5882ab57b9c2b737ffe7b6411aa0a.webp",
         "createdAt": "2025-09-21T22:55:46.155Z",
         "updatedAt": "2025-09-25T23:50:14.734Z",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "class": "Vanguard",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "She has a bit of a temper and shows little interest in matters unrelated to herself, but her sense of responsibility is beyond reproach. Even if she is assigned a mission she absolutely detests, such as \"serving as Nemesis' exclusive translator\", she will still give it her all.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "bcf70138-671a-4824-bc56-399025f302f4",
             "name": "Crushing Revolution",
-            "phase": "Physical",
             "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/a5b5882ab57b9c2b737ffe7b6411aa0a.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Melee\"]",
-            "createdAt": "2025-09-21T22:30:20.833Z",
-            "skillTags": [
-              "Active",
-              "AoE",
-              "Melee"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-14T07:07:02.609Z",
-            "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> and deal AoE melee physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around it. Gain <span style=\"color: rgb(243, 109, 28);\">1 point </span>of Confectance Index. If there are no other allied units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> after attacking, gain <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "dde95128-6319-4ada-a511-9e9ec380bf80",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 1,
-            "ammoTypesLevel2": "[\"Melee\"]",
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"8ae10220-8963-47ed-95c1-dfa42cba2210\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> and deal AoE melee physical damage equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack to it and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around it. Gain <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. If the target is in Stability Break, ignore <span style=\"color: rgb(243, 109, 28);\">30%</span> of its defense. If there are no other allied units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> after attacking, gain <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": "dde95128-6319-4ada-a511-9e9ec380bf80",
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "379dd14a-5216-4f9e-97d6-6310ee0afb66",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "754fae13-e06b-4635-a43c-476e5f9962c9",
@@ -967,70 +712,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/e28ba47583b50dc2090ec91553c52238.webp",
         "createdAt": "2025-09-21T22:56:22.325Z",
         "updatedAt": "2025-09-25T23:50:18.595Z",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "class": "Vanguard",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "She has a bit of a temper and shows little interest in matters unrelated to herself, but her sense of responsibility is beyond reproach. Even if she is assigned a mission she absolutely detests, such as \"serving as Nemesis' exclusive translator\", she will still give it her all.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "9b1aa30e-1cd5-49d8-8c76-40ca170be833",
             "name": "Quenching Slash",
-            "phase": "Burn",
             "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/e28ba47583b50dc2090ec91553c52238.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Melee\"]",
-            "createdAt": "2025-09-21T22:37:01.487Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Melee",
-              "Debuff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-14T07:07:07.497Z",
-            "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, apply [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, deal melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack, and gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. After the attack, return to the original position before the action.</p>",
-            "phaseLevel2": "Burn",
-            "phaseLevel3": null,
-            "rangeMapId": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
-            "cooldownLevel2": 3,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[\"Melee\"]",
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"5ef27a51-cfa7-4af0-bda4-8d7a690c41f5\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[\"Active\",\"Targeted\",\"Melee\",\"Debuff\"]",
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">1 tile</span>, apply [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>, deal melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">160%</span> of attack, and gain <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. After the attack, return to the original position before the action.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": "e12794f1-95d1-4aa1-a94a-6d64a35ea235",
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": 0,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": 2,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "754fae13-e06b-4635-a43c-476e5f9962c9",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "051640c1-084f-4003-952a-512dfee98948",
@@ -1042,69 +735,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3e83fc658d07582571f4b757bc78fe6b.webp",
         "createdAt": "2025-09-21T22:57:09.834Z",
         "updatedAt": "2025-09-25T23:50:24.674Z",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "class": "Vanguard",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "She has a bit of a temper and shows little interest in matters unrelated to herself, but her sense of responsibility is beyond reproach. Even if she is assigned a mission she absolutely detests, such as \"serving as Nemesis' exclusive translator\", she will still give it her all.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "a65a4910-0c58-451d-92ce-8d0726d7fa56",
             "name": "Slaughter Sequence",
-            "phase": "Burn",
             "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/3e83fc658d07582571f4b757bc78fe6b.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Melee\"]",
-            "createdAt": "2025-09-21T22:48:27.831Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted",
-              "Melee"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-05T19:55:17.423Z",
-            "description": "<p>Selects 1 direction and moves to the farthest tile within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the first enemy encountered. If the target is already inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], ignores their Cover damage reduction and gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "9ccc6cf8-0f2f-46d7-8106-31507f649334",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 4,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"a0ddf449-ecbb-422e-9add-ca89e631f5e6\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 direction and moves to the farthest tile within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing melee<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the first enemy encountered. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], ignores their Cover damage reduction and gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If an enemy is killed, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-            "descriptionLevel3": "<p>Selects 1 direction and moves to the farthest tile within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the first enemy encountered. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], ignores their Cover damage reduction, increases critical rate by <span style=\"color: rgb(243, 109, 28);\">100%</span> for this attack, and gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If the enemy is killed, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "051640c1-084f-4003-952a-512dfee98948",
-            "vertebraeUpgradeIdLevel3": "1801004e-0042-43c9-a9dc-29ce84961755"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "6d17439e-3bc0-4914-9a2d-ea7f93077395",
@@ -1116,68 +758,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/f8f31fbeedff0b62dddc8ad3ede93d3d.webp",
         "createdAt": "2025-09-21T22:57:41.403Z",
         "updatedAt": "2025-09-21T22:57:41.403Z",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "class": "Vanguard",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "She has a bit of a temper and shows little interest in matters unrelated to herself, but her sense of responsibility is beyond reproach. Even if she is assigned a mission she absolutely detests, such as \"serving as Nemesis' exclusive translator\", she will still give it her all.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [
           {
             "id": "62528541-3bb4-434d-9f4c-532c08591bd4",
             "name": "Embers",
-            "phase": null,
             "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/f8f31fbeedff0b62dddc8ad3ede93d3d.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T22:51:22.316Z",
-            "skillTags": [
-              "Passive",
-              "Debuff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-05T19:53:16.485Z",
-            "description": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span>. At the end of the action, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the closest <span style=\"color: rgb(243, 109, 28);\">2</span> enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "03abf5a0-be53-463d-95a9-c1cab80bb8ac",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span>. At the end of the action, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the closest <span style=\"color: rgb(243, 109, 28);\">2</span> enemy targets within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "descriptionLevel3": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span> and critical damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>. At the end of the action, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the closest <span style=\"color: rgb(243, 109, 28);\">2</span> enemy targets within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "rangeMapIdLevel2": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-            "rangeMapIdLevel3": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "6d17439e-3bc0-4914-9a2d-ea7f93077395",
-            "vertebraeUpgradeIdLevel3": "9b3866c1-2d01-45fc-b921-5a5226abfd2d"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "1801004e-0042-43c9-a9dc-29ce84961755",
@@ -1189,69 +781,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3e83fc658d07582571f4b757bc78fe6b.webp",
         "createdAt": "2025-09-21T22:58:40.739Z",
         "updatedAt": "2025-10-14T07:06:06.346Z",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "class": "Vanguard",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "She has a bit of a temper and shows little interest in matters unrelated to herself, but her sense of responsibility is beyond reproach. Even if she is assigned a mission she absolutely detests, such as \"serving as Nemesis' exclusive translator\", she will still give it her all.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "a65a4910-0c58-451d-92ce-8d0726d7fa56",
             "name": "Slaughter Sequence",
-            "phase": "Burn",
             "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/3e83fc658d07582571f4b757bc78fe6b.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Melee\"]",
-            "createdAt": "2025-09-21T22:48:27.831Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted",
-              "Melee"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-05T19:55:17.423Z",
-            "description": "<p>Selects 1 direction and moves to the farthest tile within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the first enemy encountered. If the target is already inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], ignores their Cover damage reduction and gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "9ccc6cf8-0f2f-46d7-8106-31507f649334",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 4,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"a0ddf449-ecbb-422e-9add-ca89e631f5e6\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 direction and moves to the farthest tile within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing melee<span style=\"color: rgb(237, 79, 18);\"> Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the first enemy encountered. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], ignores their Cover damage reduction and gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If an enemy is killed, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-            "descriptionLevel3": "<p>Selects 1 direction and moves to the farthest tile within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, dealing melee <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to the first enemy encountered. If the target is inflicted with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], ignores their Cover damage reduction, increases critical rate by <span style=\"color: rgb(243, 109, 28);\">100%</span> for this attack, and gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of [effect:1b83587d-eddc-4abd-b90c-cb0aa4b2cfef]. If the enemy is killed, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "051640c1-084f-4003-952a-512dfee98948",
-            "vertebraeUpgradeIdLevel3": "1801004e-0042-43c9-a9dc-29ce84961755"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "9b3866c1-2d01-45fc-b921-5a5226abfd2d",
@@ -1263,68 +804,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/f8f31fbeedff0b62dddc8ad3ede93d3d.webp",
         "createdAt": "2025-09-21T22:59:33.049Z",
         "updatedAt": "2025-10-14T07:06:05.646Z",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "class": "Vanguard",
-          "phase": "Burn",
-          "rarity": "Standard",
-          "effects": "She has a bit of a temper and shows little interest in matters unrelated to herself, but her sense of responsibility is beyond reproach. Even if she is assigned a mission she absolutely detests, such as \"serving as Nemesis' exclusive translator\", she will still give it her all.",
-          "preview": false,
-          "movement": 9,
-          "ammoTypes": "[\"Melee\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "stabilityGauge": 8
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "62528541-3bb4-434d-9f4c-532c08591bd4",
             "name": "Embers",
-            "phase": null,
             "dollId": "cc750023-c814-470d-86a4-789e0a654979",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/f8f31fbeedff0b62dddc8ad3ede93d3d.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-21T22:51:22.316Z",
-            "skillTags": [
-              "Passive",
-              "Debuff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-11-05T19:53:16.485Z",
-            "description": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span>. At the end of the action, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the closest <span style=\"color: rgb(243, 109, 28);\">2</span> enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "03abf5a0-be53-463d-95a9-c1cab80bb8ac",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span>. At the end of the action, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the closest <span style=\"color: rgb(243, 109, 28);\">2</span> enemy targets within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "descriptionLevel3": "<p>When attacking a target with [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a], increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span> and critical damage by <span style=\"color: rgb(243, 109, 28);\">20%</span>. At the end of the action, applies [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] to the closest <span style=\"color: rgb(243, 109, 28);\">2</span> enemy targets within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "rangeMapIdLevel2": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-            "rangeMapIdLevel3": "11b6a136-4748-4d13-97f7-5825ef50eae1",
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "6d17439e-3bc0-4914-9a2d-ea7f93077395",
-            "vertebraeUpgradeIdLevel3": "9b3866c1-2d01-45fc-b921-5a5226abfd2d"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1445,32 +936,34 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-12-13T02:55:20.764Z",
-        "updatedAt": "2025-12-13T03:37:08.244Z",
-        "doll": {
-          "id": "cc750023-c814-470d-86a4-789e0a654979",
-          "name": "Krolik",
-          "rarity": "Standard",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/krolik/38afe2e69718e58c6e456124f745ca74.webp",
-          "createdAt": "2025-09-21T21:49:18.944Z",
-          "regionTag": "en",
-          "updatedAt": "2025-10-07T06:11:05.301Z",
-          "dollImages": [
-            {
-              "id": "e3f546b4-f8d6-45c5-a234-c19084161d07",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/krolik/chibi-2cf5228afe58cc025d2daa31b3c1138f.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "Krosha"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-12-13T03:37:08.244Z"
+      },
+      {
+        "id": "71b3f790-db3b-4188-a3d7-15fa9752b57a",
+        "effectName": "Overburn",
+        "effectDetails": "<p>Upon gaining this effect and at the end of action, the buff holder and all allied units within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the buff holder take fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of the effect applier's attack. Considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "cc750023-c814-470d-86a4-789e0a654979",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T03:40:29.821Z",
+        "updatedAt": "2025-11-03T15:09:18.125Z"
+      },
+      {
+        "id": "1b83587d-eddc-4abd-b90c-cb0aa4b2cfef",
+        "effectName": "Additional Movement",
+        "effectDetails": "<p>Can move once, but cannot use any other commands.</p>",
+        "effectTags": [
+          "Movement"
+        ],
+        "dollId": "cc750023-c814-470d-86a4-789e0a654979",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:30:54.242Z",
+        "updatedAt": "2025-11-06T06:30:55.814Z"
       }
     ],
     "shortId": "d19"

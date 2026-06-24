@@ -78,107 +78,52 @@
       {
         "id": "591f5e44-8043-467a-9251-6f208436db9b",
         "name": "Active Deterrence",
-        "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Heavy Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/51388f61b4b28e39afa3c8af175ff069.webp",
         "createdAt": "2025-09-13T04:17:15.348Z",
         "updatedAt": "2025-10-30T07:01:56.143Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
         "summonId": null,
-        "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "c836289b-a634-4eac-ad61-32be684af643",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
-          "createdAt": "2025-09-10T05:26:30.831Z",
-          "updatedAt": "2025-09-10T05:26:30.831Z",
-          "rangeValue": "9",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects an enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "3cc9bdb5-fed7-4db6-a7d5-e428389896b7",
         "name": "Kulich's Intimidation",
-        "description": "<p>Reduces the attack of enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%.</span></p><p><span style=\"color: rgb(34, 139, 230);\">Note: This skill is inactive until V5.</span></p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/c6e521218105c47eddb15cf818d23b4e.webp",
         "createdAt": "2025-09-13T03:35:26.691Z",
         "updatedAt": "2025-10-15T22:36:31.271Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
         "summonId": "ce93ef16-e26f-4cf0-bc97-950a60f12240",
-        "rangeMapId": null,
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Passive"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Reduces the attack of enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%.</span></p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "preview": false
-        },
         "summon": {
           "hp": 80,
           "id": "ce93ef16-e26f-4cf0-bc97-950a60f12240",
@@ -196,67 +141,58 @@
           "updatedAt": "2025-12-23T07:44:07.818Z",
           "stabilityGauge": 0
         },
-        "rangeMap": null,
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-          "level": 3,
-          "effect": "<p>The range of [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] now inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's HP. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] gains a new passive ability [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7], which reduces the attack of all enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-          "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
-          "createdAt": "2025-09-14T16:37:28.539Z",
-          "updatedAt": "2025-10-14T07:05:53.998Z",
-          "vertebraeName": "K9 Deployment Lv.3"
+        "level1": {
+          "description": "<p>Reduces the attack of enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%.</span></p><p><span style=\"color: rgb(34, 139, 230);\">Note: This skill is inactive until V5.</span></p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": null,
+          "skillTags": [
+            "Passive"
+          ],
+          "rangeMap": null
         },
-        "vertebraeUpgradeLevel3": null
+        "level2": {
+          "rangeMapId": null,
+          "vertebraeUpgradeId": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Reduces the attack of enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%.</span></p>",
+          "phase": null,
+          "skillTags": [
+            "Passive"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": null,
+          "vertebraeUpgrade": {
+            "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
+            "level": 3,
+            "effect": "<p>The range of [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] now inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's HP. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] gains a new passive ability [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7], which reduces the attack of all enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+            "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
+            "createdAt": "2025-09-14T16:37:28.539Z",
+            "updatedAt": "2025-10-14T07:05:53.998Z",
+            "vertebraeName": "K9 Deployment Lv.3"
+          }
+        },
+        "level3": null,
+        "level4": null
       },
       {
         "id": "1226c2d0-bf5b-4290-a848-f20b1211d4c9",
         "name": "Kulich's Loyalty",
-        "description": "<p>Will not be automatically targeted by the enemy. If an enemy unit within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> deals damage, Kulich launches [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to the enemy unit.</p>",
-        "phase": "Hydro",
-        "ammoTypes": "[]",
-        "stabilityDamage": 2,
-        "cooldown": 5,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/e8e3289394a07678db34e48da6eb88a8.webp",
         "createdAt": "2025-09-13T03:33:53.889Z",
         "updatedAt": "2026-01-28T22:07:23.158Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
         "summonId": "ce93ef16-e26f-4cf0-bc97-950a60f12240",
-        "rangeMapId": null,
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Passive",
-          "Counterattack"
-        ],
         "keyUpgradesData": "[\"26d0ad13-9e39-4742-9962-5ac76d78b9aa\"]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Will not be automatically targeted by the enemy. If an enemy unit within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> deals damage, Kulich launches [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to the enemy unit.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "preview": false
-        },
         "summon": {
           "hp": 80,
           "id": "ce93ef16-e26f-4cf0-bc97-950a60f12240",
@@ -274,324 +210,394 @@
           "updatedAt": "2025-12-23T07:44:07.818Z",
           "stabilityGauge": 0
         },
-        "rangeMap": null,
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-          "level": 3,
-          "effect": "<p>The range of [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] now inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's HP. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] gains a new passive ability [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7], which reduces the attack of all enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-          "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
-          "createdAt": "2025-09-14T16:37:28.539Z",
-          "updatedAt": "2025-10-14T07:05:53.998Z",
-          "vertebraeName": "K9 Deployment Lv.3"
+        "level1": {
+          "description": "<p>Will not be automatically targeted by the enemy. If an enemy unit within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> deals damage, Kulich launches [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to the enemy unit.</p>",
+          "phase": "Hydro",
+          "ammoTypes": "[]",
+          "stabilityDamage": 2,
+          "cooldown": 5,
+          "confectanceCost": null,
+          "rangeMapId": null,
+          "skillTags": [
+            "Passive",
+            "Counterattack"
+          ],
+          "rangeMap": null
         },
-        "vertebraeUpgradeLevel3": null
+        "level2": {
+          "rangeMapId": null,
+          "vertebraeUpgradeId": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 5,
+          "description": "<p>Will not be automatically targeted by the enemy. If an enemy unit within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> deals damage, Kulich launches [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to the enemy unit.</p>",
+          "phase": "Hydro",
+          "skillTags": [
+            "Passive",
+            "Counterattack"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": null,
+          "vertebraeUpgrade": {
+            "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
+            "level": 3,
+            "effect": "<p>The range of [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] now inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's HP. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] gains a new passive ability [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7], which reduces the attack of all enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+            "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
+            "createdAt": "2025-09-14T16:37:28.539Z",
+            "updatedAt": "2025-10-14T07:05:53.998Z",
+            "vertebraeName": "K9 Deployment Lv.3"
+          }
+        },
+        "level3": null,
+        "level4": null
       },
       {
         "id": "3d2b98c4-a719-4d15-8973-e538626914b0",
         "name": "On-Site Enforcement",
-        "description": "<p>When Kulich is on the field, Nikketa gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. Before Nikketa or Kulich uses their skill, they both gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f]. If the attack exploits a phase weakness, they additionally gain <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f].</p><p>Kulich's [effect:e6c91f66-b509-4f89-861e-29ca64014622] can trigger up to <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. After Kulich launches a [effect:e6c91f66-b509-4f89-861e-29ca64014622], Nikketa will follow up by using her Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Righteous Verdict</span> against the target (this Ultimate skill will not have Confectance Index cost requirement to use).</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/f4b46873e86f570adcef81d52b4cdfb3.webp",
         "createdAt": "2025-09-14T21:06:35.823Z",
         "updatedAt": "2025-10-30T16:42:05.886Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "c8c13ad9-3573-4b6f-8cfa-6ca76eb5ffcb",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Passive",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>When Kulich is on the field, Nikketa gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. Before she or Kulich uses their skill, they both gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f]. If the attack exploits a phase weakness, they additionally gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f].</p><p>Kulich's [effect:e6c91f66-b509-4f89-861e-29ca64014622] can trigger up to <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn. After Kulich launches a [effect:e6c91f66-b509-4f89-861e-29ca64014622], Nikketa will follow up by using her Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Righteous Verdict</span> against the target (this Ultimate skill will not have Confectance Index cost requirement to use).</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>When Kulich is on the field, Nikketa gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. Before Nikketa or Kulich uses their skill, they both gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f]. If the attack exploits a phase weakness, they additionally gain <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f].</p><p>Kulich's [effect:e6c91f66-b509-4f89-861e-29ca64014622] can trigger up to <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. After Kulich launches a [effect:e6c91f66-b509-4f89-861e-29ca64014622], Nikketa will follow up by using her Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Righteous Verdict</span> against the target (this Ultimate skill will not have Confectance Index cost requirement to use).</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "c8c13ad9-3573-4b6f-8cfa-6ca76eb5ffcb",
-          "level": 2,
-          "effect": "<p>The maximum stacks of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f] is doubled to <span style=\"color: rgb(243, 109, 28);\">10 stacks</span>. Kulich can launch <span style=\"color: rgb(243, 109, 28);\">an additional instance</span> of Counterattack once per turn.</p>",
-          "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/f4b46873e86f570adcef81d52b4cdfb3.webp",
-          "createdAt": "2025-09-14T20:45:42.737Z",
-          "updatedAt": "2025-11-14T07:46:50.450Z",
-          "vertebraeName": "On-Site Enforcement Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "c8c13ad9-3573-4b6f-8cfa-6ca76eb5ffcb",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>When Kulich is on the field, Nikketa gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. Before she or Kulich uses their skill, they both gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f]. If the attack exploits a phase weakness, they additionally gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f].</p><p>Kulich's [effect:e6c91f66-b509-4f89-861e-29ca64014622] can trigger up to <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn. After Kulich launches a [effect:e6c91f66-b509-4f89-861e-29ca64014622], Nikketa will follow up by using her Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Righteous Verdict</span> against the target (this Ultimate skill will not have Confectance Index cost requirement to use).</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "c8c13ad9-3573-4b6f-8cfa-6ca76eb5ffcb",
+            "level": 2,
+            "effect": "<p>The maximum stacks of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f] is doubled to <span style=\"color: rgb(243, 109, 28);\">10 stacks</span>. Kulich can launch <span style=\"color: rgb(243, 109, 28);\">an additional instance</span> of Counterattack once per turn.</p>",
+            "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/f4b46873e86f570adcef81d52b4cdfb3.webp",
+            "createdAt": "2025-09-14T20:45:42.737Z",
+            "updatedAt": "2025-11-14T07:46:50.450Z",
+            "vertebraeName": "On-Site Enforcement Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 2
+        "level3": null,
+        "level4": null
       },
       {
         "id": "bb765f17-079c-4c7f-88b2-0a0be78e20c2",
         "name": "K9 Deployment",
-        "description": "<p>Selects one empty tile within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and summons [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> and applying [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] is already on the battlefield, teleports [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] to the selected tile instead. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Heavy Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": 1,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
         "createdAt": "2025-09-14T16:59:30.583Z",
         "updatedAt": "2025-10-30T16:57:34.001Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
         "summonId": null,
-        "rangeMapId": "92271b0e-2ed3-4140-bfed-7f9afc343046",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "e0be9904-eac1-47c4-9f89-1de3a4304ed4",
-        "vertebraeUpgradeIdLevel3": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-        "skillTags": [
-          "Active",
-          "AoE",
-          "Summon",
-          "Debuff"
-        ],
         "keyUpgradesData": "[\"550853df-c2ff-46fe-9db1-5e28aa762844\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one empty tile within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and summons [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> and applying [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] is already on the battlefield, teleports [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] to the selected tile and recovers <span style=\"color: rgb(243, 109, 28);\">30%</span> of its Max HP for [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240]. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-        "descriptionLevel3": "<p>Selects one empty tile within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and summons [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> and applying [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] is already on the battlefield, teleports [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] to the selected tile and recovers <span style=\"color: rgb(243, 109, 28);\">30%</span> of its Max HP for [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240]. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": 5,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "92271b0e-2ed3-4140-bfed-7f9afc343046",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742010246-r9e2.webp",
-          "createdAt": "2025-09-13T05:40:10.399Z",
-          "updatedAt": "2025-09-13T05:40:10.399Z",
-          "rangeValue": "9",
-          "effectiveArea": "2"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects one empty tile within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and summons [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> and applying [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] is already on the battlefield, teleports [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] to the selected tile instead. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": 1,
+          "confectanceCost": null,
+          "rangeMapId": "92271b0e-2ed3-4140-bfed-7f9afc343046",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Summon",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "92271b0e-2ed3-4140-bfed-7f9afc343046",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742010246-r9e2.webp",
+            "createdAt": "2025-09-13T05:40:10.399Z",
+            "updatedAt": "2025-09-13T05:40:10.399Z",
+            "rangeValue": "9",
+            "effectiveArea": "2"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "e0be9904-eac1-47c4-9f89-1de3a4304ed4",
-          "level": 2,
-          "effect": "<p>Stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. The effect of [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] is changed: <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span><span style=\"color: rgb(135, 120, 233);\"> </span>taken multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">10%</span>. After teleporting, recovers <span style=\"color: rgb(243, 109, 28);\">30%</span> of its map HP for [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240].</p>",
-          "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
-          "createdAt": "2025-09-14T16:33:02.844Z",
-          "updatedAt": "2025-10-14T07:05:54.682Z",
-          "vertebraeName": "K9 Deployment Lv.2"
+        "level2": {
+          "rangeMapId": "92271b0e-2ed3-4140-bfed-7f9afc343046",
+          "vertebraeUpgradeId": "e0be9904-eac1-47c4-9f89-1de3a4304ed4",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects one empty tile within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and summons [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> and applying [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] is already on the battlefield, teleports [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] to the selected tile and recovers <span style=\"color: rgb(243, 109, 28);\">30%</span> of its Max HP for [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240]. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Summon",
+            "Debuff"
+          ],
+          "stabilityDamage": 5,
+          "rangeMap": {
+            "id": "92271b0e-2ed3-4140-bfed-7f9afc343046",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742010246-r9e2.webp",
+            "createdAt": "2025-09-13T05:40:10.399Z",
+            "updatedAt": "2025-09-13T05:40:10.399Z",
+            "rangeValue": "9",
+            "effectiveArea": "2"
+          },
+          "vertebraeUpgrade": {
+            "id": "e0be9904-eac1-47c4-9f89-1de3a4304ed4",
+            "level": 2,
+            "effect": "<p>Stability damage is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. The effect of [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] is changed: <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span><span style=\"color: rgb(135, 120, 233);\"> </span>taken multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">10%</span>. After teleporting, recovers <span style=\"color: rgb(243, 109, 28);\">30%</span> of its map HP for [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240].</p>",
+            "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
+            "createdAt": "2025-09-14T16:33:02.844Z",
+            "updatedAt": "2025-10-14T07:05:54.682Z",
+            "vertebraeName": "K9 Deployment Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-          "level": 3,
-          "effect": "<p>The range of [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] now inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's HP. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] gains a new passive ability [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7], which reduces the attack of all enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-          "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
-          "createdAt": "2025-09-14T16:37:28.539Z",
-          "updatedAt": "2025-10-14T07:05:53.998Z",
-          "vertebraeName": "K9 Deployment Lv.3"
+        "level3": {
+          "rangeMapId": "92271b0e-2ed3-4140-bfed-7f9afc343046",
+          "vertebraeUpgradeId": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects one empty tile within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and summons [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> and applying [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] is already on the battlefield, teleports [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] to the selected tile and recovers <span style=\"color: rgb(243, 109, 28);\">30%</span> of its Max HP for [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240]. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
+          "phase": "Physical",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Summon",
+            "Debuff"
+          ],
+          "stabilityDamage": 5,
+          "rangeMap": {
+            "id": "92271b0e-2ed3-4140-bfed-7f9afc343046",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742010246-r9e2.webp",
+            "createdAt": "2025-09-13T05:40:10.399Z",
+            "updatedAt": "2025-09-13T05:40:10.399Z",
+            "rangeValue": "9",
+            "effectiveArea": "2"
+          },
+          "vertebraeUpgrade": {
+            "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
+            "level": 3,
+            "effect": "<p>The range of [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] now inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's HP. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] gains a new passive ability [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7], which reduces the attack of all enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+            "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
+            "createdAt": "2025-09-14T16:37:28.539Z",
+            "updatedAt": "2025-10-14T07:05:53.998Z",
+            "vertebraeName": "K9 Deployment Lv.3"
+          }
         },
-        "shortId": 3
+        "level4": null
       },
       {
         "id": "d600e7ee-a885-4a21-a9f8-f484757813c5",
         "name": "Judgment Strike",
-        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it and applies [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-        "phase": "Hydro",
-        "ammoTypes": "[]",
-        "stabilityDamage": 2,
-        "cooldown": 1,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/dc2dd6190eea10233727025a76703318.webp",
         "createdAt": "2025-09-14T19:41:02.898Z",
         "updatedAt": "2025-10-30T15:00:27.269Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
         "summonId": null,
-        "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "dde175a3-0b51-4d72-9371-29c855bbd0ad",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Debuff"
-        ],
         "keyUpgradesData": "[\"4280abc2-90a7-4e91-887b-c375b189cd4f\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it and applies [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2].</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "c836289b-a634-4eac-ad61-32be684af643",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
-          "createdAt": "2025-09-10T05:26:30.831Z",
-          "updatedAt": "2025-09-10T05:26:30.831Z",
-          "rangeValue": "9",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it and applies [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
+          "phase": "Hydro",
+          "ammoTypes": "[]",
+          "stabilityDamage": 2,
+          "cooldown": 1,
+          "confectanceCost": null,
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "dde175a3-0b51-4d72-9371-29c855bbd0ad",
-          "level": 2,
-          "effect": "<p>Damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] is replaced with [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2].</p>",
-          "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/dc2dd6190eea10233727025a76703318.webp",
-          "createdAt": "2025-09-14T19:43:21.337Z",
-          "updatedAt": "2025-10-14T07:05:54.341Z",
-          "vertebraeName": "Judgement Strike Lv.2"
+        "level2": {
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "vertebraeUpgradeId": "dde175a3-0b51-4d72-9371-29c855bbd0ad",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it and applies [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2].</p>",
+          "phase": "Hydro",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "dde175a3-0b51-4d72-9371-29c855bbd0ad",
+            "level": 2,
+            "effect": "<p>Damage multiplier is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] is replaced with [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2].</p>",
+            "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/dc2dd6190eea10233727025a76703318.webp",
+            "createdAt": "2025-09-14T19:43:21.337Z",
+            "updatedAt": "2025-10-14T07:05:54.341Z",
+            "vertebraeName": "Judgement Strike Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "80da8a10-46a2-427e-9f31-5d594905de2d",
         "name": "Righteous Verdict",
-        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], performs an additional attack and removes [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de]. Expends all points of Confectance Index. <span style=\"color: rgb(243, 109, 28);\">Each additional point</span> of Confectance Index spent increases the damage of this skill by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-        "phase": "Hydro",
-        "ammoTypes": "[\"Heavy Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": 3,
         "imageUrl": "https://cdn.dandegate.net/skills/663f5377bef3cf22d9e97be5c7488222.webp",
         "createdAt": "2025-09-14T20:07:57.042Z",
         "updatedAt": "2025-10-30T16:40:22.803Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
         "summonId": null,
-        "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "7de3ace0-657c-41e2-98ee-a325723f8951",
-        "vertebraeUpgradeIdLevel3": "3f16166a-6d14-4003-a1a2-2d80e122c6a5",
-        "skillTags": [
-          "Ultimate",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": 2,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to it. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], performs another attack and removes [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de]. Applies [effect:1737d61d-fd64-4be8-84bc-9217e9fd7417] to it for<span style=\"color: rgb(243, 109, 28);\"> 1 turn</span> after using this skill. Expends all points of Confectance Index. <span style=\"color: rgb(243, 109, 28);\">Each additional point</span> of Confectance Index spent increases the damage of this skill by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-        "descriptionLevel3": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], performs an additional attack and applies [effect:1737d61d-fd64-4be8-84bc-9217e9fd7417] to it for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> after using this skill. Expends all points of Confectance Index. <span style=\"color: rgb(243, 109, 28);\">Each additional point</span> of Confectance Index spent increases the damage of this skill by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[\"Debuff\",\"Targeted\",\"Ultimate\"]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "c836289b-a634-4eac-ad61-32be684af643",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
-          "createdAt": "2025-09-10T05:26:30.831Z",
-          "updatedAt": "2025-09-10T05:26:30.831Z",
-          "rangeValue": "9",
-          "effectiveArea": "Target"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], performs an additional attack and removes [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de]. Expends all points of Confectance Index. <span style=\"color: rgb(243, 109, 28);\">Each additional point</span> of Confectance Index spent increases the damage of this skill by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "phase": "Hydro",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": 3,
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "skillTags": [
+            "Ultimate",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "7de3ace0-657c-41e2-98ee-a325723f8951",
-          "level": 2,
-          "effect": "<p>Damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Confectance Index expenditure is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], applies [effect:1737d61d-fd64-4be8-84bc-9217e9fd7417] to it for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> after using this skill.</p>",
-          "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/663f5377bef3cf22d9e97be5c7488222.webp",
-          "createdAt": "2025-09-14T20:06:28.661Z",
-          "updatedAt": "2025-11-14T07:46:43.606Z",
-          "vertebraeName": "Righteous Verdict Lv.2"
+        "level2": {
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "vertebraeUpgradeId": "7de3ace0-657c-41e2-98ee-a325723f8951",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to it. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], performs another attack and removes [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de]. Applies [effect:1737d61d-fd64-4be8-84bc-9217e9fd7417] to it for<span style=\"color: rgb(243, 109, 28);\"> 1 turn</span> after using this skill. Expends all points of Confectance Index. <span style=\"color: rgb(243, 109, 28);\">Each additional point</span> of Confectance Index spent increases the damage of this skill by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+          "phase": "Hydro",
+          "skillTags": "[\"Debuff\",\"Targeted\",\"Ultimate\"]",
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "7de3ace0-657c-41e2-98ee-a325723f8951",
+            "level": 2,
+            "effect": "<p>Damage multiplier increases by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Confectance Index expenditure is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], applies [effect:1737d61d-fd64-4be8-84bc-9217e9fd7417] to it for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> after using this skill.</p>",
+            "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/663f5377bef3cf22d9e97be5c7488222.webp",
+            "createdAt": "2025-09-14T20:06:28.661Z",
+            "updatedAt": "2025-11-14T07:46:43.606Z",
+            "vertebraeName": "Righteous Verdict Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "3f16166a-6d14-4003-a1a2-2d80e122c6a5",
-          "level": 3,
-          "effect": "<p><span style=\"color: rgb(243, 109, 28);\">For each additional point</span> of Confectance Index spent, damage is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span> instead. [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] is no longer removed.</p>",
-          "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/663f5377bef3cf22d9e97be5c7488222.webp",
-          "createdAt": "2025-09-14T20:07:52.631Z",
-          "updatedAt": "2025-11-14T07:47:04.614Z",
-          "vertebraeName": "Righteous Verdict Lv.3"
+        "level3": {
+          "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
+          "vertebraeUpgradeId": "3f16166a-6d14-4003-a1a2-2d80e122c6a5",
+          "ammoTypes": "[\"Heavy Ammo\"]",
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], performs an additional attack and applies [effect:1737d61d-fd64-4be8-84bc-9217e9fd7417] to it for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> after using this skill. Expends all points of Confectance Index. <span style=\"color: rgb(243, 109, 28);\">Each additional point</span> of Confectance Index spent increases the damage of this skill by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+          "phase": "Hydro",
+          "skillTags": "[\"Debuff\",\"Targeted\",\"Ultimate\"]",
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "c836289b-a634-4eac-ad61-32be684af643",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757481990655-r9et.webp",
+            "createdAt": "2025-09-10T05:26:30.831Z",
+            "updatedAt": "2025-09-10T05:26:30.831Z",
+            "rangeValue": "9",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "3f16166a-6d14-4003-a1a2-2d80e122c6a5",
+            "level": 3,
+            "effect": "<p><span style=\"color: rgb(243, 109, 28);\">For each additional point</span> of Confectance Index spent, damage is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span> instead. [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] is no longer removed.</p>",
+            "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/663f5377bef3cf22d9e97be5c7488222.webp",
+            "createdAt": "2025-09-14T20:07:52.631Z",
+            "updatedAt": "2025-11-14T07:47:04.614Z",
+            "vertebraeName": "Righteous Verdict Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -614,28 +620,6 @@
         "createdAt": "2025-09-14T20:15:07.381Z",
         "updatedAt": "2025-09-26T23:27:16.622Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "createdAt": "2025-09-21T19:19:26.776Z",
-              "updatedAt": "2025-09-21T19:19:26.776Z"
-            }
-          ],
-          "searchTags": [
-            "VSK-94"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Ally of Justice",
         "shortId": "a35"
@@ -659,28 +643,6 @@
         "createdAt": "2025-09-14T20:12:32.496Z",
         "updatedAt": "2025-09-27T00:21:05.620Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "createdAt": "2025-09-21T19:19:26.776Z",
-              "updatedAt": "2025-09-21T19:19:26.776Z"
-            }
-          ],
-          "searchTags": [
-            "VSK-94"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Defender",
         "shortId": "c35"
@@ -705,28 +667,6 @@
         "createdAt": "2026-01-28T21:59:21.471Z",
         "updatedAt": "2026-03-13T03:56:49.577Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "createdAt": "2025-09-21T19:19:26.776Z",
-              "updatedAt": "2025-09-21T19:19:26.776Z"
-            }
-          ],
-          "searchTags": [
-            "VSK-94"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Justice Is Always With You",
         "shortId": "k1"
@@ -751,28 +691,6 @@
         "createdAt": "2025-09-13T03:39:56.525Z",
         "updatedAt": "2025-09-14T14:18:22.492Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "createdAt": "2025-09-21T19:19:26.776Z",
-              "updatedAt": "2025-09-21T19:19:26.776Z"
-            }
-          ],
-          "searchTags": [
-            "VSK-94"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Righteous Doll",
         "shortId": "k2"
@@ -797,28 +715,6 @@
         "createdAt": "2025-09-13T03:58:37.488Z",
         "updatedAt": "2025-10-14T07:06:24.882Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "createdAt": "2025-09-21T19:19:26.776Z",
-              "updatedAt": "2025-09-21T19:19:26.776Z"
-            }
-          ],
-          "searchTags": [
-            "VSK-94"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Messenger of Justice",
         "shortId": "k3"
@@ -843,28 +739,6 @@
         "createdAt": "2025-09-14T15:48:27.995Z",
         "updatedAt": "2025-09-23T17:32:56.867Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "createdAt": "2025-09-21T19:19:26.776Z",
-              "updatedAt": "2025-09-21T19:19:26.776Z"
-            }
-          ],
-          "searchTags": [
-            "VSK-94"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Valiant Aura",
         "shortId": "k4"
@@ -889,28 +763,6 @@
         "createdAt": "2025-09-14T15:51:52.624Z",
         "updatedAt": "2025-10-14T07:06:25.056Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "createdAt": "2025-09-21T19:19:26.776Z",
-              "updatedAt": "2025-09-21T19:19:26.776Z"
-            }
-          ],
-          "searchTags": [
-            "VSK-94"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Just Desserts",
         "shortId": "k5"
@@ -935,28 +787,6 @@
         "createdAt": "2025-09-14T15:53:27.757Z",
         "updatedAt": "2025-10-14T07:06:31.680Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "createdAt": "2025-09-21T19:19:26.776Z",
-              "updatedAt": "2025-09-21T19:19:26.776Z"
-            }
-          ],
-          "searchTags": [
-            "VSK-94"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Stern Gaze",
         "shortId": "k6"
@@ -981,28 +811,6 @@
         "createdAt": "2025-09-14T16:01:10.204Z",
         "updatedAt": "2025-10-14T07:06:25.234Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "createdAt": "2025-09-21T19:19:26.776Z",
-              "updatedAt": "2025-09-21T19:19:26.776Z"
-            }
-          ],
-          "searchTags": [
-            "VSK-94"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Oppressive Air",
         "shortId": "k7"
@@ -1019,69 +827,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/dc2dd6190eea10233727025a76703318.webp",
         "createdAt": "2025-09-14T19:43:21.337Z",
         "updatedAt": "2025-10-14T07:05:54.341Z",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A security officer who upholds justice, a kind older sister figure who cherishes children, a big spender who uses up all her monthly earnings - Who is to say that these three identities can't belong to the same person? Nikketa fights on the frontlines of justice, calmly demonstrating her values and beliefs. Yet when she faces you, another side of her emerges. \"My work has taught me not to trust anyone. Boss is the exception though. We are fellow partners in the pursuit of justice.\"",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "d600e7ee-a885-4a21-a9f8-f484757813c5",
             "name": "Judgment Strike",
-            "phase": "Hydro",
             "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/dc2dd6190eea10233727025a76703318.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-14T19:41:02.898Z",
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Debuff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-30T15:00:27.269Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it and applies [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"4280abc2-90a7-4e91-887b-c375b189cd4f\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it and applies [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and [effect:3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2].</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "dde175a3-0b51-4d72-9371-29c855bbd0ad",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "7de3ace0-657c-41e2-98ee-a325723f8951",
@@ -1093,68 +850,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/663f5377bef3cf22d9e97be5c7488222.webp",
         "createdAt": "2025-09-14T20:06:28.661Z",
         "updatedAt": "2025-11-14T07:46:43.606Z",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A security officer who upholds justice, a kind older sister figure who cherishes children, a big spender who uses up all her monthly earnings - Who is to say that these three identities can't belong to the same person? Nikketa fights on the frontlines of justice, calmly demonstrating her values and beliefs. Yet when she faces you, another side of her emerges. \"My work has taught me not to trust anyone. Boss is the exception though. We are fellow partners in the pursuit of justice.\"",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "80da8a10-46a2-427e-9f31-5d594905de2d",
             "name": "Righteous Verdict",
-            "phase": "Hydro",
             "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/663f5377bef3cf22d9e97be5c7488222.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Heavy Ammo\"]",
-            "createdAt": "2025-09-14T20:07:57.042Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-30T16:40:22.803Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], performs an additional attack and removes [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de]. Expends all points of Confectance Index. <span style=\"color: rgb(243, 109, 28);\">Each additional point</span> of Confectance Index spent increases the damage of this skill by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 3,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[\"Debuff\",\"Targeted\",\"Ultimate\"]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to it. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], performs another attack and removes [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de]. Applies [effect:1737d61d-fd64-4be8-84bc-9217e9fd7417] to it for<span style=\"color: rgb(243, 109, 28);\"> 1 turn</span> after using this skill. Expends all points of Confectance Index. <span style=\"color: rgb(243, 109, 28);\">Each additional point</span> of Confectance Index spent increases the damage of this skill by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-            "descriptionLevel3": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], performs an additional attack and applies [effect:1737d61d-fd64-4be8-84bc-9217e9fd7417] to it for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> after using this skill. Expends all points of Confectance Index. <span style=\"color: rgb(243, 109, 28);\">Each additional point</span> of Confectance Index spent increases the damage of this skill by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": 2,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "7de3ace0-657c-41e2-98ee-a325723f8951",
-            "vertebraeUpgradeIdLevel3": "3f16166a-6d14-4003-a1a2-2d80e122c6a5"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "c8c13ad9-3573-4b6f-8cfa-6ca76eb5ffcb",
@@ -1166,68 +873,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/f4b46873e86f570adcef81d52b4cdfb3.webp",
         "createdAt": "2025-09-14T20:45:42.737Z",
         "updatedAt": "2025-11-14T07:46:50.450Z",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A security officer who upholds justice, a kind older sister figure who cherishes children, a big spender who uses up all her monthly earnings - Who is to say that these three identities can't belong to the same person? Nikketa fights on the frontlines of justice, calmly demonstrating her values and beliefs. Yet when she faces you, another side of her emerges. \"My work has taught me not to trust anyone. Boss is the exception though. We are fellow partners in the pursuit of justice.\"",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "3d2b98c4-a719-4d15-8973-e538626914b0",
             "name": "On-Site Enforcement",
-            "phase": null,
             "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/f4b46873e86f570adcef81d52b4cdfb3.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-14T21:06:35.823Z",
-            "skillTags": [
-              "Passive",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-30T16:42:05.886Z",
-            "description": "<p>When Kulich is on the field, Nikketa gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. Before Nikketa or Kulich uses their skill, they both gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f]. If the attack exploits a phase weakness, they additionally gain <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f].</p><p>Kulich's [effect:e6c91f66-b509-4f89-861e-29ca64014622] can trigger up to <span style=\"color: rgb(243, 109, 28);\">once</span> per turn. After Kulich launches a [effect:e6c91f66-b509-4f89-861e-29ca64014622], Nikketa will follow up by using her Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Righteous Verdict</span> against the target (this Ultimate skill will not have Confectance Index cost requirement to use).</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>When Kulich is on the field, Nikketa gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194]. Before she or Kulich uses their skill, they both gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f]. If the attack exploits a phase weakness, they additionally gain <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f].</p><p>Kulich's [effect:e6c91f66-b509-4f89-861e-29ca64014622] can trigger up to <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn. After Kulich launches a [effect:e6c91f66-b509-4f89-861e-29ca64014622], Nikketa will follow up by using her Ultimate skill <span style=\"color: rgb(34, 139, 230);\">Righteous Verdict</span> against the target (this Ultimate skill will not have Confectance Index cost requirement to use).</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "c8c13ad9-3573-4b6f-8cfa-6ca76eb5ffcb",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "e0be9904-eac1-47c4-9f89-1de3a4304ed4",
@@ -1239,70 +896,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
         "createdAt": "2025-09-14T16:33:02.844Z",
         "updatedAt": "2025-10-14T07:05:54.682Z",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A security officer who upholds justice, a kind older sister figure who cherishes children, a big spender who uses up all her monthly earnings - Who is to say that these three identities can't belong to the same person? Nikketa fights on the frontlines of justice, calmly demonstrating her values and beliefs. Yet when she faces you, another side of her emerges. \"My work has taught me not to trust anyone. Boss is the exception though. We are fellow partners in the pursuit of justice.\"",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "bb765f17-079c-4c7f-88b2-0a0be78e20c2",
             "name": "K9 Deployment",
-            "phase": "Physical",
             "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Heavy Ammo\"]",
-            "createdAt": "2025-09-14T16:59:30.583Z",
-            "skillTags": [
-              "Active",
-              "AoE",
-              "Summon",
-              "Debuff"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-30T16:57:34.001Z",
-            "description": "<p>Selects one empty tile within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and summons [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> and applying [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] is already on the battlefield, teleports [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] to the selected tile instead. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "92271b0e-2ed3-4140-bfed-7f9afc343046",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"550853df-c2ff-46fe-9db1-5e28aa762844\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects one empty tile within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and summons [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> and applying [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] is already on the battlefield, teleports [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] to the selected tile and recovers <span style=\"color: rgb(243, 109, 28);\">30%</span> of its Max HP for [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240]. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "descriptionLevel3": "<p>Selects one empty tile within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and summons [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> and applying [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] is already on the battlefield, teleports [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] to the selected tile and recovers <span style=\"color: rgb(243, 109, 28);\">30%</span> of its Max HP for [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240]. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": 5,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "e0be9904-eac1-47c4-9f89-1de3a4304ed4",
-            "vertebraeUpgradeIdLevel3": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
@@ -1314,148 +919,26 @@
         "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
         "createdAt": "2025-09-14T16:37:28.539Z",
         "updatedAt": "2025-10-14T07:05:53.998Z",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A security officer who upholds justice, a kind older sister figure who cherishes children, a big spender who uses up all her monthly earnings - Who is to say that these three identities can't belong to the same person? Nikketa fights on the frontlines of justice, calmly demonstrating her values and beliefs. Yet when she faces you, another side of her emerges. \"My work has taught me not to trust anyone. Boss is the exception though. We are fellow partners in the pursuit of justice.\"",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [
           {
             "id": "1226c2d0-bf5b-4290-a848-f20b1211d4c9",
             "name": "Kulich's Loyalty",
-            "phase": "Hydro",
             "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-            "cooldown": 5,
-            "imageUrl": "https://cdn.dandegate.net/skills/e8e3289394a07678db34e48da6eb88a8.webp",
-            "summonId": "ce93ef16-e26f-4cf0-bc97-950a60f12240",
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-13T03:33:53.889Z",
-            "skillTags": [
-              "Passive",
-              "Counterattack"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2026-01-28T22:07:23.158Z",
-            "description": "<p>Will not be automatically targeted by the enemy. If an enemy unit within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> deals damage, Kulich launches [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to the enemy unit.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": null,
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"26d0ad13-9e39-4742-9962-5ac76d78b9aa\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Will not be automatically targeted by the enemy. If an enemy unit within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> deals damage, Kulich launches [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to the enemy unit.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": "ce93ef16-e26f-4cf0-bc97-950a60f12240"
           },
           {
             "id": "3cc9bdb5-fed7-4db6-a7d5-e428389896b7",
             "name": "Kulich's Intimidation",
-            "phase": null,
             "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/c6e521218105c47eddb15cf818d23b4e.webp",
-            "summonId": "ce93ef16-e26f-4cf0-bc97-950a60f12240",
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-13T03:35:26.691Z",
-            "skillTags": [
-              "Passive"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-15T22:36:31.271Z",
-            "description": "<p>Reduces the attack of enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%.</span></p><p><span style=\"color: rgb(34, 139, 230);\">Note: This skill is inactive until V5.</span></p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": null,
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Reduces the attack of enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%.</span></p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": "ce93ef16-e26f-4cf0-bc97-950a60f12240"
           }
         ],
         "skillsLevel3": [
           {
             "id": "bb765f17-079c-4c7f-88b2-0a0be78e20c2",
             "name": "K9 Deployment",
-            "phase": "Physical",
             "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Heavy Ammo\"]",
-            "createdAt": "2025-09-14T16:59:30.583Z",
-            "skillTags": [
-              "Active",
-              "AoE",
-              "Summon",
-              "Debuff"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-30T16:57:34.001Z",
-            "description": "<p>Selects one empty tile within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and summons [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> and applying [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] is already on the battlefield, teleports [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] to the selected tile instead. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "92271b0e-2ed3-4140-bfed-7f9afc343046",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"550853df-c2ff-46fe-9db1-5e28aa762844\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects one empty tile within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and summons [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> and applying [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] is already on the battlefield, teleports [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] to the selected tile and recovers <span style=\"color: rgb(243, 109, 28);\">30%</span> of its Max HP for [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240]. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "descriptionLevel3": "<p>Selects one empty tile within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> and summons [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> and applying [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] is already on the battlefield, teleports [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] to the selected tile and recovers <span style=\"color: rgb(243, 109, 28);\">30%</span> of its Max HP for [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240]. Nikketa gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": 5,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "e0be9904-eac1-47c4-9f89-1de3a4304ed4",
-            "vertebraeUpgradeIdLevel3": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240"
+            "summonId": null
           }
         ],
         "summonsLevel2": [
@@ -1477,7 +960,8 @@
             "stabilityGauge": 0
           }
         ],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "3f16166a-6d14-4003-a1a2-2d80e122c6a5",
@@ -1489,68 +973,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/663f5377bef3cf22d9e97be5c7488222.webp",
         "createdAt": "2025-09-14T20:07:52.631Z",
         "updatedAt": "2025-11-14T07:47:04.614Z",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "class": "Sentinel",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A security officer who upholds justice, a kind older sister figure who cherishes children, a big spender who uses up all her monthly earnings - Who is to say that these three identities can't belong to the same person? Nikketa fights on the frontlines of justice, calmly demonstrating her values and beliefs. Yet when she faces you, another side of her emerges. \"My work has taught me not to trust anyone. Boss is the exception though. We are fellow partners in the pursuit of justice.\"",
-          "preview": false,
-          "movement": 5,
-          "ammoTypes": "[\"Heavy Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "stabilityGauge": 9
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "80da8a10-46a2-427e-9f31-5d594905de2d",
             "name": "Righteous Verdict",
-            "phase": "Hydro",
             "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/663f5377bef3cf22d9e97be5c7488222.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Heavy Ammo\"]",
-            "createdAt": "2025-09-14T20:07:57.042Z",
-            "skillTags": [
-              "Ultimate",
-              "Targeted"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-30T16:40:22.803Z",
-            "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of attack to it. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], performs an additional attack and removes [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de]. Expends all points of Confectance Index. <span style=\"color: rgb(243, 109, 28);\">Each additional point</span> of Confectance Index spent increases the damage of this skill by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "c836289b-a634-4eac-ad61-32be684af643",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 3,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[\"Debuff\",\"Targeted\",\"Ultimate\"]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack to it. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], performs another attack and removes [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de]. Applies [effect:1737d61d-fd64-4be8-84bc-9217e9fd7417] to it for<span style=\"color: rgb(243, 109, 28);\"> 1 turn</span> after using this skill. Expends all points of Confectance Index. <span style=\"color: rgb(243, 109, 28);\">Each additional point</span> of Confectance Index spent increases the damage of this skill by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
-            "descriptionLevel3": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span>, dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">150%</span> of attack. If the target has [effect:8816ed39-a814-43fe-82e9-c14ddd6da2de], performs an additional attack and applies [effect:1737d61d-fd64-4be8-84bc-9217e9fd7417] to it for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> after using this skill. Expends all points of Confectance Index. <span style=\"color: rgb(243, 109, 28);\">Each additional point</span> of Confectance Index spent increases the damage of this skill by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": 2,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "7de3ace0-657c-41e2-98ee-a325723f8951",
-            "vertebraeUpgradeIdLevel3": "3f16166a-6d14-4003-a1a2-2d80e122c6a5"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [
@@ -1558,15 +992,8 @@
         "id": "ce93ef16-e26f-4cf0-bc97-950a60f12240",
         "name": "Kulich",
         "imageUrl": "https://cdn.dandegate.net/summons/kulich/1757746245205-Summon_Whole_NikketaSSR01Dog.webp",
-        "stabilityGauge": 0,
-        "movement": 0,
-        "class": null,
         "phase": null,
         "ammoTypes": [],
-        "unitInfo": "<p>Considered a summon. Inherits <span style=\"color: rgb(243, 109, 28);\">80%</span> of Nikketa's initial HP, <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">100%</span> of her initial defense. It is unable to move and has the passive skill [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9].</p>",
-        "hp": 80,
-        "atk": 80,
-        "def": 100,
         "createdAt": "2025-09-13T03:17:49.179Z",
         "updatedAt": "2025-12-23T07:44:07.818Z",
         "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
@@ -1574,218 +1001,149 @@
           "1226c2d0-bf5b-4290-a848-f20b1211d4c9",
           "3cc9bdb5-fed7-4db6-a7d5-e428389896b7"
         ],
-        "atkLevel2": 80,
-        "atkLevel3": null,
-        "classLevel2": null,
-        "classLevel3": null,
-        "defLevel2": 100,
-        "defLevel3": null,
-        "hpLevel2": 100,
-        "hpLevel3": null,
-        "movementLevel2": null,
-        "movementLevel3": null,
-        "stabilityGaugeLevel2": null,
-        "stabilityGaugeLevel3": null,
-        "unitInfoLevel2": "<p>Considered a summon. Inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's initial HP, <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">100%</span> of her initial defense. It is unable to move and has the passive skills [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] and [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7].</p>",
-        "unitInfoLevel3": null,
-        "vertebraeUpgradeIdLevel2": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-        "vertebraeUpgradeIdLevel3": null,
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "alt": null,
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "isActive": true,
-              "createdAt": "2025-09-21T19:19:26.776Z",
-              "updatedAt": "2025-09-21T19:19:26.776Z"
-            },
-            {
-              "id": "f6e80212-9387-41da-8229-903c028cf72f",
-              "alt": null,
-              "category": "Card",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/card-06df55ee03e1024111336fb2815c9bdf.webp",
-              "isActive": true,
-              "createdAt": "2025-09-21T19:19:27.023Z",
-              "updatedAt": "2025-09-21T19:19:27.023Z"
-            },
-            {
-              "id": "32ad1c18-fbb2-4366-ba47-a38dab29a4d4",
-              "alt": null,
-              "category": "Skin",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/skin-1758482367135-0-c3ceeb006b74314d1c4e3f2d108f9e3d.webp",
-              "isActive": true,
-              "createdAt": "2025-09-21T19:19:27.190Z",
-              "updatedAt": "2025-10-02T04:54:11.457Z"
-            },
-            {
-              "id": "f2e1993e-859d-49c0-83cd-2bc231f5e8bc",
-              "alt": null,
-              "category": "Skin",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Skin/e01e190fbbeb1f0aa119983450eb9316197ec93bdff1e3d492e1f05f910b0e44.webp",
-              "isActive": true,
-              "createdAt": "2025-12-23T07:44:06.396Z",
-              "updatedAt": "2025-12-23T07:44:06.396Z"
-            }
-          ]
+        "shortId": "s7",
+        "level1": {
+          "stabilityGauge": 0,
+          "movement": 0,
+          "class": null,
+          "unitInfo": "<p>Considered a summon. Inherits <span style=\"color: rgb(243, 109, 28);\">80%</span> of Nikketa's initial HP, <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">100%</span> of her initial defense. It is unable to move and has the passive skill [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9].</p>",
+          "hp": 80,
+          "atk": 80,
+          "def": 100
         },
-        "vertebraeUpgradeLevel2": {
-          "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-          "level": 3,
-          "effect": "<p>The range of [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] now inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's HP. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] gains a new passive ability [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7], which reduces the attack of all enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-          "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
-          "createdAt": "2025-09-14T16:37:28.539Z",
-          "updatedAt": "2025-10-14T07:05:53.998Z",
-          "vertebraeName": "K9 Deployment Lv.3"
+        "level2": {
+          "atk": 80,
+          "class": null,
+          "def": 100,
+          "hp": 100,
+          "movement": 0,
+          "stabilityGauge": 0,
+          "unitInfo": "<p>Considered a summon. Inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's initial HP, <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">100%</span> of her initial defense. It is unable to move and has the passive skills [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] and [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7].</p>",
+          "vertebraeUpgradeId": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
+          "vertebraeUpgrade": {
+            "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
+            "level": 3,
+            "effect": "<p>The range of [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] now inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's HP. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] gains a new passive ability [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7], which reduces the attack of all enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+            "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
+            "createdAt": "2025-09-14T16:37:28.539Z",
+            "updatedAt": "2025-10-14T07:05:53.998Z",
+            "vertebraeName": "K9 Deployment Lv.3"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
+        "level3": null,
+        "level4": null,
         "skills": [
           {
             "id": "1226c2d0-bf5b-4290-a848-f20b1211d4c9",
             "name": "Kulich's Loyalty",
-            "description": "<p>Will not be automatically targeted by the enemy. If an enemy unit within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> deals damage, Kulich launches [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to the enemy unit.</p>",
-            "phase": "Hydro",
-            "ammoTypes": "[]",
-            "stabilityDamage": 2,
-            "cooldown": 5,
-            "confectanceCost": null,
             "imageUrl": "https://cdn.dandegate.net/skills/e8e3289394a07678db34e48da6eb88a8.webp",
             "createdAt": "2025-09-13T03:33:53.889Z",
             "updatedAt": "2026-01-28T22:07:23.158Z",
             "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
             "summonId": "ce93ef16-e26f-4cf0-bc97-950a60f12240",
-            "rangeMapId": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "vertebraeUpgradeIdLevel2": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-            "vertebraeUpgradeIdLevel3": null,
-            "skillTags": [
-              "Passive",
-              "Counterattack"
-            ],
             "keyUpgradesData": "[\"26d0ad13-9e39-4742-9962-5ac76d78b9aa\"]",
             "keyUpgradesType": "keys",
             "skillType": "Passive",
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "descriptionLevel2": "<p>Will not be automatically targeted by the enemy. If an enemy unit within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> deals damage, Kulich launches [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to the enemy unit.</p>",
-            "descriptionLevel3": null,
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "doll": {
-              "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-              "name": "Nikketa",
-              "rarity": "Elite",
-              "preview": false,
-              "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-              "createdAt": "2025-09-13T03:17:49.158Z",
-              "regionTag": "en",
-              "updatedAt": "2025-12-23T07:44:01.281Z"
+            "shortId": 1,
+            "level1": {
+              "description": "<p>Will not be automatically targeted by the enemy. If an enemy unit within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> deals damage, Kulich launches [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to the enemy unit.</p>",
+              "phase": "Hydro",
+              "ammoTypes": "[]",
+              "stabilityDamage": 2,
+              "cooldown": 5,
+              "confectanceCost": null,
+              "rangeMapId": null,
+              "skillTags": [
+                "Passive",
+                "Counterattack"
+              ],
+              "rangeMap": null
             },
-            "rangeMap": null,
-            "rangeMapLevel2": null,
-            "rangeMapLevel3": null,
-            "vertebraeUpgradeLevel2": {
-              "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-              "level": 3,
-              "effect": "<p>The range of [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] now inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's HP. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] gains a new passive ability [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7], which reduces the attack of all enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-              "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-              "segment": 5,
-              "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
-              "createdAt": "2025-09-14T16:37:28.539Z",
-              "updatedAt": "2025-10-14T07:05:53.998Z",
-              "vertebraeName": "K9 Deployment Lv.3"
+            "level2": {
+              "rangeMapId": null,
+              "vertebraeUpgradeId": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
+              "ammoTypes": "[]",
+              "confectanceCost": null,
+              "cooldown": 5,
+              "description": "<p>Will not be automatically targeted by the enemy. If an enemy unit within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> deals damage, Kulich launches [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to the enemy unit.</p>",
+              "phase": "Hydro",
+              "skillTags": [
+                "Passive",
+                "Counterattack"
+              ],
+              "stabilityDamage": 2,
+              "rangeMap": null,
+              "vertebraeUpgrade": {
+                "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
+                "level": 3,
+                "effect": "<p>The range of [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] now inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's HP. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] gains a new passive ability [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7], which reduces the attack of all enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+                "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+                "segment": 5,
+                "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
+                "createdAt": "2025-09-14T16:37:28.539Z",
+                "updatedAt": "2025-10-14T07:05:53.998Z",
+                "vertebraeName": "K9 Deployment Lv.3"
+              }
             },
-            "vertebraeUpgradeLevel3": null,
-            "shortId": 1
+            "level3": null,
+            "level4": null
           },
           {
             "id": "3cc9bdb5-fed7-4db6-a7d5-e428389896b7",
             "name": "Kulich's Intimidation",
-            "description": "<p>Reduces the attack of enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%.</span></p><p><span style=\"color: rgb(34, 139, 230);\">Note: This skill is inactive until V5.</span></p>",
-            "phase": null,
-            "ammoTypes": "[]",
-            "stabilityDamage": null,
-            "cooldown": null,
-            "confectanceCost": null,
             "imageUrl": "https://cdn.dandegate.net/skills/c6e521218105c47eddb15cf818d23b4e.webp",
             "createdAt": "2025-09-13T03:35:26.691Z",
             "updatedAt": "2025-10-15T22:36:31.271Z",
             "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
             "summonId": "ce93ef16-e26f-4cf0-bc97-950a60f12240",
-            "rangeMapId": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "vertebraeUpgradeIdLevel2": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-            "vertebraeUpgradeIdLevel3": null,
-            "skillTags": [
-              "Passive"
-            ],
             "keyUpgradesData": "[]",
             "keyUpgradesType": "keys",
             "skillType": "Passive",
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "descriptionLevel2": "<p>Reduces the attack of enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%.</span></p>",
-            "descriptionLevel3": null,
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "doll": {
-              "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-              "name": "Nikketa",
-              "rarity": "Elite",
-              "preview": false,
-              "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-              "createdAt": "2025-09-13T03:17:49.158Z",
-              "regionTag": "en",
-              "updatedAt": "2025-12-23T07:44:01.281Z"
+            "shortId": 2,
+            "level1": {
+              "description": "<p>Reduces the attack of enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%.</span></p><p><span style=\"color: rgb(34, 139, 230);\">Note: This skill is inactive until V5.</span></p>",
+              "phase": null,
+              "ammoTypes": "[]",
+              "stabilityDamage": null,
+              "cooldown": null,
+              "confectanceCost": null,
+              "rangeMapId": null,
+              "skillTags": [
+                "Passive"
+              ],
+              "rangeMap": null
             },
-            "rangeMap": null,
-            "rangeMapLevel2": null,
-            "rangeMapLevel3": null,
-            "vertebraeUpgradeLevel2": {
-              "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-              "level": 3,
-              "effect": "<p>The range of [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] now inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's HP. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] gains a new passive ability [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7], which reduces the attack of all enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-              "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-              "segment": 5,
-              "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
-              "createdAt": "2025-09-14T16:37:28.539Z",
-              "updatedAt": "2025-10-14T07:05:53.998Z",
-              "vertebraeName": "K9 Deployment Lv.3"
+            "level2": {
+              "rangeMapId": null,
+              "vertebraeUpgradeId": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
+              "ammoTypes": "[]",
+              "confectanceCost": null,
+              "cooldown": null,
+              "description": "<p>Reduces the attack of enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%.</span></p>",
+              "phase": null,
+              "skillTags": [
+                "Passive"
+              ],
+              "stabilityDamage": null,
+              "rangeMap": null,
+              "vertebraeUpgrade": {
+                "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
+                "level": 3,
+                "effect": "<p>The range of [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] now inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's HP. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] gains a new passive ability [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7], which reduces the attack of all enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+                "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+                "segment": 5,
+                "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
+                "createdAt": "2025-09-14T16:37:28.539Z",
+                "updatedAt": "2025-10-14T07:05:53.998Z",
+                "vertebraeName": "K9 Deployment Lv.3"
+              }
             },
-            "vertebraeUpgradeLevel3": null,
-            "shortId": 2
+            "level3": null,
+            "level4": null
           }
-        ],
-        "shortId": "s7"
+        ]
       }
     ],
     "remoldingPattern": {
@@ -1899,7 +1257,17 @@
       {
         "id": "93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f",
         "effectName": "Clue",
-        "effectDetails": "{\"mainDetails\":\"<p>Damage dealt by [effect:93f91944-fc00-410d-995a-74155802def7]'s attacks is further increased by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>, maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">5 stacks</span>. Considered a Hydro buff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"ef6407cc-83ad-4b0a-9137-6d6162548ca3\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>Damage dealt by [effect:93f91944-fc00-410d-995a-74155802def7]'s attacks is further increased by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>, maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">10</span> <span style=\\\"color: rgb(243, 109, 28);\\\">stacks</span>. Considered a Hydro buff, cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Damage dealt by [effect:93f91944-fc00-410d-995a-74155802def7]'s attacks is further increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">5 stacks</span>. Considered a Hydro buff, cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "ef6407cc-83ad-4b0a-9137-6d6162548ca3",
+              "upgradeName": "V3",
+              "upgradeDetails": "<p>Damage dealt by [effect:93f91944-fc00-410d-995a-74155802def7]'s attacks is further increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">10</span> <span style=\"color: rgb(243, 109, 28);\">stacks</span>. Considered a Hydro buff, cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [
           "Buff",
           "Hydro"
@@ -1908,37 +1276,22 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-13T03:54:36.564Z",
-        "updatedAt": "2025-11-01T21:19:21.219Z",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "VSK-94"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-01T21:19:21.219Z"
       },
       {
         "id": "8816ed39-a814-43fe-82e9-c14ddd6da2de",
         "effectName": "Guilt",
-        "effectDetails": "{\"mainDetails\":\"<p>The debuff holder takes<span style=\\\"color: rgb(243, 109, 28);\\\"> 5%</span> more <span style=\\\"color: rgb(43, 171, 218);\\\">Hydro damage</span> from Nikketa and Kulich. Considered a Hydro debuff,<span style=\\\"color: rgb(34, 139, 230);\\\"> </span>cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"c6e8bf98-7ac4-4202-9aad-448a0c0ab21e\",\"upgradeName\":\"V4\",\"upgradeDetails\":\"<p>The debuff holder takes <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span> more <span style=\\\"color: rgb(43, 171, 218);\\\">Hydro damage</span> from Nikketa and Kulich. Considered a Hydro debuff, cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>The debuff holder takes<span style=\"color: rgb(243, 109, 28);\"> 5%</span> more <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> from Nikketa and Kulich. Considered a Hydro debuff,<span style=\"color: rgb(34, 139, 230);\"> </span>cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "c6e8bf98-7ac4-4202-9aad-448a0c0ab21e",
+              "upgradeName": "V4",
+              "upgradeDetails": "<p>The debuff holder takes <span style=\"color: rgb(243, 109, 28);\">10%</span> more <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> from Nikketa and Kulich. Considered a Hydro debuff, cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [
           "Debuff",
           "Hydro"
@@ -1947,32 +1300,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-13T03:44:08.249Z",
-        "updatedAt": "2025-11-02T02:37:37.674Z",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "VSK-94"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-02T02:37:37.674Z"
       },
       {
         "id": "31ae4933-095f-4ba3-b73b-1c73d4e4d86f",
@@ -1983,32 +1311,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2026-01-28T21:54:26.026Z",
-        "updatedAt": "2026-03-13T03:58:48.531Z",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "VSK-94"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2026-03-13T03:58:48.531Z"
       },
       {
         "id": "1737d61d-fd64-4be8-84bc-9217e9fd7417",
@@ -2023,32 +1326,53 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-14T16:22:53.025Z",
-        "updatedAt": "2025-11-03T06:05:59.311Z",
-        "doll": {
-          "id": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-          "name": "Nikketa",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/nikketa/89b588be82c47c36fbdad42fb60d67aa.webp",
-          "createdAt": "2025-09-13T03:17:49.158Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-23T07:44:01.281Z",
-          "dollImages": [
-            {
-              "id": "6da0b1f6-5b3c-4f65-b625-df219775d0d0",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/nikketa/chibi-89aa901d6e1538a7abc7b8eb74bcb0a3.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "VSK-94"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T06:05:59.311Z"
+      },
+      {
+        "id": "e6c91f66-b509-4f89-861e-29ca64014622",
+        "effectName": "Counterattack",
+        "effectDetails": "<p>Performs an attack; cannot be triggered by Interceptions, Counterattack or Support Attacks.</p>",
+        "effectTags": [],
+        "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:30:54.421Z",
+        "updatedAt": "2025-09-13T03:30:54.421Z"
+      },
+      {
+        "id": "4b5fd3bb-8d4a-44e7-ba99-b48331d2e194",
+        "effectName": "Insight",
+        "effectDetails": "<p>Increases the range of Ultimate Skills by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:11:35.926Z",
+        "updatedAt": "2025-11-03T05:56:58.293Z"
+      },
+      {
+        "id": "c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb",
+        "effectName": "Extra Command",
+        "effectDetails": "<p>Commands other than movement can be executed.</p>",
+        "effectTags": [],
+        "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T19:42:00.107Z",
+        "updatedAt": "2025-09-14T19:42:00.107Z"
+      },
+      {
+        "id": "3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2",
+        "effectName": "Extra Action",
+        "effectDetails": "<p>1 action can be taken.</p>",
+        "effectTags": [],
+        "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T16:21:07.459Z",
+        "updatedAt": "2025-09-14T16:21:07.459Z"
       }
     ],
     "shortId": "d35"

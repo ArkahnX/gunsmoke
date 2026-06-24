@@ -76,363 +76,381 @@
       {
         "id": "576d43ec-b5a9-4297-932f-cea4300d6635",
         "name": "Pelting Snowflake",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/daf0d4d24f4e42123f21802b5d6d84bd.webp",
         "createdAt": "2025-09-20T19:34:29.126Z",
         "updatedAt": "2025-09-27T05:52:26.450Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "1898a07a-ea46-431d-b86b-d84fe3cc9f75",
         "name": "Source of Warmth",
-        "description": "<p>At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, restores <span style=\"color: rgb(243, 109, 28);\">5%</span> of Suomi's max HP to other allied units within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target's HP is <span style=\"color: rgb(243, 109, 28);\">below 50%</span>, increase the amount restored to <span style=\"color: rgb(243, 109, 28);\">10%</span>. </p><p>When allied units (excluding Suomi) use basic attacks or skills, Suomi applies [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] to a random enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of herself.</p><p>When an enemy unit within range takes targeted damage from an ally, prioritizes using [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] <span style=\"color: rgb(243, 109, 28);\">once</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. Applies [effect:a19417f1-0ecf-466a-a904-29e3de492bcf] to the allied units for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn. When HP is above 80%, gains [effect:979e032e-adde-4d68-a1b8-77386c86901e].</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/2a0f2c75b78b82eb3c4294327b7ac10e.webp",
         "createdAt": "2025-09-20T19:35:38.625Z",
         "updatedAt": "2025-10-14T07:07:13.830Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "7367e4da-1ddd-49c7-8813-c249ccc399f7",
-        "vertebraeUpgradeIdLevel3": "27a61a8f-697f-43ed-9759-1856f2b0c91c",
-        "skillTags": [
-          "Passive",
-          "Healing",
-          "Support"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, restores <span style=\"color: rgb(243, 109, 28);\">5%</span> of Suomi's max HP to other allied units within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target's HP is <span style=\"color: rgb(243, 109, 28);\">below 50%</span>, increase the amount restored to <span style=\"color: rgb(243, 109, 28);\">10%</span>. </p><p>If allied units have [effect:abce6753-fe29-4ca3-b487-7453e982b279], applies [effect:089480d9-864e-47ff-a750-08dd03ab7ba4] to them.</p><p>When allied units (excluding Suomi) use basic attacks or skills, Suomi applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] to a random enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of herself.</p><p>When an enemy unit within range takes targeted damage from an ally, prioritizes using [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] <span style=\"color: rgb(243, 109, 28);\">once</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. Applies [effect:a19417f1-0ecf-466a-a904-29e3de492bcf] to the allied units for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn. When HP is <span style=\"color: rgb(243, 109, 28);\">above 80%</span>, gains [effect:979e032e-adde-4d68-a1b8-77386c86901e].</p>",
-        "descriptionLevel3": "<p>At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, restores <span style=\"color: rgb(243, 109, 28);\">5%</span> of Suomi's max HP to other allied units within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target's HP is <span style=\"color: rgb(243, 109, 28);\">below 50%</span>, increase the amount restored to <span style=\"color: rgb(243, 109, 28);\">10%</span>. </p><p>If allied units have [effect:abce6753-fe29-4ca3-b487-7453e982b279], applies [effect:089480d9-864e-47ff-a750-08dd03ab7ba4] to them.</p><p>When allied units (excluding Suomi) use basic attacks or skills, Suomi applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] to a random enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of herself.</p><p>When an enemy unit within range takes targeted damage from an ally, prioritizes using [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] <span style=\"color: rgb(243, 109, 28);\">once</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. Applies [effect:a19417f1-0ecf-466a-a904-29e3de492bcf] to the allied units for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Restores <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability index of allied units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of Suomi. This can be triggered <span style=\"color: rgb(243, 109, 28);\">thrice</span> per turn. When HP is <span style=\"color: rgb(243, 109, 28);\">above 80%</span>, gains [effect:979e032e-adde-4d68-a1b8-77386c86901e].</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, restores <span style=\"color: rgb(243, 109, 28);\">5%</span> of Suomi's max HP to other allied units within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target's HP is <span style=\"color: rgb(243, 109, 28);\">below 50%</span>, increase the amount restored to <span style=\"color: rgb(243, 109, 28);\">10%</span>. </p><p>When allied units (excluding Suomi) use basic attacks or skills, Suomi applies [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] to a random enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of herself.</p><p>When an enemy unit within range takes targeted damage from an ally, prioritizes using [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] <span style=\"color: rgb(243, 109, 28);\">once</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. Applies [effect:a19417f1-0ecf-466a-a904-29e3de492bcf] to the allied units for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn. When HP is above 80%, gains [effect:979e032e-adde-4d68-a1b8-77386c86901e].</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Healing",
+            "Support"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "7367e4da-1ddd-49c7-8813-c249ccc399f7",
-          "level": 2,
-          "effect": "<p>If allied units have [effect:abce6753-fe29-4ca3-b487-7453e982b279], apply [effect:089480d9-864e-47ff-a750-08dd03ab7ba4] to them.</p><p>The effect of [effect:979e032e-adde-4d68-a1b8-77386c86901e] is enhanced, support range is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p>",
-          "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/2a0f2c75b78b82eb3c4294327b7ac10e.webp",
-          "createdAt": "2025-09-21T21:20:55.555Z",
-          "updatedAt": "2025-10-14T07:06:04.250Z",
-          "vertebraeName": "Source of Warmth Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "7367e4da-1ddd-49c7-8813-c249ccc399f7",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, restores <span style=\"color: rgb(243, 109, 28);\">5%</span> of Suomi's max HP to other allied units within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target's HP is <span style=\"color: rgb(243, 109, 28);\">below 50%</span>, increase the amount restored to <span style=\"color: rgb(243, 109, 28);\">10%</span>. </p><p>If allied units have [effect:abce6753-fe29-4ca3-b487-7453e982b279], applies [effect:089480d9-864e-47ff-a750-08dd03ab7ba4] to them.</p><p>When allied units (excluding Suomi) use basic attacks or skills, Suomi applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] to a random enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of herself.</p><p>When an enemy unit within range takes targeted damage from an ally, prioritizes using [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] <span style=\"color: rgb(243, 109, 28);\">once</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. Applies [effect:a19417f1-0ecf-466a-a904-29e3de492bcf] to the allied units for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn. When HP is <span style=\"color: rgb(243, 109, 28);\">above 80%</span>, gains [effect:979e032e-adde-4d68-a1b8-77386c86901e].</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Healing",
+            "Support"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "7367e4da-1ddd-49c7-8813-c249ccc399f7",
+            "level": 2,
+            "effect": "<p>If allied units have [effect:abce6753-fe29-4ca3-b487-7453e982b279], apply [effect:089480d9-864e-47ff-a750-08dd03ab7ba4] to them.</p><p>The effect of [effect:979e032e-adde-4d68-a1b8-77386c86901e] is enhanced, support range is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p>",
+            "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/2a0f2c75b78b82eb3c4294327b7ac10e.webp",
+            "createdAt": "2025-09-21T21:20:55.555Z",
+            "updatedAt": "2025-10-14T07:06:04.250Z",
+            "vertebraeName": "Source of Warmth Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "27a61a8f-697f-43ed-9759-1856f2b0c91c",
-          "level": 3,
-          "effect": "<p>Addtional effect [effect:089480d9-864e-47ff-a750-08dd03ab7ba4] is added: when attacked, if [effect:abce6753-fe29-4ca3-b487-7453e982b279] is not broken, inflict <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the attacker.</p><p>Support Actions now trigger an additional <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn, and recovers <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability index for other allied units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> around the user.</p>",
-          "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/2a0f2c75b78b82eb3c4294327b7ac10e.webp",
-          "createdAt": "2025-09-21T21:33:51.322Z",
-          "updatedAt": "2025-10-14T07:06:03.907Z",
-          "vertebraeName": "Source of Warmth Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "27a61a8f-697f-43ed-9759-1856f2b0c91c",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, restores <span style=\"color: rgb(243, 109, 28);\">5%</span> of Suomi's max HP to other allied units within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target's HP is <span style=\"color: rgb(243, 109, 28);\">below 50%</span>, increase the amount restored to <span style=\"color: rgb(243, 109, 28);\">10%</span>. </p><p>If allied units have [effect:abce6753-fe29-4ca3-b487-7453e982b279], applies [effect:089480d9-864e-47ff-a750-08dd03ab7ba4] to them.</p><p>When allied units (excluding Suomi) use basic attacks or skills, Suomi applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] to a random enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of herself.</p><p>When an enemy unit within range takes targeted damage from an ally, prioritizes using [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] <span style=\"color: rgb(243, 109, 28);\">once</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. Applies [effect:a19417f1-0ecf-466a-a904-29e3de492bcf] to the allied units for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Restores <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability index of allied units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of Suomi. This can be triggered <span style=\"color: rgb(243, 109, 28);\">thrice</span> per turn. When HP is <span style=\"color: rgb(243, 109, 28);\">above 80%</span>, gains [effect:979e032e-adde-4d68-a1b8-77386c86901e].</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Healing",
+            "Support"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "27a61a8f-697f-43ed-9759-1856f2b0c91c",
+            "level": 3,
+            "effect": "<p>Addtional effect [effect:089480d9-864e-47ff-a750-08dd03ab7ba4] is added: when attacked, if [effect:abce6753-fe29-4ca3-b487-7453e982b279] is not broken, inflict <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to the attacker.</p><p>Support Actions now trigger an additional <span style=\"color: rgb(243, 109, 28);\">1 time</span> per turn, and recovers <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability index for other allied units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> around the user.</p>",
+            "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/2a0f2c75b78b82eb3c4294327b7ac10e.webp",
+            "createdAt": "2025-09-21T21:33:51.322Z",
+            "updatedAt": "2025-10-14T07:06:03.907Z",
+            "vertebraeName": "Source of Warmth Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "26de2954-b353-4245-b1ee-e3329c666b70",
         "name": "Winter's Wrath",
-        "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it. This skill's critical rate is reduced by <span style=\"color: rgb(243, 109, 28);\">100%</span> and deals additional fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense. For every other allied unit within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. If the target is in Stability Break, recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability.</p>",
-        "phase": "Freeze",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 4,
-        "cooldown": 1,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/3a5560eb6fe7ff357a56f8874aa02416.webp",
         "createdAt": "2025-09-20T19:34:43.607Z",
         "updatedAt": "2025-09-29T03:45:59.463Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "6766d97d-5d5e-4b61-9509-cda9aedae43a",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted"
-        ],
         "keyUpgradesData": "[\"88348b68-d42d-4b1b-aae0-5b7b902078dc\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it. This skill's critical rate is reduced by <span style=\"color: rgb(243, 109, 28);\">100%</span> and deals additional fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense. If this attack causes Stability Break, the fixed damage dealt is increased to <span style=\"color: rgb(243, 109, 28);\">125%</span> of defense. For every other allied unit within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. If the target is in Stability Break, recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it. This skill's critical rate is reduced by <span style=\"color: rgb(243, 109, 28);\">100%</span> and deals additional fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense. For every other allied unit within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. If the target is in Stability Break, recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability.</p>",
+          "phase": "Freeze",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 4,
+          "cooldown": 1,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "6766d97d-5d5e-4b61-9509-cda9aedae43a",
-          "level": 2,
-          "effect": "<p>If it causes Stability Break, increase fixed damage to <span style=\"color: rgb(243, 109, 28);\">125%</span><span> of defense.</span></p>",
-          "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/3a5560eb6fe7ff357a56f8874aa02416.webp",
-          "createdAt": "2025-09-21T21:31:34.023Z",
-          "updatedAt": "2025-09-21T21:40:53.360Z",
-          "vertebraeName": "Winter's Wrath Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "6766d97d-5d5e-4b61-9509-cda9aedae43a",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 1,
+          "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it. This skill's critical rate is reduced by <span style=\"color: rgb(243, 109, 28);\">100%</span> and deals additional fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense. If this attack causes Stability Break, the fixed damage dealt is increased to <span style=\"color: rgb(243, 109, 28);\">125%</span> of defense. For every other allied unit within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. If the target is in Stability Break, recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability.</p>",
+          "phase": "Freeze",
+          "skillTags": [
+            "Active",
+            "Targeted"
+          ],
+          "stabilityDamage": 4,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "6766d97d-5d5e-4b61-9509-cda9aedae43a",
+            "level": 2,
+            "effect": "<p>If it causes Stability Break, increase fixed damage to <span style=\"color: rgb(243, 109, 28);\">125%</span><span> of defense.</span></p>",
+            "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/3a5560eb6fe7ff357a56f8874aa02416.webp",
+            "createdAt": "2025-09-21T21:31:34.023Z",
+            "updatedAt": "2025-09-21T21:40:53.360Z",
+            "vertebraeName": "Winter's Wrath Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "c4781149-5e67-4ad0-b22f-575b78832a3b",
         "name": "Snow's Grace",
-        "description": "<p>Select 1 allied target (excluding self) within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and apply [effect:abce6753-fe29-4ca3-b487-7453e982b279] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Frost Barrier absorption amount is equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of Suomi's initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP. Restore <span style=\"color: rgb(243, 109, 28);\">2</span> stability index. For each enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of selected target, apply <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:b0f569df-032b-4e4e-bc7c-3d45fa86cb74] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": 1,
         "imageUrl": "https://cdn.dandegate.net/skills/aa54ed12bc4f47523fcfdd7ac227250c.webp",
         "createdAt": "2025-09-20T19:35:01.381Z",
         "updatedAt": "2025-10-14T07:07:00.166Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
         "summonId": null,
-        "rangeMapId": "d9f20fd4-81a8-4d99-908e-7a34e940786c",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "d4917e40-17f2-4423-becc-b6d4c8d56f3a",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Buff"
-        ],
         "keyUpgradesData": "[\"953427ec-d1bd-421d-86cd-aeac5069e87c\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Select 1 allied target (excluding self) within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, apply [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:2b1851b8-0629-41b3-80f0-43e38203378b] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Frost Barrier absorption amount is equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of Suomi's initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP. Restore <span style=\"color: rgb(243, 109, 28);\">2</span> stability index. For each enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of selected target, apply <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:b0f569df-032b-4e4e-bc7c-3d45fa86cb74] (<span style=\"color: rgb(243, 109, 28);\">2</span> stacks for large enemy units) for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "d9f20fd4-81a8-4d99-908e-7a34e940786c",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758492281690-6 suomi.webp",
-          "createdAt": "2025-09-21T22:04:41.793Z",
-          "updatedAt": "2025-09-21T22:04:41.793Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Select 1 allied target (excluding self) within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and apply [effect:abce6753-fe29-4ca3-b487-7453e982b279] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Frost Barrier absorption amount is equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of Suomi's initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP. Restore <span style=\"color: rgb(243, 109, 28);\">2</span> stability index. For each enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of selected target, apply <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:b0f569df-032b-4e4e-bc7c-3d45fa86cb74] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": 1,
+          "rangeMapId": "d9f20fd4-81a8-4d99-908e-7a34e940786c",
+          "skillTags": [
+            "Active",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "d9f20fd4-81a8-4d99-908e-7a34e940786c",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758492281690-6 suomi.webp",
+            "createdAt": "2025-09-21T22:04:41.793Z",
+            "updatedAt": "2025-09-21T22:04:41.793Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "d4917e40-17f2-4423-becc-b6d4c8d56f3a",
-          "level": 2,
-          "effect": "<p>Apply [effect:2b1851b8-0629-41b3-80f0-43e38203378b] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>. For each surrounding large enemy unit, apply </span><span style=\"color: rgb(243, 109, 28);\">1 additional stack</span><span> of [effect:b0f569df-032b-4e4e-bc7c-3d45fa86cb74].</span></p>",
-          "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/aa54ed12bc4f47523fcfdd7ac227250c.webp",
-          "createdAt": "2025-09-21T21:28:34.014Z",
-          "updatedAt": "2025-10-14T07:06:04.428Z",
-          "vertebraeName": "Snow's Grace Lv.2"
+        "level2": {
+          "rangeMapId": "d9f20fd4-81a8-4d99-908e-7a34e940786c",
+          "vertebraeUpgradeId": "d4917e40-17f2-4423-becc-b6d4c8d56f3a",
+          "ammoTypes": null,
+          "confectanceCost": 1,
+          "cooldown": null,
+          "description": "<p>Select 1 allied target (excluding self) within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, apply [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:2b1851b8-0629-41b3-80f0-43e38203378b] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Frost Barrier absorption amount is equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of Suomi's initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP. Restore <span style=\"color: rgb(243, 109, 28);\">2</span> stability index. For each enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of selected target, apply <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:b0f569df-032b-4e4e-bc7c-3d45fa86cb74] (<span style=\"color: rgb(243, 109, 28);\">2</span> stacks for large enemy units) for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "phase": null,
+          "skillTags": [
+            "Active",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "d9f20fd4-81a8-4d99-908e-7a34e940786c",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758492281690-6 suomi.webp",
+            "createdAt": "2025-09-21T22:04:41.793Z",
+            "updatedAt": "2025-09-21T22:04:41.793Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "d4917e40-17f2-4423-becc-b6d4c8d56f3a",
+            "level": 2,
+            "effect": "<p>Apply [effect:2b1851b8-0629-41b3-80f0-43e38203378b] to the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span><span>. For each surrounding large enemy unit, apply </span><span style=\"color: rgb(243, 109, 28);\">1 additional stack</span><span> of [effect:b0f569df-032b-4e4e-bc7c-3d45fa86cb74].</span></p>",
+            "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/aa54ed12bc4f47523fcfdd7ac227250c.webp",
+            "createdAt": "2025-09-21T21:28:34.014Z",
+            "updatedAt": "2025-10-14T07:06:04.428Z",
+            "vertebraeName": "Snow's Grace Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "289148de-4517-41c1-b9a4-ddb750d046d1",
         "name": "Snowfield's Radiance",
-        "description": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, applying <span style=\"color: rgb(243, 109, 28);\">2</span> stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012].<br><br>Restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff, and cleanses the effect of [effect:fadf4f3f-2810-49f0-b947-6d683741429d] from all allied units. Additionally, applies [effect:abce6753-fe29-4ca3-b487-7453e982b279] and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. <br>Frost Barrier absorbs damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Suomi's initial attack, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP.<br><br>After the skill is used, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles in a <span style=\"color: rgb(243, 109, 28);\">snowflake-shaped area within 4 tiles</span> around the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": 5,
         "imageUrl": "https://cdn.dandegate.net/skills/734eff82e4781c1c12d8e956982adbbf.webp",
         "createdAt": "2025-09-20T19:35:19.979Z",
         "updatedAt": "2025-11-03T18:03:45.379Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
         "summonId": null,
-        "rangeMapId": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "fb405bd6-d683-4240-aaf4-bbab0135373d",
-        "vertebraeUpgradeIdLevel3": "6ec041c7-ee19-4c9f-a1a7-500800114a6f",
-        "skillTags": [
-          "Ultimate",
-          "Tile"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, applying <span style=\"color: rgb(243, 109, 28);\">3</span> stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012].<br><br>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Suomi's max HP, <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff, and cleanses the effect of [effect:fadf4f3f-2810-49f0-b947-6d683741429d] from all allied units. Additionally, applies [effect:abce6753-fe29-4ca3-b487-7453e982b279] and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. </p><p>[effect:4832fc30-ae79-484a-9d8d-3d68afb42154] applied to allied units (excluding Suomi) is increased by <span style=\"color: rgb(243, 109, 28);\">1 stack</span>. Frost Barrier absorbs damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Suomi's initial attack, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP.<br><br>If an allied unit is at full HP before being healed, they gain an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], and [effect:baf41815-8bb6-4104-bd1f-e3217ff87d31] lasting <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.<br><br>After the skill is used, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles in a <span style=\"color: rgb(243, 109, 28);\">snowflake-shaped area within 4 tiles</span> around the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-        "descriptionLevel3": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, applying <span style=\"color: rgb(243, 109, 28);\">3</span> stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012].<br><br>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of Suomi's max HP, <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability, cleanses <span style=\"color: rgb(243, 109, 28);\">3</span> debuffs, and cleanses the effect of [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from all allied units. Additionally, applies [effect:abce6753-fe29-4ca3-b487-7453e982b279], [effect:e8b188c4-e3be-4dee-8708-82b8ac81726e], and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. </p><p>[effect:4832fc30-ae79-484a-9d8d-3d68afb42154] applied to allied units (excluding Suomi) is increased by <span style=\"color: rgb(243, 109, 28);\">1 stack</span>. Frost Barrier absorbs damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Suomi's initial attack. Increases the effect of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] by <span style=\"color: rgb(243, 109, 28);\">30%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">150%</span> of the target's max HP.<br><br>If an allied unit is at full HP before being healed, they gain an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], and [effect:baf41815-8bb6-4104-bd1f-e3217ff87d31] lasting <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.<br><br>After the skill is used, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles in a <span style=\"color: rgb(243, 109, 28);\">snowflake-shaped area within 5 tiles</span> around the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[\"Ultimate\",\"Healing\",\"Tile\"]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757744168858-r6e3.webp",
-          "createdAt": "2025-09-13T06:16:08.963Z",
-          "updatedAt": "2025-09-13T06:16:08.963Z",
-          "rangeValue": "6",
-          "effectiveArea": "3"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, applying <span style=\"color: rgb(243, 109, 28);\">2</span> stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012].<br><br>Restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff, and cleanses the effect of [effect:fadf4f3f-2810-49f0-b947-6d683741429d] from all allied units. Additionally, applies [effect:abce6753-fe29-4ca3-b487-7453e982b279] and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. <br>Frost Barrier absorbs damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Suomi's initial attack, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP.<br><br>After the skill is used, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles in a <span style=\"color: rgb(243, 109, 28);\">snowflake-shaped area within 4 tiles</span> around the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": 5,
+          "rangeMapId": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+          "skillTags": [
+            "Ultimate",
+            "Tile"
+          ],
+          "rangeMap": {
+            "id": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744168858-r6e3.webp",
+            "createdAt": "2025-09-13T06:16:08.963Z",
+            "updatedAt": "2025-09-13T06:16:08.963Z",
+            "rangeValue": "6",
+            "effectiveArea": "3"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "fb405bd6-d683-4240-aaf4-bbab0135373d",
-          "level": 2,
-          "effect": "<p>Increase the number of stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] by 1.</p><p>Recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Suomi's maximum HP and restores stability index by <span style=\"color: rgb(243, 109, 28);\">4 points</span> to all allied units. All allied units (excluding self) gain an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154].</p><p>If the allied unit is at full HP before being healed, they gain an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] and [effect:baf41815-8bb6-4104-bd1f-e3217ff87d31] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-          "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/734eff82e4781c1c12d8e956982adbbf.webp",
-          "createdAt": "2025-09-21T21:18:26.784Z",
-          "updatedAt": "2025-10-14T07:06:18.965Z",
-          "vertebraeName": "Snowfield's Radiance Lv.2"
+        "level2": {
+          "rangeMapId": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+          "vertebraeUpgradeId": "fb405bd6-d683-4240-aaf4-bbab0135373d",
+          "ammoTypes": "[]",
+          "confectanceCost": 5,
+          "cooldown": null,
+          "description": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, applying <span style=\"color: rgb(243, 109, 28);\">3</span> stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012].<br><br>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Suomi's max HP, <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff, and cleanses the effect of [effect:fadf4f3f-2810-49f0-b947-6d683741429d] from all allied units. Additionally, applies [effect:abce6753-fe29-4ca3-b487-7453e982b279] and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. </p><p>[effect:4832fc30-ae79-484a-9d8d-3d68afb42154] applied to allied units (excluding Suomi) is increased by <span style=\"color: rgb(243, 109, 28);\">1 stack</span>. Frost Barrier absorbs damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Suomi's initial attack, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP.<br><br>If an allied unit is at full HP before being healed, they gain an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], and [effect:baf41815-8bb6-4104-bd1f-e3217ff87d31] lasting <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.<br><br>After the skill is used, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles in a <span style=\"color: rgb(243, 109, 28);\">snowflake-shaped area within 4 tiles</span> around the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+          "phase": null,
+          "skillTags": "[\"Ultimate\",\"Healing\",\"Tile\"]",
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744168858-r6e3.webp",
+            "createdAt": "2025-09-13T06:16:08.963Z",
+            "updatedAt": "2025-09-13T06:16:08.963Z",
+            "rangeValue": "6",
+            "effectiveArea": "3"
+          },
+          "vertebraeUpgrade": {
+            "id": "fb405bd6-d683-4240-aaf4-bbab0135373d",
+            "level": 2,
+            "effect": "<p>Increase the number of stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] by 1.</p><p>Recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Suomi's maximum HP and restores stability index by <span style=\"color: rgb(243, 109, 28);\">4 points</span> to all allied units. All allied units (excluding self) gain an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154].</p><p>If the allied unit is at full HP before being healed, they gain an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] and [effect:baf41815-8bb6-4104-bd1f-e3217ff87d31] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+            "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/734eff82e4781c1c12d8e956982adbbf.webp",
+            "createdAt": "2025-09-21T21:18:26.784Z",
+            "updatedAt": "2025-10-14T07:06:18.965Z",
+            "vertebraeName": "Snowfield's Radiance Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "6ec041c7-ee19-4c9f-a1a7-500800114a6f",
-          "level": 3,
-          "effect": "<p>Applies [effect:e8b188c4-e3be-4dee-8708-82b8ac81726e] to all allied units for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. </p><p>Increases the number of cleansed debuffs by <span style=\"color: rgb(243, 109, 28);\">2</span>, and also cleanses the effects of [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b]. </p><p>Increases restored HP by <span style=\"color: rgb(243, 109, 28);\">50%</span> of Suomi's max HP. Expand the radius of [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. </p><p>The effect of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] is enhanced by <span style=\"color: rgb(243, 109, 28);\">30%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">150%</span> of the target's max HP.</p>",
-          "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/734eff82e4781c1c12d8e956982adbbf.webp",
-          "createdAt": "2025-09-21T21:36:43.653Z",
-          "updatedAt": "2025-10-14T07:06:18.791Z",
-          "vertebraeName": "Snowfield's Radiance Lv.3"
+        "level3": {
+          "rangeMapId": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+          "vertebraeUpgradeId": "6ec041c7-ee19-4c9f-a1a7-500800114a6f",
+          "ammoTypes": "[]",
+          "confectanceCost": 5,
+          "cooldown": null,
+          "description": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, applying <span style=\"color: rgb(243, 109, 28);\">3</span> stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012].<br><br>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of Suomi's max HP, <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability, cleanses <span style=\"color: rgb(243, 109, 28);\">3</span> debuffs, and cleanses the effect of [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from all allied units. Additionally, applies [effect:abce6753-fe29-4ca3-b487-7453e982b279], [effect:e8b188c4-e3be-4dee-8708-82b8ac81726e], and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. </p><p>[effect:4832fc30-ae79-484a-9d8d-3d68afb42154] applied to allied units (excluding Suomi) is increased by <span style=\"color: rgb(243, 109, 28);\">1 stack</span>. Frost Barrier absorbs damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Suomi's initial attack. Increases the effect of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] by <span style=\"color: rgb(243, 109, 28);\">30%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">150%</span> of the target's max HP.<br><br>If an allied unit is at full HP before being healed, they gain an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], and [effect:baf41815-8bb6-4104-bd1f-e3217ff87d31] lasting <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.<br><br>After the skill is used, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles in a <span style=\"color: rgb(243, 109, 28);\">snowflake-shaped area within 5 tiles</span> around the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
+          "phase": null,
+          "skillTags": "[\"Ultimate\",\"Healing\",\"Tile\"]",
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757744168858-r6e3.webp",
+            "createdAt": "2025-09-13T06:16:08.963Z",
+            "updatedAt": "2025-09-13T06:16:08.963Z",
+            "rangeValue": "6",
+            "effectiveArea": "3"
+          },
+          "vertebraeUpgrade": {
+            "id": "6ec041c7-ee19-4c9f-a1a7-500800114a6f",
+            "level": 3,
+            "effect": "<p>Applies [effect:e8b188c4-e3be-4dee-8708-82b8ac81726e] to all allied units for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. </p><p>Increases the number of cleansed debuffs by <span style=\"color: rgb(243, 109, 28);\">2</span>, and also cleanses the effects of [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b]. </p><p>Increases restored HP by <span style=\"color: rgb(243, 109, 28);\">50%</span> of Suomi's max HP. Expand the radius of [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. </p><p>The effect of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] is enhanced by <span style=\"color: rgb(243, 109, 28);\">30%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">150%</span> of the target's max HP.</p>",
+            "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/734eff82e4781c1c12d8e956982adbbf.webp",
+            "createdAt": "2025-09-21T21:36:43.653Z",
+            "updatedAt": "2025-10-14T07:06:18.791Z",
+            "vertebraeName": "Snowfield's Radiance Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -455,26 +473,6 @@
         "createdAt": "2025-10-29T00:21:46.679Z",
         "updatedAt": "2025-10-29T00:21:46.679Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "createdAt": "2025-09-21T19:27:19.109Z",
-              "updatedAt": "2025-09-21T19:27:19.109Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Rock and Roll",
         "shortId": "a48"
@@ -498,26 +496,6 @@
         "createdAt": "2025-09-30T01:04:08.908Z",
         "updatedAt": "2026-02-06T04:27:44.456Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "createdAt": "2025-09-21T19:27:19.109Z",
-              "updatedAt": "2025-09-21T19:27:19.109Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Mission's Blessing",
         "shortId": "c48"
@@ -541,26 +519,6 @@
         "createdAt": "2025-09-30T01:16:23.197Z",
         "updatedAt": "2025-10-14T07:06:47.221Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "createdAt": "2025-09-21T19:27:19.109Z",
-              "updatedAt": "2025-09-21T19:27:19.109Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Rock and Roll, Snowflake!",
         "shortId": "k1"
@@ -585,26 +543,6 @@
         "createdAt": "2025-09-20T19:10:07.305Z",
         "updatedAt": "2025-09-20T19:10:07.305Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "createdAt": "2025-09-21T19:27:19.109Z",
-              "updatedAt": "2025-09-21T19:27:19.109Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Unyielding Momentum",
         "shortId": "k2"
@@ -629,26 +567,6 @@
         "createdAt": "2025-09-20T19:11:05.014Z",
         "updatedAt": "2025-09-20T19:11:05.014Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "createdAt": "2025-09-21T19:27:19.109Z",
-              "updatedAt": "2025-09-21T19:27:19.109Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Little Guardian",
         "shortId": "k3"
@@ -673,26 +591,6 @@
         "createdAt": "2025-09-20T19:13:44.345Z",
         "updatedAt": "2025-09-20T19:13:44.345Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "createdAt": "2025-09-21T19:27:19.109Z",
-              "updatedAt": "2025-09-21T19:27:19.109Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Positive Feedback",
         "shortId": "k4"
@@ -717,26 +615,6 @@
         "createdAt": "2025-09-20T19:15:07.437Z",
         "updatedAt": "2025-09-20T19:15:07.437Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "createdAt": "2025-09-21T19:27:19.109Z",
-              "updatedAt": "2025-09-21T19:27:19.109Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Move Swiftly",
         "shortId": "k5"
@@ -761,26 +639,6 @@
         "createdAt": "2025-09-20T19:29:24.332Z",
         "updatedAt": "2025-10-14T07:06:30.285Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "createdAt": "2025-09-21T19:27:19.109Z",
-              "updatedAt": "2025-09-21T19:27:19.109Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Immovable",
         "shortId": "k6"
@@ -805,26 +663,6 @@
         "createdAt": "2025-09-20T19:32:22.963Z",
         "updatedAt": "2025-09-20T19:32:22.963Z",
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "createdAt": "2025-09-21T19:27:19.109Z",
-              "updatedAt": "2025-09-21T19:27:19.109Z"
-            }
-          ],
-          "searchTags": []
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Logistics Support in Progress",
         "shortId": "k7"
@@ -841,68 +679,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/734eff82e4781c1c12d8e956982adbbf.webp",
         "createdAt": "2025-09-21T21:18:26.784Z",
         "updatedAt": "2025-10-14T07:06:18.965Z",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "class": "Support",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A cute, conscientious, and kind-hearted Doll who will do what it takes for a mission. She bravely steps forward for her companions in the Community whilst she wanders the lands in search of those she treasures dearly. You need not worry when entrusting her with assignments; she will never fail to meet your expectations of complete her missions.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "289148de-4517-41c1-b9a4-ddb750d046d1",
             "name": "Snowfield's Radiance",
-            "phase": null,
             "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/734eff82e4781c1c12d8e956982adbbf.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-20T19:35:19.979Z",
-            "skillTags": [
-              "Ultimate",
-              "Tile"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-03T18:03:45.379Z",
-            "description": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, applying <span style=\"color: rgb(243, 109, 28);\">2</span> stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012].<br><br>Restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff, and cleanses the effect of [effect:fadf4f3f-2810-49f0-b947-6d683741429d] from all allied units. Additionally, applies [effect:abce6753-fe29-4ca3-b487-7453e982b279] and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. <br>Frost Barrier absorbs damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Suomi's initial attack, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP.<br><br>After the skill is used, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles in a <span style=\"color: rgb(243, 109, 28);\">snowflake-shaped area within 4 tiles</span> around the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 5,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[\"Ultimate\",\"Healing\",\"Tile\"]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, applying <span style=\"color: rgb(243, 109, 28);\">3</span> stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012].<br><br>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Suomi's max HP, <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff, and cleanses the effect of [effect:fadf4f3f-2810-49f0-b947-6d683741429d] from all allied units. Additionally, applies [effect:abce6753-fe29-4ca3-b487-7453e982b279] and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. </p><p>[effect:4832fc30-ae79-484a-9d8d-3d68afb42154] applied to allied units (excluding Suomi) is increased by <span style=\"color: rgb(243, 109, 28);\">1 stack</span>. Frost Barrier absorbs damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Suomi's initial attack, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP.<br><br>If an allied unit is at full HP before being healed, they gain an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], and [effect:baf41815-8bb6-4104-bd1f-e3217ff87d31] lasting <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.<br><br>After the skill is used, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles in a <span style=\"color: rgb(243, 109, 28);\">snowflake-shaped area within 4 tiles</span> around the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-            "descriptionLevel3": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, applying <span style=\"color: rgb(243, 109, 28);\">3</span> stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012].<br><br>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of Suomi's max HP, <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability, cleanses <span style=\"color: rgb(243, 109, 28);\">3</span> debuffs, and cleanses the effect of [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from all allied units. Additionally, applies [effect:abce6753-fe29-4ca3-b487-7453e982b279], [effect:e8b188c4-e3be-4dee-8708-82b8ac81726e], and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. </p><p>[effect:4832fc30-ae79-484a-9d8d-3d68afb42154] applied to allied units (excluding Suomi) is increased by <span style=\"color: rgb(243, 109, 28);\">1 stack</span>. Frost Barrier absorbs damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Suomi's initial attack. Increases the effect of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] by <span style=\"color: rgb(243, 109, 28);\">30%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">150%</span> of the target's max HP.<br><br>If an allied unit is at full HP before being healed, they gain an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], and [effect:baf41815-8bb6-4104-bd1f-e3217ff87d31] lasting <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.<br><br>After the skill is used, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles in a <span style=\"color: rgb(243, 109, 28);\">snowflake-shaped area within 5 tiles</span> around the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "fb405bd6-d683-4240-aaf4-bbab0135373d",
-            "vertebraeUpgradeIdLevel3": "6ec041c7-ee19-4c9f-a1a7-500800114a6f"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "7367e4da-1ddd-49c7-8813-c249ccc399f7",
@@ -914,69 +702,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/2a0f2c75b78b82eb3c4294327b7ac10e.webp",
         "createdAt": "2025-09-21T21:20:55.555Z",
         "updatedAt": "2025-10-14T07:06:04.250Z",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "class": "Support",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A cute, conscientious, and kind-hearted Doll who will do what it takes for a mission. She bravely steps forward for her companions in the Community whilst she wanders the lands in search of those she treasures dearly. You need not worry when entrusting her with assignments; she will never fail to meet your expectations of complete her missions.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "1898a07a-ea46-431d-b86b-d84fe3cc9f75",
             "name": "Source of Warmth",
-            "phase": null,
             "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/2a0f2c75b78b82eb3c4294327b7ac10e.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-20T19:35:38.625Z",
-            "skillTags": [
-              "Passive",
-              "Healing",
-              "Support"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:07:13.830Z",
-            "description": "<p>At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, restores <span style=\"color: rgb(243, 109, 28);\">5%</span> of Suomi's max HP to other allied units within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target's HP is <span style=\"color: rgb(243, 109, 28);\">below 50%</span>, increase the amount restored to <span style=\"color: rgb(243, 109, 28);\">10%</span>. </p><p>When allied units (excluding Suomi) use basic attacks or skills, Suomi applies [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] to a random enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of herself.</p><p>When an enemy unit within range takes targeted damage from an ally, prioritizes using [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] <span style=\"color: rgb(243, 109, 28);\">once</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. Applies [effect:a19417f1-0ecf-466a-a904-29e3de492bcf] to the allied units for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn. When HP is above 80%, gains [effect:979e032e-adde-4d68-a1b8-77386c86901e].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, restores <span style=\"color: rgb(243, 109, 28);\">5%</span> of Suomi's max HP to other allied units within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target's HP is <span style=\"color: rgb(243, 109, 28);\">below 50%</span>, increase the amount restored to <span style=\"color: rgb(243, 109, 28);\">10%</span>. </p><p>If allied units have [effect:abce6753-fe29-4ca3-b487-7453e982b279], applies [effect:089480d9-864e-47ff-a750-08dd03ab7ba4] to them.</p><p>When allied units (excluding Suomi) use basic attacks or skills, Suomi applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] to a random enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of herself.</p><p>When an enemy unit within range takes targeted damage from an ally, prioritizes using [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] <span style=\"color: rgb(243, 109, 28);\">once</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. Applies [effect:a19417f1-0ecf-466a-a904-29e3de492bcf] to the allied units for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn. When HP is <span style=\"color: rgb(243, 109, 28);\">above 80%</span>, gains [effect:979e032e-adde-4d68-a1b8-77386c86901e].</p>",
-            "descriptionLevel3": "<p>At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, restores <span style=\"color: rgb(243, 109, 28);\">5%</span> of Suomi's max HP to other allied units within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target's HP is <span style=\"color: rgb(243, 109, 28);\">below 50%</span>, increase the amount restored to <span style=\"color: rgb(243, 109, 28);\">10%</span>. </p><p>If allied units have [effect:abce6753-fe29-4ca3-b487-7453e982b279], applies [effect:089480d9-864e-47ff-a750-08dd03ab7ba4] to them.</p><p>When allied units (excluding Suomi) use basic attacks or skills, Suomi applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] to a random enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of herself.</p><p>When an enemy unit within range takes targeted damage from an ally, prioritizes using [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] <span style=\"color: rgb(243, 109, 28);\">once</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. Applies [effect:a19417f1-0ecf-466a-a904-29e3de492bcf] to the allied units for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Restores <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability index of allied units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of Suomi. This can be triggered <span style=\"color: rgb(243, 109, 28);\">thrice</span> per turn. When HP is <span style=\"color: rgb(243, 109, 28);\">above 80%</span>, gains [effect:979e032e-adde-4d68-a1b8-77386c86901e].</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "7367e4da-1ddd-49c7-8813-c249ccc399f7",
-            "vertebraeUpgradeIdLevel3": "27a61a8f-697f-43ed-9759-1856f2b0c91c"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "d4917e40-17f2-4423-becc-b6d4c8d56f3a",
@@ -988,68 +725,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/aa54ed12bc4f47523fcfdd7ac227250c.webp",
         "createdAt": "2025-09-21T21:28:34.014Z",
         "updatedAt": "2025-10-14T07:06:04.428Z",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "class": "Support",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A cute, conscientious, and kind-hearted Doll who will do what it takes for a mission. She bravely steps forward for her companions in the Community whilst she wanders the lands in search of those she treasures dearly. You need not worry when entrusting her with assignments; she will never fail to meet your expectations of complete her missions.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "c4781149-5e67-4ad0-b22f-575b78832a3b",
             "name": "Snow's Grace",
-            "phase": null,
             "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/aa54ed12bc4f47523fcfdd7ac227250c.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-20T19:35:01.381Z",
-            "skillTags": [
-              "Active",
-              "Buff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-14T07:07:00.166Z",
-            "description": "<p>Select 1 allied target (excluding self) within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and apply [effect:abce6753-fe29-4ca3-b487-7453e982b279] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Frost Barrier absorption amount is equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of Suomi's initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP. Restore <span style=\"color: rgb(243, 109, 28);\">2</span> stability index. For each enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of selected target, apply <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:b0f569df-032b-4e4e-bc7c-3d45fa86cb74] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "d9f20fd4-81a8-4d99-908e-7a34e940786c",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 1,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"953427ec-d1bd-421d-86cd-aeac5069e87c\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Select 1 allied target (excluding self) within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, apply [effect:abce6753-fe29-4ca3-b487-7453e982b279] and [effect:2b1851b8-0629-41b3-80f0-43e38203378b] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Frost Barrier absorption amount is equal to <span style=\"color: rgb(243, 109, 28);\">130%</span> of Suomi's initial attack, but cannot exceed <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP. Restore <span style=\"color: rgb(243, 109, 28);\">2</span> stability index. For each enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of selected target, apply <span style=\"color: rgb(243, 109, 28);\">1</span> stack of [effect:b0f569df-032b-4e4e-bc7c-3d45fa86cb74] (<span style=\"color: rgb(243, 109, 28);\">2</span> stacks for large enemy units) for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "d4917e40-17f2-4423-becc-b6d4c8d56f3a",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "6766d97d-5d5e-4b61-9509-cda9aedae43a",
@@ -1061,68 +748,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3a5560eb6fe7ff357a56f8874aa02416.webp",
         "createdAt": "2025-09-21T21:31:34.023Z",
         "updatedAt": "2025-09-21T21:40:53.360Z",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "class": "Support",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A cute, conscientious, and kind-hearted Doll who will do what it takes for a mission. She bravely steps forward for her companions in the Community whilst she wanders the lands in search of those she treasures dearly. You need not worry when entrusting her with assignments; she will never fail to meet your expectations of complete her missions.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "26de2954-b353-4245-b1ee-e3329c666b70",
             "name": "Winter's Wrath",
-            "phase": "Freeze",
             "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-            "cooldown": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/3a5560eb6fe7ff357a56f8874aa02416.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-09-20T19:34:43.607Z",
-            "skillTags": [
-              "Active",
-              "Targeted"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-09-29T03:45:59.463Z",
-            "description": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it. This skill's critical rate is reduced by <span style=\"color: rgb(243, 109, 28);\">100%</span> and deals additional fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense. For every other allied unit within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. If the target is in Stability Break, recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 4,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"88348b68-d42d-4b1b-aae0-5b7b902078dc\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>Selects 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack to it. This skill's critical rate is reduced by <span style=\"color: rgb(243, 109, 28);\">100%</span> and deals additional fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense. If this attack causes Stability Break, the fixed damage dealt is increased to <span style=\"color: rgb(243, 109, 28);\">125%</span> of defense. For every other allied unit within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. If the target is in Stability Break, recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability.</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "6766d97d-5d5e-4b61-9509-cda9aedae43a",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "27a61a8f-697f-43ed-9759-1856f2b0c91c",
@@ -1134,69 +771,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/2a0f2c75b78b82eb3c4294327b7ac10e.webp",
         "createdAt": "2025-09-21T21:33:51.322Z",
         "updatedAt": "2025-10-14T07:06:03.907Z",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "class": "Support",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A cute, conscientious, and kind-hearted Doll who will do what it takes for a mission. She bravely steps forward for her companions in the Community whilst she wanders the lands in search of those she treasures dearly. You need not worry when entrusting her with assignments; she will never fail to meet your expectations of complete her missions.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "1898a07a-ea46-431d-b86b-d84fe3cc9f75",
             "name": "Source of Warmth",
-            "phase": null,
             "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/2a0f2c75b78b82eb3c4294327b7ac10e.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-20T19:35:38.625Z",
-            "skillTags": [
-              "Passive",
-              "Healing",
-              "Support"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:07:13.830Z",
-            "description": "<p>At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, restores <span style=\"color: rgb(243, 109, 28);\">5%</span> of Suomi's max HP to other allied units within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target's HP is <span style=\"color: rgb(243, 109, 28);\">below 50%</span>, increase the amount restored to <span style=\"color: rgb(243, 109, 28);\">10%</span>. </p><p>When allied units (excluding Suomi) use basic attacks or skills, Suomi applies [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] to a random enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of herself.</p><p>When an enemy unit within range takes targeted damage from an ally, prioritizes using [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] <span style=\"color: rgb(243, 109, 28);\">once</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. Applies [effect:a19417f1-0ecf-466a-a904-29e3de492bcf] to the allied units for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn. When HP is above 80%, gains [effect:979e032e-adde-4d68-a1b8-77386c86901e].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": "<p>At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, restores <span style=\"color: rgb(243, 109, 28);\">5%</span> of Suomi's max HP to other allied units within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target's HP is <span style=\"color: rgb(243, 109, 28);\">below 50%</span>, increase the amount restored to <span style=\"color: rgb(243, 109, 28);\">10%</span>. </p><p>If allied units have [effect:abce6753-fe29-4ca3-b487-7453e982b279], applies [effect:089480d9-864e-47ff-a750-08dd03ab7ba4] to them.</p><p>When allied units (excluding Suomi) use basic attacks or skills, Suomi applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] to a random enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of herself.</p><p>When an enemy unit within range takes targeted damage from an ally, prioritizes using [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] <span style=\"color: rgb(243, 109, 28);\">once</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. Applies [effect:a19417f1-0ecf-466a-a904-29e3de492bcf] to the allied units for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This can be triggered <span style=\"color: rgb(243, 109, 28);\">twice</span> per turn. When HP is <span style=\"color: rgb(243, 109, 28);\">above 80%</span>, gains [effect:979e032e-adde-4d68-a1b8-77386c86901e].</p>",
-            "descriptionLevel3": "<p>At the end of the action, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index, restores <span style=\"color: rgb(243, 109, 28);\">5%</span> of Suomi's max HP to other allied units within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>. If the target's HP is <span style=\"color: rgb(243, 109, 28);\">below 50%</span>, increase the amount restored to <span style=\"color: rgb(243, 109, 28);\">10%</span>. </p><p>If allied units have [effect:abce6753-fe29-4ca3-b487-7453e982b279], applies [effect:089480d9-864e-47ff-a750-08dd03ab7ba4] to them.</p><p>When allied units (excluding Suomi) use basic attacks or skills, Suomi applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012] to a random enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of herself.</p><p>When an enemy unit within range takes targeted damage from an ally, prioritizes using [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] <span style=\"color: rgb(243, 109, 28);\">once</span>, dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage. Applies [effect:a19417f1-0ecf-466a-a904-29e3de492bcf] to the allied units for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Restores <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability index of allied units within <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of Suomi. This can be triggered <span style=\"color: rgb(243, 109, 28);\">thrice</span> per turn. When HP is <span style=\"color: rgb(243, 109, 28);\">above 80%</span>, gains [effect:979e032e-adde-4d68-a1b8-77386c86901e].</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "7367e4da-1ddd-49c7-8813-c249ccc399f7",
-            "vertebraeUpgradeIdLevel3": "27a61a8f-697f-43ed-9759-1856f2b0c91c"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "6ec041c7-ee19-4c9f-a1a7-500800114a6f",
@@ -1208,68 +794,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/734eff82e4781c1c12d8e956982adbbf.webp",
         "createdAt": "2025-09-21T21:36:43.653Z",
         "updatedAt": "2025-10-14T07:06:18.791Z",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "class": "Support",
-          "phase": "Freeze",
-          "rarity": "Elite",
-          "effects": "A cute, conscientious, and kind-hearted Doll who will do what it takes for a mission. She bravely steps forward for her companions in the Community whilst she wanders the lands in search of those she treasures dearly. You need not worry when entrusting her with assignments; she will never fail to meet your expectations of complete her missions.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "289148de-4517-41c1-b9a4-ddb750d046d1",
             "name": "Snowfield's Radiance",
-            "phase": null,
             "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/734eff82e4781c1c12d8e956982adbbf.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-09-20T19:35:19.979Z",
-            "skillTags": [
-              "Ultimate",
-              "Tile"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-11-03T18:03:45.379Z",
-            "description": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, applying <span style=\"color: rgb(243, 109, 28);\">2</span> stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012].<br><br>Restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff, and cleanses the effect of [effect:fadf4f3f-2810-49f0-b947-6d683741429d] from all allied units. Additionally, applies [effect:abce6753-fe29-4ca3-b487-7453e982b279] and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. <br>Frost Barrier absorbs damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Suomi's initial attack, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP.<br><br>After the skill is used, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles in a <span style=\"color: rgb(243, 109, 28);\">snowflake-shaped area within 4 tiles</span> around the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "bd3d364a-75c4-4bb4-9a09-c6ee9004ef1f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 5,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[\"Ultimate\",\"Healing\",\"Tile\"]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, applying <span style=\"color: rgb(243, 109, 28);\">3</span> stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012].<br><br>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of Suomi's max HP, <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff, and cleanses the effect of [effect:fadf4f3f-2810-49f0-b947-6d683741429d] from all allied units. Additionally, applies [effect:abce6753-fe29-4ca3-b487-7453e982b279] and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. </p><p>[effect:4832fc30-ae79-484a-9d8d-3d68afb42154] applied to allied units (excluding Suomi) is increased by <span style=\"color: rgb(243, 109, 28);\">1 stack</span>. Frost Barrier absorbs damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Suomi's initial attack, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">100%</span> of the target's max HP.<br><br>If an allied unit is at full HP before being healed, they gain an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], and [effect:baf41815-8bb6-4104-bd1f-e3217ff87d31] lasting <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.<br><br>After the skill is used, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles in a <span style=\"color: rgb(243, 109, 28);\">snowflake-shaped area within 4 tiles</span> around the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-            "descriptionLevel3": "<p>Selects 1 empty tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of defense to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>, applying <span style=\"color: rgb(243, 109, 28);\">3</span> stacks of [effect:3ded64d0-a3bc-45d7-9176-c93a17379012].<br><br>Restores HP equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of Suomi's max HP, <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability, cleanses <span style=\"color: rgb(243, 109, 28);\">3</span> debuffs, and cleanses the effect of [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from all allied units. Additionally, applies [effect:abce6753-fe29-4ca3-b487-7453e982b279], [effect:e8b188c4-e3be-4dee-8708-82b8ac81726e], and <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:4832fc30-ae79-484a-9d8d-3d68afb42154] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. </p><p>[effect:4832fc30-ae79-484a-9d8d-3d68afb42154] applied to allied units (excluding Suomi) is increased by <span style=\"color: rgb(243, 109, 28);\">1 stack</span>. Frost Barrier absorbs damage equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Suomi's initial attack. Increases the effect of [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] by <span style=\"color: rgb(243, 109, 28);\">30%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">150%</span> of the target's max HP.<br><br>If an allied unit is at full HP before being healed, they gain an additional <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a], and [effect:baf41815-8bb6-4104-bd1f-e3217ff87d31] lasting <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.<br><br>After the skill is used, generates [effect:3c3d2b25-6823-4ce4-a33e-cf69e0e759a5] tiles in a <span style=\"color: rgb(243, 109, 28);\">snowflake-shaped area within 5 tiles</span> around the selected tile for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "fb405bd6-d683-4240-aaf4-bbab0135373d",
-            "vertebraeUpgradeIdLevel3": "6ec041c7-ee19-4c9f-a1a7-500800114a6f"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1393,26 +929,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T19:42:01.455Z",
-        "updatedAt": "2025-11-01T21:11:37.469Z",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2025-11-01T21:11:37.469Z"
       },
       {
         "id": "a19417f1-0ecf-466a-a904-29e3de492bcf",
@@ -1425,26 +942,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T20:22:19.944Z",
-        "updatedAt": "2025-11-01T21:36:37.904Z",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2025-11-01T21:36:37.904Z"
       },
       {
         "id": "b0f569df-032b-4e4e-bc7c-3d45fa86cb74",
@@ -1458,26 +956,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T19:33:55.769Z",
-        "updatedAt": "2025-11-01T22:49:04.285Z",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2025-11-01T22:49:04.285Z"
       },
       {
         "id": "2b1851b8-0629-41b3-80f0-43e38203378b",
@@ -1491,61 +970,43 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T19:32:50.724Z",
-        "updatedAt": "2025-11-03T05:51:59.820Z",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2025-11-03T05:51:59.820Z"
       },
       {
         "id": "979e032e-adde-4d68-a1b8-77386c86901e",
         "effectName": "Sleetdrift Sprint",
-        "effectDetails": "{\"mainDetails\":\"<p>Support Fire range is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">1 tiles</span>. This effect cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"660c3bce-fa63-47c5-a92c-9554215dc353\",\"upgradeName\":\"V2\",\"upgradeDetails\":\"<p>Support Fire range is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">2 tiles</span>. This effect cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Support Fire range is increased by <span style=\"color: rgb(243, 109, 28);\">1 tiles</span>. This effect cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "660c3bce-fa63-47c5-a92c-9554215dc353",
+              "upgradeName": "V2",
+              "upgradeDetails": "<p>Support Fire range is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. This effect cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [],
         "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T20:24:06.755Z",
-        "updatedAt": "2025-09-28T01:53:58.382Z",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2025-09-28T01:53:58.382Z"
       },
       {
         "id": "089480d9-864e-47ff-a750-08dd03ab7ba4",
         "effectName": "Warding Light",
-        "effectDetails": "{\"mainDetails\":\"<p>Increase Freeze damage dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span>.</p>\",\"upgrades\":[{\"id\":\"9732ba01-26c3-489c-aee8-6897a5f17120\",\"upgradeName\":\"V5\",\"upgradeDetails\":\"<p>Increase Freeze damage dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span>. Upon taking damage, if [effect:abce6753-fe29-4ca3-b487-7453e982b279] is not destroyed, deal <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> fixed stability damage to the attack. This effect cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Increase Freeze damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+          "upgrades": [
+            {
+              "id": "9732ba01-26c3-489c-aee8-6897a5f17120",
+              "upgradeName": "V5",
+              "upgradeDetails": "<p>Increase Freeze damage dealt by <span style=\"color: rgb(243, 109, 28);\">15%</span>. Upon taking damage, if [effect:abce6753-fe29-4ca3-b487-7453e982b279] is not destroyed, deal <span style=\"color: rgb(243, 109, 28);\">1</span> fixed stability damage to the attack. This effect cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [
           "Buff"
         ],
@@ -1553,26 +1014,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T20:15:48.046Z",
-        "updatedAt": "2025-11-03T16:12:04.714Z",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2025-11-03T16:12:04.714Z"
       },
       {
         "id": "4832fc30-ae79-484a-9d8d-3d68afb42154",
@@ -1586,26 +1028,151 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-21T19:46:05.365Z",
-        "updatedAt": "2025-11-03T16:12:50.807Z",
-        "doll": {
-          "id": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
-          "name": "Suomi",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/suomi/eafc5c27f98149d69ba77c109b07cc04.webp",
-          "createdAt": "2025-09-20T19:08:09.507Z",
-          "regionTag": "en",
-          "updatedAt": "2025-12-24T03:14:25.765Z",
-          "dollImages": [
-            {
-              "id": "c6e29817-6078-41fd-801f-4d776dff3358",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/suomi/chibi-2f0014a4e944d98779121c629ee12d6c.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": []
-        }
+        "updatedAt": "2025-11-03T16:12:50.807Z"
+      },
+      {
+        "id": "ab2e634f-d257-44e3-af90-ce66a6ac43f3",
+        "effectName": "Support Action",
+        "effectDetails": "<p>Performs a Support Attack; cannot be triggered by another Support Attack.</p>",
+        "effectTags": [],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:08:04.163Z",
+        "updatedAt": "2025-09-11T00:08:04.163Z"
+      },
+      {
+        "id": "abce6753-fe29-4ca3-b487-7453e982b279",
+        "effectName": "Frost Barrier",
+        "effectDetails": "<p>When [effect:4b58c8fc-c426-4b72-91e5-92dfb9e5a600] or <span style=\"color: rgb(34, 139, 230);\">Frost Barrier</span> is destroyed, apply [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to the unit that destroyed it. This is considered a Freeze buff and cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff",
+          "Freeze"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T19:19:34.427Z",
+        "updatedAt": "2025-11-02T02:27:53.908Z"
+      },
+      {
+        "id": "fadf4f3f-2810-49f0-b947-6d683741429d",
+        "effectName": "Taunt",
+        "effectDetails": "<p>Uncontrollable, forced to use basic attacks on the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:35:26.444Z",
+        "updatedAt": "2025-11-03T16:00:56.734Z"
+      },
+      {
+        "id": "3c3d2b25-6823-4ce4-a33e-cf69e0e759a5",
+        "effectName": "Frost",
+        "effectDetails": "<p>Applies [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae] to units which end their movement in this area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Enemy units in this area gain a weakness to <span style=\"color: rgb(66, 205, 224);\">Freeze </span>damage and Freeze tiles.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T16:14:46.543Z",
+        "updatedAt": "2025-11-01T23:39:59.216Z"
+      },
+      {
+        "id": "10b11942-01c9-4937-b446-1fe44c50d88a",
+        "effectName": "Shelter",
+        "effectDetails": "<p>Gains Stability Protection, reducing stability damage taken by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. Each instance of stability damage taken consumes<span style=\"color: rgb(243, 109, 28);\"> 1 stack</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Stability"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:39:27.216Z",
+        "updatedAt": "2025-11-03T15:16:50.856Z"
+      },
+      {
+        "id": "baf41815-8bb6-4104-bd1f-e3217ff87d31",
+        "effectName": "Continuous Healing I",
+        "effectDetails": "<p>Restore <span style=\"color: rgb(243, 109, 28);\">10%</span> of maximum HP at the end of action. This is considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Healing"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T19:47:20.367Z",
+        "updatedAt": "2025-11-01T22:26:15.639Z"
+      },
+      {
+        "id": "e82fca4c-de4a-40b6-83c2-e84d716f72d3",
+        "effectName": "Fear",
+        "effectDetails": "<p>Uncontrollable, actively moves away from the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T15:54:18.994Z",
+        "updatedAt": "2025-11-03T14:56:03.797Z"
+      },
+      {
+        "id": "b46e4270-c2d5-4f69-bb9b-544785785790",
+        "effectName": "Infatuated",
+        "effectDetails": "<p>Uncontrollable, actively moves towards the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T21:37:27.720Z",
+        "updatedAt": "2025-11-03T15:04:08.566Z"
+      },
+      {
+        "id": "dd0752a2-37c4-47ba-91ad-2dc640d2372b",
+        "effectName": "Stun",
+        "effectDetails": "<p>Unable to act.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T03:49:59.941Z",
+        "updatedAt": "2025-11-03T15:54:17.616Z"
+      },
+      {
+        "id": "e8b188c4-e3be-4dee-8708-82b8ac81726e",
+        "effectName": "Defense Up II",
+        "effectDetails": "<p>Defense increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Defense"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T22:32:18.986Z",
+        "updatedAt": "2025-11-01T22:59:45.741Z"
+      },
+      {
+        "id": "4b58c8fc-c426-4b72-91e5-92dfb9e5a600",
+        "effectName": "Shield",
+        "effectDetails": "<p>Absorbs a certain amount of damage. Shields do not stack, but they can overlap. When the most recently-applied shield has a longer duration or takes more damage than the previous one(s), it replaces the previous one(s). Shield include [effect:abce6753-fe29-4ca3-b487-7453e982b279], [effect:bebcfe15-5173-43c9-bfd1-bcdb4cbfece1], and other effects.</p>",
+        "effectTags": [],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T19:18:04.645Z",
+        "updatedAt": "2025-10-14T07:07:20.275Z"
       }
     ],
     "shortId": "d48"

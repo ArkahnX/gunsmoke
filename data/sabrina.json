@@ -71,368 +71,398 @@
       {
         "id": "8e5f4f37-2bef-4353-a653-3f8f85ce44a6",
         "name": "My Treat",
-        "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles </span>and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80% </span>of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Shotgun Ammo\"]",
-        "stabilityDamage": 4,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/c970eec6aa6a899679cd7de7434ccee1.webp",
         "createdAt": "2025-09-17T19:44:34.776Z",
         "updatedAt": "2025-09-17T19:46:26.908Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles </span>and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80% </span>of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "stabilityDamage": 4,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "f70585d0-b500-473d-943d-a53be0e14f66",
         "name": "Flexible Modification",
-        "description": "<p>Before an allied unit is attacked, if they are within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> of Sabrina, applies <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] to the ally. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">6 times</span> per turn. Sabrina gains<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> of Confectance Index for <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage she deals. After using a skill to attack, she generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] within the area. If Hydro tiles are already present in the area, a tile reaction is triggered, removing the tile and dealing fixed damage equal to<span style=\"color: rgb(243, 109, 28);\"> 20%</span> of attack to the enemy target on the tile.</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/03e38465f6dfc943ea8e9d052a60f809.webp",
         "createdAt": "2025-09-17T20:56:30.279Z",
         "updatedAt": "2025-10-14T07:06:51.566Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
         "summonId": null,
-        "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "a10477bf-3c70-4f52-afe3-b4a60b5861f8",
-        "vertebraeUpgradeIdLevel3": "36eb940d-2272-4bba-90f5-67e3db07830b",
-        "skillTags": [
-          "Passive",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
-          "createdAt": "2025-09-13T05:51:44.706Z",
-          "updatedAt": "2025-09-13T05:51:44.706Z",
-          "rangeValue": "7",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>Before an allied unit is attacked, if they are within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> of Sabrina, applies <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] to the ally. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">6 times</span> per turn. Sabrina gains<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> of Confectance Index for <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage she deals. After using a skill to attack, she generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] within the area. If Hydro tiles are already present in the area, a tile reaction is triggered, removing the tile and dealing fixed damage equal to<span style=\"color: rgb(243, 109, 28);\"> 20%</span> of attack to the enemy target on the tile.</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
+            "createdAt": "2025-09-13T05:51:44.706Z",
+            "updatedAt": "2025-09-13T05:51:44.706Z",
+            "rangeValue": "7",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "a10477bf-3c70-4f52-afe3-b4a60b5861f8",
-          "level": 2,
-          "effect": "<p>Increase the number of times [effect:10b11942-01c9-4937-b446-1fe44c50d88a] can be applied by<span style=\"color: rgb(243, 109, 28);\"> 2</span><span>.</span></p>",
-          "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/03e38465f6dfc943ea8e9d052a60f809.webp",
-          "createdAt": "2025-09-17T21:08:59.278Z",
-          "updatedAt": "2025-10-14T07:05:55.025Z",
-          "vertebraeName": "Flexible Modification Lv.2"
+        "level2": {
+          "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+          "vertebraeUpgradeId": "a10477bf-3c70-4f52-afe3-b4a60b5861f8",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Before an allied unit is attacked, if they are within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> of Sabrina, applies <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] to the ally. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">6 times</span> per turn. Sabrina gains<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> of Confectance Index for <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage she deals. After using a skill to attack, she generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] within the area. If Hydro tiles are already present in the area, a tile reaction is triggered, removing the tile and dealing fixed damage equal to<span style=\"color: rgb(243, 109, 28);\"> 20%</span> of attack to the enemy target on the tile.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
+            "createdAt": "2025-09-13T05:51:44.706Z",
+            "updatedAt": "2025-09-13T05:51:44.706Z",
+            "rangeValue": "7",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "a10477bf-3c70-4f52-afe3-b4a60b5861f8",
+            "level": 2,
+            "effect": "<p>Increase the number of times [effect:10b11942-01c9-4937-b446-1fe44c50d88a] can be applied by<span style=\"color: rgb(243, 109, 28);\"> 2</span><span>.</span></p>",
+            "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/03e38465f6dfc943ea8e9d052a60f809.webp",
+            "createdAt": "2025-09-17T21:08:59.278Z",
+            "updatedAt": "2025-10-14T07:05:55.025Z",
+            "vertebraeName": "Flexible Modification Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "36eb940d-2272-4bba-90f5-67e3db07830b",
-          "level": 3,
-          "effect": "<p>When Confectance is full, additionally consume <span style=\"color: rgb(243, 109, 28);\">4 points</span><span> of Confectance Index to increase skill damage by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
-          "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/03e38465f6dfc943ea8e9d052a60f809.webp",
-          "createdAt": "2025-09-17T21:25:17.968Z",
-          "updatedAt": "2025-09-17T21:25:26.777Z",
-          "vertebraeName": "Flexible Modification Lv.3"
+        "level3": {
+          "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+          "vertebraeUpgradeId": "36eb940d-2272-4bba-90f5-67e3db07830b",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Before an allied unit is attacked, if they are within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> of Sabrina, applies <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] to the ally. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">6 times</span> per turn. Sabrina gains<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> of Confectance Index for <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage she deals. After using a skill to attack, she generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] within the area. If Hydro tiles are already present in the area, a tile reaction is triggered, removing the tile and dealing fixed damage equal to<span style=\"color: rgb(243, 109, 28);\"> 20%</span> of attack to the enemy target on the tile.</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742704650-r7et.webp",
+            "createdAt": "2025-09-13T05:51:44.706Z",
+            "updatedAt": "2025-09-13T05:51:44.706Z",
+            "rangeValue": "7",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "36eb940d-2272-4bba-90f5-67e3db07830b",
+            "level": 3,
+            "effect": "<p>When Confectance is full, additionally consume <span style=\"color: rgb(243, 109, 28);\">4 points</span><span> of Confectance Index to increase skill damage by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>.</span></p>",
+            "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/03e38465f6dfc943ea8e9d052a60f809.webp",
+            "createdAt": "2025-09-17T21:25:17.968Z",
+            "updatedAt": "2025-09-17T21:25:26.777Z",
+            "vertebraeName": "Flexible Modification Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "e0758684-2512-4b84-95b9-64f7a0464747",
         "name": "Delicious Feast",
-        "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles </span>to attack, dealing AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to then and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, applying [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability for each target hit. If only 1 target is hit, recovers <span style=\"color: rgb(243, 109, 28);\">6 points </span>of stability.</p>",
-        "phase": "Hydro",
-        "ammoTypes": null,
-        "stabilityDamage": 3,
-        "cooldown": null,
-        "confectanceCost": 2,
         "imageUrl": "https://cdn.dandegate.net/skills/3c8d6ef3f8291c94a2d6e23097f1cfb6.webp",
         "createdAt": "2025-09-17T19:57:10.806Z",
         "updatedAt": "2025-10-14T07:06:53.689Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
         "summonId": null,
-        "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "fe8e50a0-2f27-4b8f-96fe-08691bc76c59",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "AoE",
-          "Debuff",
-          "Stability Regen"
-        ],
         "keyUpgradesData": "[\"1b01b4d3-fb95-4ee6-b865-f83b9f8433d0\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": "Hydro",
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743777095-r6e2.webp",
-          "createdAt": "2025-09-13T06:09:37.222Z",
-          "updatedAt": "2025-09-13T06:09:37.222Z",
-          "rangeValue": "6",
-          "effectiveArea": "2"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles </span>to attack, dealing AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to then and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, applying [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability for each target hit. If only 1 target is hit, recovers <span style=\"color: rgb(243, 109, 28);\">6 points </span>of stability.</p>",
+          "phase": "Hydro",
+          "ammoTypes": null,
+          "stabilityDamage": 3,
+          "cooldown": null,
+          "confectanceCost": 2,
+          "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff",
+            "Stability Regen"
+          ],
+          "rangeMap": {
+            "id": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743777095-r6e2.webp",
+            "createdAt": "2025-09-13T06:09:37.222Z",
+            "updatedAt": "2025-09-13T06:09:37.222Z",
+            "rangeValue": "6",
+            "effectiveArea": "2"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "fe8e50a0-2f27-4b8f-96fe-08691bc76c59",
-          "level": 2,
-          "effect": "<p>If only 1 target is hit, restores <span style=\"color: rgb(243, 109, 28);\">6 points </span><span>of stability index.</span></p>",
-          "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/3c8d6ef3f8291c94a2d6e23097f1cfb6.webp",
-          "createdAt": "2025-09-17T21:13:21.149Z",
-          "updatedAt": "2025-09-17T21:16:30.533Z",
-          "vertebraeName": "Delicious Feast Lv.2"
+        "level2": {
+          "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+          "vertebraeUpgradeId": "fe8e50a0-2f27-4b8f-96fe-08691bc76c59",
+          "ammoTypes": null,
+          "confectanceCost": 2,
+          "cooldown": null,
+          "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles </span>to attack, dealing AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to then and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, applying [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability for each target hit. If only 1 target is hit, recovers <span style=\"color: rgb(243, 109, 28);\">6 points </span>of stability.</p>",
+          "phase": "Hydro",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff",
+            "Stability Regen"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743777095-r6e2.webp",
+            "createdAt": "2025-09-13T06:09:37.222Z",
+            "updatedAt": "2025-09-13T06:09:37.222Z",
+            "rangeValue": "6",
+            "effectiveArea": "2"
+          },
+          "vertebraeUpgrade": {
+            "id": "fe8e50a0-2f27-4b8f-96fe-08691bc76c59",
+            "level": 2,
+            "effect": "<p>If only 1 target is hit, restores <span style=\"color: rgb(243, 109, 28);\">6 points </span><span>of stability index.</span></p>",
+            "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/3c8d6ef3f8291c94a2d6e23097f1cfb6.webp",
+            "createdAt": "2025-09-17T21:13:21.149Z",
+            "updatedAt": "2025-09-17T21:16:30.533Z",
+            "vertebraeName": "Delicious Feast Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level3": null,
+        "level4": null
       },
       {
         "id": "ce2b7ed1-a1a7-4681-9fc1-09ae20fa71a7",
         "name": "Meal Preparation",
-        "description": "<p>Deals AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage </span>equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to up to <span style=\"color: rgb(243, 109, 28);\">2 </span>targets for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Destroys any destructible Cover within range outside a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around self.</p>",
-        "phase": "Hydro",
-        "ammoTypes": "[\"Shotgun Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": 3,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/970c56d9176fb14ae6dd68c68c05ba2c.webp",
         "createdAt": "2025-09-17T20:12:14.501Z",
         "updatedAt": "2025-11-03T17:58:54.344Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
         "summonId": null,
-        "rangeMapId": "03abf5a0-be53-463d-95a9-c1cab80bb8ac",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "08040e3d-033c-434a-8c8d-0128522279e8",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "AoE",
-          "Debuff",
-          "Cover Destruction"
-        ],
         "keyUpgradesData": "[\"1a7555c7-ccef-4067-b9cf-bcc0558860fc\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "03abf5a0-be53-463d-95a9-c1cab80bb8ac",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1758140661112-rSe5.webp",
-          "createdAt": "2025-09-17T20:24:21.205Z",
-          "updatedAt": "2025-09-17T20:24:21.205Z",
-          "rangeValue": "5",
-          "effectiveArea": "--"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Deals AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage </span>equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to up to <span style=\"color: rgb(243, 109, 28);\">2 </span>targets for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Destroys any destructible Cover within range outside a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around self.</p>",
+          "phase": "Hydro",
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": 3,
+          "confectanceCost": null,
+          "rangeMapId": "03abf5a0-be53-463d-95a9-c1cab80bb8ac",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff",
+            "Cover Destruction"
+          ],
+          "rangeMap": {
+            "id": "03abf5a0-be53-463d-95a9-c1cab80bb8ac",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758140661112-rSe5.webp",
+            "createdAt": "2025-09-17T20:24:21.205Z",
+            "updatedAt": "2025-09-17T20:24:21.205Z",
+            "rangeValue": "5",
+            "effectiveArea": "--"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "08040e3d-033c-434a-8c8d-0128522279e8",
-          "level": 2,
-          "effect": "<p>Damage multiplier increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
-          "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/970c56d9176fb14ae6dd68c68c05ba2c.webp",
-          "createdAt": "2025-09-17T21:10:59.336Z",
-          "updatedAt": "2025-09-17T21:11:18.576Z",
-          "vertebraeName": "Meal Preparation Lv.2"
+        "level2": {
+          "rangeMapId": "03abf5a0-be53-463d-95a9-c1cab80bb8ac",
+          "vertebraeUpgradeId": "08040e3d-033c-434a-8c8d-0128522279e8",
+          "ammoTypes": "[\"Shotgun Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": 3,
+          "description": "<p>Deals AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage </span>equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to up to <span style=\"color: rgb(243, 109, 28);\">2 </span>targets for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Destroys any destructible Cover within range outside a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around self.</p>",
+          "phase": "Hydro",
+          "skillTags": [
+            "Active",
+            "AoE",
+            "Debuff",
+            "Cover Destruction"
+          ],
+          "stabilityDamage": 2,
+          "rangeMap": {
+            "id": "03abf5a0-be53-463d-95a9-c1cab80bb8ac",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1758140661112-rSe5.webp",
+            "createdAt": "2025-09-17T20:24:21.205Z",
+            "updatedAt": "2025-09-17T20:24:21.205Z",
+            "rangeValue": "5",
+            "effectiveArea": "--"
+          },
+          "vertebraeUpgrade": {
+            "id": "08040e3d-033c-434a-8c8d-0128522279e8",
+            "level": 2,
+            "effect": "<p>Damage multiplier increased by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>.</span></p>",
+            "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/970c56d9176fb14ae6dd68c68c05ba2c.webp",
+            "createdAt": "2025-09-17T21:10:59.336Z",
+            "updatedAt": "2025-09-17T21:11:18.576Z",
+            "vertebraeName": "Meal Preparation Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 4
+        "level3": null,
+        "level4": null
       },
       {
         "id": "9723c482-73fc-4904-9e5d-c4e525b375bd",
         "name": "Gourmet Spirit",
-        "description": "<p>Apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] to all allied targets, and gain [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. Gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] once. While having [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] , if an enemy target within range deals targeted damage to an allied unit, use [effect:e6c91f66-b509-4f89-861e-29ca64014622] against it, dealing physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability damage. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times </span>per turn.</p>",
-        "phase": null,
-        "ammoTypes": null,
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/3dbb06eaaf8cdaf11fa6ca3fd9589655.webp",
         "createdAt": "2025-09-17T20:50:41.872Z",
         "updatedAt": "2025-10-14T07:06:51.740Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
         "summonId": null,
-        "rangeMapId": "e56bdcbb-047e-41bc-8365-0274cec374ab",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "acb9b379-4e21-4fc2-ac9d-1146498cf5c2",
-        "vertebraeUpgradeIdLevel3": "398be5c4-adcd-4ecc-b035-da26b0ad2bd9",
-        "skillTags": [
-          "Ultimate",
-          "Buff",
-          "Defense",
-          "Counterattack"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": null,
-        "ammoTypesLevel3": null,
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": null,
-        "skillTagsLevel3": null,
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "e56bdcbb-047e-41bc-8365-0274cec374ab",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757747024319-rSeEM.webp",
-          "createdAt": "2025-09-13T07:03:44.424Z",
-          "updatedAt": "2025-09-20T22:07:13.083Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Map"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] to all allied targets, and gain [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. Gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] once. While having [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] , if an enemy target within range deals targeted damage to an allied unit, use [effect:e6c91f66-b509-4f89-861e-29ca64014622] against it, dealing physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability damage. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times </span>per turn.</p>",
+          "phase": null,
+          "ammoTypes": null,
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+          "skillTags": [
+            "Ultimate",
+            "Buff",
+            "Defense",
+            "Counterattack"
+          ],
+          "rangeMap": {
+            "id": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757747024319-rSeEM.webp",
+            "createdAt": "2025-09-13T07:03:44.424Z",
+            "updatedAt": "2025-09-20T22:07:13.083Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Map"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "acb9b379-4e21-4fc2-ac9d-1146498cf5c2",
-          "level": 2,
-          "effect": "<p>Increases attack of [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>. Increase stability damage of [effect:e6c91f66-b509-4f89-861e-29ca64014622] by </span><span style=\"color: rgb(243, 109, 28);\">2 points</span><span>.</span></p>",
-          "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/3dbb06eaaf8cdaf11fa6ca3fd9589655.webp",
-          "createdAt": "2025-09-17T21:20:03.309Z",
-          "updatedAt": "2025-10-14T07:05:55.200Z",
-          "vertebraeName": "Gourmet Spirit Lv.2"
+        "level2": {
+          "rangeMapId": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+          "vertebraeUpgradeId": "acb9b379-4e21-4fc2-ac9d-1146498cf5c2",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] to all allied targets, and gain [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. Gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] once. While having [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] , if an enemy target within range deals targeted damage to an allied unit, use [effect:e6c91f66-b509-4f89-861e-29ca64014622] against it, dealing physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability damage. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times </span>per turn.</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Buff",
+            "Defense",
+            "Counterattack"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757747024319-rSeEM.webp",
+            "createdAt": "2025-09-13T07:03:44.424Z",
+            "updatedAt": "2025-09-20T22:07:13.083Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Map"
+          },
+          "vertebraeUpgrade": {
+            "id": "acb9b379-4e21-4fc2-ac9d-1146498cf5c2",
+            "level": 2,
+            "effect": "<p>Increases attack of [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] by <span style=\"color: rgb(243, 109, 28);\">10%</span><span>. Increase stability damage of [effect:e6c91f66-b509-4f89-861e-29ca64014622] by </span><span style=\"color: rgb(243, 109, 28);\">2 points</span><span>.</span></p>",
+            "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/3dbb06eaaf8cdaf11fa6ca3fd9589655.webp",
+            "createdAt": "2025-09-17T21:20:03.309Z",
+            "updatedAt": "2025-10-14T07:05:55.200Z",
+            "vertebraeName": "Gourmet Spirit Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "398be5c4-adcd-4ecc-b035-da26b0ad2bd9",
-          "level": 3,
-          "effect": "<p>No longer consumes Confectance Index, gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] once.</p>",
-          "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/3dbb06eaaf8cdaf11fa6ca3fd9589655.webp",
-          "createdAt": "2025-09-17T21:22:35.075Z",
-          "updatedAt": "2025-10-14T07:05:55.373Z",
-          "vertebraeName": "Gourmet Spirit Lv.3"
+        "level3": {
+          "rangeMapId": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+          "vertebraeUpgradeId": "398be5c4-adcd-4ecc-b035-da26b0ad2bd9",
+          "ammoTypes": null,
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] to all allied targets, and gain [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. Gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] once. While having [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] , if an enemy target within range deals targeted damage to an allied unit, use [effect:e6c91f66-b509-4f89-861e-29ca64014622] against it, dealing physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability damage. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times </span>per turn.</p>",
+          "phase": null,
+          "skillTags": [
+            "Ultimate",
+            "Buff",
+            "Defense",
+            "Counterattack"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "e56bdcbb-047e-41bc-8365-0274cec374ab",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757747024319-rSeEM.webp",
+            "createdAt": "2025-09-13T07:03:44.424Z",
+            "updatedAt": "2025-09-20T22:07:13.083Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Map"
+          },
+          "vertebraeUpgrade": {
+            "id": "398be5c4-adcd-4ecc-b035-da26b0ad2bd9",
+            "level": 3,
+            "effect": "<p>No longer consumes Confectance Index, gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] once.</p>",
+            "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/3dbb06eaaf8cdaf11fa6ca3fd9589655.webp",
+            "createdAt": "2025-09-17T21:22:35.075Z",
+            "updatedAt": "2025-10-14T07:05:55.373Z",
+            "vertebraeName": "Gourmet Spirit Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -455,28 +485,6 @@
         "createdAt": "2025-09-17T19:38:15.148Z",
         "updatedAt": "2025-09-27T05:27:32.461Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "dollImages": [
-            {
-              "id": "742fc0d6-c97a-471e-a75a-46df8ced7765",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sabrina/chibi-58c54baf1343c6291b61ac153f1c1f15.webp",
-              "createdAt": "2025-09-27T05:28:30.189Z",
-              "updatedAt": "2025-09-27T05:28:30.189Z"
-            }
-          ],
-          "searchTags": [
-            "SPAS-12"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Dessert Time",
         "shortId": "a43"
@@ -500,28 +508,6 @@
         "createdAt": "2025-09-17T19:27:36.863Z",
         "updatedAt": "2025-10-14T07:06:26.098Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "dollImages": [
-            {
-              "id": "742fc0d6-c97a-471e-a75a-46df8ced7765",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sabrina/chibi-58c54baf1343c6291b61ac153f1c1f15.webp",
-              "createdAt": "2025-09-27T05:28:30.189Z",
-              "updatedAt": "2025-09-27T05:28:30.189Z"
-            }
-          ],
-          "searchTags": [
-            "SPAS-12"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Hot Oil Protection",
         "shortId": "c43"
@@ -545,28 +531,6 @@
         "createdAt": "2025-09-17T19:34:24.939Z",
         "updatedAt": "2025-10-14T07:06:25.924Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "dollImages": [
-            {
-              "id": "742fc0d6-c97a-471e-a75a-46df8ced7765",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sabrina/chibi-58c54baf1343c6291b61ac153f1c1f15.webp",
-              "createdAt": "2025-09-27T05:28:30.189Z",
-              "updatedAt": "2025-09-27T05:28:30.189Z"
-            }
-          ],
-          "searchTags": [
-            "SPAS-12"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Recipe of Legend",
         "shortId": "k1"
@@ -591,28 +555,6 @@
         "createdAt": "2025-09-17T18:59:47.814Z",
         "updatedAt": "2025-09-17T18:59:47.814Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "dollImages": [
-            {
-              "id": "742fc0d6-c97a-471e-a75a-46df8ced7765",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sabrina/chibi-58c54baf1343c6291b61ac153f1c1f15.webp",
-              "createdAt": "2025-09-27T05:28:30.189Z",
-              "updatedAt": "2025-09-27T05:28:30.189Z"
-            }
-          ],
-          "searchTags": [
-            "SPAS-12"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Eating is a Blessing",
         "shortId": "k2"
@@ -637,28 +579,6 @@
         "createdAt": "2025-09-17T19:03:29.160Z",
         "updatedAt": "2025-09-17T19:03:29.160Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "dollImages": [
-            {
-              "id": "742fc0d6-c97a-471e-a75a-46df8ced7765",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sabrina/chibi-58c54baf1343c6291b61ac153f1c1f15.webp",
-              "createdAt": "2025-09-27T05:28:30.189Z",
-              "updatedAt": "2025-09-27T05:28:30.189Z"
-            }
-          ],
-          "searchTags": [
-            "SPAS-12"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Delicious Sharing",
         "shortId": "k3"
@@ -683,28 +603,6 @@
         "createdAt": "2025-09-17T19:07:35.962Z",
         "updatedAt": "2025-09-17T19:07:35.962Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "dollImages": [
-            {
-              "id": "742fc0d6-c97a-471e-a75a-46df8ced7765",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sabrina/chibi-58c54baf1343c6291b61ac153f1c1f15.webp",
-              "createdAt": "2025-09-27T05:28:30.189Z",
-              "updatedAt": "2025-09-27T05:28:30.189Z"
-            }
-          ],
-          "searchTags": [
-            "SPAS-12"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Let Everything Simmer",
         "shortId": "k4"
@@ -729,28 +627,6 @@
         "createdAt": "2025-09-17T19:11:12.967Z",
         "updatedAt": "2025-09-17T19:11:12.967Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "dollImages": [
-            {
-              "id": "742fc0d6-c97a-471e-a75a-46df8ced7765",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sabrina/chibi-58c54baf1343c6291b61ac153f1c1f15.webp",
-              "createdAt": "2025-09-27T05:28:30.189Z",
-              "updatedAt": "2025-09-27T05:28:30.189Z"
-            }
-          ],
-          "searchTags": [
-            "SPAS-12"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Eat Well, Sleep Well",
         "shortId": "k5"
@@ -775,28 +651,6 @@
         "createdAt": "2025-09-17T19:16:39.052Z",
         "updatedAt": "2025-09-17T19:16:39.052Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "dollImages": [
-            {
-              "id": "742fc0d6-c97a-471e-a75a-46df8ced7765",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sabrina/chibi-58c54baf1343c6291b61ac153f1c1f15.webp",
-              "createdAt": "2025-09-27T05:28:30.189Z",
-              "updatedAt": "2025-09-27T05:28:30.189Z"
-            }
-          ],
-          "searchTags": [
-            "SPAS-12"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Calorie Overload",
         "shortId": "k6"
@@ -821,28 +675,6 @@
         "createdAt": "2025-09-17T19:22:30.813Z",
         "updatedAt": "2025-10-14T07:06:25.749Z",
         "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "dollImages": [
-            {
-              "id": "742fc0d6-c97a-471e-a75a-46df8ced7765",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sabrina/chibi-58c54baf1343c6291b61ac153f1c1f15.webp",
-              "createdAt": "2025-09-27T05:28:30.189Z",
-              "updatedAt": "2025-09-27T05:28:30.189Z"
-            }
-          ],
-          "searchTags": [
-            "SPAS-12"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Weird-Tasting Health Recipe",
         "shortId": "k7"
@@ -859,68 +691,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/03e38465f6dfc943ea8e9d052a60f809.webp",
         "createdAt": "2025-09-17T21:08:59.278Z",
         "updatedAt": "2025-10-14T07:05:55.025Z",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "class": "Bulwark",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A Doll passionate about culinary research and enjoying food, the kitchen is her new battlefield. Loves sharing her cooking process, though aroma may have boundaries, her smile spreads through the network, infecting every viewer.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Shotgun Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "stabilityGauge": 12
-        },
         "skillsLevel2": [
           {
             "id": "f70585d0-b500-473d-943d-a53be0e14f66",
             "name": "Flexible Modification",
-            "phase": null,
             "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/03e38465f6dfc943ea8e9d052a60f809.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-17T20:56:30.279Z",
-            "skillTags": [
-              "Passive",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:06:51.566Z",
-            "description": "<p>Before an allied unit is attacked, if they are within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> of Sabrina, applies <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] to the ally. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">6 times</span> per turn. Sabrina gains<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> of Confectance Index for <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage she deals. After using a skill to attack, she generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] within the area. If Hydro tiles are already present in the area, a tile reaction is triggered, removing the tile and dealing fixed damage equal to<span style=\"color: rgb(243, 109, 28);\"> 20%</span> of attack to the enemy target on the tile.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "a10477bf-3c70-4f52-afe3-b4a60b5861f8",
-            "vertebraeUpgradeIdLevel3": "36eb940d-2272-4bba-90f5-67e3db07830b"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "08040e3d-033c-434a-8c8d-0128522279e8",
@@ -932,70 +714,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/970c56d9176fb14ae6dd68c68c05ba2c.webp",
         "createdAt": "2025-09-17T21:10:59.336Z",
         "updatedAt": "2025-09-17T21:11:18.576Z",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "class": "Bulwark",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A Doll passionate about culinary research and enjoying food, the kitchen is her new battlefield. Loves sharing her cooking process, though aroma may have boundaries, her smile spreads through the network, infecting every viewer.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Shotgun Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "stabilityGauge": 12
-        },
         "skillsLevel2": [
           {
             "id": "ce2b7ed1-a1a7-4681-9fc1-09ae20fa71a7",
             "name": "Meal Preparation",
-            "phase": "Hydro",
             "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-            "cooldown": 3,
-            "imageUrl": "https://cdn.dandegate.net/skills/970c56d9176fb14ae6dd68c68c05ba2c.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Shotgun Ammo\"]",
-            "createdAt": "2025-09-17T20:12:14.501Z",
-            "skillTags": [
-              "Active",
-              "AoE",
-              "Debuff",
-              "Cover Destruction"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-11-03T17:58:54.344Z",
-            "description": "<p>Deals AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage </span>equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to up to <span style=\"color: rgb(243, 109, 28);\">2 </span>targets for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Destroys any destructible Cover within range outside a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around self.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "03abf5a0-be53-463d-95a9-c1cab80bb8ac",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 2,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"1a7555c7-ccef-4067-b9cf-bcc0558860fc\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "08040e3d-033c-434a-8c8d-0128522279e8",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "fe8e50a0-2f27-4b8f-96fe-08691bc76c59",
@@ -1007,70 +737,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3c8d6ef3f8291c94a2d6e23097f1cfb6.webp",
         "createdAt": "2025-09-17T21:13:21.149Z",
         "updatedAt": "2025-09-17T21:16:30.533Z",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "class": "Bulwark",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A Doll passionate about culinary research and enjoying food, the kitchen is her new battlefield. Loves sharing her cooking process, though aroma may have boundaries, her smile spreads through the network, infecting every viewer.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Shotgun Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "stabilityGauge": 12
-        },
         "skillsLevel2": [
           {
             "id": "e0758684-2512-4b84-95b9-64f7a0464747",
             "name": "Delicious Feast",
-            "phase": "Hydro",
             "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/3c8d6ef3f8291c94a2d6e23097f1cfb6.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-17T19:57:10.806Z",
-            "skillTags": [
-              "Active",
-              "AoE",
-              "Debuff",
-              "Stability Regen"
-            ],
-            "skillType": "Skill 1",
-            "updatedAt": "2025-10-14T07:06:53.689Z",
-            "description": "<p>Select 1 enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles </span>to attack, dealing AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to then and all enemy targets within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>, applying [effect:4776f3a1-92cb-4e79-b018-35433bfdc6e2] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Recovers <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability for each target hit. If only 1 target is hit, recovers <span style=\"color: rgb(243, 109, 28);\">6 points </span>of stability.</p>",
-            "phaseLevel2": "Hydro",
-            "phaseLevel3": null,
-            "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": 2,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[\"1b01b4d3-fb95-4ee6-b865-f83b9f8433d0\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "fe8e50a0-2f27-4b8f-96fe-08691bc76c59",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "acb9b379-4e21-4fc2-ac9d-1146498cf5c2",
@@ -1082,70 +760,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3dbb06eaaf8cdaf11fa6ca3fd9589655.webp",
         "createdAt": "2025-09-17T21:20:03.309Z",
         "updatedAt": "2025-10-14T07:05:55.200Z",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "class": "Bulwark",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A Doll passionate about culinary research and enjoying food, the kitchen is her new battlefield. Loves sharing her cooking process, though aroma may have boundaries, her smile spreads through the network, infecting every viewer.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Shotgun Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "stabilityGauge": 12
-        },
         "skillsLevel2": [
           {
             "id": "9723c482-73fc-4904-9e5d-c4e525b375bd",
             "name": "Gourmet Spirit",
-            "phase": null,
             "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/3dbb06eaaf8cdaf11fa6ca3fd9589655.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-17T20:50:41.872Z",
-            "skillTags": [
-              "Ultimate",
-              "Buff",
-              "Defense",
-              "Counterattack"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-14T07:06:51.740Z",
-            "description": "<p>Apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] to all allied targets, and gain [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. Gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] once. While having [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] , if an enemy target within range deals targeted damage to an allied unit, use [effect:e6c91f66-b509-4f89-861e-29ca64014622] against it, dealing physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability damage. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times </span>per turn.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "e56bdcbb-047e-41bc-8365-0274cec374ab",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "acb9b379-4e21-4fc2-ac9d-1146498cf5c2",
-            "vertebraeUpgradeIdLevel3": "398be5c4-adcd-4ecc-b035-da26b0ad2bd9"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "398be5c4-adcd-4ecc-b035-da26b0ad2bd9",
@@ -1157,70 +783,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3dbb06eaaf8cdaf11fa6ca3fd9589655.webp",
         "createdAt": "2025-09-17T21:22:35.075Z",
         "updatedAt": "2025-10-14T07:05:55.373Z",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "class": "Bulwark",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A Doll passionate about culinary research and enjoying food, the kitchen is her new battlefield. Loves sharing her cooking process, though aroma may have boundaries, her smile spreads through the network, infecting every viewer.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Shotgun Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "stabilityGauge": 12
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "9723c482-73fc-4904-9e5d-c4e525b375bd",
             "name": "Gourmet Spirit",
-            "phase": null,
             "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/3dbb06eaaf8cdaf11fa6ca3fd9589655.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-17T20:50:41.872Z",
-            "skillTags": [
-              "Ultimate",
-              "Buff",
-              "Defense",
-              "Counterattack"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-14T07:06:51.740Z",
-            "description": "<p>Apply <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] to all allied targets, and gain [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>. Gain [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] once. While having [effect:8b9d0fae-d4df-40ab-8c51-73ffaabfc302] , if an enemy target within range deals targeted damage to an allied unit, use [effect:e6c91f66-b509-4f89-861e-29ca64014622] against it, dealing physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">6 points</span> of stability damage. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">3 times </span>per turn.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "e56bdcbb-047e-41bc-8365-0274cec374ab",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "acb9b379-4e21-4fc2-ac9d-1146498cf5c2",
-            "vertebraeUpgradeIdLevel3": "398be5c4-adcd-4ecc-b035-da26b0ad2bd9"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "36eb940d-2272-4bba-90f5-67e3db07830b",
@@ -1232,68 +806,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/03e38465f6dfc943ea8e9d052a60f809.webp",
         "createdAt": "2025-09-17T21:25:17.968Z",
         "updatedAt": "2025-09-17T21:25:26.777Z",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "class": "Bulwark",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A Doll passionate about culinary research and enjoying food, the kitchen is her new battlefield. Loves sharing her cooking process, though aroma may have boundaries, her smile spreads through the network, infecting every viewer.",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Shotgun Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "stabilityGauge": 12
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "f70585d0-b500-473d-943d-a53be0e14f66",
             "name": "Flexible Modification",
-            "phase": null,
             "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/03e38465f6dfc943ea8e9d052a60f809.webp",
-            "summonId": null,
-            "ammoTypes": null,
-            "createdAt": "2025-09-17T20:56:30.279Z",
-            "skillTags": [
-              "Passive",
-              "Buff"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-14T07:06:51.566Z",
-            "description": "<p>Before an allied unit is attacked, if they are within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span> of Sabrina, applies <span style=\"color: rgb(243, 109, 28);\">1 stack </span>of [effect:10b11942-01c9-4937-b446-1fe44c50d88a] to the ally. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">6 times</span> per turn. Sabrina gains<span style=\"color: rgb(243, 109, 28);\"> 1 point</span> of Confectance Index for <span style=\"color: rgb(243, 109, 28);\">each</span> instance of damage she deals. After using a skill to attack, she generates [effect:a7a2cc2b-3078-4d27-bafc-f20b389335c0] within the area. If Hydro tiles are already present in the area, a tile reaction is triggered, removing the tile and dealing fixed damage equal to<span style=\"color: rgb(243, 109, 28);\"> 20%</span> of attack to the enemy target on the tile.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "202b480c-7d6b-460f-8aa2-4e7589f1b004",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": null,
-            "ammoTypesLevel3": null,
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": null,
-            "skillTagsLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "a10477bf-3c70-4f52-afe3-b4a60b5861f8",
-            "vertebraeUpgradeIdLevel3": "36eb940d-2272-4bba-90f5-67e3db07830b"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [],
@@ -1408,7 +932,17 @@
       {
         "id": "8b9d0fae-d4df-40ab-8c51-73ffaabfc302",
         "effectName": "Feeling Full",
-        "effectDetails": "{\"mainDetails\":\"<p>Attack increased by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span> of the unit's own defense. Expands the passive's effect to the entire map. This buff cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"d96d19fe-d1ae-4248-ad0a-4861c009b0dc\",\"upgradeName\":\"V4\",\"upgradeDetails\":\"<p>Increase attack equal to <span style=\\\"color: rgb(243, 109, 28);\\\">25%</span> of own defense. Increase the passive skill range to cover the entire map. This buff cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Attack increased by <span style=\"color: rgb(243, 109, 28);\">15%</span> of the unit's own defense. Expands the passive's effect to the entire map. This buff cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "d96d19fe-d1ae-4248-ad0a-4861c009b0dc",
+              "upgradeName": "V4",
+              "upgradeDetails": "<p>Increase attack equal to <span style=\"color: rgb(243, 109, 28);\">25%</span> of own defense. Increase the passive skill range to cover the entire map. This buff cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [
           "Buff"
         ],
@@ -1416,32 +950,84 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-09-17T18:42:18.511Z",
-        "updatedAt": "2025-11-01T23:36:33.733Z",
-        "doll": {
-          "id": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
-          "name": "Sabrina",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/sabrina/ebb238175907d781062d993a2aeb92af.webp",
-          "createdAt": "2025-09-17T18:49:25.840Z",
-          "regionTag": "en",
-          "updatedAt": "2025-11-14T07:05:01.142Z",
-          "dollImages": [
-            {
-              "id": "742fc0d6-c97a-471e-a75a-46df8ced7765",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/dolls/sabrina/chibi-58c54baf1343c6291b61ac153f1c1f15.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "SPAS-12"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-01T23:36:33.733Z"
+      },
+      {
+        "id": "10b11942-01c9-4937-b446-1fe44c50d88a",
+        "effectName": "Shelter",
+        "effectDetails": "<p>Gains Stability Protection, reducing stability damage taken by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. Each instance of stability damage taken consumes<span style=\"color: rgb(243, 109, 28);\"> 1 stack</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Stability"
+        ],
+        "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:39:27.216Z",
+        "updatedAt": "2025-11-03T15:16:50.856Z"
+      },
+      {
+        "id": "a7a2cc2b-3078-4d27-bafc-f20b389335c0",
+        "effectName": "Tideway",
+        "effectDetails": "<p>Applies [effect:7dec35ce-d8cc-443e-8a4e-410233b3cda6] to units which end their movement in this area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Enemy units in this area gain a weakness to <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>. Considered a Hydro tile.</p>",
+        "effectTags": [
+          "Hydro",
+          "Weakness"
+        ],
+        "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:50:07.621Z",
+        "updatedAt": "2025-11-03T16:02:52.756Z"
+      },
+      {
+        "id": "4776f3a1-92cb-4e79-b018-35433bfdc6e2",
+        "effectName": "Movement Down II",
+        "effectDetails": "<p>Mobility decreased by<span style=\"color: rgb(243, 109, 28);\"> 2 tiles</span>. Movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Movement"
+        ],
+        "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:32:24.079Z",
+        "updatedAt": "2025-11-03T05:42:27.501Z"
+      },
+      {
+        "id": "fadf4f3f-2810-49f0-b947-6d683741429d",
+        "effectName": "Taunt",
+        "effectDetails": "<p>Uncontrollable, forced to use basic attacks on the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:35:26.444Z",
+        "updatedAt": "2025-11-03T16:00:56.734Z"
+      },
+      {
+        "id": "c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb",
+        "effectName": "Extra Command",
+        "effectDetails": "<p>Commands other than movement can be executed.</p>",
+        "effectTags": [],
+        "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T19:42:00.107Z",
+        "updatedAt": "2025-09-14T19:42:00.107Z"
+      },
+      {
+        "id": "e6c91f66-b509-4f89-861e-29ca64014622",
+        "effectName": "Counterattack",
+        "effectDetails": "<p>Performs an attack; cannot be triggered by Interceptions, Counterattack or Support Attacks.</p>",
+        "effectTags": [],
+        "dollId": "c193fd02-7287-4ccd-8d37-6afaa09fb5a0",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:30:54.421Z",
+        "updatedAt": "2025-09-13T03:30:54.421Z"
       }
     ],
     "shortId": "d43"

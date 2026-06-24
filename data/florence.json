@@ -78,108 +78,52 @@
       {
         "id": "15b7ef38-2339-42da-a2d3-6e452b847298",
         "name": "Forced Injection",
-        "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
-        "phase": "Physical",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 2,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/2bb7737afb7fca836c84ef5d23b340ef56d560b2b4b2f86b6beb271021da1786.webp",
         "createdAt": "2025-10-04T11:48:11.002Z",
         "updatedAt": "2025-10-15T23:31:23.391Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Basic Attack",
-          "Targeted"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Basic Attack",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 1,
+        "level1": {
+          "description": "<p>Selects one enemy target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> and deals Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it.</p>",
+          "phase": "Physical",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 2,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Basic Attack",
+            "Targeted"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 1
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "7dc23e81-a8f1-4f34-8bb8-065375935fe1",
         "name": "No. 1 Assistant",
-        "description": "<p>Arios absorbs all damage that Florence takes. When Arios is more than <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> away from Florence, it teleports to Florence's vicinity.</p><p>When Arios or Florence takes damage, Arios performs [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn. For each time Arios takes damage, it gains 1 stack of [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e]. When [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e] reaches 5 stacks, it is converted to [effect:8b946893-0ec1-437f-a9ac-65c033df70e2].</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/d503f3fc2e37f5790fd58a94b4f7a01e092990949d669fd6cc524a5308a8df6e.webp",
         "createdAt": "2025-10-04T12:29:39.129Z",
         "updatedAt": "2025-10-16T01:01:26.055Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
         "summonId": "317113f0-6c6d-4e74-beec-8f0aa1034d4b",
-        "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Passive",
-          "Counterattack"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Arios absorbs all damage that Florence takes. When Arios is more than <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> away from Florence, it teleports to Florence's vicinity.</p><p>When Arios or Florence takes damage, Arios performs [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">4 times</span> per turn. For each time Arios takes damage, it gains 1 stack of [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e]. When [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e] reaches 5 stacks, it is converted to [effect:8b946893-0ec1-437f-a9ac-65c033df70e2].</p>",
-        "descriptionLevel3": "<p>When Florence receives damage, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] will receive damage in her place.</p><p>If the distance between [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] and Florence is <span style=\"color: rgb(243, 109, 28);\">6 or more tiles</span>, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] will be teleported near Florence.</p><p>When [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] or Florence receives damage, performs [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equivalent to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. This can be activated at most <span style=\"color: rgb(243, 109, 28);\">4 times per round</span>.</p><p>For each instance of damage received, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:humiliation-mark|doll:florence]. When the number of stacks of [effect:humiliation-mark|doll:florence] reaches <span style=\"color: rgb(243, 109, 28);\">5</span>, it is converted into [effect:despair-tremor|doll:florence].</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "preview": false
-        },
         "summon": {
           "hp": 120,
           "id": "317113f0-6c6d-4e74-beec-8f0aa1034d4b",
@@ -197,156 +141,176 @@
           "updatedAt": "2026-02-06T04:09:00.007Z",
           "stabilityGauge": 0
         },
-        "rangeMap": {
-          "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
-          "createdAt": "2025-09-13T06:39:18.350Z",
-          "updatedAt": "2025-09-20T22:07:05.813Z",
-          "rangeValue": "Map",
-          "effectiveArea": "Target"
+        "level1": {
+          "description": "<p>Arios absorbs all damage that Florence takes. When Arios is more than <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> away from Florence, it teleports to Florence's vicinity.</p><p>When Arios or Florence takes damage, Arios performs [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn. For each time Arios takes damage, it gains 1 stack of [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e]. When [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e] reaches 5 stacks, it is converted to [effect:8b946893-0ec1-437f-a9ac-65c033df70e2].</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+          "skillTags": [
+            "Passive",
+            "Counterattack"
+          ],
+          "rangeMap": {
+            "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
+            "createdAt": "2025-09-13T06:39:18.350Z",
+            "updatedAt": "2025-09-20T22:07:05.813Z",
+            "rangeValue": "Map",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
-          "level": 2,
-          "effect": "<p>The amount of Confectance Index consumed at the start of the allied turn is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. The number of Counterattacks [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] can perform through its passive skill <span style=\"color: rgb(34, 139, 230);\">No. 1 Assistant</span> is increased by <span style=\"color: rgb(243, 109, 28);\">2</span>.</p>",
-          "dollId": "ad525729-7e67-4954-9919-45168be39953",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/945491c81ff5b3aa828c2c2393bc1016de5b36007c51dbaf04a82e6459a10bf7.webp",
-          "createdAt": "2025-10-04T12:32:38.877Z",
-          "updatedAt": "2025-10-16T00:03:39.828Z",
-          "vertebraeName": "Surgical Preparation Lv.2"
+        "level2": {
+          "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+          "vertebraeUpgradeId": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Arios absorbs all damage that Florence takes. When Arios is more than <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> away from Florence, it teleports to Florence's vicinity.</p><p>When Arios or Florence takes damage, Arios performs [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">4 times</span> per turn. For each time Arios takes damage, it gains 1 stack of [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e]. When [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e] reaches 5 stacks, it is converted to [effect:8b946893-0ec1-437f-a9ac-65c033df70e2].</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Counterattack"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
+            "createdAt": "2025-09-13T06:39:18.350Z",
+            "updatedAt": "2025-09-20T22:07:05.813Z",
+            "rangeValue": "Map",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
+            "level": 2,
+            "effect": "<p>The amount of Confectance Index consumed at the start of the allied turn is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. The number of Counterattacks [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] can perform through its passive skill <span style=\"color: rgb(34, 139, 230);\">No. 1 Assistant</span> is increased by <span style=\"color: rgb(243, 109, 28);\">2</span>.</p>",
+            "dollId": "ad525729-7e67-4954-9919-45168be39953",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/945491c81ff5b3aa828c2c2393bc1016de5b36007c51dbaf04a82e6459a10bf7.webp",
+            "createdAt": "2025-10-04T12:32:38.877Z",
+            "updatedAt": "2025-10-16T00:03:39.828Z",
+            "vertebraeName": "Surgical Preparation Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": null
+        "level3": null,
+        "level4": null
       },
       {
         "id": "93f29344-754c-4dfc-b642-94e8560680c4",
         "name": "Surgical Preparation",
-        "description": "<p>At the start of the battle, Florence summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] near herself. At the start of the allied turn, consumes <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index. If Florence does not have enough Confectance Index, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] disappears.</p><p>At the end of Florence's action, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/945491c81ff5b3aa828c2c2393bc1016de5b36007c51dbaf04a82e6459a10bf7.webp",
         "createdAt": "2025-10-04T12:16:41.589Z",
         "updatedAt": "2025-10-15T23:47:02.778Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
         "summonId": null,
-        "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
-        "vertebraeUpgradeIdLevel3": "677c7e7b-0fea-499e-8990-9553c47c7597",
-        "skillTags": [
-          "Passive",
-          "Summon"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Passive",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>At the start of the battle, Florence summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] near herself. At the start of the allied turn, consumes <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. If Florence does not have enough Confectance Index, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] disappears.</p><p>At the end of Florence's action, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
-          "createdAt": "2025-09-13T05:48:21.166Z",
-          "updatedAt": "2025-09-13T05:48:21.166Z",
-          "rangeValue": "Self",
-          "effectiveArea": "Target"
+        "shortId": 2,
+        "level1": {
+          "description": "<p>At the start of the battle, Florence summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] near herself. At the start of the allied turn, consumes <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index. If Florence does not have enough Confectance Index, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] disappears.</p><p>At the end of Florence's action, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "skillTags": [
+            "Passive",
+            "Summon"
+          ],
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
-          "level": 2,
-          "effect": "<p>The amount of Confectance Index consumed at the start of the allied turn is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. The number of Counterattacks [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] can perform through its passive skill <span style=\"color: rgb(34, 139, 230);\">No. 1 Assistant</span> is increased by <span style=\"color: rgb(243, 109, 28);\">2</span>.</p>",
-          "dollId": "ad525729-7e67-4954-9919-45168be39953",
-          "segment": 1,
-          "imageUrl": "https://cdn.dandegate.net/skills/945491c81ff5b3aa828c2c2393bc1016de5b36007c51dbaf04a82e6459a10bf7.webp",
-          "createdAt": "2025-10-04T12:32:38.877Z",
-          "updatedAt": "2025-10-16T00:03:39.828Z",
-          "vertebraeName": "Surgical Preparation Lv.2"
+        "level2": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of the battle, Florence summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] near herself. At the start of the allied turn, consumes <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. If Florence does not have enough Confectance Index, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] disappears.</p><p>At the end of Florence's action, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Summon"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
+            "level": 2,
+            "effect": "<p>The amount of Confectance Index consumed at the start of the allied turn is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. The number of Counterattacks [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] can perform through its passive skill <span style=\"color: rgb(34, 139, 230);\">No. 1 Assistant</span> is increased by <span style=\"color: rgb(243, 109, 28);\">2</span>.</p>",
+            "dollId": "ad525729-7e67-4954-9919-45168be39953",
+            "segment": 1,
+            "imageUrl": "https://cdn.dandegate.net/skills/945491c81ff5b3aa828c2c2393bc1016de5b36007c51dbaf04a82e6459a10bf7.webp",
+            "createdAt": "2025-10-04T12:32:38.877Z",
+            "updatedAt": "2025-10-16T00:03:39.828Z",
+            "vertebraeName": "Surgical Preparation Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "677c7e7b-0fea-499e-8990-9553c47c7597",
-          "level": 3,
-          "effect": "<p>Damage taken by [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>. The effect of [effect:8b946893-0ec1-437f-a9ac-65c033df70e2] is enhanced: Attack increase is now <span style=\"color: rgb(243, 109, 28);\">35%</span>, the damage multiplier of Counterattacks is doubled, and after dealing damage, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of the damage dealt.</p>",
-          "dollId": "ad525729-7e67-4954-9919-45168be39953",
-          "segment": 6,
-          "imageUrl": "https://cdn.dandegate.net/skills/945491c81ff5b3aa828c2c2393bc1016de5b36007c51dbaf04a82e6459a10bf7.webp",
-          "createdAt": "2025-10-04T12:34:17.528Z",
-          "updatedAt": "2025-10-16T00:04:51.660Z",
-          "vertebraeName": "Surgical Preparation Lv.3"
+        "level3": {
+          "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+          "vertebraeUpgradeId": "677c7e7b-0fea-499e-8990-9553c47c7597",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>At the start of the battle, Florence summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] near herself. At the start of the allied turn, consumes <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. If Florence does not have enough Confectance Index, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] disappears.</p><p>At the end of Florence's action, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
+          "phase": null,
+          "skillTags": [
+            "Passive",
+            "Summon"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757742501031-rSeT.webp",
+            "createdAt": "2025-09-13T05:48:21.166Z",
+            "updatedAt": "2025-09-13T05:48:21.166Z",
+            "rangeValue": "Self",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "677c7e7b-0fea-499e-8990-9553c47c7597",
+            "level": 3,
+            "effect": "<p>Damage taken by [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>. The effect of [effect:8b946893-0ec1-437f-a9ac-65c033df70e2] is enhanced: Attack increase is now <span style=\"color: rgb(243, 109, 28);\">35%</span>, the damage multiplier of Counterattacks is doubled, and after dealing damage, restores HP equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of the damage dealt.</p>",
+            "dollId": "ad525729-7e67-4954-9919-45168be39953",
+            "segment": 6,
+            "imageUrl": "https://cdn.dandegate.net/skills/945491c81ff5b3aa828c2c2393bc1016de5b36007c51dbaf04a82e6459a10bf7.webp",
+            "createdAt": "2025-10-04T12:34:17.528Z",
+            "updatedAt": "2025-10-16T00:04:51.660Z",
+            "vertebraeName": "Surgical Preparation Lv.3"
+          }
         },
-        "shortId": 2
+        "level4": null
       },
       {
         "id": "4f6603a8-8cc7-4e2b-96b2-401305823644",
         "name": "Precision Anethesia",
-        "description": "<p>Selects the enemy unit closest to Florence, applies [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it. In addition, applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-        "phase": "Hydro",
-        "ammoTypes": "[]",
-        "stabilityDamage": 4,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/9f3a135e51c9a6c50d4245a2bfb055cab25456c515124e28e1e32e0c1a4ac8c7.webp",
         "createdAt": "2025-10-04T12:22:31.926Z",
         "updatedAt": "2025-10-16T00:56:38.946Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
         "summonId": "317113f0-6c6d-4e74-beec-8f0aa1034d4b",
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Targeted",
-          "Debuff",
-          "Control"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "preview": false
-        },
         "summon": {
           "hp": 120,
           "id": "317113f0-6c6d-4e74-beec-8f0aa1034d4b",
@@ -364,240 +328,280 @@
           "updatedAt": "2026-02-06T04:09:00.007Z",
           "stabilityGauge": 0
         },
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "level1": {
+          "description": "<p>Selects the enemy unit closest to Florence, applies [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it. In addition, applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "phase": "Hydro",
+          "ammoTypes": "[]",
+          "stabilityDamage": 4,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Targeted",
+            "Debuff",
+            "Control"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "c40f1fa2-36d4-4eab-ab21-c9740f6d93b1",
         "name": "Special Care",
-        "description": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs, and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack for all allied units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of the target tile.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/d0bf7a78be57f7077d9f80c8f01948e60cf834c866b86b91b094a497681b9af4.webp",
         "createdAt": "2025-10-04T11:52:43.604Z",
         "updatedAt": "2025-10-15T23:40:10.779Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
         "summonId": null,
-        "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "skillTags": [
-          "Active",
-          "Healing"
-        ],
         "keyUpgradesData": "[\"f2e9bbfa-9d69-4d53-becd-a2aa9e5c744a\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 1",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": null,
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743777095-r6e2.webp",
-          "createdAt": "2025-09-13T06:09:37.222Z",
-          "updatedAt": "2025-09-13T06:09:37.222Z",
-          "rangeValue": "6",
-          "effectiveArea": "2"
+        "shortId": 3,
+        "level1": {
+          "description": "<p>Selects one tile within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses <span style=\"color: rgb(243, 109, 28);\">2</span> debuffs, and recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">120%</span> of attack for all allied units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of the target tile.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+          "skillTags": [
+            "Active",
+            "Healing"
+          ],
+          "rangeMap": {
+            "id": "8784a9fb-5c69-4118-b406-2274f08c1cf2",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743777095-r6e2.webp",
+            "createdAt": "2025-09-13T06:09:37.222Z",
+            "updatedAt": "2025-09-13T06:09:37.222Z",
+            "rangeValue": "6",
+            "effectiveArea": "2"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
-        "shortId": 3
+        "level2": null,
+        "level3": null,
+        "level4": null
       },
       {
         "id": "c3be8a67-6dc9-46d8-bbf4-aadbc2259c50",
         "name": "Pleasure Trigger",
-        "description": "<p>Selects one allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] from it, and applies [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 round</span>, and consumes the allied target's HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of its initial HP.</p>",
-        "phase": null,
-        "ammoTypes": "[]",
-        "stabilityDamage": null,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/3e91ef97ce53df390fde46f39e94785cc35cefcf32a11cb8210171dbd31a7df4.webp",
         "createdAt": "2025-10-04T11:57:30.391Z",
         "updatedAt": "2025-10-15T23:44:22.223Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
         "summonId": null,
-        "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "2bae8522-4c3f-43a5-8a89-e43181a98253",
-        "vertebraeUpgradeIdLevel3": "81c8e5cb-6530-4029-afff-3ca78b6cf3b3",
-        "skillTags": [
-          "Active",
-          "Buff"
-        ],
         "keyUpgradesData": "[]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 2",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": "<p>Selects one allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] from it, and applies [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>, and consumes HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of the allied target's initial HP.</p>",
-        "descriptionLevel3": "<p>Selects one allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from it, applies [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>, and consumes the allied target's HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of its initial HP. This skill is also applied to [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-          "createdAt": "2025-09-13T06:00:32.207Z",
-          "updatedAt": "2025-09-13T06:00:32.207Z",
-          "rangeValue": "6",
-          "effectiveArea": "Target"
+        "shortId": 4,
+        "level1": {
+          "description": "<p>Selects one allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] from it, and applies [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 round</span>, and consumes the allied target's HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of its initial HP.</p>",
+          "phase": null,
+          "ammoTypes": "[]",
+          "stabilityDamage": null,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "skillTags": [
+            "Active",
+            "Buff"
+          ],
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "2bae8522-4c3f-43a5-8a89-e43181a98253",
-          "level": 2,
-          "effect": "<p>Duration of [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] is increased by <span style=\"color: rgb(243, 109, 28);\">1 round</span> and it gains a new effect: At the end of the action, if HP is below <span style=\"color: rgb(243, 109, 28);\">30%</span>, recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Florence's attack. This can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> during the duration of this effect.</p>",
-          "dollId": "ad525729-7e67-4954-9919-45168be39953",
-          "segment": 3,
-          "imageUrl": "https://cdn.dandegate.net/skills/3e91ef97ce53df390fde46f39e94785cc35cefcf32a11cb8210171dbd31a7df4.webp",
-          "createdAt": "2025-10-04T12:36:08.264Z",
-          "updatedAt": "2025-10-16T00:01:39.531Z",
-          "vertebraeName": "Pleasure Trigger Lv.2"
+        "level2": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "2bae8522-4c3f-43a5-8a89-e43181a98253",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Selects one allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] from it, and applies [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>, and consumes HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of the allied target's initial HP.</p>",
+          "phase": null,
+          "skillTags": [
+            "Active",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "2bae8522-4c3f-43a5-8a89-e43181a98253",
+            "level": 2,
+            "effect": "<p>Duration of [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] is increased by <span style=\"color: rgb(243, 109, 28);\">1 round</span> and it gains a new effect: At the end of the action, if HP is below <span style=\"color: rgb(243, 109, 28);\">30%</span>, recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Florence's attack. This can only be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> during the duration of this effect.</p>",
+            "dollId": "ad525729-7e67-4954-9919-45168be39953",
+            "segment": 3,
+            "imageUrl": "https://cdn.dandegate.net/skills/3e91ef97ce53df390fde46f39e94785cc35cefcf32a11cb8210171dbd31a7df4.webp",
+            "createdAt": "2025-10-04T12:36:08.264Z",
+            "updatedAt": "2025-10-16T00:01:39.531Z",
+            "vertebraeName": "Pleasure Trigger Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "81c8e5cb-6530-4029-afff-3ca78b6cf3b3",
-          "level": 3,
-          "effect": "<p>Additionally cleanses [effect:b46e4270-c2d5-4f69-bb9b-544785785790] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from the target. This skill is also applied to [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
-          "dollId": "ad525729-7e67-4954-9919-45168be39953",
-          "segment": 5,
-          "imageUrl": "https://cdn.dandegate.net/skills/3e91ef97ce53df390fde46f39e94785cc35cefcf32a11cb8210171dbd31a7df4.webp",
-          "createdAt": "2025-10-04T12:36:34.871Z",
-          "updatedAt": "2025-10-16T00:02:43.523Z",
-          "vertebraeName": "Pleasure Trigger Lv.3"
+        "level3": {
+          "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+          "vertebraeUpgradeId": "81c8e5cb-6530-4029-afff-3ca78b6cf3b3",
+          "ammoTypes": "[]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Selects one allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from it, applies [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>, and consumes the allied target's HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of its initial HP. This skill is also applied to [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
+          "phase": null,
+          "skillTags": [
+            "Active",
+            "Buff"
+          ],
+          "stabilityDamage": null,
+          "rangeMap": {
+            "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+            "createdAt": "2025-09-13T06:00:32.207Z",
+            "updatedAt": "2025-09-13T06:00:32.207Z",
+            "rangeValue": "6",
+            "effectiveArea": "Target"
+          },
+          "vertebraeUpgrade": {
+            "id": "81c8e5cb-6530-4029-afff-3ca78b6cf3b3",
+            "level": 3,
+            "effect": "<p>Additionally cleanses [effect:b46e4270-c2d5-4f69-bb9b-544785785790] and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from the target. This skill is also applied to [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
+            "dollId": "ad525729-7e67-4954-9919-45168be39953",
+            "segment": 5,
+            "imageUrl": "https://cdn.dandegate.net/skills/3e91ef97ce53df390fde46f39e94785cc35cefcf32a11cb8210171dbd31a7df4.webp",
+            "createdAt": "2025-10-04T12:36:34.871Z",
+            "updatedAt": "2025-10-16T00:02:43.523Z",
+            "vertebraeName": "Pleasure Trigger Lv.3"
+          }
         },
-        "shortId": 4
+        "level4": null
       },
       {
         "id": "452827ef-a91d-4ad0-89b8-2109ef01d63a",
         "name": "Masochistic Hallucination",
-        "description": "<p>Selects one direction and applies [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and [effect:b46e4270-c2d5-4f69-bb9b-544785785790] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to all enemy units in a <span style=\"color: rgb(243, 109, 28);\">forward-facing 3x5 tile area</span>, deals AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. After using this skill, gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index and teleports [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] to Florence's side.</p><p>If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is not on the field, summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] after the skill resolves.</p>",
-        "phase": "Hydro",
-        "ammoTypes": "[\"Light Ammo\"]",
-        "stabilityDamage": 3,
-        "cooldown": null,
-        "confectanceCost": null,
         "imageUrl": "https://cdn.dandegate.net/skills/515a59d8585e3fd1bce7218e95cc7e00718d5524208f6b46fbd4fc8f0b51b64c.webp",
         "createdAt": "2025-10-04T12:10:49.029Z",
         "updatedAt": "2025-10-15T23:38:30.247Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
         "summonId": null,
-        "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
-        "rangeMapIdLevel2": null,
-        "rangeMapIdLevel3": null,
-        "vertebraeUpgradeIdLevel2": "4b4ccc9b-25e0-43ea-a588-f021962bf031",
-        "vertebraeUpgradeIdLevel3": "11af26c3-532a-4b27-873a-4f52aa84dd0d",
-        "skillTags": [
-          "Ultimate",
-          "AoE",
-          "Summon",
-          "Control"
-        ],
         "keyUpgradesData": "[\"ea6a8036-7868-4b2e-94bf-13d0093c5e7c\"]",
         "keyUpgradesType": "keys",
         "skillType": "Skill 3",
-        "ammoTypesLevel2": "[]",
-        "ammoTypesLevel3": "[]",
-        "confectanceCostLevel2": null,
-        "confectanceCostLevel3": null,
-        "cooldownLevel2": null,
-        "cooldownLevel3": null,
-        "descriptionLevel2": null,
-        "descriptionLevel3": "<p>Selects one direction and applies [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and [effect:b46e4270-c2d5-4f69-bb9b-544785785790] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to all enemy units in a <span style=\"color: rgb(243, 109, 28);\">forward-facing 3x5 tile area</span>, deals AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack. After using this skill, gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index and teleports [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] to Florence's side. If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is on the field, it recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Florence's attack and gains [effect:6f0f6ecc-f04d-404d-a5ea-2dbd9f8c5a70] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p><p>If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is not on the field, summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] after the skill resolves.</p>",
-        "phaseLevel2": null,
-        "phaseLevel3": null,
-        "skillTagsLevel2": "[]",
-        "skillTagsLevel3": "[]",
-        "stabilityDamageLevel2": null,
-        "stabilityDamageLevel3": null,
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "preview": false
-        },
         "summon": null,
-        "rangeMap": {
-          "id": "543d2984-4f29-4331-9291-dbe6ba1773a3",
-          "imageUrl": "https://cdn.dandegate.net/range-maps/1759018029369-range1effectnull.webp",
-          "createdAt": "2025-09-28T00:07:09.531Z",
-          "updatedAt": "2025-09-28T00:07:09.531Z",
-          "rangeValue": "1",
-          "effectiveArea": "--"
+        "shortId": 5,
+        "level1": {
+          "description": "<p>Selects one direction and applies [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and [effect:b46e4270-c2d5-4f69-bb9b-544785785790] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to all enemy units in a <span style=\"color: rgb(243, 109, 28);\">forward-facing 3x5 tile area</span>, deals AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. After using this skill, gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index and teleports [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] to Florence's side.</p><p>If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is not on the field, summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] after the skill resolves.</p>",
+          "phase": "Hydro",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "stabilityDamage": 3,
+          "cooldown": null,
+          "confectanceCost": null,
+          "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+          "skillTags": [
+            "Ultimate",
+            "AoE",
+            "Summon",
+            "Control"
+          ],
+          "rangeMap": {
+            "id": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1759018029369-range1effectnull.webp",
+            "createdAt": "2025-09-28T00:07:09.531Z",
+            "updatedAt": "2025-09-28T00:07:09.531Z",
+            "rangeValue": "1",
+            "effectiveArea": "--"
+          }
         },
-        "rangeMapLevel2": null,
-        "rangeMapLevel3": null,
-        "vertebraeUpgradeLevel2": {
-          "id": "4b4ccc9b-25e0-43ea-a588-f021962bf031",
-          "level": 2,
-          "effect": "<p>The effect of [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] is enhanced: The increase to <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> taken is raised to <span style=\"color: rgb(243, 109, 28);\">15%</span>. It also gains a new effect: At the start of the turn, deals Physical damage to surrounding units.</p>",
-          "dollId": "ad525729-7e67-4954-9919-45168be39953",
-          "segment": 2,
-          "imageUrl": "https://cdn.dandegate.net/skills/515a59d8585e3fd1bce7218e95cc7e00718d5524208f6b46fbd4fc8f0b51b64c.webp",
-          "createdAt": "2025-10-04T12:35:19.312Z",
-          "updatedAt": "2025-10-15T23:59:46.358Z",
-          "vertebraeName": "Masochistic Hallucination Lv.2"
+        "level2": {
+          "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+          "vertebraeUpgradeId": "4b4ccc9b-25e0-43ea-a588-f021962bf031",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Selects one direction and applies [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and [effect:b46e4270-c2d5-4f69-bb9b-544785785790] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to all enemy units in a <span style=\"color: rgb(243, 109, 28);\">forward-facing 3x5 tile area</span>, deals AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. After using this skill, gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index and teleports [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] to Florence's side.</p><p>If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is not on the field, summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] after the skill resolves.</p>",
+          "phase": "Hydro",
+          "skillTags": [
+            "Ultimate",
+            "AoE",
+            "Summon",
+            "Control"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1759018029369-range1effectnull.webp",
+            "createdAt": "2025-09-28T00:07:09.531Z",
+            "updatedAt": "2025-09-28T00:07:09.531Z",
+            "rangeValue": "1",
+            "effectiveArea": "--"
+          },
+          "vertebraeUpgrade": {
+            "id": "4b4ccc9b-25e0-43ea-a588-f021962bf031",
+            "level": 2,
+            "effect": "<p>The effect of [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] is enhanced: The increase to <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> taken is raised to <span style=\"color: rgb(243, 109, 28);\">15%</span>. It also gains a new effect: At the start of the turn, deals Physical damage to surrounding units.</p>",
+            "dollId": "ad525729-7e67-4954-9919-45168be39953",
+            "segment": 2,
+            "imageUrl": "https://cdn.dandegate.net/skills/515a59d8585e3fd1bce7218e95cc7e00718d5524208f6b46fbd4fc8f0b51b64c.webp",
+            "createdAt": "2025-10-04T12:35:19.312Z",
+            "updatedAt": "2025-10-15T23:59:46.358Z",
+            "vertebraeName": "Masochistic Hallucination Lv.2"
+          }
         },
-        "vertebraeUpgradeLevel3": {
-          "id": "11af26c3-532a-4b27-873a-4f52aa84dd0d",
-          "level": 3,
-          "effect": "<p>Damage multiplier of this skill is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is on the field, it recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Florence's attack and gains [effect:6f0f6ecc-f04d-404d-a5ea-2dbd9f8c5a70] for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
-          "dollId": "ad525729-7e67-4954-9919-45168be39953",
-          "segment": 4,
-          "imageUrl": "https://cdn.dandegate.net/skills/515a59d8585e3fd1bce7218e95cc7e00718d5524208f6b46fbd4fc8f0b51b64c.webp",
-          "createdAt": "2025-10-04T12:35:35.365Z",
-          "updatedAt": "2025-10-16T00:00:32.203Z",
-          "vertebraeName": "Masochistic Hallucination Lv.3"
+        "level3": {
+          "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+          "vertebraeUpgradeId": "11af26c3-532a-4b27-873a-4f52aa84dd0d",
+          "ammoTypes": "[\"Light Ammo\"]",
+          "confectanceCost": null,
+          "cooldown": null,
+          "description": "<p>Selects one direction and applies [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and [effect:b46e4270-c2d5-4f69-bb9b-544785785790] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to all enemy units in a <span style=\"color: rgb(243, 109, 28);\">forward-facing 3x5 tile area</span>, deals AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack. After using this skill, gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index and teleports [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] to Florence's side. If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is on the field, it recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Florence's attack and gains [effect:6f0f6ecc-f04d-404d-a5ea-2dbd9f8c5a70] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p><p>If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is not on the field, summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] after the skill resolves.</p>",
+          "phase": "Hydro",
+          "skillTags": [
+            "Ultimate",
+            "AoE",
+            "Summon",
+            "Control"
+          ],
+          "stabilityDamage": 3,
+          "rangeMap": {
+            "id": "543d2984-4f29-4331-9291-dbe6ba1773a3",
+            "imageUrl": "https://cdn.dandegate.net/range-maps/1759018029369-range1effectnull.webp",
+            "createdAt": "2025-09-28T00:07:09.531Z",
+            "updatedAt": "2025-09-28T00:07:09.531Z",
+            "rangeValue": "1",
+            "effectiveArea": "--"
+          },
+          "vertebraeUpgrade": {
+            "id": "11af26c3-532a-4b27-873a-4f52aa84dd0d",
+            "level": 3,
+            "effect": "<p>Damage multiplier of this skill is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is on the field, it recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Florence's attack and gains [effect:6f0f6ecc-f04d-404d-a5ea-2dbd9f8c5a70] for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p>",
+            "dollId": "ad525729-7e67-4954-9919-45168be39953",
+            "segment": 4,
+            "imageUrl": "https://cdn.dandegate.net/skills/515a59d8585e3fd1bce7218e95cc7e00718d5524208f6b46fbd4fc8f0b51b64c.webp",
+            "createdAt": "2025-10-04T12:35:35.365Z",
+            "updatedAt": "2025-10-16T00:00:32.203Z",
+            "vertebraeName": "Masochistic Hallucination Lv.3"
+          }
         },
-        "shortId": 5
+        "level4": null
       }
     ],
     "keys": [
@@ -620,28 +624,6 @@
         "createdAt": "2025-10-05T19:35:32.189Z",
         "updatedAt": "2025-10-15T23:51:32.757Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "createdAt": "2025-10-04T10:16:12.606Z",
-              "updatedAt": "2025-10-04T10:16:12.606Z"
-            }
-          ],
-          "searchTags": [
-            "PA-15"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Affinity Key - Mischievous Prescription",
         "shortId": "a13"
@@ -665,28 +647,6 @@
         "createdAt": "2025-10-04T11:37:01.747Z",
         "updatedAt": "2025-10-15T23:52:30.578Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "createdAt": "2025-10-04T10:16:12.606Z",
-              "updatedAt": "2025-10-04T10:16:12.606Z"
-            }
-          ],
-          "searchTags": [
-            "PA-15"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Common Key - Master's Command",
         "shortId": "c13"
@@ -711,28 +671,6 @@
         "createdAt": "2026-02-06T04:26:05.327Z",
         "updatedAt": "2026-02-06T04:32:25.824Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "createdAt": "2025-10-04T10:16:12.606Z",
-              "updatedAt": "2025-10-04T10:16:12.606Z"
-            }
-          ],
-          "searchTags": [
-            "PA-15"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Expansion Key - Thrill Seeker",
         "shortId": "k1"
@@ -757,28 +695,6 @@
         "createdAt": "2025-10-04T11:14:15.681Z",
         "updatedAt": "2025-10-15T23:47:41.271Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "createdAt": "2025-10-04T10:16:12.606Z",
-              "updatedAt": "2025-10-04T10:16:12.606Z"
-            }
-          ],
-          "searchTags": [
-            "PA-15"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 1 - Fatal Thrill",
         "shortId": "k2"
@@ -803,28 +719,6 @@
         "createdAt": "2025-10-04T11:15:04.244Z",
         "updatedAt": "2025-10-15T23:48:30.019Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "createdAt": "2025-10-04T10:16:12.606Z",
-              "updatedAt": "2025-10-04T10:16:12.606Z"
-            }
-          ],
-          "searchTags": [
-            "PA-15"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 2 - Self-Pleasure",
         "shortId": "k3"
@@ -849,28 +743,6 @@
         "createdAt": "2025-10-04T11:18:43.153Z",
         "updatedAt": "2025-10-15T23:49:11.580Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "createdAt": "2025-10-04T10:16:12.606Z",
-              "updatedAt": "2025-10-04T10:16:12.606Z"
-            }
-          ],
-          "searchTags": [
-            "PA-15"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 3 - Sensitivity Boost",
         "shortId": "k4"
@@ -895,28 +767,6 @@
         "createdAt": "2025-10-04T11:22:38.741Z",
         "updatedAt": "2025-10-15T23:50:05.196Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "createdAt": "2025-10-04T10:16:12.606Z",
-              "updatedAt": "2025-10-04T10:16:12.606Z"
-            }
-          ],
-          "searchTags": [
-            "PA-15"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 4 - Riposte's Reward",
         "shortId": "k5"
@@ -941,28 +791,6 @@
         "createdAt": "2025-10-04T11:26:21.211Z",
         "updatedAt": "2025-10-15T23:50:24.832Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "createdAt": "2025-10-04T10:16:12.606Z",
-              "updatedAt": "2025-10-04T10:16:12.606Z"
-            }
-          ],
-          "searchTags": [
-            "PA-15"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 5 - Bondage Urge",
         "shortId": "k6"
@@ -987,28 +815,6 @@
         "createdAt": "2025-10-04T11:32:41.151Z",
         "updatedAt": "2025-11-03T05:57:25.281Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "createdAt": "2025-10-04T10:16:12.606Z",
-              "updatedAt": "2025-10-04T10:16:12.606Z"
-            }
-          ],
-          "searchTags": [
-            "PA-15"
-          ]
-        },
         "searchTags": [],
         "displayTitle": "Fixed Key 6 - Sweet Temptation",
         "shortId": "k7"
@@ -1025,109 +831,24 @@
         "imageUrl": "https://cdn.dandegate.net/skills/945491c81ff5b3aa828c2c2393bc1016de5b36007c51dbaf04a82e6459a10bf7.webp",
         "createdAt": "2025-10-04T12:32:38.877Z",
         "updatedAt": "2025-10-16T00:03:39.828Z",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "class": "Support",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A medical Doll who craves excitement and amusement, she's extremely forward and given to coquetry. Both her medical and pharmaceutical techniques are top-notch, but her personality often makes her passion hard to bear.\r\n\"Now, which would you prefer? This pill, this syringe, or my punishment? All of them will make you feel reeeeeally good~\"",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "7dc23e81-a8f1-4f34-8bb8-065375935fe1",
             "name": "No. 1 Assistant",
-            "phase": null,
             "dollId": "ad525729-7e67-4954-9919-45168be39953",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/d503f3fc2e37f5790fd58a94b4f7a01e092990949d669fd6cc524a5308a8df6e.webp",
-            "summonId": "317113f0-6c6d-4e74-beec-8f0aa1034d4b",
-            "ammoTypes": "[]",
-            "createdAt": "2025-10-04T12:29:39.129Z",
-            "skillTags": [
-              "Passive",
-              "Counterattack"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-16T01:01:26.055Z",
-            "description": "<p>Arios absorbs all damage that Florence takes. When Arios is more than <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> away from Florence, it teleports to Florence's vicinity.</p><p>When Arios or Florence takes damage, Arios performs [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn. For each time Arios takes damage, it gains 1 stack of [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e]. When [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e] reaches 5 stacks, it is converted to [effect:8b946893-0ec1-437f-a9ac-65c033df70e2].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Arios absorbs all damage that Florence takes. When Arios is more than <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> away from Florence, it teleports to Florence's vicinity.</p><p>When Arios or Florence takes damage, Arios performs [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">4 times</span> per turn. For each time Arios takes damage, it gains 1 stack of [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e]. When [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e] reaches 5 stacks, it is converted to [effect:8b946893-0ec1-437f-a9ac-65c033df70e2].</p>",
-            "descriptionLevel3": "<p>When Florence receives damage, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] will receive damage in her place.</p><p>If the distance between [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] and Florence is <span style=\"color: rgb(243, 109, 28);\">6 or more tiles</span>, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] will be teleported near Florence.</p><p>When [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] or Florence receives damage, performs [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equivalent to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. This can be activated at most <span style=\"color: rgb(243, 109, 28);\">4 times per round</span>.</p><p>For each instance of damage received, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:humiliation-mark|doll:florence]. When the number of stacks of [effect:humiliation-mark|doll:florence] reaches <span style=\"color: rgb(243, 109, 28);\">5</span>, it is converted into [effect:despair-tremor|doll:florence].</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
-            "vertebraeUpgradeIdLevel3": null
+            "summonId": "317113f0-6c6d-4e74-beec-8f0aa1034d4b"
           },
           {
             "id": "93f29344-754c-4dfc-b642-94e8560680c4",
             "name": "Surgical Preparation",
-            "phase": null,
             "dollId": "ad525729-7e67-4954-9919-45168be39953",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/945491c81ff5b3aa828c2c2393bc1016de5b36007c51dbaf04a82e6459a10bf7.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-10-04T12:16:41.589Z",
-            "skillTags": [
-              "Passive",
-              "Summon"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-15T23:47:02.778Z",
-            "description": "<p>At the start of the battle, Florence summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] near herself. At the start of the allied turn, consumes <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index. If Florence does not have enough Confectance Index, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] disappears.</p><p>At the end of Florence's action, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the start of the battle, Florence summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] near herself. At the start of the allied turn, consumes <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. If Florence does not have enough Confectance Index, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] disappears.</p><p>At the end of Florence's action, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
-            "vertebraeUpgradeIdLevel3": "677c7e7b-0fea-499e-8990-9553c47c7597"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "4b4ccc9b-25e0-43ea-a588-f021962bf031",
@@ -1139,70 +860,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/515a59d8585e3fd1bce7218e95cc7e00718d5524208f6b46fbd4fc8f0b51b64c.webp",
         "createdAt": "2025-10-04T12:35:19.312Z",
         "updatedAt": "2025-10-15T23:59:46.358Z",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "class": "Support",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A medical Doll who craves excitement and amusement, she's extremely forward and given to coquetry. Both her medical and pharmaceutical techniques are top-notch, but her personality often makes her passion hard to bear.\r\n\"Now, which would you prefer? This pill, this syringe, or my punishment? All of them will make you feel reeeeeally good~\"",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "452827ef-a91d-4ad0-89b8-2109ef01d63a",
             "name": "Masochistic Hallucination",
-            "phase": "Hydro",
             "dollId": "ad525729-7e67-4954-9919-45168be39953",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/515a59d8585e3fd1bce7218e95cc7e00718d5524208f6b46fbd4fc8f0b51b64c.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-10-04T12:10:49.029Z",
-            "skillTags": [
-              "Ultimate",
-              "AoE",
-              "Summon",
-              "Control"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-15T23:38:30.247Z",
-            "description": "<p>Selects one direction and applies [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and [effect:b46e4270-c2d5-4f69-bb9b-544785785790] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to all enemy units in a <span style=\"color: rgb(243, 109, 28);\">forward-facing 3x5 tile area</span>, deals AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. After using this skill, gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index and teleports [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] to Florence's side.</p><p>If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is not on the field, summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] after the skill resolves.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"ea6a8036-7868-4b2e-94bf-13d0093c5e7c\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": null,
-            "descriptionLevel3": "<p>Selects one direction and applies [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and [effect:b46e4270-c2d5-4f69-bb9b-544785785790] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to all enemy units in a <span style=\"color: rgb(243, 109, 28);\">forward-facing 3x5 tile area</span>, deals AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack. After using this skill, gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index and teleports [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] to Florence's side. If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is on the field, it recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Florence's attack and gains [effect:6f0f6ecc-f04d-404d-a5ea-2dbd9f8c5a70] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p><p>If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is not on the field, summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] after the skill resolves.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "4b4ccc9b-25e0-43ea-a588-f021962bf031",
-            "vertebraeUpgradeIdLevel3": "11af26c3-532a-4b27-873a-4f52aa84dd0d"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "2bae8522-4c3f-43a5-8a89-e43181a98253",
@@ -1214,68 +883,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3e91ef97ce53df390fde46f39e94785cc35cefcf32a11cb8210171dbd31a7df4.webp",
         "createdAt": "2025-10-04T12:36:08.264Z",
         "updatedAt": "2025-10-16T00:01:39.531Z",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "class": "Support",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A medical Doll who craves excitement and amusement, she's extremely forward and given to coquetry. Both her medical and pharmaceutical techniques are top-notch, but her personality often makes her passion hard to bear.\r\n\"Now, which would you prefer? This pill, this syringe, or my punishment? All of them will make you feel reeeeeally good~\"",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [
           {
             "id": "c3be8a67-6dc9-46d8-bbf4-aadbc2259c50",
             "name": "Pleasure Trigger",
-            "phase": null,
             "dollId": "ad525729-7e67-4954-9919-45168be39953",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/3e91ef97ce53df390fde46f39e94785cc35cefcf32a11cb8210171dbd31a7df4.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-10-04T11:57:30.391Z",
-            "skillTags": [
-              "Active",
-              "Buff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-15T23:44:22.223Z",
-            "description": "<p>Selects one allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] from it, and applies [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 round</span>, and consumes the allied target's HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of its initial HP.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects one allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] from it, and applies [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>, and consumes HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of the allied target's initial HP.</p>",
-            "descriptionLevel3": "<p>Selects one allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from it, applies [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>, and consumes the allied target's HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of its initial HP. This skill is also applied to [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "2bae8522-4c3f-43a5-8a89-e43181a98253",
-            "vertebraeUpgradeIdLevel3": "81c8e5cb-6530-4029-afff-3ca78b6cf3b3"
+            "summonId": null
           }
         ],
         "skillsLevel3": [],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "11af26c3-532a-4b27-873a-4f52aa84dd0d",
@@ -1287,70 +906,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/515a59d8585e3fd1bce7218e95cc7e00718d5524208f6b46fbd4fc8f0b51b64c.webp",
         "createdAt": "2025-10-04T12:35:35.365Z",
         "updatedAt": "2025-10-16T00:00:32.203Z",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "class": "Support",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A medical Doll who craves excitement and amusement, she's extremely forward and given to coquetry. Both her medical and pharmaceutical techniques are top-notch, but her personality often makes her passion hard to bear.\r\n\"Now, which would you prefer? This pill, this syringe, or my punishment? All of them will make you feel reeeeeally good~\"",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "452827ef-a91d-4ad0-89b8-2109ef01d63a",
             "name": "Masochistic Hallucination",
-            "phase": "Hydro",
             "dollId": "ad525729-7e67-4954-9919-45168be39953",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/515a59d8585e3fd1bce7218e95cc7e00718d5524208f6b46fbd4fc8f0b51b64c.webp",
-            "summonId": null,
-            "ammoTypes": "[\"Light Ammo\"]",
-            "createdAt": "2025-10-04T12:10:49.029Z",
-            "skillTags": [
-              "Ultimate",
-              "AoE",
-              "Summon",
-              "Control"
-            ],
-            "skillType": "Skill 3",
-            "updatedAt": "2025-10-15T23:38:30.247Z",
-            "description": "<p>Selects one direction and applies [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and [effect:b46e4270-c2d5-4f69-bb9b-544785785790] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to all enemy units in a <span style=\"color: rgb(243, 109, 28);\">forward-facing 3x5 tile area</span>, deals AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. After using this skill, gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index and teleports [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] to Florence's side.</p><p>If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is not on the field, summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] after the skill resolves.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "543d2984-4f29-4331-9291-dbe6ba1773a3",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": 3,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[\"ea6a8036-7868-4b2e-94bf-13d0093c5e7c\"]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": null,
-            "descriptionLevel3": "<p>Selects one direction and applies [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and [effect:b46e4270-c2d5-4f69-bb9b-544785785790] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span> to all enemy units in a <span style=\"color: rgb(243, 109, 28);\">forward-facing 3x5 tile area</span>, deals AoE <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of attack. After using this skill, gains <span style=\"color: rgb(243, 109, 28);\">6 points</span> of Confectance Index and teleports [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] to Florence's side. If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is on the field, it recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Florence's attack and gains [effect:6f0f6ecc-f04d-404d-a5ea-2dbd9f8c5a70] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p><p>If [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] is not on the field, summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] after the skill resolves.</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "4b4ccc9b-25e0-43ea-a588-f021962bf031",
-            "vertebraeUpgradeIdLevel3": "11af26c3-532a-4b27-873a-4f52aa84dd0d"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "81c8e5cb-6530-4029-afff-3ca78b6cf3b3",
@@ -1362,68 +929,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/3e91ef97ce53df390fde46f39e94785cc35cefcf32a11cb8210171dbd31a7df4.webp",
         "createdAt": "2025-10-04T12:36:34.871Z",
         "updatedAt": "2025-10-16T00:02:43.523Z",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "class": "Support",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A medical Doll who craves excitement and amusement, she's extremely forward and given to coquetry. Both her medical and pharmaceutical techniques are top-notch, but her personality often makes her passion hard to bear.\r\n\"Now, which would you prefer? This pill, this syringe, or my punishment? All of them will make you feel reeeeeally good~\"",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "c3be8a67-6dc9-46d8-bbf4-aadbc2259c50",
             "name": "Pleasure Trigger",
-            "phase": null,
             "dollId": "ad525729-7e67-4954-9919-45168be39953",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/3e91ef97ce53df390fde46f39e94785cc35cefcf32a11cb8210171dbd31a7df4.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-10-04T11:57:30.391Z",
-            "skillTags": [
-              "Active",
-              "Buff"
-            ],
-            "skillType": "Skill 2",
-            "updatedAt": "2025-10-15T23:44:22.223Z",
-            "description": "<p>Selects one allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] from it, and applies [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] which lasts for <span style=\"color: rgb(243, 109, 28);\">1 round</span>, and consumes the allied target's HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of its initial HP.</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>Selects one allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d] and [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3] from it, and applies [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>, and consumes HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of the allied target's initial HP.</p>",
-            "descriptionLevel3": "<p>Selects one allied target within <span style=\"color: rgb(243, 109, 28);\">6 tiles</span>, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from it, applies [effect:5aaa5980-a481-4e7b-bf75-cf6a18e950cf] which lasts for <span style=\"color: rgb(243, 109, 28);\">2 rounds</span>, and consumes the allied target's HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of its initial HP. This skill is also applied to [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "2bae8522-4c3f-43a5-8a89-e43181a98253",
-            "vertebraeUpgradeIdLevel3": "81c8e5cb-6530-4029-afff-3ca78b6cf3b3"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       },
       {
         "id": "677c7e7b-0fea-499e-8990-9553c47c7597",
@@ -1435,68 +952,18 @@
         "imageUrl": "https://cdn.dandegate.net/skills/945491c81ff5b3aa828c2c2393bc1016de5b36007c51dbaf04a82e6459a10bf7.webp",
         "createdAt": "2025-10-04T12:34:17.528Z",
         "updatedAt": "2025-10-16T00:04:51.660Z",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "class": "Support",
-          "phase": "Hydro",
-          "rarity": "Elite",
-          "effects": "A medical Doll who craves excitement and amusement, she's extremely forward and given to coquetry. Both her medical and pharmaceutical techniques are top-notch, but her personality often makes her passion hard to bear.\r\n\"Now, which would you prefer? This pill, this syringe, or my punishment? All of them will make you feel reeeeeally good~\"",
-          "preview": false,
-          "movement": 6,
-          "ammoTypes": "[\"Light Ammo\"]",
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "stabilityGauge": 10
-        },
         "skillsLevel2": [],
         "skillsLevel3": [
           {
             "id": "93f29344-754c-4dfc-b642-94e8560680c4",
             "name": "Surgical Preparation",
-            "phase": null,
             "dollId": "ad525729-7e67-4954-9919-45168be39953",
-            "cooldown": null,
-            "imageUrl": "https://cdn.dandegate.net/skills/945491c81ff5b3aa828c2c2393bc1016de5b36007c51dbaf04a82e6459a10bf7.webp",
-            "summonId": null,
-            "ammoTypes": "[]",
-            "createdAt": "2025-10-04T12:16:41.589Z",
-            "skillTags": [
-              "Passive",
-              "Summon"
-            ],
-            "skillType": "Passive",
-            "updatedAt": "2025-10-15T23:47:02.778Z",
-            "description": "<p>At the start of the battle, Florence summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] near herself. At the start of the allied turn, consumes <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index. If Florence does not have enough Confectance Index, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] disappears.</p><p>At the end of Florence's action, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "rangeMapId": "a0707cae-84bf-4e5b-b99c-b53aeaf3bdf5",
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "confectanceCost": null,
-            "stabilityDamage": null,
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "keyUpgradesData": "[]",
-            "keyUpgradesType": "keys",
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "descriptionLevel2": "<p>At the start of the battle, Florence summons [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] near herself. At the start of the allied turn, consumes <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index. If Florence does not have enough Confectance Index, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] disappears.</p><p>At the end of Florence's action, cleanses [effect:fadf4f3f-2810-49f0-b947-6d683741429d], [effect:e82fca4c-de4a-40b6-83c2-e84d716f72d3], [effect:b46e4270-c2d5-4f69-bb9b-544785785790], and [effect:dd0752a2-37c4-47ba-91ad-2dc640d2372b] from [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b].</p>",
-            "descriptionLevel3": null,
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "vertebraeUpgradeIdLevel2": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
-            "vertebraeUpgradeIdLevel3": "677c7e7b-0fea-499e-8990-9553c47c7597"
+            "summonId": null
           }
         ],
         "summonsLevel2": [],
-        "summonsLevel3": []
+        "summonsLevel3": [],
+        "skillsLevel4": null
       }
     ],
     "summons": [
@@ -1504,15 +971,8 @@
         "id": "317113f0-6c6d-4e74-beec-8f0aa1034d4b",
         "name": "Arios",
         "imageUrl": "https://cdn.dandegate.net/summons/arios/a288c3760e5a1e0f90329f0261d67482a64bd7066b7369ad8222efb13f69419f.webp",
-        "stabilityGauge": 0,
-        "movement": 6,
-        "class": null,
         "phase": null,
         "ammoTypes": [],
-        "unitInfo": "<p>Considered a physical summon. Arios inherits <span style=\"color: rgb(243, 109, 28);\">120%</span> of Florence's initial max HP, <span style=\"color: rgb(243, 109, 28);\">100%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">120%</span> of her initial defense. Arios can apply [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to enemy units, take damage in Florence's place, and after it or Florence is damaged, it will perform a [effect:e6c91f66-b509-4f89-861e-29ca64014622].</p>",
-        "hp": 120,
-        "atk": 100,
-        "def": 120,
         "createdAt": "2025-10-04T10:16:18.840Z",
         "updatedAt": "2026-02-06T04:09:00.007Z",
         "dollId": "ad525729-7e67-4954-9919-45168be39953",
@@ -1520,215 +980,129 @@
           "4f6603a8-8cc7-4e2b-96b2-401305823644",
           "7dc23e81-a8f1-4f34-8bb8-065375935fe1"
         ],
-        "atkLevel2": null,
-        "atkLevel3": null,
-        "classLevel2": null,
-        "classLevel3": null,
-        "defLevel2": null,
-        "defLevel3": null,
-        "hpLevel2": null,
-        "hpLevel3": null,
-        "movementLevel2": null,
-        "movementLevel3": null,
-        "stabilityGaugeLevel2": null,
-        "stabilityGaugeLevel3": null,
-        "unitInfoLevel2": null,
-        "unitInfoLevel3": null,
-        "vertebraeUpgradeIdLevel2": null,
-        "vertebraeUpgradeIdLevel3": null,
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "alt": null,
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "isActive": true,
-              "createdAt": "2025-10-04T10:16:12.606Z",
-              "updatedAt": "2025-10-04T10:16:12.606Z"
-            },
-            {
-              "id": "a29e603c-b934-42a9-bd2e-0e15923ec551",
-              "alt": null,
-              "category": "Card",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Card/04343a5f82059483623cd0a8c598f0c6fa5be4df6580d87b2c01dd69effd62bf.webp",
-              "isActive": true,
-              "createdAt": "2025-10-04T10:16:18.773Z",
-              "updatedAt": "2025-10-29T03:16:35.111Z"
-            },
-            {
-              "id": "0930f01f-6437-4cc3-8520-cf5cb1d5ca97",
-              "alt": null,
-              "category": "Skin",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Skin/63f9e170c2e5a8e47d070ac35a57c3a162878a2a53aac1d2a6d4f8396bd7f2c0.webp",
-              "isActive": true,
-              "createdAt": "2025-10-04T10:16:18.110Z",
-              "updatedAt": "2025-10-16T00:05:53.311Z"
-            },
-            {
-              "id": "2596d3fd-684d-40f1-8e8e-6743b39909c9",
-              "alt": null,
-              "category": "Skin",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Skin/bebed984b19f81f93c2954c3f75f70f0c6451255e32f8d111ffdb06952a263bc.webp",
-              "isActive": true,
-              "createdAt": "2026-02-06T04:08:58.338Z",
-              "updatedAt": "2026-02-06T04:08:58.338Z"
-            }
-          ]
+        "shortId": "s4",
+        "level1": {
+          "stabilityGauge": 0,
+          "movement": 6,
+          "class": null,
+          "unitInfo": "<p>Considered a physical summon. Arios inherits <span style=\"color: rgb(243, 109, 28);\">120%</span> of Florence's initial max HP, <span style=\"color: rgb(243, 109, 28);\">100%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">120%</span> of her initial defense. Arios can apply [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to enemy units, take damage in Florence's place, and after it or Florence is damaged, it will perform a [effect:e6c91f66-b509-4f89-861e-29ca64014622].</p>",
+          "hp": 120,
+          "atk": 100,
+          "def": 120
         },
-        "vertebraeUpgradeLevel2": null,
-        "vertebraeUpgradeLevel3": null,
+        "level2": null,
+        "level3": null,
+        "level4": null,
         "skills": [
           {
             "id": "4f6603a8-8cc7-4e2b-96b2-401305823644",
             "name": "Precision Anethesia",
-            "description": "<p>Selects the enemy unit closest to Florence, applies [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it. In addition, applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
-            "phase": "Hydro",
-            "ammoTypes": "[]",
-            "stabilityDamage": 4,
-            "cooldown": null,
-            "confectanceCost": null,
             "imageUrl": "https://cdn.dandegate.net/skills/9f3a135e51c9a6c50d4245a2bfb055cab25456c515124e28e1e32e0c1a4ac8c7.webp",
             "createdAt": "2025-10-04T12:22:31.926Z",
             "updatedAt": "2025-10-16T00:56:38.946Z",
             "dollId": "ad525729-7e67-4954-9919-45168be39953",
             "summonId": "317113f0-6c6d-4e74-beec-8f0aa1034d4b",
-            "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "vertebraeUpgradeIdLevel2": null,
-            "vertebraeUpgradeIdLevel3": null,
-            "skillTags": [
-              "Active",
-              "Targeted",
-              "Debuff",
-              "Control"
-            ],
             "keyUpgradesData": "[]",
             "keyUpgradesType": "keys",
             "skillType": "Skill 1",
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "descriptionLevel2": null,
-            "descriptionLevel3": null,
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "doll": {
-              "id": "ad525729-7e67-4954-9919-45168be39953",
-              "name": "Florence",
-              "rarity": "Elite",
-              "preview": false,
-              "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-              "createdAt": "2025-10-04T10:16:11.227Z",
-              "regionTag": "en",
-              "updatedAt": "2026-02-06T04:08:53.151Z"
+            "shortId": 1,
+            "level1": {
+              "description": "<p>Selects the enemy unit closest to Florence, applies [effect:4e684d7c-4b85-4eb2-82b3-4235a71dba3d] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> and deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to it. In addition, applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+              "phase": "Hydro",
+              "ammoTypes": "[]",
+              "stabilityDamage": 4,
+              "cooldown": null,
+              "confectanceCost": null,
+              "rangeMapId": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+              "skillTags": [
+                "Active",
+                "Targeted",
+                "Debuff",
+                "Control"
+              ],
+              "rangeMap": {
+                "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
+                "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
+                "createdAt": "2025-09-13T06:00:32.207Z",
+                "updatedAt": "2025-09-13T06:00:32.207Z",
+                "rangeValue": "6",
+                "effectiveArea": "Target"
+              }
             },
-            "rangeMap": {
-              "id": "ebe36730-731f-48dc-b48e-b3bdb259947f",
-              "imageUrl": "https://cdn.dandegate.net/range-maps/1757743232112-r6et.webp",
-              "createdAt": "2025-09-13T06:00:32.207Z",
-              "updatedAt": "2025-09-13T06:00:32.207Z",
-              "rangeValue": "6",
-              "effectiveArea": "Target"
-            },
-            "rangeMapLevel2": null,
-            "rangeMapLevel3": null,
-            "vertebraeUpgradeLevel2": null,
-            "vertebraeUpgradeLevel3": null,
-            "shortId": 1
+            "level2": null,
+            "level3": null,
+            "level4": null
           },
           {
             "id": "7dc23e81-a8f1-4f34-8bb8-065375935fe1",
             "name": "No. 1 Assistant",
-            "description": "<p>Arios absorbs all damage that Florence takes. When Arios is more than <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> away from Florence, it teleports to Florence's vicinity.</p><p>When Arios or Florence takes damage, Arios performs [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn. For each time Arios takes damage, it gains 1 stack of [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e]. When [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e] reaches 5 stacks, it is converted to [effect:8b946893-0ec1-437f-a9ac-65c033df70e2].</p>",
-            "phase": null,
-            "ammoTypes": "[]",
-            "stabilityDamage": null,
-            "cooldown": null,
-            "confectanceCost": null,
             "imageUrl": "https://cdn.dandegate.net/skills/d503f3fc2e37f5790fd58a94b4f7a01e092990949d669fd6cc524a5308a8df6e.webp",
             "createdAt": "2025-10-04T12:29:39.129Z",
             "updatedAt": "2025-10-16T01:01:26.055Z",
             "dollId": "ad525729-7e67-4954-9919-45168be39953",
             "summonId": "317113f0-6c6d-4e74-beec-8f0aa1034d4b",
-            "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
-            "rangeMapIdLevel2": null,
-            "rangeMapIdLevel3": null,
-            "vertebraeUpgradeIdLevel2": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
-            "vertebraeUpgradeIdLevel3": null,
-            "skillTags": [
-              "Passive",
-              "Counterattack"
-            ],
             "keyUpgradesData": "[]",
             "keyUpgradesType": "keys",
             "skillType": "Passive",
-            "ammoTypesLevel2": "[]",
-            "ammoTypesLevel3": "[]",
-            "confectanceCostLevel2": null,
-            "confectanceCostLevel3": null,
-            "cooldownLevel2": null,
-            "cooldownLevel3": null,
-            "descriptionLevel2": "<p>Arios absorbs all damage that Florence takes. When Arios is more than <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> away from Florence, it teleports to Florence's vicinity.</p><p>When Arios or Florence takes damage, Arios performs [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">4 times</span> per turn. For each time Arios takes damage, it gains 1 stack of [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e]. When [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e] reaches 5 stacks, it is converted to [effect:8b946893-0ec1-437f-a9ac-65c033df70e2].</p>",
-            "descriptionLevel3": "<p>When Florence receives damage, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] will receive damage in her place.</p><p>If the distance between [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] and Florence is <span style=\"color: rgb(243, 109, 28);\">6 or more tiles</span>, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] will be teleported near Florence.</p><p>When [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] or Florence receives damage, performs [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equivalent to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. This can be activated at most <span style=\"color: rgb(243, 109, 28);\">4 times per round</span>.</p><p>For each instance of damage received, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:humiliation-mark|doll:florence]. When the number of stacks of [effect:humiliation-mark|doll:florence] reaches <span style=\"color: rgb(243, 109, 28);\">5</span>, it is converted into [effect:despair-tremor|doll:florence].</p>",
-            "phaseLevel2": null,
-            "phaseLevel3": null,
-            "skillTagsLevel2": "[]",
-            "skillTagsLevel3": "[]",
-            "stabilityDamageLevel2": null,
-            "stabilityDamageLevel3": null,
-            "doll": {
-              "id": "ad525729-7e67-4954-9919-45168be39953",
-              "name": "Florence",
-              "rarity": "Elite",
-              "preview": false,
-              "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-              "createdAt": "2025-10-04T10:16:11.227Z",
-              "regionTag": "en",
-              "updatedAt": "2026-02-06T04:08:53.151Z"
+            "shortId": 2,
+            "level1": {
+              "description": "<p>Arios absorbs all damage that Florence takes. When Arios is more than <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> away from Florence, it teleports to Florence's vicinity.</p><p>When Arios or Florence takes damage, Arios performs [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn. For each time Arios takes damage, it gains 1 stack of [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e]. When [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e] reaches 5 stacks, it is converted to [effect:8b946893-0ec1-437f-a9ac-65c033df70e2].</p>",
+              "phase": null,
+              "ammoTypes": "[]",
+              "stabilityDamage": null,
+              "cooldown": null,
+              "confectanceCost": null,
+              "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+              "skillTags": [
+                "Passive",
+                "Counterattack"
+              ],
+              "rangeMap": {
+                "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+                "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
+                "createdAt": "2025-09-13T06:39:18.350Z",
+                "updatedAt": "2025-09-20T22:07:05.813Z",
+                "rangeValue": "Map",
+                "effectiveArea": "Target"
+              }
             },
-            "rangeMap": {
-              "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
-              "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
-              "createdAt": "2025-09-13T06:39:18.350Z",
-              "updatedAt": "2025-09-20T22:07:05.813Z",
-              "rangeValue": "Map",
-              "effectiveArea": "Target"
+            "level2": {
+              "rangeMapId": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+              "vertebraeUpgradeId": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
+              "ammoTypes": "[]",
+              "confectanceCost": null,
+              "cooldown": null,
+              "description": "<p>Arios absorbs all damage that Florence takes. When Arios is more than <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> away from Florence, it teleports to Florence's vicinity.</p><p>When Arios or Florence takes damage, Arios performs [effect:e6c91f66-b509-4f89-861e-29ca64014622], dealing <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack. This effect can be triggered up to <span style=\"color: rgb(243, 109, 28);\">4 times</span> per turn. For each time Arios takes damage, it gains 1 stack of [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e]. When [effect:5ae4a3b0-2d8f-4de9-b711-ec64593f585e] reaches 5 stacks, it is converted to [effect:8b946893-0ec1-437f-a9ac-65c033df70e2].</p>",
+              "phase": null,
+              "skillTags": [
+                "Passive",
+                "Counterattack"
+              ],
+              "stabilityDamage": null,
+              "rangeMap": {
+                "id": "96fcffc2-8b81-4ee3-827a-21677d31f099",
+                "imageUrl": "https://cdn.dandegate.net/range-maps/1757745558203-rEet.webp",
+                "createdAt": "2025-09-13T06:39:18.350Z",
+                "updatedAt": "2025-09-20T22:07:05.813Z",
+                "rangeValue": "Map",
+                "effectiveArea": "Target"
+              },
+              "vertebraeUpgrade": {
+                "id": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
+                "level": 2,
+                "effect": "<p>The amount of Confectance Index consumed at the start of the allied turn is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. The number of Counterattacks [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] can perform through its passive skill <span style=\"color: rgb(34, 139, 230);\">No. 1 Assistant</span> is increased by <span style=\"color: rgb(243, 109, 28);\">2</span>.</p>",
+                "dollId": "ad525729-7e67-4954-9919-45168be39953",
+                "segment": 1,
+                "imageUrl": "https://cdn.dandegate.net/skills/945491c81ff5b3aa828c2c2393bc1016de5b36007c51dbaf04a82e6459a10bf7.webp",
+                "createdAt": "2025-10-04T12:32:38.877Z",
+                "updatedAt": "2025-10-16T00:03:39.828Z",
+                "vertebraeName": "Surgical Preparation Lv.2"
+              }
             },
-            "rangeMapLevel2": null,
-            "rangeMapLevel3": null,
-            "vertebraeUpgradeLevel2": {
-              "id": "18be0fe5-fa96-4787-b1e4-a4cae4354e30",
-              "level": 2,
-              "effect": "<p>The amount of Confectance Index consumed at the start of the allied turn is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. The number of Counterattacks [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] can perform through its passive skill <span style=\"color: rgb(34, 139, 230);\">No. 1 Assistant</span> is increased by <span style=\"color: rgb(243, 109, 28);\">2</span>.</p>",
-              "dollId": "ad525729-7e67-4954-9919-45168be39953",
-              "segment": 1,
-              "imageUrl": "https://cdn.dandegate.net/skills/945491c81ff5b3aa828c2c2393bc1016de5b36007c51dbaf04a82e6459a10bf7.webp",
-              "createdAt": "2025-10-04T12:32:38.877Z",
-              "updatedAt": "2025-10-16T00:03:39.828Z",
-              "vertebraeName": "Surgical Preparation Lv.2"
-            },
-            "vertebraeUpgradeLevel3": null,
-            "shortId": 2
+            "level3": null,
+            "level4": null
           }
-        ],
-        "shortId": "s4"
+        ]
       }
     ],
     "remoldingPattern": {
@@ -1852,37 +1226,22 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-10-04T10:31:23.773Z",
-        "updatedAt": "2025-11-06T06:31:13.525Z",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "PA-15"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-06T06:31:13.525Z"
       },
       {
         "id": "4e684d7c-4b85-4eb2-82b3-4235a71dba3d",
         "effectName": "Chaos Compound",
-        "effectDetails": "{\"mainDetails\":\"<p><span style=\\\"color: rgb(43, 171, 218);\\\">Hydro damage</span> taken is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>. At the end of this unit's action, deals AoE Physical damage equal to <span style=\\\"color: rgb(243, 109, 28);\\\">1%</span> of attack to all enemy units <span style=\\\"color: rgb(243, 109, 28);\\\">within 5 tiles</span>. Considered a Hydro debuff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"d4d1c7f4-e0d2-4762-94a4-78c3174d56c4\",\"upgradeName\":\"V2\",\"upgradeDetails\":\"<p><span style=\\\"color: rgb(43, 171, 218);\\\">Hydro damage</span> taken is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span>. At the start and end of this unit's action, deals AoE Physical damage equal to <span style=\\\"color: rgb(243, 109, 28);\\\">1%</span> of attack to all enemy units <span style=\\\"color: rgb(243, 109, 28);\\\">within 5 tiles</span>. Considered a Hydro debuff, cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p><span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> taken is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. At the end of this unit's action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">1%</span> of attack to all enemy units <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span>. Considered a Hydro debuff, cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "d4d1c7f4-e0d2-4762-94a4-78c3174d56c4",
+              "upgradeName": "V2",
+              "upgradeDetails": "<p><span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> taken is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. At the start and end of this unit's action, deals AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">1%</span> of attack to all enemy units <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span>. Considered a Hydro debuff, cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [
           "Debuff",
           "Hydro"
@@ -1891,32 +1250,7 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-10-04T10:42:39.451Z",
-        "updatedAt": "2025-11-01T21:17:59.259Z",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "PA-15"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-01T21:17:59.259Z"
       },
       {
         "id": "b246792d-8ea6-4fde-a19d-d4006d85f9a9",
@@ -1927,32 +1261,7 @@
         "preview": false,
         "regionTag": "cn",
         "createdAt": "2026-02-06T04:28:39.055Z",
-        "updatedAt": "2026-02-06T04:28:39.055Z",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "PA-15"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2026-02-06T04:28:39.055Z"
       },
       {
         "id": "5ae4a3b0-2d8f-4de9-b711-ec64593f585e",
@@ -1963,37 +1272,22 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-10-06T17:51:53.453Z",
-        "updatedAt": "2025-10-15T15:57:50.788Z",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "PA-15"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-10-15T15:57:50.788Z"
       },
       {
         "id": "5aaa5980-a481-4e7b-bf75-cf6a18e950cf",
         "effectName": "Stimulant",
-        "effectDetails": "{\"mainDetails\":\"<p>At the end of the buff holder's action, consumes HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span> of the buff holder's initial max HP. While the buff is active, for every <span style=\\\"color: rgb(243, 109, 28);\\\">1%</span> of initial max HP consumed, damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">0.5%</span> and <span style=\\\"color: rgb(43, 171, 218);\\\">Hydro damage</span> dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">0.5%</span>, to a maximum increase of <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span> each. Considered a Hydro buff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"49d1fae8-91bd-427d-a87c-c9f968509899\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>At the end of the buff holder's action, consumes HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span> of the buff holder's initial max HP. If the buff holder's HP is below <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>, recovers HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">100%</span> of Florence's attack. This effect can be triggered <span style=\\\"color: rgb(243, 109, 28);\\\">once</span> while this buff is in effect. While the buff is active, for every <span style=\\\"color: rgb(243, 109, 28);\\\">1%</span> of initial max HP consumed, damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">0.5%</span> and <span style=\\\"color: rgb(43, 171, 218);\\\">Hydro damage</span> dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">0.5%</span>, to a maximum increase of <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span> each. Considered a Hydro buff, cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>At the end of the buff holder's action, consumes HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of the buff holder's initial max HP. While the buff is active, for every <span style=\"color: rgb(243, 109, 28);\">1%</span> of initial max HP consumed, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">0.5%</span> and <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">0.5%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">20%</span> each. Considered a Hydro buff, cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "49d1fae8-91bd-427d-a87c-c9f968509899",
+              "upgradeName": "V3",
+              "upgradeDetails": "<p>At the end of the buff holder's action, consumes HP equal to <span style=\"color: rgb(243, 109, 28);\">20%</span> of the buff holder's initial max HP. If the buff holder's HP is below <span style=\"color: rgb(243, 109, 28);\">30%</span>, recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of Florence's attack. This effect can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> while this buff is in effect. While the buff is active, for every <span style=\"color: rgb(243, 109, 28);\">1%</span> of initial max HP consumed, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">0.5%</span> and <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">0.5%</span>, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">20%</span> each. Considered a Hydro buff, cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [
           "Buff",
           "Hydro"
@@ -2002,37 +1296,22 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-10-04T10:28:13.114Z",
-        "updatedAt": "2025-11-03T15:53:18.748Z",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "PA-15"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T15:53:18.748Z"
       },
       {
         "id": "8b946893-0ec1-437f-a9ac-65c033df70e2",
         "effectName": "Tremor of Despair",
-        "effectDetails": "{\"mainDetails\":\"<p>Attack is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span>. All damage multipliers are doubled. Damage dealt to targets afflicted by [effect:b46e4270-c2d5-4f69-bb9b-544785785790] is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>. Cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"ad1a3fc0-cd0d-4ee0-9490-ade0d85f2534\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>Attack is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">35%</span>. All damage multipliers are doubled. Damage dealt to targets afflicted by [effect:b46e4270-c2d5-4f69-bb9b-544785785790] is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>. After dealing damage, recovers HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span> of the damage dealt by the attack. Cannot be cleansed.</p>\",\"order\":0}]}",
+        "effectDetails": {
+          "mainDetails": "<p>Attack is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. All damage multipliers are doubled. Damage dealt to targets afflicted by [effect:b46e4270-c2d5-4f69-bb9b-544785785790] is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "ad1a3fc0-cd0d-4ee0-9490-ade0d85f2534",
+              "upgradeName": "V6",
+              "upgradeDetails": "<p>Attack is increased by <span style=\"color: rgb(243, 109, 28);\">35%</span>. All damage multipliers are doubled. Damage dealt to targets afflicted by [effect:b46e4270-c2d5-4f69-bb9b-544785785790] is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. After dealing damage, recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of the damage dealt by the attack. Cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
         "effectTags": [
           "Buff"
         ],
@@ -2040,32 +1319,70 @@
         "preview": false,
         "regionTag": "en",
         "createdAt": "2025-10-06T17:57:04.714Z",
-        "updatedAt": "2025-11-03T16:06:45.051Z",
-        "doll": {
-          "id": "ad525729-7e67-4954-9919-45168be39953",
-          "name": "Florence",
-          "rarity": "Elite",
-          "preview": false,
-          "avatarUrl": "https://cdn.dandegate.net/dolls/florence/8abd9eccd0ad186bf4b0c529503d2458d89953c5c8dd7ea2dde4dd6393d883a9.webp",
-          "createdAt": "2025-10-04T10:16:11.227Z",
-          "regionTag": "en",
-          "updatedAt": "2026-02-06T04:08:53.151Z",
-          "dollImages": [
-            {
-              "id": "2a74f03f-e1c8-4026-9d8d-811580fe6630",
-              "category": "Chibi",
-              "imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/db8b8171179f78076ce0245131721354943b7a5dc04a4c112208f21e460be638.webp",
-              "alt": null
-            }
-          ],
-          "searchTags": [
-            {
-              "searchTag": {
-                "name": "PA-15"
-              }
-            }
-          ]
-        }
+        "updatedAt": "2025-11-03T16:06:45.051Z"
+      },
+      {
+        "id": "e6c91f66-b509-4f89-861e-29ca64014622",
+        "effectName": "Counterattack",
+        "effectDetails": "<p>Performs an attack; cannot be triggered by Interceptions, Counterattack or Support Attacks.</p>",
+        "effectTags": [],
+        "dollId": "ad525729-7e67-4954-9919-45168be39953",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:30:54.421Z",
+        "updatedAt": "2025-09-13T03:30:54.421Z"
+      },
+      {
+        "id": "fadf4f3f-2810-49f0-b947-6d683741429d",
+        "effectName": "Taunt",
+        "effectDetails": "<p>Uncontrollable, forced to use basic attacks on the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "ad525729-7e67-4954-9919-45168be39953",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:35:26.444Z",
+        "updatedAt": "2025-11-03T16:00:56.734Z"
+      },
+      {
+        "id": "e82fca4c-de4a-40b6-83c2-e84d716f72d3",
+        "effectName": "Fear",
+        "effectDetails": "<p>Uncontrollable, actively moves away from the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "ad525729-7e67-4954-9919-45168be39953",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T15:54:18.994Z",
+        "updatedAt": "2025-11-03T14:56:03.797Z"
+      },
+      {
+        "id": "b46e4270-c2d5-4f69-bb9b-544785785790",
+        "effectName": "Infatuated",
+        "effectDetails": "<p>Uncontrollable, actively moves towards the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "ad525729-7e67-4954-9919-45168be39953",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T21:37:27.720Z",
+        "updatedAt": "2025-11-03T15:04:08.566Z"
+      },
+      {
+        "id": "dd0752a2-37c4-47ba-91ad-2dc640d2372b",
+        "effectName": "Stun",
+        "effectDetails": "<p>Unable to act.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "ad525729-7e67-4954-9919-45168be39953",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T03:49:59.941Z",
+        "updatedAt": "2025-11-03T15:54:17.616Z"
       }
     ],
     "shortId": "d13"
