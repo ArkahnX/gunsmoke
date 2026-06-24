@@ -156,7 +156,7 @@ export const endTurnSkill = {
 	type: "End Turn",
 	range: null,
 	tags: [],
-	localImagePath: "data/common/EndTurn.png",
+	localImagePath: "data/common/end.svg",
 };
 
 // ====================== EDITOR STATE ======================

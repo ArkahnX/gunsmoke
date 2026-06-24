@@ -2655,10 +2655,10 @@ function drawFloor(ctx3, c, r) {
   ctx3.font = `bold ${fontSize}px Roboto, sans-serif`;
   ctx3.textAlign = "center";
   ctx3.textBaseline = "top";
-  const labelW = Math.ceil(ctx3.measureText(distance2 + "").width) + 4;
+  const labelW = Math.ceil(ctx3.measureText(distance2.toString()).width) + 4;
   ctx3.fillRect(x + 6, y + 2, labelW, fontSize + 2);
   ctx3.fillStyle = "#27272a";
-  ctx3.fillText(distance2 + "", x + 6, y + 2);
+  ctx3.fillText(distance2.toString(), x + 6, y + 2);
 }
 function drawSpawn(ctx3, c, r) {
   const x = cellX(c);
@@ -2697,11 +2697,10 @@ function drawSpawn(ctx3, c, r) {
   ctx3.closePath();
   ctx3.fillStyle = "#4888ff";
   ctx3.fill();
-  const fontSize = Math.max(7, Math.round(TILE_SIZE * 0.01));
   ctx3.font = `bold 5px Roboto, sans-serif`;
   ctx3.textAlign = "left";
   ctx3.textBaseline = "top";
-  const text = priority + 1 + "\nPriority";
+  const text = (priority + 1).toString() + "\nPriority";
   const labelW = Math.ceil(ctx3.measureText(text).width);
   ctx3.fillStyle = "#4888ff";
   ctx3.fillText(text, x + labelW / 5, y + 3);
@@ -2933,16 +2932,19 @@ function distance(dollGrid) {
   if (minDoll) minDoll.distance = "near";
   if (maxDoll) maxDoll.distance = "far";
 }
-function drawMapTilesOnArena(ctx3, drag2, currentTab) {
+function getDollData(drag2, currentTab) {
   const dolls = [];
   state.selectedDolls.forEach((doll) => {
     const pos = state.tabData[currentTab]?.dollPositions[doll.id] ?? { x: -1, y: -1 };
+    const oldPos = state.tabData[currentTab - 1]?.dollPositions[doll.id] ?? { x: -1, y: -1 };
     if (pos.x === -1 || pos.y === -1) return;
     const spawnPosition = getDollStartingPosition(doll.id, null);
     const priorityIndex = mapGrid.priority.indexOf(spawnPosition);
     dolls.push({
       x: pos.x,
       y: pos.y,
+      oldX: oldPos.x,
+      oldY: oldPos.y,
       id: doll.id,
       instanceId: null,
       priority: priorityIndex !== -1 ? priorityIndex : mapGrid.priority.length,
@@ -2951,7 +2953,7 @@ function drawMapTilesOnArena(ctx3, drag2, currentTab) {
       dragId: drag2?.isActive ? drag2.id : void 0,
       dragInstanceId: drag2?.isActive ? drag2.instanceId : null,
       obscured: obscured(pos.x, pos.y, doll.id, null),
-      borrow: doll.borrow ?? false,
+      borrow: doll.borrow || false,
       distance: null
     });
   });
@@ -2959,30 +2961,34 @@ function drawMapTilesOnArena(ctx3, drag2, currentTab) {
     state.tabData[currentTab].summonPositions.forEach((entry) => {
       const summon = getInfoFromId(entry.id);
       if (summon) {
-        const selectedDoll2 = state.selectedDolls.find((d) => d.id === summon.dollId);
-        const spawnPosition = getDollStartingPosition(summon.dollId, entry.mapId);
-        const priorityIndex = mapGrid.priority.indexOf(spawnPosition);
+        const oldSummonPosition = state.tabData[currentTab - 1]?.summonPositions.find((e) => e.mapId === entry.mapId);
         dolls.push({
           x: entry.x,
           y: entry.y,
+          oldX: oldSummonPosition?.x ?? -1,
+          oldY: oldSummonPosition?.y ?? -1,
           id: entry.id,
           instanceId: entry.mapId,
-          priority: priorityIndex !== -1 ? priorityIndex : mapGrid.priority.length,
+          priority: mapGrid.priority.length,
           dollInfo: getInfoFromId(summon.dollId),
           summonInfo: summon,
           dragId: drag2?.isActive ? drag2.id : void 0,
           dragInstanceId: drag2?.isActive ? drag2.instanceId : null,
           obscured: obscured(entry.x, entry.y, entry.id, entry.mapId),
-          borrow: selectedDoll2?.borrow ?? false,
+          borrow: false,
           distance: null
         });
       }
     });
   }
-  for (const [grid, entry] of Object.entries(dolls)) {
+  for (const [_grid, entry] of Object.entries(dolls)) {
     entry.obscured = obscured(entry.x, entry.y, entry.id, entry.instanceId, dolls);
   }
   distance(dolls);
+  return dolls;
+}
+function drawMapTilesOnArena(ctx3, drag2, currentTab) {
+  const dolls = getDollData(drag2, currentTab);
   for (let row = 0; row < mapGrid.size; row++) for (let col = 0; col < mapGrid.size; col++) drawFloor(ctx3, col, row);
   for (let row = 0; row < mapGrid.size; row++) {
     for (let col = 0; col < mapGrid.size; col++) {
@@ -5009,7 +5015,7 @@ var endTurnSkill = {
   type: "End Turn",
   range: null,
   tags: [],
-  localImagePath: "data/common/EndTurn.png"
+  localImagePath: "data/common/end.svg"
 };
 var [editorTool, setEditorTool] = createSignal("spawn");
 var [editorStatus, setEditorStatus] = createSignal("Left-click / drag to place \xB7 Right-click to erase");
@@ -6316,7 +6322,7 @@ var _tmpl$63 = /* @__PURE__ */ template(`<span>If this unit's has <span style=co
 var _tmpl$73 = /* @__PURE__ */ template(`<span>Corrosion damage is increased by <span style=color:#f26c1c>20%</span>.`);
 var _tmpl$83 = /* @__PURE__ */ template(`<span>Increases <span style=color:#d4ae08>Electric</span> and <span style=color:#8679e8>Corrosion</span> damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
 var _tmpl$93 = /* @__PURE__ */ template(`<span>When this unit has an <span style=color:#d4ae08>Electric</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
-var _tmpl$0 = /* @__PURE__ */ template(`<span>At the start of battle, gain <span style=color:#f26c1c>10 stacks</span> of <span style=color:#3487e0>Firepower Overmatch</span>.<br>Firepower Overmatch: Damage dealt is increased by <span style=color:#f26c1c>3%</span>, critical damage is increased by <span style=color:#f26c1c>2%</span>. Stacks up to <span style=color:#f26c1c>50 times</span>. Remove <span style=color:#f26c1c>1 stack</span> for <span style=color:#f26c1c>each tile</span> moved.`);
+var _tmpl$0 = /* @__PURE__ */ template(`<span>At the start of the turn, gain <span style=color:#f26c1c>10 stacks</span> of <span style=color:#3487e0>Firepower Overmatch</span>.\\nFirepower Overmatch:\\nDamage dealt is increased by <span style=color:#f26c1c>8%</span> and critical damage is increased by <span style=color:#f26c1c>5%</span> per stack, to a maximum of <span style=color:#f26c1c>50 stacks</span>. For <span style=color:#f26c1c>each point</span> of mobility spent, remove <span style=color:#f26c1c>1 stack</span> of this effect.`);
 var _tmpl$1 = /* @__PURE__ */ template(`<span>When shielded, attacks ignore <span style=color:#f26c1c>20%</span> of the target's defense and critical damage is increased by <span style=color:#f26c1c>10%</span>.`);
 var _tmpl$102 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#42cce0>Freeze</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
 var _tmpl$112 = /* @__PURE__ */ template(`<span>Light Ammo ignores <span style=color:#f26c1c>50%</span> of target's defense.`);

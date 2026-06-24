@@ -53,7 +53,7 @@ const tsxBuffs: Record<string, JSX.Element> = {
 	),
 	b27: (
 		<span>
-			At the start of battle, gain <span style="color:#f26c1c">10 stacks</span> of <span style="color:#3487e0">Firepower Overmatch</span>.<br />Firepower Overmatch: Damage dealt is increased by <span style="color:#f26c1c">3%</span>, critical damage is increased by <span style="color:#f26c1c">2%</span>. Stacks up to <span style="color:#f26c1c">50 times</span>. Remove <span style="color:#f26c1c">1 stack</span> for <span style="color:#f26c1c">each tile</span> moved.
+			At the start of the turn, gain <span style="color:#f26c1c">10 stacks</span> of <span style="color:#3487e0">Firepower Overmatch</span>.\nFirepower Overmatch:\nDamage dealt is increased by <span style="color:#f26c1c">8%</span> and critical damage is increased by <span style="color:#f26c1c">5%</span> per stack, to a maximum of <span style="color:#f26c1c">50 stacks</span>. For <span style="color:#f26c1c">each point</span> of mobility spent, remove <span style="color:#f26c1c">1 stack</span> of this effect.
 		</span>
 	),
 	b28: (
