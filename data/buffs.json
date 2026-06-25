@@ -54,11 +54,17 @@
       "createdAt": "2025-11-11T21:59:21.783",
       "updatedAt": "2026-05-15T20:58:56.65",
       "shortId": "b4",
-      "season": 26,
+      "season": 27,
       "days": {
         "26": [
           2,
           4
+        ],
+        "27": [
+          0,
+          1,
+          3,
+          6
         ]
       }
     },
@@ -79,10 +85,10 @@
       "buffId": 61000290,
       "buffName": "Chain Acid Swamp",
       "libraryDescription": "Critical damage is increased by 25% when dealing damage to enemy targets with Corrosion debuffs.",
-      "description": "If an enemy is afflicted by Corrosion debuff(s), increases critical damage against them by <color=#f26c1c>25%</color>.",
+      "description": "When dealing damage to an enemy target, if they are afflicted by Corrosion debuff, increases critical damage against them by <color=#f26c1c>25%</color>.",
       "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_30.png",
       "regionTag": "en",
-      "season": 26,
+      "season": 27,
       "days": {
         "25": [
           2,
@@ -93,6 +99,11 @@
           3,
           4,
           6
+        ],
+        "27": [
+          2,
+          4,
+          5
         ]
       },
       "createdAt": "2025-11-11T21:59:21.634",
@@ -116,12 +127,19 @@
       "buffId": 61000270,
       "buffName": "Chain Surge",
       "libraryDescription": "Critical damage is increased by 25% when attacking enemy targets with Hydro debuffs.",
-      "description": "If an enemy is afflicted by a Hydro debuff, increases the critical damage dealt against them by <color=#f26c1c>25%</color>.",
+      "description": "When dealing damage to an enemy target, if they are afflicted by a Hydro debuff, increases the critical damage dealt against them by <color=#f26c1c>25%</color>.",
       "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_10.png",
       "regionTag": "en",
       "createdAt": "2025-11-11T21:59:21.237",
       "updatedAt": "2026-05-15T20:58:56.495",
-      "shortId": "b8"
+      "shortId": "b8",
+      "season": 27,
+      "days": {
+        "27": [
+          1,
+          5
+        ]
+      }
     },
     {
       "id": "a6f8b695-9420-45b1-b23f-42140fa83f1e",
@@ -167,13 +185,17 @@
       "description": "Damage dealt is increased by <color=#f26c1c>20%</color> when distance to the enemy target is less than or equal to <color=#f26c1c>6 tiles</color>.",
       "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_8.png",
       "regionTag": "en",
-      "season": 25,
+      "season": 27,
       "days": {
         "25": [
           2,
           3,
           4,
           6
+        ],
+        "27": [
+          1,
+          5
         ]
       },
       "createdAt": "2025-11-11T21:59:21.286",
@@ -281,13 +303,15 @@
       "id": "cbfc897b-e5c5-4597-bfcb-3d7d15eeed97",
       "buffId": 61001040,
       "buffName": "Corrupting Spark",
-      "libraryDescription": "Increase Corrosion and Burn critical rate and damage dealt by <color=#f26c1c>30%</color>.",
-      "description": "Increase Corrosion and Burn critical rate and damage dealt by <color=#f26c1c>30%</color>.",
+      "libraryDescription": "Increases Corrosion and Burn damage and their critical rate by <color=#f26c1c>30%</color>.",
+      "description": "Increases Corrosion and Burn damage and their critical rate by <color=#f26c1c>30%</color>.",
       "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_42.png",
       "regionTag": "en",
       "createdAt": "2025-11-11T21:59:22.206",
       "updatedAt": "2026-05-15T20:58:57.21",
-      "shortId": "b19"
+      "shortId": "b19",
+      "season": 27,
+      "core": true
     },
     {
       "id": "090a752e-dcce-4de9-878c-b2cb5dff1ffc",
@@ -323,7 +347,16 @@
       "regionTag": "en",
       "createdAt": "2026-01-09T00:42:45.369",
       "updatedAt": "2026-05-15T20:58:56.93",
-      "shortId": "b22"
+      "shortId": "b22",
+      "season": 27,
+      "days": {
+        "27": [
+          2,
+          3,
+          4,
+          6
+        ]
+      }
     },
     {
       "id": "ec2beca4-da4c-42c4-a524-1e6dfca870fa",
@@ -336,11 +369,15 @@
       "createdAt": "2025-11-11T21:59:21.535",
       "updatedAt": "2026-05-15T20:58:56.166",
       "shortId": "b23",
-      "season": 26,
+      "season": 27,
       "days": {
         "26": [
           0,
           3
+        ],
+        "27": [
+          2,
+          4
         ]
       }
     },
@@ -407,12 +444,17 @@
       "description": "When shielded, attacks ignore <color=#f26c1c>20%</color> of the target's defense and critical damage is increased by <color=#f26c1c>10%</color>.",
       "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_73.png",
       "regionTag": "en",
-      "season": 25,
+      "season": 27,
       "days": {
         "25": [
           2,
           4,
           5
+        ],
+        "27": [
+          0,
+          4,
+          6
         ]
       },
       "createdAt": "2026-01-09T00:42:45.301",
@@ -628,11 +670,17 @@
       "description": "Light Ammo ignores <color=#f26c1c>50%</color> of target's defense.",
       "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_4.png",
       "regionTag": "en",
-      "season": 25,
+      "season": 27,
       "days": {
         "25": [
           0,
           3
+        ],
+        "27": [
+          0,
+          1,
+          3,
+          6
         ]
       },
       "createdAt": "2025-11-11T21:59:20.883",
@@ -683,7 +731,7 @@
       "description": "For every <color=#f26c1c>1 allied unit</color> within <color=#f26c1c>5 tiles</color>, damage dealt is increased by <color=#f26c1c>6%</color>.",
       "iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_69.png",
       "regionTag": "en",
-      "season": 26,
+      "season": 27,
       "days": {
         "25": [
           0,
@@ -693,6 +741,10 @@
         "26": [
           2,
           5
+        ],
+        "27": [
+          0,
+          3
         ]
       },
       "createdAt": "2025-11-11T21:59:22.008",
@@ -856,10 +908,14 @@
       "createdAt": "2025-11-27T06:29:48.934",
       "updatedAt": "2026-05-15T20:58:56.354",
       "shortId": "b61",
-      "season": 26,
+      "season": 27,
       "days": {
         "26": [
           1,
+          5
+        ],
+        "27": [
+          2,
           5
         ]
       }
