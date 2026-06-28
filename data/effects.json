@@ -35,7 +35,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e1"
 		},
 		{
 			"id": "b6f2ac90-1fa5-4b80-a602-36094fc3abaf",
@@ -65,7 +66,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e2"
 		},
 		{
 			"id": "7edd4ba7-819f-409c-b20f-9715d02075f5",
@@ -101,7 +103,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e3"
 		},
 		{
 			"id": "1b908c38-3129-4280-8ba4-73f162e680e0",
@@ -113,7 +116,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-22T01:12:15.098Z",
 			"updatedAt": "2026-01-09T04:44:28.328Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e4"
 		},
 		{
 			"id": "92c897fb-6469-4746-9cdf-ff28c46af53b",
@@ -159,7 +163,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e5"
 		},
 		{
 			"id": "2d13f069-d66b-4c4a-bf22-0250bfe136d6",
@@ -189,7 +194,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e6"
 		},
 		{
 			"id": "1b83587d-eddc-4abd-b90c-cb0aa4b2cfef",
@@ -201,7 +207,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-20T05:30:54.242Z",
 			"updatedAt": "2025-11-06T06:30:55.814Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e7"
 		},
 		{
 			"id": "6f0f6ecc-f04d-404d-a5ea-2dbd9f8c5a70",
@@ -237,7 +244,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e8"
 		},
 		{
 			"id": "4740c7ce-b588-416b-bdd3-936b8aebdd3f",
@@ -249,7 +257,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:11.947Z",
 			"updatedAt": "2025-11-15T19:56:11.947Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e9"
 		},
 		{
 			"id": "a943289e-b548-4f7d-a6fb-c9e1ea543ca0",
@@ -261,7 +270,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-31T15:48:12.845Z",
 			"updatedAt": "2025-12-31T15:48:12.845Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e10"
 		},
 		{
 			"id": "a352a0e9-b085-4f6d-8bb9-fda0b496a801",
@@ -297,7 +307,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e11"
 		},
 		{
 			"id": "99f12388-757e-4e6a-a187-7f823e50ddd9",
@@ -309,7 +320,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-11T07:19:24.551Z",
 			"updatedAt": "2026-05-31T02:04:09.061Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e12"
 		},
 		{
 			"id": "191dd6ac-cff0-474b-97f4-7f4c0c816d39",
@@ -321,7 +333,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-30T16:09:00.900Z",
 			"updatedAt": "2025-12-30T16:09:00.900Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e13"
 		},
 		{
 			"id": "309ba122-5fe7-4d5e-bcc0-da725a066d9c",
@@ -351,7 +364,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e14"
 		},
 		{
 			"id": "bef062ed-75d1-4cf2-a37f-fc2d943528aa",
@@ -363,7 +377,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-01-09T02:19:52.591Z",
 			"updatedAt": "2026-01-09T02:19:52.591Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e15"
 		},
 		{
 			"id": "bea6fdc5-a8e5-43fb-a85d-1b969288c3e4",
@@ -375,53 +390,36 @@
 			"regionTag": "en",
 			"createdAt": "2026-02-20T14:54:05.482Z",
 			"updatedAt": "2026-02-20T14:54:05.482Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e16"
 		},
 		{
 			"id": "b1f656db-5ccb-424b-b6d9-d7ac75ae77c0",
 			"effectName": "Antivirus Program",
-			"effectDetails": "{\"mainDetails\":\"<p>Before using an active skill or basic attack, the applier deals <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span> of attack as AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> to them and applies <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> random powerful debuff for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>. For each additional stack, damage multiplier increases by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span>. Consumes all stacks when triggered. Stackable. Corrosion-type debuffs cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"9c9637f0-a923-46c5-928f-ff87aa155313\",\"upgradeName\":\"V4\",\"upgradeDetails\":\"<p>Before using an active skill or basic attack, the applier deals <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span> of attack as AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> to them and applies <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> random powerful debuff for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>. For each additional stack, damage multiplier increases by <span style=\\\"color: rgb(243, 109, 28);\\\">20%</span>. Consumes all stacks when triggered. Upon death, transfers all stacks to a random allied unit. Stackable. Corrosion-type debuffs cannot be cleansed.</p>\",\"order\":0},{\"id\":\"304653d6-a7ef-4597-bbc1-6219dde544ec\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>Before using an active skill or basic attack, the applier deals <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span> of attack as AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> to them and applies <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> random powerful debuff for <span style=\\\"color: rgb(243, 109, 28);\\\">2 turns</span>. For each additional stack, damage multiplier increases by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. Consumes <span style=\\\"color: rgb(243, 109, 28);\\\">70%</span> of stacks when triggered (rounded up). Upon death, transfers all stacks to a random allied unit. Stackable. Corrosion-type debuffs cannot be cleansed.</p>\",\"order\":1}]}",
+			"effectDetails": {
+				"mainDetails": "<p>Before using an active skill or basic attack, the inflictor deals AoE <span style=\"color:#8679e8;\">Corrosion damage</span> equal to <span style=\"color:#f26c1c;\">20%</span> of attack to the target and applies <span style=\"color:#f26c1c;\">1</span> random powerful debuff for <span style=\"color:#f26c1c;\">2 turns</span>. For <span style=\"color:#f26c1c;\">every</span> additional stack of this effect, the damage multiplier is increased by <span style=\"color:#f26c1c;\">20%</span>. Expends all stacks when triggered. Stackable. Considered a Corrosion debuff, cannot be cleansed.</p>",
+				"upgrades": [
+					{
+						"id": "9c9637f0-a923-46c5-928f-ff87aa155313",
+						"upgradeName": "V4",
+						"upgradeDetails": "<p>Before using an active skill or basic attack, the inflictor deals AoE <span style=\"color:#8679e8;\">Corrosion damage</span> equal to <span style=\"color:#f26c1c;\">20%</span> of attack to the target and applies <span style=\"color:#f26c1c;\">1</span> random powerful debuff for <span style=\"color:#f26c1c;\">2 turns</span>. For <span style=\"color:#f26c1c;\">every</span> additional stack of this effect, the damage multiplier is increased by <span style=\"color:#f26c1c;\">20%</span>. Expends all stacks when triggered. When the bearer of this effect dies, its stacks are transferred to a random allied unit. Stackable. Considered a Corrosion debuff, cannot be cleansed.</p>",
+						"order": 0
+					},
+					{
+						"id": "304653d6-a7ef-4597-bbc1-6219dde544ec",
+						"upgradeName": "V6",
+						"upgradeDetails": "<p>Before using an active skill or basic attack, the inflictor deals AoE <span style=\"color:#8679e8;\">Corrosion damage</span> equal to <span style=\"color:#f26c1c;\">30%</span> of attack to the target and applies <span style=\"color:#f26c1c;\">1</span> random powerful debuff for <span style=\"color:#f26c1c;\">2 turns</span>. For <span style=\"color:#f26c1c;\">every</span> additional stack of this effect, the damage multiplier is increased by <span style=\"color:#f26c1c;\">30%</span>. Expends <span style=\"color:#f26c1c;\">70%</span> of stacks (rounding up) when triggered. When the bearer of this effect dies, its stacks are transferred to a random allied unit. Stackable. Considered a Corrosion debuff, cannot be cleansed.</p>",
+						"order": 1
+					}
+				]
+			},
 			"effectTags": ["Corrosion", "Debuff"],
 			"dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
 			"preview": false,
 			"regionTag": "cn",
 			"createdAt": "2025-12-03T03:25:12.718Z",
-			"updatedAt": "2026-06-21T01:49:06.297Z",
-			"doll": {
-				"id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
-				"name": "Harpsy",
-				"rarity": "Elite",
-				"preview": false,
-				"avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
-				"createdAt": "2025-12-02T03:08:54.041Z",
-				"regionTag": "cn",
-				"updatedAt": "2026-06-12T22:28:59.077Z",
-				"dollImages": [
-					{
-						"id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
-						"category": "Chibi",
-						"imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
-						"alt": null
-					}
-				],
-				"searchTags": [
-					{
-						"searchTag": {
-							"name": "TMP"
-						}
-					},
-					{
-						"searchTag": {
-							"name": "cat"
-						}
-					},
-					{
-						"searchTag": {
-							"name": "Steyr TMP"
-						}
-					}
-				]
-			}
+			"updatedAt": "2025-12-14T05:48:04.465Z",
+			"shortId": "e17"
 		},
 		{
 			"id": "5d5f7297-bbae-4eab-88b1-617b81c905c1",
@@ -433,7 +431,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-24T03:33:45.330Z",
 			"updatedAt": "2025-11-01T22:32:03.187Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e18"
 		},
 		{
 			"id": "0c7d561b-917e-4f29-97f9-3aa7fec2d4de",
@@ -445,7 +444,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-11T06:15:07.158Z",
 			"updatedAt": "2025-11-01T22:32:18.789Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e19"
 		},
 		{
 			"id": "76e7e852-59e8-49a6-b45f-0f38b78e103c",
@@ -457,7 +457,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-23T22:51:56.686Z",
 			"updatedAt": "2025-10-14T07:07:23.060Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e20"
 		},
 		{
 			"id": "8980f1fb-0f05-4e75-a584-623f2067c9c7",
@@ -487,7 +488,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e21"
 		},
 		{
 			"id": "a19d6142-2b6d-4cd4-bedf-072f15ec68fb",
@@ -523,7 +525,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e22"
 		},
 		{
 			"id": "f2465845-2378-40a2-9d7f-14c14cf05a4a",
@@ -535,7 +538,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-14T05:28:45.785Z",
 			"updatedAt": "2025-11-01T22:30:23.100Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e23"
 		},
 		{
 			"id": "8b7a6308-b2c6-4520-bdde-760b5bd12404",
@@ -547,7 +551,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-14T05:29:15.944Z",
 			"updatedAt": "2025-11-01T22:30:42.367Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e24"
 		},
 		{
 			"id": "f63e08f3-bb50-4a10-8fa9-4219d4ef8fb2",
@@ -577,7 +582,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e25"
 		},
 		{
 			"id": "c31427f8-0642-4467-a4c1-b646db070425",
@@ -589,7 +595,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-17T04:28:18.523Z",
 			"updatedAt": "2025-11-06T06:33:50.979Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e26"
 		},
 		{
 			"id": "cc52fd1d-819c-4973-a6c0-6208f659399a",
@@ -601,7 +608,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-18T20:56:45.097Z",
 			"updatedAt": "2025-11-06T06:34:05.489Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e27"
 		},
 		{
 			"id": "90e40fd3-e06c-4dca-aa63-464cf6e0c9f7",
@@ -613,7 +621,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-11T00:16:28.702Z",
 			"updatedAt": "2025-11-06T06:39:36.480Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e28"
 		},
 		{
 			"id": "13704d31-93dc-41f4-8ae8-52bf9ceb0a06",
@@ -625,7 +634,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-13T03:55:59.558Z",
 			"updatedAt": "2025-11-06T06:39:50.435Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e29"
 		},
 		{
 			"id": "39b8ce76-94f6-4ff7-b6be-8d2d1f3bcb26",
@@ -637,7 +647,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-29T23:35:56.365Z",
 			"updatedAt": "2026-04-24T05:33:12.682Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e30"
 		},
 		{
 			"id": "344566f5-70f6-44bd-8255-fbc4b6b29ac3",
@@ -673,7 +684,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e31"
 		},
 		{
 			"id": "3ded64d0-a3bc-45d7-9176-c93a17379012",
@@ -703,7 +715,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e32"
 		},
 		{
 			"id": "9223f1cf-7f46-4b8e-ab15-e263375cf18e",
@@ -744,7 +757,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e33"
 		},
 		{
 			"id": "a68b6200-360a-4638-9362-0ef11a85a0d0",
@@ -756,7 +770,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-30T16:06:13.048Z",
 			"updatedAt": "2025-12-30T16:06:13.048Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e34"
 		},
 		{
 			"id": "146f9d18-64f3-4941-872b-d3213e1a0bbd",
@@ -797,7 +812,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e35"
 		},
 		{
 			"id": "d9d5d327-fdd6-45d0-8df1-70176c6d8489",
@@ -833,7 +849,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e36"
 		},
 		{
 			"id": "63c287b4-2f92-44a5-98a6-34688c1330ff",
@@ -845,7 +862,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:12.291Z",
 			"updatedAt": "2025-11-15T19:56:12.291Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e37"
 		},
 		{
 			"id": "75197f60-771f-4e8c-92d7-4bcb3bc4573d",
@@ -857,7 +875,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-02-18T15:06:42.861Z",
 			"updatedAt": "2026-02-18T15:06:42.861Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e38"
 		},
 		{
 			"id": "c693651c-6acb-4f07-948b-2b58102d94c4",
@@ -893,7 +912,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e39"
 		},
 		{
 			"id": "805f64bb-a005-4b27-a500-405af4cce3e6",
@@ -923,7 +943,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e40"
 		},
 		{
 			"id": "d21d8a22-e98d-42a4-9b46-21e07740bac1",
@@ -935,7 +956,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-04-08T05:30:26.308Z",
 			"updatedAt": "2026-04-08T05:30:26.308Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e41"
 		},
 		{
 			"id": "6d138a9f-2068-42d9-9ecb-bfd3000a4ac8",
@@ -947,7 +969,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-20T03:51:17.801Z",
 			"updatedAt": "2026-04-08T05:29:53.352Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e42"
 		},
 		{
 			"id": "ad4e52c3-00ce-4fd2-964b-9eb2e98136b3",
@@ -983,7 +1006,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e43"
 		},
 		{
 			"id": "765acdc6-5088-4c71-93f2-cb79b9661f51",
@@ -995,7 +1019,8 @@
 			"regionTag": "cn",
 			"createdAt": "2026-04-03T21:41:13.905Z",
 			"updatedAt": "2026-06-07T22:22:48.682Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e44"
 		},
 		{
 			"id": "f89cf3a4-1f2a-4dd3-9e50-263f876d2d9e",
@@ -1025,7 +1050,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e45"
 		},
 		{
 			"id": "ff9c2a71-343e-4c4b-8aae-35796a69ca49",
@@ -1055,7 +1081,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e46"
 		},
 		{
 			"id": "d7bdf1a8-7080-4d31-bce8-a113bbbe5e2c",
@@ -1085,7 +1112,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e47"
 		},
 		{
 			"id": "40a28bbb-9230-4976-966f-39431d332e30",
@@ -1121,7 +1149,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e48"
 		},
 		{
 			"id": "4a3b840e-3d85-4798-9ae1-d90dff17be7b",
@@ -1157,7 +1186,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e49"
 		},
 		{
 			"id": "3b97612c-c2cb-4f2a-bcb1-5e93ac6ad01a",
@@ -1169,7 +1199,8 @@
 			"regionTag": "cn",
 			"createdAt": "2026-04-04T03:23:43.664Z",
 			"updatedAt": "2026-06-07T23:59:49.147Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e50"
 		},
 		{
 			"id": "e3473ce9-ebdd-46fd-b24f-866a01612fc5",
@@ -1205,7 +1236,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e51"
 		},
 		{
 			"id": "f2c128cd-652e-4fca-a084-778ab1a5cfcb",
@@ -1235,7 +1267,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e52"
 		},
 		{
 			"id": "ed9a80dc-c34d-4ebd-b304-06410262c9c8",
@@ -1247,7 +1280,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-14T15:00:08.224Z",
 			"updatedAt": "2026-03-14T15:14:48.151Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e53"
 		},
 		{
 			"id": "b612d113-bb5d-4b9e-b51f-fb757caef5c7",
@@ -1283,7 +1317,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e54"
 		},
 		{
 			"id": "d2a81452-407b-4a27-b4ee-fcd1fa53f760",
@@ -1295,7 +1330,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-07T15:27:49.698Z",
 			"updatedAt": "2025-12-07T15:27:49.698Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e55"
 		},
 		{
 			"id": "93ae4c3b-8f4a-4460-ad99-612824083d40",
@@ -1307,7 +1343,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-01-09T02:19:52.915Z",
 			"updatedAt": "2026-01-09T02:19:52.915Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e56"
 		},
 		{
 			"id": "bbf13d18-8b18-40f6-90d7-8c9c792b912f",
@@ -1319,7 +1356,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:12.465Z",
 			"updatedAt": "2025-11-16T21:23:14.935Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e57"
 		},
 		{
 			"id": "84c330eb-743f-4497-8def-2baaceabf738",
@@ -1349,7 +1387,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e58"
 		},
 		{
 			"id": "d78cda3d-c53a-4734-862f-8a513f7e8aee",
@@ -1390,7 +1429,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e59"
 		},
 		{
 			"id": "67771da3-29c6-4a64-9ead-13f3d6b567de",
@@ -1402,7 +1442,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:12.845Z",
 			"updatedAt": "2025-11-16T15:26:57.114Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e60"
 		},
 		{
 			"id": "bebcfe15-5173-43c9-bfd1-bcdb4cbfece1",
@@ -1443,7 +1484,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e61"
 		},
 		{
 			"id": "e1f5027e-6f66-420a-b49b-67cb3bbad682",
@@ -1455,7 +1497,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:36.662Z",
 			"updatedAt": "2026-05-28T12:33:44.619Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e62"
 		},
 		{
 			"id": "b01886c9-3321-410d-97e3-003d38278243",
@@ -1467,7 +1510,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:36.816Z",
 			"updatedAt": "2026-05-28T12:33:35.826Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e63"
 		},
 		{
 			"id": "50f159c2-2d70-4e2e-9b72-ea69505f2e38",
@@ -1479,7 +1523,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-02-20T14:55:38.137Z",
 			"updatedAt": "2026-02-20T14:55:38.137Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e64"
 		},
 		{
 			"id": "fb6673c7-f351-43ce-8409-16113298f466",
@@ -1520,7 +1565,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e65"
 		},
 		{
 			"id": "51e8c54c-36b8-4e51-bddf-650b40d339e4",
@@ -1532,7 +1578,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-02-22T14:25:00.625Z",
 			"updatedAt": "2026-02-22T14:25:00.625Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e66"
 		},
 		{
 			"id": "4e684d7c-4b85-4eb2-82b3-4235a71dba3d",
@@ -1568,7 +1615,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e67"
 		},
 		{
 			"id": "e94b8e9f-da19-41dd-afdb-d01b3ad794f7",
@@ -1580,7 +1628,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-30T16:07:50.995Z",
 			"updatedAt": "2025-12-30T16:07:50.995Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e68"
 		},
 		{
 			"id": "452c5bd4-0685-42e4-aeb8-0539acae4c40",
@@ -1626,7 +1675,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e69"
 		},
 		{
 			"id": "b1d4efd1-df73-44fb-bd28-9814ac09bb92",
@@ -1638,7 +1688,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-01-09T02:19:53.355Z",
 			"updatedAt": "2026-01-09T02:19:53.355Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e70"
 		},
 		{
 			"id": "93c9cd3c-9579-4f5e-82d3-d0e7a18c9b6f",
@@ -1674,7 +1725,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e71"
 		},
 		{
 			"id": "7accd3cd-1adb-48ae-bb6b-5c8faa8db5fd",
@@ -1704,7 +1756,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e72"
 		},
 		{
 			"id": "a36cf865-ee13-4c4d-8c2b-8ee98a8aac99",
@@ -1716,7 +1769,8 @@
 			"regionTag": "cn",
 			"createdAt": "2026-04-04T03:22:21.103Z",
 			"updatedAt": "2026-06-07T23:56:07.910Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e73"
 		},
 		{
 			"id": "52b8af4d-b768-4550-be55-be8a4a3eaa44",
@@ -1752,7 +1806,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e74"
 		},
 		{
 			"id": "5c2c4fcd-9821-4a40-a325-13723cdbe0df",
@@ -1782,7 +1837,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e75"
 		},
 		{
 			"id": "569d48db-25a6-449e-8a41-dcc6c992745d",
@@ -1812,7 +1868,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e76"
 		},
 		{
 			"id": "25471053-a075-4dee-ac09-2d86fa1b5e1e",
@@ -1842,7 +1899,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e77"
 		},
 		{
 			"id": "8931be12-0b6a-491e-ad72-c9699701433b",
@@ -1872,7 +1930,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e78"
 		},
 		{
 			"id": "174c1af6-3fc1-41aa-b4ec-48e5583baacb",
@@ -1884,7 +1943,8 @@
 			"regionTag": "cn",
 			"createdAt": "2026-04-02T21:02:08.287Z",
 			"updatedAt": "2026-04-05T23:30:26.232Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e79"
 		},
 		{
 			"id": "783df2a2-7606-4471-abbf-e49dcfb6e813",
@@ -1896,7 +1956,8 @@
 			"regionTag": "cn",
 			"createdAt": "2026-04-02T21:03:25.845Z",
 			"updatedAt": "2026-04-05T23:29:44.561Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e80"
 		},
 		{
 			"id": "0ddc7cf2-1755-412c-828c-b13c26a4c63b",
@@ -1937,7 +1998,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e81"
 		},
 		{
 			"id": "740af6e6-5c70-40ce-9ec3-cb1b54d6b842",
@@ -1993,7 +2055,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e82"
 		},
 		{
 			"id": "51ec58cd-b680-46d5-af08-bc4a79849b46",
@@ -2005,7 +2068,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-05-15T21:31:27.786Z",
 			"updatedAt": "2026-05-15T21:32:05.595Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e83"
 		},
 		{
 			"id": "2e05ac13-430b-4a4d-b584-f669546d7fd0",
@@ -2017,7 +2081,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-05T05:01:59.919Z",
 			"updatedAt": "2025-11-29T04:22:28.909Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e84"
 		},
 		{
 			"id": "ebb94ca6-620c-4fe6-ab91-3c65d506c37e",
@@ -2029,7 +2094,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T00:12:38.194Z",
 			"updatedAt": "2025-11-01T21:24:16.741Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e85"
 		},
 		{
 			"id": "e7be566e-7c0c-4678-b329-2a7b15b46c39",
@@ -2059,7 +2125,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e86"
 		},
 		{
 			"id": "d4fd8953-92c9-4830-ad8b-ac4d56d95b7d",
@@ -2071,7 +2138,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T03:20:39.075Z",
 			"updatedAt": "2025-11-01T21:25:46.875Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e87"
 		},
 		{
 			"id": "a55cd12e-7fd4-47c1-bddc-6e933f2a323a",
@@ -2101,7 +2169,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e88"
 		},
 		{
 			"id": "bba5e073-5719-4cc8-85d9-6de563caaa5e",
@@ -2113,7 +2182,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-13T03:44:45.081Z",
 			"updatedAt": "2025-11-03T06:14:02.347Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e89"
 		},
 		{
 			"id": "45a4686b-80dd-401d-991c-aed564cb0ca9",
@@ -2125,7 +2195,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T18:46:00.333Z",
 			"updatedAt": "2025-11-06T06:46:18.012Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e90"
 		},
 		{
 			"id": "090c0b74-752c-43bb-8018-88d47ba33511",
@@ -2137,7 +2208,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-23T22:57:02.602Z",
 			"updatedAt": "2025-11-01T21:31:13.519Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e91"
 		},
 		{
 			"id": "0fbfd3cd-3787-4137-995f-d5975b378e52",
@@ -2183,7 +2255,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e92"
 		},
 		{
 			"id": "baf41815-8bb6-4104-bd1f-e3217ff87d31",
@@ -2195,7 +2268,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T19:47:20.367Z",
 			"updatedAt": "2025-11-01T22:26:15.639Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e93"
 		},
 		{
 			"id": "a8794e8b-ebb5-4c04-8f8a-ea7497c112d5",
@@ -2207,7 +2281,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T18:45:33.984Z",
 			"updatedAt": "2025-11-01T22:26:59.956Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e94"
 		},
 		{
 			"id": "e2f16642-ab25-4015-87e7-4d16aa1c24b9",
@@ -2248,7 +2323,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e95"
 		},
 		{
 			"id": "c9bfaae1-8aa9-417b-92dc-817d427b2a7f",
@@ -2289,7 +2365,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e96"
 		},
 		{
 			"id": "3ca0a5e5-d420-4d44-a00e-f0cc2b4ee2b9",
@@ -2330,7 +2407,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e97"
 		},
 		{
 			"id": "16ed69a1-b5aa-4af3-8079-3386d220d3fa",
@@ -2376,7 +2454,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e98"
 		},
 		{
 			"id": "d2cc96c5-5bff-4a15-aaaf-98597cac4060",
@@ -2432,7 +2511,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e99"
 		},
 		{
 			"id": "60a2dbdf-cb54-46e6-baa5-c34a6da84141",
@@ -2444,7 +2524,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-01-09T02:19:53.665Z",
 			"updatedAt": "2026-01-09T02:27:10.633Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e100"
 		},
 		{
 			"id": "e6c91f66-b509-4f89-861e-29ca64014622",
@@ -2456,7 +2537,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-13T03:30:54.421Z",
 			"updatedAt": "2025-09-13T03:30:54.421Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e101"
 		},
 		{
 			"id": "4bd0a0f5-46a5-4fd1-a646-ff14cbd717ae",
@@ -2468,7 +2550,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:13.005Z",
 			"updatedAt": "2025-11-15T19:56:13.005Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e102"
 		},
 		{
 			"id": "5aa28bfd-5b57-4578-b1ff-015088da504f",
@@ -2504,7 +2587,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e103"
 		},
 		{
 			"id": "e81d2d6c-effb-4343-847c-221c9caf0daa",
@@ -2545,7 +2629,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e104"
 		},
 		{
 			"id": "0d272a29-ec73-459e-8a60-3f3524bbb725",
@@ -2557,7 +2642,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-14T05:25:52.365Z",
 			"updatedAt": "2025-11-01T22:47:47.041Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e105"
 		},
 		{
 			"id": "72e0fcd9-ecee-471a-b491-e1cd24cbc517",
@@ -2569,7 +2655,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-14T05:26:22.741Z",
 			"updatedAt": "2025-11-01T22:48:10.551Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e106"
 		},
 		{
 			"id": "c7311545-15b6-4d08-be44-b3e5c76c406a",
@@ -2605,7 +2692,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e107"
 		},
 		{
 			"id": "0ea7829e-11b7-4704-8d84-6cbee79915a5",
@@ -2617,7 +2705,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:13.167Z",
 			"updatedAt": "2025-11-16T21:20:11.962Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e108"
 		},
 		{
 			"id": "aa3cf940-31ac-4615-a298-99523f986331",
@@ -2647,7 +2736,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e109"
 		},
 		{
 			"id": "413434c1-5f0b-4925-bffc-1fb29dacaf19",
@@ -2659,7 +2749,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:13.320Z",
 			"updatedAt": "2025-11-15T19:56:13.320Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e110"
 		},
 		{
 			"id": "a19417f1-0ecf-466a-a904-29e3de492bcf",
@@ -2689,7 +2780,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e111"
 		},
 		{
 			"id": "9e535672-e66c-435a-a079-4c9fb3ee78d4",
@@ -2701,7 +2793,8 @@
 			"regionTag": "cn",
 			"createdAt": "2025-09-30T01:38:24.325Z",
 			"updatedAt": "2025-11-01T21:37:02.099Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e112"
 		},
 		{
 			"id": "d9460e7f-212e-467f-91bc-bfee83202ada",
@@ -2713,7 +2806,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T03:16:47.328Z",
 			"updatedAt": "2025-11-01T21:37:41.329Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e113"
 		},
 		{
 			"id": "d57b4e35-45b8-4c7a-8521-afcd99c30dd9",
@@ -2725,7 +2819,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-24T06:32:04.536Z",
 			"updatedAt": "2025-11-01T21:39:36.629Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e114"
 		},
 		{
 			"id": "5e16965e-d995-425c-9ba5-8ace79df7840",
@@ -2737,7 +2832,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T21:44:31.039Z",
 			"updatedAt": "2025-10-14T07:07:22.015Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e115"
 		},
 		{
 			"id": "928be1f8-b168-4790-a004-73b489a3ad34",
@@ -2778,7 +2874,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e116"
 		},
 		{
 			"id": "0494ce60-632e-4aac-b6f3-b1e27028598f",
@@ -2790,7 +2887,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-30T16:10:59.811Z",
 			"updatedAt": "2025-12-30T16:13:06.238Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e117"
 		},
 		{
 			"id": "cbfbcf4c-1f4a-4373-a9c8-02bebcf32ec6",
@@ -2802,7 +2900,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-30T16:14:48.046Z",
 			"updatedAt": "2025-12-30T16:14:48.046Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e118"
 		},
 		{
 			"id": "fad26e78-c747-42da-878f-83d32202402a",
@@ -2848,7 +2947,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e119"
 		},
 		{
 			"id": "ec300590-24ec-4e6c-976d-708c9dc08e55",
@@ -2860,7 +2960,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-03T00:04:18.566Z",
 			"updatedAt": "2025-11-01T22:41:15.583Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e120"
 		},
 		{
 			"id": "fbd44ec2-ad9a-47c6-8b5d-374a1dcf0b96",
@@ -2872,7 +2973,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-03T00:04:46.212Z",
 			"updatedAt": "2025-11-01T22:41:43.762Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e121"
 		},
 		{
 			"id": "2a885794-26bf-4b04-8908-e5b4d3645575",
@@ -2884,7 +2986,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-02-09T02:18:35.518Z",
 			"updatedAt": "2026-02-09T02:19:10.883Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e122"
 		},
 		{
 			"id": "6fd51e21-f25d-4ef4-b554-e00aef225a58",
@@ -2896,7 +2999,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-11T00:21:07.710Z",
 			"updatedAt": "2025-11-01T21:45:00.703Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e123"
 		},
 		{
 			"id": "82c6b99c-0a5e-4707-b81e-b6700f1b6dd8",
@@ -2908,7 +3012,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-19T05:55:21.778Z",
 			"updatedAt": "2025-11-01T21:45:27.363Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e124"
 		},
 		{
 			"id": "16623222-931a-4b0a-ad5c-b69e18713d66",
@@ -2920,7 +3025,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:37.650Z",
 			"updatedAt": "2026-05-28T12:31:12.526Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e125"
 		},
 		{
 			"id": "7dec35ce-d8cc-443e-8a4e-410233b3cda6",
@@ -2932,7 +3038,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-13T03:46:04.968Z",
 			"updatedAt": "2025-11-01T21:46:26.270Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e126"
 		},
 		{
 			"id": "dc536658-f405-4a52-bb74-3061134cf136",
@@ -2968,7 +3075,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e127"
 		},
 		{
 			"id": "da1a76fe-0d38-4fc0-a2b3-c7b2f689151b",
@@ -2980,7 +3088,8 @@
 			"regionTag": "cn",
 			"createdAt": "2026-04-03T02:56:41.394Z",
 			"updatedAt": "2026-06-08T00:19:34.132Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e128"
 		},
 		{
 			"id": "9edeb9b9-8c68-44f5-bfea-396bffb0aceb",
@@ -3010,7 +3119,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e129"
 		},
 		{
 			"id": "6bab9138-dfb9-425a-95bd-0ac4323936c8",
@@ -3040,7 +3150,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e130"
 		},
 		{
 			"id": "894f12fe-9241-41fd-ab0b-5a519e94cc57",
@@ -3052,7 +3163,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:13.575Z",
 			"updatedAt": "2025-11-29T04:55:42.520Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e131"
 		},
 		{
 			"id": "3c7adf13-4037-4c43-9545-47156a6ef556",
@@ -3064,7 +3176,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:37.797Z",
 			"updatedAt": "2026-05-28T12:32:48.715Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e132"
 		},
 		{
 			"id": "2243d1e2-882f-40cc-9709-05d95980f966",
@@ -3076,7 +3189,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-18T23:02:40.735Z",
 			"updatedAt": "2025-11-01T22:08:40.844Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e133"
 		},
 		{
 			"id": "1403cc19-233b-4c0c-8335-83cda83c7a62",
@@ -3088,7 +3202,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-11T00:03:00.728Z",
 			"updatedAt": "2025-11-01T22:14:13.451Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e134"
 		},
 		{
 			"id": "31ddae6c-2b4a-4c30-a315-19cebb95e69c",
@@ -3100,7 +3215,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-02-19T15:55:22.684Z",
 			"updatedAt": "2026-02-19T15:55:22.684Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e135"
 		},
 		{
 			"id": "ac1f5bee-90a1-461e-9be7-5166675159da",
@@ -3112,7 +3228,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-31T15:35:42.192Z",
 			"updatedAt": "2025-12-31T15:35:42.192Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e136"
 		},
 		{
 			"id": "67f08088-4326-4711-a4eb-fda93220f156",
@@ -3124,7 +3241,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T18:35:20.681Z",
 			"updatedAt": "2025-11-01T22:57:57.403Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e137"
 		},
 		{
 			"id": "e8b188c4-e3be-4dee-8708-82b8ac81726e",
@@ -3136,7 +3254,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-18T22:32:18.986Z",
 			"updatedAt": "2025-11-01T22:59:45.741Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e138"
 		},
 		{
 			"id": "16e665b8-d576-4fc1-9c34-838e33b2e7ad",
@@ -3148,7 +3267,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-29T23:53:37.843Z",
 			"updatedAt": "2025-11-01T23:00:40.598Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e139"
 		},
 		{
 			"id": "b0f569df-032b-4e4e-bc7c-3d45fa86cb74",
@@ -3178,7 +3298,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e140"
 		},
 		{
 			"id": "e51eebc8-9891-4469-8bce-fd9cd2d0694a",
@@ -3219,7 +3340,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e141"
 		},
 		{
 			"id": "0d9a3a8b-5a2d-4690-a6be-0b471899b05f",
@@ -3231,7 +3353,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:13.822Z",
 			"updatedAt": "2025-11-29T04:57:31.125Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e142"
 		},
 		{
 			"id": "bbc49612-f896-400f-8a29-2d26c1d3508a",
@@ -3243,7 +3366,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:13.990Z",
 			"updatedAt": "2025-11-15T19:56:13.990Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e143"
 		},
 		{
 			"id": "c62abbc3-6779-4b76-a525-1e5b4e02bc69",
@@ -3273,7 +3397,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e144"
 		},
 		{
 			"id": "d2d65dd5-cc06-40d7-b161-5f37432f5b58",
@@ -3285,7 +3410,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-30T15:53:55.790Z",
 			"updatedAt": "2025-12-30T15:53:55.790Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e145"
 		},
 		{
 			"id": "9ff8f3fb-b9b7-493a-8eb6-bfd3d9adfc41",
@@ -3297,7 +3423,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:14.237Z",
 			"updatedAt": "2025-11-29T04:57:59.569Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e146"
 		},
 		{
 			"id": "f2edbeb3-9755-49e7-91f4-dc6fba3b30d9",
@@ -3309,7 +3436,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T21:41:20.655Z",
 			"updatedAt": "2025-11-28T19:17:33.669Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e147"
 		},
 		{
 			"id": "2fac50c7-e490-4d41-8aac-48d6589ce02f",
@@ -3321,7 +3449,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:14.392Z",
 			"updatedAt": "2025-11-15T19:56:14.392Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e148"
 		},
 		{
 			"id": "17f975cb-0e6a-4393-b084-31a2eb16beb1",
@@ -3333,7 +3462,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:14.542Z",
 			"updatedAt": "2025-11-16T21:07:20.121Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e149"
 		},
 		{
 			"id": "72b50fb2-8207-441e-873b-9afe3903066e",
@@ -3345,7 +3475,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:14.703Z",
 			"updatedAt": "2025-11-15T19:56:14.703Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e150"
 		},
 		{
 			"id": "cc35cafc-57f6-4833-8459-f7afa882cd9c",
@@ -3375,7 +3506,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e151"
 		},
 		{
 			"id": "6703ee35-a93f-4f2f-b116-e44c7fab4918",
@@ -3387,7 +3519,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-14T05:24:00.917Z",
 			"updatedAt": "2025-11-01T22:55:40.482Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e152"
 		},
 		{
 			"id": "aade1810-f0f4-4b14-8e41-7880833079ea",
@@ -3399,7 +3532,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-14T05:24:37.332Z",
 			"updatedAt": "2025-11-01T22:57:04.041Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e153"
 		},
 		{
 			"id": "34cb30eb-3598-4dbd-8524-1cdb6aab34ee",
@@ -3429,7 +3563,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e154"
 		},
 		{
 			"id": "8af30c6a-3293-4eff-8e27-d3ee4fc83548",
@@ -3465,7 +3600,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e155"
 		},
 		{
 			"id": "a16ab4fe-2c9f-4019-a29c-af0ef2c97555",
@@ -3501,7 +3637,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e156"
 		},
 		{
 			"id": "a00fae3a-12df-4448-8853-472498153546",
@@ -3513,7 +3650,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:14.864Z",
 			"updatedAt": "2025-11-15T19:56:14.864Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e157"
 		},
 		{
 			"id": "b246792d-8ea6-4fde-a19d-d4006d85f9a9",
@@ -3549,7 +3687,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e158"
 		},
 		{
 			"id": "29d602c6-6eea-40c2-8ca2-4b4bb4b7290b",
@@ -3561,7 +3700,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:15.000Z",
 			"updatedAt": "2025-11-15T19:56:15.000Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e159"
 		},
 		{
 			"id": "60819a58-6e32-4440-9b36-1045701af14d",
@@ -3597,7 +3737,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e160"
 		},
 		{
 			"id": "0aebdc30-c7a2-41ff-bdea-d80d2e53563a",
@@ -3609,7 +3750,8 @@
 			"regionTag": "cn",
 			"createdAt": "2025-10-08T05:23:14.493Z",
 			"updatedAt": "2025-11-01T23:01:52.812Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e161"
 		},
 		{
 			"id": "8c7c31fc-01f3-47e8-a5b6-6f77556b3b39",
@@ -3621,7 +3763,8 @@
 			"regionTag": "cn",
 			"createdAt": "2026-04-04T03:05:28.465Z",
 			"updatedAt": "2026-04-04T03:05:28.465Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e162"
 		},
 		{
 			"id": "19266f8c-b473-4306-beda-ef4e7ddcd5f3",
@@ -3651,7 +3794,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e163"
 		},
 		{
 			"id": "f8bb89d5-7fb8-4d07-9de9-489f791120f5",
@@ -3687,19 +3831,20 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e164"
 		},
 		{
 			"id": "27d1b457-e6a0-4327-9ee5-777be0028c79",
 			"effectName": "Embers",
-			"effectDetails": "<p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span> dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>. Critical damage is permanently increased by </span><span style=\"color: rgb(243, 109, 28);\">5%</span><span>. Considered a Burn-type buff. Cannot be cleansed.</span></p>",
+			"effectDetails": "<p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span> dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>. Critical damage is permanently increased by </span><span style=\"color: rgb(243, 109, 28);\">5%</span><span>. Considered a Burn buff, cannot be cleansed.</span></p>",
 			"effectTags": ["Buff", "Burn"],
-			"dollId": null,
+			"dollId": "a32d9966-d511-4433-938b-4022af67268b",
 			"preview": false,
 			"regionTag": "en",
 			"createdAt": "2025-10-05T20:12:43.267Z",
 			"updatedAt": "2026-02-19T05:08:08.010Z",
-			"doll": null
+			"shortId": "e165"
 		},
 		{
 			"id": "a396e694-c4ba-455c-b448-ecc5dd881bfe",
@@ -3711,7 +3856,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:15.127Z",
 			"updatedAt": "2025-11-15T19:56:15.127Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e166"
 		},
 		{
 			"id": "44e8c6d5-e66f-464e-a854-626654fa9395",
@@ -3747,7 +3893,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e167"
 		},
 		{
 			"id": "bf9cca5c-a432-44ad-ba77-05ba7435b1dd",
@@ -3759,7 +3906,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-13T03:51:55.812Z",
 			"updatedAt": "2025-09-13T03:51:55.812Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e168"
 		},
 		{
 			"id": "672a73b6-685d-460b-b77c-1af04c6cdd07",
@@ -3800,7 +3948,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e169"
 		},
 		{
 			"id": "fbd7a19a-c207-43df-8bc4-d911baf325f1",
@@ -3846,7 +3995,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e170"
 		},
 		{
 			"id": "6a6511c0-6846-4ddc-8415-843f5fdd9e0c",
@@ -3858,7 +4008,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-01-09T03:03:51.846Z",
 			"updatedAt": "2026-01-09T03:04:18.748Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e171"
 		},
 		{
 			"id": "2b798aa9-3cc9-4285-ae06-730ff710d20f",
@@ -3870,7 +4021,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:15.280Z",
 			"updatedAt": "2025-11-16T15:26:44.369Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e172"
 		},
 		{
 			"id": "22055049-cfb3-4097-a503-1fb871828676",
@@ -3882,7 +4034,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:15.415Z",
 			"updatedAt": "2025-11-15T19:56:15.415Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e173"
 		},
 		{
 			"id": "3fbcb8ae-7ffa-4e2e-9dce-1269da8ff4d2",
@@ -3894,7 +4047,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-14T16:21:07.459Z",
 			"updatedAt": "2025-09-14T16:21:07.459Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e174"
 		},
 		{
 			"id": "6f804ef0-64bc-4159-9eec-7a2240999500",
@@ -3906,7 +4060,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-22T03:49:45.612Z",
 			"updatedAt": "2025-11-14T08:34:41.341Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e175"
 		},
 		{
 			"id": "c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb",
@@ -3918,7 +4073,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-14T19:42:00.107Z",
 			"updatedAt": "2025-09-14T19:42:00.107Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e176"
 		},
 		{
 			"id": "ab8fb009-07b2-4a3b-bf50-6546c93e205d",
@@ -3930,7 +4086,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-04-12T05:03:23.013Z",
 			"updatedAt": "2026-04-12T05:03:23.013Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e177"
 		},
 		{
 			"id": "9e9015b2-0a66-4dcd-9eca-64a8b66b4721",
@@ -3960,7 +4117,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e178"
 		},
 		{
 			"id": "36b8a0c8-f35f-4c2b-8421-3265c5bca1ab",
@@ -4016,7 +4174,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e179"
 		},
 		{
 			"id": "53abe266-1be0-4046-9559-80c77f3c1fdb",
@@ -4052,7 +4211,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e180"
 		},
 		{
 			"id": "84190341-51e8-4b9c-9254-8335120cbbd9",
@@ -4064,7 +4224,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-02-18T15:03:08.901Z",
 			"updatedAt": "2026-02-18T15:04:19.288Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e181"
 		},
 		{
 			"id": "a1e9e083-e23f-487f-88a2-d2edd4cde26e",
@@ -4076,7 +4237,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-02-18T15:04:03.346Z",
 			"updatedAt": "2026-02-18T15:04:03.346Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e182"
 		},
 		{
 			"id": "67a6d7ef-1fab-449d-bfae-8754189b883f",
@@ -4088,7 +4250,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-30T16:01:45.655Z",
 			"updatedAt": "2025-12-30T16:01:45.655Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e183"
 		},
 		{
 			"id": "da566bc7-bdf6-4405-a0f8-c1c4b30b7527",
@@ -4100,7 +4263,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-01-09T02:19:55.679Z",
 			"updatedAt": "2026-01-09T02:19:55.679Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e184"
 		},
 		{
 			"id": "e82fca4c-de4a-40b6-83c2-e84d716f72d3",
@@ -4112,7 +4276,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-14T15:54:18.994Z",
 			"updatedAt": "2025-11-03T14:56:03.797Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e185"
 		},
 		{
 			"id": "123d9f95-e63a-472f-84fd-e4d2723ba37c",
@@ -4124,7 +4289,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-01-09T02:19:55.835Z",
 			"updatedAt": "2026-01-09T02:19:55.835Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e186"
 		},
 		{
 			"id": "8b9d0fae-d4df-40ab-8c51-73ffaabfc302",
@@ -4160,7 +4326,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e187"
 		},
 		{
 			"id": "d1d7edac-72f5-4f6b-9727-b4e2ca17324b",
@@ -4190,7 +4357,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e188"
 		},
 		{
 			"id": "59907d05-83e4-4322-979f-a59c6211d5bd",
@@ -4220,7 +4388,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e189"
 		},
 		{
 			"id": "74085d50-1668-4b60-8319-b76facf5e04b",
@@ -4250,7 +4419,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e190"
 		},
 		{
 			"id": "e99ba394-c447-4ce6-a0e8-509caff30eda",
@@ -4280,7 +4450,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e191"
 		},
 		{
 			"id": "79a06a22-e4f8-4470-8c38-27d0ef1f1890",
@@ -4310,7 +4481,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e192"
 		},
 		{
 			"id": "fb8f6851-f955-415d-9875-f0eecd4de38b",
@@ -4322,7 +4494,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-05-15T20:59:32.303Z",
 			"updatedAt": "2026-05-15T21:22:22.270Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e193"
 		},
 		{
 			"id": "f36f3691-2c70-4f27-829e-3e45425b811d",
@@ -4352,7 +4525,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e194"
 		},
 		{
 			"id": "ed086f34-ae49-477e-bf54-ba9a74bf8cce",
@@ -4364,7 +4538,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T23:55:59.479Z",
 			"updatedAt": "2025-11-16T15:27:18.240Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e195"
 		},
 		{
 			"id": "adf4247d-8d48-4fd7-b5bf-9b18e2e69596",
@@ -4376,7 +4551,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:15.640Z",
 			"updatedAt": "2025-11-16T15:27:28.002Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e196"
 		},
 		{
 			"id": "031ad174-c0a3-4681-96ae-eb3abcd80507",
@@ -4388,7 +4564,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-05-15T21:31:28.306Z",
 			"updatedAt": "2026-06-08T21:37:54.822Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e197"
 		},
 		{
 			"id": "b6ce7a05-c13e-46d7-b7a0-7bb8c6f6bebd",
@@ -4400,7 +4577,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:40.593Z",
 			"updatedAt": "2026-05-28T12:29:06.005Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e198"
 		},
 		{
 			"id": "0208eebe-9788-463a-8342-33322cd386c0",
@@ -4430,7 +4608,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e199"
 		},
 		{
 			"id": "6f14204f-abba-469b-b056-ca1588d14104",
@@ -4442,37 +4621,20 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-20T23:21:45.050Z",
 			"updatedAt": "2025-11-01T23:36:58.648Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e200"
 		},
 		{
 			"id": "e2e83e84-dfb6-4dee-8e4f-5f0881b2c991",
 			"effectName": "Flawless Blaze",
-			"effectDetails": "<p>Immune to basic attacks and skill damage. The immunity is removed after receiving <span style=\"color: rgb(243, 109, 28);\">1</span> basic attack or skill attack. Considered a burn buff, cannot be cleansed.</p>",
+			"effectDetails": "<p>When damage is taken, negates that damage. Considered a Burn buff, cannot be cleansed.</p>",
 			"effectTags": ["Buff", "Burn"],
 			"dollId": "a32d9966-d511-4433-938b-4022af67268b",
 			"preview": false,
 			"regionTag": "cn",
 			"createdAt": "2025-12-02T00:37:40.916Z",
-			"updatedAt": "2026-06-19T03:47:29.394Z",
-			"doll": {
-				"id": "a32d9966-d511-4433-938b-4022af67268b",
-				"name": "Loreley",
-				"rarity": "Elite",
-				"preview": false,
-				"avatarUrl": "https://cdn.dandegate.net/dolls/loreley/21e484b7c3e564041cd34c6cd70ee7d2fc5a2b85fd71339b2092f9ff9ddddd5f.webp",
-				"createdAt": "2025-12-01T22:54:05.266Z",
-				"regionTag": "cn",
-				"updatedAt": "2026-06-12T22:28:25.822Z",
-				"dollImages": [
-					{
-						"id": "abf1ee23-44ac-4961-8d74-4b2a0c9ba5c2",
-						"category": "Chibi",
-						"imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/8fcc492f89048d76367ecc33a4bed0f8e518d90d0fa84638caab1d48bdd0c618.webp",
-						"alt": null
-					}
-				],
-				"searchTags": []
-			}
+			"updatedAt": "2025-12-14T05:47:55.192Z",
+			"shortId": "e201"
 		},
 		{
 			"id": "7e5459a5-674d-4c88-81c3-1078ba3db2e8",
@@ -4484,7 +4646,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:15.789Z",
 			"updatedAt": "2025-11-15T19:56:15.789Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e202"
 		},
 		{
 			"id": "51c51a92-bd68-433b-a35a-cdf48d77f987",
@@ -4496,7 +4659,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:16.025Z",
 			"updatedAt": "2025-11-29T04:58:29.357Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e203"
 		},
 		{
 			"id": "d7897b0c-5cd7-4f39-9ec2-b678468be52f",
@@ -4532,7 +4696,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e204"
 		},
 		{
 			"id": "7e1f3d06-9806-49c4-912d-9f2fcabe856c",
@@ -4562,7 +4727,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e205"
 		},
 		{
 			"id": "2eae90d4-8d26-4b8f-987e-b9936415d2bf",
@@ -4574,7 +4740,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-19T14:45:02.806Z",
 			"updatedAt": "2026-03-19T14:45:02.806Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e206"
 		},
 		{
 			"id": "3818555f-cb2c-4dea-bbd7-55336f0cb19c",
@@ -4586,7 +4753,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-19T14:46:44.088Z",
 			"updatedAt": "2026-03-19T14:46:44.088Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e207"
 		},
 		{
 			"id": "ac05f3b0-6a50-4ee1-886f-514e673ce973",
@@ -4598,7 +4766,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:16.176Z",
 			"updatedAt": "2025-11-15T19:56:16.176Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e208"
 		},
 		{
 			"id": "0274ee8d-3a42-4ec6-bc4e-ee21e007802e",
@@ -4610,7 +4779,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-19T14:45:57.647Z",
 			"updatedAt": "2026-03-19T14:45:57.647Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e209"
 		},
 		{
 			"id": "7c77a72e-6589-4f03-8fc9-ddbef2ad33b2",
@@ -4622,7 +4792,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-19T14:47:23.806Z",
 			"updatedAt": "2026-03-19T14:47:23.806Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e210"
 		},
 		{
 			"id": "f4fc6af5-7a01-48a3-91e2-e432a7216dbc",
@@ -4634,7 +4805,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-20T19:22:25.160Z",
 			"updatedAt": "2025-11-01T23:37:44.521Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e211"
 		},
 		{
 			"id": "afaa648d-ffdb-4b3c-b07b-0c948ec32337",
@@ -4670,7 +4842,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e212"
 		},
 		{
 			"id": "3c3d2b25-6823-4ce4-a33e-cf69e0e759a5",
@@ -4682,7 +4855,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T16:14:46.543Z",
 			"updatedAt": "2025-11-01T23:39:59.216Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e213"
 		},
 		{
 			"id": "abce6753-fe29-4ca3-b487-7453e982b279",
@@ -4694,7 +4868,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-20T19:19:34.427Z",
 			"updatedAt": "2025-11-02T02:27:53.908Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e214"
 		},
 		{
 			"id": "d26174e2-d4c2-4768-9714-7034478fa87f",
@@ -4706,7 +4881,8 @@
 			"regionTag": "cn",
 			"createdAt": "2026-04-08T05:33:22.493Z",
 			"updatedAt": "2026-04-08T05:33:22.493Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e215"
 		},
 		{
 			"id": "b6f46bd2-1d20-47e5-889f-b62c11921e66",
@@ -4742,7 +4918,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e216"
 		},
 		{
 			"id": "d85addc9-1d0c-46cb-a37a-377dde1be0ae",
@@ -4754,7 +4931,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T02:24:20.358Z",
 			"updatedAt": "2025-11-02T02:29:37.253Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e217"
 		},
 		{
 			"id": "75c85a34-9e1b-4f4f-96d5-00b10e4164d5",
@@ -4766,7 +4944,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:41.098Z",
 			"updatedAt": "2026-05-28T12:30:22.375Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e218"
 		},
 		{
 			"id": "8edd061d-c69c-4418-abda-c131b1f0ac1a",
@@ -4802,7 +4981,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e219"
 		},
 		{
 			"id": "2029722c-48e9-40e7-bcf5-609dba9ba155",
@@ -4838,37 +5018,36 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e220"
 		},
 		{
 			"id": "4b9440d5-b932-4dd3-acf1-a30e9a45d5c5",
 			"effectName": "Glowing Embers",
-			"effectDetails": "{\"mainDetails\":\"<p>Increase <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. Increase damage dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span>. Reduces damage taken by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span>. Critical damage is permanently increased by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>. Considered a Burn buff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"972187a7-9c6b-46e7-a156-a6a7a74eab84\",\"upgradeName\":\"V2\",\"upgradeDetails\":\"<p>Increase damage dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">45%</span>. Reduces damage taken by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span>. Critical damage is permanently increased by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>. Considered a Burn buff, cannot be cleansed.</p>\",\"order\":0},{\"id\":\"77561a5f-fab6-4d48-b50d-43f36a4259e1\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>Increase damage dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">45%</span>. Reduces damage taken by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. Critical damage is permanently increased by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>. Considered a Burn buff, cannot be cleansed.</p>\",\"order\":1}]}",
+			"effectDetails": {
+				"mainDetails": "<p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>, damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">15%</span> and critical damage is permanently increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Considered a Burn buff, cannot be cleansed.</p>",
+				"upgrades": [
+					{
+						"id": "972187a7-9c6b-46e7-a156-a6a7a74eab84",
+						"upgradeName": "V2",
+						"upgradeDetails": "<p>Damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">45%</span>, damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">15%</span> and critical damage is permanently increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Considered a Burn buff, cannot be cleansed.</p>",
+						"order": 0
+					},
+					{
+						"id": "77561a5f-fab6-4d48-b50d-43f36a4259e1",
+						"upgradeName": "V6",
+						"upgradeDetails": "<p>Damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">45%</span>, damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span> and critical damage is permanently increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>. Considered a Burn buff, cannot be cleansed.</p>",
+						"order": 1
+					}
+				]
+			},
 			"effectTags": ["Buff", "Burn"],
 			"dollId": "a32d9966-d511-4433-938b-4022af67268b",
 			"preview": false,
 			"regionTag": "cn",
 			"createdAt": "2025-12-01T23:11:56.066Z",
-			"updatedAt": "2026-06-18T04:01:49.530Z",
-			"doll": {
-				"id": "a32d9966-d511-4433-938b-4022af67268b",
-				"name": "Loreley",
-				"rarity": "Elite",
-				"preview": false,
-				"avatarUrl": "https://cdn.dandegate.net/dolls/loreley/21e484b7c3e564041cd34c6cd70ee7d2fc5a2b85fd71339b2092f9ff9ddddd5f.webp",
-				"createdAt": "2025-12-01T22:54:05.266Z",
-				"regionTag": "cn",
-				"updatedAt": "2026-06-12T22:28:25.822Z",
-				"dollImages": [
-					{
-						"id": "abf1ee23-44ac-4961-8d74-4b2a0c9ba5c2",
-						"category": "Chibi",
-						"imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/8fcc492f89048d76367ecc33a4bed0f8e518d90d0fa84638caab1d48bdd0c618.webp",
-						"alt": null
-					}
-				],
-				"searchTags": []
-			}
+			"updatedAt": "2026-01-15T13:21:37.393Z",
+			"shortId": "e221"
 		},
 		{
 			"id": "75fd2660-90d0-4026-9703-b80071294145",
@@ -4909,7 +5088,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e222"
 		},
 		{
 			"id": "64f50bb4-3173-4832-ab36-5dcdc715be66",
@@ -4945,7 +5125,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e223"
 		},
 		{
 			"id": "710719e9-0d03-47d2-9e55-9f87e7d0fcc1",
@@ -4991,7 +5172,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e224"
 		},
 		{
 			"id": "8816ed39-a814-43fe-82e9-c14ddd6da2de",
@@ -5027,7 +5209,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e225"
 		},
 		{
 			"id": "d713f381-b9cd-4ea0-b5c4-24b925fe989b",
@@ -5039,7 +5222,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:16.299Z",
 			"updatedAt": "2025-11-15T19:56:16.299Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e226"
 		},
 		{
 			"id": "d5571913-f803-4fc4-b716-d0d2f156dbbe",
@@ -5051,7 +5235,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-20T23:22:55.837Z",
 			"updatedAt": "2025-11-03T00:33:17.994Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e227"
 		},
 		{
 			"id": "ab60a823-e66a-47ba-96d0-651505dbadfd",
@@ -5087,7 +5272,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e228"
 		},
 		{
 			"id": "20a97062-b9a0-4811-a2d2-c31ca74e56c7",
@@ -5117,7 +5303,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e229"
 		},
 		{
 			"id": "07e12471-a5f5-4689-8a40-342ba9879a19",
@@ -5158,7 +5345,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e230"
 		},
 		{
 			"id": "57a15f9e-36c6-4618-9bb0-4b94c538effd",
@@ -5199,7 +5387,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e231"
 		},
 		{
 			"id": "f6be3959-152e-423c-abef-f97f1cb8a44e",
@@ -5245,7 +5434,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e232"
 		},
 		{
 			"id": "77e4cfb3-2ca7-4330-89b6-995b7fa8ba3d",
@@ -5275,7 +5465,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e233"
 		},
 		{
 			"id": "288d4b5f-1963-4b20-8e23-e9ec4f9956be",
@@ -5305,7 +5496,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e234"
 		},
 		{
 			"id": "4df7f2de-0e82-4406-9e50-d3db79689163",
@@ -5335,7 +5527,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e235"
 		},
 		{
 			"id": "d49289da-ffc9-4459-80ca-48d6948203bd",
@@ -5365,7 +5558,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e236"
 		},
 		{
 			"id": "3ee65c92-5fb4-4c30-a1a7-a09aabd20be6",
@@ -5406,7 +5600,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e237"
 		},
 		{
 			"id": "1bfc6e24-1df4-4f7e-96b1-e12a2e3b92ec",
@@ -5442,7 +5637,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e238"
 		},
 		{
 			"id": "cbc18b63-cd24-4629-85c3-dbd9d290481b",
@@ -5478,7 +5674,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e239"
 		},
 		{
 			"id": "ee7221df-ee27-430b-8a85-f3b804da60a5",
@@ -5490,7 +5687,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-30T01:17:01.357Z",
 			"updatedAt": "2025-11-03T05:18:42.513Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e240"
 		},
 		{
 			"id": "8cc23ef7-8a65-4a10-a967-73d8a9965537",
@@ -5526,7 +5724,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e241"
 		},
 		{
 			"id": "2b1851b8-0629-41b3-80f0-43e38203378b",
@@ -5556,7 +5755,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e242"
 		},
 		{
 			"id": "601a0a9d-002d-4e86-9462-f0326661ad8e",
@@ -5568,7 +5768,8 @@
 			"regionTag": "cn",
 			"createdAt": "2026-04-03T21:43:06.783Z",
 			"updatedAt": "2026-04-03T21:43:06.783Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e243"
 		},
 		{
 			"id": "f793ed02-a490-4ac2-849a-689c57001678",
@@ -5580,7 +5781,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-22T04:15:37.347Z",
 			"updatedAt": "2025-11-03T05:54:13.118Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e244"
 		},
 		{
 			"id": "b46e4270-c2d5-4f69-bb9b-544785785790",
@@ -5592,7 +5794,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T21:37:27.720Z",
 			"updatedAt": "2025-11-03T15:04:08.566Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e245"
 		},
 		{
 			"id": "27f19bae-b7f0-4d81-bb6c-fee2348458b4",
@@ -5604,7 +5807,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-26T01:02:29.292Z",
 			"updatedAt": "2025-09-26T01:02:29.292Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e246"
 		},
 		{
 			"id": "4b5fd3bb-8d4a-44e7-ba99-b48331d2e194",
@@ -5616,7 +5820,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-11T00:11:35.926Z",
 			"updatedAt": "2025-11-03T05:56:58.293Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e247"
 		},
 		{
 			"id": "072e8edf-84d8-49ec-a5ef-e0121e79c62c",
@@ -5662,7 +5867,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e248"
 		},
 		{
 			"id": "54660605-8e3f-4244-826c-0202d24b2df5",
@@ -5698,7 +5904,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e249"
 		},
 		{
 			"id": "99e43a86-0dfa-491b-a50b-fe7c7354f441",
@@ -5734,7 +5941,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e250"
 		},
 		{
 			"id": "013c5bd7-5fbe-4337-8f26-70872d9a5800",
@@ -5746,37 +5954,30 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-13T03:51:18.789Z",
 			"updatedAt": "2025-09-13T03:51:18.789Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e251"
 		},
 		{
 			"id": "5ef6ed4b-2601-43a5-945f-f17fa399c433",
 			"effectName": "Joint Immortality",
-			"effectDetails": "{\"mainDetails\":\"<p>Prevents the unit from dying when taking fatal damage. If another allied unit with this effect were to take fatal damage, you die immediately. This effect lasts for <span style=\\\"color: rgb(243, 109, 28);\\\">1 round</span>. Considered a burn buff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"0e3eb57e-4948-490d-aa2a-d411684bb633\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>Prevents the unit from dying when taking fatal damage. Instead, it restores HP equal to <span style=\\\"color: rgb(243, 109, 28);\\\">25%</span> of max HP and <span style=\\\"color: rgb(243, 109, 28);\\\">5 points</span> of stability, dispels all debuffs, and reduces damage taken by <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span> for <span style=\\\"color: rgb(243, 109, 28);\\\">1 turn</span>. If another allied unit with this effect were to take fatal damage, you die immediately. This effect lasts for <span style=\\\"color: rgb(243, 109, 28);\\\">1 round</span>. Considered a burn buff, cannot be cleansed.</p>\",\"order\":0}]}",
+			"effectDetails": {
+				"mainDetails": "<p>Does not die upon taking fatal damage. If the other unit with this effect dies, this unit immediately dies. Lasts for <span style=\"color:#f26c1c;\">1 round</span>. Considered a Burn buff, cannot be cleansed.</p>",
+				"upgrades": [
+					{
+						"id": "0e3eb57e-4948-490d-aa2a-d411684bb633",
+						"upgradeName": "V1",
+						"upgradeDetails": "<p>Does not die upon taking fatal damage. Instead recovers HP equal to <span style=\"color:#f26c1c;\">25%</span> of Max HP, <span style=\"color:#f26c1c;\">5 points</span> of stability, cleanses all debuffs, and reduces damage taken by <span style=\"color:#f26c1c;\">60%</span> for <span style=\"color:#f26c1c;\">1 turn</span>. If the other unit with this effect dies, this unit immediately dies. Lasts for <span style=\"color:#f26c1c;\">1 round</span>. Considered a Burn buff, cannot be cleansed.</p>",
+						"order": 0
+					}
+				]
+			},
 			"effectTags": [],
 			"dollId": "a32d9966-d511-4433-938b-4022af67268b",
 			"preview": false,
 			"regionTag": "cn",
 			"createdAt": "2025-12-02T00:14:33.667Z",
-			"updatedAt": "2026-06-18T03:57:14.502Z",
-			"doll": {
-				"id": "a32d9966-d511-4433-938b-4022af67268b",
-				"name": "Loreley",
-				"rarity": "Elite",
-				"preview": false,
-				"avatarUrl": "https://cdn.dandegate.net/dolls/loreley/21e484b7c3e564041cd34c6cd70ee7d2fc5a2b85fd71339b2092f9ff9ddddd5f.webp",
-				"createdAt": "2025-12-01T22:54:05.266Z",
-				"regionTag": "cn",
-				"updatedAt": "2026-06-12T22:28:25.822Z",
-				"dollImages": [
-					{
-						"id": "abf1ee23-44ac-4961-8d74-4b2a0c9ba5c2",
-						"category": "Chibi",
-						"imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/8fcc492f89048d76367ecc33a4bed0f8e518d90d0fa84638caab1d48bdd0c618.webp",
-						"alt": null
-					}
-				],
-				"searchTags": []
-			}
+			"updatedAt": "2025-12-14T05:49:50.393Z",
+			"shortId": "e252"
 		},
 		{
 			"id": "c1b60dd3-d015-4679-b882-0017693fa00b",
@@ -5806,7 +6007,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e253"
 		},
 		{
 			"id": "31ae4933-095f-4ba3-b73b-1c73d4e4d86f",
@@ -5842,7 +6044,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e254"
 		},
 		{
 			"id": "b64d8641-74cf-48f0-adf1-136d11b8fff5",
@@ -5854,7 +6057,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:16.516Z",
 			"updatedAt": "2025-11-15T19:56:16.516Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e255"
 		},
 		{
 			"id": "2caa0ee6-a15d-4a25-849e-fa65a552987f",
@@ -5895,7 +6099,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e256"
 		},
 		{
 			"id": "1b73d68b-f004-4994-811a-53434c7d20f2",
@@ -5907,7 +6112,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-21T01:45:58.639Z",
 			"updatedAt": "2025-11-27T21:12:54.183Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e257"
 		},
 		{
 			"id": "744be865-7e30-435c-879e-82755278782b",
@@ -5919,7 +6125,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-14T15:18:54.831Z",
 			"updatedAt": "2026-03-14T15:18:54.831Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e258"
 		},
 		{
 			"id": "c88b2002-c9fb-4786-bf40-b07ec0d6d91d",
@@ -5960,7 +6167,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e259"
 		},
 		{
 			"id": "19da2200-941d-4e8e-b145-19363a9dafd8",
@@ -5972,7 +6180,8 @@
 			"regionTag": "cn",
 			"createdAt": "2026-03-02T04:05:55.393Z",
 			"updatedAt": "2026-03-02T04:05:55.393Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e260"
 		},
 		{
 			"id": "e0f1583f-a237-4f2e-aeaf-f11a44179f2a",
@@ -6013,7 +6222,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e261"
 		},
 		{
 			"id": "4aa8067e-368b-493a-b170-accb8f294bf9",
@@ -6025,7 +6235,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:16.647Z",
 			"updatedAt": "2025-11-16T15:27:39.104Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e262"
 		},
 		{
 			"id": "ebef06db-38f8-4466-b7c3-8a604746a871",
@@ -6037,7 +6248,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:16.788Z",
 			"updatedAt": "2025-11-16T15:27:49.064Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e263"
 		},
 		{
 			"id": "dc02ab7c-4d18-49fe-b741-2a78e1add640",
@@ -6049,7 +6261,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:16.923Z",
 			"updatedAt": "2025-11-16T15:27:58.309Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e264"
 		},
 		{
 			"id": "7b5ece77-97d4-418a-b212-367ca951af7e",
@@ -6085,7 +6298,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e265"
 		},
 		{
 			"id": "5ed71f31-7524-4e38-8dd3-4c3ef8011bff",
@@ -6121,7 +6335,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e266"
 		},
 		{
 			"id": "730ec3f9-4919-4842-b728-bb5f56fc0c9a",
@@ -6167,7 +6382,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e267"
 		},
 		{
 			"id": "fee43244-a3d3-4888-bcbe-8a858ebb037c",
@@ -6213,7 +6429,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e268"
 		},
 		{
 			"id": "937acdbc-f0d7-44aa-92e4-15be9d684985",
@@ -6249,7 +6466,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e269"
 		},
 		{
 			"id": "e5e9a343-a00c-4482-ba42-71cf9c163b5a",
@@ -6279,7 +6497,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e270"
 		},
 		{
 			"id": "25cf474a-a557-41ff-ae25-e7d5dee2be39",
@@ -6291,7 +6510,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:17.061Z",
 			"updatedAt": "2025-11-16T15:26:34.026Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e271"
 		},
 		{
 			"id": "5ae4a3b0-2d8f-4de9-b711-ec64593f585e",
@@ -6327,7 +6547,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e272"
 		},
 		{
 			"id": "e6a931cb-e97e-4c14-adf1-88d09ce666a7",
@@ -6339,7 +6560,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-01-09T02:19:57.115Z",
 			"updatedAt": "2026-01-12T00:17:36.430Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e273"
 		},
 		{
 			"id": "c9675d00-1e4e-47a8-81a0-d23d9b4db729",
@@ -6375,7 +6597,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e274"
 		},
 		{
 			"id": "fb22ea59-387c-49af-b880-715c8a628617",
@@ -6405,7 +6628,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e275"
 		},
 		{
 			"id": "40f8b617-a8b6-4bbd-ba21-cb7426ea52ac",
@@ -6446,7 +6670,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e276"
 		},
 		{
 			"id": "1737d61d-fd64-4be8-84bc-9217e9fd7417",
@@ -6482,7 +6707,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e277"
 		},
 		{
 			"id": "615f3476-7b69-4b52-995f-b60767e29f57",
@@ -6518,7 +6744,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e278"
 		},
 		{
 			"id": "42d85a9b-2025-4f14-b4c2-df25f9c11bd3",
@@ -6530,7 +6757,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-20T05:25:58.311Z",
 			"updatedAt": "2025-11-03T05:59:35.540Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e279"
 		},
 		{
 			"id": "b5436492-f032-4296-aa06-a92ff2b03a3f",
@@ -6542,7 +6770,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-11T06:13:00.893Z",
 			"updatedAt": "2025-11-03T05:42:55.020Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e280"
 		},
 		{
 			"id": "4776f3a1-92cb-4e79-b018-35433bfdc6e2",
@@ -6554,7 +6783,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-17T18:32:24.079Z",
 			"updatedAt": "2025-11-03T05:42:27.501Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e281"
 		},
 		{
 			"id": "efb06ac2-e0a3-439e-8158-e0bb0863c67e",
@@ -6566,7 +6796,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:43.008Z",
 			"updatedAt": "2026-03-30T16:39:05.290Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e282"
 		},
 		{
 			"id": "1b2a9f8d-4d7f-43f6-bee2-03924e88521b",
@@ -6578,7 +6809,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-31T15:34:29.503Z",
 			"updatedAt": "2025-12-31T15:34:29.503Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e283"
 		},
 		{
 			"id": "2eaedbcb-e86c-431a-ac54-2fcb00ebfb70",
@@ -6590,7 +6822,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T00:24:06.558Z",
 			"updatedAt": "2025-11-03T05:42:03.099Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e284"
 		},
 		{
 			"id": "968e9913-e847-462c-be10-87bc8fc0f827",
@@ -6602,7 +6835,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-18T04:53:00.406Z",
 			"updatedAt": "2025-11-03T05:40:17.240Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e285"
 		},
 		{
 			"id": "bba82e44-ad79-4407-a6c6-ba2706cfc074",
@@ -6614,7 +6848,8 @@
 			"regionTag": "cn",
 			"createdAt": "2025-12-02T01:59:10.161Z",
 			"updatedAt": "2025-12-14T05:48:12.999Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e286"
 		},
 		{
 			"id": "d5b22194-a7cb-440b-8fcf-64c9ef05c835",
@@ -6626,7 +6861,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:43.225Z",
 			"updatedAt": "2026-05-23T23:27:59.229Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e287"
 		},
 		{
 			"id": "fbecd0e1-7852-4164-a9cc-d2fdd69724e4",
@@ -6662,7 +6898,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e288"
 		},
 		{
 			"id": "8160f23c-6b75-4274-a8d9-44e6c907e23d",
@@ -6674,7 +6911,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-02-20T14:56:23.532Z",
 			"updatedAt": "2026-02-20T14:56:23.532Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e289"
 		},
 		{
 			"id": "a9d5e1de-1be0-41d0-8970-2290e5ea4623",
@@ -6686,7 +6924,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-21T00:32:35.698Z",
 			"updatedAt": "2025-11-03T15:06:54.337Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e290"
 		},
 		{
 			"id": "31a60976-a420-487c-9ddb-c97941d898b6",
@@ -6722,7 +6961,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e291"
 		},
 		{
 			"id": "c95cbae9-4ab8-45aa-ad5b-9146ab984168",
@@ -6758,7 +6998,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e292"
 		},
 		{
 			"id": "6671ec6e-a346-47cc-ace8-8e5c1b4735d2",
@@ -6794,7 +7035,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e293"
 		},
 		{
 			"id": "1ee78270-69ba-4c02-93d7-842e66ff68ed",
@@ -6824,7 +7066,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e294"
 		},
 		{
 			"id": "93f91944-fc00-410d-995a-74155802def7",
@@ -6836,7 +7079,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-13T03:52:47.461Z",
 			"updatedAt": "2025-10-14T07:07:18.323Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e295"
 		},
 		{
 			"id": "71b3f790-db3b-4188-a3d7-15fa9752b57a",
@@ -6848,7 +7092,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-19T03:40:29.821Z",
 			"updatedAt": "2025-11-03T15:09:18.125Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e296"
 		},
 		{
 			"id": "885dbc3e-3004-43bd-ac86-f7c16d58e9c1",
@@ -6884,7 +7129,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e297"
 		},
 		{
 			"id": "e3ed8f2a-3665-4b7f-86ad-4b5a6b1807b3",
@@ -6914,7 +7160,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e298"
 		},
 		{
 			"id": "e809a359-05d8-42fa-9f90-abf087a5584d",
@@ -6960,7 +7207,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e299"
 		},
 		{
 			"id": "7d900a53-1edb-4532-9da4-c614b83cb560",
@@ -6972,7 +7220,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-22T05:25:13.170Z",
 			"updatedAt": "2025-11-03T15:12:04.286Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e300"
 		},
 		{
 			"id": "e64fa51b-656e-4ef8-83bd-c5f45c4950ad",
@@ -7002,7 +7251,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e301"
 		},
 		{
 			"id": "20d8fa46-65f8-4a7b-853a-437b8bf69aab",
@@ -7043,7 +7293,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e302"
 		},
 		{
 			"id": "b322b1fd-06e1-424b-8b1b-65bdaf96b4f4",
@@ -7073,7 +7324,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e303"
 		},
 		{
 			"id": "8cfe89a9-404a-42e5-9cc7-5bf57b070887",
@@ -7085,7 +7337,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-18T06:09:38.229Z",
 			"updatedAt": "2025-11-03T15:13:57.013Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e304"
 		},
 		{
 			"id": "9e711b41-da91-429b-a300-e217f32afb16",
@@ -7121,7 +7374,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e305"
 		},
 		{
 			"id": "40ab5759-f31c-40c0-9bf3-82ef14bdc925",
@@ -7157,7 +7411,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e306"
 		},
 		{
 			"id": "d44e9faa-f5a4-42a2-af48-f723b8f1d533",
@@ -7193,7 +7448,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e307"
 		},
 		{
 			"id": "2e70afde-2038-4570-bd24-c8fb0affb46d",
@@ -7205,7 +7461,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-31T15:32:36.666Z",
 			"updatedAt": "2025-12-31T15:32:36.666Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e308"
 		},
 		{
 			"id": "12bfa6f0-e459-40f1-8ce2-b63ee82810c6",
@@ -7217,7 +7474,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-31T15:33:39.413Z",
 			"updatedAt": "2025-12-31T15:36:55.377Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e309"
 		},
 		{
 			"id": "ea719872-3a38-472a-aa89-53ba443558c9",
@@ -7229,7 +7487,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-30T16:05:17.808Z",
 			"updatedAt": "2025-12-30T16:05:17.808Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e310"
 		},
 		{
 			"id": "87d14238-137a-4e76-aa3d-4bafe01847e0",
@@ -7275,7 +7534,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e311"
 		},
 		{
 			"id": "c2505ba5-ac86-4b68-a18b-8a8fd591ae61",
@@ -7311,7 +7571,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e312"
 		},
 		{
 			"id": "fbe318c6-97b3-4716-bd57-d51b4d190c05",
@@ -7347,7 +7608,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e313"
 		},
 		{
 			"id": "056211f7-fe05-4cf0-b44e-04fbb6fe2e61",
@@ -7359,7 +7621,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-14T05:27:40.838Z",
 			"updatedAt": "2025-11-03T15:18:23.263Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e314"
 		},
 		{
 			"id": "74708574-8ab6-4216-a8d2-e28494703a9f",
@@ -7371,7 +7634,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-24T02:24:20.248Z",
 			"updatedAt": "2025-11-03T15:18:37.142Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e315"
 		},
 		{
 			"id": "98c4091b-26d5-4384-8609-1742760302d1",
@@ -7383,7 +7647,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-31T15:30:22.993Z",
 			"updatedAt": "2025-12-31T15:30:22.993Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e316"
 		},
 		{
 			"id": "06dec38a-2bc2-4c9e-b8da-3152d5c92a59",
@@ -7395,7 +7660,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:17.317Z",
 			"updatedAt": "2025-11-15T19:56:17.317Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e317"
 		},
 		{
 			"id": "c117fcaa-bafc-49f9-9777-1d9520753dff",
@@ -7407,7 +7673,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:17.448Z",
 			"updatedAt": "2025-11-15T19:56:17.448Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e318"
 		},
 		{
 			"id": "a43a7878-c869-470a-824f-ca6ce76b4190",
@@ -7419,7 +7686,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:17.595Z",
 			"updatedAt": "2025-11-29T05:01:05.066Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e319"
 		},
 		{
 			"id": "d149d223-ac66-4556-ba25-5d4fef2504e9",
@@ -7431,7 +7699,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-13T08:03:06.790Z",
 			"updatedAt": "2025-10-14T07:07:18.499Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e320"
 		},
 		{
 			"id": "ba840672-b512-464e-a139-3668a136d609",
@@ -7443,7 +7712,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-14T05:25:22.223Z",
 			"updatedAt": "2025-11-03T15:19:27.717Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e321"
 		},
 		{
 			"id": "a4596022-af69-4df2-abec-317af173ae0b",
@@ -7455,7 +7725,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-24T06:33:21.988Z",
 			"updatedAt": "2025-11-03T15:19:43.082Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e322"
 		},
 		{
 			"id": "145ba1c0-00e7-4b51-9b9f-0f65bf8220b1",
@@ -7491,7 +7762,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e323"
 		},
 		{
 			"id": "f3c29056-b252-443d-bf3d-55462b514967",
@@ -7503,7 +7775,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-25T07:06:32.634Z",
 			"updatedAt": "2025-11-03T15:21:07.812Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e324"
 		},
 		{
 			"id": "15ccb35e-1139-49ec-8a96-8fec283dfabe",
@@ -7539,7 +7812,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e325"
 		},
 		{
 			"id": "d011f494-6976-4868-9810-b4ce99f1ef36",
@@ -7575,7 +7849,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e326"
 		},
 		{
 			"id": "606069e8-1303-4970-81ae-9fbaf3334049",
@@ -7621,7 +7896,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e327"
 		},
 		{
 			"id": "c17f6145-c62e-4804-ab8e-733b23255347",
@@ -7633,7 +7909,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:17.725Z",
 			"updatedAt": "2025-11-15T19:56:17.725Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e328"
 		},
 		{
 			"id": "4041e0a2-5804-4e3f-aa8a-a62a57ef5621",
@@ -7679,7 +7956,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e329"
 		},
 		{
 			"id": "4ca4072a-4ee0-4238-aff1-ca461fb8f5e2",
@@ -7715,7 +7993,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e330"
 		},
 		{
 			"id": "6da68274-d8c4-46be-ad1d-26609055f355",
@@ -7751,7 +8030,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e331"
 		},
 		{
 			"id": "f82a2d77-5183-4457-a3d6-7874fd929fa7",
@@ -7763,7 +8043,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-01-09T02:19:57.790Z",
 			"updatedAt": "2026-03-21T17:12:48.733Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e332"
 		},
 		{
 			"id": "951e2741-a202-4d41-ae0e-281c9c9daa0f",
@@ -7804,7 +8085,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e333"
 		},
 		{
 			"id": "935252d6-9d74-4f35-8a55-42edf31e8e6e",
@@ -7834,7 +8116,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e334"
 		},
 		{
 			"id": "f7a93397-7984-45bc-9d87-40495dad89ec",
@@ -7870,7 +8153,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e335"
 		},
 		{
 			"id": "ed4e137f-f1e2-4ec9-ad1f-fd5b4e49b361",
@@ -7906,7 +8190,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e336"
 		},
 		{
 			"id": "647547c5-cf84-48af-ad67-e2d1dd5c82ab",
@@ -7936,53 +8221,20 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e337"
 		},
 		{
 			"id": "5a7232cb-b6a0-485a-a03e-a77cd087d28d",
 			"effectName": "Priority Progress",
-			"effectDetails": "<p>After dealing damage with an active attack, applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0] to a random enemy target, prioritizing targets with the fewest stacks of [effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0]. Cannot be cleansed.</p>",
+			"effectDetails": "<p>After dealing damage with an active attack, the inflictor applies <span style=\"color:#f26c1c;\">1 stack</span> of <span style=\"color:#3487e0;\">[effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0]</span> to a random enemy target, prioritizing targets with the fewest <span style=\"color:#3487e0;\">[effect:b1f656db-5ccb-424b-b6d9-d7ac75ae77c0]</span> stacks. This effect cannot be cleansed.</p>",
 			"effectTags": [],
 			"dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
 			"preview": false,
 			"regionTag": "cn",
 			"createdAt": "2025-12-10T00:04:46.053Z",
-			"updatedAt": "2026-06-21T01:48:33.038Z",
-			"doll": {
-				"id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
-				"name": "Harpsy",
-				"rarity": "Elite",
-				"preview": false,
-				"avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
-				"createdAt": "2025-12-02T03:08:54.041Z",
-				"regionTag": "cn",
-				"updatedAt": "2026-06-12T22:28:59.077Z",
-				"dollImages": [
-					{
-						"id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
-						"category": "Chibi",
-						"imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
-						"alt": null
-					}
-				],
-				"searchTags": [
-					{
-						"searchTag": {
-							"name": "TMP"
-						}
-					},
-					{
-						"searchTag": {
-							"name": "cat"
-						}
-					},
-					{
-						"searchTag": {
-							"name": "Steyr TMP"
-						}
-					}
-				]
-			}
+			"updatedAt": "2025-12-14T05:49:17.891Z",
+			"shortId": "e338"
 		},
 		{
 			"id": "b8ba31f9-00ec-4885-bba4-5500ba74551d",
@@ -7994,7 +8246,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-05-15T21:14:19.652Z",
 			"updatedAt": "2026-05-15T21:23:12.728Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e339"
 		},
 		{
 			"id": "a3c3e7a1-4b80-4255-a11d-f116ac7ae200",
@@ -8024,7 +8277,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e340"
 		},
 		{
 			"id": "b181de3c-899a-4168-b4df-b28850410645",
@@ -8054,7 +8308,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e341"
 		},
 		{
 			"id": "e24a5359-5cc2-4750-b4e0-04a8d6a60de1",
@@ -8066,7 +8321,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-07T15:30:59.064Z",
 			"updatedAt": "2025-12-07T15:30:59.064Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e342"
 		},
 		{
 			"id": "af640815-bbef-471b-8888-cee6c3d8b4a4",
@@ -8078,7 +8334,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-18T03:31:08.605Z",
 			"updatedAt": "2025-11-03T15:27:49.287Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e343"
 		},
 		{
 			"id": "7015a329-059f-429d-a89b-beda8da2c458",
@@ -8090,7 +8347,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-07T15:20:39.487Z",
 			"updatedAt": "2025-12-07T15:20:39.487Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e344"
 		},
 		{
 			"id": "fee45e03-1dec-413e-9761-c9ff2fbd7666",
@@ -8102,7 +8360,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-07T15:23:39.553Z",
 			"updatedAt": "2025-12-07T15:23:39.553Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e345"
 		},
 		{
 			"id": "ee3d831c-aafc-41e8-9534-81499f02153f",
@@ -8138,7 +8397,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e346"
 		},
 		{
 			"id": "69b91b17-7230-4615-8a66-2f658e799a03",
@@ -8150,7 +8410,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-04-10T15:06:42.602Z",
 			"updatedAt": "2026-04-10T15:11:02.671Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e347"
 		},
 		{
 			"id": "18f30569-099d-4799-bc22-f9b4a15829bf",
@@ -8162,37 +8423,36 @@
 			"regionTag": "en",
 			"createdAt": "2026-04-10T15:10:23.414Z",
 			"updatedAt": "2026-04-10T15:10:23.414Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e348"
 		},
 		{
 			"id": "20602294-94fc-446a-b419-20843958e9f7",
 			"effectName": "Ranger Mk.II",
-			"effectDetails": "{\"mainDetails\":\"<p>On summon, gain <span style=\\\"color: rgb(243, 109, 28);\\\">8 stacks</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and apply [effect:20d3df91-9294-4d19-9321-de5f076bd69e] to all allied units for <span style=\\\"color: rgb(243, 109, 28);\\\">3 rounds</span>.</p><p>When Loreley ends her action, she triggers [effect:87ed26d0-abc6-4da1-a98e-7c555c32a6b8].</p><p>All enemy units with a <span style=\\\"color: rgb(243, 109, 28);\\\">5-tile</span> radius take <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span> increased <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span>.</p>\",\"upgrades\":[{\"id\":\"cf680d80-f469-4e4d-9e49-1a959505c3ba\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>On summon, gain <span style=\\\"color: rgb(243, 109, 28);\\\">8 stacks</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and apply [effect:20d3df91-9294-4d19-9321-de5f076bd69e] to all allied units for <span style=\\\"color: rgb(243, 109, 28);\\\">3 rounds</span>.</p><p>When Loreley uses her basic attack, active skill, or ends her action, she triggers [effect:87ed26d0-abc6-4da1-a98e-7c555c32a6b8].</p><p>All enemy units with a <span style=\\\"color: rgb(243, 109, 28);\\\">5-tile</span> radius take <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span> increased <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span>.</p>\",\"order\":0},{\"id\":\"e2b192ae-cd89-4b11-992f-582a7c6e5523\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>On summon, gain <span style=\\\"color: rgb(243, 109, 28);\\\">12 stacks</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and apply [effect:20d3df91-9294-4d19-9321-de5f076bd69e] to all allied units for <span style=\\\"color: rgb(243, 109, 28);\\\">3 rounds</span>.</p><p>When Loreley uses her basic attack, active skill, or ends her action, she triggers [effect:87ed26d0-abc6-4da1-a98e-7c555c32a6b8].</p><p>All enemy units with a <span style=\\\"color: rgb(243, 109, 28);\\\">5-tile</span> radius take <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span> increased <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span>.</p>\",\"order\":1}]}",
+			"effectDetails": {
+				"mainDetails": "<p>Upon spawning, gains <span style=\"color: rgb(243, 109, 28);\">8 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and applies [effect:20d3df91-9294-4d19-9321-de5f076bd69e] to all allied units for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>.</p><p>At the end of Loreley's action, releases [effect:87ed26d0-abc6-4da1-a98e-7c555c32a6b8].</p><p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span> taken by all enemy units <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+				"upgrades": [
+					{
+						"id": "cf680d80-f469-4e4d-9e49-1a959505c3ba",
+						"upgradeName": "V1",
+						"upgradeDetails": "<p>Upon spawning, gains <span style=\"color: rgb(243, 109, 28);\">8 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and applies [effect:20d3df91-9294-4d19-9321-de5f076bd69e] to all allied units for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>.</p><p>. After Loreley uses a basic attack, an active skill, or ends her turn, releases [effect:87ed26d0-abc6-4da1-a98e-7c555c32a6b8].</p><p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span> taken by all enemy units <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+						"order": 0
+					},
+					{
+						"id": "e2b192ae-cd89-4b11-992f-582a7c6e5523",
+						"upgradeName": "V3",
+						"upgradeDetails": "<p>Upon spawning, gains <span style=\"color: rgb(243, 109, 28);\">12 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and applies [effect:20d3df91-9294-4d19-9321-de5f076bd69e] to all allied units for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>.</p><p>. After Loreley uses a basic attack, an active skill, or ends her turn, releases [effect:87ed26d0-abc6-4da1-a98e-7c555c32a6b8].</p><p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span> taken by all enemy units <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+						"order": 1
+					}
+				]
+			},
 			"effectTags": ["Burn"],
 			"dollId": "a32d9966-d511-4433-938b-4022af67268b",
 			"preview": false,
 			"regionTag": "cn",
 			"createdAt": "2025-12-02T00:04:35.209Z",
-			"updatedAt": "2026-06-18T03:52:56.520Z",
-			"doll": {
-				"id": "a32d9966-d511-4433-938b-4022af67268b",
-				"name": "Loreley",
-				"rarity": "Elite",
-				"preview": false,
-				"avatarUrl": "https://cdn.dandegate.net/dolls/loreley/21e484b7c3e564041cd34c6cd70ee7d2fc5a2b85fd71339b2092f9ff9ddddd5f.webp",
-				"createdAt": "2025-12-01T22:54:05.266Z",
-				"regionTag": "cn",
-				"updatedAt": "2026-06-12T22:28:25.822Z",
-				"dollImages": [
-					{
-						"id": "abf1ee23-44ac-4961-8d74-4b2a0c9ba5c2",
-						"category": "Chibi",
-						"imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/8fcc492f89048d76367ecc33a4bed0f8e518d90d0fa84638caab1d48bdd0c618.webp",
-						"alt": null
-					}
-				],
-				"searchTags": []
-			}
+			"updatedAt": "2025-12-14T05:47:42.964Z",
+			"shortId": "e349"
 		},
 		{
 			"id": "8342fdb5-55bd-47b6-b2a1-04b184d2b289",
@@ -8222,7 +8482,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e350"
 		},
 		{
 			"id": "f9c50d26-807b-4f80-a636-5f13ae7097aa",
@@ -8258,7 +8519,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e351"
 		},
 		{
 			"id": "2bd14a16-a464-4fa3-a913-9843966c36a1",
@@ -8270,7 +8532,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:17.870Z",
 			"updatedAt": "2025-11-16T15:27:08.384Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e352"
 		},
 		{
 			"id": "6548fcaa-7852-4083-92c8-1cfde81baae8",
@@ -8311,7 +8574,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e353"
 		},
 		{
 			"id": "4ea1e0c8-2501-4711-a28e-7d9f45263d86",
@@ -8352,7 +8616,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e354"
 		},
 		{
 			"id": "355a0600-b456-4cde-8206-a2bc050b4fda",
@@ -8393,7 +8658,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e355"
 		},
 		{
 			"id": "5b9457f8-3280-46da-b81f-e531990d881a",
@@ -8434,7 +8700,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e356"
 		},
 		{
 			"id": "5848c35f-2bb6-4a6b-bcaa-330cb1cfbd92",
@@ -8475,7 +8742,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e357"
 		},
 		{
 			"id": "b013dadc-e2ff-4f96-8fee-fcd2898cf38b",
@@ -8516,7 +8784,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e358"
 		},
 		{
 			"id": "df8964b6-4459-400e-8c55-a3eb865037f7",
@@ -8528,53 +8797,20 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:18.005Z",
 			"updatedAt": "2025-11-15T19:56:18.005Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e359"
 		},
 		{
 			"id": "4ee67890-3dba-4901-8dc0-136ff36c5d67",
-			"effectName": "Regression",
-			"effectDetails": "<p>Active skill and basic attack range reduced by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p>",
+			"effectName": "Retrograde",
+			"effectDetails": "<p>The range of active skills and basic attacks is reduced by <span style=\"color:#f26c1c;\">2 tiles</span>.</p>",
 			"effectTags": [],
 			"dollId": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
 			"preview": false,
 			"regionTag": "cn",
 			"createdAt": "2025-12-03T03:27:52.891Z",
 			"updatedAt": "2025-12-14T05:49:28.365Z",
-			"doll": {
-				"id": "9fb9558c-8962-4e6b-bbc3-e9b7e15b2826",
-				"name": "Harpsy",
-				"rarity": "Elite",
-				"preview": false,
-				"avatarUrl": "https://cdn.dandegate.net/dolls/harpsy/a5cc3c202a2044c88b60b2f6189ed556fff5b52d0810aee05834379c29e39152.webp",
-				"createdAt": "2025-12-02T03:08:54.041Z",
-				"regionTag": "cn",
-				"updatedAt": "2026-06-12T22:28:59.077Z",
-				"dollImages": [
-					{
-						"id": "a5e1dbd6-0034-4285-b992-9612fe48ec2f",
-						"category": "Chibi",
-						"imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/6d5e2ba52bbe2210be8bcfcd48154488ff9cf015fcafccf16e90492637fa0729.webp",
-						"alt": null
-					}
-				],
-				"searchTags": [
-					{
-						"searchTag": {
-							"name": "TMP"
-						}
-					},
-					{
-						"searchTag": {
-							"name": "cat"
-						}
-					},
-					{
-						"searchTag": {
-							"name": "Steyr TMP"
-						}
-					}
-				]
-			}
+			"shortId": "e360"
 		},
 		{
 			"id": "83463dac-b59a-4e59-8eeb-03671d848e5b",
@@ -8586,7 +8822,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:18.230Z",
 			"updatedAt": "2025-11-15T19:56:18.230Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e361"
 		},
 		{
 			"id": "a57e887b-3239-4e4a-b98b-acac40af7098",
@@ -8598,7 +8835,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-05-15T21:14:19.938Z",
 			"updatedAt": "2026-05-15T21:21:23.358Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e362"
 		},
 		{
 			"id": "f502fa4a-a0db-4f3a-8b8e-37b65345be0b",
@@ -8634,7 +8872,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e363"
 		},
 		{
 			"id": "a28e7dac-cdbd-4b37-960a-a32e21096a09",
@@ -8670,7 +8909,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e364"
 		},
 		{
 			"id": "fd22c3b2-fa93-4de0-8b60-62e042e762b9",
@@ -8682,7 +8922,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:44.253Z",
 			"updatedAt": "2026-05-28T12:19:02.872Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e365"
 		},
 		{
 			"id": "6bfceb2d-b44d-488b-a89c-69c40ae2265e",
@@ -8694,7 +8935,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:44.414Z",
 			"updatedAt": "2026-05-28T12:19:20.977Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e366"
 		},
 		{
 			"id": "99ab7344-8885-4b09-b1fd-201772d3e581",
@@ -8706,7 +8948,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:44.567Z",
 			"updatedAt": "2026-05-26T17:29:03.022Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e367"
 		},
 		{
 			"id": "924874ba-ccc3-4209-a222-6fe41635748a",
@@ -8747,7 +8990,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e368"
 		},
 		{
 			"id": "111861b3-c5e8-49d2-bc9d-b4044ab5945e",
@@ -8759,7 +9003,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-26T06:00:42.088Z",
 			"updatedAt": "2026-03-19T14:39:27.878Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e369"
 		},
 		{
 			"id": "f65c90b8-8093-4c9e-8170-287a21aef0ce",
@@ -8771,7 +9016,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-31T15:24:53.320Z",
 			"updatedAt": "2025-12-31T15:24:53.320Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e370"
 		},
 		{
 			"id": "9c26ecbd-4fcd-404f-a39f-66a034075984",
@@ -8783,7 +9029,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-31T15:26:56.356Z",
 			"updatedAt": "2025-12-31T15:26:56.356Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e371"
 		},
 		{
 			"id": "1d388b91-7f8d-41d9-89c7-721aa7889971",
@@ -8795,7 +9042,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-31T15:28:17.924Z",
 			"updatedAt": "2025-12-31T15:28:17.924Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e372"
 		},
 		{
 			"id": "e6969c33-8cec-4590-9a7d-9b3049ca93e3",
@@ -8825,7 +9073,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e373"
 		},
 		{
 			"id": "3c0b8633-9460-4a75-9819-6bfd68888055",
@@ -8837,7 +9086,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T20:45:17.910Z",
 			"updatedAt": "2025-11-15T20:45:17.910Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e374"
 		},
 		{
 			"id": "660c92dd-dec8-4af3-be94-58719ddda413",
@@ -8867,7 +9117,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e375"
 		},
 		{
 			"id": "633a31d3-52cd-4845-9247-e1c9ab33c922",
@@ -8908,7 +9159,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e376"
 		},
 		{
 			"id": "4124c180-d639-43a1-ac57-f5c2bac9486b",
@@ -8920,7 +9172,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:18.600Z",
 			"updatedAt": "2025-11-15T19:56:18.600Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e377"
 		},
 		{
 			"id": "0a1bc301-451f-4d99-86cd-d1c1969c1cb1",
@@ -8950,7 +9203,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e378"
 		},
 		{
 			"id": "a485d8e2-033a-4474-983a-2db5fac82ddf",
@@ -8991,7 +9245,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e379"
 		},
 		{
 			"id": "6c4e95e3-e6c0-443e-aef1-392b1677d5a2",
@@ -9021,7 +9276,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e380"
 		},
 		{
 			"id": "c7f1c5d8-64f2-409c-ac0e-975b1e094f1b",
@@ -9051,7 +9307,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e381"
 		},
 		{
 			"id": "543ba283-b560-464a-832c-74635db21b6a",
@@ -9063,7 +9320,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-14T15:17:59.158Z",
 			"updatedAt": "2026-03-14T15:17:59.158Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e382"
 		},
 		{
 			"id": "119105e8-f821-47a0-a1ce-b6169bb261b7",
@@ -9104,37 +9362,30 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e383"
 		},
 		{
 			"id": "20d3df91-9294-4d19-9321-de5f076bd69e",
-			"effectName": "Scorchflame",
-			"effectDetails": "{\"mainDetails\":\"<p>Attack is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">6%</span>. Considered a burn buff, cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"ec6f4fd4-f804-4d34-a046-80ac50b93658\",\"upgradeName\":\"V6\",\"upgradeDetails\":\"<p>Attack is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">12%</span>. Considered a burn buff, cannot be cleansed.</p>\",\"order\":0}]}",
+			"effectName": "Burning Tide",
+			"effectDetails": {
+				"mainDetails": "<p>Attack is increased by <span style=\"color:#f26c1c;\">6%</span>. Considered a Burn buff, cannot be cleansed.</p>",
+				"upgrades": [
+					{
+						"id": "ec6f4fd4-f804-4d34-a046-80ac50b93658",
+						"upgradeName": "V6",
+						"upgradeDetails": "<p>Attack is increased by <span style=\"color:#f26c1c;\">12%</span>. Considered a Burn buff, cannot be cleansed.</p>",
+						"order": 0
+					}
+				]
+			},
 			"effectTags": ["Buff", "Burn"],
 			"dollId": "a32d9966-d511-4433-938b-4022af67268b",
 			"preview": false,
 			"regionTag": "cn",
 			"createdAt": "2025-12-01T23:44:37.555Z",
 			"updatedAt": "2025-12-14T05:49:41.027Z",
-			"doll": {
-				"id": "a32d9966-d511-4433-938b-4022af67268b",
-				"name": "Loreley",
-				"rarity": "Elite",
-				"preview": false,
-				"avatarUrl": "https://cdn.dandegate.net/dolls/loreley/21e484b7c3e564041cd34c6cd70ee7d2fc5a2b85fd71339b2092f9ff9ddddd5f.webp",
-				"createdAt": "2025-12-01T22:54:05.266Z",
-				"regionTag": "cn",
-				"updatedAt": "2026-06-12T22:28:25.822Z",
-				"dollImages": [
-					{
-						"id": "abf1ee23-44ac-4961-8d74-4b2a0c9ba5c2",
-						"category": "Chibi",
-						"imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/8fcc492f89048d76367ecc33a4bed0f8e518d90d0fa84638caab1d48bdd0c618.webp",
-						"alt": null
-					}
-				],
-				"searchTags": []
-			}
+			"shortId": "e384"
 		},
 		{
 			"id": "91995c79-f0ef-4776-841b-87dc9ddf624a",
@@ -9175,7 +9426,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e385"
 		},
 		{
 			"id": "d15b5821-0880-4d68-a42d-95c3c38c86d2",
@@ -9221,19 +9473,20 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e386"
 		},
 		{
 			"id": "9f893006-1231-4255-b5c9-9a373aa441a2",
 			"effectName": "Searing Flame",
 			"effectDetails": "<p>Charges up [effect:137fa391-c1aa-4777-bb43-278f788a6aac].</p>",
 			"effectTags": [],
-			"dollId": null,
+			"dollId": "a32d9966-d511-4433-938b-4022af67268b",
 			"preview": false,
 			"regionTag": "en",
 			"createdAt": "2025-10-05T20:11:36.809Z",
 			"updatedAt": "2026-02-19T05:04:46.811Z",
-			"doll": null
+			"shortId": "e387"
 		},
 		{
 			"id": "f4e799b0-6f27-478b-8323-2524fe3a7b2d",
@@ -9263,7 +9516,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e388"
 		},
 		{
 			"id": "908ec419-871d-4297-bbb8-e12e4b46d7f9",
@@ -9299,7 +9553,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e389"
 		},
 		{
 			"id": "86f58c59-130f-43b4-a94a-36c572b371ea",
@@ -9335,7 +9590,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e390"
 		},
 		{
 			"id": "291a7e8f-b451-4f1f-a854-51731731cfee",
@@ -9347,7 +9603,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-05-15T21:14:20.192Z",
 			"updatedAt": "2026-05-15T21:22:49.800Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e391"
 		},
 		{
 			"id": "58b037ca-2154-420f-9920-f3716e8f0202",
@@ -9383,7 +9640,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e392"
 		},
 		{
 			"id": "71bb1ac2-abda-4053-b8c1-9a67fb40dca2",
@@ -9413,7 +9671,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e393"
 		},
 		{
 			"id": "4f47052f-2256-4f92-ac11-121ea39d024d",
@@ -9449,7 +9708,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e394"
 		},
 		{
 			"id": "1c52541a-c6f4-4ee3-8eba-42226acc96e1",
@@ -9479,7 +9739,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e395"
 		},
 		{
 			"id": "b80c5748-34ba-4c61-99fa-fbcaacc46074",
@@ -9491,7 +9752,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-01-09T02:19:58.515Z",
 			"updatedAt": "2026-01-09T02:26:41.874Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e396"
 		},
 		{
 			"id": "79b35073-9f59-424e-ae5b-f60cbc6d7659",
@@ -9521,7 +9783,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e397"
 		},
 		{
 			"id": "8356c5aa-327e-4d84-8d55-fd91783b5833",
@@ -9533,7 +9796,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-02-04T06:57:04.068Z",
 			"updatedAt": "2026-02-04T06:57:04.068Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e398"
 		},
 		{
 			"id": "10b11942-01c9-4937-b446-1fe44c50d88a",
@@ -9545,7 +9809,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-17T18:39:27.216Z",
 			"updatedAt": "2025-11-03T15:16:50.856Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e399"
 		},
 		{
 			"id": "4b58c8fc-c426-4b72-91e5-92dfb9e5a600",
@@ -9557,7 +9822,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-20T19:18:04.645Z",
 			"updatedAt": "2025-10-14T07:07:20.275Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e400"
 		},
 		{
 			"id": "82ff98b1-d7cc-426b-9cdd-9285847ee86b",
@@ -9593,7 +9859,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e401"
 		},
 		{
 			"id": "6d003257-ef97-4bc2-9bc5-7353dc53c2b5",
@@ -9623,7 +9890,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e402"
 		},
 		{
 			"id": "ed6c2f95-92de-4552-b995-6790d7323cd3",
@@ -9635,7 +9903,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:18.746Z",
 			"updatedAt": "2025-11-15T19:56:18.746Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e403"
 		},
 		{
 			"id": "1077ab8d-649b-442f-8113-31595c3b880b",
@@ -9647,7 +9916,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:18.895Z",
 			"updatedAt": "2025-11-15T19:56:18.895Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e404"
 		},
 		{
 			"id": "37a286a9-7c54-4759-bb6c-65df053319db",
@@ -9659,7 +9929,8 @@
 			"regionTag": "cn",
 			"createdAt": "2026-04-03T21:25:47.073Z",
 			"updatedAt": "2026-04-03T21:44:41.140Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e405"
 		},
 		{
 			"id": "86df9e08-87f8-43b3-8171-c1f0d49ba247",
@@ -9689,7 +9960,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e406"
 		},
 		{
 			"id": "f2f9fbf4-47f5-44a7-b903-858ac7227b3e",
@@ -9719,7 +9991,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e407"
 		},
 		{
 			"id": "31f32341-4599-4652-b094-4a87b31eddde",
@@ -9755,7 +10028,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e408"
 		},
 		{
 			"id": "6138d093-4e9f-4fb9-9d2d-f00a1d9e1f85",
@@ -9791,7 +10065,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e409"
 		},
 		{
 			"id": "979e032e-adde-4d68-a1b8-77386c86901e",
@@ -9821,7 +10096,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e410"
 		},
 		{
 			"id": "1239fa68-f985-45e8-b24b-927ff976cb3c",
@@ -9833,7 +10109,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:19.322Z",
 			"updatedAt": "2025-11-15T19:56:19.322Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e411"
 		},
 		{
 			"id": "1ec58298-1452-4048-b00e-68b74e719e11",
@@ -9863,7 +10140,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e412"
 		},
 		{
 			"id": "dddd43cc-bb58-46d0-9834-27523191d57a",
@@ -9893,7 +10171,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e413"
 		},
 		{
 			"id": "659c57a9-357a-4374-9cd4-f62ea54e0a35",
@@ -9905,7 +10184,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-13T08:01:40.736Z",
 			"updatedAt": "2025-11-03T15:49:58.855Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e414"
 		},
 		{
 			"id": "53f1c900-e916-4741-b57f-2e2fe86c3451",
@@ -9917,7 +10197,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:19.483Z",
 			"updatedAt": "2025-11-15T19:56:19.483Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e415"
 		},
 		{
 			"id": "0bba4363-539e-46a0-b0be-4b5041c9a55a",
@@ -9963,7 +10244,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e416"
 		},
 		{
 			"id": "c2deeb0f-9a06-4ad2-b394-61b13e0e912a",
@@ -9975,7 +10257,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:19.638Z",
 			"updatedAt": "2025-11-15T19:56:19.638Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e417"
 		},
 		{
 			"id": "99fcf142-ddcb-4427-9709-4743c8e1daaf",
@@ -9987,7 +10270,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T20:45:18.836Z",
 			"updatedAt": "2025-11-15T20:45:18.836Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e418"
 		},
 		{
 			"id": "1e0dd817-2d72-4a4a-98d5-4acd6e11b8e5",
@@ -9999,7 +10283,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-23T22:41:25.298Z",
 			"updatedAt": "2025-11-03T15:50:27.020Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e419"
 		},
 		{
 			"id": "b9073189-1cd1-448b-a919-1643318ef423",
@@ -10011,7 +10296,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-02T00:39:23.046Z",
 			"updatedAt": "2026-05-03T03:47:58.362Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e420"
 		},
 		{
 			"id": "cf59f913-f165-4a7e-bbc4-32bdcd2e8570",
@@ -10023,7 +10309,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-26T17:02:37.728Z",
 			"updatedAt": "2025-11-03T15:51:31.358Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e421"
 		},
 		{
 			"id": "4bb0f99c-7615-40a5-838a-ceff0e4b57a2",
@@ -10035,7 +10322,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-24T02:26:35.297Z",
 			"updatedAt": "2025-11-03T15:51:47.654Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e422"
 		},
 		{
 			"id": "2d93b666-7349-4094-bc7a-6e22b8e76a1a",
@@ -10071,7 +10359,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e423"
 		},
 		{
 			"id": "909a9280-6906-46f0-aae4-5b57ba14ef8d",
@@ -10117,7 +10406,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e424"
 		},
 		{
 			"id": "95c9054f-2e98-4da2-bedd-c87f748d1b59",
@@ -10147,7 +10437,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e425"
 		},
 		{
 			"id": "bf6a0f32-41d4-476f-baa0-79e0728f0564",
@@ -10183,7 +10474,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e426"
 		},
 		{
 			"id": "8a2f2d51-5a66-4101-b628-ef10d7ba2a1d",
@@ -10219,7 +10511,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e427"
 		},
 		{
 			"id": "5aaa5980-a481-4e7b-bf75-cf6a18e950cf",
@@ -10255,7 +10548,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e428"
 		},
 		{
 			"id": "63ac9c84-5a40-460c-ab38-8c959e608e6e",
@@ -10301,7 +10595,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e429"
 		},
 		{
 			"id": "fb3c3c78-49c8-47d7-b732-49069cf4a990",
@@ -10337,7 +10632,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e430"
 		},
 		{
 			"id": "dd0752a2-37c4-47ba-91ad-2dc640d2372b",
@@ -10349,7 +10645,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-18T03:49:59.941Z",
 			"updatedAt": "2025-11-03T15:54:17.616Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e431"
 		},
 		{
 			"id": "46f8c242-d465-4bd2-b5ae-aa9543342fc3",
@@ -10385,7 +10682,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e432"
 		},
 		{
 			"id": "1e13643b-d0e3-4e67-a86f-cd08221264f2",
@@ -10421,7 +10719,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e433"
 		},
 		{
 			"id": "8317874b-7392-446b-80a8-c2fb66f5d57c",
@@ -10457,7 +10756,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e434"
 		},
 		{
 			"id": "4ae27df6-1cae-453d-a5b5-84d769aa40f1",
@@ -10493,7 +10793,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e435"
 		},
 		{
 			"id": "2019d2c7-d87d-4bf7-bcff-f8483c52c666",
@@ -10505,7 +10806,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-30T16:12:06.768Z",
 			"updatedAt": "2025-12-30T16:12:06.768Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e436"
 		},
 		{
 			"id": "2fa0814b-b365-46e5-8e49-39db6e7d5f72",
@@ -10517,7 +10819,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-24T01:53:09.807Z",
 			"updatedAt": "2025-09-24T01:53:09.807Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e437"
 		},
 		{
 			"id": "ab2e634f-d257-44e3-af90-ce66a6ac43f3",
@@ -10529,7 +10832,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-11T00:08:04.163Z",
 			"updatedAt": "2025-09-11T00:08:04.163Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e438"
 		},
 		{
 			"id": "e1d78dfe-8609-4ee8-a770-ac155116bff3",
@@ -10575,7 +10879,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e439"
 		},
 		{
 			"id": "faecc72a-efdd-48e7-a947-60d52f647024",
@@ -10621,7 +10926,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e440"
 		},
 		{
 			"id": "9ee6cd53-8f15-4132-ab35-e093ee922442",
@@ -10633,7 +10939,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:46.299Z",
 			"updatedAt": "2026-05-28T12:35:18.723Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e441"
 		},
 		{
 			"id": "2778c315-3041-491e-9fa6-9e2b50ce4a87",
@@ -10645,7 +10952,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-01-09T02:19:59.487Z",
 			"updatedAt": "2026-01-09T02:19:59.487Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e442"
 		},
 		{
 			"id": "687eccbd-8360-49bd-ad45-861cd32bf364",
@@ -10675,7 +10983,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e443"
 		},
 		{
 			"id": "58559abc-4021-4804-8314-2e8d02bf5b3c",
@@ -10687,7 +10996,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-29T05:23:12.169Z",
 			"updatedAt": "2025-11-29T05:23:12.169Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e444"
 		},
 		{
 			"id": "cc6000ce-bf03-4104-9774-c95af70cd4c7",
@@ -10699,7 +11009,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-10-14T05:26:56.273Z",
 			"updatedAt": "2025-11-03T15:58:13.466Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e445"
 		},
 		{
 			"id": "e0dbfa33-a7ac-440b-9dc3-24033bec351f",
@@ -10711,7 +11022,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-24T06:30:06.131Z",
 			"updatedAt": "2025-11-03T15:58:29.654Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e446"
 		},
 		{
 			"id": "605469b0-839e-45ea-bbda-bf78fcf3d3f2",
@@ -10723,7 +11035,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-26T01:33:48.316Z",
 			"updatedAt": "2025-11-03T15:59:40.731Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e447"
 		},
 		{
 			"id": "744ff25d-8d84-41ee-803d-1dfdbe411330",
@@ -10735,7 +11048,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-26T01:35:24.599Z",
 			"updatedAt": "2025-11-03T15:59:55.935Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e448"
 		},
 		{
 			"id": "72babdbb-4889-4adb-a6f1-0ec11dbba1eb",
@@ -10765,7 +11079,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e449"
 		},
 		{
 			"id": "fadf4f3f-2810-49f0-b947-6d683741429d",
@@ -10777,7 +11092,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-17T18:35:26.444Z",
 			"updatedAt": "2025-11-03T16:00:56.734Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e450"
 		},
 		{
 			"id": "8447f944-c8de-4724-8c9c-eb817cd65728",
@@ -10789,7 +11105,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:19.911Z",
 			"updatedAt": "2025-11-15T19:56:19.911Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e451"
 		},
 		{
 			"id": "e814390a-f8b2-4fde-b549-c99fde7660f8",
@@ -10825,7 +11142,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e452"
 		},
 		{
 			"id": "877c1014-ebcd-4000-b948-bad2c4acd810",
@@ -10855,7 +11173,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e453"
 		},
 		{
 			"id": "63321c15-e270-4678-9dbc-9a4a42ce0a37",
@@ -10867,7 +11186,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:46.597Z",
 			"updatedAt": "2026-05-28T12:29:28.042Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e454"
 		},
 		{
 			"id": "1d04d8f1-b425-445d-a71b-5773aedb356c",
@@ -10879,19 +11199,20 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:46.745Z",
 			"updatedAt": "2026-05-28T12:29:39.968Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e455"
 		},
 		{
 			"id": "137fa391-c1aa-4777-bb43-278f788a6aac",
 			"effectName": "Thermal Conduction",
-			"effectDetails": "<p>Accumulates [effect:9f893006-1231-4255-b5c9-9a373aa441a2|doll:lewis] to charge up. Once [effect:9f893006-1231-4255-b5c9-9a373aa441a2|doll:lewis] reaches <span style=\"color: rgb(243, 109, 28);\">35 points</span>, consumes all points of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and grants all allied Dolls [effect:27d1b457-e6a0-4327-9ee5-777be0028c79] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+			"effectDetails": "<p>Accumulates [effect:9f893006-1231-4255-b5c9-9a373aa441a2] to charge up. Once [effect:9f893006-1231-4255-b5c9-9a373aa441a2] reaches <span style=\"color: rgb(243, 109, 28);\">35 points</span>, consumes all points of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and grants all allied Dolls [effect:27d1b457-e6a0-4327-9ee5-777be0028c79] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
 			"effectTags": [],
-			"dollId": null,
+			"dollId": "a32d9966-d511-4433-938b-4022af67268b",
 			"preview": false,
 			"regionTag": "en",
 			"createdAt": "2025-10-05T20:25:46.306Z",
 			"updatedAt": "2026-02-19T05:04:17.793Z",
-			"doll": null
+			"shortId": "e456"
 		},
 		{
 			"id": "5daaf7a7-a831-44dd-9e64-1db0da736e7c",
@@ -10937,7 +11258,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e457"
 		},
 		{
 			"id": "040c64ab-522d-4260-9665-203ef9abd5a4",
@@ -10949,7 +11271,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-30T15:49:17.590Z",
 			"updatedAt": "2025-12-30T15:49:17.590Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e458"
 		},
 		{
 			"id": "75b53edd-502e-4e09-bba0-49c2d73840ca",
@@ -10979,7 +11302,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e459"
 		},
 		{
 			"id": "de622e30-a69e-48f4-a4c2-2bc5aa6ab1b0",
@@ -11009,7 +11333,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e460"
 		},
 		{
 			"id": "970b7462-f3a4-4209-bf62-eeba12b64fde",
@@ -11021,7 +11346,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:46.870Z",
 			"updatedAt": "2026-05-28T12:34:23.632Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e461"
 		},
 		{
 			"id": "8b46588b-b67f-46cc-8322-bdb738c00bbe",
@@ -11033,7 +11359,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:47.013Z",
 			"updatedAt": "2026-05-28T12:34:15.239Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e462"
 		},
 		{
 			"id": "a7a2cc2b-3078-4d27-bafc-f20b389335c0",
@@ -11045,7 +11372,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-13T03:50:07.621Z",
 			"updatedAt": "2025-11-03T16:02:52.756Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e463"
 		},
 		{
 			"id": "ef73e84e-716c-41c9-a227-85593b33970c",
@@ -11075,7 +11403,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e464"
 		},
 		{
 			"id": "b41dd0eb-d3d4-400d-af35-b3a39f157c2e",
@@ -11105,7 +11434,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e465"
 		},
 		{
 			"id": "610dc13b-05b5-4d45-96ea-e295b85c1a6e",
@@ -11161,7 +11491,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e466"
 		},
 		{
 			"id": "1c5e2242-b8ce-41b6-934a-5779d82f6790",
@@ -11173,7 +11504,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-23T22:40:49.670Z",
 			"updatedAt": "2026-01-21T02:42:46.932Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e467"
 		},
 		{
 			"id": "58510661-8f45-4d0e-8a2b-3d31357deccf",
@@ -11185,7 +11517,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-23T22:38:22.307Z",
 			"updatedAt": "2026-02-11T00:20:43.818Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e468"
 		},
 		{
 			"id": "8b946893-0ec1-437f-a9ac-65c033df70e2",
@@ -11221,7 +11554,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e469"
 		},
 		{
 			"id": "63642b9a-435a-42d1-bbac-48dd4cbecb7e",
@@ -11233,7 +11567,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:20.048Z",
 			"updatedAt": "2025-11-15T19:56:20.048Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e470"
 		},
 		{
 			"id": "ddeb3124-75b2-409d-9f82-2c94a1011219",
@@ -11269,7 +11604,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e471"
 		},
 		{
 			"id": "4f2541d9-a69e-4988-90fd-d5fa6c80510f",
@@ -11305,7 +11641,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e472"
 		},
 		{
 			"id": "7b7dd458-c4f0-43c2-a196-0152518d5cf7",
@@ -11317,7 +11654,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-30T16:02:41.048Z",
 			"updatedAt": "2025-12-30T16:02:41.048Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e473"
 		},
 		{
 			"id": "f45c8569-cd27-4aa8-8b9d-33b973f2772f",
@@ -11353,7 +11691,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e474"
 		},
 		{
 			"id": "69241ffd-e05f-4f92-9936-c7202c908eaa",
@@ -11365,7 +11704,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-07T15:26:08.303Z",
 			"updatedAt": "2025-12-07T15:26:08.303Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e475"
 		},
 		{
 			"id": "e0cf0673-b846-4d38-b9ef-bd6caa00d807",
@@ -11377,7 +11717,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-05-15T21:31:29.772Z",
 			"updatedAt": "2026-05-15T21:31:37.481Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e476"
 		},
 		{
 			"id": "50b52244-8f12-4b40-88da-8b2c24498c4f",
@@ -11418,7 +11759,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e477"
 		},
 		{
 			"id": "90dff636-dae1-450d-81ac-d376a9105155",
@@ -11454,7 +11796,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e478"
 		},
 		{
 			"id": "94aa6093-db25-4628-b8fc-643d830de757",
@@ -11490,7 +11833,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e479"
 		},
 		{
 			"id": "ac2ec793-335a-41fb-9e4d-4a8709c6f484",
@@ -11520,7 +11864,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e480"
 		},
 		{
 			"id": "24bd3433-b247-4af8-8f95-2482125404d2",
@@ -11561,7 +11906,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e481"
 		},
 		{
 			"id": "91bbc334-b854-437f-9e8c-1b3208f2908f",
@@ -11591,7 +11937,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e482"
 		},
 		{
 			"id": "5f49f6a5-714f-4fe8-8aa9-045120842caf",
@@ -11603,7 +11950,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-03-21T20:50:47.462Z",
 			"updatedAt": "2026-05-28T12:34:53.446Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e483"
 		},
 		{
 			"id": "3b20ad47-0a62-419f-af97-31034f7283f6",
@@ -11644,7 +11992,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e484"
 		},
 		{
 			"id": "0650c1b5-4391-4985-916f-c47363843f36",
@@ -11680,7 +12029,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e485"
 		},
 		{
 			"id": "942a63fb-137d-43cb-8307-71645f9d79a4",
@@ -11710,7 +12060,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e486"
 		},
 		{
 			"id": "d63f94c1-d638-4437-8196-f9cb9705c834",
@@ -11722,7 +12073,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-25T06:53:28.069Z",
 			"updatedAt": "2025-11-03T16:10:20.637Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e487"
 		},
 		{
 			"id": "6e4bce1a-755f-41ae-8de8-2f71581991f4",
@@ -11768,7 +12120,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e488"
 		},
 		{
 			"id": "9800bd44-35ff-4dbf-8a30-6e344cbc99f4",
@@ -11780,7 +12133,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-30T16:00:21.332Z",
 			"updatedAt": "2025-12-30T16:00:21.332Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e489"
 		},
 		{
 			"id": "ddc8a8fc-047a-4b1a-9acf-7f40c5a152b1",
@@ -11810,7 +12164,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e490"
 		},
 		{
 			"id": "0b76cac3-8e34-4e32-98d8-d204e26522d7",
@@ -11822,7 +12177,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-17T05:06:54.834Z",
 			"updatedAt": "2025-11-03T16:11:12.716Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e491"
 		},
 		{
 			"id": "cc1ca7a9-6314-4501-86b9-4f88892c00a6",
@@ -11834,7 +12190,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-09-20T05:15:12.237Z",
 			"updatedAt": "2025-11-03T16:11:26.806Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e492"
 		},
 		{
 			"id": "cfeac20f-b148-4e08-bda4-66fb334e48c3",
@@ -11870,7 +12227,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e493"
 		},
 		{
 			"id": "089480d9-864e-47ff-a750-08dd03ab7ba4",
@@ -11900,7 +12258,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e494"
 		},
 		{
 			"id": "4931c58b-b5f5-4809-9e1c-85bffdd83902",
@@ -11912,7 +12271,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:20.199Z",
 			"updatedAt": "2025-11-15T19:56:20.199Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e495"
 		},
 		{
 			"id": "be37bec6-f951-4fa7-9887-7f800e2234c6",
@@ -11924,7 +12284,8 @@
 			"regionTag": "en",
 			"createdAt": "2026-02-18T15:07:43.359Z",
 			"updatedAt": "2026-02-18T15:07:43.359Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e496"
 		},
 		{
 			"id": "03c18c42-982e-4c69-a275-a0d2c21c9f2b",
@@ -11936,37 +12297,30 @@
 			"regionTag": "cn",
 			"createdAt": "2026-04-02T20:04:12.840Z",
 			"updatedAt": "2026-06-08T00:14:14.925Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e497"
 		},
 		{
 			"id": "87ed26d0-abc6-4da1-a98e-7c555c32a6b8",
 			"effectName": "Whippoorwill Pulse",
-			"effectDetails": "{\"mainDetails\":\"<p>Deals AoE <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">40%</span> of Loreley's attack to all enemies within a <span style=\\\"color: rgb(243, 109, 28);\\\">5-tile</span> radius. Cleanses <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> debuff from all allied units, restores <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span> of stability, and grants <span style=\\\"color: rgb(243, 109, 28);\\\">3 stacks</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2].</p>\",\"upgrades\":[{\"id\":\"33afb3d4-6cc4-40e9-a58e-f396b03800d7\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>Deals AoE <span style=\\\"color: rgb(237, 79, 18);\\\">Burn damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">80%</span> of Loreley's attack to all enemies within a <span style=\\\"color: rgb(243, 109, 28);\\\">5-tile</span> radius. Cleanses <span style=\\\"color: rgb(243, 109, 28);\\\">1</span> debuff from all allied units, restores <span style=\\\"color: rgb(243, 109, 28);\\\">2 points</span> of stability, and grants <span style=\\\"color: rgb(243, 109, 28);\\\">3 stacks</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2]. Each time this is triggered, increase the Loreley's damage by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span>, up to a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span>, and critical damage by <span style=\\\"color: rgb(243, 109, 28);\\\">2%</span>, up to a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">12%</span>.</p>\",\"order\":0}]}",
+			"effectDetails": {
+				"mainDetails": "<p>Deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">40%</span> of attack to all enemy units <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span>, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff from all allied units, restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability and grants <span style=\"color: rgb(243, 109, 28);\">3 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] to them.</p>",
+				"upgrades": [
+					{
+						"id": "33afb3d4-6cc4-40e9-a58e-f396b03800d7",
+						"upgradeName": "V3",
+						"upgradeDetails": "<p>Deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack to all enemy targets <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span>, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff from all allied units, restores <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability and grants <span style=\"color: rgb(243, 109, 28);\">3 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] to them. <span style=\"color:#f26c1c;\">Each time</span> this skill is used, Loreley's damage dealt is increased by <span style=\"color:#f26c1c;\">10%</span>, to a maximum of <span style=\"color:#f26c1c;\">60%</span> while critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">2%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">12%</span>.</p>",
+						"order": 0
+					}
+				]
+			},
 			"effectTags": [],
 			"dollId": "a32d9966-d511-4433-938b-4022af67268b",
 			"preview": false,
 			"regionTag": "cn",
 			"createdAt": "2025-12-02T00:01:11.266Z",
-			"updatedAt": "2026-06-19T03:05:32.170Z",
-			"doll": {
-				"id": "a32d9966-d511-4433-938b-4022af67268b",
-				"name": "Loreley",
-				"rarity": "Elite",
-				"preview": false,
-				"avatarUrl": "https://cdn.dandegate.net/dolls/loreley/21e484b7c3e564041cd34c6cd70ee7d2fc5a2b85fd71339b2092f9ff9ddddd5f.webp",
-				"createdAt": "2025-12-01T22:54:05.266Z",
-				"regionTag": "cn",
-				"updatedAt": "2026-06-12T22:28:25.822Z",
-				"dollImages": [
-					{
-						"id": "abf1ee23-44ac-4961-8d74-4b2a0c9ba5c2",
-						"category": "Chibi",
-						"imageUrl": "https://cdn.dandegate.net/doll-images/Chibi/8fcc492f89048d76367ecc33a4bed0f8e518d90d0fa84638caab1d48bdd0c618.webp",
-						"alt": null
-					}
-				],
-				"searchTags": []
-			}
+			"updatedAt": "2025-12-14T05:48:45.459Z",
+			"shortId": "e498"
 		},
 		{
 			"id": "73876bb7-ee48-40c2-b5c8-8722d06ce307",
@@ -11996,7 +12350,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e499"
 		},
 		{
 			"id": "3aecbbb8-730a-4139-a9a9-c5511641be7e",
@@ -12008,7 +12363,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-15T19:56:20.424Z",
 			"updatedAt": "2025-11-15T19:56:20.424Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e500"
 		},
 		{
 			"id": "2dec2f3a-2a07-466c-a7c1-79b4c2fb5c51",
@@ -12020,7 +12376,8 @@
 			"regionTag": "en",
 			"createdAt": "2025-12-30T15:57:17.092Z",
 			"updatedAt": "2025-12-30T15:57:17.092Z",
-			"doll": null
+			"doll": null,
+			"shortId": "e501"
 		},
 		{
 			"id": "a95df31c-e365-49b2-a8c9-5b4f697477a8",
@@ -12056,7 +12413,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e502"
 		},
 		{
 			"id": "4832fc30-ae79-484a-9d8d-3d68afb42154",
@@ -12086,7 +12444,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e503"
 		},
 		{
 			"id": "c52dd4f3-f7c2-4094-8689-0ad9704c8b09",
@@ -12127,7 +12486,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e504"
 		},
 		{
 			"id": "1eea564f-6f6c-4a60-945b-1c1fab44017d",
@@ -12168,7 +12528,8 @@
 						}
 					}
 				]
-			}
+			},
+			"shortId": "e505"
 		},
 		{
 			"id": "4aca66a4-3aff-4344-9130-f3c14b18f74a",
@@ -12198,7 +12559,8 @@
 					}
 				],
 				"searchTags": []
-			}
+			},
+			"shortId": "e506"
 		}
 	]
 }
