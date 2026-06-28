@@ -748,7 +748,33 @@
 				"skillsLevel4": null
 			}
 		],
-		"summons": [],
+		"summons": [
+			{
+				"id": "20602294-94fc-446a-b419-20843958e9f7",
+				"name": "Ranger Mk.II",
+				"imageUrl": "https://cdn.dandegate.net/skills/3a9955b44a2826261606a937d89d676ba637496e7963640f74f20c27ba682952.webp",
+				"phase": null,
+				"ammoTypes": [],
+				"createdAt": "2025-09-26T00:22:07.195Z",
+				"updatedAt": "2025-10-14T07:08:07.673Z",
+				"dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+				"skillOrder": [],
+				"level1": {
+					"stabilityGauge": 0,
+					"movement": 0,
+					"class": null,
+					"unitInfo": "<p>Upon spawning, gains <span style=\"color: rgb(243, 109, 28);\">8 points</span> of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and applies [effect:20d3df91-9294-4d19-9321-de5f076bd69e] to all allied units for <span style=\"color: rgb(243, 109, 28);\">3 rounds</span>.</p><p>At the end of Loreley's action, releases [effect:87ed26d0-abc6-4da1-a98e-7c555c32a6b8].</p><p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span> taken by all enemy units <span style=\"color: rgb(243, 109, 28);\">within 5 tiles</span> is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p>",
+					"hp": 50,
+					"atk": 50,
+					"def": 100
+				},
+				"level2": null,
+				"level3": null,
+				"level4": null,
+				"skills": [],
+				"shortId": "s12"
+			}
+		],
 		"remoldingPattern": {
 			"id": "b4421bba-40a5-43e6-9db2-943e28457118",
 			"dollId": "a32d9966-d511-4433-938b-4022af67268b",

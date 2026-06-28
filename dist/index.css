@@ -3378,13 +3378,6 @@ canvas {
 .doll-row.is-idle {
   transition: 0.25s ease transform;
 }
-.doll-row.is-idle .drag-grip {
-  cursor: grab;
-}
-.doll-row.is-draggable,
-.doll-row.is-draggable .drag-grip {
-  cursor: grabbing;
-}
 .doll-row.is-draggable {
   z-index: 10;
 }
