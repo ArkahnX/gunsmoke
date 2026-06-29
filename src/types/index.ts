@@ -86,7 +86,7 @@ export interface AppState {
 	/** @deprecated as of v8 */
 	actionType?: number | string;
 	map: string;
-	score:number;
+	score: number;
 	description: string;
 	buffs: string[];
 	skillDisplay: number[];

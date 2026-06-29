@@ -284,17 +284,14 @@ export function setBuffs(buffIds: string[]) {
 	saveToLocalStorage();
 }
 
-export function setDollKey(dollId: string, index: number, keyId: string | null) {
+export function setDollKeys(dollId: string, keys: string[]) {
 	if (!dollId) return;
 	setTempSelectedDolls(
 		produce((selectedDolls) => {
 			for (const doll of selectedDolls) {
 				if (doll.id === dollId) {
-					if (keyId === null) {
-						doll.keys[index] = "";
-					} else {
-						doll.keys[index] = keyId;
-					}
+					doll.keys.length = 0;
+					doll.keys.push(...keys);
 				}
 			}
 		})
@@ -541,7 +538,7 @@ export function displaySmallKeys(dollId: string, keys: string[]) {
 	const doll = getInfoFromId(dollId) as DollData | null;
 	if (!doll) return [];
 	const result = [];
-	const sortedKeys = sortEquippedKeys(dollId, keys);
+	const sortedKeys = sortDisplayEquippedKeys(dollId, keys);
 	for (const [index, keyType] of keyMapping.entries()) {
 		const keyInfo = sortedKeys[index];
 		if (keyType === "Expansion Key") result.push("=");
@@ -557,7 +554,62 @@ export function displaySmallKeys(dollId: string, keys: string[]) {
 	return result;
 }
 
-export function sortEquippedKeys(dollId: string, keys: string[]): (FixedKey | DetailedKey | null)[] {
+export function sortEquippedKeys(dollId: string, keys: string[]): string[] {
+	const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
+	const result = Array(keyMapping.length).fill("");
+	const doll = getInfoFromId(dollId) as DollData | null;
+	if (!doll) return result;
+	let fixedKeyIndex = keyMapping.indexOf("Fixed Key");
+	let commonKeyIndex = keyMapping.indexOf("Common Key");
+	const expansionKeyIndex = keyMapping.indexOf("Expansion Key");
+	const affinityKeyIndex = keyMapping.indexOf("Affinity Key");
+	for (const [index, keyType] of keyMapping.entries()) {
+		const keyId = keys[index] ?? "";
+		if (keyId === "") {
+			continue;
+		}
+		let keyInfo = getKeyFromId(dollId, keyId, doll);
+		if (keyInfo && keyInfo.type === "Fixed Key") {
+			result[fixedKeyIndex] = keyId;
+			fixedKeyIndex += 1;
+			continue;
+		} else if (keyInfo && keyInfo.type === "Common Key") {
+			result[commonKeyIndex] = keyId;
+			commonKeyIndex += 1;
+			continue;
+		} else if (keyInfo && keyInfo.type === "Affinity Key") {
+			result[affinityKeyIndex] = keyId;
+			continue;
+		} else if (keyInfo && keyInfo.type === "Expansion Key") {
+			result[expansionKeyIndex] = keyId;
+			continue;
+		} else {
+			console.error("Unable to find key", keyId, doll);
+		}
+	}
+	return result;
+}
+
+export function getPreSortedKeyInfo(dollId: string, keys: string[]): (FixedKey | DetailedKey | null)[] {
+	const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
+	const result = Array(keyMapping.length).fill(null);
+	const doll = getInfoFromId(dollId) as DollData | null;
+	if (!doll) return result;
+	for (const [index, keyId] of keys.entries()) {
+		if (keyId === "") {
+			continue;
+		}
+		let keyInfo = getKeyFromId(dollId, keyId, doll);
+		if (keyInfo) {
+			result[index] = keyInfo;
+		} else {
+			console.error("Unable to find key", keyId, doll);
+		}
+	}
+	return result;
+}
+
+export function sortDisplayEquippedKeys(dollId: string, keys: string[]): (FixedKey | DetailedKey | null)[] {
 	const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
 	const result = Array(keyMapping.length).fill(null);
 	const doll = getInfoFromId(dollId) as DollData | null;

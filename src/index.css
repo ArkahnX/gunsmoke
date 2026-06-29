@@ -38,11 +38,11 @@ canvas {
 	transition: 0.25s ease transform;
 }
 .doll-row.is-idle .drag-grip {
-	cursor: grab;
+	/*cursor: grab;*/
 }
 .doll-row.is-draggable,
 .doll-row.is-draggable .drag-grip {
-	cursor: grabbing;
+	/*cursor: grabbing;*/
 }
 
 .doll-row.is-draggable {
@@ -88,14 +88,14 @@ svg {
 
 .custom.solid-select-container {
 	color: #325563;
-	flex-grow:1;
+	flex-grow: 1;
 	text-align: center;
 }
 .custom .solid-select-control {
 	border: 2px solid #808284;
 }
 .custom .solid-select-control:hover {
-	outline:3px solid white;
+	outline: 3px solid white;
 	outline-offset: 0px;
 }
 
@@ -105,7 +105,7 @@ svg {
 .custom .solid-select-list {
 	background-color: #2a343a;
 	border-radius: 3px;
-	display:flex;
+	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
 }
@@ -125,15 +125,15 @@ svg {
 
 .input {
 	color: #325563;
-	flex-grow:1;
+	flex-grow: 1;
 	text-align: left;
 	border: 2px solid #808284;
 	border-radius: 3px;
 	background-color: white;
-	padding:0.25rem 0.5rem;
+	padding: 0.25rem 0.5rem;
 }
 
 .input:hover {
-	outline:3px solid white;
+	outline: 3px solid white;
 	outline-offset: 0px;
 }

@@ -6,7 +6,7 @@ import {
 	getDollNamesAndFortifications,
 	setState,
 	displaySmallKeys,
-	sortEquippedKeys,
+	sortDisplayEquippedKeys,
 	getDollFromId,
 	saveToLocalStorage,
 } from "../../store";
@@ -58,7 +58,7 @@ export default function ExportModal() {
 			value.push("Include a predicted final score for this investment.");
 		}
 		for (const doll of state.selectedDolls) {
-			const keys = sortEquippedKeys(doll.id, doll.keys);
+			const keys = sortDisplayEquippedKeys(doll.id, doll.keys);
 			const fixedKeys = keys.filter((key) => key !== null && key.type === "Fixed Key");
 			if (fixedKeys.length < 3) {
 				const dollInfo = getDollFromId(doll.id);
@@ -86,10 +86,10 @@ export default function ExportModal() {
 				headers: { "Content-Type": "application/json" },
 				body: JSON.stringify({
 					map: exportObj.map,
-					dolls: exportObj.selectedDolls.map((d) => ({id:d.id, fortification:d.fortification})),
+					dolls: exportObj.selectedDolls.map((d) => ({ id: d.id, fortification: d.fortification })),
 					score: exportObj.score,
 					description: exportObj.description,
-					state: encoded
+					state: encoded,
 				}),
 			});
 
@@ -181,7 +181,7 @@ export default function ExportModal() {
 			<Show when={isShareTab()}>
 				<div class="flex flex-col gap-3">
 					<Show when={readiness() !== ""}>
-						<div class="text-md mx-3 text-center flex p-2 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">
+						<div class="text-md mx-3 flex items-center justify-center self-stretch bg-[#384B53] p-2 text-center font-bold tracking-wide text-[#ECECEC]">
 							{readiness()}
 						</div>
 					</Show>
@@ -196,7 +196,7 @@ export default function ExportModal() {
 						placeholder="Optional Description..."
 					/>
 					<Show when={errorText() !== ""}>
-						<div class="text-md text-center mx-3 flex p-2 items-center justify-center self-stretch bg-[#AE4749] font-bold tracking-wide text-[#ECECEC]">
+						<div class="text-md mx-3 flex items-center justify-center self-stretch bg-[#AE4749] p-2 text-center font-bold tracking-wide text-[#ECECEC]">
 							{errorText()}
 						</div>
 					</Show>

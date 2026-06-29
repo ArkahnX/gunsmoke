@@ -13,7 +13,7 @@ import {
 	allWeapons,
 	defaultWeapons,
 	allBuffs,
-	sortEquippedKeys,
+	sortDisplayEquippedKeys,
 } from "../store";
 import { CURRENT_SEASON, TILE_SIZE } from "../types/constants";
 import { drawMapTilesOnArena } from "../canvas/draw";
@@ -206,7 +206,7 @@ export default function SummaryView() {
 							if (!gun) gun = defaultWeapons[dollInfo.gunType];
 							return gun;
 						});
-						const dollKeys = createMemo(() => sortEquippedKeys(doll.id, doll.keys));
+						const dollKeys = createMemo(() => sortDisplayEquippedKeys(doll.id, doll.keys));
 						return (
 							<div class="flex flex-row items-center gap-2 rounded-sm border-t-4 border-[#3E5356] bg-[#2C373B] p-2 shadow-sm shadow-black/50">
 								<SmallDollChip target={dollInfo!} doll={getDollFromSummon(dollInfo!)} />

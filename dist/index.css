@@ -975,6 +975,9 @@
   .content-center {
     align-content: center;
   }
+  .content-start {
+    align-content: flex-start;
+  }
   .content-stretch {
     align-content: stretch;
   }
@@ -1715,6 +1718,9 @@
   }
   .text-right {
     text-align: right;
+  }
+  .align-middle {
+    vertical-align: middle;
   }
   .font-mono {
     font-family: var(--font-mono);

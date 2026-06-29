@@ -1,14 +1,26 @@
-import { createMemo, createSignal, For, Show } from "solid-js";
-import { getInfoFromId, selectedDoll, sortEquippedKeys, allKeys, interactiveStyles, setDollKey, setShowKeyModal } from "../../store";
+import { createEffect, createMemo, createSignal, For, Show } from "solid-js";
+import {
+	getInfoFromId,
+	selectedDoll,
+	allKeys,
+	interactiveStyles,
+	setShowKeyModal,
+	sortEquippedKeys,
+	getPreSortedKeyInfo,
+	setDollKeys,
+} from "../../store";
 import { CommonKey, DetailedKey, DollData, FixedKey } from "../../types";
 import EmptyKey from "../icons/EmptyKey";
 import Check from "../icons/Check";
 import Button from "../buttons/Button";
+import { createStore } from "solid-js/store";
+import Fuse from "fuse.js";
 
 export default function KeyModal() {
 	const dollInfo = createMemo(() => getInfoFromId(selectedDoll()!.id) as DollData | null);
 	if (!dollInfo()) return null;
-	const selectedKeys = createMemo(() => sortEquippedKeys(selectedDoll()!.id, selectedDoll()!.keys));
+	const [sortedKeys, setSortedKeys] = createStore(sortEquippedKeys(selectedDoll()!.id, selectedDoll()!.keys));
+	const selectedKeys = createMemo(() => getPreSortedKeyInfo(selectedDoll()!.id, sortedKeys));
 	const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
 
 	const keyTypes: Record<string, (DetailedKey | FixedKey)[]> = {
@@ -22,16 +34,25 @@ export default function KeyModal() {
 
 	const [activeKeySlot, setActiveKeySlot] = createSignal(0);
 	const keyTitle = createMemo(() => selectedKeys()[activeKeySlot()]?.name ?? "");
+	const [query, setQuery] = createSignal("");
 	const visibleKeys = createMemo(() => {
+		return keyTypes[keyMapping[activeKeySlot()]];
+	});
+
+	const filteredKeys = createMemo(() => {
 		const isSel = (keyId: string) => {
-			return selectedDoll()!.keys.includes(keyId);
+			return sortedKeys.includes(keyId);
 		};
-		return keyTypes[keyMapping[activeKeySlot()]].sort(
+		const fuse = new Fuse(visibleKeys(), {
+			keys: ["name", "dollname"],
+		});
+		const results = fuse.search(query());
+		return results.sort(
 			(a, b) =>
-				+isSel(b.id) - +isSel(a.id) ||
-				(a.number || 0) - (b.number || 0) ||
-				("dollName" in a && "dollName" in b && a.dollName.localeCompare(b.dollName)) ||
-				a.name.localeCompare(b.name)
+				+isSel(b.item.id) - +isSel(a.item.id) ||
+				(a.item.number || 0) - (b.item.number || 0) ||
+				("dollName" in a.item && "dollName" in b.item && a.item.dollName.localeCompare(b.item.dollName)) ||
+				a.item.name.localeCompare(b.item.name)
 		);
 	});
 
@@ -55,7 +76,10 @@ export default function KeyModal() {
 								"cursor-pointer transition-discrete duration-175 hover:scale-107 border-transparent hover:border-white bg-linear-to-r from-transparent hover:from-[#515B61] to-transparent";
 							return (
 								<div
-									onClick={() => setActiveKeySlot(index())}
+									onClick={() => {
+										setQuery("");
+										setActiveKeySlot(index());
+									}}
 									class={`flex justify-center border-l-4 py-2 ${isSel() ? selectedStyle : unselectedStyle}`}>
 									<div class="h-15 w-15">
 										<Show when={selectedKey} fallback={<EmptyKey color={isSel() ? "Light" : "Dark"} />}>
@@ -68,26 +92,34 @@ export default function KeyModal() {
 					</For>
 				</div>
 				<div class="flex w-70 grow flex-col">
-					<div class="font-bold h-8 p-2 pl-4 flex shrink-0">{keyTitle()}</div>
+					<div class="flex h-8 shrink-0 p-2 pl-4 font-bold">{keyTitle()}</div>
 					<div class="flex grow overflow-y-auto p-5 px-4 pt-2">
-						<div class="flex flex-row flex-wrap items-start gap-3.5">
+						<div class="flex flex-row flex-wrap content-start items-start gap-3.5">
 							<For each={visibleKeys()}>
 								{(key) => {
 									const isSel = () => {
-										return selectedDoll()!.keys.includes(key.id);
+										return sortedKeys.includes(key.id);
 									};
 									const toggleKey = () => {
-										const index = selectedDoll()!.keys.indexOf(key.id);
+										const index = sortedKeys.indexOf(key.id);
 										if (index > -1) {
-											setDollKey(selectedDoll()!.id, index, null);
+											setSortedKeys(index, "");
 										} else {
-											setDollKey(selectedDoll()!.id, activeKeySlot(), key.id);
+											setSortedKeys(activeKeySlot(), key.id);
 										}
 									};
+									const [isVisible, setIsVisible] = createSignal(false);
+									let index = createMemo(() => {
+										let index = filteredKeys().findIndex((filteredKey) => key.id === filteredKey.item.id);
+										setIsVisible(index > -1);
+										return index > -1 ? index : 9999;
+									});
+
 									return (
 										<div
 											onClick={toggleKey}
-											class={`${interactiveStyles(isSel())} inset-shadow-2xl relative flex flex-col rounded-sm border-3 border-[#B2B1B6] bg-[#95999B] shadow-black/75`}>
+											class={`${interactiveStyles(isSel())} inset-shadow-2xl relative flex flex-col rounded-sm border-3 border-[#B2B1B6] bg-[#95999B] shadow-black/75 ${isVisible() ? "" : "hidden"}`}
+											style={{ order: index() }}>
 											<Show when={isSel()}>
 												<div class="absolute top-1 right-1 z-20 h-7 w-7 shadow-sm shadow-black/20">
 													<Check />
@@ -115,9 +147,19 @@ export default function KeyModal() {
 							</For>
 						</div>
 					</div>
-					<div class="flex justify-end p-2">
+					<div class="flex p-2">
+						<div class="flex grow justify-center p-2">
+							<input
+								class="input"
+								type="text"
+								value={query()}
+								onInput={(e) => setQuery(e.target.value)}
+								placeholder="Filter..."
+							/>
+						</div>
 						<Button
 							onClick={() => {
+								setDollKeys(selectedDoll()!.id, sortedKeys);
 								setShowKeyModal(false);
 							}}
 							color="light"
