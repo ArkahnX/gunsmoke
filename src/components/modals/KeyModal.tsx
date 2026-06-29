@@ -34,6 +34,7 @@ export default function KeyModal() {
 
 	const [activeKeySlot, setActiveKeySlot] = createSignal(0);
 	const keyTitle = createMemo(() => selectedKeys()[activeKeySlot()]?.name ?? "");
+	const keyDescription = createMemo(() => selectedKeys()[activeKeySlot()]?.description ?? "");
 	const [query, setQuery] = createSignal("");
 	const visibleKeys = createMemo(() => {
 		return keyTypes[keyMapping[activeKeySlot()]];
@@ -92,13 +93,23 @@ export default function KeyModal() {
 					</For>
 				</div>
 				<div class="flex w-70 grow flex-col">
-					<div class="flex h-8 shrink-0 p-2 pl-4 font-bold">{keyTitle()}</div>
+					<div class="flex shrink flex-row flex-wrap gap-1 p-2 pl-4">
+						<div class="flex font-bold">{keyTitle()}</div>
+						<div class="" innerHTML={keyDescription()}></div>
+					</div>
 					<div class="flex grow overflow-y-auto p-5 px-4 pt-2">
 						<div class="flex flex-row flex-wrap content-start items-start gap-3.5">
 							<For each={visibleKeys()}>
 								{(key) => {
 									const isSel = () => {
-										return sortedKeys.includes(key.id);
+										if (sortedKeys.includes(key.id)) {
+											if (sortedKeys[activeKeySlot()] === key.id) {
+												return true;
+											} else {
+												return null;
+											}
+										}
+										return false;
 									};
 									const toggleKey = () => {
 										const index = sortedKeys.indexOf(key.id);
@@ -120,7 +131,7 @@ export default function KeyModal() {
 											onClick={toggleKey}
 											class={`${interactiveStyles(isSel())} inset-shadow-2xl relative flex flex-col rounded-sm border-3 border-[#B2B1B6] bg-[#95999B] shadow-black/75 ${isVisible() ? "" : "hidden"}`}
 											style={{ order: index() }}>
-											<Show when={isSel()}>
+											<Show when={isSel() !== false}>
 												<div class="absolute top-1 right-1 z-20 h-7 w-7 shadow-sm shadow-black/20">
 													<Check />
 												</div>

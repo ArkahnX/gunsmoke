@@ -1248,9 +1248,9 @@ export async function loadCombinedJson() {
 
 // ====================== CSS HELPERS ======================
 
-export const interactiveStyles = (selected: boolean | undefined = false) =>
+export const interactiveStyles = (selected: boolean | null | undefined = false) =>
 	"cursor-pointer outline-3 transition transition-discrete duration-175 hover:scale-107 hover:outline-white " +
-	(selected ? "outline-[#F26C1C]" : "outline-transparent");
+	(selected === true ? "outline-[#F26C1C]" : selected === null ? "outline-transparent" : "outline-transparent");
 
 export function runAfterFramePaint(callback: () => void) {
 	// Queue a "before Render Steps" callback via requestAnimationFrame.

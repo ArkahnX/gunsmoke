@@ -5986,7 +5986,7 @@ async function loadCombinedJson() {
     console.error(e);
   }
 }
-var interactiveStyles = (selected = false) => "cursor-pointer outline-3 transition transition-discrete duration-175 hover:scale-107 hover:outline-white " + (selected ? "outline-[#F26C1C]" : "outline-transparent");
+var interactiveStyles = (selected = false) => "cursor-pointer outline-3 transition transition-discrete duration-175 hover:scale-107 hover:outline-white " + (selected === true ? "outline-[#F26C1C]" : selected === null ? "outline-transparent" : "outline-transparent");
 function runAfterFramePaint(callback) {
   requestAnimationFrame(() => {
     const messageChannel = new MessageChannel();
@@ -9289,7 +9289,7 @@ Fuse.use = function(...plugins) {
 var entry_default = Fuse;
 
 // src/components/modals/KeyModal.tsx
-var _tmpl$80 = /* @__PURE__ */ template(`<div class="flex max-h-180 flex-row px-10"><div class="flex w-30 shrink-0 flex-col items-stretch justify-center bg-[#2A3D46] py-5"><div class="flex justify-center pb-2"><img loading=lazy class="h-15 w-15 rounded-full border-3 border-[#687177] bg-[#0D1C1C] object-cover"></div></div><div class="flex w-70 grow flex-col"><div class="flex h-8 shrink-0 p-2 pl-4 font-bold"></div><div class="flex grow overflow-y-auto p-5 px-4 pt-2"><div class="flex flex-row flex-wrap content-start items-start gap-3.5"></div></div><div class="flex p-2"><div class="flex grow justify-center p-2"><input class=input type=text placeholder=Filter...>`, true, false, false);
+var _tmpl$80 = /* @__PURE__ */ template(`<div class="flex max-h-180 flex-row px-10"><div class="flex w-30 shrink-0 flex-col items-stretch justify-center bg-[#2A3D46] py-5"><div class="flex justify-center pb-2"><img loading=lazy class="h-15 w-15 rounded-full border-3 border-[#687177] bg-[#0D1C1C] object-cover"></div></div><div class="flex w-70 grow flex-col"><div class="flex shrink flex-row flex-wrap gap-1 p-2 pl-4"><div class="flex font-bold"></div><div class></div></div><div class="flex grow overflow-y-auto p-5 px-4 pt-2"><div class="flex flex-row flex-wrap content-start items-start gap-3.5"></div></div><div class="flex p-2"><div class="flex grow justify-center p-2"><input class=input type=text placeholder=Filter...>`, true, false, false);
 var _tmpl$226 = /* @__PURE__ */ template(`<img class="h-16 w-16 object-cover">`);
 var _tmpl$319 = /* @__PURE__ */ template(`<div><div class="h-15 w-15">`);
 var _tmpl$413 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 z-20 h-7 w-7 shadow-sm shadow-black/20">`);
@@ -9312,6 +9312,7 @@ function KeyModal() {
   keyTypes["Expansion Key"].push(...dollInfo().keys.filter((k) => k.type === "Expansion Key"));
   const [activeKeySlot, setActiveKeySlot] = createSignal(0);
   const keyTitle = createMemo(() => selectedKeys()[activeKeySlot()]?.name ?? "");
+  const keyDescription = createMemo(() => selectedKeys()[activeKeySlot()]?.description ?? "");
   const [query, setQuery] = createSignal("");
   const visibleKeys = createMemo(() => {
     return keyTypes[keyMapping[activeKeySlot()]];
@@ -9327,7 +9328,7 @@ function KeyModal() {
     return results.sort((a, b) => +isSel(b.item.id) - +isSel(a.item.id) || (a.item.number || 0) - (b.item.number || 0) || "dollName" in a.item && "dollName" in b.item && a.item.dollName.localeCompare(b.item.dollName) || a.item.name.localeCompare(b.item.name));
   });
   return (() => {
-    var _el$ = _tmpl$80(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$2.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$7.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$0.firstChild;
+    var _el$ = _tmpl$80(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$2.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$6.firstChild, _el$8 = _el$7.nextSibling, _el$9 = _el$6.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild;
     insert(_el$2, createComponent(For, {
       get each() {
         return selectedKeys();
@@ -9338,12 +9339,12 @@ function KeyModal() {
         const selectedStyle = "border-[#F26C1C] bg-linear-to-r from-[#5B403E] to-transparent scale-107";
         const unselectedStyle = "cursor-pointer transition-discrete duration-175 hover:scale-107 border-transparent hover:border-white bg-linear-to-r from-transparent hover:from-[#515B61] to-transparent";
         return (() => {
-          var _el$10 = _tmpl$319(), _el$11 = _el$10.firstChild;
-          _el$10.$$click = () => {
+          var _el$12 = _tmpl$319(), _el$13 = _el$12.firstChild;
+          _el$12.$$click = () => {
             setQuery("");
             setActiveKeySlot(index());
           };
-          insert(_el$11, createComponent(Show, {
+          insert(_el$13, createComponent(Show, {
             when: selectedKey,
             get fallback() {
               return createComponent(EmptyKey, {
@@ -9353,24 +9354,31 @@ function KeyModal() {
               });
             },
             get children() {
-              var _el$12 = _tmpl$226();
-              createRenderEffect(() => setAttribute(_el$12, "src", selectedKey.localImagePath));
-              return _el$12;
+              var _el$14 = _tmpl$226();
+              createRenderEffect(() => setAttribute(_el$14, "src", selectedKey.localImagePath));
+              return _el$14;
             }
           }));
-          createRenderEffect(() => className(_el$10, `flex justify-center border-l-4 py-2 ${isSel() ? selectedStyle : unselectedStyle}`));
-          return _el$10;
+          createRenderEffect(() => className(_el$12, `flex justify-center border-l-4 py-2 ${isSel() ? selectedStyle : unselectedStyle}`));
+          return _el$12;
         })();
       }
     }), null);
-    insert(_el$6, keyTitle);
-    insert(_el$8, createComponent(For, {
+    insert(_el$7, keyTitle);
+    insert(_el$0, createComponent(For, {
       get each() {
         return visibleKeys();
       },
       children: (key) => {
         const isSel = () => {
-          return sortedKeys.includes(key.id);
+          if (sortedKeys.includes(key.id)) {
+            if (sortedKeys[activeKeySlot()] === key.id) {
+              return true;
+            } else {
+              return null;
+            }
+          }
+          return false;
         };
         const toggleKey = () => {
           const index2 = sortedKeys.indexOf(key.id);
@@ -9387,42 +9395,42 @@ function KeyModal() {
           return index2 > -1 ? index2 : 9999;
         });
         return (() => {
-          var _el$13 = _tmpl$610(), _el$15 = _el$13.firstChild, _el$16 = _el$15.firstChild;
-          _el$13.$$click = toggleKey;
-          insert(_el$13, createComponent(Show, {
+          var _el$15 = _tmpl$610(), _el$17 = _el$15.firstChild, _el$18 = _el$17.firstChild;
+          _el$15.$$click = toggleKey;
+          insert(_el$15, createComponent(Show, {
             get when() {
-              return isSel();
+              return isSel() !== false;
             },
             get children() {
-              var _el$14 = _tmpl$413();
-              insert(_el$14, createComponent(Check, {}));
-              return _el$14;
+              var _el$16 = _tmpl$413();
+              insert(_el$16, createComponent(Check, {}));
+              return _el$16;
             }
-          }), _el$15);
-          insert(_el$15, createComponent(Show, {
+          }), _el$17);
+          insert(_el$17, createComponent(Show, {
             get when() {
               return key.number !== null;
             },
             get children() {
-              var _el$17 = _tmpl$512();
-              insert(_el$17, () => key.number);
-              return _el$17;
+              var _el$19 = _tmpl$512();
+              insert(_el$19, () => key.number);
+              return _el$19;
             }
           }), null);
-          insert(_el$15, (() => {
+          insert(_el$17, (() => {
             var _c$ = memo(() => "dollAvatar" in key);
             return () => _c$() && (() => {
-              var _el$18 = _tmpl$710(), _el$19 = _el$18.firstChild, _el$20 = _el$19.firstChild;
-              createRenderEffect(() => setAttribute(_el$20, "src", key.dollAvatar));
-              return _el$18;
+              var _el$20 = _tmpl$710(), _el$21 = _el$20.firstChild, _el$22 = _el$21.firstChild;
+              createRenderEffect(() => setAttribute(_el$22, "src", key.dollAvatar));
+              return _el$20;
             })();
           })(), null);
           createRenderEffect((_p$) => {
-            var _v$ = `${interactiveStyles(isSel())} inset-shadow-2xl relative flex flex-col rounded-sm border-3 border-[#B2B1B6] bg-[#95999B] shadow-black/75 ${isVisible2() ? "" : "hidden"}`, _v$2 = index(), _v$3 = `${key.rarity === "Elite" ? "border-[#DF9E00]" : "border-[#7968BA]"} relative border-b-5`, _v$4 = key.localImagePath;
-            _v$ !== _p$.e && className(_el$13, _p$.e = _v$);
-            _v$2 !== _p$.t && setStyleProperty(_el$13, "order", _p$.t = _v$2);
-            _v$3 !== _p$.a && className(_el$15, _p$.a = _v$3);
-            _v$4 !== _p$.o && setAttribute(_el$16, "src", _p$.o = _v$4);
+            var _v$3 = `${interactiveStyles(isSel())} inset-shadow-2xl relative flex flex-col rounded-sm border-3 border-[#B2B1B6] bg-[#95999B] shadow-black/75 ${isVisible2() ? "" : "hidden"}`, _v$4 = index(), _v$5 = `${key.rarity === "Elite" ? "border-[#DF9E00]" : "border-[#7968BA]"} relative border-b-5`, _v$6 = key.localImagePath;
+            _v$3 !== _p$.e && className(_el$15, _p$.e = _v$3);
+            _v$4 !== _p$.t && setStyleProperty(_el$15, "order", _p$.t = _v$4);
+            _v$5 !== _p$.a && className(_el$17, _p$.a = _v$5);
+            _v$6 !== _p$.o && setAttribute(_el$18, "src", _p$.o = _v$6);
             return _p$;
           }, {
             e: void 0,
@@ -9430,12 +9438,12 @@ function KeyModal() {
             a: void 0,
             o: void 0
           });
-          return _el$13;
+          return _el$15;
         })();
       }
     }));
-    _el$1.$$input = (e) => setQuery(e.target.value);
-    insert(_el$9, createComponent(Button, {
+    _el$11.$$input = (e) => setQuery(e.target.value);
+    insert(_el$1, createComponent(Button, {
       onClick: () => {
         setDollKeys(selectedDoll().id, sortedKeys);
         setShowKeyModal(false);
@@ -9443,8 +9451,16 @@ function KeyModal() {
       color: "light",
       design: "confirm"
     }), null);
-    createRenderEffect(() => setAttribute(_el$4, "src", dollInfo().avatar));
-    createRenderEffect(() => _el$1.value = query());
+    createRenderEffect((_p$) => {
+      var _v$ = dollInfo().avatar, _v$2 = keyDescription();
+      _v$ !== _p$.e && setAttribute(_el$4, "src", _p$.e = _v$);
+      _v$2 !== _p$.t && (_el$8.innerHTML = _p$.t = _v$2);
+      return _p$;
+    }, {
+      e: void 0,
+      t: void 0
+    });
+    createRenderEffect(() => _el$11.value = query());
     return _el$;
   })();
 }
