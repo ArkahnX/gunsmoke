@@ -313,15 +313,17 @@ function distance(dollGrid: DollInfo[]) {
 	let max = -Infinity;
 	let maxDoll: DollInfo | null = null;
 	for (const doll of dollGrid) {
-		if(doll.instanceId) continue
+		// summons cannot be considered for distance calculations
+		if (doll.instanceId) continue;
 		const dist = Math.abs(doll.x - bossCoords.x) + Math.abs(doll.y - bossCoords.y);
-		const isHigherPriority = () => doll.priority < (minDoll?.priority ?? Infinity) || doll.borrow;
+		const isMinHigherPriority = () => doll.priority < (minDoll?.priority ?? Infinity) || doll.borrow;
+		const isMaxHigherPriority = () => doll.priority < (maxDoll?.priority ?? Infinity) || doll.borrow;
 
-		if (dist < min || (dist === min && isHigherPriority())) {
+		if (dist < min || (dist === min && isMinHigherPriority())) {
 			min = dist;
 			minDoll = doll;
 		}
-		if (dist > max || (dist === max && isHigherPriority())) {
+		if (dist > max || (dist === max && isMaxHigherPriority())) {
 			max = dist;
 			maxDoll = doll;
 		}
