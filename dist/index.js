@@ -5997,6 +5997,15 @@ async function loadCombinedJson() {
   }
 }
 var interactiveStyles = (selected = false) => "cursor-pointer outline-3 transition transition-discrete duration-175 hover:scale-107 hover:outline-white " + (selected === true ? "outline-[#F26C1C]" : selected === null ? "outline-transparent" : "outline-transparent");
+var parseEffects = (description) => {
+  return description.replace(/\{(e[0-9]+)\}/gi, (match, effectId) => {
+    const effect = allEffects.find((s) => s.id === effectId);
+    if (effect) {
+      return `<b><u>${effect.name}</u></b>`;
+    }
+    return `<b><u>Unknown Effect ${effectId}</u></b>`;
+  });
+};
 function runAfterFramePaint(callback) {
   requestAnimationFrame(() => {
     const messageChannel = new MessageChannel();
@@ -9324,7 +9333,7 @@ function KeyModal() {
   const keyTitle = createMemo(() => selectedKeys()[activeKeySlot()]?.name ?? "");
   const keyDescription = createMemo(() => {
     const description = selectedKeys()[activeKeySlot()]?.description ?? "";
-    return description.replace(/\{(e[0-9]+)\}/gi, (match, effectId) => allEffects.filter((s) => s.id === effectId)[0]?.name ?? match);
+    return parseEffects(description);
   });
   const [query, setQuery] = createSignal("");
   const visibleKeys = createMemo(() => {

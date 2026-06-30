@@ -1287,6 +1287,16 @@ export const interactiveStyles = (selected: boolean | null | undefined = false) 
 	"cursor-pointer outline-3 transition transition-discrete duration-175 hover:scale-107 hover:outline-white " +
 	(selected === true ? "outline-[#F26C1C]" : selected === null ? "outline-transparent" : "outline-transparent");
 
+export const parseEffects = (description: string) => {
+	return description.replace(/\{(e[0-9]+)\}/gi, (match, effectId) => {
+		const effect = allEffects.find((s) => s.id === effectId);
+		if (effect) {
+			return `<b><u>${effect.name}</u></b>`;
+		}
+		return `<b><u>Unknown Effect ${effectId}</u></b>`;
+	});
+};
+
 export function runAfterFramePaint(callback: () => void) {
 	// Queue a "before Render Steps" callback via requestAnimationFrame.
 	requestAnimationFrame(() => {
