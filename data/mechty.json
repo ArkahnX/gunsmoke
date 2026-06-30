@@ -1187,6 +1187,74 @@
         "createdAt": "2025-09-20T05:30:54.242Z",
         "updatedAt": "2025-11-06T06:30:55.814Z",
         "shortId": "e7"
+      },
+      {
+        "id": "1b908c38-3129-4280-8ba4-73f162e680e0",
+        "effectName": "Acid Corrosion II",
+        "effectDetails": "<p>Reduces defense by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Considered a Corrosion defense debuff.</p>",
+        "effectTags": [
+          "Corrosion",
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-22T01:12:15.098Z",
+        "updatedAt": "2026-01-09T04:44:28.328Z",
+        "shortId": "e4"
+      },
+      {
+        "id": "76e7e852-59e8-49a6-b45f-0f38b78e103c",
+        "effectName": "AoE Support Attack",
+        "effectDetails": "<p>Includes [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3] and [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd] that deal AoE damage.</p>",
+        "effectTags": [],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-23T22:51:56.686Z",
+        "updatedAt": "2025-10-14T07:07:23.060Z",
+        "shortId": "e20"
+      },
+      {
+        "id": "1e0dd817-2d72-4a4a-98d5-4acd6e11b8e5",
+        "effectName": "Stability Loss I",
+        "effectDetails": "<p>Stability damage taken is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. Defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense",
+          "Stability"
+        ],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-23T22:41:25.298Z",
+        "updatedAt": "2025-11-03T15:50:27.020Z",
+        "shortId": "e419"
+      },
+      {
+        "id": "ab2e634f-d257-44e3-af90-ce66a6ac43f3",
+        "effectName": "Support Action",
+        "effectDetails": "<p>Performs a Support Attack; cannot be triggered by another Support Attack.</p>",
+        "effectTags": [],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:08:04.163Z",
+        "updatedAt": "2025-09-11T00:08:04.163Z",
+        "shortId": "e438"
+      },
+      {
+        "id": "bf9cca5c-a432-44ad-ba77-05ba7435b1dd",
+        "effectName": "Emergency Support",
+        "effectDetails": "<p>Performs a Support Attack.</p>",
+        "effectTags": [],
+        "dollId": "9b9398f7-3f64-4f40-ba54-f71f0c8b3aae",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:51:55.812Z",
+        "updatedAt": "2025-09-13T03:51:55.812Z",
+        "shortId": "e168"
       }
     ],
     "shortId": "d31"

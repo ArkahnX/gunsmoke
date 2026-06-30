@@ -1243,15 +1243,7 @@
           "8694c14e-0812-409c-a345-2ea2a8a38a29"
         ],
         "shortId": "s5",
-        "level1": {
-          "stabilityGauge": 9,
-          "movement": 5,
-          "class": "Sentinel",
-          "unitInfo": "<p>A clone of Lainie that can be independently controlled. Inherits all of Lainie's stats and equipment effects.</p><p>When either Lainie or [summon:a08dc1d8-105d-4c68-9c89-5955138f6365] performs an active attack, the other will automatically execute the corresponding active attack on the same target. If the automatic execution fails, the other will retain one use of that corresponding skill on its action. This effect cannot be triggered repeatedly.</p>",
-          "hp": 100,
-          "atk": 100,
-          "def": 100
-        },
+        "level1": {},
         "level2": null,
         "level3": null,
         "level4": null,
@@ -1819,6 +1811,21 @@
         "createdAt": "2025-09-14T19:42:00.107Z",
         "updatedAt": "2025-09-14T19:42:00.107Z",
         "shortId": "e176"
+      },
+      {
+        "id": "8b7a6308-b2c6-4520-bdde-760b5bd12404",
+        "effectName": "Area Defense II",
+        "effectDetails": "<p>AoE damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Defense"
+        ],
+        "dollId": "1505ba90-8b03-4247-ac9c-98d9d224e66d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-14T05:29:15.944Z",
+        "updatedAt": "2025-11-01T22:30:42.367Z",
+        "shortId": "e24"
       }
     ],
     "shortId": "d21"

@@ -7,9 +7,17 @@ export interface Skill {
 	localImagePath: string;
 }
 
+export interface Effect {
+	id: string;
+	name: string;
+	description: string;
+	effectTags: string[];
+}
+
 export interface FixedKey {
 	id: string;
 	name: string;
+	description: string;
 	rarity: string;
 	type: string;
 	number: number | null;
@@ -248,6 +256,8 @@ export interface DragState {
 export interface DollInfo {
 	x: number;
 	y: number;
+	oldX: number;
+	oldY: number;
 	id: string;
 	priority: number;
 	dollInfo: DollData | undefined;

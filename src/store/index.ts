@@ -22,6 +22,7 @@ import {
 	BuffData,
 	ApiResponse,
 	StateEntry,
+	Effect,
 } from "../types";
 import { loadMap, setEditingMap } from "../canvas/editorMap";
 import {
@@ -43,6 +44,28 @@ import { camera } from "../components/ArenaCanvas";
 // ====================== MAP GRID ======================
 export const mapGrid: MapGrid = { name: "Default", size: 21, priority: [], tiles: [] };
 
+export function pathfindingGrid() {
+	const tiles = [];
+	for (let row = 0; row < mapGrid.size; row++) {
+		const rows = [];
+		for (let col = 0; col < mapGrid.size; col++) {
+			const tile = mapGrid.tiles[gridKey(col, row)];
+			if (
+				isTileType(tile, TileType.BossCover) ||
+				isTileType(tile, TileType.BossOrigin) ||
+				isTileType(tile, TileType.FullCover) ||
+				isTileType(tile, TileType.HalfCover)
+			) {
+				rows.push(1);
+			} else {
+				rows.push(0);
+			}
+		}
+		tiles.push(rows);
+	}
+	return tiles;
+}
+
 export function gridKey(column: number, row: number, size?: number): number {
 	return row * (size ?? mapGrid.size) + column;
 }
@@ -51,6 +74,9 @@ export function cellX(c: number): number {
 }
 export function cellY(r: number): number {
 	return r * TILE_SIZE;
+}
+export function cellCenter(c: number): number {
+	return c * TILE_SIZE + TILE_SIZE / 2;
 }
 export function inMapBounds(c: number, r: number): boolean {
 	return c >= 0 && c < mapGrid.size && r >= 0 && r < mapGrid.size;
@@ -128,6 +154,7 @@ function debugCell(tile: TileType) {
 
 // ====================== DOLL / SUMMON LISTS ======================
 export const allDolls: DollData[] = [];
+export const allEffects: Effect[] = [];
 export const allSummons: SummonData[] = [];
 export const allKeys: KeyData = { common: [], affinity: [] };
 export const allWeapons: WeaponData[] = [];
@@ -1182,13 +1209,21 @@ export function preloadCanvasImages() {
 // ====================== LOAD DOLLS AND SUMMONS ======================
 export async function loadCombinedJson() {
 	try {
-		const res = await Promise.all([fetch("combined.json"), fetch("keys.json"), fetch("weapons.json"), fetch("buffs.json")]);
+		const res = await Promise.all([
+			fetch("combined.json"),
+			fetch("keys.json"),
+			fetch("weapons.json"),
+			fetch("buffs.json"),
+			fetch("effects.json"),
+		]);
 		const combinedJson: RawDollEntry[] = await res[0].json();
 		const keysJson: RawKeyData = await res[1].json();
 		const weaponsJson: WeaponData[] = await res[2].json();
 		const buffsJson: BuffData[] = await res[3].json();
+		const effectsJson: Effect[] = await res[4].json();
 		allWeapons.push(...weaponsJson);
 		allBuffs.push(...buffsJson);
+		allEffects.push(...effectsJson);
 		for (const weapon of allWeapons) {
 			if (weapon.imprintId === null && weapon.rarity === "Elite") {
 				defaultWeapons[weapon.type] = weapon;

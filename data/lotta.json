@@ -118,7 +118,7 @@
         "summon": null,
         "shortId": 2,
         "level1": {
-          "description": "<p>When an enemy target within range is affected by [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df|doll:lotta], performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to them. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
+          "description": "<p>When an enemy target within range is affected by [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df], performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to them. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn.</p>",
           "phase": null,
           "ammoTypes": "[]",
           "stabilityDamage": null,
@@ -144,7 +144,7 @@
           "ammoTypes": "[]",
           "confectanceCost": null,
           "cooldown": null,
-          "description": "<p>Increases mobility by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. When an enemy target within range is affected by [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df|doll:lotta], performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50% </span>of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to them. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times </span>per turn.</p>",
+          "description": "<p>Increases mobility by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. When an enemy target within range is affected by [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df], performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50% </span>of attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage to them. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times </span>per turn.</p>",
           "phase": null,
           "skillTags": [
             "Passive",
@@ -177,7 +177,7 @@
           "ammoTypes": "[]",
           "confectanceCost": null,
           "cooldown": null,
-          "description": "<p>Increases mobility by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. When an enemy target within range is affected by [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df|doll:lotta], performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to them. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times </span>per turn.</p>",
+          "description": "<p>Increases mobility by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. When an enemy target within range is affected by [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df], performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], dealing AoE Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage to them. This can be triggered up to <span style=\"color: rgb(243, 109, 28);\">2 times </span>per turn.</p>",
           "phase": null,
           "skillTags": [
             "Passive",
@@ -220,7 +220,7 @@
         "summon": null,
         "shortId": 3,
         "level1": {
-          "description": "<p>Selects 1 direction and deals AoE <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x5 area</span> in the selected direction, destroying any destructible Cover outside a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around this unit. Additionally, applies [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df|doll:lotta] to targets for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "description": "<p>Selects 1 direction and deals AoE <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x5 area</span> in the selected direction, destroying any destructible Cover outside a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around this unit. Additionally, applies [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df] to targets for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
           "phase": "Freeze",
           "ammoTypes": "[\"Shotgun Ammo\"]",
           "stabilityDamage": 1,
@@ -248,7 +248,7 @@
           "ammoTypes": "[\"Shotgun Ammo\"]",
           "confectanceCost": 2,
           "cooldown": null,
-          "description": "<p>Selects 1 direction and deals AoE <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to<span style=\"color: rgb(243, 109, 28);\"> 60%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x5 area</span> in the selected direction, destroying any destructible Cover outside a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around this unit. Additionally, applies [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df|doll:lotta] to targets for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+          "description": "<p>Selects 1 direction and deals AoE <span style=\"color: rgb(66, 205, 224);\">Freeze damage</span> equal to<span style=\"color: rgb(243, 109, 28);\"> 60%</span> of attack to all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3x5 area</span> in the selected direction, destroying any destructible Cover outside a <span style=\"color: rgb(243, 109, 28);\">3x3 area</span> around this unit. Additionally, applies [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df] to targets for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
           "phase": "Freeze",
           "skillTags": [
             "Active",
@@ -268,7 +268,7 @@
           "vertebraeUpgrade": {
             "id": "18baa123-b777-415f-83ec-5ca88af006dd",
             "level": 2,
-            "effect": "<p>Increase the duration of [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df|doll:lotta] by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "effect": "<p>Increase the duration of [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df] by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
             "dollId": "918cc6a2-e08d-4197-9da2-8bda1826dc02",
             "segment": 5,
             "imageUrl": "https://cdn.dandegate.net/skills/fc953cb0df37a0a91058c383ae1cbac4.webp",
@@ -405,7 +405,7 @@
           "vertebraeUpgrade": {
             "id": "b8117d69-01bd-467c-ad36-c9ae2a485325",
             "level": 2,
-            "effect": "<p>If phase weakness is exploited, apply [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df|doll:lotta] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "effect": "<p>If phase weakness is exploited, apply [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
             "dollId": "918cc6a2-e08d-4197-9da2-8bda1826dc02",
             "segment": 1,
             "imageUrl": "https://cdn.dandegate.net/skills/c396ca4c7788e72c5f37d0b7d653887c.webp",
@@ -670,7 +670,7 @@
         "segment": 1,
         "vertebraeName": "Amplified Courage Lv.2",
         "level": 2,
-        "effect": "<p>If phase weakness is exploited, apply [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df|doll:lotta] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "effect": "<p>If phase weakness is exploited, apply [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df] to the target for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
         "imageUrl": "https://cdn.dandegate.net/skills/c396ca4c7788e72c5f37d0b7d653887c.webp",
         "createdAt": "2025-09-23T04:22:29.501Z",
         "updatedAt": "2025-10-14T07:06:10.910Z",
@@ -762,7 +762,7 @@
         "segment": 5,
         "vertebraeName": "Cryo Rounds Lv.2",
         "level": 2,
-        "effect": "<p>Increase the duration of [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df|doll:lotta] by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "effect": "<p>Increase the duration of [effect:5c2c4fcd-9821-4a40-a325-13723cdbe0df] by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
         "imageUrl": "https://cdn.dandegate.net/skills/fc953cb0df37a0a91058c383ae1cbac4.webp",
         "createdAt": "2025-09-23T04:25:34.630Z",
         "updatedAt": "2025-10-14T07:05:54.855Z",
@@ -981,6 +981,52 @@
         "createdAt": "2025-09-14T19:42:00.107Z",
         "updatedAt": "2025-09-14T19:42:00.107Z",
         "shortId": "e176"
+      },
+      {
+        "id": "d85addc9-1d0c-46cb-a37a-377dde1be0ae",
+        "effectName": "Frozen",
+        "effectDetails": "<p>Movement is decreased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. If <span style=\"color: rgb(34, 139, 230);\">Frozen</span> has reached <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> at the end of the action, it is converted into [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. This is considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "918cc6a2-e08d-4197-9da2-8bda1826dc02",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T02:24:20.358Z",
+        "updatedAt": "2025-11-02T02:29:37.253Z",
+        "shortId": "e217"
+      },
+      {
+        "id": "af640815-bbef-471b-8888-cee6c3d8b4a4",
+        "effectName": "Quick Barrier",
+        "effectDetails": "<p>Targeted damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">60%</span>, effective <span style=\"color: rgb(243, 109, 28);\">once</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "918cc6a2-e08d-4197-9da2-8bda1826dc02",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T03:31:08.605Z",
+        "updatedAt": "2025-11-03T15:27:49.287Z",
+        "shortId": "e343"
+      },
+      {
+        "id": "f4fc6af5-7a01-48a3-91e2-e432a7216dbc",
+        "effectName": "Frigid",
+        "effectDetails": "<p>Unable to move and cannot be actively displaced. Considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "918cc6a2-e08d-4197-9da2-8bda1826dc02",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T19:22:25.160Z",
+        "updatedAt": "2025-11-01T23:37:44.521Z",
+        "shortId": "e211"
       }
     ],
     "shortId": "d29"

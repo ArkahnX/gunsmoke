@@ -1017,6 +1017,50 @@
         "createdAt": "2025-09-18T22:32:18.986Z",
         "updatedAt": "2025-11-01T22:59:45.741Z",
         "shortId": "e138"
+      },
+      {
+        "id": "2243d1e2-882f-40cc-9709-05d95980f966",
+        "effectName": "Defense Down I",
+        "effectDetails": "<p>Reduce defense by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Considered a defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "961c751a-628f-4838-ac02-037d55229bc9",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T23:02:40.735Z",
+        "updatedAt": "2025-11-01T22:08:40.844Z",
+        "shortId": "e133"
+      },
+      {
+        "id": "90e40fd3-e06c-4dca-aa63-464cf6e0c9f7",
+        "effectName": "Attack Up I",
+        "effectDetails": "<p>Attack is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Attack",
+          "Buff"
+        ],
+        "dollId": "961c751a-628f-4838-ac02-037d55229bc9",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:16:28.702Z",
+        "updatedAt": "2025-11-06T06:39:36.480Z",
+        "shortId": "e28"
+      },
+      {
+        "id": "fadf4f3f-2810-49f0-b947-6d683741429d",
+        "effectName": "Taunt",
+        "effectDetails": "<p>Uncontrollable, forced to use basic attacks on the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "961c751a-628f-4838-ac02-037d55229bc9",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:35:26.444Z",
+        "updatedAt": "2025-11-03T16:00:56.734Z",
+        "shortId": "e450"
       }
     ],
     "shortId": "d14"

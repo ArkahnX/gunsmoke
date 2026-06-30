@@ -918,7 +918,7 @@
         "keyType": "Fixed Key",
         "keyNumber": 1,
         "level": 20,
-        "effect": "<p>Before using an active attack, applies [effect:fb3c3c78-49c8-47d7-b732-49069cf4a990|doll:balthilde] on the enemy for <span style=\"color: rgb(243, 109, 28);\">2</span> turns.</p>",
+        "effect": "<p>Before using an active attack, applies [effect:fb3c3c78-49c8-47d7-b732-49069cf4a990] on the enemy for <span style=\"color: rgb(243, 109, 28);\">2</span> turns.</p>",
         "materialsType": "items",
         "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"3000\"}]",
         "attributeName1": null,
@@ -1326,57 +1326,9 @@
           "0e1c5407-c701-4f66-a8e2-54e60259e180"
         ],
         "shortId": "s2",
-        "level1": {
-          "stabilityGauge": 0,
-          "movement": 0,
-          "class": null,
-          "unitInfo": "<p>Summon. Inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Balthilde's initial max HP, <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial defense. Can protect allied units and cover within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p>",
-          "hp": 100,
-          "atk": 80,
-          "def": 80
-        },
-        "level2": {
-          "atk": 80,
-          "class": null,
-          "def": 80,
-          "hp": 100,
-          "movement": 0,
-          "stabilityGauge": 0,
-          "unitInfo": "<p>Summon. Inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Balthilde's initial max HP, <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial defense. Can protect allied units and cover within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span>.</p>",
-          "vertebraeUpgradeId": "f1832d6a-887e-4b3e-9d91-0374d32b27d8",
-          "vertebraeUpgrade": {
-            "id": "f1832d6a-887e-4b3e-9d91-0374d32b27d8",
-            "level": 2,
-            "effect": "<p>The range of <span style=\"color: rgb(34, 139, 230);\">Defense Construct</span>'s skills is increased to <span style=\"color: rgb(243, 109, 28);\">5 tiles</span>. </p><p>The passive skill <span style=\"color: rgb(34, 139, 230);\">Focused Maintenance</span> gains a new effect: Allied units which end their action within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of this unit recover HP equal to <span style=\"color: rgb(243, 109, 28);\">100%</span> of defense, <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability, and gains [effect:67f08088-4326-4711-a4eb-fda93220f156] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>The passive skill <span style=\"color: rgb(34, 139, 230);\">Safety Consciousness</span> gains a new effect: Upon summon, it restores the durability of all Cover within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span>.</p>",
-            "dollId": "168d645f-6fc8-4be8-bacb-92706509fa80",
-            "segment": 2,
-            "imageUrl": "https://cdn.dandegate.net/skills/343a4cfc88a7933fc4ba76050e3a895d.webp",
-            "createdAt": "2025-11-01T23:05:24.827Z",
-            "updatedAt": "2025-11-01T23:14:07.259Z",
-            "vertebraeName": "Reinforcement Protocol Lv.2"
-          }
-        },
-        "level3": {
-          "atk": 100,
-          "class": null,
-          "def": 100,
-          "hp": 100,
-          "movement": 0,
-          "stabilityGauge": 0,
-          "unitInfo": "<p>Summon. Inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Balthilde's initial max HP, <span style=\"color: rgb(243, 109, 28);\">100%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">100%</span> of her initial defense. Can protect allied units and cover within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span>.</p>",
-          "vertebraeUpgradeId": "178b9994-e8cf-4837-91f5-4a5919715ab9",
-          "vertebraeUpgrade": {
-            "id": "178b9994-e8cf-4837-91f5-4a5919715ab9",
-            "level": 3,
-            "effect": "<p>The skill cooldown is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. The attack and defense inheritance of <span style=\"color: rgb(34, 139, 230);\">Defense Construct</span> is increased to <span style=\"color: rgb(243, 109, 28);\">100%</span>.</p><p>The effectiveness of the passive skill <span style=\"color: rgb(34, 139, 230);\">Safety Consciousness</span> is increased. Upon summon, the HP recovery multiplier is increased to <span style=\"color: rgb(243, 109, 28);\">200%</span> and stability recovery is increased to <span style=\"color: rgb(243, 109, 28);\">4 points</span>.</p><p>The effectiveness of the passive skill <span style=\"color: rgb(34, 139, 230);\">Focused Maintenance</span> is increased. It is no longer limited to allied units who cannot benefit from cover; damage taken by all allied units within range is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
-            "dollId": "168d645f-6fc8-4be8-bacb-92706509fa80",
-            "segment": 5,
-            "imageUrl": "https://cdn.dandegate.net/skills/343a4cfc88a7933fc4ba76050e3a895d.webp",
-            "createdAt": "2025-11-01T23:48:35.957Z",
-            "updatedAt": "2025-11-01T23:48:41.285Z",
-            "vertebraeName": "Reinforcement Protocol Lv.3"
-          }
-        },
+        "level1": {},
+        "level2": null,
+        "level3": null,
         "level4": null,
         "skills": [
           {
@@ -1585,57 +1537,9 @@
           "007a2b22-9d33-4b51-b952-6ba9cd8b3ab2"
         ],
         "shortId": "s3",
-        "level1": {
-          "stabilityGauge": 0,
-          "movement": 0,
-          "class": null,
-          "unitInfo": "<p>Summon. Inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Balthilde's initial max HP, <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial defense. Can deal damage to the nearest enemy unit within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span>.</p>",
-          "hp": 100,
-          "atk": 80,
-          "def": 80
-        },
-        "level2": {
-          "atk": 80,
-          "class": null,
-          "def": 80,
-          "hp": 100,
-          "movement": 0,
-          "stabilityGauge": 0,
-          "unitInfo": "<p>Summon. Inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Balthilde's initial max HP, <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial defense. Can deal damage to the nearest enemy unit within <span style=\"color: rgb(243, 109, 28);\">5 </span><span style=\"color: rgb(243, 109, 28);\">tiles</span>.</p>",
-          "vertebraeUpgradeId": "48197949-a46c-41bf-94a6-46e7b13ab0dc",
-          "vertebraeUpgrade": {
-            "id": "48197949-a46c-41bf-94a6-46e7b13ab0dc",
-            "level": 2,
-            "effect": "<p>The range of the <span style=\"color: rgb(34, 139, 230);\">Offense Construct</span>'s basic attack [skillsummon:2f2d25c4-9afb-42dd-ad92-9c1a1f04146c] is expanded to <span style=\"color: rgb(243, 109, 28);\">5 tiles</span>, and targets gain [effect:fb3c3c78-49c8-47d7-b732-49069cf4a990] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. </p><p><span style=\"color: rgb(34, 139, 230);\">Offense Construct</span> gains a new passive skill, <span style=\"color: rgb(34, 139, 230);\">Additional Modifications</span>. Upon spawning, deals <span style=\"color: rgb(243, 109, 28);\">4 points</span> of stability damage to enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> and applies [effect:fb3c3c78-49c8-47d7-b732-49069cf4a990] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
-            "dollId": "168d645f-6fc8-4be8-bacb-92706509fa80",
-            "segment": 1,
-            "imageUrl": "https://cdn.dandegate.net/skills/39b89b77e52299cff91b5fb062f5f32a.webp",
-            "createdAt": "2025-11-01T22:54:01.266Z",
-            "updatedAt": "2025-11-01T22:54:01.266Z",
-            "vertebraeName": "Demolition Protocol Lv.2"
-          }
-        },
-        "level3": {
-          "atk": 100,
-          "class": null,
-          "def": 100,
-          "hp": 100,
-          "movement": 0,
-          "stabilityGauge": 0,
-          "unitInfo": "<p>Summon. Inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Balthilde's initial max HP, <span style=\"color: rgb(243, 109, 28);\">100%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">100%</span> of her initial defense. Can deal damage to the nearest enemy unit within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span>.</p>",
-          "vertebraeUpgradeId": "74477ec6-41c0-4f95-95b4-b0a03c4025cb",
-          "vertebraeUpgrade": {
-            "id": "74477ec6-41c0-4f95-95b4-b0a03c4025cb",
-            "level": 3,
-            "effect": "<p>The skill cooldown is reduced by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. The attack and defense inheritance of <span style=\"color: rgb(34, 139, 230);\">Offense Construct</span> is increased to <span style=\"color: rgb(243, 109, 28);\">100%</span>.</p><p>The number of basic attacks <span style=\"color: rgb(34, 139, 230);\">Offense Construct</span> can make is increased by <span style=\"color: rgb(243, 109, 28);\">1</span>.</p>",
-            "dollId": "168d645f-6fc8-4be8-bacb-92706509fa80",
-            "segment": 4,
-            "imageUrl": "https://cdn.dandegate.net/skills/39b89b77e52299cff91b5fb062f5f32a.webp",
-            "createdAt": "2025-11-01T23:00:48.185Z",
-            "updatedAt": "2025-11-01T23:01:57.195Z",
-            "vertebraeName": "Demolition Protocol Lv.3"
-          }
-        },
+        "level1": {},
+        "level2": null,
+        "level3": null,
         "level4": null,
         "skills": [
           {
@@ -2013,6 +1917,33 @@
         "createdAt": "2025-09-13T03:30:54.421Z",
         "updatedAt": "2025-09-13T03:30:54.421Z",
         "shortId": "e101"
+      },
+      {
+        "id": "d149d223-ac66-4556-ba25-5d4fef2504e9",
+        "effectName": "Physical Summon",
+        "effectDetails": "<p>A summon that inherits its summoner's stats and has a physical presence on the battlefield (like Papasha's City Warden, Andoris' Auto-Turrets and Nikketa's [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] among others).</p>",
+        "effectTags": [],
+        "dollId": "168d645f-6fc8-4be8-bacb-92706509fa80",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T08:03:06.790Z",
+        "updatedAt": "2025-10-14T07:07:18.499Z",
+        "shortId": "e320"
+      },
+      {
+        "id": "fbd44ec2-ad9a-47c6-8b5d-374a1dcf0b96",
+        "effectName": "Damage Reduction II",
+        "effectDetails": "<p>Damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">20%</span>. This is considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Defense"
+        ],
+        "dollId": "168d645f-6fc8-4be8-bacb-92706509fa80",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-03T00:04:46.212Z",
+        "updatedAt": "2025-11-01T22:41:43.762Z",
+        "shortId": "e121"
       }
     ]
   }

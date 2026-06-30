@@ -48,7 +48,7 @@
       "secondaryAttributeStat": "25%",
       "trait": "<p>Attacks ignore <span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of stability index. When possessing [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194], attacks additionally ignore another </span><span style=\"color: rgb(243, 109, 28);\">1 point</span><span> of stability index.</span></p>",
       "effect": "<p>Phase damage is increased by <span style=\"color: rgb(243, 109, 28);\">10%/12%/14%/16%/18%/20%</span><span>. </span><span style=\"color: rgb(213, 173, 13);\">Electric damage </span><span>is increased by another </span><span style=\"color: rgb(243, 109, 28);\">10%/12%/14%/16%/18%/20%</span><span>.</span></p>",
-      "imprintDescription": "<p>Increase damage dealt to PMCs by <span style=\"color: rgb(243, 109, 28);\">2.5%</span><span>. If the target has [effect:8cfe89a9-404a-42e5-9cc7-5bf57b070887|doll:mosin-nagant], increase it by an additional </span><span style=\"color: rgb(243, 109, 28);\">2.5%</span><span>.</span></p>",
+      "imprintDescription": "<p>Increase damage dealt to PMCs by <span style=\"color: rgb(243, 109, 28);\">2.5%</span><span>. If the target has [effect:8cfe89a9-404a-42e5-9cc7-5bf57b070887], increase it by an additional </span><span style=\"color: rgb(243, 109, 28);\">2.5%</span><span>.</span></p>",
       "imageUrl": "https://cdn.dandegate.net/weapons/b425b096ca431b29856143f2d92091d1.webp",
       "createdAt": "2025-10-02T23:28:03.805Z",
       "updatedAt": "2025-10-14T07:07:32.358Z",
@@ -145,7 +145,7 @@
           "ammoTypes": null,
           "confectanceCost": null,
           "cooldown": null,
-          "description": "<p>When an allied unit attacks an enemy unit outside of turn but within range, if that enemy unit is in Stability Break, Mosin-Nagant performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of her attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn. After a <span style=\"color: rgb(34, 139, 230);\">Support Attack</span>, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and also gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Before the <span style=\"color: rgb(34, 139, 230);\">Support Attack</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b|doll:mosin-nagant].</p>",
+          "description": "<p>When an allied unit attacks an enemy unit outside of turn but within range, if that enemy unit is in Stability Break, Mosin-Nagant performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of her attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. This effect can trigger up to <span style=\"color: rgb(243, 109, 28);\">2 times</span> per turn. After a <span style=\"color: rgb(34, 139, 230);\">Support Attack</span>, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and also gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Before the <span style=\"color: rgb(34, 139, 230);\">Support Attack</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b].</p>",
           "phase": null,
           "skillTags": [
             "Passive",
@@ -164,7 +164,7 @@
           "vertebraeUpgrade": {
             "id": "f3af41ba-245a-494a-b33c-e2b6918e09b2",
             "level": 2,
-            "effect": "<p>Before performing a <span style=\"color: rgb(34, 139, 230);\">Support Attack</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b|doll:mosin-nagant].</p>",
+            "effect": "<p>Before performing a <span style=\"color: rgb(34, 139, 230);\">Support Attack</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b].</p>",
             "dollId": "d654dd95-6d4d-4689-9a52-303ca09e5a8e",
             "segment": 4,
             "imageUrl": "https://cdn.dandegate.net/skills/9556bb75243f8deb86a6ebe00edb47f4.webp",
@@ -179,7 +179,7 @@
           "ammoTypes": null,
           "confectanceCost": null,
           "cooldown": null,
-          "description": "<p>When an allied unit attacks an enemy unit outside of turn but within range, if that enemy unit is in Stability Break, Mosin-Nagant performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of her attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. When an Electric debuff is applied to an enemy target outside of turn, it triggers [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd]. <span style=\"color: rgb(34, 139, 230);\">Support Attack</span><span> can </span>trigger up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. After a <span style=\"color: rgb(34, 139, 230);\">Support Attack</span>, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and also gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Before the <span style=\"color: rgb(34, 139, 230);\">Support Attack</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b|doll:mosin-nagant].</p>",
+          "description": "<p>When an allied unit attacks an enemy unit outside of turn but within range, if that enemy unit is in Stability Break, Mosin-Nagant performs <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], dealing Physical damage equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of her attack and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage. When an Electric debuff is applied to an enemy target outside of turn, it triggers [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd]. <span style=\"color: rgb(34, 139, 230);\">Support Attack</span><span> can </span>trigger up to <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. After a <span style=\"color: rgb(34, 139, 230);\">Support Attack</span>, gains <span style=\"color: rgb(243, 109, 28);\">2 points</span> of Confectance Index and also gains [effect:4b5fd3bb-8d4a-44e7-ba99-b48331d2e194] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Before the <span style=\"color: rgb(34, 139, 230);\">Support Attack</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b].</p>",
           "phase": null,
           "skillTags": [
             "Passive",
@@ -339,7 +339,7 @@
           "vertebraeUpgrade": {
             "id": "7d27a6ba-edc8-4c0a-9501-ce8f43004b3f",
             "level": 2,
-            "effect": "<p>Increase damage dealt in [effect:92c897fb-6469-4746-9cdf-ff28c46af53b|doll:mosin-nagant] by additional <span style=\"color: rgb(243, 109, 28);\">10%</span>. Every <span style=\"color: rgb(243, 109, 28);\">2 times</span> this skill is used, gain [effect:6d003257-ef97-4bc2-9bc5-7353dc53c2b5].</p>",
+            "effect": "<p>Increase damage dealt in [effect:92c897fb-6469-4746-9cdf-ff28c46af53b] by additional <span style=\"color: rgb(243, 109, 28);\">10%</span>. Every <span style=\"color: rgb(243, 109, 28);\">2 times</span> this skill is used, gain [effect:6d003257-ef97-4bc2-9bc5-7353dc53c2b5].</p>",
             "dollId": "d654dd95-6d4d-4689-9a52-303ca09e5a8e",
             "segment": 5,
             "imageUrl": "https://cdn.dandegate.net/skills/c92755fe1602b7a62fabc9626502908c.webp",
@@ -748,7 +748,7 @@
         "segment": 4,
         "vertebraeName": "Helping Others Lv.2",
         "level": 2,
-        "effect": "<p>Before performing a <span style=\"color: rgb(34, 139, 230);\">Support Attack</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b|doll:mosin-nagant].</p>",
+        "effect": "<p>Before performing a <span style=\"color: rgb(34, 139, 230);\">Support Attack</span>, gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b].</p>",
         "imageUrl": "https://cdn.dandegate.net/skills/9556bb75243f8deb86a6ebe00edb47f4.webp",
         "createdAt": "2025-09-22T03:22:58.342Z",
         "updatedAt": "2025-10-14T07:06:13.537Z",
@@ -771,7 +771,7 @@
         "segment": 5,
         "vertebraeName": "Positive Mindset Lv.2",
         "level": 2,
-        "effect": "<p>Increase damage dealt in [effect:92c897fb-6469-4746-9cdf-ff28c46af53b|doll:mosin-nagant] by additional <span style=\"color: rgb(243, 109, 28);\">10%</span>. Every <span style=\"color: rgb(243, 109, 28);\">2 times</span> this skill is used, gain [effect:6d003257-ef97-4bc2-9bc5-7353dc53c2b5].</p>",
+        "effect": "<p>Increase damage dealt in [effect:92c897fb-6469-4746-9cdf-ff28c46af53b] by additional <span style=\"color: rgb(243, 109, 28);\">10%</span>. Every <span style=\"color: rgb(243, 109, 28);\">2 times</span> this skill is used, gain [effect:6d003257-ef97-4bc2-9bc5-7353dc53c2b5].</p>",
         "imageUrl": "https://cdn.dandegate.net/skills/c92755fe1602b7a62fabc9626502908c.webp",
         "createdAt": "2025-09-22T03:24:03.471Z",
         "updatedAt": "2025-10-14T07:06:07.575Z",
@@ -1070,6 +1070,71 @@
         "createdAt": "2025-09-18T06:09:38.229Z",
         "updatedAt": "2025-11-03T15:13:57.013Z",
         "shortId": "e304"
+      },
+      {
+        "id": "1b83587d-eddc-4abd-b90c-cb0aa4b2cfef",
+        "effectName": "Additional Movement",
+        "effectDetails": "<p>Can move once, but cannot use any other commands.</p>",
+        "effectTags": [
+          "Movement"
+        ],
+        "dollId": "d654dd95-6d4d-4689-9a52-303ca09e5a8e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:30:54.242Z",
+        "updatedAt": "2025-11-06T06:30:55.814Z",
+        "shortId": "e7"
+      },
+      {
+        "id": "92c897fb-6469-4746-9cdf-ff28c46af53b",
+        "effectName": "Active Engagement",
+        "effectDetails": "<p>Attacks deal <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>. Damage dealt is increased by<span style=\"color: rgb(243, 109, 28);\"> 30%</span>. Activates <span style=\"color: rgb(243, 109, 28);\">once</span>. Considered a buff, cannot be cleansed.</p>",
+        "effectTags": [
+          "Attack",
+          "Buff",
+          "Electric"
+        ],
+        "dollId": "d654dd95-6d4d-4689-9a52-303ca09e5a8e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T03:18:50.665Z",
+        "updatedAt": "2025-11-06T06:30:10.447Z",
+        "doll": {
+          "id": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+          "name": "Belka",
+          "rarity": "Elite",
+          "preview": false,
+          "avatarUrl": "https://cdn.dandegate.net/dolls/belka/5f133e8ff8a15fa562021ec686e652e5.webp",
+          "createdAt": "2025-09-19T01:44:28.832Z",
+          "regionTag": "en",
+          "updatedAt": "2026-06-12T22:28:55.965Z",
+          "dollImages": [
+            {
+              "id": "9187b529-b70d-4925-9342-b0ede05b6eeb",
+              "category": "Chibi",
+              "imageUrl": "https://cdn.dandegate.net/dolls/belka/chibi-e4d2a32f80fc7079d48e44c2659dfd84.webp",
+              "alt": null
+            }
+          ],
+          "searchTags": [
+            {
+              "searchTag": {
+                "name": "Sturmgewehr 28"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "tier 0"
+              }
+            },
+            {
+              "searchTag": {
+                "name": "G28"
+              }
+            }
+          ]
+        },
+        "shortId": "e5"
       }
     ],
     "shortId": "d32"

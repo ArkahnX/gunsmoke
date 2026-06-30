@@ -981,15 +981,7 @@
           "7dc23e81-a8f1-4f34-8bb8-065375935fe1"
         ],
         "shortId": "s4",
-        "level1": {
-          "stabilityGauge": 0,
-          "movement": 6,
-          "class": null,
-          "unitInfo": "<p>Considered a physical summon. Arios inherits <span style=\"color: rgb(243, 109, 28);\">120%</span> of Florence's initial max HP, <span style=\"color: rgb(243, 109, 28);\">100%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">120%</span> of her initial defense. Arios can apply [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to enemy units, take damage in Florence's place, and after it or Florence is damaged, it will perform a [effect:e6c91f66-b509-4f89-861e-29ca64014622].</p>",
-          "hp": 120,
-          "atk": 100,
-          "def": 120
-        },
+        "level1": {},
         "level2": null,
         "level3": null,
         "level4": null,
@@ -1394,6 +1386,63 @@
         "createdAt": "2025-09-18T03:49:59.941Z",
         "updatedAt": "2025-11-03T15:54:17.616Z",
         "shortId": "e431"
+      },
+      {
+        "id": "d149d223-ac66-4556-ba25-5d4fef2504e9",
+        "effectName": "Physical Summon",
+        "effectDetails": "<p>A summon that inherits its summoner's stats and has a physical presence on the battlefield (like Papasha's City Warden, Andoris' Auto-Turrets and Nikketa's [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] among others).</p>",
+        "effectTags": [],
+        "dollId": "ad525729-7e67-4954-9919-45168be39953",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T08:03:06.790Z",
+        "updatedAt": "2025-10-14T07:07:18.499Z",
+        "shortId": "e320"
+      },
+      {
+        "id": "659c57a9-357a-4374-9cd4-f62ea54e0a35",
+        "effectName": "Soak I",
+        "effectDetails": "<p><span style=\"color: rgb(43, 171, 218);\">Hydro damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Considered a Hydro buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Hydro"
+        ],
+        "dollId": "ad525729-7e67-4954-9919-45168be39953",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T08:01:40.736Z",
+        "updatedAt": "2025-11-03T15:49:58.855Z",
+        "shortId": "e414"
+      },
+      {
+        "id": "1403cc19-233b-4c0c-8335-83cda83c7a62",
+        "effectName": "Defense Down II",
+        "effectDetails": "<p>Defense is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Considered a defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "ad525729-7e67-4954-9919-45168be39953",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:03:00.728Z",
+        "updatedAt": "2025-11-01T22:14:13.451Z",
+        "shortId": "e134"
+      },
+      {
+        "id": "13704d31-93dc-41f4-8ae8-52bf9ceb0a06",
+        "effectName": "Attack Up II",
+        "effectDetails": "<p>Attack is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Attack",
+          "Buff"
+        ],
+        "dollId": "ad525729-7e67-4954-9919-45168be39953",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:55:59.558Z",
+        "updatedAt": "2025-11-06T06:39:50.435Z",
+        "shortId": "e29"
       }
     ],
     "shortId": "d13"

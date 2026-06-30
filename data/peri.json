@@ -964,6 +964,64 @@
         "createdAt": "2025-09-19T03:40:29.821Z",
         "updatedAt": "2025-11-03T15:09:18.125Z",
         "shortId": "e296"
+      },
+      {
+        "id": "10b11942-01c9-4937-b446-1fe44c50d88a",
+        "effectName": "Shelter",
+        "effectDetails": "<p>Gains Stability Protection, reducing stability damage taken by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. Each instance of stability damage taken consumes<span style=\"color: rgb(243, 109, 28);\"> 1 stack</span>, maximum of <span style=\"color: rgb(243, 109, 28);\">3 stacks</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Stability"
+        ],
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:39:27.216Z",
+        "updatedAt": "2025-11-03T15:16:50.856Z",
+        "shortId": "e399"
+      },
+      {
+        "id": "dd0752a2-37c4-47ba-91ad-2dc640d2372b",
+        "effectName": "Stun",
+        "effectDetails": "<p>Unable to act.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T03:49:59.941Z",
+        "updatedAt": "2025-11-03T15:54:17.616Z",
+        "shortId": "e431"
+      },
+      {
+        "id": "fadf4f3f-2810-49f0-b947-6d683741429d",
+        "effectName": "Taunt",
+        "effectDetails": "<p>Uncontrollable, forced to use basic attacks on the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:35:26.444Z",
+        "updatedAt": "2025-11-03T16:00:56.734Z",
+        "shortId": "e450"
+      },
+      {
+        "id": "8cfe89a9-404a-42e5-9cc7-5bf57b070887",
+        "effectName": "Paralysis",
+        "effectDetails": "<p>Command Prohibition, disallows the use of basic attacks and active skills. Considered an Electric debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Electric"
+        ],
+        "dollId": "df3a0cf9-37dc-4391-8fda-eabbd2f75130",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T06:09:38.229Z",
+        "updatedAt": "2025-11-03T15:13:57.013Z",
+        "shortId": "e304"
       }
     ],
     "shortId": "d37"

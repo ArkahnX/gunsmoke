@@ -186,7 +186,7 @@
           "ammoTypes": "[]",
           "confectanceCost": null,
           "cooldown": null,
-          "description": "<p>Lenna is immune to the negative effects of Electric tiles.</p><p>When an enemy unit is inflicted with [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d], gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>For every <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index consumed, reduces the cooldown of all skills by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>After dealing targeted damage, generates [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> around the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Increases the duration of [effect:2e05ac13-430b-4a4d-b584-f669546d7fd0|doll:lenna] by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "description": "<p>Lenna is immune to the negative effects of Electric tiles.</p><p>When an enemy unit is inflicted with [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d], gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index.</p><p>For every <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index consumed, reduces the cooldown of all skills by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>After dealing targeted damage, generates [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> around the target for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>Increases the duration of [effect:2e05ac13-430b-4a4d-b584-f669546d7fd0] by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
           "phase": null,
           "skillTags": [
             "Passive",
@@ -204,7 +204,7 @@
           "vertebraeUpgrade": {
             "id": "11b2b7b3-bb42-45d1-9df9-f2a22c19e5d1",
             "level": 3,
-            "effect": "<p>The duration of [effect:2e05ac13-430b-4a4d-b584-f669546d7fd0|doll:lenna] increases by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+            "effect": "<p>The duration of [effect:2e05ac13-430b-4a4d-b584-f669546d7fd0] increases by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
             "dollId": "78f8df8a-c93c-4587-a3ca-37dde4dae5f4",
             "segment": 5,
             "imageUrl": "https://cdn.dandegate.net/skills/6717ed8efc6d39dcac7d169f534e9deb.webp",
@@ -365,7 +365,7 @@
         "summon": null,
         "shortId": 5,
         "level1": {
-          "description": "<p>Deals <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack as <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span>, applying [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, and creating [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles that lasts for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, whilst gaining the [effect:60819a58-6e32-4440-9b36-1045701af14d|doll:lenna] effect for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>If Confectance Index is more than or equal to <span style=\"color: rgb(243, 109, 28);\">3 points</span> before the skill is activated, consumes <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index to enhance the skill, gaining the [effect:2e05ac13-430b-4a4d-b584-f669546d7fd0|doll:lenna] effect for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "description": "<p>Deals <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack as <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span>, applying [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, and creating [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles that lasts for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, whilst gaining the [effect:60819a58-6e32-4440-9b36-1045701af14d] effect for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>If Confectance Index is more than or equal to <span style=\"color: rgb(243, 109, 28);\">3 points</span> before the skill is activated, consumes <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index to enhance the skill, gaining the [effect:2e05ac13-430b-4a4d-b584-f669546d7fd0] effect for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
           "phase": "Electric",
           "ammoTypes": "[]",
           "stabilityDamage": 2,
@@ -393,7 +393,7 @@
           "ammoTypes": "[]",
           "confectanceCost": null,
           "cooldown": 6,
-          "description": "<p>Deals <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack as <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, applying [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] and <span style=\"color: rgb(243, 109, 28);\">2</span><span> random debuffs</span> for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, and creating [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles that lasts for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, whilst gaining the [effect:60819a58-6e32-4440-9b36-1045701af14d|doll:lenna] effect for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>If Confectance Index is more than or equal to <span style=\"color: rgb(243, 109, 28);\">3 points</span> before the skill is activated, consumes <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index to enhance the skill, gaining the [effect:2e05ac13-430b-4a4d-b584-f669546d7fd0|doll:lenna] effect for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "description": "<p>Deals <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack as <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, applying [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] and <span style=\"color: rgb(243, 109, 28);\">2</span><span> random debuffs</span> for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, and creating [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles that lasts for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, whilst gaining the [effect:60819a58-6e32-4440-9b36-1045701af14d] effect for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>If Confectance Index is more than or equal to <span style=\"color: rgb(243, 109, 28);\">3 points</span> before the skill is activated, consumes <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index to enhance the skill, gaining the [effect:2e05ac13-430b-4a4d-b584-f669546d7fd0] effect for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
           "phase": "Electric",
           "skillTags": [
             "Ultimate",
@@ -428,7 +428,7 @@
           "ammoTypes": "[]",
           "confectanceCost": null,
           "cooldown": 6,
-          "description": "<p>Deals <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack as <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, applying [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] and <span style=\"color: rgb(243, 109, 28);\">2</span> random debuffs for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, and creating [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles that lasts for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, whilst gaining the [effect:60819a58-6e32-4440-9b36-1045701af14d|doll:lenna] effect for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>If Confectance Index is more than or equal to <span style=\"color: rgb(243, 109, 28);\">3 points</span> before the skill is activated, consumes <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index to enhance the skill, gaining the [effect:2e05ac13-430b-4a4d-b584-f669546d7fd0|doll:lenna] effect for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+          "description": "<p>Deals <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack as <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> to all enemy targets within <span style=\"color: rgb(243, 109, 28);\">7 tiles</span>, applying [effect:d4fd8953-92c9-4830-ad8b-ac4d56d95b7d] and <span style=\"color: rgb(243, 109, 28);\">2</span> random debuffs for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>, and creating [effect:d63f94c1-d638-4437-8196-f9cb9705c834] tiles that lasts for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, whilst gaining the [effect:60819a58-6e32-4440-9b36-1045701af14d] effect for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>If Confectance Index is more than or equal to <span style=\"color: rgb(243, 109, 28);\">3 points</span> before the skill is activated, consumes <span style=\"color: rgb(243, 109, 28);\">3 points</span> of Confectance Index to enhance the skill, gaining the [effect:2e05ac13-430b-4a4d-b584-f669546d7fd0] effect for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
           "phase": "Electric",
           "skillTags": [
             "Ultimate",
@@ -513,7 +513,7 @@
         "keyType": "Expansion Key",
         "keyNumber": 1,
         "level": 60,
-        "effect": "<p>After using active skill <span style=\"color: rgb(34, 139, 230);\">Hunting Strategy</span>, gain [effect:0650c1b5-4391-4985-916f-c47363843f36|doll:lenna] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>After using active skill <span style=\"color: rgb(34, 139, 230);\">Leaping Pursuit</span>, increase the damage multiplier of the next active skill used during [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] by <span style=\"color: rgb(243, 109, 28);\">100%</span>.</p><p>For every <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index consumed during this turn, increase attack by <span style=\"color: rgb(243, 109, 28);\">5%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
+        "effect": "<p>After using active skill <span style=\"color: rgb(34, 139, 230);\">Hunting Strategy</span>, gain [effect:0650c1b5-4391-4985-916f-c47363843f36] for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>.</p><p>After using active skill <span style=\"color: rgb(34, 139, 230);\">Leaping Pursuit</span>, increase the damage multiplier of the next active skill used during [effect:c1feeb2a-d9a9-4a73-9703-8806ee8cb9eb] by <span style=\"color: rgb(243, 109, 28);\">100%</span>.</p><p>For every <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index consumed during this turn, increase attack by <span style=\"color: rgb(243, 109, 28);\">5%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">30%</span>.</p>",
         "materialsType": "items",
         "materialsData": "[{\"itemId\":\"3fce7675-6818-40d4-9a3e-2d00285538dd\",\"itemName\":\"Basic Info Core\",\"amount\":\"3\"},{\"itemId\":\"40af916c-4e7a-44f9-ad4d-ab4a2418524b\",\"itemName\":\"Sardis Gold\",\"amount\":\"15000\"}]",
         "attributeName1": null,
@@ -775,7 +775,7 @@
         "segment": 5,
         "vertebraeName": "King's Authority Lv.3",
         "level": 3,
-        "effect": "<p>The duration of [effect:2e05ac13-430b-4a4d-b584-f669546d7fd0|doll:lenna] increases by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "effect": "<p>The duration of [effect:2e05ac13-430b-4a4d-b584-f669546d7fd0] increases by <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
         "imageUrl": "https://cdn.dandegate.net/skills/6717ed8efc6d39dcac7d169f534e9deb.webp",
         "createdAt": "2025-10-06T02:42:31.513Z",
         "updatedAt": "2025-10-14T07:06:24.229Z",
@@ -1019,6 +1019,81 @@
         "createdAt": "2025-09-14T19:42:00.107Z",
         "updatedAt": "2025-09-14T19:42:00.107Z",
         "shortId": "e176"
+      },
+      {
+        "id": "8cfe89a9-404a-42e5-9cc7-5bf57b070887",
+        "effectName": "Paralysis",
+        "effectDetails": "<p>Command Prohibition, disallows the use of basic attacks and active skills. Considered an Electric debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Electric"
+        ],
+        "dollId": "78f8df8a-c93c-4587-a3ca-37dde4dae5f4",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T06:09:38.229Z",
+        "updatedAt": "2025-11-03T15:13:57.013Z",
+        "shortId": "e304"
+      },
+      {
+        "id": "a9d5e1de-1be0-41d0-8970-2290e5ea4623",
+        "effectName": "Negative Charge",
+        "effectDetails": "<p>When taking targeted <span style=\"color: rgb(213, 173, 13);\">Electric damage</span>, all targets with <span style=\"color: rgb(34, 139, 230);\">Negative Charge</span> take fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of the damage from that attack. When <span style=\"color: rgb(34, 139, 230);\">Negative Charge</span> is applied again, the target takes <span style=\"color: rgb(243, 109, 28);\">an additional instance</span> of fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">3%</span> of the applier's attack. When taking an attack from a unit with [effect:f3c29056-b252-443d-bf3d-55462b514967], <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> taken is increased. Considered an Electric debuff (when an effect with the same name is applied again while the previous one is still in effect, the newly applied effect overwrites the former and inherits the remaining duration of the former effect).</p>",
+        "effectTags": [
+          "Debuff",
+          "Electric"
+        ],
+        "dollId": "78f8df8a-c93c-4587-a3ca-37dde4dae5f4",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T00:32:35.698Z",
+        "updatedAt": "2025-11-03T15:06:54.337Z",
+        "shortId": "e290"
+      },
+      {
+        "id": "0aebdc30-c7a2-41ff-bdea-d80d2e53563a",
+        "effectName": "Electric Boost II",
+        "effectDetails": "<p>Increase <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. This is considered an Electric buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Electric"
+        ],
+        "dollId": "78f8df8a-c93c-4587-a3ca-37dde4dae5f4",
+        "preview": false,
+        "regionTag": "cn",
+        "createdAt": "2025-10-08T05:23:14.493Z",
+        "updatedAt": "2025-11-01T23:01:52.812Z",
+        "shortId": "e161"
+      },
+      {
+        "id": "f3c29056-b252-443d-bf3d-55462b514967",
+        "effectName": "Positive Charge",
+        "effectDetails": "<p>At the end of the buff holder's action, recovers HP equal to 20% of max HP. If another allied unit within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> has <span style=\"color: rgb(34, 139, 230);\">Positive Charge</span>, additionally recovers HP equal to 15% of max HP. When attacking an enemy with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">35%</span>. Triggers on each target that has <span style=\"color: rgb(34, 139, 230);\">Positive Charge</span> at most <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. Considered an Electric buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Electric"
+        ],
+        "dollId": "78f8df8a-c93c-4587-a3ca-37dde4dae5f4",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-25T07:06:32.634Z",
+        "updatedAt": "2025-11-03T15:21:07.812Z",
+        "shortId": "e324"
+      },
+      {
+        "id": "2e05ac13-430b-4a4d-b584-f669546d7fd0",
+        "effectName": "Concealed",
+        "effectDetails": "<p>When any allied unit is within <span style=\"color: rgb(243, 109, 28);\">5 t</span><span style=\"color: rgb(243, 109, 28);\">iles</span> around the buff holder, the buff holder cannot be targeted by enemy basic attacks or active skills. Considered a buff, cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "78f8df8a-c93c-4587-a3ca-37dde4dae5f4",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-05T05:01:59.919Z",
+        "updatedAt": "2025-11-29T04:22:28.909Z",
+        "doll": null,
+        "shortId": "e84"
       }
     ],
     "shortId": "d22"

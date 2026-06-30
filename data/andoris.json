@@ -1156,15 +1156,7 @@
           "b37ed520-7950-49da-a645-a7de1e3c46a7"
         ],
         "shortId": "s1",
-        "level1": {
-          "stabilityGauge": 0,
-          "movement": 0,
-          "class": null,
-          "unitInfo": "<p>Summon. Inherits <span style=\"color: rgb(243, 109, 28);\">50%</span><span> of Andoris' initial HP, </span><span style=\"color: rgb(243, 109, 28);\">50%</span><span> of Andoris' initial attack, and </span><span style=\"color: rgb(243, 109, 28);\">100%</span><span> of Andoris' initial defense. Cannot move. Can apply [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623].</span></p>",
-          "hp": 50,
-          "atk": 50,
-          "def": 100
-        },
+        "level1": {},
         "level2": null,
         "level3": null,
         "level4": null,
@@ -1744,6 +1736,62 @@
         "createdAt": "2025-09-19T05:55:21.778Z",
         "updatedAt": "2025-11-01T21:45:27.363Z",
         "shortId": "e124"
+      },
+      {
+        "id": "fadf4f3f-2810-49f0-b947-6d683741429d",
+        "effectName": "Taunt",
+        "effectDetails": "<p>Uncontrollable, forced to use basic attacks on the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:35:26.444Z",
+        "updatedAt": "2025-11-03T16:00:56.734Z",
+        "shortId": "e450"
+      },
+      {
+        "id": "e82fca4c-de4a-40b6-83c2-e84d716f72d3",
+        "effectName": "Fear",
+        "effectDetails": "<p>Uncontrollable, actively moves away from the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T15:54:18.994Z",
+        "updatedAt": "2025-11-03T14:56:03.797Z",
+        "shortId": "e185"
+      },
+      {
+        "id": "b46e4270-c2d5-4f69-bb9b-544785785790",
+        "effectName": "Infatuated",
+        "effectDetails": "<p>Uncontrollable, actively moves towards the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T21:37:27.720Z",
+        "updatedAt": "2025-11-03T15:04:08.566Z",
+        "shortId": "e245"
+      },
+      {
+        "id": "dd0752a2-37c4-47ba-91ad-2dc640d2372b",
+        "effectName": "Stun",
+        "effectDetails": "<p>Unable to act.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "d25d393c-a908-45ce-844a-24c637fddf66",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T03:49:59.941Z",
+        "updatedAt": "2025-11-03T15:54:17.616Z",
+        "shortId": "e431"
       }
     ]
   }

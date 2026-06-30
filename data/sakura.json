@@ -964,7 +964,7 @@
       {
         "id": "137fa391-c1aa-4777-bb43-278f788a6aac",
         "effectName": "Thermal Conduction",
-        "effectDetails": "<p>Accumulates [effect:9f893006-1231-4255-b5c9-9a373aa441a2|doll:lewis] to charge up. Once [effect:9f893006-1231-4255-b5c9-9a373aa441a2|doll:lewis] reaches <span style=\"color: rgb(243, 109, 28);\">35 points</span>, consumes all points of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and grants all allied Dolls [effect:27d1b457-e6a0-4327-9ee5-777be0028c79] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "effectDetails": "<p>Accumulates [effect:9f893006-1231-4255-b5c9-9a373aa441a2] to charge up. Once [effect:9f893006-1231-4255-b5c9-9a373aa441a2] reaches <span style=\"color: rgb(243, 109, 28);\">35 points</span>, consumes all points of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and grants all allied Dolls [effect:27d1b457-e6a0-4327-9ee5-777be0028c79] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
         "effectTags": [],
         "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
         "preview": false,
@@ -1011,6 +1011,65 @@
         "createdAt": "2025-09-14T19:42:00.107Z",
         "updatedAt": "2025-09-14T19:42:00.107Z",
         "shortId": "e176"
+      },
+      {
+        "id": "71b3f790-db3b-4188-a3d7-15fa9752b57a",
+        "effectName": "Overburn",
+        "effectDetails": "<p>Upon gaining this effect and at the end of action, the buff holder and all allied units within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the buff holder take fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of the effect applier's attack. Considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T03:40:29.821Z",
+        "updatedAt": "2025-11-03T15:09:18.125Z",
+        "shortId": "e296"
+      },
+      {
+        "id": "af640815-bbef-471b-8888-cee6c3d8b4a4",
+        "effectName": "Quick Barrier",
+        "effectDetails": "<p>Targeted damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">60%</span>, effective <span style=\"color: rgb(243, 109, 28);\">once</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T03:31:08.605Z",
+        "updatedAt": "2025-11-03T15:27:49.287Z",
+        "shortId": "e343"
+      },
+      {
+        "id": "27d1b457-e6a0-4327-9ee5-777be0028c79",
+        "effectName": "Embers",
+        "effectDetails": "<p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span> dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>. Critical damage is permanently increased by </span><span style=\"color: rgb(243, 109, 28);\">5%</span><span>. Considered a Burn buff, cannot be cleansed.</span></p>",
+        "effectTags": [
+          "Buff",
+          "Burn"
+        ],
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-05T20:12:43.267Z",
+        "updatedAt": "2026-02-19T05:08:08.010Z",
+        "shortId": "e165"
+      },
+      {
+        "id": "a55cd12e-7fd4-47c1-bddc-6e933f2a323a",
+        "effectName": "Conflagration",
+        "effectDetails": "<p>Burn damage taken is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "10c70647-d31f-4edf-8b1d-79629b4e2eca",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-22T04:16:54.100Z",
+        "updatedAt": "2025-11-01T21:29:55.307Z",
+        "shortId": "e88"
       }
     ],
     "shortId": "d44"

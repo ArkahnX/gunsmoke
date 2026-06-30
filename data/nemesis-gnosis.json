@@ -1103,6 +1103,49 @@
         "createdAt": "2025-09-11T00:11:35.926Z",
         "updatedAt": "2025-11-03T05:56:58.293Z",
         "shortId": "e247"
+      },
+      {
+        "id": "2e05ac13-430b-4a4d-b584-f669546d7fd0",
+        "effectName": "Concealed",
+        "effectDetails": "<p>When any allied unit is within <span style=\"color: rgb(243, 109, 28);\">5 t</span><span style=\"color: rgb(243, 109, 28);\">iles</span> around the buff holder, the buff holder cannot be targeted by enemy basic attacks or active skills. Considered a buff, cannot be cleansed.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "d474bca4-5806-4020-997f-fd6a2ffc3420",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-05T05:01:59.919Z",
+        "updatedAt": "2025-11-29T04:22:28.909Z",
+        "shortId": "e84"
+      },
+      {
+        "id": "1b83587d-eddc-4abd-b90c-cb0aa4b2cfef",
+        "effectName": "Additional Movement",
+        "effectDetails": "<p>Can move once, but cannot use any other commands.</p>",
+        "effectTags": [
+          "Movement"
+        ],
+        "dollId": "d474bca4-5806-4020-997f-fd6a2ffc3420",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:30:54.242Z",
+        "updatedAt": "2025-11-06T06:30:55.814Z",
+        "shortId": "e7"
+      },
+      {
+        "id": "42d85a9b-2025-4f14-b4c2-df25f9c11bd3",
+        "effectName": "Movement Denied",
+        "effectDetails": "<p>Unable to move. Considered a movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Movement"
+        ],
+        "dollId": "d474bca4-5806-4020-997f-fd6a2ffc3420",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:25:58.311Z",
+        "updatedAt": "2025-11-03T05:59:35.540Z",
+        "shortId": "e279"
       }
     ],
     "shortId": "d58"

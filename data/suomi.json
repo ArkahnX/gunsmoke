@@ -1191,6 +1191,110 @@
         "createdAt": "2025-09-20T19:18:04.645Z",
         "updatedAt": "2025-10-14T07:07:20.275Z",
         "shortId": "e400"
+      },
+      {
+        "id": "16e665b8-d576-4fc1-9c34-838e33b2e7ad",
+        "effectName": "Defense Up III",
+        "effectDetails": "<p>Defense increased by <span style=\"color: rgb(243, 109, 28);\">40%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Defense"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-29T23:53:37.843Z",
+        "updatedAt": "2025-11-01T23:00:40.598Z",
+        "shortId": "e139"
+      },
+      {
+        "id": "ee7221df-ee27-430b-8a85-f3b804da60a5",
+        "effectName": "Iced",
+        "effectDetails": "<p>Command Prohibition. Unable to act. Removed after taking damage. Considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-30T01:17:01.357Z",
+        "updatedAt": "2025-11-03T05:18:42.513Z",
+        "shortId": "e240"
+      },
+      {
+        "id": "8cfe89a9-404a-42e5-9cc7-5bf57b070887",
+        "effectName": "Paralysis",
+        "effectDetails": "<p>Command Prohibition, disallows the use of basic attacks and active skills. Considered an Electric debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Electric"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T06:09:38.229Z",
+        "updatedAt": "2025-11-03T15:13:57.013Z",
+        "shortId": "e304"
+      },
+      {
+        "id": "f4fc6af5-7a01-48a3-91e2-e432a7216dbc",
+        "effectName": "Frigid",
+        "effectDetails": "<p>Unable to move and cannot be actively displaced. Considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T19:22:25.160Z",
+        "updatedAt": "2025-11-01T23:37:44.521Z",
+        "shortId": "e211"
+      },
+      {
+        "id": "d85addc9-1d0c-46cb-a37a-377dde1be0ae",
+        "effectName": "Frozen",
+        "effectDetails": "<p>Movement is decreased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. If <span style=\"color: rgb(34, 139, 230);\">Frozen</span> has reached <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> at the end of the action, it is converted into [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. This is considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T02:24:20.358Z",
+        "updatedAt": "2025-11-02T02:29:37.253Z",
+        "shortId": "e217"
+      },
+      {
+        "id": "bebcfe15-5173-43c9-bfd1-bcdb4cbfece1",
+        "effectName": "Capital Protection",
+        "effectDetails": {
+          "mainDetails": "<p>Considered a <span style=\"color: rgb(34, 139, 230);\">Shield</span>, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. At the end of this unit's action, applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Considered a buff, cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "be3a4c74-0cf2-4217-80bf-d8e5f57f01eb",
+              "upgradeName": "V6",
+              "upgradeDetails": "<p>Considered a <span style=\"color: rgb(34, 139, 230);\">Shield</span>, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. Before being attacked, the attacker's attack is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>. At the end of this unit's action, applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Considered a buff, cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
+        "effectTags": [
+          "Buff",
+          "Defense",
+          "Stability"
+        ],
+        "dollId": "87ef030c-7830-418d-8f58-8cd5e2bdca1d",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T03:56:44.916Z",
+        "updatedAt": "2025-11-06T06:44:30.274Z",
+        "shortId": "e61"
       }
     ],
     "shortId": "d48"

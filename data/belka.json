@@ -414,7 +414,7 @@
           "vertebraeUpgrade": {
             "id": "8c0cf324-f82e-4b1c-8808-985fba999af9",
             "level": 2,
-            "effect": "<p>Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b|doll:belka].</p><p>[effect:0fbfd3cd-3787-4137-995f-d5975b378e52] gains new effects: If the target of [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] this turn is the same as the target of this skill, applies [effect:e809a359-05d8-42fa-9f90-abf087a5584d] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before the attack resolves.</p>",
+            "effect": "<p>Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b].</p><p>[effect:0fbfd3cd-3787-4137-995f-d5975b378e52] gains new effects: If the target of [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] this turn is the same as the target of this skill, applies [effect:e809a359-05d8-42fa-9f90-abf087a5584d] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before the attack resolves.</p>",
             "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
             "segment": 2,
             "imageUrl": "https://cdn.dandegate.net/skills/06d003c3a6a3cb09bbd5d00a487ee947.webp",
@@ -706,7 +706,7 @@
         "segment": 2,
         "vertebraeName": "Leaping Arc Lv.2",
         "level": 2,
-        "effect": "<p>Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b|doll:belka].</p><p>[effect:0fbfd3cd-3787-4137-995f-d5975b378e52] gains new effects: If the target of [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] this turn is the same as the target of this skill, applies [effect:e809a359-05d8-42fa-9f90-abf087a5584d] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before the attack resolves.</p>",
+        "effect": "<p>Belka gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of [effect:92c897fb-6469-4746-9cdf-ff28c46af53b].</p><p>[effect:0fbfd3cd-3787-4137-995f-d5975b378e52] gains new effects: If the target of [effect:0fbfd3cd-3787-4137-995f-d5975b378e52] this turn is the same as the target of this skill, applies [effect:e809a359-05d8-42fa-9f90-abf087a5584d] to it for <span style=\"color: rgb(243, 109, 28);\">2 turns</span> before the attack resolves.</p>",
         "imageUrl": "https://cdn.dandegate.net/skills/06d003c3a6a3cb09bbd5d00a487ee947.webp",
         "createdAt": "2025-09-21T04:41:42.516Z",
         "updatedAt": "2025-12-05T03:01:03.864Z",
@@ -1054,6 +1054,79 @@
         "createdAt": "2025-09-21T03:20:39.075Z",
         "updatedAt": "2025-11-01T21:25:46.875Z",
         "shortId": "e87"
+      },
+      {
+        "id": "f3c29056-b252-443d-bf3d-55462b514967",
+        "effectName": "Positive Charge",
+        "effectDetails": "<p>At the end of the buff holder's action, recovers HP equal to 20% of max HP. If another allied unit within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> has <span style=\"color: rgb(34, 139, 230);\">Positive Charge</span>, additionally recovers HP equal to 15% of max HP. When attacking an enemy with [effect:a9d5e1de-1be0-41d0-8970-2290e5ea4623], <span style=\"color: rgb(213, 173, 13);\">Electric damage</span> dealt is increased by <span style=\"color: rgb(243, 109, 28);\">35%</span>. Triggers on each target that has <span style=\"color: rgb(34, 139, 230);\">Positive Charge</span> at most <span style=\"color: rgb(243, 109, 28);\">3 times</span> per turn. Considered an Electric buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Electric"
+        ],
+        "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-25T07:06:32.634Z",
+        "updatedAt": "2025-11-03T15:21:07.812Z",
+        "shortId": "e324"
+      },
+      {
+        "id": "2eaedbcb-e86c-431a-ac54-2fcb00ebfb70",
+        "effectName": "Movement Up I",
+        "effectDetails": "<p>Increases mobility by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Movement"
+        ],
+        "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T00:24:06.558Z",
+        "updatedAt": "2025-11-03T05:42:03.099Z",
+        "shortId": "e284"
+      },
+      {
+        "id": "d9460e7f-212e-467f-91bc-bfee83202ada",
+        "effectName": "Critical Rate Boost I",
+        "effectDetails": "<p>Increases critical rate by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T03:16:47.328Z",
+        "updatedAt": "2025-11-01T21:37:41.329Z",
+        "shortId": "e113"
+      },
+      {
+        "id": "6fd51e21-f25d-4ef4-b554-e00aef225a58",
+        "effectName": "Damage Up I",
+        "effectDetails": "<p>Increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:21:07.710Z",
+        "updatedAt": "2025-11-01T21:45:00.703Z",
+        "shortId": "e123"
+      },
+      {
+        "id": "8cfe89a9-404a-42e5-9cc7-5bf57b070887",
+        "effectName": "Paralysis",
+        "effectDetails": "<p>Command Prohibition, disallows the use of basic attacks and active skills. Considered an Electric debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Electric"
+        ],
+        "dollId": "fb7148a2-e084-4523-aaa4-6e3c0186b6ef",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T06:09:38.229Z",
+        "updatedAt": "2025-11-03T15:13:57.013Z",
+        "shortId": "e304"
       }
     ],
     "shortId": "d5"

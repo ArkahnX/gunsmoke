@@ -902,15 +902,7 @@
           "4a665774-c78b-4396-964f-19291c942b5f"
         ],
         "shortId": "s6",
-        "level1": {
-          "stabilityGauge": 9,
-          "movement": 6,
-          "class": null,
-          "unitInfo": "<p>Summoned creature, inherits Liu Shi's initial attributes. Cannot move. Enters [effect:909a9280-6906-46f0-aae4-5b57ba14ef8d] state when receiving fatal damage; if in [effect:16ed69a1-b5aa-4af3-8079-3386d220d3fa] state, Pegasus exits that state.</p>",
-          "hp": 100,
-          "atk": 100,
-          "def": 100
-        },
+        "level1": {},
         "level2": null,
         "level3": null,
         "level4": null,
@@ -1234,6 +1226,51 @@
         "createdAt": "2025-09-13T03:50:07.621Z",
         "updatedAt": "2025-11-03T16:02:52.756Z",
         "shortId": "e463"
+      },
+      {
+        "id": "1b83587d-eddc-4abd-b90c-cb0aa4b2cfef",
+        "effectName": "Additional Movement",
+        "effectDetails": "<p>Can move once, but cannot use any other commands.</p>",
+        "effectTags": [
+          "Movement"
+        ],
+        "dollId": "6b84c98c-4287-4261-9d21-09c8f286d0a2",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:30:54.242Z",
+        "updatedAt": "2025-11-06T06:30:55.814Z",
+        "shortId": "e7"
+      },
+      {
+        "id": "7dec35ce-d8cc-443e-8a4e-410233b3cda6",
+        "effectName": "Damp",
+        "effectDetails": "<p>Reduces healing received by <span style=\"color: rgb(243, 109, 28);\">40%</span>. Upon reaching<span style=\"color: rgb(243, 109, 28);\"> 2 stacks</span>, it is converted to [effect:bba5e073-5719-4cc8-85d9-6de563caaa5e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. Considered a Hydro debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Hydro"
+        ],
+        "dollId": "6b84c98c-4287-4261-9d21-09c8f286d0a2",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:46:04.968Z",
+        "updatedAt": "2025-11-01T21:46:26.270Z",
+        "shortId": "e126"
+      },
+      {
+        "id": "bba5e073-5719-4cc8-85d9-6de563caaa5e",
+        "effectName": "Congestion",
+        "effectDetails": "<p>Cannot be healed. Considered a Hydro debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Healing",
+          "Hydro"
+        ],
+        "dollId": "6b84c98c-4287-4261-9d21-09c8f286d0a2",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:44:45.081Z",
+        "updatedAt": "2025-11-03T06:14:02.347Z",
+        "shortId": "e89"
       }
     ],
     "shortId": "d27"

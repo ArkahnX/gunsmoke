@@ -1137,6 +1137,63 @@
         "createdAt": "2025-09-21T21:37:27.720Z",
         "updatedAt": "2025-11-03T15:04:08.566Z",
         "shortId": "e245"
+      },
+      {
+        "id": "013c5bd7-5fbe-4337-8f26-70872d9a5800",
+        "effectName": "Interception",
+        "effectDetails": "<p>Performs an attack; cannot be triggered by Interceptions, Counterattacks or Support Attacks.</p>",
+        "effectTags": [],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:51:18.789Z",
+        "updatedAt": "2025-09-13T03:51:18.789Z",
+        "shortId": "e251"
+      },
+      {
+        "id": "d4fd8953-92c9-4830-ad8b-ac4d56d95b7d",
+        "effectName": "Conductivity",
+        "effectDetails": "<p>Damage taken is converted to [effect:8cfe89a9-404a-42e5-9cc7-5bf57b070887]. Considered an Electric debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Electric"
+        ],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T03:20:39.075Z",
+        "updatedAt": "2025-11-01T21:25:46.875Z",
+        "shortId": "e87"
+      },
+      {
+        "id": "1403cc19-233b-4c0c-8335-83cda83c7a62",
+        "effectName": "Defense Down II",
+        "effectDetails": "<p>Defense is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Considered a defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:03:00.728Z",
+        "updatedAt": "2025-11-01T22:14:13.451Z",
+        "shortId": "e134"
+      },
+      {
+        "id": "8cfe89a9-404a-42e5-9cc7-5bf57b070887",
+        "effectName": "Paralysis",
+        "effectDetails": "<p>Command Prohibition, disallows the use of basic attacks and active skills. Considered an Electric debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Electric"
+        ],
+        "dollId": "dc4714d2-9d05-4c04-915e-eeeed970e338",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T06:09:38.229Z",
+        "updatedAt": "2025-11-03T15:13:57.013Z",
+        "shortId": "e304"
       }
     ],
     "shortId": "d17"

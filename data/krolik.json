@@ -967,6 +967,54 @@
         "createdAt": "2025-09-20T05:30:54.242Z",
         "updatedAt": "2025-11-06T06:30:55.814Z",
         "shortId": "e7"
+      },
+      {
+        "id": "d85addc9-1d0c-46cb-a37a-377dde1be0ae",
+        "effectName": "Frozen",
+        "effectDetails": "<p>Movement is decreased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. If <span style=\"color: rgb(34, 139, 230);\">Frozen</span> has reached <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> at the end of the action, it is converted into [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. This is considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "cc750023-c814-470d-86a4-789e0a654979",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T02:24:20.358Z",
+        "updatedAt": "2025-11-02T02:29:37.253Z",
+        "shortId": "e217"
+      },
+      {
+        "id": "f4fc6af5-7a01-48a3-91e2-e432a7216dbc",
+        "effectName": "Frigid",
+        "effectDetails": "<p>Unable to move and cannot be actively displaced. Considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "cc750023-c814-470d-86a4-789e0a654979",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T19:22:25.160Z",
+        "updatedAt": "2025-11-01T23:37:44.521Z",
+        "shortId": "e211"
+      },
+      {
+        "id": "6d138a9f-2068-42d9-9ecb-bfd3000a4ac8",
+        "effectName": "Blazing Assault II",
+        "effectDetails": "<p>Increases attack by <span style=\"color: rgb(243, 109, 28);\">15%</span>. Considered a Burn buff.</p>",
+        "effectTags": [
+          "Attack",
+          "Buff",
+          "Burn"
+        ],
+        "dollId": "cc750023-c814-470d-86a4-789e0a654979",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T03:51:17.801Z",
+        "updatedAt": "2026-04-08T05:29:53.352Z",
+        "shortId": "e42"
       }
     ],
     "shortId": "d19"

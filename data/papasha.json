@@ -1054,36 +1054,8 @@
           "74214d3d-8a58-4538-a486-b25aa33b5d4f"
         ],
         "shortId": "s8",
-        "level1": {
-          "stabilityGauge": 9,
-          "movement": 5,
-          "class": null,
-          "unitInfo": "<p>A warden of the City. Protector of all that is good and fair in this world. If you need an unflinching soldier in the war against evil, this robot is for you.</p>",
-          "hp": 80,
-          "atk": 80,
-          "def": 80
-        },
-        "level2": {
-          "atk": 80,
-          "class": null,
-          "def": 80,
-          "hp": 80,
-          "movement": 5,
-          "stabilityGauge": 9,
-          "unitInfo": "<p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:908ec419-871d-4297-bbb8-e12e4b46d7f9].</p>",
-          "vertebraeUpgradeId": "170b3637-2fd3-478f-9944-b7df2986a68f",
-          "vertebraeUpgrade": {
-            "id": "170b3637-2fd3-478f-9944-b7df2986a68f",
-            "level": 3,
-            "effect": "<p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains [effect:908ec419-871d-4297-bbb8-e12e4b46d7f9].</p>",
-            "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
-            "segment": 5,
-            "imageUrl": "https://cdn.dandegate.net/skills/1ee353781c919748bac94244feab164b.webp",
-            "createdAt": "2025-09-25T05:08:26.063Z",
-            "updatedAt": "2025-10-14T07:06:02.172Z",
-            "vertebraeName": "United Guards Lv.3"
-          }
-        },
+        "level1": {},
+        "level2": null,
         "level3": null,
         "level4": null,
         "skills": [
@@ -1500,6 +1472,30 @@
         "createdAt": "2025-09-25T05:01:54.884Z",
         "updatedAt": "2025-11-03T16:01:24.648Z",
         "shortId": "e452"
+      },
+      {
+        "id": "d149d223-ac66-4556-ba25-5d4fef2504e9",
+        "effectName": "Physical Summon",
+        "effectDetails": "<p>A summon that inherits its summoner's stats and has a physical presence on the battlefield (like Papasha's City Warden, Andoris' Auto-Turrets and Nikketa's [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] among others).</p>",
+        "effectTags": [],
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T08:03:06.790Z",
+        "updatedAt": "2025-10-14T07:07:18.499Z",
+        "shortId": "e320"
+      },
+      {
+        "id": "2a885794-26bf-4b04-8908-e5b4d3645575",
+        "effectName": "Damage Reduction III",
+        "effectDetails": "<p>Damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>. This is considered a buff.</p>",
+        "effectTags": [],
+        "dollId": "8e89bf02-4375-4a4b-ba5d-bb2334e1369e",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2026-02-09T02:18:35.518Z",
+        "updatedAt": "2026-02-09T02:19:10.883Z",
+        "shortId": "e122"
       }
     ],
     "shortId": "d36"

@@ -1290,6 +1290,153 @@
         "createdAt": "2025-09-13T03:51:18.789Z",
         "updatedAt": "2025-09-13T03:51:18.789Z",
         "shortId": "e251"
+      },
+      {
+        "id": "6d138a9f-2068-42d9-9ecb-bfd3000a4ac8",
+        "effectName": "Blazing Assault II",
+        "effectDetails": "<p>Increases attack by <span style=\"color: rgb(243, 109, 28);\">15%</span>. Considered a Burn buff.</p>",
+        "effectTags": [
+          "Attack",
+          "Buff",
+          "Burn"
+        ],
+        "dollId": "6a001d4e-fdaa-4726-a6c8-9729dbcc44e9",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T03:51:17.801Z",
+        "updatedAt": "2026-04-08T05:29:53.352Z",
+        "shortId": "e42"
+      },
+      {
+        "id": "d26174e2-d4c2-4768-9714-7034478fa87f",
+        "effectName": "Frost Strike",
+        "effectDetails": "<p>Increases attack by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Considered a Freeze buff.</p>",
+        "effectTags": [
+          "Attack",
+          "Buff",
+          "Freeze"
+        ],
+        "dollId": "6a001d4e-fdaa-4726-a6c8-9729dbcc44e9",
+        "preview": false,
+        "regionTag": "cn",
+        "createdAt": "2026-04-08T05:33:22.493Z",
+        "updatedAt": "2026-04-08T05:33:22.493Z",
+        "shortId": "e215"
+      },
+      {
+        "id": "4b58c8fc-c426-4b72-91e5-92dfb9e5a600",
+        "effectName": "Shield",
+        "effectDetails": "<p>Absorbs a certain amount of damage. Shields do not stack, but they can overlap. When the most recently-applied shield has a longer duration or takes more damage than the previous one(s), it replaces the previous one(s). Shield include [effect:abce6753-fe29-4ca3-b487-7453e982b279], [effect:bebcfe15-5173-43c9-bfd1-bcdb4cbfece1], and other effects.</p>",
+        "effectTags": [],
+        "dollId": "6a001d4e-fdaa-4726-a6c8-9729dbcc44e9",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T19:18:04.645Z",
+        "updatedAt": "2025-10-14T07:07:20.275Z",
+        "shortId": "e400"
+      },
+      {
+        "id": "f4fc6af5-7a01-48a3-91e2-e432a7216dbc",
+        "effectName": "Frigid",
+        "effectDetails": "<p>Unable to move and cannot be actively displaced. Considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "6a001d4e-fdaa-4726-a6c8-9729dbcc44e9",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T19:22:25.160Z",
+        "updatedAt": "2025-11-01T23:37:44.521Z",
+        "shortId": "e211"
+      },
+      {
+        "id": "d85addc9-1d0c-46cb-a37a-377dde1be0ae",
+        "effectName": "Frozen",
+        "effectDetails": "<p>Movement is decreased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. If <span style=\"color: rgb(34, 139, 230);\">Frozen</span> has reached <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> at the end of the action, it is converted into [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. This is considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "6a001d4e-fdaa-4726-a6c8-9729dbcc44e9",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T02:24:20.358Z",
+        "updatedAt": "2025-11-02T02:29:37.253Z",
+        "shortId": "e217"
+      },
+      {
+        "id": "71b3f790-db3b-4188-a3d7-15fa9752b57a",
+        "effectName": "Overburn",
+        "effectDetails": "<p>Upon gaining this effect and at the end of action, the buff holder and all allied units within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the buff holder take fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of the effect applier's attack. Considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "6a001d4e-fdaa-4726-a6c8-9729dbcc44e9",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T03:40:29.821Z",
+        "updatedAt": "2025-11-03T15:09:18.125Z",
+        "shortId": "e296"
+      },
+      {
+        "id": "a55cd12e-7fd4-47c1-bddc-6e933f2a323a",
+        "effectName": "Conflagration",
+        "effectDetails": "<p>Burn damage taken is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "6a001d4e-fdaa-4726-a6c8-9729dbcc44e9",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-22T04:16:54.100Z",
+        "updatedAt": "2025-11-01T21:29:55.307Z",
+        "shortId": "e88"
+      },
+      {
+        "id": "bebcfe15-5173-43c9-bfd1-bcdb4cbfece1",
+        "effectName": "Capital Protection",
+        "effectDetails": {
+          "mainDetails": "<p>Considered a <span style=\"color: rgb(34, 139, 230);\">Shield</span>, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. At the end of this unit's action, applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Considered a buff, cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "be3a4c74-0cf2-4217-80bf-d8e5f57f01eb",
+              "upgradeName": "V6",
+              "upgradeDetails": "<p>Considered a <span style=\"color: rgb(34, 139, 230);\">Shield</span>, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. Before being attacked, the attacker's attack is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>. At the end of this unit's action, applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Considered a buff, cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
+        "effectTags": [
+          "Buff",
+          "Defense",
+          "Stability"
+        ],
+        "dollId": "6a001d4e-fdaa-4726-a6c8-9729dbcc44e9",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T03:56:44.916Z",
+        "updatedAt": "2025-11-06T06:44:30.274Z",
+        "shortId": "e61"
+      },
+      {
+        "id": "fadf4f3f-2810-49f0-b947-6d683741429d",
+        "effectName": "Taunt",
+        "effectDetails": "<p>Uncontrollable, forced to use basic attacks on the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "6a001d4e-fdaa-4726-a6c8-9729dbcc44e9",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:35:26.444Z",
+        "updatedAt": "2025-11-03T16:00:56.734Z",
+        "doll": null,
+        "shortId": "e450"
       }
     ],
     "shortId": "d57"

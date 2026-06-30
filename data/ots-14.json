@@ -1244,6 +1244,257 @@
         "createdAt": "2026-03-21T20:50:43.008Z",
         "updatedAt": "2026-03-30T16:39:05.290Z",
         "shortId": "e282"
+      },
+      {
+        "id": "1b83587d-eddc-4abd-b90c-cb0aa4b2cfef",
+        "effectName": "Additional Movement",
+        "effectDetails": "<p>Can move once, but cannot use any other commands.</p>",
+        "effectTags": [
+          "Movement"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:30:54.242Z",
+        "updatedAt": "2025-11-06T06:30:55.814Z",
+        "shortId": "e7"
+      },
+      {
+        "id": "137fa391-c1aa-4777-bb43-278f788a6aac",
+        "effectName": "Thermal Conduction",
+        "effectDetails": "<p>Accumulates [effect:9f893006-1231-4255-b5c9-9a373aa441a2] to charge up. Once [effect:9f893006-1231-4255-b5c9-9a373aa441a2] reaches <span style=\"color: rgb(243, 109, 28);\">35 points</span>, consumes all points of [effect:9f893006-1231-4255-b5c9-9a373aa441a2] and grants all allied Dolls [effect:27d1b457-e6a0-4327-9ee5-777be0028c79] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "effectTags": [],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-05T20:25:46.306Z",
+        "updatedAt": "2026-02-19T05:04:17.793Z",
+        "shortId": "e456"
+      },
+      {
+        "id": "9f893006-1231-4255-b5c9-9a373aa441a2",
+        "effectName": "Searing Flame",
+        "effectDetails": "<p>Charges up [effect:137fa391-c1aa-4777-bb43-278f788a6aac].</p>",
+        "effectTags": [],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-05T20:11:36.809Z",
+        "updatedAt": "2026-02-19T05:04:46.811Z",
+        "shortId": "e387"
+      },
+      {
+        "id": "f793ed02-a490-4ac2-849a-689c57001678",
+        "effectName": "Incineration",
+        "effectDetails": "<p>Inflicts Burn weakness to enemy units within the area. Inflicts [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] and [effect:a55cd12e-7fd4-47c1-bddc-6e933f2a323a] to enemy units that remain within the area at the end of their action, lasting 2 turns. Considered a Burn tile.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-22T04:15:37.347Z",
+        "updatedAt": "2025-11-03T05:54:13.118Z",
+        "shortId": "e244"
+      },
+      {
+        "id": "27d1b457-e6a0-4327-9ee5-777be0028c79",
+        "effectName": "Embers",
+        "effectDetails": "<p><span style=\"color: rgb(237, 79, 18);\">Burn damage</span><span> dealt is increased by </span><span style=\"color: rgb(243, 109, 28);\">30%</span><span>. Critical damage is permanently increased by </span><span style=\"color: rgb(243, 109, 28);\">5%</span><span>. Considered a Burn buff, cannot be cleansed.</span></p>",
+        "effectTags": [
+          "Buff",
+          "Burn"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-10-05T20:12:43.267Z",
+        "updatedAt": "2026-02-19T05:08:08.010Z",
+        "shortId": "e165"
+      },
+      {
+        "id": "1c5e2242-b8ce-41b6-934a-5779d82f6790",
+        "effectName": "Toxic Mist",
+        "effectDetails": "<p>Inflicts <span style=\"color: rgb(135, 120, 233);\">Corrosion</span> weakness to the enemy units within the area. Deals fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of the Inflictor's attack and inflicts [effect:1e0dd817-2d72-4a4a-98d5-4acd6e11b8e5] to enemy units that remain within the area at the end of their action. Lasting <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Considered a Corrosion tile.</p>",
+        "effectTags": [
+          "Corrosion",
+          "Weakness"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-23T22:40:49.670Z",
+        "updatedAt": "2026-01-21T02:42:46.932Z",
+        "shortId": "e467"
+      },
+      {
+        "id": "d63f94c1-d638-4437-8196-f9cb9705c834",
+        "effectName": "Voltage",
+        "effectDetails": "<p>Adds <span style=\"color: rgb(213, 173, 13);\">Electric</span> weakness to enemy units in the area. When enemy units on the affected tiles suffer AoE damage, a tile reaction is triggered, dealing fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">30%</span> of attack, and removes the tile effect. If the AoE damage is <span style=\"color: rgb(213, 173, 13);\">Electric</span> or <span style=\"color: rgb(43, 171, 218);\">Hydro</span>, the fixed damage increases to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack. Deals <span style=\"color: rgb(243, 109, 28);\">double</span> damage to large targets. Considered an Electric tile.</p>",
+        "effectTags": [
+          "Electric",
+          "Weakness"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-25T06:53:28.069Z",
+        "updatedAt": "2025-11-03T16:10:20.637Z",
+        "shortId": "e487"
+      },
+      {
+        "id": "3c3d2b25-6823-4ce4-a33e-cf69e0e759a5",
+        "effectName": "Frost",
+        "effectDetails": "<p>Applies [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae] to units which end their movement in this area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Enemy units in this area gain a weakness to <span style=\"color: rgb(66, 205, 224);\">Freeze </span>damage and Freeze tiles.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T16:14:46.543Z",
+        "updatedAt": "2025-11-01T23:39:59.216Z",
+        "shortId": "e213"
+      },
+      {
+        "id": "a7a2cc2b-3078-4d27-bafc-f20b389335c0",
+        "effectName": "Tideway",
+        "effectDetails": "<p>Applies [effect:7dec35ce-d8cc-443e-8a4e-410233b3cda6] to units which end their movement in this area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Enemy units in this area gain a weakness to <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>. Considered a Hydro tile.</p>",
+        "effectTags": [
+          "Hydro",
+          "Weakness"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:50:07.621Z",
+        "updatedAt": "2025-11-03T16:02:52.756Z",
+        "shortId": "e463"
+      },
+      {
+        "id": "d149d223-ac66-4556-ba25-5d4fef2504e9",
+        "effectName": "Physical Summon",
+        "effectDetails": "<p>A summon that inherits its summoner's stats and has a physical presence on the battlefield (like Papasha's City Warden, Andoris' Auto-Turrets and Nikketa's [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] among others).</p>",
+        "effectTags": [],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T08:03:06.790Z",
+        "updatedAt": "2025-10-14T07:07:18.499Z",
+        "shortId": "e320"
+      },
+      {
+        "id": "71b3f790-db3b-4188-a3d7-15fa9752b57a",
+        "effectName": "Overburn",
+        "effectDetails": "<p>Upon gaining this effect and at the end of action, the buff holder and all allied units within <span style=\"color: rgb(243, 109, 28);\">1 tile</span> of the buff holder take fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of the effect applier's attack. Considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T03:40:29.821Z",
+        "updatedAt": "2025-11-03T15:09:18.125Z",
+        "shortId": "e296"
+      },
+      {
+        "id": "a55cd12e-7fd4-47c1-bddc-6e933f2a323a",
+        "effectName": "Conflagration",
+        "effectDetails": "<p>Burn damage taken is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-22T04:16:54.100Z",
+        "updatedAt": "2025-11-01T21:29:55.307Z",
+        "shortId": "e88"
+      },
+      {
+        "id": "1e0dd817-2d72-4a4a-98d5-4acd6e11b8e5",
+        "effectName": "Stability Loss I",
+        "effectDetails": "<p>Stability damage taken is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>. Defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense",
+          "Stability"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-23T22:41:25.298Z",
+        "updatedAt": "2025-11-03T15:50:27.020Z",
+        "shortId": "e419"
+      },
+      {
+        "id": "d85addc9-1d0c-46cb-a37a-377dde1be0ae",
+        "effectName": "Frozen",
+        "effectDetails": "<p>Movement is decreased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. If <span style=\"color: rgb(34, 139, 230);\">Frozen</span> has reached <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> at the end of the action, it is converted into [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. This is considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T02:24:20.358Z",
+        "updatedAt": "2025-11-02T02:29:37.253Z",
+        "shortId": "e217"
+      },
+      {
+        "id": "7dec35ce-d8cc-443e-8a4e-410233b3cda6",
+        "effectName": "Damp",
+        "effectDetails": "<p>Reduces healing received by <span style=\"color: rgb(243, 109, 28);\">40%</span>. Upon reaching<span style=\"color: rgb(243, 109, 28);\"> 2 stacks</span>, it is converted to [effect:bba5e073-5719-4cc8-85d9-6de563caaa5e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. Considered a Hydro debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Hydro"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:46:04.968Z",
+        "updatedAt": "2025-11-01T21:46:26.270Z",
+        "shortId": "e126"
+      },
+      {
+        "id": "f4fc6af5-7a01-48a3-91e2-e432a7216dbc",
+        "effectName": "Frigid",
+        "effectDetails": "<p>Unable to move and cannot be actively displaced. Considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T19:22:25.160Z",
+        "updatedAt": "2025-11-01T23:37:44.521Z",
+        "doll": null,
+        "shortId": "e211"
+      },
+      {
+        "id": "bba5e073-5719-4cc8-85d9-6de563caaa5e",
+        "effectName": "Congestion",
+        "effectDetails": "<p>Cannot be healed. Considered a Hydro debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Healing",
+          "Hydro"
+        ],
+        "dollId": "2c2a9e47-086e-4bfc-b324-10e600c7f0af",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:44:45.081Z",
+        "updatedAt": "2025-11-03T06:14:02.347Z",
+        "doll": null,
+        "shortId": "e89"
       }
     ],
     "shortId": "d56"

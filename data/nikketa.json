@@ -1002,36 +1002,8 @@
           "3cc9bdb5-fed7-4db6-a7d5-e428389896b7"
         ],
         "shortId": "s7",
-        "level1": {
-          "stabilityGauge": 0,
-          "movement": 0,
-          "class": null,
-          "unitInfo": "<p>Considered a summon. Inherits <span style=\"color: rgb(243, 109, 28);\">80%</span> of Nikketa's initial HP, <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">100%</span> of her initial defense. It is unable to move and has the passive skill [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9].</p>",
-          "hp": 80,
-          "atk": 80,
-          "def": 100
-        },
-        "level2": {
-          "atk": 80,
-          "class": null,
-          "def": 100,
-          "hp": 100,
-          "movement": 0,
-          "stabilityGauge": 0,
-          "unitInfo": "<p>Considered a summon. Inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's initial HP, <span style=\"color: rgb(243, 109, 28);\">80%</span> of her initial attack, and <span style=\"color: rgb(243, 109, 28);\">100%</span> of her initial defense. It is unable to move and has the passive skills [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] and [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7].</p>",
-          "vertebraeUpgradeId": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-          "vertebraeUpgrade": {
-            "id": "26e67be4-662e-4f21-b3f0-0d5c7c7f8240",
-            "level": 3,
-            "effect": "<p>The range of [skillsummon:1226c2d0-bf5b-4290-a848-f20b1211d4c9] is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] now inherits <span style=\"color: rgb(243, 109, 28);\">100%</span> of Nikketa's HP. [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] gains a new passive ability [skillsummon:3cc9bdb5-fed7-4db6-a7d5-e428389896b7], which reduces the attack of all enemy units within <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
-            "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
-            "segment": 5,
-            "imageUrl": "https://cdn.dandegate.net/skills/eb02885404cc640d17a942d25ff99263.webp",
-            "createdAt": "2025-09-14T16:37:28.539Z",
-            "updatedAt": "2025-10-14T07:05:53.998Z",
-            "vertebraeName": "K9 Deployment Lv.3"
-          }
-        },
+        "level1": {},
+        "level2": null,
         "level3": null,
         "level4": null,
         "skills": [
@@ -1381,6 +1353,130 @@
         "createdAt": "2025-09-14T16:21:07.459Z",
         "updatedAt": "2025-09-14T16:21:07.459Z",
         "shortId": "e174"
+      },
+      {
+        "id": "a7a2cc2b-3078-4d27-bafc-f20b389335c0",
+        "effectName": "Tideway",
+        "effectDetails": "<p>Applies [effect:7dec35ce-d8cc-443e-8a4e-410233b3cda6] to units which end their movement in this area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Enemy units in this area gain a weakness to <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>. Considered a Hydro tile.</p>",
+        "effectTags": [
+          "Hydro",
+          "Weakness"
+        ],
+        "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:50:07.621Z",
+        "updatedAt": "2025-11-03T16:02:52.756Z",
+        "shortId": "e463"
+      },
+      {
+        "id": "e82fca4c-de4a-40b6-83c2-e84d716f72d3",
+        "effectName": "Fear",
+        "effectDetails": "<p>Uncontrollable, actively moves away from the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-14T15:54:18.994Z",
+        "updatedAt": "2025-11-03T14:56:03.797Z",
+        "shortId": "e185"
+      },
+      {
+        "id": "13704d31-93dc-41f4-8ae8-52bf9ceb0a06",
+        "effectName": "Attack Up II",
+        "effectDetails": "<p>Attack is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Attack",
+          "Buff"
+        ],
+        "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:55:59.558Z",
+        "updatedAt": "2025-11-06T06:39:50.435Z",
+        "shortId": "e29"
+      },
+      {
+        "id": "93f91944-fc00-410d-995a-74155802def7",
+        "effectName": "Out-of-Turn Attack",
+        "effectDetails": "<p>Includes [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], [effect:e6c91f66-b509-4f89-861e-29ca64014622] and other such attacks made outside of the buff holder's turn.</p>",
+        "effectTags": [],
+        "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:52:47.461Z",
+        "updatedAt": "2025-10-14T07:07:18.323Z",
+        "shortId": "e295"
+      },
+      {
+        "id": "7dec35ce-d8cc-443e-8a4e-410233b3cda6",
+        "effectName": "Damp",
+        "effectDetails": "<p>Reduces healing received by <span style=\"color: rgb(243, 109, 28);\">40%</span>. Upon reaching<span style=\"color: rgb(243, 109, 28);\"> 2 stacks</span>, it is converted to [effect:bba5e073-5719-4cc8-85d9-6de563caaa5e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. Considered a Hydro debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Hydro"
+        ],
+        "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:46:04.968Z",
+        "updatedAt": "2025-11-01T21:46:26.270Z",
+        "shortId": "e126"
+      },
+      {
+        "id": "ab2e634f-d257-44e3-af90-ce66a6ac43f3",
+        "effectName": "Support Action",
+        "effectDetails": "<p>Performs a Support Attack; cannot be triggered by another Support Attack.</p>",
+        "effectTags": [],
+        "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:08:04.163Z",
+        "updatedAt": "2025-09-11T00:08:04.163Z",
+        "shortId": "e438"
+      },
+      {
+        "id": "bf9cca5c-a432-44ad-ba77-05ba7435b1dd",
+        "effectName": "Emergency Support",
+        "effectDetails": "<p>Performs a Support Attack.</p>",
+        "effectTags": [],
+        "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:51:55.812Z",
+        "updatedAt": "2025-09-13T03:51:55.812Z",
+        "shortId": "e168"
+      },
+      {
+        "id": "013c5bd7-5fbe-4337-8f26-70872d9a5800",
+        "effectName": "Interception",
+        "effectDetails": "<p>Performs an attack; cannot be triggered by Interceptions, Counterattacks or Support Attacks.</p>",
+        "effectTags": [],
+        "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:51:18.789Z",
+        "updatedAt": "2025-09-13T03:51:18.789Z",
+        "shortId": "e251"
+      },
+      {
+        "id": "bba5e073-5719-4cc8-85d9-6de563caaa5e",
+        "effectName": "Congestion",
+        "effectDetails": "<p>Cannot be healed. Considered a Hydro debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Healing",
+          "Hydro"
+        ],
+        "dollId": "abe6051b-a519-44c6-ada6-9fa46f45e7bf",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:44:45.081Z",
+        "updatedAt": "2025-11-03T06:14:02.347Z",
+        "doll": null,
+        "shortId": "e89"
       }
     ],
     "shortId": "d35"

@@ -1040,6 +1040,98 @@
         "createdAt": "2025-09-24T02:26:35.297Z",
         "updatedAt": "2025-11-03T15:51:47.654Z",
         "shortId": "e422"
+      },
+      {
+        "id": "93f91944-fc00-410d-995a-74155802def7",
+        "effectName": "Out-of-Turn Attack",
+        "effectDetails": "<p>Includes [effect:ab2e634f-d257-44e3-af90-ce66a6ac43f3], [effect:bf9cca5c-a432-44ad-ba77-05ba7435b1dd], [effect:013c5bd7-5fbe-4337-8f26-70872d9a5800], [effect:e6c91f66-b509-4f89-861e-29ca64014622] and other such attacks made outside of the buff holder's turn.</p>",
+        "effectTags": [],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:52:47.461Z",
+        "updatedAt": "2025-10-14T07:07:18.323Z",
+        "shortId": "e295"
+      },
+      {
+        "id": "f793ed02-a490-4ac2-849a-689c57001678",
+        "effectName": "Incineration",
+        "effectDetails": "<p>Inflicts Burn weakness to enemy units within the area. Inflicts [effect:71b3f790-db3b-4188-a3d7-15fa9752b57a] and [effect:a55cd12e-7fd4-47c1-bddc-6e933f2a323a] to enemy units that remain within the area at the end of their action, lasting 2 turns. Considered a Burn tile.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-22T04:15:37.347Z",
+        "updatedAt": "2025-11-03T05:54:13.118Z",
+        "shortId": "e244"
+      },
+      {
+        "id": "af640815-bbef-471b-8888-cee6c3d8b4a4",
+        "effectName": "Quick Barrier",
+        "effectDetails": "<p>Targeted damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">60%</span>, effective <span style=\"color: rgb(243, 109, 28);\">once</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff"
+        ],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T03:31:08.605Z",
+        "updatedAt": "2025-11-03T15:27:49.287Z",
+        "shortId": "e343"
+      },
+      {
+        "id": "ab2e634f-d257-44e3-af90-ce66a6ac43f3",
+        "effectName": "Support Action",
+        "effectDetails": "<p>Performs a Support Attack; cannot be triggered by another Support Attack.</p>",
+        "effectTags": [],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:08:04.163Z",
+        "updatedAt": "2025-09-11T00:08:04.163Z",
+        "shortId": "e438"
+      },
+      {
+        "id": "013c5bd7-5fbe-4337-8f26-70872d9a5800",
+        "effectName": "Interception",
+        "effectDetails": "<p>Performs an attack; cannot be triggered by Interceptions, Counterattacks or Support Attacks.</p>",
+        "effectTags": [],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:51:18.789Z",
+        "updatedAt": "2025-09-13T03:51:18.789Z",
+        "shortId": "e251"
+      },
+      {
+        "id": "e6c91f66-b509-4f89-861e-29ca64014622",
+        "effectName": "Counterattack",
+        "effectDetails": "<p>Performs an attack; cannot be triggered by Interceptions, Counterattack or Support Attacks.</p>",
+        "effectTags": [],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:30:54.421Z",
+        "updatedAt": "2025-09-13T03:30:54.421Z",
+        "shortId": "e101"
+      },
+      {
+        "id": "a55cd12e-7fd4-47c1-bddc-6e933f2a323a",
+        "effectName": "Conflagration",
+        "effectDetails": "<p>Burn damage taken is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Considered a Burn debuff.</p>",
+        "effectTags": [
+          "Burn",
+          "Debuff"
+        ],
+        "dollId": "cbbf11ce-a4fc-4f7e-951c-b0a34c36f584",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-22T04:16:54.100Z",
+        "updatedAt": "2025-11-01T21:29:55.307Z",
+        "shortId": "e88"
       }
     ],
     "shortId": "d41"

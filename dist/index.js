@@ -4989,6 +4989,7 @@ function unsetBoss() {
   }
 }
 var allDolls = [];
+var allEffects = [];
 var allSummons = [];
 var allKeys = { common: [], affinity: [] };
 var allWeapons = [];
@@ -5925,13 +5926,21 @@ function preloadCanvasImages() {
 }
 async function loadCombinedJson() {
   try {
-    const res = await Promise.all([fetch("combined.json"), fetch("keys.json"), fetch("weapons.json"), fetch("buffs.json")]);
+    const res = await Promise.all([
+      fetch("combined.json"),
+      fetch("keys.json"),
+      fetch("weapons.json"),
+      fetch("buffs.json"),
+      fetch("effects.json")
+    ]);
     const combinedJson = await res[0].json();
     const keysJson = await res[1].json();
     const weaponsJson = await res[2].json();
     const buffsJson = await res[3].json();
+    const effectsJson = await res[4].json();
     allWeapons.push(...weaponsJson);
     allBuffs.push(...buffsJson);
+    allEffects.push(...effectsJson);
     for (const weapon of allWeapons) {
       if (weapon.imprintId === null && weapon.rarity === "Elite") {
         defaultWeapons[weapon.type] = weapon;
@@ -9313,7 +9322,10 @@ function KeyModal() {
   keyTypes["Expansion Key"].push(...dollInfo().keys.filter((k) => k.type === "Expansion Key"));
   const [activeKeySlot, setActiveKeySlot] = createSignal(0);
   const keyTitle = createMemo(() => selectedKeys()[activeKeySlot()]?.name ?? "");
-  const keyDescription = createMemo(() => selectedKeys()[activeKeySlot()]?.description ?? "");
+  const keyDescription = createMemo(() => {
+    const description = selectedKeys()[activeKeySlot()]?.description ?? "";
+    return description.replace(/\{(e[0-9]+)\}/gi, (match, effectId) => allEffects.filter((s) => s.id === effectId)[0]?.name ?? match);
+  });
   const [query, setQuery] = createSignal("");
   const visibleKeys = createMemo(() => {
     return keyTypes[keyMapping[activeKeySlot()]];

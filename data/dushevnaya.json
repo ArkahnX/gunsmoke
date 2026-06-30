@@ -1033,6 +1033,37 @@
         "createdAt": "2025-09-18T04:53:00.406Z",
         "updatedAt": "2025-11-03T05:40:17.240Z",
         "shortId": "e285"
+      },
+      {
+        "id": "1403cc19-233b-4c0c-8335-83cda83c7a62",
+        "effectName": "Defense Down II",
+        "effectDetails": "<p>Defense is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Considered a defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:03:00.728Z",
+        "updatedAt": "2025-11-01T22:14:13.451Z",
+        "shortId": "e134"
+      },
+      {
+        "id": "d85addc9-1d0c-46cb-a37a-377dde1be0ae",
+        "effectName": "Frozen",
+        "effectDetails": "<p>Movement is decreased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. If <span style=\"color: rgb(34, 139, 230);\">Frozen</span> has reached <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> at the end of the action, it is converted into [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. This is considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "2763ec4e-569b-4d20-ae01-7f3f2ac9e264",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T02:24:20.358Z",
+        "updatedAt": "2025-11-02T02:29:37.253Z",
+        "shortId": "e217"
       }
     ],
     "shortId": "d11"

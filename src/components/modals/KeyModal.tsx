@@ -8,6 +8,7 @@ import {
 	sortEquippedKeys,
 	getPreSortedKeyInfo,
 	setDollKeys,
+	allEffects,
 } from "../../store";
 import { CommonKey, DetailedKey, DollData, FixedKey } from "../../types";
 import EmptyKey from "../icons/EmptyKey";
@@ -34,7 +35,10 @@ export default function KeyModal() {
 
 	const [activeKeySlot, setActiveKeySlot] = createSignal(0);
 	const keyTitle = createMemo(() => selectedKeys()[activeKeySlot()]?.name ?? "");
-	const keyDescription = createMemo(() => selectedKeys()[activeKeySlot()]?.description ?? "");
+	const keyDescription = createMemo(() => {
+		const description = selectedKeys()[activeKeySlot()]?.description ?? "";
+		return description.replace(/\{(e[0-9]+)\}/gi, (match, effectId) => allEffects.filter((s) => s.id === effectId)[0]?.name ?? match);
+	});
 	const [query, setQuery] = createSignal("");
 	const visibleKeys = createMemo(() => {
 		return keyTypes[keyMapping[activeKeySlot()]];

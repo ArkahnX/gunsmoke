@@ -944,15 +944,7 @@
         "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
         "skillOrder": null,
         "shortId": "s9",
-        "level1": {
-          "stabilityGauge": 9,
-          "movement": 6,
-          "class": null,
-          "unitInfo": "<p>Mityl's summoned entity, inheriting her base attributes. Includes [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] and [summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] .</p>",
-          "hp": 100,
-          "atk": 100,
-          "def": 100
-        },
+        "level1": {},
         "level2": null,
         "level3": null,
         "level4": null,
@@ -972,15 +964,7 @@
           "28e93f82-8a93-43f6-9e5b-fc6af142f7a5"
         ],
         "shortId": "s10",
-        "level1": {
-          "stabilityGauge": 9,
-          "movement": 6,
-          "class": null,
-          "unitInfo": "<p>Has its own skills and appearance. Considered a [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] .</p>",
-          "hp": 100,
-          "atk": 100,
-          "def": 100
-        },
+        "level1": {},
         "level2": null,
         "level3": null,
         "level4": null,
@@ -1105,15 +1089,7 @@
           "f042551c-2d39-4b2c-8c93-c968a8940ffc"
         ],
         "shortId": "s11",
-        "level1": {
-          "stabilityGauge": 9,
-          "movement": 6,
-          "class": null,
-          "unitInfo": "<p>Copies the target's skills and appearance. Considered a [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] .</p>",
-          "hp": 100,
-          "atk": 100,
-          "def": 100
-        },
+        "level1": {},
         "level2": null,
         "level3": null,
         "level4": null,
@@ -1404,6 +1380,67 @@
         "createdAt": "2025-09-11T00:08:04.163Z",
         "updatedAt": "2025-09-11T00:08:04.163Z",
         "shortId": "e438"
+      },
+      {
+        "id": "1403cc19-233b-4c0c-8335-83cda83c7a62",
+        "effectName": "Defense Down II",
+        "effectDetails": "<p>Defense is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Considered a defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:03:00.728Z",
+        "updatedAt": "2025-11-01T22:14:13.451Z",
+        "shortId": "e134"
+      },
+      {
+        "id": "968e9913-e847-462c-be10-87bc8fc0f827",
+        "effectName": "Movement Up II",
+        "effectDetails": "<p>Mobility is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Buff",
+          "Movement"
+        ],
+        "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-18T04:53:00.406Z",
+        "updatedAt": "2025-11-03T05:40:17.240Z",
+        "shortId": "e285"
+      },
+      {
+        "id": "7dec35ce-d8cc-443e-8a4e-410233b3cda6",
+        "effectName": "Damp",
+        "effectDetails": "<p>Reduces healing received by <span style=\"color: rgb(243, 109, 28);\">40%</span>. Upon reaching<span style=\"color: rgb(243, 109, 28);\"> 2 stacks</span>, it is converted to [effect:bba5e073-5719-4cc8-85d9-6de563caaa5e] for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. Considered a Hydro debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Hydro"
+        ],
+        "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:46:04.968Z",
+        "updatedAt": "2025-11-01T21:46:26.270Z",
+        "shortId": "e126"
+      },
+      {
+        "id": "bba5e073-5719-4cc8-85d9-6de563caaa5e",
+        "effectName": "Congestion",
+        "effectDetails": "<p>Cannot be healed. Considered a Hydro debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Healing",
+          "Hydro"
+        ],
+        "dollId": "2a98b6ae-6265-4724-9d97-d6cd0c150ef2",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:44:45.081Z",
+        "updatedAt": "2025-11-03T06:14:02.347Z",
+        "shortId": "e89"
       }
     ],
     "shortId": "d59"

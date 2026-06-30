@@ -1055,6 +1055,162 @@
         "createdAt": "2025-09-20T19:19:34.427Z",
         "updatedAt": "2025-11-02T02:27:53.908Z",
         "shortId": "e214"
+      },
+      {
+        "id": "4b58c8fc-c426-4b72-91e5-92dfb9e5a600",
+        "effectName": "Shield",
+        "effectDetails": "<p>Absorbs a certain amount of damage. Shields do not stack, but they can overlap. When the most recently-applied shield has a longer duration or takes more damage than the previous one(s), it replaces the previous one(s). Shield include [effect:abce6753-fe29-4ca3-b487-7453e982b279], [effect:bebcfe15-5173-43c9-bfd1-bcdb4cbfece1], and other effects.</p>",
+        "effectTags": [],
+        "dollId": "56b0768f-a9f0-4e8d-b6b0-1739467297a6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T19:18:04.645Z",
+        "updatedAt": "2025-10-14T07:07:20.275Z",
+        "shortId": "e400"
+      },
+      {
+        "id": "013c5bd7-5fbe-4337-8f26-70872d9a5800",
+        "effectName": "Interception",
+        "effectDetails": "<p>Performs an attack; cannot be triggered by Interceptions, Counterattacks or Support Attacks.</p>",
+        "effectTags": [],
+        "dollId": "56b0768f-a9f0-4e8d-b6b0-1739467297a6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:51:18.789Z",
+        "updatedAt": "2025-09-13T03:51:18.789Z",
+        "shortId": "e251"
+      },
+      {
+        "id": "1403cc19-233b-4c0c-8335-83cda83c7a62",
+        "effectName": "Defense Down II",
+        "effectDetails": "<p>Defense is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>. Considered a defense debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Defense"
+        ],
+        "dollId": "56b0768f-a9f0-4e8d-b6b0-1739467297a6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-11T00:03:00.728Z",
+        "updatedAt": "2025-11-01T22:14:13.451Z",
+        "shortId": "e134"
+      },
+      {
+        "id": "13704d31-93dc-41f4-8ae8-52bf9ceb0a06",
+        "effectName": "Attack Up II",
+        "effectDetails": "<p>Attack is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>. Considered a buff.</p>",
+        "effectTags": [
+          "Attack",
+          "Buff"
+        ],
+        "dollId": "56b0768f-a9f0-4e8d-b6b0-1739467297a6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-13T03:55:59.558Z",
+        "updatedAt": "2025-11-06T06:39:50.435Z",
+        "shortId": "e29"
+      },
+      {
+        "id": "3c3d2b25-6823-4ce4-a33e-cf69e0e759a5",
+        "effectName": "Frost",
+        "effectDetails": "<p>Applies [effect:d85addc9-1d0c-46cb-a37a-377dde1be0ae] to units which end their movement in this area for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Enemy units in this area gain a weakness to <span style=\"color: rgb(66, 205, 224);\">Freeze </span>damage and Freeze tiles.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze"
+        ],
+        "dollId": "56b0768f-a9f0-4e8d-b6b0-1739467297a6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T16:14:46.543Z",
+        "updatedAt": "2025-11-01T23:39:59.216Z",
+        "shortId": "e213"
+      },
+      {
+        "id": "1b83587d-eddc-4abd-b90c-cb0aa4b2cfef",
+        "effectName": "Additional Movement",
+        "effectDetails": "<p>Can move once, but cannot use any other commands.</p>",
+        "effectTags": [
+          "Movement"
+        ],
+        "dollId": "56b0768f-a9f0-4e8d-b6b0-1739467297a6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T05:30:54.242Z",
+        "updatedAt": "2025-11-06T06:30:55.814Z",
+        "shortId": "e7"
+      },
+      {
+        "id": "f4fc6af5-7a01-48a3-91e2-e432a7216dbc",
+        "effectName": "Frigid",
+        "effectDetails": "<p>Unable to move and cannot be actively displaced. Considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "56b0768f-a9f0-4e8d-b6b0-1739467297a6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-20T19:22:25.160Z",
+        "updatedAt": "2025-11-01T23:37:44.521Z",
+        "shortId": "e211"
+      },
+      {
+        "id": "bebcfe15-5173-43c9-bfd1-bcdb4cbfece1",
+        "effectName": "Capital Protection",
+        "effectDetails": {
+          "mainDetails": "<p>Considered a <span style=\"color: rgb(34, 139, 230);\">Shield</span>, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. At the end of this unit's action, applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Considered a buff, cannot be cleansed.</p>",
+          "upgrades": [
+            {
+              "id": "be3a4c74-0cf2-4217-80bf-d8e5f57f01eb",
+              "upgradeName": "V6",
+              "upgradeDetails": "<p>Considered a <span style=\"color: rgb(34, 139, 230);\">Shield</span>, stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">2 points</span>. Before being attacked, the attacker's attack is reduced by <span style=\"color: rgb(243, 109, 28);\">30%</span>. At the end of this unit's action, applies [effect:fadf4f3f-2810-49f0-b947-6d683741429d] to all enemy units within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. Considered a buff, cannot be cleansed.</p>",
+              "order": 0
+            }
+          ]
+        },
+        "effectTags": [
+          "Buff",
+          "Defense",
+          "Stability"
+        ],
+        "dollId": "56b0768f-a9f0-4e8d-b6b0-1739467297a6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-19T03:56:44.916Z",
+        "updatedAt": "2025-11-06T06:44:30.274Z",
+        "shortId": "e61"
+      },
+      {
+        "id": "d85addc9-1d0c-46cb-a37a-377dde1be0ae",
+        "effectName": "Frozen",
+        "effectDetails": "<p>Movement is decreased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>. If <span style=\"color: rgb(34, 139, 230);\">Frozen</span> has reached <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> at the end of the action, it is converted into [effect:f4fc6af5-7a01-48a3-91e2-e432a7216dbc], which lasts for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>. Maximum of <span style=\"color: rgb(243, 109, 28);\">2 stacks</span>. This is considered a Freeze movement debuff.</p>",
+        "effectTags": [
+          "Debuff",
+          "Freeze",
+          "Movement"
+        ],
+        "dollId": "56b0768f-a9f0-4e8d-b6b0-1739467297a6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-21T02:24:20.358Z",
+        "updatedAt": "2025-11-02T02:29:37.253Z",
+        "shortId": "e217"
+      },
+      {
+        "id": "fadf4f3f-2810-49f0-b947-6d683741429d",
+        "effectName": "Taunt",
+        "effectDetails": "<p>Uncontrollable, forced to use basic attacks on the effect applier. This is removed when the effect applier dies.</p>",
+        "effectTags": [
+          "Debuff"
+        ],
+        "dollId": "56b0768f-a9f0-4e8d-b6b0-1739467297a6",
+        "preview": false,
+        "regionTag": "en",
+        "createdAt": "2025-09-17T18:35:26.444Z",
+        "updatedAt": "2025-11-03T16:00:56.734Z",
+        "doll": null,
+        "shortId": "e450"
       }
     ],
     "shortId": "d42"
