@@ -25,6 +25,11 @@ const tsxBuffs: Record<string, JSX.Element> = {
 			them by <span style="color:#f26c1c">25%</span>.
 		</span>
 	),
+	b9: (
+		<span>
+			If an enemy is afflicted by an Electric debuff, increase critical damage against them by <span style="color:#f26c1c">25%</span>.
+		</span>
+	),
 	b12: (
 		<span>
 			Damage dealt is increased by <span style="color:#f26c1c">20%</span> when distance to the enemy target is less than or equal to{" "}
@@ -61,6 +66,12 @@ const tsxBuffs: Record<string, JSX.Element> = {
 			rate by <span style="color:#f26c1c">30%</span>.
 		</span>
 	),
+	b21: (
+		<span>
+			Critical damage dealt to targets with <span style="color:#f26c1c">0</span> stability is increased by{" "}
+			<span style="color:#f26c1c">25%</span>.
+		</span>
+	),
 	b22: (
 		<span>
 			When performing a Support Attack, critical damage is increased by <span style="color:#f26c1c">3%</span> and the attack ignores{" "}
@@ -94,6 +105,12 @@ const tsxBuffs: Record<string, JSX.Element> = {
 			<span style="color:#f26c1c">20%</span>.
 		</span>
 	),
+	b38: (
+		<span>
+			When this unit has a <span style="color:#2caadb">Hydro</span> buff, damage dealt is increased by{" "}
+			<span style="color:#f26c1c">20%</span>.
+		</span>
+	),
 	b45: (
 		<span>
 			Light Ammo ignores <span style="color:#f26c1c">50%</span> of target's defense.
@@ -110,9 +127,26 @@ const tsxBuffs: Record<string, JSX.Element> = {
 			Sentinel-class Dolls' critical damage is increased by <span style="color:#f26c1c">25%</span>.
 		</span>
 	),
+	b52: (
+		<span>
+			Increases Physical damage dealt by <span style="color:#f26c1c">30%</span>.
+		</span>
+	),
 	b55: (
 		<span>
 			Increases Corrosion and Freeze damage and their critical rate by <span style="color:#f26c1c">30%</span>.
+		</span>
+	),
+	b58: (
+		<span>
+			When this unit's HP is <span style="color:#f26c1c">greater than or equal to 100%</span>, attacks ignore{" "}
+			<span style="color:#f26c1c">30%</span> of the target's defense.
+		</span>
+	),
+	b60: (
+		<span>
+			Against targets with <span style="color:#f26c1c">2 or more</span> <span style="color:#f26c1c">Defense-type debuffs</span>,
+			critical damage is increased by <span style="color:#f26c1c">25%</span>.
 		</span>
 	),
 	b61: (
@@ -131,6 +165,11 @@ const tsxBuffs: Record<string, JSX.Element> = {
 		<span>
 			<span style="color:#f26c1c">Each time</span> a Bulwark-class Doll takes damage, gain <span style="color:#f26c1c">1 stack</span>{" "}
 			of <span style="color:#3487e0">Undaunted Spirit</span>.
+		</span>
+	),
+	b68: (
+		<span>
+			Increase Physical and Hydro damage and critical rate by <span style="color:#f26c1c">30%</span>.
 		</span>
 	),
 };

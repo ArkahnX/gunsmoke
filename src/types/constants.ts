@@ -1,14 +1,16 @@
 import { MapBounds } from ".";
 
-export const MAP_SIZE = 21;
+export const MAP_WIDTH = 18;
+export const MAP_HEIGHT = 22;
 export const TILE_SIZE = 32;
 export const SCALE = 2;
-export const CANVAS_SIZE = MAP_SIZE * TILE_SIZE;
+export const CANVAS_WIDTH = MAP_WIDTH * TILE_SIZE;
+export const CANVAS_HEIGHT = MAP_HEIGHT * TILE_SIZE;
 
 export const E_PAD = 6;
 export const HALF_HEIGHT = Math.round(TILE_SIZE * 0.15);
 export const FULL_HEIGHT = Math.round(TILE_SIZE * 0.35);
-export const CURRENT_SEASON = 27;
+export const CURRENT_SEASON = 28;
 
 // version 7 keys
 export const V7_SAVE_VERSION = 7;
@@ -31,6 +33,6 @@ export const MAX_SCALE = 10;
 export const MAP_BOUNDS: MapBounds = {
 	minX: 0,
 	minY: 0,
-	maxX: MAP_SIZE * TILE_SIZE,
-	maxY: MAP_SIZE * TILE_SIZE,
+	maxX: MAP_WIDTH * TILE_SIZE,
+	maxY: MAP_HEIGHT * TILE_SIZE,
 };

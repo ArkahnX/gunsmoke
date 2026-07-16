@@ -20,7 +20,7 @@ import {
 	unsetBoss,
 	isTileType,
 } from "../store";
-import { TILE_SIZE, CANVAS_SIZE, SCALE, E_PAD } from "../types/constants";
+import { TILE_SIZE, SCALE, E_PAD, CANVAS_WIDTH, CANVAS_HEIGHT } from "../types/constants";
 import { drawMapTilesOnArena } from "../canvas/draw";
 import {
 	saveEditorMap,
@@ -43,7 +43,7 @@ const lastPaint = { x: -1, y: -1 };
 
 export function editorRender() {
 	if (!ctx) return;
-	ctx.clearRect(0, 0, CANVAS_SIZE * SCALE, CANVAS_SIZE * SCALE);
+	ctx.clearRect(0, 0, CANVAS_WIDTH * SCALE, CANVAS_HEIGHT * SCALE);
 	ctx.save();
 	ctx.scale(SCALE, SCALE);
 	drawMapTilesOnArena(ctx, null, -1);
@@ -52,8 +52,8 @@ export function editorRender() {
 
 function editorHit(e: MouseEvent): { c: number; r: number } {
 	const rect = canvasEl.getBoundingClientRect();
-	const sx = (e.clientX - rect.left) * (CANVAS_SIZE / rect.width);
-	const sy = (e.clientY - rect.top) * (CANVAS_SIZE / rect.height);
+	const sx = (e.clientX - rect.left) * (CANVAS_WIDTH / rect.width);
+	const sy = (e.clientY - rect.top) * (CANVAS_HEIGHT / rect.height);
 	return { c: Math.floor((sx - E_PAD) / TILE_SIZE), r: Math.floor((sy - E_PAD) / TILE_SIZE) };
 }
 
@@ -61,7 +61,7 @@ function applyTool(c: number, r: number) {
 	if (!inMapBounds(c, r)) return;
 	const tool = editorTool();
 	if (tool === "boss") {
-		if (c + 1 >= mapGrid.size || r + 1 >= mapGrid.size) return;
+		if (c + 1 >= mapGrid.width || r + 1 >= mapGrid.height) return;
 		if (c - 1 < 0 || r - 1 < 0) return;
 		for (let dr = -1; dr < 2; dr++) for (let dc = -1; dc < 2; dc++) if (hasCover(c + dc, r + dr)) return;
 		unsetBoss();
@@ -131,8 +131,8 @@ function handlePointerUp(e: PointerEvent) {
 
 export default function EditorView() {
 	onMount(() => {
-		canvasEl.width = CANVAS_SIZE * SCALE;
-		canvasEl.height = CANVAS_SIZE * SCALE;
+		canvasEl.width = CANVAS_WIDTH * SCALE;
+		canvasEl.height = CANVAS_HEIGHT * SCALE;
 		ctx = canvasEl.getContext("2d")!;
 		loadEditorMap();
 		editorRender();

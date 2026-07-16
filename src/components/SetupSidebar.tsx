@@ -17,6 +17,7 @@ import {
 	setupTempSelectedDolls,
 	setShowFormationModal,
 	setShowBuffModal,
+	resetToDefaultState,
 } from "../store";
 import { STORAGE_KEY } from "../types/constants";
 import { editorResetLayout, loadMap, mapNames } from "../canvas/editorMap";
@@ -86,7 +87,7 @@ export default function SetupSidebar(props: { active: boolean }) {
 	};
 
 	const clearSavedData = () => {
-		localStorage.removeItem(STORAGE_KEY);
+		resetToDefaultState();
 		location.reload();
 	};
 

@@ -42,13 +42,13 @@ import {
 import { camera } from "../components/ArenaCanvas";
 
 // ====================== MAP GRID ======================
-export const mapGrid: MapGrid = { name: "Default", size: 21, priority: [], tiles: [] };
+export const mapGrid: MapGrid = { name: "Default", width: 21, height: 21, priority: [], tiles: [] };
 
 export function pathfindingGrid() {
 	const tiles = [];
-	for (let row = 0; row < mapGrid.size; row++) {
+	for (let row = 0; row < mapGrid.height; row++) {
 		const rows = [];
-		for (let col = 0; col < mapGrid.size; col++) {
+		for (let col = 0; col < mapGrid.width; col++) {
 			const tile = mapGrid.tiles[gridKey(col, row)];
 			if (
 				isTileType(tile, TileType.BossCover) ||
@@ -66,8 +66,8 @@ export function pathfindingGrid() {
 	return tiles;
 }
 
-export function gridKey(column: number, row: number, size?: number): number {
-	return row * (size ?? mapGrid.size) + column;
+export function gridKey(column: number, row: number, width?: number): number {
+	return row * (width ?? mapGrid.width) + column;
 }
 export function cellX(c: number): number {
 	return c * TILE_SIZE;
@@ -79,22 +79,22 @@ export function cellCenter(c: number): number {
 	return c * TILE_SIZE + TILE_SIZE / 2;
 }
 export function inMapBounds(c: number, r: number): boolean {
-	return c >= 0 && c < mapGrid.size && r >= 0 && r < mapGrid.size;
+	return c >= 0 && c < mapGrid.height && r >= 0 && r < mapGrid.width;
 }
 export function isTileType(tile: TileType, type: TileType): boolean {
 	return (tile & type) === type;
 }
 export function getCell(column: number, row: number): TileType {
-	if (row > mapGrid.size || column > mapGrid.size) {
+	if (row > mapGrid.width || column > mapGrid.height) {
 		console.error("Out of bound tile", column, row, mapGrid.size);
 		return TileType.Empty;
 	}
-	return mapGrid.tiles[row * mapGrid.size + column];
+	return mapGrid.tiles[row * mapGrid.width + column];
 }
 export function getBoss() {
 	const bossIndex = mapGrid.tiles.findIndex((tile) => isTileType(tile, TileType.BossOrigin));
 	if (bossIndex > -1) {
-		return { x: bossIndex % mapGrid.size, y: Math.floor(bossIndex / mapGrid.size) };
+		return { x: bossIndex % mapGrid.width, y: Math.floor(bossIndex / mapGrid.height) };
 	}
 	return { x: 0, y: 0 };
 }
@@ -109,16 +109,17 @@ export function hasCover(c: number, r: number): boolean {
 	);
 }
 
-export function setMap(name: string, size: number, tiles: TileType[], priority: number[]) {
+export function setMap(name: string, width: number, height: number, tiles: TileType[], priority: number[]) {
 	setState("map", name);
 	mapGrid.name = name;
-	mapGrid.size = size;
+	mapGrid.width = width;
+	mapGrid.height = height;
 	mapGrid.tiles.length = 0;
 	mapGrid.priority.length = 0;
 	mapGrid.priority.push(...priority);
 	mapGrid.tiles.push(...tiles);
-	camera.x = (mapGrid.size * TILE_SIZE) / 2;
-	camera.y = (mapGrid.size * TILE_SIZE) / 2;
+	camera.x = (mapGrid.width * TILE_SIZE) / 2;
+	camera.y = (mapGrid.height * TILE_SIZE) / 2;
 }
 
 export function setCell(x: number, y: number, value: TileType, merge?: boolean) {
@@ -208,12 +209,12 @@ const defaultState: AppState = {
 	currentTab: 0,
 	score: 0,
 	description: "",
-	map: "Blade Guard Titan",
+	map: "Broken-Horn Beasteel",
 	buffs: [],
 	skillDisplay: [0, 0, 0, 0, 0, 0, 0],
 	tabData: Array.from({ length: 8 }, () => makeDefaultTabData()),
 };
-export const [state, setState] = createStore<AppState>(defaultState);
+export const [state, setState] = createStore<AppState>(structuredClone(defaultState));
 
 // ====================== MODAL STATE ======================
 export const [showDollModal, setShowDollModal] = createSignal(false);
@@ -752,6 +753,13 @@ export function saveToLocalStorage() {
 	setStateFromURL(false);
 	window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
 	localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: SAVE_VERSION, ...state }));
+}
+
+export function resetToDefaultState() {
+	console.log("Saving to localStorage");
+	setStateFromURL(false);
+	window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
+	localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: SAVE_VERSION, ...defaultState }));
 }
 
 export function saveSkillDisplay() {

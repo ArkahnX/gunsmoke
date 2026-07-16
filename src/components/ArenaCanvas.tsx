@@ -11,7 +11,7 @@ import {
 	swapPositions,
 	isTileType,
 } from "../store";
-import { TILE_SIZE, MIN_SCALE, MAX_SCALE, MAP_SIZE } from "../types/constants";
+import { TILE_SIZE, MIN_SCALE, MAX_SCALE } from "../types/constants";
 import { drawMapTilesOnArena, drawGhostOnCanvas } from "../canvas/draw";
 import { createStore, produce } from "solid-js/store";
 import { Camera, DragState, DragStatus, MapBounds, TileType } from "../types";
@@ -220,8 +220,8 @@ function clampCamera(): void {
 	const MAP_BOUNDS = {
 		minX: 0,
 		minY: 0,
-		maxX: mapGrid.size * TILE_SIZE,
-		maxY: mapGrid.size * TILE_SIZE,
+		maxX: mapGrid.width * TILE_SIZE,
+		maxY: mapGrid.height * TILE_SIZE,
 	};
 	const cssW = canvasEl.width / dpr;
 	const cssH = canvasEl.height / dpr;
@@ -259,8 +259,8 @@ function clampCamera(): void {
 function minScaleForBounds(): number {
 	const cssW = canvasEl.width / dpr;
 	const cssH = canvasEl.height / dpr;
-	const scaleX = cssW / (mapGrid.size * TILE_SIZE);
-	const scaleY = cssH / (mapGrid.size * TILE_SIZE);
+	const scaleX = cssW / (mapGrid.width * TILE_SIZE);
+	const scaleY = cssH / (mapGrid.height * TILE_SIZE);
 	return Math.max(MIN_SCALE, Math.min(scaleX, scaleY));
 }
 
@@ -326,7 +326,7 @@ function getDragStatus(tileX: number, tileY: number, id: string, instanceId: str
 	const cell = mapGrid.tiles[gridKey(tileX, tileY)];
 	const isSetup = state.currentTab === 0;
 	const isSpawnTile = isTileType(cell, TileType.Spawn);
-	const inBounds = tileX >= 0 && tileX < MAP_SIZE && tileY >= 0 && tileY < MAP_SIZE;
+	const inBounds = tileX >= 0 && tileX < mapGrid.width && tileY >= 0 && tileY < mapGrid.height;
 	const isBlocked =
 		isTileType(cell, TileType.HalfCover) ||
 		isTileType(cell, TileType.FullCover) ||

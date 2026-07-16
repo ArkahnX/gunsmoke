@@ -1819,14 +1819,16 @@ function produce(fn) {
 var PHASE_TABS = ["All", "Physical", "Burn", "Electric", "Freeze", "Corrosion", "Hydro"];
 
 // src/types/constants.ts
-var MAP_SIZE = 21;
+var MAP_WIDTH = 18;
+var MAP_HEIGHT = 22;
 var TILE_SIZE = 32;
 var SCALE = 2;
-var CANVAS_SIZE = MAP_SIZE * TILE_SIZE;
+var CANVAS_WIDTH = MAP_WIDTH * TILE_SIZE;
+var CANVAS_HEIGHT = MAP_HEIGHT * TILE_SIZE;
 var E_PAD = 6;
 var HALF_HEIGHT = Math.round(TILE_SIZE * 0.15);
 var FULL_HEIGHT = Math.round(TILE_SIZE * 0.35);
-var CURRENT_SEASON = 27;
+var CURRENT_SEASON = 28;
 var V7_SAVE_VERSION = 7;
 var V7_STORAGE_KEY = "arenaPlannerState_v" + V7_SAVE_VERSION;
 var V7_EDITOR_MAP_KEY = "arenaEditorMap_v2";
@@ -1842,12 +1844,12 @@ var MAX_SCALE = 10;
 var MAP_BOUNDS = {
   minX: 0,
   minY: 0,
-  maxX: MAP_SIZE * TILE_SIZE,
-  maxY: MAP_SIZE * TILE_SIZE
+  maxX: MAP_WIDTH * TILE_SIZE,
+  maxY: MAP_HEIGHT * TILE_SIZE
 };
 
 // src/canvas/editorMap.ts
-var [editingMap, setEditingMap] = createSignal("Blade Guard Titan");
+var [editingMap, setEditingMap] = createSignal("Broken-Horn Beasteel");
 var empty__ = 0 /* Empty */;
 var spawn__ = 1 /* Spawn */;
 var hbound_ = 2 /* HBoundary */;
@@ -1859,8 +1861,414 @@ var fcover_ = 16 /* FullCover */;
 var bosssub = 32 /* BossCover */;
 var bossman = 64 /* BossOrigin */;
 var maps = [{
+  name: "Broken-Horn Beasteel",
+  width: 18,
+  height: 22,
+  locked: true,
+  default: true,
+  priority: [gridKey(1, 13, 22), gridKey(1, 12, 22), gridKey(1, 8, 22), gridKey(1, 7, 22), gridKey(5, 2, 22), gridKey(6, 2, 22), gridKey(10, 2, 22), gridKey(11, 2, 22), gridKey(16, 7, 22), gridKey(16, 8, 22), gridKey(16, 12, 22), gridKey(16, 13, 22), gridKey(11, 18, 22), gridKey(10, 18, 22), gridKey(6, 18, 22), gridKey(5, 18, 22)],
+  tiles: [
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    fcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    hcover_,
+    empty__,
+    hcover_,
+    hcover_,
+    hcover_,
+    hcover_,
+    hbound_,
+    empty__,
+    hcover_,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    vbound_,
+    vbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    vbound_,
+    vbound_,
+    empty__,
+    empty__,
+    empty__,
+    bosssub,
+    bosssub,
+    bosssub,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    bosssub,
+    bossman,
+    bosssub,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    bosssub,
+    bosssub,
+    bosssub,
+    empty__,
+    empty__,
+    empty__,
+    vbound_,
+    vbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    vbound_,
+    vbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hcover_,
+    hcover_,
+    empty__,
+    hcover_,
+    hcover_,
+    hcover_,
+    empty__,
+    hcover_,
+    hcover_,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    empty__,
+    empty__,
+    empty__,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_,
+    fcover_
+  ]
+}, {
   name: "Tusk Beasteel",
-  size: 21,
+  width: 21,
+  height: 21,
   locked: true,
   priority: [],
   tiles: [
@@ -2308,9 +2716,9 @@ var maps = [{
   ]
 }, {
   name: "Blade Guard Titan",
-  size: 16,
+  width: 16,
+  height: 16,
   locked: true,
-  default: true,
   priority: [gridKey(4, 6, 16), gridKey(4, 8, 16), gridKey(9, 11, 16), gridKey(7, 11, 16), gridKey(8, 13, 16), gridKey(2, 7, 16), gridKey(14, 7, 16), gridKey(12, 8, 16), gridKey(12, 6, 16), gridKey(8, 1, 16), gridKey(7, 3, 16), gridKey(9, 3, 16)],
   tiles: [
     empty__,
@@ -2570,7 +2978,7 @@ var maps = [{
     empty__,
     empty__
   ]
-}, { name: "Custom", size: 21, priority: [], tiles: Array(21 * 21).fill(empty__) }];
+}, { name: "Custom", width: 21, height: 21, priority: [], tiles: Array(21 * 21).fill(empty__) }];
 function getDefaultMap() {
   for (const map of maps) {
     if (map.default) {
@@ -2586,7 +2994,7 @@ function loadMap(name) {
   const map = maps.find((map2) => map2.name === name);
   if (map) {
     setEditingMap(name);
-    setMap(map.name, map.size, map.tiles, map.priority ?? []);
+    setMap(map.name, map.width, map.height, map.tiles, map.priority ?? []);
   }
 }
 function editorSerialize() {
@@ -2638,7 +3046,7 @@ function editorClearAll() {
 function editorResetLayout() {
   editorClearAll();
   const defaultMap = getDefaultMap();
-  setMap(defaultMap.name, defaultMap.size, defaultMap.tiles, defaultMap.priority);
+  setMap(defaultMap.name, defaultMap.width, defaultMap.height, defaultMap.tiles, defaultMap.priority);
 }
 
 // src/canvas/draw.ts
@@ -2990,9 +3398,9 @@ function getDollData(drag2, currentTab) {
 }
 function drawMapTilesOnArena(ctx3, drag2, currentTab) {
   const dolls = getDollData(drag2, currentTab);
-  for (let row = 0; row < mapGrid.size; row++) for (let col = 0; col < mapGrid.size; col++) drawFloor(ctx3, col, row);
-  for (let row = 0; row < mapGrid.size; row++) {
-    for (let col = 0; col < mapGrid.size; col++) {
+  for (let row = 0; row < mapGrid.height; row++) for (let col = 0; col < mapGrid.width; col++) drawFloor(ctx3, col, row);
+  for (let row = 0; row < mapGrid.height; row++) {
+    for (let col = 0; col < mapGrid.width; col++) {
       const cell = mapGrid.tiles[gridKey(col, row)];
       const cellBelow = mapGrid.tiles[gridKey(col, row + 1)];
       const cellRight = mapGrid.tiles[gridKey(col + 1, row)];
@@ -3011,8 +3419,8 @@ function drawMapTilesOnArena(ctx3, drag2, currentTab) {
       else if (isTileType(cell, 16 /* FullCover */)) drawFullCover(ctx3, col, row);
     }
   }
-  for (let row = 0; row < mapGrid.size; row++) {
-    for (let col = 0; col < mapGrid.size; col++) {
+  for (let row = 0; row < mapGrid.height; row++) {
+    for (let col = 0; col < mapGrid.width; col++) {
       const doll = dolls.find((doll2) => doll2.x === col && doll2.y === row);
       if (doll) {
         drawDollLabelOnCanvas(ctx3, doll);
@@ -4128,7 +4536,7 @@ function SetupSidebar(props) {
     saveToLocalStorage();
   };
   const clearSavedData = () => {
-    localStorage.removeItem(STORAGE_KEY);
+    resetToDefaultState();
     location.reload();
   };
   const clearSkills = () => {
@@ -4716,8 +5124,8 @@ function clampCamera() {
   const MAP_BOUNDS2 = {
     minX: 0,
     minY: 0,
-    maxX: mapGrid.size * TILE_SIZE,
-    maxY: mapGrid.size * TILE_SIZE
+    maxX: mapGrid.width * TILE_SIZE,
+    maxY: mapGrid.height * TILE_SIZE
   };
   const cssW = canvasEl.width / dpr;
   const cssH = canvasEl.height / dpr;
@@ -4739,8 +5147,8 @@ function clampCamera() {
 function minScaleForBounds() {
   const cssW = canvasEl.width / dpr;
   const cssH = canvasEl.height / dpr;
-  const scaleX = cssW / (mapGrid.size * TILE_SIZE);
-  const scaleY = cssH / (mapGrid.size * TILE_SIZE);
+  const scaleX = cssW / (mapGrid.width * TILE_SIZE);
+  const scaleY = cssH / (mapGrid.height * TILE_SIZE);
   return Math.max(MIN_SCALE, Math.min(scaleX, scaleY));
 }
 function draw() {
@@ -4790,7 +5198,7 @@ function getDragStatus(tileX, tileY, id, instanceId) {
   const cell = mapGrid.tiles[gridKey(tileX, tileY)];
   const isSetup = state.currentTab === 0;
   const isSpawnTile = isTileType(cell, 1 /* Spawn */);
-  const inBounds = tileX >= 0 && tileX < MAP_SIZE && tileY >= 0 && tileY < MAP_SIZE;
+  const inBounds = tileX >= 0 && tileX < mapGrid.width && tileY >= 0 && tileY < mapGrid.height;
   const isBlocked = isTileType(cell, 8 /* HalfCover */) || isTileType(cell, 16 /* FullCover */) || isTileType(cell, 32 /* BossCover */) || isTileType(cell, 64 /* BossOrigin */);
   if (!inBounds || isSetup && !isSpawnTile || !isSetup && isBlocked) return 1 /* Blocked */;
   const tab = state.tabData[state.currentTab];
@@ -4927,9 +5335,9 @@ function ArenaCanvas() {
 delegateEvents(["pointerdown", "pointermove", "pointerup", "click"]);
 
 // src/store/index.ts
-var mapGrid = { name: "Default", size: 21, priority: [], tiles: [] };
-function gridKey(column, row, size) {
-  return row * (size ?? mapGrid.size) + column;
+var mapGrid = { name: "Default", width: 21, height: 21, priority: [], tiles: [] };
+function gridKey(column, row, width) {
+  return row * (width ?? mapGrid.width) + column;
 }
 function cellX(c) {
   return c * TILE_SIZE;
@@ -4938,22 +5346,22 @@ function cellY(r) {
   return r * TILE_SIZE;
 }
 function inMapBounds(c, r) {
-  return c >= 0 && c < mapGrid.size && r >= 0 && r < mapGrid.size;
+  return c >= 0 && c < mapGrid.height && r >= 0 && r < mapGrid.width;
 }
 function isTileType(tile, type) {
   return (tile & type) === type;
 }
 function getCell(column, row) {
-  if (row > mapGrid.size || column > mapGrid.size) {
+  if (row > mapGrid.width || column > mapGrid.height) {
     console.error("Out of bound tile", column, row, mapGrid.size);
     return 0 /* Empty */;
   }
-  return mapGrid.tiles[row * mapGrid.size + column];
+  return mapGrid.tiles[row * mapGrid.width + column];
 }
 function getBoss() {
   const bossIndex = mapGrid.tiles.findIndex((tile) => isTileType(tile, 64 /* BossOrigin */));
   if (bossIndex > -1) {
-    return { x: bossIndex % mapGrid.size, y: Math.floor(bossIndex / mapGrid.size) };
+    return { x: bossIndex % mapGrid.width, y: Math.floor(bossIndex / mapGrid.height) };
   }
   return { x: 0, y: 0 };
 }
@@ -4962,16 +5370,17 @@ function hasCover(c, r) {
   const cell = mapGrid.tiles[gridKey(c, r)];
   return isTileType(cell, 16 /* FullCover */) || isTileType(cell, 8 /* HalfCover */) || isTileType(cell, 32 /* BossCover */) || isTileType(cell, 64 /* BossOrigin */);
 }
-function setMap(name, size, tiles, priority) {
+function setMap(name, width, height, tiles, priority) {
   setState("map", name);
   mapGrid.name = name;
-  mapGrid.size = size;
+  mapGrid.width = width;
+  mapGrid.height = height;
   mapGrid.tiles.length = 0;
   mapGrid.priority.length = 0;
   mapGrid.priority.push(...priority);
   mapGrid.tiles.push(...tiles);
-  camera.x = mapGrid.size * TILE_SIZE / 2;
-  camera.y = mapGrid.size * TILE_SIZE / 2;
+  camera.x = mapGrid.width * TILE_SIZE / 2;
+  camera.y = mapGrid.height * TILE_SIZE / 2;
 }
 function setCell(x, y, value, merge) {
   const before = getCell(x, y);
@@ -5036,12 +5445,12 @@ var defaultState = {
   currentTab: 0,
   score: 0,
   description: "",
-  map: "Blade Guard Titan",
+  map: "Broken-Horn Beasteel",
   buffs: [],
   skillDisplay: [0, 0, 0, 0, 0, 0, 0],
   tabData: Array.from({ length: 8 }, () => makeDefaultTabData())
 };
-var [state, setState] = createStore(defaultState);
+var [state, setState] = createStore(structuredClone(defaultState));
 var [showDollModal, setShowDollModal] = createSignal(false);
 var [showFormationModal, setShowFormationModal] = createSignal(false);
 var [showWeaponModal, setShowWeaponModal] = createSignal(false);
@@ -5520,6 +5929,12 @@ function saveToLocalStorage() {
   setStateFromURL(false);
   window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
   localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: SAVE_VERSION, ...state }));
+}
+function resetToDefaultState() {
+  console.log("Saving to localStorage");
+  setStateFromURL(false);
+  window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: SAVE_VERSION, ...defaultState }));
 }
 function saveSkillDisplay() {
   localStorage.setItem(SKILL_DISPLAY_KEY, JSON.stringify({ override: overrideSkillNotations(), skillDisplay: state.skillDisplay }));
@@ -6159,7 +6574,7 @@ var lastPaint = {
 };
 function editorRender() {
   if (!ctx2) return;
-  ctx2.clearRect(0, 0, CANVAS_SIZE * SCALE, CANVAS_SIZE * SCALE);
+  ctx2.clearRect(0, 0, CANVAS_WIDTH * SCALE, CANVAS_HEIGHT * SCALE);
   ctx2.save();
   ctx2.scale(SCALE, SCALE);
   drawMapTilesOnArena(ctx2, null, -1);
@@ -6167,8 +6582,8 @@ function editorRender() {
 }
 function editorHit(e) {
   const rect = canvasEl2.getBoundingClientRect();
-  const sx = (e.clientX - rect.left) * (CANVAS_SIZE / rect.width);
-  const sy = (e.clientY - rect.top) * (CANVAS_SIZE / rect.height);
+  const sx = (e.clientX - rect.left) * (CANVAS_WIDTH / rect.width);
+  const sy = (e.clientY - rect.top) * (CANVAS_HEIGHT / rect.height);
   return {
     c: Math.floor((sx - E_PAD) / TILE_SIZE),
     r: Math.floor((sy - E_PAD) / TILE_SIZE)
@@ -6178,7 +6593,7 @@ function applyTool(c, r) {
   if (!inMapBounds(c, r)) return;
   const tool = editorTool();
   if (tool === "boss") {
-    if (c + 1 >= mapGrid.size || r + 1 >= mapGrid.size) return;
+    if (c + 1 >= mapGrid.width || r + 1 >= mapGrid.height) return;
     if (c - 1 < 0 || r - 1 < 0) return;
     for (let dr = -1; dr < 2; dr++) for (let dc = -1; dc < 2; dc++) if (hasCover(c + dc, r + dr)) return;
     unsetBoss();
@@ -6272,8 +6687,8 @@ function handlePointerUp2(e) {
 }
 function EditorView() {
   onMount(() => {
-    canvasEl2.width = CANVAS_SIZE * SCALE;
-    canvasEl2.height = CANVAS_SIZE * SCALE;
+    canvasEl2.width = CANVAS_WIDTH * SCALE;
+    canvasEl2.height = CANVAS_HEIGHT * SCALE;
     ctx2 = canvasEl2.getContext("2d");
     loadEditorMap();
     editorRender();
@@ -6386,47 +6801,61 @@ var _tmpl$45 = /* @__PURE__ */ template(`<span>When this unit possesses a <span 
 var _tmpl$215 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#e67129>Burn</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
 var _tmpl$311 = /* @__PURE__ */ template(`<span>When dealing damage to an enemy target, if they are afflicted by Corrosion debuff, increases critical damage against them by <span style=color:#f26c1c>25%</span>.`);
 var _tmpl$46 = /* @__PURE__ */ template(`<span>When dealing damage to an enemy target, if they are afflicted by a Hydro debuff, increases the critical damage dealt against them by <span style=color:#f26c1c>25%</span>.`);
-var _tmpl$54 = /* @__PURE__ */ template(`<span>Damage dealt is increased by <span style=color:#f26c1c>20%</span> when distance to the enemy target is less than or equal to <span style=color:#f26c1c>6 tiles</span>.`);
-var _tmpl$63 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>2000</span> points of <span style=color:#f26c1c>healing</span> or <span style=color:#f26c1c>shield</span> applied to allies by Support Dolls, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Complementarity Plan</span>.`);
-var _tmpl$73 = /* @__PURE__ */ template(`<span>If this unit's has <span style=color:#f26c1c>2 or more</span> points of Confectance Index at the start of the round, damage dealt is increased by <span style=color:#f26c1c>25%</span> until the end of the round.`);
-var _tmpl$83 = /* @__PURE__ */ template(`<span>Corrosion damage is increased by <span style=color:#f26c1c>20%</span>.`);
-var _tmpl$93 = /* @__PURE__ */ template(`<span>Increases <span style=color:#d4ae08>Electric</span> and <span style=color:#8679e8>Corrosion</span> damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
-var _tmpl$0 = /* @__PURE__ */ template(`<span>Increases <span style=color:#8679e8>Corrosion</span> and <span style=color:#e67129>Burn</span> damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
-var _tmpl$1 = /* @__PURE__ */ template(`<span>When performing a Support Attack, critical damage is increased by <span style=color:#f26c1c>3%</span> and the attack ignores <span style=color:#f26c1c>5%</span> of the target's defense, can stack up to <span style=color:#f26c1c>5 times</span>.`);
-var _tmpl$102 = /* @__PURE__ */ template(`<span>When this unit has an <span style=color:#d4ae08>Electric</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
-var _tmpl$112 = /* @__PURE__ */ template(`<span>At the start of the turn, gain <span style=color:#f26c1c>10 stacks</span> of <span style=color:#3487e0>Firepower Overmatch</span>.\\nFirepower Overmatch:\\nDamage dealt is increased by <span style=color:#f26c1c>8%</span> and critical damage is increased by <span style=color:#f26c1c>5%</span> per stack, to a maximum of <span style=color:#f26c1c>50 stacks</span>. For <span style=color:#f26c1c>each point</span> of mobility spent, remove <span style=color:#f26c1c>1 stack</span> of this effect.`);
-var _tmpl$122 = /* @__PURE__ */ template(`<span>When shielded, attacks ignore <span style=color:#f26c1c>20%</span> of the target's defense and critical damage is increased by <span style=color:#f26c1c>10%</span>.`);
-var _tmpl$132 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#42cce0>Freeze</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
-var _tmpl$142 = /* @__PURE__ */ template(`<span>Light Ammo ignores <span style=color:#f26c1c>50%</span> of target's defense.`);
-var _tmpl$152 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 allied unit</span> within <span style=color:#f26c1c>5 tiles</span>, damage dealt is increased by <span style=color:#f26c1c>6%</span>.`);
-var _tmpl$162 = /* @__PURE__ */ template(`<span>Sentinel-class Dolls' critical damage is increased by <span style=color:#f26c1c>25%</span>.`);
-var _tmpl$172 = /* @__PURE__ */ template(`<span>Increases Corrosion and Freeze damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
-var _tmpl$182 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>5 tiles</span> moved, damage dealt is permanently increased by <span style=color:#f26c1c>5%</span>. Maximum of <span style=color:#f26c1c>10 stacks</span>.`);
-var _tmpl$192 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 instance</span> of fixed damage taken by an enemy, all damage dealt by allied units is permanently increased by <span style=color:#f26c1c>2%</span>. Maximum of 15 stacks.`);
-var _tmpl$202 = /* @__PURE__ */ template(`<span><span style=color:#f26c1c>Each time</span> a Bulwark-class Doll takes damage, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Undaunted Spirit</span>.`);
+var _tmpl$54 = /* @__PURE__ */ template(`<span>If an enemy is afflicted by an Electric debuff, increase critical damage against them by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$63 = /* @__PURE__ */ template(`<span>Damage dealt is increased by <span style=color:#f26c1c>20%</span> when distance to the enemy target is less than or equal to <span style=color:#f26c1c>6 tiles</span>.`);
+var _tmpl$73 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>2000</span> points of <span style=color:#f26c1c>healing</span> or <span style=color:#f26c1c>shield</span> applied to allies by Support Dolls, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Complementarity Plan</span>.`);
+var _tmpl$83 = /* @__PURE__ */ template(`<span>If this unit's has <span style=color:#f26c1c>2 or more</span> points of Confectance Index at the start of the round, damage dealt is increased by <span style=color:#f26c1c>25%</span> until the end of the round.`);
+var _tmpl$93 = /* @__PURE__ */ template(`<span>Corrosion damage is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$0 = /* @__PURE__ */ template(`<span>Increases <span style=color:#d4ae08>Electric</span> and <span style=color:#8679e8>Corrosion</span> damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$1 = /* @__PURE__ */ template(`<span>Increases <span style=color:#8679e8>Corrosion</span> and <span style=color:#e67129>Burn</span> damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$102 = /* @__PURE__ */ template(`<span>Critical damage dealt to targets with <span style=color:#f26c1c>0</span> stability is increased by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$112 = /* @__PURE__ */ template(`<span>When performing a Support Attack, critical damage is increased by <span style=color:#f26c1c>3%</span> and the attack ignores <span style=color:#f26c1c>5%</span> of the target's defense, can stack up to <span style=color:#f26c1c>5 times</span>.`);
+var _tmpl$122 = /* @__PURE__ */ template(`<span>When this unit has an <span style=color:#d4ae08>Electric</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$132 = /* @__PURE__ */ template(`<span>At the start of the turn, gain <span style=color:#f26c1c>10 stacks</span> of <span style=color:#3487e0>Firepower Overmatch</span>.\\nFirepower Overmatch:\\nDamage dealt is increased by <span style=color:#f26c1c>8%</span> and critical damage is increased by <span style=color:#f26c1c>5%</span> per stack, to a maximum of <span style=color:#f26c1c>50 stacks</span>. For <span style=color:#f26c1c>each point</span> of mobility spent, remove <span style=color:#f26c1c>1 stack</span> of this effect.`);
+var _tmpl$142 = /* @__PURE__ */ template(`<span>When shielded, attacks ignore <span style=color:#f26c1c>20%</span> of the target's defense and critical damage is increased by <span style=color:#f26c1c>10%</span>.`);
+var _tmpl$152 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#42cce0>Freeze</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$162 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#2caadb>Hydro</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$172 = /* @__PURE__ */ template(`<span>Light Ammo ignores <span style=color:#f26c1c>50%</span> of target's defense.`);
+var _tmpl$182 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 allied unit</span> within <span style=color:#f26c1c>5 tiles</span>, damage dealt is increased by <span style=color:#f26c1c>6%</span>.`);
+var _tmpl$192 = /* @__PURE__ */ template(`<span>Sentinel-class Dolls' critical damage is increased by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$202 = /* @__PURE__ */ template(`<span>Increases Physical damage dealt by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$216 = /* @__PURE__ */ template(`<span>Increases Corrosion and Freeze damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$223 = /* @__PURE__ */ template(`<span>When this unit's HP is <span style=color:#f26c1c>greater than or equal to 100%</span>, attacks ignore <span style=color:#f26c1c>30%</span> of the target's defense.`);
+var _tmpl$232 = /* @__PURE__ */ template(`<span>Against targets with <span style=color:#f26c1c>2 or more</span> <span style=color:#f26c1c>Defense-type debuffs</span>, critical damage is increased by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$242 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>5 tiles</span> moved, damage dealt is permanently increased by <span style=color:#f26c1c>5%</span>. Maximum of <span style=color:#f26c1c>10 stacks</span>.`);
+var _tmpl$252 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 instance</span> of fixed damage taken by an enemy, all damage dealt by allied units is permanently increased by <span style=color:#f26c1c>2%</span>. Maximum of 15 stacks.`);
+var _tmpl$262 = /* @__PURE__ */ template(`<span><span style=color:#f26c1c>Each time</span> a Bulwark-class Doll takes damage, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Undaunted Spirit</span>.`);
+var _tmpl$272 = /* @__PURE__ */ template(`<span>Increase Physical and Hydro damage and critical rate by <span style=color:#f26c1c>30%</span>.`);
 var tsxBuffs = {
   b1: _tmpl$45(),
   b4: _tmpl$215(),
   b6: _tmpl$311(),
   b8: _tmpl$46(),
-  b12: _tmpl$54(),
-  b13: _tmpl$63(),
-  b14: _tmpl$73(),
-  b16: _tmpl$83(),
-  b18: _tmpl$93(),
-  b19: _tmpl$0(),
-  b22: _tmpl$1(),
-  b23: _tmpl$102(),
-  b27: _tmpl$112(),
-  b28: _tmpl$122(),
-  b29: _tmpl$132(),
-  b45: _tmpl$142(),
-  b49: _tmpl$152(),
-  b51: _tmpl$162(),
-  b55: _tmpl$172(),
-  b61: _tmpl$182(),
-  b65: _tmpl$192(),
-  b67: _tmpl$202()
+  b9: _tmpl$54(),
+  b12: _tmpl$63(),
+  b13: _tmpl$73(),
+  b14: _tmpl$83(),
+  b16: _tmpl$93(),
+  b18: _tmpl$0(),
+  b19: _tmpl$1(),
+  b21: _tmpl$102(),
+  b22: _tmpl$112(),
+  b23: _tmpl$122(),
+  b27: _tmpl$132(),
+  b28: _tmpl$142(),
+  b29: _tmpl$152(),
+  b38: _tmpl$162(),
+  b45: _tmpl$172(),
+  b49: _tmpl$182(),
+  b51: _tmpl$192(),
+  b52: _tmpl$202(),
+  b55: _tmpl$216(),
+  b58: _tmpl$223(),
+  b60: _tmpl$232(),
+  b61: _tmpl$242(),
+  b65: _tmpl$252(),
+  b67: _tmpl$262(),
+  b68: _tmpl$272()
 };
 function Buffs(props) {
   if (props.id in tsxBuffs) {
@@ -6437,7 +6866,7 @@ function Buffs(props) {
 
 // src/components/SummaryView.tsx
 var _tmpl$47 = /* @__PURE__ */ template(`<div class="flex flex-row gap-2"><div style="width:430px;height:430px;flex-shrink:0;overflow:hidden;border-right:1px solid #3f3f46"></div><div class="flex min-w-0 grow flex-col gap-1 overflow-y-auto">`);
-var _tmpl$216 = /* @__PURE__ */ template(`<div class="flex flex-col items-start gap-1 rounded-xs border-b-2 bg-[#F4F4F6] p-1 shadow-sm shadow-black/30"><div class="flex flex-row items-center gap-1"><div class="font-bold text-[#325563]"></div></div><div class="min-w-0 flex-1"><div class="flex flex-wrap gap-1">`);
+var _tmpl$217 = /* @__PURE__ */ template(`<div class="flex flex-col items-start gap-1 rounded-xs border-b-2 bg-[#F4F4F6] p-1 shadow-sm shadow-black/30"><div class="flex flex-row items-center gap-1"><div class="font-bold text-[#325563]"></div></div><div class="min-w-0 flex-1"><div class="flex flex-wrap gap-1">`);
 var _tmpl$312 = /* @__PURE__ */ template(`<span class="rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
 var _tmpl$48 = /* @__PURE__ */ template(`<div class="pt-1 text-sm text-zinc-600">No actions recorded`);
 var _tmpl$55 = /* @__PURE__ */ template(`<div class="flex flex-col gap-2">`);
@@ -6561,7 +6990,7 @@ function TabCard(props) {
             const doll = getInfoFromId(dollId);
             const fort = createMemo(() => getFortificationFromId(dollId));
             return (() => {
-              var _el$4 = _tmpl$216(), _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild;
+              var _el$4 = _tmpl$217(), _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild;
               insert(_el$5, createComponent(SquareDollChip, {
                 target: doll,
                 get doll() {
@@ -6950,7 +7379,7 @@ function Phase(props) {
 
 // src/components/DollChip.tsx
 var _tmpl$61 = /* @__PURE__ */ template(`<div><div><div class="absolute top-1 left-1 h-6 w-6"></div><img loading=lazy class="h-auto w-32 object-cover"></div><div class="bg-[#1C2A32] p-1 text-center font-bold text-[#EFEFEF]">`, true, false, false);
-var _tmpl$217 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
+var _tmpl$218 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function DollChip(props) {
   return (() => {
     var _el$ = _tmpl$61(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$2.nextSibling;
@@ -6958,7 +7387,7 @@ function DollChip(props) {
     insert(_el$2, (() => {
       var _c$ = memo(() => !!props.selected);
       return () => _c$() && (() => {
-        var _el$6 = _tmpl$217();
+        var _el$6 = _tmpl$218();
         insert(_el$6, createComponent(Check, {}));
         return _el$6;
       })();
@@ -6989,7 +7418,7 @@ delegateEvents(["click"]);
 
 // src/components/modals/DollSelectorModal.tsx
 var _tmpl$65 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75">`);
-var _tmpl$218 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="grid grid-cols-6 gap-4">`);
+var _tmpl$219 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="grid grid-cols-6 gap-4">`);
 var _tmpl$313 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Changing dolls will clear their positions and actions`);
 var _tmpl$410 = /* @__PURE__ */ template(`<button><div class="h-6 w-6"></div><span>`);
 function DollSelectorModal() {
@@ -7044,7 +7473,7 @@ function DollSelectorModal() {
     }));
     return _el$;
   })(), (() => {
-    var _el$2 = _tmpl$218(), _el$3 = _el$2.firstChild;
+    var _el$2 = _tmpl$219(), _el$3 = _el$2.firstChild;
     insert(_el$3, createComponent(For, {
       each: allDolls,
       children: (doll) => {
@@ -7174,7 +7603,7 @@ function TargetModal() {
 
 // src/components/modals/ExportModal.tsx
 var _tmpl$68 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75"><button><span>Export</span></button><button><span>Share`);
-var _tmpl$219 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Export as Text</div><div class="mx-3 flex flex-row items-center justify-center gap-1 text-[#384B53]"><span>Export style:</span></div><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-2 font-mono text-xs"placeholder=Loading...>`);
+var _tmpl$220 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Export as Text</div><div class="mx-3 flex flex-row items-center justify-center gap-1 text-[#384B53]"><span>Export style:</span></div><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-2 font-mono text-xs"placeholder=Loading...>`);
 var _tmpl$314 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex items-center justify-center self-stretch bg-[#384B53] p-2 text-center font-bold tracking-wide text-[#ECECEC]">`);
 var _tmpl$411 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex items-center justify-center self-stretch bg-[#AE4749] p-2 text-center font-bold tracking-wide text-[#ECECEC]">`);
 var _tmpl$510 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Share Link`);
@@ -7315,7 +7744,7 @@ ${window.location.origin + window.location.pathname}?state=` + exportString();
     },
     get children() {
       return [(() => {
-        var _el$4 = _tmpl$219(), _el$5 = _el$4.firstChild, _el$6 = _el$5.nextSibling, _el$7 = _el$6.firstChild, _el$8 = _el$6.nextSibling;
+        var _el$4 = _tmpl$220(), _el$5 = _el$4.firstChild, _el$6 = _el$5.nextSibling, _el$7 = _el$6.firstChild, _el$8 = _el$6.nextSibling;
         insert(_el$6, createComponent(Select, {
           "class": "custom",
           options: exportOptions,
@@ -7415,7 +7844,7 @@ delegateEvents(["click", "input"]);
 
 // src/components/modals/SkillDisplayModal.tsx
 var _tmpl$70 = /* @__PURE__ */ template(`<div class="flex flex-col gap-2 self-center"><div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>Override imported notations:</span></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Preview</div><div class="flex flex-wrap justify-center gap-1.5">`);
-var _tmpl$220 = /* @__PURE__ */ template(`<div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>`);
+var _tmpl$221 = /* @__PURE__ */ template(`<div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>`);
 var _tmpl$315 = /* @__PURE__ */ template(`<div class="flex flex-col gap-1"><div class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-center text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
 function SkillDisplayModal() {
   const dollInfo = getDollFromId("d54");
@@ -7446,7 +7875,7 @@ function SkillDisplayModal() {
         return Object.entries(notations);
       },
       children: ([notation, values]) => (() => {
-        var _el$6 = _tmpl$220(), _el$7 = _el$6.firstChild;
+        var _el$6 = _tmpl$221(), _el$7 = _el$6.firstChild;
         insert(_el$7, `${notation} style:`);
         insert(_el$6, createComponent(Select, {
           "class": "custom",
@@ -7487,7 +7916,7 @@ function SkillDisplayModal() {
 
 // src/components/icons/CommonKey.tsx
 var _tmpl$71 = /* @__PURE__ */ template(`<svg><g transform=matrix(1,0,0,0.944444,-0.5,-0.555556)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z style=fill:rgb(63,78,82)></svg>`, false, true, false);
-var _tmpl$221 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.444444,22.5294,7.94444)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
+var _tmpl$224 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.444444,22.5294,7.94444)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
 var _tmpl$316 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-33,-5.5)><g transform=matrix(1.17647,0,0,1.11111,-8.17647,-3.38889)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8ZM43.5,10.25L37.979,13.625L37.979,20.375L43.5,23.75L49.021,20.375L49.021,13.625L43.5,10.25Z>`);
 function CommonKey(props) {
   const color = props.rarity === "Elite" ? "A87D36" : props.rarity === "Standard" ? "5F5A90" : "5B6468";
@@ -7506,7 +7935,7 @@ function CommonKey(props) {
         return props.rarity === "Elite" || props.rarity === "Standard";
       },
       get children() {
-        return _tmpl$221();
+        return _tmpl$224();
       }
     }), _el$5);
     createRenderEffect((_$p) => style(_el$6, `fill:#${color}`, _$p));
@@ -7516,7 +7945,7 @@ function CommonKey(props) {
 
 // src/components/icons/FixedKey.tsx
 var _tmpl$76 = /* @__PURE__ */ template(`<svg><g transform=matrix(1,0,0,0.894737,-0.5,1.63158)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6Z style=fill:rgb(63,78,82)></svg>`, false, true, false);
-var _tmpl$223 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.421053,7.17647,8.97368)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
+var _tmpl$225 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.421053,7.17647,8.97368)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
 var _tmpl$317 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-4,-5.5)><g transform=matrix(1.17647,0,0,1.05263,-3.05882,-0.815789)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6ZM14.5,8.375L8.125,15.5L14.5,22.625L20.875,15.5L14.5,8.375Z>`);
 function FixedKey2(props) {
   const color = props.rarity === "Elite" ? "A87D36" : props.rarity === "Standard" ? "5F5A90" : "5B6468";
@@ -7535,7 +7964,7 @@ function FixedKey2(props) {
         return props.rarity === "Elite" || props.rarity === "Standard";
       },
       get children() {
-        return _tmpl$223();
+        return _tmpl$225();
       }
     }), _el$5);
     createRenderEffect((_$p) => style(_el$6, `fill:#${color}`, _$p));
@@ -7562,7 +7991,7 @@ function SmallKey(props) {
 
 // src/components/DynamicDollChip.tsx
 var _tmpl$77 = /* @__PURE__ */ template(`<div class="h-30 w-23 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50"><div><div class="absolute top-1 left-1 h-5 w-5"></div><img loading=lazy class="h-auto w-22.5 object-cover"></div><div class="bg-[#1C2A32] p-1 text-center text-[14px] font-bold text-[#EFEFEF]">`, true, false, false);
-var _tmpl$224 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-6 w-6 shadow-sm shadow-black/20">`);
+var _tmpl$226 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-6 w-6 shadow-sm shadow-black/20">`);
 function DynamicDollChip(props) {
   return (() => {
     var _el$ = _tmpl$77(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$2.nextSibling;
@@ -7570,7 +7999,7 @@ function DynamicDollChip(props) {
     insert(_el$2, (() => {
       var _c$ = memo(() => !!props.selected);
       return () => _c$() && (() => {
-        var _el$6 = _tmpl$224();
+        var _el$6 = _tmpl$226();
         insert(_el$6, createComponent(Check, {}));
         return _el$6;
       })();
@@ -7599,7 +8028,7 @@ delegateEvents(["click"]);
 
 // src/components/modals/FormationModal.tsx
 var _tmpl$78 = /* @__PURE__ */ template(`<div class="relative flex flex-wrap items-center justify-start gap-4 px-10 py-8"><div>`);
-var _tmpl$225 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-10 h-8 w-8"><img class="relative h-full w-full object-cover">`);
+var _tmpl$227 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-10 h-8 w-8"><img class="relative h-full w-full object-cover">`);
 var _tmpl$318 = /* @__PURE__ */ template(`<div class="flex items-center gap-3 bg-[#B6BAC6] p-2.5"><div class="flex flex-col gap-3"><div class="flex flex-row gap-3"><div></div><div><div></div><div class=w-6></div></div></div><div class="flex flex-row gap-3"><div class="text-md flex w-12 flex-col items-center justify-center rounded-sm bg-[#354346] shadow-sm shadow-black/50"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center pt-0.5 text-[18px] font-bold"></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div class="text-md flex w-14 flex-col items-center justify-center rounded-sm bg-[#354346] px-1 pt-1 shadow-sm shadow-black/50"><div class="relative h-12 w-12 overflow-hidden rounded-full"><img><div class="absolute top-0 right-0 bottom-0 left-0 flex items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class="overflow-hidden overflow-ellipsis whitespace-nowrap"></div></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div><img><div></div></div><div class="flex w-14 flex-col gap-3 text-sm font-bold tracking-wide"><button></button><button>Load`);
 var _tmpl$412 = /* @__PURE__ */ template(`<div class="flex h-7 w-4 items-center justify-center">=`);
 var _tmpl$511 = /* @__PURE__ */ template(`<div class="h-5 w-5">`);
@@ -7696,7 +8125,7 @@ function FormationModal() {
               return dollWeapon()?.imprintImage;
             },
             get children() {
-              var _el$25 = _tmpl$225(), _el$26 = _el$25.firstChild;
+              var _el$25 = _tmpl$227(), _el$26 = _el$25.firstChild;
               createRenderEffect(() => setAttribute(_el$26, "src", dollWeapon()?.imprintImage));
               return _el$25;
             }
@@ -9309,7 +9738,7 @@ var entry_default = Fuse;
 
 // src/components/modals/KeyModal.tsx
 var _tmpl$80 = /* @__PURE__ */ template(`<div class="flex max-h-180 flex-row px-10"><div class="flex w-30 shrink-0 flex-col items-stretch justify-center bg-[#2A3D46] py-5"><div class="flex justify-center pb-2"><img loading=lazy class="h-15 w-15 rounded-full border-3 border-[#687177] bg-[#0D1C1C] object-cover"></div></div><div class="flex w-70 grow flex-col"><div class="flex shrink flex-row flex-wrap gap-1 p-2 pl-4"><div class="flex font-bold"></div><div class></div></div><div class="flex grow overflow-y-auto p-5 px-4 pt-2"><div class="flex flex-row flex-wrap content-start items-start gap-3.5"></div></div><div class="flex p-2"><div class="flex grow justify-center p-2"><input class=input type=text placeholder=Filter...>`, true, false, false);
-var _tmpl$226 = /* @__PURE__ */ template(`<img class="h-16 w-16 object-cover">`);
+var _tmpl$228 = /* @__PURE__ */ template(`<img class="h-16 w-16 object-cover">`);
 var _tmpl$319 = /* @__PURE__ */ template(`<div><div class="h-15 w-15">`);
 var _tmpl$413 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 z-20 h-7 w-7 shadow-sm shadow-black/20">`);
 var _tmpl$512 = /* @__PURE__ */ template(`<div class="absolute right-1 bottom-1 rounded-sm bg-[#2A3D46] px-1 text-xs font-bold text-[#EFEFEF]">`);
@@ -9376,7 +9805,7 @@ function KeyModal() {
               });
             },
             get children() {
-              var _el$14 = _tmpl$226();
+              var _el$14 = _tmpl$228();
               createRenderEffect(() => setAttribute(_el$14, "src", selectedKey.localImagePath));
               return _el$14;
             }
@@ -9490,7 +9919,7 @@ delegateEvents(["input", "click"]);
 
 // src/components/modals/WeaponModal.tsx
 var _tmpl$81 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
-var _tmpl$227 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-20 h-12 w-12"><img class="relative h-full w-full object-cover">`);
+var _tmpl$229 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-20 h-12 w-12"><img class="relative h-full w-full object-cover">`);
 var _tmpl$320 = /* @__PURE__ */ template(`<div><div></div><img><div>`);
 var _tmpl$414 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function WeaponModal() {
@@ -9528,7 +9957,7 @@ function WeaponModal() {
               return weapon.imprintImage;
             },
             get children() {
-              var _el$4 = _tmpl$227(), _el$5 = _el$4.firstChild;
+              var _el$4 = _tmpl$229(), _el$5 = _el$4.firstChild;
               createRenderEffect(() => setAttribute(_el$5, "src", weapon.imprintImage));
               return _el$4;
             }
@@ -9588,7 +10017,7 @@ function DarkModal(props) {
 
 // src/components/modals/BuffModal.tsx
 var _tmpl$86 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
-var _tmpl$228 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Select one or more buffs relevant to this transcript`);
+var _tmpl$230 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Select one or more buffs relevant to this transcript`);
 var _tmpl$321 = /* @__PURE__ */ template(`<div><div><img class="relative z-20 h-full w-full object-cover"></div><div class="flex grow flex-col gap-3 text-[#384B53]"><div class="flex grow flex-row gap-3 border-b-2 border-[#E0DDE7]"><div class="text-left font-bold text-black"></div><div class=text-left></div></div><div class=text-left>`);
 var _tmpl$415 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function BuffModal() {
@@ -9646,7 +10075,7 @@ function BuffModal() {
       }
     }));
     return _el$;
-  })(), _tmpl$228(), createComponent(ModalFooter, {
+  })(), _tmpl$230(), createComponent(ModalFooter, {
     styles: "justify-between",
     get children() {
       return [createComponent(Button, {

@@ -116,7 +116,9 @@ export interface SkillDisplay {
 }
 
 export interface MapGrid {
-	size: number;
+	size?: number;
+	width: number;
+	height: number;
 	name: string;
 	default?: boolean;
 	locked?: boolean;

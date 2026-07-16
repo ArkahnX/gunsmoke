@@ -69,10 +69,25 @@
     "localImagePath": "data/buffs/Chain Surge.png"
   },
   {
+    "name": "Chained Current",
+    "description": "If an enemy is afflicted by an Electric debuff, increase critical damage against them by <color=#f26c1c>25%</color>.",
+    "id": "b9",
+    "season": 28,
+    "days": {
+      "28": [
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    "localImagePath": "data/buffs/Chained Current.png"
+  },
+  {
     "name": "Close-Range Shooting",
     "description": "Damage dealt is increased by <color=#f26c1c>20%</color> when distance to the enemy target is less than or equal to <color=#f26c1c>6 tiles</color>.",
     "id": "b12",
-    "season": 27,
+    "season": 28,
     "days": {
       "25": [
         2,
@@ -83,6 +98,10 @@
       "27": [
         1,
         5
+      ],
+      "28": [
+        0,
+        3
       ]
     },
     "localImagePath": "data/buffs/Close-Range Shooting.png"
@@ -145,16 +164,34 @@
     "localImagePath": "data/buffs/Corrupting Spark.png"
   },
   {
+    "name": "Destabilized Execution",
+    "description": "Critical damage dealt to targets with <color=#f26c1c>0</color> stability is increased by <color=#f26c1c>25%</color>.",
+    "id": "b21",
+    "season": 28,
+    "days": {
+      "28": [
+        0,
+        4,
+        6
+      ]
+    },
+    "localImagePath": "data/buffs/Destabilized Execution.png"
+  },
+  {
     "name": "Disarraying Reinforcement",
     "description": "When performing a Support Attack, critical damage is increased by <color=#f26c1c>3%</color> and the attack ignores <color=#f26c1c>5%</color> of the target's defense, can stack up to <color=#f26c1c>5 times</color>.",
     "id": "b22",
-    "season": 27,
+    "season": 28,
     "days": {
       "27": [
         2,
         3,
         4,
         6
+      ],
+      "28": [
+        2,
+        4
       ]
     },
     "localImagePath": "data/buffs/Disarraying Reinforcement.png"
@@ -225,10 +262,23 @@
     "localImagePath": "data/buffs/Freeze Drain.png"
   },
   {
+    "name": "Hydro Drain",
+    "description": "When this unit has a <color=#2caadb>Hydro</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+    "id": "b38",
+    "season": 28,
+    "days": {
+      "28": [
+        2,
+        5
+      ]
+    },
+    "localImagePath": "data/buffs/Hydro Drain.png"
+  },
+  {
     "name": "Light Penetration",
     "description": "Light Ammo ignores <color=#f26c1c>50%</color> of target's defense.",
     "id": "b45",
-    "season": 27,
+    "season": 28,
     "days": {
       "25": [
         0,
@@ -239,6 +289,11 @@
         1,
         3,
         6
+      ],
+      "28": [
+        2,
+        4,
+        5
       ]
     },
     "localImagePath": "data/buffs/Light Penetration.png"
@@ -284,6 +339,21 @@
     "localImagePath": "data/buffs/Overpressure Rupture.png"
   },
   {
+    "name": "Overwhelming Smash",
+    "description": "Increases Physical damage dealt by <color=#f26c1c>30%</color>.",
+    "id": "b52",
+    "season": 28,
+    "days": {
+      "28": [
+        0,
+        1,
+        3,
+        6
+      ]
+    },
+    "localImagePath": "data/buffs/Overwhelming Smash.png"
+  },
+  {
     "name": "Putrid Cold Wave",
     "description": "Increases Corrosion and Freeze damage and their critical rate by <color=#f26c1c>30%</color>.",
     "id": "b55",
@@ -292,10 +362,38 @@
     "localImagePath": "data/buffs/Putrid Cold Wave.png"
   },
   {
+    "name": "Sanguine Shower",
+    "description": "When this unit's HP is <color=#f26c1c>greater than or equal to 100%</color>, attacks ignore <color=#f26c1c>30%</color> of the target's defense.",
+    "id": "b58",
+    "season": 28,
+    "days": {
+      "28": [
+        0,
+        1,
+        3,
+        6
+      ]
+    },
+    "localImagePath": "data/buffs/Sanguine Shower.png"
+  },
+  {
+    "name": "Shieldbreaker Calamity",
+    "description": "Against targets with <color=#f26c1c>2 or more</color> <color=#f26c1c>Defense-type debuffs</color>, critical damage is increased by <color=#f26c1c>25%</color>.",
+    "id": "b60",
+    "season": 28,
+    "days": {
+      "28": [
+        1,
+        5
+      ]
+    },
+    "localImagePath": "data/buffs/Shieldbreaker Calamity.png"
+  },
+  {
     "name": "Speedy Offensive",
     "description": "For every <color=#f26c1c>5 tiles</color> moved, damage dealt is permanently increased by <color=#f26c1c>5%</color>. Maximum of <color=#f26c1c>10 stacks</color>.",
     "id": "b61",
-    "season": 27,
+    "season": 28,
     "days": {
       "26": [
         1,
@@ -303,6 +401,10 @@
       ],
       "27": [
         2,
+        5
+      ],
+      "28": [
+        1,
         5
       ]
     },
@@ -337,5 +439,13 @@
       ]
     },
     "localImagePath": "data/buffs/Undaunted Spirit.png"
+  },
+  {
+    "name": "Water Hammer",
+    "description": "Increase Physical and Hydro damage and critical rate by <color=#f26c1c>30%</color>.",
+    "id": "b68",
+    "season": 28,
+    "core": true,
+    "localImagePath": "data/buffs/Water Hammer.png"
   }
 ]
