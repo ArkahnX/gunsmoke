@@ -7,6 +7,11 @@ const tsxBuffs: Record<string, JSX.Element> = {
 			<span style="color:#f26c1c">20%</span>.
 		</span>
 	),
+	b2: (
+		<span>
+			Increase Physical and Electric damage and critical rate by <span style="color:#f26c1c">30%</span>.
+		</span>
+	),
 	b4: (
 		<span>
 			When this unit has a <span style="color:#e67129">Burn</span> buff, damage dealt is increased by{" "}
@@ -47,6 +52,11 @@ const tsxBuffs: Record<string, JSX.Element> = {
 		<span>
 			If this unit's has <span style="color:#f26c1c">2 or more</span> points of Confectance Index at the start of the round, damage
 			dealt is increased by <span style="color:#f26c1c">25%</span> until the end of the round.
+		</span>
+	),
+	b15: (
+		<span>
+			Damage dealt by allied summoned units is increased by <span style="color:#f26c1c">50%</span>.
 		</span>
 	),
 	b16: (
@@ -141,6 +151,11 @@ const tsxBuffs: Record<string, JSX.Element> = {
 		<span>
 			When this unit's HP is <span style="color:#f26c1c">greater than or equal to 100%</span>, attacks ignore{" "}
 			<span style="color:#f26c1c">30%</span> of the target's defense.
+		</span>
+	),
+	b59: (
+		<span>
+			When the target has a shield, attacks ignore <span style="color:#f26c1c">30%</span> of the target's defense.
 		</span>
 	),
 	b60: (

@@ -1039,6 +1039,7 @@ export function sortBuffs(buffId1: string | BuffData, buffId2: string | BuffData
 	const buff2 = typeof buffId2 === "string" ? allBuffs.find((b) => buffId2 === b.id) : buffId2;
 	if (!buff1 || !buff2) return 0;
 	return (
+		Number(buff2.season === CURRENT_SEASON) - Number(buff1.season === CURRENT_SEASON) ||
 		buff2.season - buff1.season ||
 		+buff2.core - +buff1.core ||
 		buff1.days?.[CURRENT_SEASON]?.[0] - buff2.days?.[CURRENT_SEASON]?.[0] ||

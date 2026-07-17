@@ -13,6 +13,14 @@
     "localImagePath": "data/buffs/Acidic Absorption.png"
   },
   {
+    "name": "Arc Hammer",
+    "description": "Increase Physical and Electric damage and critical rate by <color=#f26c1c>30%</color>.",
+    "id": "b2",
+    "season": 29,
+    "core": true,
+    "localImagePath": "data/buffs/Arc Hammer.png"
+  },
+  {
     "name": "Burn Drain",
     "description": "When this unit has a <color=#e67129>Burn</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
     "id": "b4",
@@ -72,9 +80,9 @@
     "name": "Chained Current",
     "description": "If an enemy is afflicted by an Electric debuff, increase critical damage against them by <color=#f26c1c>25%</color>.",
     "id": "b9",
-    "season": 28,
+    "season": 29,
     "days": {
-      "28": [
+      "29": [
         2,
         3,
         4,
@@ -100,6 +108,10 @@
         5
       ],
       "28": [
+        0,
+        3
+      ],
+      "29": [
         0,
         3
       ]
@@ -133,6 +145,21 @@
       ]
     },
     "localImagePath": "data/buffs/Confectant Resonance.png"
+  },
+  {
+    "name": "Coordinated Support",
+    "description": "Damage dealt by allied summoned units is increased by <color=#f26c1c>50%</color>.",
+    "id": "b15",
+    "season": 28,
+    "days": {
+      "28": [
+        0,
+        1,
+        3,
+        6
+      ]
+    },
+    "localImagePath": "data/buffs/Coordinated Support.png"
   },
   {
     "name": "Corrosion Overdrive",
@@ -170,6 +197,12 @@
     "season": 28,
     "days": {
       "28": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "29": [
         0,
         4,
         6
@@ -181,7 +214,7 @@
     "name": "Disarraying Reinforcement",
     "description": "When performing a Support Attack, critical damage is increased by <color=#f26c1c>3%</color> and the attack ignores <color=#f26c1c>5%</color> of the target's defense, can stack up to <color=#f26c1c>5 times</color>.",
     "id": "b22",
-    "season": 28,
+    "season": 29,
     "days": {
       "27": [
         2,
@@ -189,7 +222,7 @@
         4,
         6
       ],
-      "28": [
+      "29": [
         2,
         4
       ]
@@ -270,6 +303,10 @@
       "28": [
         2,
         5
+      ],
+      "29": [
+        2,
+        5
       ]
     },
     "localImagePath": "data/buffs/Hydro Drain.png"
@@ -291,6 +328,10 @@
         6
       ],
       "28": [
+        1,
+        5
+      ],
+      "29": [
         2,
         4,
         5
@@ -302,7 +343,7 @@
     "name": "Mounting Synergy",
     "description": "For every <color=#f26c1c>1 allied unit</color> within <color=#f26c1c>5 tiles</color>, damage dealt is increased by <color=#f26c1c>6%</color>.",
     "id": "b49",
-    "season": 27,
+    "season": 28,
     "days": {
       "25": [
         0,
@@ -316,6 +357,10 @@
       "27": [
         0,
         3
+      ],
+      "28": [
+        1,
+        5
       ]
     },
     "localImagePath": "data/buffs/Mounting Synergy.png"
@@ -346,6 +391,11 @@
     "days": {
       "28": [
         0,
+        4,
+        6
+      ],
+      "29": [
+        0,
         1,
         3,
         6
@@ -372,17 +422,37 @@
         1,
         3,
         6
+      ],
+      "29": [
+        0,
+        1,
+        3,
+        6
       ]
     },
     "localImagePath": "data/buffs/Sanguine Shower.png"
   },
   {
-    "name": "Shieldbreaker Calamity",
-    "description": "Against targets with <color=#f26c1c>2 or more</color> <color=#f26c1c>Defense-type debuffs</color>, critical damage is increased by <color=#f26c1c>25%</color>.",
-    "id": "b60",
+    "name": "Shield Pierce",
+    "description": "When the target has a shield, attacks ignore <color=#f26c1c>30%</color> of the target's defense.",
+    "id": "b59",
     "season": 28,
     "days": {
       "28": [
+        2,
+        4,
+        5
+      ]
+    },
+    "localImagePath": "data/buffs/Shield Pierce.png"
+  },
+  {
+    "name": "Shieldbreaker Calamity",
+    "description": "Against targets with <color=#f26c1c>2 or more</color> <color=#f26c1c>Defense-type debuffs</color>, critical damage is increased by <color=#f26c1c>25%</color>.",
+    "id": "b60",
+    "season": 29,
+    "days": {
+      "29": [
         1,
         5
       ]
@@ -393,7 +463,7 @@
     "name": "Speedy Offensive",
     "description": "For every <color=#f26c1c>5 tiles</color> moved, damage dealt is permanently increased by <color=#f26c1c>5%</color>. Maximum of <color=#f26c1c>10 stacks</color>.",
     "id": "b61",
-    "season": 28,
+    "season": 29,
     "days": {
       "26": [
         1,
@@ -403,7 +473,7 @@
         2,
         5
       ],
-      "28": [
+      "29": [
         1,
         5
       ]
@@ -414,13 +484,17 @@
     "name": "Sustained Offensive",
     "description": "For every <color=#f26c1c>1 instance</color> of fixed damage taken by an enemy, all damage dealt by allied units is permanently increased by <color=#f26c1c>2%</color>. Maximum of 15 stacks.",
     "id": "b65",
-    "season": 26,
+    "season": 28,
     "days": {
       "26": [
         0,
         1,
         3,
         6
+      ],
+      "28": [
+        2,
+        4
       ]
     },
     "localImagePath": "data/buffs/Sustained Offensive.png"
