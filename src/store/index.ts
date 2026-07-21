@@ -1296,13 +1296,19 @@ export const interactiveStyles = (selected: boolean | null | undefined = false) 
 	"cursor-pointer outline-3 transition transition-discrete duration-175 hover:scale-107 hover:outline-white " +
 	(selected === true ? "outline-[#F26C1C]" : selected === null ? "outline-transparent" : "outline-transparent");
 
-export const parseEffects = (description: string) => {
+export const parseEffects = (description: string, skillNames: Map<string, string>) => {
 	return description.replace(/\{(e[0-9]+)\}/gi, (match, effectId) => {
 		const effect = allEffects.find((s) => s.id === effectId);
 		if (effect) {
 			return `<b><u>${effect.name}</u></b>`;
 		}
 		return `<b><u>Unknown Effect ${effectId}</u></b>`;
+	}).replace(/\{(s[0-9]+)\}/gi, (match, skillId) => {
+		const skill = skillNames.get(skillId);
+		if (skill) {
+			return `<b><u>${skill}</u></b>`;
+		}
+		return `<b><u>Unknown Effect ${skillId}</u></b>`;
 	});
 };
 

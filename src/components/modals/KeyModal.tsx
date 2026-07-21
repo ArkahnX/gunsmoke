@@ -22,6 +22,10 @@ export default function KeyModal() {
 	const dollInfo = createMemo(() => getInfoFromId(selectedDoll()!.id) as DollData | null);
 	if (!dollInfo()) return null;
 	const [sortedKeys, setSortedKeys] = createStore(sortEquippedKeys(selectedDoll()!.id, selectedDoll()!.keys));
+	const skillIdMap = new Map<string, string>();
+	for (const skill of dollInfo()!.skills) {
+		skillIdMap.set("s"+skill.id, skill.name);
+	}
 	const selectedKeys = createMemo(() => getPreSortedKeyInfo(selectedDoll()!.id, sortedKeys));
 	const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
 
@@ -35,10 +39,14 @@ export default function KeyModal() {
 	keyTypes["Expansion Key"].push(...dollInfo()!.keys.filter((k) => k.type === "Expansion Key"));
 
 	const [activeKeySlot, setActiveKeySlot] = createSignal(0);
-	const keyTitle = createMemo(() => selectedKeys()[activeKeySlot()]?.name ?? "");
-	const keyDescription = createMemo(() => {
-		const description = selectedKeys()[activeKeySlot()]?.description ?? "";
-		return parseEffects(description);
+	const [keyTitle, setKeyTitle] = createSignal("");
+	const [keyDescription, setKeyDescription] = createSignal("");
+	createEffect(() => {
+		const selectedKey = selectedKeys()[activeKeySlot()];
+		if (selectedKey) {
+			setKeyTitle(selectedKey.name);
+			setKeyDescription(parseEffects(selectedKey.description ?? "", skillIdMap));
+		}
 	});
 	const [query, setQuery] = createSignal("");
 	const visibleKeys = createMemo(() => {
@@ -50,12 +58,15 @@ export default function KeyModal() {
 			return sortedKeys.includes(keyId);
 		};
 		const fuse = new Fuse(visibleKeys(), {
-			keys: ["name", "dollname"],
+			keys: ["dollName", "name"],
+			includeScore: true
 		});
 		const results = fuse.search(query());
+		console.log(visibleKeys(), results)
 		return results.sort(
 			(a, b) =>
 				+isSel(b.item.id) - +isSel(a.item.id) ||
+				(a.score || 0) - (b.score || 0) ||
 				(a.item.number || 0) - (b.item.number || 0) ||
 				("dollName" in a.item && "dollName" in b.item && a.item.dollName.localeCompare(b.item.dollName)) ||
 				a.item.name.localeCompare(b.item.name)
@@ -65,6 +76,7 @@ export default function KeyModal() {
 	return (
 		<>
 			<div class="flex max-h-180 flex-row px-10">
+				{/*START SIDEBAR*/}
 				<div class="flex w-30 shrink-0 flex-col items-stretch justify-center bg-[#2A3D46] py-5">
 					<div class="flex justify-center pb-2">
 						<img
@@ -97,11 +109,8 @@ export default function KeyModal() {
 						}}
 					</For>
 				</div>
+				{/*END SIDEBAR*/}
 				<div class="flex w-70 grow flex-col">
-					<div class="flex shrink flex-row flex-wrap gap-1 p-2 pl-4">
-						<div class="flex font-bold">{keyTitle()}</div>
-						<div class="" innerHTML={keyDescription()}></div>
-					</div>
 					<div class="flex grow overflow-y-auto p-5 px-4 pt-2">
 						<div class="flex flex-row flex-wrap content-start items-start gap-3.5">
 							<For each={visibleKeys()}>
@@ -127,6 +136,9 @@ export default function KeyModal() {
 									const [isVisible, setIsVisible] = createSignal(false);
 									let index = createMemo(() => {
 										let index = filteredKeys().findIndex((filteredKey) => key.id === filteredKey.item.id);
+										if (index < 0 && sortedKeys.includes(key.id)) {
+											index = 0;
+										}
 										setIsVisible(index > -1);
 										return index > -1 ? index : 9999;
 									});
@@ -134,6 +146,7 @@ export default function KeyModal() {
 									return (
 										<div
 											onClick={toggleKey}
+											onPointerOver={() => { setKeyTitle(key.name); setKeyDescription(parseEffects(key.description, skillIdMap))}}
 											class={`${interactiveStyles(isSel())} inset-shadow-2xl relative flex flex-col rounded-sm border-3 border-[#B2B1B6] bg-[#95999B] shadow-black/75 ${isVisible() ? "" : "hidden"}`}
 											style={{ order: index() }}>
 											<Show when={isSel() !== false}>
@@ -162,6 +175,10 @@ export default function KeyModal() {
 								}}
 							</For>
 						</div>
+					</div>
+					<div class="flex shrink flex-row flex-wrap gap-1 p-2 pl-4">
+						<div class="flex font-bold">{keyTitle()}</div>
+						<div class="" innerHTML={keyDescription()}></div>
 					</div>
 					<div class="flex p-2">
 						<div class="flex grow justify-center p-2">

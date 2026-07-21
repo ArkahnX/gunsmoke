@@ -6412,13 +6412,19 @@ async function loadCombinedJson() {
   }
 }
 var interactiveStyles = (selected = false) => "cursor-pointer outline-3 transition transition-discrete duration-175 hover:scale-107 hover:outline-white " + (selected === true ? "outline-[#F26C1C]" : selected === null ? "outline-transparent" : "outline-transparent");
-var parseEffects = (description) => {
+var parseEffects = (description, skillNames) => {
   return description.replace(/\{(e[0-9]+)\}/gi, (match, effectId) => {
     const effect = allEffects.find((s) => s.id === effectId);
     if (effect) {
       return `<b><u>${effect.name}</u></b>`;
     }
     return `<b><u>Unknown Effect ${effectId}</u></b>`;
+  }).replace(/\{(s[0-9]+)\}/gi, (match, skillId) => {
+    const skill = skillNames.get(skillId);
+    if (skill) {
+      return `<b><u>${skill}</u></b>`;
+    }
+    return `<b><u>Unknown Effect ${skillId}</u></b>`;
   });
 };
 function runAfterFramePaint(callback) {
@@ -9743,7 +9749,7 @@ Fuse.use = function(...plugins) {
 var entry_default = Fuse;
 
 // src/components/modals/KeyModal.tsx
-var _tmpl$80 = /* @__PURE__ */ template(`<div class="flex max-h-180 flex-row px-10"><div class="flex w-30 shrink-0 flex-col items-stretch justify-center bg-[#2A3D46] py-5"><div class="flex justify-center pb-2"><img loading=lazy class="h-15 w-15 rounded-full border-3 border-[#687177] bg-[#0D1C1C] object-cover"></div></div><div class="flex w-70 grow flex-col"><div class="flex shrink flex-row flex-wrap gap-1 p-2 pl-4"><div class="flex font-bold"></div><div class></div></div><div class="flex grow overflow-y-auto p-5 px-4 pt-2"><div class="flex flex-row flex-wrap content-start items-start gap-3.5"></div></div><div class="flex p-2"><div class="flex grow justify-center p-2"><input class=input type=text placeholder=Filter...>`, true, false, false);
+var _tmpl$80 = /* @__PURE__ */ template(`<div class="flex max-h-180 flex-row px-10"><div class="flex w-30 shrink-0 flex-col items-stretch justify-center bg-[#2A3D46] py-5"><div class="flex justify-center pb-2"><img loading=lazy class="h-15 w-15 rounded-full border-3 border-[#687177] bg-[#0D1C1C] object-cover"></div></div><div class="flex w-70 grow flex-col"><div class="flex grow overflow-y-auto p-5 px-4 pt-2"><div class="flex flex-row flex-wrap content-start items-start gap-3.5"></div></div><div class="flex shrink flex-row flex-wrap gap-1 p-2 pl-4"><div class="flex font-bold"></div><div class></div></div><div class="flex p-2"><div class="flex grow justify-center p-2"><input class=input type=text placeholder=Filter...>`, true, false, false);
 var _tmpl$228 = /* @__PURE__ */ template(`<img class="h-16 w-16 object-cover">`);
 var _tmpl$319 = /* @__PURE__ */ template(`<div><div class="h-15 w-15">`);
 var _tmpl$413 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 z-20 h-7 w-7 shadow-sm shadow-black/20">`);
@@ -9754,6 +9760,10 @@ function KeyModal() {
   const dollInfo = createMemo(() => getInfoFromId(selectedDoll().id));
   if (!dollInfo()) return null;
   const [sortedKeys, setSortedKeys] = createStore(sortEquippedKeys(selectedDoll().id, selectedDoll().keys));
+  const skillIdMap = /* @__PURE__ */ new Map();
+  for (const skill of dollInfo().skills) {
+    skillIdMap.set("s" + skill.id, skill.name);
+  }
   const selectedKeys = createMemo(() => getPreSortedKeyInfo(selectedDoll().id, sortedKeys));
   const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
   const keyTypes = {
@@ -9765,10 +9775,14 @@ function KeyModal() {
   keyTypes["Fixed Key"].push(...dollInfo().keys.filter((k) => k.type === "Fixed Key"));
   keyTypes["Expansion Key"].push(...dollInfo().keys.filter((k) => k.type === "Expansion Key"));
   const [activeKeySlot, setActiveKeySlot] = createSignal(0);
-  const keyTitle = createMemo(() => selectedKeys()[activeKeySlot()]?.name ?? "");
-  const keyDescription = createMemo(() => {
-    const description = selectedKeys()[activeKeySlot()]?.description ?? "";
-    return parseEffects(description);
+  const [keyTitle, setKeyTitle] = createSignal("");
+  const [keyDescription, setKeyDescription] = createSignal("");
+  createEffect(() => {
+    const selectedKey = selectedKeys()[activeKeySlot()];
+    if (selectedKey) {
+      setKeyTitle(selectedKey.name);
+      setKeyDescription(parseEffects(selectedKey.description ?? "", skillIdMap));
+    }
   });
   const [query, setQuery] = createSignal("");
   const visibleKeys = createMemo(() => {
@@ -9779,13 +9793,15 @@ function KeyModal() {
       return sortedKeys.includes(keyId);
     };
     const fuse = new entry_default(visibleKeys(), {
-      keys: ["name", "dollname"]
+      keys: ["dollName", "name"],
+      includeScore: true
     });
     const results = fuse.search(query());
-    return results.sort((a, b) => +isSel(b.item.id) - +isSel(a.item.id) || (a.item.number || 0) - (b.item.number || 0) || "dollName" in a.item && "dollName" in b.item && a.item.dollName.localeCompare(b.item.dollName) || a.item.name.localeCompare(b.item.name));
+    console.log(visibleKeys(), results);
+    return results.sort((a, b) => +isSel(b.item.id) - +isSel(a.item.id) || (a.score || 0) - (b.score || 0) || (a.item.number || 0) - (b.item.number || 0) || "dollName" in a.item && "dollName" in b.item && a.item.dollName.localeCompare(b.item.dollName) || a.item.name.localeCompare(b.item.name));
   });
   return (() => {
-    var _el$ = _tmpl$80(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$2.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$6.firstChild, _el$8 = _el$7.nextSibling, _el$9 = _el$6.nextSibling, _el$0 = _el$9.firstChild, _el$1 = _el$9.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild;
+    var _el$ = _tmpl$80(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.firstChild, _el$5 = _el$2.nextSibling, _el$6 = _el$5.firstChild, _el$7 = _el$6.firstChild, _el$8 = _el$6.nextSibling, _el$9 = _el$8.firstChild, _el$0 = _el$9.nextSibling, _el$1 = _el$8.nextSibling, _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild;
     insert(_el$2, createComponent(For, {
       get each() {
         return selectedKeys();
@@ -9821,8 +9837,7 @@ function KeyModal() {
         })();
       }
     }), null);
-    insert(_el$7, keyTitle);
-    insert(_el$0, createComponent(For, {
+    insert(_el$7, createComponent(For, {
       get each() {
         return visibleKeys();
       },
@@ -9848,11 +9863,18 @@ function KeyModal() {
         const [isVisible2, setIsVisible] = createSignal(false);
         let index = createMemo(() => {
           let index2 = filteredKeys().findIndex((filteredKey) => key.id === filteredKey.item.id);
+          if (index2 < 0 && sortedKeys.includes(key.id)) {
+            index2 = 0;
+          }
           setIsVisible(index2 > -1);
           return index2 > -1 ? index2 : 9999;
         });
         return (() => {
           var _el$15 = _tmpl$610(), _el$17 = _el$15.firstChild, _el$18 = _el$17.firstChild;
+          _el$15.$$pointerover = () => {
+            setKeyTitle(key.name);
+            setKeyDescription(parseEffects(key.description, skillIdMap));
+          };
           _el$15.$$click = toggleKey;
           insert(_el$15, createComponent(Show, {
             get when() {
@@ -9899,6 +9921,7 @@ function KeyModal() {
         })();
       }
     }));
+    insert(_el$9, keyTitle);
     _el$11.$$input = (e) => setQuery(e.target.value);
     insert(_el$1, createComponent(Button, {
       onClick: () => {
@@ -9911,7 +9934,7 @@ function KeyModal() {
     createRenderEffect((_p$) => {
       var _v$ = dollInfo().avatar, _v$2 = keyDescription();
       _v$ !== _p$.e && setAttribute(_el$4, "src", _p$.e = _v$);
-      _v$2 !== _p$.t && (_el$8.innerHTML = _p$.t = _v$2);
+      _v$2 !== _p$.t && (_el$0.innerHTML = _p$.t = _v$2);
       return _p$;
     }, {
       e: void 0,
@@ -9921,7 +9944,7 @@ function KeyModal() {
     return _el$;
   })();
 }
-delegateEvents(["input", "click"]);
+delegateEvents(["input", "click", "pointerover"]);
 
 // src/components/modals/WeaponModal.tsx
 var _tmpl$81 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
