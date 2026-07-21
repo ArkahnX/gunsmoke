@@ -658,7 +658,7 @@
   },
   {
     "name": "Collar Brand",
-    "description": "{\"mainDetails\":\"<p>Faelynn's exclusive mark. </p><p>Removed when the caster's action ends. Cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"4b3f9c29-bd9e-4ae6-841c-77da131bfc63\",\"upgradeName\":\"V3\",\"upgradeDetails\":\"<p>Faelynn's exclusive mark. <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> taken is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>. </p><p>Removed when the caster's action ends. Cannot be cleansed.</p>\",\"order\":0}]}",
+    "description": "<p>Faelynn's exclusive mark. </p><p>Removed when the caster's action ends. Cannot be cleansed.</p>",
     "id": "e77",
     "effectTags": []
   },
@@ -1828,7 +1828,7 @@
   },
   {
     "name": "Hunter's Instinct",
-    "description": "<p>Comprises of [dollSkill:5bbf545f-b42e-4531-b96b-c18d045b29da], [dollSkill:47029583-6dfd-40f8-a209-db9c106a93b1], and [dollSkill:1ecf0fdb-9fc7-4e9e-88dd-85bd3a1533c2]. </p><p>After the Ultimate skill resolves, if conditions are met, [dollSkill:5bbf545f-b42e-4531-b96b-c18d045b29da] can be used.</p>",
+    "description": "<p>Comprises of {s6}, {s7}, and {s8}. </p><p>After the Ultimate skill resolves, if conditions are met, {s6} can be used.</p>",
     "id": "e234",
     "effectTags": []
   },
@@ -1840,7 +1840,7 @@
   },
   {
     "name": "Hunter's Tracking",
-    "description": "{\"mainDetails\":\"<p>Increase <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">3%</span>, up to a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">9%</span>.</p><p>This buff cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"a253b643-de4f-4e05-acbb-3474d9d5edaf\",\"upgradeName\":\"V4\",\"upgradeDetails\":\"<p>Increase <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> dealt by <span style=\\\"color: rgb(243, 109, 28);\\\">5%</span>, up to a maximum of <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>.</p><p>This buff cannot be cleansed.</p>\",\"order\":0}]}",
+    "description": "<p>Increase <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> dealt by <span style=\"color: rgb(243, 109, 28);\">3%</span>, up to a maximum of <span style=\"color: rgb(243, 109, 28);\">9%</span>.</p><p>This buff cannot be cleansed.</p>",
     "id": "e236",
     "effectTags": []
   },
@@ -1976,7 +1976,7 @@
   },
   {
     "name": "Justice",
-    "description": "<p>Nikketa's critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> and critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. When manually using the Ultimate Skill [dollSkill:80da8a10-46a2-427e-9f31-5d594905de2d], consumes <span style=\"color: rgb(243, 109, 28);\">5 stacks </span>of this effect to perform the Ultimate skill 1 additional time. Can stack up to <span style=\"color: rgb(243, 109, 28);\">5 times</span>. This effect cannot be cleansed.</p>",
+    "description": "<p>Nikketa's critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> and critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. When manually using the Ultimate Skill {s5}, consumes <span style=\"color: rgb(243, 109, 28);\">5 stacks </span>of this effect to perform the Ultimate skill 1 additional time. Can stack up to <span style=\"color: rgb(243, 109, 28);\">5 times</span>. This effect cannot be cleansed.</p>",
     "id": "e254",
     "effectTags": []
   },
@@ -2840,7 +2840,7 @@
   },
   {
     "name": "Reverse Assimilation",
-    "description": "<p>Cannot move, cannot rotate, cannot benefit from cover damage reduction, and is immune to crowd control effects.</p><p>While possessing an {e302}, the basic attack [dollSkill:100114b6-0038-411f-a878-0925264cd669] can be used.</p>",
+    "description": "<p>Cannot move, cannot rotate, cannot benefit from cover damage reduction, and is immune to crowd control effects.</p><p>While possessing an {e302}, the basic attack {s2} can be used.</p>",
     "id": "e368",
     "effectTags": []
   },
@@ -2897,13 +2897,13 @@
   },
   {
     "name": "Roving Bloodlust",
-    "description": "{\"mainDetails\":\"<p>Faelynn's attack is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">10%</span> and stability damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span>.</p>\",\"upgrades\":[{\"id\":\"6ec6b2d0-8a20-4d1d-bfa9-0e0bc18baea8\",\"upgradeName\":\"V1\",\"upgradeDetails\":\"<p>Faelynn's attack is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span> and stability damage dealt is increased by <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span>.</p>\",\"order\":0}]}",
+    "description": "<p>Faelynn's attack is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span> and stability damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
     "id": "e375",
     "effectTags": []
   },
   {
     "name": "Sakura Mark",
-    "description": "<p>When this unit take <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, expends <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of this effect; Sakura deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to this unit and all enemies within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of it. If this effect is triggered by Sakura's Ultimate Skill [dollSkill:f25d838f-ea8b-46cc-a8bd-c5dcd52f38db], expends <span style=\"color: rgb(243, 109, 28);\">3 stacks </span>of this effect and deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to this unit and all enemies within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of it. Stacks up to <span style=\"color: rgb(243, 109, 28);\">3</span><span style=\"color: rgb(243, 109, 28);\"> times</span>. Cannot be cleansed.</p>",
+    "description": "<p>When this unit take <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, expends <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of this effect; Sakura deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to this unit and all enemies within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of it. If this effect is triggered by Sakura's Ultimate Skill {s5}, expends <span style=\"color: rgb(243, 109, 28);\">3 stacks </span>of this effect and deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to this unit and all enemies within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of it. Stacks up to <span style=\"color: rgb(243, 109, 28);\">3</span><span style=\"color: rgb(243, 109, 28);\"> times</span>. Cannot be cleansed.</p>",
     "id": "e376",
     "effectTags": []
   },
@@ -2921,7 +2921,7 @@
   },
   {
     "name": "Saturation Overflow",
-    "description": "<p>Increase the attack of the buff holder by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>After casting [dollSkill:111305a5-0407-44b4-a008-71be40565fd7], generate {e463} tiles with a <span style=\"color: rgb(243, 109, 28);\">5-tile-wide</span> area along the path for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>After using [dollSkill:111305a5-0407-44b4-a008-71be40565fd7], all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1</span> instance of {e96}.</p><p>This buff cannot be cleansed.</p>",
+    "description": "<p>Increase the attack of the buff holder by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>After casting {s4}, generate {e463} tiles with a <span style=\"color: rgb(243, 109, 28);\">5-tile-wide</span> area along the path for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>After using {s4}, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1</span> instance of {e96}.</p><p>This buff cannot be cleansed.</p>",
     "id": "e379",
     "effectTags": []
   },
@@ -2936,7 +2936,7 @@
   },
   {
     "name": "Scent Mark",
-    "description": "{\"mainDetails\":\"<p>Increase damage taken from Faelynn by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span>.</p><p>Applying this effect again deals AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">60%</span> of Faelynn's attack and <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of stability damage.</p><p>This debuff cannot be cleansed.</p>\",\"upgrades\":[{\"id\":\"0c4331e3-c512-4aeb-9725-fbe909f96278\",\"upgradeName\":\"V2\",\"upgradeDetails\":\"<p>Increase damage taken from Faelynn by <span style=\\\"color: rgb(243, 109, 28);\\\">15%</span>.</p><p>Applying this effect again deals AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">100%</span> of Faelynn's attack and <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of stability damage.</p><p>This debuff cannot be cleansed.</p>\",\"order\":0},{\"id\":\"430244d4-43e2-4bbc-88cd-d83aed4070ad\",\"upgradeName\":\"V5\",\"upgradeDetails\":\"<p>Increase damage taken from Faelynn by <span style=\\\"color: rgb(243, 109, 28);\\\">30%</span>.</p><p>Applying this effect again deals AoE <span style=\\\"color: rgb(135, 120, 233);\\\">Corrosion damage</span> equal to <span style=\\\"color: rgb(243, 109, 28);\\\">100%</span> of Faelynn's attack and <span style=\\\"color: rgb(243, 109, 28);\\\">1 point</span> of stability damage.</p><p>This debuff cannot be cleansed.</p>\",\"order\":1}]}",
+    "description": "<p>Increase damage taken from Faelynn by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p><p>Applying this effect again deals AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of Faelynn's attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability damage.</p><p>This debuff cannot be cleansed.</p>",
     "id": "e381",
     "effectTags": []
   },

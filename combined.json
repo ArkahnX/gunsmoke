@@ -1619,6 +1619,170 @@
     "summons": []
   },
   {
+    "id": "d60",
+    "name": "Faelynn",
+    "class": "Sentinel",
+    "phase": "Corrosion",
+    "rarity": "Elite",
+    "ammoTypes": [
+      "Medium Ammo"
+    ],
+    "gunType": "Assault Rifle",
+    "remolding": "data/faelynn/RemoldingPattern.png",
+    "avatar": "data/faelynn/avatar.webp",
+    "skills": [
+      {
+        "name": "Cuspid Combo",
+        "id": 1,
+        "type": "Basic Attack",
+        "tags": [
+          "Basic Attack",
+          "Targeted"
+        ],
+        "range": "6",
+        "localImagePath": "data/faelynn/skills/Cuspid Combo.webp"
+      },
+      {
+        "name": "Relentless Counterattack",
+        "id": 2,
+        "type": "Passive",
+        "tags": [
+          "Passive",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/faelynn/skills/Relentless Counterattack.webp"
+      },
+      {
+        "name": "Triple Maule",
+        "id": 3,
+        "type": "Skill 1",
+        "tags": [
+          "Active",
+          "AoE",
+          "Tile",
+          "Debuff",
+          "Control"
+        ],
+        "range": "8",
+        "localImagePath": "data/faelynn/skills/Triple Maule.webp"
+      },
+      {
+        "name": "Keen-Eared Hunt",
+        "id": 4,
+        "type": "Skill 2",
+        "tags": [
+          "Active",
+          "Buff"
+        ],
+        "range": "Self",
+        "localImagePath": "data/faelynn/skills/Keen-Eared Hunt.webp"
+      },
+      {
+        "name": "Loyal Hunt",
+        "id": 5,
+        "type": "Skill 3",
+        "tags": [
+          "Ultimate",
+          "AoE",
+          "Tile"
+        ],
+        "range": "1",
+        "localImagePath": "data/faelynn/skills/Loyal Hunt.webp"
+      },
+      {
+        "name": "Hunter's Instinct I",
+        "id": 6,
+        "type": "Skill A",
+        "tags": [
+          "Active",
+          "AoE"
+        ],
+        "range": "6",
+        "localImagePath": "data/faelynn/skills/Hunter's Instinct I.webp"
+      },
+      {
+        "name": "Hunter's Instinct II",
+        "id": 7,
+        "type": "Skill B",
+        "tags": [
+          "Active",
+          "AoE"
+        ],
+        "range": "6",
+        "localImagePath": "data/faelynn/skills/Hunter's Instinct II.webp"
+      },
+      {
+        "name": "Hunter's Instinct III",
+        "id": 8,
+        "type": "Skill C",
+        "tags": [
+          "Active",
+          "AoE"
+        ],
+        "range": "6",
+        "localImagePath": "data/faelynn/skills/Hunter's Instinct III.webp"
+      }
+    ],
+    "keys": [
+      {
+        "name": "Fixed Key 1 - Dango's Finisher",
+        "id": "k1",
+        "rarity": "Standard",
+        "type": "Fixed Key",
+        "number": 1,
+        "description": "<p>If the enemy target's HP is not full before the attack, increase damage dealt to them by <span style=\"color: rgb(243, 109, 28);\">7%</span>.</p>",
+        "localImagePath": "data/faelynn/keys/Dango's Finisher.webp"
+      },
+      {
+        "name": "Fixed Key 2 - Hair-Raising Goosebumps",
+        "id": "k2",
+        "rarity": "Standard",
+        "type": "Fixed Key",
+        "number": 2,
+        "description": "<p>Before using the extra active skills {e234}, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target.</p>",
+        "localImagePath": "data/faelynn/keys/Hair-Raising Goosebumps.webp"
+      },
+      {
+        "name": "Fixed Key 3 - The Last Coo",
+        "id": "k3",
+        "rarity": "Standard",
+        "type": "Fixed Key",
+        "number": 3,
+        "description": "<p>When Faelynn dies, deals fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">500%</span> of attack and <span style=\"color: rgb(243, 109, 28);\">3 points</span> of stability damage to all enemy units <span style=\"color: rgb(243, 109, 28);\">within 6 tiles</span>, generates {e467} tiles, and applies {e453} for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. If the enemy units are not boss units, deal an additional fixed damage equal to <span style=\"color: rgb(243, 109, 28);\">300%</span> of the Faelynn's maximum HP.</p>",
+        "localImagePath": "data/faelynn/keys/The Last Coo.webp"
+      },
+      {
+        "name": "Fixed Key 4 - Predator's Footwork",
+        "id": "k4",
+        "rarity": "Standard",
+        "type": "Fixed Key",
+        "number": 4,
+        "description": "<p>At the start of the turn, generates {e467} tiles <span style=\"color: rgb(243, 109, 28);\">within 1 tile</span> of herself for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "localImagePath": "data/faelynn/keys/Predator's Footwork.webp"
+      },
+      {
+        "name": "Fixed Key 5 - Floof Armor",
+        "id": "k5",
+        "rarity": "Standard",
+        "type": "Fixed Key",
+        "number": 5,
+        "description": "<p>While Faelynn is on a Corrosion tile, damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">15%</span> and stability damage taken is reduced by <span style=\"color: rgb(243, 109, 28);\">1 point</span>.</p>",
+        "localImagePath": "data/faelynn/keys/Floof Armor.webp"
+      },
+      {
+        "name": "Fixed Key 6 - Scenting",
+        "id": "k6",
+        "rarity": "Standard",
+        "type": "Fixed Key",
+        "number": 6,
+        "description": "<p>At the start of battle, applies {e381} to the enemy unit with the highest HP for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "localImagePath": "data/faelynn/keys/Scenting.webp"
+      }
+    ],
+    "summons": []
+  },
+  {
     "id": "d12",
     "name": "Faye",
     "class": "Vanguard",
