@@ -41,7 +41,7 @@ export default function ExportModal() {
 		if (exportType() === exportOptions[0]) return exportString();
 		if (exportType() === exportOptions[1]) return dolls.join(", ") + "\n" + "```" + exportString() + "```";
 		if (exportType() === exportOptions[2])
-			return dolls.join(", ") + "\n" + `${window.location.origin + window.location.pathname}?state=` + exportString();
+			return `[Timeline: ${dolls.join(", ")}](${window.location.origin + window.location.pathname}?state=${exportString()})`;
 		return exportString();
 	});
 

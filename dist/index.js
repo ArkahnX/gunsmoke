@@ -1828,7 +1828,7 @@ var CANVAS_HEIGHT = MAP_HEIGHT * TILE_SIZE;
 var E_PAD = 6;
 var HALF_HEIGHT = Math.round(TILE_SIZE * 0.15);
 var FULL_HEIGHT = Math.round(TILE_SIZE * 0.35);
-var CURRENT_SEASON = 28;
+var CURRENT_SEASON = 29;
 var V7_SAVE_VERSION = 7;
 var V7_STORAGE_KEY = "arenaPlannerState_v" + V7_SAVE_VERSION;
 var V7_EDITOR_MAP_KEY = "arenaEditorMap_v2";
@@ -7643,8 +7643,7 @@ function ExportModal() {
     const dolls = getDollNamesAndFortifications();
     if (exportType() === exportOptions[0]) return exportString();
     if (exportType() === exportOptions[1]) return dolls.join(", ") + "\n```" + exportString() + "```";
-    if (exportType() === exportOptions[2]) return dolls.join(", ") + `
-${window.location.origin + window.location.pathname}?state=` + exportString();
+    if (exportType() === exportOptions[2]) return `[Timeline: ${dolls.join(", ")}](${window.location.origin + window.location.pathname}?state=${exportString()})`;
     return exportString();
   });
   const handleCopy = async () => {
