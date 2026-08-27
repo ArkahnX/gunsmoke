@@ -10,7 +10,7 @@ export const CANVAS_HEIGHT = MAP_HEIGHT * TILE_SIZE;
 export const E_PAD = 6;
 export const HALF_HEIGHT = Math.round(TILE_SIZE * 0.15);
 export const FULL_HEIGHT = Math.round(TILE_SIZE * 0.35);
-export const CURRENT_SEASON = 29;
+export const CURRENT_SEASON = 30;
 
 // version 7 keys
 export const V7_SAVE_VERSION = 7;

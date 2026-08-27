@@ -11,9 +11,10 @@
 			"createdAt": "2025-11-11T21:59:21.709",
 			"updatedAt": "2026-05-15T20:58:56.776",
 			"shortId": "b1",
-			"season": 26,
+			"season": 30,
 			"days": {
-				"26": [1, 5]
+				"26": [1, 5],
+				"30": [1, 5]
 			}
 		},
 		{
@@ -53,10 +54,11 @@
 			"createdAt": "2025-11-11T21:59:21.783",
 			"updatedAt": "2026-05-15T20:58:56.65",
 			"shortId": "b4",
-			"season": 27,
+			"season": 30,
 			"days": {
 				"26": [2, 4],
-				"27": [0, 1, 3, 6]
+				"27": [0, 1, 3, 6],
+				"30": [2, 4, 5]
 			}
 		},
 		{
@@ -155,7 +157,11 @@
 			"regionTag": "en",
 			"createdAt": "2025-11-11T21:59:21.956",
 			"updatedAt": "2026-05-15T20:58:56.838",
-			"shortId": "b11"
+			"shortId": "b11",
+			"season": 30,
+			"days": {
+				"30": [2, 4]
+			}
 		},
 		{
 			"id": "56113d40-ee6e-4897-8f49-ec444c8c8bc3",
@@ -303,10 +309,11 @@
 			"createdAt": "2025-11-11T21:59:21.833",
 			"updatedAt": "2026-05-15T20:58:56.634",
 			"shortId": "b21",
-			"season": 29,
+			"season": 30,
 			"days": {
 				"28": [2, 3, 4, 6],
-				"29": [0, 4, 6]
+				"29": [0, 4, 6],
+				"30": [2, 5]
 			}
 		},
 		{
@@ -337,10 +344,11 @@
 			"createdAt": "2025-11-11T21:59:21.535",
 			"updatedAt": "2026-05-15T20:58:56.166",
 			"shortId": "b23",
-			"season": 27,
+			"season": 30,
 			"days": {
 				"26": [0, 3],
-				"27": [2, 4]
+				"27": [2, 4],
+				"30": [2, 3, 4, 6]
 			}
 		},
 		{
@@ -389,9 +397,10 @@
 			"createdAt": "2026-05-15T20:58:56.807",
 			"updatedAt": "2026-05-15T20:58:56.807",
 			"shortId": "b27",
-			"season": 26,
+			"season": 30,
 			"days": {
-				"26": [2, 4, 5]
+				"26": [2, 4, 5],
+				"30": [0, 1, 3, 7]
 			}
 		},
 		{
@@ -422,9 +431,10 @@
 			"createdAt": "2026-01-09T00:42:45.335",
 			"updatedAt": "2026-05-15T20:58:56.791",
 			"shortId": "b29",
-			"season": 26,
+			"season": 30,
 			"days": {
-				"26": [0, 1, 3, 6]
+				"26": [0, 1, 3, 6],
+				"30": [0, 3]
 			}
 		},
 		{
@@ -479,13 +489,15 @@
 			"id": "c083d71c-0d65-41a5-89a7-c6dfb601d54c",
 			"buffId": 61001180,
 			"buffName": "Global Damage Boost",
-			"libraryDescription": "Damage dealt and critical rate of all phase element Dolls (not including Physical) is increased by <color=#f26c1c>30%</color>.",
-			"description": "Damage dealt and critical rate of all phase element Dolls (not including Physical) is increased by <color=#f26c1c>30%</color>.",
+			"libraryDescription": "Damage and critical rate for all phase damage types (not including Physical) is increased by <span style=\"color: #f26c1c\">30%</span>.",
+			"description": "Damage and critical rate for all phase damage types (not including Physical) is increased by <span style=\"color: #f26c1c\">30%</span>.",
 			"iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_83.png",
 			"regionTag": "en",
 			"createdAt": "2026-04-25T14:13:22.516",
 			"updatedAt": "2026-05-15T20:58:57.055",
-			"shortId": "b34"
+			"shortId": "b34",
+			"season": 30,
+			"core": true
 		},
 		{
 			"id": "86bd3396-728e-4e61-829a-549748db8611",
@@ -534,10 +546,11 @@
 			"createdAt": "2025-11-11T21:59:21.609",
 			"updatedAt": "2026-05-15T20:58:56.432",
 			"shortId": "b38",
-			"season": 29,
+			"season": 30,
 			"days": {
 				"28": [2, 5],
-				"29": [2, 5]
+				"29": [2, 5],
+				"30": [0, 1, 3, 6]
 			}
 		},
 		{
@@ -706,10 +719,11 @@
 			"description": "Sentinel-class Dolls' critical damage is increased by <color=#f26c1c>25%</color>.",
 			"iconName": "https://cdn.dandegate.net/gunsmoke/buffs/Buff_Guild_60.png",
 			"regionTag": "en",
-			"season": 26,
+			"season": 30,
 			"days": {
 				"25": [1, 5],
-				"26": [0, 4, 6]
+				"26": [0, 4, 6],
+				"30": [1, 5]
 			},
 			"createdAt": "2025-11-11T21:59:21.56",
 			"updatedAt": "2026-05-15T20:58:56.276",
@@ -805,10 +819,11 @@
 			"createdAt": "2025-11-11T21:59:22.033",
 			"updatedAt": "2026-05-15T20:58:56.198",
 			"shortId": "b58",
-			"season": 29,
+			"season": 30,
 			"days": {
 				"28": [0, 1, 3, 6],
-				"29": [0, 1, 3, 6]
+				"29": [0, 1, 3, 6],
+				"30": [0, 4, 6]
 			}
 		},
 		{

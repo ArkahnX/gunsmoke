@@ -115,6 +115,12 @@ const tsxBuffs: Record<string, JSX.Element> = {
 			<span style="color:#f26c1c">20%</span>.
 		</span>
 	),
+	b34: (
+		<span>
+			Damage and critical rate for all phase damage types (not including Physical) is increased by{" "}
+			<span style="color: #f26c1c">30%</span>.
+		</span>
+	),
 	b38: (
 		<span>
 			When this unit has a <span style="color:#2caadb">Hydro</span> buff, damage dealt is increased by{" "}

@@ -1828,7 +1828,7 @@ var CANVAS_HEIGHT = MAP_HEIGHT * TILE_SIZE;
 var E_PAD = 6;
 var HALF_HEIGHT = Math.round(TILE_SIZE * 0.15);
 var FULL_HEIGHT = Math.round(TILE_SIZE * 0.35);
-var CURRENT_SEASON = 29;
+var CURRENT_SEASON = 30;
 var V7_SAVE_VERSION = 7;
 var V7_STORAGE_KEY = "arenaPlannerState_v" + V7_SAVE_VERSION;
 var V7_EDITOR_MAP_KEY = "arenaEditorMap_v2";
@@ -6822,19 +6822,20 @@ var _tmpl$142 = /* @__PURE__ */ template(`<span>When this unit has an <span styl
 var _tmpl$152 = /* @__PURE__ */ template(`<span>At the start of the turn, gain <span style=color:#f26c1c>10 stacks</span> of <span style=color:#3487e0>Firepower Overmatch</span>.\\nFirepower Overmatch:\\nDamage dealt is increased by <span style=color:#f26c1c>8%</span> and critical damage is increased by <span style=color:#f26c1c>5%</span> per stack, to a maximum of <span style=color:#f26c1c>50 stacks</span>. For <span style=color:#f26c1c>each point</span> of mobility spent, remove <span style=color:#f26c1c>1 stack</span> of this effect.`);
 var _tmpl$162 = /* @__PURE__ */ template(`<span>When shielded, attacks ignore <span style=color:#f26c1c>20%</span> of the target's defense and critical damage is increased by <span style=color:#f26c1c>10%</span>.`);
 var _tmpl$172 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#42cce0>Freeze</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
-var _tmpl$182 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#2caadb>Hydro</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
-var _tmpl$192 = /* @__PURE__ */ template(`<span>Light Ammo ignores <span style=color:#f26c1c>50%</span> of target's defense.`);
-var _tmpl$202 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 allied unit</span> within <span style=color:#f26c1c>5 tiles</span>, damage dealt is increased by <span style=color:#f26c1c>6%</span>.`);
-var _tmpl$216 = /* @__PURE__ */ template(`<span>Sentinel-class Dolls' critical damage is increased by <span style=color:#f26c1c>25%</span>.`);
-var _tmpl$223 = /* @__PURE__ */ template(`<span>Increases Physical damage dealt by <span style=color:#f26c1c>30%</span>.`);
-var _tmpl$232 = /* @__PURE__ */ template(`<span>Increases Corrosion and Freeze damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
-var _tmpl$242 = /* @__PURE__ */ template(`<span>When this unit's HP is <span style=color:#f26c1c>greater than or equal to 100%</span>, attacks ignore <span style=color:#f26c1c>30%</span> of the target's defense.`);
-var _tmpl$252 = /* @__PURE__ */ template(`<span>When the target has a shield, attacks ignore <span style=color:#f26c1c>30%</span> of the target's defense.`);
-var _tmpl$262 = /* @__PURE__ */ template(`<span>Against targets with <span style=color:#f26c1c>2 or more</span> <span style=color:#f26c1c>Defense-type debuffs</span>, critical damage is increased by <span style=color:#f26c1c>25%</span>.`);
-var _tmpl$272 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>5 tiles</span> moved, damage dealt is permanently increased by <span style=color:#f26c1c>5%</span>. Maximum of <span style=color:#f26c1c>10 stacks</span>.`);
-var _tmpl$282 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 instance</span> of fixed damage taken by an enemy, all damage dealt by allied units is permanently increased by <span style=color:#f26c1c>2%</span>. Maximum of 15 stacks.`);
-var _tmpl$292 = /* @__PURE__ */ template(`<span><span style=color:#f26c1c>Each time</span> a Bulwark-class Doll takes damage, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Undaunted Spirit</span>.`);
-var _tmpl$302 = /* @__PURE__ */ template(`<span>Increase Physical and Hydro damage and critical rate by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$182 = /* @__PURE__ */ template(`<span>Damage and critical rate for all phase damage types (not including Physical) is increased by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$192 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#2caadb>Hydro</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$202 = /* @__PURE__ */ template(`<span>Light Ammo ignores <span style=color:#f26c1c>50%</span> of target's defense.`);
+var _tmpl$216 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 allied unit</span> within <span style=color:#f26c1c>5 tiles</span>, damage dealt is increased by <span style=color:#f26c1c>6%</span>.`);
+var _tmpl$223 = /* @__PURE__ */ template(`<span>Sentinel-class Dolls' critical damage is increased by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$232 = /* @__PURE__ */ template(`<span>Increases Physical damage dealt by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$242 = /* @__PURE__ */ template(`<span>Increases Corrosion and Freeze damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$252 = /* @__PURE__ */ template(`<span>When this unit's HP is <span style=color:#f26c1c>greater than or equal to 100%</span>, attacks ignore <span style=color:#f26c1c>30%</span> of the target's defense.`);
+var _tmpl$262 = /* @__PURE__ */ template(`<span>When the target has a shield, attacks ignore <span style=color:#f26c1c>30%</span> of the target's defense.`);
+var _tmpl$272 = /* @__PURE__ */ template(`<span>Against targets with <span style=color:#f26c1c>2 or more</span> <span style=color:#f26c1c>Defense-type debuffs</span>, critical damage is increased by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$282 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>5 tiles</span> moved, damage dealt is permanently increased by <span style=color:#f26c1c>5%</span>. Maximum of <span style=color:#f26c1c>10 stacks</span>.`);
+var _tmpl$292 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 instance</span> of fixed damage taken by an enemy, all damage dealt by allied units is permanently increased by <span style=color:#f26c1c>2%</span>. Maximum of 15 stacks.`);
+var _tmpl$302 = /* @__PURE__ */ template(`<span><span style=color:#f26c1c>Each time</span> a Bulwark-class Doll takes damage, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Undaunted Spirit</span>.`);
+var _tmpl$312 = /* @__PURE__ */ template(`<span>Increase Physical and Hydro damage and critical rate by <span style=color:#f26c1c>30%</span>.`);
 var tsxBuffs = {
   b1: _tmpl$45(),
   b2: _tmpl$215(),
@@ -6855,19 +6856,20 @@ var tsxBuffs = {
   b27: _tmpl$152(),
   b28: _tmpl$162(),
   b29: _tmpl$172(),
-  b38: _tmpl$182(),
-  b45: _tmpl$192(),
-  b49: _tmpl$202(),
-  b51: _tmpl$216(),
-  b52: _tmpl$223(),
-  b55: _tmpl$232(),
-  b58: _tmpl$242(),
-  b59: _tmpl$252(),
-  b60: _tmpl$262(),
-  b61: _tmpl$272(),
-  b65: _tmpl$282(),
-  b67: _tmpl$292(),
-  b68: _tmpl$302()
+  b34: _tmpl$182(),
+  b38: _tmpl$192(),
+  b45: _tmpl$202(),
+  b49: _tmpl$216(),
+  b51: _tmpl$223(),
+  b52: _tmpl$232(),
+  b55: _tmpl$242(),
+  b58: _tmpl$252(),
+  b59: _tmpl$262(),
+  b60: _tmpl$272(),
+  b61: _tmpl$282(),
+  b65: _tmpl$292(),
+  b67: _tmpl$302(),
+  b68: _tmpl$312()
 };
 function Buffs(props) {
   if (props.id in tsxBuffs) {
@@ -6879,7 +6881,7 @@ function Buffs(props) {
 // src/components/SummaryView.tsx
 var _tmpl$47 = /* @__PURE__ */ template(`<div class="flex flex-row gap-2"><div style="width:430px;height:430px;flex-shrink:0;overflow:hidden;border-right:1px solid #3f3f46"></div><div class="flex min-w-0 grow flex-col gap-1 overflow-y-auto">`);
 var _tmpl$217 = /* @__PURE__ */ template(`<div class="flex flex-col items-start gap-1 rounded-xs border-b-2 bg-[#F4F4F6] p-1 shadow-sm shadow-black/30"><div class="flex flex-row items-center gap-1"><div class="font-bold text-[#325563]"></div></div><div class="min-w-0 flex-1"><div class="flex flex-wrap gap-1">`);
-var _tmpl$312 = /* @__PURE__ */ template(`<span class="rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
+var _tmpl$313 = /* @__PURE__ */ template(`<span class="rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
 var _tmpl$48 = /* @__PURE__ */ template(`<div class="pt-1 text-sm text-zinc-600">No actions recorded`);
 var _tmpl$55 = /* @__PURE__ */ template(`<div class="flex flex-col gap-2">`);
 var _tmpl$64 = /* @__PURE__ */ template(`<div class="flex h-full flex-col gap-3 overflow-auto bg-zinc-950 p-3"><div class="grid grid-cols-2 gap-2"></div><div class="flex flex-row flex-wrap gap-2 min-[1860px]:grid min-[1860px]:grid-cols-3">`);
@@ -7018,7 +7020,7 @@ function TabCard(props) {
                   return actions();
                 },
                 children: (a) => (() => {
-                  var _el$9 = _tmpl$312();
+                  var _el$9 = _tmpl$313();
                   insert(_el$9, () => renderAction(dollId, a));
                   return _el$9;
                 })()
@@ -7431,7 +7433,7 @@ delegateEvents(["click"]);
 // src/components/modals/DollSelectorModal.tsx
 var _tmpl$65 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75">`);
 var _tmpl$219 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="grid grid-cols-6 gap-4">`);
-var _tmpl$313 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Changing dolls will clear their positions and actions`);
+var _tmpl$314 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Changing dolls will clear their positions and actions`);
 var _tmpl$410 = /* @__PURE__ */ template(`<button><div class="h-6 w-6"></div><span>`);
 function DollSelectorModal() {
   const selectedDollIds = createMemo(() => tempSelectedDolls.map((doll) => doll.id));
@@ -7504,7 +7506,7 @@ function DollSelectorModal() {
       }
     }));
     return _el$2;
-  })(), _tmpl$313(), createComponent(ModalFooter, {
+  })(), _tmpl$314(), createComponent(ModalFooter, {
     styles: "justify-between",
     get children() {
       return [createComponent(Button, {
@@ -7616,7 +7618,7 @@ function TargetModal() {
 // src/components/modals/ExportModal.tsx
 var _tmpl$68 = /* @__PURE__ */ template(`<div class="flex gap-1 px-3 pb-1.75"><button><span>Export</span></button><button><span>Share`);
 var _tmpl$220 = /* @__PURE__ */ template(`<div class="flex flex-col gap-3"><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Export as Text</div><div class="mx-3 flex flex-row items-center justify-center gap-1 text-[#384B53]"><span>Export style:</span></div><textarea class="mx-3 h-48 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-2 font-mono text-xs"placeholder=Loading...>`);
-var _tmpl$314 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex items-center justify-center self-stretch bg-[#384B53] p-2 text-center font-bold tracking-wide text-[#ECECEC]">`);
+var _tmpl$315 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex items-center justify-center self-stretch bg-[#384B53] p-2 text-center font-bold tracking-wide text-[#ECECEC]">`);
 var _tmpl$411 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex items-center justify-center self-stretch bg-[#AE4749] p-2 text-center font-bold tracking-wide text-[#ECECEC]">`);
 var _tmpl$510 = /* @__PURE__ */ template(`<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Share Link`);
 var _tmpl$69 = /* @__PURE__ */ template(`<textarea class="mx-3 h-16 resize-none items-center justify-center self-stretch rounded-md bg-zinc-950 p-2 font-mono text-xs"placeholder=Loading...>`);
@@ -7797,7 +7799,7 @@ function ExportModal() {
             return readiness() !== "";
           },
           get children() {
-            var _el$0 = _tmpl$314();
+            var _el$0 = _tmpl$315();
             insert(_el$0, readiness);
             return _el$0;
           }
@@ -7856,7 +7858,7 @@ delegateEvents(["click", "input"]);
 // src/components/modals/SkillDisplayModal.tsx
 var _tmpl$70 = /* @__PURE__ */ template(`<div class="flex flex-col gap-2 self-center"><div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>Override imported notations:</span></div><div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Preview</div><div class="flex flex-wrap justify-center gap-1.5">`);
 var _tmpl$221 = /* @__PURE__ */ template(`<div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]"><span>`);
-var _tmpl$315 = /* @__PURE__ */ template(`<div class="flex flex-col gap-1"><div class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-center text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
+var _tmpl$316 = /* @__PURE__ */ template(`<div class="flex flex-col gap-1"><div class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-center text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">`);
 function SkillDisplayModal() {
   const dollInfo = getDollFromId("d54");
   const basicSkill = dollInfo?.skills?.filter((s) => s.type === "Basic Attack") ?? [];
@@ -7902,7 +7904,7 @@ function SkillDisplayModal() {
     insert(_el$5, createComponent(For, {
       each: skills,
       children: (skill, idx) => (() => {
-        var _el$8 = _tmpl$315(), _el$9 = _el$8.firstChild;
+        var _el$8 = _tmpl$316(), _el$9 = _el$8.firstChild;
         insert(_el$8, createComponent(SkillIcon, {
           skill
         }), _el$9);
@@ -7928,11 +7930,11 @@ function SkillDisplayModal() {
 // src/components/icons/CommonKey.tsx
 var _tmpl$71 = /* @__PURE__ */ template(`<svg><g transform=matrix(1,0,0,0.944444,-0.5,-0.555556)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z style=fill:rgb(63,78,82)></svg>`, false, true, false);
 var _tmpl$224 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.444444,22.5294,7.94444)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
-var _tmpl$316 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-33,-5.5)><g transform=matrix(1.17647,0,0,1.11111,-8.17647,-3.38889)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8ZM43.5,10.25L37.979,13.625L37.979,20.375L43.5,23.75L49.021,20.375L49.021,13.625L43.5,10.25Z>`);
+var _tmpl$317 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-33,-5.5)><g transform=matrix(1.17647,0,0,1.11111,-8.17647,-3.38889)><path d=M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8ZM43.5,10.25L37.979,13.625L37.979,20.375L43.5,23.75L49.021,20.375L49.021,13.625L43.5,10.25Z>`);
 function CommonKey(props) {
   const color = props.rarity === "Elite" ? "A87D36" : props.rarity === "Standard" ? "5F5A90" : "5B6468";
   return (() => {
-    var _el$ = _tmpl$316(), _el$2 = _el$.firstChild, _el$5 = _el$2.firstChild, _el$6 = _el$5.firstChild;
+    var _el$ = _tmpl$317(), _el$2 = _el$.firstChild, _el$5 = _el$2.firstChild, _el$6 = _el$5.firstChild;
     insert(_el$2, createComponent(Show, {
       get when() {
         return memo(() => props.rarity !== "Elite")() && props.rarity !== "Standard";
@@ -7957,11 +7959,11 @@ function CommonKey(props) {
 // src/components/icons/FixedKey.tsx
 var _tmpl$76 = /* @__PURE__ */ template(`<svg><g transform=matrix(1,0,0,0.894737,-0.5,1.63158)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6Z style=fill:rgb(63,78,82)></svg>`, false, true, false);
 var _tmpl$225 = /* @__PURE__ */ template(`<svg><g transform=matrix(0.470588,0,0,0.421053,7.17647,8.97368)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6Z style=fill:rgb(152,154,159)></svg>`, false, true, false);
-var _tmpl$317 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-4,-5.5)><g transform=matrix(1.17647,0,0,1.05263,-3.05882,-0.815789)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6ZM14.5,8.375L8.125,15.5L14.5,22.625L20.875,15.5L14.5,8.375Z>`);
+var _tmpl$318 = /* @__PURE__ */ template(`<svg width=100% height=100% viewBox="0 0 20 20"version=1.1 xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink xml:space=preserve xmlns:serif=http://www.serif.com/ style=fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2><g transform=matrix(1,0,0,1,-4,-5.5)><g transform=matrix(1.17647,0,0,1.05263,-3.05882,-0.815789)><path d=M14.5,6L23,15.5L14.5,25L6,15.5L14.5,6ZM14.5,8.375L8.125,15.5L14.5,22.625L20.875,15.5L14.5,8.375Z>`);
 function FixedKey2(props) {
   const color = props.rarity === "Elite" ? "A87D36" : props.rarity === "Standard" ? "5F5A90" : "5B6468";
   return (() => {
-    var _el$ = _tmpl$317(), _el$2 = _el$.firstChild, _el$5 = _el$2.firstChild, _el$6 = _el$5.firstChild;
+    var _el$ = _tmpl$318(), _el$2 = _el$.firstChild, _el$5 = _el$2.firstChild, _el$6 = _el$5.firstChild;
     insert(_el$2, createComponent(Show, {
       get when() {
         return memo(() => props.rarity !== "Elite")() && props.rarity !== "Standard";
@@ -8040,7 +8042,7 @@ delegateEvents(["click"]);
 // src/components/modals/FormationModal.tsx
 var _tmpl$78 = /* @__PURE__ */ template(`<div class="relative flex flex-wrap items-center justify-start gap-4 px-10 py-8"><div>`);
 var _tmpl$227 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-10 h-8 w-8"><img class="relative h-full w-full object-cover">`);
-var _tmpl$318 = /* @__PURE__ */ template(`<div class="flex items-center gap-3 bg-[#B6BAC6] p-2.5"><div class="flex flex-col gap-3"><div class="flex flex-row gap-3"><div></div><div><div></div><div class=w-6></div></div></div><div class="flex flex-row gap-3"><div class="text-md flex w-12 flex-col items-center justify-center rounded-sm bg-[#354346] shadow-sm shadow-black/50"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center pt-0.5 text-[18px] font-bold"></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div class="text-md flex w-14 flex-col items-center justify-center rounded-sm bg-[#354346] px-1 pt-1 shadow-sm shadow-black/50"><div class="relative h-12 w-12 overflow-hidden rounded-full"><img><div class="absolute top-0 right-0 bottom-0 left-0 flex items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class="overflow-hidden overflow-ellipsis whitespace-nowrap"></div></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div><img><div></div></div><div class="flex w-14 flex-col gap-3 text-sm font-bold tracking-wide"><button></button><button>Load`);
+var _tmpl$319 = /* @__PURE__ */ template(`<div class="flex items-center gap-3 bg-[#B6BAC6] p-2.5"><div class="flex flex-col gap-3"><div class="flex flex-row gap-3"><div></div><div><div></div><div class=w-6></div></div></div><div class="flex flex-row gap-3"><div class="text-md flex w-12 flex-col items-center justify-center rounded-sm bg-[#354346] shadow-sm shadow-black/50"><div class="relative h-12 w-12"><div class="absolute z-10"></div><div class="absolute z-20 flex h-full w-full items-center justify-center pt-0.5 text-[18px] font-bold"></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div class="text-md flex w-14 flex-col items-center justify-center rounded-sm bg-[#354346] px-1 pt-1 shadow-sm shadow-black/50"><div class="relative h-12 w-12 overflow-hidden rounded-full"><img><div class="absolute top-0 right-0 bottom-0 left-0 flex items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]"><div class="overflow-hidden overflow-ellipsis whitespace-nowrap"></div></div></div><div class="flex flex-row gap-2 text-sm font-bold"><button>-</button><button>+</button></div></div><div><img><div></div></div><div class="flex w-14 flex-col gap-3 text-sm font-bold tracking-wide"><button></button><button>Load`);
 var _tmpl$412 = /* @__PURE__ */ template(`<div class="flex h-7 w-4 items-center justify-center">=`);
 var _tmpl$511 = /* @__PURE__ */ template(`<div class="h-5 w-5">`);
 function FormationModal() {
@@ -8075,7 +8077,7 @@ function FormationModal() {
         const hasLoadout = createMemo(() => dollHasLoadout(doll.id));
         const keys = createMemo(() => displaySmallKeys(doll.id, doll.keys));
         return (() => {
-          var _el$3 = _tmpl$318(), _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.nextSibling, _el$0 = _el$5.nextSibling, _el$1 = _el$0.firstChild, _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild, _el$12 = _el$11.nextSibling, _el$13 = _el$10.nextSibling, _el$14 = _el$13.firstChild, _el$15 = _el$14.nextSibling, _el$16 = _el$1.nextSibling, _el$17 = _el$16.firstChild, _el$18 = _el$17.firstChild, _el$19 = _el$18.nextSibling, _el$20 = _el$19.firstChild, _el$21 = _el$17.nextSibling, _el$22 = _el$21.firstChild, _el$23 = _el$22.nextSibling, _el$24 = _el$16.nextSibling, _el$27 = _el$24.firstChild, _el$28 = _el$27.nextSibling, _el$29 = _el$24.nextSibling, _el$30 = _el$29.firstChild, _el$31 = _el$30.nextSibling;
+          var _el$3 = _tmpl$319(), _el$4 = _el$3.firstChild, _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.nextSibling, _el$0 = _el$5.nextSibling, _el$1 = _el$0.firstChild, _el$10 = _el$1.firstChild, _el$11 = _el$10.firstChild, _el$12 = _el$11.nextSibling, _el$13 = _el$10.nextSibling, _el$14 = _el$13.firstChild, _el$15 = _el$14.nextSibling, _el$16 = _el$1.nextSibling, _el$17 = _el$16.firstChild, _el$18 = _el$17.firstChild, _el$19 = _el$18.nextSibling, _el$20 = _el$19.firstChild, _el$21 = _el$17.nextSibling, _el$22 = _el$21.firstChild, _el$23 = _el$22.nextSibling, _el$24 = _el$16.nextSibling, _el$27 = _el$24.firstChild, _el$28 = _el$27.nextSibling, _el$29 = _el$24.nextSibling, _el$30 = _el$29.firstChild, _el$31 = _el$30.nextSibling;
           insert(_el$3, createComponent(DynamicDollChip, {
             target: dollInfo,
             get doll() {
@@ -9750,7 +9752,7 @@ var entry_default = Fuse;
 // src/components/modals/KeyModal.tsx
 var _tmpl$80 = /* @__PURE__ */ template(`<div class="flex max-h-180 flex-row px-10"><div class="flex w-30 shrink-0 flex-col items-stretch justify-center bg-[#2A3D46] py-5"><div class="flex justify-center pb-2"><img loading=lazy class="h-15 w-15 rounded-full border-3 border-[#687177] bg-[#0D1C1C] object-cover"></div></div><div class="flex w-70 grow flex-col"><div class="flex grow overflow-y-auto p-5 px-4 pt-2"><div class="flex flex-row flex-wrap content-start items-start gap-3.5"></div></div><div class="flex shrink flex-row flex-wrap gap-1 p-2 pl-4"><div class="flex font-bold"></div><div class></div></div><div class="flex p-2"><div class="flex grow justify-center p-2"><input class=input type=text placeholder=Filter...>`, true, false, false);
 var _tmpl$228 = /* @__PURE__ */ template(`<img class="h-16 w-16 object-cover">`);
-var _tmpl$319 = /* @__PURE__ */ template(`<div><div class="h-15 w-15">`);
+var _tmpl$320 = /* @__PURE__ */ template(`<div><div class="h-15 w-15">`);
 var _tmpl$413 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 z-20 h-7 w-7 shadow-sm shadow-black/20">`);
 var _tmpl$512 = /* @__PURE__ */ template(`<div class="absolute right-1 bottom-1 rounded-sm bg-[#2A3D46] px-1 text-xs font-bold text-[#EFEFEF]">`);
 var _tmpl$610 = /* @__PURE__ */ template(`<div><div><img class="h-22 w-22 object-cover">`);
@@ -9811,7 +9813,7 @@ function KeyModal() {
         const selectedStyle = "border-[#F26C1C] bg-linear-to-r from-[#5B403E] to-transparent scale-107";
         const unselectedStyle = "cursor-pointer transition-discrete duration-175 hover:scale-107 border-transparent hover:border-white bg-linear-to-r from-transparent hover:from-[#515B61] to-transparent";
         return (() => {
-          var _el$12 = _tmpl$319(), _el$13 = _el$12.firstChild;
+          var _el$12 = _tmpl$320(), _el$13 = _el$12.firstChild;
           _el$12.$$click = () => {
             setQuery("");
             setActiveKeySlot(index());
@@ -9948,7 +9950,7 @@ delegateEvents(["input", "click", "pointerover"]);
 // src/components/modals/WeaponModal.tsx
 var _tmpl$81 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
 var _tmpl$229 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-20 h-12 w-12"><img class="relative h-full w-full object-cover">`);
-var _tmpl$320 = /* @__PURE__ */ template(`<div><div></div><img><div>`);
+var _tmpl$321 = /* @__PURE__ */ template(`<div><div></div><img><div>`);
 var _tmpl$414 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function WeaponModal() {
   const dollInfo = createMemo(() => getInfoFromId(selectedDoll().id));
@@ -9970,7 +9972,7 @@ function WeaponModal() {
       children: (weapon) => {
         const isSel = () => selectedWeaponId() === weapon.id;
         return (() => {
-          var _el$3 = _tmpl$320(), _el$6 = _el$3.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.nextSibling;
+          var _el$3 = _tmpl$321(), _el$6 = _el$3.firstChild, _el$7 = _el$6.nextSibling, _el$8 = _el$7.nextSibling;
           _el$3.$$click = () => setSelectedWeaponId(weapon.id);
           insert(_el$3, (() => {
             var _c$ = memo(() => !!isSel());
@@ -10046,7 +10048,7 @@ function DarkModal(props) {
 // src/components/modals/BuffModal.tsx
 var _tmpl$86 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
 var _tmpl$230 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Select one or more buffs relevant to this transcript`);
-var _tmpl$321 = /* @__PURE__ */ template(`<div><div><img class="relative z-20 h-full w-full object-cover"></div><div class="flex grow flex-col gap-3 text-[#384B53]"><div class="flex grow flex-row gap-3 border-b-2 border-[#E0DDE7]"><div class="text-left font-bold text-black"></div><div class=text-left></div></div><div class=text-left>`);
+var _tmpl$322 = /* @__PURE__ */ template(`<div><div><img class="relative z-20 h-full w-full object-cover"></div><div class="flex grow flex-col gap-3 text-[#384B53]"><div class="flex grow flex-row gap-3 border-b-2 border-[#E0DDE7]"><div class="text-left font-bold text-black"></div><div class=text-left></div></div><div class=text-left>`);
 var _tmpl$415 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function BuffModal() {
   const [selectedBuffs, setSelectedBuffs] = createSignal([...state.buffs]);
@@ -10070,7 +10072,7 @@ function BuffModal() {
           return "Unavailable this gunsmoke season";
         };
         return (() => {
-          var _el$4 = _tmpl$321(), _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.firstChild, _el$0 = _el$9.nextSibling, _el$1 = _el$8.nextSibling;
+          var _el$4 = _tmpl$322(), _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.firstChild, _el$0 = _el$9.nextSibling, _el$1 = _el$8.nextSibling;
           _el$4.$$click = () => toggleBuff();
           insert(_el$4, (() => {
             var _c$ = memo(() => !!isSel());
