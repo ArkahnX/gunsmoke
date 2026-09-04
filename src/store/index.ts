@@ -442,7 +442,7 @@ export function getDollFromSummon(summon: SummonData | DollData): DollData {
 }
 
 export function isVisible(phase: string): boolean {
-	return activePhaseTab() === "All" || phase === activePhaseTab();
+	return activePhaseTab() === "All" || phase === activePhaseTab() || (phase === "Omni" && activePhaseTab() !== "Physical");
 }
 
 export function visibleDollIndex(doll: DollData) {

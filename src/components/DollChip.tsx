@@ -10,11 +10,12 @@ export default function DollChip(props: {
 	onClick?: () => void;
 	style?: string;
 }) {
+	const phase = props.doll.phase === "Omni" ? "Burn Electric Freeze Corrosion Hydro" : props.doll.phase;
 	return (
 		<div
 			onClick={props.onClick}
 			style={props.style}
-			class={`doll ${props.doll.phase} All show h-40.5 w-31.5 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50 ${interactiveStyles(props.selected)}`}>
+			class={`doll ${phase} All show h-40.5 w-31.5 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50 ${interactiveStyles(props.selected)}`}>
 			<div
 				class={`relative flex justify-center border-b-4 bg-[#C9C8CD] ${props.doll.rarity === "Elite" ? "border-b-[#DF9E00]" : "border-b-[#7968BA]"}`}>
 				{props.selected && (

@@ -5655,7 +5655,7 @@ function getDollFromSummon(summon) {
   return allDolls.find((d) => d.id === summon.dollId);
 }
 function isVisible(phase) {
-  return activePhaseTab() === "All" || phase === activePhaseTab();
+  return activePhaseTab() === "All" || phase === activePhaseTab() || phase === "Omni" && activePhaseTab() !== "Physical";
 }
 function visibleDollIndex(doll) {
   const dolls = allDolls.filter((d) => isVisible(d.phase));
@@ -7395,6 +7395,7 @@ function Phase(props) {
 var _tmpl$61 = /* @__PURE__ */ template(`<div><div><div class="absolute top-1 left-1 h-6 w-6"></div><img loading=lazy class="h-auto w-32 object-cover"></div><div class="bg-[#1C2A32] p-1 text-center font-bold text-[#EFEFEF]">`, true, false, false);
 var _tmpl$218 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function DollChip(props) {
+  const phase = props.doll.phase === "Omni" ? "Burn Electric Freeze Corrosion Hydro" : props.doll.phase;
   return (() => {
     var _el$ = _tmpl$61(), _el$2 = _el$.firstChild, _el$3 = _el$2.firstChild, _el$4 = _el$3.nextSibling, _el$5 = _el$2.nextSibling;
     addEventListener(_el$, "click", props.onClick, true);
@@ -7413,7 +7414,7 @@ function DollChip(props) {
     }));
     insert(_el$5, () => props.target.name);
     createRenderEffect((_p$) => {
-      var _v$ = props.style, _v$2 = `doll ${props.doll.phase} All show h-40.5 w-31.5 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50 ${interactiveStyles(props.selected)}`, _v$3 = `relative flex justify-center border-b-4 bg-[#C9C8CD] ${props.doll.rarity === "Elite" ? "border-b-[#DF9E00]" : "border-b-[#7968BA]"}`, _v$4 = props.target.avatar;
+      var _v$ = props.style, _v$2 = `doll ${phase} All show h-40.5 w-31.5 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50 ${interactiveStyles(props.selected)}`, _v$3 = `relative flex justify-center border-b-4 bg-[#C9C8CD] ${props.doll.rarity === "Elite" ? "border-b-[#DF9E00]" : "border-b-[#7968BA]"}`, _v$4 = props.target.avatar;
       _p$.e = style(_el$, _v$, _p$.e);
       _v$2 !== _p$.t && className(_el$, _p$.t = _v$2);
       _v$3 !== _p$.a && className(_el$2, _p$.a = _v$3);
