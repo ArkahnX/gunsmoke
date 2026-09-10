@@ -8,6 +8,7 @@ export const [editingMap, setEditingMap] = createSignal("Broken-Horn Beasteel");
 const empty__ = TileType.Empty;
 const spawn__ = TileType.Spawn;
 const hbound_ = TileType.HBoundary;
+const hvbound = TileType.HBoundary | TileType.VBoundary;
 const hspawn_ = TileType.HBoundary | TileType.Spawn;
 const vbound_ = TileType.VBoundary;
 const vspawn_ = TileType.VBoundary | TileType.Spawn;
@@ -17,8 +18,26 @@ const bosssub = TileType.BossCover;
 const bossman = TileType.BossOrigin;
 
 // prettier-ignore
-const maps: MapGrid[] = [{name:"Broken-Horn Beasteel", width:18, height:22, locked: true, default: true,
-		priority:[gridKey(1, 13, 22), gridKey(1, 12, 22), gridKey(1, 8, 22), gridKey(1, 7, 22), gridKey(5, 2, 22), gridKey(6, 2, 22), gridKey(10, 2, 22), gridKey(11, 2, 22), gridKey(16, 7, 22), gridKey(16, 8, 22), gridKey(16, 12, 22), gridKey(16, 13, 22), gridKey(11, 18, 22), gridKey(10, 18, 22), gridKey(6, 18, 22), gridKey(5, 18, 22)],
+const maps: MapGrid[] = [{name:"Temblor Titan", width:15, height:15, locked: true, default: true,
+		priority:[gridKey(7, 12, 15), gridKey(8, 12, 15), gridKey(7, 13, 15), gridKey(8, 13, 15), gridKey(6, 1, 15), gridKey(7, 1, 15), gridKey(6, 2, 15), gridKey(7, 2, 15)],
+	tiles: [
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, hcover_, empty__, empty__, empty__, spawn__, spawn__, empty__, hbound_, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, hcover_, empty__, empty__, empty__, hspawn_, hspawn_, empty__, hbound_, hcover_, hcover_, hcover_, empty__, empty__,
+		empty__, empty__, hcover_, hcover_, hbound_, empty__, hbound_, hbound_, empty__, empty__, empty__, empty__, hcover_, hbound_, empty__,
+		empty__, empty__, empty__, empty__, hbound_, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, hbound_, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, hvbound, vbound_, empty__, empty__, bosssub, bosssub, bosssub, empty__, empty__, vbound_, vbound_, empty__, empty__,
+		empty__, empty__, hvbound, vbound_, empty__, empty__, bosssub, bossman, bosssub, empty__, empty__, vbound_, vbound_, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, bosssub, bosssub, bosssub, empty__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, hcover_, empty__, empty__,
+		empty__, hbound_, empty__, vbound_, vbound_, empty__, empty__, hbound_, hbound_, empty__, empty__, hbound_, hcover_, empty__, empty__,
+		empty__, hbound_, hcover_, hcover_, hcover_, empty__, empty__, hspawn_, hspawn_, empty__, empty__, hbound_, hcover_, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, spawn__, spawn__, empty__, empty__, empty__, empty__, empty__, empty__,
+		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__,
+	]},{name:"Broken-Horn Beasteel", width:18, height:22, locked: true, default: false,
+		priority:[gridKey(13, 1, 18), gridKey(12, 1, 18), gridKey(8, 1, 18), gridKey(7, 1, 18), gridKey(2, 5, 18), gridKey(2, 6, 18), gridKey(2, 10, 18), gridKey(2, 11, 18), gridKey(7, 16, 18), gridKey(8, 16, 18), gridKey(12, 16, 18), gridKey(13, 16, 18), gridKey(18, 11, 18), gridKey(18, 10, 18), gridKey(18, 6, 18), gridKey(18, 5, 18)],
 	tiles: [
 		fcover_, fcover_, fcover_, fcover_, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, fcover_, fcover_, fcover_, fcover_, fcover_,
 		empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, empty__, fcover_,

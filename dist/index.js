@@ -1853,6 +1853,7 @@ var [editingMap, setEditingMap] = createSignal("Broken-Horn Beasteel");
 var empty__ = 0 /* Empty */;
 var spawn__ = 1 /* Spawn */;
 var hbound_ = 2 /* HBoundary */;
+var hvbound = 2 /* HBoundary */ | 4 /* VBoundary */;
 var hspawn_ = 2 /* HBoundary */ | 1 /* Spawn */;
 var vbound_ = 4 /* VBoundary */;
 var vspawn_ = 4 /* VBoundary */ | 1 /* Spawn */;
@@ -1861,12 +1862,246 @@ var fcover_ = 16 /* FullCover */;
 var bosssub = 32 /* BossCover */;
 var bossman = 64 /* BossOrigin */;
 var maps = [{
+  name: "Temblor Titan",
+  width: 15,
+  height: 15,
+  locked: true,
+  default: true,
+  priority: [gridKey(7, 12, 15), gridKey(8, 12, 15), gridKey(7, 13, 15), gridKey(8, 13, 15), gridKey(6, 1, 15), gridKey(7, 1, 15), gridKey(6, 2, 15), gridKey(7, 2, 15)],
+  tiles: [
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    spawn__,
+    empty__,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    hspawn_,
+    hspawn_,
+    empty__,
+    hbound_,
+    hcover_,
+    hcover_,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    hcover_,
+    hbound_,
+    empty__,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hvbound,
+    vbound_,
+    empty__,
+    empty__,
+    bosssub,
+    bosssub,
+    bosssub,
+    empty__,
+    empty__,
+    vbound_,
+    vbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hvbound,
+    vbound_,
+    empty__,
+    empty__,
+    bosssub,
+    bossman,
+    bosssub,
+    empty__,
+    empty__,
+    vbound_,
+    vbound_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    bosssub,
+    bosssub,
+    bosssub,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    empty__,
+    vbound_,
+    vbound_,
+    empty__,
+    empty__,
+    hbound_,
+    hbound_,
+    empty__,
+    empty__,
+    hbound_,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    hbound_,
+    hcover_,
+    hcover_,
+    hcover_,
+    empty__,
+    empty__,
+    hspawn_,
+    hspawn_,
+    empty__,
+    empty__,
+    hbound_,
+    hcover_,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    spawn__,
+    spawn__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__,
+    empty__
+  ]
+}, {
   name: "Broken-Horn Beasteel",
   width: 18,
   height: 22,
   locked: true,
-  default: true,
-  priority: [gridKey(1, 13, 22), gridKey(1, 12, 22), gridKey(1, 8, 22), gridKey(1, 7, 22), gridKey(5, 2, 22), gridKey(6, 2, 22), gridKey(10, 2, 22), gridKey(11, 2, 22), gridKey(16, 7, 22), gridKey(16, 8, 22), gridKey(16, 12, 22), gridKey(16, 13, 22), gridKey(11, 18, 22), gridKey(10, 18, 22), gridKey(6, 18, 22), gridKey(5, 18, 22)],
+  default: false,
+  priority: [gridKey(13, 1, 18), gridKey(12, 1, 18), gridKey(8, 1, 18), gridKey(7, 1, 18), gridKey(2, 5, 18), gridKey(2, 6, 18), gridKey(2, 10, 18), gridKey(2, 11, 18), gridKey(7, 16, 18), gridKey(8, 16, 18), gridKey(12, 16, 18), gridKey(13, 16, 18), gridKey(18, 11, 18), gridKey(18, 10, 18), gridKey(18, 6, 18), gridKey(18, 5, 18)],
   tiles: [
     fcover_,
     fcover_,
@@ -3071,8 +3306,9 @@ function drawFloor(ctx3, c, r) {
 function drawSpawn(ctx3, c, r) {
   const x = cellX(c);
   const y = cellY(r);
-  const mapCoord = gridKey(c, r);
+  const mapCoord = gridKey(c, r, mapGrid.width);
   const priority = mapGrid.priority.indexOf(mapCoord);
+  console.log(priority, mapGrid.priority, mapCoord, c, r);
   ctx3.fillStyle = "rgba(18,60,180,0.18)";
   ctx3.fillRect(x + 1, y + 1, TILE_SIZE - 2, TILE_SIZE - 2);
   ctx3.strokeStyle = "#3070ee";
@@ -5461,6 +5697,10 @@ var [selectedDoll, setSelectedDoll] = createSignal(null);
 var [showImportModal, setShowImportModal] = createSignal(false);
 var [showExportModal, setShowExportModal] = createSignal(false);
 var [showSkillDisplayModal, setShowSkillDisplayModal] = createSignal(false);
+var [showEffectModal, setShowEffectModal] = createSignal(false);
+var [effectModalEffects, setEffectModalEffects] = createSignal([]);
+var [effectModalPosition, setEffectModalPosition] = createSignal({ x: 0, y: 0 });
+var [effectModalSkillNames, setEffectModalSkillNames] = createSignal(/* @__PURE__ */ new Map());
 var [showTargetModal, setShowTargetModal] = createSignal(false);
 var [targetSkillInfo, setTargetSkillInfo] = createSignal("");
 var [targetDollId, setTargetDollId] = createSignal(null);
@@ -6412,21 +6652,46 @@ async function loadCombinedJson() {
   }
 }
 var interactiveStyles = (selected = false) => "cursor-pointer outline-3 transition transition-discrete duration-175 hover:scale-107 hover:outline-white " + (selected === true ? "outline-[#F26C1C]" : selected === null ? "outline-transparent" : "outline-transparent");
+function effectName(id) {
+  return allEffects.find((e) => e.id === id)?.name ?? `Unknown Effect ${id}`;
+}
+function summonName(id) {
+  return allSummons.find((s) => s.id === id)?.name ?? `Unknown Summon ${id}`;
+}
 var parseEffects = (description, skillNames) => {
   return description.replace(/\{(e[0-9]+)\}/gi, (match, effectId) => {
-    const effect = allEffects.find((s) => s.id === effectId);
-    if (effect) {
-      return `<b><u>${effect.name}</u></b>`;
-    }
-    return `<b><u>Unknown Effect ${effectId}</u></b>`;
-  }).replace(/\{(s[0-9]+)\}/gi, (match, skillId) => {
+    return `<span class="font-bold underline text-[#4FA8E8] cursor-pointer hover:text-[#7DC0F5]" data-effect-id="${effectId}">${effectName(effectId)}</span>`;
+  }).replace(/\{(j[0-9]+)\}/gi, (match, skillId) => {
     const skill = skillNames.get(skillId);
     if (skill) {
       return `<b><u>${skill}</u></b>`;
     }
-    return `<b><u>Unknown Effect ${skillId}</u></b>`;
+    return `<b><u>Unknown Skill ${skillId}</u></b>`;
+  }).replace(/\{(s[0-9]+)\}/gi, (match, summonId) => {
+    return `<b><u>${summonName(summonId)}</u></b>`;
   });
 };
+function formatEffectDescription(description, skillNames) {
+  return description.replace(/\{(e[0-9]+)\}/gi, (match, id) => `<span class="font-semibold text-[#4FA8E8]">${effectName(id)}</span>`).replace(/\{(j[0-9]+)\}/gi, (match, skillId) => {
+    const skill = skillNames.get(skillId);
+    return `<b><u>${skill ?? `Unknown Skill ${skillId}`}</u></b>`;
+  }).replace(/\{(s[0-9]+)\}/gi, (match, summonId) => `<b><u>${summonName(summonId)}</u></b>`);
+}
+function getReferencedEffects(rootId) {
+  const seen = /* @__PURE__ */ new Set();
+  const result = [];
+  const queue = [rootId];
+  while (queue.length) {
+    const id = queue.shift();
+    if (seen.has(id)) continue;
+    seen.add(id);
+    const effect = allEffects.find((e) => e.id === id);
+    if (!effect) continue;
+    result.push(effect);
+    queue.push(...[...effect.description.matchAll(/\{(e[0-9]+)\}/gi)].map((m) => m[1]));
+  }
+  return result;
+}
 function runAfterFramePaint(callback) {
   requestAnimationFrame(() => {
     const messageChannel = new MessageChannel();
@@ -9751,7 +10016,7 @@ Fuse.use = function(...plugins) {
 var entry_default = Fuse;
 
 // src/components/modals/KeyModal.tsx
-var _tmpl$80 = /* @__PURE__ */ template(`<div class="flex max-h-180 flex-row px-10"><div class="flex w-30 shrink-0 flex-col items-stretch justify-center bg-[#2A3D46] py-5"><div class="flex justify-center pb-2"><img loading=lazy class="h-15 w-15 rounded-full border-3 border-[#687177] bg-[#0D1C1C] object-cover"></div></div><div class="flex w-70 grow flex-col"><div class="flex grow overflow-y-auto p-5 px-4 pt-2"><div class="flex flex-row flex-wrap content-start items-start gap-3.5"></div></div><div class="flex shrink flex-row flex-wrap gap-1 p-2 pl-4"><div class="flex font-bold"></div><div class></div></div><div class="flex p-2"><div class="flex grow justify-center p-2"><input class=input type=text placeholder=Filter...>`, true, false, false);
+var _tmpl$80 = /* @__PURE__ */ template(`<div class="flex max-h-180 flex-row px-10"><div class="flex w-30 shrink-0 flex-col items-stretch justify-center bg-[#2A3D46] py-5"><div class="flex justify-center pb-2"><img loading=lazy class="h-15 w-15 rounded-full border-3 border-[#687177] bg-[#0D1C1C] object-cover"></div></div><div class="flex w-70 grow flex-col"><div class="flex grow overflow-y-auto p-5 px-4 pt-2"><div class="flex flex-row flex-wrap content-start items-start gap-3.5"></div></div><div class="flex shrink flex-row flex-wrap gap-1 p-2 pl-4"><div class="flex font-bold"></div><div></div></div><div class="flex p-2"><div class="flex grow justify-center p-2"><input class=input type=text placeholder=Filter...>`, true, false, false);
 var _tmpl$228 = /* @__PURE__ */ template(`<img class="h-16 w-16 object-cover">`);
 var _tmpl$320 = /* @__PURE__ */ template(`<div><div class="h-15 w-15">`);
 var _tmpl$413 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 z-20 h-7 w-7 shadow-sm shadow-black/20">`);
@@ -9764,7 +10029,7 @@ function KeyModal() {
   const [sortedKeys, setSortedKeys] = createStore(sortEquippedKeys(selectedDoll().id, selectedDoll().keys));
   const skillIdMap = /* @__PURE__ */ new Map();
   for (const skill of dollInfo().skills) {
-    skillIdMap.set("s" + skill.id, skill.name);
+    skillIdMap.set("j" + skill.id, skill.name);
   }
   const selectedKeys = createMemo(() => getPreSortedKeyInfo(selectedDoll().id, sortedKeys));
   const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
@@ -9779,6 +10044,10 @@ function KeyModal() {
   const [activeKeySlot, setActiveKeySlot] = createSignal(0);
   const [keyTitle, setKeyTitle] = createSignal("");
   const [keyDescription, setKeyDescription] = createSignal("");
+  const [slotSortedKeys, setSlotSortedKeys] = createSignal([...sortedKeys]);
+  createEffect(on(activeKeySlot, () => setSlotSortedKeys([...sortedKeys]), {
+    defer: true
+  }));
   createEffect(() => {
     const selectedKey = selectedKeys()[activeKeySlot()];
     if (selectedKey) {
@@ -9787,12 +10056,24 @@ function KeyModal() {
     }
   });
   const [query, setQuery] = createSignal("");
+  let filterInputRef;
+  onMount(() => {
+    const onKeyDown = (e) => {
+      if (document.activeElement === filterInputRef) return;
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      if (e.key.length !== 1) return;
+      if (document.activeElement instanceof HTMLButtonElement) return;
+      filterInputRef?.focus();
+    };
+    window.addEventListener("keydown", onKeyDown);
+    onCleanup(() => window.removeEventListener("keydown", onKeyDown));
+  });
   const visibleKeys = createMemo(() => {
     return keyTypes[keyMapping[activeKeySlot()]];
   });
   const filteredKeys = createMemo(() => {
     const isSel = (keyId) => {
-      return sortedKeys.includes(keyId);
+      return slotSortedKeys().includes(keyId);
     };
     const fuse = new entry_default(visibleKeys(), {
       keys: ["dollName", "name"],
@@ -9865,7 +10146,7 @@ function KeyModal() {
         const [isVisible2, setIsVisible] = createSignal(false);
         let index = createMemo(() => {
           let index2 = filteredKeys().findIndex((filteredKey) => key.id === filteredKey.item.id);
-          if (index2 < 0 && sortedKeys.includes(key.id)) {
+          if (index2 < 0 && slotSortedKeys().includes(key.id)) {
             index2 = 0;
           }
           setIsVisible(index2 > -1);
@@ -9924,7 +10205,26 @@ function KeyModal() {
       }
     }));
     insert(_el$9, keyTitle);
+    _el$0.$$click = (e) => {
+      const target = e.target.closest("[data-effect-id]");
+      if (!target) return;
+      const rect = target.getBoundingClientRect();
+      const popupWidth = 360;
+      const popupHeight = 384;
+      const margin = 8;
+      const x = Math.max(margin, Math.min(rect.left, window.innerWidth - popupWidth - margin));
+      const y = Math.max(margin, Math.min(rect.bottom + 4, window.innerHeight - popupHeight - margin));
+      setEffectModalPosition({
+        x,
+        y
+      });
+      setEffectModalSkillNames(skillIdMap);
+      setEffectModalEffects(getReferencedEffects(target.dataset.effectId));
+      setShowEffectModal(true);
+    };
     _el$11.$$input = (e) => setQuery(e.target.value);
+    var _ref$ = filterInputRef;
+    typeof _ref$ === "function" ? use(_ref$, _el$11) : filterInputRef = _el$11;
     insert(_el$1, createComponent(Button, {
       onClick: () => {
         setDollKeys(selectedDoll().id, sortedKeys);
@@ -9946,11 +10246,56 @@ function KeyModal() {
     return _el$;
   })();
 }
-delegateEvents(["input", "click", "pointerover"]);
+delegateEvents(["click", "input", "pointerover"]);
+
+// src/components/modals/EffectModal.tsx
+var _tmpl$81 = /* @__PURE__ */ template(`<div class="fixed z-[60] max-h-96 w-90 overflow-y-auto rounded-md border border-[#3A3A3A] bg-[#1B1B1B] p-3 text-[#D0D0D0] shadow-2xl"><div class="flex flex-col gap-3">`);
+var _tmpl$229 = /* @__PURE__ */ template(`<div class="flex flex-col"><div class="mb-1.5 border-b border-[#3A3A3A] pb-1.5 font-bold text-[#4FA8E8]"></div><div>`);
+function EffectModal() {
+  let ref;
+  const onOutsideClick = (e) => {
+    if (ref && !ref.contains(e.target)) {
+      setShowEffectModal(false);
+    }
+  };
+  onMount(() => {
+    const timeout = setTimeout(() => window.addEventListener("click", onOutsideClick), 0);
+    onCleanup(() => {
+      clearTimeout(timeout);
+      window.removeEventListener("click", onOutsideClick);
+    });
+  });
+  return (() => {
+    var _el$ = _tmpl$81(), _el$2 = _el$.firstChild;
+    var _ref$ = ref;
+    typeof _ref$ === "function" ? use(_ref$, _el$) : ref = _el$;
+    insert(_el$2, createComponent(For, {
+      get each() {
+        return effectModalEffects();
+      },
+      children: (effect) => (() => {
+        var _el$3 = _tmpl$229(), _el$4 = _el$3.firstChild, _el$5 = _el$4.nextSibling;
+        insert(_el$4, () => effect.name);
+        createRenderEffect(() => _el$5.innerHTML = formatEffectDescription(effect.description, effectModalSkillNames()));
+        return _el$3;
+      })()
+    }));
+    createRenderEffect((_p$) => {
+      var _v$ = `${effectModalPosition().y}px`, _v$2 = `${effectModalPosition().x}px`;
+      _v$ !== _p$.e && setStyleProperty(_el$, "top", _p$.e = _v$);
+      _v$2 !== _p$.t && setStyleProperty(_el$, "left", _p$.t = _v$2);
+      return _p$;
+    }, {
+      e: void 0,
+      t: void 0
+    });
+    return _el$;
+  })();
+}
 
 // src/components/modals/WeaponModal.tsx
-var _tmpl$81 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
-var _tmpl$229 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-20 h-12 w-12"><img class="relative h-full w-full object-cover">`);
+var _tmpl$85 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
+var _tmpl$230 = /* @__PURE__ */ template(`<div class="absolute bottom-1 left-2 z-20 h-12 w-12"><img class="relative h-full w-full object-cover">`);
 var _tmpl$321 = /* @__PURE__ */ template(`<div><div></div><img><div>`);
 var _tmpl$414 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function WeaponModal() {
@@ -9967,7 +10312,7 @@ function WeaponModal() {
   return [createComponent(ModalHeader, {
     title: "Select Weapon"
   }), (() => {
-    var _el$ = _tmpl$81(), _el$2 = _el$.firstChild;
+    var _el$ = _tmpl$85(), _el$2 = _el$.firstChild;
     insert(_el$2, createComponent(For, {
       each: visibleWeapons,
       children: (weapon) => {
@@ -9988,7 +10333,7 @@ function WeaponModal() {
               return weapon.imprintImage;
             },
             get children() {
-              var _el$4 = _tmpl$229(), _el$5 = _el$4.firstChild;
+              var _el$4 = _tmpl$230(), _el$5 = _el$4.firstChild;
               createRenderEffect(() => setAttribute(_el$5, "src", weapon.imprintImage));
               return _el$4;
             }
@@ -10035,11 +10380,11 @@ function WeaponModal() {
 delegateEvents(["click"]);
 
 // src/components/modals/DarkModal.tsx
-var _tmpl$85 = /* @__PURE__ */ template(`<div>`);
+var _tmpl$86 = /* @__PURE__ */ template(`<div>`);
 function DarkModal(props) {
   const resolved = children(() => props.children);
   return (() => {
-    var _el$ = _tmpl$85();
+    var _el$ = _tmpl$86();
     insert(_el$, resolved);
     createRenderEffect(() => className(_el$, `${props.width ?? "w-225"} ${props.hide ? "hidden" : ""} flex flex-col overflow-hidden rounded-sm border-t-4 border-[#3E5356] bg-[#2C373B] shadow-2xl`));
     return _el$;
@@ -10047,8 +10392,8 @@ function DarkModal(props) {
 }
 
 // src/components/modals/BuffModal.tsx
-var _tmpl$86 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
-var _tmpl$230 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Select one or more buffs relevant to this transcript`);
+var _tmpl$87 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
+var _tmpl$231 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Select one or more buffs relevant to this transcript`);
 var _tmpl$322 = /* @__PURE__ */ template(`<div><div><img class="relative z-20 h-full w-full object-cover"></div><div class="flex grow flex-col gap-3 text-[#384B53]"><div class="flex grow flex-row gap-3 border-b-2 border-[#E0DDE7]"><div class="text-left font-bold text-black"></div><div class=text-left></div></div><div class=text-left>`);
 var _tmpl$415 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function BuffModal() {
@@ -10057,7 +10402,7 @@ function BuffModal() {
   return [createComponent(ModalHeader, {
     title: "Select Seasonal Buffs"
   }), (() => {
-    var _el$ = _tmpl$86(), _el$2 = _el$.firstChild;
+    var _el$ = _tmpl$87(), _el$2 = _el$.firstChild;
     insert(_el$2, createComponent(For, {
       each: sortedBuffs,
       children: (buff) => {
@@ -10106,7 +10451,7 @@ function BuffModal() {
       }
     }));
     return _el$;
-  })(), _tmpl$230(), createComponent(ModalFooter, {
+  })(), _tmpl$231(), createComponent(ModalFooter, {
     styles: "justify-between",
     get children() {
       return [createComponent(Button, {
@@ -10176,7 +10521,7 @@ function trackStore(store) {
 }
 
 // src/App.tsx
-var _tmpl$87 = /* @__PURE__ */ template(`<div class="flex h-screen flex-col bg-zinc-950 text-white"><div class="relative flex-1 overflow-hidden"id=body>`);
+var _tmpl$88 = /* @__PURE__ */ template(`<div class="flex h-screen flex-col bg-zinc-950 text-white"><div class="relative flex-1 overflow-hidden"id=body>`);
 function App() {
   onMount(async () => {
     await loadCombinedJson();
@@ -10213,7 +10558,7 @@ function App() {
     }
   };
   return (() => {
-    var _el$ = _tmpl$87(), _el$2 = _el$.firstChild;
+    var _el$ = _tmpl$88(), _el$2 = _el$.firstChild;
     insert(_el$, createComponent(TabBar, {
       onTabChange: handleTabChange
     }), _el$2);
@@ -10372,6 +10717,14 @@ function App() {
       },
       get children() {
         return createComponent(TargetModal, {});
+      }
+    }), null);
+    insert(_el$, createComponent(Show, {
+      get when() {
+        return memo(() => !!showEffectModal())() && loaded();
+      },
+      get children() {
+        return createComponent(EffectModal, {});
       }
     }), null);
     return _el$;
