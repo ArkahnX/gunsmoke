@@ -227,6 +227,10 @@ export const [selectedDoll, setSelectedDoll] = createSignal<SelectedDoll | null>
 export const [showImportModal, setShowImportModal] = createSignal(false);
 export const [showExportModal, setShowExportModal] = createSignal(false);
 export const [showSkillDisplayModal, setShowSkillDisplayModal] = createSignal(false);
+export const [showEffectModal, setShowEffectModal] = createSignal(false);
+export const [effectModalEffects, setEffectModalEffects] = createSignal<Effect[]>([]);
+export const [effectModalPosition, setEffectModalPosition] = createSignal({ x: 0, y: 0 });
+export const [effectModalSkillNames, setEffectModalSkillNames] = createSignal<Map<string, string>>(new Map());
 export const [showTargetModal, setShowTargetModal] = createSignal(false);
 export const [targetSkillInfo, setTargetSkillInfo] = createSignal("");
 export const [targetDollId, setTargetDollId] = createSignal<string | null>(null);
@@ -1296,21 +1300,51 @@ export const interactiveStyles = (selected: boolean | null | undefined = false) 
 	"cursor-pointer outline-3 transition transition-discrete duration-175 hover:scale-107 hover:outline-white " +
 	(selected === true ? "outline-[#F26C1C]" : selected === null ? "outline-transparent" : "outline-transparent");
 
+function effectName(id: string): string {
+	return allEffects.find((e) => e.id === id)?.name ?? `Unknown Effect ${id}`;
+}
+
+function summonName(id: string): string {
+	return allSummons.find((s) => s.id === id)?.name ?? `Unknown Summon ${id}`;
+}
+
 export const parseEffects = (description: string, skillNames: Map<string, string>) => {
 	return description.replace(/\{(e[0-9]+)\}/gi, (match, effectId) => {
-		const effect = allEffects.find((s) => s.id === effectId);
-		if (effect) {
-			return `<b><u>${effect.name}</u></b>`;
-		}
-		return `<b><u>Unknown Effect ${effectId}</u></b>`;
-	}).replace(/\{(s[0-9]+)\}/gi, (match, skillId) => {
+		return `<span class="font-bold underline text-[#4FA8E8] cursor-pointer hover:text-[#7DC0F5]" data-effect-id="${effectId}">${effectName(effectId)}</span>`;
+	}).replace(/\{(j[0-9]+)\}/gi, (match, skillId) => {
 		const skill = skillNames.get(skillId);
 		if (skill) {
 			return `<b><u>${skill}</u></b>`;
 		}
-		return `<b><u>Unknown Effect ${skillId}</u></b>`;
+		return `<b><u>Unknown Skill ${skillId}</u></b>`;
+	}).replace(/\{(s[0-9]+)\}/gi, (match, summonId) => {
+		return `<b><u>${summonName(summonId)}</u></b>`;
 	});
 };
+
+export function formatEffectDescription(description: string, skillNames: Map<string, string>): string {
+	return description.replace(/\{(e[0-9]+)\}/gi, (match, id) => `<span class="font-semibold text-[#4FA8E8]">${effectName(id)}</span>`)
+		.replace(/\{(j[0-9]+)\}/gi, (match, skillId) => {
+			const skill = skillNames.get(skillId);
+			return `<b><u>${skill ?? `Unknown Skill ${skillId}`}</u></b>`;
+		}).replace(/\{(s[0-9]+)\}/gi, (match, summonId) => `<b><u>${summonName(summonId)}</u></b>`);
+}
+
+export function getReferencedEffects(rootId: string): Effect[] {
+	const seen = new Set<string>();
+	const result: Effect[] = [];
+	const queue = [rootId];
+	while (queue.length) {
+		const id = queue.shift()!;
+		if (seen.has(id)) continue;
+		seen.add(id);
+		const effect = allEffects.find((e) => e.id === id);
+		if (!effect) continue;
+		result.push(effect);
+		queue.push(...[...effect.description.matchAll(/\{(e[0-9]+)\}/gi)].map((m) => m[1]));
+	}
+	return result;
+}
 
 export function runAfterFramePaint(callback: () => void) {
 	// Queue a "before Render Steps" callback via requestAnimationFrame.

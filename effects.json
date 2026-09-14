@@ -813,7 +813,7 @@
   },
   {
     "name": "Coordinated Combat",
-    "description": "<p>When an enemy unit within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> of Liushih is attacked by her active skills, [summon:0b41f7fe-d147-4f25-ab7e-c3bce2882959] fire [skillsummon:76cc19ff-faff-48db-9086-345969c15b3a] <span style=\"color: rgb(243, 109, 28);\">once</span> at them. This effect cannot be cleansed.</p>",
+    "description": "<p>When an enemy unit within <span style=\"color: rgb(243, 109, 28);\">9 tiles</span> of Liushih is attacked by her active skills, {s6} fire [skillsummon:76cc19ff-faff-48db-9086-345969c15b3a] <span style=\"color: rgb(243, 109, 28);\">once</span> at them. This effect cannot be cleansed.</p>",
     "id": "e98",
     "effectTags": []
   },
@@ -1828,7 +1828,7 @@
   },
   {
     "name": "Hunter's Instinct",
-    "description": "<p>Comprises of {s6}, {s7}, and {s8}. </p><p>After the Ultimate skill resolves, if conditions are met, {s6} can be used.</p>",
+    "description": "<p>Comprises of {j6}, {j7}, and {j8}. </p><p>After the Ultimate skill resolves, if conditions are met, {j6} can be used.</p>",
     "id": "e234",
     "effectTags": []
   },
@@ -1976,7 +1976,7 @@
   },
   {
     "name": "Justice",
-    "description": "<p>Nikketa's critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> and critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. When manually using the Ultimate Skill {s5}, consumes <span style=\"color: rgb(243, 109, 28);\">5 stacks </span>of this effect to perform the Ultimate skill 1 additional time. Can stack up to <span style=\"color: rgb(243, 109, 28);\">5 times</span>. This effect cannot be cleansed.</p>",
+    "description": "<p>Nikketa's critical rate is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span> and critical damage is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. When manually using the Ultimate Skill {j5}, consumes <span style=\"color: rgb(243, 109, 28);\">5 stacks </span>of this effect to perform the Ultimate skill 1 additional time. Can stack up to <span style=\"color: rgb(243, 109, 28);\">5 times</span>. This effect cannot be cleansed.</p>",
     "id": "e254",
     "effectTags": []
   },
@@ -2011,7 +2011,7 @@
   },
   {
     "name": "Legendary Star",
-    "description": "<p>Damage dealt by the user and their [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span> for every allied units on the field (excluding the user), up to a maximum of <span style=\"color: rgb(243, 109, 28);\">40%</span>. This buff cannot be cleansed.</p>",
+    "description": "<p>Damage dealt by the user and their {s9} is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span> for every allied units on the field (excluding the user), up to a maximum of <span style=\"color: rgb(243, 109, 28);\">40%</span>. This buff cannot be cleansed.</p>",
     "id": "e259",
     "effectTags": []
   },
@@ -2127,7 +2127,7 @@
   },
   {
     "name": "Mimic Rookie",
-    "description": "<p>Critical rate of the user and their [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. This buff cannot be cleansed.</p>",
+    "description": "<p>Critical rate of the user and their {s9} is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. This buff cannot be cleansed.</p>",
     "id": "e276",
     "effectTags": []
   },
@@ -2358,7 +2358,7 @@
   },
   {
     "name": "Parapluie's Penetration",
-    "description": "<p>When receiving damage from Lainie or the [summon:a08dc1d8-105d-4c68-9c89-5955138f6365], the afflicted enemy unit has its defense reduced by <span style=\"color: rgb(243, 109, 28);\">15%</span>. This can stack up to <span style=\"color: rgb(243, 109, 28);\">3</span> times. Considered a defense debuff and cannot be cleansed.</p>",
+    "description": "<p>When receiving damage from Lainie or the {s5}, the afflicted enemy unit has its defense reduced by <span style=\"color: rgb(243, 109, 28);\">15%</span>. This can stack up to <span style=\"color: rgb(243, 109, 28);\">3</span> times. Considered a defense debuff and cannot be cleansed.</p>",
     "id": "e305",
     "effectTags": [
       "Debuff",
@@ -2489,7 +2489,7 @@
   },
   {
     "name": "Physical Summon",
-    "description": "<p>A summon that inherits its summoner's stats and has a physical presence on the battlefield (like Papasha's City Warden, Andoris' Auto-Turrets and Nikketa's [summon:ce93ef16-e26f-4cf0-bc97-950a60f12240] among others).</p>",
+    "description": "<p>A summon that inherits its summoner's stats and has a physical presence on the battlefield (like Papasha's City Warden, Andoris' Auto-Turrets and Nikketa's {s7} among others).</p>",
     "id": "e320",
     "effectTags": []
   },
@@ -2840,7 +2840,7 @@
   },
   {
     "name": "Reverse Assimilation",
-    "description": "<p>Cannot move, cannot rotate, cannot benefit from cover damage reduction, and is immune to crowd control effects.</p><p>While possessing an {e302}, the basic attack {s2} can be used.</p>",
+    "description": "<p>Cannot move, cannot rotate, cannot benefit from cover damage reduction, and is immune to crowd control effects.</p><p>While possessing an {e302}, the basic attack {j2} can be used.</p>",
     "id": "e368",
     "effectTags": []
   },
@@ -2903,7 +2903,7 @@
   },
   {
     "name": "Sakura Mark",
-    "description": "<p>When this unit take <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, expends <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of this effect; Sakura deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to this unit and all enemies within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of it. If this effect is triggered by Sakura's Ultimate Skill {s5}, expends <span style=\"color: rgb(243, 109, 28);\">3 stacks </span>of this effect and deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to this unit and all enemies within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of it. Stacks up to <span style=\"color: rgb(243, 109, 28);\">3</span><span style=\"color: rgb(243, 109, 28);\"> times</span>. Cannot be cleansed.</p>",
+    "description": "<p>When this unit take <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, expends <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of this effect; Sakura deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">60%</span> of attack to this unit and all enemies within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of it. If this effect is triggered by Sakura's Ultimate Skill {j5}, expends <span style=\"color: rgb(243, 109, 28);\">3 stacks </span>of this effect and deals AoE <span style=\"color: rgb(237, 79, 18);\">Burn damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">180%</span> of attack to this unit and all enemies within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of it. Stacks up to <span style=\"color: rgb(243, 109, 28);\">3</span><span style=\"color: rgb(243, 109, 28);\"> times</span>. Cannot be cleansed.</p>",
     "id": "e376",
     "effectTags": []
   },
@@ -2921,7 +2921,7 @@
   },
   {
     "name": "Saturation Overflow",
-    "description": "<p>Increase the attack of the buff holder by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>After casting {s4}, generate {e463} tiles with a <span style=\"color: rgb(243, 109, 28);\">5-tile-wide</span> area along the path for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>After using {s4}, all [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] launches <span style=\"color: rgb(243, 109, 28);\">1</span> instance of {e96}.</p><p>This buff cannot be cleansed.</p>",
+    "description": "<p>Increase the attack of the buff holder by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p><p>After casting {j4}, generate {e463} tiles with a <span style=\"color: rgb(243, 109, 28);\">5-tile-wide</span> area along the path for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p><p>After using {j4}, all {s9} launches <span style=\"color: rgb(243, 109, 28);\">1</span> instance of {e96}.</p><p>This buff cannot be cleansed.</p>",
     "id": "e379",
     "effectTags": []
   },
@@ -2957,7 +2957,7 @@
   },
   {
     "name": "Screen Title",
-    "description": "<p>Title rank level increases sequentially. (Higher ranks include all the effects of lower ranks). The effects can stack.</p><p>{e276}: Critical rate of the user and their [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. This buff cannot be cleansed.</p><p>{e477}: Critical damage of the user and their [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Before {e96} is triggered, generate {e463} tiles within the effective range, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This buff cannot be cleansed.</p><p>{e259}: Damage dealt by the user and their [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span> for every allied units on the field (excluding the user), up to a maximum of <span style=\"color: rgb(243, 109, 28);\">40%</span>. This buff cannot be cleansed.</p><p></p>",
+    "description": "<p>Title rank level increases sequentially. (Higher ranks include all the effects of lower ranks). The effects can stack.</p><p>{e276}: Critical rate of the user and their {s9} is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. This buff cannot be cleansed.</p><p>{e477}: Critical damage of the user and their {s9} is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Before {e96} is triggered, generate {e463} tiles within the effective range, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This buff cannot be cleansed.</p><p>{e259}: Damage dealt by the user and their {s9} is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span> for every allied units on the field (excluding the user), up to a maximum of <span style=\"color: rgb(243, 109, 28);\">40%</span>. This buff cannot be cleansed.</p><p></p>",
     "id": "e385",
     "effectTags": []
   },
@@ -3652,7 +3652,7 @@
   },
   {
     "name": "Understudy",
-    "description": "<p>Critical damage of the user and their [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Before {e96} is triggered, generate {e463} tiles within the effective range, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This buff cannot be cleansed.</p>",
+    "description": "<p>Critical damage of the user and their {s9} is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>. Before {e96} is triggered, generate {e463} tiles within the effective range, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. This buff cannot be cleansed.</p>",
     "id": "e477",
     "effectTags": []
   },

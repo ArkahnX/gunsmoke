@@ -7,6 +7,7 @@ export default function DollChip(props: {
 	target: DollData | SummonData;
 	doll: DollData;
 	selected?: boolean;
+	pinned?: boolean;
 	onClick?: () => void;
 	style?: string;
 }) {
@@ -15,7 +16,7 @@ export default function DollChip(props: {
 		<div
 			onClick={props.onClick}
 			style={props.style}
-			class={`doll ${phase} All show h-40.5 w-31.5 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50 ${interactiveStyles(props.selected)}`}>
+			class={`doll ${phase} All show ${props.pinned ? "pinned" : ""} h-40.5 w-31.5 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50 ${interactiveStyles(props.selected)}`}>
 			<div
 				class={`relative flex justify-center border-b-4 bg-[#C9C8CD] ${props.doll.rarity === "Elite" ? "border-b-[#DF9E00]" : "border-b-[#7968BA]"}`}>
 				{props.selected && (

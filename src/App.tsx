@@ -18,6 +18,7 @@ import {
 	loadFromString,
 	migrate,
 	showBuffModal,
+	showEffectModal,
 	setStateHashMatch,
 	compareStateHash,
 	setStateFromURL,
@@ -38,6 +39,7 @@ import ExportModal from "./components/modals/ExportModal";
 import SkillDisplayModal from "./components/modals/SkillDisplayModal";
 import FormationModal from "./components/modals/FormationModal";
 import KeyModal from "./components/modals/KeyModal";
+import EffectModal from "./components/modals/EffectModal";
 import WeaponModal from "./components/modals/WeaponModal";
 import DarkModal from "./components/modals/DarkModal";
 import BuffModal from "./components/modals/BuffModal";
@@ -161,6 +163,9 @@ export default function App() {
 			</Show>
 			<Show when={showTargetModal() && loaded()}>
 				<TargetModal />
+			</Show>
+			<Show when={showEffectModal() && loaded()}>
+				<EffectModal />
 			</Show>
 		</div>
 	);

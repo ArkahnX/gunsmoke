@@ -1,4 +1,4 @@
-import { createEffect, createMemo, createSignal, For, Show } from "solid-js";
+import { createEffect, createMemo, createSignal, For, Show, on, onCleanup, onMount } from "solid-js";
 import {
 	getInfoFromId,
 	selectedDoll,
@@ -10,6 +10,11 @@ import {
 	setDollKeys,
 	allEffects,
 	parseEffects,
+	getReferencedEffects,
+	setShowEffectModal,
+	setEffectModalEffects,
+	setEffectModalPosition,
+	setEffectModalSkillNames,
 } from "../../store";
 import { CommonKey, DetailedKey, DollData, FixedKey } from "../../types";
 import EmptyKey from "../icons/EmptyKey";
@@ -24,7 +29,7 @@ export default function KeyModal() {
 	const [sortedKeys, setSortedKeys] = createStore(sortEquippedKeys(selectedDoll()!.id, selectedDoll()!.keys));
 	const skillIdMap = new Map<string, string>();
 	for (const skill of dollInfo()!.skills) {
-		skillIdMap.set("s"+skill.id, skill.name);
+		skillIdMap.set("j"+skill.id, skill.name);
 	}
 	const selectedKeys = createMemo(() => getPreSortedKeyInfo(selectedDoll()!.id, sortedKeys));
 	const keyMapping = ["Fixed Key", "Fixed Key", "Fixed Key", "Expansion Key", "Affinity Key", "Common Key", "Common Key", "Common Key"];
@@ -41,6 +46,8 @@ export default function KeyModal() {
 	const [activeKeySlot, setActiveKeySlot] = createSignal(0);
 	const [keyTitle, setKeyTitle] = createSignal("");
 	const [keyDescription, setKeyDescription] = createSignal("");
+	const [slotSortedKeys, setSlotSortedKeys] = createSignal<string[]>([...sortedKeys]);
+	createEffect(on(activeKeySlot, () => setSlotSortedKeys([...sortedKeys]), { defer: true }));
 	createEffect(() => {
 		const selectedKey = selectedKeys()[activeKeySlot()];
 		if (selectedKey) {
@@ -49,13 +56,26 @@ export default function KeyModal() {
 		}
 	});
 	const [query, setQuery] = createSignal("");
+	// Allow search filter to accept input without being focused
+	let filterInputRef: HTMLInputElement | undefined;
+	onMount(() => {
+		const onKeyDown = (e: KeyboardEvent) => {
+			if (document.activeElement === filterInputRef) return;
+			if (e.ctrlKey || e.metaKey || e.altKey) return;
+			if (e.key.length !== 1) return;
+			if (document.activeElement instanceof HTMLButtonElement) return;
+			filterInputRef?.focus();
+		};
+		window.addEventListener("keydown", onKeyDown);
+		onCleanup(() => window.removeEventListener("keydown", onKeyDown));
+	});
 	const visibleKeys = createMemo(() => {
 		return keyTypes[keyMapping[activeKeySlot()]];
 	});
 
 	const filteredKeys = createMemo(() => {
 		const isSel = (keyId: string) => {
-			return sortedKeys.includes(keyId);
+			return slotSortedKeys().includes(keyId);
 		};
 		const fuse = new Fuse(visibleKeys(), {
 			keys: ["dollName", "name"],
@@ -136,7 +156,7 @@ export default function KeyModal() {
 									const [isVisible, setIsVisible] = createSignal(false);
 									let index = createMemo(() => {
 										let index = filteredKeys().findIndex((filteredKey) => key.id === filteredKey.item.id);
-										if (index < 0 && sortedKeys.includes(key.id)) {
+										if (index < 0 && slotSortedKeys().includes(key.id)) {
 											index = 0;
 										}
 										setIsVisible(index > -1);
@@ -178,11 +198,27 @@ export default function KeyModal() {
 					</div>
 					<div class="flex shrink flex-row flex-wrap gap-1 p-2 pl-4">
 						<div class="flex font-bold">{keyTitle()}</div>
-						<div class="" innerHTML={keyDescription()}></div>
+						<div
+							innerHTML={keyDescription()}
+							onClick={(e) => {
+								const target = (e.target as HTMLElement).closest("[data-effect-id]") as HTMLElement | null;
+								if (!target) return;
+								const rect = target.getBoundingClientRect();
+								const popupWidth = 360;
+								const popupHeight = 384;
+								const margin = 8;
+								const x = Math.max(margin, Math.min(rect.left, window.innerWidth - popupWidth - margin));
+								const y = Math.max(margin, Math.min(rect.bottom + 4, window.innerHeight - popupHeight - margin));
+								setEffectModalPosition({ x, y });
+								setEffectModalSkillNames(skillIdMap);
+								setEffectModalEffects(getReferencedEffects(target.dataset.effectId!));
+								setShowEffectModal(true);
+							}}></div>
 					</div>
 					<div class="flex p-2">
 						<div class="flex grow justify-center p-2">
 							<input
+								ref={filterInputRef}
 								class="input"
 								type="text"
 								value={query()}

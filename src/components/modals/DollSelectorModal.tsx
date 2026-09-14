@@ -1,4 +1,4 @@
-import { createMemo, For } from "solid-js";
+import { createMemo, createSignal, For, onMount } from "solid-js";
 import {
 	activePhaseTab,
 	setActivePhaseTab,
@@ -11,7 +11,7 @@ import {
 	setShowFormationModal,
 	runAfterFramePaint,
 } from "../../store";
-import { PHASE_TABS } from "../../types";
+import { DollData, PHASE_TABS } from "../../types";
 import Phase from "../icons/Phase";
 import DollChip from "../DollChip";
 import Button from "../buttons/Button";
@@ -20,6 +20,16 @@ import ModalFooter from "./ModalFooter";
 
 export default function DollSelectorModal() {
 	const selectedDollIds = createMemo(() => tempSelectedDolls.map((doll) => doll.id));
+
+	const [pinnedIds, setPinnedIds] = createSignal<string[]>([]);
+	const snapshotPinned = () => setPinnedIds(tempSelectedDolls.map((doll) => doll.id));
+	onMount(snapshotPinned);
+
+	const dollOrder = (doll: DollData) => {
+		const i = pinnedIds().indexOf(doll.id);
+		return i !== -1 ? i : pinnedIds().length + visibleDollIndex(doll);
+	};
+
 	const toggleDoll = (id: string) => {
 		if (selectedDollIds().includes(id)) {
 			removeDollFromTempSelect(id);
@@ -34,12 +44,12 @@ export default function DollSelectorModal() {
 				el.classList.remove("show");
 			});
 			runAfterFramePaint(() => {
-				document.querySelectorAll(`.doll.${phase}`).forEach((el) => {
+				document.querySelectorAll(`.doll.${phase}, .doll.pinned`).forEach((el) => {
 					el.classList.remove("hide");
 					el.classList.add("show");
 				});
 				runAfterFramePaint(() => {
-					document.querySelectorAll(`.doll:not(.${phase})`).forEach((el) => {
+					document.querySelectorAll(`.doll:not(.${phase}):not(.pinned)`).forEach((el) => {
 						el.classList.add("hide");
 					});
 				});
@@ -62,6 +72,7 @@ export default function DollSelectorModal() {
 					{(tab) => (
 						<button
 							onClick={() => {
+								snapshotPinned();
 								setActivePhaseTab(tab);
 								toggleDollVisibility(tab);
 							}}
@@ -90,8 +101,9 @@ export default function DollSelectorModal() {
 									target={doll}
 									doll={doll}
 									selected={isSel()}
+									pinned={pinnedIds().includes(doll.id)}
 									onClick={() => toggleDoll(doll.id)}
-									style={`--animation-order: ${visibleDollIndex(doll)};order:${visibleDollIndex(doll)}`}
+									style={`--animation-order: ${dollOrder(doll)};order:${dollOrder(doll)}`}
 								/>
 							);
 						}}

@@ -438,7 +438,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 5,
-        "description": "<p>Before an allied unit is attacked, [summon:61b0aa09-37a4-45b1-8702-c0949369a8aa] restores <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability to them.</p>",
+        "description": "<p>Before an allied unit is attacked, {s2} restores <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability to them.</p>",
         "localImagePath": "data/balthilde/keys/Practical Modification.webp"
       },
       {
@@ -2000,7 +2000,7 @@
         "rarity": "Elite",
         "type": "Expansion Key",
         "number": 1,
-        "description": "<p>After using the active skill {s4}, use {s4} on all ally {e320}.</p><p>When {e428} is applied to an allied unit, [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of {e158}, lasting for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, and stacking up to <span style=\"color: rgb(243, 109, 28);\">6 times</span>.</p><p>After an allied unit with the {e428} buff receives healing, apply {e414} to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "description": "<p>After using the active skill {j4}, use {j4} on all ally {e320}.</p><p>When {e428} is applied to an allied unit, {s4} gains <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of {e158}, lasting for <span style=\"color: rgb(243, 109, 28);\">3 turns</span>, and stacking up to <span style=\"color: rgb(243, 109, 28);\">6 times</span>.</p><p>After an allied unit with the {e428} buff receives healing, apply {e414} to them for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
         "localImagePath": "data/florence/keys/Thrill Seeker1.webp"
       },
       {
@@ -2018,7 +2018,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 2,
-        "description": "<p>After using active skills, Florence and [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] recover HP equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack.</p>",
+        "description": "<p>After using active skills, Florence and {s4} recover HP equal to <span style=\"color: rgb(243, 109, 28);\">80%</span> of attack.</p>",
         "localImagePath": "data/florence/keys/Self-Pleasure.webp"
       },
       {
@@ -2027,7 +2027,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 3,
-        "description": "<p>After Florence or [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] attacks, applies {e134} on the enemy unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "description": "<p>After Florence or {s4} attacks, applies {e134} on the enemy unit for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
         "localImagePath": "data/florence/keys/Sensitivity Boost.webp"
       },
       {
@@ -2036,7 +2036,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 4,
-        "description": "<p>After [summon:317113f0-6c6d-4e74-beec-8f0aa1034d4b] launches a {e101}, it gains {e29} for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "description": "<p>After {s4} launches a {e101}, it gains {e29} for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
         "localImagePath": "data/florence/keys/Riposte's Reward.webp"
       },
       {
@@ -3124,7 +3124,7 @@
         "rarity": "Elite",
         "type": "Expansion Key",
         "number": 1,
-        "description": "<p>The effects of {e305} is improved: defense reduction is further increased by <span style=\"color: rgb(243, 109, 28);\">6%</span>.</p><p>When Lainie uses {s1}, {s3}, or {s4}, or when her Simulacrum uses [skillsummon:d0c6e2f0-c724-4371-a75b-1b1ef341c95c], [skillsummon:4f518e69-5842-47b0-9865-3bcaea78f4c0], or [skillsummon:c9ffdd7a-0c85-4249-b62a-8dd44c0e1cdd], for <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index Lainie possesses, critical damage dealt by Lainie and her Simulacrum is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p><p>While her Simulacrum is alive, the mobility of Lainie and her Simulacrum is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p>",
+        "description": "<p>The effects of {e305} is improved: defense reduction is further increased by <span style=\"color: rgb(243, 109, 28);\">6%</span>.</p><p>When Lainie uses {j1}, {j3}, or {j4}, or when her Simulacrum uses [skillsummon:d0c6e2f0-c724-4371-a75b-1b1ef341c95c], [skillsummon:4f518e69-5842-47b0-9865-3bcaea78f4c0], or [skillsummon:c9ffdd7a-0c85-4249-b62a-8dd44c0e1cdd], for <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index Lainie possesses, critical damage dealt by Lainie and her Simulacrum is increased by <span style=\"color: rgb(243, 109, 28);\">15%</span>.</p><p>While her Simulacrum is alive, the mobility of Lainie and her Simulacrum is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles</span>.</p>",
         "localImagePath": "data/lainie/keys/Algorithmic Stack1.webp"
       },
       {
@@ -3133,7 +3133,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 1,
-        "description": "<p>When Lainie or her [summon:a08dc1d8-105d-4c68-9c89-5955138f6365] is healed, they heal the other for <span style=\"color: rgb(243, 109, 28);\">20%</span> of max HP. This effect will not loop.</p>",
+        "description": "<p>When Lainie or her {s5} is healed, they heal the other for <span style=\"color: rgb(243, 109, 28);\">20%</span> of max HP. This effect will not loop.</p>",
         "localImagePath": "data/lainie/keys/Neural Bonds.webp"
       },
       {
@@ -3142,7 +3142,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 2,
-        "description": "<p>When either Lainie uses the active skill {s4} or her Simulacrum uses the active skill [skillsummon:c9ffdd7a-0c85-4249-b62a-8dd44c0e1cdd], the other will knock the target back by <span style=\"color: rgb(243, 109, 28);\">2</span><span style=\"color: rgb(243, 109, 28);\"> tiles</span> after executing their command.</p>",
+        "description": "<p>When either Lainie uses the active skill {j4} or her Simulacrum uses the active skill [skillsummon:c9ffdd7a-0c85-4249-b62a-8dd44c0e1cdd], the other will knock the target back by <span style=\"color: rgb(243, 109, 28);\">2</span><span style=\"color: rgb(243, 109, 28);\"> tiles</span> after executing their command.</p>",
         "localImagePath": "data/lainie/keys/Bad Stuff, Go Away!.webp"
       },
       {
@@ -3151,7 +3151,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 3,
-        "description": "<p>At the end of the allied turn, if Lainie and her [summon:a08dc1d8-105d-4c68-9c89-5955138f6365] are <span style=\"color: rgb(243, 109, 28);\">more than or equal to 3 tiles</span> apart, both of them gain {e24} for <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">turn</span>.</p>",
+        "description": "<p>At the end of the allied turn, if Lainie and her {s5} are <span style=\"color: rgb(243, 109, 28);\">more than or equal to 3 tiles</span> apart, both of them gain {e24} for <span style=\"color: rgb(243, 109, 28);\">1</span> <span style=\"color: rgb(243, 109, 28);\">turn</span>.</p>",
         "localImagePath": "data/lainie/keys/Parapluie's Protection.webp"
       },
       {
@@ -3160,7 +3160,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 4,
-        "description": "<p>When the [summon:a08dc1d8-105d-4c68-9c89-5955138f6365] vanishes, resets the cooldown of the Ultimate Skill {s5}. This effect can only trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per battle.</p>",
+        "description": "<p>When the {s5} vanishes, resets the cooldown of the Ultimate Skill {j5}. This effect can only trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per battle.</p>",
         "localImagePath": "data/lainie/keys/Friend's Return.webp"
       },
       {
@@ -3169,7 +3169,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 5,
-        "description": "<p>When Lainie or her [summon:a08dc1d8-105d-4c68-9c89-5955138f6365] uses {s3} or [skillsummon:4f518e69-5842-47b0-9865-3bcaea78f4c0] respectively, if the target's defense is <span style=\"color: rgb(243, 109, 28);\">0 or lower</span>, randomly cleanses <span style=\"color: rgb(243, 109, 28);\">1 buff</span> from it.</p>",
+        "description": "<p>When Lainie or her {s5} uses {j3} or [skillsummon:4f518e69-5842-47b0-9865-3bcaea78f4c0] respectively, if the target's defense is <span style=\"color: rgb(243, 109, 28);\">0 or lower</span>, randomly cleanses <span style=\"color: rgb(243, 109, 28);\">1 buff</span> from it.</p>",
         "localImagePath": "data/lainie/keys/Sunlight's Warmth.webp"
       },
       {
@@ -3620,7 +3620,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 2,
-        "description": "<p>The effects of the passive skill {s2} are changed: it now applies {e464} to non-Burn attributed Dolls (excluding Lewis herself). They can still trigger {e486} even if their active skills or basic attacks do not deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>.</p>",
+        "description": "<p>The effects of the passive skill {j2} are changed: it now applies {e464} to non-Burn attributed Dolls (excluding Lewis herself). They can still trigger {e486} even if their active skills or basic attacks do not deal <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>.</p>",
         "localImagePath": "data/lewis/keys/Secret of Spreading Smiles.webp"
       },
       {
@@ -3629,7 +3629,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 3,
-        "description": "<p>The active skill {s4} and the Ultimate skill {s5} cleanse <span style=\"color: rgb(243, 109, 28);\">1</span> buff from target before they resolves.</p>",
+        "description": "<p>The active skill {j4} and the Ultimate skill {j5} cleanse <span style=\"color: rgb(243, 109, 28);\">1</span> buff from target before they resolves.</p>",
         "localImagePath": "data/lewis/keys/Protector of Innocence.webp"
       },
       {
@@ -3647,7 +3647,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 5,
-        "description": "<p>At the start of the turn, if there is a {e464} on the battlefield with {e350} greater than or equal to <span style=\"color: rgb(243, 109, 28);\">Rank II</span>, the range of the active skill {s4} and the Ultimate skill {s5} is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles </span>for the duration of the battle.</p>",
+        "description": "<p>At the start of the turn, if there is a {e464} on the battlefield with {e350} greater than or equal to <span style=\"color: rgb(243, 109, 28);\">Rank II</span>, the range of the active skill {j4} and the Ultimate skill {j5} is increased by <span style=\"color: rgb(243, 109, 28);\">2 tiles </span>for the duration of the battle.</p>",
         "localImagePath": "data/lewis/keys/Cuteness Is Justice.webp"
       },
       {
@@ -4017,7 +4017,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 1,
-        "description": "<p>When [summon:0b41f7fe-d147-4f25-ab7e-c3bce2882959] is in {e98} state, increase the damage dealt of both Liushih and [summon:0b41f7fe-d147-4f25-ab7e-c3bce2882959]  by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+        "description": "<p>When {s6} is in {e98} state, increase the damage dealt of both Liushih and {s6}  by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
         "localImagePath": "data/liushih/keys/Perfect Synergy.webp"
       },
       {
@@ -4035,7 +4035,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 3,
-        "description": "<p>When [summon:0b41f7fe-d147-4f25-ab7e-c3bce2882959] uses [skillsummon:76cc19ff-faff-48db-9086-345969c15b3a], cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target.</p>",
+        "description": "<p>When {s6} uses [skillsummon:76cc19ff-faff-48db-9086-345969c15b3a], cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target.</p>",
         "localImagePath": "data/liushih/keys/No Expense Spared.webp"
       },
       {
@@ -4044,7 +4044,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 4,
-        "description": "<p>[summon:0b41f7fe-d147-4f25-ab7e-c3bce2882959] is immune to control effects.</p>",
+        "description": "<p>{s6} is immune to control effects.</p>",
         "localImagePath": "data/liushih/keys/Unbreakable Will.webp"
       },
       {
@@ -4053,7 +4053,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 5,
-        "description": "<p>After using the active skill {s4}, Liushih gains <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of {e7}.</p>",
+        "description": "<p>After using the active skill {j4}, Liushih gains <span style=\"color: rgb(243, 109, 28);\">4 tiles</span> of {e7}.</p>",
         "localImagePath": "data/liushih/keys/Capital Expenditure.webp"
       },
       {
@@ -4062,7 +4062,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 6,
-        "description": "<p>After an ally {e320} (excluding [summon:0b41f7fe-d147-4f25-ab7e-c3bce2882959]) attacks, Liushih gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per unit per round.</p>",
+        "description": "<p>After an ally {e320} (excluding {s6}) attacks, Liushih gains <span style=\"color: rgb(243, 109, 28);\">1 point</span> of Confectance Index. This effect can trigger <span style=\"color: rgb(243, 109, 28);\">once</span> per unit per round.</p>",
         "localImagePath": "data/liushih/keys/Rallying Cry.webp"
       }
     ],
@@ -4601,7 +4601,7 @@
         "rarity": "Elite",
         "type": "Expansion Key",
         "number": 1,
-        "description": "<p>At the start of battle, Mechty enters into the {e409} state and gains an additional skill, {s6}.</p><p>If Mechty is in the {e409} state, at the start of her turn, consumes all points of Confectance Index and gains maximum stacks of {e408} for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index consumed, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff from herself and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of {e156} to all allied units for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p><p>If Mechty is in the {e409} state, at the end of her action, for <span style=\"color: rgb(243, 109, 28);\">each stack</span> of {e408} held by Mechty, she launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of {e493} against the nearest enemy unit, recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of Mechty's attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability to all allied units.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate note: While not stated, Mechty will lose </span>{e307} <span style=\"color: rgb(34, 139, 230);\">unless she is V1 or above while </span>{e409}.</p>",
+        "description": "<p>At the start of battle, Mechty enters into the {e409} state and gains an additional skill, {j6}.</p><p>If Mechty is in the {e409} state, at the start of her turn, consumes all points of Confectance Index and gains maximum stacks of {e408} for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>. For <span style=\"color: rgb(243, 109, 28);\">each point</span> of Confectance Index consumed, cleanses <span style=\"color: rgb(243, 109, 28);\">1</span> debuff from herself and applies <span style=\"color: rgb(243, 109, 28);\">1 stack</span> of {e156} to all allied units for <span style=\"color: rgb(243, 109, 28);\">1 round</span>.</p><p>If Mechty is in the {e409} state, at the end of her action, for <span style=\"color: rgb(243, 109, 28);\">each stack</span> of {e408} held by Mechty, she launches <span style=\"color: rgb(243, 109, 28);\">1 instance</span> of {e493} against the nearest enemy unit, recovers HP equal to <span style=\"color: rgb(243, 109, 28);\">10%</span> of Mechty's attack and <span style=\"color: rgb(243, 109, 28);\">1 point</span> of stability to all allied units.</p><p><span style=\"color: rgb(34, 139, 230);\">Dandegate note: While not stated, Mechty will lose </span>{e307} <span style=\"color: rgb(34, 139, 230);\">unless she is V1 or above while </span>{e409}.</p>",
         "localImagePath": "data/mechty/keys/Sleepberserking Syndrome1.webp"
       },
       {
@@ -4741,7 +4741,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 1,
-        "description": "<p>When the active skill {s4} deals damage, cleanse <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target.</p>",
+        "description": "<p>When the active skill {j4} deals damage, cleanse <span style=\"color: rgb(243, 109, 28);\">1</span> buff from the target.</p>",
         "localImagePath": "data/mityl/keys/Cinematic Presence.webp"
       },
       {
@@ -4750,7 +4750,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 2,
-        "description": "<p>[summon:e73da99f-1c69-402a-b2d2-c9c2b2b9cac8] can be manually controlled and is able to move.</p>",
+        "description": "<p>{s10} can be manually controlled and is able to move.</p>",
         "localImagePath": "data/mityl/keys/Disguised Performance.webp"
       },
       {
@@ -4768,7 +4768,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 4,
-        "description": "<p>When Mityl and her [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, apply {e169} to the target.</p>",
+        "description": "<p>When Mityl and her {s9} deal <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, apply {e169} to the target.</p>",
         "localImagePath": "data/mityl/keys/Tearjerker Performance.webp"
       },
       {
@@ -4777,7 +4777,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 5,
-        "description": "<p>At the start of battle, Mityl summons a [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03], both Mityl and the [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] are simultaneously treated as a Doll and a summon. The [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] has no skills and cannot move.<br><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: This Hologram is automatically summoned as a base verison of Mityl (Hologram - Mityl) which cannot move and does not have any skills. Just an extra body. This Hologram does not count towards the 2 Hologram limit from Skill 1.</span></p>",
+        "description": "<p>At the start of battle, Mityl summons a {s9}, both Mityl and the {s9} are simultaneously treated as a Doll and a summon. The {s9} has no skills and cannot move.<br><span style=\"color: rgb(34, 139, 230);\">Dandegate Note: This Hologram is automatically summoned as a base verison of Mityl (Hologram - Mityl) which cannot move and does not have any skills. Just an extra body. This Hologram does not count towards the 2 Hologram limit from Skill 1.</span></p>",
         "localImagePath": "data/mityl/keys/Jump on the Bandwagon.webp"
       },
       {
@@ -4786,7 +4786,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 6,
-        "description": "<p>When Mityl and [summon:e55ab1c4-8e53-4714-a984-3bd04f4efa03] deal damage while on a Hydro tile, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Damage dealt is further increased by <span style=\"color: rgb(243, 109, 28);\">5%</span> of each additional level of the Hydro tile.</p>",
+        "description": "<p>When Mityl and {s9} deal damage while on a Hydro tile, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>. Damage dealt is further increased by <span style=\"color: rgb(243, 109, 28);\">5%</span> of each additional level of the Hydro tile.</p>",
         "localImagePath": "data/mityl/keys/Indistinguishable.webp"
       }
     ],
@@ -5333,7 +5333,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 2,
-        "description": "<p>Upon gaining {e199}, the range of the basic attack {s1}, the active attacks {s4}, {s3}, and the Ultimate skill {s5} is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p>",
+        "description": "<p>Upon gaining {e199}, the range of the basic attack {j1}, the active attacks {j4}, {j3}, and the Ultimate skill {j5} is increased by <span style=\"color: rgb(243, 109, 28);\">1 tile</span>.</p>",
         "localImagePath": "data/nemesis-gnosis/keys/Sagacious Judgment.webp"
       },
       {
@@ -5360,7 +5360,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 5,
-        "description": "<p>Upon gaining {e388}, mobility is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p><p>After using {s4}, Nemesis: Gnosis gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of {e7}.</p>",
+        "description": "<p>Upon gaining {e388}, mobility is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p><p>After using {j4}, Nemesis: Gnosis gains <span style=\"color: rgb(243, 109, 28);\">5 tiles</span> of {e7}.</p>",
         "localImagePath": "data/nemesis-gnosis/keys/Prophet's Soliloquy.webp"
       },
       {
@@ -5369,7 +5369,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 6,
-        "description": "<p>When using the active skill {s3}, if ally units are <span style=\"color: rgb(243, 109, 28);\">within 4 tiles</span> range of Nemesis: Gnosis, Nemesis: Gnosis gains {e199}.</p><p>If no ally units are <span style=\"color: rgb(243, 109, 28);\">within 4 tiles</span> range of Nemesis: Gnosis, Nemesis: Gnosis gains {e388}.</p><p>{e199} and {e388} cannot co-exist; only one effect can be active at a time.</p>",
+        "description": "<p>When using the active skill {j3}, if ally units are <span style=\"color: rgb(243, 109, 28);\">within 4 tiles</span> range of Nemesis: Gnosis, Nemesis: Gnosis gains {e199}.</p><p>If no ally units are <span style=\"color: rgb(243, 109, 28);\">within 4 tiles</span> range of Nemesis: Gnosis, Nemesis: Gnosis gains {e388}.</p><p>{e199} and {e388} cannot co-exist; only one effect can be active at a time.</p>",
         "localImagePath": "data/nemesis-gnosis/keys/Blessings of Nirvana.webp"
       }
     ],
@@ -5757,7 +5757,7 @@
         "rarity": "Elite",
         "type": "Expansion Key",
         "number": 1,
-        "description": "<p>Damage dealt by [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>. When [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is on the battlefield, damage dealt by all allied {e320} is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. At the end of their action, they gain {e122} for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>The Confectance Index cost of the active skill {s4} is reduced by <span style=\"color: rgb(243, 109, 28);\">3 points</span> and when casted, [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of {e427}.</p>",
+        "description": "<p>Damage dealt by {s8} is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>. When {s8} is on the battlefield, damage dealt by all allied {e320} is increased by <span style=\"color: rgb(243, 109, 28);\">30%</span>. At the end of their action, they gain {e122} for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p><p>The Confectance Index cost of the active skill {j4} is reduced by <span style=\"color: rgb(243, 109, 28);\">3 points</span> and when casted, {s8} gains <span style=\"color: rgb(243, 109, 28);\">2 stacks</span> of {e427}.</p>",
         "localImagePath": "data/papasha/keys/Unbreakable Walls1.webp"
       },
       {
@@ -5766,7 +5766,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 1,
-        "description": "<p>When using the active skill <span style=\"color: rgb(34, 139, 230);\">Honor Guard</span> to attack a Large Target, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. The stability damage of the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc]<span style=\"color: rgb(34, 139, 230);\">'s</span> active skill <span style=\"color: rgb(34, 139, 230);\">Counter Terrorism Support</span> is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p>",
+        "description": "<p>When using the active skill <span style=\"color: rgb(34, 139, 230);\">Honor Guard</span> to attack a Large Target, increases damage dealt by <span style=\"color: rgb(243, 109, 28);\">20%</span>. The stability damage of the {s8}<span style=\"color: rgb(34, 139, 230);\">'s</span> active skill <span style=\"color: rgb(34, 139, 230);\">Counter Terrorism Support</span> is increased by <span style=\"color: rgb(243, 109, 28);\">2 points</span>.</p>",
         "localImagePath": "data/papasha/keys/Glory With Us.webp"
       },
       {
@@ -5775,7 +5775,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 2,
-        "description": "<p>When the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is undergoing {e392}, Papasha's damage deal is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
+        "description": "<p>When the {s8} is undergoing {e392}, Papasha's damage deal is increased by <span style=\"color: rgb(243, 109, 28);\">20%</span>.</p>",
         "localImagePath": "data/papasha/keys/Vow to Defend.webp"
       },
       {
@@ -5784,7 +5784,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 3,
-        "description": "<p>The [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] is unable to move independently, but its attack is increased by<span style=\"color: rgb(243, 109, 28);\"> 10%</span>.</p>",
+        "description": "<p>The {s8} is unable to move independently, but its attack is increased by<span style=\"color: rgb(243, 109, 28);\"> 10%</span>.</p>",
         "localImagePath": "data/papasha/keys/Unwavering Conviction.webp"
       },
       {
@@ -5793,7 +5793,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 4,
-        "description": "<p>When the active skill <span style=\"color: rgb(34, 139, 230);\">Joint Breakthrough</span> deals damage, if there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc], damage deal is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
+        "description": "<p>When the active skill <span style=\"color: rgb(34, 139, 230);\">Joint Breakthrough</span> deals damage, if there are no enemy units within <span style=\"color: rgb(243, 109, 28);\">3 tiles</span> around the {s8}, damage deal is increased by <span style=\"color: rgb(243, 109, 28);\">10%</span>.</p>",
         "localImagePath": "data/papasha/keys/Final Assault.webp"
       },
       {
@@ -5811,7 +5811,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 6,
-        "description": "<p>At the start of the turn, the unit with the lower attack between the use and the [summon:6a80e3ff-1f7c-481d-8976-ed6c8ecd73dc] gains {e3} for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
+        "description": "<p>At the start of the turn, the unit with the lower attack between the use and the {s8} gains {e3} for <span style=\"color: rgb(243, 109, 28);\">1 turn</span>.</p>",
         "localImagePath": "data/papasha/keys/Strength in Unity.webp"
       }
     ],
@@ -5933,7 +5933,7 @@
         "rarity": "Elite",
         "type": "Expansion Key",
         "number": 1,
-        "description": "<p>Basic attack now performs two attacks.</p><p>{e231} no longer reduces healing efffects.</p><p>For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of {e231}, damage taken by all units (other than Peri) is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p><p>The effects of the Passive skill {s2} are changed. When allied units (other than Peri) deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, it triggers her Confectance Index recovery effect.</p>",
+        "description": "<p>Basic attack now performs two attacks.</p><p>{e231} no longer reduces healing efffects.</p><p>For <span style=\"color: rgb(243, 109, 28);\">each stack</span> of {e231}, damage taken by all units (other than Peri) is reduced by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p><p>The effects of the Passive skill {j2} are changed. When allied units (other than Peri) deals <span style=\"color: rgb(237, 79, 18);\">Burn damage</span>, it triggers her Confectance Index recovery effect.</p>",
         "localImagePath": "data/peri/keys/Broker’s Scheme1.webp"
       },
       {
@@ -6071,7 +6071,7 @@
         "rarity": "Elite",
         "type": "Expansion Key",
         "number": 1,
-        "description": "<p>When dealing <span style=\"color: rgb(135, 120, 233);\">Corrosion Damage</span> to a target, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span> for <span style=\"color: rgb(243, 109, 28);\">each</span> debuff on them, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">25%</span>.</p><p>When the Ultimate skill {s5} hits the enemy target, it pulls them <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> toward this unit.</p><p>After every <span style=\"color: rgb(243, 109, 28);\">2 instances</span> of {e438} in <span style=\"color: rgb(243, 109, 28);\">1 round</span>, the next instance of {e438} is changed to deal AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to the target and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3×3 tile area of this unit</span> and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage.</p>",
+        "description": "<p>When dealing <span style=\"color: rgb(135, 120, 233);\">Corrosion Damage</span> to a target, damage dealt is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span> for <span style=\"color: rgb(243, 109, 28);\">each</span> debuff on them, to a maximum increase of <span style=\"color: rgb(243, 109, 28);\">25%</span>.</p><p>When the Ultimate skill {j5} hits the enemy target, it pulls them <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> toward this unit.</p><p>After every <span style=\"color: rgb(243, 109, 28);\">2 instances</span> of {e438} in <span style=\"color: rgb(243, 109, 28);\">1 round</span>, the next instance of {e438} is changed to deal AoE <span style=\"color: rgb(135, 120, 233);\">Corrosion Damage</span> equal to <span style=\"color: rgb(243, 109, 28);\">50%</span> of attack to the target and all enemy targets within a <span style=\"color: rgb(243, 109, 28);\">3×3 tile area of this unit</span> and <span style=\"color: rgb(243, 109, 28);\">2 points</span> of stability damage.</p>",
         "localImagePath": "data/peritya/keys/Feline Shadow1.webp"
       },
       {
@@ -6256,7 +6256,7 @@
         "rarity": "Standard",
         "type": "Fixed Key",
         "number": 6,
-        "description": "<p>After using active skill {s4}, gain <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of {e177}.</p>",
+        "description": "<p>After using active skill {j4}, gain <span style=\"color: rgb(243, 109, 28);\">6 tiles</span> of {e177}.</p>",
         "localImagePath": "data/phaetusa/keys/Trailing Phantom.webp"
       }
     ],
@@ -6668,7 +6668,7 @@
         "rarity": "Elite",
         "type": "Expansion Key",
         "number": 1,
-        "description": "<p>When possessing {e346}, after using a basic attack {s1}, gain {e176}, which can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p>After using active skill {s4} or whenever an enemy target possessing {e249} is killed, gain 3 stacks of {e394}.</p><p>Before actively attacking, generate {e213} tiles within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of self, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
+        "description": "<p>When possessing {e346}, after using a basic attack {j1}, gain {e176}, which can be triggered <span style=\"color: rgb(243, 109, 28);\">once</span> per turn.</p><p>After using active skill {j4} or whenever an enemy target possessing {e249} is killed, gain 3 stacks of {e394}.</p><p>Before actively attacking, generate {e213} tiles within <span style=\"color: rgb(243, 109, 28);\">2 tiles</span> of self, lasting for <span style=\"color: rgb(243, 109, 28);\">2 turns</span>.</p>",
         "localImagePath": "data/robella/keys/Justice Execution Algorithm1.webp"
       }
     ],
@@ -7448,7 +7448,7 @@
         "rarity": "Elite",
         "type": "Expansion Key",
         "number": 1,
-        "description": "<p>Active skill {s4} affects all friendly units.</p><p>After using Ultimate skill {s5}, [summon:a222f59b-e494-42e9-8586-d8f778d2d3d6] is summoned around the target.</p><p>When Elsin is present, damage dealt by all friendly {e320} is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>. When other friendly summons or {e449} deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, apply {e378} to the target.</p><p>When Elsin's passive skill [skillsummon:188dbcd7-4e61-4d8b-9e43-5787d0f8dedc] is triggered, consumes all {e378} stacks and for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, the damage multiplier of [skillsummon:188dbcd7-4e61-4d8b-9e43-5787d0f8dedc] is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
+        "description": "<p>Active skill {j4} affects all friendly units.</p><p>After using Ultimate skill {j5}, {s13} is summoned around the target.</p><p>When Elsin is present, damage dealt by all friendly {e320} is increased by <span style=\"color: rgb(243, 109, 28);\">50%</span>. When other friendly summons or {e449} deals <span style=\"color: rgb(43, 171, 218);\">Hydro damage</span>, apply {e378} to the target.</p><p>When Elsin's passive skill [skillsummon:188dbcd7-4e61-4d8b-9e43-5787d0f8dedc] is triggered, consumes all {e378} stacks and for <span style=\"color: rgb(243, 109, 28);\">each stack</span> consumed, the damage multiplier of [skillsummon:188dbcd7-4e61-4d8b-9e43-5787d0f8dedc] is increased by <span style=\"color: rgb(243, 109, 28);\">5%</span>.</p>",
         "localImagePath": "data/springfield/keys/Vigilant Bond1.webp"
       },
       {
@@ -7506,7 +7506,26 @@
         "localImagePath": "data/springfield/keys/Gentle Ministrations.webp"
       }
     ],
-    "summons": []
+    "summons": [
+      {
+        "name": "Elsin",
+        "id": "s13",
+        "localImagePath": "data/springfield/Elsin.webp",
+        "skills": [
+          {
+            "name": "Peck",
+            "id": 1,
+            "localImagePath": "data/springfield/skills/Peck.webp",
+            "type": "Passive",
+            "tags": [
+              "Passive",
+              "Targeted"
+            ],
+            "range": "Map"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "d48",

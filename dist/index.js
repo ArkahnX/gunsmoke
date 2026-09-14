@@ -3308,7 +3308,6 @@ function drawSpawn(ctx3, c, r) {
   const y = cellY(r);
   const mapCoord = gridKey(c, r, mapGrid.width);
   const priority = mapGrid.priority.indexOf(mapCoord);
-  console.log(priority, mapGrid.priority, mapCoord, c, r);
   ctx3.fillStyle = "rgba(18,60,180,0.18)";
   ctx3.fillRect(x + 1, y + 1, TILE_SIZE - 2, TILE_SIZE - 2);
   ctx3.strokeStyle = "#3070ee";
@@ -7679,7 +7678,7 @@ function DollChip(props) {
     }));
     insert(_el$5, () => props.target.name);
     createRenderEffect((_p$) => {
-      var _v$ = props.style, _v$2 = `doll ${phase} All show h-40.5 w-31.5 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50 ${interactiveStyles(props.selected)}`, _v$3 = `relative flex justify-center border-b-4 bg-[#C9C8CD] ${props.doll.rarity === "Elite" ? "border-b-[#DF9E00]" : "border-b-[#7968BA]"}`, _v$4 = props.target.avatar;
+      var _v$ = props.style, _v$2 = `doll ${phase} All show ${props.pinned ? "pinned" : ""} h-40.5 w-31.5 flex-col overflow-hidden rounded-sm shadow-sm shadow-black/50 ${interactiveStyles(props.selected)}`, _v$3 = `relative flex justify-center border-b-4 bg-[#C9C8CD] ${props.doll.rarity === "Elite" ? "border-b-[#DF9E00]" : "border-b-[#7968BA]"}`, _v$4 = props.target.avatar;
       _p$.e = style(_el$, _v$, _p$.e);
       _v$2 !== _p$.t && className(_el$, _p$.t = _v$2);
       _v$3 !== _p$.a && className(_el$2, _p$.a = _v$3);
@@ -7703,6 +7702,13 @@ var _tmpl$314 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex 
 var _tmpl$410 = /* @__PURE__ */ template(`<button><div class="h-6 w-6"></div><span>`);
 function DollSelectorModal() {
   const selectedDollIds = createMemo(() => tempSelectedDolls.map((doll) => doll.id));
+  const [pinnedIds, setPinnedIds] = createSignal([]);
+  const snapshotPinned = () => setPinnedIds(tempSelectedDolls.map((doll) => doll.id));
+  onMount(snapshotPinned);
+  const dollOrder = (doll) => {
+    const i = pinnedIds().indexOf(doll.id);
+    return i !== -1 ? i : pinnedIds().length + visibleDollIndex(doll);
+  };
   const toggleDoll = (id) => {
     if (selectedDollIds().includes(id)) {
       removeDollFromTempSelect(id);
@@ -7716,12 +7722,12 @@ function DollSelectorModal() {
         el.classList.remove("show");
       });
       runAfterFramePaint(() => {
-        document.querySelectorAll(`.doll.${phase}`).forEach((el) => {
+        document.querySelectorAll(`.doll.${phase}, .doll.pinned`).forEach((el) => {
           el.classList.remove("hide");
           el.classList.add("show");
         });
         runAfterFramePaint(() => {
-          document.querySelectorAll(`.doll:not(.${phase})`).forEach((el) => {
+          document.querySelectorAll(`.doll:not(.${phase}):not(.pinned)`).forEach((el) => {
             el.classList.add("hide");
           });
         });
@@ -7737,6 +7743,7 @@ function DollSelectorModal() {
       children: (tab) => (() => {
         var _el$5 = _tmpl$410(), _el$6 = _el$5.firstChild, _el$7 = _el$6.nextSibling;
         _el$5.$$click = () => {
+          snapshotPinned();
           setActivePhaseTab(tab);
           toggleDollVisibility(tab);
         };
@@ -7764,9 +7771,12 @@ function DollSelectorModal() {
           get selected() {
             return isSel();
           },
+          get pinned() {
+            return pinnedIds().includes(doll.id);
+          },
           onClick: () => toggleDoll(doll.id),
           get style() {
-            return `--animation-order: ${visibleDollIndex(doll)};order:${visibleDollIndex(doll)}`;
+            return `--animation-order: ${dollOrder(doll)};order:${dollOrder(doll)}`;
           }
         });
       }
