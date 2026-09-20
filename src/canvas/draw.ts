@@ -26,9 +26,9 @@ export function drawFloor(ctx: CanvasRenderingContext2D, c: number, r: number) {
 
 export function drawSpawn(ctx: CanvasRenderingContext2D, c: number, r: number) {
 	const x = cellX(c);
-		const y = cellY(r);
-		const mapCoord = gridKey(c, r);
-const priority = mapGrid.priority.indexOf(mapCoord);
+	const y = cellY(r);
+	const mapCoord = gridKey(c, r);
+	const priority = mapGrid.priority.indexOf(mapCoord);
 	ctx.fillStyle = "rgba(18,60,180,0.18)";
 	ctx.fillRect(x + 1, y + 1, TILE_SIZE - 2, TILE_SIZE - 2);
 	ctx.strokeStyle = "#3070ee";
@@ -67,10 +67,10 @@ const priority = mapGrid.priority.indexOf(mapCoord);
 	ctx.font = `bold 5px Roboto, sans-serif`;
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
-	const text = (priority+1) + "\nPriority";
+	const text = priority + 1 + "\nPriority";
 	const labelW = Math.ceil(ctx.measureText(text).width);
 	ctx.fillStyle = "#4888ff";
-	ctx.fillText(text, x + (labelW / 5), y + 3);
+	ctx.fillText(text, x + labelW / 5, y + 3);
 }
 
 export function drawHBoundary(ctx: CanvasRenderingContext2D, c: number, r: number) {
@@ -382,9 +382,9 @@ export function drawMapTilesOnArena(ctx: CanvasRenderingContext2D, drag: DragSta
 		entry.obscured = obscured(entry.x, entry.y, entry.id, entry.instanceId, dolls);
 	}
 	distance(dolls);
-	for (let row = 0; row < mapGrid.size; row++) for (let col = 0; col < mapGrid.size; col++) drawFloor(ctx, col, row);
-	for (let row = 0; row < mapGrid.size; row++) {
-		for (let col = 0; col < mapGrid.size; col++) {
+	for (let row = 0; row < mapGrid.height; row++) for (let col = 0; col < mapGrid.width; col++) drawFloor(ctx, col, row);
+	for (let row = 0; row < mapGrid.height; row++) {
+		for (let col = 0; col < mapGrid.width; col++) {
 			const cell = mapGrid.tiles[gridKey(col, row)];
 			const cellBelow = mapGrid.tiles[gridKey(col, row + 1)];
 			const cellRight = mapGrid.tiles[gridKey(col + 1, row)];
@@ -404,8 +404,8 @@ export function drawMapTilesOnArena(ctx: CanvasRenderingContext2D, drag: DragSta
 		}
 	}
 	// draw labels on a separate loop to ensure they are always on top
-	for (let row = 0; row < mapGrid.size; row++) {
-		for (let col = 0; col < mapGrid.size; col++) {
+	for (let row = 0; row < mapGrid.height; row++) {
+		for (let col = 0; col < mapGrid.width; col++) {
 			const doll = dolls.find((doll) => doll.x === col && doll.y === row);
 			if (doll) {
 				drawDollLabelOnCanvas(ctx, doll);

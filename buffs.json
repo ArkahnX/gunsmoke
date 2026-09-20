@@ -1,590 +1,408 @@
 [
-  {
-    "name": "Acidic Absorption",
-    "description": "When this unit possesses a <color=#8679e8>Corrosion</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
-    "id": "b1",
-    "season": 30,
-    "days": {
-      "26": [
-        1,
-        5
-      ],
-      "30": [
-        1,
-        5
-      ]
-    },
-    "localImagePath": "data/buffs/Acidic Absorption.png"
-  },
-  {
-    "name": "Arc Hammer",
-    "description": "Increase Physical and Electric damage and critical rate by <color=#f26c1c>30%</color>.",
-    "id": "b2",
-    "season": 29,
-    "core": true,
-    "localImagePath": "data/buffs/Arc Hammer.png"
-  },
-  {
-    "name": "Burn Drain",
-    "description": "When this unit has a <color=#e67129>Burn</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
-    "id": "b4",
-    "season": 30,
-    "days": {
-      "26": [
-        2,
-        4
-      ],
-      "27": [
-        0,
-        1,
-        3,
-        6
-      ],
-      "30": [
-        2,
-        4,
-        5
-      ]
-    },
-    "localImagePath": "data/buffs/Burn Drain.png"
-  },
-  {
-    "name": "Chain Acid Swamp",
-    "description": "When dealing damage to an enemy target, if they are afflicted by Corrosion debuff, increases critical damage against them by <color=#f26c1c>25%</color>.",
-    "id": "b6",
-    "season": 27,
-    "days": {
-      "25": [
-        2,
-        5
-      ],
-      "26": [
-        2,
-        3,
-        4,
-        6
-      ],
-      "27": [
-        2,
-        4,
-        5
-      ]
-    },
-    "localImagePath": "data/buffs/Chain Acid Swamp.png"
-  },
-  {
-    "name": "Chain Surge",
-    "description": "When dealing damage to an enemy target, if they are afflicted by a Hydro debuff, increases the critical damage dealt against them by <color=#f26c1c>25%</color>.",
-    "id": "b8",
-    "season": 27,
-    "days": {
-      "27": [
-        1,
-        5
-      ]
-    },
-    "localImagePath": "data/buffs/Chain Surge.png"
-  },
-  {
-    "name": "Chained Current",
-    "description": "If an enemy is afflicted by an Electric debuff, increase critical damage against them by <color=#f26c1c>25%</color>.",
-    "id": "b9",
-    "season": 29,
-    "days": {
-      "29": [
-        2,
-        3,
-        4,
-        6
-      ]
-    },
-    "localImagePath": "data/buffs/Chained Current.png"
-  },
-  {
-    "name": "Charged Piercing",
-    "description": "When this unit has <color=#f26c1c>4 or more</color> buffs, attacks ignore <color=#f26c1c>25%</color> of the target's defense.",
-    "id": "b11",
-    "season": 30,
-    "days": {
-      "30": [
-        2,
-        4
-      ]
-    },
-    "localImagePath": "data/buffs/Charged Piercing.png"
-  },
-  {
-    "name": "Close-Range Shooting",
-    "description": "Damage dealt is increased by <color=#f26c1c>20%</color> when distance to the enemy target is less than or equal to <color=#f26c1c>6 tiles</color>.",
-    "id": "b12",
-    "season": 29,
-    "days": {
-      "25": [
-        2,
-        3,
-        4,
-        6
-      ],
-      "27": [
-        1,
-        5
-      ],
-      "28": [
-        0,
-        3
-      ],
-      "29": [
-        0,
-        3
-      ]
-    },
-    "localImagePath": "data/buffs/Close-Range Shooting.png"
-  },
-  {
-    "name": "Complementarity Plan",
-    "description": "For every <color=#f26c1c>2000</color> points of <color=#f26c1c>healing</color> or <color=#f26c1c>shield</color> applied to allies by Support Dolls, gain <color=#f26c1c>1 stack</color> of <color=#3487e0>Complementarity Plan</color>.",
-    "id": "b13",
-    "season": 25,
-    "days": {
-      "25": [
-        2,
-        4
-      ]
-    },
-    "localImagePath": "data/buffs/Complementarity Plan.png"
-  },
-  {
-    "name": "Confectant Resonance",
-    "description": "If this unit's has <color=#f26c1c>2 or more</color> points of Confectance Index at the start of the round, damage dealt is increased by <color=#f26c1c>25%</color> until the end of the round.",
-    "id": "b14",
-    "season": 25,
-    "days": {
-      "25": [
-        0,
-        1,
-        3,
-        6
-      ]
-    },
-    "localImagePath": "data/buffs/Confectant Resonance.png"
-  },
-  {
-    "name": "Coordinated Support",
-    "description": "Damage dealt by allied summoned units is increased by <color=#f26c1c>50%</color>.",
-    "id": "b15",
-    "season": 28,
-    "days": {
-      "28": [
-        0,
-        1,
-        3,
-        6
-      ]
-    },
-    "localImagePath": "data/buffs/Coordinated Support.png"
-  },
-  {
-    "name": "Corrosion Overdrive",
-    "description": "Corrosion damage is increased by <color=#f26c1c>20%</color>.",
-    "id": "b16",
-    "season": 25,
-    "days": {
-      "25": [
-        1,
-        5
-      ]
-    },
-    "localImagePath": "data/buffs/Corrosion Overdrive.png"
-  },
-  {
-    "name": "Corrupt Arc",
-    "description": "Increases Electric and Corrosion damage and their critical rate by <color=#f26c1c>30%</color>.",
-    "id": "b18",
-    "season": 26,
-    "core": true,
-    "localImagePath": "data/buffs/Corrupt Arc.png"
-  },
-  {
-    "name": "Corrupting Spark",
-    "description": "Increases Corrosion and Burn damage and their critical rate by <color=#f26c1c>30%</color>.",
-    "id": "b19",
-    "season": 27,
-    "core": true,
-    "localImagePath": "data/buffs/Corrupting Spark.png"
-  },
-  {
-    "name": "Destabilized Execution",
-    "description": "Critical damage dealt to targets with <color=#f26c1c>0</color> stability is increased by <color=#f26c1c>25%</color>.",
-    "id": "b21",
-    "season": 30,
-    "days": {
-      "28": [
-        2,
-        3,
-        4,
-        6
-      ],
-      "29": [
-        0,
-        4,
-        6
-      ],
-      "30": [
-        2,
-        5
-      ]
-    },
-    "localImagePath": "data/buffs/Destabilized Execution.png"
-  },
-  {
-    "name": "Disarraying Reinforcement",
-    "description": "When performing a Support Attack, critical damage is increased by <color=#f26c1c>3%</color> and the attack ignores <color=#f26c1c>5%</color> of the target's defense, can stack up to <color=#f26c1c>5 times</color>.",
-    "id": "b22",
-    "season": 29,
-    "days": {
-      "27": [
-        2,
-        3,
-        4,
-        6
-      ],
-      "29": [
-        2,
-        4
-      ]
-    },
-    "localImagePath": "data/buffs/Disarraying Reinforcement.png"
-  },
-  {
-    "name": "Electric Drain",
-    "description": "When this unit has an <color=#d4ae08>Electric</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
-    "id": "b23",
-    "season": 30,
-    "days": {
-      "26": [
-        0,
-        3
-      ],
-      "27": [
-        2,
-        4
-      ],
-      "30": [
-        2,
-        3,
-        4,
-        6
-      ]
-    },
-    "localImagePath": "data/buffs/Electric Drain.png"
-  },
-  {
-    "name": "Firepower Overmatch",
-    "description": "At the start of battle, gain <color=#f26c1c>10 stacks</color> of <color=#3487e0>Firepower Overmatch</color>.\nFirepower Overmatch:\nDamage dealt is increased by <color=#f26c1c>3%</color>, critical damage is increased by <color=#f26c1c>2%</color>. Stacks up to <color=#f26c1c>50 times</color>. Remove <color=#f26c1c>1 stack</color> for <color=#f26c1c>each tile</color> moved.",
-    "id": "b27",
-    "season": 30,
-    "days": {
-      "26": [
-        2,
-        4,
-        5
-      ],
-      "30": [
-        0,
-        1,
-        3,
-        7
-      ]
-    },
-    "localImagePath": "data/buffs/Firepower Overmatch.png"
-  },
-  {
-    "name": "Focused Phalanx",
-    "description": "When shielded, attacks ignore <color=#f26c1c>20%</color> of the target's defense and critical damage is increased by <color=#f26c1c>10%</color>.",
-    "id": "b28",
-    "season": 27,
-    "days": {
-      "25": [
-        2,
-        4,
-        5
-      ],
-      "27": [
-        0,
-        4,
-        6
-      ]
-    },
-    "localImagePath": "data/buffs/Focused Phalanx.png"
-  },
-  {
-    "name": "Freeze Drain",
-    "description": "When this unit has a <color=#42cce0>Freeze</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
-    "id": "b29",
-    "season": 30,
-    "days": {
-      "26": [
-        0,
-        1,
-        3,
-        6
-      ],
-      "30": [
-        0,
-        3
-      ]
-    },
-    "localImagePath": "data/buffs/Freeze Drain.png"
-  },
-  {
-    "name": "Global Damage Boost",
-    "description": "Damage and critical rate for all phase damage types (not including Physical) is increased by <span style=\"color: #f26c1c\">30%</span>.",
-    "id": "b34",
-    "season": 30,
-    "core": true,
-    "localImagePath": "data/buffs/Global Damage Boost.png"
-  },
-  {
-    "name": "Hydro Drain",
-    "description": "When this unit has a <color=#2caadb>Hydro</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
-    "id": "b38",
-    "season": 30,
-    "days": {
-      "28": [
-        2,
-        5
-      ],
-      "29": [
-        2,
-        5
-      ],
-      "30": [
-        0,
-        1,
-        3,
-        6
-      ]
-    },
-    "localImagePath": "data/buffs/Hydro Drain.png"
-  },
-  {
-    "name": "Light Penetration",
-    "description": "Light Ammo ignores <color=#f26c1c>50%</color> of target's defense.",
-    "id": "b45",
-    "season": 29,
-    "days": {
-      "25": [
-        0,
-        3
-      ],
-      "27": [
-        0,
-        1,
-        3,
-        6
-      ],
-      "28": [
-        1,
-        5
-      ],
-      "29": [
-        2,
-        4,
-        5
-      ]
-    },
-    "localImagePath": "data/buffs/Light Penetration.png"
-  },
-  {
-    "name": "Mounting Synergy",
-    "description": "For every <color=#f26c1c>1 allied unit</color> within <color=#f26c1c>5 tiles</color>, damage dealt is increased by <color=#f26c1c>6%</color>.",
-    "id": "b49",
-    "season": 28,
-    "days": {
-      "25": [
-        0,
-        4,
-        6
-      ],
-      "26": [
-        2,
-        5
-      ],
-      "27": [
-        0,
-        3
-      ],
-      "28": [
-        1,
-        5
-      ]
-    },
-    "localImagePath": "data/buffs/Mounting Synergy.png"
-  },
-  {
-    "name": "Overpressure Rupture",
-    "description": "Sentinel-class Dolls' critical damage is increased by <color=#f26c1c>25%</color>.",
-    "id": "b51",
-    "season": 30,
-    "days": {
-      "25": [
-        1,
-        5
-      ],
-      "26": [
-        0,
-        4,
-        6
-      ],
-      "30": [
-        1,
-        5
-      ]
-    },
-    "localImagePath": "data/buffs/Overpressure Rupture.png"
-  },
-  {
-    "name": "Overwhelming Smash",
-    "description": "Increases Physical damage dealt by <color=#f26c1c>30%</color>.",
-    "id": "b52",
-    "season": 29,
-    "days": {
-      "28": [
-        0,
-        4,
-        6
-      ],
-      "29": [
-        0,
-        1,
-        3,
-        6
-      ]
-    },
-    "localImagePath": "data/buffs/Overwhelming Smash.png"
-  },
-  {
-    "name": "Putrid Cold Wave",
-    "description": "Increases Corrosion and Freeze damage and their critical rate by <color=#f26c1c>30%</color>.",
-    "id": "b55",
-    "season": 25,
-    "core": true,
-    "localImagePath": "data/buffs/Putrid Cold Wave.png"
-  },
-  {
-    "name": "Sanguine Shower",
-    "description": "When this unit's HP is <color=#f26c1c>greater than or equal to 100%</color>, attacks ignore <color=#f26c1c>30%</color> of the target's defense.",
-    "id": "b58",
-    "season": 30,
-    "days": {
-      "28": [
-        0,
-        1,
-        3,
-        6
-      ],
-      "29": [
-        0,
-        1,
-        3,
-        6
-      ],
-      "30": [
-        0,
-        4,
-        6
-      ]
-    },
-    "localImagePath": "data/buffs/Sanguine Shower.png"
-  },
-  {
-    "name": "Shield Pierce",
-    "description": "When the target has a shield, attacks ignore <color=#f26c1c>30%</color> of the target's defense.",
-    "id": "b59",
-    "season": 28,
-    "days": {
-      "28": [
-        2,
-        4,
-        5
-      ]
-    },
-    "localImagePath": "data/buffs/Shield Pierce.png"
-  },
-  {
-    "name": "Shieldbreaker Calamity",
-    "description": "Against targets with <color=#f26c1c>2 or more</color> <color=#f26c1c>Defense-type debuffs</color>, critical damage is increased by <color=#f26c1c>25%</color>.",
-    "id": "b60",
-    "season": 29,
-    "days": {
-      "29": [
-        1,
-        5
-      ]
-    },
-    "localImagePath": "data/buffs/Shieldbreaker Calamity.png"
-  },
-  {
-    "name": "Speedy Offensive",
-    "description": "For every <color=#f26c1c>5 tiles</color> moved, damage dealt is permanently increased by <color=#f26c1c>5%</color>. Maximum of <color=#f26c1c>10 stacks</color>.",
-    "id": "b61",
-    "season": 29,
-    "days": {
-      "26": [
-        1,
-        5
-      ],
-      "27": [
-        2,
-        5
-      ],
-      "29": [
-        1,
-        5
-      ]
-    },
-    "localImagePath": "data/buffs/Speedy Offensive.png"
-  },
-  {
-    "name": "Sustained Offensive",
-    "description": "For every <color=#f26c1c>1 instance</color> of fixed damage taken by an enemy, all damage dealt by allied units is permanently increased by <color=#f26c1c>2%</color>. Maximum of 15 stacks.",
-    "id": "b65",
-    "season": 28,
-    "days": {
-      "26": [
-        0,
-        1,
-        3,
-        6
-      ],
-      "28": [
-        2,
-        4
-      ]
-    },
-    "localImagePath": "data/buffs/Sustained Offensive.png"
-  },
-  {
-    "name": "Undaunted Spirit",
-    "description": "<color=#f26c1c>Each time</color> a Bulwark-class Doll takes damage, gain <color=#f26c1c>1 stack</color> of <color=#3487e0>Undaunted Spirit</color>.",
-    "id": "b67",
-    "season": 25,
-    "days": {
-      "25": [
-        0,
-        1,
-        3,
-        6
-      ]
-    },
-    "localImagePath": "data/buffs/Undaunted Spirit.png"
-  },
-  {
-    "name": "Water Hammer",
-    "description": "Increase Physical and Hydro damage and critical rate by <color=#f26c1c>30%</color>.",
-    "id": "b68",
-    "season": 28,
-    "core": true,
-    "localImagePath": "data/buffs/Water Hammer.png"
-  }
+	{
+		"name": "Acidic Absorption",
+		"description": "When this unit possesses a <color=#8679e8>Corrosion</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+		"id": "b1",
+		"season": 30,
+		"days": {
+			"26": [1, 5],
+			"30": [1, 5]
+		},
+		"localImagePath": "data/buffs/Acidic Absorption.png"
+	},
+	{
+		"name": "Arc Hammer",
+		"description": "Increase Physical and Electric damage and critical rate by <color=#f26c1c>30%</color>.",
+		"id": "b2",
+		"season": 29,
+		"core": true,
+		"localImagePath": "data/buffs/Arc Hammer.png"
+	},
+	{
+		"name": "Burn Drain",
+		"description": "When this unit has a <color=#e67129>Burn</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+		"id": "b4",
+		"season": 31,
+		"days": {
+			"26": [2, 4],
+			"27": [0, 1, 3, 6],
+			"30": [2, 4, 5],
+			"31": [2, 4, 5]
+		},
+		"localImagePath": "data/buffs/Burn Drain.png"
+	},
+	{
+		"name": "Chain Acid Swamp",
+		"description": "When dealing damage to an enemy target, if they are afflicted by Corrosion debuff, increases critical damage against them by <color=#f26c1c>25%</color>.",
+		"id": "b6",
+		"season": 27,
+		"days": {
+			"25": [2, 5],
+			"26": [2, 3, 4, 6],
+			"27": [2, 4, 5]
+		},
+		"localImagePath": "data/buffs/Chain Acid Swamp.png"
+	},
+	{
+		"name": "Chain Surge",
+		"description": "When dealing damage to an enemy target, if they are afflicted by a Hydro debuff, increases the critical damage dealt against them by <color=#f26c1c>25%</color>.",
+		"id": "b8",
+		"season": 27,
+		"days": {
+			"27": [1, 5]
+		},
+		"localImagePath": "data/buffs/Chain Surge.png"
+	},
+	{
+		"name": "Chained Current",
+		"description": "If an enemy is afflicted by an Electric debuff, increase critical damage against them by <color=#f26c1c>25%</color>.",
+		"id": "b9",
+		"season": 29,
+		"days": {
+			"29": [2, 3, 4, 6]
+		},
+		"localImagePath": "data/buffs/Chained Current.png"
+	},
+	{
+		"name": "Chain Ice Edge",
+		"description": "If an enemy is afflicted by Freeze debuffs, critical damage against them is increased by <span style=\"color: #f26c1c\">25%</span>.",
+		"id": "b7",
+		"season": 31,
+		"days": {
+			"31": [0, 1, 3, 6]
+		},
+		"localImagePath": "data/buffs/Chain Ice Edge.png"
+	},
+	{
+		"name": "Chained Spark",
+		"description": "Critical damage against targets with Burn debuffs is increased by <span style=\"color: #f26c1c\">25%</span>.",
+		"season": 31,
+		"id": "b10",
+		"days": {
+			"31": [1, 5]
+		},
+		"localImagePath": "data/buffs/Chained Spark.png"
+	},
+	{
+		"name": "Wide-Area Damage",
+		"description": "Increases AoE Damage dealt by <span style=\"color: #f26c1c\">12%</span>.",
+		"season": 31,
+		"id": "b69",
+		"days": {
+			"31": [2, 5]
+		},
+		"localImagePath": "data/buffs/Wide-Area Damage.png"
+	},
+	{
+		"name": "Medium Penetration",
+		"description": "Medium Ammo ignores <span style=\"color: #f26c1c\">50%</span> of target's defense.",
+		"season": 31,
+		"id": "b48",
+		"days": {
+			"31": [2, 3, 4, 6]
+		},
+		"localImagePath": "data/buffs/Medium Penetration.png"
+	},
+	{
+		"name": "Charged Piercing",
+		"description": "When this unit has <color=#f26c1c>4 or more</color> buffs, attacks ignore <color=#f26c1c>25%</color> of the target's defense.",
+		"id": "b11",
+		"season": 30,
+		"days": {
+			"30": [2, 4]
+		},
+		"localImagePath": "data/buffs/Charged Piercing.png"
+	},
+	{
+		"name": "Close-Range Shooting",
+		"description": "Damage dealt is increased by <color=#f26c1c>20%</color> when distance to the enemy target is less than or equal to <color=#f26c1c>6 tiles</color>.",
+		"id": "b12",
+		"season": 29,
+		"days": {
+			"25": [2, 3, 4, 6],
+			"27": [1, 5],
+			"28": [0, 3],
+			"29": [0, 3]
+		},
+		"localImagePath": "data/buffs/Close-Range Shooting.png"
+	},
+	{
+		"name": "Complementarity Plan",
+		"description": "For every <color=#f26c1c>2000</color> points of <color=#f26c1c>healing</color> or <color=#f26c1c>shield</color> applied to allies by Support Dolls, gain <color=#f26c1c>1 stack</color> of <color=#3487e0>Complementarity Plan</color>.",
+		"id": "b13",
+		"season": 25,
+		"days": {
+			"25": [2, 4]
+		},
+		"localImagePath": "data/buffs/Complementarity Plan.png"
+	},
+	{
+		"name": "Confectant Resonance",
+		"description": "If this unit's has <color=#f26c1c>2 or more</color> points of Confectance Index at the start of the round, damage dealt is increased by <color=#f26c1c>25%</color> until the end of the round.",
+		"id": "b14",
+		"season": 25,
+		"days": {
+			"25": [0, 1, 3, 6]
+		},
+		"localImagePath": "data/buffs/Confectant Resonance.png"
+	},
+	{
+		"name": "Coordinated Support",
+		"description": "Damage dealt by allied summoned units is increased by <color=#f26c1c>50%</color>.",
+		"id": "b15",
+		"season": 28,
+		"days": {
+			"28": [0, 1, 3, 6]
+		},
+		"localImagePath": "data/buffs/Coordinated Support.png"
+	},
+	{
+		"name": "Corrosion Overdrive",
+		"description": "Corrosion damage is increased by <color=#f26c1c>20%</color>.",
+		"id": "b16",
+		"season": 25,
+		"days": {
+			"25": [1, 5]
+		},
+		"localImagePath": "data/buffs/Corrosion Overdrive.png"
+	},
+	{
+		"name": "Corrupt Arc",
+		"description": "Increases Electric and Corrosion damage and their critical rate by <color=#f26c1c>30%</color>.",
+		"id": "b18",
+		"season": 26,
+		"core": true,
+		"localImagePath": "data/buffs/Corrupt Arc.png"
+	},
+	{
+		"name": "Corrupting Spark",
+		"description": "Increases Corrosion and Burn damage and their critical rate by <color=#f26c1c>30%</color>.",
+		"id": "b19",
+		"season": 27,
+		"core": true,
+		"localImagePath": "data/buffs/Corrupting Spark.png"
+	},
+	{
+		"name": "Destabilized Execution",
+		"description": "Critical damage dealt to targets with <color=#f26c1c>0</color> stability is increased by <color=#f26c1c>25%</color>.",
+		"id": "b21",
+		"season": 31,
+		"days": {
+			"28": [2, 3, 4, 6],
+			"29": [0, 4, 6],
+			"30": [2, 5],
+			"31": [2, 4]
+		},
+		"localImagePath": "data/buffs/Destabilized Execution.png"
+	},
+	{
+		"name": "Disarraying Reinforcement",
+		"description": "When performing a Support Attack, critical damage is increased by <color=#f26c1c>3%</color> and the attack ignores <color=#f26c1c>5%</color> of the target's defense, can stack up to <color=#f26c1c>5 times</color>.",
+		"id": "b22",
+		"season": 29,
+		"days": {
+			"27": [2, 3, 4, 6],
+			"29": [2, 4]
+		},
+		"localImagePath": "data/buffs/Disarraying Reinforcement.png"
+	},
+	{
+		"name": "Electric Drain",
+		"description": "When this unit has an <color=#d4ae08>Electric</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+		"id": "b23",
+		"season": 30,
+		"days": {
+			"26": [0, 3],
+			"27": [2, 4],
+			"30": [2, 3, 4, 6]
+		},
+		"localImagePath": "data/buffs/Electric Drain.png"
+	},
+	{
+		"name": "Firepower Overmatch",
+		"description": "At the start of battle, gain <color=#f26c1c>10 stacks</color> of <color=#3487e0>Firepower Overmatch</color>.\nFirepower Overmatch:\nDamage dealt is increased by <color=#f26c1c>3%</color>, critical damage is increased by <color=#f26c1c>2%</color>. Stacks up to <color=#f26c1c>50 times</color>. Remove <color=#f26c1c>1 stack</color> for <color=#f26c1c>each tile</color> moved.",
+		"id": "b27",
+		"season": 30,
+		"days": {
+			"26": [2, 4, 5],
+			"30": [0, 1, 3, 7]
+		},
+		"localImagePath": "data/buffs/Firepower Overmatch.png"
+	},
+	{
+		"name": "Focused Phalanx",
+		"description": "When shielded, attacks ignore <color=#f26c1c>20%</color> of the target's defense and critical damage is increased by <color=#f26c1c>10%</color>.",
+		"id": "b28",
+		"season": 27,
+		"days": {
+			"25": [2, 4, 5],
+			"27": [0, 4, 6]
+		},
+		"localImagePath": "data/buffs/Focused Phalanx.png"
+	},
+	{
+		"name": "Freeze Drain",
+		"description": "When this unit has a <color=#42cce0>Freeze</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+		"id": "b29",
+		"season": 31,
+		"days": {
+			"26": [0, 1, 3, 6],
+			"30": [0, 3],
+			"31": [0, 3]
+		},
+		"localImagePath": "data/buffs/Freeze Drain.png"
+	},
+	{
+		"name": "Global Damage Boost",
+		"description": "Damage and critical rate for all phase damage types (not including Physical) is increased by <span style=\"color: #f26c1c\">30%</span>.",
+		"id": "b34",
+		"season": 31,
+		"core": true,
+		"localImagePath": "data/buffs/Global Damage Boost.png"
+	},
+	{
+		"name": "Hydro Drain",
+		"description": "When this unit has a <color=#2caadb>Hydro</color> buff, damage dealt is increased by <color=#f26c1c>20%</color>.",
+		"id": "b38",
+		"season": 30,
+		"days": {
+			"28": [2, 5],
+			"29": [2, 5],
+			"30": [0, 1, 3, 6]
+		},
+		"localImagePath": "data/buffs/Hydro Drain.png"
+	},
+	{
+		"name": "Light Penetration",
+		"description": "Light Ammo ignores <color=#f26c1c>50%</color> of target's defense.",
+		"id": "b45",
+		"season": 29,
+		"days": {
+			"25": [0, 3],
+			"27": [0, 1, 3, 6],
+			"28": [1, 5],
+			"29": [2, 4, 5]
+		},
+		"localImagePath": "data/buffs/Light Penetration.png"
+	},
+	{
+		"name": "Mounting Synergy",
+		"description": "For every <color=#f26c1c>1 allied unit</color> within <color=#f26c1c>5 tiles</color>, damage dealt is increased by <color=#f26c1c>6%</color>.",
+		"id": "b49",
+		"season": 31,
+		"days": {
+			"25": [0, 4, 6],
+			"26": [2, 5],
+			"27": [0, 3],
+			"28": [1, 5],
+			"31": [0, 4, 6]
+		},
+		"localImagePath": "data/buffs/Mounting Synergy.png"
+	},
+	{
+		"name": "Overpressure Rupture",
+		"description": "Sentinel-class Dolls' critical damage is increased by <color=#f26c1c>25%</color>.",
+		"id": "b51",
+		"season": 31,
+		"days": {
+			"25": [1, 5],
+			"26": [0, 4, 6],
+			"30": [1, 5],
+			"31": [1, 5]
+		},
+		"localImagePath": "data/buffs/Overpressure Rupture.png"
+	},
+	{
+		"name": "Overwhelming Smash",
+		"description": "Increases Physical damage dealt by <color=#f26c1c>30%</color>.",
+		"id": "b52",
+		"season": 29,
+		"days": {
+			"28": [0, 4, 6],
+			"29": [0, 1, 3, 6]
+		},
+		"localImagePath": "data/buffs/Overwhelming Smash.png"
+	},
+	{
+		"name": "Putrid Cold Wave",
+		"description": "Increases Corrosion and Freeze damage and their critical rate by <color=#f26c1c>30%</color>.",
+		"id": "b55",
+		"season": 25,
+		"core": true,
+		"localImagePath": "data/buffs/Putrid Cold Wave.png"
+	},
+	{
+		"name": "Sanguine Shower",
+		"description": "When this unit's HP is <color=#f26c1c>greater than or equal to 100%</color>, attacks ignore <color=#f26c1c>30%</color> of the target's defense.",
+		"id": "b58",
+		"season": 31,
+		"days": {
+			"28": [0, 1, 3, 6],
+			"29": [0, 1, 3, 6],
+			"30": [0, 4, 6],
+			"31": [0, 1, 3, 6]
+		},
+		"localImagePath": "data/buffs/Sanguine Shower.png"
+	},
+	{
+		"name": "Shield Pierce",
+		"description": "When the target has a shield, attacks ignore <color=#f26c1c>30%</color> of the target's defense.",
+		"id": "b59",
+		"season": 28,
+		"days": {
+			"28": [2, 4, 5]
+		},
+		"localImagePath": "data/buffs/Shield Pierce.png"
+	},
+	{
+		"name": "Shieldbreaker Calamity",
+		"description": "Against targets with <color=#f26c1c>2 or more</color> <color=#f26c1c>Defense-type debuffs</color>, critical damage is increased by <color=#f26c1c>25%</color>.",
+		"id": "b60",
+		"season": 29,
+		"days": {
+			"29": [1, 5]
+		},
+		"localImagePath": "data/buffs/Shieldbreaker Calamity.png"
+	},
+	{
+		"name": "Speedy Offensive",
+		"description": "For every <color=#f26c1c>5 tiles</color> moved, damage dealt is permanently increased by <color=#f26c1c>5%</color>. Maximum of <color=#f26c1c>10 stacks</color>.",
+		"id": "b61",
+		"season": 29,
+		"days": {
+			"26": [1, 5],
+			"27": [2, 5],
+			"29": [1, 5]
+		},
+		"localImagePath": "data/buffs/Speedy Offensive.png"
+	},
+	{
+		"name": "Sustained Offensive",
+		"description": "For every <color=#f26c1c>1 instance</color> of fixed damage taken by an enemy, all damage dealt by allied units is permanently increased by <color=#f26c1c>2%</color>. Maximum of 15 stacks.",
+		"id": "b65",
+		"season": 28,
+		"days": {
+			"26": [0, 1, 3, 6],
+			"28": [2, 4]
+		},
+		"localImagePath": "data/buffs/Sustained Offensive.png"
+	},
+	{
+		"name": "Undaunted Spirit",
+		"description": "<color=#f26c1c>Each time</color> a Bulwark-class Doll takes damage, gain <color=#f26c1c>1 stack</color> of <color=#3487e0>Undaunted Spirit</color>.",
+		"id": "b67",
+		"season": 25,
+		"days": {
+			"25": [0, 1, 3, 6]
+		},
+		"localImagePath": "data/buffs/Undaunted Spirit.png"
+	},
+	{
+		"name": "Water Hammer",
+		"description": "Increase Physical and Hydro damage and critical rate by <color=#f26c1c>30%</color>.",
+		"id": "b68",
+		"season": 28,
+		"core": true,
+		"localImagePath": "data/buffs/Water Hammer.png"
+	}
 ]

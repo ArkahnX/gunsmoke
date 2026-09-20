@@ -1828,7 +1828,7 @@ var CANVAS_HEIGHT = MAP_HEIGHT * TILE_SIZE;
 var E_PAD = 6;
 var HALF_HEIGHT = Math.round(TILE_SIZE * 0.15);
 var FULL_HEIGHT = Math.round(TILE_SIZE * 0.35);
-var CURRENT_SEASON = 30;
+var CURRENT_SEASON = 31;
 var V7_SAVE_VERSION = 7;
 var V7_STORAGE_KEY = "arenaPlannerState_v" + V7_SAVE_VERSION;
 var V7_EDITOR_MAP_KEY = "arenaEditorMap_v2";
@@ -3298,15 +3298,15 @@ function drawFloor(ctx3, c, r) {
   ctx3.font = `bold ${fontSize}px Roboto, sans-serif`;
   ctx3.textAlign = "center";
   ctx3.textBaseline = "top";
-  const labelW = Math.ceil(ctx3.measureText(distance2.toString()).width) + 4;
+  const labelW = Math.ceil(ctx3.measureText(distance2 + "").width) + 4;
   ctx3.fillRect(x + 6, y + 2, labelW, fontSize + 2);
   ctx3.fillStyle = "#27272a";
-  ctx3.fillText(distance2.toString(), x + 6, y + 2);
+  ctx3.fillText(distance2 + "", x + 6, y + 2);
 }
 function drawSpawn(ctx3, c, r) {
   const x = cellX(c);
   const y = cellY(r);
-  const mapCoord = gridKey(c, r, mapGrid.width);
+  const mapCoord = gridKey(c, r);
   const priority = mapGrid.priority.indexOf(mapCoord);
   ctx3.fillStyle = "rgba(18,60,180,0.18)";
   ctx3.fillRect(x + 1, y + 1, TILE_SIZE - 2, TILE_SIZE - 2);
@@ -3340,10 +3340,11 @@ function drawSpawn(ctx3, c, r) {
   ctx3.closePath();
   ctx3.fillStyle = "#4888ff";
   ctx3.fill();
+  const fontSize = Math.max(7, Math.round(TILE_SIZE * 0.01));
   ctx3.font = `bold 5px Roboto, sans-serif`;
   ctx3.textAlign = "left";
   ctx3.textBaseline = "top";
-  const text = (priority + 1).toString() + "\nPriority";
+  const text = priority + 1 + "\nPriority";
   const labelW = Math.ceil(ctx3.measureText(text).width);
   ctx3.fillStyle = "#4888ff";
   ctx3.fillText(text, x + labelW / 5, y + 3);
@@ -3576,19 +3577,16 @@ function distance(dollGrid) {
   if (minDoll) minDoll.distance = "near";
   if (maxDoll) maxDoll.distance = "far";
 }
-function getDollData(drag2, currentTab) {
+function drawMapTilesOnArena(ctx3, drag2, currentTab) {
   const dolls = [];
   state.selectedDolls.forEach((doll) => {
     const pos = state.tabData[currentTab]?.dollPositions[doll.id] ?? { x: -1, y: -1 };
-    const oldPos = state.tabData[currentTab - 1]?.dollPositions[doll.id] ?? { x: -1, y: -1 };
     if (pos.x === -1 || pos.y === -1) return;
     const spawnPosition = getDollStartingPosition(doll.id, null);
     const priorityIndex = mapGrid.priority.indexOf(spawnPosition);
     dolls.push({
       x: pos.x,
       y: pos.y,
-      oldX: oldPos.x,
-      oldY: oldPos.y,
       id: doll.id,
       instanceId: null,
       priority: priorityIndex !== -1 ? priorityIndex : mapGrid.priority.length,
@@ -3597,7 +3595,7 @@ function getDollData(drag2, currentTab) {
       dragId: drag2?.isActive ? drag2.id : void 0,
       dragInstanceId: drag2?.isActive ? drag2.instanceId : null,
       obscured: obscured(pos.x, pos.y, doll.id, null),
-      borrow: doll.borrow || false,
+      borrow: doll.borrow ?? false,
       distance: null
     });
   });
@@ -3605,34 +3603,30 @@ function getDollData(drag2, currentTab) {
     state.tabData[currentTab].summonPositions.forEach((entry) => {
       const summon = getInfoFromId(entry.id);
       if (summon) {
-        const oldSummonPosition = state.tabData[currentTab - 1]?.summonPositions.find((e) => e.mapId === entry.mapId);
+        const selectedDoll2 = state.selectedDolls.find((d) => d.id === summon.dollId);
+        const spawnPosition = getDollStartingPosition(summon.dollId, entry.mapId);
+        const priorityIndex = mapGrid.priority.indexOf(spawnPosition);
         dolls.push({
           x: entry.x,
           y: entry.y,
-          oldX: oldSummonPosition?.x ?? -1,
-          oldY: oldSummonPosition?.y ?? -1,
           id: entry.id,
           instanceId: entry.mapId,
-          priority: mapGrid.priority.length,
+          priority: priorityIndex !== -1 ? priorityIndex : mapGrid.priority.length,
           dollInfo: getInfoFromId(summon.dollId),
           summonInfo: summon,
           dragId: drag2?.isActive ? drag2.id : void 0,
           dragInstanceId: drag2?.isActive ? drag2.instanceId : null,
           obscured: obscured(entry.x, entry.y, entry.id, entry.mapId),
-          borrow: false,
+          borrow: selectedDoll2?.borrow ?? false,
           distance: null
         });
       }
     });
   }
-  for (const [_grid, entry] of Object.entries(dolls)) {
+  for (const [grid, entry] of Object.entries(dolls)) {
     entry.obscured = obscured(entry.x, entry.y, entry.id, entry.instanceId, dolls);
   }
   distance(dolls);
-  return dolls;
-}
-function drawMapTilesOnArena(ctx3, drag2, currentTab) {
-  const dolls = getDollData(drag2, currentTab);
   for (let row = 0; row < mapGrid.height; row++) for (let col = 0; col < mapGrid.width; col++) drawFloor(ctx3, col, row);
   for (let row = 0; row < mapGrid.height; row++) {
     for (let col = 0; col < mapGrid.width; col++) {
@@ -7071,69 +7065,77 @@ var _tmpl$45 = /* @__PURE__ */ template(`<span>When this unit possesses a <span 
 var _tmpl$215 = /* @__PURE__ */ template(`<span>Increase Physical and Electric damage and critical rate by <span style=color:#f26c1c>30%</span>.`);
 var _tmpl$311 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#e67129>Burn</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
 var _tmpl$46 = /* @__PURE__ */ template(`<span>When dealing damage to an enemy target, if they are afflicted by Corrosion debuff, increases critical damage against them by <span style=color:#f26c1c>25%</span>.`);
-var _tmpl$54 = /* @__PURE__ */ template(`<span>When dealing damage to an enemy target, if they are afflicted by a Hydro debuff, increases the critical damage dealt against them by <span style=color:#f26c1c>25%</span>.`);
-var _tmpl$63 = /* @__PURE__ */ template(`<span>If an enemy is afflicted by an Electric debuff, increase critical damage against them by <span style=color:#f26c1c>25%</span>.`);
-var _tmpl$73 = /* @__PURE__ */ template(`<span>Damage dealt is increased by <span style=color:#f26c1c>20%</span> when distance to the enemy target is less than or equal to <span style=color:#f26c1c>6 tiles</span>.`);
-var _tmpl$83 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>2000</span> points of <span style=color:#f26c1c>healing</span> or <span style=color:#f26c1c>shield</span> applied to allies by Support Dolls, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Complementarity Plan</span>.`);
-var _tmpl$93 = /* @__PURE__ */ template(`<span>If this unit's has <span style=color:#f26c1c>2 or more</span> points of Confectance Index at the start of the round, damage dealt is increased by <span style=color:#f26c1c>25%</span> until the end of the round.`);
-var _tmpl$0 = /* @__PURE__ */ template(`<span>Damage dealt by allied summoned units is increased by <span style=color:#f26c1c>50%</span>.`);
-var _tmpl$1 = /* @__PURE__ */ template(`<span>Corrosion damage is increased by <span style=color:#f26c1c>20%</span>.`);
-var _tmpl$102 = /* @__PURE__ */ template(`<span>Increases <span style=color:#d4ae08>Electric</span> and <span style=color:#8679e8>Corrosion</span> damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
-var _tmpl$112 = /* @__PURE__ */ template(`<span>Increases <span style=color:#8679e8>Corrosion</span> and <span style=color:#e67129>Burn</span> damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
-var _tmpl$122 = /* @__PURE__ */ template(`<span>Critical damage dealt to targets with <span style=color:#f26c1c>0</span> stability is increased by <span style=color:#f26c1c>25%</span>.`);
-var _tmpl$132 = /* @__PURE__ */ template(`<span>When performing a Support Attack, critical damage is increased by <span style=color:#f26c1c>3%</span> and the attack ignores <span style=color:#f26c1c>5%</span> of the target's defense, can stack up to <span style=color:#f26c1c>5 times</span>.`);
-var _tmpl$142 = /* @__PURE__ */ template(`<span>When this unit has an <span style=color:#d4ae08>Electric</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
-var _tmpl$152 = /* @__PURE__ */ template(`<span>At the start of the turn, gains <span style=color:#f26c1c>10 stacks</span> of <span style=color:#3487e0>Firepower Overmatch</span>.<br>Firepower Overmatch:<br>Damage dealt is increased by <span style=color:#f26c1c>8%</span> and critical damage is increased by <span style=color:#f26c1c>5%</span> per stack, to a maximum of <span style=color:#f26c1c>50 stacks</span>. For <span style=color:#f26c1c>each point</span> of mobility spent, removes <span style=color:#f26c1c>1 stack</span> of this effect.`);
-var _tmpl$162 = /* @__PURE__ */ template(`<span>When shielded, attacks ignore <span style=color:#f26c1c>20%</span> of the target's defense and critical damage is increased by <span style=color:#f26c1c>10%</span>.`);
-var _tmpl$172 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#42cce0>Freeze</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
-var _tmpl$182 = /* @__PURE__ */ template(`<span>Damage and critical rate for all phase damage types (not including Physical) is increased by <span style=color:#f26c1c>30%</span>.`);
-var _tmpl$192 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#2caadb>Hydro</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
-var _tmpl$202 = /* @__PURE__ */ template(`<span>Light Ammo ignores <span style=color:#f26c1c>50%</span> of target's defense.`);
-var _tmpl$216 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 allied unit</span> within <span style=color:#f26c1c>5 tiles</span>, damage dealt is increased by <span style=color:#f26c1c>6%</span>.`);
-var _tmpl$223 = /* @__PURE__ */ template(`<span>Sentinel-class Dolls' critical damage is increased by <span style=color:#f26c1c>25%</span>.`);
-var _tmpl$232 = /* @__PURE__ */ template(`<span>Increases Physical damage dealt by <span style=color:#f26c1c>30%</span>.`);
-var _tmpl$242 = /* @__PURE__ */ template(`<span>Increases Corrosion and Freeze damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
-var _tmpl$252 = /* @__PURE__ */ template(`<span>When this unit's HP is <span style=color:#f26c1c>greater than or equal to 100%</span>, attacks ignore <span style=color:#f26c1c>30%</span> of the target's defense.`);
-var _tmpl$262 = /* @__PURE__ */ template(`<span>When the target has a shield, attacks ignore <span style=color:#f26c1c>30%</span> of the target's defense.`);
-var _tmpl$272 = /* @__PURE__ */ template(`<span>Against targets with <span style=color:#f26c1c>2 or more</span> <span style=color:#f26c1c>Defense-type debuffs</span>, critical damage is increased by <span style=color:#f26c1c>25%</span>.`);
-var _tmpl$282 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>5 tiles</span> moved, damage dealt is permanently increased by <span style=color:#f26c1c>5%</span>. Maximum of <span style=color:#f26c1c>10 stacks</span>.`);
-var _tmpl$292 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 instance</span> of fixed damage taken by an enemy, all damage dealt by allied units is permanently increased by <span style=color:#f26c1c>2%</span>. Maximum of 15 stacks.`);
-var _tmpl$302 = /* @__PURE__ */ template(`<span><span style=color:#f26c1c>Each time</span> a Bulwark-class Doll takes damage, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Undaunted Spirit</span>.`);
-var _tmpl$312 = /* @__PURE__ */ template(`<span>Increase Physical and Hydro damage and critical rate by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$54 = /* @__PURE__ */ template(`<span>If an enemy is afflicted by Freeze debuffs, critical damage against them is increased by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$63 = /* @__PURE__ */ template(`<span>When dealing damage to an enemy target, if they are afflicted by a Hydro debuff, increases the critical damage dealt against them by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$73 = /* @__PURE__ */ template(`<span>If an enemy is afflicted by an Electric debuff, increase critical damage against them by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$83 = /* @__PURE__ */ template(`<span>Critical damage against targets with Burn debuffs is increased by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$93 = /* @__PURE__ */ template(`<span>Damage dealt is increased by <span style=color:#f26c1c>20%</span> when distance to the enemy target is less than or equal to <span style=color:#f26c1c>6 tiles</span>.`);
+var _tmpl$0 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>2000</span> points of <span style=color:#f26c1c>healing</span> or <span style=color:#f26c1c>shield</span> applied to allies by Support Dolls, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Complementarity Plan</span>.`);
+var _tmpl$1 = /* @__PURE__ */ template(`<span>If this unit's has <span style=color:#f26c1c>2 or more</span> points of Confectance Index at the start of the round, damage dealt is increased by <span style=color:#f26c1c>25%</span> until the end of the round.`);
+var _tmpl$102 = /* @__PURE__ */ template(`<span>Damage dealt by allied summoned units is increased by <span style=color:#f26c1c>50%</span>.`);
+var _tmpl$112 = /* @__PURE__ */ template(`<span>Corrosion damage is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$122 = /* @__PURE__ */ template(`<span>Increases <span style=color:#d4ae08>Electric</span> and <span style=color:#8679e8>Corrosion</span> damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$132 = /* @__PURE__ */ template(`<span>Increases <span style=color:#8679e8>Corrosion</span> and <span style=color:#e67129>Burn</span> damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$142 = /* @__PURE__ */ template(`<span>Critical damage dealt to targets with <span style=color:#f26c1c>0</span> stability is increased by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$152 = /* @__PURE__ */ template(`<span>When performing a Support Attack, critical damage is increased by <span style=color:#f26c1c>3%</span> and the attack ignores <span style=color:#f26c1c>5%</span> of the target's defense, can stack up to <span style=color:#f26c1c>5 times</span>.`);
+var _tmpl$162 = /* @__PURE__ */ template(`<span>When this unit has an <span style=color:#d4ae08>Electric</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$172 = /* @__PURE__ */ template(`<span>At the start of the turn, gains <span style=color:#f26c1c>10 stacks</span> of <span style=color:#3487e0>Firepower Overmatch</span>.<br>Firepower Overmatch:<br>Damage dealt is increased by <span style=color:#f26c1c>8%</span> and critical damage is increased by <span style=color:#f26c1c>5%</span> per stack, to a maximum of <span style=color:#f26c1c>50 stacks</span>. For <span style=color:#f26c1c>each point</span> of mobility spent, removes <span style=color:#f26c1c>1 stack</span> of this effect.`);
+var _tmpl$182 = /* @__PURE__ */ template(`<span>When shielded, attacks ignore <span style=color:#f26c1c>20%</span> of the target's defense and critical damage is increased by <span style=color:#f26c1c>10%</span>.`);
+var _tmpl$192 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#42cce0>Freeze</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$202 = /* @__PURE__ */ template(`<span>Damage and critical rate for all phase damage types (not including Physical) is increased by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$216 = /* @__PURE__ */ template(`<span>When this unit has a <span style=color:#2caadb>Hydro</span> buff, damage dealt is increased by <span style=color:#f26c1c>20%</span>.`);
+var _tmpl$223 = /* @__PURE__ */ template(`<span>Light Ammo ignores <span style=color:#f26c1c>50%</span> of target's defense.`);
+var _tmpl$232 = /* @__PURE__ */ template(`<span>Medium Ammo ignores <span style=color:#f26c1c>50%</span> of target's defense.`);
+var _tmpl$242 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 allied unit</span> within <span style=color:#f26c1c>5 tiles</span>, damage dealt is increased by <span style=color:#f26c1c>6%</span>.`);
+var _tmpl$252 = /* @__PURE__ */ template(`<span>Sentinel-class Dolls' critical damage is increased by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$262 = /* @__PURE__ */ template(`<span>Increases Physical damage dealt by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$272 = /* @__PURE__ */ template(`<span>Increases Corrosion and Freeze damage and their critical rate by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$282 = /* @__PURE__ */ template(`<span>When this unit's HP is <span style=color:#f26c1c>greater than or equal to 100%</span>, attacks ignore <span style=color:#f26c1c>30%</span> of the target's defense.`);
+var _tmpl$292 = /* @__PURE__ */ template(`<span>When the target has a shield, attacks ignore <span style=color:#f26c1c>30%</span> of the target's defense.`);
+var _tmpl$302 = /* @__PURE__ */ template(`<span>Against targets with <span style=color:#f26c1c>2 or more</span> <span style=color:#f26c1c>Defense-type debuffs</span>, critical damage is increased by <span style=color:#f26c1c>25%</span>.`);
+var _tmpl$312 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>5 tiles</span> moved, damage dealt is permanently increased by <span style=color:#f26c1c>5%</span>. Maximum of <span style=color:#f26c1c>10 stacks</span>.`);
+var _tmpl$322 = /* @__PURE__ */ template(`<span>For every <span style=color:#f26c1c>1 instance</span> of fixed damage taken by an enemy, all damage dealt by allied units is permanently increased by <span style=color:#f26c1c>2%</span>. Maximum of 15 stacks.`);
+var _tmpl$332 = /* @__PURE__ */ template(`<span><span style=color:#f26c1c>Each time</span> a Bulwark-class Doll takes damage, gain <span style=color:#f26c1c>1 stack</span> of <span style=color:#3487e0>Undaunted Spirit</span>.`);
+var _tmpl$342 = /* @__PURE__ */ template(`<span>Increase Physical and Hydro damage and critical rate by <span style=color:#f26c1c>30%</span>.`);
+var _tmpl$352 = /* @__PURE__ */ template(`<span>Increases AoE Damage dealt by <span style=color:#f26c1c>12%</span>.`);
 var tsxBuffs = {
   b1: _tmpl$45(),
   b2: _tmpl$215(),
   b4: _tmpl$311(),
   b6: _tmpl$46(),
-  b8: _tmpl$54(),
-  b9: _tmpl$63(),
-  b12: _tmpl$73(),
-  b13: _tmpl$83(),
-  b14: _tmpl$93(),
-  b15: _tmpl$0(),
-  b16: _tmpl$1(),
-  b18: _tmpl$102(),
-  b19: _tmpl$112(),
-  b21: _tmpl$122(),
-  b22: _tmpl$132(),
-  b23: _tmpl$142(),
-  b27: _tmpl$152(),
-  b28: _tmpl$162(),
-  b29: _tmpl$172(),
-  b34: _tmpl$182(),
-  b38: _tmpl$192(),
-  b45: _tmpl$202(),
-  b49: _tmpl$216(),
-  b51: _tmpl$223(),
-  b52: _tmpl$232(),
-  b55: _tmpl$242(),
-  b58: _tmpl$252(),
-  b59: _tmpl$262(),
-  b60: _tmpl$272(),
-  b61: _tmpl$282(),
-  b65: _tmpl$292(),
-  b67: _tmpl$302(),
-  b68: _tmpl$312()
+  b7: _tmpl$54(),
+  b8: _tmpl$63(),
+  b9: _tmpl$73(),
+  b10: _tmpl$83(),
+  b12: _tmpl$93(),
+  b13: _tmpl$0(),
+  b14: _tmpl$1(),
+  b15: _tmpl$102(),
+  b16: _tmpl$112(),
+  b18: _tmpl$122(),
+  b19: _tmpl$132(),
+  b21: _tmpl$142(),
+  b22: _tmpl$152(),
+  b23: _tmpl$162(),
+  b27: _tmpl$172(),
+  b28: _tmpl$182(),
+  b29: _tmpl$192(),
+  b34: _tmpl$202(),
+  b38: _tmpl$216(),
+  b45: _tmpl$223(),
+  b48: _tmpl$232(),
+  b49: _tmpl$242(),
+  b51: _tmpl$252(),
+  b52: _tmpl$262(),
+  b55: _tmpl$272(),
+  b58: _tmpl$282(),
+  b59: _tmpl$292(),
+  b60: _tmpl$302(),
+  b61: _tmpl$312(),
+  b65: _tmpl$322(),
+  b67: _tmpl$332(),
+  b68: _tmpl$342(),
+  b69: _tmpl$352()
 };
 function Buffs(props) {
   if (props.id in tsxBuffs) {
@@ -10259,7 +10261,7 @@ function KeyModal() {
 delegateEvents(["click", "input", "pointerover"]);
 
 // src/components/modals/EffectModal.tsx
-var _tmpl$81 = /* @__PURE__ */ template(`<div class="fixed z-[60] max-h-96 w-90 overflow-y-auto rounded-md border border-[#3A3A3A] bg-[#1B1B1B] p-3 text-[#D0D0D0] shadow-2xl"><div class="flex flex-col gap-3">`);
+var _tmpl$81 = /* @__PURE__ */ template(`<div class="fixed z-60 max-h-96 w-90 overflow-y-auto rounded-md border border-[#3A3A3A] bg-[#1B1B1B] p-3 text-[#D0D0D0] shadow-2xl"><div class="flex flex-col gap-3">`);
 var _tmpl$229 = /* @__PURE__ */ template(`<div class="flex flex-col"><div class="mb-1.5 border-b border-[#3A3A3A] pb-1.5 font-bold text-[#4FA8E8]"></div><div>`);
 function EffectModal() {
   let ref;
@@ -10404,7 +10406,7 @@ function DarkModal(props) {
 // src/components/modals/BuffModal.tsx
 var _tmpl$87 = /* @__PURE__ */ template(`<div class="h-100 overflow-y-scroll p-2 px-4"><div class="flex flex-row flex-wrap gap-4">`);
 var _tmpl$231 = /* @__PURE__ */ template(`<div class="text-md mx-3 mt-1.75 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">Select one or more buffs relevant to this transcript`);
-var _tmpl$322 = /* @__PURE__ */ template(`<div><div><img class="relative z-20 h-full w-full object-cover"></div><div class="flex grow flex-col gap-3 text-[#384B53]"><div class="flex grow flex-row gap-3 border-b-2 border-[#E0DDE7]"><div class="text-left font-bold text-black"></div><div class=text-left></div></div><div class=text-left>`);
+var _tmpl$323 = /* @__PURE__ */ template(`<div><div><img class="relative z-20 h-full w-full object-cover"></div><div class="flex grow flex-col gap-3 text-[#384B53]"><div class="flex grow flex-row gap-3 border-b-2 border-[#E0DDE7]"><div class="text-left font-bold text-black"></div><div class=text-left></div></div><div class=text-left>`);
 var _tmpl$415 = /* @__PURE__ */ template(`<div class="absolute top-1 right-1 h-7 w-7 shadow-sm shadow-black/20">`);
 function BuffModal() {
   const [selectedBuffs, setSelectedBuffs] = createSignal([...state.buffs]);
@@ -10428,7 +10430,7 @@ function BuffModal() {
           return "Unavailable this gunsmoke season";
         };
         return (() => {
-          var _el$4 = _tmpl$322(), _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.firstChild, _el$0 = _el$9.nextSibling, _el$1 = _el$8.nextSibling;
+          var _el$4 = _tmpl$323(), _el$5 = _el$4.firstChild, _el$6 = _el$5.firstChild, _el$7 = _el$5.nextSibling, _el$8 = _el$7.firstChild, _el$9 = _el$8.firstChild, _el$0 = _el$9.nextSibling, _el$1 = _el$8.nextSibling;
           _el$4.$$click = () => toggleBuff();
           insert(_el$4, (() => {
             var _c$ = memo(() => !!isSel());

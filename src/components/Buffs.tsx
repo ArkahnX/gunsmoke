@@ -24,6 +24,12 @@ const tsxBuffs: Record<string, JSX.Element> = {
 			<span style="color:#f26c1c">25%</span>.
 		</span>
 	),
+	b7: (
+		<span>
+			If an enemy is afflicted by Freeze debuffs, critical damage against them is increased by <span style="color: #f26c1c">25%</span>
+			.
+		</span>
+	),
 	b8: (
 		<span>
 			When dealing damage to an enemy target, if they are afflicted by a Hydro debuff, increases the critical damage dealt against
@@ -33,6 +39,11 @@ const tsxBuffs: Record<string, JSX.Element> = {
 	b9: (
 		<span>
 			If an enemy is afflicted by an Electric debuff, increase critical damage against them by <span style="color:#f26c1c">25%</span>.
+		</span>
+	),
+	b10: (
+		<span>
+			Critical damage against targets with Burn debuffs is increased by <span style="color: #f26c1c">25%</span>.
 		</span>
 	),
 	b12: (
@@ -136,6 +147,11 @@ const tsxBuffs: Record<string, JSX.Element> = {
 			Light Ammo ignores <span style="color:#f26c1c">50%</span> of target's defense.
 		</span>
 	),
+	b48: (
+		<span>
+			Medium Ammo ignores <span style="color: #f26c1c">50%</span> of target's defense.
+		</span>
+	),
 	b49: (
 		<span>
 			For every <span style="color:#f26c1c">1 allied unit</span> within <span style="color:#f26c1c">5 tiles</span>, damage dealt is
@@ -195,6 +211,11 @@ const tsxBuffs: Record<string, JSX.Element> = {
 	b68: (
 		<span>
 			Increase Physical and Hydro damage and critical rate by <span style="color:#f26c1c">30%</span>.
+		</span>
+	),
+	b69: (
+		<span>
+			Increases AoE Damage dealt by <span style="color: #f26c1c">12%</span>.
 		</span>
 	),
 };
