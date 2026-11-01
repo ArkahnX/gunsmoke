@@ -1,0 +1,4990 @@
+{
+	"data": {
+		"e3": {
+			"id": "e3",
+			"name": "Berserker - Barbarity",
+			"icon": "images/enemies/berserker-barbarity/Monster_Bust_Berserker.webp",
+			"weakElements": [
+				2,
+				6
+			],
+			"weakWeapons": [
+				3,
+				4,
+				5
+			],
+			"skills": [
+				{
+					"id": "s15r",
+					"name": "Howling Crash",
+					"type": 3,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects <c2>the closest</c> and <c2>the farthest</c> enemy targets, dealing Physical damage equal to <c2>100%</c> of attack to them.\nIf this unit has <c1>{bh5}</c>, applies <c1>{b1m}</c> to the targets for <c2>1 turn</c> when attacking.",
+					"icon": "images/enemies/berserker-barbarity/Skill_Attack_Cannon.webp"
+				},
+				{
+					"id": "s15s",
+					"name": "Terrifying Roar",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Terrain Traversal"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the enemy target with <c2>the highest HP</c>, marking it and the area within <c2>2 tiles</c> of it. At the start of the next turn, deals AoE Physical damage equal to <c2>60%</c> of attack to all enemy units in the marked area and applies <c1>{bh9}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/berserker-barbarity/Skill_Berserker_Active_1.webp"
+				},
+				{
+					"id": "s15t",
+					"name": "Crisis Counterattack",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "5",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						8,
+						3
+					],
+					"mode": 2,
+					"description": "At the start of this unit's action, if this unit is in Stability Break, deals AoE Physical damage equal to <c2>50%</c> of attack to all enemy targets within <c2>5 tiles</c> and applies <c1>{bh3}</c> for <c2>2 turns</c>. For every <c2>3</c> enemy targets hit, gains <c2>1 stack</c> of <c1>{bha}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/berserker-barbarity/Skill_Berserker_Passive_4.webp"
+				},
+				{
+					"id": "s15k",
+					"name": "Shockwave Crush",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Debuff"
+					],
+					"range": "2",
+					"shape": "--",
+					"selects": [
+						5
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects 1 direction, dealing AoE Physical damage equal to <c2>70%</c> of attack to all enemy units in a <c2>forward-facing 5×4 tile area</c> and applies <c1>{bh3}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/berserker-barbarity/Skill_Berserker_Active_2.webp"
+				},
+				{
+					"id": "s15l",
+					"name": "Omnidirectional Sweep",
+					"type": 7,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Terrain Traversal",
+						"Shield",
+						"Buff"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE Physical damage that ignores Cover equal to <c2>100%</c> of attack to all enemy units on the battlefield, gains <c1>{bh5}</c>, and generates a shield with an absorption value equal to <c2>10% of max HP</c>. While the shield is active, <c1>{bh7}</c> taken is reduced by <c2>30%</c>. When the shield is broken, gains <c1>{bh8}</c>.",
+					"icon": "images/enemies/berserker-barbarity/Skill_Berserker_Active_3.webp"
+				},
+				{
+					"id": "s15m",
+					"name": "Invictus Spiritus",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability is greater than <c2>0</c>, damage taken is reduced by <c2>80%</c>. Cannot recover stability when in Stability Break and automatically recovers all points of stability 2 turns after entering Stability Break.",
+					"icon": "images/enemies/berserker-barbarity/Skill_Berserker_Passive_5.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/berserker-barbarity/Skill_Common_Passive_1.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s15r",
+					"s15s",
+					"s15k"
+				],
+				"2": [
+					"s15r",
+					"s15l"
+				],
+				"3": [
+					"s15r",
+					"s15k"
+				],
+				"4": [
+					"s15r",
+					"s15s",
+					"s15l"
+				],
+				"5": [
+					"s15r",
+					"s15k"
+				],
+				"6": [
+					"s15r",
+					"s15s",
+					"s15l"
+				],
+				"7": [
+					"s15r",
+					"s15k"
+				]
+			}
+		},
+		"eb": {
+			"id": "eb",
+			"name": "Blade Titan - Savage Edge",
+			"icon": "images/enemies/blade-titan-savage-edge/Monster_Bust_Mecha_Melee.webp",
+			"weakElements": [
+				5,
+				3
+			],
+			"weakWeapons": [
+				1,
+				2,
+				3
+			],
+			"skills": [
+				{
+					"id": "s17r",
+					"name": "Cannon Report - Near",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the nearest enemy target and deals Physical damage equal to <c2>40%</c> of attack to it. For <c2>each tile</c> by which the target's mobility is reduced, damage multiplier is increased by <c2>5%</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_2.webp"
+				},
+				{
+					"id": "s17s",
+					"name": "Cannon Report - Far",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the farthest enemy target and deals Physical damage equal to <c2>40%</c> of attack to it. For <c2>each tile</c> by which the target's mobility is reduced, damage multiplier is increased by <c2>5%</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_2.webp"
+				},
+				{
+					"id": "s17t",
+					"name": "Solid Forcefield",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "At the start of battle, performs <c2>Harden Up</c>. Upon taking damage from a Doll with <c1>{bih}</c>, removes <c2>1 stack</c> of <c1>{bij}</c>. Upon removing the <c2>last stack</c> of <c1>{bij}</c>, applies <c2>1 stack</c> of <c1>{bih}</c> to the nearest enemy Doll. For every<c2>4 stacks</c> of <c1>{bij}</c> removed, gains <c2>1 stack</c> of <c1>{bik}</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Passive_7.webp"
+				},
+				{
+					"id": "s17h",
+					"name": "Cleave Combo",
+					"type": 3,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the nearest enemy target and deals melee Physical damage equal to <c2>60%</c> of attack to it. If the target has <c1>{bih}</c>, gains <c2>1 stack</c> of <c1>{bii}</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_3.webp"
+				},
+				{
+					"id": "s17i",
+					"name": "Fatal Smash",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the enemy unit with the highest attack, deals melee Physical damage equal to <c2>60%</c> of attack, and applies <c2>1 stack</c> of <c1>{bw}</c> to it for <c2>1 turn</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_ExecutionSquadBlaster_Active_1.webp"
+				},
+				{
+					"id": "s17j",
+					"name": "Brutal Volley",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Simultaneously deal Physical damage equal to <c2>60%</c> of attack to the nearest and farthest enemy units and apply <c1>{b1i}</c> for <c2>1 turn</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_1.webp"
+				},
+				{
+					"id": "s17k",
+					"name": "Don Armor",
+					"type": 7,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Buff"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "This unit gains <c2>4 stacks</c> of <c1>{bij}</c> and applies <c2>1 stack</c> of <c1>{bih}</c> to the Doll farthest from this unit.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_5.webp"
+				},
+				{
+					"id": "s17p",
+					"name": "Stability Reinforcement",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability is greater than <c2>0 points</c>, damage taken is reduced by <c2>80%</c>. During Stability Break, applies <c2>1 stack</c> of <c1>{bih}</c> to the farthest enemy Doll. When in Stability Break, cannot benefit from stability recovery effects. Recovers all points of stability <c2>2 turns</c> after entering Stability Break.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_Eber_Passive_19.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_Common_Passive_1.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s17r",
+					"s17i",
+					"s17s",
+					"s17j"
+				],
+				"2": [
+					"s17h",
+					"s17r",
+					"s17i",
+					"s17k"
+				]
+			}
+		},
+		"ec": {
+			"id": "ec",
+			"name": "Blade Titan - Savage Edge",
+			"icon": "images/enemies/blade-titan-savage-edge/Monster_Bust_Mecha_Melee.webp",
+			"weakElements": [
+				3,
+				4
+			],
+			"weakWeapons": [
+				1,
+				2,
+				3
+			],
+			"skills": [
+				{
+					"id": "s17r",
+					"name": "Cannon Report - Near",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the nearest enemy target and deals Physical damage equal to <c2>40%</c> of attack to it. For <c2>each tile</c> by which the target's mobility is reduced, damage multiplier is increased by <c2>5%</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_2.webp"
+				},
+				{
+					"id": "s17s",
+					"name": "Cannon Report - Far",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the farthest enemy target and deals Physical damage equal to <c2>40%</c> of attack to it. For <c2>each tile</c> by which the target's mobility is reduced, damage multiplier is increased by <c2>5%</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_2.webp"
+				},
+				{
+					"id": "s17t",
+					"name": "Solid Forcefield",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "At the start of battle, performs <c2>Harden Up</c>. Upon taking damage from a Doll with <c1>{bih}</c>, removes <c2>1 stack</c> of <c1>{bij}</c>. Upon removing the <c2>last stack</c> of <c1>{bij}</c>, applies <c2>1 stack</c> of <c1>{bih}</c> to the nearest enemy Doll. For every<c2>4 stacks</c> of <c1>{bij}</c> removed, gains <c2>1 stack</c> of <c1>{bik}</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Passive_7.webp"
+				},
+				{
+					"id": "s17h",
+					"name": "Cleave Combo",
+					"type": 3,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the nearest enemy target and deals melee Physical damage equal to <c2>60%</c> of attack to it. If the target has <c1>{bih}</c>, gains <c2>1 stack</c> of <c1>{bii}</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_3.webp"
+				},
+				{
+					"id": "s17i",
+					"name": "Fatal Smash",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the enemy unit with the highest attack, deals melee Physical damage equal to <c2>60%</c> of attack, and applies <c2>1 stack</c> of <c1>{bw}</c> to it for <c2>1 turn</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_ExecutionSquadBlaster_Active_1.webp"
+				},
+				{
+					"id": "s17j",
+					"name": "Brutal Volley",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Simultaneously deal Physical damage equal to <c2>60%</c> of attack to the nearest and farthest enemy units and apply <c1>{b1i}</c> for <c2>1 turn</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_1.webp"
+				},
+				{
+					"id": "s17k",
+					"name": "Don Armor",
+					"type": 7,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Buff"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "This unit gains <c2>4 stacks</c> of <c1>{bij}</c> and applies <c2>1 stack</c> of <c1>{bih}</c> to the Doll farthest from this unit.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_5.webp"
+				},
+				{
+					"id": "s17p",
+					"name": "Stability Reinforcement",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability is greater than <c2>0 points</c>, damage taken is reduced by <c2>80%</c>. During Stability Break, applies <c2>1 stack</c> of <c1>{bih}</c> to the farthest enemy Doll. When in Stability Break, cannot benefit from stability recovery effects. Recovers all points of stability <c2>2 turns</c> after entering Stability Break.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_Eber_Passive_19.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_Common_Passive_1.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s17r",
+					"s17i",
+					"s17s",
+					"s17j"
+				],
+				"2": [
+					"s17h",
+					"s17r",
+					"s17i",
+					"s17k"
+				]
+			}
+		},
+		"ed": {
+			"id": "ed",
+			"name": "Blade Titan - Savage Edge",
+			"icon": "images/enemies/blade-titan-savage-edge/Monster_Bust_Mecha_Melee.webp",
+			"weakElements": [
+				3,
+				2
+			],
+			"weakWeapons": [
+				1,
+				2,
+				3
+			],
+			"skills": [
+				{
+					"id": "s17r",
+					"name": "Cannon Report - Near",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the nearest enemy target and deals Physical damage equal to <c2>40%</c> of attack to it. For <c2>each tile</c> by which the target's mobility is reduced, damage multiplier is increased by <c2>5%</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_2.webp"
+				},
+				{
+					"id": "s17s",
+					"name": "Cannon Report - Far",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the farthest enemy target and deals Physical damage equal to <c2>40%</c> of attack to it. For <c2>each tile</c> by which the target's mobility is reduced, damage multiplier is increased by <c2>5%</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_2.webp"
+				},
+				{
+					"id": "s17t",
+					"name": "Solid Forcefield",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "At the start of battle, performs <c2>Harden Up</c>. Upon taking damage from a Doll with <c1>{bih}</c>, removes <c2>1 stack</c> of <c1>{bij}</c>. Upon removing the <c2>last stack</c> of <c1>{bij}</c>, applies <c2>1 stack</c> of <c1>{bih}</c> to the nearest enemy Doll. For every<c2>4 stacks</c> of <c1>{bij}</c> removed, gains <c2>1 stack</c> of <c1>{bik}</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Passive_7.webp"
+				},
+				{
+					"id": "s17h",
+					"name": "Cleave Combo",
+					"type": 3,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the nearest enemy target and deals melee Physical damage equal to <c2>60%</c> of attack to it. If the target has <c1>{bih}</c>, gains <c2>1 stack</c> of <c1>{bii}</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_3.webp"
+				},
+				{
+					"id": "s17i",
+					"name": "Fatal Smash",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the enemy unit with the highest attack, deals melee Physical damage equal to <c2>60%</c> of attack, and applies <c2>1 stack</c> of <c1>{bw}</c> to it for <c2>1 turn</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_ExecutionSquadBlaster_Active_1.webp"
+				},
+				{
+					"id": "s17j",
+					"name": "Brutal Volley",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Simultaneously deal Physical damage equal to <c2>60%</c> of attack to the nearest and farthest enemy units and apply <c1>{b1i}</c> for <c2>1 turn</c>.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_1.webp"
+				},
+				{
+					"id": "s17k",
+					"name": "Don Armor",
+					"type": 7,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Buff"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "This unit gains <c2>4 stacks</c> of <c1>{bij}</c> and applies <c2>1 stack</c> of <c1>{bih}</c> to the Doll farthest from this unit.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_MechaMelee_Active_5.webp"
+				},
+				{
+					"id": "s17p",
+					"name": "Stability Reinforcement",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability is greater than <c2>0 points</c>, damage taken is reduced by <c2>80%</c>. During Stability Break, applies <c2>1 stack</c> of <c1>{bih}</c> to the farthest enemy Doll. When in Stability Break, cannot benefit from stability recovery effects. Recovers all points of stability <c2>2 turns</c> after entering Stability Break.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_Eber_Passive_19.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/blade-titan-savage-edge/Skill_Common_Passive_1.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s17r",
+					"s17i",
+					"s17s",
+					"s17j"
+				],
+				"2": [
+					"s17h",
+					"s17r",
+					"s17i",
+					"s17k"
+				]
+			}
+		},
+		"e4": {
+			"id": "e4",
+			"name": "Chaos: Vengeant",
+			"icon": "images/enemies/chaos-vengeant/Monster_Bust_Chaos.webp",
+			"weakElements": [
+				4,
+				6
+			],
+			"weakWeapons": [
+				2,
+				3,
+				4
+			],
+			"skills": [
+				{
+					"id": "s166",
+					"name": "Invitation To The Abyss",
+					"type": 3,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects <c2>the closest</c> and <c2>the farthest</c> enemy units, dealing Physical damage equal to <c2>100%</c> of attack to them, and applies <c1>{bhh}</c> for <c2>2 rounds</c>.",
+					"icon": "images/enemies/chaos-vengeant/Skill_Chaos_Active_1.webp"
+				},
+				{
+					"id": "s167",
+					"name": "Final Oblivion",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Mark",
+						"Debuff"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the enemy target with <c2>the highest HP</c>, then marks it and the area within <c2>2 tiles</c> of it. At the start of the next turn, deals AoE Physical damage equal to <c2>60%</c> of attack to all enemy units in the marked area. If <c2>3 or less</c> enemy units are hit, all enemy units hit gain <c1>{bhi}</c> for <c2>2 turns</c>. If <c2>4 or more</c> enemy units are hit, all enemy units hit gain <c1>{bhk}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/chaos-vengeant/Skill_Chaos_Active_2.webp"
+				},
+				{
+					"id": "s168",
+					"name": "Adaptive Carapace",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "After every <c2>5 instances of phase damage</c> taken, gains <c2>1 stack</c> of <c1>{bhm}</c> for <c2>2 turns</c>. After every <c2>5 instances of Physical damage</c> taken, gains <c2>1 stack</c> of <c1>{bho}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/chaos-vengeant/Skill_Chaos_Passive_5.webp"
+				},
+				{
+					"id": "s15v",
+					"name": "Edge Crush",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Buff"
+					],
+					"range": "Self",
+					"shape": "5",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE Physical damage equal to <c2>80%</c> of attack to all enemy units within <c2>5 tiles</c> of this unit and gains <c2>1 stack</c> of <c1>{bhb}</c> for <c2>2 turns</c>. When an attack hits an enemy target, removes <c1>{bhb}</c>. For every <c2>3 enemies</c> hit, gains <c2>1 stack</c> of <c1>{bhc}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/chaos-vengeant/Skill_Chaos_Active_4.webp"
+				},
+				{
+					"id": "s15w",
+					"name": "Chaotic Murmur",
+					"type": 7,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Terrain Traversal",
+						"Debuff"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals fixed damage equal to <c2>10% of each target's Max HP</c> to all enemy targets on the battlefield, and applies <c1>{bhd}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/chaos-vengeant/Skill_Chaos_Active_3.webp"
+				},
+				{
+					"id": "s15x",
+					"name": "Primordial Biology",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "At the start of this unit's turn, if this unit has less than <c1>100%</c> HP, gains <c1>{bhf}</c>. This effect can be triggered <c1>once</c> per battle. When this unit's HP goes below <c1>50%</c>, immediately gains <c1>{bhg}</c>. This effect can be triggered <c1>once</c> per battle.",
+					"icon": "images/enemies/chaos-vengeant/Skill_Chaos_Passive_6.webp"
+				},
+				{
+					"id": "s15y",
+					"name": "Accumulated Vengeance",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability is greater than <c2>0</c>, damage taken is reduced by <c2>80%</c>. Cannot recover stability when in Stability Break and automatically recovers all points of stability 2 turns after entering Stability Break.",
+					"icon": "images/enemies/chaos-vengeant/Skill_Chaos_Passive_7.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/chaos-vengeant/Skill_Common_Passive_1.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s166",
+					"s167",
+					"s15w"
+				],
+				"2": [
+					"s166",
+					"s15v"
+				],
+				"3": [
+					"s166",
+					"s167",
+					"s15w"
+				],
+				"4": [
+					"s166",
+					"s15v"
+				],
+				"5": [
+					"s166",
+					"s167",
+					"s15w"
+				],
+				"6": [
+					"s166",
+					"s15v"
+				],
+				"7": [
+					"s166",
+					"s15v",
+					"s15w"
+				]
+			}
+		},
+		"e5": {
+			"id": "e5",
+			"name": "Deichgraf - Festung",
+			"icon": "images/enemies/deichgraf-festung/Monster_Bust_Tank.webp",
+			"weakElements": [
+				3,
+				6
+			],
+			"weakWeapons": [
+				2,
+				3,
+				5
+			],
+			"skills": [
+				{
+					"id": "s16h",
+					"name": "Punishment Protocol",
+					"type": 3,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "When this unit's stability is <c2>greater than 0</c>, selects the <c2>closest</c> and the <c2>farthest</c> enemy targets, dealing Physical damage equal to <c2>100%</c> of attack to them, and applies <c1>{bhw}</c> for <c2>2 rounds</c>.\nWhen stability is at <c2>0</c>, the Attack Mode changes. Deals AoE Physical damage equal to <c2>100%</c> of attack to all enemy targets <c2>within 5 tiles</c>. For <c2>each</c> enemy target hit, gains <c2>1 stack</c> of <c1>{bhx}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/deichgraf-festung/Skill_GuildTank_Active_1.webp"
+				},
+				{
+					"id": "s16j",
+					"name": "Triple-Linked Forcefield",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When the <c2>Bulwark Link</c> exists, it generates a link effect and this unit gains <c1>{bhy}</c>. When the <c2>Bulwark Link</c> is destroyed, the link effect vanishes and this effect is removed.\nWhen the <c2>Jammer Link</c> exists, it generates a link effect and this unit gains <c1>{bhz}</c>. When the <c2>Jammer Link</c> is destroyed, the link effect vanishes and this effect is removed.\nWhen the <c2>Detector Link</c> exists, it generates a link effect and this unit gains <c1>{bi0}</c>. When the <c2>Detector Link</c> is destroyed, the link effect vanishes and this effect is removed.\nWhen any link device exists, <c1>{bh7}</c> taken is reduced by <c2>80%</c>.",
+					"icon": "images/enemies/deichgraf-festung/Skill_GuildTank_Passive_7.webp"
+				},
+				{
+					"id": "s169",
+					"name": "Festungskanone",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "2",
+					"shape": "--",
+					"selects": [
+						5
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Fires missiles in the direction that contains the <c2>biggest concentration of enemy targets</c>, dealing AoE Physical damage equal to <c2>100%</c> of attack to all enemy targets within a <c2>forward 3×8 tile area</c>, and applies <c2>1 stack</c> of <c1>{bhp}</c> for <c2>2 turns</c>. If no enemy targets are within the range of this skill, this attack is skipped.\nWhen an attack hits a <c2>Bulwark Link</c>, the <c2>Bulwark Link</c> gains <c2>1 stack</c> of <c1>{bhr}</c> for <c2>2 turns</c>.\nWhen an attack hits a <c2>Jammer Link</c>, removes <c1>{bhs}</c> from the <c2>Jammer Link</c>.\nWhen an attack hits a <c2>Detector Link</c>, removes <c1>{bht}</c> from the <c2>Detector Link</c>.",
+					"icon": "images/enemies/deichgraf-festung/Skill_GuildTank_Active_2.webp"
+				},
+				{
+					"id": "s16a",
+					"name": "Gaol Dispersion",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Ignores Terrain",
+						"Debuff"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE Physical damage equal to <c2>100%</c> of attack to all enemy targets on the battlefield and applies <c1>{bhu}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/deichgraf-festung/Skill_GuildTank_Active_3.webp"
+				},
+				{
+					"id": "s16e",
+					"name": "Exposed Armor",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When this unit has <c2>8 or more</c> debuffs, defense is reduced by <c2>10%</c>.",
+					"icon": "images/enemies/deichgraf-festung/Skill_Unite_Passive_31.webp"
+				},
+				{
+					"id": "s16f",
+					"name": "Festungsmauer",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability is <c2>greater than 0</c>, damage taken is reduced by <c2>80%</c>. After suffering Stability Break, it will not regain stability under any circumstances.",
+					"icon": "images/enemies/deichgraf-festung/Skill_GuildTank_Passive_6.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/deichgraf-festung/Skill_Common_Passive_1.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s16h",
+					"s169",
+					"s16a"
+				],
+				"2": [
+					"s16h",
+					"s169"
+				],
+				"3": [
+					"s16h",
+					"s16a"
+				],
+				"4": [
+					"s16h",
+					"s169"
+				],
+				"5": [
+					"s16h",
+					"s169",
+					"s16a"
+				],
+				"6": [
+					"s16h",
+					"s169"
+				],
+				"7": [
+					"s16h",
+					"s16a"
+				]
+			}
+		},
+		"e0": {
+			"id": "e0",
+			"name": "Deichgraf - Flamberge",
+			"icon": "images/enemies/deichgraf-flamberge/Monster_Bust_Tank.webp",
+			"weakElements": [
+				5,
+				3
+			],
+			"weakWeapons": [
+				2,
+				3
+			],
+			"skills": [
+				{
+					"id": "s14x",
+					"name": "Blazing Judgment",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "Selects the nearest Doll on the field, dealing targeted Physical damage equal to <c2>80%</c> of attack to them.",
+					"icon": "images/enemies/deichgraf-flamberge/Skill_GuildTank_Active_1.webp"
+				},
+				{
+					"id": "s14y",
+					"name": "Universal Judgement",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Rapidly bombard every enemy unit on the field in succession, each dealing targeted Physical damage equal to <c2>50%</c> of attack.",
+					"icon": "images/enemies/deichgraf-flamberge/Skill_GuildTank_Active_2.webp"
+				},
+				{
+					"id": "s14z",
+					"name": "Immovable Fortress",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Buff"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Reduces stability damage taken by <c2>2 points</c>. For every <c2>1 point</c> of stability, damage taken is reduced by <c2>2%</c>. After Stability Break, stability index will be fully restored <c2>after 2 turns</c>.",
+					"icon": "images/enemies/deichgraf-flamberge/Skill_GuildTank_Passive_6.webp"
+				},
+				{
+					"id": "s14o",
+					"name": "City Warden's Protection",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Buff"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "Permanently gains <c2>3 stacks</c> of <c1>{bgk}</c>.\nIf <c1>{bgk}</c> is cleansed by an enemy, all enemy units permanently gain <c2>1 stack</c> of <c1>{bgl}</c>.",
+					"icon": "images/enemies/deichgraf-flamberge/Skill_GuildTank_Active_3.webp"
+				},
+				{
+					"id": "s14p",
+					"name": "Sword of Damocles",
+					"type": 3,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Map",
+					"shape": "1 × 1",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Marks the nearest enemy target. At the start of the next turn, fires multiple rockets at the target, dealing AoE Physical damage equal to <c2>90%</c> of attack that ignores Cover.\nIf the target's HP is above <c2>65%</c> after the attack, the attacker gains <c1>{bgm}</c>, increasing damage taken by <c2>30%</c>. For every <c2>10%</c> of remaining HP of the target above <c2>65%</c>, the damage taken increases by an additional <c2>5%</c>. This effect lasts <c2>2 turns</c>.",
+					"icon": "images/enemies/deichgraf-flamberge/Skill_GuildTank_Active_4.webp"
+				},
+				{
+					"id": "s14q",
+					"name": "Scattered Cross Prison",
+					"type": 3,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "--",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE Physical damage equal to <c2>20%</c> of attack to all enemy targets in a <c2>3×7 cross-shaped area</c> around the user. For <c2>each</c> enemy target hit, deals <c2>2 points</c> of fixed stability damage. If at least <c2>6 enemy targets</c> are hit, gains <c1>{bgn}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/deichgraf-flamberge/Skill_GuildTank_Active_5.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/deichgraf-flamberge/Skill_Common_Passive_1.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s14x",
+					"s14o",
+					"s14q"
+				],
+				"2": [
+					"s14y",
+					"s14p",
+					"s14o"
+				],
+				"3": [
+					"s14x",
+					"s14y",
+					"s14q"
+				]
+			}
+		},
+		"e1": {
+			"id": "e1",
+			"name": "Fortress Titan - Rampart",
+			"icon": "images/enemies/fortress-titan-rampart/Monster_Bust_Mecha_Guard.webp",
+			"weakElements": [
+				2,
+				4
+			],
+			"weakWeapons": [
+				1,
+				2
+			],
+			"skills": [
+				{
+					"id": "s156",
+					"name": "Oppressor's Shockwave",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"Targeted",
+						"Displacement"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "Selects the <c2>furthest and nearest</c> enemy targets, dealing Physical damage equal to <c2>40%</c> of attack and knocks those targets back by <c2>1</c> tile.",
+					"icon": "images/enemies/fortress-titan-rampart/Skill_MechaGuard_Active_1.webp"
+				},
+				{
+					"id": "s157",
+					"name": "Omen Strike",
+					"type": 3,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "Selects the <c2>closest enemy target</c>, dealing Physical damage equal to <c2>60%</c> of attack to them. If the Fortress Titan has fewer than <c2>3</c> <c2>debuffs</c> after this attack, it gains <c1>{bgu}</c>.",
+					"icon": "images/enemies/fortress-titan-rampart/Skill_MechaSupport_Passive_8.webp"
+				},
+				{
+					"id": "s158",
+					"name": "Fortified Core",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Buff",
+						"Counterattack"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Damage taken by Fortress Titan is reduced by <c2>50%</c> when stability is greater than <c2>0</c>. Unable to receive stability restoration effects during Stability Break; restore stability index to full <c2>2 turns</c> after entering Stability Break.\nWhen Fortress Devices take damage (including fixed damage), Fortress Titan initiates an <c2>Active attack</c> against the original attacker, dealing Physical damage equal <c2>40%</c> of attack.",
+					"icon": "images/enemies/fortress-titan-rampart/Skill_MechaSupport_Passive_7.webp"
+				},
+				{
+					"id": "s150",
+					"name": "Critical Fortification",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Buff"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "Gains <c2>7</c> stacks of <c1>{bgo}</c>.",
+					"icon": "images/enemies/fortress-titan-rampart/Skill_MechaGuard_Active_4.webp"
+				},
+				{
+					"id": "s151",
+					"name": "Aggressive Protection",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "5",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE Physical damage equal to <c2>40%</c> of attack to all enemy units within <c2>5 tiles</c>. For <c2>every</c> enemy unit damaged, removes <c2>1 stack</c> of <c1>{bgo}</c> and loses <c2>2 points</c> of stability. For every <c2>3 targets</c> hit, Fortress Titan gains <c2>1 stack</c> of <c1>{bgq}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/fortress-titan-rampart/Skill_MechaGuard_Active_2.webp"
+				},
+				{
+					"id": "s152",
+					"name": "Fortress Formation",
+					"type": 7,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Summon"
+					],
+					"range": "2–5",
+					"shape": "Target",
+					"selects": [
+						3
+					],
+					"affects": [
+						6
+					],
+					"mode": 3,
+					"manual": true,
+					"description": "Randomly summons <c2>1</c> <c1>{bgr}</c> within <c2>5 tiles</c> and deals AoE Physical damage equal to <c2>40%</c> of attack to all enemy units within a <c2>3x3 area</c> of the device.",
+					"icon": "images/enemies/fortress-titan-rampart/Skill_MechaGuard_Active_3.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/fortress-titan-rampart/Skill_Common_Passive_1.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s156",
+					"s150",
+					"s151"
+				],
+				"2": [
+					"s156",
+					"s152",
+					"s157"
+				],
+				"3": [
+					"s156",
+					"s157"
+				]
+			}
+		},
+		"ee": {
+			"id": "ee",
+			"name": "Horn Beasteel - Cryokeros",
+			"icon": "images/enemies/horn-beasteel-cryokeros/Monster_Bust_Eber_Rhino.webp",
+			"weakElements": [
+				6,
+				2
+			],
+			"weakWeapons": [
+				2,
+				4
+			],
+			"skills": [
+				{
+					"id": "s186",
+					"name": "Cold Raid",
+					"type": 1,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Basic Attack",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "3 × 3",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the nearest enemy target, deals <c3>Freeze damage</c> equal to <c2>40%</c> of attack, and applies <c2>1 stack</c> of <c1>{bio}</c> for <c2>3 turns</c> to it and all enemy targets <c2>within a 3x3 tile area</c>. If the selected target already has <c1>{bio}</c>, deals additional <c3>Freeze damage</c> equal to <c2>20%</c> of attack to all enemy targets within the area.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_16.webp"
+				},
+				{
+					"id": "s187",
+					"name": "Frosted Gravel",
+					"type": 1,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Basic Attack",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "3 × 3",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the farthest enemy target, deals <c3>Freeze damage</c> equal to <c2>40%</c> of attack, and applies <c2>1 stack</c> of <c1>{bio}</c> for <c2>3 turns</c> to it and all enemy targets <c2>within a 3x3 tile area</c>. If the selected target already has <c1>{bio}</c>, deals additional <c3>Freeze damage</c> equal to <c2>20%</c> of attack to all enemy targets within the area.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_16.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Common_Passive_1.webp"
+				},
+				{
+					"id": "s17w",
+					"name": "Freezing",
+					"type": 3,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE <c3>Freeze damage</c> equal to <c2>80%</c> of attack to all enemy targets <c2>on the battlefield</c> and applies <c2>1 stack</c> of <c1>{b7}</c> for <c2>2 turns</c> to them. After that, cleanses all <c1>{bio}</c> stacks on all enemy targets and gains an equal number of <c1>{bip}</c> stacks for <c2>2 turns</c>.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_9.webp"
+				},
+				{
+					"id": "s17x",
+					"name": "Frost Cannon",
+					"type": 4,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Active",
+						"Targeted",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "Selects the 2 enemy targets with the highest number of <c1>{bio}</c> stacks and deals <c3>Freeze damage</c> equal to <c2>60%</c> of attack to them. If the targets' HP is greater than <c2>50%</c> after taking this damage, cleanses their <c1>{bio}</c> and applies an equal number of <c1>{bip}</c> stacks for <c2>2 turns</c>.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_11.webp"
+				},
+				{
+					"id": "s17y",
+					"name": "Snow Disaster",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Applies <c1>{biq}</c> to all enemy Dolls <c2>on the battlefield</c>. If this unit is in Stability Break, instead applies <c1>{biq}</c> to the <c2>3 enemy Dolls</c> with the highest attack.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_10.webp"
+				},
+				{
+					"id": "s17z",
+					"name": "Chilling Breeze",
+					"type": 6,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "--",
+					"shape": "--",
+					"selects": [
+						5
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the closest enemy target, deals AoE <c3>Freeze damage</c> equal to <c2>60%</c> of attack to all enemy units in a <c2>7-tile cone-shaped area</c> in the target's direction and applies <c2>1 stack</c> of <c1>{bio}</c> for <c2>3 turns</c>. If the target has less than <c2>4 points</c> of stability after taking damage from this skill, deals additional fixed damage equal to <c2>20%</c> of attack.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_8.webp"
+				},
+				{
+					"id": "s184",
+					"name": "Negative Temperature Boost",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Buff"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "After using the active skill <c1>Freezing</c>, gains permanent stacks of <c1>{bir}</c> based on the number of <c1>{bip}</c> stacks possessed. If this unit takes a total of <c2>5 instances</c> of damage from the same ammo type in an enemy turn, gains <c1>{b2k}</c> for <c2>1 turn</c>, and cleanses <c1>{bir}</c> on this unit.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Passive_23.webp"
+				},
+				{
+					"id": "s185",
+					"name": "Mechanical Creation",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability is greater than <c2>0 points</c>, damage taken is reduced by <c2>80%</c>. After Stability Break, applies <c2>1 stack</c> of <c1>{bio}</c> to all enemy targets. Unable to receive stability restoration effects during Stability Break; restores stability to full <c2>2 turns</c> after entering Stability Break.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Passive_19.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s186",
+					"s187",
+					"s17y",
+					"s17z"
+				],
+				"2": [
+					"s186",
+					"s187",
+					"s17x"
+				],
+				"3": [
+					"s17w",
+					"s186",
+					"s187",
+					"s17z"
+				]
+			}
+		},
+		"ef": {
+			"id": "ef",
+			"name": "Horn Beasteel - Cryokeros",
+			"icon": "images/enemies/horn-beasteel-cryokeros/Monster_Bust_Eber_Rhino.webp",
+			"weakElements": [
+				6,
+				4
+			],
+			"weakWeapons": [
+				2,
+				4
+			],
+			"skills": [
+				{
+					"id": "s186",
+					"name": "Cold Raid",
+					"type": 1,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Basic Attack",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "3 × 3",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the nearest enemy target, deals <c3>Freeze damage</c> equal to <c2>40%</c> of attack, and applies <c2>1 stack</c> of <c1>{bio}</c> for <c2>3 turns</c> to it and all enemy targets <c2>within a 3x3 tile area</c>. If the selected target already has <c1>{bio}</c>, deals additional <c3>Freeze damage</c> equal to <c2>20%</c> of attack to all enemy targets within the area.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_16.webp"
+				},
+				{
+					"id": "s187",
+					"name": "Frosted Gravel",
+					"type": 1,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Basic Attack",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "3 × 3",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the farthest enemy target, deals <c3>Freeze damage</c> equal to <c2>40%</c> of attack, and applies <c2>1 stack</c> of <c1>{bio}</c> for <c2>3 turns</c> to it and all enemy targets <c2>within a 3x3 tile area</c>. If the selected target already has <c1>{bio}</c>, deals additional <c3>Freeze damage</c> equal to <c2>20%</c> of attack to all enemy targets within the area.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_16.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Common_Passive_1.webp"
+				},
+				{
+					"id": "s17w",
+					"name": "Freezing",
+					"type": 3,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE <c3>Freeze damage</c> equal to <c2>80%</c> of attack to all enemy targets <c2>on the battlefield</c> and applies <c2>1 stack</c> of <c1>{b7}</c> for <c2>2 turns</c> to them. After that, cleanses all <c1>{bio}</c> stacks on all enemy targets and gains an equal number of <c1>{bip}</c> stacks for <c2>2 turns</c>.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_9.webp"
+				},
+				{
+					"id": "s17x",
+					"name": "Frost Cannon",
+					"type": 4,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Active",
+						"Targeted",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "Selects the 2 enemy targets with the highest number of <c1>{bio}</c> stacks and deals <c3>Freeze damage</c> equal to <c2>60%</c> of attack to them. If the targets' HP is greater than <c2>50%</c> after taking this damage, cleanses their <c1>{bio}</c> and applies an equal number of <c1>{bip}</c> stacks for <c2>2 turns</c>.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_11.webp"
+				},
+				{
+					"id": "s17y",
+					"name": "Snow Disaster",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Applies <c1>{biq}</c> to all enemy Dolls <c2>on the battlefield</c>. If this unit is in Stability Break, instead applies <c1>{biq}</c> to the <c2>3 enemy Dolls</c> with the highest attack.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_10.webp"
+				},
+				{
+					"id": "s17z",
+					"name": "Chilling Breeze",
+					"type": 6,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "--",
+					"shape": "--",
+					"selects": [
+						5
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the closest enemy target, deals AoE <c3>Freeze damage</c> equal to <c2>60%</c> of attack to all enemy units in a <c2>7-tile cone-shaped area</c> in the target's direction and applies <c2>1 stack</c> of <c1>{bio}</c> for <c2>3 turns</c>. If the target has less than <c2>4 points</c> of stability after taking damage from this skill, deals additional fixed damage equal to <c2>20%</c> of attack.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_8.webp"
+				},
+				{
+					"id": "s184",
+					"name": "Negative Temperature Boost",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Buff"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "After using the active skill <c1>Freezing</c>, gains permanent stacks of <c1>{bir}</c> based on the number of <c1>{bip}</c> stacks possessed. If this unit takes a total of <c2>5 instances</c> of damage from the same ammo type in an enemy turn, gains <c1>{b2k}</c> for <c2>1 turn</c>, and cleanses <c1>{bir}</c> on this unit.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Passive_23.webp"
+				},
+				{
+					"id": "s185",
+					"name": "Mechanical Creation",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability is greater than <c2>0 points</c>, damage taken is reduced by <c2>80%</c>. After Stability Break, applies <c2>1 stack</c> of <c1>{bio}</c> to all enemy targets. Unable to receive stability restoration effects during Stability Break; restores stability to full <c2>2 turns</c> after entering Stability Break.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Passive_19.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s186",
+					"s187",
+					"s17y",
+					"s17z"
+				],
+				"2": [
+					"s186",
+					"s187",
+					"s17x"
+				],
+				"3": [
+					"s17w",
+					"s186",
+					"s187",
+					"s17z"
+				]
+			}
+		},
+		"eh": {
+			"id": "eh",
+			"name": "Horn Beasteel - Cryokeros",
+			"icon": "images/enemies/horn-beasteel-cryokeros/Monster_Bust_Eber_Rhino.webp",
+			"weakElements": [
+				6,
+				4
+			],
+			"weakWeapons": [
+				2,
+				4
+			],
+			"skills": [
+				{
+					"id": "s186",
+					"name": "Cold Raid",
+					"type": 1,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Basic Attack",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "3 × 3",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the nearest enemy target, deals <c3>Freeze damage</c> equal to <c2>40%</c> of attack, and applies <c2>1 stack</c> of <c1>{bio}</c> for <c2>3 turns</c> to it and all enemy targets <c2>within a 3x3 tile area</c>. If the selected target already has <c1>{bio}</c>, deals additional <c3>Freeze damage</c> equal to <c2>20%</c> of attack to all enemy targets within the area.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_16.webp"
+				},
+				{
+					"id": "s187",
+					"name": "Frosted Gravel",
+					"type": 1,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Basic Attack",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "3 × 3",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the farthest enemy target, deals <c3>Freeze damage</c> equal to <c2>40%</c> of attack, and applies <c2>1 stack</c> of <c1>{bio}</c> for <c2>3 turns</c> to it and all enemy targets <c2>within a 3x3 tile area</c>. If the selected target already has <c1>{bio}</c>, deals additional <c3>Freeze damage</c> equal to <c2>20%</c> of attack to all enemy targets within the area.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_16.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Common_Passive_1.webp"
+				},
+				{
+					"id": "s17w",
+					"name": "Freezing",
+					"type": 3,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE <c3>Freeze damage</c> equal to <c2>80%</c> of attack to all enemy targets <c2>on the battlefield</c> and applies <c2>1 stack</c> of <c1>{b7}</c> for <c2>2 turns</c> to them. After that, cleanses all <c1>{bio}</c> stacks on all enemy targets and gains an equal number of <c1>{bip}</c> stacks for <c2>2 turns</c>.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_9.webp"
+				},
+				{
+					"id": "s17x",
+					"name": "Frost Cannon",
+					"type": 4,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Active",
+						"Targeted",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "Selects the 2 enemy targets with the highest number of <c1>{bio}</c> stacks and deals <c3>Freeze damage</c> equal to <c2>60%</c> of attack to them. If the targets' HP is greater than <c2>50%</c> after taking this damage, cleanses their <c1>{bio}</c> and applies an equal number of <c1>{bip}</c> stacks for <c2>2 turns</c>.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_11.webp"
+				},
+				{
+					"id": "s17y",
+					"name": "Snow Disaster",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Applies <c1>{biq}</c> to all enemy Dolls <c2>on the battlefield</c>. If this unit is in Stability Break, instead applies <c1>{biq}</c> to the <c2>3 enemy Dolls</c> with the highest attack.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_10.webp"
+				},
+				{
+					"id": "s17z",
+					"name": "Chilling Breeze",
+					"type": 6,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "--",
+					"shape": "--",
+					"selects": [
+						5
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the closest enemy target, deals AoE <c3>Freeze damage</c> equal to <c2>60%</c> of attack to all enemy units in a <c2>7-tile cone-shaped area</c> in the target's direction and applies <c2>1 stack</c> of <c1>{bio}</c> for <c2>3 turns</c>. If the target has less than <c2>4 points</c> of stability after taking damage from this skill, deals additional fixed damage equal to <c2>20%</c> of attack.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Active_8.webp"
+				},
+				{
+					"id": "s184",
+					"name": "Negative Temperature Boost",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Buff"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "After using the active skill <c1>Freezing</c>, gains permanent stacks of <c1>{bir}</c> based on the number of <c1>{bip}</c> stacks possessed. If this unit takes a total of <c2>5 instances</c> of damage from the same ammo type in an enemy turn, gains <c1>{b2k}</c> for <c2>1 turn</c>, and cleanses <c1>{bir}</c> on this unit.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Passive_23.webp"
+				},
+				{
+					"id": "s185",
+					"name": "Mechanical Creation",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability is greater than <c2>0 points</c>, damage taken is reduced by <c2>80%</c>. After Stability Break, applies <c2>1 stack</c> of <c1>{bio}</c> to all enemy targets. Unable to receive stability restoration effects during Stability Break; restores stability to full <c2>2 turns</c> after entering Stability Break.",
+					"icon": "images/enemies/horn-beasteel-cryokeros/Skill_Eber_Passive_19.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s186",
+					"s187",
+					"s17y",
+					"s17z"
+				],
+				"2": [
+					"s186",
+					"s187",
+					"s17x"
+				],
+				"3": [
+					"s17w",
+					"s186",
+					"s187",
+					"s17z"
+				]
+			}
+		},
+		"e2": {
+			"id": "e2",
+			"name": "Nemertea - Xenotype",
+			"icon": "images/enemies/nemertea-xenotype/Monster_Bust_Nemertea.webp",
+			"weakElements": [
+				5,
+				6
+			],
+			"weakWeapons": [
+				2,
+				3
+			],
+			"skills": [
+				{
+					"id": "s15g",
+					"name": "Acid Expansion",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"Targeted",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "5",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE Physical damage equal to <c2>80%</c> of attack to all enemy units within <c2>5 tiles</c>, knocking them back by <c2>1</c> tile. If <c2>5</c> or more enemy targets are hit, Nemertea takes <c2>10</c> points of fixed stability damage.\nWhile in Stability Break, target instead the <c2>furthest</c> and <c2>closest</c> enemy units, dealing Physical damage equal to <c2>100%</c> of attack and knocking them back by <c2>1</c> tile.",
+					"icon": "images/enemies/nemertea-xenotype/Skill_Nemertea_Active_1.webp"
+				},
+				{
+					"id": "s15h",
+					"name": "Festering Spittle",
+					"type": 3,
+					"damage": [
+						7
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Cover Destruction",
+						"Terrain Traversal"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the enemy targets with the <c2>highest HP</c> and the <c2>lowest HP</c>, dealing AoE <c5>Corrosion damage</c> equal to <c2>60%</c> of attack that ignores Cover to them and all enemy units within a <c2>3×3 area</c>, and applies <c1>{bgx}</c> for <c2>2 turns</c>. At the same time, generates <c1>{bgz}</c> for <c2>4 turns</c>.",
+					"icon": "images/enemies/nemertea-xenotype/Skill_Nemertea_Active_2.webp"
+				},
+				{
+					"id": "s15i",
+					"name": "Unstable Suture",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When subjected to an active attack from an enemy Doll, if the attacking Doll has <c2>3</c> or more buffs, Nemertea - Xenotpye gains <c2>1</c> stack of <c1>{bh1}</c>, to a maximum of <c2>15</c> stacks.",
+					"icon": "images/enemies/nemertea-xenotype/Skill_Nemertea_Passive_5.webp"
+				},
+				{
+					"id": "s15a",
+					"name": "Crested Split",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"Summon"
+					],
+					"range": "Self",
+					"shape": "2–5",
+					"selects": [
+						4
+					],
+					"affects": [
+						6
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Randomly summon <c2>1</c> <c1>{bgv}</c> within <c2>2-5 tiles</c> of this unit.",
+					"icon": "images/enemies/nemertea-xenotype/Skill_Nemertea_Active_8.webp"
+				},
+				{
+					"id": "s15b",
+					"name": "Howl of the Hunt",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Terrain Traversal"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE Physical damage that ignores Cover equal to <c2>100%</c> attack to all enemies. For every <c2>3</c> targets hit, gains <c2>1</c> stack of <c1>{bgw}</c> for <c2>1</c> turn.",
+					"icon": "images/enemies/nemertea-xenotype/Skill_Nemertea_Active_4.webp"
+				},
+				{
+					"id": "s15f",
+					"name": "Membrane Hardening I",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Buff",
+						"Stability Regen"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability index is greater than <c2>0</c>, reduce damage taken by <c2>80%</c>.\nUnable to receive stability restoration effects during Stability Break, restore stability index to full <c2>2 turns</c> after Stability Break.",
+					"icon": "images/enemies/nemertea-xenotype/Skill_Nemertea_Passive_7.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/nemertea-xenotype/Skill_Common_Passive_1.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s15g",
+					"s15h"
+				],
+				"2": [
+					"s15a",
+					"s15g",
+					"s15b"
+				],
+				"3": [
+					"s15g",
+					"s15h"
+				],
+				"4": [
+					"s15a",
+					"s15g",
+					"s15b"
+				],
+				"5": [
+					"s15g",
+					"s15h"
+				],
+				"6": [
+					"s15a",
+					"s15g",
+					"s15b"
+				],
+				"7": [
+					"s15g",
+					"s15h"
+				]
+			}
+		},
+		"ej": {
+			"id": "ej",
+			"name": "Temblor Titan",
+			"icon": "images/enemies/temblor-titan/Monster_Bust_Mecha_Support.webp",
+			"weakElements": [
+				5,
+				2
+			],
+			"weakWeapons": [
+				1,
+				2
+			],
+			"skills": [
+				{
+					"id": "s1ae",
+					"name": "Power Pulse - Strobe",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "3",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deal AoE Physical damage to all enemy targets <c2>within 3 tiles</c> equal to <c2>90%</c> of attack.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Active_1.webp"
+				},
+				{
+					"id": "s1af",
+					"name": "Power Pulse - Pierce",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "4–9",
+					"shape": "5 × 5",
+					"selects": [
+						1
+					],
+					"affects": [
+						2
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Select the farthest enemy target within <c2>4 to 9 tiles</c>, deal physical damage to it and all enemy targets <c2>within a 5x5 tile area</c> equal to <c2>110%</c> of attack. For each enemy target hit, gain <c2>1 stack</c> of <c1>{bml}</c>.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Active_1.webp"
+				},
+				{
+					"id": "s1ag",
+					"name": "Frequency Harmonics",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Debuff",
+						"Buff"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "At the start of battle, apply <c1>{bmk}</c> to the enemy unit with the highest attack. When the target with <c1>{bmk}</c> dies, transfer that effect to the enemy target with the next highest attack. When an enemy unit with <c1>{bmk}</c> takes damage and there are no ally units <c2>within 3 tiles</c> of it, apply <c1>{bmm}</c> to the Temblor Titan for <c2>2 turns</c>. At the end of the turn, if the target with <c1>{bmk}</c> does not have <c1>{bmi}</c>, perform <c1>Targeted Suppression</c> on it. If the target with <c1>{bmk}</c> has <c1>{bmi}</c>, perform <c1>Power Pulse - Pierce</c> on it.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Passive_6.webp"
+				},
+				{
+					"id": "s1a3",
+					"name": "Thermal Overload",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Select the 2 nearest enemy targets. Deal AoE Physical damage to them and all enemy targets <c2>within 2 tiles</c> equal to <c2>110%</c> of attack and apply <c2>2 stacks</c> of <c1>{bmi}</c>.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Active_3.webp"
+				},
+				{
+					"id": "s1a4",
+					"name": "High-Frequency Oscillation",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deal cover-ignoring AoE Physical damage to all enemy targets equal to <c2>80%</c> of attack. If the target has <c1>{bmi}</c>, increase the damage multiplier to <c2>130%</c>, remove all stacks of <c1>{bmi}</c> and gain an equal number of <c1>{bmj}</c> stacks. This effect lasts for <c2>2 turns</c>.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Active_4.webp"
+				},
+				{
+					"id": "s1a5",
+					"name": "Targeted Suppression",
+					"type": 8,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Targeted",
+						"Tile",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "5 × 5",
+					"selects": [
+						1
+					],
+					"affects": [
+						2
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Select a target with <c1>{bmk}</c>. If the number of <c1>{bmi}</c> stacks it possesses is less than <c2>5</c>, deal Physical damage to it equal to <c2>90%</c> of attack and apply <c2>5 stacks</c> of <c1>{bmi}</c> to it. For each other enemy unit in the <c2>5×5 area around it</c>, the number of <c1>{bmi}</c> stacks applied is reduced by <c2>1</c>. If the number of <c1>{bmi}</c> stacks on the target is greater than or equal to <c2>5</c>, this skill instead deals AoE Physical damage equal to <c2>120%</c> of attack to the target and all enemy targets in a <c2>5×5 area around it</c> and generates <c1>{bic}</c> tiles for <c2>2 turns</c>.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Passive_5.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/temblor-titan/Skill_Common_Passive_1.webp"
+				},
+				{
+					"id": "s1ad",
+					"name": "Titan's Guard",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Buff",
+						"Stability Regen"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability index is greater than <c2>0</c>, damage taken is reduced by <c2>80%</c>. Unable to receive stability restoration effects during Stability Break. Stability index is fully restored after <c2>2 turns</c> of Stability Break.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Passive_7.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s1af",
+					"s1a3",
+					"s1a5"
+				],
+				"2": [
+					"s1a4",
+					"s1af",
+					"s1ae"
+				]
+			}
+		},
+		"ek": {
+			"id": "ek",
+			"name": "Temblor Titan",
+			"icon": "images/enemies/temblor-titan/Monster_Bust_Mecha_Support.webp",
+			"weakElements": [
+				5,
+				6
+			],
+			"weakWeapons": [
+				1,
+				2
+			],
+			"skills": [
+				{
+					"id": "s1ae",
+					"name": "Power Pulse - Strobe",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "3",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deal AoE Physical damage to all enemy targets <c2>within 3 tiles</c> equal to <c2>90%</c> of attack.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Active_1.webp"
+				},
+				{
+					"id": "s1af",
+					"name": "Power Pulse - Pierce",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "4–9",
+					"shape": "5 × 5",
+					"selects": [
+						1
+					],
+					"affects": [
+						2
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Select the farthest enemy target within <c2>4 to 9 tiles</c>, deal physical damage to it and all enemy targets <c2>within a 5x5 tile area</c> equal to <c2>110%</c> of attack. For each enemy target hit, gain <c2>1 stack</c> of <c1>{bml}</c>.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Active_1.webp"
+				},
+				{
+					"id": "s1ag",
+					"name": "Frequency Harmonics",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Debuff",
+						"Buff"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "At the start of battle, apply <c1>{bmk}</c> to the enemy unit with the highest attack. When the target with <c1>{bmk}</c> dies, transfer that effect to the enemy target with the next highest attack. When an enemy unit with <c1>{bmk}</c> takes damage and there are no ally units <c2>within 3 tiles</c> of it, apply <c1>{bmm}</c> to the Temblor Titan for <c2>2 turns</c>. At the end of the turn, if the target with <c1>{bmk}</c> does not have <c1>{bmi}</c>, perform <c1>Targeted Suppression</c> on it. If the target with <c1>{bmk}</c> has <c1>{bmi}</c>, perform <c1>Power Pulse - Pierce</c> on it.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Passive_6.webp"
+				},
+				{
+					"id": "s1a3",
+					"name": "Thermal Overload",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Select the 2 nearest enemy targets. Deal AoE Physical damage to them and all enemy targets <c2>within 2 tiles</c> equal to <c2>110%</c> of attack and apply <c2>2 stacks</c> of <c1>{bmi}</c>.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Active_3.webp"
+				},
+				{
+					"id": "s1a4",
+					"name": "High-Frequency Oscillation",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deal cover-ignoring AoE Physical damage to all enemy targets equal to <c2>80%</c> of attack. If the target has <c1>{bmi}</c>, increase the damage multiplier to <c2>130%</c>, remove all stacks of <c1>{bmi}</c> and gain an equal number of <c1>{bmj}</c> stacks. This effect lasts for <c2>2 turns</c>.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Active_4.webp"
+				},
+				{
+					"id": "s1a5",
+					"name": "Targeted Suppression",
+					"type": 8,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Targeted",
+						"Tile",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "5 × 5",
+					"selects": [
+						1
+					],
+					"affects": [
+						2
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Select a target with <c1>{bmk}</c>. If the number of <c1>{bmi}</c> stacks it possesses is less than <c2>5</c>, deal Physical damage to it equal to <c2>90%</c> of attack and apply <c2>5 stacks</c> of <c1>{bmi}</c> to it. For each other enemy unit in the <c2>5×5 area around it</c>, the number of <c1>{bmi}</c> stacks applied is reduced by <c2>1</c>. If the number of <c1>{bmi}</c> stacks on the target is greater than or equal to <c2>5</c>, this skill instead deals AoE Physical damage equal to <c2>120%</c> of attack to the target and all enemy targets in a <c2>5×5 area around it</c> and generates <c1>{bic}</c> tiles for <c2>2 turns</c>.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Passive_5.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/temblor-titan/Skill_Common_Passive_1.webp"
+				},
+				{
+					"id": "s1ad",
+					"name": "Titan's Guard",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Buff",
+						"Stability Regen"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability index is greater than <c2>0</c>, damage taken is reduced by <c2>80%</c>. Unable to receive stability restoration effects during Stability Break. Stability index is fully restored after <c2>2 turns</c> of Stability Break.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Passive_7.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s1af",
+					"s1a3",
+					"s1a5"
+				],
+				"2": [
+					"s1a4",
+					"s1af",
+					"s1ae"
+				]
+			}
+		},
+		"el": {
+			"id": "el",
+			"name": "Temblor Titan",
+			"icon": "images/enemies/temblor-titan/Monster_Bust_Mecha_Support.webp",
+			"weakElements": [
+				3,
+				6
+			],
+			"weakWeapons": [
+				1,
+				2
+			],
+			"skills": [
+				{
+					"id": "s1ae",
+					"name": "Power Pulse - Strobe",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "3",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deal AoE Physical damage to all enemy targets <c2>within 3 tiles</c> equal to <c2>90%</c> of attack.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Active_1.webp"
+				},
+				{
+					"id": "s1af",
+					"name": "Power Pulse - Pierce",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "4–9",
+					"shape": "5 × 5",
+					"selects": [
+						1
+					],
+					"affects": [
+						2
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Select the farthest enemy target within <c2>4 to 9 tiles</c>, deal physical damage to it and all enemy targets <c2>within a 5x5 tile area</c> equal to <c2>110%</c> of attack. For each enemy target hit, gain <c2>1 stack</c> of <c1>{bml}</c>.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Active_1.webp"
+				},
+				{
+					"id": "s1ag",
+					"name": "Frequency Harmonics",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Debuff",
+						"Buff"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "At the start of battle, apply <c1>{bmk}</c> to the enemy unit with the highest attack. When the target with <c1>{bmk}</c> dies, transfer that effect to the enemy target with the next highest attack. When an enemy unit with <c1>{bmk}</c> takes damage and there are no ally units <c2>within 3 tiles</c> of it, apply <c1>{bmm}</c> to the Temblor Titan for <c2>2 turns</c>. At the end of the turn, if the target with <c1>{bmk}</c> does not have <c1>{bmi}</c>, perform <c1>Targeted Suppression</c> on it. If the target with <c1>{bmk}</c> has <c1>{bmi}</c>, perform <c1>Power Pulse - Pierce</c> on it.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Passive_6.webp"
+				},
+				{
+					"id": "s1a3",
+					"name": "Thermal Overload",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Select the 2 nearest enemy targets. Deal AoE Physical damage to them and all enemy targets <c2>within 2 tiles</c> equal to <c2>110%</c> of attack and apply <c2>2 stacks</c> of <c1>{bmi}</c>.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Active_3.webp"
+				},
+				{
+					"id": "s1a4",
+					"name": "High-Frequency Oscillation",
+					"type": 6,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deal cover-ignoring AoE Physical damage to all enemy targets equal to <c2>80%</c> of attack. If the target has <c1>{bmi}</c>, increase the damage multiplier to <c2>130%</c>, remove all stacks of <c1>{bmi}</c> and gain an equal number of <c1>{bmj}</c> stacks. This effect lasts for <c2>2 turns</c>.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Active_4.webp"
+				},
+				{
+					"id": "s1a5",
+					"name": "Targeted Suppression",
+					"type": 8,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Targeted",
+						"Tile",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "5 × 5",
+					"selects": [
+						1
+					],
+					"affects": [
+						2
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Select a target with <c1>{bmk}</c>. If the number of <c1>{bmi}</c> stacks it possesses is less than <c2>5</c>, deal Physical damage to it equal to <c2>90%</c> of attack and apply <c2>5 stacks</c> of <c1>{bmi}</c> to it. For each other enemy unit in the <c2>5×5 area around it</c>, the number of <c1>{bmi}</c> stacks applied is reduced by <c2>1</c>. If the number of <c1>{bmi}</c> stacks on the target is greater than or equal to <c2>5</c>, this skill instead deals AoE Physical damage equal to <c2>120%</c> of attack to the target and all enemy targets in a <c2>5×5 area around it</c> and generates <c1>{bic}</c> tiles for <c2>2 turns</c>.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Passive_5.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/temblor-titan/Skill_Common_Passive_1.webp"
+				},
+				{
+					"id": "s1ad",
+					"name": "Titan's Guard",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Buff",
+						"Stability Regen"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability index is greater than <c2>0</c>, damage taken is reduced by <c2>80%</c>. Unable to receive stability restoration effects during Stability Break. Stability index is fully restored after <c2>2 turns</c> of Stability Break.",
+					"icon": "images/enemies/temblor-titan/Skill_MechaSupport_Passive_7.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s1af",
+					"s1a3",
+					"s1a5"
+				],
+				"2": [
+					"s1a4",
+					"s1af",
+					"s1ae"
+				]
+			}
+		},
+		"e7": {
+			"id": "e7",
+			"name": "Tumorhynchus - Massacre",
+			"icon": "images/enemies/tumorhynchus-massacre/Monster_Bust_Crustacean02.webp",
+			"weakElements": [
+				2,
+				4
+			],
+			"weakWeapons": [
+				1,
+				2,
+				3
+			],
+			"skills": [
+				{
+					"id": "s175",
+					"name": "Venom Lash",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "6",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects all enemy targets <c2>within 6 tiles</c>, deals AoE Physical damage that ignores cover equal to <c2>100%</c> of attack to them, and pulls them <c2>2 tiles</c> inward. If this attack hits <c2>5</c> or more enemy targets, gains <c2>1 stack</c> of <c1>{bi8}</c>. If it does not hit any enemy targets, gains <c2>1 stack</c> of <c1>{bi9}</c>.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean02_Active_4.webp"
+				},
+				{
+					"id": "s176",
+					"name": "Mire Principle",
+					"type": 3,
+					"damage": [
+						7
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "The first time this skill is used, selects all <c2>Deserters</c> on the battlefield, deals AoE <c5>Corrosion damage</c> that ignores cover equal to <c2>80%</c> of attack to them, and generates <c1>{bi1}</c> <c2>within 1 tile</c> of them. At the same time, cleanses <c2>2 stacks</c> of <c1>{bi2}</c> and applies <c2>1 stack</c> of <c1>{bi3}</c> for <c2>2 turns</c>. Subsequent uses of this skill instead targets <c2>1</c> enemy unit that is the farthest from the center of this skill's lock-on range.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean01_Active_3.webp"
+				},
+				{
+					"id": "s177",
+					"name": "Stability Thorns",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability index is greater than <c2>0</c>, reduces damage taken by <c2>80%</c>.\nUnable to receive stability restoration effects during Stability Break, restores stability index to full <c2>2 turns</c> after Stability Break.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean01_Passive_9.webp"
+				},
+				{
+					"id": "s16k",
+					"name": "Extended Tentacles",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Applies Skill Seal to all <c2>Deserters</c> on the battlefield. For <c2>each</c> <c2>Deserter</c> that dies, selects <c2>1</c> additional enemy target and applies Skill Seal to all tiles <c2>within 2 tiles</c> of it.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Nemertea_Active_2.webp"
+				},
+				{
+					"id": "s16l",
+					"name": "Extended Tentacles",
+					"type": 4,
+					"damage": [
+						7
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Map",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE <c5>Corrosion damage</c> that ignores cover equal to <c2>100%</c> of attack to all enemy targets on the field and generates <c1>{bi1}</c> <c2>within 1 tile</c> of them for <c2>3 turns</c>. In addition, applies Skill Seal to all <c2>Deserters</c> on the battlefield. For <c2>each</c> <c2>Deserter</c> that dies, selects <c2>1</c> additional enemy target and applies Skill Seal to all tiles <c2>within 2 tiles</c> of it.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean01_Active_4.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Common_Passive_1.webp"
+				},
+				{
+					"id": "s16v",
+					"name": "Non-Manipulable",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to all control effects, cannot be knocked back.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean01_Passive_7.webp"
+				},
+				{
+					"id": "s16w",
+					"name": "Mire Principle",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "The first time this skill is used, selects all <c2>Deserters</c> on the battlefield, deals AoE <c5>Corrosion damage</c> that ignores cover equal to <c2>80%</c> of attack to them, and generates <c1>{bi1}</c> <c2>within 1 tile</c> of them. At the same time, cleanses <c2>2 stacks</c> of <c1>{bi2}</c> and applies <c2>1 stack</c> of <c1>{bi3}</c> for <c2>2 turns</c>. Subsequent uses of this skill instead targets <c2>1</c> enemy unit that is the farthest from the center of this skill's lock-on range.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean01_Active_3.webp"
+				},
+				{
+					"id": "s170",
+					"name": "Vermiform Dissection",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Summon"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "At the start of the designated turn, summons <c2>3</c> <c1>{bi5}</c>.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean01_Passive_5.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s170",
+					"s175"
+				],
+				"2": [
+					"s175",
+					"s16l"
+				],
+				"3": [
+					"s170",
+					"s175"
+				],
+				"4": [
+					"s175",
+					"s16l"
+				],
+				"5": [
+					"s170",
+					"s175"
+				],
+				"6": [
+					"s175",
+					"s16l"
+				],
+				"7": [
+					"s170",
+					"s175"
+				]
+			}
+		},
+		"e6": {
+			"id": "e6",
+			"name": "Tumorhynchus - Massacre",
+			"icon": "images/enemies/tumorhynchus-massacre/Monster_Bust_Crustacean02.webp",
+			"weakElements": [
+				2,
+				5
+			],
+			"weakWeapons": [
+				1,
+				2,
+				3
+			],
+			"skills": [
+				{
+					"id": "s175",
+					"name": "Venom Lash",
+					"type": 1,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Basic Attack",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "6",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects all enemy targets <c2>within 6 tiles</c>, deals AoE Physical damage that ignores cover equal to <c2>100%</c> of attack to them, and pulls them <c2>2 tiles</c> inward. If this attack hits <c2>5</c> or more enemy targets, gains <c2>1 stack</c> of <c1>{bi8}</c>. If it does not hit any enemy targets, gains <c2>1 stack</c> of <c1>{bi9}</c>.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean02_Active_4.webp"
+				},
+				{
+					"id": "s176",
+					"name": "Mire Principle",
+					"type": 3,
+					"damage": [
+						7
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "The first time this skill is used, selects all <c2>Deserters</c> on the battlefield, deals AoE <c5>Corrosion damage</c> that ignores cover equal to <c2>80%</c> of attack to them, and generates <c1>{bi1}</c> <c2>within 1 tile</c> of them. At the same time, cleanses <c2>2 stacks</c> of <c1>{bi2}</c> and applies <c2>1 stack</c> of <c1>{bi3}</c> for <c2>2 turns</c>. Subsequent uses of this skill instead targets <c2>1</c> enemy unit that is the farthest from the center of this skill's lock-on range.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean01_Active_3.webp"
+				},
+				{
+					"id": "s177",
+					"name": "Stability Thorns",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability index is greater than <c2>0</c>, reduces damage taken by <c2>80%</c>.\nUnable to receive stability restoration effects during Stability Break, restores stability index to full <c2>2 turns</c> after Stability Break.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean01_Passive_9.webp"
+				},
+				{
+					"id": "s16k",
+					"name": "Extended Tentacles",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Applies Skill Seal to all <c2>Deserters</c> on the battlefield. For <c2>each</c> <c2>Deserter</c> that dies, selects <c2>1</c> additional enemy target and applies Skill Seal to all tiles <c2>within 2 tiles</c> of it.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Nemertea_Active_2.webp"
+				},
+				{
+					"id": "s16l",
+					"name": "Extended Tentacles",
+					"type": 4,
+					"damage": [
+						7
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Map",
+					"shape": "Map",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE <c5>Corrosion damage</c> that ignores cover equal to <c2>100%</c> of attack to all enemy targets on the field and generates <c1>{bi1}</c> <c2>within 1 tile</c> of them for <c2>3 turns</c>. In addition, applies Skill Seal to all <c2>Deserters</c> on the battlefield. For <c2>each</c> <c2>Deserter</c> that dies, selects <c2>1</c> additional enemy target and applies Skill Seal to all tiles <c2>within 2 tiles</c> of it.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean01_Active_4.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Common_Passive_1.webp"
+				},
+				{
+					"id": "s16v",
+					"name": "Non-Manipulable",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to all control effects, cannot be knocked back.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean01_Passive_7.webp"
+				},
+				{
+					"id": "s16w",
+					"name": "Mire Principle",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Debuff"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "The first time this skill is used, selects all <c2>Deserters</c> on the battlefield, deals AoE <c5>Corrosion damage</c> that ignores cover equal to <c2>80%</c> of attack to them, and generates <c1>{bi1}</c> <c2>within 1 tile</c> of them. At the same time, cleanses <c2>2 stacks</c> of <c1>{bi2}</c> and applies <c2>1 stack</c> of <c1>{bi3}</c> for <c2>2 turns</c>. Subsequent uses of this skill instead targets <c2>1</c> enemy unit that is the farthest from the center of this skill's lock-on range.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean01_Active_3.webp"
+				},
+				{
+					"id": "s170",
+					"name": "Vermiform Dissection",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Summon"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "At the start of the designated turn, summons <c2>3</c> <c1>{bi5}</c>.",
+					"icon": "images/enemies/tumorhynchus-massacre/Skill_Crustacean01_Passive_5.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s170",
+					"s175"
+				],
+				"2": [
+					"s175",
+					"s16l"
+				],
+				"3": [
+					"s170",
+					"s175"
+				],
+				"4": [
+					"s175",
+					"s16l"
+				],
+				"5": [
+					"s170",
+					"s175"
+				],
+				"6": [
+					"s175",
+					"s16l"
+				],
+				"7": [
+					"s170",
+					"s175"
+				]
+			}
+		},
+		"eg": {
+			"id": "eg",
+			"name": "Tusk Beasteel - Predator",
+			"icon": "images/enemies/tusk-beasteel-predator/Monster_Bust_Eber_Pig.webp",
+			"weakElements": [
+				2,
+				5
+			],
+			"weakWeapons": [
+				1,
+				4,
+				5
+			],
+			"skills": [
+				{
+					"id": "s17e",
+					"name": "Smelting",
+					"type": 1,
+					"damage": [
+						8
+					],
+					"tags": [
+						"Basic Attack",
+						"Targeted",
+						"Tile"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "Selects the nearest enemy unit, deals <c6>Burn damage</c> equal to <c2>100%</c> of attack to it, then generates <c1>{bic}</c> <c2>within a 3x3 tile area</c> around it for <c2>2 turns</c>.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_20.webp"
+				},
+				{
+					"id": "s17f",
+					"name": "Burning Purgatory",
+					"type": 3,
+					"damage": [
+						8
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Tile"
+					],
+					"range": "Map",
+					"shape": "3 × 3",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the nearest or farthest enemy unit, deals AoE <c6>Burn damage</c> equal to <c2>80%</c> of attack to it and all enemy units <c2>within a 3x3 tile area</c> of it, and generates <c1>{bic}</c> for <c2>2 turns</c>. If there is a target with <c1>{bie}</c> on the battlefield, this attack prioritizes that target.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_2.webp"
+				},
+				{
+					"id": "s17g",
+					"name": "Dipolar Predation",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "At the start of the battle, applies <c2>1 stack</c> of <c1>{bie}</c> to the nearest and farthest enemy Dolls. At the end of the turn, if there are no targets afflicted with this effect, applies <c2>1 stack</c> of <c1>{bie}</c> to the nearest and farthest enemy Dolls.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Passive_7.webp"
+				},
+				{
+					"id": "s178",
+					"name": "Repulsion Surge",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "4",
+					"selects": [
+						1,
+						4,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE Physical damage equal to <c2>60%</c> of attack to all enemy units <c2>within 4 tiles</c> of this unit, knocks them back by <c2>2 tiles</c>, then applies <c1>{bia}</c> and <c1>{bib}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_17.webp"
+				},
+				{
+					"id": "s179",
+					"name": "Terminal Scorched Earth",
+					"type": 6,
+					"damage": [
+						8
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Tile"
+					],
+					"range": "Self",
+					"shape": "15 × 15 (outside 7 × 7)",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Marks an area <c2>outside of a 7x7 tile area</c>. At the start of this unit's action on the next turn, deals AoE <c6>Burn damage</c> equal to <c2>100%</c> of attack to all targets within the marked area and generates <c1>{bic}</c> <c2>in a 3x3 tile area</c> around the targets for <c2>2 turns</c>. If a target has <c1>{bie}</c>, cleanses all instances of <c1>{bie}</c> and deals AoE <c6>Burn damage</c> equal to <c2>60%</c> of attack.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_3.webp"
+				},
+				{
+					"id": "s17a",
+					"name": "Snow Disaster",
+					"type": 7,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the enemy target with the lowest HP, deals <c3>Freeze damage</c> equal to <c2>80%</c> of attack to it, and applies <c1>{b1v}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_10.webp"
+				},
+				{
+					"id": "s17c",
+					"name": "Mechanical Creation",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Stability Regen"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability index is greater than <c2>0</c>, damage taken is reduced by <c2>80%</c>. Unable to receive stability restoration effects during Stability Break. After <c2>2 turns</c> of Stability Break, fully restores stability index.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Passive_19.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Common_Passive_1.webp"
+				},
+				{
+					"id": "s17d",
+					"name": "Hunting Embers",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When attacking an enemy target with <c1>{bie}</c>, performs <c2>1 instance</c> of <c1>{big}</c> against it.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Passive_18.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s17e"
+				],
+				"2": [
+					"s17e",
+					"s178",
+					"s17a"
+				],
+				"4": [
+					"s17e"
+				],
+				"5": [
+					"s17e",
+					"s178",
+					"s17a"
+				],
+				"7": [
+					"s17e"
+				]
+			}
+		},
+		"e8": {
+			"id": "e8",
+			"name": "Tusk Beasteel - Predator",
+			"icon": "images/enemies/tusk-beasteel-predator/Monster_Bust_Eber_Pig.webp",
+			"weakElements": [
+				5,
+				6
+			],
+			"weakWeapons": [
+				1,
+				4,
+				5
+			],
+			"skills": [
+				{
+					"id": "s17e",
+					"name": "Smelting",
+					"type": 1,
+					"damage": [
+						8
+					],
+					"tags": [
+						"Basic Attack",
+						"Targeted",
+						"Tile"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "Selects the nearest enemy unit, deals <c6>Burn damage</c> equal to <c2>100%</c> of attack to it, then generates <c1>{bic}</c> <c2>within a 3x3 tile area</c> around it for <c2>2 turns</c>.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_20.webp"
+				},
+				{
+					"id": "s17f",
+					"name": "Burning Purgatory",
+					"type": 3,
+					"damage": [
+						8
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Tile"
+					],
+					"range": "Map",
+					"shape": "3 × 3",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the nearest or farthest enemy unit, deals AoE <c6>Burn damage</c> equal to <c2>80%</c> of attack to it and all enemy units <c2>within a 3x3 tile area</c> of it, and generates <c1>{bic}</c> for <c2>2 turns</c>. If there is a target with <c1>{bie}</c> on the battlefield, this attack prioritizes that target.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_2.webp"
+				},
+				{
+					"id": "s17g",
+					"name": "Dipolar Predation",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "At the start of the battle, applies <c2>1 stack</c> of <c1>{bie}</c> to the nearest and farthest enemy Dolls. At the end of the turn, if there are no targets afflicted with this effect, applies <c2>1 stack</c> of <c1>{bie}</c> to the nearest and farthest enemy Dolls.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Passive_7.webp"
+				},
+				{
+					"id": "s178",
+					"name": "Repulsion Surge",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "4",
+					"selects": [
+						1,
+						4,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE Physical damage equal to <c2>60%</c> of attack to all enemy units <c2>within 4 tiles</c> of this unit, knocks them back by <c2>2 tiles</c>, then applies <c1>{bia}</c> and <c1>{bib}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_17.webp"
+				},
+				{
+					"id": "s179",
+					"name": "Terminal Scorched Earth",
+					"type": 6,
+					"damage": [
+						8
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Tile"
+					],
+					"range": "Self",
+					"shape": "15 × 15 (outside 7 × 7)",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Marks an area <c2>outside of a 7x7 tile area</c>. At the start of this unit's action on the next turn, deals AoE <c6>Burn damage</c> equal to <c2>100%</c> of attack to all targets within the marked area and generates <c1>{bic}</c> <c2>in a 3x3 tile area</c> around the targets for <c2>2 turns</c>. If a target has <c1>{bie}</c>, cleanses all instances of <c1>{bie}</c> and deals AoE <c6>Burn damage</c> equal to <c2>60%</c> of attack.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_3.webp"
+				},
+				{
+					"id": "s17a",
+					"name": "Snow Disaster",
+					"type": 7,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the enemy target with the lowest HP, deals <c3>Freeze damage</c> equal to <c2>80%</c> of attack to it, and applies <c1>{b1v}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_10.webp"
+				},
+				{
+					"id": "s17c",
+					"name": "Mechanical Creation",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Stability Regen"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability index is greater than <c2>0</c>, damage taken is reduced by <c2>80%</c>. Unable to receive stability restoration effects during Stability Break. After <c2>2 turns</c> of Stability Break, fully restores stability index.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Passive_19.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Common_Passive_1.webp"
+				},
+				{
+					"id": "s17d",
+					"name": "Hunting Embers",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When attacking an enemy target with <c1>{bie}</c>, performs <c2>1 instance</c> of <c1>{big}</c> against it.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Passive_18.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s17e"
+				],
+				"2": [
+					"s17e",
+					"s178",
+					"s17a"
+				],
+				"4": [
+					"s17e"
+				],
+				"5": [
+					"s17e",
+					"s178",
+					"s17a"
+				],
+				"7": [
+					"s17e"
+				]
+			}
+		},
+		"e9": {
+			"id": "e9",
+			"name": "Tusk Beasteel - Predator",
+			"icon": "images/enemies/tusk-beasteel-predator/Monster_Bust_Eber_Pig.webp",
+			"weakElements": [
+				5,
+				3
+			],
+			"weakWeapons": [
+				1,
+				4,
+				5
+			],
+			"skills": [
+				{
+					"id": "s17e",
+					"name": "Smelting",
+					"type": 1,
+					"damage": [
+						8
+					],
+					"tags": [
+						"Basic Attack",
+						"Targeted",
+						"Tile"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "Selects the nearest enemy unit, deals <c6>Burn damage</c> equal to <c2>100%</c> of attack to it, then generates <c1>{bic}</c> <c2>within a 3x3 tile area</c> around it for <c2>2 turns</c>.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_20.webp"
+				},
+				{
+					"id": "s17f",
+					"name": "Burning Purgatory",
+					"type": 3,
+					"damage": [
+						8
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Tile"
+					],
+					"range": "Map",
+					"shape": "3 × 3",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the nearest or farthest enemy unit, deals AoE <c6>Burn damage</c> equal to <c2>80%</c> of attack to it and all enemy units <c2>within a 3x3 tile area</c> of it, and generates <c1>{bic}</c> for <c2>2 turns</c>. If there is a target with <c1>{bie}</c> on the battlefield, this attack prioritizes that target.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_2.webp"
+				},
+				{
+					"id": "s17g",
+					"name": "Dipolar Predation",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "At the start of the battle, applies <c2>1 stack</c> of <c1>{bie}</c> to the nearest and farthest enemy Dolls. At the end of the turn, if there are no targets afflicted with this effect, applies <c2>1 stack</c> of <c1>{bie}</c> to the nearest and farthest enemy Dolls.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Passive_7.webp"
+				},
+				{
+					"id": "s178",
+					"name": "Repulsion Surge",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "4",
+					"selects": [
+						1,
+						4,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE Physical damage equal to <c2>60%</c> of attack to all enemy units <c2>within 4 tiles</c> of this unit, knocks them back by <c2>2 tiles</c>, then applies <c1>{bia}</c> and <c1>{bib}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_17.webp"
+				},
+				{
+					"id": "s179",
+					"name": "Terminal Scorched Earth",
+					"type": 6,
+					"damage": [
+						8
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Tile"
+					],
+					"range": "Self",
+					"shape": "15 × 15 (outside 7 × 7)",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Marks an area <c2>outside of a 7x7 tile area</c>. At the start of this unit's action on the next turn, deals AoE <c6>Burn damage</c> equal to <c2>100%</c> of attack to all targets within the marked area and generates <c1>{bic}</c> <c2>in a 3x3 tile area</c> around the targets for <c2>2 turns</c>. If a target has <c1>{bie}</c>, cleanses all instances of <c1>{bie}</c> and deals AoE <c6>Burn damage</c> equal to <c2>60%</c> of attack.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_3.webp"
+				},
+				{
+					"id": "s17a",
+					"name": "Snow Disaster",
+					"type": 7,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the enemy target with the lowest HP, deals <c3>Freeze damage</c> equal to <c2>80%</c> of attack to it, and applies <c1>{b1v}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_10.webp"
+				},
+				{
+					"id": "s17c",
+					"name": "Mechanical Creation",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Stability Regen"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability index is greater than <c2>0</c>, damage taken is reduced by <c2>80%</c>. Unable to receive stability restoration effects during Stability Break. After <c2>2 turns</c> of Stability Break, fully restores stability index.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Passive_19.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Common_Passive_1.webp"
+				},
+				{
+					"id": "s17d",
+					"name": "Hunting Embers",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When attacking an enemy target with <c1>{bie}</c>, performs <c2>1 instance</c> of <c1>{big}</c> against it.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Passive_18.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s17e"
+				],
+				"2": [
+					"s17e",
+					"s178",
+					"s17a"
+				],
+				"4": [
+					"s17e"
+				],
+				"5": [
+					"s17e",
+					"s178",
+					"s17a"
+				],
+				"7": [
+					"s17e"
+				]
+			}
+		},
+		"ea": {
+			"id": "ea",
+			"name": "Tusk Beasteel - Predator",
+			"icon": "images/enemies/tusk-beasteel-predator/Monster_Bust_Eber_Pig.webp",
+			"weakElements": [
+				4,
+				5
+			],
+			"weakWeapons": [
+				1,
+				4,
+				5
+			],
+			"skills": [
+				{
+					"id": "s17e",
+					"name": "Smelting",
+					"type": 1,
+					"damage": [
+						8
+					],
+					"tags": [
+						"Basic Attack",
+						"Targeted",
+						"Tile"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"manual": true,
+					"description": "Selects the nearest enemy unit, deals <c6>Burn damage</c> equal to <c2>100%</c> of attack to it, then generates <c1>{bic}</c> <c2>within a 3x3 tile area</c> around it for <c2>2 turns</c>.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_20.webp"
+				},
+				{
+					"id": "s17f",
+					"name": "Burning Purgatory",
+					"type": 3,
+					"damage": [
+						8
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Tile"
+					],
+					"range": "Map",
+					"shape": "3 × 3",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Selects the nearest or farthest enemy unit, deals AoE <c6>Burn damage</c> equal to <c2>80%</c> of attack to it and all enemy units <c2>within a 3x3 tile area</c> of it, and generates <c1>{bic}</c> for <c2>2 turns</c>. If there is a target with <c1>{bie}</c> on the battlefield, this attack prioritizes that target.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_2.webp"
+				},
+				{
+					"id": "s17g",
+					"name": "Dipolar Predation",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "At the start of the battle, applies <c2>1 stack</c> of <c1>{bie}</c> to the nearest and farthest enemy Dolls. At the end of the turn, if there are no targets afflicted with this effect, applies <c2>1 stack</c> of <c1>{bie}</c> to the nearest and farthest enemy Dolls.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Passive_7.webp"
+				},
+				{
+					"id": "s178",
+					"name": "Repulsion Surge",
+					"type": 4,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Active",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "4",
+					"selects": [
+						1,
+						4,
+						2
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Deals AoE Physical damage equal to <c2>60%</c> of attack to all enemy units <c2>within 4 tiles</c> of this unit, knocks them back by <c2>2 tiles</c>, then applies <c1>{bia}</c> and <c1>{bib}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_17.webp"
+				},
+				{
+					"id": "s179",
+					"name": "Terminal Scorched Earth",
+					"type": 6,
+					"damage": [
+						8
+					],
+					"tags": [
+						"Active",
+						"AoE",
+						"Tile"
+					],
+					"range": "Self",
+					"shape": "15 × 15 (outside 7 × 7)",
+					"selects": [
+						4
+					],
+					"affects": [
+						2,
+						3
+					],
+					"mode": 2,
+					"manual": true,
+					"description": "Marks an area <c2>outside of a 7x7 tile area</c>. At the start of this unit's action on the next turn, deals AoE <c6>Burn damage</c> equal to <c2>100%</c> of attack to all targets within the marked area and generates <c1>{bic}</c> <c2>in a 3x3 tile area</c> around the targets for <c2>2 turns</c>. If a target has <c1>{bie}</c>, cleanses all instances of <c1>{bie}</c> and deals AoE <c6>Burn damage</c> equal to <c2>60%</c> of attack.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_3.webp"
+				},
+				{
+					"id": "s17a",
+					"name": "Snow Disaster",
+					"type": 7,
+					"damage": [
+						3
+					],
+					"tags": [
+						"Active",
+						"Targeted"
+					],
+					"range": "Map",
+					"shape": "Target",
+					"selects": [
+						1,
+						2
+					],
+					"affects": [
+						1
+					],
+					"mode": 5,
+					"manual": true,
+					"description": "Selects the enemy target with the lowest HP, deals <c3>Freeze damage</c> equal to <c2>80%</c> of attack to it, and applies <c1>{b1v}</c> for <c2>2 turns</c>.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Active_10.webp"
+				},
+				{
+					"id": "s17c",
+					"name": "Mechanical Creation",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"Stability Regen"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When stability index is greater than <c2>0</c>, damage taken is reduced by <c2>80%</c>. Unable to receive stability restoration effects during Stability Break. After <c2>2 turns</c> of Stability Break, fully restores stability index.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Passive_19.webp"
+				},
+				{
+					"id": "s14u",
+					"name": "Deep Blocker",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "Immune to Control effects such as Stun, Taunt, and Command Prohibition.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Common_Passive_1.webp"
+				},
+				{
+					"id": "s17d",
+					"name": "Hunting Embers",
+					"type": 5,
+					"damage": [
+						1
+					],
+					"tags": [
+						"Passive",
+						"AoE"
+					],
+					"range": "Self",
+					"shape": "Target",
+					"selects": [
+						4
+					],
+					"affects": [
+						1
+					],
+					"mode": 1,
+					"description": "When attacking an enemy target with <c1>{bie}</c>, performs <c2>1 instance</c> of <c1>{big}</c> against it.",
+					"icon": "images/enemies/tusk-beasteel-predator/Skill_Eber_Passive_18.webp"
+				}
+			],
+			"skillOrder": {
+				"1": [
+					"s17e"
+				],
+				"2": [
+					"s17e",
+					"s178",
+					"s17a"
+				],
+				"4": [
+					"s17e"
+				],
+				"5": [
+					"s17e",
+					"s178",
+					"s17a"
+				],
+				"7": [
+					"s17e"
+				]
+			}
+		}
+	}
+}

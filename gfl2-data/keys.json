@@ -1,0 +1,1203 @@
+{
+	"data": {
+		"c1t": {
+			"id": "c1t",
+			"name": "Prompt Cleansing",
+			"rarity": 3,
+			"type": 2,
+			"unreleased": true,
+			"description": "AoE damage dealt by this unit is increased by <c2>5%</c>. After dealing a total of <c2>10 instances</c> of AoE damage, AoE damage dealt is further increased by <c2>5%</c>.",
+			"icon": "images/dolls/agent/Skill_Chrtalent_AgentSSR.webp",
+			"dollId": "d39"
+		},
+		"a1s": {
+			"id": "a1s",
+			"name": "Master's Command",
+			"rarity": 2,
+			"type": 4,
+			"unreleased": true,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Agent.",
+			"icon": "images/dolls/agent/Skill_Chrtalent_AgentSSR_love.webp",
+			"dollId": "d39"
+		},
+		"c1b": {
+			"id": "c1b",
+			"name": "Mind's Eye",
+			"rarity": 3,
+			"type": 2,
+			"description": "Phase damage dealt to enemy units with Shields is increased by <c2>10%</c>.",
+			"icon": "images/dolls/alva/Skill_Chrtalent_AlvaSSR.webp",
+			"dollId": "d1b"
+		},
+		"a1b": {
+			"id": "a1b",
+			"name": "Blessed One",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Alva.",
+			"icon": "images/dolls/alva/Skill_Chrtalent_AlvaSSR_love.webp",
+			"dollId": "d1b"
+		},
+		"cp": {
+			"id": "cp",
+			"name": "Inductive Field",
+			"rarity": 3,
+			"type": 2,
+			"description": "At the start of the turn, for every Electric debuff on the field, increases damage dealt by <c2>5%</c>, to a maximum of <c2>10%</c>. This effect lasts until the end of the round.",
+			"icon": "images/dolls/andoris/Skill_Chrtalent_AndorisSSR.webp",
+			"dollId": "dp"
+		},
+		"ap": {
+			"id": "ap",
+			"name": "Rain Nourishes in Silence",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Andoris.",
+			"icon": "images/dolls/andoris/Skill_Chrtalent_AndorisSSR_love.webp",
+			"dollId": "dp"
+		},
+		"c1q": {
+			"id": "c1q",
+			"name": "Stargazer",
+			"rarity": 3,
+			"type": 2,
+			"unreleased": true,
+			"description": "When using an Ultimate skill, damage dealt this turn is increased by <c2>10%</c>.",
+			"icon": "images/dolls/asteria/Skill_Chrtalent_AsteriaSSR.webp",
+			"dollId": "d36"
+		},
+		"a1p": {
+			"id": "a1p",
+			"name": "Silent Bonds",
+			"rarity": 2,
+			"type": 4,
+			"unreleased": true,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Asteria.",
+			"icon": "images/dolls/asteria/Skill_Chrtalent_AsteriaSSR_love.webp",
+			"dollId": "d36"
+		},
+		"c17": {
+			"id": "c17",
+			"name": "Adept Smith",
+			"rarity": 3,
+			"type": 2,
+			"description": "The defense of this unit's physical summons is increased by <c2>7%</c>.",
+			"icon": "images/dolls/balthilde/Skill_Chrtalent_BalthildeSSR.webp",
+			"dollId": "d17"
+		},
+		"a17": {
+			"id": "a17",
+			"name": "Clumsy Confession",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Balthilde.",
+			"icon": "images/dolls/balthilde/Skill_Chrtalent_BalthildeSSR_love.webp",
+			"dollId": "d17"
+		},
+		"c1h": {
+			"id": "c1h",
+			"name": "Fatal Possessiveness",
+			"rarity": 3,
+			"type": 2,
+			"description": "When an enemy is on a Corrosion tile, Phase damage dealt to it is increased by <c2>10%</c>.",
+			"icon": "images/dolls/basti/Skill_Chrtalent_BastiSSR.webp",
+			"dollId": "d1h"
+		},
+		"a1h": {
+			"id": "a1h",
+			"name": "Eternal Moment",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Basti.",
+			"icon": "images/dolls/basti/Skill_Chrtalent_BastiSSR_love.webp",
+			"dollId": "d1h"
+		},
+		"cs": {
+			"id": "cs",
+			"name": "The Will to Fight for Favor",
+			"rarity": 3,
+			"type": 2,
+			"description": "Increases damage dealt by <c2>10%</c> if this unit expends mobility.",
+			"icon": "images/dolls/belka/Skill_Chrtalent_BiyocaSSR.webp",
+			"dollId": "ds"
+		},
+		"as": {
+			"id": "as",
+			"name": "Vivid Preoccupation",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Belka.",
+			"icon": "images/dolls/belka/Skill_Chrtalent_BiyocaSSR_love.webp",
+			"dollId": "ds"
+		},
+		"c1s": {
+			"id": "c1s",
+			"name": "More Than Understanding",
+			"rarity": 3,
+			"type": 2,
+			"unreleased": true,
+			"description": "When this unit has a Shield, <c6>Burn damage</c> dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/cecilia/Skill_Chrtalent_CeciliaSSR.webp",
+			"dollId": "d38"
+		},
+		"a1r": {
+			"id": "a1r",
+			"name": "Targeted Therapy",
+			"rarity": 2,
+			"type": 4,
+			"unreleased": true,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Cecilia.",
+			"icon": "images/dolls/cecilia/Skill_Chrtalent_CeciliaSSR_love.webp",
+			"dollId": "d38"
+		},
+		"cd": {
+			"id": "cd",
+			"name": "Essential Hot Beverages",
+			"rarity": 3,
+			"type": 2,
+			"description": "At the end of action, applies <c1>{b2l}</c> to the closest allied unit without <c1>{b2l}</c>. This effect has a <c2>2-turn</c> cooldown.",
+			"icon": "images/dolls/centaureissi/Skill_Chrtalent_CentaureissiSSR.webp",
+			"dollId": "dd"
+		},
+		"ad": {
+			"id": "ad",
+			"name": "Maid's Pride",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Centaureissi.",
+			"icon": "images/dolls/centaureissi/Skill_Chrtalent_CentaureissiSSR_love.webp",
+			"dollId": "dd"
+		},
+		"c9": {
+			"id": "c9",
+			"name": "Overengineered Invention",
+			"rarity": 2,
+			"type": 2,
+			"description": "When using an active heal, there is a <c2>50%</c> chance to apply <c2>1</c> random buff to the target for <c2>1 turn</c>.",
+			"icon": "images/dolls/cheeta/Skill_Chrtalent_CheetaSR.webp",
+			"dollId": "d9"
+		},
+		"a9": {
+			"id": "a9",
+			"name": "Genius' Luck",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Cheeta.",
+			"icon": "images/dolls/cheeta/Skill_Chrtalent_CheetaSR_love.webp",
+			"dollId": "d9"
+		},
+		"c1g": {
+			"id": "c1g",
+			"name": "Love Is Reunion",
+			"rarity": 3,
+			"type": 2,
+			"description": "Damage dealt to targets whose HP exceeds this unit is increased by <c2>10%</c>.",
+			"icon": "images/dolls/cheyanne/Skill_Chrtalent_CheyanneSSR.webp",
+			"dollId": "d1g"
+		},
+		"a1g": {
+			"id": "a1g",
+			"name": "Hail Mary",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Cheyanne.",
+			"icon": "images/dolls/cheyanne/Skill_Chrtalent_CheyanneSSR_love.webp",
+			"dollId": "d1g"
+		},
+		"c1u": {
+			"id": "c1u",
+			"name": "Mirrored Avatar",
+			"rarity": 3,
+			"type": 2,
+			"unreleased": true,
+			"description": "After applying debuffs, defense is increased by <c2>7%</c> for <c2>1 round</c>.",
+			"icon": "images/dolls/colphne-doppelganger/Skill_Chrtalent_ColphneDoppelgaengerSSR.webp",
+			"dollId": "d3a"
+		},
+		"c2": {
+			"id": "c2",
+			"name": "Fabricated Life",
+			"rarity": 2,
+			"type": 2,
+			"description": "Before using a single target active heal, cleanses <c2>1</c> random debuff from the target.",
+			"icon": "images/dolls/colphne/Skill_Chrtalent_ColphneSR.webp",
+			"dollId": "d2"
+		},
+		"a2": {
+			"id": "a2",
+			"name": "Healing Treatment",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Colphne.",
+			"icon": "images/dolls/colphne/Skill_Chrtalent_ColphneSR_love.webp",
+			"dollId": "d2"
+		},
+		"cf": {
+			"id": "cf",
+			"name": "Shattering Stone and Silk",
+			"rarity": 3,
+			"type": 2,
+			"description": "At the start of the action, gains <c1>{b2y}</c> for <c2>1 turn</c>. This has a cooldown of <c2>1 turn</c>.",
+			"icon": "images/dolls/daiyan/Skill_Chrtalent_DaiyanSSR.webp",
+			"dollId": "df"
+		},
+		"af": {
+			"id": "af",
+			"name": "Sweet Serenade",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Daiyan.",
+			"icon": "images/dolls/daiyan/Skill_Chrtalent_DaiyanSSR_love.webp",
+			"dollId": "df"
+		},
+		"c8": {
+			"id": "c8",
+			"name": "Artistic Inspiration",
+			"rarity": 3,
+			"type": 2,
+			"description": "For targets with mobility less than or equal to the user or that cannot move, increases Phase damage dealt by <c2>10%</c>.",
+			"icon": "images/dolls/dushevnaya/Skill_Chrtalent_DusevnyjSSR.webp",
+			"dollId": "d8"
+		},
+		"a8": {
+			"id": "a8",
+			"name": "Shining Memories",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Dushevnaya.",
+			"icon": "images/dolls/dushevnaya/Skill_Chrtalent_DusevnyjSSR_love.webp",
+			"dollId": "d8"
+		},
+		"c1r": {
+			"id": "c1r",
+			"name": "An Actor Prepares",
+			"rarity": 3,
+			"type": 2,
+			"unreleased": true,
+			"description": "If a skill does not consume Confectance Index, damage dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/eagletta/Skill_Chrtalent_EaglettaSSR.webp",
+			"dollId": "d37"
+		},
+		"a1q": {
+			"id": "a1q",
+			"name": "Unadorned Sincerity",
+			"rarity": 2,
+			"type": 4,
+			"unreleased": true,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Eagletta.",
+			"icon": "images/dolls/eagletta/Skill_Chrtalent_EaglettaSSR_love.webp",
+			"dollId": "d37"
+		},
+		"c1o": {
+			"id": "c1o",
+			"name": "Rustling Awe",
+			"rarity": 3,
+			"type": 2,
+			"description": "At the start of the turn, if this unit is on a <c2>Level 3</c> phase tile, AoE damage dealt is increased by <c2>10%</c> for <c2>1 round</c>.",
+			"icon": "images/dolls/faelynn/Skill_Chrtalent_FaelynnSSR.webp",
+			"dollId": "d34"
+		},
+		"a1n": {
+			"id": "a1n",
+			"name": "Romantic Journey",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Faelynn.",
+			"icon": "images/dolls/faelynn/Skill_Chrtalent_FaelynnSSR_love.webp",
+			"dollId": "d34"
+		},
+		"cq": {
+			"id": "cq",
+			"name": "Holmgang",
+			"rarity": 3,
+			"type": 2,
+			"description": "Physical damage taken by enemy units within <c2>3 tiles</c> is increased by <c2>5%</c>.",
+			"icon": "images/dolls/faye/Skill_Chrtalent_FayeSSR.webp",
+			"dollId": "dq"
+		},
+		"aq": {
+			"id": "aq",
+			"name": "The Line Between Life and Death",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Faye.",
+			"icon": "images/dolls/faye/Skill_Chrtalent_FayeSSR_love.webp",
+			"dollId": "dq"
+		},
+		"c1a": {
+			"id": "c1a",
+			"name": "Master's Command",
+			"rarity": 3,
+			"type": 2,
+			"description": "The attack of this unit's physical summons is increased by <c2>7%</c>.",
+			"icon": "images/dolls/florence/Skill_Chrtalent_FlorenceSSR.webp",
+			"dollId": "d1a"
+		},
+		"a1a": {
+			"id": "a1a",
+			"name": "Prank Prosecutor",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Florence.",
+			"icon": "images/dolls/florence/Skill_Chrtalent_FlorenceSSR_love.webp",
+			"dollId": "d1a"
+		},
+		"c5": {
+			"id": "c5",
+			"name": "Sustained Endurance",
+			"rarity": 2,
+			"type": 2,
+			"description": "When <c1>{bo}</c> is active, immune to displacement for <c2>1</c> time. Has a cooldown of <c2>1 turn</c>.",
+			"icon": "images/dolls/groza/Skill_Chrtalent_GrozaSR.webp",
+			"dollId": "d5"
+		},
+		"a5": {
+			"id": "a5",
+			"name": "Midnight Reflection",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Groza.",
+			"icon": "images/dolls/groza/Skill_Chrtalent_GrozaSR_love.webp",
+			"dollId": "d5"
+		},
+		"cv": {
+			"id": "cv",
+			"name": "Reliable Technology",
+			"rarity": 3,
+			"type": 2,
+			"description": "After applying a debuff, damage dealt is increased by <c2>10%</c> for <c2>1 round</c>.",
+			"icon": "images/dolls/harpsy/Skill_Chrtalent_HarpsySSR.webp",
+			"dollId": "dv"
+		},
+		"av": {
+			"id": "av",
+			"name": ": Scaredy-Cat's Vexation",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Harpsy.",
+			"icon": "images/dolls/harpsy/Skill_Chrtalent_HarpsySSR_love.webp",
+			"dollId": "dv"
+		},
+		"c1d": {
+			"id": "c1d",
+			"name": "Unwavering Defense",
+			"rarity": 3,
+			"type": 2,
+			"description": "If this unit's defense is greater than the target's defense, damage dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/helen/Skill_Chrtalent_HelenSSR.webp",
+			"dollId": "d1d"
+		},
+		"a1d": {
+			"id": "a1d",
+			"name": "Secret Intelligence",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Helen.",
+			"icon": "images/dolls/helen/Skill_Chrtalent_HelenSSR_love.webp",
+			"dollId": "d1d"
+		},
+		"ci": {
+			"id": "ci",
+			"name": "Might Makes Right",
+			"rarity": 3,
+			"type": 2,
+			"description": "Damage dealt to enemies in Stability Break is increased by <c2>10%</c>.",
+			"icon": "images/dolls/jiangyu/Skill_Chrtalent_JiangyuSSR.webp",
+			"dollId": "di"
+		},
+		"ai": {
+			"id": "ai",
+			"name": "Rebellious Beat",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Jiangyu.",
+			"icon": "images/dolls/jiangyu/Skill_Chrtalent_JiangyuSSR_love.webp",
+			"dollId": "di"
+		},
+		"cy": {
+			"id": "cy",
+			"name": "Murderous Return",
+			"rarity": 3,
+			"type": 2,
+			"description": "At the start of the turn, if the user's Confectance Index is full, the next instance of AoE damage inflicted by an active attack is increased by <c2>10%</c>.",
+			"icon": "images/dolls/klukai/Skill_Chrtalent_ClukaySSR.webp",
+			"dollId": "dy"
+		},
+		"ay": {
+			"id": "ay",
+			"name": "Fly, Silver Wings",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Klukai.",
+			"icon": "images/dolls/klukai/Skill_Chrtalent_ClukaySSR_love.webp",
+			"dollId": "dy"
+		},
+		"c1p": {
+			"id": "c1p",
+			"name": "Killer Vision",
+			"rarity": 3,
+			"type": 2,
+			"unreleased": true,
+			"description": "If the mobility of this unit or her physical summon is greater than or equal to that of the target, damage dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/koleda/Skill_Chrtalent_KoledaSSR.webp",
+			"dollId": "d35"
+		},
+		"a1o": {
+			"id": "a1o",
+			"name": "Dances With Wolves",
+			"rarity": 2,
+			"type": 4,
+			"unreleased": true,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Koleda.",
+			"icon": "images/dolls/koleda/Skill_Chrtalent_KoledaSSR_love.webp",
+			"dollId": "d35"
+		},
+		"c0": {
+			"id": "c0",
+			"name": "Art of Violence",
+			"rarity": 2,
+			"type": 2,
+			"description": "If under the effects of a Burn buff, gains immunity to <c1>{ba}</c> and <c1>{b8}</c>, and increases damage by <c2>5%</c>.",
+			"icon": "images/dolls/krolik/Skill_Chrtalent_CharolicSR.webp",
+			"dollId": "d0"
+		},
+		"a0": {
+			"id": "a0",
+			"name": "Scorching Protection",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Krolik.",
+			"icon": "images/dolls/krolik/Skill_Chrtalent_CharolicSR_love.webp",
+			"dollId": "d0"
+		},
+		"cj": {
+			"id": "cj",
+			"name": "Blazing Inferno",
+			"rarity": 2,
+			"type": 2,
+			"description": "When applying a Burn buff, there is a <c2>50%</c> chance to apply <c2>1</c> additional buff to the target for <c2>1 turn</c>.",
+			"icon": "images/dolls/ksenia/Skill_Chrtalent_KseniaSR.webp",
+			"dollId": "dj"
+		},
+		"aj": {
+			"id": "aj",
+			"name": "Making Money",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Ksenia.",
+			"icon": "images/dolls/ksenia/Skill_Chrtalent_KseniaSR_love.webp",
+			"dollId": "dj"
+		},
+		"c14": {
+			"id": "c14",
+			"name": "Complete Liberation",
+			"rarity": 3,
+			"type": 2,
+			"description": "Damage dealt to enemy units with <c2>0 or lower</c> defense is increased by <c2>10%</c>.",
+			"icon": "images/dolls/lainie/Skill_Chrtalent_LeneSSR.webp",
+			"dollId": "d14"
+		},
+		"a14": {
+			"id": "a14",
+			"name": "My Own Space",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Lainie.",
+			"icon": "images/dolls/lainie/Skill_Chrtalent_LeneSSR_love.webp",
+			"dollId": "d14"
+		},
+		"c3": {
+			"id": "c3",
+			"name": "Razor-Sharp Claws",
+			"rarity": 3,
+			"type": 2,
+			"description": "After dealing targeted damage, applies <c1>{b6}</c> to the target for <c2>1 turn</c>. This effect can be triggered up to <c2>2 times</c> per turn.",
+			"icon": "images/dolls/lenna/Skill_Chrtalent_LennaSSR.webp",
+			"dollId": "d3"
+		},
+		"a3": {
+			"id": "a3",
+			"name": "Lighthearted Banter",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Lenna.",
+			"icon": "images/dolls/lenna/Skill_Chrtalent_LennaSSR_love.webp",
+			"dollId": "d3"
+		},
+		"c12": {
+			"id": "c12",
+			"name": "Elite Agent",
+			"rarity": 3,
+			"type": 2,
+			"description": "Damage dealt to enemy units with Electric debuffs is increased by <c2>7%</c>.",
+			"icon": "images/dolls/leva/Skill_Chrtalent_LevaSSR.webp",
+			"dollId": "d12"
+		},
+		"a12": {
+			"id": "a12",
+			"name": "Endless Game",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Leva.",
+			"icon": "images/dolls/leva/Skill_Chrtalent_LevaSSR_love.webp",
+			"dollId": "d12"
+		},
+		"c18": {
+			"id": "c18",
+			"name": "Mighty Miracle",
+			"rarity": 3,
+			"type": 2,
+			"description": "Ultimate Skill damage is increased by <c2>10%</c>.",
+			"icon": "images/dolls/lewis/Skill_Chrtalent_LewisSSR.webp",
+			"dollId": "d18"
+		},
+		"a18": {
+			"id": "a18",
+			"name": "Childhood Dreams Forever",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Lewis.",
+			"icon": "images/dolls/lewis/Skill_Chrtalent_LewisSSR_love.webp",
+			"dollId": "d18"
+		},
+		"c15": {
+			"id": "c15",
+			"name": "Endless Night",
+			"rarity": 3,
+			"type": 2,
+			"description": "When attacking enemy units with debuffs, phase damage dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/lind/Skill_Chrtalent_LindSSR.webp",
+			"dollId": "d15"
+		},
+		"a15": {
+			"id": "a15",
+			"name": "Long Night's End",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Lind.",
+			"icon": "images/dolls/lind/Skill_Chrtalent_LindSSR_love.webp",
+			"dollId": "d15"
+		},
+		"cl": {
+			"id": "cl",
+			"name": "Vulnerability Exploit",
+			"rarity": 2,
+			"type": 2,
+			"description": "Damage dealt to targets with defense debuffs is increased by <c2>7%</c>.",
+			"icon": "images/dolls/littara/Skill_Chrtalent_LittaraSR.webp",
+			"dollId": "dl"
+		},
+		"al": {
+			"id": "al",
+			"name": "Scribbled Thoughts",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Littara.",
+			"icon": "images/dolls/littara/Skill_Chrtalent_LittaraSR_love.webp",
+			"dollId": "dl"
+		},
+		"c1i": {
+			"id": "c1i",
+			"name": "Big Money Girl",
+			"rarity": 3,
+			"type": 2,
+			"description": "Damage dealt by the user's <c1>{bh}</c> is increased by <c2>10%</c>.",
+			"icon": "images/dolls/liushih/Skill_Chrtalent_LiushihSSR.webp",
+			"dollId": "d1i"
+		},
+		"a1i": {
+			"id": "a1i",
+			"name": "Overflowing Riches",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Liushih.",
+			"icon": "images/dolls/liushih/Skill_Chrtalent_LiushihSSR_love.webp",
+			"dollId": "d1i"
+		},
+		"c1f": {
+			"id": "c1f",
+			"name": "Satisfied Sigh",
+			"rarity": 3,
+			"type": 2,
+			"description": "When this unit has a Burn buff, critical rate is increased by <c2>10%</c>.",
+			"icon": "images/dolls/loreley/Skill_Chrtalent_LoreleySSR.webp",
+			"dollId": "d1f"
+		},
+		"a1f": {
+			"id": "a1f",
+			"name": ": Desire's Echo",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Loreley.",
+			"icon": "images/dolls/loreley/Skill_Chrtalent_LoreleySSR_love.webp",
+			"dollId": "d1f"
+		},
+		"co": {
+			"id": "co",
+			"name": "Hunting Trap",
+			"rarity": 2,
+			"type": 2,
+			"description": "Increase damage dealt against enemy targets with movement debuffs by <c2>7%</c>.",
+			"icon": "images/dolls/lotta/Skill_Chrtalent_LottaSR.webp",
+			"dollId": "do"
+		},
+		"ao": {
+			"id": "ao",
+			"name": "New Sprout",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Lotta.",
+			"icon": "images/dolls/lotta/Skill_Chrtalent_LottaSR_love.webp",
+			"dollId": "do"
+		},
+		"ch": {
+			"id": "ch",
+			"name": "Survival Instinct",
+			"rarity": 3,
+			"type": 2,
+			"description": "At the start of the action, if own HP is greater than <c2>80%</c>, reduces stability damage taken from attacks by <c2>2 points</c>. This can trigger at most <c2>once</c> per turn.",
+			"icon": "images/dolls/makiatto/Skill_Chrtalent_MacqiatoSSR.webp",
+			"dollId": "dh"
+		},
+		"ah": {
+			"id": "ah",
+			"name": "Love So Sweet",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Makiatto.",
+			"icon": "images/dolls/makiatto/Skill_Chrtalent_MacqiatoSSR_love.webp",
+			"dollId": "dh"
+		},
+		"cx": {
+			"id": "cx",
+			"name": "Gaming Time",
+			"rarity": 3,
+			"type": 2,
+			"description": "Damage dealt by basic attacks is increased by <c2>20%</c>.",
+			"icon": "images/dolls/mechty/Skill_Chrtalent_MishtySSR.webp",
+			"dollId": "dx"
+		},
+		"ax": {
+			"id": "ax",
+			"name": "Deep Sleep",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Mechty.",
+			"icon": "images/dolls/mechty/Skill_Chrtalent_MishtySSR_love.webp",
+			"dollId": "dx"
+		},
+		"c1n": {
+			"id": "c1n",
+			"name": "Mitylrat Little",
+			"rarity": 3,
+			"type": 2,
+			"description": "If this unit is on a Hydro tile when dealing damage, damage dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/mityl/Skill_Chrtalent_MitylSSR.webp",
+			"dollId": "d1n"
+		},
+		"a1m": {
+			"id": "a1m",
+			"name": "Herstal Girl",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Mityl.",
+			"icon": "images/dolls/mityl/Skill_Chrtalent_MitylSSR_love.webp",
+			"dollId": "d1n"
+		},
+		"cg": {
+			"id": "cg",
+			"name": "All Seeing Eye",
+			"rarity": 3,
+			"type": 2,
+			"description": "When this unit is under the effects of <c1>{b1}</c>, increases damage dealt by <c2>7%</c>.",
+			"icon": "images/dolls/mosin-nagant/Skill_Chrtalent_MosinnagantSSR.webp",
+			"dollId": "dg"
+		},
+		"ag": {
+			"id": "ag",
+			"name": "Heart of Gold",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Mosin-Nagant.",
+			"icon": "images/dolls/mosin-nagant/Skill_Chrtalent_MosinnagantSSR_love.webp",
+			"dollId": "dg"
+		},
+		"cb": {
+			"id": "cb",
+			"name": "Veteran's Wisdom",
+			"rarity": 2,
+			"type": 2,
+			"description": "If target's stability index is lower than this unit's, increases damage dealt to them by <c2>7%</c>.",
+			"icon": "images/dolls/nagant/Skill_Chrtalent_NagantSR.webp",
+			"dollId": "db"
+		},
+		"ab": {
+			"id": "ab",
+			"name": "Hat Trick",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Nagant.",
+			"icon": "images/dolls/nagant/Skill_Chrtalent_NagantSR_love.webp",
+			"dollId": "db"
+		},
+		"c1l": {
+			"id": "c1l",
+			"name": "Will To Revengeance",
+			"rarity": 3,
+			"type": 2,
+			"description": "At the start of the battle, if there are <c2>2</c> allied RF Dolls or <c2>2</c> allied Corrosion-attributed Dolls on the battlefield, this unit's damage dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/nemesis-gnosis/Skill_Chrtalent_NemesisGnosisSSR.webp",
+			"dollId": "d1l"
+		},
+		"c1": {
+			"id": "c1",
+			"name": "Blessing of the Morning Star",
+			"rarity": 2,
+			"type": 2,
+			"description": "When this unit is under the effects of <c1>{b1}</c>, gain <c2>3</c> <c1>additional tiles of movement</c> after killing an enemy target.",
+			"icon": "images/dolls/nemesis/Skill_Chrtalent_NemesisSR.webp",
+			"dollId": "d1"
+		},
+		"a1": {
+			"id": "a1",
+			"name": "Soft Whispers",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Nemesis - Gnosis.",
+			"icon": "images/dolls/nemesis/Skill_Chrtalent_NemesisSR_love.webp",
+			"dollId": "d1"
+		},
+		"c11": {
+			"id": "c11",
+			"name": "Defender",
+			"rarity": 3,
+			"type": 2,
+			"description": "When this unit has a Hydro buff, critical rate is increased by <c2>10%</c>.",
+			"icon": "images/dolls/nikketa/Skill_Chrtalent_NikketaSSR.webp",
+			"dollId": "d11"
+		},
+		"a11": {
+			"id": "a11",
+			"name": "Ally of Justice",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Nikketa.",
+			"icon": "images/dolls/nikketa/Skill_Chrtalent_NikketaSSR_love.webp",
+			"dollId": "d11"
+		},
+		"c1k": {
+			"id": "c1k",
+			"name": "Source of Pride",
+			"rarity": 3,
+			"type": 2,
+			"description": "Fixed damage dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/ots-14/Skill_Chrtalent_OTs14SSR.webp",
+			"dollId": "d1k"
+		},
+		"a1k": {
+			"id": "a1k",
+			"name": "Unique Style",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by OTs-14.",
+			"icon": "images/dolls/ots-14/Skill_Chrtalent_OTs14SSR_love.webp",
+			"dollId": "d1k"
+		},
+		"cn": {
+			"id": "cn",
+			"name": "Brilliant Medal",
+			"rarity": 3,
+			"type": 2,
+			"description": "Increases damage dealt by allied units' support skills (excluding self) by <c2>10%</c>. Can trigger at most <c2>once</c> per turn.",
+			"icon": "images/dolls/papasha/Skill_Chrtalent_PapashaSSR.webp",
+			"dollId": "dn"
+		},
+		"an": {
+			"id": "an",
+			"name": "Unbreakable Faith",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Papasha.",
+			"icon": "images/dolls/papasha/Skill_Chrtalent_PapashaSSR_love.webp",
+			"dollId": "dn"
+		},
+		"cz": {
+			"id": "cz",
+			"name": "Still Growing",
+			"rarity": 3,
+			"type": 2,
+			"description": "When attacking the same enemy multiple times, phase damage dealt to it is increased by <c2>10%</c>.",
+			"icon": "images/dolls/peri/Skill_Chrtalent_PeriSSR.webp",
+			"dollId": "dz"
+		},
+		"az": {
+			"id": "az",
+			"name": "Trader's Ethics",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Peri.",
+			"icon": "images/dolls/peri/Skill_Chrtalent_PeriSSR_love.webp",
+			"dollId": "dz"
+		},
+		"c6": {
+			"id": "c6",
+			"name": "All Points to Damage",
+			"rarity": 3,
+			"type": 2,
+			"description": "If an active skill hits <c2>2</c> or more enemy targets, damage dealt is increased by <c2>7%</c>.",
+			"icon": "images/dolls/peritya/Skill_Chrtalent_PerityaSSR.webp",
+			"dollId": "d6"
+		},
+		"a6": {
+			"id": "a6",
+			"name": "Cat's Relaxation",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Peritya.",
+			"icon": "images/dolls/peritya/Skill_Chrtalent_PerityaSSR_love.webp",
+			"dollId": "d6"
+		},
+		"c16": {
+			"id": "c16",
+			"name": "Ex Nihilo",
+			"rarity": 3,
+			"type": 2,
+			"description": "When Confectance Index reaches <c2>0 points</c>, damage dealt for the current round is increased by <c2>10%</c>.",
+			"icon": "images/dolls/phaetusa/Skill_Chrtalent_PhaetusaSSR.webp",
+			"dollId": "d16"
+		},
+		"a16": {
+			"id": "a16",
+			"name": "Dual-Cored Self",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Phaetusa.",
+			"icon": "images/dolls/phaetusa/Skill_Chrtalent_PhaetusaSSR_love.webp",
+			"dollId": "d16"
+		},
+		"cc": {
+			"id": "cc",
+			"name": "Strategic Negotiation",
+			"rarity": 3,
+			"type": 2,
+			"description": "Increase damage dealt outside of the unit's own turn by <c2>7%</c>.",
+			"icon": "images/dolls/qiongjiu/Skill_Chrtalent_QiongjiuSSR.webp",
+			"dollId": "dc"
+		},
+		"ac": {
+			"id": "ac",
+			"name": "Warm as Jade",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Qiongjiu.",
+			"icon": "images/dolls/qiongjiu/Skill_Chrtalent_QiongjiuSSR_love.webp",
+			"dollId": "dc"
+		},
+		"cu": {
+			"id": "cu",
+			"name": "Delicious Cooking",
+			"rarity": 3,
+			"type": 2,
+			"description": "When <c1>{b69}</c> deals Burn damage, the damage dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/qiuhua/Skill_Chrtalent_QiuhuaSSR.webp",
+			"dollId": "du"
+		},
+		"au": {
+			"id": "au",
+			"name": "Cooking Consultant",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Qiuhua.",
+			"icon": "images/dolls/qiuhua/Skill_Chrtalent_QiuhuaSSR_love.webp",
+			"dollId": "du"
+		},
+		"c13": {
+			"id": "c13",
+			"name": "Justice Is My Strength",
+			"rarity": 3,
+			"type": 2,
+			"description": "When this unit has <c1>{bb}</c> effects, phase damage dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/robella/Skill_Chrtalent_RobellaSSR.webp",
+			"dollId": "d13"
+		},
+		"a13": {
+			"id": "a13",
+			"name": "Spiritual Cruise",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Robella.",
+			"icon": "images/dolls/robella/Skill_Chrtalent_RobellaSSR_love.webp",
+			"dollId": "d13"
+		},
+		"ce": {
+			"id": "ce",
+			"name": "Hot Oil Protection",
+			"rarity": 3,
+			"type": 2,
+			"description": "When dealing targeted damage, applies <c1>{b1i}</c> to the target for <c2>1 turn</c>.",
+			"icon": "images/dolls/sabrina/Skill_Chrtalent_SabrinaSSR.webp",
+			"dollId": "de"
+		},
+		"ae": {
+			"id": "ae",
+			"name": "Dessert Time",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Sabrina.",
+			"icon": "images/dolls/sabrina/Skill_Chrtalent_SabrinaSSR_love.webp",
+			"dollId": "de"
+		},
+		"c1e": {
+			"id": "c1e",
+			"name": "Ace Courier",
+			"rarity": 3,
+			"type": 2,
+			"description": "AoE damage dealt to enemy targets with debuffs is increased by <c2>10%</c>.",
+			"icon": "images/dolls/sakura/Skill_Chrtalent_SakuraSSR.webp",
+			"dollId": "d1e"
+		},
+		"a1e": {
+			"id": "a1e",
+			"name": "Live To Deliver",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Sakura.",
+			"icon": "images/dolls/sakura/Skill_Chrtalent_SakuraSSR_love.webp",
+			"dollId": "d1e"
+		},
+		"c1j": {
+			"id": "c1j",
+			"name": "Stigmata",
+			"rarity": 3,
+			"type": 2,
+			"description": "Melee damage dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/sextans/Skill_Chrtalent_SextansSSR.webp",
+			"dollId": "d1j"
+		},
+		"a1j": {
+			"id": "a1j",
+			"name": "Silent Echo",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Sextans.",
+			"icon": "images/dolls/sextans/Skill_Chrtalent_SextansSSR_love.webp",
+			"dollId": "d1j"
+		},
+		"c7": {
+			"id": "c7",
+			"name": "Opening Fireworks",
+			"rarity": 2,
+			"type": 2,
+			"description": "If the unit has more than <c2>1</c> buff, increase damage dealt by <c2>7%</c>.",
+			"icon": "images/dolls/sharkry/Skill_Chrtalent_SharkrySR.webp",
+			"dollId": "d7"
+		},
+		"a7": {
+			"id": "a7",
+			"name": "Idol's Determination",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Sharkry.",
+			"icon": "images/dolls/sharkry/Skill_Chrtalent_SharkrySR_love.webp",
+			"dollId": "d7"
+		},
+		"c1m": {
+			"id": "c1m",
+			"name": "Call of the Wild",
+			"rarity": 3,
+			"type": 2,
+			"description": "When attacking an enemy unit on a Freeze or Burn tile, phase damage dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/soppo/Skill_Chrtalent_SoppoSSR.webp",
+			"dollId": "d1m"
+		},
+		"a1l": {
+			"id": "a1l",
+			"name": "Playful Chords",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Soppo.",
+			"icon": "images/dolls/soppo/Skill_Chrtalent_SoppoSSR_love.webp",
+			"dollId": "d1m"
+		},
+		"ct": {
+			"id": "ct",
+			"name": "Meticulous Attention",
+			"rarity": 3,
+			"type": 2,
+			"description": "At the start of the turn, if stability is not full, gains <c1>{b5s}</c> for <c2>1 turn</c>.",
+			"icon": "images/dolls/springfield/Skill_Chrtalent_SpringfieldSSR.webp",
+			"dollId": "dt"
+		},
+		"at": {
+			"id": "at",
+			"name": "Tacit Vigil",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Springfield.",
+			"icon": "images/dolls/springfield/Skill_Chrtalent_SpringfieldSSR_love.webp",
+			"dollId": "dt"
+		},
+		"cm": {
+			"id": "cm",
+			"name": "Mission's Blessing",
+			"rarity": 3,
+			"type": 2,
+			"description": "When HP drops below <c2>80%</c>, restore <c2>15%</c> of this unit's maximum HP and gain <c1>{b40}</c> for <c2>2 turns</c>. Can trigger only once per battle.",
+			"icon": "images/dolls/suomi/Skill_Chrtalent_SuomiSSR.webp",
+			"dollId": "dm"
+		},
+		"am": {
+			"id": "am",
+			"name": "Rock and Roll",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Suomi.",
+			"icon": "images/dolls/suomi/Skill_Chrtalent_SuomiSSR_love.webp",
+			"dollId": "dm"
+		},
+		"ca": {
+			"id": "ca",
+			"name": "Afterglow",
+			"rarity": 3,
+			"type": 2,
+			"description": "When Confectance Index is below max, increases damage dealt by <c2>7%</c>.",
+			"icon": "images/dolls/tololo/Skill_Chrtalent_TololoSSR.webp",
+			"dollId": "da"
+		},
+		"aa": {
+			"id": "aa",
+			"name": "Stardust's Whispers",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Tololo.",
+			"icon": "images/dolls/tololo/Skill_Chrtalent_TololoSSR_love.webp",
+			"dollId": "da"
+		},
+		"ck": {
+			"id": "ck",
+			"name": "Mangle",
+			"rarity": 3,
+			"type": 2,
+			"description": "If the enemy target's HP is not full before the attack, increase damage dealt to them by <c2>7%</c>.",
+			"icon": "images/dolls/ullrid/Skill_Chrtalent_UllridSSR.webp",
+			"dollId": "dk"
+		},
+		"ak": {
+			"id": "ak",
+			"name": "Stress Ball Terminator",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Ullrid.",
+			"icon": "images/dolls/ullrid/Skill_Chrtalent_UllridSSR_love.webp",
+			"dollId": "dk"
+		},
+		"cr": {
+			"id": "cr",
+			"name": "Death Knell",
+			"rarity": 3,
+			"type": 2,
+			"description": "At the start of the turn, if any enemy unit has any Burn debuffs, attack is increased by <c2>8%</c>.",
+			"icon": "images/dolls/vector/Skill_Chrtalent_VectorSSR.webp",
+			"dollId": "dr"
+		},
+		"ar": {
+			"id": "ar",
+			"name": "Tragedy Preview",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Vector.",
+			"icon": "images/dolls/vector/Skill_Chrtalent_VectorSSR_love.webp",
+			"dollId": "dr"
+		},
+		"c4": {
+			"id": "c4",
+			"name": "Heart Melting Strike",
+			"rarity": 3,
+			"type": 2,
+			"description": "If the user's Mobility is greater than or equal to the target's, increases damage dealt by <c2>7%</c>.",
+			"icon": "images/dolls/vepley/Skill_Chrtalent_VepleySSR.webp",
+			"dollId": "d4"
+		},
+		"a4": {
+			"id": "a4",
+			"name": "Grand Debut",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Vepley.",
+			"icon": "images/dolls/vepley/Skill_Chrtalent_VepleySSR_love.webp",
+			"dollId": "d4"
+		},
+		"c1c": {
+			"id": "c1c",
+			"name": "Shredding Legato",
+			"rarity": 3,
+			"type": 2,
+			"description": "When dealing melee damage, Physical damage dealt is increased by <c2>10%</c> for <c2>1 round</c>.",
+			"icon": "images/dolls/voymastina/Skill_Chrtalent_VoymastinaSSR.webp",
+			"dollId": "d1c"
+		},
+		"a1c": {
+			"id": "a1c",
+			"name": "Silent Guardianship",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Voymastina.",
+			"icon": "images/dolls/voymastina/Skill_Chrtalent_VoymastinaSSR_love.webp",
+			"dollId": "d1c"
+		},
+		"c19": {
+			"id": "c19",
+			"name": "Van Dine's Twenty Rules",
+			"rarity": 3,
+			"type": 2,
+			"description": "When attacking, if this unit's HP percentage is not less than the target's, phase damage dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/welrod/Skill_Chrtalent_WelrodSSR.webp",
+			"dollId": "d19"
+		},
+		"a19": {
+			"id": "a19",
+			"name": "Following Oath",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Welrod.",
+			"icon": "images/dolls/welrod/Skill_Chrtalent_WelrodSSR_love.webp",
+			"dollId": "d19"
+		},
+		"c10": {
+			"id": "c10",
+			"name": "Main Dancer's Might",
+			"rarity": 3,
+			"type": 2,
+			"description": "When dealing damage which contains Ammo attribute, damage dealt is increased by <c2>10%</c>.",
+			"icon": "images/dolls/yoohee/Skill_Chrtalent_YooHeeSSR.webp",
+			"dollId": "d10"
+		},
+		"a10": {
+			"id": "a10",
+			"name": "Big Bright Shining Star",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Yoohee.",
+			"icon": "images/dolls/yoohee/Skill_Chrtalent_YooHeeSSR_love.webp",
+			"dollId": "d10"
+		},
+		"cw": {
+			"id": "cw",
+			"name": "Suona's Realm",
+			"rarity": 3,
+			"type": 2,
+			"description": "At the start of the turn, increases the critical damage of the next active attack by <c2>10%</c>.",
+			"icon": "images/dolls/zhaohui/Skill_Chrtalent_ZhaohuiSSR.webp",
+			"dollId": "dw"
+		},
+		"aw": {
+			"id": "aw",
+			"name": "Together We Shine",
+			"rarity": 2,
+			"type": 4,
+			"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Zhaohui.",
+			"icon": "images/dolls/zhaohui/Skill_Chrtalent_ZhaohuiSSR_love.webp",
+			"dollId": "dw"
+		}
+	}
+}

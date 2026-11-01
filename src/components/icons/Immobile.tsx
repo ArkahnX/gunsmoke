@@ -1,0 +1,39 @@
+export default function Immobile() {
+	return (
+		<svg
+			width="100%"
+			height="100%"
+			viewBox="0 0 77 77"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+			<path
+				d="M38.5,6C56.437,6 71,20.563 71,38.5C71,56.437 56.437,71 38.5,71C20.563,71 6,56.437 6,38.5C6,20.563 20.563,6 38.5,6ZM38.5,14C24.978,14 14,24.978 14,38.5C14,52.022 24.978,63 38.5,63C52.022,63 63,52.022 63,38.5C63,24.978 52.022,14 38.5,14Z"
+				style="fill:rgb(174,71,73);"
+			/>
+			<g>
+				<g transform="matrix(1.19048,0,0,0.809524,5.16667,0.571429)">
+					<path d="M28,3L38.5,24L17.5,24L28,3Z" style="fill:rgb(235,235,235);" />
+				</g>
+				<g transform="matrix(1.19048,0,0,-0.809524,5.16667,76.4286)">
+					<path d="M28,3L38.5,24L17.5,24L28,3Z" style="fill:rgb(235,235,235);" />
+				</g>
+				<g transform="matrix(7.28956e-17,-1.19048,-0.809524,-4.9569e-17,76.4286,71.8333)">
+					<path d="M28,3L38.5,24L17.5,24L28,3Z" style="fill:rgb(235,235,235);" />
+				</g>
+				<g transform="matrix(-7.28956e-17,-1.19048,0.809524,-4.9569e-17,0.571429,71.8333)">
+					<path d="M28,3L38.5,24L17.5,24L28,3Z" style="fill:rgb(235,235,235);" />
+				</g>
+				<g transform="matrix(1,0,0,1.14286,0,-5.5)">
+					<path
+						d="M34,42L18,42L18,35L34,35L34,21L42,21L42,35L58,35L58,42L42,42L42,56L34,56L34,42Z"
+						style="fill:rgb(235,235,235);"
+					/>
+				</g>
+			</g>
+			<g transform="matrix(0.707107,0.707107,-0.707107,0.707107,38.5,-15.9472)">
+				<rect x="34" y="10" width="9" height="57" style="fill:rgb(174,71,73);" />
+			</g>
+		</svg>
+	);
+}

@@ -1,3 +1,4 @@
+import { Phase } from "../../../gfl2-data/enums";
 import PhaseBurn from "./PhaseBurn";
 import PhaseCorrosion from "./PhaseCorrosion";
 import PhaseElectric from "./PhaseElectric";
@@ -6,23 +7,23 @@ import PhaseHydro from "./PhaseHydro";
 import PhaseOmni from "./PhaseOmni";
 import PhasePhysical from "./PhasePhysical";
 
-export default function PhaseIcon(props:{phase:string}) {
-	switch (props.phase.toLowerCase()) {
+export default function PhaseIcon(props: { phase: Phase }) {
+	switch (props.phase) {
 		default:
 			return null;
-		case "physical":
+		case Phase.Physical:
 			return <PhasePhysical />;
-			case "burn":
-				return <PhaseBurn />;
-		case "electric":
+		case Phase.Burn:
+			return <PhaseBurn />;
+		case Phase.Electric:
 			return <PhaseElectric />;
-		case "freeze":
+		case Phase.Freeze:
 			return <PhaseFreeze />;
-		case "corrosion":
+		case Phase.Corrosion:
 			return <PhaseCorrosion />;
-		case "hydro":
+		case Phase.Hydro:
 			return <PhaseHydro />;
-		case "omni":
+		case Phase.Resonance:
 			return <PhaseOmni />;
 	}
 }

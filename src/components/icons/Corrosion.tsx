@@ -1,18 +1,15 @@
-export default function Corrosion(props: { fill?: string }) {
+export default function Corrosion(props: { fill: string | undefined }) {
 	return (
 		<svg
 			width="100%"
 			height="100%"
 			viewBox="0 0 80 80"
-			version="1.1"
 			xmlns="http://www.w3.org/2000/svg"
 			xmlns:xlink="http://www.w3.org/1999/xlink"
-			xml:space="preserve"
-			xmlns:serif="http://www.serif.com/"
 			style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 			<g id="standalone" transform="matrix(1.74713,0,0,1.74713,-30.3218,-30.7586)">
 				<g id="Corrosion">
-					<g id="standalone1" serif:id="standalone">
+					<g id="standalone1">
 						<g transform="matrix(1.11111,0,0,1.25,-5.38889,-15.5)">
 							<ellipse cx="39.5" cy="58" rx="4.5" ry="4" style={`fill:${props.fill ?? "rgb(134,121,232)"};`} />
 						</g>

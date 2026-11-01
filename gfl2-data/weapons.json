@@ -1,0 +1,1639 @@
+{
+	"data": {
+		"w4u": {
+			"id": "w4u",
+			"name": "Papa-Figo",
+			"rarity": 3,
+			"gunType": 1,
+			"description": "A high-performance handgun with an ingenious, elegant design. Named after a mythical monster said to devour disobedient children, according to its creator.",
+			"icon": "images/weapons/Weapon_BpHRssr001_5_1024.webp"
+		},
+		"w0": {
+			"id": "w0",
+			"name": "Classified Manuscript",
+			"rarity": 3,
+			"gunType": 2,
+			"description": "A high-performance SMG, a powerful and unique weapon. When he gave it this name, the designer probably intended it to be a secret weapon.",
+			"icon": "images/weapons/Weapon_BpSMGssr001_5_1024.webp"
+		},
+		"w1": {
+			"id": "w1",
+			"name": "Arcana",
+			"rarity": 3,
+			"gunType": 3,
+			"description": "High-performance sniper rifle with a cold and technological appearance. Does the bullet's trajectory also embody the principles of the universe's operation?",
+			"icon": "images/weapons/Weapon_BpRFssr001_5_1024.webp"
+		},
+		"w2": {
+			"id": "w2",
+			"name": "Guerno",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle capable of easily adapting to various combat scenarios. Named after the Valkyrie Guerno, it likely yearns to be wielded by those of noble character.",
+			"icon": "images/weapons/Weapon_BpARssr001_5_1024.webp"
+		},
+		"w3": {
+			"id": "w3",
+			"name": "Crowned Jackalope",
+			"rarity": 3,
+			"gunType": 7,
+			"description": "A high-performance melee weapon, immensely powerful with an artistic design. Battles fought with this weapon would undoubtedly be a spectacle to behold.",
+			"icon": "images/weapons/Weapon_BpKnifessr001_5_1024.webp"
+		},
+		"w4": {
+			"id": "w4",
+			"name": "Mjölnir",
+			"rarity": 3,
+			"gunType": 5,
+			"description": "A high-performance machine gun notable for its exceptional capacity and formidable power. The designer's choice of name suggests a hope that users might wield its power with the aptitude of Thor himself.",
+			"icon": "images/weapons/Weapon_BpMGssr001_5_1024.webp"
+		},
+		"w5": {
+			"id": "w5",
+			"name": "Expeditionary Pigeon",
+			"rarity": 3,
+			"gunType": 6,
+			"description": "A powerful shotgun with sleek lines and tremendous force. With such power, even timid young pigeons might regain their courage and bravely protect their companions.",
+			"icon": "images/weapons/Weapon_BpSGssr001_5_1024.webp"
+		},
+		"w6": {
+			"id": "w6",
+			"name": "Retired UMP9",
+			"rarity": 1,
+			"gunType": 2,
+			"description": "A low-cost weapon commonly found in contamination zones. Its stock shows some damage, and numerous welding marks are visible across the gun's frame.",
+			"icon": "images/weapons/Weapon_UMP9_3_1024.webp"
+		},
+		"w7": {
+			"id": "w7",
+			"name": "UMP9",
+			"rarity": 2,
+			"gunType": 2,
+			"description": "A firearm highly compatible with Lenna. Modified based on her combat preferences. Ensures high shooting accuracy despite the increased rate of fire.",
+			"icon": "images/weapons/Weapon_UMP9_4_1024.webp"
+		},
+		"w8": {
+			"id": "w8",
+			"name": "Löwenjunges",
+			"rarity": 3,
+			"gunType": 2,
+			"description": "A high-performance submachine gun assigned to Lenna. Its modifications are based on the UMP9. Leva's opinions were also considered during the modification process, and Lenna likes this gun very much.",
+			"icon": "images/weapons/Weapon_UMP9_5_1024.webp",
+			"dollId": "d3"
+		},
+		"w9": {
+			"id": "w9",
+			"name": "Retired KSVK",
+			"rarity": 1,
+			"gunType": 3,
+			"description": "A cheap weapon purchased from an underground broker. Poor maintenance has affected its shooting accuracy, so this gun can only be used in a pinch.",
+			"icon": "images/weapons/Weapon_KSVK_3_1024.webp"
+		},
+		"wa": {
+			"id": "wa",
+			"name": "KSVK",
+			"rarity": 2,
+			"gunType": 3,
+			"description": "A firearm highly compatible with Dushevnaya. Modified based on her preferences in combat. Features varying degrees of improvement to both penetration and shooting accuracy.",
+			"icon": "images/weapons/Weapon_KSVK_4_1024.webp"
+		},
+		"wb": {
+			"id": "wb",
+			"name": "Eulogistic Verse",
+			"rarity": 3,
+			"gunType": 3,
+			"description": "A high-performance rifle assigned to Dushevnaya. Based on the KSVK, reducing recoil without compromising power. \"It speaks to me in a profound way, perhaps as a heroic verse that continues to shine even after a thousand years,\" says Dushevnaya.",
+			"icon": "images/weapons/Weapon_KSVK_5_1024.webp",
+			"dollId": "d8"
+		},
+		"wc": {
+			"id": "wc",
+			"name": "Retired Three-Line Rifle M1891",
+			"rarity": 1,
+			"gunType": 3,
+			"description": "A cheap weapon purchased from an underground broker. Its style is outdated, but it is still sturdy and functional.",
+			"icon": "images/weapons/Weapon_M1891_3_1024.webp"
+		},
+		"wd": {
+			"id": "wd",
+			"name": "Three-Line Rifle M1891",
+			"rarity": 2,
+			"gunType": 3,
+			"description": "A firearm highly compatible with Mosin-Nagant. Modified based on her combat preferences. Its streamlined design facilitates easy maintenance and handling.",
+			"icon": "images/weapons/Weapon_M1891_4_1024.webp"
+		},
+		"we": {
+			"id": "we",
+			"name": "Samosek",
+			"rarity": 3,
+			"gunType": 3,
+			"description": "A high-performance rifle assigned to Mosin-Nagant. Based on the original Three-line Rifle M1891. While retaining its versatility, its power has been pushed to the limit. When Mosin-Nagant raises the rifle and takes aim at the enemy, is she also examining her own heart?",
+			"icon": "images/weapons/Weapon_M1891_5_1024.webp",
+			"dollId": "dg"
+		},
+		"wf": {
+			"id": "wf",
+			"name": "Retired W 2000",
+			"rarity": 1,
+			"gunType": 3,
+			"description": "A cheap weapon purchased from an underground broker. Its frame has some dents, but it doesn't affect the firing efficiency.",
+			"icon": "images/weapons/Weapon_WA2000_3_1024.webp"
+		},
+		"wg": {
+			"id": "wg",
+			"name": "W 2000",
+			"rarity": 2,
+			"gunType": 3,
+			"description": "A firearm highly compatible with Makiatto. Modified based on her combat preferences. Features include lighter weight and improved shooting accuracy.",
+			"icon": "images/weapons/Weapon_WA2000_4_1024.webp"
+		},
+		"wh": {
+			"id": "wh",
+			"name": "Bittersweet Caramel",
+			"rarity": 3,
+			"gunType": 3,
+			"description": "A high-performance rifle assigned to Makiatto. Based on the W 2000. It has undergone countless adjustments to achieve ultimate precision and power. Makiatto wields this weapon to break through all obstacles, infusing her simmering emotions into each bullet.",
+			"icon": "images/weapons/Weapon_WA2000_5_1024.webp",
+			"dollId": "dh"
+		},
+		"wi": {
+			"id": "wi",
+			"name": "Retired Type 97",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "A cheap weapon purchased from an underground broker. Appears worn-out, as if it could break at any moment if not handled with care.",
+			"icon": "images/weapons/Weapon_QBZ97_3_1024.webp"
+		},
+		"wj": {
+			"id": "wj",
+			"name": "Type 97",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Jiangyu. Modified based on her combat preferences. The reinforced body structure and significant power boost have made it more robust and potent.",
+			"icon": "images/weapons/Weapon_QBZ97_4_1024.webp"
+		},
+		"wk": {
+			"id": "wk",
+			"name": "Leaping Tiger",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle assigned to Jiangyu, based on the Type 97, is an exceptionally reliable weapon. The sound of bullets leaving the barrel is sharp and lively, reminiscent of rousing drumbeats in a musical piece, making it one of Jiangyu's favorites.",
+			"icon": "images/weapons/Weapon_QBZ97_5_1024.webp",
+			"dollId": "di"
+		},
+		"wl": {
+			"id": "wl",
+			"name": "Retired Stechkin",
+			"rarity": 1,
+			"gunType": 1,
+			"description": "A cheap weapon purchased from an underground broker. This gun is a bit old and can barely hit the target.",
+			"icon": "images/weapons/Weapon_APS_3_1024.webp"
+		},
+		"wm": {
+			"id": "wm",
+			"name": "Stechkin",
+			"rarity": 2,
+			"gunType": 1,
+			"description": "A firearm highly compatible with Ksenia. Modified based on her combat preferences. Features a lighter frame and improved accuracy.",
+			"icon": "images/weapons/Weapon_APS_4_1024.webp",
+			"dollId": "dj"
+		},
+		"wn": {
+			"id": "wn",
+			"name": "Retired Pluma Edge",
+			"rarity": 1,
+			"gunType": 7,
+			"description": "A cheap weapon purchased from an underground broker. While plain and old-fashioned in appearance, it can still be frequently encountered in the contamination zones.",
+			"icon": "images/weapons/Weapon_Ullr_3_1024.webp"
+		},
+		"wo": {
+			"id": "wo",
+			"name": "Pluma Edge",
+			"rarity": 2,
+			"gunType": 7,
+			"description": "A melee weapon, highly compatible with Ullrid. It has been modified in accordance with her preferences in combat, and is exceedingly sharp and durable.",
+			"icon": "images/weapons/Weapon_Ullr_4_1024.webp"
+		},
+		"wp": {
+			"id": "wp",
+			"name": "Rectrix",
+			"rarity": 3,
+			"gunType": 7,
+			"description": "A high-performance melee weapon assigned to Ullrid. Exquisitely forged out of high-quality steel whilst adorned with simple floral decorations, this weapon's appearance appears both keen and swift.",
+			"icon": "images/weapons/Weapon_Ullr_5_1024.webp",
+			"dollId": "dk"
+		},
+		"wq": {
+			"id": "wq",
+			"name": "Retired Model ARM",
+			"rarity": 1,
+			"gunType": 5,
+			"description": "A cheap weapon purchased from an underground broker. Somewhat heavy, but overall still reasonably easy to carry.",
+			"icon": "images/weapons/Weapon_Galil_3_1024.webp"
+		},
+		"wr": {
+			"id": "wr",
+			"name": "Model ARM",
+			"rarity": 2,
+			"gunType": 5,
+			"description": "A firearm highly compatible with Littara. Modified based on her combat preferences, making it more suitable for harsh environments and comfortable to use.",
+			"icon": "images/weapons/Weapon_Galil_4_1024.webp",
+			"dollId": "dl"
+		},
+		"ws": {
+			"id": "ws",
+			"name": "Retired Suomi",
+			"rarity": 1,
+			"gunType": 2,
+			"description": "A cheap weapon from an underground broker. It is scratched and worn all over its frame, but it doesn't affect the gun's function.",
+			"icon": "images/weapons/Weapon_M1931_3_1024.webp"
+		},
+		"wt": {
+			"id": "wt",
+			"name": "Suomi",
+			"rarity": 2,
+			"gunType": 2,
+			"description": "A firearm that is highly compatible with Suomi. It has been modified to suit Suomi's fighting style. Reducing the gun's weight has also increased its durability and firepower.",
+			"icon": "images/weapons/Weapon_M1931_4_1024.webp"
+		},
+		"wu": {
+			"id": "wu",
+			"name": "Unspoken Calling",
+			"rarity": 3,
+			"gunType": 2,
+			"description": "A high-performance submachine gun issued to Suomi. Modelled after the Suomi, it is both lighter and more powerful than its original, and it is suitable for various complex combat conditions. With this gun, Suomi will accomplish all the missions given to her.",
+			"icon": "images/weapons/Weapon_M1931_5_1024.webp",
+			"dollId": "dm"
+		},
+		"wv": {
+			"id": "wv",
+			"name": "Retired PPSh-41",
+			"rarity": 1,
+			"gunType": 2,
+			"description": "A cheap weapon from an underground broker. The frame is mottled and discolored, but it's still solid and reliable.",
+			"icon": "images/weapons/Weapon_PPSh41_3_1024.webp"
+		},
+		"ww": {
+			"id": "ww",
+			"name": "PPSh-41",
+			"rarity": 2,
+			"gunType": 2,
+			"description": "A firearm that is highly compatible with Papasha. It has been modified to suit Papasha's fighting style. While the material is still the same, its frame is more solid.",
+			"icon": "images/weapons/Weapon_PPSh41_4_1024.webp"
+		},
+		"wx": {
+			"id": "wx",
+			"name": "Svarog",
+			"rarity": 3,
+			"gunType": 2,
+			"description": "A high-performance submachine gun issued to Papasha. Modelled after the PPSh, it is lighter than the original while still retaining its predecessor's firepower and low recoil. Papasha holds it high, showing its glorious light off to all.",
+			"icon": "images/weapons/Weapon_PPSh41_5_1024.webp",
+			"dollId": "dn"
+		},
+		"wy": {
+			"id": "wy",
+			"name": "Retired M1 Super 90",
+			"rarity": 1,
+			"gunType": 6,
+			"description": "A cheap weapon purchased from an underground broker. Its performance and appearance are both equally unremarkable.",
+			"icon": "images/weapons/Weapon_M1_3_1024.webp"
+		},
+		"wz": {
+			"id": "wz",
+			"name": "M1 Super 90",
+			"rarity": 2,
+			"gunType": 6,
+			"description": "A firearm highly compatible with Lotta, it has been modified to suit Lotta's fighting style. The power and endurance has been significantly boosted.",
+			"icon": "images/weapons/Weapon_M1_4_1024.webp",
+			"dollId": "do"
+		},
+		"w10": {
+			"id": "w10",
+			"name": "Retired G36K-KSK",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "A cheap weapon purchased from an underground broker. It's really old and worn out, and looks like it's reaching the upper limit of its lifespan.",
+			"icon": "images/weapons/Weapon_G36KKSK_3_1024.webp"
+		},
+		"w11": {
+			"id": "w11",
+			"name": "G36K-KSK",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Andoris. Modified based on her combat preferences, it features improved firepower and error correction.",
+			"icon": "images/weapons/Weapon_G36KKSK_4_1024.webp"
+		},
+		"w12": {
+			"id": "w12",
+			"name": "Aglaea",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle assigned to Andoris. Based on the G36K-KSK. Designed for ease of handling and reliability, it features enhanced firepower, ensuring Andoris can confidently protect those she holds dear.",
+			"icon": "images/weapons/Weapon_G36KKSK_5_1024.webp",
+			"dollId": "dp"
+		},
+		"w13": {
+			"id": "w13",
+			"name": "Retired CZ75",
+			"rarity": 1,
+			"gunType": 1,
+			"description": "A cheap weapon purchased from an underground broker. There are some problems with the firing mechanism, but one must make do with what they have.",
+			"icon": "images/weapons/Weapon_CZ75_3_1024.webp"
+		},
+		"w14": {
+			"id": "w14",
+			"name": "CZ75",
+			"rarity": 2,
+			"gunType": 1,
+			"description": "A firearm highly compatible with Faye. Modified based on her combat preferences, it is durable, light, and easy to handle.",
+			"icon": "images/weapons/Weapon_CZ75_4_1024.webp"
+		},
+		"w15": {
+			"id": "w15",
+			"name": "Hestia",
+			"rarity": 3,
+			"gunType": 1,
+			"description": "A high-performance handgun assigned to Faye. Based on the CZ75, it is convenient to carry, reliable, precise, and accurate. In Faye's hands, Hestia becomes as fearsome as a true Goddess of Flame.",
+			"icon": "images/weapons/Weapon_CZ75_5_1024.webp",
+			"dollId": "dq"
+		},
+		"w16": {
+			"id": "w16",
+			"name": "Retired Ksvec .45 ACP",
+			"rarity": 1,
+			"gunType": 2,
+			"description": "An old weapon commonly seen in the contaminated zones. It's about to completely fall apart, but can still be used if you are careful enough.",
+			"icon": "images/weapons/Weapon_Vector_3_1024.webp"
+		},
+		"w17": {
+			"id": "w17",
+			"name": "Ksvec .45 ACP",
+			"rarity": 2,
+			"gunType": 2,
+			"description": "A firearm highly compatible with Vector. Modified based on her combat preferences, it is highly maneuverable and stable.",
+			"icon": "images/weapons/Weapon_Vector_4_1024.webp"
+		},
+		"w18": {
+			"id": "w18",
+			"name": "Banshee's Whisper",
+			"rarity": 3,
+			"gunType": 2,
+			"description": "A high-performance submachine gun assigned to Vector. Based on the Ksvec .45 ACP, it has been completely overhauled. Pull the trigger, and let death whisper a song into the ears of enemies.",
+			"icon": "images/weapons/Weapon_Vector_5_1024.webp",
+			"dollId": "dr"
+		},
+		"w19": {
+			"id": "w19",
+			"name": "Retired Sturmgewehr 28",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "An old weapon commonly seen in the contaminated zones. It shows a high degree of erosion by the elements.",
+			"icon": "images/weapons/Weapon_G28_3_1024.webp"
+		},
+		"w1a": {
+			"id": "w1a",
+			"name": "Sturmgewehr 28",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Belka. Modified based on her combat preferences, it is now even more suited for long-range shooting.",
+			"icon": "images/weapons/Weapon_G28_4_1024.webp"
+		},
+		"w1b": {
+			"id": "w1b",
+			"name": "Sylvan Elf",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle assigned to Belka. Based on the Sturmgewehr 28, it has been further improved in terms of shooting accuracy, precision and firepower. She bounces around the battlefield like an elf in a forest, pushing back intruders with agility and precision.",
+			"icon": "images/weapons/Weapon_G28_5_1024.webp",
+			"dollId": "ds"
+		},
+		"w1c": {
+			"id": "w1c",
+			"name": "Retired M1903",
+			"rarity": 1,
+			"gunType": 3,
+			"description": "A cheap weapon purchased from an underground broker. It’s not very stable or reliable, but can still be used, more or less.",
+			"icon": "images/weapons/Weapon_M1903_3_1024.webp"
+		},
+		"w1d": {
+			"id": "w1d",
+			"name": "M1903",
+			"rarity": 2,
+			"gunType": 3,
+			"description": "A firearm highly compatible with Springfield. Modified based on her combat preferences, it provides increased bullet velocity, hence improving firepower.",
+			"icon": "images/weapons/Weapon_M1903_4_1024.webp"
+		},
+		"w1e": {
+			"id": "w1e",
+			"name": "Radiance",
+			"rarity": 3,
+			"gunType": 3,
+			"description": "A high-performance rifle assigned to Springfield. Based on the M1903, it has been further improved in terms of carrying convenience and firing speed. Pierce through all adversity, to carve out a brighter future for those you deem important.",
+			"icon": "images/weapons/Weapon_M1903_5_1024.webp",
+			"dollId": "dt"
+		},
+		"w1f": {
+			"id": "w1f",
+			"name": "Retired Type 97 Shotgun",
+			"rarity": 1,
+			"gunType": 6,
+			"description": "A cheap weapon purchased from an underground broker. While it runs the risk of jamming, it can handle the daily demands of protection work.",
+			"icon": "images/weapons/Weapon_HAWK12_3_1024.webp"
+		},
+		"w1g": {
+			"id": "w1g",
+			"name": "Type 97 Shotgun",
+			"rarity": 2,
+			"gunType": 6,
+			"description": "A firearm highly compatible with Qiuhua. Modified based on her combat preferences. Its recoil has been reduced and its long-range accuracy has been improved.",
+			"icon": "images/weapons/Weapon_HAWK12_4_1024.webp"
+		},
+		"w1h": {
+			"id": "w1h",
+			"name": "Trailblazer",
+			"rarity": 3,
+			"gunType": 6,
+			"description": "A high-performance shotgun assigned to Qiuhua. Based on the Type 97 Shotgun. Its reliability and stopping power have been maximized. Even the faintest mote of starlight is enough to banish the infinite darkness.",
+			"icon": "images/weapons/Weapon_HAWK12_5_1024.webp",
+			"dollId": "du"
+		},
+		"w1i": {
+			"id": "w1i",
+			"name": "Retired TMP",
+			"rarity": 1,
+			"gunType": 2,
+			"description": "An old weapon commonly seen in the contaminated zones. It jams from time to time, but it can still lay down the lead.",
+			"icon": "images/weapons/Weapon_SteyrTMP_3_1024.webp"
+		},
+		"w1j": {
+			"id": "w1j",
+			"name": "TMP",
+			"rarity": 2,
+			"gunType": 2,
+			"description": "A firearm highly compatible with Harpsy. Modified based on her combat preferences, it has additional accessory slots to help her improve her weapon's capabilities.",
+			"icon": "images/weapons/Weapon_SteyrTMP_4_1024.webp"
+		},
+		"w1k": {
+			"id": "w1k",
+			"name": "Antinomy",
+			"rarity": 3,
+			"gunType": 2,
+			"description": "A high-performance submachine gun assigned to Harpsy. Based on the TMP, its precision has been greatly improved. No matter how she engages the enemy, they will not escape her.",
+			"icon": "images/weapons/Weapon_SteyrTMP_5_1024.webp",
+			"dollId": "dv"
+		},
+		"w1l": {
+			"id": "w1l",
+			"name": "Retired CS/LS06",
+			"rarity": 1,
+			"gunType": 2,
+			"description": "A cheap weapon from an underground broker. Its barrel is a little rusty, and its lethality is in question.",
+			"icon": "images/weapons/Weapon_CSLS06_3_1024.webp"
+		},
+		"w1m": {
+			"id": "w1m",
+			"name": "CS/LS06",
+			"rarity": 2,
+			"gunType": 2,
+			"description": "A firearm that is highly compatible with Zhaohui. It has been modified to suit Zhaohui's fighting style. It's lighter and handier, improving its accuracy on the move.",
+			"icon": "images/weapons/Weapon_CSLS06_4_1024.webp"
+		},
+		"w1n": {
+			"id": "w1n",
+			"name": "Juggernaut",
+			"rarity": 3,
+			"gunType": 2,
+			"description": "A high-performance submachine gun issued to Zhaohui. Modelled after the CS/LS06, its lethality has been greatly increased, making it a blade of righteousness for a chivalrous warrior. \"A man slain with but a step and slash, A journey unending for a thousand miles.\"",
+			"icon": "images/weapons/Weapon_CSLS06_5_1024.webp",
+			"dollId": "dw"
+		},
+		"w1o": {
+			"id": "w1o",
+			"name": "Retired G11",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "An old weapon commonly seen in the contaminated zones. It is tattered and worn, but can still be used.",
+			"icon": "images/weapons/Weapon_G11_3_1024.webp"
+		},
+		"w1p": {
+			"id": "w1p",
+			"name": "G11",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Mechty. Modified based on her combat preferences, it has improved rate of fire, precision and accuracy.",
+			"icon": "images/weapons/Weapon_G11_4_1024.webp"
+		},
+		"w1q": {
+			"id": "w1q",
+			"name": "Daydream",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle assigned to Mechty. Based on the G11, its firepower has been further improved. A gun that complements Mechty's burst-firing nature, it is dedicated to shattering the daydreams of enemies.",
+			"icon": "images/weapons/Weapon_G11_5_1024.webp",
+			"dollId": "dx"
+		},
+		"w1r": {
+			"id": "w1r",
+			"name": "Retired 416",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "An old weapon commonly seen in the contaminated zones. It looks old, but the damage to it is minimal and it can be used normally.",
+			"icon": "images/weapons/Weapon_HK416_3_1024.webp"
+		},
+		"w1s": {
+			"id": "w1s",
+			"name": "416",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm that is highly compatible with Klukai. It has been modified to suit Klukai's fighting style, granting it a significant increase in reliability and accuracy.",
+			"icon": "images/weapons/Weapon_HK416_4_1024.webp"
+		},
+		"w1t": {
+			"id": "w1t",
+			"name": "Skylla",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle issued to Klukai, modelled after the 416. Its flexibility has been greatly increased, making it suitable for various combat tactics. Its perfect appearance and performance belies its rampant ambition, and its fangs will tear all foes to shreds.",
+			"icon": "images/weapons/Weapon_HK416_5_1024.webp",
+			"dollId": "dy"
+		},
+		"w1u": {
+			"id": "w1u",
+			"name": "Retired MP5H1",
+			"rarity": 1,
+			"gunType": 2,
+			"description": "A cheap weapon purchased from an underground broker. It's missing a few parts, but it's still (barely) usable.",
+			"icon": "images/weapons/Weapon_MP5_3_1024.webp"
+		},
+		"w1v": {
+			"id": "w1v",
+			"name": "MP5H1",
+			"rarity": 2,
+			"gunType": 2,
+			"description": "A firearm highly compatible with Peri. Modified based on her combat preferences. It's equipped with some parts scavenged from unknown origins, which has slightly improved its rate of fire.",
+			"icon": "images/weapons/Weapon_MP5_4_1024.webp"
+		},
+		"w1w": {
+			"id": "w1w",
+			"name": "Amanita",
+			"rarity": 3,
+			"gunType": 2,
+			"description": "A high-performance SMG assigned to Peri. Based on the MP5H1. Its internals have been modified to greatly increase its stopping power. It deceives foes with its attractive appearance and crushes them with absolute power.",
+			"icon": "images/weapons/Weapon_MP5_5_1024.webp",
+			"dollId": "dz"
+		},
+		"w1x": {
+			"id": "w1x",
+			"name": "Retired K2",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "A cheap weapon purchased from an underground broker. Its surface is covered in carbon streaks and wear, so please be careful when using it.",
+			"icon": "images/weapons/Weapon_K2_3_1024.webp"
+		},
+		"w1y": {
+			"id": "w1y",
+			"name": "K2",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Yoohee. Modified based on her combat preferences. Its stability and ease of carrying have been greatly improved, ensuring firing accuracy on the move.",
+			"icon": "images/weapons/Weapon_K2_4_1024.webp"
+		},
+		"w1z": {
+			"id": "w1z",
+			"name": "Sparkling Centerstage",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance rifle assigned to Yoohee. Based on the K2, its killing power and portability have been maximized. Even the faintest spark can still do its best to light the way forward for the people it cherishes.",
+			"icon": "images/weapons/Weapon_K2_5_1024.webp",
+			"dollId": "d10"
+		},
+		"w20": {
+			"id": "w20",
+			"name": "Retired VSK-94",
+			"rarity": 1,
+			"gunType": 3,
+			"description": "A cheap weapon purchased from an underground broker. Its iron sights are worn down but it's still usable.",
+			"icon": "images/weapons/Weapon_VSK94_3_1024.webp"
+		},
+		"w21": {
+			"id": "w21",
+			"name": "VSK-94",
+			"rarity": 2,
+			"gunType": 3,
+			"description": "A firearm highly compatible with Nikketa. Modified based on her combat preferences. Its weight has been reduced, making it lighter and easier to handle on missions.",
+			"icon": "images/weapons/Weapon_VSK94_4_1024.webp"
+		},
+		"w22": {
+			"id": "w22",
+			"name": "Guardian Silverwing",
+			"rarity": 3,
+			"gunType": 3,
+			"description": "A high-performance rifle assigned to Nikketa. Based on the VSK-94. Its shooting precision has been upgraded, turning it into the ultimate tool for protecting justice. It nips all evil in the bud, so the children can sleep soundly and have sweet dreams.",
+			"icon": "images/weapons/Weapon_VSK94_5_1024.webp",
+			"dollId": "d11"
+		},
+		"w23": {
+			"id": "w23",
+			"name": "Retired UMP45",
+			"rarity": 1,
+			"gunType": 2,
+			"description": "A cheap weapon purchased from an underground broker. It is severely worn and almost unusable, but it'll serve in a pinch if you're low on resources.",
+			"icon": "images/weapons/Weapon_UMP45_3_1024.webp"
+		},
+		"w24": {
+			"id": "w24",
+			"name": "UMP45",
+			"rarity": 2,
+			"gunType": 2,
+			"description": "A firearm highly compatible with Leva. Modified based on her combat preferences, it features improved firepower and improves her survivability on the battlefield.",
+			"icon": "images/weapons/Weapon_UMP45_4_1024.webp"
+		},
+		"w25": {
+			"id": "w25",
+			"name": "Schlitzohr",
+			"rarity": 3,
+			"gunType": 2,
+			"description": "A high-performance submachine gun assigned to Leva. Based on the UMP45, its overall performance has been improved through enhanced cyclic rate and accuracy. Leva will never allow anyone to harm the people who are important to her under her watch.",
+			"icon": "images/weapons/Weapon_UMP45_5_1024.webp",
+			"dollId": "d12"
+		},
+		"w26": {
+			"id": "w26",
+			"name": "Retired RO635",
+			"rarity": 1,
+			"gunType": 2,
+			"description": "A cheap weapon purchased from an underground broker. It looks like crap and handles worse, but it's just barely serviceable for daily use.",
+			"icon": "images/weapons/Weapon_RO635_3_1024.webp"
+		},
+		"w27": {
+			"id": "w27",
+			"name": "RO635",
+			"rarity": 2,
+			"gunType": 2,
+			"description": "A firearm highly compatible with Robella. Modified based on her combat preferences. Its improved rate of fire gives it an advantage in close quarters and during assaults.",
+			"icon": "images/weapons/Weapon_RO635_4_1024.webp"
+		},
+		"w28": {
+			"id": "w28",
+			"name": "Wanderer's Magnum",
+			"rarity": 3,
+			"gunType": 2,
+			"description": "A high-performance submachine gun assigned to Robella, Based on the RO635, it has been comprehensively upgraded, featuring superior firepower and rate of fire. The road of self-discovery is difficult, but with this, her courage will only grow with the adversity she faces.",
+			"icon": "images/weapons/Weapon_RO635_5_1024.webp",
+			"dollId": "d13"
+		},
+		"w29": {
+			"id": "w29",
+			"name": "Retired UMP40",
+			"rarity": 1,
+			"gunType": 2,
+			"description": "A cheap weapon purchased from an underground broker. It has heavy recoil and is tiring to control.",
+			"icon": "images/weapons/Weapon_UMP40_3_1024.webp"
+		},
+		"w2a": {
+			"id": "w2a",
+			"name": "UMP40",
+			"rarity": 2,
+			"gunType": 2,
+			"description": "A firearm highly compatible with Lainie. Modified based on her combat preferences. Its frame has been lightened and rebuilt with advanced composites, improving its reliability at high rates of fire.",
+			"icon": "images/weapons/Weapon_UMP40_4_1024.webp"
+		},
+		"w2b": {
+			"id": "w2b",
+			"name": "Perihelion",
+			"rarity": 3,
+			"gunType": 2,
+			"description": "A high-performance SMG assigned to Lainie. Based on the UMP40. Its internals have been modified to greatly increase its stopping power. If you make war on the sun, prepare to get burned.",
+			"icon": "images/weapons/Weapon_UMP40_5_1024.webp",
+			"dollId": "d14"
+		},
+		"w2c": {
+			"id": "w2c",
+			"name": "Retired Auto-12",
+			"rarity": 1,
+			"gunType": 6,
+			"description": "A cheap weapon purchased from an underground broker. While it has a high cyclic rate, its accuracy is poor and extended firing will cause it to overheat and jam.",
+			"icon": "images/weapons/Weapon_AA12_3_1024.webp"
+		},
+		"w2d": {
+			"id": "w2d",
+			"name": "Auto-12",
+			"rarity": 2,
+			"gunType": 6,
+			"description": "A firearm highly compatible with Lind. Modified based on her combat preferences. Its advanced recoil-absorption system effectively decreases felt recoil while improving ballistic stability.",
+			"icon": "images/weapons/Weapon_AA12_4_1024.webp"
+		},
+		"w2e": {
+			"id": "w2e",
+			"name": "Thorn Criterion",
+			"rarity": 3,
+			"gunType": 6,
+			"description": "A high-performance shotgun assigned to Lind. Based on the Auto-12, it has undergone a comprehensive upgrade and demonstrates devastating destructive power in close-range combat. Bristling thorns are both a means of self-defense and a deadly weapon for counterstrikes.",
+			"icon": "images/weapons/Weapon_AA12_5_1024.webp",
+			"dollId": "d15"
+		},
+		"w2f": {
+			"id": "w2f",
+			"name": "Retired Graythorn",
+			"rarity": 1,
+			"gunType": 7,
+			"description": "A cheap weapon purchased from an underground broker. It's worn down but still usable.",
+			"icon": "images/weapons/Weapon_Phaetusa_3_1024.webp"
+		},
+		"w2g": {
+			"id": "w2g",
+			"name": "Graythorn",
+			"rarity": 2,
+			"gunType": 7,
+			"description": "A melee weapon that's highly compatible with Phaetusa. Modified based on her combat preferences. It's more maneuverable when wielded.",
+			"icon": "images/weapons/Weapon_Phaetusa_4_1024.webp"
+		},
+		"w2h": {
+			"id": "w2h",
+			"name": "Cause and Effect",
+			"rarity": 3,
+			"gunType": 7,
+			"description": "A high-performance melee weapon assigned to Phaetusa. Made with high quality materials and boasts superior workmanship. Its uncommon color scheme lends it an air of mystery, much like Phaetusa herself.",
+			"icon": "images/weapons/Weapon_Phaetusa_5_1024.webp",
+			"dollId": "d16"
+		},
+		"w2i": {
+			"id": "w2i",
+			"name": "Retired Lahti-Saloranta M/26",
+			"rarity": 1,
+			"gunType": 5,
+			"description": "A cheap weapon purchased from an underground broker. It jams fairly often but it's just barely usable.",
+			"icon": "images/weapons/Weapon_M26_3_1024.webp"
+		},
+		"w2j": {
+			"id": "w2j",
+			"name": "Lahti-Saloranta M/26",
+			"rarity": 2,
+			"gunType": 5,
+			"description": "A firearm highly compatible with Balthilde. Modified based on her combat preferences. Its magazine capacity has been greatly expanded, improving her ability to singlehandedly suppress the entire battlefield.",
+			"icon": "images/weapons/Weapon_M26_4_1024.webp"
+		},
+		"w2k": {
+			"id": "w2k",
+			"name": "Njörðr",
+			"rarity": 3,
+			"gunType": 5,
+			"description": "A high-performance machine gun assigned to Balthilde. Based on the Lahti-Saloranta M/26. Its destructive power has skyrocketed thanks to its enhanced firepower and rate of fire. A bold spear deserves a weapon to match.",
+			"icon": "images/weapons/Weapon_M26_5_1024.webp",
+			"dollId": "d17"
+		},
+		"w2l": {
+			"id": "w2l",
+			"name": "Retired Lewis Gun",
+			"rarity": 1,
+			"gunType": 5,
+			"description": "A cheap weapon purchased from an underground broker. It's very heavy and prolonged shooting will cause it to overheat and jam.",
+			"icon": "images/weapons/Weapon_Lewisgun_3_1024.webp"
+		},
+		"w2m": {
+			"id": "w2m",
+			"name": "Lewis Gun",
+			"rarity": 2,
+			"gunType": 5,
+			"description": "A firearm highly compatible with Lewis. Modified based on her combat preferences. Its brand new cooling system has solved the problem of overheating during extended periods of firing.",
+			"icon": "images/weapons/Weapon_Lewisgun_4_1024.webp"
+		},
+		"w2n": {
+			"id": "w2n",
+			"name": "Toysmith",
+			"rarity": 3,
+			"gunType": 5,
+			"description": "A high-performance light machine gun assigned to Lewis. Based on the Lewis Gun, it has been comprehensively upgraded using data from Svarog Heavy Industries and demonstrates unmatched suppressive fire capabilities in mid-range combat. Cuteness and power can coexist in the same package! Want to see?",
+			"icon": "images/weapons/Weapon_Lewisgun_5_1024.webp",
+			"dollId": "d18"
+		},
+		"w2o": {
+			"id": "w2o",
+			"name": "Retired Welrod MK.II",
+			"rarity": 1,
+			"gunType": 1,
+			"description": "An old weapon that's commonly seen in the contaminated zone. It's been poorly maintained and its barrel shows signs of heavy use.",
+			"icon": "images/weapons/Weapon_Welrodmk2_3_1024.webp"
+		},
+		"w2p": {
+			"id": "w2p",
+			"name": "Welrod MK.II",
+			"rarity": 2,
+			"gunType": 1,
+			"description": "A firearm highly compatible with Welrod. It's suitable for detective work and covert ops. Its special design reduces firing noise to a bare minimum.",
+			"icon": "images/weapons/Weapon_Welrodmk2_4_1024.webp"
+		},
+		"w2q": {
+			"id": "w2q",
+			"name": "Silent Sanction",
+			"rarity": 3,
+			"gunType": 1,
+			"description": "A high performance handgun assigned to Welrod. Based on the Welrod MK.II, its clandestine characteristics have been perfectly preserved while its firing mechanism has undergone a comprehensive upgrade, greatly increasing its stopping power and muzzle velocity. It is the perfect weapon for a detective who lurks in the shadows to dispense justice.",
+			"icon": "images/weapons/Weapon_Welrodmk2_5_1024.webp",
+			"dollId": "d19"
+		},
+		"w2r": {
+			"id": "w2r",
+			"name": "Retired Pistolet 15",
+			"rarity": 1,
+			"gunType": 1,
+			"description": "A cheap weapon you can find anywhere in the Yellow Zone. It's severely worn and barely serviceable.",
+			"icon": "images/weapons/Weapon_PA15_3_1024.webp"
+		},
+		"w2s": {
+			"id": "w2s",
+			"name": "Pistolet 15",
+			"rarity": 2,
+			"gunType": 1,
+			"description": "A firearm highly compatible with Florence. Modified based on her combat preferences, increasing its firepower and durability.",
+			"icon": "images/weapons/Weapon_PA15_4_1024.webp"
+		},
+		"w2t": {
+			"id": "w2t",
+			"name": "Iaso",
+			"rarity": 3,
+			"gunType": 1,
+			"description": "A high-performance pistol assigned to Florence. Based on the Pistolet 15, featuring increased rate of fire while maintaining safety and maneuverability, making it very powerful. With its help, Florence can bring out her true power.",
+			"icon": "images/weapons/Weapon_PA15_5_1024.webp",
+			"dollId": "d1a"
+		},
+		"w2u": {
+			"id": "w2u",
+			"name": "Retired Nikonova 94",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "A cheap weapon purchased from an underground broker. At least it can still be zeroed, and on the whole it will serve for daily use.",
+			"icon": "images/weapons/Weapon_AN94_3_1024.webp"
+		},
+		"w2v": {
+			"id": "w2v",
+			"name": "Nikonova 94",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Alva. Modified based on her combat preferences. Its recoil has been greatly reduced, producing a visible improvement to shooting accuracy.",
+			"icon": "images/weapons/Weapon_AN94_4_1024.webp"
+		},
+		"w2w": {
+			"id": "w2w",
+			"name": "6P33",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle assigned to Alva. Based on the Nikonova 94. A set of targeted modifications has produced a frightening increase in its effective range and killing power. Release all limiters and hit them with everything you've got!",
+			"icon": "images/weapons/Weapon_AN94_5_1024.webp",
+			"dollId": "d1b"
+		},
+		"w2x": {
+			"id": "w2x",
+			"name": "Retired Kalashnikova-15",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "A cheap weapon purchased from an underground broker. Its frame is scratched up and its barrel is rusted. Fortunately, it is still capable of automatic fire.",
+			"icon": "images/weapons/Weapon_AK15_3_1024.webp"
+		},
+		"w2y": {
+			"id": "w2y",
+			"name": "Kalashnikova-15",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Voymastina. Modified based on her combat preferences. Its specialized internals have produced a qualitative increase in its killing power.",
+			"icon": "images/weapons/Weapon_AK15_4_1024.webp"
+		},
+		"w2z": {
+			"id": "w2z",
+			"name": "6P71",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle assigned to Voymastina. Based on the Kalashnikova 15. After modification, it boasts massive firepower, giving Voymastina an overwhelming advantage in short to mid-range firefights. Stay close to her on the battlefield; her arc of fire is a secure area.",
+			"icon": "images/weapons/Weapon_AK15_5_1024.webp",
+			"dollId": "d1c"
+		},
+		"w30": {
+			"id": "w30",
+			"name": "Retired SG-12",
+			"rarity": 1,
+			"gunType": 6,
+			"description": "A cheap weapon purchased from an underground broker. Speckled with rust and barely usable.",
+			"icon": "images/weapons/Weapon_DP12_3_1024.webp"
+		},
+		"w31": {
+			"id": "w31",
+			"name": "SG-12",
+			"rarity": 2,
+			"gunType": 6,
+			"description": "A firearm highly compatible with Helen. Modified based on her combat preferences. Its magazine capacity has been increased, making it more suitable for mobile tactics in additional situations.",
+			"icon": "images/weapons/Weapon_DP12_4_1024.webp"
+		},
+		"w32": {
+			"id": "w32",
+			"name": "Dulcet Defender",
+			"rarity": 3,
+			"gunType": 6,
+			"description": "A high-performance shotgun assigned to Helen. Based on the SG-12, it features a significant increase in combat performance. Its astounding ammo capacity and impressive firepower make it suitable for offense and defense, making it unassailable in battle.",
+			"icon": "images/weapons/Weapon_DP12_5_1024.webp",
+			"dollId": "d1d"
+		},
+		"w33": {
+			"id": "w33",
+			"name": "Retired Model 100",
+			"rarity": 1,
+			"gunType": 2,
+			"description": "A cheap weapon purchased from an underground broker. It's not very durable but has adequate firepower.",
+			"icon": "images/weapons/Weapon_Sakura_3_1024.webp"
+		},
+		"w34": {
+			"id": "w34",
+			"name": "Model 100",
+			"rarity": 2,
+			"gunType": 2,
+			"description": "A firearm highly compatible with Sakura. Modified based on her combat preferences. The quality of its structural materials has been improved, making it more suitable for extended battles.",
+			"icon": "images/weapons/Weapon_Sakura_4_1024.webp"
+		},
+		"w35": {
+			"id": "w35",
+			"name": "Crimson Covenant",
+			"rarity": 3,
+			"gunType": 2,
+			"description": "A high-performance submachine gun assigned to Sakura. Based on the Model 100, its firepower has been greatly increased. The muzzle flashes like lightning, and bullets fall like rain.",
+			"icon": "images/weapons/Weapon_Sakura_5_1024.webp",
+			"dollId": "d1e"
+		},
+		"w36": {
+			"id": "w36",
+			"name": "Retired .50BMG Anti-Materiel Rifle",
+			"rarity": 1,
+			"gunType": 3,
+			"description": "An old weapon commonly seen in the contaminated zones. It's covered in dings and rust.",
+			"icon": "images/weapons/Weapon_DSR50_3_1024.webp"
+		},
+		"w37": {
+			"id": "w37",
+			"name": ".50BMG Anti-Materiel Rifle",
+			"rarity": 2,
+			"gunType": 3,
+			"description": "A firearm highly compatible with Loreley, featuring optimized hydraulic shock absorption and trigger feel. Its recoil is more controllable, making it a reliable assault weapon.",
+			"icon": "images/weapons/Weapon_DSR50_4_1024.webp"
+		},
+		"w38": {
+			"id": "w38",
+			"name": "Nighttide Nocturne",
+			"rarity": 3,
+			"gunType": 3,
+			"description": "An anti-materiel rifle custom-made for Loreley. Its barrel has been reforged with advanced technology and includes a next-generation highly-efficient muzzle brake. This set of modifications combines extreme long-range precision with suppressed sound and muzzle flash, allowing it to silently eliminate targets in the dark.",
+			"icon": "images/weapons/Weapon_DSR50_5_1024.webp",
+			"dollId": "d1f"
+		},
+		"w39": {
+			"id": "w39",
+			"name": "Retired .408 Sniper Rifle",
+			"rarity": 1,
+			"gunType": 3,
+			"description": "A cheap weapon scavenged from a Yellow Zone dump. Barely serviceable after some basic repairs.",
+			"icon": "images/weapons/Weapon_M200_3_1024.webp"
+		},
+		"w3a": {
+			"id": "w3a",
+			"name": ".408 Sniper Rifle",
+			"rarity": 2,
+			"gunType": 3,
+			"description": "A firearm highly compatible with Cheyanne. Modified based on her combat preferences. Its suppressor improves its heat dissipation efficiency and precision when firing consecutive shots.",
+			"icon": "images/weapons/Weapon_M200_4_1024.webp"
+		},
+		"w3b": {
+			"id": "w3b",
+			"name": "Nightwalker Cardamom",
+			"rarity": 3,
+			"gunType": 3,
+			"description": "A high-performance rifle assigned to Cheyanne. Based on the .408 Sniper Rifle, its range and firepower have been boosted over the original, allowing it to deliver death from a distant hiding place straight to the enemies' vitals.",
+			"icon": "images/weapons/Weapon_M200_5_1024.webp",
+			"dollId": "d1g"
+		},
+		"w3c": {
+			"id": "w3c",
+			"name": "Retired .45 ACP Pistol",
+			"rarity": 1,
+			"gunType": 1,
+			"description": "A cheap weapon bought from an underground broker. Its workmanship is obsolete.",
+			"icon": "images/weapons/Weapon_MK23_3_1024.webp"
+		},
+		"w3d": {
+			"id": "w3d",
+			"name": ".45 ACP Pistol",
+			"rarity": 2,
+			"gunType": 1,
+			"description": "A firearm highly compatible with Basti. Its concealability and high firepower make it the ideal assassination tool; there is more than one way to inflict one shot, one kill, after all.",
+			"icon": "images/weapons/Weapon_MK23_4_1024.webp"
+		},
+		"w3e": {
+			"id": "w3e",
+			"name": "Dona Eis Requiem",
+			"rarity": 3,
+			"gunType": 1,
+			"description": "An elite combat handgun that has been personally modified by Basti herself. It's as imaginative and destructive as she is; even the sound of its firing pin is unique, serving as a carefully crafted requiem for her foes.",
+			"icon": "images/weapons/Weapon_MK23_5_1024.webp",
+			"dollId": "d1h"
+		},
+		"w3f": {
+			"id": "w3f",
+			"name": "Retired General Liu Rifle",
+			"rarity": 1,
+			"gunType": 3,
+			"description": "A cheap weapon purchased from an underground broker. While it's sufficient for daily use, its parts are severely worn and it frequently experiences ammo feeding problems.",
+			"icon": "images/weapons/Weapon_Liushih_3_1024.webp"
+		},
+		"w3g": {
+			"id": "w3g",
+			"name": "General Liu Rifle",
+			"rarity": 2,
+			"gunType": 3,
+			"description": "A firearm highly compatible with Liushih. Modified based on her combat preferences, it features improved stability during automatic fire.",
+			"icon": "images/weapons/Weapon_Liushih_4_1024.webp"
+		},
+		"w3h": {
+			"id": "w3h",
+			"name": "Transience",
+			"rarity": 3,
+			"gunType": 3,
+			"description": "A high-performance rifle assigned to Liushih. Based on the General Liu Rifle, its robustness and lethality have been greatly enhanced. Swifter than its own shadow and sharp as a lightning strike, it carves the path to victory in an instant.",
+			"icon": "images/weapons/Weapon_Liushih_5_1024.webp",
+			"dollId": "d1i"
+		},
+		"w3i": {
+			"id": "w3i",
+			"name": "Retired Nightsnake",
+			"rarity": 1,
+			"gunType": 7,
+			"description": "A cheap weapon purchased from an underground broker. Its blade is no longer sharp and its handling is noticeably worse.",
+			"icon": "images/weapons/Weapon_Sextans_3_1024.webp"
+		},
+		"w3j": {
+			"id": "w3j",
+			"name": "Nightsnake",
+			"rarity": 2,
+			"gunType": 7,
+			"description": "A blade that's highly compatible with Sextans. Modified based on her combat preferences, its hilt and blade use the latest composite alloys, allowing it to sink silently into an enemy's body.",
+			"icon": "images/weapons/Weapon_Sextans_4_1024.webp"
+		},
+		"w3k": {
+			"id": "w3k",
+			"name": "Twilight Rose",
+			"rarity": 3,
+			"gunType": 7,
+			"description": "A high-performance blade assigned to Sextans. It is light and handles very well, reflecting an enchanting gleam in the sunset. Through formlessness, it overcomes the foe and seizes victory.",
+			"icon": "images/weapons/Weapon_Sextans_5_1024.webp",
+			"dollId": "d1j"
+		},
+		"w3l": {
+			"id": "w3l",
+			"name": "Retired Groza-3",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "A retired assault rifle that's commonly seen in the contaminated zone. It's covered in nicks and spotted with rust; apparently it's gone a long time without proper care.",
+			"icon": "images/weapons/Weapon_BlackOTs14_3_1024.webp"
+		},
+		"w3m": {
+			"id": "w3m",
+			"name": "Groza-3",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm that's quite compatible with OTs-14, featuring improved recoil control and tactical rails. For her, this isn't just a weapon, but a yardstick to measure the differences between herself and \"her other self\".",
+			"icon": "images/weapons/Weapon_BlackOTs14_4_1024.webp"
+		},
+		"w3n": {
+			"id": "w3n",
+			"name": "Capitoline",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "An assault rifle that's been customized for OTs-14. Its muzzle and recoil compensator have been specially treated to maintain muzzle velocity, which ensures rate of fire and stable bullet trajectory. Its excellent performance is enough to lead its user to a glorious victory.",
+			"icon": "images/weapons/Weapon_BlackOTs14_5_1024.webp",
+			"dollId": "d1k"
+		},
+		"w3o": {
+			"id": "w3o",
+			"name": "Sibyl",
+			"rarity": 3,
+			"gunType": 3,
+			"description": "A custom-made sniper rifle assigned to Nemesis. Based on the .50 Nemesis, it has markedly improved accuracy and stability at extreme range—perhaps this time, she'll be able to use this to reach out and touch the truth.",
+			"icon": "images/weapons/Weapon_NemesisGnosis_5_1024.webp",
+			"dollId": "d1l"
+		},
+		"w3p": {
+			"id": "w3p",
+			"name": "Retired SOPMOD II",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "A cheap weapon bought from an underground broker. It's just barely usable, but its gas system is old and frequently causes feed stoppages.",
+			"icon": "images/weapons/Weapon_Soppo_3_1024.webp"
+		},
+		"w3q": {
+			"id": "w3q",
+			"name": "SOPMOD II",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Soppo. Modified based on her combat preferences. Features a modified feed mechanism and sights, markedly improving its rate of fire and effective range.",
+			"icon": "images/weapons/Weapon_Soppo_4_1024.webp"
+		},
+		"w3r": {
+			"id": "w3r",
+			"name": "Sky-Shattering Howl",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle assigned to Soppo. Based on the SOPMOD II, its structural resilience and killing power have been greatly improved. The mad dog races through the ruins at lightning speed, her howl rending the sky asunder.",
+			"icon": "images/weapons/Weapon_Soppo_5_1024.webp",
+			"dollId": "d1m"
+		},
+		"w3s": {
+			"id": "w3s",
+			"name": "Retired PDW90",
+			"rarity": 1,
+			"gunType": 2,
+			"description": "A cheap weapon bought from an underground broker. It's barely usable.",
+			"icon": "images/weapons/Weapon_Mityl_3_1024.webp"
+		},
+		"w3t": {
+			"id": "w3t",
+			"name": "PDW90",
+			"rarity": 2,
+			"gunType": 2,
+			"description": "A firearm highly compatible with Mityl. Its excellent rate of fire makes it ideal for surprise assaults. Its special ammo feed system is its greatest highlight.",
+			"icon": "images/weapons/Weapon_Mityl_4_1024.webp"
+		},
+		"w3u": {
+			"id": "w3u",
+			"name": "Squirrel Nova",
+			"rarity": 3,
+			"gunType": 2,
+			"description": "A high-performance SMG assigned to Mityl. Based on the PDW90, its rate of fire has been further increased to better adapt to her unique combat style. Its practically nonexistent recoil gives her superior firing accuracy and sustained firepower. Once she lands a sneak attack, she can continually keep the enemy off balance. And so, another one falls to the \"rat strat\".",
+			"icon": "images/weapons/Weapon_Mityl_5_1024.webp",
+			"dollId": "d1n"
+		},
+		"w4v": {
+			"id": "w4v",
+			"name": "Retired Sturmgewehr 41",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "A cheap weapon bought from an underground broker. Its performance is passable, but it was phased out early on due to cost concerns.",
+			"icon": "images/weapons/Weapon_Faelynn_3_1024.webp"
+		},
+		"w4w": {
+			"id": "w4w",
+			"name": "Sturmgewehr 41",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Faelynn. Its damage output is stable and high, while its workmanship is excellent, but it requires a great deal of daily maintenance.",
+			"icon": "images/weapons/Weapon_Faelynn_4_1024.webp"
+		},
+		"w4x": {
+			"id": "w4x",
+			"name": "Feral Fang",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle that's been specially customized for Faelynn. It pushes the complexity of manufacturing to its limits, and its exceptional stability allows it to unload a large quantity of ammunition in a short period of time, like a beast howling on the battlefield.",
+			"icon": "images/weapons/Weapon_Faelynn_5_1024.webp",
+			"dollId": "d34"
+		},
+		"w4y": {
+			"id": "w4y",
+			"name": "Retired 6P70",
+			"rarity": 1,
+			"gunType": 4,
+			"unreleased": true,
+			"description": "A cheap weapon bought from an underground broker. It's barely usable.",
+			"icon": "images/weapons/Weapon_Koleda_3_1024.webp"
+		},
+		"w4z": {
+			"id": "w4z",
+			"name": "6P70",
+			"rarity": 2,
+			"gunType": 4,
+			"unreleased": true,
+			"description": "A firearm that's extremely compatible with Koleda. It's more accurate and has lower recoil than older assault rifles.",
+			"icon": "images/weapons/Weapon_Koleda_4_1024.webp"
+		},
+		"w50": {
+			"id": "w50",
+			"name": "Chernobog",
+			"rarity": 3,
+			"gunType": 4,
+			"unreleased": true,
+			"description": "A high performance assault rifle assigned to Koleda. Based on the 6P70, it is a perfect match for Koleda's current frame. It can adapt to the vast majority of extreme environments and special circumstances, allowing her to face the foe in her best condition at all times.\n\"Alva and Voymastina are just too boring. They didn't even name their weapons. I'm nothing like them, though; even my personal cup has a name of its own.\"",
+			"icon": "images/weapons/Weapon_Koleda_5_1024.webp",
+			"dollId": "d35"
+		},
+		"w51": {
+			"id": "w51",
+			"name": "Retired Model 15",
+			"rarity": 1,
+			"gunType": 4,
+			"unreleased": true,
+			"description": "A cheap weapon bought from an underground broker. It's barely usable.",
+			"icon": "images/weapons/Weapon_Asteria_3_1024.webp"
+		},
+		"w52": {
+			"id": "w52",
+			"name": "Model 15",
+			"rarity": 2,
+			"gunType": 4,
+			"unreleased": true,
+			"description": "A firearm that's extremely compatible with Asteria. Its customized frame can meet all tactical needs while maintaining shooting accuracy.",
+			"icon": "images/weapons/Weapon_Asteria_4_1024.webp"
+		},
+		"w53": {
+			"id": "w53",
+			"name": "Contrition's Compass",
+			"rarity": 3,
+			"gunType": 4,
+			"unreleased": true,
+			"description": "A high-performance assault rifle assigned to Asteria. Based on the Model 15. After incorporating the data of \"Crime\" and \"Punishment\", its accuracy and controllability have been boosted to the utmost. Where its muzzle points, the gavel of justice shall fall.",
+			"icon": "images/weapons/Weapon_Asteria_5_1024.webp",
+			"dollId": "d36"
+		},
+		"w54": {
+			"id": "w54",
+			"name": "Retired Wasteland Raptor",
+			"rarity": 1,
+			"gunType": 1,
+			"unreleased": true,
+			"description": "A cheap weapon purchased from an underground broker. It's heavily worn and is only barely usable.",
+			"icon": "images/weapons/Weapon_Eagletta_3_1024.webp"
+		},
+		"w55": {
+			"id": "w55",
+			"name": "Wasteland Raptor",
+			"rarity": 2,
+			"gunType": 1,
+			"unreleased": true,
+			"description": "A handgun with good compatibility with Eagletta. Its structure has been modified to suit her combat preferences. It poses a formidable threat in the dangerous wastes.",
+			"icon": "images/weapons/Weapon_Eagletta_4_1024.webp"
+		},
+		"w56": {
+			"id": "w56",
+			"name": "Argentplume Pistis",
+			"rarity": 3,
+			"gunType": 1,
+			"unreleased": true,
+			"description": "A high performance handgun issued to Eagletta. Based on the Wasteland Raptor, it features decreased recoil and enhanced stopping power, giving her the courage to face danger. Its muzzle report echoes like an eagle's cry, illuminating the trail to the truth.",
+			"icon": "images/weapons/Weapon_Eagletta_5_1024.webp",
+			"dollId": "d37"
+		},
+		"w57": {
+			"id": "w57",
+			"name": "Retired Sturmgewehr 36CP",
+			"rarity": 1,
+			"gunType": 4,
+			"unreleased": true,
+			"description": "A cheap weapon sourced from an underground broker. It's old and badly needs maintenance.",
+			"icon": "images/weapons/Weapon_Cecilia_3_1024.webp"
+		},
+		"w58": {
+			"id": "w58",
+			"name": "Sturmgewehr 36CP",
+			"rarity": 2,
+			"gunType": 4,
+			"unreleased": true,
+			"description": "A firearm that's quite compatible with Cecilia. Stabilized to meet Cecilia's needs and fitted with a suppressor. Even in complex combat conditions, it's stable and reliable.",
+			"icon": "images/weapons/Weapon_Cecilia_4_1024.webp"
+		},
+		"w59": {
+			"id": "w59",
+			"name": "Snotra",
+			"rarity": 3,
+			"gunType": 4,
+			"unreleased": true,
+			"description": "A high performance assault rifle assigned to Cecilia. Based on the Sturmgewehr 36CP, it emphasizes its light weight while maximizing its combat performance to protect Cecilia during intense conflicts.",
+			"icon": "images/weapons/Weapon_Cecilia_5_1024.webp",
+			"dollId": "d38"
+		},
+		"w5a": {
+			"id": "w5a",
+			"name": "Retired Blackthorn",
+			"rarity": 1,
+			"gunType": 5,
+			"unreleased": true,
+			"description": "A cheap weapon purchased from an underground broker. Its impressive firepower and novel appearance has piqued Agent's interest.",
+			"icon": "images/weapons/Weapon_Agent_3_1024.webp"
+		},
+		"w5b": {
+			"id": "w5b",
+			"name": "Blackthorn",
+			"rarity": 2,
+			"gunType": 5,
+			"unreleased": true,
+			"description": "A custom firearm that's quite compatible with Agent. At her request, it has been modified to meet the basic combat requirements for Sangvis Ferri Dolls.",
+			"icon": "images/weapons/Weapon_Agent_4_1024.webp"
+		},
+		"w5c": {
+			"id": "w5c",
+			"name": "Key of Omens",
+			"rarity": 3,
+			"gunType": 5,
+			"unreleased": true,
+			"description": "A customized weapon developed using Sangvis Ferri technology. Both its frame and ammunition have been specially modified to meet Agent's demands for great offensive power. When its bullets rain down on the enemy, they will be reminded of the meaning of \"fear\".",
+			"icon": "images/weapons/Weapon_Agent_5_1024.webp",
+			"dollId": "d39"
+		},
+		"w5d": {
+			"id": "w5d",
+			"name": "Aldebaran",
+			"rarity": 3,
+			"gunType": 1,
+			"unreleased": true,
+			"description": "An elite handgun created with Sangvis Ferri upgrades, based on the .380 Curva. In addition to a noticeable increase in attack power, it also features a melee combat form. At last, she has the strength to protect her friends with her own hands.",
+			"icon": "images/weapons/Weapon_ColphneDoppelgaenger_5_1024.webp",
+			"dollId": "d3a"
+		},
+		"w3v": {
+			"id": "w3v",
+			"name": "Hare",
+			"rarity": 2,
+			"gunType": 7,
+			"description": "A melee weapon highly compatible with Krolik. Modified based on her combat preferences and painted with a skin that matches Krolik's colors.",
+			"icon": "images/weapons/Weapon_Blade_4_1024.webp",
+			"dollId": "d0"
+		},
+		"w3w": {
+			"id": "w3w",
+			"name": "Retired .380 Curva",
+			"rarity": 1,
+			"gunType": 1,
+			"description": "Colphne's designated training weapon. Frequently used in team coordination drills as well as for basic combat operations when necessary.",
+			"icon": "images/weapons/Weapon_TaurusCurve_3_1024.webp"
+		},
+		"w3x": {
+			"id": "w3x",
+			"name": "Retired .50 Nemesis",
+			"rarity": 1,
+			"gunType": 3,
+			"description": "Nemesis' designated training weapon. Frequently used in team coordination drills as well as for basic combat operations when necessary.",
+			"icon": "images/weapons/Weapon_OM50_3_1024.webp"
+		},
+		"w3y": {
+			"id": "w3y",
+			"name": "Retired OTs-14",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "Groza's designated training weapon. Frequently used in team coordination drills as well as for basic combat operations when necessary.",
+			"icon": "images/weapons/Weapon_OTS14_3_1024.webp"
+		},
+		"w3z": {
+			"id": "w3z",
+			"name": ".50 Nemesis",
+			"rarity": 2,
+			"gunType": 3,
+			"description": "A firearm highly compatible with Nemesis. Modified based on her combat preferences. Features further improved firepower and accuracy.",
+			"icon": "images/weapons/Weapon_OM50_4_1024.webp",
+			"dollId": "d1"
+		},
+		"w40": {
+			"id": "w40",
+			"name": ".380 Curva",
+			"rarity": 2,
+			"gunType": 1,
+			"description": "A firearm highly compatible with Colphne. Modified based on her combat preferences. The modifications make it practical, compact, and easy to use, while also enhancing its power.",
+			"icon": "images/weapons/Weapon_TaurusCurve_4_1024.webp",
+			"dollId": "d2"
+		},
+		"w41": {
+			"id": "w41",
+			"name": "Heart Seeker",
+			"rarity": 3,
+			"gunType": 6,
+			"description": "A high-performance shotgun assigned to Vepley. Based on the Vepr-12. Designed to protect the audience in case of unexpected incidents during her performances. However, as a professional idol, Vepley might use this gun to secretly capture the hearts of her fans.",
+			"icon": "images/weapons/Weapon_Vepr12_5_1024.webp",
+			"dollId": "d4"
+		},
+		"w42": {
+			"id": "w42",
+			"name": "Retired Vepr-12",
+			"rarity": 1,
+			"gunType": 6,
+			"description": "Vepley's designated training weapon. Frequently used in team coordination drills as well as for basic combat operations when necessary.",
+			"icon": "images/weapons/Weapon_Vepr12_3_1024.webp"
+		},
+		"w43": {
+			"id": "w43",
+			"name": "Optical Illusion",
+			"rarity": 3,
+			"gunType": 5,
+			"description": "A high-performance machine gun assigned to Peritya. Based on the Pecheneg-SP. After modifications, its power has been significantly enhanced. Will the one wielding this weapon also vanish like an illusion?",
+			"icon": "images/weapons/Weapon_Pecheng_5_1024.webp",
+			"dollId": "d6"
+		},
+		"w44": {
+			"id": "w44",
+			"name": "Vepr-12",
+			"rarity": 2,
+			"gunType": 6,
+			"description": "A firearm highly compatible with Vepley. Modified based on her combat preferences, making it a \"performance prop\" more suitable for cute and energetic idols.",
+			"icon": "images/weapons/Weapon_Vepr12_4_1024.webp"
+		},
+		"w45": {
+			"id": "w45",
+			"name": "Retired Hare",
+			"rarity": 1,
+			"gunType": 7,
+			"description": "Krolik's designated training weapon. Frequently used in team coordination drills as well as for basic combat operations when necessary.",
+			"icon": "images/weapons/Weapon_Blade_3_1024.webp"
+		},
+		"w46": {
+			"id": "w46",
+			"name": "OTs-14",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Groza. Modified based on her combat preferences. Features improved firepower and burst fire effectiveness while ensuring that it's still easy to carry.",
+			"icon": "images/weapons/Weapon_OTS14_4_1024.webp",
+			"dollId": "d5"
+		},
+		"w47": {
+			"id": "w47",
+			"name": "Retired Pecheneg-SP",
+			"rarity": 1,
+			"gunType": 5,
+			"description": "Peritya's designated training weapon. Frequently used in team coordination drills as well as for basic combat operations when necessary.",
+			"icon": "images/weapons/Weapon_Pecheng_3_1024.webp"
+		},
+		"w48": {
+			"id": "w48",
+			"name": "Pecheneg-SP",
+			"rarity": 2,
+			"gunType": 5,
+			"description": "A firearm highly compatible with Peritya. Modified based on her combat preferences. Features improved firepower and portability, becoming more potent in Peritya's hands.",
+			"icon": "images/weapons/Weapon_Pecheng_4_1024.webp"
+		},
+		"w49": {
+			"id": "w49",
+			"name": "Retired Robinson Modular Rifle",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "Sharkry's designated training weapon. Frequently used in team coordination drills as well as for basic combat operations when necessary.",
+			"icon": "images/weapons/Weapon_ROBINSONXCR_3_1024.webp"
+		},
+		"w4a": {
+			"id": "w4a",
+			"name": "Robinson Modular Rifle",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Sharkry. Modified based on her combat preferences. Features improved overall balance and enhanced shooting precision.",
+			"icon": "images/weapons/Weapon_ROBINSONXCR_4_1024.webp",
+			"dollId": "d7"
+		},
+		"w4b": {
+			"id": "w4b",
+			"name": "Retired Model Alpha",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "Tololo's designated training weapon. Frequently used in team coordination drills as well as for basic combat operations when necessary.",
+			"icon": "images/weapons/Weapon_AK-Alfa_3_1024.webp"
+		},
+		"w4c": {
+			"id": "w4c",
+			"name": "Model Alpha",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Tololo. Modified based on her combat preferences. improving shooting accuracy and adapting it to various combat environments.",
+			"icon": "images/weapons/Weapon_AK-Alfa_4_1024.webp"
+		},
+		"w4d": {
+			"id": "w4d",
+			"name": "Planeta",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle assigned to Tololo. Based on the Model Alpha. Features include lighter frame and higher shooting accuracy. Its lightweight, innovative design combines pragmatic rationality with the romance of exploring the unknown, much like its owner.",
+			"icon": "images/weapons/Weapon_AK-Alfa_5_1024.webp",
+			"dollId": "da"
+		},
+		"w4e": {
+			"id": "w4e",
+			"name": "Retired MP7H1",
+			"rarity": 1,
+			"gunType": 2,
+			"description": "Cheeta's designated training weapon. Frequently used in team coordination drills as well as for basic combat operations when necessary.",
+			"icon": "images/weapons/Weapon_MP7_3_1024.webp"
+		},
+		"w4f": {
+			"id": "w4f",
+			"name": "MP7H1",
+			"rarity": 2,
+			"gunType": 2,
+			"description": "A firearm highly compatible with Cheeta. Modified based on her combat preferences. Offers substantial firepower despite featuring a small and extremely light frame.",
+			"icon": "images/weapons/Weapon_MP7_4_1024.webp",
+			"dollId": "d9"
+		},
+		"w4g": {
+			"id": "w4g",
+			"name": "Retired QBZ-191",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "A cheap weapon purchased from an underground broker. It's covered in scratches, as if it had weathered many storms.",
+			"icon": "images/weapons/Weapon_QBZ-191_3_1024.webp"
+		},
+		"w4h": {
+			"id": "w4h",
+			"name": "QBZ-191",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Qiongjiu. Modified based on her combat preferences. Features increased firing stability and accuracy.",
+			"icon": "images/weapons/Weapon_QBZ-191_4_1024.webp"
+		},
+		"w4i": {
+			"id": "w4i",
+			"name": "Golden Melody",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle assigned to Qiongjiu. Based on the QBZ-191. The adjustments ensure its versatility in various environments while enhancing its power and stability. Beneath its steady rhythm lies an unchanged purpose.",
+			"icon": "images/weapons/Weapon_QBZ-191_5_1024.webp",
+			"dollId": "dc"
+		},
+		"w4j": {
+			"id": "w4j",
+			"name": "Retired Sportivo Calibro 12",
+			"rarity": 1,
+			"gunType": 6,
+			"description": "A cheap weapon purchased from an underground broker. Severely worn out, it appears close to complete disrepair.",
+			"icon": "images/weapons/Weapon_SPAS-12_3_1024.webp"
+		},
+		"w4k": {
+			"id": "w4k",
+			"name": "Sportivo Calibro 12",
+			"rarity": 2,
+			"gunType": 6,
+			"description": "A firearm highly compatible with Sabrina. Modified based on her combat preferences. Features lighter weight, making it easier to carry and use.",
+			"icon": "images/weapons/Weapon_SPAS-12_4_1024.webp"
+		},
+		"w4l": {
+			"id": "w4l",
+			"name": "Mezzaluna",
+			"rarity": 3,
+			"gunType": 6,
+			"description": "A high-performance shotgun assigned to Sabrina. Based on the Sportivo Calibro 12. Features a unique design that improves stability and makes the gun easier to store and carry while maintaining an intimidating appearance. To avoid frightening others, Sabrina named it after a common kitchen utensil from Italian cuisine.",
+			"icon": "images/weapons/Weapon_SPAS-12_5_1024.webp",
+			"dollId": "de"
+		},
+		"w4m": {
+			"id": "w4m",
+			"name": "Retired Nagant M1895",
+			"rarity": 1,
+			"gunType": 1,
+			"description": "A cheap weapon purchased from an underground broker. Its surface is covered in rust, but it can still function after thorough maintenance.",
+			"icon": "images/weapons/Weapon_M1895_3_1024.webp"
+		},
+		"w4n": {
+			"id": "w4n",
+			"name": "Nagant M1895",
+			"rarity": 2,
+			"gunType": 1,
+			"description": "A firearm highly compatible with Nagant. Modified based on her combat preferences. Offers higher initial bullet velocity and improved durability.",
+			"icon": "images/weapons/Weapon_M1895_4_1024.webp",
+			"dollId": "db"
+		},
+		"w4o": {
+			"id": "w4o",
+			"name": "Retired Type 95",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "A cheap weapon purchased from an underground broker. Its frame shows numerous repair marks but it still fires normally.",
+			"icon": "images/weapons/Weapon_QBZ-95_3_1024.webp"
+		},
+		"w4p": {
+			"id": "w4p",
+			"name": "Type 95",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Daiyan. Modified based on her combat preferences. Features lighter weight and improved stability.",
+			"icon": "images/weapons/Weapon_QBZ-95_4_1024.webp"
+		},
+		"w4q": {
+			"id": "w4q",
+			"name": "Heavy Strings",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle assigned to Daiyan. Based on the Type 95. Combines elegant appearance with destructive power. In Daiyan's hands, this \"Heavy String\" resonates like a deadly musical instrument.",
+			"icon": "images/weapons/Weapon_QBZ-95_5_1024.webp",
+			"dollId": "df"
+		},
+		"w4r": {
+			"id": "w4r",
+			"name": "Retired Sturmgewehr 36",
+			"rarity": 1,
+			"gunType": 4,
+			"description": "A cheap weapon purchased from an underground broker. Poorly maintained, requiring a thorough inspection before use.",
+			"icon": "images/weapons/Weapon_G36_3_1024.webp"
+		},
+		"w4s": {
+			"id": "w4s",
+			"name": "Sturmgewehr 36",
+			"rarity": 2,
+			"gunType": 4,
+			"description": "A firearm highly compatible with Centaureissi. Modified based on her combat preferences. Features further reduced weight.",
+			"icon": "images/weapons/Weapon_G36_4_1024.webp"
+		},
+		"w4t": {
+			"id": "w4t",
+			"name": "Maid's Rules",
+			"rarity": 3,
+			"gunType": 4,
+			"description": "A high-performance assault rifle assigned to Centaureissi. Based on the Sturmgewehr 36 and crafted with materials of exceptional quality. As precise and refined as its owner, perfectly suited for its duties. It embodies the wielder's convictions and principles.",
+			"icon": "images/weapons/Weapon_G36_5_1024.webp",
+			"dollId": "dd"
+		}
+	}
+}

@@ -15,10 +15,12 @@ export default function ConfirmModal(props: {
 	title?: string;
 }) {
 	function getTextWidth(text: string) {
-		var canvas = document.createElement("canvas");
-		var context = canvas.getContext("2d")!;
+		const canvas = document.createElement("canvas");
+		const context = canvas.getContext("2d");
+		if (!context) return "w-auto";
+
 		context.font = "bold 16px Roboto, sans-serif";
-		var metrics = context.measureText(text);
+		const metrics = context.measureText(text);
 		return `w-[${Math.floor(metrics.width)}px]`;
 	}
 

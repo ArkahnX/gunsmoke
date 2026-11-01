@@ -12,6 +12,8 @@ export default function Button(props: {
 	color: "dark" | "light" | "red";
 	design: "confirm" | "cancel" | "refresh" | "custom";
 	content?: string;
+	/** Small count shown after the label */
+	badge?: number;
 }) {
 	return (
 		<button
@@ -46,6 +48,11 @@ export default function Button(props: {
 				<Show when={props.design === "refresh"}>{props.content ?? "Reset"}</Show>
 				<Show when={props.design === "custom"}>{props.content}</Show>
 			</span>
+			<Show when={props.badge !== undefined}>
+				<span class="ml-2 flex h-6 min-w-6 items-center justify-center rounded-full bg-[#EFEFEF] px-1.5 text-sm text-[#944040]">
+					{props.badge}
+				</span>
+			</Show>
 		</button>
 	);
 }

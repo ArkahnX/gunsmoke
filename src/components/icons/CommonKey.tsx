@@ -1,25 +1,23 @@
 import { Show } from "solid-js";
+import { Rarity } from "../../../gfl2-data/enums";
 
-export default function CommonKey(props: { rarity: string }) {
-	const color = props.rarity === "Elite" ? "A87D36" : props.rarity === "Standard" ? "5F5A90" : "5B6468";
+export default function CommonKey(props: { rarity: Rarity }) {
+	const color = props.rarity === Rarity.Elite ? "A87D36" : props.rarity === Rarity.Standard ? "5F5A90" : "5B6468";
 	return (
 		<svg
 			width="100%"
 			height="100%"
 			viewBox="0 0 20 20"
-			version="1.1"
 			xmlns="http://www.w3.org/2000/svg"
 			xmlns:xlink="http://www.w3.org/1999/xlink"
-			xml:space="preserve"
-			xmlns:serif="http://www.serif.com/"
 			style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 			<g transform="matrix(1,0,0,1,-33,-5.5)">
-				<Show when={props.rarity !== "Elite" && props.rarity !== "Standard"}>
+				<Show when={props.rarity !== Rarity.Elite && props.rarity !== Rarity.Standard}>
 					<g transform="matrix(1,0,0,0.944444,-0.5,-0.555556)">
 						<path d="M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z" style="fill:rgb(63,78,82);" />
 					</g>
 				</Show>
-				<Show when={props.rarity === "Elite" || props.rarity === "Standard"}>
+				<Show when={props.rarity === Rarity.Elite || props.rarity === Rarity.Standard}>
 					<g transform="matrix(0.470588,0,0,0.444444,22.5294,7.94444)">
 						<path d="M43.5,8L50.861,12.5L50.861,21.5L43.5,26L36.139,21.5L36.139,12.5L43.5,8Z" style="fill:rgb(152,154,159);" />
 					</g>

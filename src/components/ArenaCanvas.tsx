@@ -1,38 +1,35 @@
 import { createSignal, onMount } from "solid-js";
-import {
-	state,
-	placeDoll,
-	placeSummon,
-	mapGrid,
-	removeDollOrSummon,
-	setCoords,
-	coords,
-	gridKey,
-	swapPositions,
-	isTileType,
-} from "../store";
 import { TILE_SIZE, MIN_SCALE, MAX_SCALE } from "../types/constants";
-import { drawMapTilesOnArena, drawGhostOnCanvas } from "../canvas/draw";
+import { drawMapTilesOnArena } from "../canvas/draw";
 import { createStore, produce } from "solid-js/store";
-import { Camera, DragState, DragStatus, MapBounds, TileType } from "../types";
+import { Camera, DragState, DragStatus, Position, TileType } from "../types";
 import Discard from "./icons/Discard";
 import Modal from "./modals/Modal";
 import SetupSidebar from "./SetupSidebar";
 import ActionSidebar from "./ActionSidebar";
+import { coords, setCoords } from "../store/uiState";
+import { gridKey, isTileType, mapGrid } from "../store/mapGrid";
+import { localState, state } from "../store/appState";
+import { placeDoll, placeSummon, removeDollOrSummon, swapPositions } from "../store/placement";
+import { drawGhostOnCanvas } from "../canvas/drawEntities";
+import { DollId, SummonId } from "../../gfl2-data/types";
+import { hasPrefix } from "../store/gameData";
+import { IdKey } from "../../gfl2-data/enums";
 
+// eslint-disable-next-line no-unassigned-vars
 let canvasEl!: HTMLCanvasElement;
 let ctx: CanvasRenderingContext2D;
-let dpr: number = 1;
+let dpr = 1;
 
 export const camera: Camera = { x: 10, y: 10, scale: 2 };
 
-const activePointers: Map<number, { x: number; y: number }> = new Map();
+const activePointers = new Map<number, { x: number; y: number }>();
 
 const [activeTab, setActiveTab] = createSignal("setup");
 const [discardHover, setDiscardHover] = createSignal(false);
 
 const [drag, setDrag] = createStore<DragState>({
-	id: "",
+	id: "" as DollId,
 	instanceId: "",
 	screenX: -1,
 	screenY: -1,
@@ -89,7 +86,8 @@ export function handlePointerMove(e: PointerEvent) {
 			updateDragInfo(e.clientX, e.clientY);
 		} else {
 			// pan canvas
-			const prev = previousPointers.get(e.pointerId)!;
+			const prev = previousPointers.get(e.pointerId);
+			if (!prev) return;
 			const dx = e.clientX - prev.x;
 			const dy = e.clientY - prev.y;
 			camera.x -= dx / camera.scale;
@@ -99,10 +97,11 @@ export function handlePointerMove(e: PointerEvent) {
 	} else {
 		// zoom canvas
 		const [idA, idB] = activePointers.keys();
-		const currA = activePointers.get(idA)!;
-		const currB = activePointers.get(idB)!;
-		const prevA = previousPointers.get(idA)!;
-		const prevB = previousPointers.get(idB)!;
+		const currA = activePointers.get(idA);
+		const currB = activePointers.get(idB);
+		const prevA = previousPointers.get(idA);
+		const prevB = previousPointers.get(idB);
+		if (!currA || !currB || !prevA || !prevB) return;
 
 		const prevMid = { x: (prevA.x + prevB.x) / 2, y: (prevA.y + prevB.y) / 2 };
 		const currMid = { x: (currA.x + currB.x) / 2, y: (currA.y + currB.y) / 2 };
@@ -134,7 +133,7 @@ export function handlePointerUp(e: PointerEvent) {
 	}
 }
 
-export function deployFromSetupPanel(id: string, instanceId: string | null, e: PointerEvent): void {
+export function deployFromSetupPanel(id: DollId | SummonId, instanceId: string | null, e: PointerEvent): void {
 	e.preventDefault();
 	canvasEl.setPointerCapture(e.pointerId);
 	activePointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
@@ -234,22 +233,16 @@ function clampCamera(): void {
 	const halfH = cssH / 2 / camera.scale;
 
 	// Clamp X: camera can pan until only one tile remains visible on either side
-    camera.x = Math.max(
-        MAP_BOUNDS.minX - halfW + TILE_SIZE,   // left limit: left edge + one tile
-        Math.min(
-            MAP_BOUNDS.maxX + halfW - TILE_SIZE, // right limit: right edge - one tile
-            camera.x
-        )
-    );
+	camera.x = Math.max(
+		MAP_BOUNDS.minX - halfW + TILE_SIZE, // left limit: left edge + one tile
+		Math.min(
+			MAP_BOUNDS.maxX + halfW - TILE_SIZE, // right limit: right edge - one tile
+			camera.x
+		)
+	);
 
-    // Clamp Y: same logic vertically
-    camera.y = Math.max(
-        MAP_BOUNDS.minY - halfH + TILE_SIZE,
-        Math.min(
-            MAP_BOUNDS.maxY + halfH - TILE_SIZE,
-            camera.y
-        )
-    );
+	// Clamp Y: same logic vertically
+	camera.y = Math.max(MAP_BOUNDS.minY - halfH + TILE_SIZE, Math.min(MAP_BOUNDS.maxY + halfH - TILE_SIZE, camera.y));
 }
 
 /**
@@ -268,7 +261,7 @@ function minScaleForBounds(): number {
 
 function draw(): void {
 	if (!ctx) return;
-	if (state.currentTab < 0 || state.currentTab > 7) return;
+	if (localState.currentTab < 0 || localState.currentTab > 7) return;
 	const { width, height } = canvasEl;
 
 	// Reset to identity before clearing (covers full pixel buffer)
@@ -276,7 +269,7 @@ function draw(): void {
 	ctx.clearRect(0, 0, width, height);
 
 	applyCamera();
-	drawMapTilesOnArena(ctx, drag, state.currentTab);
+	drawMapTilesOnArena(ctx, drag, localState.currentTab);
 	if (drag.isActive) {
 		drawGhostOnCanvas(ctx, drag);
 	}
@@ -299,7 +292,9 @@ function applyCamera(): void {
 
 function loop(): void {
 	draw();
-	requestAnimationFrame(() => loop());
+	requestAnimationFrame(() => {
+		loop();
+	});
 }
 
 // ─── Map Helpers ──────────────────────────────────────────────────────────
@@ -324,7 +319,7 @@ function screenToWorld(clientX: number, clientY: number): { x: number; y: number
 function getDragStatus(tileX: number, tileY: number, id: string, instanceId: string | null): DragStatus {
 	if (discardHover()) return DragStatus.Discard;
 	const cell = mapGrid.tiles[gridKey(tileX, tileY)];
-	const isSetup = state.currentTab === 0;
+	const isSetup = localState.currentTab === 0;
 	const isSpawnTile = isTileType(cell, TileType.Spawn);
 	const inBounds = tileX >= 0 && tileX < mapGrid.width && tileY >= 0 && tileY < mapGrid.height;
 	const isBlocked =
@@ -333,7 +328,7 @@ function getDragStatus(tileX: number, tileY: number, id: string, instanceId: str
 		isTileType(cell, TileType.BossCover) ||
 		isTileType(cell, TileType.BossOrigin);
 	if (!inBounds || (isSetup && !isSpawnTile) || (!isSetup && isBlocked)) return DragStatus.Blocked;
-	const tab = state.tabData[state.currentTab]!;
+	const tab = state.tabData[localState.currentTab];
 	for (const [dollId, pos] of Object.entries(tab.dollPositions)) {
 		if (pos.x === tileX && pos.y === tileY && dollId !== id) return DragStatus.Swap;
 	}
@@ -344,23 +339,23 @@ function getDragStatus(tileX: number, tileY: number, id: string, instanceId: str
 }
 
 function AddDollToMap(drag: DragState): void {
-	if(!drag.id) return;
+	if (!drag.id) return;
 	if (drag.status === DragStatus.Discard) {
 		removeDollOrSummon(drag.id, drag.instanceId);
 	} else if (drag.status === DragStatus.Swap) {
 		const swapDoll = getObjectAtWorld(drag.currentTileX, drag.currentTileY);
 		swapPositions(drag.id, drag.instanceId, drag.currentTileX, drag.currentTileY, swapDoll);
 	} else if (drag.status === DragStatus.Valid) {
-		if (drag.instanceId) {
+		if (hasPrefix(drag.id, IdKey.Summons) && drag.instanceId) {
 			placeSummon(drag.id, drag.instanceId, drag.currentTileX, drag.currentTileY);
-		} else {
+		} else if (hasPrefix(drag.id, IdKey.Dolls)) {
 			placeDoll(drag.id, drag.currentTileX, drag.currentTileY);
 		}
 	}
 }
 
 function updateDragInfo(clientX: number, clientY: number): void {
-	if (drag.isActive === false) return;
+	if (!drag.isActive) return;
 
 	const world = screenToWorld(clientX, clientY);
 	setDrag(
@@ -375,8 +370,8 @@ function updateDragInfo(clientX: number, clientY: number): void {
 }
 
 function getObjectAtWorld(tileX: number, tileY: number): Omit<DragState, "screenX" | "screenY" | "isActive" | "status"> | null {
-	const tab = state.tabData[state.currentTab]!;
-	for (const [dollId, position] of Object.entries(tab.dollPositions)) {
+	const tab = state.tabData[localState.currentTab];
+	for (const [dollId, position] of Object.entries(tab.dollPositions) as [DollId, Position][]) {
 		if (position.x === tileX && position.y === tileY) {
 			return {
 				id: dollId,
@@ -402,9 +397,13 @@ function getObjectAtWorld(tileX: number, tileY: number): Omit<DragState, "screen
 // ─── Resize ────────────────────────────────────────────────────────────────
 
 function bindResize(): void {
-	window.addEventListener("resize", () => fitToWindow());
+	window.addEventListener("resize", () => {
+		fitToWindow();
+	});
 	// Re-check dpr changes (browser zoom, moving window between displays)
-	window.matchMedia(`(resolution: ${dpr}dppx)`).addEventListener("change", () => fitToWindow());
+	window.matchMedia(`(resolution: ${dpr}dppx)`).addEventListener("change", () => {
+		fitToWindow();
+	});
 	fitToWindow();
 }
 
@@ -432,14 +431,16 @@ function fitToWindow(): void {
 
 export default function ArenaCanvas() {
 	onMount(() => {
-		ctx = canvasEl.getContext("2d")!;
+		const context = canvasEl.getContext("2d");
+		if (!context) throw new Error("Could not get 2D canvas context");
+		ctx = context;
 		bindResize();
 		loop();
 	});
 
-	const isSetupTab = () => activeTab() === "setup" || state.currentTab === 0;
-	const isActionTab = () => activeTab() === "actions" && state.currentTab > 0;
-	const isDragActive = () => drag.isActive === true;
+	const isSetupTab = () => activeTab() === "setup" || localState.currentTab === 0;
+	const isActionTab = () => activeTab() === "actions" && localState.currentTab > 0;
+	const isDragActive = () => drag.isActive;
 
 	return (
 		<div>
@@ -465,7 +466,7 @@ export default function ArenaCanvas() {
 				</div>
 			</div>
 			<div class="absolute top-3.75 bottom-3.75 left-3.75 z-10 flex">
-				<Modal width="w-96">
+				<Modal width="w-(--sidebar-width)">
 					<div class="flex gap-1 px-3 pb-1.75">
 						<button
 							onClick={() => {
@@ -486,7 +487,7 @@ export default function ArenaCanvas() {
 								isActionTab()
 									? "border-[#F0AF16] bg-[#384B53] text-[#EFEFEF] shadow-xl/20"
 									: "border-[#8F9094] bg-[#A8A9AE] text-[#384B53] hover:border-[#606164]"
-							} ${state.currentTab === 0 ? "cursor-not-allowed opacity-50" : ""}`}>
+							} ${localState.currentTab === 0 ? "cursor-not-allowed opacity-50" : ""}`}>
 							<span>Doll Actions</span>
 						</button>
 					</div>

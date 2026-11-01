@@ -1,21 +1,6 @@
-import { onMount, For, createMemo, Show } from "solid-js";
-import {
-	state,
-	getFortificationFromId,
-	renderAction,
-	mapGrid,
-	getDollFromSummon,
-	getInfoFromId,
-	isTileType,
-	gridKey,
-	getDollFromId,
-	getKeyFromId,
-	allWeapons,
-	defaultWeapons,
-	allBuffs,
-	sortDisplayEquippedKeys,
-} from "../store";
-import { CURRENT_SEASON, TILE_SIZE } from "../types/constants";
+import { For, createEffect, createMemo, onCleanup, Show } from "solid-js";
+import { trackStore } from "@solid-primitives/deep";
+import { TILE_SIZE } from "../types/constants";
 import { drawMapTilesOnArena } from "../canvas/draw";
 import SmallDollChip from "./SmallDollChip";
 import Fortification from "./icons/Fortification";
@@ -23,7 +8,26 @@ import Modal from "./modals/Modal";
 import SquareDollChip from "./SquareDollChip";
 import { TileType } from "../types";
 import Borrow from "./icons/Borrow";
-import { Buffs } from "./Buffs";
+import Alert from "./icons/Alert";
+import UnreleasedBadge from "./icons/UnreleasedBadge";
+import { state } from "../store/appState";
+import { imagesLoaded } from "../store/images";
+import { gridKey, isTileType, mapGrid } from "../store/mapGrid";
+import { rarityBorderColor, rarityGradientColor, renderAction } from "../store/effects";
+import { sortDisplayEquippedKeys } from "../store/keys";
+import {
+	getBuffById,
+	getCurrentSeason,
+	getDollAvatarByKey,
+	getDollChibiIconByWeapon,
+	getEntitiesByIdBatch,
+	getSelectedDoll,
+	getWeaponByDollId,
+	getWeaponById,
+} from "../store/gameData";
+import { getActionErrors, isRenderable } from "../store/validation";
+import { Buffs } from "../../gfl2-data/buffs";
+import { LocationKey } from "../types/issues";
 
 const CANVAS_DISPLAY_PX = 430;
 
@@ -54,8 +58,8 @@ function renderTabCanvas(tabIndex: number): HTMLCanvasElement {
 		if (pos.y < bMinR) bMinR = pos.y;
 		if (pos.y > bMaxR) bMaxR = pos.y;
 	}
-	for (let x = 0; x < mapGrid.size; x++) {
-		for (let y = 0; y < mapGrid.size; y++) {
+	for (let x = 0; x < mapGrid.width; x++) {
+		for (let y = 0; y < mapGrid.height; y++) {
 			const cell = isTileType(mapGrid.tiles[gridKey(x, y)], TileType.BossOrigin);
 			if (cell) {
 				if (x < bMinC) bMinC = x;
@@ -67,9 +71,9 @@ function renderTabCanvas(tabIndex: number): HTMLCanvasElement {
 	}
 	if (!isFinite(bMinC)) {
 		bMinC = 0;
-		bMaxC = mapGrid.size - 1;
+		bMaxC = mapGrid.width - 1;
 		bMinR = 0;
-		bMaxR = mapGrid.size - 1;
+		bMaxR = mapGrid.height - 1;
 	}
 	bMinC -= 1;
 	bMaxC += 1;
@@ -94,7 +98,8 @@ function renderTabCanvas(tabIndex: number): HTMLCanvasElement {
 	canvas.width = OUTPUT_SIZE;
 	canvas.height = OUTPUT_SIZE;
 	canvas.style.cssText = `display:block;width:${OUTPUT_SIZE}px;height:${OUTPUT_SIZE}px;flex-shrink:0;`;
-	const ctx = canvas.getContext("2d")!;
+	const ctx = canvas.getContext("2d");
+	if (!ctx) throw new Error("Could not get 2D canvas context");
 
 	ctx.save();
 	ctx.translate(-subPxX, -subPxY);
@@ -108,30 +113,48 @@ function renderTabCanvas(tabIndex: number): HTMLCanvasElement {
 	ctx.font = `bold 16px Roboto, sans-serif`;
 	ctx.textAlign = "center";
 	ctx.textBaseline = "top";
-	const labelW = Math.ceil(ctx.measureText("Turn " + tabIndex).width) + 6;
+	const labelW = Math.ceil(ctx.measureText(`Turn ${tabIndex}`).width) + 6;
 	ctx.fillStyle = "rgba(0,0,0,0.65)";
 	ctx.fillRect(12, 17, labelW, 20);
 	ctx.fillStyle = "#2dd4bf";
-	ctx.fillText("Turn " + tabIndex, 40, 20);
+	ctx.fillText(`Turn ${tabIndex}`, 40, 20);
 
 	return canvas;
 }
 
 function TabCard(props: { tabIndex: number }) {
-	let canvasWrapRef!: HTMLDivElement;
+	const mountCanvas = (canvasWrap: HTMLDivElement) => {
+		// redrawn whenever the timeline changes (e.g. fixes applied from the issues modal) or an image arrives, since drawing
+		// reads them untracked; on the next frame, so a burst of changes draws once and a new map is loaded by then
+		let frame = 0;
+		createEffect(() => {
+			trackStore(state);
+			imagesLoaded();
+			cancelAnimationFrame(frame);
+			frame = requestAnimationFrame(() => {
+				canvasWrap.replaceChildren(renderTabCanvas(props.tabIndex));
+			});
+		});
+		onCleanup(() => {
+			cancelAnimationFrame(frame);
+		});
+	};
 
-	onMount(() => {
-		const canvas = renderTabCanvas(props.tabIndex);
-		canvasWrapRef.appendChild(canvas);
+	const actionOrder = createMemo(() => {
+		const order = state.tabData[props.tabIndex]?.actionOrder ?? [];
+		return getEntitiesByIdBatch(
+			order.filter((_id, index) => isRenderable({ kind: LocationKey.ActionOrder, tab: props.tabIndex, index }))
+		);
 	});
-
-	const tabLabel = () => (props.tabIndex === 0 ? "Setup" : `Turn ${props.tabIndex}`);
-
-	const actionOrder = createMemo(() => state.tabData[props.tabIndex]?.actionOrder ?? []);
 
 	const hasActions = createMemo(() => {
 		if (props.tabIndex === 0) return false;
-		return state.selectedDolls.some((d) => (state.tabData[props.tabIndex]?.actions[d.id]?.length ?? 0) > 0);
+		for (const sd of state.selectedDolls) {
+			if (state.tabData[props.tabIndex].actions[sd.id]?.length) {
+				return true;
+			}
+		}
+		return false;
 	});
 
 	return (
@@ -140,38 +163,43 @@ function TabCard(props: { tabIndex: number }) {
 			<div class="flex flex-row gap-2">
 				{/* Mini map canvas */}
 				<div
-					ref={canvasWrapRef}
+					ref={mountCanvas}
 					style={`width:${CANVAS_DISPLAY_PX}px;height:${CANVAS_DISPLAY_PX}px;flex-shrink:0;overflow:hidden;border-right:1px solid #3f3f46;`}
 				/>
 				{/* Actions list */}
 				<div class="flex min-w-0 grow flex-col gap-1 overflow-y-auto">
 					{hasActions() ? (
 						<For each={actionOrder()}>
-							{(dollId) => {
-								const actions = createMemo(() => state.tabData[props.tabIndex]?.actions[dollId] ?? []);
+							{(entity) => {
+								const actions = createMemo(() => state.tabData[props.tabIndex]?.actions[entity.id] ?? []);
 								if (!actions().length) return null;
-								const doll = getInfoFromId(dollId);
-								const fort = createMemo(() => getFortificationFromId(dollId));
 								return (
 									<div class="flex flex-col items-start gap-1 rounded-xs border-b-2 bg-[#F4F4F6] p-1 shadow-sm shadow-black/30">
 										<div class="flex flex-row items-center gap-1">
-											<SquareDollChip
-												target={doll!}
-												doll={getDollFromSummon(doll!)}
-												size="h-10 w-10"
-												icon={false}
-												name={false}
-											/>
-											<div class="font-bold text-[#325563]">{doll?.name}</div>
+											<SquareDollChip target={entity} size="h-10 w-10" icon={false} name={false} />
+											<div class="font-bold text-[#325563]">{entity.name}</div>
 										</div>
 										<div class="min-w-0 flex-1">
 											<div class="flex flex-wrap gap-1">
 												<For each={actions()}>
-													{(a) => (
-														<span class="rounded-sm bg-[#384B53] px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50">
-															{renderAction(dollId, a)}
-														</span>
-													)}
+													{(a, index) => {
+														const at = () => ({ tab: props.tabIndex, ownerId: entity.id, index: index() });
+														const errors = createMemo(() => getActionErrors(at()));
+														return (
+															<span
+																class={`rounded-sm ${errors().length ? "bg-[#AE4749]" : "bg-[#384B53]"} px-1 py-0.5 text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50`}
+																title={errors()
+																	.map((e) => e.message)
+																	.join("\n")}>
+																<Show when={errors().length}>
+																	<span class="mr-1 inline-block h-3 w-3 align-[-1px] text-[#F0AF16]">
+																		<Alert />
+																	</span>
+																</Show>
+																{renderAction(a, at())}
+															</span>
+														);
+													}}
 												</For>
 											</div>
 										</div>
@@ -195,23 +223,25 @@ export default function SummaryView() {
 			{/* Header */}
 			<div class="grid grid-cols-2 gap-2">
 				<For each={state.selectedDolls}>
-					{(doll) => {
-						const dollInfo = getDollFromId(doll.id);
-						if (!dollInfo) return null;
-						const dollFortification = createMemo(() => doll.fortification || "—");
-						const dollRemolding = createMemo(() => "Lv." + doll.remoldingLvl);
-						const dollWeapon = createMemo(() => {
-							let gun = allWeapons.find((w) => w.id === doll.gun);
-							if (!gun) gun = allWeapons.find((w) => w.imprintId === doll.id);
-							if (!gun) gun = defaultWeapons[dollInfo.gunType];
-							return gun;
+					{(selectedDoll) => {
+						const doll = getSelectedDoll(selectedDoll);
+						const dollFortification = createMemo(() => selectedDoll.fortification || "—");
+						const dollRemolding = createMemo(() => `Lv.${selectedDoll.remoldingLvl}`);
+						const dollWeapon = createMemo(() =>
+							// an unknown weapon (reported by validateSave) displays as the doll's signature weapon
+							isRenderable({ kind: LocationKey.DollWeapon, dollId: doll.id })
+								? getWeaponById(selectedDoll.gun)
+								: getWeaponByDollId(doll.id)
+						);
+						const weaponChibi = createMemo(() => {
+							return getDollChibiIconByWeapon(dollWeapon());
 						});
-						const dollKeys = createMemo(() => sortDisplayEquippedKeys(doll.id, doll.keys));
+						const dollKeys = createMemo(() => sortDisplayEquippedKeys(selectedDoll));
 						return (
 							<div class="flex flex-row items-center gap-2 rounded-sm border-t-4 border-[#3E5356] bg-[#2C373B] p-2 shadow-sm shadow-black/50">
-								<SmallDollChip target={dollInfo!} doll={getDollFromSummon(dollInfo!)} />
+								<SmallDollChip target={doll} />
 								<div class="text-md flex w-12 flex-col items-center justify-center">
-									<Show when={doll.borrow}>
+									<Show when={selectedDoll.borrow}>
 										<div class="relative h-6 w-6">
 											<Borrow />
 										</div>
@@ -227,7 +257,7 @@ export default function SummaryView() {
 								</div>
 								<div class="text-md relative flex h-12 w-12 flex-col items-center justify-start overflow-hidden rounded-full">
 									<div class="h-8 w-8">
-										<img src={dollInfo.remolding} />
+										<img src={doll.icons.remolding} />
 									</div>
 									<div
 										class={`absolute bottom-0 flex h-full w-full items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]`}>
@@ -235,46 +265,55 @@ export default function SummaryView() {
 									</div>
 								</div>
 								<div class="relative flex h-17 w-32.5 flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50">
-									<Show when={dollWeapon().imprintImage}>
+									<Show when={dollWeapon().dollId}>
 										<div class="absolute bottom-1 left-2 z-10 h-8 w-8">
-											<img src={dollWeapon().imprintImage!} class="relative h-full w-full object-cover" />
+											<img src={weaponChibi()} class="relative h-full w-full object-cover" />
 										</div>
 									</Show>
 									<div
-										class={`absolute bottom-1 z-30 w-full text-right font-bold ${dollWeapon().imprintId === null ? "pl-1.25" : "pl-9"} overflow-hidden pr-2 text-ellipsis whitespace-nowrap`}>
+										class={`absolute bottom-1 z-30 w-full text-right font-bold ${weaponChibi() === "" ? "pl-1.25" : "pl-9"} overflow-hidden pr-2 text-ellipsis whitespace-nowrap`}>
 										{dollWeapon().name}
 									</div>
 									<img
-										src={dollWeapon().localImagePath}
-										class={`relative z-20 h-full w-full border-b-3 ${dollWeapon().rarity === "Elite" ? "border-[#DF9E00]" : "border-[#3291AB]"} object-cover`}
+										src={dollWeapon().icon}
+										class={`relative z-20 h-full w-full border-b-3 ${rarityBorderColor(dollWeapon().rarity)} object-cover`}
 									/>
+									<Show when={dollWeapon().unreleased}>
+										<UnreleasedBadge class="top-1 left-1 z-30 text-xs" />
+									</Show>
 									<div
-										class={`absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${dollWeapon().rarity === "Elite" ? "from-[#453824]" : "from-[#133843]"} from-0% to-transparent to-75%`}></div>
+										class={`absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${rarityGradientColor(dollWeapon().rarity)} from-0% to-transparent to-75%`}></div>
 								</div>
 								<For each={dollKeys()}>
-									{(key) =>
-										key && (
-											<div class="inset-shadow-2xl relative flex h-17 w-17 flex-col items-center justify-center">
-												<div class="absolute z-10">
-													<div class="relative w-20">
-														<img src={key.localImagePath} class="w-full object-cover object-top" />
-													</div>
-												</div>
-												<Show when={key.number !== null}>
-													<div class="absolute right-1.5 bottom-1.5 z-20 rounded-sm bg-[#2A3D46] px-1 text-sm font-bold text-[#EFEFEF]">
-														{key.number}
-													</div>
-												</Show>
-												{"dollAvatar" in key && (
-													<div class="absolute right-0 bottom-0.5 z-20 h-8 w-8 overflow-hidden rounded-full border-2 border-white bg-[#C9C8CE]">
-														<div class="relative -top-1 -left-2.25 w-12">
-															<img src={key.dollAvatar} class="w-full object-cover object-top" />
+									{(key) => {
+										if (key) {
+											const keyDollIcon = getDollAvatarByKey(key);
+											return (
+												<div class="inset-shadow-2xl relative flex h-17 w-17 flex-col items-center justify-center">
+													<div class="absolute z-10">
+														<div class="relative w-20">
+															<img src={key.icon} class="w-full object-cover object-top" />
 														</div>
 													</div>
-												)}
-											</div>
-										)
-									}
+													<Show when={key.unreleased}>
+														<UnreleasedBadge />
+													</Show>
+													<Show when={key.number !== null}>
+														<div class="absolute right-1.5 bottom-1.5 z-20 rounded-sm bg-[#2A3D46] px-1 text-sm font-bold text-[#EFEFEF]">
+															{key.number}
+														</div>
+													</Show>
+													{keyDollIcon && (
+														<div class="absolute right-0 bottom-0.5 z-20 h-8 w-8 overflow-hidden rounded-full border-2 border-white bg-[#C9C8CE]">
+															<div class="relative -top-1 -left-2.25 w-12">
+																<img src={keyDollIcon} class="w-full object-cover object-top" />
+															</div>
+														</div>
+													)}
+												</div>
+											);
+										}
+									}}
 								</For>
 							</div>
 						);
@@ -285,24 +324,25 @@ export default function SummaryView() {
 				{/* Dolls block */}
 				<Modal width="min-w-151 grow">
 					<div class="flex flex-col gap-2">
-						<For each={state.buffs}>
+						<For each={state.buffs.filter((buffId) => isRenderable({ kind: LocationKey.Buff, buffId }))}>
 							{(buffId) => {
-								const buff = allBuffs.find((b) => buffId === b.id);
-								if (!buff) return null;
+								const season = getCurrentSeason();
+								const buff = getBuffById(buffId);
+								const isCore = buffId === season.buffId;
 								const days = () => {
-									if (buff.core && buff.season === CURRENT_SEASON) {
+									if (buffId === season.buffId) {
 										return "Effective this season";
 									}
-									if (buff.days && buff.days[CURRENT_SEASON]) {
-										return "Available on days " + buff.days[CURRENT_SEASON].map((day) => day + 1).join(", ");
+									if (season.dailyBuffIds[buffId]) {
+										return "Available on days " + season.dailyBuffIds[buffId].join(", ");
 									}
 									return "Unavailable this gunsmoke season";
 								};
 								return (
 									<div class="relative flex grow flex-row items-start gap-3 rounded-sm bg-[#F2EEF8] p-2.5 shadow-sm shadow-black/20">
 										<div
-											class={`relative flex h-15 w-15 shrink-0 ${buff.core ? "bg-[#0D76A1]" : "bg-[#2D464E]"} rounded-sm`}>
-											<img src={buff.localImagePath} class="relative z-20 h-full w-full object-cover" />
+											class={`relative flex h-15 w-15 shrink-0 ${isCore ? "bg-[#0D76A1]" : "bg-[#2D464E]"} rounded-sm`}>
+											<img src={buff.icon} class="relative z-20 h-full w-full object-cover" />
 										</div>
 										<div class="flex grow flex-col gap-3 text-[#384B53]">
 											<div class="flex grow flex-row gap-3 border-b-2 border-[#E0DDE7]">

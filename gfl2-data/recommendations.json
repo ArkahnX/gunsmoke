@@ -1,0 +1,11674 @@
+{
+	"data": {
+		"da": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f1z"
+					},
+					{
+						"id": "f20"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f22",
+						"condition": "Use if you need to dispel buffs from the boss"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "loreley/vector in a team"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1n"
+					},
+					{
+						"id": "c19"
+					},
+					{
+						"id": "cs",
+						"strict": true,
+						"note": "must move before every skill"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cz"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ca"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						1
+					],
+					"condition": "with Expansion Key and Springfield",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sbk"
+							},
+							{
+								"skill": 2,
+								"id": "sbl"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sbk"
+							},
+							{
+								"skill": 2,
+								"id": "sbl"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sbk"
+							},
+							{
+								"skill": 2,
+								"id": "sbl"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						2,
+						2
+					],
+					"condition": "with Expansion Key and V1 Springfield",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						3,
+						6
+					],
+					"condition": "with Expansion Key and V1 Springfield",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sbk"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sbl"
+							},
+							{
+								"skill": 3,
+								"id": "sbm"
+							},
+							{
+								"skill": 1,
+								"id": "sbk"
+							}
+						]
+					]
+				}
+			]
+		},
+		"dc": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f2c"
+					},
+					{
+						"id": "f2g"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f2d",
+						"condition": "Use if you need to dispel buffs from the boss, can replace Fixed Key 5 or 3"
+					},
+					{
+						"id": "f2e",
+						"condition": "QJ Def Down is bad for QH marks. If team has any other Def Down 2 source need to remove QJ FKey 3 bcs it is rewrite self even if lasts less turns"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr"
+					},
+					{
+						"id": "cv",
+						"note": "qiongjiu v4"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1m"
+					},
+					{
+						"id": "cu"
+					},
+					{
+						"id": "c1n",
+						"strict": true,
+						"note": "steam-burn team"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c7",
+						"strict": true,
+						"note": "burn season"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "cc"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "scm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "scm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "scm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "scm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "scm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "scm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "scm"
+							}
+						]
+					]
+				},
+				{
+					"condition": "Unable to use all support attacks",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "scn"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sco"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "scn"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sco"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "scn"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sco"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "scn"
+							}
+						]
+					]
+				}
+			]
+		},
+		"dg": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f35"
+					},
+					{
+						"id": "f36"
+					},
+					{
+						"id": "f37"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c10"
+					},
+					{
+						"id": "cg"
+					},
+					{
+						"id": "c4"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c8"
+					},
+					{
+						"id": "ck"
+					},
+					{},
+					{},
+					{
+						"id": "c7"
+					}
+				],
+				"conditional": [
+					{
+						"id": "cr"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						2
+					],
+					"turns": [
+						[
+							{
+								"skill": 4,
+								"id": "seq"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "seq"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "seq"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						]
+					],
+					"notes": "Note: rotation depends on stab break timings"
+				},
+				{
+					"vertebrae": [
+						3,
+						5
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 2,
+								"id": "ses"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						6,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "set"
+							},
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						0,
+						3
+					],
+					"condition": "physical",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "ses"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "ser"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d6": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f1a"
+					},
+					{
+						"id": "f1b"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f18",
+						"condition": "Use if you need to cleanse debuff on self for boss mechanics"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "c8",
+						"qualifier": "w/ mechty"
+					},
+					{}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cc"
+					},
+					{
+						"id": "ck"
+					},
+					{}
+				],
+				"conditional": [
+					{
+						"id": "cr"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "s9i"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9i"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9i"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9i"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9i"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9i"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9i"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d1": {
+			"fixedKeys": {
+				"conditional": [
+					{
+						"id": "f7",
+						"condition": "If no other reliable sources of Defense down II on the team"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c10"
+					},
+					{
+						"id": "cg"
+					},
+					{
+						"id": "c4"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c8"
+					},
+					{
+						"id": "ck"
+					},
+					{},
+					{},
+					{
+						"id": "c7"
+					}
+				],
+				"conditional": [
+					{
+						"id": "cr"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "DPS",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "s6q"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s6q"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s6r",
+								"note": "near cover"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s6q"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s6q"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s6q"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s6q"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "Defense Down II applier",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "s6r"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s6q"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s6q"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s6r"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s6q"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s6q"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s6r"
+							}
+						]
+					],
+					"notes": "Need to go first action"
+				}
+			]
+		},
+		"d7": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f1d"
+					},
+					{
+						"id": "f1e",
+						"essential": true
+					},
+					{
+						"id": "f1f"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f1g",
+						"condition": "Replaces Key 3 in teams with no other Overburn application."
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "c8",
+						"qualifier": "w/ mod key"
+					},
+					{}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cc"
+					},
+					{
+						"id": "ck"
+					},
+					{},
+					{
+						"id": "c7"
+					}
+				],
+				"conditional": [
+					{
+						"id": "cr"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "with QJ",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 3,
+								"id": "sa1"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 2,
+								"id": "sa0"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 4,
+								"id": "s9y"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 3,
+								"id": "sa1"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 2,
+								"id": "sa0"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 4,
+								"id": "s9y"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 3,
+								"id": "sa1"
+							}
+						]
+					],
+					"notes": "Note: sometimes you can only ult once due to # of support attacks"
+				},
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "with QJ + Qiuhua",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 3,
+								"id": "sa1"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 4,
+								"id": "s9y"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 2,
+								"id": "sa0"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 3,
+								"id": "sa1"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 4,
+								"id": "s9y"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 2,
+								"id": "sa0"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z",
+								"count": 2
+							},
+							{
+								"skill": 3,
+								"id": "sa1"
+							}
+						]
+					],
+					"notes": "better for Qiuhua damage"
+				},
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "without QJ",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "s9z"
+							},
+							{
+								"skill": 2,
+								"id": "sa0"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z"
+							},
+							{
+								"skill": 3,
+								"id": "sa1"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "s9y"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z"
+							},
+							{
+								"skill": 2,
+								"id": "sa0"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z"
+							},
+							{
+								"skill": 3,
+								"id": "sa1"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "s9y"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s9z"
+							},
+							{
+								"skill": 2,
+								"id": "sa0"
+							}
+						]
+					]
+				}
+			]
+		},
+		"dl": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f45"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						4
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "shi"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "shg"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "shh"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "shi"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "shf"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "shh"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "shi"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						5,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "shi"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "shg"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "shh"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "shi"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "shg"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "shh"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "shi"
+							}
+						]
+					]
+				}
+			]
+		},
+		"dh": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f3d",
+						"essential": true
+					},
+					{
+						"id": "f3h"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f3g",
+						"condition": "use if not V5, don't have sig weapon, or don't have another source of freeze debuff"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "cg"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cc"
+					},
+					{
+						"id": "ck"
+					},
+					{},
+					{}
+				],
+				"conditional": [
+					{
+						"id": "cr"
+					},
+					{
+						"id": "co"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						5
+					],
+					"condition": "with Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sfd"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						]
+					],
+					"notes": "In all rotations use S1 instead of S2 if V2+ Alva or Maki V6\nUse Helen's Ult after Maki"
+				},
+				{
+					"vertebrae": [
+						0,
+						5
+					],
+					"condition": "with Helen V0 - V2",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sfd"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						0,
+						5
+					],
+					"condition": "with Helen V3 - V6",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sfd"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						6,
+						6
+					],
+					"condition": "with Helen V0 - V2",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						6,
+						6
+					],
+					"condition": "with Helen V3 - V6",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sfa"
+							},
+							{
+								"skill": 2,
+								"id": "sfc"
+							}
+						]
+					]
+				}
+			]
+		},
+		"do": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f4q"
+					},
+					{
+						"id": "f4r"
+					},
+					{
+						"id": "f4s"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 4,
+								"id": "sjk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sjm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sjl"
+							},
+							{
+								"skill": 3,
+								"id": "sjn",
+								"note": "2+ targets hit"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sjk"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sjm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sjl"
+							},
+							{
+								"skill": 3,
+								"id": "sjn",
+								"note": "2+ targets hit"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sjm"
+							}
+						]
+					],
+					"notes": "This is assuming boss summons adds on T2 and T5."
+				}
+			]
+		},
+		"dn": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f4l"
+					},
+					{
+						"id": "f4m"
+					},
+					{
+						"id": "f4o"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f4j",
+						"condition": "Use if you want to spam skill 1 and need stability damage"
+					}
+				]
+			},
+			"commonKeys": {
+				"note": "Best in slot Keys should be prioritized on main damage dealing dolls first.",
+				"bestInSlot": [
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ca"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "ck"
+					},
+					{},
+					{
+						"id": "cn"
+					},
+					{},
+					{}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						0
+					],
+					"condition": "With Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sii"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sik"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sik"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sii"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sik"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sik"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sii"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						1,
+						6
+					],
+					"condition": "With Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sii"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sij"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sik"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sii"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sij"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sik"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sii"
+							}
+						]
+					],
+					"notes": "With YH use V0 rotation"
+				}
+			]
+		},
+		"dy": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f6n"
+					},
+					{
+						"id": "f6p"
+					},
+					{
+						"id": "f6r"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f6q",
+						"condition": "If non corro or not enough index to Ult. Replaces Fixed Key 5"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "loreley/vector in a team"
+					},
+					{
+						"id": "cv"
+					},
+					{
+						"id": "c1l",
+						"note": "need 1 more corro doll in team"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1e"
+					},
+					{
+						"id": "c1h"
+					},
+					{
+						"id": "c1g"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c1o",
+						"strict": true,
+						"note": "corro season"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						2
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "sp9"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sp9"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sp9"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sp9"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sp9"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sp9"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sp9"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						3,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sp8",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sp8",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sp8",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sp8",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sp8",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sp8",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sp8",
+								"count": 2
+							}
+						]
+					]
+				}
+			]
+		},
+		"d11": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f78"
+					},
+					{
+						"id": "f79"
+					},
+					{
+						"id": "f7d"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f7b",
+						"condition": "Use if you have a constant source of Attack Up II (Such as Springfield signature weapon). Replaces Fixed key 6."
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "loreley/vector in a team"
+					},
+					{
+						"id": "c1l",
+						"note": "need springfield"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1n"
+					},
+					{
+						"id": "c1m",
+						"strict": true,
+						"note": "loreley/vector in a team"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c10",
+						"strict": true,
+						"note": "corro season"
+					},
+					{
+						"id": "c18"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ca"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						0
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "sqy"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sqz"
+							},
+							{
+								"skill": 1,
+								"id": "sqx"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sqy"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sqz"
+							},
+							{
+								"skill": 1,
+								"id": "sqx"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sqy"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sqz"
+							},
+							{
+								"skill": 1,
+								"id": "sqx"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sqy"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						1,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "sqz"
+							},
+							{
+								"skill": 2,
+								"id": "sqy"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sqz"
+							},
+							{
+								"skill": 1,
+								"id": "sqx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sqz"
+							},
+							{
+								"skill": 1,
+								"id": "sqx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sqz"
+							},
+							{
+								"skill": 1,
+								"id": "sqx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sqz"
+							},
+							{
+								"skill": 1,
+								"id": "sqx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sqz"
+							},
+							{
+								"skill": 1,
+								"id": "sqx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sqz"
+							},
+							{
+								"skill": 1,
+								"id": "sqx"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d15": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f85"
+					},
+					{
+						"id": "f83"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f82",
+						"condition": "Use on Mechty or Basti with Fixed Key 3"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "loreley/vector in a team"
+					},
+					{
+						"id": "c1l",
+						"note": "need 1 more corro doll in team"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1e"
+					},
+					{
+						"id": "c1h"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "cv",
+						"strict": true,
+						"note": "lind v3"
+					},
+					{
+						"id": "c19",
+						"strict": true,
+						"note": "fixed key 6"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cz",
+						"strict": true,
+						"note": "fixed key 6 or corro season"
+					},
+					{
+						"id": "c1o"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl",
+						"strict": true,
+						"note": "random debuffs can apply movement debuffs"
+					},
+					{
+						"id": "co"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						5
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "stm"
+							},
+							{
+								"skill": 2,
+								"id": "stn"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sto"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "stm"
+							},
+							{
+								"skill": 2,
+								"id": "stn"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sto"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "stm"
+							},
+							{
+								"skill": 2,
+								"id": "stn"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sto"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "stm"
+							},
+							{
+								"skill": 2,
+								"id": "stn"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						6,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "stm"
+							},
+							{
+								"skill": 3,
+								"id": "sto"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "stm"
+							},
+							{
+								"skill": 3,
+								"id": "sto"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "stm"
+							},
+							{
+								"skill": 3,
+								"id": "sto"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "stm"
+							},
+							{
+								"skill": 3,
+								"id": "sto"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "stm"
+							},
+							{
+								"skill": 3,
+								"id": "sto"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "stm"
+							},
+							{
+								"skill": 3,
+								"id": "sto"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "stm"
+							},
+							{
+								"skill": 3,
+								"id": "sto"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d12": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f7f"
+					},
+					{
+						"id": "f7g"
+					},
+					{
+						"id": "f7k"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f7h",
+						"condition": "Only if you really need to and have no other enemy buff cleanser."
+					},
+					{
+						"id": "f7j",
+						"condition": "Only if the team doesn't have a dedicated Negative Charge applier like Andoris."
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "loreley/vector in a team"
+					},
+					{
+						"id": "ci"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c19"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cz",
+						"note": "cr is overcapped"
+					},
+					{
+						"id": "cp",
+						"note": "cr is overcapped"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "cb"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "c12"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						1
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "srk"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "srl"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "srk"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "srl"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "srk"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "srl"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "srk"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						2,
+						5
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "srk"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "srm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "srk"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "srm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "srk"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "srm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "srk"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						6,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "srm"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "srl"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "srk"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "srm"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "srk"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "srm"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "srl"
+							},
+							{
+								"skill": 5,
+								"id": "sro"
+							}
+						]
+					],
+					"notes": "can consider S2 + Ult cycle if needed"
+				}
+			]
+		},
+		"d13": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f7m"
+					},
+					{
+						"id": "f7n"
+					},
+					{
+						"id": "f7o"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f7r",
+						"condition": "Only if you really need to and have no other enemy buff cleanser."
+					},
+					{
+						"id": "f7p",
+						"condition": "Only use if you are having trouble breaking the boss's Shield effects."
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "soppo or loreley in a team"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c13"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1m"
+					},
+					{
+						"id": "c19"
+					},
+					{
+						"id": "cv",
+						"strict": true,
+						"note": "atk after linked"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cz",
+						"note": "cr is overcapped"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "co",
+						"note": "frozen/frigid count as movement debuffs"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						4
+					],
+					"condition": "With Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "ss6"
+							},
+							{
+								"skill": 3,
+								"id": "ss7"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "ss4",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "ss4"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "ss5"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "ss7"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "ss4",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "ss5"
+							}
+						]
+					],
+					"notes": "With V2 Alva can Ult 2/4/6/7, Unity on Alva generally good but can alternate with other DPS"
+				},
+				{
+					"vertebrae": [
+						5,
+						6
+					],
+					"condition": "Expansion Key and V0 Alva",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "ss6"
+							},
+							{
+								"skill": 3,
+								"id": "ss7"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "ss4",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "ss4",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "ss4"
+							},
+							{
+								"skill": 1,
+								"id": "ss5"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "ss7"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "ss4",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "ss4"
+							},
+							{
+								"skill": 1,
+								"id": "ss5"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						5,
+						6
+					],
+					"condition": "Expansion Key and V2 Alva",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "ss6"
+							},
+							{
+								"skill": 3,
+								"id": "ss7"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "ss4",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "ss4",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "ss4"
+							},
+							{
+								"skill": 1,
+								"id": "ss5"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "ss7"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "ss4"
+							},
+							{
+								"skill": 1,
+								"id": "ss5"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "ss4"
+							},
+							{
+								"skill": 1,
+								"id": "ss5"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d14": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f7w"
+					},
+					{
+						"id": "f7y"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f7x",
+						"condition": "Only if you really need to and have no other enemy buff cleanser."
+					}
+				]
+			},
+			"commonKeys": {
+				"note": "Best in slot Keys should be prioritized on main damage dealing dolls first.",
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "vector or loreley in a team"
+					},
+					{
+						"id": "cw"
+					},
+					{
+						"id": "c1a"
+					},
+					{
+						"id": "c14"
+					},
+					{
+						"id": "c1g"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				],
+				"okayToUse": [
+					{
+						"id": "ca"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						5
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "ssq"
+							},
+							{
+								"skill": 2,
+								"id": "sso"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "ssp"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sso"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "ssp"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sso"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "ssp"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sso"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						6,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "ssq"
+							},
+							{
+								"skill": 2,
+								"id": "sso"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sso"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sso"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sso"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sso"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sso"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sso"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d1c": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f9d"
+					},
+					{
+						"id": "f9e"
+					},
+					{
+						"id": "f9f"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f9c",
+						"condition": "Can replace FK5 if Yoohee is on the team, not recommended for general borrow setup."
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "vector or loreley in a team"
+					},
+					{
+						"id": "c14"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "cv",
+						"strict": true,
+						"note": "voymastina v3"
+					},
+					{
+						"id": "c1d",
+						"strict": true,
+						"note": "enemy def lower than 17k, or 23k in gunsmoke"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c1c",
+						"note": "doesnt affect start of battle passive"
+					},
+					{
+						"id": "cw"
+					},
+					{
+						"id": "c1e",
+						"note": "doesnt affect ult passive"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ca"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "sxu"
+							},
+							{
+								"skill": 2,
+								"id": "sxt"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sxs"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sxu"
+							},
+							{
+								"skill": 2,
+								"id": "sxt"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sxs"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sxu"
+							},
+							{
+								"skill": 2,
+								"id": "sxt"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sxs"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sxu"
+							},
+							{
+								"skill": 2,
+								"id": "sxt"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d18": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f8l"
+					},
+					{
+						"id": "f8n"
+					},
+					{
+						"id": "f8p"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f8m",
+						"condition": "Only if you really need to and have no other enemy buff cleanser."
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1m"
+					},
+					{
+						"id": "c19"
+					},
+					{
+						"id": "cv",
+						"strict": true,
+						"note": "fixed key 4, attack after tin soldiers"
+					},
+					{
+						"id": "c1n",
+						"strict": true,
+						"note": "steam-burn team"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cz"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ca"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						1
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "svl"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "svk"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "svj"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "svl"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "svk"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "svj"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "svl"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						2,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "svl"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "svj"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "svl"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "svj"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "svl"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "svj"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "svl"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						2,
+						6
+					],
+					"condition": "with QH v6 in team",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "svk"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "svl"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "svj"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "svl"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "svj"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "svl"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "svj"
+							}
+						]
+					],
+					"notes": "more stacks for QH ult"
+				}
+			]
+		},
+		"d16": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f87"
+					},
+					{
+						"id": "f89"
+					},
+					{
+						"id": "f88"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f8b",
+						"condition": "Use if you need to dispel buff for boss mechanics"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "vector or loreley in a team"
+					},
+					{
+						"id": "c1l",
+						"note": "need 1 more corro doll in team"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c1h"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1j"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c16",
+						"strict": true,
+						"note": "corro season"
+					},
+					{
+						"id": "c1e"
+					},
+					{
+						"id": "c1o",
+						"note": "doesnt affect lacerating wound"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						0
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "su7"
+							},
+							{
+								"skill": 1,
+								"id": "su5"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "su7"
+							},
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "su7"
+							},
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "su7"
+							},
+							{
+								"skill": 6,
+								"id": "su8"
+							},
+							{
+								"skill": 1,
+								"id": "su5",
+								"count": 2
+							}
+						]
+					],
+					"notes": "Rotation with T3 + T7 ults close"
+				},
+				{
+					"vertebrae": [
+						1,
+						2
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "su7"
+							},
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "su7"
+							},
+							{
+								"skill": 1,
+								"id": "su5"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "su7"
+							},
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "su7"
+							},
+							{
+								"skill": 6,
+								"id": "su8"
+							},
+							{
+								"skill": 1,
+								"id": "su5",
+								"count": 2
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						3,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "su7"
+							},
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "su7"
+							},
+							{
+								"skill": 6,
+								"id": "su8"
+							},
+							{
+								"skill": 1,
+								"id": "su5",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "su7"
+							},
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "su6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "su7"
+							},
+							{
+								"skill": 6,
+								"id": "su8"
+							},
+							{
+								"skill": 1,
+								"id": "su5",
+								"count": 2
+							}
+						]
+					]
+				}
+			]
+		},
+		"d1g": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "fa2"
+					},
+					{
+						"id": "fa3"
+					},
+					{
+						"id": "f9z"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "vector or loreley in a team"
+					},
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c14"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "cv",
+						"strict": true,
+						"note": "fixed key 1"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cw"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						3
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "szw"
+							},
+							{
+								"skill": 3,
+								"id": "szx"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "szv"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "szx"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "szv"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "szx"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "szv"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "szx"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						4,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "szw"
+							},
+							{
+								"skill": 3,
+								"id": "szx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "szx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "szx"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "szv"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "szx"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "szv"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "szv"
+							}
+						]
+					],
+					"notes": "V4 - V5 rotation on dummy same as V6 BUT in some cases better to change rotation bcs of boss mechanics/no stab. Also possible rotation for Ult is 457"
+				}
+			]
+		},
+		"d1i": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "faa"
+					},
+					{
+						"id": "fab"
+					},
+					{
+						"id": "faf"
+					}
+				],
+				"conditional": [
+					{
+						"id": "fac",
+						"condition": "Use if you need to dispel buff for boss mechanics"
+					}
+				]
+			},
+			"commonKeys": {
+				"note": "Liushih scales with hp which means her keys should be HP/CD. She also need to hit 600 atk for passive which isnt hard with 1 ckey with atk.",
+				"bestInSlot": [
+					{
+						"id": "c1i"
+					},
+					{
+						"id": "cx"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cv"
+					},
+					{
+						"id": "c1l",
+						"note": "need springfield"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1n"
+					},
+					{
+						"id": "c19",
+						"strict": true,
+						"note": "must move before every skill"
+					},
+					{
+						"id": "cs",
+						"strict": true,
+						"note": "vector or loreley in a team"
+					},
+					{
+						"id": "c1m"
+					}
+				],
+				"okayToUse": [
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ca"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "s10v"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s10w"
+							},
+							{
+								"skill": 4,
+								"id": "s10u"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s10w"
+							},
+							{
+								"skill": 4,
+								"id": "s10u"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s10w"
+							},
+							{
+								"skill": 4,
+								"id": "s10u"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s10w"
+							},
+							{
+								"skill": 4,
+								"id": "s10u"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s10w"
+							},
+							{
+								"skill": 4,
+								"id": "s10u"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s10w"
+							},
+							{
+								"skill": 4,
+								"id": "s10u"
+							}
+						]
+					],
+					"notes": "Use S2 to relocate at T1 before Ult. Till V2 you shouldnt use S2 after T1. At V2 can use each turn but does nothing except Hydro Tiles if you need them"
+				}
+			]
+		},
+		"d1k": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "fao"
+					}
+				],
+				"conditional": [
+					{
+						"id": "far",
+						"condition": "Depends on team and Vertabrae. For V6 In most of the cases should be used."
+					},
+					{
+						"id": "fap",
+						"condition": "Use if you need to dispel buff for boss mechanics"
+					},
+					{
+						"id": "fam",
+						"condition": "Mobility"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c1k"
+					},
+					{
+						"id": "cw"
+					},
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "vector or loreley in a team"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1e",
+						"note": "v2"
+					},
+					{
+						"id": "c14",
+						"note": "v6, zero-form"
+					},
+					{
+						"id": "c1l",
+						"strict": true,
+						"note": "either 1 more corro doll or 2 sniper dolls"
+					},
+					{
+						"id": "ci",
+						"strict": true,
+						"note": "high stab-dmg, mainly teams with sextans"
+					},
+					{
+						"id": "c13",
+						"strict": true,
+						"note": "alva"
+					},
+					{
+						"id": "c1h",
+						"strict": true,
+						"note": "basti or mechty"
+					},
+					{
+						"id": "c1m",
+						"strict": true,
+						"note": "alva or loreley"
+					},
+					{
+						"id": "c1n",
+						"strict": true,
+						"note": "mityl"
+					}
+				],
+				"okayToUse": [
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "ca"
+					},
+					{
+						"id": "c4"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						1
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 4,
+								"id": "s11y"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 2,
+								"id": "s120"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 1,
+								"id": "s11z",
+								"note": "After 1st ally/supports action"
+							},
+							{
+								"skill": 4,
+								"id": "s123",
+								"count": 3
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 2,
+								"id": "s120"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 1,
+								"id": "s11z",
+								"note": "After 1st ally/supports action"
+							},
+							{
+								"skill": 4,
+								"id": "s123",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 2,
+								"id": "s120"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 1,
+								"id": "s11z",
+								"note": "Last action"
+							},
+							{
+								"skill": 4,
+								"id": "s123",
+								"count": 2
+							}
+						]
+					],
+					"notes": "In Ult form can only use special Basic attack \"Critical Blast\". Order for this Basic is only matter at V4+ and should be from the weakest \"Overload Pulse\" to strongest.\n(just always use first ammo it is weakest one)"
+				},
+				{
+					"vertebrae": [
+						2,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 2,
+								"id": "s120"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 2,
+								"id": "s120"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 2,
+								"id": "s120"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 1,
+								"id": "s11z",
+								"note": "After 1st ally/supports action"
+							},
+							{
+								"skill": 4,
+								"id": "s123",
+								"count": 3
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 2,
+								"id": "s120"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 2,
+								"id": "s120"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s121"
+							},
+							{
+								"skill": 1,
+								"id": "s11z",
+								"note": "Last action"
+							},
+							{
+								"skill": 4,
+								"id": "s123",
+								"count": 3
+							}
+						]
+					]
+				}
+			]
+		},
+		"d1l": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "fas"
+					},
+					{
+						"id": "fax"
+					}
+				],
+				"conditional": [
+					{
+						"id": "fav",
+						"condition": "Use if you need to dispel buff for boss mechanics"
+					},
+					{
+						"id": "faw",
+						"condition": "Mobility"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "vector or loreley in a team"
+					},
+					{
+						"id": "c1l"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1h"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c10",
+						"strict": true,
+						"note": "bossing"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c7",
+						"strict": true,
+						"note": "corro season"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				],
+				"okayToUse": [
+					{
+						"id": "cg"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						1
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "s12x"
+							},
+							{
+								"skill": 1,
+								"id": "s12w"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s12y"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s12x"
+							},
+							{
+								"skill": 1,
+								"id": "s12w"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s12y"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s12x"
+							},
+							{
+								"skill": 1,
+								"id": "s12w"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s12y"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s12x"
+							},
+							{
+								"skill": 1,
+								"id": "s12w"
+							}
+						]
+					],
+					"notes": "S1 activates support mode.\nNemesis also should be within 4 tiles from any allies to get First prophecy.\nBefore V3 any move action reset \"Focus\" buff stack.\nWith Fixed Key 6 she will change prophecy each S1 cast. With V3 can be used on T7 to change Prophecy from First to Second. With lower than V3 move away other dolls from Nemesis after reaching Focus stacks cap (T2(after all supports) for V1-V2 or T3(after all supports) for V0)\n\nV2+ to use ult you need at least 1 index which means on even turns need to use Ult while AT LEAST 1 unused support attack left. Depends on stability, boss and team can also use Ult on even turn before ALL support attacks to be able get full buff on odd turns Ult too."
+				},
+				{
+					"vertebrae": [
+						2,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "s12x"
+							},
+							{
+								"skill": 1,
+								"id": "s12w"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s12w"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s12x"
+							},
+							{
+								"skill": 1,
+								"id": "s12w"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s12w"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s12x"
+							},
+							{
+								"skill": 1,
+								"id": "s12w"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s12w"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s12x"
+							},
+							{
+								"skill": 1,
+								"id": "s12w"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d1m": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "fay"
+					},
+					{
+						"id": "fb2"
+					},
+					{
+						"id": "fb3"
+					}
+				],
+				"conditional": [
+					{
+						"id": "faz",
+						"condition": "Use if you need to dispel buff for boss mechanics"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"note": "slightly better uptime at v6 or with loreley"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c13"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1m"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "co",
+						"note": "frozen/frigid count as movement debuffs"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						4
+					],
+					"condition": "General rotation",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "s13f"
+							},
+							{
+								"skill": 3,
+								"id": "s13g"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 2,
+								"id": "s13f"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 1,
+								"id": "s13e"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s13f"
+							},
+							{
+								"skill": 3,
+								"id": "s13g"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 2,
+								"id": "s13f"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 2,
+								"id": "s13f"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 1,
+								"id": "s13e"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						0,
+						0
+					],
+					"condition": "\"Burn\" rotation",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "s13f"
+							},
+							{
+								"skill": 3,
+								"id": "s13g"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 2,
+								"id": "s13f"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 2,
+								"id": "s13f"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 2,
+								"id": "s13f"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 2,
+								"id": "s13f"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 2,
+								"id": "s13f"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 1,
+								"id": "s13e"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						5,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "s13f"
+							},
+							{
+								"skill": 3,
+								"id": "s13g"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 2,
+								"id": "s13f"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 2,
+								"id": "s13f"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 1,
+								"id": "s13e"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s13f"
+							},
+							{
+								"skill": 3,
+								"id": "s13g"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 2,
+								"id": "s13f"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 1,
+								"id": "s13e"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						5,
+						6
+					],
+					"condition": "with V2+ Alva",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "s13f"
+							},
+							{
+								"skill": 3,
+								"id": "s13g"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 2,
+								"id": "s13f"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 1,
+								"id": "s13e"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s13f"
+							},
+							{
+								"skill": 3,
+								"id": "s13g"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 1,
+								"id": "s13e"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s13f"
+							},
+							{
+								"skill": 3,
+								"id": "s13g"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s13g"
+							},
+							{
+								"skill": 1,
+								"id": "s13e"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d1n": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "fb9"
+					},
+					{
+						"id": "fb8"
+					},
+					{
+						"id": "fb7"
+					}
+				],
+				"conditional": [
+					{
+						"id": "fb5",
+						"condition": "Instead of Fixed Key 4 to manually control clones(or resummon them)"
+					},
+					{
+						"id": "fb4",
+						"condition": "Use if you need to dispel buff for boss mechanics"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c1a"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "loreley or vector in a team"
+					},
+					{
+						"id": "c1i",
+						"strict": true,
+						"note": "lower value in steam-burn teams"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1n"
+					},
+					{
+						"id": "c19"
+					},
+					{
+						"id": "c1m",
+						"note": "loreley or vector in a team"
+					}
+				],
+				"okayToUse": [
+					{
+						"id": "cz"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "s145"
+							},
+							{
+								"skill": 2,
+								"id": "s146"
+							},
+							{
+								"skill": 3,
+								"id": "s14c",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s146"
+							},
+							{
+								"skill": 3,
+								"id": "s14c",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s14c",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s145"
+							},
+							{
+								"skill": 3,
+								"id": "s14c",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s14c",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s14c",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s145"
+							},
+							{
+								"skill": 3,
+								"id": "s14c",
+								"count": 2
+							}
+						]
+					],
+					"notes": "Can consider resummon clones(need fkey 2).\n\nIf team have Liushih can consider to use FKey 2 and summon 2 clones at t1 as Mityl instead of general rotation.\nThis CAN be better if Mityl act first(or after def down applier if Mityl v0) and create tiles under Liu plus SF after will buff her(Mityl's) clones which can provide more damage overall.\nBetter to test by yourself."
+				}
+			]
+		},
+		"d34": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "fbd"
+					},
+					{
+						"id": "fbg"
+					},
+					{
+						"id": "fbi"
+					}
+				],
+				"conditional": [
+					{
+						"id": "fbe",
+						"condition": "Use if you need to dispel buff for boss mechanics"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "loreley or vector in a team"
+					},
+					{
+						"id": "c1l",
+						"note": "need 1 more corro doll in team"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1e"
+					},
+					{
+						"id": "c1h"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1o"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c16"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ca"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "s18w"
+							},
+							{
+								"skill": 1,
+								"id": "s18u"
+							},
+							{
+								"skill": 7,
+								"id": "s18y"
+							},
+							{
+								"skill": 7,
+								"id": "s18z"
+							},
+							{
+								"skill": 7,
+								"id": "s190"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s18v"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s18w"
+							},
+							{
+								"skill": 1,
+								"id": "s18u"
+							},
+							{
+								"skill": 7,
+								"id": "s18y"
+							},
+							{
+								"skill": 7,
+								"id": "s18z"
+							},
+							{
+								"skill": 7,
+								"id": "s190"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s18v"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s18w"
+							},
+							{
+								"skill": 1,
+								"id": "s18u"
+							},
+							{
+								"skill": 7,
+								"id": "s18y"
+							},
+							{
+								"skill": 7,
+								"id": "s18z"
+							},
+							{
+								"skill": 7,
+								"id": "s190"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s18v"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s18w"
+							},
+							{
+								"skill": 1,
+								"id": "s18u"
+							},
+							{
+								"skill": 7,
+								"id": "s18y"
+							},
+							{
+								"skill": 7,
+								"id": "s18z"
+							},
+							{
+								"skill": 7,
+								"id": "s190"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d0": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f1"
+					},
+					{
+						"id": "f2"
+					},
+					{
+						"id": "f4"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f0",
+						"condition": "Replaces Fixed key 1 if V5+ and Krolik gets attack buffs from team"
+					}
+				]
+			},
+			"commonKeys": {
+				"note": "Best in slot Keys should be prioritized on main damage dealing dolls first.",
+				"bestInSlot": [
+					{
+						"id": "cr"
+					},
+					{
+						"id": "c4"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "ck"
+					},
+					{
+						"id": "c7"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "s69"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s68"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s68"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s68"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s69"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s68"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s68"
+							}
+						]
+					],
+					"notes": "if the boss is stab broken t5 and 6 then s2 should be on t7"
+				}
+			]
+		},
+		"d4": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "fs"
+					},
+					{
+						"id": "fx"
+					}
+				]
+			},
+			"commonKeys": {
+				"note": "Best in slot Keys should be prioritized on main damage dealing dolls first.",
+				"bestInSlot": [
+					{}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "s8e"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "s8b"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s8e"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "s8b"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s8e"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "s8b"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s8e"
+							}
+						]
+					]
+				}
+			]
+		},
+		"df": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f2y"
+					},
+					{
+						"id": "f2z"
+					},
+					{
+						"id": "f30"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f31",
+						"condition": "Use if you need to dispel more than one buff from the boss"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c14"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "ck"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					}
+				],
+				"conditional": [
+					{
+						"id": "cr"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						2
+					],
+					"condition": "with Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 2,
+								"id": "se9"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						3,
+						6
+					],
+					"condition": "with Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						0,
+						2
+					],
+					"condition": "with Expansion Key Level 2",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "se9"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						3,
+						6
+					],
+					"condition": "with Expansion Key Level 2",
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sea"
+							},
+							{
+								"skill": 1,
+								"id": "se8"
+							}
+						]
+					]
+				}
+			]
+		},
+		"dk": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f3x"
+					},
+					{
+						"id": "f3y"
+					},
+					{
+						"id": "f3z"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f41",
+						"condition": "Use if V2+. Replaces Fixed Key 3"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "loreley or vector in a team"
+					},
+					{
+						"id": "c14"
+					},
+					{
+						"id": "c1c"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "cv",
+						"strict": true,
+						"note": "ullrid v4"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c1j"
+					},
+					{
+						"id": "cs",
+						"strict": true,
+						"note": "must move before every skill"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						3
+					],
+					"condition": "with Expansion Key Level 2",
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "sgz",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "sgx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgz",
+								"count": 2
+							},
+							{
+								"skill": 2,
+								"id": "sgy"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sgx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgz",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "sgx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgz",
+								"count": 2
+							},
+							{
+								"skill": 2,
+								"id": "sgy"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sgx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgz",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "sgx"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						4,
+						6
+					],
+					"condition": "with Expansion Key Level 2",
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "sgz",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "sgx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgz",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "sgx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgz",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "sgx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgz",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "sgx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgz",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "sgx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgz",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "sgx"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgz",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "sgx"
+							}
+						]
+					]
+				}
+			]
+		},
+		"dw": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f69"
+					},
+					{
+						"id": "f6a"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f6e",
+						"condition": "Use if you need to dispel buffs from the boss"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "so7"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "so6"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "so5"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "so6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "so7"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "so6"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "so5"
+							}
+						]
+					]
+				}
+			]
+		},
+		"dq": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f55"
+					},
+					{
+						"id": "f56"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cq"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						2
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "skx"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sky"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "skx"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sky"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						3,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "skx"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "with Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "skw"
+							}
+						]
+					]
+				}
+			]
+		},
+		"du": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f5w"
+					},
+					{
+						"id": "f5x"
+					},
+					{
+						"id": "f5z"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f61",
+						"condition": "Can be used to dispel boss but realistically should never see use with QJ or Vector having dispel keys"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr"
+					},
+					{
+						"id": "c1f"
+					},
+					{
+						"id": "c11",
+						"strict": true,
+						"note": "must stand on lv3 hydro tile"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1m"
+					},
+					{
+						"id": "c1n",
+						"strict": true,
+						"note": "steam-burn team"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cu"
+					},
+					{
+						"id": "cv",
+						"note": "fixed key 4 is needed"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						1,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "sn6"
+							},
+							{
+								"skill": 1,
+								"id": "sn4"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sn5"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sn6"
+							},
+							{
+								"skill": 1,
+								"id": "sn4"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sn5"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sn6"
+							},
+							{
+								"skill": 1,
+								"id": "sn4"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sn5"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sn6"
+							},
+							{
+								"skill": 1,
+								"id": "sn4"
+							}
+						]
+					],
+					"notes": "V0 is truly bricked, V1 is minimum to be viable"
+				}
+			]
+		},
+		"ds": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f5k"
+					},
+					{
+						"id": "f5l"
+					},
+					{
+						"id": "f5m"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f5n",
+						"condition": "Use if you need to dispel buffs from the boss, replaces Fixed key 3"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cs"
+					},
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c4"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "ck"
+					},
+					{
+						"id": "ca"
+					},
+					{},
+					{}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "sm0"
+							},
+							{
+								"skill": 2,
+								"id": "slz"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sly"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sm0"
+							},
+							{
+								"skill": 2,
+								"id": "slz"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "slz"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sly"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sm0"
+							},
+							{
+								"skill": 2,
+								"id": "slz"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "slz"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d1e": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f9m"
+					},
+					{
+						"id": "f9p"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f9o",
+						"condition": "Can be used to dispel boss but realistically should never see use with QJ or Vector having dispel keys"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1m"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c1e",
+						"strict": true,
+						"note": "burn season"
+					},
+					{
+						"id": "c1o",
+						"note": "doesnt affect s2"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						1
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "syt"
+							},
+							{
+								"skill": 1,
+								"id": "sys"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "syu"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "syt"
+							},
+							{
+								"skill": 3,
+								"id": "syu"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sys"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "syt"
+							},
+							{
+								"skill": 3,
+								"id": "syu"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "syu"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "syt"
+							},
+							{
+								"skill": 1,
+								"id": "sys"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						2,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "syt"
+							},
+							{
+								"skill": 1,
+								"id": "sys"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "syu"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "syt",
+								"count": 2
+							},
+							{
+								"skill": 3,
+								"id": "syu"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sys"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "syt",
+								"count": 2
+							},
+							{
+								"skill": 3,
+								"id": "syu"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "syu"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "syt"
+							},
+							{
+								"skill": 1,
+								"id": "sys"
+							}
+						]
+					],
+					"notes": "Can S1 + S2 on turn 5 and S1 + S1 + Ult on turn 7 to take advantage of boss mechanics."
+				}
+			]
+		},
+		"dv": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f66"
+					},
+					{
+						"id": "f67"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cv"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						0
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "snn"
+							},
+							{
+								"skill": 3,
+								"id": "sno"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn"
+							},
+							{
+								"skill": 3,
+								"id": "sno"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn"
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn"
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn"
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn"
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn"
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						1,
+						4
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 3,
+								"id": "sno"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 3,
+								"id": "sno"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						]
+					],
+					"notes": "you want to apply s1 on all allies and only after that use ult"
+				},
+				{
+					"vertebrae": [
+						5,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 3,
+								"id": "sno"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "snn",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "snm"
+							}
+						]
+					],
+					"notes": "First S1 of turn 2 use on the same target as on the turn 1"
+				}
+			]
+		},
+		"d2": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "fg"
+					}
+				],
+				"conditional": [
+					{
+						"id": "fi",
+						"condition": "Use if you need to cleanse debuffs for boss mechanics"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c9"
+					}
+				],
+				"goodAlternatives": [
+					{}
+				],
+				"conditional": [
+					{
+						"id": "c2"
+					},
+					{
+						"id": "cd"
+					},
+					{
+						"id": "cn"
+					},
+					{
+						"id": "cq"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 4,
+								"id": "s78"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s7b"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s79"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s7b"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s79"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s7b"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s79"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d9": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f1r"
+					},
+					{
+						"id": "f1t"
+					},
+					{
+						"id": "f1u"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f1v",
+						"condition": "If cleanse is required. Replaces Fixed Key 3."
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c9"
+					},
+					{
+						"id": "cj"
+					}
+				],
+				"goodAlternatives": [
+					{}
+				],
+				"conditional": [
+					{
+						"id": "cd"
+					},
+					{
+						"id": "cn"
+					},
+					{
+						"id": "cq"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "with Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sb1"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sb2"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sb1"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sb2"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sb1"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sb2"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sb1"
+							}
+						]
+					]
+				}
+			]
+		},
+		"db": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f26"
+					},
+					{
+						"id": "f29"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sc3"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sc4"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sc5"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sc2"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sc4"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sc3"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sc5"
+							}
+						]
+					]
+				}
+			]
+		},
+		"dj": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f3q"
+					},
+					{
+						"id": "f3t",
+						"essential": true
+					},
+					{
+						"id": "f3v",
+						"essential": true
+					}
+				],
+				"conditional": [
+					{
+						"id": "f3u",
+						"condition": "Use if need to cleanse multiple dolls with Ksenia. Replaces Fixed Key 1."
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cj"
+					},
+					{
+						"id": "c9"
+					}
+				],
+				"goodAlternatives": [
+					{}
+				],
+				"conditional": [
+					{
+						"id": "cd"
+					},
+					{
+						"id": "cn"
+					},
+					{
+						"id": "cq"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "buff + cleanse",
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "sgf"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgf"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgf"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgf"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgf"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgf"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgf"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "stability damage",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sgd"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgf"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sge"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sgd"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sgf"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sge"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sgd"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d17": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f8d"
+					},
+					{
+						"id": "f8e"
+					},
+					{
+						"id": "f8i"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c17"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "suq"
+							},
+							{
+								"skill": 2,
+								"id": "sup"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sun"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "suo"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sun"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sun"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "suo"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sun"
+							}
+						]
+					]
+				}
+			]
+		},
+		"dd": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f2l"
+					},
+					{
+						"id": "f2n"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cj"
+					},
+					{
+						"id": "c9"
+					}
+				],
+				"goodAlternatives": [
+					{}
+				],
+				"conditional": [
+					{
+						"id": "cd"
+					},
+					{
+						"id": "cq"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "Heat Recovery cleanse",
+					"turns": [
+						[
+							{
+								"skill": 4,
+								"id": "sd4"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sd5"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sd4"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sd5"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sd4"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sd5"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sd4"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "AOE cleanse",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "sd5"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sd7"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sd5"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sd6"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sd5"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sd7"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sd5"
+							}
+						]
+					]
+				}
+			]
+		},
+		"dm": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f4d"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{}
+				],
+				"conditional": [
+					{
+						"id": "cd"
+					},
+					{
+						"id": "c9"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "shz"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "si0"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "shz"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "si0"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "shy"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "shz"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "si0"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d8": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f1l"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f1m"
+					},
+					{
+						"id": "f1n",
+						"condition": "Use if you want a situational defense down II"
+					},
+					{
+						"id": "f1p",
+						"condition": "Use if you need to cleanse debuff on self for boss mechanics"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c4"
+					},
+					{
+						"id": "cg"
+					},
+					{}
+				],
+				"goodAlternatives": [
+					{
+						"id": "ca"
+					},
+					{
+						"id": "ck"
+					},
+					{
+						"id": "cc"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sai"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sak",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "saj"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sak",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sai"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sak",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "saj"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "With Helen V0-V2",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sai"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sak",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "saj"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sai"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sak",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "saj"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sai"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "With Helen V3-V6",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sai"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sak",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sai"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sak",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sai"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sak",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sai"
+							}
+						]
+					]
+				}
+			]
+		},
+		"dx": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f6g"
+					},
+					{
+						"id": "f6i"
+					},
+					{
+						"id": "f6k"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cx"
+					},
+					{}
+				],
+				"goodAlternatives": [
+					{}
+				],
+				"conditional": [
+					{
+						"id": "cn"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"condition": "with Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 8,
+								"id": "s-1"
+							}
+						],
+						[
+							{
+								"skill": 8,
+								"id": "s-1"
+							}
+						],
+						[
+							{
+								"skill": 8,
+								"id": "s-1"
+							}
+						],
+						[
+							{
+								"skill": 8,
+								"id": "s-1"
+							}
+						],
+						[
+							{
+								"skill": 8,
+								"id": "s-1"
+							}
+						],
+						[
+							{
+								"skill": 8,
+								"id": "s-1"
+							}
+						],
+						[
+							{
+								"skill": 8,
+								"id": "s-1"
+							}
+						]
+					],
+					"notes": "Yes, she just ends her turn every single turn."
+				}
+			]
+		},
+		"dr": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f5c"
+					},
+					{
+						"id": "f5e"
+					},
+					{
+						"id": "f5g"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f5d"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c10"
+					},
+					{
+						"id": "cj"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ca"
+					},
+					{
+						"id": "ck"
+					},
+					{},
+					{},
+					{
+						"id": "cc"
+					},
+					{
+						"id": "c7"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "slf"
+							},
+							{
+								"skill": 2,
+								"id": "slg"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "slh"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "slg"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "slh"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "slg"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "slf"
+							},
+							{
+								"skill": 3,
+								"id": "slh"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "slg"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						0,
+						3
+					],
+					"condition": "with Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "slf"
+							},
+							{
+								"skill": 2,
+								"id": "slg"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "slh"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "slf"
+							},
+							{
+								"skill": 2,
+								"id": "slg"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "slh"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "slf"
+							},
+							{
+								"skill": 2,
+								"id": "slg"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "slh"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "slf"
+							},
+							{
+								"skill": 2,
+								"id": "slg"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						4,
+						6
+					],
+					"condition": "with Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "slf"
+							},
+							{
+								"skill": 3,
+								"id": "slh"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "slg"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "slf"
+							},
+							{
+								"skill": 3,
+								"id": "slh"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "slg"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "slf"
+							},
+							{
+								"skill": 3,
+								"id": "slh"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "slg"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "slf"
+							},
+							{
+								"skill": 3,
+								"id": "slh"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d10": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f71"
+					},
+					{
+						"id": "f76"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f73",
+						"condition": "Use if you need to dispel buffs from the boss"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cq",
+						"note": "teamwide physical dmg increase"
+					},
+					{
+						"id": "c9",
+						"strict": true,
+						"note": "yoohee v2, teamwide random buffs"
+					},
+					{
+						"id": "cn",
+						"strict": true,
+						"note": "voymastina"
+					},
+					{
+						"id": "c14"
+					},
+					{
+						"id": "c1g"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c10",
+						"note": "burn season"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						2
+					],
+					"condition": "with Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sqa"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							},
+							{
+								"skill": 2,
+								"id": "sqb"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sqc"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sqb"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sqb"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sqa"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							},
+							{
+								"skill": 2,
+								"id": "sqb"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sqb"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sqb"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						3,
+						6
+					],
+					"condition": "with Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sqa"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							},
+							{
+								"skill": 2,
+								"id": "sqb"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sqc"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sqa"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							},
+							{
+								"skill": 2,
+								"id": "sqb"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sqb"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sqb"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sqa"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							},
+							{
+								"skill": 2,
+								"id": "sqb"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sqc"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						]
+					],
+					"notes": "At V3 YH has flexible rotation and you can change its if need"
+				},
+				{
+					"vertebrae": [
+						3,
+						6
+					],
+					"condition": "ALT rotation",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sqa"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							},
+							{
+								"skill": 2,
+								"id": "sqb"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sqb"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sqb"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sqa"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							},
+							{
+								"skill": 2,
+								"id": "sqb"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sqc"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sqa"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							},
+							{
+								"skill": 2,
+								"id": "sqb"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sqb"
+							},
+							{
+								"skill": 9,
+								"oneOf": [
+									"sqe",
+									"sqf"
+								]
+							}
+						]
+					],
+					"notes": "T5 atk up instead of T3 if more damage dealing on late turns"
+				}
+			]
+		},
+		"dt": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f5t"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f5q",
+						"condition": "Use if you need to dispel buffs from the boss"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c9",
+						"note": "teamwide random buffs"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c1n"
+					},
+					{
+						"id": "c19"
+					},
+					{
+						"id": "c1m",
+						"strict": true,
+						"note": "loreley or vector in a team"
+					},
+					{
+						"id": "cz"
+					},
+					{
+						"id": "c1i",
+						"note": "higher performance at low dupes or used w mityl"
+					}
+				],
+				"okayToUse": [
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "ck"
+					},
+					{
+						"id": "cc"
+					},
+					{
+						"id": "c2",
+						"strict": true,
+						"note": "most content no longer needs cleanse"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						1,
+						1
+					],
+					"condition": "(With Expansion Key) better uptime for Tololo",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sml"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "smn"
+							},
+							{
+								"skill": 2,
+								"id": "smm"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "smn"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sml"
+							},
+							{
+								"skill": 2,
+								"id": "smm"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "smn"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "smm"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "smn"
+							},
+							{
+								"skill": 1,
+								"id": "sml"
+							}
+						]
+					],
+					"notes": "V0 is truly bricked, V1 is minimum to be viable."
+				},
+				{
+					"vertebrae": [
+						2,
+						6
+					],
+					"condition": "(With Expansion Key) more dmg for SF and full Tololo uptime",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sml"
+							},
+							{
+								"skill": 3,
+								"id": "smn"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "smn",
+								"note": "or S1"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "smm",
+								"note": "or S2"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "smm"
+							},
+							{
+								"skill": 1,
+								"id": "sml"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "smm"
+							},
+							{
+								"skill": 3,
+								"id": "smn",
+								"note": "or S2"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "smm",
+								"note": "or S1 + S1"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sml"
+							},
+							{
+								"skill": 3,
+								"id": "smn"
+							}
+						]
+					],
+					"notes": "Can be used in non-Liu teams for SF V2+ or if SF V5-V6"
+				},
+				{
+					"vertebrae": [
+						1,
+						1
+					],
+					"condition": "(With Expansion Key) better uptime for Liushih",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sml"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "smn"
+							},
+							{
+								"skill": 2,
+								"id": "smm"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "smn"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sml"
+							},
+							{
+								"skill": 2,
+								"id": "smm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "smm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "smm"
+							},
+							{
+								"skill": 1,
+								"id": "sml"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "smn"
+							}
+						]
+					],
+					"notes": "The main goal is to extend the duration of the Deep-Rooted Bonds buff as much as possible. If you use Tololo T3 S2 should be used after Tololo's actions to extend buff for T4-T5. You lose buff on T6 anyway but its fine"
+				},
+				{
+					"vertebrae": [
+						2,
+						4
+					],
+					"condition": "(With Expansion Key) better uptime for Liushih",
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sml"
+							},
+							{
+								"skill": 3,
+								"id": "smn"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "smn"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "smn"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sml"
+							},
+							{
+								"skill": 2,
+								"id": "smm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "smm"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "smm"
+							},
+							{
+								"skill": 1,
+								"id": "sml"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "smm"
+							},
+							{
+								"skill": 3,
+								"id": "smn"
+							}
+						]
+					]
+				}
+			]
+		},
+		"di": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f3k"
+					},
+					{
+						"id": "f3m"
+					},
+					{
+						"id": "f3n"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f3j",
+						"condition": "Can be used for more stability damage on turn 1. Can replace fixed key 2 or 4"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "vector or loreley in a team"
+					},
+					{
+						"id": "cv",
+						"note": "fixed key 5"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c10",
+						"strict": true,
+						"note": "electric season"
+					},
+					{
+						"id": "c7",
+						"note": "doesnt effect s2 or expansion key"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					},
+					{
+						"id": "c12"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						1
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "sfv"
+							},
+							{
+								"skill": 1,
+								"id": "sfu"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sfw"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfv"
+							},
+							{
+								"skill": 4,
+								"id": "sft"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sfu"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfv"
+							},
+							{
+								"skill": 3,
+								"id": "sfw"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sft"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfv"
+							},
+							{
+								"skill": 1,
+								"id": "sfu"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						2,
+						6
+					],
+					"condition": "alternate rotation",
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "sfv"
+							},
+							{
+								"skill": 1,
+								"id": "sfu"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sfw"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfv"
+							},
+							{
+								"skill": 1,
+								"id": "sfu"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sfw"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfv"
+							},
+							{
+								"skill": 1,
+								"id": "sfu"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sfw"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sfv"
+							},
+							{
+								"skill": 1,
+								"id": "sfu"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d1a": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f8y"
+					},
+					{
+						"id": "f8w"
+					},
+					{
+						"id": "f8z"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c1a"
+					},
+					{},
+					{}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						0
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "swm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "swk"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "swm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "swk"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "swm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "swk"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "swm"
+							}
+						]
+					],
+					"notes": "Prioritize S2 on Nikketa(V3+)>Liu(or Pegasus)(V1+)>Tololo>Nikketa(V0-V2). For V3+ Florence your S2 lasts 2 turns so rotate between Nikketa/Liu or Tololo."
+				},
+				{
+					"vertebrae": [
+						1,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "swm"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "swm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "swk"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "swm"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "swm"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "swk"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "swm"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d3": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "fl"
+					},
+					{
+						"id": "fo"
+					},
+					{
+						"id": "fn"
+					}
+				],
+				"conditional": [
+					{
+						"id": "fq",
+						"condition": "This key is so unreliable because its activation condition is hard to fulfill, so don't bother using this key at all."
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c3"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cs"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					},
+					{
+						"id": "c10"
+					},
+					{},
+					{}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						1,
+						6
+					],
+					"condition": "with Expansion Key",
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "s7u"
+							},
+							{
+								"skill": 1,
+								"id": "s7s"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s7u"
+							},
+							{
+								"skill": 2,
+								"id": "s7t"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s7u"
+							},
+							{
+								"skill": 2,
+								"id": "s7t"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s7u"
+							},
+							{
+								"skill": 1,
+								"id": "s7s"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s7u"
+							},
+							{
+								"skill": 2,
+								"id": "s7t"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s7u"
+							},
+							{
+								"skill": 2,
+								"id": "s7t"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s7u"
+							},
+							{
+								"skill": 1,
+								"id": "s7s"
+							}
+						]
+					],
+					"notes": "V0 is truly bricked, V1 is minimum to be viable"
+				}
+			]
+		},
+		"d1b": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f94"
+					},
+					{
+						"id": "f96"
+					},
+					{
+						"id": "f98"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f93"
+					},
+					{
+						"id": "f97"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "soppo or loreley in a team"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c13"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1m"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cv",
+						"note": "no debuff applied before s2"
+					},
+					{
+						"id": "c10",
+						"note": "doesnt affect s2"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "co",
+						"note": "frozen/frigid count as movement debuffs"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						0
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "sxa"
+							},
+							{
+								"skill": 2,
+								"id": "sx9"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sx8"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sx8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sxa"
+							},
+							{
+								"skill": 2,
+								"id": "sx9"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sx8"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sx8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sxa"
+							},
+							{
+								"skill": 2,
+								"id": "sx9"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						1,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "sxa"
+							},
+							{
+								"skill": 1,
+								"id": "sx8"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sx8"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sx8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sxa"
+							},
+							{
+								"skill": 1,
+								"id": "sx8"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sx8"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sx8"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sxa"
+							},
+							{
+								"skill": 1,
+								"id": "sx8"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d1f": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f9s"
+					},
+					{
+						"id": "f9u"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f9v",
+						"condition": "Use if you need to dispel buffs from the boss"
+					},
+					{
+						"id": "f9t",
+						"condition": "If you need Overburn Source. Usually Hydroburn setup with Lewis"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "cj",
+						"note": "teamwide random buffs"
+					},
+					{
+						"id": "cr"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1m"
+					},
+					{
+						"id": "c1n",
+						"strict": true,
+						"note": "steam-burn team"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c7",
+						"strict": true,
+						"note": "burn season"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				],
+				"okayToUse": [
+					{
+						"id": "cg"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						1
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "szb"
+							},
+							{
+								"skill": 2,
+								"id": "szc"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sza",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "szc"
+							},
+							{
+								"skill": 3,
+								"id": "szd"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "szb"
+							},
+							{
+								"skill": 4,
+								"id": "sza"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "szc"
+							},
+							{
+								"skill": 3,
+								"id": "szd"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sza",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "szb"
+							},
+							{
+								"skill": 2,
+								"id": "szc"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						2,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "szb"
+							},
+							{
+								"skill": 2,
+								"id": "szc"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "szd"
+							},
+							{
+								"skill": 2,
+								"id": "szc"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "szd"
+							},
+							{
+								"skill": 2,
+								"id": "szc"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "szb"
+							},
+							{
+								"skill": 2,
+								"id": "szc"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "szd"
+							},
+							{
+								"skill": 2,
+								"id": "szc"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "szd"
+							},
+							{
+								"skill": 2,
+								"id": "szc"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "szb"
+							},
+							{
+								"skill": 2,
+								"id": "szc"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d1h": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "fa5"
+					},
+					{
+						"id": "fa6"
+					},
+					{
+						"id": "fa9"
+					}
+				],
+				"conditional": [
+					{
+						"id": "fa4",
+						"condition": "If you need to use S1 miltiple times on early turns"
+					},
+					{
+						"id": "fa8",
+						"condition": "Use if you need to dispel buffs from the boss"
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c9",
+						"strict": true,
+						"note": "not triggered below v4"
+					},
+					{
+						"id": "cn",
+						"strict": true,
+						"note": "small buff to 1 phaetusa or lind support attack"
+					},
+					{
+						"id": "c1l",
+						"note": "need 1 more corro doll in team"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1e"
+					},
+					{
+						"id": "c1h"
+					},
+					{
+						"id": "c1g"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c1o",
+						"strict": true,
+						"note": "corro season"
+					},
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						0
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "s10d"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "s10d"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "s10d"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 2
+							},
+							{
+								"skill": 1,
+								"id": "s10d"
+							}
+						]
+					],
+					"notes": "Use S1 whenever you need but after S2. S1 has no Extra Command thus means best turns for S1 2, 4, 6"
+				},
+				{
+					"vertebrae": [
+						1,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "s10d"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 3
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "s10d"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 3
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "s10d"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 3
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s10f",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "s10d"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d1j": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "fag"
+					},
+					{
+						"id": "faj"
+					},
+					{
+						"id": "fal"
+					}
+				],
+				"conditional": [
+					{
+						"id": "fah",
+						"condition": "Replace Fixed Key 4 if you need Def Down 2 source"
+					},
+					{
+						"id": "fai",
+						"condition": "Use if you need to dispel buffs from the boss"
+					},
+					{
+						"id": "fak",
+						"condition": "Mostly can be used before tile rework with other blade units."
+					}
+				]
+			},
+			"commonKeys": {
+				"bestInSlot": [
+					{
+						"id": "c9",
+						"strict": true,
+						"note": "dummy ranking, skills hit enemies and allies. not for auto/mobbing"
+					},
+					{
+						"id": "cr",
+						"strict": true,
+						"note": "loreley or vector in a team"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c15"
+					},
+					{
+						"id": "c1g"
+					},
+					{
+						"id": "c1j"
+					},
+					{
+						"id": "cv",
+						"strict": true,
+						"note": "fixed key 2"
+					},
+					{
+						"id": "cs",
+						"strict": true,
+						"note": "doesnt affect sanguine emblem triggered by allies"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c7"
+					},
+					{
+						"id": "cl"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					},
+					{
+						"id": "c12"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "s11h"
+							},
+							{
+								"skill": 3,
+								"id": "s11j"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s11i"
+							},
+							{
+								"skill": 3,
+								"id": "s11j"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s11h"
+							},
+							{
+								"skill": 3,
+								"id": "s11j"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s11i"
+							},
+							{
+								"skill": 3,
+								"id": "s11j"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s11h"
+							},
+							{
+								"skill": 3,
+								"id": "s11j"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s11i"
+							},
+							{
+								"skill": 3,
+								"id": "s11j"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "s11h"
+							},
+							{
+								"skill": 3,
+								"id": "s11j"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d5": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f10"
+					}
+				]
+			},
+			"commonKeys": {
+				"note": "Best in slot Keys should be prioritized on main damage dealing dolls first.",
+				"conditional": [
+					{
+						"id": "cd"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 3,
+								"id": "s8x"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s8w"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s8w"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s8x"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s8w"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "s8w"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "s8x"
+							}
+						]
+					]
+				}
+			]
+		},
+		"de": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f2q"
+					},
+					{
+						"id": "f2r"
+					},
+					{
+						"id": "f2u"
+					}
+				]
+			},
+			"commonKeys": {
+				"note": "Best in slot Keys should be prioritized on main damage dealing dolls first.",
+				"bestInSlot": [
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c4"
+					},
+					{
+						"id": "c8",
+						"qualifier": "w/ mod key"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "ck"
+					},
+					{
+						"id": "cc"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						4
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sdo"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sdn"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sdp"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sdo"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sdn"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sdp"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sdo"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						5,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sdo"
+							},
+							{
+								"skill": 2,
+								"id": "sdp"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sdp"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sdp"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sdo"
+							},
+							{
+								"skill": 2,
+								"id": "sdp"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sdp"
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sdp"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sdo"
+							},
+							{
+								"skill": 2,
+								"id": "sdp"
+							}
+						]
+					]
+				}
+			]
+		},
+		"dz": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f6u"
+					},
+					{
+						"id": "f6z"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f6x",
+						"condition": "Use if you need to cleanse debuff on self for boss mechanics"
+					}
+				]
+			},
+			"commonKeys": {
+				"note": "Best in slot Keys should be prioritized on main damage dealing dolls first.",
+				"bestInSlot": [
+					{
+						"id": "cx"
+					},
+					{
+						"id": "cz"
+					},
+					{
+						"id": "c10"
+					},
+					{
+						"id": "c8"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					},
+					{},
+					{}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						0
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "spr"
+							},
+							{
+								"skill": 4,
+								"id": "spq",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "spt"
+							},
+							{
+								"skill": 4,
+								"id": "spq",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sps"
+							},
+							{
+								"skill": 4,
+								"id": "spq"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "spr"
+							},
+							{
+								"skill": 4,
+								"id": "spq",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "spt"
+							},
+							{
+								"skill": 4,
+								"id": "spq",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sps"
+							},
+							{
+								"skill": 4,
+								"id": "spq"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "spr"
+							},
+							{
+								"skill": 4,
+								"id": "spq",
+								"count": 2
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						1,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "spr"
+							},
+							{
+								"skill": 4,
+								"id": "spq",
+								"count": 3
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "spt"
+							},
+							{
+								"skill": 4,
+								"id": "spq",
+								"count": 3
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sps"
+							},
+							{
+								"skill": 4,
+								"id": "spq",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "spr"
+							},
+							{
+								"skill": 4,
+								"id": "spq",
+								"count": 3
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "spt"
+							},
+							{
+								"skill": 4,
+								"id": "spq",
+								"count": 3
+							}
+						],
+						[
+							{
+								"skill": 2,
+								"id": "sps"
+							},
+							{
+								"skill": 4,
+								"id": "spq",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "spr"
+							},
+							{
+								"skill": 4,
+								"id": "spq",
+								"count": 3
+							}
+						]
+					]
+				}
+			]
+		},
+		"dp": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f4x"
+					},
+					{
+						"id": "f4z"
+					},
+					{
+						"id": "f51"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f52",
+						"condition": "Use if you don't need to cleanse debuffs. Replaces Fixed key 3"
+					}
+				]
+			},
+			"commonKeys": {
+				"note": "Best in slot Keys should be prioritized on main damage dealing dolls first.",
+				"bestInSlot": [
+					{
+						"id": "cp"
+					},
+					{
+						"id": "c8"
+					},
+					{
+						"id": "c10"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "c4"
+					},
+					{
+						"id": "ck"
+					},
+					{},
+					{}
+				],
+				"conditional": [
+					{
+						"id": "cd"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						0
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "sk5",
+								"count": 2
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sk4"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sk6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sk6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sk6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sk6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sk6"
+							}
+						]
+					]
+				},
+				{
+					"vertebrae": [
+						1,
+						5
+					],
+					"notes": "V1+ bricks Leva's damage"
+				},
+				{
+					"vertebrae": [
+						6,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "sk5",
+								"count": 3
+							},
+							{
+								"skill": 1,
+								"id": "sk4"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sk6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sk6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sk6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sk6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sk6"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sk6"
+							}
+						]
+					],
+					"notes": "At V6 Andoris able to use any skill after place turrets which means she can re-summon them each turn for a little bit more dmg. This only matters for damage minmaxing."
+				}
+			]
+		},
+		"d1d": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f9g"
+					},
+					{
+						"id": "f9h"
+					},
+					{
+						"id": "f9k"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f9i",
+						"condition": "Only if you really need to and have no other enemy buff cleanser."
+					}
+				]
+			},
+			"commonKeys": {
+				"note": "Best in slot Keys should be prioritized on main damage dealing dolls first.",
+				"bestInSlot": [
+					{
+						"id": "c1d"
+					},
+					{
+						"id": "cx"
+					},
+					{
+						"id": "cw"
+					}
+				],
+				"goodAlternatives": [
+					{
+						"id": "cp"
+					},
+					{},
+					{},
+					{}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						2
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "syb"
+							},
+							{
+								"skill": 1,
+								"id": "sya"
+							},
+							{
+								"skill": 3,
+								"id": "syc"
+							},
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "syc"
+							},
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sya"
+							},
+							{
+								"skill": 3,
+								"id": "syc"
+							},
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "syc"
+							},
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						]
+					],
+					"notes": "Helen should use her Ult after Maki/Dush to reduce cooldown.\nWith V2 Alva Helen should use S2 each turn"
+				},
+				{
+					"vertebrae": [
+						3,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 2,
+								"id": "syb"
+							},
+							{
+								"skill": 1,
+								"id": "sya"
+							},
+							{
+								"skill": 3,
+								"id": "syc"
+							},
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sya"
+							},
+							{
+								"skill": 3,
+								"id": "syc"
+							},
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sya"
+							},
+							{
+								"skill": 3,
+								"id": "syc"
+							},
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						],
+						[
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sya"
+							},
+							{
+								"skill": 3,
+								"id": "syc"
+							},
+							{
+								"skill": 4,
+								"id": "sy9"
+							}
+						]
+					]
+				}
+			]
+		},
+		"d19": {
+			"fixedKeys": {
+				"recommended": [
+					{
+						"id": "f8q"
+					},
+					{
+						"id": "f8t"
+					}
+				],
+				"conditional": [
+					{
+						"id": "f8r",
+						"condition": "Use if you need to dispel buff for boss mechanics"
+					}
+				]
+			},
+			"rotations": [
+				{
+					"vertebrae": [
+						0,
+						4
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sw1"
+							},
+							{
+								"skill": 2,
+								"id": "sw2"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sw3"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sw1"
+							},
+							{
+								"skill": 2,
+								"id": "sw2"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sw3"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sw1"
+							},
+							{
+								"skill": 2,
+								"id": "sw2"
+							}
+						],
+						[
+							{
+								"skill": 3,
+								"id": "sw3"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sw1"
+							},
+							{
+								"skill": 2,
+								"id": "sw2"
+							}
+						]
+					],
+					"notes": "Welrod IS NOT supposed to use in Gunsmoke. DO NOT USE HER IN GUNSMOKE IF YOU DO NOT UNDERSTAND WHY DO YOU NEED TO DO IT\nIf you need tiles change rotation to Ult + S2 and use S1 after"
+				},
+				{
+					"vertebrae": [
+						5,
+						6
+					],
+					"turns": [
+						[
+							{
+								"skill": 1,
+								"id": "sw1"
+							},
+							{
+								"skill": 2,
+								"id": "sw2"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sw1"
+							},
+							{
+								"skill": 3,
+								"id": "sw3"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sw1"
+							},
+							{
+								"skill": 2,
+								"id": "sw2"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sw1"
+							},
+							{
+								"skill": 3,
+								"id": "sw3"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sw1"
+							},
+							{
+								"skill": 2,
+								"id": "sw2"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sw1"
+							},
+							{
+								"skill": 3,
+								"id": "sw3"
+							}
+						],
+						[
+							{
+								"skill": 1,
+								"id": "sw1"
+							},
+							{
+								"skill": 2,
+								"id": "sw2"
+							}
+						]
+					]
+				}
+			]
+		}
+	}
+}

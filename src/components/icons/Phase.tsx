@@ -6,24 +6,25 @@ import Freeze from "./Freeze";
 import Hydro from "./Hydro";
 import Omni from "./Omni";
 import Physical from "./Physical";
+import { Phase as PhaseEnum } from "../../../gfl2-data/enums";
 
-export default function Phase(props:{phase:string, fill?:string}) {
-	switch (props.phase.toLowerCase()) {
+export default function Phase(props: { phase: PhaseEnum; fill?: string }) {
+	switch (props.phase) {
 		default:
 			return <All fill={props.fill} />;
-		case "physical":
+		case PhaseEnum.Physical:
 			return <Physical fill={props.fill} />;
-			case "burn":
-				return <Burn fill={props.fill} />;
-		case "electric":
+		case PhaseEnum.Burn:
+			return <Burn fill={props.fill} />;
+		case PhaseEnum.Electric:
 			return <Electric fill={props.fill} />;
-		case "freeze":
+		case PhaseEnum.Freeze:
 			return <Freeze fill={props.fill} />;
-		case "corrosion":
+		case PhaseEnum.Corrosion:
 			return <Corrosion fill={props.fill} />;
-		case "hydro":
+		case PhaseEnum.Hydro:
 			return <Hydro fill={props.fill} />;
-		case "omni":
+		case PhaseEnum.Resonance:
 			return <Omni fill={props.fill} />;
 	}
 }

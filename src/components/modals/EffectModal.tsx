@@ -1,13 +1,9 @@
 import { onCleanup, onMount, For } from "solid-js";
-import {
-	effectModalEffects,
-	effectModalPosition,
-	effectModalSkillNames,
-	setShowEffectModal,
-	formatEffectDescription,
-} from "../../store";
+import { effectModalEffects, effectModalPosition, setShowEffectModal } from "../../store/uiState";
+import { formatEffectDescription } from "../../store/effects";
 
 export default function EffectModal() {
+	// eslint-disable-next-line no-unassigned-vars
 	let ref: HTMLDivElement | undefined;
 
 	const onOutsideClick = (e: MouseEvent) => {
@@ -17,7 +13,9 @@ export default function EffectModal() {
 	};
 
 	onMount(() => {
-		const timeout = setTimeout(() => window.addEventListener("click", onOutsideClick), 0);
+		const timeout = setTimeout(() => {
+			window.addEventListener("click", onOutsideClick);
+		}, 0);
 		onCleanup(() => {
 			clearTimeout(timeout);
 			window.removeEventListener("click", onOutsideClick);
@@ -34,7 +32,7 @@ export default function EffectModal() {
 					{(effect) => (
 						<div class="flex flex-col">
 							<div class="mb-1.5 border-b border-[#3A3A3A] pb-1.5 font-bold text-[#4FA8E8]">{effect.name}</div>
-							<div innerHTML={formatEffectDescription(effect.description, effectModalSkillNames())}></div>
+							<div innerHTML={formatEffectDescription(effect.description)}></div>
 						</div>
 					)}
 				</For>

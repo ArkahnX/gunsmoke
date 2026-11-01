@@ -1,0 +1,788 @@
+{
+	"data": {
+		"r0": {
+			"id": "r0",
+			"name": "HP Boost",
+			"class": 1,
+			"icon": "images/remolding/RemouldingPattern_Data_Guard_01_3.webp",
+			"description": "Max HP is increased by <c2>{0}</c>.",
+			"values": [
+				"0.8%",
+				"1.2%",
+				"2%",
+				"2.4%",
+				"3.2%",
+				"3.6%"
+			]
+		},
+		"r6": {
+			"id": "r6",
+			"name": "Defense Boost",
+			"class": 1,
+			"icon": "images/remolding/RemouldingPattern_Data_Guard_02_3.webp",
+			"description": "Defense is increased by <c2>{0}</c>.",
+			"values": [
+				"0.8%",
+				"1.2%",
+				"2%",
+				"2.4%",
+				"3.2%",
+				"3.6%"
+			]
+		},
+		"rc": {
+			"id": "rc",
+			"name": "Pinpoint Defense",
+			"class": 1,
+			"icon": "images/remolding/RemouldingPattern_Data_Guard_03_3.webp",
+			"description": "Targeted damage taken is reduced by <c2>{0}</c>.",
+			"values": [
+				"2%",
+				"2.5%",
+				"3.5%",
+				"4%",
+				"5%",
+				"5.5%"
+			]
+		},
+		"ri": {
+			"id": "ri",
+			"name": "Annular Defense",
+			"class": 1,
+			"icon": "images/remolding/RemouldingPattern_Data_Guard_04_3.webp",
+			"description": "AoE damage taken is reduced by <c2>{0}</c>.",
+			"values": [
+				"2%",
+				"2.5%",
+				"3.5%",
+				"4%",
+				"5%",
+				"5.5%"
+			]
+		},
+		"ro": {
+			"id": "ro",
+			"name": "Smite Boost",
+			"class": 2,
+			"icon": "images/remolding/RemouldingPattern_Data_Scout_01_3.webp",
+			"description": "Critical damage is increased by <c2>{0}</c>.",
+			"values": [
+				"1.2%",
+				"1.6%",
+				"2.4%",
+				"2.8%",
+				"3.6%",
+				"4.0%"
+			]
+		},
+		"ru": {
+			"id": "ru",
+			"name": "Beheading Blade",
+			"class": 2,
+			"icon": "images/remolding/RemouldingPattern_Data_Scout_02_3.webp",
+			"description": "Critical damage dealt to boss units is increased by <c2>{0}</c>.",
+			"values": [
+				"1.5%",
+				"2%",
+				"3%",
+				"3.5%",
+				"4.5%",
+				"5%"
+			]
+		},
+		"r10": {
+			"id": "r10",
+			"name": "Precision Blow",
+			"class": 2,
+			"icon": "images/remolding/RemouldingPattern_Data_Scout_03_3.webp",
+			"description": "When dealing targeted damage, critical damage is increased by <c2>{0}</c>.",
+			"values": [
+				"1.5%",
+				"2%",
+				"3%",
+				"3.5%",
+				"4.5%",
+				"5%"
+			]
+		},
+		"r16": {
+			"id": "r16",
+			"name": "Area Smite",
+			"class": 2,
+			"icon": "images/remolding/RemouldingPattern_Data_Scout_04_3.webp",
+			"description": "When dealing AoE damage, critical damage is increased by <c2>{0}</c>.",
+			"values": [
+				"1.5%",
+				"2%",
+				"3%",
+				"3.5%",
+				"4.5%",
+				"5%"
+			]
+		},
+		"r1c": {
+			"id": "r1c",
+			"name": "Attack Unity",
+			"class": 3,
+			"icon": "images/remolding/RemouldingPattern_Data_Assist_01_3.webp",
+			"description": "All allied units' attack is increased by <c2>{0}</c>. Does not stack.",
+			"values": [
+				"0.3%",
+				"0.4%",
+				"0.6%",
+				"0.7%",
+				"0.9%",
+				"1%"
+			]
+		},
+		"r1i": {
+			"id": "r1i",
+			"name": "HP Unity",
+			"class": 3,
+			"icon": "images/remolding/RemouldingPattern_Data_Assist_02_3.webp",
+			"description": "All allied units' max HP is increased by <c2>{0}</c>. Does not stack.",
+			"values": [
+				"0.3%",
+				"0.4%",
+				"0.6%",
+				"0.7%",
+				"0.9%",
+				"1%"
+			]
+		},
+		"r1o": {
+			"id": "r1o",
+			"name": "Healing Boost",
+			"class": 3,
+			"icon": "images/remolding/RemouldingPattern_Data_Assist_03_3.webp",
+			"description": "Healing and shield effects applied are increased by <c2>{0}</c>.",
+			"values": [
+				"1.5%",
+				"2%",
+				"3%",
+				"3.5%",
+				"4.5%",
+				"5%"
+			]
+		},
+		"r1u": {
+			"id": "r1u",
+			"name": "Fighting Spirit",
+			"class": 3,
+			"icon": "images/remolding/RemouldingPattern_Data_Assist_04_3.webp",
+			"description": "Attack and max HP is increased by <c2>{0}</c>.",
+			"values": [
+				"0.4%",
+				"0.6%",
+				"1%",
+				"1.2%",
+				"1.6%",
+				"1.8%"
+			]
+		},
+		"r20": {
+			"id": "r20",
+			"name": "Attack Boost",
+			"class": 4,
+			"icon": "images/remolding/RemouldingPattern_Data_Suppress_01_3.webp",
+			"description": "Attack is increased by <c2>{0}</c>.",
+			"values": [
+				"0.8%",
+				"1.2%",
+				"2%",
+				"2.4%",
+				"3.2%",
+				"3.6%"
+			]
+		},
+		"r26": {
+			"id": "r26",
+			"name": "Thronebreaker",
+			"class": 4,
+			"icon": "images/remolding/RemouldingPattern_Data_Suppress_02_3.webp",
+			"description": "Damage dealt to boss units is increased by <c2>{0}</c>.",
+			"values": [
+				"2%",
+				"2.5%",
+				"3.5%",
+				"4%",
+				"5%",
+				"5.5%"
+			]
+		},
+		"r2c": {
+			"id": "r2c",
+			"name": "Pinpoint Specialization",
+			"class": 4,
+			"icon": "images/remolding/RemouldingPattern_Data_Suppress_03_3.webp",
+			"description": "Targeted damage dealt is increased by <c2>{0}</c>.",
+			"values": [
+				"2%",
+				"2.5%",
+				"3.5%",
+				"4%",
+				"5%",
+				"5.5%"
+			]
+		},
+		"r2i": {
+			"id": "r2i",
+			"name": "Area Specialization",
+			"class": 4,
+			"icon": "images/remolding/RemouldingPattern_Data_Suppress_04_3.webp",
+			"description": "AoE damage dealt is increased by <c2>{0}</c>.",
+			"values": [
+				"2%",
+				"2.5%",
+				"3.5%",
+				"4%",
+				"5%",
+				"5.5%"
+			]
+		},
+		"r2o": {
+			"id": "r2o",
+			"name": "Burn Resistance",
+			"class": 1,
+			"description": "<c6>Burn damage</c> taken is reduced by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r2t": {
+			"id": "r2t",
+			"name": "Freeze Resistance",
+			"class": 1,
+			"description": "<c3>Freeze damage</c> taken is reduced by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r2y": {
+			"id": "r2y",
+			"name": "Corrosion Resistance",
+			"class": 1,
+			"description": "<c5>Corrosion damage</c> taken is reduced by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r33": {
+			"id": "r33",
+			"name": "Hydro Resistance",
+			"class": 1,
+			"description": "<c7>Hydro damage</c> taken is reduced by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r38": {
+			"id": "r38",
+			"name": "Electric Resistance",
+			"class": 1,
+			"description": "<c4>Electric damage</c> taken is reduced by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r3d": {
+			"id": "r3d",
+			"name": "Physical Resistance",
+			"class": 1,
+			"description": "Physical damage taken is reduced by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r3i": {
+			"id": "r3i",
+			"name": "Breakout Countermeasures",
+			"class": 1,
+			"description": "When there are <c2>2 or more</c> enemy units <c2>within 3 tiles</c> of this unit, damage taken is reduced by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.5%",
+				"0.8%",
+				"1.1%",
+				"1.4%"
+			]
+		},
+		"r3n": {
+			"id": "r3n",
+			"name": "Lone Rider Countermeasures",
+			"class": 1,
+			"description": "When there is only 1 enemy unit <c2>within 3 tiles</c> of this unit, damage taken is reduced by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.5%",
+				"0.8%",
+				"1.1%",
+				"1.4%"
+			]
+		},
+		"r3s": {
+			"id": "r3s",
+			"name": "Boss Countermeasures",
+			"class": 1,
+			"description": "Damage taken from boss units is reduced by <c2>{0}</c>.",
+			"values": [
+				"0.4%",
+				"0.8%"
+			]
+		},
+		"r3u": {
+			"id": "r3u",
+			"name": "Melee Countermeasures",
+			"class": 1,
+			"description": "Damage taken from enemy units <c2>within 3 tiles</c> of this unit is reduced by <c2>{0}</c>.",
+			"values": [
+				"0.3%",
+				"0.6%",
+				"0.9%"
+			]
+		},
+		"r3x": {
+			"id": "r3x",
+			"name": "Lex Talionis",
+			"class": 1,
+			"description": "When taking damage, deals fixed damage to the attacker equal to <c2>{0}</c> of the user's max HP. This damage cannot exceed <c2>100%</c> of this unit's attack.",
+			"values": [
+				"2%",
+				"4%",
+				"6%"
+			]
+		},
+		"r40": {
+			"id": "r40",
+			"name": "Burning Smite",
+			"class": 2,
+			"description": "When dealing <c6>Burn damage</c>, critical damage is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r45": {
+			"id": "r45",
+			"name": "Freezing Smite",
+			"class": 2,
+			"description": "When dealing <c3>Freeze damage</c>, critical damage is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r4a": {
+			"id": "r4a",
+			"name": "Corrosive Smite",
+			"class": 2,
+			"description": "When dealing <c5>Corrosion damage</c>, critical damage is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r4f": {
+			"id": "r4f",
+			"name": "Hydro Smite",
+			"class": 2,
+			"description": "When dealing <c7>Hydro damage</c>, critical damage is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r4k": {
+			"id": "r4k",
+			"name": "Electric Smite",
+			"class": 2,
+			"description": "When dealing <c4>Electric damage</c>, critical damage is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r4p": {
+			"id": "r4p",
+			"name": "Physical Smite",
+			"class": 2,
+			"description": "When dealing Physical damage, critical damage is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r4u": {
+			"id": "r4u",
+			"name": "Onslaught Mastery",
+			"class": 2,
+			"description": "When making an active attack, critical damage is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.5%",
+				"0.8%",
+				"1.1%",
+				"1.4%"
+			]
+		},
+		"r4z": {
+			"id": "r4z",
+			"name": "Ambush Mastery",
+			"class": 2,
+			"description": "When making an out-of-turn attack, critical damage is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.5%",
+				"0.8%",
+				"1.1%",
+				"1.4%"
+			]
+		},
+		"r54": {
+			"id": "r54",
+			"name": "Shock and Awe",
+			"class": 2,
+			"description": "The first enemy unit damaged each turn takes an additional <c2>{0}</c> of fixed stability damage. This effect can trigger once per turn.",
+			"values": [
+				"1 point",
+				"2 points"
+			]
+		},
+		"r56": {
+			"id": "r56",
+			"name": "CQC Elite",
+			"class": 2,
+			"description": "Damage dealt to enemy units <c2>within 3 tiles</c> is increased by <c2>{0}</c>.",
+			"values": [
+				"0.4%",
+				"0.8%",
+				"1.2%"
+			]
+		},
+		"r59": {
+			"id": "r59",
+			"name": "Bloodthirst",
+			"class": 2,
+			"description": "When attacking, recovers HP equal to <c2>{0}</c> of the user's attack.",
+			"values": [
+				"2%",
+				"4%",
+				"6%"
+			]
+		},
+		"r5c": {
+			"id": "r5c",
+			"name": "Burn Unity",
+			"class": 3,
+			"description": "<c6>Burn damage</c> dealt by all allied units is increased by <c2>{0}</c>. Does not stack.",
+			"values": [
+				"0.1%",
+				"0.3%",
+				"0.5%",
+				"0.7%",
+				"0.9%"
+			]
+		},
+		"r5h": {
+			"id": "r5h",
+			"name": "Freeze Unity",
+			"class": 3,
+			"description": "<c3>Freeze damage</c> dealt by all allied units is increased by <c2>{0}</c>. Does not stack.",
+			"values": [
+				"0.1%",
+				"0.3%",
+				"0.5%",
+				"0.7%",
+				"0.9%"
+			]
+		},
+		"r5m": {
+			"id": "r5m",
+			"name": "Corrosion Unity",
+			"class": 3,
+			"description": "<c5>Corrosion damage</c> dealt by all allied units is increased by <c2>{0}</c>. Does not stack.",
+			"values": [
+				"0.1%",
+				"0.3%",
+				"0.5%",
+				"0.7%",
+				"0.9%"
+			]
+		},
+		"r5r": {
+			"id": "r5r",
+			"name": "Hydro Unity",
+			"class": 3,
+			"description": "<c7>Hydro damage</c> dealt by all allied units is increased by <c2>{0}</c>. Does not stack.",
+			"values": [
+				"0.1%",
+				"0.3%",
+				"0.5%",
+				"0.7%",
+				"0.9%"
+			]
+		},
+		"r5w": {
+			"id": "r5w",
+			"name": "Electric Unity",
+			"class": 3,
+			"description": "<c4>Electric damage</c> dealt by all allied units is increased by <c2>{0}</c>. Does not stack.",
+			"values": [
+				"0.1%",
+				"0.3%",
+				"0.5%",
+				"0.7%",
+				"0.9%"
+			]
+		},
+		"r61": {
+			"id": "r61",
+			"name": "Physical Unity",
+			"class": 3,
+			"description": "Physical damage dealt by all allied units is increased <c2>{0}</c>. Does not stack.",
+			"values": [
+				"0.1%",
+				"0.3%",
+				"0.5%",
+				"0.7%",
+				"0.9%"
+			]
+		},
+		"r66": {
+			"id": "r66",
+			"name": "Ichor Conversion",
+			"class": 3,
+			"description": "Attack is increased by <c2>{0}</c> of initial max HP.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r6b": {
+			"id": "r6b",
+			"name": "Ichor Resonance",
+			"class": 3,
+			"description": "Max HP is increased by <c2>{0}</c> of initial attack.",
+			"values": [
+				"0.2%",
+				"0.4%",
+				"0.6%",
+				"0.8%",
+				"1%"
+			]
+		},
+		"r6g": {
+			"id": "r6g",
+			"name": "Equilibrium Recovery",
+			"class": 3,
+			"description": "At the end of this unit's action, restores <c2>{0}</c> of stability. This effect can be triggered <c2>once</c> every turn.",
+			"values": [
+				"1 point",
+				"2 points"
+			]
+		},
+		"r6i": {
+			"id": "r6i",
+			"name": "Life Recovery",
+			"class": 3,
+			"description": "At the end of this unit's action, restores HP equal to <c2>{0}</c> of max HP. This effect can be triggered <c2>once</c> every turn.",
+			"values": [
+				"0.5%",
+				"1%",
+				"1.5%"
+			]
+		},
+		"r6l": {
+			"id": "r6l",
+			"name": "Purification Feedback",
+			"class": 3,
+			"description": "After cleansing an allied unit's debuffs, this unit's attack and max HP are increased by <c2>{0}</c> for <c2>2 rounds</c>.",
+			"values": [
+				"1%",
+				"2%",
+				"3%"
+			]
+		},
+		"r6o": {
+			"id": "r6o",
+			"name": "Burn Boost",
+			"class": 4,
+			"description": "<c6>Burn damage</c> dealt is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.5%",
+				"0.8%",
+				"1.1%",
+				"1.4%"
+			]
+		},
+		"r6t": {
+			"id": "r6t",
+			"name": "Freeze Boost",
+			"class": 4,
+			"description": "<c3>Freeze damage</c> dealt is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.5%",
+				"0.8%",
+				"1.1%",
+				"1.4%"
+			]
+		},
+		"r6y": {
+			"id": "r6y",
+			"name": "Corrosion Boost",
+			"class": 4,
+			"description": "<c5>Corrosion damage</c> dealt is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.5%",
+				"0.8%",
+				"1.1%",
+				"1.4%"
+			]
+		},
+		"r73": {
+			"id": "r73",
+			"name": "Hydro Boost",
+			"class": 4,
+			"description": "<c7>Hydro damage</c> dealt is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.5%",
+				"0.8%",
+				"1.1%",
+				"1.4%"
+			]
+		},
+		"r78": {
+			"id": "r78",
+			"name": "Electric Boost",
+			"class": 4,
+			"description": "<c4>Electric damage</c> dealt is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.5%",
+				"0.8%",
+				"1.1%",
+				"1.4%"
+			]
+		},
+		"r7d": {
+			"id": "r7d",
+			"name": "Physical Boost",
+			"class": 4,
+			"description": "Physical damage dealt is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.5%",
+				"0.8%",
+				"1.1%",
+				"1.4%"
+			]
+		},
+		"r7i": {
+			"id": "r7i",
+			"name": "Onslaught Stance",
+			"class": 4,
+			"description": "Damage dealt by active skills is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.6%",
+				"1%",
+				"1.4%",
+				"1.8%"
+			]
+		},
+		"r7n": {
+			"id": "r7n",
+			"name": "Raid Stance",
+			"class": 4,
+			"description": "Damage dealt by out-of-turn attacks is increased by <c2>{0}</c>.",
+			"values": [
+				"0.2%",
+				"0.6%",
+				"1%",
+				"1.4%",
+				"1.8%"
+			]
+		},
+		"r7s": {
+			"id": "r7s",
+			"name": "Follow-Up Strike",
+			"class": 4,
+			"description": "Damage dealt to enemy units in Stability Break is increased by <c2>{0}</c>.",
+			"values": [
+				"0.5%",
+				"1%"
+			]
+		},
+		"r7u": {
+			"id": "r7u",
+			"name": "Headhunter",
+			"class": 4,
+			"description": "Damage dealt to enemy units <c2>more than 6 tiles</c> away is increased by <c2>{0}</c>.",
+			"values": [
+				"0.4%",
+				"0.8%",
+				"1.2%"
+			]
+		},
+		"r7x": {
+			"id": "r7x",
+			"name": "Critical Boost",
+			"class": 4,
+			"description": "Critical rate is increased by <c2>{0}</c>.",
+			"values": [
+				"1%",
+				"2%",
+				"3%"
+			]
+		}
+	}
+}

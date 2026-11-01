@@ -1,16 +1,11 @@
-import { Show } from "solid-js";
-
 export default function EmptyKey(props: { color: "Light" | "Dark" }) {
 	return (
 		<svg
 			width="100%"
 			height="100%"
 			viewBox="0 0 62 62"
-			version="1.1"
 			xmlns="http://www.w3.org/2000/svg"
 			xmlns:xlink="http://www.w3.org/1999/xlink"
-			xml:space="preserve"
-			xmlns:serif="http://www.serif.com/"
 			style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
 			<g transform="matrix(1.20833,0,0,1.38095,-22.1667,-18.7143)">
 				<ellipse

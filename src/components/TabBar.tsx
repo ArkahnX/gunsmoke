@@ -1,52 +1,54 @@
 import { createMemo, For, Show } from "solid-js";
-import {
-	state,
-	setState,
-	saveToLocalStorage,
-	setShowExportModal,
-	setShowImportModal,
-	setShowSkillDisplayModal,
-	stateHashMatch,
-	interactiveStyles,
-	stateFromURL,
-} from "../store";
 import { produce } from "solid-js/store";
 import { TabBarProps } from "../types";
 import Button from "./buttons/Button";
+import {
+	loaded,
+	setShowExportModal,
+	setShowImportModal,
+	setShowIssuesModal,
+	setShowSkillDisplayModal,
+	stateFromURL,
+	stateHashMatch,
+} from "../store/uiState";
+import { localState, setLocalState, setState } from "../store/appState";
+import { interactiveStyles } from "../store/effects";
+import { saveToLocalStorage } from "../store/storage";
+import { saveIssueGroups } from "../store/validation";
 
 export default function TabBar(props: TabBarProps) {
 	const savedState = "The current state is saved locally.";
 	const urlState = "The current state is derived from the URL. Make a change to save it locally.";
 	const unsavedState = "The current state is unsaved. Make a change to save it locally.";
 	const stateStyle = createMemo(() => {
-		if(stateFromURL()) return {color:"bg-[#F0AF16]",text:urlState};
-		if(stateHashMatch()) return {color:"bg-[#2dd4bf]",text:savedState};
-		return {color:"bg-[#AE4749]",text:unsavedState};
-	})
+		if (stateFromURL()) return { color: "bg-[#F0AF16]", text: urlState };
+		if (stateHashMatch()) return { color: "bg-[#2dd4bf]", text: savedState };
+		return { color: "bg-[#AE4749]", text: unsavedState };
+	});
 	const switchToTab = (newTab: number) => {
-		setState(
+		setLocalState(
 			produce((s) => {
 				s.currentTab = newTab;
 			})
 		);
 		props.onTabChange(newTab);
 	};
-	const isActionTab = createMemo(() => state.currentTab >= 1 && state.currentTab <= 7);
+	const isActionTab = createMemo(() => localState.currentTab >= 1 && localState.currentTab <= 7);
 	const copyPreviousPlacements = () => {
-		if (state.currentTab <= 0) {
+		if (localState.currentTab <= 0) {
 			alert("No previous tab!");
 			return;
 		}
-		const prev = state.currentTab - 1;
+		const prev = localState.currentTab - 1;
 		setState(
 			produce((s) => {
-				const curTab = s.tabData[s.currentTab]!;
-				const prevTab = s.tabData[prev]!;
+				const curTab = s.tabData[localState.currentTab];
+				const prevTab = s.tabData[prev];
 				for (const doll of s.selectedDolls) {
 					curTab.dollPositions[doll.id] = { x: -1, y: -1 };
 					prevTab.dollPositions[doll.id] = prevTab.dollPositions[doll.id] ?? { x: -1, y: -1 };
-					curTab.dollPositions[doll.id]!.x = prevTab.dollPositions[doll.id]!.x;
-					curTab.dollPositions[doll.id]!.y = prevTab.dollPositions[doll.id]!.y;
+					curTab.dollPositions[doll.id].x = prevTab.dollPositions[doll.id].x;
+					curTab.dollPositions[doll.id].y = prevTab.dollPositions[doll.id].y;
 				}
 				curTab.summonPositions = prevTab.summonPositions.map((p) => ({ ...p }));
 			})
@@ -59,9 +61,11 @@ export default function TabBar(props: TabBarProps) {
 			<div class="flex gap-3">
 				{/* Editor tab */}
 				<button
-					onClick={() => switchToTab(-1)}
+					onClick={() => {
+						switchToTab(-1);
+					}}
 					class={`flex h-13 flex-1 cursor-pointer items-center justify-center gap-1 rounded-t-sm border-b-4 px-3 pt-3 pb-2 text-2xl font-bold whitespace-nowrap transition-all ${
-						state.currentTab === -1
+						localState.currentTab === -1
 							? "border-[#F26C1C] bg-[#384B53] text-[#EFEFEF] shadow-xl/20"
 							: "border-[#8F9094] bg-[#A8A9AE] text-[#384B53] hover:border-[#606164]"
 					}`}>
@@ -76,9 +80,11 @@ export default function TabBar(props: TabBarProps) {
 					<For each={Array.from({ length: 8 }, (_, i) => i)}>
 						{(i) => (
 							<button
-								onClick={() => switchToTab(i)}
+								onClick={() => {
+									switchToTab(i);
+								}}
 								class={`flex h-13 flex-1 cursor-pointer items-center justify-center gap-1 rounded-t-sm border-b-4 px-3 pt-3 pb-2 text-2xl font-bold transition-all ${
-									state.currentTab === i
+									localState.currentTab === i
 										? "border-[#F26C1C] bg-[#384B53] text-[#EFEFEF] shadow-xl/20"
 										: "border-[#8F9094] bg-transparent text-[#384B53] hover:border-[#606164]"
 								}`}>
@@ -89,9 +95,11 @@ export default function TabBar(props: TabBarProps) {
 				</div>
 				{/* Summary */}
 				<button
-					onClick={() => switchToTab(8)}
+					onClick={() => {
+						switchToTab(8);
+					}}
 					class={`flex h-13 flex-1 cursor-pointer items-center justify-center gap-1 rounded-t-sm border-b-4 px-3 pt-3 pb-2 text-2xl font-bold transition-all ${
-						state.currentTab === 8
+						localState.currentTab === 8
 							? "border-[#F26C1C] bg-[#384B53] text-[#EFEFEF] shadow-xl/20"
 							: "border-[#8F9094] bg-transparent text-[#384B53] hover:border-[#606164]"
 					}`}>
@@ -99,17 +107,27 @@ export default function TabBar(props: TabBarProps) {
 				</button>
 			</div>
 			<div class="flex flex-row items-center gap-2">
-				<Show when={state.currentTab === 8}>
+				<Show when={localState.currentTab === 8}>
 					<div class="flex flex-row gap-1.5 p-1">
-						<Button onClick={() => setShowExportModal(true)} color="dark" design="custom" content="Export Transcript" />
+						<Button onClick={() => setShowExportModal(true)} color="dark" design="custom" content="Export / Share" />
 						<Button onClick={() => setShowImportModal(true)} color="dark" design="custom" content="Import Transcript" />
-						<Button onClick={() => setShowSkillDisplayModal(true)} color="dark" design="custom" content="Set Skill Display" />
+						<Button onClick={() => setShowSkillDisplayModal(true)} color="dark" design="custom" content="Options" />
 					</div>
 				</Show>
 				<Show when={isActionTab()}>
 					<Button onClick={copyPreviousPlacements} color="dark" design="custom" content="Use Previous Turn Positions" />
 				</Show>
-				<div class={`${interactiveStyles(false)} rounded-full w-6 h-6 ${stateStyle().color}`} title={stateStyle().text}></div>
+				{/* loaded() first: the timeline isn't validated until the game data and save are in */}
+				<Show when={loaded() && saveIssueGroups().length}>
+					<Button
+						onClick={() => setShowIssuesModal(true)}
+						color="red"
+						design="custom"
+						content="Fix Issues"
+						badge={saveIssueGroups().length}
+					/>
+				</Show>
+				<div class={`${interactiveStyles(false)} h-6 w-6 rounded-full ${stateStyle().color}`} title={stateStyle().text}></div>
 			</div>
 		</div>
 	);

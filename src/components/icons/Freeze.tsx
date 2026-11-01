@@ -1,18 +1,15 @@
-export default function Freeze(props: { fill?: string }) {
+export default function Freeze(props: { fill: string | undefined }) {
 	return (
 		<svg
 			width="100%"
 			height="100%"
 			viewBox="0 0 80 80"
-			version="1.1"
 			xmlns="http://www.w3.org/2000/svg"
 			xmlns:xlink="http://www.w3.org/1999/xlink"
-			xml:space="preserve"
-			xmlns:serif="http://www.serif.com/"
 			style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 			<g id="standalone" transform="matrix(1.58333,0,0,1.58333,-23.1721,-23.3333)">
 				<g id="Freeze">
-					<g id="standalone1" serif:id="standalone">
+					<g id="standalone1">
 						<g transform="matrix(1,0,0,1.2,-2,-12.8)">
 							<path d="M42,44L47,54L42,64L37,54L42,44Z" style={`fill:${props.fill ?? "rgb(66,204,224)"};`} />
 						</g>

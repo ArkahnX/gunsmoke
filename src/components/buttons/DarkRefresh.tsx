@@ -4,11 +4,8 @@ export default function DarkRefresh() {
 			width="100%"
 			height="100%"
 			viewBox="0 0 214 196"
-			version="1.1"
 			xmlns="http://www.w3.org/2000/svg"
 			xmlns:xlink="http://www.w3.org/1999/xlink"
-			xml:space="preserve"
-			xmlns:serif="http://www.serif.com/"
 			style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 			<g id="dark" transform="matrix(0.817581,0,0,0.917124,-0.25,-7.6852)">
 				<path

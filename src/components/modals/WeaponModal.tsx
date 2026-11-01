@@ -1,22 +1,34 @@
-import { createMemo, createSignal, For, Show } from "solid-js";
-import { getInfoFromId, setShowWeaponModal, setDollWeapon, allWeapons, interactiveStyles, defaultWeapons, selectedDoll } from "../../store";
+import { createSignal, For, Show } from "solid-js";
 import Button from "../buttons/Button";
 import ModalHeader from "./ModalHeader";
 import ModalFooter from "./ModalFooter";
-import { DollData } from "../../types";
 import Check from "../icons/Check";
+import UnreleasedBadge from "../icons/UnreleasedBadge";
+import { selectedDoll, setShowWeaponModal } from "../../store/uiState";
+import { interactiveStyles, rarityBorderColor, rarityGradientColor } from "../../store/effects";
+import { setDollWeapon } from "../../store/dollSelection";
+import { combinedWeapons, getDollChibiIconByWeapon, getSelectedDoll, getWeaponByDollId, getWeaponById } from "../../store/gameData";
+import { Weapon, WeaponId } from "../../../gfl2-data/types";
+import { isRenderable } from "../../store/validation";
+import { LocationKey } from "../../types/issues";
+
+function sortWeapons(weaponA: Weapon, weaponB: Weapon) {
+	return weaponB.rarity - weaponA.rarity || weaponA.name.localeCompare(weaponB.name);
+}
 
 export default function WeaponModal() {
-	const dollInfo = createMemo(() => getInfoFromId(selectedDoll()!.id) as DollData | null);
-	if (!dollInfo()) return null;
-	const dollWeapon = createMemo(() => {
-		let gun = allWeapons.find((w) => w.id === selectedDoll()!.gun);
-		if (!gun) gun = allWeapons.find((w) => w.imprintId === selectedDoll()!.id);
-		if (!gun) gun = defaultWeapons[dollInfo()!.gunType];
-		return gun;
-	});
-	const [selectedWeaponId, setSelectedWeaponId] = createSignal<string>(dollWeapon()?.id ?? "");
-	const visibleWeapons = allWeapons.filter((weapon) => weapon.type === dollInfo()!.gunType);
+	const sd = selectedDoll();
+	if (!sd) return null;
+	const doll = getSelectedDoll(sd);
+	// an unknown weapon (reported by validateSave) displays as the doll's signature weapon
+	const weapon = isRenderable({ kind: LocationKey.DollWeapon, dollId: sd.id }) ? getWeaponById(sd.gun) : getWeaponByDollId(sd.id);
+
+	const [selectedWeaponId, setSelectedWeaponId] = createSignal<WeaponId>(weapon.id);
+
+	const visibleWeapons = Object.values(combinedWeapons.data)
+		.filter((weapon) => weapon.gunType === doll.gunType)
+		.sort(sortWeapons);
+
 	return (
 		<>
 			<ModalHeader title="Select Weapon" />
@@ -24,6 +36,7 @@ export default function WeaponModal() {
 				<div class="flex flex-row flex-wrap gap-4">
 					<For each={visibleWeapons}>
 						{(weapon) => {
+							const chibiIcon = getDollChibiIconByWeapon(weapon);
 							const isSel = () => selectedWeaponId() === weapon.id;
 							return (
 								<div
@@ -34,21 +47,35 @@ export default function WeaponModal() {
 											<Check />
 										</div>
 									)}
-									<Show when={weapon.imprintImage}>
+									<Show when={chibiIcon}>
 										<div class="absolute bottom-1 left-2 z-20 h-12 w-12">
-											<img src={weapon.imprintImage!} class="relative h-full w-full object-cover" />
+											<img
+												src={chibiIcon}
+												loading="lazy"
+												decoding="async"
+												width="48"
+												height="48"
+												class="relative h-full w-full object-cover"
+											/>
 										</div>
 									</Show>
 									<div
-										class={`absolute bottom-1 z-20 w-full text-right font-bold ${weapon.imprintId === null ? "pl-2" : "pl-15"} overflow-hidden pr-2 text-ellipsis whitespace-nowrap`}>
+										class={`absolute bottom-1 z-20 w-full text-right font-bold ${chibiIcon === "" ? "pl-2" : "pl-15"} overflow-hidden pr-2 text-ellipsis whitespace-nowrap`}>
 										{weapon.name}
 									</div>
 									<img
-										src={weapon.localImagePath}
-										class={`relative z-10 h-full w-full border-b-3 ${weapon.rarity === "Elite" ? "border-[#DF9E00]" : "border-[#3291AB]"} object-cover`}
+										src={weapon.icon}
+										loading="lazy"
+										decoding="async"
+										width="194"
+										height="97"
+										class={`relative z-10 h-full w-full border-b-3 ${rarityBorderColor(weapon.rarity)} object-cover`}
 									/>
+									<Show when={weapon.unreleased}>
+										<UnreleasedBadge class="top-1 left-1 z-30 text-xs" />
+									</Show>
 									<div
-										class={`absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${weapon.rarity === "Elite" ? "from-[#453824]" : "from-[#133843]"} from-0% to-transparent to-75%`}></div>
+										class={`absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${rarityGradientColor(weapon.rarity)} from-0% to-transparent to-75%`}></div>
 								</div>
 							);
 						}}
@@ -62,7 +89,11 @@ export default function WeaponModal() {
 				<Button
 					onClick={() => {
 						setShowWeaponModal(false);
-						setDollWeapon(selectedDoll()!.id, selectedWeaponId());
+
+						const doll = selectedDoll();
+						if (doll) {
+							setDollWeapon(doll.id, selectedWeaponId());
+						}
 					}}
 					color="dark"
 					design="confirm"

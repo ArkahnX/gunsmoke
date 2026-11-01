@@ -4,11 +4,8 @@ export default function End() {
 			width="100%"
 			height="100%"
 			viewBox="0 0 128 128"
-			version="1.1"
 			xmlns="http://www.w3.org/2000/svg"
 			xmlns:xlink="http://www.w3.org/1999/xlink"
-			xml:space="preserve"
-			xmlns:serif="http://www.serif.com/"
 			style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 			<g transform="matrix(2.63415,0,0,2.63415,-66.3902,-32.1463)">
 				<g transform="matrix(1.00684,0,0,1.04398,-0.528583,-2.31713)">

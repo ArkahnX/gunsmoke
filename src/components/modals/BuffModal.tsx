@@ -1,15 +1,22 @@
 import { createSignal, For } from "solid-js";
-import { interactiveStyles, setShowBuffModal, allBuffs, setBuffs, state, sortBuffs } from "../../store";
 import Button from "../buttons/Button";
 import ModalHeader from "./ModalHeader";
 import ModalFooter from "./ModalFooter";
 import Check from "../icons/Check";
-import { CURRENT_SEASON } from "../../types/constants";
-import { Buffs } from "../Buffs";
+import { state } from "../../store/appState";
+import { setShowBuffModal } from "../../store/uiState";
+import { setBuffs } from "../../store/dollSelection";
+import { interactiveStyles } from "../../store/effects";
+import { getBuffById, getCurrentSeason, sortBuffs } from "../../store/gameData";
+import { BuffId } from "../../../gfl2-data/types";
+import { Buffs } from "../../../gfl2-data/buffs";
 
 export default function BuffModal() {
-	const [selectedBuffs, setSelectedBuffs] = createSignal<string[]>([...state.buffs]);
-	const sortedBuffs = [...allBuffs].sort(sortBuffs);
+	const [selectedBuffs, setSelectedBuffs] = createSignal<BuffId[]>([...state.buffs]);
+	const season = getCurrentSeason();
+	const buffIds = Object.keys(season.dailyBuffIds) as BuffId[];
+	buffIds.push(season.buffId);
+	const sortedBuffs = buffIds.sort(sortBuffs);
 	return (
 		<>
 			<ModalHeader title="Select Seasonal Buffs" />
@@ -17,17 +24,19 @@ export default function BuffModal() {
 				<div class="flex flex-row flex-wrap gap-4">
 					<For each={sortedBuffs}>
 						{(buff) => {
-							const isSel = () => selectedBuffs().includes(buff.id);
+							const isSel = () => selectedBuffs().includes(buff);
+							const isCore = buff === season.buffId;
+							const info = getBuffById(buff);
 							const toggleBuff = () =>
 								setSelectedBuffs((buffs) =>
-									selectedBuffs().includes(buff.id) ? selectedBuffs().filter((b) => b !== buff.id) : [...buffs, buff.id]
+									selectedBuffs().includes(buff) ? selectedBuffs().filter((b) => b !== buff) : [...buffs, buff]
 								);
 							const days = () => {
-								if (buff.core && buff.season === CURRENT_SEASON) {
+								if (buff === season.buffId) {
 									return "Effective this season";
 								}
-								if (buff.days && buff.days[CURRENT_SEASON]) {
-									return "Available on days " + buff.days[CURRENT_SEASON].map((day) => day + 1).join(", ");
+								if (season.dailyBuffIds[buff]) {
+									return "Available on days " + season.dailyBuffIds[buff].join(", ");
 								}
 								return "Unavailable this gunsmoke season";
 							};
@@ -40,17 +49,16 @@ export default function BuffModal() {
 											<Check />
 										</div>
 									)}
-									<div
-										class={`relative flex h-15 w-15 shrink-0 ${buff.core ? "bg-[#0D76A1]" : "bg-[#2D464E]"} rounded-sm`}>
-										<img src={buff.localImagePath} class="relative z-20 h-full w-full object-cover" />
+									<div class={`relative flex h-15 w-15 shrink-0 ${isCore ? "bg-[#0D76A1]" : "bg-[#2D464E]"} rounded-sm`}>
+										<img src={info.icon} class="relative z-20 h-full w-full object-cover" />
 									</div>
 									<div class="flex grow flex-col gap-3 text-[#384B53]">
 										<div class="flex grow flex-row gap-3 border-b-2 border-[#E0DDE7]">
-											<div class="text-left font-bold text-black">{buff.name}</div>
+											<div class="text-left font-bold text-black">{info.name}</div>
 											<div class="text-left">{days()}</div>
 										</div>
 										<div class="text-left">
-											<Buffs id={buff.id} />
+											<Buffs id={buff} />
 										</div>
 									</div>
 								</div>

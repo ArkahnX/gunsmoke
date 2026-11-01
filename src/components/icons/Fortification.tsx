@@ -4,11 +4,8 @@ export default function Fortification() {
 			width="100%"
 			height="100%"
 			viewBox="0 0 40 40"
-			version="1.1"
 			xmlns="http://www.w3.org/2000/svg"
 			xmlns:xlink="http://www.w3.org/1999/xlink"
-			xml:space="preserve"
-			xmlns:serif="http://www.serif.com/"
 			style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 			<g transform="matrix(1,0,0,1,-5,-5)">
 				<g transform="matrix(1.5,0,0,1.5,-22.25,-20.75)">

@@ -1,57 +1,57 @@
 import { For } from "solid-js";
-import {
-	setShowSkillDisplayModal,
-	getDollFromId,
-	renderAction,
-	notations,
-	setOverrideSkillNotations,
-	setSkillDisplay,
-	getSkillDisplay,
-	overrideSkillNotations,
-	saveSkillDisplay,
-} from "../../store";
-import { Select } from "@thisbeyond/solid-select";
 import Button from "../buttons/Button";
+import Dropdown from "../Dropdown";
 import ModalFooter from "./ModalFooter";
 import ModalHeader from "./ModalHeader";
 import SkillIcon from "../icons/SkillIcon";
+import { getDollById, getSkillDisplay, setSkillDisplay } from "../../store/gameData";
+import { setShowSkillDisplayModal } from "../../store/uiState";
+import { updateVisibleSkillOption } from "../../store/persistence";
+import { renderActionBySkill } from "../../store/effects";
+import { SkillType, SkillTypeLabels } from "../../../gfl2-data/enums";
+import { endTurnSkill, getNotations, localState, skillOrder } from "../../store/appState";
 
 export default function SkillDisplayModal() {
 	// hardcoded Yoohee for her A and B skills
-	const dollInfo = getDollFromId("d54");
-	const basicSkill = dollInfo?.skills?.filter((s) => s.type === "Basic Attack") ?? [];
-	const passiveSkill = dollInfo?.skills?.filter((s) => s.type === "Passive") ?? [];
-	const numberedSkills = dollInfo?.skills?.filter((s) => s.type.match(/Skill [0-9]/)) ?? [];
-	const letteredSkills = dollInfo?.skills?.filter((s) => s.type.match(/Skill [A-Z]/)) ?? [];
-	const endTurnSkills = dollInfo?.skills?.filter((s) => s.type.match("End Turn")) ?? [];
-	const moveSkills = dollInfo?.skills?.filter((s) => s.type.match("Move")) ?? [];
-	const skills = [...moveSkills, ...basicSkill, ...numberedSkills, ...passiveSkill, ...letteredSkills, ...endTurnSkills];
+
+	const dollInfo = getDollById("d10");
+	const basicSkill = dollInfo?.skills?.filter((s) => s.type === SkillType.BasicAttack) ?? [];
+	const passiveSkill = dollInfo?.skills?.filter((s) => s.type === SkillType.Passive) ?? [];
+	const numberedSkills =
+		dollInfo?.skills?.filter((s) => s.type === SkillType.Skill1 || s.type === SkillType.Skill2 || s.type === SkillType.Ultimate) ?? [];
+	const letteredSkills =
+		dollInfo?.skills?.filter((s) => s.type === SkillType.SkillA || s.type === SkillType.SkillB || s.type === SkillType.SkillC) ?? [];
+	const moveSkills = dollInfo?.skills?.filter((s) => s.type === SkillType.Move) ?? [];
+	const skills = [...moveSkills, ...basicSkill, ...numberedSkills, ...passiveSkill, ...letteredSkills, endTurnSkill];
+	// listed in display order; skill types without notation styles have nothing to choose
+	const filteredNotations = skillOrder
+		.map((type) => [type, getNotations(type)] as [SkillType, string[]])
+		.filter(([_type, values]) => values.length > 0);
 
 	return (
 		<>
-			<ModalHeader title="Skill Display" />
+			<ModalHeader title="Options" />
 			<div class="flex flex-col gap-2 self-center">
 				<div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]">
-					<span>{`Override imported notations:`}</span>
-					<Select
-						class="custom"
-						options={["true", "false"]}
+					<span>{`Show all skills and summons:`}</span>
+					<Dropdown
+						options={["always", "only with keys"]}
+						value={localState.alwaysDisplaySkills ? "always" : "only with keys"}
 						onChange={(value) => {
-							setOverrideSkillNotations(value === "true" ? true : false);
-							saveSkillDisplay();
+							updateVisibleSkillOption(value === "always");
 						}}
-						initialValue={String(overrideSkillNotations())}
 					/>
 				</div>
-				<For each={Object.entries(notations)}>
+				<For each={filteredNotations}>
 					{([notation, values]) => (
 						<div class="mx-3 grid grid-cols-2 items-center justify-center gap-1 text-[#384B53]">
-							<span>{`${notation} style:`}</span>
-							<Select
-								class="custom"
+							<span>{`${SkillTypeLabels[notation]} style:`}</span>
+							<Dropdown
 								options={values}
-								onChange={(value) => setSkillDisplay(notation, value)}
-								initialValue={getSkillDisplay(notation)}
+								value={getSkillDisplay(notation)}
+								onChange={(value) => {
+									setSkillDisplay(notation, value);
+								}}
 							/>
 						</div>
 					)}
@@ -61,13 +61,13 @@ export default function SkillDisplayModal() {
 				</div>
 				<div class="flex flex-wrap justify-center gap-1.5">
 					<For each={skills}>
-						{(skill, idx) => (
+						{(skill, _idx) => (
 							<div class="flex flex-col gap-1">
 								<SkillIcon skill={skill} />
 								<div
 									class="drag-ignore cursor-pointer rounded-sm bg-[#384B53] px-1 py-0.5 text-center text-[13px] font-bold tracking-wide text-[#EFEFEF] shadow-sm shadow-black/50"
 									data-skill-id={skill.id}>
-									{renderAction("d54", [skill.id])}
+									{renderActionBySkill(skill)}
 								</div>
 							</div>
 						)}
@@ -75,7 +75,14 @@ export default function SkillDisplayModal() {
 				</div>
 			</div>
 			<ModalFooter styles="justify-center">
-				<Button onClick={() => setShowSkillDisplayModal(false)} color="dark" design="cancel" content="Close" />
+				<Button
+					onClick={() => {
+						setShowSkillDisplayModal(false);
+					}}
+					color="dark"
+					design="cancel"
+					content="Close"
+				/>
 			</ModalFooter>
 		</>
 	);

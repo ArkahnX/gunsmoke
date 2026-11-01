@@ -1,43 +1,38 @@
 import { createMemo, createSignal, For, Show } from "solid-js";
-import {
-	setDollFortification,
-	getInfoFromId,
-	getDollFromSummon,
-	setShowFormationModal,
-	tempSelectedDolls,
-	displaySmallKeys,
-	interactiveStyles,
-	allWeapons,
-	defaultWeapons,
-	changeFortification,
-	setShowWeaponModal,
-	setSelectedDoll,
-	setShowKeyModal,
-	updateSelectedDolls,
-	changeRemoldingLvl,
-	saveDollLoadout,
-	loadDollLoadout,
-	dollHasLoadout,
-	changeBorrow,
-} from "../../store";
 import Button from "../buttons/Button";
-import { DollData } from "../../types";
 import SmallKey from "../icons/SmallKey";
 import DynamicDollChip from "../DynamicDollChip";
 import Fortification from "../icons/Fortification";
 import Check from "../icons/Check";
 import Borrow from "../icons/Borrow";
+import UnreleasedBadge from "../icons/UnreleasedBadge";
+import { tempSelectedDolls } from "../../store/appState";
+import { setSelectedDoll, setShowFormationModal, setShowKeyModal, setShowWeaponModal } from "../../store/uiState";
+import {
+	changeBorrow,
+	changeFortification,
+	changeRemoldingLvl,
+	dollHasLoadout,
+	loadDollLoadout,
+	saveDollLoadout,
+	updateSelectedDolls,
+} from "../../store/dollSelection";
+import { displaySmallKeys } from "../../store/keys";
+import { interactiveStyles, rarityBorderColor, rarityGradientColor } from "../../store/effects";
+import { getDollChibiIconByWeapon, getSelectedDoll, getWeaponByDollId, getWeaponById } from "../../store/gameData";
+import { isRenderable } from "../../store/validation";
+import { LocationKey } from "../../types/issues";
 
 export default function FormationModal() {
-	const selectedDollIds = createMemo(() => tempSelectedDolls.map((doll) => doll.id));
-	const setNum = (dollId: string, num: number) => {
-		setDollFortification((prev) => ({ ...prev, [dollId]: num }));
-	};
-	const weapon = allWeapons[10];
+	// const selectedDollIds = createMemo(() => tempSelectedDolls.map((doll) => doll.id));
+	// const setNum = (dollId: string, num: number) => {
+	// 	setDollFortification((prev) => ({ ...prev, [dollId]: num }));
+	// };
+	// const weapon = allWeapons[10];
 
 	const confirm = async () => {
 		setShowFormationModal(false);
-		updateSelectedDolls();
+		await updateSelectedDolls();
 	};
 	return (
 		<>
@@ -45,21 +40,23 @@ export default function FormationModal() {
 				<For each={tempSelectedDolls}>
 					{(doll) => {
 						const [savedLoadout, setSavedLoadout] = createSignal(false);
-						const dollInfo = getInfoFromId(doll.id) as DollData | null;
-						if (!dollInfo) return null;
+						const dollInfo = getSelectedDoll(doll);
 						const dollFortification = createMemo(() => doll.fortification || "—");
-						const dollRemolding = createMemo(() => "Lv." + doll.remoldingLvl);
-						const dollWeapon = createMemo(() => {
-							let gun = allWeapons.find((w) => w.id === doll.gun);
-							if (!gun) gun = allWeapons.find((w) => w.imprintId === doll.id);
-							if (!gun) gun = defaultWeapons[dollInfo.gunType];
-							return gun;
+						const dollRemolding = createMemo(() => "Lv." + String(doll.remoldingLvl));
+						const dollWeapon = createMemo(() =>
+							// an unknown weapon (reported by validateSave) displays as the doll's signature weapon
+							isRenderable({ kind: LocationKey.DollWeapon, dollId: doll.id })
+								? getWeaponById(doll.gun)
+								: getWeaponByDollId(doll.id)
+						);
+						const weaponChibi = createMemo(() => {
+							return getDollChibiIconByWeapon(dollWeapon());
 						});
 						const hasLoadout = createMemo(() => dollHasLoadout(doll.id));
-						const keys = createMemo(() => displaySmallKeys(doll.id, doll.keys));
+						const keys = createMemo(() => displaySmallKeys(doll));
 						return (
 							<div class="flex items-center gap-3 bg-[#B6BAC6] p-2.5">
-								<DynamicDollChip target={dollInfo} doll={getDollFromSummon(dollInfo)} />
+								<DynamicDollChip target={dollInfo} />
 								<div class="flex flex-col gap-3">
 									<div class="flex flex-row gap-3">
 										<div
@@ -82,7 +79,9 @@ export default function FormationModal() {
 											</For>
 										</div>
 										<div
-											onClick={() => changeBorrow(doll.id)}
+											onClick={() => {
+												changeBorrow(doll.id);
+											}}
 											class={`${interactiveStyles(doll.borrow)} text-md flex h-10 flex-row items-center justify-center gap-1 rounded-sm bg-[#354346] p-1 shadow-sm shadow-black/50`}>
 											<div class={`${doll.borrow ? "opacity-100" : "opacity-20"} w-5`}>
 												<Check />
@@ -123,7 +122,7 @@ export default function FormationModal() {
 										</div>
 										<div class="text-md flex w-14 flex-col items-center justify-center rounded-sm bg-[#354346] px-1 pt-1 shadow-sm shadow-black/50">
 											<div class="relative h-12 w-12 overflow-hidden rounded-full">
-												<img src={dollInfo.remolding} />
+												<img src={dollInfo.icons.remolding} />
 												<div
 													class={`absolute top-0 right-0 bottom-0 left-0 flex items-end justify-center bg-linear-to-t from-black/50 via-black/20 to-transparent px-1 text-xs font-bold text-[#EFEFEF]`}>
 													<div class="overflow-hidden overflow-ellipsis whitespace-nowrap">{dollRemolding()}</div>
@@ -155,17 +154,20 @@ export default function FormationModal() {
 												setSavedLoadout(false);
 											}}
 											class={`${interactiveStyles(false)} relative h-17 w-31.5 flex-col items-center justify-center overflow-hidden rounded-sm bg-[#354346] px-1.5 py-1 shadow-sm shadow-black/50`}>
-											<Show when={dollWeapon()?.imprintImage}>
+											<Show when={dollWeapon().dollId}>
 												<div class="absolute bottom-1 left-2 z-10 h-8 w-8">
-													<img src={dollWeapon()?.imprintImage!} class="relative h-full w-full object-cover" />
+													<img src={weaponChibi()} class="relative h-full w-full object-cover" />
 												</div>
 											</Show>
 											<img
-												src={dollWeapon()?.localImagePath}
-												class={`relative z-20 h-full w-full border-b-3 ${dollWeapon()?.rarity === "Elite" ? "border-[#DF9E00]" : "border-[#3291AB]"} object-cover`}
+												src={dollWeapon().icon}
+												class={`relative z-20 h-full w-full border-b-3 ${rarityBorderColor(dollWeapon().rarity)} object-cover`}
 											/>
+											<Show when={dollWeapon().unreleased}>
+												<UnreleasedBadge class="top-1 left-1 z-30 text-xs" />
+											</Show>
 											<div
-										class={`absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${dollWeapon()?.rarity === "Elite" ? "from-[#453824]" : "from-[#133843]"} from-0% to-transparent to-75%`}></div>
+												class={`absolute bottom-0 left-0 z-0 h-full w-full bg-linear-to-t ${rarityGradientColor(dollWeapon().rarity)} from-0% to-transparent to-75%`}></div>
 										</div>
 										<div class="flex w-14 flex-col gap-3 text-sm font-bold tracking-wide">
 											<button
@@ -177,7 +179,11 @@ export default function FormationModal() {
 												{savedLoadout() ? "Saved" : "Save"}
 											</button>
 											<button
-												onClick={() => dollHasLoadout(doll.id) && loadDollLoadout(doll.id)}
+												onClick={() => {
+													if (dollHasLoadout(doll.id)) {
+														loadDollLoadout(doll.id);
+													}
+												}}
 												class={`${hasLoadout() ? interactiveStyles(false) : "opacity-50"} rounded-sm bg-[#354346] px-2 py-1 shadow-sm shadow-black/50`}>
 												Load
 											</button>
@@ -194,7 +200,7 @@ export default function FormationModal() {
 							? "absolute right-10 bottom-8 flex justify-end gap-3"
 							: "flex grow justify-end gap-3"
 					}>
-					<Button onClick={confirm} color="light" design="confirm" />
+					<Button onClick={() => void confirm()} color="light" design="confirm" />
 				</div>
 			</div>
 		</>

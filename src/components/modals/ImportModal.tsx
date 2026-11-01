@@ -1,8 +1,9 @@
 import { createSignal } from "solid-js";
-import { setShowImportModal, setLoaded, importState, loadFromString, setStateFromURL } from "../../store";
 import Button from "../buttons/Button";
 import ModalFooter from "./ModalFooter";
 import ModalHeader from "./ModalHeader";
+import { setLoaded, setShowImportModal, setStateFromURL } from "../../store/uiState";
+import { importState, loadFromString } from "../../store/persistence";
 
 export default function ImportModal() {
 	const [text, setText] = createSignal("");
@@ -11,7 +12,7 @@ export default function ImportModal() {
 		setLoaded(false);
 		setStateFromURL(false);
 		window.history.replaceState({}, document.title, window.location.origin + window.location.pathname);
-		await importState(loadFromString, text(), true);
+		await importState(loadFromString, text());
 		setShowImportModal(false);
 		setLoaded(true);
 	};
@@ -27,12 +28,12 @@ export default function ImportModal() {
 					placeholder="Paste here..."
 				/>
 				<div class="text-md mx-3 flex h-10 items-center justify-center self-stretch bg-[#384B53] font-bold tracking-wide text-[#ECECEC]">
-					Imported state will overwrite all current settings
+					Imported state will overwrite current local timeline
 				</div>
 			</div>
 			<ModalFooter styles="justify-between">
 				<Button onClick={() => setShowImportModal(false)} color="dark" design="cancel" />
-				<Button onClick={performImport} color="dark" design="confirm" />
+				<Button onClick={() => void performImport()} color="dark" design="confirm" />
 			</ModalFooter>
 		</>
 	);

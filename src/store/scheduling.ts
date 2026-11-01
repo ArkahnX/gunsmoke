@@ -1,0 +1,12 @@
+export function runAfterFramePaint(callback: () => void) {
+	// Queue a "before Render Steps" callback via requestAnimationFrame.
+	requestAnimationFrame(() => {
+		const messageChannel = new MessageChannel();
+
+		// Setup the callback to run in a Task
+		messageChannel.port1.onmessage = callback;
+
+		// Queue the Task on the Task Queue
+		messageChannel.port2.postMessage(undefined);
+	});
+}

@@ -1,4 +1,4 @@
-import { children, JSX, Show } from "solid-js";
+import { children, JSX } from "solid-js";
 
 export default function DarkModal(props: { children: JSX.Element; width?: string; hide?: boolean }) {
 	const resolved = children(() => props.children);

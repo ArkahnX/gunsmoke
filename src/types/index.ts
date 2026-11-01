@@ -1,11 +1,4 @@
-export interface Skill {
-	id: number;
-	name: string;
-	type: string;
-	range: string | null;
-	tags?: string[];
-	localImagePath: string;
-}
+import { DollId, SummonId, Doll, Summon } from "../../gfl2-data/types.d";
 
 export interface Effect {
 	id: string;
@@ -33,72 +26,50 @@ export interface DetailedKey extends CommonKey {
 	dollAvatar: string;
 }
 
-export interface SummonData {
-	id: string;
-	dollId: string;
-	name: string;
-	avatar: string;
-	skills: Skill[];
-	preloadedImage?: HTMLImageElement;
-}
+// export interface SummonData {
+// 	id: string;
+// 	dollId: string;
+// 	name: string;
+// 	avatar: string;
+// 	skills: Skill[];
+// 	preloadedImage?: HTMLImageElement;
+// }
 
-export interface DollData {
-	id: string;
-	name: string;
-	phase: string;
-	rarity: string;
-	avatar: string;
-	remolding: string;
-	gunType: string;
-	hasSummons: boolean;
-	hasExpansionKey: boolean;
-	skills: Skill[];
-	keys: FixedKey[];
-	summons: string[]; // summon IDs
-	preloadedImage?: HTMLImageElement;
-}
+// export interface DollData {
+// 	id: string;
+// 	name: string;
+// 	phase: string;
+// 	rarity: string;
+// 	avatar: string;
+// 	remolding: string;
+// 	gunType: string;
+// 	hasSummons: boolean;
+// 	hasExpansionKey: boolean;
+// 	skills: Skill[];
+// 	keys: FixedKey[];
+// 	summons: string[]; // summon IDs
+// 	preloadedImage?: HTMLImageElement;
+// }
 
 export interface Position {
 	x: number;
 	y: number;
 }
 
-export interface SummonPosition {
-	id: string;
-	mapId: string;
-	x: number;
-	y: number;
-}
-
-export type SkillAction = [number, string?]; // [skillId, optionalTargetId]
-
-export interface TabData {
-	actionOrder: string[];
-	actions: Record<string, SkillAction[]>;
-	dollPositions: Record<string, Position>;
-	summonPositions: SummonPosition[];
-}
-
-export interface SelectedDoll {
-	id: string;
-	fortification: number;
-	keys: string[];
-	remoldingLvl: number;
-	gun: string;
-	borrow: boolean;
-}
-
-export interface AppState {
-	selectedDolls: SelectedDoll[];
-	currentTab: number; // -1=editor, 0-7=arena, 8=summary
-	/** @deprecated as of v8 */
-	actionType?: number | string;
-	map: string;
-	score: number;
-	description: string;
-	buffs: string[];
+export interface LocalState {
+	alwaysDisplaySkills: boolean;
 	skillDisplay: number[];
-	tabData: TabData[];
+	currentTab: number;
+	/** Export / Share modal: put the team before the code or link */
+	exportIncludeDolls: boolean;
+	/** Export / Share modal: format the code or link for Discord */
+	exportDiscord: boolean;
+	/** Export tab: copy a `?state=` link that opens the timeline, instead of the bare code */
+	exportAsLink: boolean;
+	/** Export / Share modal: put the current season before the code or link */
+	exportIncludeSeason: boolean;
+	/** Export / Share modal: put the timeline's boss (its map) before the code or link */
+	exportIncludeBoss: boolean;
 }
 
 export interface StateEntry {
@@ -116,7 +87,7 @@ export interface SkillDisplay {
 }
 
 export interface MapGrid {
-	size?: number;
+	id: string;
 	width: number;
 	height: number;
 	name: string;
@@ -128,13 +99,13 @@ export interface MapGrid {
 
 export const enum TileType {
 	Empty = 0,
-	Spawn = 1 << 0,
-	HBoundary = 1 << 1,
-	VBoundary = 1 << 2,
-	HalfCover = 1 << 3,
-	FullCover = 1 << 4,
-	BossCover = 1 << 5,
-	BossOrigin = 1 << 6,
+	Spawn = 1,
+	HBoundary = 2,
+	VBoundary = 4,
+	HalfCover = 8,
+	FullCover = 16,
+	BossCover = 32,
+	BossOrigin = 64,
 }
 
 export interface MapCell {
@@ -146,7 +117,7 @@ export interface MapCell {
 	bndV: boolean;
 }
 
-export type EditorTool = "spawn" | "hbnd_h" | "hbnd_v" | "hcov" | "fcov" | "boss" | "erase";
+export type EditorTool = "spawn" | "hbnd_h" | "hbnd_v" | "hcov" | "fcov" | "boss" | "priority" | "erase" | "zoom";
 export type BoundaryDir = "h" | "v";
 
 export interface MapTile {
@@ -165,25 +136,25 @@ export type PhaseTab = "All" | "Physical" | "Burn" | "Electric" | "Freeze" | "Co
 
 export const PHASE_TABS: PhaseTab[] = ["All", "Physical", "Burn", "Electric", "Freeze", "Corrosion", "Hydro"];
 
-export interface RawSummonEntry {
-	name: string;
-	id: string;
-	localImagePath: string;
-	skills?: Skill[];
-}
+// export interface RawSummonEntry {
+// 	name: string;
+// 	id: string;
+// 	localImagePath: string;
+// 	skills?: Skill[];
+// }
 
-export interface RawDollEntry {
-	id: string;
-	name: string;
-	phase: string;
-	avatar: string;
-	remolding: string;
-	rarity: string;
-	gunType: string;
-	skills?: Skill[];
-	keys?: FixedKey[];
-	summons?: RawSummonEntry[];
-}
+// export interface RawDollEntry {
+// 	id: string;
+// 	name: string;
+// 	phase: string;
+// 	avatar: string;
+// 	remolding: string;
+// 	rarity: string;
+// 	gunType: string;
+// 	skills?: Skill[];
+// 	keys?: FixedKey[];
+// 	summons?: RawSummonEntry[];
+// }
 
 export interface KeyData {
 	common: DetailedKey[];
@@ -245,7 +216,7 @@ export const enum DragStatus {
 }
 
 export interface DragState {
-	id: string;
+	id: DollId | SummonId;
 	instanceId: string | null; // used for summons since they can appear more than once
 	screenX: number; // current pointer position in CSS pixels
 	screenY: number;
@@ -255,17 +226,17 @@ export interface DragState {
 	isActive: boolean;
 }
 
-export interface DollInfo {
+export interface MapDollInfo {
 	x: number;
 	y: number;
 	oldX: number;
 	oldY: number;
-	id: string;
+	id: DollId | SummonId;
 	priority: number;
-	dollInfo: DollData | undefined;
-	summonInfo: SummonData | null | undefined;
+	dollInfo: Doll | undefined;
+	summonInfo: Summon | null | undefined;
 	instanceId: string | null;
-	dragId: string | undefined;
+	dragId: DollId | SummonId | undefined;
 	dragInstanceId: string | null | undefined;
 	obscured: boolean;
 	distance: "near" | "far" | null;
@@ -282,7 +253,8 @@ export interface ArenaCanvasProps {
 }
 
 export interface DollRowProps {
-	dollId: string;
+	dollId: DollId;
+	fortification: number;
 	index: number;
 }
 

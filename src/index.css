@@ -1,5 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:wght@100..900&display=swap");
 @import "tailwindcss";
+
+/* narrower Roboto, so longer names fit on doll chips */
+@theme {
+	--font-condensed: "Roboto Condensed", Roboto, sans-serif;
+}
+
+:root {
+	/* small doll chips; was 56px. 66px and 70px fit more names (see SmallDollChip) */
+	--small-chip-width: 70px;
+	/* scales with the width: 68px tall at the original 56px */
+	--small-chip-height: calc(var(--small-chip-width) * 17 / 14);
+	/* the arena sidebar fits 5 small chips a row: 12px gaps, 24px of modal border and padding, 15px for a scrollbar */
+	--sidebar-width: calc(5 * var(--small-chip-width) + 4 * 12px + 24px + 15px);
+}
 
 body {
 	font-family: Roboto, sans-serif;
@@ -86,41 +100,82 @@ svg {
 	pointer-events: none;
 }
 
-.custom.solid-select-container {
-	color: #325563;
+.dropdown {
+	position: relative;
 	flex-grow: 1;
+	min-width: 5rem;
+	color: #325563;
 	text-align: center;
 }
-.custom .solid-select-control {
+.dropdown-control {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	gap: 0.5rem;
 	border: 2px solid #808284;
+	border-radius: 0.25rem;
+	background-color: white;
+	padding: 0.25rem 0.5rem;
+	cursor: pointer;
 }
-.custom .solid-select-control:hover {
+.dropdown-control:hover,
+.dropdown-control:focus-visible,
+.dropdown[data-open="true"] .dropdown-control {
 	outline: 3px solid white;
 	outline-offset: 0px;
 }
-
-.custom .solid-select-placeholder {
-	color: #325563;
+.dropdown[data-open="true"] .dropdown-control {
+	border-color: #2a343a;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
 }
-.custom .solid-select-list {
-	background-color: #2a343a;
-	border-radius: 3px;
+.dropdown-value {
+	flex-grow: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.dropdown-arrow {
+	transition: transform 150ms;
+}
+.dropdown[data-open="true"] .dropdown-arrow {
+	transform: rotate(180deg);
+}
+/* attached under its control, with the same border, so it's clear which dropdown the list belongs to */
+.dropdown-list {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 50;
 	display: flex;
+	min-width: 100%;
+	max-height: 50vh;
 	flex-direction: column;
-	gap: 0.5rem;
+	gap: 0.25rem;
+	overflow-y: auto;
+	border: 2px solid #2a343a;
+	border-top: none;
+	border-radius: 0 0 0.25rem 0.25rem;
+	background-color: #2a343a;
+	padding: 0.375rem;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.4);
 }
-.custom .solid-select-option {
-	background-color: transparent;
-	color: #fff;
+.dropdown-option {
 	border-radius: 3px;
-}
-.custom .solid-select-option:hover {
-	background-color: #52575a;
+	padding: 0.125rem 0.5rem;
 	color: #fff;
+	white-space: nowrap;
+	cursor: pointer;
 }
-.custom .solid-select-option[data-focused="true"] {
+.dropdown-option[data-cursor="true"] {
+	background-color: #52575a;
+}
+.dropdown-option[data-selected="true"] {
 	background-color: #dbdcdc;
 	color: #2a343a;
+}
+.dropdown-option[data-selected="true"][data-cursor="true"] {
+	background-color: #fff;
 }
 
 .input {
@@ -136,4 +191,59 @@ svg {
 .input:hover {
 	outline: 3px solid white;
 	outline-offset: 0px;
+}
+
+/* Issue hints in the style of Girls' Frontline 2: Menu File cards and square corner badges.
+   In the components layer so Tailwind utilities on the same element still win. */
+@layer components {
+	/* dark card with a short accent bar before the title line; --gf-accent sets the bar colour */
+	.gf-card {
+		position: relative;
+		background-color: #1c2a32;
+		padding: 0.5rem 0.75rem 0.5rem 1.25rem;
+		color: #efefef;
+		box-shadow: 0 1px 3px rgb(0 0 0 / 0.5);
+	}
+	.gf-card::before {
+		content: "";
+		position: absolute;
+		top: 0.625rem;
+		left: 0.5rem;
+		width: 4px;
+		height: 1.25rem;
+		background-color: var(--gf-accent, #f26c1c);
+	}
+
+	/* small square badge pinned to a corner, holding one icon */
+	.gf-badge {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 1.25rem;
+		height: 1.25rem;
+		padding: 0.1875rem;
+		border-radius: 2px;
+		pointer-events: none;
+		filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.5));
+	}
+	/* the thumbs-up GFL2 puts on recommended items */
+	.gf-badge-recommended {
+		background-color: #3a4246;
+		color: #f0af16;
+	}
+	/* something the team still relies on, in the red-orange of GFL2's attachment markers */
+	.gf-badge-missing {
+		background-color: #ae4749;
+		color: #efefef;
+	}
+	.gf-badge-required {
+		background-color: #3d7a4a;
+		color: #efefef;
+	}
+	/* a summon with no skills; less padding so the arrows and cancel mark stay legible */
+	.gf-badge-inert {
+		padding: 0.125rem;
+		background-color: #3a4246;
+		color: #efefef;
+	}
 }

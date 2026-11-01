@@ -1,6 +1,6 @@
 {
-  "compilerOptions": {
-    "forceConsistentCasingInFileNames": true,
+	"compilerOptions": {
+		"forceConsistentCasingInFileNames": true,
 		"esModuleInterop": true,
 		"resolveJsonModule": true,
 		"preserveConstEnums": true,
@@ -12,12 +12,12 @@
 		"isolatedModules": true,
 		"skipLibCheck": true,
 		"allowJs": true,
-		"lib": ["es2021", "dom"],
+		"lib": ["esnext", "dom"],
 		"moduleResolution": "bundler",
 		"module": "esnext",
 		"jsx": "preserve",
 		"jsxImportSource": "solid-js",
-		"target": "es2022"
-  },
-	"include": ["src/**/*.ts", "src/**/*.tsx", "esbuild.mjs"]
+		"target": "esnext",
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx", "esbuild.mjs", "eslint.config.mjs", "gfl2-data/*.tsx", "gfl2-data/*.ts"],
 }

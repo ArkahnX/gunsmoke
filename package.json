@@ -1,7 +1,10 @@
 {
   "type": "module",
   "scripts": {
-    "watch": "node esbuild.mjs"
+    "watch": "node esbuild.mjs",
+    "build": "node esbuild.mjs --build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src gfl2-data"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -19,10 +22,9 @@
     "@solid-primitives/storage": "^4.3.4",
     "@solidjs/meta": "^0.29.4",
     "@tailwindcss/cli": "^4.2.2",
-    "@thisbeyond/solid-select": "^0.16.0",
     "dotenv": "^17.3.1",
     "fuse.js": "^7.4.2",
-    "solid-js": "^1.9.12",
+    "solid-js": "^1.9.17",
     "tailwindcss": "^4.2.2"
   }
 }
