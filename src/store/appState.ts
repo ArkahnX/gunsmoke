@@ -73,9 +73,12 @@ export const endTurnSkill: Skill = {
 	icon: "vectors/end.svg",
 };
 
-/** First `s<n>` not used by any summon placement on any turn, so instance ids stay unique across the timeline. */
-export function nextSummonInstanceId(tabs: SaveV9TabData[]): string {
-	const used = new Set(tabs.flatMap((tab) => tab.summonPositions.map((p) => p.mapId)));
+/**
+ * First `s<n>` not used by any summon placement on any turn, so instance ids stay unique across the timeline. `taken`
+ * holds ids already handed out that aren't in `tabs` yet, when several are made in one edit.
+ */
+export function nextSummonInstanceId(tabs: SaveV9TabData[], taken: Iterable<string> = []): string {
+	const used = new Set([...tabs.flatMap((tab) => tab.summonPositions.map((p) => p.mapId)), ...taken]);
 	let n = 0;
 	while (used.has(`s${n}`)) n++;
 	return `s${n}`;

@@ -9,11 +9,20 @@ import {
 	FAILED_STATE_BACKUP_KEY,
 	V9_STORAGE_KEY,
 } from "../types/constants";
-import { defaultState, localState, makeDefaultTabData, notations, setLocalState, setState, state } from "./appState";
+import {
+	defaultState,
+	localState,
+	makeDefaultTabData,
+	nextSummonInstanceId,
+	notations,
+	setLocalState,
+	setState,
+	state,
+} from "./appState";
 import { pushImportError, setStateFromURL, stateFromURL } from "./uiState";
 import { setupTempSelectedDolls } from "./dollSelection";
 import { checkMap, isBuiltInMap, loadMap, toPlainMap } from "../canvas/editorMap";
-import { getSelectedDoll, sortBuffs } from "./gameData";
+import { getSelectedDoll, sortBuffs, summonBaseIdOf } from "./gameData";
 import { preloadCanvasImages } from "./images";
 import { DollId, SummonId } from "../../gfl2-data/types";
 import { SaveImportError, upgradeSave } from "./migration";
@@ -83,6 +92,28 @@ export function updateVisibleSkillOption(value: boolean) {
 	);
 }
 
+/**
+ * Every summon placement needs an instance id: an empty one makes the summon look like a doll to the map and the drag
+ * code. A placement without one carries on the previous turn's instance of the same summon on the same tile, when this
+ * turn doesn't already use that id; otherwise it gets a new one.
+ */
+function fillMissingInstanceIds(tabs: SaveV9TabData[]) {
+	for (const [tabIndex, tab] of tabs.entries()) {
+		const filled: string[] = [];
+		for (const p of tab.summonPositions) {
+			// the type says string, but a hand-edited or older save can leave it out
+			if ((p.mapId as string | undefined)?.trim()) continue;
+			const inThisTab = new Set(tab.summonPositions.map((q) => q.mapId));
+			const previous = tabs[tabIndex - 1]?.summonPositions.find(
+				(q) => summonBaseIdOf(q.id) === summonBaseIdOf(p.id) && q.x === p.x && q.y === p.y && q.mapId && !inThisTab.has(q.mapId)
+			);
+			p.mapId = previous?.mapId ?? nextSummonInstanceId(tabs);
+			filled.push(`${p.id} at (${p.x}, ${p.y}) -> ${p.mapId}`);
+		}
+		if (filled.length) log.info(`Turn ${tabIndex}: gave summons without an instance id one`, filled);
+	}
+}
+
 export function buildState(save: CurrentSave): SaveV9 {
 	const selectedDolls = save.selectedDolls.map((d) => ({ ...d, keys: [...d.keys] }));
 	// Resolve each doll once; throws for an ID the current game data doesn't know -> caught by importState
@@ -108,6 +139,7 @@ export function buildState(save: CurrentSave): SaveV9 {
 			summonPositions: structuredClone(src.summonPositions),
 		};
 	});
+	fillMissingInstanceIds(tabData);
 
 	return {
 		version: V9_SAVE_VERSION,

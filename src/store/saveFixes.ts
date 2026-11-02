@@ -133,12 +133,12 @@ function turnName(tab: number): string {
 }
 
 /** Where `fix` would place its doll or summon: every placement it had on `fromTab` (a summon can have several). */
-function copiedPlacements(fix: CopyPositionFix): { x: number; y: number; mapId: string }[] {
+function copiedPlacements(fix: CopyPositionFix): { x: number; y: number; mapId?: string }[] {
 	const from = state.tabData[fix.fromTab] as SaveV9TabData | undefined;
 	if (!from) return [];
 	if (hasPrefix(fix.id, IdKey.Dolls)) {
 		const position = from.dollPositions[fix.id] as SaveV9TabData["dollPositions"][DollId] | undefined;
-		return position && position.x > -1 && position.y > -1 ? [{ x: position.x, y: position.y, mapId: "" }] : [];
+		return position && position.x > -1 && position.y > -1 ? [{ x: position.x, y: position.y }] : [];
 	}
 	// any tier/key version of the summon, the same way the checker decides it was on the map
 	const base = summonBaseIdOf(fix.id);
@@ -535,24 +535,38 @@ export function applySaveFix(fix: SaveFix): boolean {
 			if (!canApplyFix(fix)) return false;
 			const id = fix.id;
 			const placements = copiedPlacements(fix);
-			return editTab(fix.tab, (tab) => {
-				if (hasPrefix(id, IdKey.Dolls)) {
+			if (hasPrefix(id, IdKey.Dolls)) {
+				return editTab(fix.tab, (tab) => {
 					tab.dollPositions[id] = { x: placements[0].x, y: placements[0].y };
-				} else {
-					// keeps each instance id, so the summon carries on from that turn rather than being a new one
-					for (const p of placements) tab.summonPositions.push({ id, mapId: p.mapId, x: p.x, y: p.y });
-				}
+					return true;
+				});
+			}
+			// keeps each instance id, so the summon carries on from that turn rather than being a new one
+			const fresh: string[] = [];
+			const positions = placements.map((p) => {
+				// an empty id counts as missing, so `??` wouldn't do
+				const mapId = p.mapId !== undefined && p.mapId !== "" ? p.mapId : nextSummonInstanceId(state.tabData, fresh);
+				fresh.push(mapId);
+				return { id, mapId, x: p.x, y: p.y };
+			});
+			return editTab(fix.tab, (tab) => {
+				tab.summonPositions.push(...positions);
 				return true;
 			});
 		}
 		case FixKey.PlaceAt: {
 			if (!canApplyFix(fix)) return false;
 			const id = fix.id;
+			if (hasPrefix(id, IdKey.Dolls)) {
+				return editTab(fix.tab, (tab) => {
+					tab.dollPositions[id] = { x: fix.x, y: fix.y };
+					return true;
+				});
+			}
 			// a summon that was on the map earlier keeps that instance, so it carries on rather than being a new one
-			const mapId = hasPrefix(id, IdKey.Summons) ? (earlierInstanceId(id, fix.tab) ?? nextSummonInstanceId(state.tabData)) : "";
+			const mapId = earlierInstanceId(id, fix.tab) ?? nextSummonInstanceId(state.tabData);
 			return editTab(fix.tab, (tab) => {
-				if (hasPrefix(id, IdKey.Dolls)) tab.dollPositions[id] = { x: fix.x, y: fix.y };
-				else tab.summonPositions.push({ id, mapId, x: fix.x, y: fix.y });
+				tab.summonPositions.push({ id, mapId, x: fix.x, y: fix.y });
 				return true;
 			});
 		}
@@ -585,7 +599,7 @@ export function applySaveFix(fix: SaveFix): boolean {
 function earlierInstanceId(id: SummonId, tab: number): string | undefined {
 	const base = summonBaseIdOf(id);
 	for (let fromTab = tab - 1; fromTab >= 0; fromTab--) {
-		const placement = state.tabData[fromTab].summonPositions.find((p) => summonBaseIdOf(p.id) === base);
+		const placement = state.tabData[fromTab].summonPositions.find((p) => summonBaseIdOf(p.id) === base && p.mapId);
 		if (placement) return placement.mapId;
 	}
 	return undefined;

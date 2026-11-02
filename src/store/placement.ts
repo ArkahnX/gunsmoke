@@ -65,6 +65,7 @@ export function placeDoll(id: DollId, x: number, y: number) {
 }
 
 export function placeSummon(summonId: SummonId, mapId: string, x: number, y: number) {
+	if (!mapId) throw new Error(`No instanceId for summon: ${summonId}`);
 	setState(
 		produce((s) => {
 			const positions = s.tabData[localState.currentTab].summonPositions;
