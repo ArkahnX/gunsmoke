@@ -47,7 +47,7 @@
 		"bqe": {
 			"id": "bqe",
 			"name": "Shadow Servant",
-			"description": "This is considered a summon. When Agent performs a <c1>{bj}</c> through the active skill <c1>Bloody Reflection</c>, the Ultimate skill <c1>Desolation Purge</c> or the Passive skill <c1>Sangvis Ferri Tactics</c>, this summon uses Agent's current stats to perform the same skill and it can be considered a skill performed by Agent. When performing the Ultimate skill <c1>Desolation Purge</c>, prioritizes the direction with boss units and elite units. Up to <c2>1</c> such summon can be on the battlefield at once.",
+			"description": "Considered a summon. When Agent performs a <c1>{bj}</c> through her active skill <c1>Bloody Reflection</c>, her Ultimate skill <c1>Desolation Purge</c>, or her passive skill <c1>S.F. Tactics</c>, this summon performs the same skill with Agent's current stats, and it can be considered a skill performed by Agent herself. When performing the Ultimate skill <c1>Desolation Purge</c>, prioritizes the direction with boss units and elite units. Up to <c2>1</c> such summon can exist on the battlefield at once.",
 			"icon": "images/buffs/Buff_EaglettaSSR1.webp"
 		},
 		"bj": {
@@ -126,7 +126,7 @@
 		"bqm": {
 			"id": "bqm",
 			"name": "Shadow Servant",
-			"description": "This is considered a summon. When Agent performs a <c1>{bj}</c> through the active skill <c1>Bloody Reflection</c>, the Ultimate skill <c1>Desolation Purge</c> or the Passive skill <c1>Sangvis Ferri Tactics</c>, this summon uses Agent's current stats to perform the same skill and it can be considered a skill performed by Agent. When performing the Ultimate skill <c1>Desolation Purge</c>, prioritizes the direction with boss units and elite units. Up to <c2>2</c> such summons can be on the battlefield at once.",
+			"description": "Considered a summon. When Agent performs a <c1>{bj}</c> through her active skill <c1>Bloody Reflection</c>, her Ultimate skill <c1>Desolation Purge</c>, or her passive skill <c1>S.F. Tactics</c>, this summon performs the same skill with Agent's current stats, and it can be considered a skill performed by Agent herself. When performing the Ultimate skill <c1>Desolation Purge</c>, prioritizes the direction with boss units and elite units. Up to <c2>2</c> such summons can exist on the battlefield at once.",
 			"icon": "images/buffs/Buff_EaglettaSSR1.webp"
 		},
 		"bqn": {
@@ -2999,12 +2999,12 @@
 		"bmg": {
 			"id": "bmg",
 			"name": "Out for a Spin!",
-			"description": "Causes the selected Doll to become unselectable. She cannot use any of her skills and will follow <c1>Sinveiler</c>. When <c1>Sinveiler</c> dies, the selected Doll dies as well. \n<c1>Sinveiler</c> gains <c2>70%</c> of the selected Doll's attack, defense, Max HP, stability index and critical damage. \nWhen <c1>Sinveiler</c> uses the active skill <c1>Let's Go Full Speed!</c>, it generates phase tiles corresponding to the selected Doll's attribute for <c2>2 turns</c>."
+			"description": "Causes the selected Doll to become unselectable. She cannot use any of her skills and will follow <c1>Sinveiler</c>. When <c1>Sinveiler</c> dies, the selected Doll dies as well. \n<c1>Sinveiler</c> gains <c2>70%</c> of the selected Doll's base attack, defense, Max HP, stability index and critical damage. \nWhen <c1>Sinveiler</c> uses the active skill <c1>Let's Go Full Speed!</c>, it generates phase tiles corresponding to the selected Doll's attribute for <c2>2 turns</c>."
 		},
 		"blq": {
 			"id": "blq",
 			"name": "Out for a Spin!",
-			"description": "Causes the selected Doll to become unselectable. She cannot use any of her skills and will follow <c1>Sinveiler</c>. When <c1>Sinveiler</c> dies, the selected Doll dies as well.\n<c1>Sinveiler</c> gains <c2>50%</c> of the selected Doll's attack, defense, Max HP, stability index, and critical damage."
+			"description": "Causes the selected Doll to become unselectable. She cannot use any of her skills and will follow <c1>Sinveiler</c>. When <c1>Sinveiler</c> dies, the selected Doll dies as well.\n<c1>Sinveiler</c> gains <c2>50%</c> of the selected Doll's base attack, defense, Max HP, stability index, and critical damage."
 		},
 		"blu": {
 			"id": "blu",
@@ -7445,6 +7445,214 @@
 			"kind": 1,
 			"icon": "images/buffs/Buff_Guild_21.webp"
 		},
+		"bra": {
+			"id": "bra",
+			"name": "Coordinate Calibration",
+			"description": "Damage taken is increased by <c2>20%+0.05%</c> of Precision value. Considered a debuff, cannot be cleansed.",
+			"duration": 1,
+			"kind": 1,
+			"icon": "images/buffs/Buff_FAC01.webp"
+		},
+		"brb": {
+			"id": "brb",
+			"name": "Weakness Marker I",
+			"description": "Damage taken is increased by <c2>10%</c>. Considered a defense debuff.",
+			"duration": 1,
+			"kind": 3,
+			"cleansable": true,
+			"family": 280401,
+			"level": 10,
+			"icon": "images/buffs/Buff_EnemyHurtUp.webp"
+		},
+		"brc": {
+			"id": "brc",
+			"name": "Coordinate Calibration",
+			"description": "Damage taken is increased by <c2>24%+0.05%</c> of Precision value. Considered a debuff, cannot be cleansed.",
+			"duration": 1,
+			"kind": 1,
+			"icon": "images/buffs/Buff_FAC01.webp"
+		},
+		"brd": {
+			"id": "brd",
+			"name": "Coordinate Calibration",
+			"description": "Damage taken is increased by <c2>30%+0.05%</c> of Precision value. Considered a debuff, cannot be cleansed.",
+			"duration": 1,
+			"kind": 1,
+			"icon": "images/buffs/Buff_FAC01.webp"
+		},
+		"bre": {
+			"id": "bre",
+			"name": "Shared Firepower I",
+			"description": "Increases damage dealt by <c2>10%</c>. Considered a buff.",
+			"duration": 1,
+			"kind": 2,
+			"cleansable": true,
+			"family": 280501,
+			"level": 10,
+			"icon": "images/buffs/Buff_DamageUp.webp"
+		},
+		"brf": {
+			"id": "brf",
+			"name": "Shared Firepower - Spectrum",
+			"description": "Damage dealt is increased by <c2>15%</c>. Considered a buff, cannot be cleansed.",
+			"duration": -1,
+			"kind": 2,
+			"icon": "images/buffs/Buff_DamageUp.webp"
+		},
+		"brg": {
+			"id": "brg",
+			"name": "Coordinate Calibration",
+			"description": "Damage taken is increased by <c2>30%+0.055%</c> of Precision value. Considered a debuff, cannot be cleansed.",
+			"duration": 1,
+			"kind": 1,
+			"icon": "images/buffs/Buff_FAC01.webp"
+		},
+		"brh": {
+			"id": "brh",
+			"name": "Coordinate Calibration",
+			"description": "Damage taken is increased by <c2>30%+0.06%</c> of Precision value. Considered a debuff, cannot be cleansed.",
+			"duration": 1,
+			"kind": 1,
+			"icon": "images/buffs/Buff_FAC01.webp"
+		},
+		"bri": {
+			"id": "bri",
+			"name": "Coordinate Calibration",
+			"description": "Damage taken is increased by <c2>30%+0.07%</c> of Precision value. Considered a debuff, cannot be cleansed.",
+			"duration": 1,
+			"kind": 1,
+			"icon": "images/buffs/Buff_FAC01.webp"
+		},
+		"brj": {
+			"id": "brj",
+			"name": "Coordinate Calibration",
+			"description": "Damage taken is increased by <c2>32%+0.07%</c> of Precision value. Considered a debuff, cannot be cleansed.",
+			"duration": 1,
+			"kind": 1,
+			"icon": "images/buffs/Buff_FAC01.webp"
+		},
+		"brk": {
+			"id": "brk",
+			"name": "Coordinate Calibration",
+			"description": "Damage taken is increased by <c2>34%+0.08%</c> of Precision value. Considered a debuff, cannot be cleansed.",
+			"duration": 1,
+			"kind": 1,
+			"icon": "images/buffs/Buff_FAC01.webp"
+		},
+		"brl": {
+			"id": "brl",
+			"name": "Coordinate Calibration",
+			"description": "Damage taken is increased by <c2>36%+0.09%</c> of Precision value. Considered a debuff, cannot be cleansed.",
+			"duration": 1,
+			"kind": 1,
+			"icon": "images/buffs/Buff_FAC01.webp"
+		},
+		"brm": {
+			"id": "brm",
+			"name": "Coordinate Calibration",
+			"description": "Damage taken is increased by <c2>40%+0.1%</c> of Precision value. Considered a debuff, cannot be cleansed.",
+			"duration": 1,
+			"kind": 1,
+			"icon": "images/buffs/Buff_FAC01.webp"
+		},
+		"brn": {
+			"id": "brn",
+			"name": "Armorbreak Rhythm",
+			"description": "When taking damage from HOCs, this unit's defense is decreased by <c2>30%</c>. Considered a defense debuff.",
+			"duration": 2,
+			"kind": 3,
+			"cleansable": true,
+			"icon": "images/buffs/Buff_DefLow.webp"
+		},
+		"bro": {
+			"id": "bro",
+			"name": "Armorbreak Rhythm",
+			"description": "When taking damage from HOCs, this unit's defense is decreased by <c2>50%</c>. Considered a defense debuff.",
+			"duration": 2,
+			"kind": 3,
+			"cleansable": true,
+			"icon": "images/buffs/Buff_DefLow.webp"
+		},
+		"brp": {
+			"id": "brp",
+			"name": "Breaker Command",
+			"description": "When this effect is applied and at the end of the allied turn, this unit takes Physical damage equal to <c2>1000+30%</c> of Output value. When taking damage, the unit takes <c2>1</c> additional instance of that damage. This effect can trigger up to <c2>1 time</c> per turn. Considered a debuff, cannot be cleansed.",
+			"duration": 2,
+			"kind": 3,
+			"icon": "images/buffs/Buff_ECM01.webp"
+		},
+		"brq": {
+			"id": "brq",
+			"name": "Breaker Command",
+			"description": "When this effect is applied and at the end of the allied turn, this unit takes Physical damage equal to <c2>1020+30%</c> of Output value. When taking damage, the unit takes <c2>1</c> additional instance of that damage. This effect can trigger up to <c2>1 time</c> per turn. Considered a debuff, cannot be cleansed.",
+			"duration": 2,
+			"kind": 3,
+			"icon": "images/buffs/Buff_ECM01.webp"
+		},
+		"brr": {
+			"id": "brr",
+			"name": "Breaker Command",
+			"description": "When this effect is applied and at the end of the allied turn, this unit takes Physical damage equal to <c2>1060+30%</c> of Output value. When taking damage, the unit takes <c2>1</c> additional instance of that damage. This effect can trigger up to <c2>1 time</c> per turn. If this unit is on the Core Battlefield, its mobility is reduced by <c2>3 tiles</c>. This effect can only trigger <c2>1 time</c> per battle. If this unit is on the Peripheral Battlefield, its attack is decreased by <c2>90%</c>. Considered a debuff, cannot be cleansed.",
+			"duration": 2,
+			"kind": 3,
+			"icon": "images/buffs/Buff_ECM01.webp"
+		},
+		"brs": {
+			"id": "brs",
+			"name": "Breaker Command",
+			"description": "When this effect is applied and at the end of the allied turn, this unit takes Physical damage equal to <c2>1120+32%</c> of Output value. When taking damage, the unit takes <c2>1</c> additional instance of that damage. This effect can trigger up to <c2>1 time</c> per turn. If this unit is on the Core Battlefield, its mobility is reduced by <c2>3 tiles</c>. This effect can only trigger <c2>1 time</c> per battle. If this unit is on the Peripheral Battlefield, its attack is decreased by <c2>90%</c>. Considered a debuff, cannot be cleansed.",
+			"duration": 2,
+			"kind": 3,
+			"icon": "images/buffs/Buff_ECM01.webp"
+		},
+		"brt": {
+			"id": "brt",
+			"name": "Breaker Command",
+			"description": "When this effect is applied and at the end of the allied turn, this unit takes Physical damage equal to <c2>1220+34%</c> of Output value. When taking damage, the unit takes <c2>1</c> additional instance of that damage. This effect can trigger up to <c2>1 time</c> per turn. If this unit is on the Core Battlefield, its mobility is reduced by <c2>3 tiles</c>. This effect can only trigger <c2>1 time</c> per battle. If this unit is on the Peripheral Battlefield, its attack is decreased by <c2>90%</c>. Considered a debuff, cannot be cleansed.",
+			"duration": 2,
+			"kind": 3,
+			"icon": "images/buffs/Buff_ECM01.webp"
+		},
+		"bru": {
+			"id": "bru",
+			"name": "Breaker Command",
+			"description": "When this effect is applied and at the end of the allied turn, this unit takes Physical damage equal to <c2>1320+36%</c> of Output value. When taking damage, the unit takes <c2>1</c> additional instance of that damage. This effect can trigger up to <c2>1 time</c> per turn. If this unit is on the Core Battlefield, its mobility is reduced by <c2>3 tiles</c>. This effect can only trigger <c2>1 time</c> per battle. If this unit is on the Peripheral Battlefield, its attack is decreased by <c2>90%</c>. Considered a debuff, cannot be cleansed.",
+			"duration": 2,
+			"kind": 3,
+			"icon": "images/buffs/Buff_ECM01.webp"
+		},
+		"brv": {
+			"id": "brv",
+			"name": "Breaker Command",
+			"description": "When this effect is applied and at the end of the allied turn, this unit takes Physical damage equal to <c2>1460+38%</c> of Output value. When taking damage, the unit takes <c2>1</c> additional instance of that damage. This effect can trigger up to <c2>1 time</c> per turn. If this unit is on the Core Battlefield, its mobility is reduced by <c2>3 tiles</c>. This effect can only trigger <c2>1 time</c> per battle. If this unit is on the Peripheral Battlefield, its attack is decreased by <c2>90%</c>. Considered a debuff, cannot be cleansed.",
+			"duration": 2,
+			"kind": 3,
+			"icon": "images/buffs/Buff_ECM01.webp"
+		},
+		"brw": {
+			"id": "brw",
+			"name": "Breaker Command",
+			"description": "When this effect is applied and at the end of the allied turn, this unit takes Physical damage equal to <c2>1620+40%</c> of Output value. When taking damage, the unit takes <c2>1</c> additional instance of that damage. This effect can trigger up to <c2>1 time</c> per turn. If this unit is on the Core Battlefield, its mobility is reduced by <c2>3 tiles</c>. This effect can only trigger <c2>1 time</c> per battle. If this unit is on the Peripheral Battlefield, its attack is decreased by <c2>90%</c>. Considered a debuff, cannot be cleansed.",
+			"duration": 2,
+			"kind": 3,
+			"icon": "images/buffs/Buff_ECM01.webp"
+		},
+		"brx": {
+			"id": "brx",
+			"name": "Breaker Command",
+			"description": "When this effect is applied and at the end of the allied turn, this unit takes Physical damage equal to <c2>1800+42%</c> of Output value. When taking damage, the unit takes <c2>1</c> additional instance of that damage. This effect can trigger up to <c2>1 time</c> per turn. If this unit is on the Core Battlefield, its mobility is reduced by <c2>3 tiles</c>. This effect can only trigger <c2>1 time</c> per battle. If this unit is on the Peripheral Battlefield, its attack is decreased by <c2>90%</c>. Considered a debuff, cannot be cleansed.",
+			"duration": 2,
+			"kind": 3,
+			"icon": "images/buffs/Buff_ECM01.webp"
+		},
+		"bry": {
+			"id": "bry",
+			"name": "Breaker Command",
+			"description": "When this effect is applied and at the end of the allied turn, this unit takes Physical damage equal to <c2>2000+45%</c> of Output value. When taking damage, the unit takes <c2>1</c> additional instance of that damage. This effect can trigger up to <c2>1 time</c> per turn. If this unit is on the Core Battlefield, its mobility is reduced by <c2>3 tiles</c>. This effect can only trigger <c2>1 time</c> per battle. If this unit is on the Peripheral Battlefield, its attack is decreased by <c2>90%</c>. Considered a debuff, cannot be cleansed.",
+			"duration": 2,
+			"kind": 3,
+			"icon": "images/buffs/Buff_ECM01.webp"
+		},
 		"bqf": {
 			"id": "bqf",
 			"name": "Cleaning Mark",
@@ -8177,8 +8385,8 @@
 		},
 		"bkt": {
 			"id": "bkt",
-			"name": "Fixed-Point Satellite",
-			"description": "Physical summon that inherits <c2>100%</c> of Tololo's base stats. Cannot move. Up to <c2>3</c> <c1>Fixed-Point Satellite</c>s can exist on the battlefield at any one time."
+			"name": "Geostationary Satellite",
+			"description": "Physical summon that inherits <c2>100%</c> of Tololo's base stats. Cannot move. Up to <c2>3</c> <c1>Geostationary Satellites</c> can exist on the battlefield at any one time."
 		},
 		"bku": {
 			"id": "bku",

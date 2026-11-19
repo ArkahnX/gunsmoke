@@ -53,7 +53,7 @@
 						"AoE"
 					],
 					"range": "1",
-					"shape": "--",
+					"shape": "3 × 7",
 					"selects": [
 						5
 					],
@@ -69,12 +69,14 @@
 						"4": {
 							"id": "s1p8",
 							"level": 2,
+							"shape": "5 × 9",
 							"description": "Selects a direction and deals cover-ignoring AoE <c7>Hydro damage</c> equal to <c2>170%</c> of attack to all targets in a <c2>5x8 tile area in front</c>. Before this skill, for <c2>each stack</c> of <c1>{bqn}</c> possessed, gain <c2>1 stack</c> of <c1>{bqi}</c> for <c2>1 round</c>. This effect can trigger up to <c2>1 time</c> per turn. After this skill, if Agent has <c2>3</c> or more stacks of <c1>{bqn}</c>, Agent consumes <c2>3 stacks</c> of <c1>{bqn}</c>, which decreases the cooldown of this skill by <c2>1 turn</c>, she gains <c1>{bq}</c> and she cannot use the basic attack <c1>Target Sweep</c>, the active skill <c1>Dustbusting Service</c> and the active skill <c1>Bloody Reflection</c> for <c2>1 round</c>. If this skill is not used by the end of the turn, the consumed <c1>{bqn}</c> stacks are refunded and this skill enters cooldown. After this skill, Agent gains <c2>5 stacks</c> of <c1>{bqj}</c>. If Agent has <c2>15 stacks</c> of <c1>{bqj}</c> before this skill, she does not gain <c1>{bqj}</c> after this skill, the damage multiplier doubles, and it consumes <c2>15 stacks</c> of <c1>{bqj}</c>.",
 							"upgradeDescription": "Effective range is increased to <c2>5x9 tile area in front</c> and the damage multiplier is increased by <c2>10%</c>."
 						},
 						"6": {
 							"id": "s1pa",
 							"level": 3,
+							"shape": "5 × 9",
 							"description": "Selects a direction and deals cover-ignoring AoE <c7>Hydro damage</c> equal to <c2>170%</c> of attack to all targets in a <c2>5x8 tile area in front</c>. Before this skill, for <c2>each stack</c> of <c1>{bqn}</c> possessed, gain <c2>1 stack</c> of <c1>{bqr}</c> for <c2>1 round</c>. This effect can trigger up to <c2>1 time</c> per turn. After this skill, if Agent has <c2>3</c> or more stacks of <c1>{bqn}</c>, Agent consumes <c2>3 stacks</c> of <c1>{bqn}</c>, which decreases the cooldown of this skill by <c2>1 turn</c>, she gains <c1>{bq}</c> and she cannot use the basic attack <c1>Target Sweep</c>, the active skill <c1>Dustbusting Service</c> and the active skill <c1>Bloody Reflection</c> for <c2>1 round</c>. If this skill is not used by the end of the turn, the consumed <c1>{bqn}</c> stacks are refunded and this skill enters cooldown. After this skill, Agent gains <c2>5 stacks</c> of <c1>{bqj}</c>. If Agent has <c2>10 stacks</c> of <c1>{bqj}</c> before this skill, she does not gain <c1>{bqj}</c> after this skill, the damage multiplier doubles, and it consumes <c2>10 stacks</c> of <c1>{bqj}</c>. \nPassive: At the end of the round, gain <c2>5 stacks</c> of <c1>{bqj}</c>.",
 							"upgradeDescription": "The number of <c1>{bqj}</c> stacks that must be consumed to double the damage multiplier is decreased to <c2>10 stacks</c>. \nNew passive effect: At the end of the round, gain <c2>5 stacks</c> of <c1>{bqj}</c>."
 						}
@@ -150,7 +152,7 @@
 				},
 				{
 					"id": "s1p4",
-					"name": "Sangvis Ferri Tactics",
+					"name": "S.F. Tactics",
 					"type": 6,
 					"damage": [
 						1
@@ -227,7 +229,7 @@
 					"number": 4,
 					"type": 1,
 					"unreleased": true,
-					"description": "Mobility is fixed at <c2>1</c>, damage dealt to non-boss units is increased by <c2>30%</c> and the passive skill <c1>Sangvis Ferri Tactics</c> no longer consumes Confectance Index.",
+					"description": "Agent's mobility is fixed at <c2>1 tile</c>, her damage dealt to non-boss units is increased by <c2>30%</c> and her passive skill <c1>S.F. Tactics</c> no longer consumes Confectance Index.",
 					"icon": "images/dolls/agent/Skill_Chrtalent_Agent04.webp"
 				},
 				{
@@ -1015,7 +1017,7 @@
 						"Debuff"
 					],
 					"range": "1",
-					"shape": "--",
+					"shape": "3 × 8",
 					"selects": [
 						5
 					],
@@ -1552,7 +1554,7 @@
 					"rarity": 3,
 					"number": 1,
 					"type": 3,
-					"description": "After using the Ultimate skill <c1>Raging Chainblast</c>, if the active skill <c1>Reinforcement Protocol</c> or <c1>Demolition Protocol</c> is not on cooldown, Balthilde may use that skill. The Confectance Index cost for the Ultimate skill <c1>Raging Chainblast</c> is reduced to <c2>4 points</c>. \n<c1>Constructs</c> gain additional effects based on the number of <c1>{ba7}</c> stacks: \n<c2>0 stacks</c>: Balthilde gains <c2>4 points</c> of Confectance Index and <c1>Constructs</c> cleanse <c2>1 debuff</c> from ally units <c2>within 5 tiles</c>. \n<c2>2 stacks</c>: Defense of all ally units <c2>within 5 tiles</c> of <c1>Constructs</c> is increased by <c2>20%</c>. Does not stack. \n<c2>5 stacks</c>: When using the Ultimate skill <c1>Raging Chainblast</c> and there are <c1>Constructs</c> within the area of effect, trigger the damaging death effect of the passive skill <c1>Wrench Calibration</c> for them. Each stack of <c1>{ba7}</c> increases the damage multiplier of the death effect by <c2>20%</c>.",
+					"description": "After using the Ultimate skill <c1>Raging Chainblast</c>, if the active skill <c1>Reinforcement Protocol</c> or <c1>Demolition Protocol</c> is not on cooldown, Balthilde may use that skill. The Confectance Index cost for the Ultimate skill <c1>Raging Chainblast</c> is reduced to <c2>4 points</c>. \n<c1>Constructs</c> gain additional effects based on the number of <c1>{ba7}</c> stacks: \n<c2>0 stacks</c>: Balthilde gains <c2>4 points</c> of Confectance Index and <c1>Constructs</c> cleanse <c2>1 debuff</c> from allied units <c2>within 5 tiles</c>. \n<c2>2 stacks</c>: Defense of all allied units <c2>within 5 tiles</c> of <c1>Constructs</c> is increased by <c2>20%</c>. Does not stack. \n<c2>5 stacks</c>: When using the Ultimate skill <c1>Raging Chainblast</c> and there are <c1>Constructs</c> within the effective area, triggers the damaging death effect of the passive skill <c1>Wrench Calibration</c> for them. Each stack of <c1>{ba7}</c> increases the damage multiplier of the death effect by <c2>20%</c>.",
 					"icon": "images/dolls/balthilde/Skill_Chrtalent_BalthildeSSR_expand.webp"
 				},
 				{
@@ -2365,7 +2367,7 @@
 				},
 				{
 					"id": "s1oc",
-					"name": "Shake And Make Up",
+					"name": "Peacemaker",
 					"type": 2,
 					"damage": [
 						8
@@ -2478,7 +2480,7 @@
 				},
 				{
 					"id": "s1of",
-					"name": "Safety First Principle",
+					"name": "Safety First",
 					"type": 5,
 					"damage": [
 						1
@@ -5358,7 +5360,7 @@
 						"Tile"
 					],
 					"range": "1",
-					"shape": "--",
+					"shape": "3 × 9",
 					"selects": [
 						5
 					],
@@ -5980,7 +5982,7 @@
 						"Control"
 					],
 					"range": "1",
-					"shape": "--",
+					"shape": "3 × 5",
 					"selects": [
 						5
 					],
@@ -7771,7 +7773,6 @@
 			"phase": 6,
 			"rarity": 3,
 			"gunType": 4,
-			"unreleased": true,
 			"icons": {
 				"avatar": "images/dolls/koleda/Avatar_Bust_KoledaSSR.webp",
 				"chibi": "images/dolls/koleda/Avatar_Head_KoledaSSR_Spine.webp",
@@ -7972,7 +7973,7 @@
 					],
 					"mode": 1,
 					"manual": true,
-					"description": "Restores HP equal to <c2>50%</c> of <c1>{blp}'s</c> Max HP and restores <c2>5 points</c> of stability.",
+					"description": "Restores <c1>{blp}'s</c> HP equal to <c2>50%</c> of its Max HP and restores <c2>5 points</c> of its stability.",
 					"icon": "images/dolls/koleda/Skill_KoledaSSR_Active_4.webp",
 					"summonId": "m1g",
 					"levels": {
@@ -7985,7 +7986,7 @@
 								"Stability Regen",
 								"Cleanse"
 							],
-							"description": "Restores HP equal to <c2>100%</c> of <c1>{blp}'s</c> Max HP, restores all stability and cleanses all its debuffs.",
+							"description": "Restores <c1>{blp}'s</c> HP equal to <c2>100%</c> of its Max HP, restores all of its stability, and cleanses all its debuffs.",
 							"upgradeDescription": "The effects of <c1>{bme}</c> are enhanced: restores HP equal to <c2>100%</c> of <c1>{blp}</c>'s Max HP, restores all stability, and cleanses all its debuffs.\nThe damage multiplier of <c1>{blp}</c>'s active skill <c1>Let's Go Full Speed!</c> is increased to <c2>120%</c>, and its width is increased by <c2>2 tiles</c>. The damage multipliers for the additional damage dealt when in <c1>{bmc}</c> and <c1>{bm8}</c> are increased to <c2>90%</c> and <c2>120%</c>, respectively."
 						}
 					}
@@ -7998,7 +7999,6 @@
 					"rarity": 2,
 					"number": 1,
 					"type": 1,
-					"unreleased": true,
 					"description": "At the start of the battle, gains <c1>{bln}</c> and <c2>2 stacks</c> of <c1>{blo}</c> for <c2>3 turns</c>. When <c1>{blp}</c> spawns, <c1>{blp}</c> gains <c1>{bln}</c> for <c2>3 turns</c>.",
 					"icon": "images/dolls/koleda/Skill_Chrtalent_Koleda01.webp"
 				},
@@ -8008,7 +8008,6 @@
 					"rarity": 2,
 					"number": 2,
 					"type": 1,
-					"unreleased": true,
 					"description": "When <c1>{blp}</c> takes lethal damage, HP will not drop below 1 until the end of the round. This effect has a cooldown of <c2>2 rounds</c>.",
 					"icon": "images/dolls/koleda/Skill_Chrtalent_Koleda02.webp"
 				},
@@ -8018,7 +8017,6 @@
 					"rarity": 2,
 					"number": 3,
 					"type": 1,
-					"unreleased": true,
 					"description": "Before <c1>{blp}</c> performs an active skill, cleanses <c2>1</c> buff from the enemy target.",
 					"icon": "images/dolls/koleda/Skill_Chrtalent_Koleda03.webp"
 				},
@@ -8028,7 +8026,6 @@
 					"rarity": 2,
 					"number": 4,
 					"type": 1,
-					"unreleased": true,
 					"description": "At the start of the turn, if Koleda has <c2>5 stacks</c> of <c1>{blo}</c>, cleanses all movement debuffs and Command Prohibition effects from herself.",
 					"icon": "images/dolls/koleda/Skill_Chrtalent_Koleda04.webp"
 				},
@@ -8038,7 +8035,6 @@
 					"rarity": 2,
 					"number": 5,
 					"type": 1,
-					"unreleased": true,
 					"description": "Before Koleda and <c1>{blp}</c> perform a basic attack or an active skill, applies <c1>{b1v}</c> to the enemy target for <c2>2 turns</c>.",
 					"icon": "images/dolls/koleda/Skill_Chrtalent_Koleda05.webp"
 				},
@@ -8048,7 +8044,6 @@
 					"rarity": 2,
 					"number": 6,
 					"type": 1,
-					"unreleased": true,
 					"description": "When <c1>{blp}</c> is in <c1>{bls}</c> or <c1>{blt}</c>, <c1>{blp}</c>'s attack is increased by <c2>4%</c> for <c2>each</c> enemy unit that dies, to a maximum increase of <c2>20%</c>.",
 					"icon": "images/dolls/koleda/Skill_Chrtalent_Koleda06.webp"
 				},
@@ -8057,7 +8052,6 @@
 					"name": "Killer Vision",
 					"rarity": 3,
 					"type": 2,
-					"unreleased": true,
 					"description": "If the mobility of this unit or her physical summon is greater than or equal to that of the target, damage dealt is increased by <c2>10%</c>.",
 					"icon": "images/dolls/koleda/Skill_Chrtalent_KoledaSSR.webp",
 					"dollId": "d35"
@@ -8067,7 +8061,6 @@
 					"name": "Dances With Wolves",
 					"rarity": 2,
 					"type": 4,
-					"unreleased": true,
 					"description": "An Affinity Key which grants the corresponding skill when equipped. Provides additional bonuses when equipped by Koleda.",
 					"icon": "images/dolls/koleda/Skill_Chrtalent_KoledaSSR_love.webp",
 					"dollId": "d35"
@@ -8100,13 +8093,13 @@
 							],
 							"mode": 1,
 							"manual": true,
-							"description": "Selects an allied Doll <c2>within 3 tiles</c> (excluding Koleda herself) and applies <c1>{blq}</c> to her. After this skill, gains <c2>9 tiles</c> of <c1>{bd5}</c> and may perform an extra command.",
+							"description": "Selects an allied Doll <c2>within 3 tiles</c> (excluding Koleda herself) and applies <c1>{blq}</c> to her. After this skill, gains <c2>9 tiles</c> of <c1>{bd5}</c> and can perform an extra command.",
 							"icon": "images/dolls/koleda/summons/Skill_KoledaSSRSummon_Active_1.webp",
 							"levels": {
 								"6": {
 									"id": "s1a1",
 									"level": 3,
-									"description": "Selects an allied Doll <c2>within 3 tiles</c> (excluding Koleda herself) and applies <c1>{bmg}</c> to her. After this skill, gains <c2>9 tiles</c> of <c1>{bd5}</c> and may perform an extra command."
+									"description": "Selects an allied Doll <c2>within 3 tiles</c> (excluding Koleda herself) and applies <c1>{bmg}</c> to her. After this skill, gains <c2>9 tiles</c> of <c1>{bd5}</c> and can perform an extra command."
 								}
 							}
 						},
@@ -9754,7 +9747,7 @@
 						"Tile"
 					],
 					"range": "1",
-					"shape": "--",
+					"shape": "7 × 3",
 					"selects": [
 						5
 					],
@@ -10066,7 +10059,7 @@
 						"Debuff"
 					],
 					"range": "1",
-					"shape": "--",
+					"shape": "3 × 5",
 					"selects": [
 						5
 					],
@@ -10249,8 +10242,7 @@
 					"rarity": 3,
 					"number": 1,
 					"type": 3,
-					"unreleased": true,
-					"description": "After applying <c1>Tin Soldier</c>, if there are <c2>4</c> or more Burn Dolls on the battlefield, the <c1>Rank</c> of <c1>Tin Soldier</c> is increased by <c2>1 level</c>. \nWhen <c1>Rank</c> reaches <c2>Level 3</c>, at the start of each round,  Lewis expends all stacks of <c1>{bag}</c> on the <c1>Tin Soldier</c>'s possessor. For <c2>each stack</c> of this effect that is expended, Burn damage dealt this turn is increased by <c2>6%</c> and critical damage is increased by <c2>6%</c>, to a maximum increase of <c2>48%</c>.",
+					"description": "After applying <c1>Tin Soldier</c>, if there are <c2>4</c> or more allied Burn Dolls on the battlefield, the <c1>Rank</c> of <c1>Tin Soldier</c> is increased by <c2>1 level</c>.\nWhen <c1>Rank</c> reaches <c2>Level 3</c>, at the start of each round, Lewis expends all stacks of <c1>{bag}</c> on the <c1>Tin Soldier</c>'s possessor. For <c2>each stack</c> of this effect that is expended, Burn damage dealt this turn is increased by <c2>6%</c> and critical damage is increased by <c2>6%</c>, to a maximum increase of <c2>48%</c>.",
 					"icon": "images/dolls/lewis/Skill_Chrtalent_LewisSSR_expand.webp"
 				},
 				{
@@ -11600,7 +11592,7 @@
 						"Cover Destruction"
 					],
 					"range": "1",
-					"shape": "--",
+					"shape": "3 × 5",
 					"selects": [
 						5
 					],
@@ -12143,7 +12135,7 @@
 								1
 							],
 							"mode": 1,
-							"description": "Upon spawning and at the end of this unit's action, it applies <c1>{b7s}</c> to all enemy targets <c2>within 3 tiles</c><c1>{b7s}</c> (this effect does not immediately take effect for targets that gain <c1>{b7s}</c> from an Interception) for <c2>2 turns</c>.",
+							"description": "Upon spawning and at the end of this unit's action, it applies <c1>{b7s}</c> to all enemy targets <c2>within 3 tiles</c> (this effect does not immediately take effect for targets that gain <c1>{b7s}</c> from an Interception) for <c2>2 turns</c>.",
 							"icon": "images/dolls/makiatto/summons/Skill_MacqiatoSSR_Passive_5.webp"
 						},
 						{
@@ -17494,7 +17486,7 @@
 						"AoE"
 					],
 					"range": "1",
-					"shape": "--",
+					"shape": "3 × 10",
 					"selects": [
 						5
 					],
@@ -17510,12 +17502,14 @@
 						"5": {
 							"id": "sz0",
 							"level": 2,
+							"shape": "5 × 10",
 							"description": "Selects a direction, then deals AoE <c6>Burn damage</c> equal to <c2>120%</c> of attack and applies <c2>3 stacks</c> of <c1>{bcb}</c> to all enemy units in a <c2>5x10 tile area in front</c>. In addition, all enemy units with <c1>{bcb}</c> have this effect stacked to its maximum count. After this skill resolves, triggers the effect of all <c1>{bcb}</c> stacks, Sakura gains <c1>{bca}</c> for <c2>2 turns</c> and <c2>2 points</c> of Confectance Index.",
 							"upgradeDescription": "Damage multiplier is increased by <c2>30%</c>, effective range is increased to a <c2>5x10 tile area in front</c>, and all enemy units with <c1>{bcb}</c> have this effect stacked to its maximum count."
 						},
 						"6": {
 							"id": "sz1",
 							"level": 3,
+							"shape": "5 × 10",
 							"description": "Selects a direction, then deals AoE <c6>Burn damage</c> equal to <c2>120%</c> of attack and applies <c2>3 stacks</c> of <c1>{bcb}</c> to all enemy units in a <c2>5x10 tile area in front</c>. In addition, all enemy units with <c1>{bcb}</c> have this effect stacked to its maximum count. After this skill resolves, triggers the effect of all <c1>{bcb}</c> stacks, Sakura gains <c1>{bcd}</c> for <c2>2 turns</c> and <c2>2 points</c> of Confectance Index.",
 							"upgradeDescription": "<c1>{bcd}</c> gains a new effect: Before an allied unit makes an active attack or an out-of-turn attack (excluding Sakura herself), Sakura applies <c2>1 stack</c> of <c1>{bcb}</c> to the target. This effect can trigger up to <c2>3 times</c> per turn."
 						}
@@ -17808,7 +17802,7 @@
 						"Melee"
 					],
 					"range": "1",
-					"shape": "--",
+					"shape": "3 × 9",
 					"selects": [
 						5
 					],
@@ -17835,7 +17829,7 @@
 						"Melee"
 					],
 					"range": "1",
-					"shape": "--",
+					"shape": "3 × 9",
 					"selects": [
 						5
 					],
@@ -19622,8 +19616,7 @@
 					"rarity": 3,
 					"number": 2,
 					"type": 3,
-					"unreleased": true,
-					"description": "At the start of the battle, gains <c2>3 stacks</c> of <c1>{bkr}</c>. At the end of Tololo's action, gains <c2>1 stack</c> of <c1>{bks}</c> for <c2>1 round</c>. If the maximum amount of <c1>{bkt}</c> has not been reached, expends <c2>1 stack</c> of <c1>{bkr}</c> and summons 1 <c1>{bkt}</c> near this unit for <c2>2 rounds</c>. At the beginning of <c2>each</c> turn, gains <c2>3 stacks</c> of <c1>{bkr}</c>. After Tololo makes an active attack, applies <c2>1 stack</c> of <c1>{bku}</c> to the target. After <c1>{bkt}</c> deals damage, Tololo applies <c2>1 stack</c> of <c1>{bkv}</c> to the target and gains <c2>1 stack</c> of <c1>{bkw}</c>.",
+					"description": "At the start of the battle, gains <c2>3 stacks</c> of <c1>{bkr}</c>. At the end of Tololo's action, gains <c2>1 stack</c> of <c1>{bks}</c> for <c2>1 round</c>. If the maximum amount of <c1>{bkt}</c> has not been reached, expends <c2>1 stack</c> of <c1>{bkr}</c> and summons 1 <c1>{bkt}</c> near this unit for <c2>2 rounds</c>. At the start of <c2>every other</c> turn, gains <c2>3 stacks</c> of <c1>{bkr}</c>. After Tololo makes an active attack, applies <c2>1 stack</c> of <c1>{bku}</c> to the target. After <c1>{bkt}</c> deals damage, Tololo applies <c2>1 stack</c> of <c1>{bkv}</c> to the target and gains <c2>1 stack</c> of <c1>{bkw}</c>.",
 					"icon": "images/dolls/tololo/Skill_Chrtalent_TololoSSR_expand.webp"
 				},
 				{
@@ -19639,10 +19632,9 @@
 			"summons": [
 				{
 					"id": "m1f",
-					"name": "Fixed-Point Satellite",
+					"name": "Geostationary Satellite",
 					"icon": "images/dolls/tololo/summons/Summon_Bust_TololoSSR01_Summon.webp",
 					"requiresKey": "fba",
-					"unreleased": true,
 					"skills": [
 						{
 							"id": "s18h",
@@ -20641,7 +20633,7 @@
 						"Support"
 					],
 					"range": "1",
-					"shape": "--",
+					"shape": "1 × 2",
 					"selects": [
 						5
 					],
@@ -20904,7 +20896,7 @@
 						"AoE"
 					],
 					"range": "1",
-					"shape": "--",
+					"shape": "3 × 9",
 					"selects": [
 						5
 					],

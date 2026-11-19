@@ -1868,7 +1868,8 @@ var SkillTypeLabels = [
   "Skill E",
   "Self Passive",
   "Move",
-  "End Turn"
+  "End Turn",
+  "HOC Skill"
 ];
 var SkillSelectLabels = [
   "",

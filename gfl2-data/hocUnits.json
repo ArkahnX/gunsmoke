@@ -1,0 +1,1465 @@
+{
+	"data": {
+		"u0": {
+			"id": "u0",
+			"name": "Porcelain",
+			"teamType": "Automatic Grenade Launcher Team",
+			"description": "A trio that extols the virtues of firepower. Its members are the leader Celadon, the loader Blanc and the operator Sancai.",
+			"icon": "images/hoc/Item_Icon_Support_AGL01.webp",
+			"tags": [
+				1,
+				2,
+				3
+			],
+			"mainAttributes": [
+				1,
+				2
+			],
+			"attributeRatings": {
+				"1": 7,
+				"2": 2,
+				"3": 1
+			},
+			"energy": {
+				"cost": 8,
+				"max": 8,
+				"description": "For every <color=#f26c1c>2</color> instances of damage dealt by allied units, gains <color=#f26c1c>1 point</color> of energy."
+			},
+			"ammo": [
+				{
+					"name": "Basic Grenade Launcher Ammo",
+					"description": "No Additional Effect",
+					"icon": "images/hoc/Support_Ammo_ATG_01_1.webp"
+				},
+				{
+					"name": "Standard Grenade Launcher Ammo",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>1.5x</color>.",
+					"tier": 1,
+					"damageBonus": 500,
+					"icon": "images/hoc/Support_Ammo_ATG_01_2.webp"
+				},
+				{
+					"name": "Elite Grenade Launcher Ammo",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>3.5x</color>.",
+					"tier": 2,
+					"damageBonus": 2500,
+					"icon": "images/hoc/Support_Ammo_ATG_01_3.webp"
+				}
+			],
+			"skill": {
+				"id": "s1qp",
+				"name": "Grenade Barrage",
+				"type": 14,
+				"damage": [
+					1
+				],
+				"tags": [],
+				"range": "Map",
+				"shape": "3",
+				"selects": [
+					1,
+					2
+				],
+				"affects": [
+					2,
+					3
+				],
+				"mode": 2,
+				"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 3 tiles</c> of it equal to <c2>1000+100%</c> of Response value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+				"icon": "images/hoc/skills/Skill_MTR01_Active.webp"
+			},
+			"levels": [
+				{
+					"power": 1875,
+					"attributes": {}
+				},
+				{
+					"power": 1955,
+					"attributes": {
+						"1": 200
+					},
+					"skill": {
+						"id": "s1qq",
+						"level": 2,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 3 tiles</c> of it equal to <c2>1100+105%</c> of Response value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1100+105%</c> of Response value."
+					}
+				},
+				{
+					"power": 2120,
+					"attributes": {
+						"1": 455,
+						"2": 70
+					},
+					"skill": {
+						"id": "s1qr",
+						"level": 3,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 3 tiles</c> of it equal to <c2>1150+115%</c> of Response value. If this skill hits <c2>3</c> targets, gains <c1>{bq}</c>, up to <c2>1 time</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1150+115%</c> of Response value. If this skill hits <c2>3</c> targets, gains <c1>{bq}</c>, up to <c2>1 time</c>."
+					}
+				},
+				{
+					"power": 2380,
+					"attributes": {
+						"1": 620,
+						"2": 80
+					},
+					"skill": {
+						"id": "s1qs",
+						"level": 4,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 3 tiles</c> of it equal to <c2>1200+125%</c> of Response value. If this skill hits <c2>3</c> targets, gains <c1>{bq}</c>, up to <c2>1 time</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1200+125%</c> of Response value."
+					}
+				},
+				{
+					"power": 2795,
+					"attributes": {
+						"1": 845,
+						"2": 90,
+						"3": 40
+					},
+					"skill": {
+						"id": "s1qt",
+						"level": 5,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 3 tiles</c> of it equal to <c2>1300+130%</c> of Response value. If this skill hits <c2>3</c> targets, gains <c1>{bq}</c>, up to <c2>1 time</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1300+130%</c> of Response value."
+					}
+				},
+				{
+					"power": 3300,
+					"attributes": {
+						"1": 1075,
+						"2": 100,
+						"3": 50
+					},
+					"skill": {
+						"id": "s1qu",
+						"level": 6,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 3 tiles</c> of it equal to <c2>1400+140%</c> of Response value. If this skill hits <c2>3</c> targets, gains <c1>{bq}</c>, up to <c2>2 times</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1400+140%</c> of Response value. The number of times <c1>{bq}</c> can be gained is increased to <c2>2 times</c>."
+					}
+				},
+				{
+					"power": 4015,
+					"attributes": {
+						"1": 1145,
+						"2": 120,
+						"3": 70
+					},
+					"skill": {
+						"id": "s1qv",
+						"level": 7,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 3 tiles</c> of it equal to <c2>1450+150%</c> of Response value. If this skill hits <c2>3</c> targets, gains <c1>{bq}</c>, up to <c2>2 times</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1450+150%</c> of Response value."
+					}
+				},
+				{
+					"power": 4925,
+					"attributes": {
+						"1": 1220,
+						"2": 145,
+						"3": 85
+					},
+					"skill": {
+						"id": "s1qw",
+						"level": 8,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 3 tiles</c> of it equal to <c2>1550+155%</c> of Response value. If this skill hits <c2>3</c> targets, gains <c1>{bq}</c>, up to <c2>2 times</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1550+155%</c> of Response value."
+					}
+				},
+				{
+					"power": 6075,
+					"attributes": {
+						"1": 1300,
+						"2": 160,
+						"3": 100
+					},
+					"skill": {
+						"id": "s1qx",
+						"level": 9,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 3 tiles</c> of it equal to <c2>1600+165%</c> of Response value. If this skill hits <c2>3</c> targets, gains <c1>{bq}</c>, up to <c2>2 times</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1600+165%</c> of Response value."
+					}
+				},
+				{
+					"power": 7500,
+					"attributes": {
+						"1": 1380,
+						"2": 190,
+						"3": 130
+					},
+					"skill": {
+						"id": "s1qy",
+						"level": 10,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 3 tiles</c> of it equal to <c2>1750+175%</c> of Response value. If this skill hits <c2>3</c> targets, gains <c1>{bq}</c>, up to <c2>2 times</c>. Damage dealt to Paradeus Doll units is increased by <c2>100%</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1750+175%</c> of Response value. Damage dealt to Paradeus Doll units is increased by <c2>100%</c>."
+					}
+				}
+			]
+		},
+		"u1": {
+			"id": "u1",
+			"name": "Fabric",
+			"teamType": "Mortar Team",
+			"description": "A trio who pay close attention to their clothing and constantly chase fashion trends. Its members are the leader Chiffon, the loader Cashmere and the gunner Taffeta.",
+			"icon": "images/hoc/Item_Icon_Support_MTR01.webp",
+			"tags": [
+				1,
+				4,
+				5
+			],
+			"mainAttributes": [
+				4,
+				5
+			],
+			"attributeRatings": {
+				"3": 1,
+				"4": 13,
+				"5": 2
+			},
+			"energy": {
+				"cost": 8,
+				"max": 8,
+				"description": "At the end of an allied unit's action, gains <color=#f26c1c>1 point</color> of energy."
+			},
+			"ammo": [
+				{
+					"name": "Basic Mortar Ammo",
+					"description": "No Additional Effect",
+					"icon": "images/hoc/Support_Ammo_MRT_01_1.webp"
+				},
+				{
+					"name": "Standard Mortar Ammo",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>1.5x</color>.",
+					"tier": 1,
+					"damageBonus": 500,
+					"icon": "images/hoc/Support_Ammo_MRT_01_2.webp"
+				},
+				{
+					"name": "Elite Mortar Ammo",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>3.5x</color>.",
+					"tier": 2,
+					"damageBonus": 2500,
+					"icon": "images/hoc/Support_Ammo_MRT_01_3.webp"
+				}
+			],
+			"skill": {
+				"id": "s1qz",
+				"name": "Focused Bombardment",
+				"type": 14,
+				"damage": [
+					1
+				],
+				"tags": [],
+				"range": "Map",
+				"shape": "5",
+				"selects": [
+					3,
+					7
+				],
+				"affects": [
+					2,
+					3
+				],
+				"mode": 2,
+				"description": "Selects a tile on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to all enemy targets <c2>within 5 tiles</c> of the target equal to <c2>500+75%</c> of Tactical value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+				"icon": "images/hoc/skills/Skill_AGL01_Active.webp"
+			},
+			"levels": [
+				{
+					"power": 1875,
+					"attributes": {}
+				},
+				{
+					"power": 1955,
+					"attributes": {
+						"4": 200
+					},
+					"skill": {
+						"id": "s1r0",
+						"level": 2,
+						"description": "Selects a tile on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to all enemy targets <c2>within 5 tiles</c> of the target equal to <c2>625+80%</c> of Tactical value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>625+80%</c> of Tactical value."
+					}
+				},
+				{
+					"power": 2120,
+					"attributes": {
+						"4": 460,
+						"5": 65
+					},
+					"skill": {
+						"id": "s1r1",
+						"level": 3,
+						"description": "Selects a tile on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to all enemy targets <c2>within 5 tiles</c> of the target equal to <c2>750+85%</c> of Tactical value. After hitting an enemy target, the area of effect for the next use of the skill is increased to <c2>7 tiles</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>750+85%</c> of Tactical value. After hitting an enemy target, the area of effect for the next use of the skill is increased to <c2>7 tiles</c>."
+					}
+				},
+				{
+					"power": 2380,
+					"attributes": {
+						"4": 635,
+						"5": 65
+					},
+					"skill": {
+						"id": "s1r2",
+						"level": 4,
+						"description": "Selects a tile on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to all enemy targets <c2>within 5 tiles</c> of the target equal to <c2>875+90%</c> of Tactical value. After hitting an enemy target, the area of effect for the next use of the skill is increased to <c2>7 tiles</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>875+90%</c> of Tactical value."
+					}
+				},
+				{
+					"power": 2795,
+					"attributes": {
+						"4": 875,
+						"5": 70,
+						"6": 30
+					},
+					"skill": {
+						"id": "s1r3",
+						"level": 5,
+						"description": "Selects a tile on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to all enemy targets <c2>within 5 tiles</c> of the target equal to <c2>1000+95%</c> of Tactical value. After hitting an enemy target, the area of effect for the next use of the skill is increased to <c2>7 tiles</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1000+95%</c> of Tactical value."
+					}
+				},
+				{
+					"power": 3300,
+					"attributes": {
+						"4": 1125,
+						"5": 70,
+						"6": 30
+					},
+					"skill": {
+						"id": "s1r4",
+						"level": 6,
+						"description": "Selects a tile on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to all enemy targets <c2>within 5 tiles</c> of the target equal to <c2>1150+100%</c> of Tactical value. For each target hit, the damage multiplier is further increased by <c2>25%</c>, to a maximum of <c2>150%</c>. After hitting an enemy target, the area of effect for the next use of the skill is increased to <c2>7 tiles</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1150+100%</c> of Tactical value. For each target hit, the damage multiplier is further increased by <c2>25%</c>, to a maximum of <c2>150%</c>."
+					}
+				},
+				{
+					"power": 4015,
+					"attributes": {
+						"4": 1210,
+						"5": 80,
+						"6": 45
+					},
+					"skill": {
+						"id": "s1r5",
+						"level": 7,
+						"description": "Selects a tile on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to all targets <c2>within 5 tiles</c> of the target equal to <c2>1300+105%</c> of Tactical value. For each target hit, the damage multiplier is further increased by <c2>25%</c>, to a maximum of <c2>150%</c>. After hitting an enemy target, the area of effect for the next use of the skill is increased to <c2>7 tiles</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1300+105%</c> of Tactical value."
+					}
+				},
+				{
+					"power": 4925,
+					"attributes": {
+						"4": 1305,
+						"5": 90,
+						"6": 55
+					},
+					"skill": {
+						"id": "s1r6",
+						"level": 8,
+						"description": "Selects a tile on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to all enemy targets <c2>within 5 tiles</c> of the target equal to <c2>1450+110%</c> of Tactical value. For each target hit, the damage multiplier is further increased by <c2>25%</c>, to a maximum of <c2>150%</c>. After hitting an enemy target, the area of effect for the next use of the skill is increased to <c2>7 tiles</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1450+110%</c> of Tactical value."
+					}
+				},
+				{
+					"power": 6075,
+					"attributes": {
+						"4": 1400,
+						"5": 100,
+						"6": 60
+					},
+					"skill": {
+						"id": "s1r7",
+						"level": 9,
+						"description": "Selects a tile on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to all enemy targets <c2>within 5 tiles</c> of the target equal to <c2>1600+115%</c> of Tactical value. For each target hit, the damage multiplier is further increased by <c2>25%</c>, to a maximum of <c2>150%</c>. After hitting an enemy target, the area of effect for the next use of the skill is increased to <c2>7 tiles</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1600+115%</c> of Tactical value."
+					}
+				},
+				{
+					"power": 7500,
+					"attributes": {
+						"4": 1500,
+						"5": 120,
+						"6": 80
+					},
+					"skill": {
+						"id": "s1r8",
+						"level": 10,
+						"description": "Selects a tile on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to all targets <c2>within 5 tiles</c> of the target equal to <c2>1750+125%</c> of Tactical value. For each target hit, the damage multiplier is further increased by <c2>25%</c>, to a maximum of <c2>150%</c>. After hitting an enemy target, the area of effect for the next use of the skill is increased to <c2>7 tiles</c>. Damage dealt to Girard Group mechanical units is increased by <c2>100%</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1750+125%</c> of Tactical value. Damage dealt to Girard Group mechanical units is increased by <c2>100%</c>."
+					}
+				}
+			]
+		},
+		"u2": {
+			"id": "u2",
+			"name": "Limonad",
+			"teamType": "RPG Team",
+			"description": "A trio who constantly reek of alcohol. Its members are the leader Tarkhun, the loader Citro and the operator Bakhmaro.",
+			"icon": "images/hoc/Item_Icon_Support_ATG01.webp",
+			"tags": [
+				1,
+				6,
+				7
+			],
+			"mainAttributes": [
+				3,
+				6
+			],
+			"attributeRatings": {
+				"3": 6,
+				"4": 1,
+				"6": 2
+			},
+			"energy": {
+				"start": 4,
+				"cost": 4,
+				"max": 4,
+				"description": "Starts the battle with full energy. At the end of each round, gains <color=#f26c1c>2 points</color> of energy."
+			},
+			"ammo": [
+				{
+					"name": "Basic RPG Ammo",
+					"description": "No Additional Effect",
+					"icon": "images/hoc/Support_Ammo_LCH_01_1.webp"
+				},
+				{
+					"name": "Standard RPG Ammo",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>1.5x</color>.",
+					"tier": 1,
+					"damageBonus": 500,
+					"icon": "images/hoc/Support_Ammo_LCH_01_2.webp"
+				},
+				{
+					"name": "Elite RPG Ammo",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>3.5x</color>.",
+					"tier": 2,
+					"damageBonus": 2500,
+					"icon": "images/hoc/Support_Ammo_LCH_01_3.webp"
+				}
+			],
+			"skill": {
+				"id": "s1r9",
+				"name": "Rocket Mania",
+				"type": 14,
+				"damage": [
+					1
+				],
+				"tags": [],
+				"range": "Map",
+				"shape": "Target",
+				"selects": [
+					1,
+					2
+				],
+				"affects": [
+					1
+				],
+				"mode": 1,
+				"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals Physical damage to it equal to <c2>2000+250%</c> of Precision value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+				"icon": "images/hoc/skills/Skill_ATG01_Active.webp"
+			},
+			"levels": [
+				{
+					"power": 1875,
+					"attributes": {}
+				},
+				{
+					"power": 1955,
+					"attributes": {
+						"3": 200
+					},
+					"skill": {
+						"id": "s1ra",
+						"level": 2,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals Physical damage to it equal to <c2>2000+275%</c> of Precision Value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>2000+275%</c> of Precision value."
+					}
+				},
+				{
+					"power": 2120,
+					"attributes": {
+						"3": 440,
+						"6": 85
+					},
+					"skill": {
+						"id": "s1rb",
+						"level": 3,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals Physical damage to it equal to <c2>2000+300%</c> of Precision value and deals the same damage to other targets <c2>within 2 tiles</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>2000+300%</c> of Precision value. Deals the same damage to other targets <c2>within 2 tiles</c> of the selected target."
+					}
+				},
+				{
+					"power": 2380,
+					"attributes": {
+						"3": 575,
+						"6": 125
+					},
+					"skill": {
+						"id": "s1rc",
+						"level": 4,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals Physical damage to it equal to <c2>2000+315%</c> of Precision value and deals the same damage to other targets <c2>within 2 tiles</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>2000+315%</c> of Precision value."
+					}
+				},
+				{
+					"power": 2795,
+					"attributes": {
+						"3": 755,
+						"4": 65,
+						"6": 155
+					},
+					"skill": {
+						"id": "s1rd",
+						"level": 5,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals Physical damage to it equal to <c2>2050+330%</c> of Precision value and deals the same damage to other targets <c2>within 2 tiles</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>2050+330%</c> of Precision value."
+					}
+				},
+				{
+					"power": 3300,
+					"attributes": {
+						"3": 925,
+						"4": 100,
+						"6": 200
+					},
+					"skill": {
+						"id": "s1re",
+						"level": 6,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals Physical damage to it equal to <c2>2100+490%</c> of Precision value and deals Physical damage to other targets <c2>within 2 tiles</c> equal to <c2>2100+350%</c> of Precision value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>2100+350%</c> of Precision value. Damage multiplier against the selected target is further increased to <c2>490%</c> of Precision value."
+					}
+				},
+				{
+					"power": 4015,
+					"attributes": {
+						"3": 950,
+						"4": 140,
+						"6": 245
+					},
+					"skill": {
+						"id": "s1rf",
+						"level": 7,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals Physical damage to it equal to <c2>2200+517%</c> of Precision value and deals Physical damage to all enemy units <c2>within 2 tiles</c> equal to <c2>2200+375%</c> of Precision value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>2200+375%</c> of Precision value. Damage multiplier against the selected target is further increased to <c2>517%</c> of Precision value."
+					}
+				},
+				{
+					"power": 4925,
+					"attributes": {
+						"3": 975,
+						"4": 170,
+						"6": 305
+					},
+					"skill": {
+						"id": "s1rg",
+						"level": 8,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals Physical damage to it equal to <c2>2300+540%</c> of Precision value and deals Physical damage to all enemy units <c2>within 2 tiles</c> equal to <c2>2300+400%</c> of Precision value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>2300+400%</c> of Precision value. Damage multiplier against the selected target is further increased to <c2>540%</c> of Precision value."
+					}
+				},
+				{
+					"power": 6075,
+					"attributes": {
+						"3": 995,
+						"4": 210,
+						"6": 355
+					},
+					"skill": {
+						"id": "s1rh",
+						"level": 9,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals Physical damage to it equal to <c2>2400+565%</c> of Precision value and deals Physical damage to all enemy units <c2>within 2 tiles</c> equal to <c2>2400+425%</c> of Precision value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>2400+425%</c> of Precision value. Damage multiplier against the selected target is further increased to <c2>565%</c> of Precision value."
+					}
+				},
+				{
+					"power": 7500,
+					"attributes": {
+						"3": 1020,
+						"4": 275,
+						"6": 405
+					},
+					"skill": {
+						"id": "s1ri",
+						"level": 10,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals targeted Physical damage to it equal to <c2>2500+590%</c> of Precision value and deals targeted Physical damage to all other targets <c2>within 2 tiles</c> equal to <c2>2500+450%</c> of Precision value. Damage dealt to PMC Mechanical units is increased by <c2>100%</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>2500+590%</c> of Precision value. The damage multiplier for the selected target is further increased to <c2>590%</c> of Precision value. \nDamage dealt to PMC Mechanical units is increased by <c2>100%</c>."
+					}
+				}
+			]
+		},
+		"u3": {
+			"id": "u3",
+			"name": "Spectrum",
+			"teamType": "Advanced Recon System",
+			"description": "A taciturn trio within the Doll Community. Their members are the leader Brieson, the spotter Aurora and the signaller Amber.",
+			"icon": "images/hoc/Item_Icon_Support_FAC01.webp",
+			"tags": [
+				8,
+				9,
+				10
+			],
+			"mainAttributes": [
+				3,
+				1
+			],
+			"attributeRatings": {
+				"1": 2,
+				"3": 6,
+				"6": 1
+			},
+			"energy": {
+				"start": 4,
+				"cost": 4,
+				"max": 4,
+				"description": "Starts battle with full energy. At the end of allied units' action, gains <color=#f26c1c>1 point</color> of energy."
+			},
+			"ammo": [
+				{
+					"name": "Basic Fuel Cell",
+					"description": "No Additional Effect",
+					"icon": "images/hoc/Support_Ammo_BTY_02_1.webp"
+				},
+				{
+					"name": "Standard Fuel Cell",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>1.5x</color>.",
+					"tier": 1,
+					"damageBonus": 500,
+					"icon": "images/hoc/Support_Ammo_BTY_02_2.webp"
+				},
+				{
+					"name": "Elite Fuel Cell",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>3.5x</color>.",
+					"tier": 2,
+					"damageBonus": 2500,
+					"icon": "images/hoc/Support_Ammo_BTY_02_3.webp"
+				}
+			],
+			"skill": {
+				"id": "s1rj",
+				"name": "All-Seeing Eye",
+				"type": 14,
+				"damage": [
+					1
+				],
+				"tags": [],
+				"range": "Map",
+				"shape": "Map",
+				"selects": [
+					4
+				],
+				"affects": [
+					1
+				],
+				"mode": 1,
+				"description": "At the start of the turn, selects the 2 enemy targets with the highest HP on <c2>Peripheral Battlefield 1</c>, applies <c1>{bra}</c> to them for <c2>1 turn</c>, and deals Physical damage to them equal to <c2>750+25%</c> of Precision value. In addition, selects the enemy target on the Core Battlefield with the highest HP and applies <c1>{brb}</c> to it for <c2>1 turn</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. When all enemy units on the Peripheral Battlefield are dead, damage dealt is increased.",
+				"icon": "images/hoc/skills/Skill_FAC01_Passive.webp"
+			},
+			"levels": [
+				{
+					"power": 1875,
+					"attributes": {}
+				},
+				{
+					"power": 1955,
+					"attributes": {
+						"3": 200
+					},
+					"skill": {
+						"id": "s1rk",
+						"level": 2,
+						"description": "At the start of the turn, selects the 2 enemy targets with the highest HP on <c2>Peripheral Battlefield 1</c>, applies <c1>{brc}</c> to them for <c2>1 turn</c>, and deals Physical damage to them equal to <c2>750+25%</c> of Precision value. In addition, selects the enemy target on the Core Battlefield with the highest HP and applies <c1>{brb}</c> to it for <c2>1 turn</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. When all enemy units on the Peripheral Battlefield are dead, damage dealt is increased.",
+						"upgradeDescription": "<c1>{brc}</c> is enhanced: damage taken is increased to <c2>24%+0.05%</c> of Precision value."
+					}
+				},
+				{
+					"power": 2120,
+					"attributes": {
+						"1": 75,
+						"3": 450
+					},
+					"skill": {
+						"id": "s1rl",
+						"level": 3,
+						"description": "At the start of the turn, selects the 2 enemy targets with the highest HP on <c2>Peripheral Battlefield 1</c>, applies <c1>{brd}</c> to them for <c2>1 turn</c>, and deals Physical damage to them equal to <c2>750+25%</c> of Precision value. In addition, selects the enemy target on the Core Battlefield with the highest HP and applies <c1>{brb}</c> to it for <c2>1 turn</c>. The Armed Echelon gains <c1>{bre}</c> for <c2>1 turn</c>. Once all enemy units on the Peripheral Battlefield are dead, applies <c1>{brf}</c> to the allied unit on the Core Battlefield with the highest attack. \nDamage dealt to enemy units on the Core Battlefield is increased. When all enemy units on the Peripheral Battlefield are dead, damage dealt is increased.",
+						"upgradeDescription": "The effect of <c1>{brd}</c> is enhanced: damage taken is increased to <c2>30%+0.05%</c> of Precision value. \nThe Armed Echelon gains <c1>{bre}</c> for <c2>1 turn</c>. Once all enemy units on the Peripheral Battlefield are dead, applies <c1>{brf}</c> to the ally unit on the Core Battlefield with the highest attack."
+					}
+				},
+				{
+					"power": 2380,
+					"attributes": {
+						"1": 85,
+						"3": 615
+					},
+					"skill": {
+						"id": "s1rm",
+						"level": 4,
+						"description": "At the start of the turn, selects the 2 enemy targets with the highest HP on <c2>Peripheral Battlefield 1</c>, applies <c1>{brg}</c> to them for <c2>1 turn</c>, and deals Physical damage to them equal to <c2>750+25%</c> of Precision value. In addition, selects the enemy target on the Core Battlefield with the highest HP and applies <c1>{brb}</c> to it for <c2>1 turn</c>. The Armed Echelon gains <c1>{bre}</c> for <c2>1 turn</c>. Once all enemy units on the Peripheral Battlefield are dead, applies <c1>{brf}</c> to the allied unit on the Core Battlefield with the highest attack. \nDamage dealt to enemy units on the Core Battlefield is increased. When all enemy units on the Peripheral Battlefield are dead, damage dealt is increased.",
+						"upgradeDescription": "<c1>{brg}</c> is enhanced: damage taken is increased to <c2>30%+0.055%</c> of Precision value."
+					}
+				},
+				{
+					"power": 2795,
+					"attributes": {
+						"1": 95,
+						"3": 840,
+						"6": 40
+					},
+					"skill": {
+						"id": "s1rn",
+						"level": 5,
+						"description": "At the start of the turn, selects the 2 enemy targets with the highest HP on <c2>Peripheral Battlefield 1</c>, applies <c1>{brh}</c> to them for <c2>1 turn</c>, and deals Physical damage to them equal to <c2>750+25%</c> of Precision value. In addition, selects the enemy target on the Core Battlefield with the highest HP and applies <c1>{brb}</c> to it for <c2>1 turn</c>. The Armed Echelon gains <c1>{bre}</c> for <c2>1 turn</c>. Once all enemy units on the Peripheral Battlefield are dead, applies <c1>{brf}</c> to the allied unit on the Core Battlefield with the highest attack. \nDamage dealt to enemy units on the Core Battlefield is increased. When all enemy units on the Peripheral Battlefield are dead, damage dealt is increased.",
+						"upgradeDescription": "<c1>{brh}</c> is enhanced: damage taken is increased to <c2>30%+0.06%</c> of Precision value."
+					}
+				},
+				{
+					"power": 3300,
+					"attributes": {
+						"1": 95,
+						"3": 1080,
+						"6": 50
+					},
+					"skill": {
+						"id": "s1ro",
+						"level": 6,
+						"description": "At the start of the turn, selects the 3 enemy targets with the highest HP on <c2>Peripheral Battlefield 1</c>, applies <c1>{bri}</c> to them for <c2>1 turn</c>, and deals Physical damage to them equal to <c2>750+25%</c> of Precision value. In addition, selects the enemy target on the Core Battlefield with the highest HP and applies <c1>{brb}</c> to it for <c2>1 turn</c>. The Armed Echelon gains <c1>{bre}</c> for <c2>1 turn</c>. Once all enemy units on the Peripheral Battlefield are dead, applies <c1>{brf}</c> to the allied unit on the Core Battlefield with the highest attack. \nDamage dealt to enemy units on the Core Battlefield is increased. When all enemy units on the Peripheral Battlefield are dead, damage dealt is increased.",
+						"upgradeDescription": "The number of enemy targets selected on the <c2>Peripheral Battlefield 1</c> is increased by 3. \n<c1>{bri}</c> is enhanced: damage taken is increased to <c2>30%+0.07%</c> of Precision value."
+					}
+				},
+				{
+					"power": 4015,
+					"attributes": {
+						"1": 100,
+						"3": 1180,
+						"6": 55
+					},
+					"skill": {
+						"id": "s1rp",
+						"level": 7,
+						"description": "At the start of the turn, selects the 3 enemy targets with the highest HP on <c2>Peripheral Battlefield 1</c>, applies <c1>{brj}</c> to them for <c2>1 turn</c>, and deals Physical damage to them equal to <c2>750+25%</c> of Precision value. In addition, selects the enemy target on the Core Battlefield with the highest HP and applies <c1>{brb}</c> to it for <c2>1 turn</c>. The Armed Echelon gains <c1>{bre}</c> for <c2>1 turn</c>. Once all enemy units on the Peripheral Battlefield are dead, applies <c1>{brf}</c> to the allied unit on the Core Battlefield with the highest attack. \nDamage dealt to enemy units on the Core Battlefield is increased. When all enemy units on the Peripheral Battlefield are dead, damage dealt is increased.",
+						"upgradeDescription": "<c1>{brj}</c> is enhanced: damage taken is increased to <c2>32%+0.07%</c> of Precision value."
+					}
+				},
+				{
+					"power": 4925,
+					"attributes": {
+						"1": 100,
+						"3": 1290,
+						"6": 60
+					},
+					"skill": {
+						"id": "s1rq",
+						"level": 8,
+						"description": "At the start of the turn, selects the 3 enemy targets with the highest HP on <c2>Peripheral Battlefield 1</c>, applies <c1>{brk}</c> to them for <c2>1 turn</c>, and deals Physical damage to them equal to <c2>750+25%</c> of Precision value. In addition, selects the enemy target on the Core Battlefield with the highest HP and applies <c1>{brb}</c> to it for <c2>1 turn</c>. The Armed Echelon gains <c1>{bre}</c> for <c2>1 turn</c>. Once all enemy units on the Peripheral Battlefield are dead, applies <c1>{brf}</c> to the allied unit on the Core Battlefield with the highest attack. \nDamage dealt to enemy units on the Core Battlefield is increased. When all enemy units on the Peripheral Battlefield are dead, damage dealt is increased.",
+						"upgradeDescription": "<c1>{brk}</c> is enhanced: damage taken is increased to <c2>34%+0.08%</c> of Precision value."
+					}
+				},
+				{
+					"power": 6075,
+					"attributes": {
+						"1": 100,
+						"3": 1415,
+						"6": 45
+					},
+					"skill": {
+						"id": "s1rr",
+						"level": 9,
+						"description": "At the start of the turn, selects the 3 enemy targets with the highest HP on <c2>Peripheral Battlefield 1</c>, applies <c1>{brl}</c> to them for <c2>1 turn</c>, and deals Physical damage to them equal to <c2>750+25%</c> of Precision value. In addition, selects the enemy target on the Core Battlefield with the highest HP and applies <c1>{brb}</c> to it for <c2>1 turn</c>. The Armed Echelon gains <c1>{bre}</c> for <c2>1 turn</c>. Once all enemy units on the Peripheral Battlefield are dead, applies <c1>{brf}</c> to the allied unit on the Core Battlefield with the highest attack. \nDamage dealt to enemy units on the Core Battlefield is increased. When all enemy units on the Peripheral Battlefield are dead, damage dealt is increased.",
+						"upgradeDescription": "The effect of <c1>{brl}</c> is enhanced: damage taken is increased to <c2>36%+0.09%</c> of Precision value."
+					}
+				},
+				{
+					"power": 7500,
+					"attributes": {
+						"1": 100,
+						"3": 1560,
+						"6": 40
+					},
+					"skill": {
+						"id": "s1rs",
+						"level": 10,
+						"description": "At the start of the turn, selects the 3 enemy targets with the highest HP on <c2>Peripheral Battlefield 1</c>, applies <c1>{brm}</c> to them for <c2>1 turn</c>, and deals Physical damage to them equal to <c2>750+25%</c> of Precision value. In addition, selects the enemy target on the Core Battlefield with the highest HP and applies <c1>{brb}</c> for <c2>1 turn</c>. The Armed Echelon gains <c1>{bre}</c> for <c2>1 turn</c>. Once all enemy units on the Peripheral Battlefield are dead, applies <c1>{brf}</c> to the allied unit on the Core Battlefield with the highest attack. \nDamage dealt to URNC mechanical units is increased by <c2>100%</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. When all enemy units on the Peripheral Battlefield are dead, damage dealt is increased.",
+						"upgradeDescription": "The effect of <c1>{brm}</c> is enhanced: damage taken enhancement is increased to <c2>40%+0.1%</c> of Precision value. \nDamage dealt to URNC mechanical units is increased by <c2>100%</c>."
+					}
+				}
+			]
+		},
+		"u4": {
+			"id": "u4",
+			"name": "Falconer",
+			"teamType": "Battlefield Support Drone",
+			"description": "A trio of Vepley fangirls within the Doll Community. Their members are the leader Maggie, the spotter Corva and the operator Gleda.",
+			"icon": "images/hoc/Item_Icon_Support_UAV01.webp",
+			"tags": [
+				8,
+				5,
+				7
+			],
+			"mainAttributes": [
+				4,
+				2
+			],
+			"attributeRatings": {
+				"2": 2,
+				"4": 5,
+				"5": 1
+			},
+			"energy": {
+				"cost": -1,
+				"max": 5,
+				"description": "After an Armed Echelon performs an active attack or when an allied unit uses an active skill to attack <color=#f26c1c>twice</color>, gains <color=#f26c1c>1 point</color> of energy."
+			},
+			"ammo": [
+				{
+					"name": "Basic Lightweight Battery Pack",
+					"description": "No Additional Effect",
+					"icon": "images/hoc/Support_Ammo_BTY_01_1.webp"
+				},
+				{
+					"name": "Standard Lightweight Battery Pack",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>1.5x</color>.",
+					"tier": 1,
+					"damageBonus": 500,
+					"icon": "images/hoc/Support_Ammo_BTY_01_2.webp"
+				},
+				{
+					"name": "Elite Lightweight Battery Pack",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>3.5x</color>.",
+					"tier": 2,
+					"damageBonus": 2500,
+					"icon": "images/hoc/Support_Ammo_BTY_01_3.webp"
+				}
+			],
+			"skill": {
+				"id": "s1rt",
+				"name": "Kinetic Beat",
+				"type": 14,
+				"damage": [
+					1
+				],
+				"tags": [],
+				"range": "Map",
+				"shape": "3",
+				"selects": [
+					1
+				],
+				"affects": [
+					2
+				],
+				"mode": 5,
+				"description": "At the end of the Armed Echelon's action, selects the enemy target with the highest HP on <c2>Peripheral Battlefield 1</c> or the Core Battlefield. Deals AoE Physical damage to it and all enemy units <c2>within 3 tiles</c> equal to <c2>750+50%</c> of Tactical value. Expends all energy. For <c2>each point</c> of energy expended, damage dealt is increased by <c2>5%</c>, to a maximum increase of <c2>25%</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+				"icon": "images/hoc/skills/Skill_UAV01_Passive.webp"
+			},
+			"levels": [
+				{
+					"power": 1875,
+					"attributes": {}
+				},
+				{
+					"power": 1955,
+					"attributes": {
+						"4": 200
+					},
+					"skill": {
+						"id": "s1ru",
+						"level": 2,
+						"description": "At the end of the Armed Echelon's action, selects the enemy target with the highest HP on <c2>Peripheral Battlefield 1</c> or the Core Battlefield. Deals AoE Physical damage to it and all enemy units <c2>within 3 tiles</c> equal to <c2>775+55%</c> of Tactical value. Expends all energy. For <c2>each point</c> of energy expended, damage dealt is increased by <c2>5%</c>, to a maximum increase of <c2>25%</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>775+55%</c> of Tactical value."
+					}
+				},
+				{
+					"power": 2120,
+					"attributes": {
+						"2": 85,
+						"4": 440
+					},
+					"skill": {
+						"id": "s1rv",
+						"level": 3,
+						"description": "At the end of the Armed Echelon's action, selects the enemy target with the highest HP on <c2>Peripheral Battlefield 1</c> or the Core Battlefield. Deals AoE Physical damage to it and all enemy units <c2>within 3 tiles</c> equal to <c2>800+60%</c> of Tactical value. Expends all energy. For <c2>each point</c> of energy expended, damage dealt is increased by <c2>5%</c>, to a maximum increase of <c2>25%</c>. Before attacking a target on <c2>Peripheral Battlefield 1</c>, applies <c1>{brn}</c> to it for <c2>2 rounds</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>800+60%</c> of Tactical value. \nBefore attacking an enemy target on <c2>Peripheral Battlefield 1</c>, applies <c1>{brn}</c> to it for <c2>2 rounds</c>."
+					}
+				},
+				{
+					"power": 2380,
+					"attributes": {
+						"2": 115,
+						"4": 585
+					},
+					"skill": {
+						"id": "s1rw",
+						"level": 4,
+						"description": "At the end of the Armed Echelon's action, selects the enemy target with the highest HP on <c2>Peripheral Battlefield 1</c> or the Core Battlefield. Deals AoE Physical damage to it and all enemy units <c2>within 3 tiles</c> equal to <c2>825+65%</c> of Tactical value. Expends all energy. For <c2>each point</c> of energy expended, damage dealt is increased by <c2>5%</c>, to a maximum increase of <c2>25%</c>. Before attacking a target on <c2>Peripheral Battlefield 1</c>, applies <c1>{brn}</c> to it for <c2>2 rounds</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>825+65%</c> of Tactical value."
+					}
+				},
+				{
+					"power": 2795,
+					"attributes": {
+						"2": 145,
+						"4": 770,
+						"5": 60
+					},
+					"skill": {
+						"id": "s1rx",
+						"level": 5,
+						"description": "At the end of the Armed Echelon's action, selects the enemy target with the highest HP on <c2>Peripheral Battlefield 1</c> or the Core Battlefield. Deals AoE Physical damage to it and all enemy units <c2>within 3 tiles</c> equal to <c2>850+70%</c> of Tactical value. Expends all energy. For <c2>each point</c> of energy expended, damage dealt is increased by <c2>5%</c>, to a maximum increase of <c2>25%</c>. Before attacking a target on <c2>Peripheral Battlefield 1</c>, applies <c1>{brn}</c> to it for <c2>2 rounds</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>850+70%</c> of Tactical value."
+					}
+				},
+				{
+					"power": 3300,
+					"attributes": {
+						"2": 180,
+						"4": 950,
+						"5": 95
+					},
+					"skill": {
+						"id": "s1ry",
+						"level": 6,
+						"description": "At the end of the Armed Echelon's action, selects the enemy target with the highest HP on <c2>Peripheral Battlefield 1</c> or the Core Battlefield. Deals AoE Physical damage to it and all enemy units <c2>within 3 tiles</c> equal to <c2>875+75%</c> of Tactical value. Expends all energy. For <c2>each point</c> of energy expended, damage dealt is increased by <c2>5%</c>, to a maximum increase of <c2>25%</c>. Before attacking a target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{bro}</c> to it for <c2>2 rounds</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>875+75%</c> of Tactical value. \nBefore attacking a target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{bro}</c> to it for <c2>2 rounds</c>."
+					}
+				},
+				{
+					"power": 4015,
+					"attributes": {
+						"2": 230,
+						"4": 980,
+						"5": 125
+					},
+					"skill": {
+						"id": "s1rz",
+						"level": 7,
+						"description": "At the end of the Armed Echelon's action, selects the enemy target with the highest HP on <c2>Peripheral Battlefield 1</c> or the Core Battlefield. Deals AoE Physical damage to it and all enemy units <c2>within 3 tiles</c> equal to <c2>900+80%</c> of Tactical value. Expends all energy. For <c2>each point</c> of energy expended, damage dealt is increased by <c2>5%</c>, to a maximum increase of <c2>25%</c>. Before attacking a target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{bro}</c> for <c2>2 rounds</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>900+80%</c> of Tactical value."
+					}
+				},
+				{
+					"power": 4925,
+					"attributes": {
+						"2": 275,
+						"4": 1015,
+						"5": 160
+					},
+					"skill": {
+						"id": "s1s0",
+						"level": 8,
+						"description": "At the end of the Armed Echelon's action, selects the enemy target with the highest HP on <c2>Peripheral Battlefield 1</c> or the Core Battlefield. Deals AoE Physical damage to it and all enemy units <c2>within 3 tiles</c> equal to <c2>925+90%</c> of Tactical value. Expends all energy. For <c2>each point</c> of energy expended, damage dealt is increased by <c2>5%</c>, to a maximum increase of <c2>25%</c>. Before attacking a target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{bro}</c> to it for <c2>2 rounds</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>925+90%</c> of Tactical value."
+					}
+				},
+				{
+					"power": 6075,
+					"attributes": {
+						"2": 325,
+						"4": 1045,
+						"5": 190
+					},
+					"skill": {
+						"id": "s1s1",
+						"level": 9,
+						"description": "At the end of the Armed Echelon's action, selects the enemy target with the highest HP on <c2>Peripheral Battlefield 1</c> or the Core Battlefield. Deals AoE Physical damage to it and all enemy units <c2>within 3 tiles</c> equal to <c2>950+105%</c> of Tactical value. Expends all energy. For <c2>each point</c> of energy expended, damage dealt is increased by <c2>5%</c>, to a maximum increase of <c2>25%</c>. Before attacking a target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{bro}</c> to it for <c2>2 rounds</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>950+105%</c> of Tactical value."
+					}
+				},
+				{
+					"power": 7500,
+					"attributes": {
+						"2": 370,
+						"4": 1080,
+						"5": 250
+					},
+					"skill": {
+						"id": "s1s2",
+						"level": 10,
+						"description": "At the end of the Armed Echelon's action, selects the enemy target with the highest HP on <c2>Peripheral Battlefield 1</c> or the Core Battlefield. Deals AoE Physical damage to it and all enemy units <c2>within 3 tiles</c> equal to <c2>1000+125%</c> of Tactical value. Expends all energy. For <c2>each point</c> of energy expended, damage dealt is increased by <c2>5%</c>, to a maximum increase of <c2>25%</c>. Before attacking enemy targets on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{bro}</c> to them for <c2>2 rounds</c>. \nDamage dealt to Paradeus humanoid units is increased by <c2>100%</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. When all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1000+125%</c> of Tactical value. \nDamage dealt to Paradeus humanoid units is increased by <c2>100%</c>."
+					}
+				}
+			]
+		},
+		"u5": {
+			"id": "u5",
+			"name": "Interrupter",
+			"teamType": "Electronic Warfare Radar",
+			"description": "A trio of infamous pranksters within the Doll community. Their members are the leader Flit, the spotter Pico and the operator Noise.",
+			"icon": "images/hoc/Item_Icon_Support_ECM01.webp",
+			"tags": [
+				1,
+				4,
+				11
+			],
+			"mainAttributes": [
+				6,
+				5
+			],
+			"attributeRatings": {
+				"1": 1,
+				"5": 2,
+				"6": 7
+			},
+			"energy": {
+				"cost": 2,
+				"max": 2,
+				"description": "At the start of the turn, gains <color=#f26c1c>1 point</color> of energy."
+			},
+			"ammo": [
+				{
+					"name": "Basic Fuel Cell",
+					"description": "No Additional Effect",
+					"icon": "images/hoc/Support_Ammo_BTY_02_1.webp"
+				},
+				{
+					"name": "Standard Fuel Cell",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>1.5x</color>.",
+					"tier": 1,
+					"damageBonus": 500,
+					"icon": "images/hoc/Support_Ammo_BTY_02_2.webp"
+				},
+				{
+					"name": "Elite Fuel Cell",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>3.5x</color>.",
+					"tier": 2,
+					"damageBonus": 2500,
+					"icon": "images/hoc/Support_Ammo_BTY_02_3.webp"
+				}
+			],
+			"skill": {
+				"id": "s1s3",
+				"name": "Meltdown Protocol",
+				"type": 14,
+				"damage": [
+					1
+				],
+				"tags": [],
+				"range": "Map",
+				"shape": "5",
+				"selects": [
+					1,
+					2
+				],
+				"affects": [
+					2,
+					3
+				],
+				"mode": 2,
+				"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{brp}</c> to it and all enemy units <c2>within 5 tiles</c> for <c2>2 rounds</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+				"icon": "images/hoc/skills/Skill_ECM01_Active.webp"
+			},
+			"levels": [
+				{
+					"power": 1875,
+					"attributes": {}
+				},
+				{
+					"power": 1955,
+					"attributes": {
+						"6": 200
+					},
+					"skill": {
+						"id": "s1s4",
+						"level": 2,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{brq}</c> to it and all enemy units <c2>within 5 tiles</c> for <c2>2 rounds</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "The effect of <c1>{brq}</c> is improved: Damage multiplier is increased to <c2>1020+30%</c> of Output value."
+					}
+				},
+				{
+					"power": 2120,
+					"attributes": {
+						"5": 65,
+						"6": 460
+					},
+					"skill": {
+						"id": "s1s5",
+						"level": 3,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{brr}</c> to it and all enemy units <c2>within 5 tiles</c> for <c2>2 rounds</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "<c1>{brr}</c> gains a new effect: Damage multiplier is increased to <c2>1060+30%</c> of Output value. If this unit is on the Core Battlefield, its mobility is reduced by <c2>3 tiles</c>. This effect can only trigger <c2>1 time</c> per battle. If this unit is on the Peripheral Battlefield, its attack is decreased by <c2>90%</c>."
+					}
+				},
+				{
+					"power": 2380,
+					"attributes": {
+						"5": 70,
+						"6": 630
+					},
+					"skill": {
+						"id": "s1s6",
+						"level": 4,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{brs}</c> to it and all enemy units <c2>within 5 tiles</c> for <c2>2 rounds</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "The effect of <c1>{brs}</c> is improved: Damage multiplier is increased to <c2>1120+32%</c> of Output value."
+					}
+				},
+				{
+					"power": 2795,
+					"attributes": {
+						"1": 35,
+						"5": 80,
+						"6": 860
+					},
+					"skill": {
+						"id": "s1s7",
+						"level": 5,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{brt}</c> to it and all enemy units <c2>within 5 tiles</c> for <c2>2 rounds</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "The effect of <c1>{brt}</c> is improved: Damage multiplier is increased to <c2>1220+34%</c> of Output value."
+					}
+				},
+				{
+					"power": 3300,
+					"attributes": {
+						"1": 45,
+						"5": 80,
+						"6": 1100
+					},
+					"skill": {
+						"id": "s1s8",
+						"level": 6,
+						"shape": "7",
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{bru}</c> to it and all enemy units <c2>within 7 tiles</c> for <c2>2 rounds</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "AoE expands to <c2>7 tiles</c>. \nThe effect of <c1>{bru}</c> is improved: Damage multiplier is increased to <c2>1320+36%</c> of Output value."
+					}
+				},
+				{
+					"power": 4015,
+					"attributes": {
+						"1": 55,
+						"5": 100,
+						"6": 1180
+					},
+					"skill": {
+						"id": "s1s9",
+						"level": 7,
+						"shape": "7",
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{brv}</c> to it and all enemy units <c2>within 7 tiles</c> for <c2>2 rounds</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "The effect of <c1>{brv}</c> is improved: Damage multiplier is increased to <c2>1460+38%</c> of Output value."
+					}
+				},
+				{
+					"power": 4925,
+					"attributes": {
+						"1": 70,
+						"5": 115,
+						"6": 1265
+					},
+					"skill": {
+						"id": "s1sa",
+						"level": 8,
+						"shape": "7",
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{brw}</c> to it and all enemy units <c2>within 7 tiles</c> for <c2>2 rounds</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "The effect of <c1>{brw}</c> is improved: Damage multiplier is increased to <c2>1620+40%</c> of Output value."
+					}
+				},
+				{
+					"power": 6075,
+					"attributes": {
+						"1": 80,
+						"5": 130,
+						"6": 1350
+					},
+					"skill": {
+						"id": "s1sb",
+						"level": 9,
+						"shape": "7",
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{brx}</c> to it and all enemy units <c2>within 7 tiles</c> for <c2>2 rounds</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "The effect of <c1>{brx}</c> is improved: Damage multiplier is increased to <c2>1800+42%</c> of Output value."
+					}
+				},
+				{
+					"power": 7500,
+					"attributes": {
+						"1": 105,
+						"5": 155,
+						"6": 1440
+					},
+					"skill": {
+						"id": "s1sc",
+						"level": 10,
+						"shape": "7",
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, applies <c1>{bry}</c> for <c2>2 rounds</c> to it and all enemy targets <c2>within 7 tiles</c>. \nDamage dealt to PMC mechanical units is increased by <c2>100%</c>. \nDamage dealt to enemy units on the Core Battlefield is increased. When all enemy units on the Peripheral Battlefield are dead, damage dealt is increased.",
+						"upgradeDescription": "The effect of <c1>{bry}</c> is improved: Damage multiplier is increased to <c2>2000+45%</c> of Output value. \nDamage dealt to PMC mechanical units is increased by <c2>100%</c>."
+					}
+				}
+			]
+		},
+		"u6": {
+			"id": "u6",
+			"name": "Diner-Mo",
+			"teamType": "Tactical Arms",
+			"description": "An experimental tactical weapon developed to compensate for the Elmo's lack of fire support platforms. Soppo provided the parts, Lewis provided the design and Mayling built it herself, producing this unique Elmo-only Dinergate.",
+			"icon": "images/hoc/Item_Icon_Support_MOMO.webp",
+			"tags": [
+				1,
+				2
+			],
+			"mainAttributes": [
+				5,
+				2
+			],
+			"attributeRatings": {
+				"4": 1,
+				"5": 5
+			},
+			"energy": {
+				"cost": 2,
+				"max": 2,
+				"description": "At the end of the turn, gains <color=#f26c1c>1 point</color> of energy."
+			},
+			"ammo": [
+				{
+					"name": "Basic Lightweight Battery Pack",
+					"description": "No Additional Effect",
+					"icon": "images/hoc/Support_Ammo_BTY_01_1.webp"
+				},
+				{
+					"name": "Standard Lightweight Battery Pack",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>1.5x</color>.",
+					"tier": 1,
+					"damageBonus": 500,
+					"icon": "images/hoc/Support_Ammo_BTY_01_2.webp"
+				},
+				{
+					"name": "Elite Lightweight Battery Pack",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>3.5x</color>.",
+					"tier": 2,
+					"damageBonus": 2500,
+					"icon": "images/hoc/Support_Ammo_BTY_01_3.webp"
+				}
+			],
+			"skill": {
+				"id": "s1sd",
+				"name": "Targeted Reformation",
+				"type": 14,
+				"damage": [
+					1
+				],
+				"tags": [],
+				"range": "Map",
+				"shape": "2",
+				"selects": [
+					1,
+					2
+				],
+				"affects": [
+					2,
+					3
+				],
+				"mode": 2,
+				"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 2 tiles</c> equal to <c2>1000+100%</c> of Coverage value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+				"icon": "images/hoc/skills/Skill_MOMO_Active.webp"
+			},
+			"levels": [
+				{
+					"power": 1875,
+					"attributes": {}
+				},
+				{
+					"power": 1955,
+					"attributes": {
+						"5": 200
+					},
+					"skill": {
+						"id": "s1se",
+						"level": 2,
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 2 tiles</c> equal to <c2>1100+110%</c> of Coverage value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1100+110%</c> of Coverage value."
+					}
+				},
+				{
+					"power": 2120,
+					"attributes": {
+						"2": 75,
+						"5": 450
+					},
+					"skill": {
+						"id": "s1sf",
+						"level": 3,
+						"shape": "3",
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all enemy targets <c2>within 3 tiles</c> equal to <c2>1200+120%</c> of Coverage value.\nDamage dealt to enemy units on the Core Battlefield is increased. After all enemy units on the Peripheral Battlefield are dead, this unit's damage dealt is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1200+120%</c> of Coverage value. Effective area is increased to <c2>3 tiles</c>."
+					}
+				},
+				{
+					"power": 2380,
+					"attributes": {
+						"2": 100,
+						"5": 600
+					},
+					"skill": {
+						"id": "s1sg",
+						"level": 4,
+						"shape": "3",
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 3 tiles</c> of it equal to <c2>1300+130%</c> of Coverage value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1300+130%</c> of Coverage value."
+					}
+				},
+				{
+					"power": 2795,
+					"attributes": {
+						"2": 175,
+						"5": 800
+					},
+					"skill": {
+						"id": "s1sh",
+						"level": 5,
+						"shape": "3",
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 3 tiles</c> of it equal to <c2>1400+140%</c> of Coverage value.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1400+140%</c> of Coverage value."
+					}
+				},
+				{
+					"power": 3300,
+					"attributes": {
+						"2": 225,
+						"5": 1000
+					},
+					"skill": {
+						"id": "s1si",
+						"level": 6,
+						"shape": "3",
+						"description": "Selects an enemy target on <c2>Peripheral Battlefield 1</c> or the Core Battlefield, deals AoE Physical damage to it and all targets <c2>within 3 tiles</c> of it equal to <c2>1500+150%</c> of Coverage value. After attacking, the damage multiplier for the next use of this skill is increased by <c2>50%</c>, to a maximum of <c2>100%</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1500+150%</c> of Coverage value. After attacking, the damage multiplier for the next use of this skill is increased by <c2>50%</c>, to a maximum of <c2>100%</c>."
+					}
+				}
+			]
+		},
+		"u7": {
+			"id": "u7",
+			"name": "Support Scholar",
+			"teamType": "Tactical Arms",
+			"description": "Jointly developed by Balthilde and Phaetusa to make up for the Elmo's lack of long-range firepower. The Support Scholar uses the Fertilization Scholar's chassis as a base and incorporates SF technology from Sweeper.",
+			"icon": "images/hoc/Item_Icon_Support_SupportScholar.webp",
+			"tags": [
+				8,
+				2
+			],
+			"mainAttributes": [
+				2,
+				3
+			],
+			"attributeRatings": {
+				"2": 5,
+				"3": 1
+			},
+			"energy": {},
+			"ammo": [
+				{
+					"name": "Basic Lightweight Battery Pack",
+					"description": "No Additional Effect",
+					"icon": "images/hoc/Support_Ammo_BTY_01_1.webp"
+				},
+				{
+					"name": "Standard Lightweight Battery Pack",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>1.5x</color>.",
+					"tier": 1,
+					"damageBonus": 500,
+					"icon": "images/hoc/Support_Ammo_BTY_01_2.webp"
+				},
+				{
+					"name": "Elite Lightweight Battery Pack",
+					"description": "<color=#f26c1c>Damage</color> is increased to <color=#f26c1c>3.5x</color>.",
+					"tier": 2,
+					"damageBonus": 2500,
+					"icon": "images/hoc/Support_Ammo_BTY_01_3.webp"
+				}
+			],
+			"skill": {
+				"id": "s1sj",
+				"name": "Terminal Settlement",
+				"type": 14,
+				"damage": [
+					1
+				],
+				"tags": [],
+				"range": "Map",
+				"shape": "2",
+				"selects": [
+					1
+				],
+				"affects": [
+					2
+				],
+				"mode": 5,
+				"description": "At the end of the Armed Echelon's action, selects the enemy target on the <c2>Peripheral Battlefield 1</c> or Core Battlefield with the lowest HP. Deals AoE Physical damage to the target and all enemy targets <c2>within 2 tiles</c> equal to <c2>1000+120%</c> of Endurance value, prioritizing targets on the <c2>Peripheral Battlefield</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+				"icon": "images/hoc/skills/Skill_SupportScholar_Passive.webp"
+			},
+			"levels": [
+				{
+					"power": 1875,
+					"attributes": {}
+				},
+				{
+					"power": 1955,
+					"attributes": {
+						"2": 200
+					},
+					"skill": {
+						"id": "s1sk",
+						"level": 2,
+						"description": "At the end of the Armed Echelon's action, selects the enemy target on the <c2>Peripheral Battlefield 1</c> or Core Battlefield with the lowest HP. Deals AoE Physical damage to the target and all enemy targets <c2>within 2 tiles</c> equal to <c2>1100+135%</c> of Endurance value, prioritizing targets on the <c2>Peripheral Battlefield</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1100+135%</c> of Endurance value."
+					}
+				},
+				{
+					"power": 2120,
+					"attributes": {
+						"2": 460,
+						"3": 65
+					},
+					"skill": {
+						"id": "s1sl",
+						"level": 3,
+						"shape": "3",
+						"description": "At the end of the Armed Echelon's action, selects the enemy target on the <c2>Peripheral Battlefield 1</c> or Core Battlefield with the lowest HP. Deals AoE Physical damage to the target and all enemy targets <c2>within 3 tiles</c> equal to <c2>1200+150%</c> of Endurance value, prioritizing targets on the <c2>Peripheral Battlefield</c>. In addition, applies <c2>1</c> random buff to a random allied unit.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1200+150%</c> of Endurance value and applies <c2>1</c> random buff to any allied unit. Effective area increases to <c2>3 tiles</c>."
+					}
+				},
+				{
+					"power": 2380,
+					"attributes": {
+						"2": 630,
+						"3": 70
+					},
+					"skill": {
+						"id": "s1sm",
+						"level": 4,
+						"shape": "3",
+						"description": "At the end of the Armed Echelon's action, selects the enemy target on the <c2>Peripheral Battlefield 1</c> or Core Battlefield with the lowest HP. Deals AoE Physical damage to the target and all enemy targets <c2>within 3 tiles</c> equal to <c2>1300+165%</c> of Endurance value, prioritizing targets on the <c2>Peripheral Battlefield</c>. In addition, applies <c2>1</c> random buff to a random allied unit.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1300+165%</c> of Endurance value."
+					}
+				},
+				{
+					"power": 2795,
+					"attributes": {
+						"2": 860,
+						"3": 115
+					},
+					"skill": {
+						"id": "s1sn",
+						"level": 5,
+						"type": 5,
+						"shape": "3",
+						"description": "At the end of the Armed Echelon's action, selects the enemy target on the <c2>Peripheral Battlefield 1</c> or Core Battlefield with the lowest HP. Deals AoE Physical damage to the target and all enemy targets <c2>within 3 tiles</c> equal to <c2>1400+180%</c> of Endurance value, prioritizing targets on the <c2>Peripheral Battlefield</c>. In addition, applies <c2>1</c> random buff to a random allied unit.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1400+180%</c> of Endurance value."
+					}
+				},
+				{
+					"power": 3300,
+					"attributes": {
+						"2": 1100,
+						"3": 125
+					},
+					"skill": {
+						"id": "s1so",
+						"level": 6,
+						"shape": "3",
+						"description": "At the end of the Armed Echelon's action, selects the enemy target on the <c2>Peripheral Battlefield 1</c> or Core Battlefield with the lowest HP. Deals AoE Physical damage to the target and all enemy targets <c2>within 3 tiles</c> equal to <c2>1500+200%</c> of Endurance value, prioritizing targets on the <c2>Peripheral Battlefield</c>. In addition, applies <c2>1</c> random buff to a random allied unit. After applying <c2>1</c> buff, damage multiplier is increased by <c2>50%</c>.\nDamage dealt to enemy units on the Core Battlefield is increased. Once all enemy units on the Peripheral Battlefield are dead, damage dealt by this unit is increased.",
+						"upgradeDescription": "Damage multiplier is increased to <c2>1500+200%</c> of Endurance value. After applying <c2>1</c> buff, damage multiplier is increased by <c2>50%</c>."
+					}
+				}
+			]
+		}
+	}
+}

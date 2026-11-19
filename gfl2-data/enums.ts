@@ -12,7 +12,10 @@ export enum IdKey {
 	Summons = "m",
 	RemoldingStats = "r",
 	Skills = "s",
+	HocUnits = "u",
 	Weapons = "w",
+	ApexComponents = "x",
+	BaseComponents = "y",
 }
 
 export const IdKeyMap = {
@@ -28,6 +31,9 @@ export const IdKeyMap = {
 	"r": "remoldingStats",
 	"s": "skills",
 	"g": "seasons",
+	"u": "hocUnits",
+	"x": "apexComponents",
+	"y": "baseComponents",
 } as const;
 
 export type IdMap = Record<(typeof IdKeyMap)[keyof typeof IdKeyMap], number[]>;
@@ -164,6 +170,7 @@ export enum SkillType {
 	SelfPassive = 11,
 	Move = 12,
 	EndTurn = 13,
+	HOCSkill = 14,
 }
 
 export const SkillTypeLabels = [
@@ -181,6 +188,7 @@ export const SkillTypeLabels = [
 	"Self Passive",
 	"Move",
 	"End Turn",
+	"HOC Skill",
 ] as const;
 
 export enum SkillDamage {
@@ -344,6 +352,54 @@ export const RotationSkillLabels = [
 	"Extra skill",
 	"End turn",
 	"Dance",
+] as const;
+
+export enum HocAttribute {
+	Response = 1,
+	Endurance = 2,
+	Precision = 3,
+	Tactical = 4,
+	Coverage = 5,
+	Power = 6,
+}
+
+export const HocAttributeLabels = [
+	"",
+	"Response",
+	"Endurance",
+	"Precision",
+	"Tactical",
+	"Coverage",
+	"Power",
+] as const;
+
+export enum HocTag {
+	Active = 1,
+	AoEDamage = 2,
+	ExtraAction = 3,
+	WideArea = 4,
+	Enhancement = 5,
+	SingleTargetDamage = 6,
+	BurstDamage = 7,
+	Passive = 8,
+	Debuff = 9,
+	Buff = 10,
+	SustainedDamage = 11,
+}
+
+export const HocTagLabels = [
+	"",
+	"Active",
+	"AoE Damage",
+	"Extra Action",
+	"Wide Area",
+	"Enhancement",
+	"Single Target Damage",
+	"Burst Damage",
+	"Passive",
+	"Debuff",
+	"Buff",
+	"Sustained Damage",
 ] as const;
 
 /** Expands a description's `<cN>…</c>` tags back to `<span style="color: …">…</span>` */
